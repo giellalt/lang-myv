@@ -1,0 +1,363 @@
+! -*- encoding: utf-8-unix -*-
+Alphabet
+а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я  
+А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+!!2006-12-05 removed "м:0" type notations from alphabet because 
+!it caused letters to disappear whenever they wanted to
+
+! verbal stem vowels
+!these are used with verbs like:
+! "кадомс", "молемс" and  "пезэмс"
+У1:0 !
+И1:0 !
+Ы1:0 !
+
+! Nominal stem vowels that alternate 
+! work with "+VLoss" and "+NoVLoss" tags
+!
+У2:
+И2: 
+
+!!!!!!
+!!кедИ3
+!!покшУ3
+!!пикшЫ3
+У3:0 !
+И3:0 !
+Ы3:0 !
+
+!Suffix final variant vowel for hard vs soft
+У4:0 !
+
+! verbal stem consonant that appear in PretI 3sg
+Т1:0 !
+
+! derivational suffix protovowel with "o" and "a" 
+!realisation  in deverbal noun ending
+А1:а !
+
+! conjugational suffix protovowels 
+!showing "a" vs "я" and "ы" vs "и" alternation
+А2:а !А2
+Ы2:ы !
+
+! derivational suffix protovowel  "mo" and "me"
+О1:о !
+
+! clitic proto consonant
+Г1:0 !
+
+
+
+! Prolative Ga
+Г2: !
+
+
+! Imperative clitic proto consonant
+!Г4:г !
+!Г4:к !
+!Г4:0 !
+!Replace these with "G1" but apply stem final "K4" to
+!
+
+
+
+
+! imperative suffix
+К1:к !
+
+!
+
+! connegative suffix rendering vowel
+К3:0 !
+
+! Stem final on Imperative Verbs
+!К4:0 !
+
+
+! Some verbs need a marker for vowel placement
+!Used before Conjuntive ending
+V1: !
+! I2 and U2 adjectives and nouns need this with their "t" and "s"
+!V2:0 
+
+VLoss:0
+NoVLoss:0
+
+%- !Hyphen with constructions like "-buti"
+%^:0
+
+;
+
+
+Sets
+vows = а о у ы э я ё ю и е ;
+verbStemVows = а о э я ё е У1 И1 Ы1 ;
+verbStemVowStrong = а о э я ё е ;
+verbStemVowWeak = У1 И1 Ы1 ;
+noGlideVow = а о у ы э ;
+glideVow = я ё ю и е ;
+subseqBack = а о у я ё ю ;
+subseqFront = ы и е э ;
+
+Cons = б в г д ж з й к л м н п р с т ф х ц ч ш щ ;
+ConsBack = б в г д ж з к л м н п р с т ф х ц ч ш щ ;
+ConsVoiced = б в г д ж з й л м н р ;
+ConsVoicedDent = д з л н р ;
+ConsVoicedNonDent = б в г ж й м ;
+ConsVoiceless = к п с т ф х ц ч ш щ ;
+ConsVoicelessDent = с т ц ;
+ConsVoicelessNonDent = к п ф х ч ш щ ;
+ConsNonDent = б в г ж к м п ф х ч ш щ ;
+ConsDent = д з л н р с т ц  ;
+ConsDentNoL = д з н р с т ц  ;
+
+Letters = vows Cons ь ъ ;
+
+Definitions
+SubseqBackHarm =  [А2:а|а|А1:а|А1:о| О1:о| о |а:я|У2:о|V1:о| у| А2:я|я| ё| ю] ;
+Back = .#. :* [SubseqBackHarm \[:subseqFront|:й|:ь|Ы3:|И3:|И2: ]* ( л ь ) [ConsBack]]  ;
+![SubseqBackHarm [:ConsBack|:ConsBack :ConsBack|:ConsBack :ConsBack :ConsBack |:ConsBack :ConsBack :ConsBack :ConsBack |:ConsBack :ConsBack :ConsBack :ConsBack :ConsBack |:ConsBack :ConsBack :ConsBack :ConsBack :ConsBack :ConsBack |:ConsBack :ConsBack :ConsBack :ConsBack :ConsBack :ConsBack :ConsBack ]|SubseqBackHarm л ь [ConsBack]]  ;
+
+FrontHard = .#. :* [[subseqFront|:й|ConsDentNoL :ь ] \[SubseqBackHarm|У3:|У2:|А1:]+|л ь Cons+|subseqFront л ь] ConsDent ;
+!FrontHard = .#. :* [[subseqFront|й|ConsDentNoL ь ] ~SubseqBackHarm+|л ь Cons+|subseqFront л ь] ConsDent ;
+
+FrontSoft = .#. :* [[subseqFront|й] \[SubseqBackHarm|У3:|У2:|А1:]+| ConsDentNoL ь ConsNonDent|subseqFront л ь ConsNonDent|й:] ;
+!FrontSoft = .#. :* [[[subseqFront|й] [Cons |Cons Cons |Cons Cons Cons |Cons Cons Cons Cons |Cons Cons Cons Cons Cons |Cons Cons Cons Cons Cons Cons |Cons Cons Cons Cons Cons Cons Cons ]| [ConsDentNoL ь ConsNonDent|subseqFront л ь ConsNonDent] ~SubseqBackHarm+|й:]] ;
+
+Front = [FrontHard | FrontSoft |.#. :*  [:subseqFront|:ь|:й И3:0 |:й И2:0]] ;
+!Front = [FrontHard | FrontSoft |[:subseqFront|:ь] [:* - SubseqBackHarm*] ] ;
+
+Front1 = .#. :* [[:subseqFront|И1:| Ы1:|й|:ь] [:* - SubseqBackHarm*] ] ;
+
+
+Poss = (V1:) [м | н [У4:|ь:] | т [У4:|ь:]  | (н) з О1: | н О1: к | н к |с т [ %^:0 Г1:| #:]] ;
+
+
+Rules
+
+!Changes in the stem vowels before "10", "20", "30" and "60"
+"verbStemVowStrong:0"
+ X:Y <=> Cons _ (Т1:0) %^:0 [А2: [ н | т ]| Ы2:] ;
+!                                               _ К4:0 %^:0  Ы2: ;
+          where X in (а о э я ё е)
+                Y in (0 0 0 0 0 0) matched ;
+
+
+
+!Consonant Stem Verbs lose stem vowel
+"verbStemVowWeakU1:0"
+  У1:0 <=> ConsBack _ %^:0 [А2: [ н | т ]|т А2: [ д | н ]|К1:|Ы2:| с [(т) ь: |  [ы | а ] ]| V1:о] ;
+
+
+!Consonant Stem Verbs lose stem vowel
+"verbStemVowWeakI1:0"
+  Ы1:0 <=> [ConsDent|vows] _ %^:0 [А2: [ н | т ]|т А2: [ д | н ]|К1:|Ы2:| с [(т) ь: |  [ы | а ] ]| V1:] ;
+
+
+!Consonant Stem Verbs with Palatalized Dental lose stem vowel
+"YI1:0"
+       И1:0 <=> [Cons|vows|й:] _ %^:0 [А2: [ н | т ]| Ы2: | V1:е | м О1: %^:0 к с ];
+      .#. :* [Cons - л]  _ %^:0 [т А2: [ д | н ]| К1:] ;
+      .#. :* [Cons - л|vows]   _ %^:0 с (т) ь: ;
+       [ConsNonDent|й:|vows] _ %^:0 с [ы |а ] ;
+                й:0 _ %^:0 [Ы2:|V1:е] ;
+
+"YI1:y"
+И1:ь <=>  ConsDent  _ %^:0  с [ы | а ] ;
+      .#.   :* л  _ %^:0 [т А2:я [ д | н ]| К1: |с (т) ь:] ;
+
+
+"U1:o, YI1:ye"
+[У1:о| И1:е] <=> [Cons|vows] _ %^:0 К3:0 ;
+
+"I1:e"
+Ы1:э <=> ConsDent _ %^:0 К3:0 ;
+
+!Vowels in Nouns and Adjectives 
+!2006-12-02
+"YI3:y"
+И3:ь <=>  ConsDent  _ [%^:0  [с | c (t) О1:э |:ConsNonDent]| #:] ;
+      .#.   :* л  _ [%^:0 :Cons|#:] ;
+
+
+
+
+!Changes in stem Consonants
+
+"A1:o"
+А1:о <=>  [ а |я ] %^:0  м  _ ;
+
+"Y2:yi"
+Ы2:и <=> [ я:0 (К4:0)| ё:0 | е:0 (Т1:0) | И1:0 |ConsNonDent [noGlideVow:0|У1:0]] :0*  %^:0 _ ;
+
+!2009-10-14 from nounRulesMyv.twol
+!
+"O1:o"
+О1:о <=> [[Back|У3:] %^:0 | [в|в:0] т О1:о| У2:0 %^:0 V1:о в т О1:о ] м  _  [ #: |%^:0 [Г1:0 | Poss |н т ]] ;
+         [[Back|subseqBack| У3:] %^:0|%^:0 V1:о] з _ %^:0  [м | н У4:0 | т У4:0  | н з О1:о | н О1:о к | н к | с т] [ %^:0 [Г1:0|Г1:г|Г1:к] а:| #:] ;
+
+          [.#. [:* Back] - [:* [vows|й]] %^:0 (V1:о)|subseqBack %^:0 | У3:0 %^:0 V1:о (%^:0) | О1:о  %^:0 ]  н _ к ;
+         [[:subseqBack| У3:] %^:0 | У2:0 %^:0 VLoss:0 |%^:0 V1:о] д:  _ [%^:0 [Г1:0|  Poss |н т ]| #: ] ;
+         [[subseqBack| У3:] %^:0 |У2:0 %^:0 V1:о] в: т _ м [О1:0|О1:о] ;
+         [[У3:|SubseqBackHarm] %^:0|V1:о |У2: %^:0 VLoss:0] с (т) _  [ #: |%^:0 [Г1:0 | Poss |т | н| с |Г2: |д: |л ]] ;
+         [[SubseqBackHarm] %^:0|%^:0 V1:о] (н) з _ [ #: |%^:0 [Г1:0|л| т | н| с |Г2: |д: ] ] ;
+         [%^:0 V1:о|:subseqBack (Т1:0) %^:0] м (с т | с | д )  _  [ #: |%^:0 [д: | Г1: | Poss ]] ;
+
+
+"O1:0"
+О1:0 <=>   _  %^:0 А2: ;
+
+
+"O1:ye"
+О1:е <=> Front в: _ л ;
+         [FrontSoft|FrontHard|И3:] %^:0 в: т [ :е| :э] м  _  [ #: |%^:0 [Г1: | Poss | к с ]] ;
+         [:subseqFront] (%^:0) н _ к ;
+!Adding "О1:е" option to environment 19.04.2007
+         [:subseqFront| И3: | О1:е ] %^:0 (м) д:  _ [%^:0 [Г1:| н  |Poss ]| #: ] ;
+         [:subseqFront| И3:] %^:0 в: т _ м О1: ;
+          [V1:е|V1:э|:subseqFront (Т1:0) %^:0] м (д ) _  [ #: |%^:0 [д: | Г1: | Poss ]] ;
+
+
+"O1:e"
+О1:э <=>
+         ConsDent Ы3:0  %^:0 д:  _ [%^:0 [Г1: |  Poss] | #: ] ;
+         [[[И3:|:subseqFront] %^:0 |V1:е |V1:э] (м)|И2: %^:0 VLoss:0] с (т) _  [ #: |%^:0 [Г1: | Poss |т | н| с |Г2: |д: |л ]] ;
+         [[Front| :subseqFront] %^:0|%^:0 [V1:е| V1:э]] з _ %^:0 Poss ;
+         [[:subseqFront| \[А1:|О1:о|SubseqBackHarm]] %^:0|%^:0 [V1:е| V1:э]] (н) з _ [ #: |%^:0 Г1: ] ;
+         ConsDent Ы3:0  %^:0 в:0 т _ м О1: ;
+         [V1:е|V1:э|:subseqFront (Т1:0) %^:0] м с (т ) _  [ #: |%^:0 [д: | Г1: | Poss ]] ;
+
+
+!Changes in the suffix vowels
+"A2:ya"
+А2:я <=>
+         [[subseqFront|й|ь][ConsDent - л]|И2:0|И3:|[ConsDent - л] [И1:0| И2:0|ь:0]|л И1:ь | :subseqFront  | й (И1:0|И2:0)] %^:0 т _  [ д | н ] ;
+ [ConsDent [И2:0|И3:]|ConsDent [И1:0  |ь:0 |я:0 | ё:0 | е:0 ]|я:0 | ё:0 | е:0 ]  %^:0  _ [ т | н ] ;
+         :vows [Ы1:0|(й:) [И1:0|И2:0] |й:]  %^:0  _ [ т | н ] ;
+
+
+"j:0"
+й:0 <=> :vows _ [И1:е |И2:е  |И1:0  %^:0 [Ы2:и|V1:е К3:]|(И1:0|И2:0|И3:0)  %^:0 [А2: |V1: :Cons] ] ;
+
+
+
+"ye:e"
+е:э <=>
+          ConsDent (У3:0|Ы3:0) %^:0  н _ [[ #:|%^:0 Г1:]|н ь: ] ;
+          [Back - [:* vows]| У3:0|ConsDent Ы3:0]  %^:0 т н _ [ #:|%^:0 [Г1:|т| л|Г2: а |в|д|к|н|с|ш]];
+
+
+"a:ya"
+а:я  <=> :vows (Т1:0|Т1:0 %^:0 К3:0|%^:0 К3:0) %^:0 Г1:0 _  ;
+
+
+!Changes in suffix consonants
+"v:0"
+в:0 <=> Cons %^:0 _ т О1: м О1: ;
+
+
+
+"G1:g"
+Г1:г  <=> [ConsVoicedDent (:ь|У4:0|У3:0|И3:0|Ы3:0)|й И3:0 |[ConsVoicedNonDent - г] (:ь|У3:0|И3:0|Ы3:0)] %^:0 _ а ;
+
+
+"G1:k sometimes"
+Г1:к  <=  [ConsVoicelessDent (:ь|И3:0|У3:0|Ы3:0)|[ConsVoicelessNonDent - к ]| г |К4:0] %^:0 _ а  ;
+
+"G1:k always"
+Г1:к  =>  [ConsVoicelessDent (:ь|И3:0|У3:0|Ы3:0)|ConsVoicelessNonDent  | г |К4:0] :0* %^:0 _ а  ;
+
+
+!Prolative
+"G2:g"
+Г2:г  <=> [ConsVoicedDent (:ь|И3:0|У3:0|Ы3:0)|ConsVoicedNonDent - г] %^:0 _ а ;
+
+"G2:v"! 
+Г2:в  <=> :vows (:0) %^:0 _ а [ #: |%^:0 [Г1: | Poss |т | н| с |д: |в: |к с| л ] ];
+
+
+"G2:k"
+Г2:к  <=>  [ ConsVoicelessDent (:ь|И3:0|У3:0|Ы3:0)|ConsVoicelessNonDent (И3:0|У3:0|Ы3:0)| г (И3:0|У3:0)] %^:0 _ а [ #: |%^:0 [Г1: | Poss |т | н| с |д: |в: |к с| л ] ] ;
+
+!!Depricated
+!!"G3:g" !Imperative Clitics
+!!Г4:г  <=> з ь %^:0 _ а ;
+!!
+!!!
+!!"G4:0"
+!!Г4:0  <=>
+!!           К1: %^:0 _ а ;
+!!  [О1:е|О1:о] %^:0 _ а: ;
+!
+!
+!!"G3:k"
+!!Г4:к  <=>  #: [и л я|у ж о|а з ё|а д я|а й д а] %^:0 _ а  ;
+
+
+"m:0" 
+м:0 <=> 
+ subseqBack  _ У2:  %^:0 VLoss: т ;
+        т (ь) _ [У2:|И2:]  %^:0  VLoss: [с (т) О1:|с [#:| %^:0 Г1:]] ;
+
+
+
+! imperative suffix
+"K1:t"
+К1:т <=>  [ И1:0 |И1:ь| У1:0 | Ы1:0 ] %^:0 _  ;
+
+
+
+! Suffix final hard vs soft
+"U4:y"
+У4:ь  <=  [ И1:0 | Ы1:0 | :subseqFront ] %^:0 (V1:) [ :т|н]  _  [#: |%^:0 Г1: ] ;
+
+
+!Ablative d/t
+"d:t"
+д:т  <=> [ ConsVoiceless | д | г] [ь:0|И3:0|Ы3:0|У3:0]  %^:0 _ О1: ;
+
+!Word final Vowels
+
+
+"y:0"
+ь:0 <=>        ConsDent  _  %^:0 V1:е :Cons ;
+              ConsDentNoL _ %^:0 [в: т О1: м О1: | н|д:|т|А2:|с (т) [ь:|е:]] ;
+
+"V1:ye"
+V1:е <=> ConsDent: ь:0 %^:0 _ :Cons ;
+         [FrontSoft Fronthard]  %^:0 _ :Cons;
+       [[Cons|й:|vows]  И1:0|[Cons|й:] И2:0|И3:0] %^:0  _ ;
+
+
+"V1:e"
+V1:э <=> FrontHard %^:0 _ :Cons ;
+         ConsDent [Ы1:0|Ы3:0] %^:0  _ ;
+
+
+"V1:o"
+V1:о <=> .#. [:* Back] - [:* [vows|й]] %^:0 _ :Cons ;
+         Cons [У1:0|У2:0|У3:0] %^:0  _ ;
+
+
+
+"U2:0"
+У2:0 <=>  _ %^:0 VLoss:0 [т У4: |т н е: |с (т) О1:| с [ %^:0 |  #: ] ] ;
+         _ %^:0 V1: ;
+
+"U2:o"
+У2:о  <=>  _ [%^:0 NoVLoss:0 [т У4:|т н е: |с ь:|с (т) О1:| с [ %^:0 |  #: ]| л  ]| [(н) з О1:|ш к а|к с | н|в|Г2:|д | с т [ %^:0 |  #: ] | Г1:]|  #:] ;
+
+
+"YI2:0"
+И2:0 <=> _ %^:0 VLoss:0 [т У4: |т н е:] ;
+         ConsNonDent: _ %^:0 VLoss:0 [с (т) О1:| с [ %^:0 |  #: ] ] ;
+         _ %^:0 V1:е ;
+
+"YI2:y"
+И2:ь  <=>  ConsDent _ %^:0 VLoss:0 [с (т) О1:| с [ %^:0 |  #: ] ] ;
+
+
+"YI2:ye"
+И2:е  <=>   _ [%^:0 NoVLoss:0 [т У4:|т н е|с ь:|с (т) О1: |с (т) ь:| с [ %^:0 |  #: ] | л ]| [(н) з О1:|ш к а|к с | н|в|д | с т [ %^:0 |  #: ] | Г1:]|  #:] ;
+
