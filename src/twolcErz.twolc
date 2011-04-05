@@ -170,7 +170,7 @@ FrontSoft = [ [ :subseqFront | й ] \[ :subseqBack | У3 :| У2: ]+ | ConsDentNo
 Front = [ FrontHard | FrontSoft | [ :subseqFront | FrontSoftStem | :ь | :й И3:0 | :й И2:0 ]] ;
 
 !2011-03-08
-FollowsO1 = [ м | н [ У4:0 | У4:ь | ь: ] | т [ У4:0 | У4:ь | ь: ]  | (н) з [ О1:0 | О1:о | О1:э ] | н [ О1:о | О1:е ] к | н к | с т [ %^:0 | .#. ] | с ь: | н т [ ь: | е ] | к с | ш к а: | с (т) О1: | с [ %^:0 | .#. ] | в О1: л | в | л | К3: | н с т | з %^:0 [ О1:о | О1:э ]  ] ;
+FollowsO1 = [ м | н [ У4:0 | У4:ь | ь: ] | т [ У4:0 | У4:ь | ь: ]  | (н) з [ О1:0 | О1:о | О1:э ] | н [ О1:о | О1:е ] к | н к | с т [ %^:0 | .#. ] | с ь: | н т [ ь: | е ] | к с | ш к а: | с (т) О1: | с [ %^:0 | .#. ] | в О1: л | в | л | К3: | н с т | з %^:0 [ О1:о | О1:э ] ] ;
 
 !
 Poss =  [ м | н [ У4:0 | У4:ь | ь: ] | т [ У4:0 | У4:ь | ь: ]  | (н) з [ О1:0 | О1:о | О1:э ] | н [ О1:о | О1:е ] к | н к | с т [ %^:0 [ Г1:0 | Г1:к ] а: | О1: л | (т) А2:а | .#. ] ] ;
@@ -184,7 +184,7 @@ Rules
 
 !Changes in the stem vowels before "10", "20", "30" and "60"
 "VowelDeletionBeforePredVowels"
-[ а:0 | я:0 | о:0 | ё:0 | э:0 | е:0 | ы:0 | и:0 | у:0 | ю:0 ] <=> Cons _  %^:0 [ А2:я | А2:а [ н | т ] | Ы2: ] ;
+[ а:0 | я:0 | о:0 | ё:0 | э:0 | е:0 | ы:0 | и:0 | у:0 | ю:0 ] <=> [ Cons | vows ] _  %^:0 [ А2:я | А2:а [ н | т ] | Ы2: ] ;
 
 
 !!Consonant Stem Verbs lose stem vowel
@@ -214,8 +214,8 @@ Rules
 !"U1:o, YI1:ye"
 ![ У1:о | И1:е ] <=> [ Cons | vows ] _ %^:0 К3:0 ;
 
-"I1:e"
-Ы1:э <=> ConsDent _ %^:0 К3:0 ;
+!"I1:e"
+!Ы1:э <=> ConsDent _ %^:0 К3:0 ;
 !
 
 
@@ -242,7 +242,7 @@ Rules
 А1:о <=>  [ а | я ] %^:0 О1:0  м  _ ;
 
 "Y2:yi"
-Ы2:и <=> [ я:0 | ё:0 | е:0 | ь:0 | FrontSoftStem | ConsNonDent [ noGlideVow:0 | И1:0 | У1:0 ] ]  %^:0 _ ;
+Ы2:и <=> [ я:0 | ё:0 | е:0 | ь:0 | FrontSoftStem | ConsNonDent [ noGlideVow:0 |  У1:0 ] | И1:0  ]  %^:0 _ ;
 
 
 "O1:ye"
@@ -259,7 +259,8 @@ Rules
 ! Suffix-initial mid vowel
          И1:0 %^:0 _ [ з | м | в | н | л | с | К3: | к ] ;
 !Verb1
-
+        [ И1:0 | Ы1:0 | е (Т:) | э ] %^:0 О1: м  _ [ .#. | %^:0 [ Г1:0 | О1: ] ] ;
+!Inf-loc
 
 
 "O1:0"
@@ -280,12 +281,15 @@ Rules
 !!This will require something for secondary declension of the translative
          У1:0 %^:0 _ [ з | м | в | н | л | с | К3: | к ] ;
 !Verb1
+        [ У1:0 | о (Т:) | а | я | ю | ё ] %^:0 О1: м  _ [ .#. | %^:0 [ Г1:0 | О1: ] ] ;
+!Inf-loc
 
          [ У3:0 | :о | а | я | у | ю ] %^:0  д:  _ [ %^:0 [ Г1:0 |  Poss | н т | л ] | .#. ] ;
 !Ablative
 !!This will require something for secondary declension of the translative
 [ Back ConsBack | BackStem ] %^:0  _ [ ( %^:0 О1: ) FollowsO1 | .#. ] ;
-      [ BackStem | [ %^:0 О1:о | BackStem %^:0 ] з ] %^:0  _  [ FollowsO1 ] ;
+       BackStem  %^:0  _  [ FollowsO1 ] ;
+      [ %^:0 О1:о | [ BackStem | :subseqBack ] %^:0 О1:0 ] (н) з ( %^:0 )  _  [ FollowsO1 | .#. | %^:0 \[ А2: | Ы2:  ] ] ;
 ! Suffix-initial mid vowel
 ! Possive suffix, Possessive-Illative
 !!This will require something for secondary declension of the translative
@@ -365,7 +369,7 @@ Rules
 
 
 "a:ya"
-а:я  <=> :vows  %^:0 Г1:0 _  ;
+а:я  <=> :vows (К3:0)  %^:0 Г1:0 _  ;
 
 
 !Changes in suffix consonants
@@ -377,10 +381,10 @@ Rules
 !!Solved in several contexts by declaring both lexical
 !!and surface forms in the alphabet.
 "G1:0 sometimes"
-Г1:0 <= :vows  %^:0 _ а:я ;
+Г1:0 <= :vows (К3:0)  %^:0 _ а:я ;
 
 "G1:0 always"
-Г1:0 => [ :vows | :к :0* ]  %^:0 _ а: ;
+Г1:0 => [ :vows (К3:0) | :к :0* ]  %^:0 _ а: ;
 
 "G1:g"
 Г1:г  <=> [ ConsVoicedDent ( :ь | У4:0 | У3:0 | И3:0 | Ы3:0) | й И3:0 | [ ConsVoicedNonDent - г ] ( :ь | У3:0 | И3:0 | Ы3:0) ] %^:0 _ а ;
