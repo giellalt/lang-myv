@@ -194,7 +194,7 @@ Rules
 
 !!Consonant Stem Verbs lose stem vowel
 "verbStemVowWeakI1:0"
-  Ы1:0 <=> [ ConsDent | vows ] _ %^:0 [ А2: [ н | т ] | т А2: [ д | н ] | К1: | Ы2: | с [ (т) ь: |  [ ы | а ] ] | О1:э ] ;
+  Ы1:0 => [ ConsDent | vows ] _ %^:0 [ А2: [ н | т ] | т А2: [ д | н ] | К1: | Ы2: | с [ (т) ь: |  [ ы | а ] ] | О1:э ] ;
 
 
 !!Consonant Stem Verbs with Palatalized Dental lose stem vowel
@@ -441,7 +441,7 @@ Rules
 !Adding "И2:0" 18.04.2007
 "U4:y"
 У4:ь  <=>  
-[ [ %^:0 [ О1:е | О1:э ] |  :subseqFront ] %^:0  [ т | н ] | FrontSoftStem  %^:0 т | [ :ь | И3:0 | ь:0 | :subseqFront ] %^:0 т | [ И1:ь | И1:0 | :subseqFront ] %^:0 :т | И2:е %^:0 т ]  _  [ .#. | %^:0 [ Г1:г | Г1:к ] ] ;
+[ [ %^:0 [ О1:е | О1:э ] |  :subseqFront ] %^:0 ( О1: )  [ т | н ] | FrontSoftStem  %^:0 [( О1: ) т | О1: н ] | [ :ь | И3:0 | ь:0 | :subseqFront ] %^:0 т | [ И1:ь | И1:0 | :subseqFront ] %^:0 :т | И2:е %^:0 т ]  _  [ .#. | %^:0 [ Г1:г | Г1:к ] ] ;
 
 
 !Ablative d/t
