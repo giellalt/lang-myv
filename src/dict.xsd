@@ -19,7 +19,7 @@
 -->
             <xs:element ref="pos"/>
             <xs:element minOccurs="0" ref="phonet"/>
-            <xs:element maxOccurs="unbounded" minOccurs="1" ref="e"/>
+            <xs:element maxOccurs="unbounded" ref="e"/>
          </xs:sequence>
          <xs:attribute name="exclude">
             <xs:simpleType>
@@ -341,8 +341,9 @@
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="x"/>
-            <xs:choice maxOccurs="unbounded" minOccurs="0">
-               <xs:element maxOccurs="unbounded" ref="xt"/>
+            <xs:choice maxOccurs="unbounded">
+               <xs:element ref="xt"/>
+               <xs:element ref="xtCtn"/>
             </xs:choice>
             <xs:element maxOccurs="unbounded" minOccurs="0" ref="answer"/>
          </xs:sequence>
@@ -389,27 +390,6 @@
          </xs:attribute>
       </xs:complexType>
    </xs:element>
-   <xs:element name="wfg">
-      <xs:complexType mixed="true">
-         <xs:sequence>
-            <xs:element ref="wf"/>
-            <xs:element ref="l"/>
-            <xs:element ref="st"/>
-            <xs:element maxOccurs="unbounded" minOccurs="0" ref="semRel"/>
-         </xs:sequence>
-      </xs:complexType>
-   </xs:element>
-   <xs:element name="wf">
-      <xs:complexType mixed="true">
-         <xs:simpleContent>
-            <xs:extension base="xs:string">
-               <xs:attribute ref="cx"/>
-               <xs:attribute ref="dx"/>
-               <xs:attribute ref="nx"/>
-            </xs:extension>
-         </xs:simpleContent>
-      </xs:complexType>
-   </xs:element>
    <xs:element name="xt">
       <xs:complexType mixed="true">
          <xs:simpleContent>
@@ -419,11 +399,29 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
-   <xs:element name="tg">
+   <xs:element name="xtCtn">
       <xs:complexType>
          <xs:sequence>
-            <xs:element maxOccurs="unbounded" ref="t"/>
+            <xs:element ref="xt"/>
+            <xs:element minOccurs="0" ref="re"/>
          </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="tg">
+      <xs:complexType>
+         <xs:choice>
+            <xs:element maxOccurs="unbounded" ref="t"/>
+            <xs:element maxOccurs="unbounded" ref="tCtn"/>
+         </xs:choice>
+         <xs:attribute ref="lang"/>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="tCtn">
+      <xs:complexType>
+         <xs:choice>
+            <xs:element maxOccurs="unbounded" ref="t"/>
+            <xs:element maxOccurs="unbounded" ref="re"/>
+         </xs:choice>
          <xs:attribute ref="lang"/>
       </xs:complexType>
    </xs:element>
@@ -468,6 +466,7 @@
       </xs:complexType>
    </xs:element>
    <!-- simple content elements - text only -->
+   <xs:element name="re" type="xs:string"/>
    <xs:element name="firstName" type="xs:string"/>
    <xs:element name="surname" type="xs:string"/>
    <xs:element name="stemForm" type="xs:string"/>
