@@ -130,7 +130,7 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
-   <xs:element name="etyms">
+   <xs:element name="etymg">
       <xs:complexType>
          <xs:choice maxOccurs="unbounded" minOccurs="1">
             <xs:element ref="hypoErz"/>
@@ -178,7 +178,7 @@
       <xs:complexType>
          <xs:sequence>
             <xs:element minOccurs="0" ref="drv"/>
-            <xs:element minOccurs="0" ref="etyms"/>
+            <xs:element minOccurs="0" ref="etymg"/>
             <xs:element maxOccurs="unbounded" ref="mg"/>
          </xs:sequence>
          <xs:attribute ref="No"/>
@@ -691,6 +691,7 @@
    <xs:attribute name="etymType">
       <xs:simpleType>
          <xs:restriction base="xs:string">
+            <xs:enumeration value="newForeignWord"/>
             <xs:enumeration value="oldForeignWord"/>
          </xs:restriction>
       </xs:simpleType>
@@ -1002,18 +1003,30 @@
    <xs:attribute name="erzMorph">
       <xs:simpleType>
          <xs:restriction base="xs:string">
-            <xs:enumeration value="Der/вомс"/>
-            <xs:enumeration value="Der/втомс"/>
+            <xs:enumeration value="Cx/ВтОмО"/>
+            <xs:enumeration value="Cx/шка"/>
+            <xs:enumeration value="Der/Овикс"/>
+            <xs:enumeration value="Der/Овомс"/>
+            <xs:enumeration value="Der/Овт"/>
+            <xs:enumeration value="Der/Овтомс"/>
             <xs:enumeration value="Der/гавтомс"/>
             <xs:enumeration value="Der/гадомс"/>
             <xs:enumeration value="Der/галемс"/>
             <xs:enumeration value="Der/демс"/>
             <xs:enumeration value="Der/емс"/>
-            <xs:enumeration value="Der/зевемс"/>
+            <xs:enumeration value="Der/Озевемс"/>
+            <xs:enumeration value="Der/ке"/>
+            <xs:enumeration value="Der/кине"/>
             <xs:enumeration value="Der/кшномс"/>
+            <xs:enumeration value="Der/не"/>
+            <xs:enumeration value="Der/Ыне"/>
+            <xs:enumeration value="Der/Ынька"/>
             <xs:enumeration value="Der/немс"/>
             <xs:enumeration value="Der/семс"/>
             <xs:enumeration value="Der/томс"/>
+            <xs:enumeration value="Der/Ы"/>
+            <xs:enumeration value="Der/Ый"/>
+            <xs:enumeration value="Der/Ыця"/>
             <xs:enumeration value="Der/шемс"/>
             <xs:enumeration value="Der/ямс"/>
          </xs:restriction>
@@ -1028,7 +1041,7 @@
             <xs:enumeration value="riddle"/>
             <xs:enumeration value="playOnWords"/>
             <xs:enumeration value="saying"/>
-            <!--fin="sanonta"-->
+            <!--fin="sanonta" myv="валмеревкс"-->
             <xs:enumeration value="sign"/>
          </xs:restriction>
       </xs:simpleType>
