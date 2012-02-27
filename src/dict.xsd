@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
-   <xs:import namespace="http://www.w3.org/XML/1998/namespace"
-	      schemaLocation="xml.xsd"/>
+   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
    <xs:element name="r">
       <xs:complexType>
          <xs:sequence>
@@ -11,61 +9,59 @@
          </xs:sequence>
       </xs:complexType>
    </xs:element>
-
-<xs:element name="entry">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element ref="lg"/>
-      <xs:element ref="pos"/>
-      <xs:element minOccurs="0" ref="phonet"/>
-      <xs:element maxOccurs="unbounded" ref="e"/>
-    </xs:sequence>
-    <xs:attribute name="exclude">
-      <xs:simpleType>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="fst"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="order">
-      <xs:simpleType>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="1"/>
-          <xs:enumeration value="2"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-  </xs:complexType>
-</xs:element>
-<xs:element name="lg">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element ref="l"/>
-      <xs:element ref="stg"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-<xs:element name="stg">
-  <xs:complexType>
-    <xs:choice maxOccurs="unbounded">
-      <xs:element ref="st"/>
-      <xs:element ref="stCtn"/>
-    </xs:choice>
-  </xs:complexType>
-</xs:element>
-<xs:element name="l">
- <xs:complexType>
-<xs:simpleContent>
-  <xs:extension base="xs:string">
-  <xs:attribute ref="pos"/>
+   <xs:element name="entry">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="lg"/>
+            <xs:element ref="pos"/>
+            <xs:element minOccurs="0" ref="phonet"/>
+            <xs:element maxOccurs="unbounded" ref="e"/>
+         </xs:sequence>
+         <xs:attribute name="exclude">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="fst"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+         <xs:attribute name="order">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="1"/>
+                  <xs:enumeration value="2"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="lg">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="l"/>
+            <xs:element ref="stg"/>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="stg">
+      <xs:complexType>
+         <xs:choice maxOccurs="unbounded">
+            <xs:element ref="st"/>
+            <xs:element ref="stCtn"/>
+         </xs:choice>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="l">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute ref="pos"/>
             </xs:extension>
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
    <xs:element name="st">
       <xs:complexType mixed="true">
-         <xs:sequence>
-         </xs:sequence>
+         <xs:sequence/>
          <xs:attribute ref="contlex"/>
          <xs:attribute ref="erzContlex"/>
          <xs:attribute name="stOrth">
@@ -103,10 +99,10 @@
    </xs:element>
    <xs:element name="pos" type="posType"/>
    <xs:attribute name="pos" type="posType"/>
-<xs:simpleType name="posType">
- <xs:restriction base="xs:string">
-   <xs:enumeration value="A"/>
-   <xs:enumeration value="AD-A"/>
+   <xs:simpleType name="posType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="A"/>
+         <xs:enumeration value="AD-A"/>
          <xs:enumeration value="PRED_A"/>
          <xs:enumeration value="A-ADN"/>
          <xs:enumeration value="A-1ARG"/>
@@ -220,6 +216,9 @@
          <xs:enumeration value="PRON-REFL"/>
          <xs:enumeration value="PRON-REL"/>
          <xs:enumeration value="PROP"/>
+         <xs:enumeration value="PROP-ANIM"/>
+         <xs:enumeration value="PROP-DEITY"/>
+         <xs:enumeration value="PROP-FirstM"/>
          <xs:enumeration value="PROP-PL"/>
          <xs:enumeration value="PTC"/>
          <xs:enumeration value="PTC-I_A"/>
@@ -255,7 +254,6 @@
          <xs:enumeration value="V-IMP-PRT"/>
       </xs:restriction>
    </xs:simpleType>
-
    <xs:element name="src">
       <xs:complexType>
          <xs:simpleContent>
@@ -265,14 +263,13 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
-                  <xs:attribute name="erzSrc">
-                  <xs:simpleType>
-                     <xs:restriction base="xs:string">
-                        <xs:enumeration value="ERV"/>
-                     </xs:restriction>
-                  </xs:simpleType>
-               </xs:attribute>
-
+   <xs:attribute name="erzSrc">
+      <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:enumeration value="ERV"/>
+         </xs:restriction>
+      </xs:simpleType>
+   </xs:attribute>
    <xs:element name="phonet">
       <xs:complexType>
          <xs:simpleContent>
@@ -429,6 +426,7 @@
             <xs:enumeration value="N-ош"/>
             <xs:enumeration value="N-панго"/>
             <xs:enumeration value="N-кудо"/>
+            <xs:enumeration value="P-Инешкипаз"/>
             <xs:enumeration value="PO-туртов"/>
             <xs:enumeration value="PO-каршо"/>
             <xs:enumeration value="PO-кисэ"/>
@@ -447,9 +445,24 @@
             <xs:enumeration value="Spat-ютксо"/>
             <xs:enumeration value="Temp-мейле"/>
             <xs:enumeration value="V-панемс"/>
+            <xs:enumeration value="V-панемс_ObjAll"/>
+            <xs:enumeration value="V-паневемс"/>
+            <xs:enumeration value="V-невтемс"/>
+            <xs:enumeration value="V-невтемс_ObjAll"/>
+            <xs:enumeration value="V-пезэмс"/>
+            <xs:enumeration value="V-пезэмс_ObjAll"/>
+            <xs:enumeration value="V-пежекстэмс"/>
             <xs:enumeration value="V-кадомс"/>
+            <xs:enumeration value="V-кадомс_ObjAll"/>
+            <xs:enumeration value="V-кадовомс"/>
+            <xs:enumeration value="V-стявтомс"/>
+            <xs:enumeration value="V-стявтомс_ObjAll"/>
             <xs:enumeration value="V-кундамс"/>
+            <xs:enumeration value="V-некшнемс"/>
+            <xs:enumeration value="V-некшнемс_ObjAll"/>
+            <xs:enumeration value="V-кундамс_ObjAll"/>
             <xs:enumeration value="V-сатомс"/>
+            <xs:enumeration value="V-сатомс_Obj3Sg"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
@@ -460,7 +473,6 @@
                <xs:attribute ref="drvType"/>
                <xs:attribute ref="lemmaID"/>
                <xs:attribute ref="erzMorph"/>
-
             </xs:extension>
          </xs:simpleContent>
       </xs:complexType>
@@ -531,19 +543,18 @@
    </xs:element>
    <xs:element name="t">
       <xs:complexType mixed="true">
-<xs:sequence>
-</xs:sequence>
-               <xs:attribute name="gen">
-                  <xs:simpleType>
-                     <xs:restriction base="xs:string">
-                        <xs:enumeration value="f"/>
-                        <xs:enumeration value="m"/>
-                        <xs:enumeration value="n"/>
-                     </xs:restriction>
-                  </xs:simpleType>
-               </xs:attribute>
-               <xs:attribute ref="nx"/>
-               <xs:attribute ref="pos"/>
+         <xs:sequence/>
+         <xs:attribute name="gen">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="f"/>
+                  <xs:enumeration value="m"/>
+                  <xs:enumeration value="n"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+         <xs:attribute ref="nx"/>
+         <xs:attribute ref="pos"/>
       </xs:complexType>
    </xs:element>
    <xs:attribute name="erzMorph">
@@ -695,16 +706,15 @@
    </xs:element>
    <xs:element name="defNative">
       <xs:complexType mixed="true">
-      <xs:sequence>
-</xs:sequence>
-               <xs:attribute name="form">
-                  <xs:simpleType>
-                     <xs:restriction base="xs:string">
-                        <xs:enumeration value="definition"/>
-                        <xs:enumeration value="gloss"/>
-                     </xs:restriction>
-                  </xs:simpleType>
-               </xs:attribute>
+         <xs:sequence/>
+         <xs:attribute name="form">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="definition"/>
+                  <xs:enumeration value="gloss"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
       </xs:complexType>
    </xs:element>
    <xs:element name="xg">
@@ -762,9 +772,8 @@
    </xs:element>
    <xs:element name="xt">
       <xs:complexType mixed="true">
-<xs:sequence>
-</xs:sequence>
-               <xs:attribute ref="lang"/>
+         <xs:sequence/>
+         <xs:attribute ref="lang"/>
       </xs:complexType>
    </xs:element>
    <xs:element name="xtCtn">
@@ -860,162 +869,159 @@
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
-
    <xs:attribute name="semClass">
       <xs:simpleType>
          <xs:restriction base="xs:string">
-<xs:enumeration value="ABSTRACT"/>
-<xs:enumeration value="ABSTRACT_A"/>
-<xs:enumeration value="ACTION"/>
-<xs:enumeration value="ACTION_V"/>
-<xs:enumeration value="ACTIVITY_V"/>
-<xs:enumeration value="AMOUNT"/>
-<xs:enumeration value="ANIMAL_A"/>
-<xs:enumeration value="ANIMAL_BIRDHUNT"/>
-<xs:enumeration value="ANIMAL_DOM"/>
-<xs:enumeration value="ANIMAL_FISH"/>
-<xs:enumeration value="ANIMAL_HUNT"/>
-<xs:enumeration value="ANIMAL_OTHER"/>
-<xs:enumeration value="ANIMAL_PET"/>
-<xs:enumeration value="ANIMAL_PREDITOR"/>
-<xs:enumeration value="ANIMAL_SALTFISH"/>
-<xs:enumeration value="ANIMAL_SOUND_V"/>
-<xs:enumeration value="ANIMAL_V"/>
-<xs:enumeration value="ANIMAL_WILD"/>
-<xs:enumeration value="ARRANGEMENT"/>
-<xs:enumeration value="AUX_V"/>
-<xs:enumeration value="BATHROOM"/>
-<xs:enumeration value="BELONGINGS"/>
-<xs:enumeration value="BIRD"/>
-<xs:enumeration value="BIRD_FISH_OTHER"/>
-<xs:enumeration value="BIRD_FISH_V"/>
-<xs:enumeration value="BODYPART"/>
-<xs:enumeration value="BODY_A"/>
-<xs:enumeration value="BODY_ADV"/>
-<xs:enumeration value="BODY_V"/>
-<xs:enumeration value="BUILDING"/>
-<xs:enumeration value="BUILDING_ROOM_A"/>
-<xs:enumeration value="CHRISTMAS"/>
-<xs:enumeration value="CLOTHES_A"/>
-<xs:enumeration value="CLOTHES_V"/>
-<xs:enumeration value="CLOTHES_WORK"/>
-<xs:enumeration value="CLOTHING"/>
-<xs:enumeration value="CLOTHING_OTHER"/>
-<xs:enumeration value="CLOTHING_PL"/>
-<xs:enumeration value="COMMAND_V"/>
-<xs:enumeration value="CONTAINER"/>
-<xs:enumeration value="DRINK"/>
-<xs:enumeration value="EDUCATION"/>
-<xs:enumeration value="EXPERIENCE_A"/>
-<xs:enumeration value="EXPERIENCE_V"/>
-<xs:enumeration value="EXPOSURE_V"/>
-<xs:enumeration value="EXPRESSIONS"/>
-<xs:enumeration value="FAMILY"/>
-<xs:enumeration value="FAMILY_OTHER"/>
-<xs:enumeration value="FEELING"/>
-<xs:enumeration value="FINANCE"/>
-<xs:enumeration value="FINANCE_V"/>
-<xs:enumeration value="FISH"/>
-<xs:enumeration value="FISHING"/>
-<xs:enumeration value="FOOD_BERRY"/>
-<xs:enumeration value="FOOD_DISH"/>
-<xs:enumeration value="FOOD_DRINK_V"/>
-<xs:enumeration value="FOOD_GROCERY"/>
-<xs:enumeration value="FOOD_OTHER"/>
-<xs:enumeration value="FURNITURE"/>
-<xs:enumeration value="GAMME"/>
-<xs:enumeration value="HANDICRAFTS"/>
-<xs:enumeration value="HERDING"/>
-<xs:enumeration value="HERDING_THING"/>
-<xs:enumeration value="HOME_ACTIVITY"/>
-<xs:enumeration value="HUMAN_A"/>
-<xs:enumeration value="HUMAN_V"/>
-<xs:enumeration value="ILLNESS"/>
-<xs:enumeration value="INSTRUMENT"/>
-<xs:enumeration value="ISSUE_A"/>
-<xs:enumeration value="JOB"/>
-<xs:enumeration value="KITCHEN"/>
-<xs:enumeration value="LANGUAGE"/>
-<xs:enumeration value="LANGUAGEPART"/>
-<xs:enumeration value="LEISURETIME_HOME_V"/>
-<xs:enumeration value="MORFAC"/>
-<xs:enumeration value="MOVEMENT_A"/>
-<xs:enumeration value="MOVEMENT_V"/>
-<xs:enumeration value="MYTH_HUMAN"/>
-<xs:enumeration value="NATURE"/>
-<xs:enumeration value="NATURE_A"/>
-<xs:enumeration value="NATURE_OTHER"/>
-<xs:enumeration value="NATURE_PLACE"/>
-<xs:enumeration value="NATURE_PLACE_REINDEER"/>
-<xs:enumeration value="NATURE_V"/>
-<xs:enumeration value="NATURE_WATER"/>
-<xs:enumeration value="NUMBER"/>
-<xs:enumeration value="OBJECT_A"/>
-<xs:enumeration value="ORGANIZATION"/>
-<xs:enumeration value="PEOPLE"/>
-<xs:enumeration value="PEOPLE_OTHER"/>
-<xs:enumeration value="PLACE_COUNTRY"/>
-<xs:enumeration value="PLACE_LOCAL"/>
-<xs:enumeration value="PLACE_NAME"/>
-<xs:enumeration value="PLACE_NATURE"/>
-<xs:enumeration value="PLACE_OTHER"/>
-<xs:enumeration value="PLACE_STAYING"/>
-<xs:enumeration value="PLANT"/>
-<xs:enumeration value="PROFESSION"/>
-<xs:enumeration value="PRON"/>
-<xs:enumeration value="REINDEER"/>
-<xs:enumeration value="REINDEER_ANIMAL"/>
-<xs:enumeration value="REINDEER_HERD"/>
-<xs:enumeration value="ROAD"/>
-<xs:enumeration value="ROOM"/>
-<xs:enumeration value="ROOM_OTHER"/>
-<xs:enumeration value="ROOM_PART"/>
-<xs:enumeration value="SCHOOL"/>
-<xs:enumeration value="SCHOOL_A"/>
-<xs:enumeration value="SCHOOL_ADV"/>
-<xs:enumeration value="SCHOOL_V"/>
-<xs:enumeration value="SHOP"/>
-<xs:enumeration value="SHOW"/>
-<xs:enumeration value="SLEEPINGROOM"/>
-<xs:enumeration value="SLIDE_TOOL"/>
-<xs:enumeration value="SNOW"/>
-<xs:enumeration value="SOUND"/>
-<xs:enumeration value="SOUP_A"/>
-<xs:enumeration value="SPORT"/>
-<xs:enumeration value="STORY"/>
-<xs:enumeration value="TEXT"/>
-<xs:enumeration value="TEXT_OTHER"/>
-<xs:enumeration value="THING"/>
-<xs:enumeration value="THOUGHT"/>
-<xs:enumeration value="TIME"/>
-<xs:enumeration value="TIME_A"/>
-<xs:enumeration value="TIME_DAY"/>
-<xs:enumeration value="TIME_U"/>
-<xs:enumeration value="TIME_V"/>
-<xs:enumeration value="TOOL"/>
-<xs:enumeration value="TOY"/>
-<xs:enumeration value="TRAD_CLOTHING"/>
-<xs:enumeration value="TRAD_FOOD"/>
-<xs:enumeration value="TRAD_OBJECT"/>
-<xs:enumeration value="TRAD_OTHER"/>
-<xs:enumeration value="TRAVELLING"/>
-<xs:enumeration value="TRAVELLING_V"/>
-<xs:enumeration value="TRAVEL_V"/>
-<xs:enumeration value="VEHICLE"/>
-<xs:enumeration value="VERBAL_V"/>
-<xs:enumeration value="VUEKIE"/>
-<xs:enumeration value="VÆTNOE"/>
-<xs:enumeration value="VÆTNOE_GARRE"/>
-<xs:enumeration value="VÆTNOE_GÅARODH"/>
-<xs:enumeration value="WEATHER"/>
-<xs:enumeration value="WEATHER_A"/>
-<xs:enumeration value="WEATHER_V"/>
-<xs:enumeration value="WORK_ECONOMY_V"/>
+            <xs:enumeration value="ABSTRACT"/>
+            <xs:enumeration value="ABSTRACT_A"/>
+            <xs:enumeration value="ACTION"/>
+            <xs:enumeration value="ACTION_V"/>
+            <xs:enumeration value="ACTIVITY_V"/>
+            <xs:enumeration value="AMOUNT"/>
+            <xs:enumeration value="ANIMAL_A"/>
+            <xs:enumeration value="ANIMAL_BIRDHUNT"/>
+            <xs:enumeration value="ANIMAL_DOM"/>
+            <xs:enumeration value="ANIMAL_FISH"/>
+            <xs:enumeration value="ANIMAL_HUNT"/>
+            <xs:enumeration value="ANIMAL_OTHER"/>
+            <xs:enumeration value="ANIMAL_PET"/>
+            <xs:enumeration value="ANIMAL_PREDITOR"/>
+            <xs:enumeration value="ANIMAL_SALTFISH"/>
+            <xs:enumeration value="ANIMAL_SOUND_V"/>
+            <xs:enumeration value="ANIMAL_V"/>
+            <xs:enumeration value="ANIMAL_WILD"/>
+            <xs:enumeration value="ARRANGEMENT"/>
+            <xs:enumeration value="AUX_V"/>
+            <xs:enumeration value="BATHROOM"/>
+            <xs:enumeration value="BELONGINGS"/>
+            <xs:enumeration value="BIRD"/>
+            <xs:enumeration value="BIRD_FISH_OTHER"/>
+            <xs:enumeration value="BIRD_FISH_V"/>
+            <xs:enumeration value="BODYPART"/>
+            <xs:enumeration value="BODY_A"/>
+            <xs:enumeration value="BODY_ADV"/>
+            <xs:enumeration value="BODY_V"/>
+            <xs:enumeration value="BUILDING"/>
+            <xs:enumeration value="BUILDING_ROOM_A"/>
+            <xs:enumeration value="CHRISTMAS"/>
+            <xs:enumeration value="CLOTHES_A"/>
+            <xs:enumeration value="CLOTHES_V"/>
+            <xs:enumeration value="CLOTHES_WORK"/>
+            <xs:enumeration value="CLOTHING"/>
+            <xs:enumeration value="CLOTHING_OTHER"/>
+            <xs:enumeration value="CLOTHING_PL"/>
+            <xs:enumeration value="COMMAND_V"/>
+            <xs:enumeration value="CONTAINER"/>
+            <xs:enumeration value="DRINK"/>
+            <xs:enumeration value="EDUCATION"/>
+            <xs:enumeration value="EXPERIENCE_A"/>
+            <xs:enumeration value="EXPERIENCE_V"/>
+            <xs:enumeration value="EXPOSURE_V"/>
+            <xs:enumeration value="EXPRESSIONS"/>
+            <xs:enumeration value="FAMILY"/>
+            <xs:enumeration value="FAMILY_OTHER"/>
+            <xs:enumeration value="FEELING"/>
+            <xs:enumeration value="FINANCE"/>
+            <xs:enumeration value="FINANCE_V"/>
+            <xs:enumeration value="FISH"/>
+            <xs:enumeration value="FISHING"/>
+            <xs:enumeration value="FOOD_BERRY"/>
+            <xs:enumeration value="FOOD_DISH"/>
+            <xs:enumeration value="FOOD_DRINK_V"/>
+            <xs:enumeration value="FOOD_GROCERY"/>
+            <xs:enumeration value="FOOD_OTHER"/>
+            <xs:enumeration value="FURNITURE"/>
+            <xs:enumeration value="GAMME"/>
+            <xs:enumeration value="HANDICRAFTS"/>
+            <xs:enumeration value="HERDING"/>
+            <xs:enumeration value="HERDING_THING"/>
+            <xs:enumeration value="HOME_ACTIVITY"/>
+            <xs:enumeration value="HUMAN_A"/>
+            <xs:enumeration value="HUMAN_V"/>
+            <xs:enumeration value="ILLNESS"/>
+            <xs:enumeration value="INSTRUMENT"/>
+            <xs:enumeration value="ISSUE_A"/>
+            <xs:enumeration value="JOB"/>
+            <xs:enumeration value="KITCHEN"/>
+            <xs:enumeration value="LANGUAGE"/>
+            <xs:enumeration value="LANGUAGEPART"/>
+            <xs:enumeration value="LEISURETIME_HOME_V"/>
+            <xs:enumeration value="MORFAC"/>
+            <xs:enumeration value="MOVEMENT_A"/>
+            <xs:enumeration value="MOVEMENT_V"/>
+            <xs:enumeration value="MYTH_HUMAN"/>
+            <xs:enumeration value="NATURE"/>
+            <xs:enumeration value="NATURE_A"/>
+            <xs:enumeration value="NATURE_OTHER"/>
+            <xs:enumeration value="NATURE_PLACE"/>
+            <xs:enumeration value="NATURE_PLACE_REINDEER"/>
+            <xs:enumeration value="NATURE_V"/>
+            <xs:enumeration value="NATURE_WATER"/>
+            <xs:enumeration value="NUMBER"/>
+            <xs:enumeration value="OBJECT_A"/>
+            <xs:enumeration value="ORGANIZATION"/>
+            <xs:enumeration value="PEOPLE"/>
+            <xs:enumeration value="PEOPLE_OTHER"/>
+            <xs:enumeration value="PLACE_COUNTRY"/>
+            <xs:enumeration value="PLACE_LOCAL"/>
+            <xs:enumeration value="PLACE_NAME"/>
+            <xs:enumeration value="PLACE_NATURE"/>
+            <xs:enumeration value="PLACE_OTHER"/>
+            <xs:enumeration value="PLACE_STAYING"/>
+            <xs:enumeration value="PLANT"/>
+            <xs:enumeration value="PROFESSION"/>
+            <xs:enumeration value="PRON"/>
+            <xs:enumeration value="REINDEER"/>
+            <xs:enumeration value="REINDEER_ANIMAL"/>
+            <xs:enumeration value="REINDEER_HERD"/>
+            <xs:enumeration value="ROAD"/>
+            <xs:enumeration value="ROOM"/>
+            <xs:enumeration value="ROOM_OTHER"/>
+            <xs:enumeration value="ROOM_PART"/>
+            <xs:enumeration value="SCHOOL"/>
+            <xs:enumeration value="SCHOOL_A"/>
+            <xs:enumeration value="SCHOOL_ADV"/>
+            <xs:enumeration value="SCHOOL_V"/>
+            <xs:enumeration value="SHOP"/>
+            <xs:enumeration value="SHOW"/>
+            <xs:enumeration value="SLEEPINGROOM"/>
+            <xs:enumeration value="SLIDE_TOOL"/>
+            <xs:enumeration value="SNOW"/>
+            <xs:enumeration value="SOUND"/>
+            <xs:enumeration value="SOUP_A"/>
+            <xs:enumeration value="SPORT"/>
+            <xs:enumeration value="STORY"/>
+            <xs:enumeration value="TEXT"/>
+            <xs:enumeration value="TEXT_OTHER"/>
+            <xs:enumeration value="THING"/>
+            <xs:enumeration value="THOUGHT"/>
+            <xs:enumeration value="TIME"/>
+            <xs:enumeration value="TIME_A"/>
+            <xs:enumeration value="TIME_DAY"/>
+            <xs:enumeration value="TIME_U"/>
+            <xs:enumeration value="TIME_V"/>
+            <xs:enumeration value="TOOL"/>
+            <xs:enumeration value="TOY"/>
+            <xs:enumeration value="TRAD_CLOTHING"/>
+            <xs:enumeration value="TRAD_FOOD"/>
+            <xs:enumeration value="TRAD_OBJECT"/>
+            <xs:enumeration value="TRAD_OTHER"/>
+            <xs:enumeration value="TRAVELLING"/>
+            <xs:enumeration value="TRAVELLING_V"/>
+            <xs:enumeration value="TRAVEL_V"/>
+            <xs:enumeration value="VEHICLE"/>
+            <xs:enumeration value="VERBAL_V"/>
+            <xs:enumeration value="VUEKIE"/>
+            <xs:enumeration value="VÆTNOE"/>
+            <xs:enumeration value="VÆTNOE_GARRE"/>
+            <xs:enumeration value="VÆTNOE_GÅARODH"/>
+            <xs:enumeration value="WEATHER"/>
+            <xs:enumeration value="WEATHER_A"/>
+            <xs:enumeration value="WEATHER_V"/>
+            <xs:enumeration value="WORK_ECONOMY_V"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
-
-
    <xs:attribute name="fieldType">
       <xs:simpleType>
          <xs:restriction base="xs:string">
@@ -1102,7 +1108,6 @@
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
-
    <xs:attribute name="cx">
       <xs:simpleType>
          <xs:restriction base="xs:string">
@@ -1153,6 +1158,4 @@
          <xs:enumeration value="Sg"/>
       </xs:restriction>
    </xs:simpleType>
-
-
 </xs:schema>
