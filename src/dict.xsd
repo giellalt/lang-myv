@@ -102,6 +102,14 @@
    <xs:attribute name="pos" type="posType"/>
    <xs:simpleType name="posType">
       <xs:restriction base="xs:string">
+         <xs:enumeration value="PHRASE_A"/>
+         <xs:enumeration value="PHRASE_ADV"/>
+         <xs:enumeration value="PHRASE_N"/>
+         <xs:enumeration value="PHRASE_NUM"/>
+         <xs:enumeration value="PHRASE_QNT"/>
+         <xs:enumeration value="PHRASE_SPAT"/>
+         <xs:enumeration value="PHRASE_TEMP"/>
+         <xs:enumeration value="PHRASE_V"/>
          <xs:enumeration value="A"/>
          <xs:enumeration value="AD-A"/>
          <xs:enumeration value="PRED_A"/>
@@ -122,12 +130,6 @@
          <xs:enumeration value="PRT_ADV-PARENTHETIC"/>
          <xs:enumeration value="V_ADV-PARENTHETIC"/>
          <xs:enumeration value="ADV-POSITION"/>
-         <xs:enumeration value="SPAT-0ARG"/>
-         <xs:enumeration value="SPAT-1ARG"/>
-         <xs:enumeration value="SPAT-INDEF"/>
-         <xs:enumeration value="SPAT-DEM"/>
-         <xs:enumeration value="SPAT-DISTR"/>
-         <xs:enumeration value="ADV-SPAT-GEN"/>
          <xs:enumeration value="ADV-STATE"/>
          <xs:enumeration value="TEMP-0ARG"/>
          <xs:enumeration value="TEMP-0ARG-INDEF"/>
@@ -171,6 +173,7 @@
          <xs:enumeration value="N-COLL"/>
          <xs:enumeration value="N-PL"/>
          <xs:enumeration value="N-SG"/>
+         <xs:enumeration value="N-VOCATIVE"/>
          <xs:enumeration value="NUM"/>
          <xs:enumeration value="NUM-ADN"/>
          <xs:enumeration value="NUM-UNIV"/>
@@ -189,16 +192,7 @@
          <xs:enumeration value="PRT_NEG"/>
          <xs:enumeration value="PRT_OPT"/>
          <xs:enumeration value="PART-ONOM"/>
-         <xs:enumeration value="PHRASE_A"/>
-         <xs:enumeration value="PHRASE_ADV"/>
-         <xs:enumeration value="PHRASE_N"/>
-         <xs:enumeration value="PHRASE_NUM"/>
-         <xs:enumeration value="PHRASE_QNT"/>
-         <xs:enumeration value="PHRASE_SPAT"/>
-         <xs:enumeration value="PHRASE_TEMP"/>
-         <xs:enumeration value="PHRASE_V"/>
          <xs:enumeration value="POSTP"/>
-         <xs:enumeration value="SPAT-1ARG"/>
          <xs:enumeration value="TEMP-1ARG"/>
          <xs:enumeration value="PREP"/>
          <xs:enumeration value="PRON"/>
@@ -226,6 +220,12 @@
          <xs:enumeration value="REFL"/>
          <!-- spatial This will be further divided into DEICT, INDEP, DEPEND, INTERR -->
          <xs:enumeration value="SPAT"/>
+         <xs:enumeration value="SPAT-0ARG"/>
+         <xs:enumeration value="SPAT-1ARG"/>
+         <xs:enumeration value="SPAT-INDEF"/>
+         <xs:enumeration value="SPAT-DEM"/>
+         <xs:enumeration value="SPAT-DISTR"/>
+         <xs:enumeration value="ADV-SPAT-GEN"/>
          <xs:enumeration value="SPAT-DEICT"/>
          <xs:enumeration value="SPAT-INDEP"/>
          <xs:enumeration value="SPAT-DEPEND"/>
@@ -466,6 +466,7 @@
             <xs:enumeration value="SOD-кудоньсесь"/>
             <xs:enumeration value="SOD-икельсь"/>
             <xs:enumeration value="SOD-икельсть-удалсть"/>
+            <xs:enumeration value="Spat-аловпандт"/>
             <xs:enumeration value="Spat-ало"/>
             <xs:enumeration value="Spat-васов"/>
             <xs:enumeration value="Spat-вакссо"/>
@@ -847,6 +848,8 @@
          <xs:simpleContent>
             <xs:extension base="xs:string">
                <xs:attributeGroup ref="inherentMarking"/>
+               <xs:attribute name="count" type="BooleanType"/>
+               <xs:attribute name="anim" type="BooleanType"/>
                <xs:attribute ref="isaType"/>
                <xs:attribute ref="semClass"/>
                <xs:attribute ref="lemmaID"/>
@@ -895,7 +898,7 @@
    <xs:element name="native" type="xs:string"/>
    <xs:element name="sci" type="xs:string"/>
    <!--scientific name
--->
+ -->
    <xs:element name="tags" type="xs:string"/>
    <xs:element name="semRel">
       <xs:complexType mixed="true">
@@ -970,6 +973,12 @@
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
+   <xs:simpleType name="BooleanType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="false"/>
+         <xs:enumeration value="true"/>
+      </xs:restriction>
+   </xs:simpleType>
    <xs:attribute name="lang">
       <xs:simpleType>
          <xs:restriction base="xs:string">
