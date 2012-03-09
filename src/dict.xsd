@@ -38,6 +38,7 @@
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="l"/>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="lsub"/>
             <xs:element ref="stg"/>
          </xs:sequence>
       </xs:complexType>
@@ -59,28 +60,23 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
+   <xs:element name="lsub">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="xs:string">
+               <xs:attribute ref="erzSrc"/>
+               <xs:attribute ref="orthType"/>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
    <xs:element name="st">
       <xs:complexType mixed="true">
          <xs:sequence/>
          <xs:attribute ref="contlex"/>
          <xs:attribute ref="erzContlex"/>
          <xs:attribute ref="kpvContlex"/>
-         <xs:attribute name="stOrth">
-            <xs:simpleType>
-               <xs:restriction base="xs:string">
-                  <xs:enumeration value="allegro"/>
-                  <xs:enumeration value="dial"/>
-                  <xs:enumeration value="erz"/>
-                  <xs:enumeration value="Kozl"/>
-                  <xs:enumeration value="morph"/>
-                  <xs:enumeration value="old"/>
-                  <xs:enumeration value="phon"/>
-                  <xs:enumeration value="ru"/>
-                  <xs:enumeration value="ry"/>
-                  <xs:enumeration value="uncertain"/>
-               </xs:restriction>
-            </xs:simpleType>
-         </xs:attribute>
+         <xs:attribute ref="orthType"/>
       </xs:complexType>
    </xs:element>
    <xs:element name="stCtn">
@@ -256,7 +252,7 @@
          <xs:enumeration value="Q_A"/>
          <xs:enumeration value="Q_ADV"/>
          <xs:enumeration value="Q_DET"/>
-         <xs:enumeration value="Q_CARD-ITER"/>
+         <xs:enumeration value="Q_ITER"/>
          <xs:enumeration value="Q_MANNER"/>
          <xs:enumeration value="Q_N"/>
          <xs:enumeration value="Q_ORD"/>
@@ -266,8 +262,8 @@
          <xs:enumeration value="Q_QNT"/>
          <xs:enumeration value="Q_REASON"/>
          <xs:enumeration value="Q_SPAT"/>
-         <xs:enumeration value="Q_SPAT"/>
          <xs:enumeration value="Q_TEMP"/>
+         <xs:enumeration value="R_QNT"/>
          <xs:enumeration value="R_SPAT"/>
          <xs:enumeration value="R_TEMP"/>
          <xs:enumeration value="PRT_INTERR"/>
@@ -283,12 +279,39 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
+   <xs:attribute name="erzSrc">
+      <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:enumeration value="BIB"/>
+            <xs:enumeration value="ЭРВ1993"/>
+            <xs:enumeration value="ДуняшинА"/>
+            <xs:enumeration value="КуторкинАД"/>
+            <xs:enumeration value="ЧесноковФ"/>
+         </xs:restriction>
+      </xs:simpleType>
+   </xs:attribute>
    <xs:attribute name="kpvSrc">
       <xs:simpleType>
          <xs:restriction base="xs:string">
             <xs:enumeration value="BIB"/>
             <xs:enumeration value="PS"/>
-            <xs:enumeration value="Toropov"/>
+            <xs:enumeration value="Торопов"/>
+         </xs:restriction>
+      </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="orthType">
+      <xs:simpleType>
+         <xs:restriction base="xs:string">
+            <xs:enumeration value="allegro"/>
+            <xs:enumeration value="dial"/>
+            <xs:enumeration value="erz"/>
+            <xs:enumeration value="Kozl"/>
+            <xs:enumeration value="morph"/>
+            <xs:enumeration value="old"/>
+            <xs:enumeration value="phon"/>
+            <xs:enumeration value="ru"/>
+            <xs:enumeration value="ry"/>
+            <xs:enumeration value="uncertain"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
@@ -1036,6 +1059,7 @@
       <xs:complexType>
          <xs:simpleContent>
             <xs:extension base="xs:string">
+               <xs:attribute ref="isaType"/>
                <xs:attribute ref="lemmaID"/>
             </xs:extension>
          </xs:simpleContent>
@@ -1083,6 +1107,7 @@
             <xs:enumeration value="female"/>
             <xs:enumeration value="female_given_name"/>
             <xs:enumeration value="female surname"/>
+            <xs:enumeration value="frog"/>
             <xs:enumeration value="fund"/>
             <xs:enumeration value="game"/>
             <!--fin="leikki"-->
