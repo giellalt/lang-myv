@@ -14,8 +14,9 @@ LEXICON ledems-V_ObjAll
 LEXICON kadoms-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> kadoms-V ;
 
-LEXICON sajevems-V_ObjAll
-< %+ObjOpen:0 "@P.CONJ.ObjAll@"> sajevems-V ;
+! This should not occur
+!LEXICON sajevems-V_ObjAll
+!< %+ObjOpen:0 "@P.CONJ.ObjAll@"> sajevems-V ;
 
 LEXICON nevtems-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> nevtems-V ;
@@ -29,11 +30,15 @@ LEXICON jangavoms-V_ObjAll
 LEXICON kundams-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> kundams-V ;
 
+! This actually does exist in a pair verb
+! таргатомс
 LEXICON satoms-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> satoms-V ;
 
-LEXICON letems-V_ObjAll
-< %+ObjOpen:0 "@P.CONJ.ObjAll@"> letems-V ;
+! This should not exist by definition
+! 
+!LEXICON letems-V_ObjAll
+!< %+ObjOpen:0 "@P.CONJ.ObjAll@"> letems-V ;
 
 LEXICON ujems-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> ujems-V ;
@@ -865,7 +870,7 @@ LEXICON Deverbals_1_ReqVow
 +Deverbal+Der/Озь+Ptc:%>О1зь sajezj-PTC ; !!
 +Deverbal+Der/Онь+Ptc:%>О1нь Tenses1 ;
 
-+Deverbal+Der/Онь+Ptc+VowStem:%>О1нсе kudo-N2-Def-Declension ;
++Deverbal+Der/Онь+Ptc:%>О1нсе kudo-N2-Def-Declension ;
 
 LEXICON Deverbals_1_NoReqVow
 
@@ -897,7 +902,7 @@ LEXICON Deverbals_2
 +Deverbal+mOInf+Ill:%>О1мО1%>зО1 Possessives2 ;
 +Deverbal+Der/Озь+Ptc:%>О1зь sajezj-PTC ; !!
 +Deverbal+Der/Онь+Ptc:%>О1нь Tenses1 ;
-+Deverbal+Der/Онь+Ptc+VowStem:%>О1нсе kudo-N2-Def-Declension ;
++Deverbal+Der/Онь+Ptc:%>О1нсе kudo-N2-Def-Declension ;
 
 !!This one was marked on 2006-12-01
 +Dial+Deverbal+msInf+Transl:%>О1мО1%>кс Tenses1 ;
