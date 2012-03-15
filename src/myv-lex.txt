@@ -1,6 +1,7 @@
 Multichar_Symbols
 
 
+
 +CmpTest
 
 +Err ! marking missing lexica
@@ -8,19 +9,31 @@ Multichar_Symbols
 +NCom +Inanim +Anim +Cnt +NPrp
 +SurnameM +PatronymM +Familiar
 +SurnameF 
++NoPredx
++IndNonpast1Sg
++IndNonpast2Sg
++IndNonpast3Sg
++IndNonpast1Pl
++IndNonpast2Pl
++IndNonpast3Pl
+
+
+
 
 ! POS
 +N +V +A 
 +Adv
 +AdA ! Ad-adjective
 +Manner ! with reference to type of adverb
-+CC +CS +Interj +Pcle +Clt +Po 
++CC ! coordinating conjunction
++CS ! subordinating conjunction
+ +Interj +Pcle +Clt +Po 
 +Pron ! Pronoun
 +Adn ! Adnominal !! This is not an NP head like +Pron
 +Indef
 +Refl +Rel +Interr +Recipr
 +Hum +NonHum 
-
++Ptc
 !! This has something to do with  verb stem tracking
 !  The three should be removed a little later if there
 !  is no reason to keep them
@@ -53,7 +66,7 @@ Multichar_Symbols
 ! Verbal MSP
 +Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
 +PrfIpf +HstPrf +PluPrf +HstPluPrf
-+Ind +Imp +Cond +Opt
++Ind +Imp +Cond +Opt +Des +Conj
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
 +1 +2 +3
@@ -218,7 +231,10 @@ Multichar_Symbols
 +Nom.Sg.Indef
 +Pred.Prs.1Sg
 +Pred.Prs.2Sg
++Pred.Prs.1Pl
++Pred.Prs.2Pl
 +Pred.Prt2.3Sg
++Pred.Prt2.3Pl
 +Pred.Prt2
 +Prol.NbAmb.Indef
 +Temp.NbAmb.Indef
@@ -273,6 +289,13 @@ Multichar_Symbols
 @U.CONJ-PX.1@
 @U.CONJ-PX.2@
 @U.CONJ-PX.3@
+
+! Object conjugation
+@P.CONJ.ObjAll@
+@R.CONJ.ObjAll@
+@C.CONJ@
+@P.TLOSS.ON@
+@R.TLOSS.ON@
 
 ! Removal
 @C.CONJ-INF@
