@@ -1,5 +1,3 @@
-!
-!
 
 LEXICON CondVerbs
 +Deriv+Cond+Conj:%>Ы2ндеря Conjunctive2 ;
@@ -9,6 +7,9 @@ LEXICON CondVerbs
 
 LEXICON savtoms-V_ObjAll
 < %+ObjOpen:0 "@P.TLOSS.ON@"  "@P.CONJ.ObjAll@"> kadoms-V_ObjAll;
+
+LEXICON ledems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> ledems-V ;
 
 LEXICON kadoms-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> kadoms-V ;
@@ -34,6 +35,48 @@ LEXICON satoms-V_ObjAll
 LEXICON letems-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> letems-V ;
 
+LEXICON ujems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> ujems-V ;
+
+LEXICON ujems-V
+ kadoms-V ;
+
+LEXICON tujems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> tujems-V ;
+
+LEXICON tujems-V
+ kadoms-V ;
+
+LEXICON tejems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> tejems-V ;
+
+LEXICON tejems-V
+ kadoms-V ;
+
+LEXICON nejems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> nejems-V ;
+
+LEXICON nejems-V
+ kadoms-V ;
+
+LEXICON mijems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> mijems-V ;
+
+LEXICON mijems-V
+ kadoms-V ;
+
+LEXICON nekshnems-V_ObjAll
+< %+ObjOpen:0 "@P.CONJ.ObjAll@"> nekshnems-V ;
+
+LEXICON nekshnems-V
++Stem/е:е kundams-V ;
++Stem/э:э kundams-V ;
+
+
+
+
+LEXICON ledems-V
+ kadoms-V ;
 
 LEXICON savtoms-V
  kadoms-V ;
@@ -71,7 +114,7 @@ LEXICON sajevems-V
 
 
 LEXICON sajevems-V-a
-:вИ1 CondVerbs ;
+ CondVerbs ;
 +Conj: Conjunctive2 ;
 +Conj+Dial:вИ1 Conjunctive1 ;
 +Des:вИ1 Desiderative1 ;
@@ -91,7 +134,7 @@ LEXICON jangavoms-V
 
 
 LEXICON jangavoms-V-a
-:вУ1 CondVerbs ;
+ CondVerbs ;
 +Conj: Conjunctive2 ;
 +Conj+Dial:вУ1 Conjunctive1 ;
 +Des:вУ1 Desiderative1 ;
