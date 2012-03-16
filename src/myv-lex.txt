@@ -16,6 +16,7 @@ Multichar_Symbols
 +IndNonpast1Pl
 +IndNonpast2Pl
 +IndNonpast3Pl
++Deict ! Deictic
 
 
 
@@ -23,11 +24,13 @@ Multichar_Symbols
 ! POS
 +N +V +A 
 +Adv
++Adv-Ideoph ! These are ideophonic descriptors used to modify the verb
+            ! вырк ливтясь '_flit_ and it flew off'
 +AdA ! Ad-adjective
 +Manner ! with reference to type of adverb
 +CC ! coordinating conjunction
 +CS ! subordinating conjunction
- +Interj +Pcle +Clt +Po 
+ +Interj +Pcle +Clt +Po  
 +Pron ! Pronoun
 +Adn ! Adnominal !! This is not an NP head like +Pron
 +Indef
@@ -240,7 +243,7 @@ Multichar_Symbols
 +Temp.NbAmb.Indef
 +Tra.NbAmb.Indef
 
-А1 А2 Г1 Г2 Ь2 Т1 О1 Ы2 К1 К3 К4 У2 И2 TLoss KLoss VLoss %>
+А1 А2 Г1 Г2 Ь2 Т1 О1 Ы2 К1 К3 К4 У2 И2 TLoss KLoss VLoss WLoss %>
 %^Inf
 %^PATR
 %^FEM
@@ -320,15 +323,15 @@ TESTINGTESTING ;
 ! ------------ ! ---------------------------------------
 Adj ;			   ! ../../tmp/out/A_myv-lex.xml
 !2012-03-14!A-SUPERL ;	   ! ../../tmp/out/A-SUPERL_myv-lex.xml
-!2012-03-14!ADV ;		   ! ../../tmp/out/ADV_myv-lex.xml
+ADV ;		   ! ../../tmp/out/ADV_myv-lex.xml
 !2012-03-14!!!! ADVROOT ;	   ! ../../tmp/out/ADVROOT_myv-lex.xml ! no longer exists
 !2012-03-14!Abbreviation ; ! abbr-myv-lex.txt
 !2012-03-14!ABBR ;			   ! ../../tmp/out/ABBR_myv-lex.xml
 !2012-03-14!Acronym ;	   ! acro-myv-lex.txt
 !2012-03-14!ACRON ;			   ! ../../tmp/out/ACRON_myv-lex.xml
-!2012-03-14!CONJ ;		   ! ../../tmp/out/CONJ_myv-lex.xml
+CONJ ;		   ! ../../tmp/out/CONJ_myv-lex.xml
 !2012-03-14!IDIOM ;		   ! ../../tmp/out/IDIOM_myv-lex.xml
-!2012-03-14!INTERJ ;	   ! ../../tmp/out/INTERJ_myv-lex.xml
+INTERJ ;	   ! ../../tmp/out/INTERJ_myv-lex.xml
 !2012-03-14!INTERR ;         ! pron-myv-morph.txt
 N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
 !2012-03-14!N-DV ;			   ! ../../tmp/out/N-DV_myv-lex.xml
@@ -340,7 +343,7 @@ N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
 !2012-03-14!PART ;		   ! ../../tmp/out/PART_myv-lex.xml
 !2012-03-14!PART-ONOM ;	   ! ../../tmp/out/PART-ONOM_myv-lex.xml
 !2012-03-14!PERS ;         ! pron-myv-morph.txt
-!2012-03-14!POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
+POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
 !2012-03-14!PRON ;		   ! ../../tmp/out/PRON_myv-lex.xml
 !2012-03-14!PRON-DEM ;	   ! ../../tmp/out/PRON-DEM_myv-lex.xml
 !2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
@@ -371,6 +374,19 @@ V ;			   !!! ../../tmp/out/V_myv-lex.xml
 
 LEXICON R
 %- N ;
+
+
+
+
+
+! ============ !
+! Interj lexica !
+! ============ !
+
+
+LEXICON Interj-Imp
++2Sg: ImpClitic ;
++2Pl:%>дО1 ImpClitic ;
 
 
 
