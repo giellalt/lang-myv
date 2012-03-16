@@ -109,12 +109,14 @@ Multichar_Symbols
 +Org ! name of organization
 +Nom
 
+!!!! FUNCTIONS are all upper-case !!!!
++ACC +DAT ! This marks a function not a morpheme
+
 +Gen +Abl +Dat +Com 
 ! The accusative is marked by the indefite nominative
 ! The definite genitives
 ! The possessum genitive where there is a morphological distinction
 ! The indefinite genitive where context provides semantic definiteness
-+Acc ! This marks a function not a morpheme
 +Cmpl ! complement of postpostion
       ! it will be noted that this complement
       ! is not necessarily limited to postpositions, non-finites are also
@@ -150,7 +152,7 @@ Multichar_Symbols
 +Comp ! Case form -шка
 
 
-+Temp ! -не
++Temp ! Case form -не
 
 !!Pair Verbs, Serial Verbs compounding
 +SerialVerb
@@ -187,6 +189,11 @@ Multichar_Symbols
 +Der/пель
 
 +Spat ! spatial
++Spat-1Arg ! This takes care of postpostions
++Spat-0Arg ! This takes care of adverbs
++Temp-1Arg ! This takes care of postpostions
++Temp-0Arg ! This takes care of adverbs
+
 +State ! position or state
 
 !Modifier without noun
