@@ -17,7 +17,7 @@ Multichar_Symbols
 +IndNonpast2Pl
 +IndNonpast3Pl
 +Deict ! Deictic
-
++Exclusive ! ансяк
 
 
 
@@ -307,6 +307,86 @@ Multichar_Symbols
 @P.TLOSS.ON@
 @R.TLOSS.ON@
 
+
+@P.PossPx.1Sg@
+@P.PossPx.2Sg@
+@P.PossPx.3Sg@
+@P.PossPx.1Pl@
+@P.PossPx.2Pl@
+@P.PossPx.3Pl@
+
+
+@U.PossPx.1Sg@
+@U.PossPx.2Sg@
+@U.PossPx.3Sg@
+@U.PossPx.1Pl@
+@U.PossPx.2Pl@
+@U.PossPx.3Pl@
+
+@D.PossPx@
+@C.PossPx@
+!!Adding Tense 2006-12-04
+@P.TNUM.SG@
+@P.TNUM.PL@
+@D.TNUM.SG@
+@D.TNUM.PL@
+@C.TNUM@
+
+@P.TPERS.1@
+@P.TPERS.2@
+@P.TPERS.3@
+@N.TPERS.1@
+@N.TPERS.2@
+@N.TPERS.3@
+@U.TPERS.1@
+@U.TPERS.2@
+@U.TPERS.3@
+@C.TPERS@
+
+!!Cases
+@N.CX.ILL@
+@N.CX.ELA@
+@N.CX.INE@
+@N.CX.LAT@
+@U.CX.ILL@
+@U.CX.ELA@
+@U.CX.INE@
+@U.CX.LAT@
+@C.CX@
+
+!!Dx number
+@P.DNUM.PL@
+@P.DNUM.SG@
+@U.DNUM.PL@
+@U.DNUM.SG@
+@C.DNUM@
+
+
+!!!!What are these?
+!@P.PERS.1@
+!@P.PERS.2@
+!@P.PERS.3@
+!@D.PERS.1@
+!@D.PERS.2@
+!@D.PERS.3@
+!@N.PERS.1@
+!@N.PERS.2@
+!@N.PERS.3@
+!@C.PERS@
+
+
+
+
+!Linking vowel for use with Translative
+@P.LV.ON@ 
+@P.LV.OFF@ 
+@R.LV.ON@ 
+@U.LV.ON@ 
+@D.LV.ON@ 
+@C.LV@ 
+
+
+
 ! Removal
 @C.CONJ-INF@
 @C.CONJ-TX@
@@ -347,7 +427,7 @@ N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
 !2012-03-14!No-e-element-V ;	   ! ../../tmp/out/No-e-element-V_myv-lex.xml
 !2012-03-14!NUM ;		   ! ../../tmp/out/NUM_myv-lex.xml
 !2012-03-14!NUM-PREFIXES ; ! num-myv-morph.txt
-!2012-03-14!PART ;		   ! ../../tmp/out/PART_myv-lex.xml
+PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
 !2012-03-14!PART-ONOM ;	   ! ../../tmp/out/PART-ONOM_myv-lex.xml
 !2012-03-14!PERS ;         ! pron-myv-morph.txt
 POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
