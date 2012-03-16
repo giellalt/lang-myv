@@ -98,6 +98,7 @@ Alphabet
 TLoss:0
 KLoss:0
 VLoss:0
+WLoss:0
 NoVLoss:0
 
 %- !Hyphen with constructions like "-buti"
@@ -148,7 +149,7 @@ LFCH =[ [ FTV AC* ConsDent ] | [ BTV FTC [ AC* ConsDent ]+ ] | [ BTV л ь [ к 
 LBC = [ [ BTV NPC+ ] | [ BTV л ь [[ NPC* NPC ] - [ :* к с ] ] ] ] ;
 
 ! Suffix-Initial Variable Vowel
-SIVV = [ н ь | в | м | н Ь2: | н е н ь | н к | т Ь2: | т ь | т е н ь | т е т ь | н с т э н ь | н с т О1: | с т | л ь | л и | к с | ш к а | н О1: к | м О1: к | с | з О1: | н з О1: | н т ] ;
+SIVV = [ н ь | в | м | н Ь2: | н е н ь | н к | т Ь2: | т ь | т е н ь | т е т ь | н с т э н ь | н с т О1: | с т | л ь | л и | к с | ш к а | н О1: к | м О1: к | с | з О1: | н з О1: | н т | в ( О1: ) л | м А1: | м г а ] ;
 
 SubseqBackHarm = [ А2:а | а | О1:о | У2:о | о | а:я | у| А2:я | я | ё | ю ] ;
 Back =  :* [SubseqBackHarm \[ :FTV | :й | :ь | Ы3: | И3: | И2: ]* ( л ь ) [NPC]]  ;
@@ -181,13 +182,9 @@ Rules
 
 
 
-
-!!Changes in stem Consonants
-!"T1:t"
-!Т1:т <=> [ е | о ]  _ %>:0 с (т) ь: ;
-
-!"A1:o"
-!А1:о <=>  [ а |я ] %>:0  м  _ ;
+! Deverbal noun in ОмА
+"A1:o"
+А1:о <=>  [ а |я ] %>:0  м  _ ;
 
 "Y2:yi"
 Ы2:и <=> [ я:0 | ё:0 | е:0 |ConsNonDent noGlideVow:0]  %>:0 _ ;
@@ -200,8 +197,8 @@ Rules
          [ LFCS | FTV ] %>:0  [в:0 | в ] т _ м [О1:0|О1:е] ;
           ConsDent: ь:0 %>:0 _ SIVV ;
           LFCS %>:0 _ SIVV ;
-         [ FTV %>:0 | :FTV ] в _ л [ ь | и ] ;
-!!conversion 2012-03-14
+         [ FTV %>:0 | FTV в:0 WLoss:0 %>:0 | :FTV ] в _ л [ ь | и ] ;
+         
 
 !2007-5-14 changing "[И3:|Ы3:|Front]" to "[И3:|Ы3:|:FTV|й|ь]"
 !to cope with "церькова"
@@ -223,7 +220,7 @@ Rules
          [ LBC | :BTV ] %>:0 в: т _ м [О1:0|О1:о] ;
          [ LBC | :BTV ] %>:0 с (т) _  [ #: | %>:0 [ Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ;
          [[ LBC | :BTV ] %>:0 | :BTV ] (н) з _  [ #: | %>:0 [ Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ;
-         [ BTV %>:0 | :BTV ] в _ л [ ь | и ] ;
+         [ BTV %>:0 | BTV в:0 WLoss:0 %>:0 | :BTV ] в _ л [ ь | и ] ;
          LBC ( Ь2:0 ) %>:0 _ SIVV ;
 !!2012-03-14
 
@@ -270,6 +267,7 @@ Rules
 !Changes in suffix consonants
 "v:0"
 в:0 <=> [ Cons  ( ь ) ] %>:0 _ т [О1:о|О1:е|О1:э] м [О1:о|О1:е|О1:0] ;
+        :Vows _ %>:0 WLoss:0 [ в О1: л | в л ] ;
 
 !!!Depricated due to 
 !!ERROR: Label not found in 'EQV_LABELS' (114) **
@@ -377,8 +375,11 @@ Rules
 У3:0 /<= Vows _ ;  
 
 "Disallow TLoss after non-t"
-TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] _ ;
+TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %>:0 _ ;
 
-"Disallow TLoss after non-k"
-KLoss:0 /<= [[ :* Letters ] - [ :* :к ] ] _ ;
+"Disallow KLoss after non-k"
+KLoss:0 /<= [[ :* Letters ] - [ :* :к ] ] %>:0 _ ;
+
+"Disallow WLoss after non-v"
+WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %>:0 _ ;
 
