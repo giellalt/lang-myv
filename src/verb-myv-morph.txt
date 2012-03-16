@@ -92,10 +92,10 @@ LEXICON nevtems-V
 LEXICON kadoms-V
 +V1: kadoms-V-a ;
 +V1:     VerbsPresPrt_1 ;
++Conneg:%>О1К3 Tenses1 ;
 +V1+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V1+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V1: Deverbals_1_ReqVow ;
-+V1: Deverbals_1_NoReqVow ;
++V1: Deverbals ;
 +V1+LV+Conneg:%>О1К3 Tenses1 ;
 
 
@@ -110,38 +110,37 @@ LEXICON kadoms-V-a
 
 LEXICON sajevems-V
 +V1VI: sajevems-V-a ;
-+V1VI:вИ1     VerbsPresPrt_1 ;
-+V1VI+Cond:вИ1%>Ы2ндеря   VerbsPresPrt_1 ;
-+V1VI+Cond:вИ1%>Ы2ндеря   Deverbals_2 ;
-+V1VI:вИ1  Deverbals_1_ReqVow ;
-+V1VI:вИ1  Deverbals_1_NoReqVow ;
-+V1VI+LV+Conneg:вИ1%>О1К3 Tenses1 ;
++V1VI:     VerbsPresPrt_1 ;
++Conneg:%>О1К3 Tenses1 ;
++V1VI+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V1VI+Cond:%>Ы2ндеря   Deverbals_2 ;
++V1VI:  Deverbals_1 ;
++V1VI+LV+Conneg:%>О1К3 Tenses1 ;
 
 
 LEXICON sajevems-V-a
  CondVerbs ;
-+Conj: Conjunctive2 ;
-+Conj+Use/Sub/Dial:вИ1 Conjunctive1 ;
-+Des:вИ1 Desiderative1 ;
-:вИ1 Indicative1 ;
-+IndPrt2:вИ1 IndicativePrt2_1 ;
-+Imp:вИ1 Imperative1 ;
-+Opt:вИ1 Optative1 ;
++Conj:WLoss Conjunctive2 ;
++Conj+Use/Sub/Dial: Conjunctive1 ;
++Des: Desiderative1 ;
+ Indicative1 ;
++IndPrt2: IndicativePrt2_1 ;
++Imp: Imperative1 ;
++Opt: Optative1 ;
 
 LEXICON jangavoms-V
 +V1VU: jangavoms-V-a ;
-+V1VU:вУ1     VerbsPresPrt_1 ;
-+V1VU+Cond:вУ1%>Ы2ндеря   VerbsPresPrt_1 ;
-+V1VU+Cond:вУ1%>Ы2ндеря   Deverbals_2 ;
-+V1VU:вУ1 Deverbals_1_ReqVow ;
-+V1VU:вУ1 Deverbals_1_NoReqVow ;
++V1VU:     VerbsPresPrt_1 ;
++Conneg:%>О1К3 Tenses1 ;
++V1VU+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V1VU+Cond:%>Ы2ндеря   Deverbals_2 ;
++V1VU: Deverbals_1 ;
 +V1VU+LV+Conneg:вУ1%>О1К3 Tenses1 ;
-
 
 LEXICON jangavoms-V-a
  CondVerbs ;
-+Conj: Conjunctive2 ;
-+Conj+Use/Sub/Dial:вУ1 Conjunctive1 ;
++Conj:WLoss Conjunctive2 ;
++Conj+Use/Sub/Dial: Conjunctive1 ;
 +Des:вУ1 Desiderative1 ;
 :вУ1 Indicative1 ;
 +IndPrt2:вУ1 IndicativePrt2_1 ;
@@ -151,6 +150,7 @@ LEXICON jangavoms-V-a
 LEXICON kundams-V
 +V2: kundams-V-a ;
 +V2:     VerbsPresPrt_1 ;
++Conneg:%>К3 Tenses1 ;
 +V2+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V2+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V2+NoLV:  Deverbals_2 ; !This denies linking vowel
@@ -169,16 +169,18 @@ LEXICON kundams-V-a
 LEXICON satoms-V
 +V3: Verbs3-a ;
 +V3:     VerbsPresPrt_1 ;
++Conneg:%>О1К3 Tenses1 ;
 +V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V3+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V3+NoLV:  Deverbals_2 ; !This denies linking vowel
++V3+NoLV:  Deverbals_1 ; 
 
 LEXICON letems-V
 +V3: Verbs3-a ;
 +V3:     VerbsPresPrt_1 ;
++Conneg:%>О1К3 Tenses1 ;
 +V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V3+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V3+NoLV:  Deverbals_2 ; !This denies linking vowel
++V3+NoLV:  Deverbals_1 ; 
 
 
 LEXICON Verbs3-a
@@ -849,9 +851,8 @@ LEXICON VerbsPresPrt_1
 +DeverbalPrsPrtLong+NConsStem:%>Ы2ця kudo-N ;
 +DeverbalPrsPrtMedium+NConsStem:%>Ы2й Nouns1 ;
 +DeverbalPrsPrtShort:%>Ы2 kudo-N ;
-+Conneg:%>О1К3 Tenses1 ;
 
-LEXICON Deverbals_1_ReqVow
+LEXICON Deverbals_1
 
 +Deverbal+Noun:%>О1мА1 kudo-N ;
 +Deverbal+Oblig:%>О1ма Tenses1 ;
@@ -872,11 +873,7 @@ LEXICON Deverbals_1_ReqVow
 
 +Deverbal+Der/Онь+Ptc:%>О1нсе kudo-N2-Def-Declension ;
 
-LEXICON Deverbals_1_NoReqVow
-
 +Use/Sub/Dial+Deverbal+mOInf+Loc:%>мО1 kudo-N ;
-+Use/Sub/Dial+Deverbal+mksInf+Transl:%>мекс Tenses1 ;
-!!This one was marked on 2006-12-01
 +Use/Sub/Dial+Deverbal+msInf+Transl:%>мО1%>ксУ4 Tenses1 ;
 !!This one was marked on 2006-12-01
 +Use/Sub/Dial+Deverbal+mOInf+Abl:%>мО1%>дО1 Possessives1 ;
@@ -884,28 +881,28 @@ LEXICON Deverbals_1_NoReqVow
 +Use/Sub/Dial+Deverbal+mOInf+Ill:%>мО1%>зО1 Possessives2 ;
 
 !!!!!!!!!
-!!Verbs2 and Verbs3
+!!Verbs2 
 LEXICON Deverbals_2
 
-+Deverbal+Noun:%>О1мА1 kudo-N ;
-+Deverbal+Oblig:%>О1ма Tenses1 ;
-+Deverbal+Noun:%>О1мка kudo-N ;
-+Deverbal+mOInf+Loc:%>О1мО1 kudo-N ;
-+Deverbal+msInf+Ill:%>О1мс sajems-Conjugation ;
-+Deverbal+mstOInf+Ela:%>О1мстО1 Possessives1 ;
-+Deverbal+mgaInf+Prol:%>О1мга Possessives1 ;
++Deverbal+Noun:%>мА1 kudo-N ;
++Deverbal+Oblig:%>ма Tenses1 ;
++Deverbal+Noun:%>мка kudo-N ;
++Deverbal+mOInf+Loc:%>мО1 kudo-N ;
++Deverbal+msInf+Ill:%>мс sajems-Conjugation ;
++Deverbal+mstOInf+Ela:%>мстО1 Possessives1 ;
++Deverbal+mgaInf+Prol:%>мга Possessives1 ;
 !!Marked 2006-12-01
-+Deverbal+mdOInf+Abl:%>О1мдО1 Possessives1 ;
++Deverbal+mdOInf+Abl:%>мдО1 Possessives1 ;
 !!Marked 2006-12-01
-+Deverbal+mOInf+Abl:%>О1мО1%>дО1 Possessives1 ;
++Deverbal+mOInf+Abl:%>мО1%>дО1 Possessives1 ;
 !!Marked 2006-12-01
-+Deverbal+mOInf+Ill:%>О1мО1%>зО1 Possessives2 ;
-+Deverbal+Der/Озь+Ptc:%>О1зь sajezj-PTC ; !!
-+Deverbal+Der/Онь+Ptc:%>О1нь Tenses1 ;
-+Deverbal+Der/Онь+Ptc:%>О1нсе kudo-N2-Def-Declension ;
++Deverbal+mOInf+Ill:%>мО1%>зО1 Possessives2 ;
++Deverbal+Der/Озь+Ptc:%>зь sajezj-PTC ; !!
++Deverbal+Der/Онь+Ptc:%>нь Tenses1 ;
++Deverbal+Der/Онь+Ptc:%>нсе kudo-N2-Def-Declension ;
 
 !!This one was marked on 2006-12-01
-+Use/Sub/Dial+Deverbal+msInf+Transl:%>О1мО1%>кс Tenses1 ;
++Use/Sub/Dial+Deverbal+msInf+Transl:%>мО1%>кс Tenses1 ;
 
 LEXICON sajezj-PTC
  Clitic ;
