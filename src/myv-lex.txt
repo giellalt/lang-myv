@@ -429,9 +429,9 @@ N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
 !2012-03-14!NUM-PREFIXES ; ! num-myv-morph.txt
 PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
 !2012-03-14!PART-ONOM ;	   ! ../../tmp/out/PART-ONOM_myv-lex.xml
-!2012-03-14!PERS ;         ! pron-myv-morph.txt
+PERS ;         ! pronoun !pers-myv-morph.txt
+               ! ../../tmp/out/PERS_myv-lex.xml
 POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
-!2012-03-14!PRON ;		   ! ../../tmp/out/PRON_myv-lex.xml
 !2012-03-14!PRON-DEM ;	   ! ../../tmp/out/PRON-DEM_myv-lex.xml
 !2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
 !2012-03-14!PRON-INTER ;   ! ../../tmp/out/PRON-INTER_myv-lex.xml
@@ -480,6 +480,47 @@ LEXICON Interj-Imp
 ! ============ !
 ! Postp lexica !
 ! ============ !
+
+LEXICON vaksso-SPAT
+ malaso-SPAT ;
++LV+Ela:%>О1стО1 kudo-Conjugation ;
++LV+Ill:%>О1с Clitic ;
++LV+Ine:%>О1сО1 kudo-Conjugation ;
+
+LEXICON langso-SPAT
++Ela:%>VLossстО1 kudo-Conjugation ;
++Ill:%>VLossс Clitic ;
++Ine:%>VLossсО1 kudo-Conjugation ;
+
+LEXICON malaso-SPAT
++Ela:%>стО1 kudo-Conjugation ;
++Ill:%>с Clitic ;
++Ine:%>сО1 kudo-Conjugation ;
++Ela:%>стО1 kudo-SPAT-PossX ;
++Ill:%>О1з osh-SPAT-PossX ;
++Ine:%>сО1 kudo-SPAT-PossX ;
++Prol:%>Г2а kudo-SPAT-PossX ;
+
+LEXICON kudo-SPAT-PossX
++Px1Sg:%>нЬ2 kal-Conjugation ;
++Px1Sg+Use/Sub/Dial:%>м kal-Conjugation ;
++Px2Sg:%>тЬ2 kit-Conjugation ;
++Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-Conjugation ;
++Px3Sg:%>нзО1 kudo-Conjugation ;
++Px1Pl:%>нО1к lak-Conjugation ;
++Px2Pl:%>нк lak-Conjugation ;
++Px3Pl:%>ст kit-Conjugation ;
+
+LEXICON osh-SPAT-PossX
++Px1Sg:%>О1нЬ2 kal-Conjugation ;
++Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
++Px2Sg:%>О1тЬ2 kit-Conjugation ;
++Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
++Px3Sg:%>О1нзО1 kudo-Conjugation ;
++Px1Pl:%>О1нО1к lak-Conjugation ;
++Px2Pl:%>О1нк lak-Conjugation ;
++Px3Pl:%>О1ст kit-Conjugation ;
+
 
 
 !This contlex allows for relational word which, otherwise, are open 
