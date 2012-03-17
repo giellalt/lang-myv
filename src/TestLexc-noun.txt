@@ -236,10 +236,8 @@ LEXICON PROP-M
 ох+Interj:ох # ;
 оштё+Pcle:оштё # ;
 паштянгот+Interj:паштянгот # ;
-парсте+Adv+Manner:парсте # ;
 паряк+Adv+Mod:паряк # ;
 пачк+Pcle:пачк # ;
-пек+AdA:пек Gen-Attributes ;
 пекенучк+Pcle:пекенучк # ;
 пецек+Adv+Coll:пецек Gen-Attributes ;
 поди+Pcle:поди # ;
@@ -269,7 +267,6 @@ LEXICON PROP-M
 теньстэ+Pron+Gen+Ela:теньстэ Clitic ;
 тожо+Adv+OldOrth:тожо kudo-N ;
 то+Pcle:то # ;
-тунь+Pcle:тунь # ;
 тык+Pcle:тык lak-N ;
 тыц+Pcle:тыц kal-N ;
 тюк+Pcle:тюк lak-N ;
@@ -860,13 +857,17 @@ LEXICON Nouns2-a
 +Dial+Dat+Poss3Pl:%>О1нстэст Clitic ;
 
 
-LEXICON Gen-Attributes
-+ZeroSuf: Clitic ; !This means that stem is word final !!!
-+LV:%>О1 Gen-Attributes_1 ; !
-+NoLV:%> Gen-Attributes_1 ; !
+LEXICON istja-Gen-Attributes
+ Clitic ; !This means that stem is word final !!!
++Abl+Indef:%>дО1 Clitic ;
++Indet+GenIndef:%>нь Tenses-Obl ;
++OrthOld+GenIndef+SOD:%>нсе Nouns3-1 ;
++OrthMorph+GenIndef+SOD:%>ньсе Nouns3-1 ;
++OrthPhon+GenIndef+SOD:%>нце Nouns3-1 ;
 
-LEXICON Gen-Attributes_1
 
+LEXICON pek-Gen-Attributes
+ Clitic ; !This means that stem is word final !!!
 +Abl+Indef:%>дО1 Clitic ;
 +Indet+GenIndef:%>О1нь Tenses-Obl ;
 +OrthOld+GenIndef+SOD:%>О1нсе Nouns3-1 ;
