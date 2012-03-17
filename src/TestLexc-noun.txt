@@ -573,8 +573,8 @@ LEXICON Nouns-Secondary-declension
 LEXICON Nouns-Secondary-declension_Poss
 
 !!Possessive declension
-+Poss1Sg:%>О1нУ4 Nouns1-1 ;
-+Poss2Sg:%>О1тУ4 Nouns1-1 ;
++Poss1Sg:%>О1нЬ2 Nouns1-1 ;
++Poss2Sg:%>О1тЬ2 Nouns1-1 ;
 +Poss3Sg:%>О1нзО1 Nouns3-1 ;
 +Poss1Pl:%>О1нО1к Nouns1-1 ;
 +Poss2Pl:%>О1нк Nouns1-1 ;
@@ -648,8 +648,8 @@ LEXICON Nouns3-1
 LEXICON Indef-DefSg-Poss
 +Indef: Tenses-Obl ;
 +DefSg:%>О1нть Clitic ;
-+Poss1Sg:%>О1нУ4 Tenses-Obl ;
-+Poss2Sg:%>О1тУ4 Tenses-Obl ;
++Poss1Sg:%>О1нЬ2 Tenses-Obl ;
++Poss2Sg:%>О1тЬ2 Tenses-Obl ;
 +Poss3Sg:%>О1нзО1 Tenses-Obl ;
 +Poss1Pl:%>О1нО1к Tenses-Obl ;
 +Poss2Pl:%>О1нк Tenses-Obl ;
@@ -666,7 +666,7 @@ LEXICON Nouns_Shibilant
 +Ela:%>стО1 Indef-DefSg-Poss ;
 
 LEXICON Nouns_Pl
-+Indet+Pl:%>тУ4 Tenses-NomPl ;
++Indet+Pl:%>тЬ2 Tenses-NomPl ;
 +Pl.DefPl+Abe:%>тне%>втеме Tenses-Obl  ;
 +Pl.DefPl+Abl:%>тне%>де Tenses-Obl ;
 +Pl.DefPl+Com:%>тне%>нек Clitic ;
@@ -734,13 +734,13 @@ LEXICON Possessive-NomGen
 +Dial+NomPl+Poss1Sg/м:%>О1м Tenses-NomPl ;
 +Gen+Poss1Sg/м:%>О1м Tenses-Obl ;
 
-+NomPl+Poss1Sg/Н:%>О1нУ4 Tenses-NomPl ;
-+Gen+Poss1Sg/Н:%>О1нУ4 Tenses-Obl ;
++NomPl+Poss1Sg/Н:%>О1нЬ2 Tenses-NomPl ;
++Gen+Poss1Sg/Н:%>О1нЬ2 Tenses-Obl ;
 +Poss1Sg+KinGen:%>О1нь Tenses-Obl ;
 
-+NomSg+Poss2Sg:%>О1тУ4 Tenses-NomSg ;
-+NomPl+Poss2Sg:%>О1тУ4 Tenses-NomPl ;
-+Gen+Poss2Sg:%>О1тУ4 Tenses-Obl ;
++NomSg+Poss2Sg:%>О1тЬ2 Tenses-NomSg ;
++NomPl+Poss2Sg:%>О1тЬ2 Tenses-NomPl ;
++Gen+Poss2Sg:%>О1тЬ2 Tenses-Obl ;
 +Poss2Sg+KinGen:%>О1ть Tenses-Obl ;
 
 +NomSg+Poss3Sg:%>О1зО1 Tenses-NomSg ;
@@ -882,8 +882,8 @@ LEXICON Possessives1
 
 LEXICON Possessives2
 +Dial+Poss1Sg/м:%>О1м Determinatives1 ;
-+Poss1Sg/Н+NonNomSg:%>О1нУ4 Determinatives1 ;
-+Poss2Sg:%>О1тУ4 Determinatives1 ;
++Poss1Sg/Н+NonNomSg:%>О1нЬ2 Determinatives1 ;
++Poss2Sg:%>О1тЬ2 Determinatives1 ;
 +Poss3Sg+NonNomSg:%>О1нзО1 Determinatives1 ;
 +Poss1Pl:%>О1нО1к Determinatives1 ;
 +Poss2Pl:%>О1нк Determinatives1 ;
@@ -934,7 +934,7 @@ LEXICON Tenses-Obl
 +Pred+PretII+3Sg:%>О1ль Clitic ;
 +Pred+Pres+1Pl:%>тА2но Clitic ;
 +Pred+Pres+2Pl:%>тА2до Clitic ;
-+Pred+Pres+3Pl:%>тУ4 Clitic ;
++Pred+Pres+3Pl:%>тЬ2 Clitic ;
 +Pred+PretII+1Pl:%>О1линек Clitic ;
 +Pred+PretII+2Pl:%>О1лиде Clitic ;
 +Pred+PretII+3Pl:%>О1льть Clitic ;
@@ -1000,8 +1000,8 @@ LEXICON  Indet_Pronouns
 
 
 LEXICON Indet_Pronouns-Cases
-+VLoss+Pl+Nom:^VLossтУ4 Indet_Pronouns-Clitic ; 
-+Pl+Nom:^тУ4 Indet_Pronouns-Clitic ; 
++VLoss+Pl+Nom:^VLossтЬ2 Indet_Pronouns-Clitic ; 
++Pl+Nom:^тЬ2 Indet_Pronouns-Clitic ; 
 +Ela:^стО1 Indet_Pronouns-Clitic ;
 +Ine:^сО1 Indet_Pronouns-Clitic ;
 +Ill:^с Indet_Pronouns-Clitic ;
@@ -1086,11 +1086,11 @@ LEXICON Misc_Pronouns_Sg
 +Prol+Det+Sg:^Г2а SgDet-PossPx ;
 +Abe+Det+Sg:^втО1мО1 SgDet-PossPx ;
 +Abl+Det+Sg:^дО1 SgDet-PossPx ;
-+NoLV+Transl+Det+Sg:^ксУ4 SgDet-PossPx ;
++NoLV+Transl+Det+Sg:^ксЬ2 SgDet-PossPx ;
 +NoLV+Ine+Det+Sg:^сО1 SgDet-PossPx ;
 +NoLV+Ela+Det+Sg:^стО1 SgDet-PossPx ;
 +NoLV+Comp+Det+Sg:^шка SgDet-PossPx ;
-+LV+Transl+Det+Sg:^V1ксУ4 SgDet-PossPx ;
++LV+Transl+Det+Sg:^V1ксЬ2 SgDet-PossPx ;
 
 LEXICON SgDet-PossPx
  PossPX1 ;
@@ -1111,13 +1111,13 @@ LEXICON Misc_Pronouns_Indet
 +Indet+Ela:^стО1 Clitic ;
 +Indet+Prol:^Г2а Clitic ;
 +Indet+Abe:^втО1мО1 Clitic ;
-+Indet+Transl:^ксУ4 Clitic ;
++Indet+Transl:^ксЬ2 Clitic ;
 +Indet+Comp:^шка Clitic ; 
 
 
 LEXICON Misc_Pronouns_Pl
 +Abs: # ;
-+Indet+Pl:^тУ4 Clitic ;
++Indet+Pl:^тЬ2 Clitic ;
 +Det+Pl:^тне Clitic ; 
 +Det+Pl+Abl:^тне^де Clitic ;
 +Det+Pl+Abe:^тне^с Clitic ;
@@ -1139,14 +1139,14 @@ LEXICON SecondaryDeclination
 +Prol+Det+Sg:^Г2а SecondaryDeclination_SgDet-PossPx ;
 +Abe+Det+Sg:^втО1мО1 SecondaryDeclination_SgDet-PossPx ;
 +Abl+Det+Sg:^дО1 SecondaryDeclination_SgDet-PossPx ;
-+NoLV+Transl+Det+Sg:^ксУ4 SecondaryDeclination_SgDet-PossPx ;
++NoLV+Transl+Det+Sg:^ксЬ2 SecondaryDeclination_SgDet-PossPx ;
 +NoLV+Ine+Det+Sg:^сО1 SecondaryDeclination_SgDet-PossPx ;
 +NoLV+Ela+Det+Sg:^стО1 SecondaryDeclination_SgDet-PossPx ;
 +NoLV+Comp+Det+Sg:^шка SecondaryDeclination_SgDet-PossPx ;
-+LV+Transl+Det+Sg:^V1ксУ4 SecondaryDeclination_SgDet-PossPx ;
++LV+Transl+Det+Sg:^V1ксЬ2 SecondaryDeclination_SgDet-PossPx ;
 
  Clitic ;
-+Indet+Pl:^тУ4 Clitic ;
++Indet+Pl:^тЬ2 Clitic ;
 +Det+Pl:^тне Clitic ; 
 +Det+Pl+Abl:^тне^де Clitic ;
 +Det+Pl+Abe:^тне^с Clitic ;
@@ -1166,9 +1166,9 @@ LEXICON SecondaryDeclination_SgDet-PossPx
 
 !Q!
 LEXICON PossPX1
-< 0:%^ 0:н 0:У4 %+Poss:0 %+1Sg:0 "@U.PossPx.1Sg@">  SecondaryDeclination ;
+< 0:%^ 0:н 0:Ь2 %+Poss:0 %+1Sg:0 "@U.PossPx.1Sg@">  SecondaryDeclination ;
 < 0:%^ 0:м  %+Dial:0 %+Poss:0 %+1Sg:0 "@U.PossPx.1Sg@">  SecondaryDeclination ;
-< 0:%^ 0:т 0:У4 %+Poss:0 %+2Sg:0 "@U.PossPx.2Sg@">  SecondaryDeclination ;
+< 0:%^ 0:т 0:Ь2 %+Poss:0 %+2Sg:0 "@U.PossPx.2Sg@">  SecondaryDeclination ;
 < 0:%^ 0:н 0:т 0:ь %+Dial:0 %+Poss:0 %+2Sg:0 "@U.PossPx.2Sg@">  SecondaryDeclination ;
 < 0:%^ 0:н 0:з 0:О1 %+Poss:0 %+3Sg:0 "@U.PossPx.3Sg@">  SecondaryDeclination ;
 !< 0:%^ 0:н 0:з 0:о %+Dial:0 %+Poss:0 %+3Sg:0 "@U.PossPx.3Sg@">  SecondaryDeclination ;
