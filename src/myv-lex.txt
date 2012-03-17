@@ -1,6 +1,58 @@
 Multichar_Symbols
 
 
+! tags
++Abs ! Absolutive
++Adj ! Adjective
++Attr ! Attribute
++Capitalizing
++Dem ! Demonstrative
++Def ! Definite
++Der ! Derivation +Deriv
++Det ! Determinative
++Dial
++DimKE ! Diminutive
++DimNE ! Diminutive
++Ellips ! Ellipsis
++Emphatic
++Gr2000
++Indet ! Indeterminative
++Fin ! Finite
++Noun ! Noun
++NomGen ! Nominative and genitive functions
++NonNomSg ! applicable to 1sg and 3sg possession
+!+NoLV ! +NoVowX
++Obj ! Object
++Obliq !
+!+MVme !Main verb "mo" vs "me"
+!+OldOrth
++Poss !
++PossPX
+!+Pref
+!+Pres
+!+PretI
+!+PretII
+!+Prt !Participle >+Ptc
++Prol ! Prolative
+!+Relat
++Short ! short pronouns ??
++Subj
++Telic ! Telic aspect
++Top ! Topic
+!+Transl ! Translative
++Verb ! Verb
++Voicing
++VLoss !Vowel loss
++V2Nma !Deverbal Noun in "mo" and "ma"
++2V ! Derived Verb
++2N ! Derived Noun
++LV !!+VowX linking vowel
+
+!!!!!!!!!!!
+
+
+
+!!!!!!!!!!
 
 +CmpTest
 
@@ -190,9 +242,9 @@ Multichar_Symbols
 
 +Spat ! spatial
 +Spat-1Arg ! This takes care of postpostions
-+Spat-0Arg ! This takes care of adverbs
++Spat-NoArg ! This takes care of adverbs
 +Temp-1Arg ! This takes care of postpostions
-+Temp-0Arg ! This takes care of adverbs
++Temp-NoArg ! This takes care of adverbs
 
 +State ! position or state
 
@@ -202,10 +254,10 @@ Multichar_Symbols
 
 !Declaring Indefinite Pronoun derivations
 +Der/гак
-+Der/кой-
-+Der/та-
-+Der/таго-
-+Der/-бути
++Der/кой
++Der/та
++Der/таго
++Der/бути
 
 
 
@@ -250,6 +302,19 @@ Multichar_Symbols
 +Temp.NbAmb.Indef
 +Tra.NbAmb.Indef
 
+
+! Nominal stem vowel following vowel, word finally realized as "й"
+!И4
+
+! imperative suffix
+!К1
+
+! connegative suffix rendering consonant
+!К2
+
+! connegative suffix rendering vowel
+!К3
+
 А1 А2 Г1 Г2 Ь2 Т1 О1 Ы2 К1 К3 К4 У2 И2 TLoss KLoss VLoss WLoss %>
 %^Inf
 %^PATR
@@ -265,7 +330,7 @@ Multichar_Symbols
        ! Let's begin with nouns книга, учитель
 
 
-! Flags used with serial verbs
+!!!! Flags used with serial verbs
 ! INF = Infinitive
 @U.CONJ-INF.YES@
 @U.CONJ-INF.NO@
@@ -374,16 +439,28 @@ Multichar_Symbols
 !@N.PERS.3@
 !@C.PERS@
 
+!!
+@P.NUM.SG@
+@P.NUM.PL@
+@D.NUM.SG@
+@D.NUM.PL@
+@C.NUM@
+
+@P.INDET.PREF@
+@D.INDET.PREF@
+@R.INDET.PREF@
+@C.INDET@
 
 
 
-!Linking vowel for use with Translative
-@P.LV.ON@ 
-@P.LV.OFF@ 
-@R.LV.ON@ 
-@U.LV.ON@ 
-@D.LV.ON@ 
-@C.LV@ 
+
+!!Linking vowel for use with Translative
+!@P.LV.ON@ 
+!@P.LV.OFF@ 
+!@R.LV.ON@ 
+!@U.LV.ON@ 
+!@D.LV.ON@ 
+!@C.LV@ 
 
 
 
@@ -432,6 +509,9 @@ PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
 PERS ;         ! pronoun !pers-myv-morph.txt
                ! ../../tmp/out/PERS_myv-lex.xml
 POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
+ Misc_Pronouns ;
+ Indet_Pronouns ;
+<"@P.INDET.PREF@">  Indet_Pronouns-pref ;
 !2012-03-14!PRON-DEM ;	   ! ../../tmp/out/PRON-DEM_myv-lex.xml
 !2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
 !2012-03-14!PRON-INTER ;   ! ../../tmp/out/PRON-INTER_myv-lex.xml
