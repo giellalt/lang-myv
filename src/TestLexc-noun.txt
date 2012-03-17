@@ -121,7 +121,6 @@ LEXICON PROP-M
 допрок+Pcle:допрок lak-N ;
 друк+Temp-NoArg:друк lak-N ;
 дык+Adv:дык lak-N ;
-дюм+AdA:дюм Gen-Attributes ;
 ещё+Temp-NoArg:ещё kudo-N ;
 ёще+Temp-NoArg:ёще kudo-N ;
 же+Pcle+ForeignNew:же # ;
@@ -163,7 +162,6 @@ LEXICON PROP-M
 кыть+Conjunction:кыть # ;
 ладна+Adv:ладна kudo-N ;
 ласте+Pcle:ласте kudo-N ;
-лацо+Pcle+OldOrth+Ine:лацо Gen-Attributes ;
 ли+Pcle+ForeignNew:ли # ;
 лучше+Pcle+ForeignNew:лучше kudo-N ;
 лучи+Pcle+ForeignNew:лучи kudo-N ;
@@ -183,10 +181,9 @@ LEXICON PROP-M
 кой-мезе+Pron+IndefNomSg:кой-мезИ2 teshte-N ;
 
 ланго+Adv:лангсек # ;
-маныть+Temp-NoArg:маныть Gen-Attributes ;
 маны+Temp-NoArg:маны kudo-N ;
 мастор+Adv+Spatial:мастор Spatials_4cx ;
-!мезде+Pron+Abl+Indef:мезде Gen-Attributes ;
+!мезде+Pron+Abl+Indef:мезде istja-Gen-Attributes ;
 !мезеяк+Indef+Pron+IndefNomSg+Clt:мезеяк # ;
 
 !< %+Indef:0 %+Pron:0 к и %-:0 б:0 у:0 т:0 и:0 "@P.BUTI.ON@"> kudo-N ;
@@ -198,8 +195,8 @@ LEXICON PROP-M
 !мейс-бути+Indef+Pron+Ill+Indet:мейс-бути # ;
 !мекс-бути+Adv:мекс-бути # ;
 
-!мейсэ+Pron+Adv:мейсэ Gen-Attributes ;
-!мейстэ+Pron+Adv:мейстэ Gen-Attributes ;
+!мейсэ+Pron+Adv:мейсэ istja-Gen-Attributes ;
+!мейстэ+Pron+Adv:мейстэ istja-Gen-Attributes ;
 !мейс+Pron+Adv:мейс # ;
 !мекс+Pron+Adv:мекс # ;
 !мень+Pron+Gen:мень # ;
@@ -231,32 +228,29 @@ LEXICON PROP-M
 нюрь-нюрь+Pcle:нюрь-нюрь kal-N ;
 овсе+Pcle:овсе Clitic ;
 овсе+Dial+Pcle:овси Clitic ;
-ого+Pcle:ого # ;
-оно+Interj+Deict:оно # ;
-ох+Interj:ох # ;
 оштё+Pcle:оштё # ;
 паштянгот+Interj:паштянгот # ;
 паряк+Adv+Mod:паряк # ;
 пачк+Pcle:пачк # ;
 пекенучк+Pcle:пекенучк # ;
-пецек+Adv+Coll:пецек Gen-Attributes ;
+пецек+Adv+Coll:пецек pek-Gen-Attributes ;
 поди+Pcle:поди # ;
 пожалуй+Pcle:пожалуй # ;
 прок+Pcle:прок # ;
 прощай+Interj:прощай # ;
 рядсек+Adv+Coll:рядсек # ;
 рядцек+Adv+Coll:рядцек # ;
-салава+Pcle+Prol:салава Gen-Attributes ;
+салава+Pcle+Prol:салава istja-Gen-Attributes ;
 самай+Pcle+Superlative:самай # ;
-састо+Adv:састо Gen-Attributes ;
+састо+Adv:састо istja-Gen-Attributes ;
 седейшкава+Noun+Comp+Prol:седейшкава kudo-N ;
 седе+Pcle:седе Clitic ;
 секскак+Conjunction:секскак # ;
 секс+Adv:секс # ;
 сеньсэ+Pron+Gen+Ine:сеньсэ Clitic ;
 сеньстэ+Pron+Gen+Ela:сеньстэ Clitic ;
-сеедьстэ+Adv+Temp:сеедьстэ Gen-Attributes ;
-сеедьстэ+Adv+Temp+OldOrth:сеетьстэ Gen-Attributes ;
+сеедьстэ+Adv+Temp:сеедьстэ istja-Gen-Attributes ;
+сеедьстэ+Adv+Temp+OldOrth:сеетьстэ istja-Gen-Attributes ;
 секе-тев+Pcle+Lat:секе-тев # ;
 сеск+Pcle+DimK:сеск # ;
 сех+Pcle:сех kal-N ;
@@ -865,6 +859,9 @@ LEXICON istja-Gen-Attributes
 +OrthMorph+GenIndef+SOD:%>ньсе Nouns3-1 ;
 +OrthPhon+GenIndef+SOD:%>нце Nouns3-1 ;
 
+
+LEXICON chop-Gen-Attributes
+ pek-Gen-Attributes ;
 
 LEXICON pek-Gen-Attributes
  Clitic ; !This means that stem is word final !!!
