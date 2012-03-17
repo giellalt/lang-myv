@@ -6,9 +6,9 @@
 
 
 LEXICON Pers_Pronouns1
-+Nom:н kal-Tenses1 ;
-+Nom:нь kal-Tenses1 ;
-< 0:н 0:с 0:ь "+Refl":0 > PersPron_Minsy ;
+< 0:н "+Nom":0 "@D.TNUM.PL@" > kal-Tenses1 ;
+< 0:н 0:ь "+Nom":0 "@D.TNUM.SG@" > kal-Tenses1 ;
+< 0:н 0:с 0:ь "+Intensive":0 > PersPron_Minsy ;
 < 0:н 0:ь "+Poss":0 "+1Sg":0 "+Gen":0 "@U.PossPx.1Sg@" "@N.TPERS.1@"  "@C.TNUM@"> kal-PersPronGen_CX ;
 < 0:н 0:ь "+NoPoss":0 "+Gen":0 "@U.PossPx.2Sg@" "@N.TPERS.2@"  "@C.TNUM@"> kal-PersPronGen_CX ;
 < 0:н 0:т 0:ь "+Use/Sub/Dial":0 "+Poss":0 "+2Sg":0 "+Gen":0 "@U.PossPx.2Sg@""@N.TPERS.2@" "@C.TNUM@" > Tenses1 ;
@@ -30,16 +30,16 @@ LEXICON Pers_Pronouns1
 +Refl+Comp:%>О1нсешка PossPX1 ;
 +Refl+Dat:%>О1нсте PossPX1 ;
 
-< 0:">" 0:О1 0:н 0:ь "+Gen":0 "+2Sg":0 "@U.PossPx.2Sg@" "@C.TNUM@" "@N.TPERS.2@"> Tenses1 ;
-< 0:">" 0:О1 0:н 0:з 0:о "+Use/Sub/Dial":0 "+Poss":0 "+3Sg":0 "+Gen":0 "@U.PossPx.3Sg@" "@C.TNUM@" "@N.TPERS.3@"> Tenses1 ;
+< 0:">" 0:О1 0:н 0:ь "+Gen":0 "+2Sg":0 "@U.PossPx.2Sg@" "@C.TNUM@" "@N.TPERS.2@"> kal-Tenses1 ;
+< 0:">" 0:О1 0:н 0:з 0:о "+Use/Sub/Dial":0 "+Poss":0 "+3Sg":0 "+Gen":0 "@U.PossPx.3Sg@" "@C.TNUM@" "@N.TPERS.3@"> kudo-Tenses1 ;
 
 +Abl:%>О1нде PersPron_PossPX ; 
 +Abl+Abl:%>О1ндеде PersPron_PossPX ; 
 +Abl+Gen+Abl:%>О1нденде PersPron_PossPX ; 
 +Dat:не  PersPron_PossPX ;
-+Ill:%>О1ньзэ  PersPron_PossPX ;
-< 0:">" 0:О1 0:н 0:ь 0:к 0:с "+Transl":0 "@P.LV.ON@" > PersPron_PossPX ; 
-< 0:">" 0:О1 0:н 0:ь 0:к 0:с 0:э 0:к 0:с "+Transl":0 "+LV":0 "+Transl":0"@P.LV.ON@" > PersPron_PossPX ; 
++Ill:ньзэ  PersPron_PossPX ;
+< 0:н 0:ь 0:к 0:с "+Tra":0 "@P.LV.ON@" > osh-PersPron_PossPX ; 
+< 0:н 0:ь 0:к 0:с 0:э 0:к 0:с "+Tra":0 "+LV":0 "+Tra":0"@P.LV.ON@" > osh-PersPron_PossPX ; 
 
 +Abl:%>О1нде PersPron_Oblique ; 
 +Abe:%>О1нтеме PersPron_Oblique ;
@@ -51,16 +51,25 @@ LEXICON Pers_Pronouns1
 !!!!
 !
 LEXICON PersPron_Minsy
-+Nom: Tenses1 ;
-< "@N.TPERS.1@" "@N.TPERS.2@" "@N.TPERS.3@" "@C.TNUM@"> PersPron_Gen ;
++Nom: osh-Tenses1 ;
+!!!< "@N.TPERS.1@" "@N.TPERS.2@" "@N.TPERS.3@" "@C.TNUM@"> PersPron_Gen ;
 +Dat:%>те PersPron_PossPX ;
 +Abl+Abl:%>теде PersPron_PossPX ;
 +Abl:%>О1де PersPron_PossPX ;
 +Prol:%>Г2а PersPron_Oblique ;
 +LV+Comp:%>О1шка PersPron_Oblique ;
-+NoLV+Comp:%>шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
-< 0:">" 0:О1 0:к 0:с  "+LV":0 "+Transl":0 "@P.LV.ON@" > PersPron_PossPX ;
+< 0:">" 0:О1 0:к 0:с  "+LV":0 "+Transl":0 "@P.LV.ON@" > osh-PersPron_PossPX ;
+< 0:">" 0:О1 "+Gen":0 0:м "+Use/Sub/Dial":0 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> kal-PersPronGen_CX ;
+< 0:">" 0:О1 "+Gen":0 0:н 0:ь "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> kal-PersPronGen_CX ;
+< 0:">" 0:О1 "+Gen":0 0:т 0:Ь2 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@"> kit-PersPronGen_CX ;
+< 0:">" 0:О1 "+Gen":0 0:н 0:з 0:О1 "+Poss":0 "+3Sg":0 "@U.PossPx.3Sg@" "@C.DNUM@" "@C.TNUM@" "@C.TPERS@"> kudo-PersPronGen_CX ;
+< 0:">" 0:О1 "+Gen":0 0:н 0:О1 0:к "+Poss":0 "+1Pl":0 "@U.PossPx.1Pl@"> lak-PersPronGen_CX ;
+< 0:">" 0:О1 "+Gen":0 0:н 0:к "+Poss":0 "+2Pl":0 "@U.PossPx.2Pl@"> lak-PersPronGen_CX ;
+< 0:">" 0:О1 "+Gen":0 0:с 0:т  "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@"> kit-PersPronGen_CX ;
+!!these just go onto the clitics
+< 0:">" 0:О1 "+Gen":0 0:н 0:т 0:Ь2 "+Use/Sub/Dial":0 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@"> Clitic ;
+< 0:">" 0:О1 "+Gen":0 0:н 0:с 0:т  "+Use/Sub/Dial":0 "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@"> Clitic ;
 
 LEXICON PersPron_Gen
 < 0:">" 0:О1 "+LV":0 "+Gen":0 0:м "+Use/Sub/Dial":0 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> kal-PersPronGen_CX ;
@@ -90,6 +99,18 @@ LEXICON PersPron_Oblique
 !!These PossPXs are applied after Obl cases
 !!
 LEXICON PersPron_PossPX 
+< 0:">" 0:н 0:Ь2 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:м  "+Use/Sub/Dial":0 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:т 0:Ь2 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:н 0:т 0:Ь2 "+Use/Sub/Dial":0 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:н 0:з 0:О1 "+Poss":0 "+3Sg":0 "@U.PossPx.3Sg@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:н 0:О1 0:к "+Poss":0 "+1Pl":0 "@U.PossPx.1Pl@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:н 0:к "+Poss":0 "+2Pl":0 "@U.PossPx.2Pl@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:с 0:т  "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@" "@D.LV.ON@"> Clitic ;
+< 0:">" 0:н 0:с 0:т  "+Use/Sub/Dial":0 "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@" "@D.LV.ON@"> Clitic ;
++Dial+NoPoss: Clitic ;
+
+LEXICON osh-PersPron_PossPX 
 < 0:">" 0:О1 0:н 0:Ь2 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@" "@D.LV.ON@"> Clitic ;
 < 0:">" 0:О1 0:м  "+Use/Sub/Dial":0 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@" "@D.LV.ON@"> Clitic ;
 < 0:">" 0:О1 0:т 0:Ь2 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@" "@D.LV.ON@"> Clitic ;
@@ -100,52 +121,52 @@ LEXICON PersPron_PossPX
 < 0:">" 0:О1 0:с 0:т  "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@" "@D.LV.ON@"> Clitic ;
 < 0:">" 0:О1 0:н 0:с 0:т  "+Use/Sub/Dial":0 "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@" "@D.LV.ON@"> Clitic ;
 +Dial+NoPoss: Clitic ;
-< "@R.LV.ON@"> PersPron_PossPX-for-transl ;
 
-LEXICON PersPron_PossPX-for-transl
-< 0:">" 0:О1 "+LV":0 0:н 0:Ь2 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:м  "+Use/Sub/Dial":0 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:т 0:Ь2 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:н 0:т 0:Ь2 "+Use/Sub/Dial":0 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:н 0:з 0:О1 "+Poss":0 "+3Sg":0 "@U.PossPx.3Sg@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:н 0:О1 0:к "+Poss":0 "+1Pl":0 "@U.PossPx.1Pl@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:н 0:к "+Poss":0 "+2Pl":0 "@U.PossPx.2Pl@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:с 0:т  "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@"> Clitic ;
-< 0:">" 0:О1 "+LV":0 0:н 0:с 0:т  "+Use/Sub/Dial":0 "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@"> Clitic ;
+
+!LEXICON PersPron_PossPX-for-transl
+!< 0:">" 0:О1 "+LV":0 0:н 0:Ь2 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:м  "+Use/Sub/Dial":0 "+Poss":0 "+1Sg":0 "@U.PossPx.1Sg@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:т 0:Ь2 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:н 0:т 0:Ь2 "+Use/Sub/Dial":0 "+Poss":0 "+2Sg":0 "@U.PossPx.2Sg@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:н 0:з 0:О1 "+Poss":0 "+3Sg":0 "@U.PossPx.3Sg@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:н 0:О1 0:к "+Poss":0 "+1Pl":0 "@U.PossPx.1Pl@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:н 0:к "+Poss":0 "+2Pl":0 "@U.PossPx.2Pl@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:с 0:т  "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@"> Clitic ;
+!< 0:">" 0:О1 "+LV":0 0:н 0:с 0:т  "+Use/Sub/Dial":0 "+Poss":0 "+3Pl":0 "@U.PossPx.3Pl@"> Clitic ;
 
 
 !!!This is preceded by a pronoun in the "+Gen"
 LEXICON kal-PersPronGen_CX
 < "@C.TPERS@" "@C.TNUM@"> kal-Tenses1 ;
- kal-PersPronGen_CX-1A ;
-< 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
++Der/MWN+N: kal-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
 
 LEXICON lak-PersPronGen_CX
 < "@C.TPERS@" "@C.TNUM@"> lak-Tenses1 ;
- lak-PersPronGen_CX-1A ;
-< 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
++Der/MWN+N:  lak-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
 
 LEXICON kit-PersPronGen_CX
 < "@C.TPERS@" "@C.TNUM@"> kit-Tenses1 ;
- kit-PersPronGen_CX-1A ;
-< 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
++Der/MWN+N:  kit-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
 
 LEXICON kudo-PersPronGen_CX
 < "@C.TPERS@" "@C.TNUM@"> kudo-Tenses1 ;
- kudo-PersPronGen_CX-1A ;
-< 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
-< 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
++Der/MWN+N: kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:ь 0:с 0:е "+Use/Sub/OldOrth":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:с 0:е "+SOD":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
+< "+Der/MWN":0 "+N":0 0:">" 0:О1 0:н 0:ь 0:с 0:е "+Gen":0 "+Det":0 "+Pron":0 "@C.DNUM@" "@C.TPERS@" "@C.TNUM@"> kudo-PersPronGen_CX-1A ;
 
 
 
@@ -247,7 +268,7 @@ LEXICON kudo-PersPronGenCX_DX
 
 
 LEXICON PersPronGenCX_DX-1
-< "+Indet":0 "@U.DNUM.SG@"> Clitic ;
+!< "+Indet":0 "@U.DNUM.SG@"> Clitic ;
  Clitic; 
 
 
