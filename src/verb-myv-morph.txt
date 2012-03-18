@@ -104,6 +104,8 @@ LEXICON kadoms-V-a
 +Conj: Conjunctive1 ;
 +Des: Desiderative1 ;
  Indicative1 ;
++IndPretI+3Sg:%>сь Clitic ;
++IndPretI+3Pl:%>сть Clitic ;
 +IndPrt2: IndicativePrt2_1 ;
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
@@ -124,6 +126,8 @@ LEXICON sajevems-V-a
 +Conj+Use/Sub/Dial: Conjunctive1 ;
 +Des: Desiderative1 ;
  Indicative1 ;
++IndPretI+3Sg:%>сь Clitic ;
++IndPretI+3Pl:%>сть Clitic ;
 +IndPrt2: IndicativePrt2_1 ;
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
@@ -143,6 +147,8 @@ LEXICON jangavoms-V-a
 +Conj+Use/Sub/Dial: Conjunctive1 ;
 +Des: Desiderative1 ;
  Indicative1 ;
++IndPretI+3Sg:%>сь Clitic ;
++IndPretI+3Pl:%>сть Clitic ;
 +IndPrt2: IndicativePrt2_1 ;
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
@@ -161,6 +167,8 @@ LEXICON kundams-V-a
 +Conj: Conjunctive2 ;
 +Des: Desiderative2 ;
  Indicative1 ;
++IndPretI+3Sg:%>сь Clitic ;
++IndPretI+3Pl:%>сть Clitic ;
 +IndPrt2: IndicativePrt2_2 ;
 +Imp: Imperative2 ;
 +Opt: Optative1 ;
@@ -188,6 +196,10 @@ LEXICON Verbs3-a
 +Conj: Conjunctive2 ;
 +Des: Desiderative2 ;
  Indicative1 ;
++Use/Sub/Dial+IndPretI+3Sg:%>сь Clitic ;
++Use/Sub/Dial+IndPretI+3Pl:%>сть Clitic ;
++IndPretI+3Sg:%>О1тсь Clitic ;
++IndPretI+3Pl:%>О1тсть Clitic ;
 +IndPrt2: IndicativePrt2_2 ;
 +Imp: Imperative2 ;
 +Opt: Optative1 ;
@@ -204,8 +216,6 @@ LEXICON Indicative1
 +IndNonpast2Pl:%>тА2до Clitic ;
 +IndNonpast3Pl:%>Ы2ть Clitic ;
 ! Indicative Preterite I
-+IndPretI+3Sg:%>сь Clitic ;
-+IndPretI+3Pl:%>сть Clitic ;
 <"@R.CONJ.ObjAll@"> Indicative_Present_Obj ;
 < %+TLoss:0 "@R.TLOSS.ON@"> Indicative_Present_TLoss ;
 
