@@ -10,6 +10,7 @@ cat myv-lex.txt \
  pers_myv-lexc.txt \
  pcle_myv-lexc.txt \
  postp_myv-lexc.txt \
+ qnt_myv-lexc.txt \
  verb_myv-lexc.txt \
  TestLexc-noun.txt \
  noun-myv-morph.txt \
