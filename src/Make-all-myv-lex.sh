@@ -7,9 +7,10 @@ cat myv-lex.txt \
  conj_myv-lexc.txt \
  interj_myv-lexc.txt \
  noun_myv-lexc.txt \
- pers_myv-lexc.txt \
  pcle_myv-lexc.txt \
+ pers_myv-lexc.txt \
  postp_myv-lexc.txt \
+ prop_myv-lexc.txt \
  qnt_myv-lexc.txt \
  verb_myv-lexc.txt \
  TestLexc-noun.txt \
