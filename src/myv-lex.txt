@@ -29,7 +29,7 @@ ZERO
 +Ellips ! Ellipsis
 +Emphatic
 +Gr2000
-+Indet ! Indeterminative
+!!!+Indet ! Indeterminative
 +Fin ! Finite
 +Noun ! Noun
 +NomGen ! Nominative and genitive functions
@@ -135,9 +135,24 @@ ZERO
 +Ord
 
 ! Verbal MSP
-+Prs +Fut +Fut1 +Prt1 +Prt2 +Prf
+! moods
++Ind +Imp +Cond +Opt 
++Des ! Ыксэль 'was about to; wanted to' 
++Conj ! Ындеря- (Derivational)
+
++Ind.Prs.1Sg
++Ind.Prs.2Sg
++Ind.Prs.3Sg
++Ind.Prs.1Pl
++Ind.Prs.2Pl
++Ind.Prs.3Pl
++Ind.Prt2
++Ind.Prt2.3Sg
+
++Nonpast +Nonpast.3Sg +Nonpast.3Pl ! In Erzya There is no morphological distinction between present and future
++Prs +Fut +Fut1 
++Prt1 +Prt2 +Prf
 +PrfIpf +HstPrf +PluPrf +HstPluPrf
-+Ind +Imp +Cond +Opt +Des +Conj
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 +1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
 +1 +2 +3
@@ -178,7 +193,7 @@ ZERO
 +Nom
 
 !!!! FUNCTIONS are all upper-case !!!!
-+ACC +DAT ! This marks a function not a morpheme
++ACC +DAT +COM ! This marks a function not a morpheme
 
 +Gen +Abl +Dat +Com 
 ! The accusative is marked by the indefite nominative
@@ -340,11 +355,18 @@ ZERO
 +Stem/е
 +Stem/э
 
+!Range limitations with regard to 4 classical sentence types:
+! Statement, Question,      Command, Exclamation
+! --"--    , +Rance/Interr, 
+! 
+
+!Use for limitation later
 +Use/Sub/PhonDeriv ! Derivation is phonetic 
                    ! but declension and conjugation morphologic
 +Use/Sub/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30 
 +Use/Sub/Short
 +Use/Sub/Dial ! Для не-литературного слова / форма / и.т.д.
+ ! This might actually make reference to dialect type or location
 +Src/F ! Majority-language words that might be utilized in several languages 
        ! Let's begin with nouns книга, учитель
 
@@ -465,10 +487,11 @@ ZERO
 @D.NUM.PL@
 @C.NUM@
 
-@P.INDET.PREF@
-@D.INDET.PREF@
-@R.INDET.PREF@
-@C.INDET@
+!These are used in INDEFinite-pronoun clitic determination
+@P.INDEF.PREF@
+@D.INDEF.PREF@
+@R.INDEF.PREF@
+@C.INDEF@
 
 
 
@@ -532,8 +555,8 @@ PERS ;         ! pronoun !pers-myv-morph.txt
                ! ../../tmp/out/PERS_myv-lex.xml
 POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
  Misc_Pronouns ;
- Indet_Pronouns ;
-<"@P.INDET.PREF@">  Indet_Pronouns-pref ;
+ Indef_Pronouns ;
+<"@P.INDEF.PREF@">  Indef_Pronouns-pref ;
 !2012-03-14!PRON-DEM ;	   ! ../../tmp/out/PRON-DEM_myv-lex.xml
 !2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
 !2012-03-14!PRON-INTER ;   ! ../../tmp/out/PRON-INTER_myv-lex.xml
@@ -541,7 +564,7 @@ POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
 !2012-03-14!PRON-QNT ;	   ! ../../tmp/out/PRON-QNT_myv-lex.xml
 !2012-03-14!PRON-REFL ;	   ! ../../tmp/out/PRON-REFL_myv-lex.xml
 !2012-03-14!PRON-REL ;	   ! pron-myv-morph.txt
-!2012-03-14!PROP ;		   ! ../../tmp/out/PROP_myv-lex.xml
+PROP ;		   ! ../../tmp/out/PROP_myv-lex.xml
 !2012-03-14!PROP-RUSSIAN-TOPONYMS ;		   ! ../../tmp/out/PROPRUSSIAN-TOPONYMS_myv-lex.xml
 !2012-03-14!PROP-RUSSIAN-MALE-SURNAMES-Derivable ;		   ! ../../tmp/out/PROP-RUSSIAN-MALE-SURNAMES-Derivable_myv-lex.xml
 !2012-03-14!PROP-CYRILLIC-MALE-SURNAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-SURNAMES_myv-lex.xml
@@ -582,6 +605,11 @@ LEXICON Interj-Imp
 ! ============ !
 ! Postp lexica !
 ! ============ !
+
+LEXICON marto-PO
++Po+Abs: Clitic ;
+ kudo-Possessives2 ; 
++Der/MWN: kudo-N ;
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
