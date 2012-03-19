@@ -146,7 +146,7 @@ LFCS = [ [ FTV AC* [ Cons - ConsDent ] ] | [ BTV FTC [ AC* [ Cons - ConsDent ] ]
 LFCH =[ [ FTV AC* ConsDent ] | [ BTV FTC [ AC* ConsDent ]+ ] | [ BTV л ь [ к с ] ] ] ;
 
 ! Left Back Context
-LBC = [ [ BTV NPC+ ] | [ BTV л ь [[ NPC* NPC ] - [ :* к с ] ] ] ] ;
+LBC = [ [ BTV ( %>:0 ) NPC+ ] | [ BTV л ь [[ NPC* NPC ] - [ :* к с ] ] ] ] ;
 
 ! Suffix-Initial Variable Vowel
 SIVV = [ н ь | в | м | н Ь2: | н е н ь | н к | т Ь2: | т ь | т е н ь | т е т ь | н с т э н ь | н с т О1: | с т | л ь | л и | к с | ш к а | н О1: к | м О1: к | с | з О1: | н з О1: | н т | в ( О1: ) л | м А1: | м г а | т с ь | т с т ь] ;
