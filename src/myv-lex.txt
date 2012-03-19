@@ -46,7 +46,6 @@ ZERO
 !+PretI
 !+PretII
 !+Prt !Participle >+Ptc
-+Prol ! Prolative
 !+Relat
 +Short ! short pronouns ??
 +Subj
@@ -329,7 +328,7 @@ ZERO
 +Pred.Prt2.3Sg
 +Pred.Prt2.3Pl
 +Pred.Prt2
-+Prol.NbAmb.Indef
++Prl.NbAmb.Indef
 +Temp.NbAmb.Indef
 +Tra.NbAmb.Indef
 
@@ -609,7 +608,11 @@ LEXICON Interj-Imp
 LEXICON marto-PO
 +Po+Abs: Clitic ;
  kudo-Possessives2 ; 
-+Der/MWN: kudo-N ;
++Po+Der/MWN: kudo-N ;
+
+LEXICON kudo-PO-ILL
++Ill:%>с Clitic ;
++Ill:%>з Clitic ;
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
@@ -629,7 +632,7 @@ LEXICON malaso-SPAT
 +Ela:%>стО1 kudo-SPAT-PossX ;
 +Ill:%>О1з osh-SPAT-PossX ;
 +Ine:%>сО1 kudo-SPAT-PossX ;
-+Prol:%>Г2а kudo-SPAT-PossX ;
++Prl:%>Г2а kudo-SPAT-PossX ;
 
 LEXICON kudo-SPAT-PossX
 +Px1Sg:%>нЬ2 kal-Conjugation ;
