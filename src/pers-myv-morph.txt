@@ -46,7 +46,7 @@ LEXICON Pers_Pronouns1
 +Comp:%>О1ньшка PersPron_Oblique ;
 +Ela:%>О1ньстэ PersPron_Oblique ;
 +Ine:%>О1ньсэ PersPron_Oblique ; 
-+Prol:%>О1ньга PersPron_Oblique ;
++Prl:%>О1ньга PersPron_Oblique ;
 
 !!!!
 !
@@ -56,7 +56,7 @@ LEXICON PersPron_Minsy
 +Dat:%>те PersPron_PossPX ;
 +Abl+Abl:%>теде PersPron_PossPX ;
 +Abl:%>О1де PersPron_PossPX ;
-+Prol:%>Г2а PersPron_Oblique ;
++Prl:%>Г2а PersPron_Oblique ;
 +LV+Comp:%>О1шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
 < 0:">" 0:О1 0:к 0:с  "+LV":0 "+Transl":0 "@P.LV.ON@" > osh-PersPron_PossPX ;
@@ -209,7 +209,7 @@ LEXICON kal-PersPronGen_CX-2
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
-+Prol:Г2а kudo-PersPronGenCX_DX ;
++Prl:Г2а kudo-PersPronGenCX_DX ;
 +Trans:%>О1кс osh-PersPronGenCX_DX ;
 
 LEXICON lak-PersPronGen_CX-2
@@ -223,7 +223,7 @@ LEXICON lak-PersPronGen_CX-2
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
-+Prol:Г2а kudo-PersPronGenCX_DX ;
++Prl:Г2а kudo-PersPronGenCX_DX ;
 +Trans:%>О1кс osh-PersPronGenCX_DX ;
 
 LEXICON kit-PersPronGen_CX-2
@@ -237,7 +237,7 @@ LEXICON kit-PersPronGen_CX-2
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
-+Prol:Г2а kudo-PersPronGenCX_DX ;
++Prl:Г2а kudo-PersPronGenCX_DX ;
 +Trans:%>О1кс osh-PersPronGenCX_DX ;
 
 LEXICON kudo-PersPronGen_CX-2
@@ -251,7 +251,7 @@ LEXICON kudo-PersPronGen_CX-2
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>в PersPronGenCX_DX-1 ;
-+Prol:Г2а kudo-PersPronGenCX_DX ;
++Prl:%>Г2а kudo-PersPronGenCX_DX ;
 +Trans:%>кс osh-PersPronGenCX_DX ;
 
 LEXICON kal-PersPronGenCX_DX
@@ -288,6 +288,20 @@ LEXICON PossPX1
 
 !!!!!!!!!!!!!!!
 !!
+! =========== !
+! Conjugation !
+! =========== !
+
+LEXICON Tenses1_Prep-SG
+<"@P.NUM.SG@"> Tenses1 ;
+
+LEXICON osh-Tenses1_Prep-SG
+<"@P.NUM.SG@"> osh-Tenses1 ;
+
+LEXICON kudo-Tenses1_Prep-SG
+<"@P.NUM.SG@"> kudo-Tenses1 ;
+
+
 
 LEXICON kit-Tenses1
  kal-Tenses1 ;
