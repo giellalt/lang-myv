@@ -4,6 +4,8 @@ LEXICON QNT
 
 ! Some quantifiers
 весе+Qnt:весе vese-QNT ;
+весе+Qnt+Abl+Superl:веседе # ; ! This is a comparative construction
+весеме+Qnt+Abl+Superl:весемеде # ; ! This is a comparative construction
 весеме+Qnt+Pron:весеме Misc_Pronouns_Sg ;
 лия+Qnt+Adn:лия Misc_Pronouns1 ;
 лията+Qnt+Adn:лията Misc_Pronouns1 ;
@@ -22,8 +24,13 @@ LEXICON QNT
 знярсо+Qnt:знярсо kudo-N ;
 знярсыя+Qnt:знярсыя kudo-N ;
 знярт+Qnt+Pl:знярт Clitic ;
-зярдыя+Qnt:зярдыя kudo-N ;
-зярыне+Qnt:зярыне kudo-N ;
+зярдыя+Qnt+Der/Ыя+Indef:зярдыя # ;
+зярыне+Qnt:зярыне # ;
+зняро+Qnt+Ine:зняромсо # ;
+зняро+Qnt:зняро kudo-N ;
+зярсыя+Qnt+Der/Ыя+Indef:зярсыя # ;
+знярыя+Qnt+Der/Ыя+Indef:знярыя # ;
+зярыя+Qnt+Der/Ыя+Indef:зярыя # ;
 кондякс+Pron+Transl:кондякс Clitic ;
 ламине+Qnt+DimNE:ламине kudo-N ;
 мекскак+Pron+Indet+Transl+Clt:мекскак # ;
@@ -33,94 +40,94 @@ LEXICON QNT
 
 
 ! Numerals
-вейке+Num:вейке Quants2 ;
-вейте+Old+Num:вейтИ2 Quants2 ;
-ве+Num+Adn:ве # ;
+вейке+Qnt+Num:вейке Quants2 ;
+вейте+Old+Qnt+Num:вейтИ2 Quants2 ;
+ве+Qnt+Adn:ве # ;
 !
 !Reciprocal
 !
-вейкень-вейкень+Num+Recip+1Pl-1Pl:вейкенек-вейкенек # ;
-вейкень-вейкень+Num+Recip+3Pl-3Pl:вейкест-вейкест # ;
-вейке-вейке+Num+Recip+Indet+Nom+Sg+Indet+Nom+Sg:вейке-вейке # ;
-вейте-вейте+Num+Recip+Indet+Nom+Sg+Indet+Nom+Sg:вейте-вейте # ;
-вейке-вейке+Num+Recip+Indet+Nom+Sg+Indet+Gen:вейке-вейкень # ;
-кавтонь-кавтонь+Num+Recip+Indet+Gen+Indet+Gen:кавтонь-кавтонь # ;
+вейкень-вейкень+Qnt+Num+Recip+1Pl-1Pl:вейкенек-вейкенек # ;
+вейкень-вейкень+Qnt+Num+Recip+3Pl-3Pl:вейкест-вейкест # ;
+вейке-вейке+Qnt+Num+Recip+Indet+Nom+Sg+Indet+Nom+Sg:вейке-вейке # ;
+вейте-вейте+Qnt+Num+Recip+Indet+Nom+Sg+Indet+Nom+Sg:вейте-вейте # ;
+вейке-вейке+Qnt+Num+Recip+Indet+Nom+Sg+Indet+Gen:вейке-вейкень # ;
+кавтонь-кавтонь+Qnt+Num+Recip+Indet+Gen+Indet+Gen:кавтонь-кавтонь # ;
 !
 !Approximatives
 !
-вейке-кавто+Num+Appr:вейке-кавто # ;
-кавто-колмо+Num+Appr:кавто-колмо # ;
-колмо-ниле+Num+Appr:колмо-ниле # ;
-ниле-вете+Num+Appr:ниле-вете # ;
-вете-кото+Num+Appr:вете-кото # ;
-кавксть-колмоксть+Num+Appr+Iter:кавксть-колмоксть # ;
-васень+Num+Ord+NConsStem:васень # ;
+вейке-кавто+Qnt+Num+Appr:вейке-кавто # ;
+кавто-колмо+Qnt+Num+Appr:кавто-колмо # ;
+колмо-ниле+Qnt+Num+Appr:колмо-ниле # ;
+ниле-вете+Qnt+Num+Appr:ниле-вете # ;
+вете-кото+Qnt+Num+Appr:вете-кото # ;
+кавксть-колмоксть+Qnt+Num+Appr+Iter:кавксть-колмоксть # ;
+васень+Qnt+Num+Ord:васень # ;
 
 весеме+Qnt:весеме Possessives2-Ill ;
-кавто+Num:кавто Quants1 ;
-колмо+Num:колмо Quants1 ;
-ниле+Num:ниле Quants1 ;
-вете+Num:вете Quants1 ;
-кото+Num:кото Quants1 ;
-сисем+Num+NConsStem:сисемИ3 Quants1 ;
-кавксо+Num:кавксо Quants1 ;
-вейксэ+Num:вейксэ Quants1 ;
-кемень+Num+NConsStem:кеменИ3 Quants1 ;
-кевейкее+Num:кевейкее Quants1 ;
-кемгавтово+Num:кемгавтово Quants1 ;
-кемголмово+Num:кемголмово Quants1 ;
-кемнилее+Num:кемнилее Quants1 ;
-кеветее+Num:кеветее Quants1 ;
-кемготово+Num:кемготово Quants1 ;
-кемзисемге+Num:кемзисемге Quants1 ;
-кемгавксово+Num:кемгавксово Quants1 ;
-кевейксэе+Num:кевейксэе Quants1 ;
-кемвейкее+Num+Phonematic:кемвейкее Quants1 ;
-кемкавтово+Num+Phonematic:кемкавтово Quants1 ;
-кемколмово+Num+Phonematic:кемколмово Quants1 ;
-кемнилее+Num+Phonematic:кемнилее Quants1 ;
-кемветее+Num+Phonematic:кемветее Quants1 ;
-кемкотово+Num+Phonematic:кемкотово Quants1 ;
-кемсисемге+Num+Phonematic:кемсисемге Quants1 ;
-кемкавксово+Num+Phonematic:кемкавксово Quants1 ;
-кемвейксэе+Num+Phonematic:кемвейксэе Quants1 ;
-комсь+Num+NConsStem:комсь Quants1 ;
-комсьвейкее+Num:комсьвейкее Quants1 ;
-комськавтово+Num:комськавтово Quants1 ;
-комськолмово+Num:комськолмово Quants1 ;
-комсьнилее+Num:комсьнилее Quants1 ;
-комсьветее+Num:комсьветее Quants1 ;
-комськотово+Num:комськотово Quants1 ;
-комсьсисемге+Num:комсьсисемге Quants1 ;
-комськавксово+Num:комськавксово Quants1 ;
-комсьвейксэе+Num:комсьвейксэе Quants1 ;
-колоньгемень+Num+NConsStem:колоньгеменИ3 Quants1 ;
-колмонькемень+Num+Phonematic+NConsStem:колмонькеменИ3 Quants1 ;
-ниленьгемень+Num+NConsStem:ниленьгеменИ3 Quants1 ;
-ниленькемень+Num+Phonematic+NConsStem:ниленькеменИ3 Quants1 ;
-ведьгемень+Num+NConsStem:ведьгеменИ3 Quants1 ;
-кодгемень+Num+NConsStem:кодгеменИ3 Quants1 ;
-ветенькемень+Num+Phonematic+NConsStem:ветенькеменИ3 Quants1 ;
-котонькемень+Num+Phonematic+NConsStem:котонькеменИ3 Quants1 ;
-сизьгемень+Num+NConsStem:сизьгеменИ3 Quants1 ;
-кавксоньгемень+Num+NConsStem:кавксоньгеменИ3 Quants1 ;
-вейксэньгемень+Num+NConsStem:вейксэньгеменИ3 Quants1 ;
-сизькемень+Num+Phonematic+NConsStem:сизьгеменИ3 Quants1 ;
-кавксонькемень+Num+Phonematic+NConsStem:кавксоньгеменИ3 Quants1 ;
-вейксэнькемень+Num+Phonematic+NConsStem:вейксэньгеменИ3 Quants1 ;
-сядо+Num+NMixedStem:сядУ2 Quants1 ;
-пельсядо+Num+NMixedStem:пельсядУ2 Quants1 ;
-кавтосядт+Num+NMixedStem:кавтосядУ2 Quants1 ;
-колмосядт+Num+NMixedStem:колмосядУ2 Quants1 ;
-нилесядт+Num+NMixedStem:нилесядУ2 Quants1 ;
-ветесядт+Num+NMixedStem:ветесядУ2 Quants1 ;
-котосядт+Num+NMixedStem:котосядУ2 Quants1 ;
-сисемсядт+Num+Phonematic+NMixedStem:сисемсядУ2 Quants1 ;
-сисемзядт+Num+NMixedStem:сисемзядУ2 Quants1 ;
-кавксосядт+Num+NMixedStem:кавксосядУ2 Quants1 ;
-вейксэсядт+Num+NMixedStem:вейксэсядУ2 Quants1 ;
-тёжа+Num:тёжа Quants1 ;
-миллион+Num+NConsStem:миллионУ3 Quants1 ;
+кавто+Qnt+Num:кавто Quants1 ;
+колмо+Qnt+Num:колмо Quants1 ;
+ниле+Qnt+Num:ниле Quants1 ;
+вете+Qnt+Num:вете Quants1 ;
+кото+Qnt+Num:кото Quants1 ;
+сисем+Qnt+Num:сисем Quants1 ;
+кавксо+Qnt+Num:кавксо Quants1 ;
+вейксэ+Qnt+Num:вейксэ Quants1 ;
+кемень+Qnt+Num:кемень Quants1 ;
+кевейкее+Qnt+Num:кевейкее Quants1 ;
+кемгавтово+Qnt+Num:кемгавтово Quants1 ;
+кемголмово+Qnt+Num:кемголмово Quants1 ;
+кемнилее+Qnt+Num:кемнилее Quants1 ;
+кеветее+Qnt+Num:кеветее Quants1 ;
+кемготово+Qnt+Num:кемготово Quants1 ;
+кемзисемге+Qnt+Num:кемзисемге Quants1 ;
+кемгавксово+Qnt+Num:кемгавксово Quants1 ;
+кевейксэе+Qnt+Num:кевейксэе Quants1 ;
+кемвейкее+Qnt+Num+Phonematic:кемвейкее Quants1 ;
+кемкавтово+Qnt+Num+Phonematic:кемкавтово Quants1 ;
+кемколмово+Qnt+Num+Phonematic:кемколмово Quants1 ;
+кемнилее+Qnt+Num+Phonematic:кемнилее Quants1 ;
+кемветее+Qnt+Num+Phonematic:кемветее Quants1 ;
+кемкотово+Qnt+Num+Phonematic:кемкотово Quants1 ;
+кемсисемге+Qnt+Num+Phonematic:кемсисемге Quants1 ;
+кемкавксово+Qnt+Num+Phonematic:кемкавксово Quants1 ;
+кемвейксэе+Qnt+Num+Phonematic:кемвейксэе Quants1 ;
+комсь+Qnt+Num:комсь Quants1 ;
+комсьвейкее+Qnt+Num:комсьвейкее Quants1 ;
+комськавтово+Qnt+Num:комськавтово Quants1 ;
+комськолмово+Qnt+Num:комськолмово Quants1 ;
+комсьнилее+Qnt+Num:комсьнилее Quants1 ;
+комсьветее+Qnt+Num:комсьветее Quants1 ;
+комськотово+Qnt+Num:комськотово Quants1 ;
+комсьсисемге+Qnt+Num:комсьсисемге Quants1 ;
+комськавксово+Qnt+Num:комськавксово Quants1 ;
+комсьвейксэе+Qnt+Num:комсьвейксэе Quants1 ;
+колоньгемень+Qnt+Num:колоньгемень Quants1 ;
+колмонькемень+Qnt+Num+Phonematic:колмонькемень Quants1 ;
+ниленьгемень+Qnt+Num:ниленьгемень Quants1 ;
+ниленькемень+Qnt+Num+Phonematic:ниленькемень Quants1 ;
+ведьгемень+Qnt+Num:ведьгемень Quants1 ;
+кодгемень+Qnt+Num:кодгемень Quants1 ;
+ветенькемень+Qnt+Num+Phonematic:ветенькемень Quants1 ;
+котонькемень+Qnt+Num+Phonematic:котонькемень Quants1 ;
+сизьгемень+Qnt+Num:сизьгемень Quants1 ;
+кавксоньгемень+Qnt+Num:кавксоньгемень Quants1 ;
+вейксэньгемень+Qnt+Num:вейксэньгемень Quants1 ;
+сизькемень+Qnt+Num+Phonematic:сизьгемень Quants1 ;
+кавксонькемень+Qnt+Num+Phonematic:кавксоньгемень Quants1 ;
+вейксэнькемень+Qnt+Num+Phonematic:вейксэньгемень Quants1 ;
+сядо+Qnt+Num+NMixedStem:сядУ2 Quants1 ;
+пельсядо+Qnt+Num+NMixedStem:пельсядУ2 Quants1 ;
+кавтосядт+Qnt+Num+NMixedStem:кавтосядУ2 Quants1 ;
+колмосядт+Qnt+Num+NMixedStem:колмосядУ2 Quants1 ;
+нилесядт+Qnt+Num+NMixedStem:нилесядУ2 Quants1 ;
+ветесядт+Qnt+Num+NMixedStem:ветесядУ2 Quants1 ;
+котосядт+Qnt+Num+NMixedStem:котосядУ2 Quants1 ;
+сисемсядт+Qnt+Num+Phonematic+NMixedStem:сисемсядУ2 Quants1 ;
+сисемзядт+Qnt+Num+NMixedStem:сисемзядУ2 Quants1 ;
+кавксосядт+Qnt+Num+NMixedStem:кавксосядУ2 Quants1 ;
+вейксэсядт+Qnt+Num+NMixedStem:вейксэсядУ2 Quants1 ;
+тёжа+Qnt+Num:тёжа Quants1 ;
+миллион+Qnt+Num:миллион Quants1 ;
 эрьва+Pron+Qnt:эрьва Quants1 ;
 зяро+Pron+Qnt:зяро Quants1 ;
 зярыя+Pron+Qnt:зярыя Quants1 ;
@@ -132,15 +139,15 @@ LEXICON QNT
 омбо+Qnt+Adn:омбо # ;
 васенце+Qnt:васенце Quants3 ;
 омбоце+Qnt:омбоце Quants3 ;
-кавонст+Num+Coll+Attr+NConsStem:кавонстУ3 Quants3 ;
-< {кавонек+Num+Coll+NConsStem}:{кавонек} "@P.KLOSS.ON@"> Clitics ;
-кавонек+Num+Coll:кавоне Possessives2-Ill ;
-веенст+Num+Coll+Attr+NConsStem:веенстЫ3 Quants3 ;
-омбонст+Num+Coll+Attr+NConsStem:омбонстУ3 Quants3 ;
-весть+Num+Iter+NConsStem:весть Clitics ;
-весть+Num+Iter+LV+Appr:вестешка Clitics ;
-кавксть+Num+Iter+NConsStem:кавксть Clitics ;
-кавксть+Num+Iter+LV+Appr+Iter:кавкстешкаксть Clitics ;
+кавонст+Qnt+Num+Coll+Attr:кавонст Quants3 ;
+< {кавонек+Qnt+Num+Coll}:{кавонек} "@P.KLOSS.ON@"> Clitics ;
+кавонек+Qnt+Num+Coll:кавоне Possessives2-Ill ;
+веенст+Qnt+Num+Coll+Attr:веенст Quants3 ;
+омбонст+Qnt+Num+Coll+Attr:омбонст Quants3 ;
+весть+Qnt+Num+Iter:весть Clitics ;
+весть+Qnt+Num+Iter+LV+Appr:вестешка Clitics ;
+кавксть+Qnt+Num+Iter:кавксть Clitics ;
+кавксть+Qnt+Num+Iter+LV+Appr+Iter:кавкстешкаксть Clitics ;
 
 
 !Dealing with numerals up to 4 digits long
@@ -335,7 +342,7 @@ LEXICON Quants3
 
 +Det+Pl+Prl:%>тне%>ва Tenses1 ;
 +Det+Pl+Abe:%>тне%>втеме Tenses1 ;
-+Det+Pl+Transl:%>тне%>ксЫ3 Clitics ;
++Det+Pl+Transl:%>тне%>кс Clitics ;
 +Det+Pl+Ine:%>тне%>сэ Tenses1 ;
 +Det+Pl+Ela:%>тне%>стэ Tenses1 ;
 +Det+Pl+Comp:%>тне%>шка Tenses1 ;
@@ -353,7 +360,7 @@ LEXICON Quants3
 +VowX+Comp:%>V1шка Attributes2 ;
 +Det+Pl+Prl:%>тне%>ва Attributes2 ; 
 +Det+Pl+Abe:%>тне%>втеме Attributes2 ; 
-+Det+Pl+Transl:%>тне%>ксЫ3 Attributes2 ; 
++Det+Pl+Transl:%>тне%>кс Attributes2 ; 
 +Det+Pl+Ine:%>тне%>сэ Attributes2 ; 
 +Det+Pl+Ela:%>тне%>стэ Attributes2 ;
 +Det+Pl+Comp:%>тне%>шка Attributes2 ; 
@@ -367,13 +374,13 @@ LEXICON Quants3_TLOSS
 < 0:">" 0:н 0:е 0:с %+Det:0 %+Pl:0 %+Ill:0 "@C.TLOSS@"> Clitics ;
 < 0:">" 0:н 0:е 0:в 0:а %+Det:0 %+Pl:0 %+Prl:0 "@C.TLOSS@"> Tenses1 ;
 < 0:">" 0:н 0:е 0:в 0:т 0:е 0:м 0:е %+Det:0 %+Pl:0 %+Abe:0 "@C.TLOSS@"> Tenses1 ;
-< 0:">" 0:н 0:е 0:к 0:с 0:Ы3 %+Det:0 %+Pl:0 %+Transl:0 "@C.TLOSS@"> Clitics ;
+< 0:">" 0:н 0:е 0:к 0:с %+Det:0 %+Pl:0 %+Transl:0 "@C.TLOSS@"> Clitics ;
 < 0:">" 0:н 0:е 0:с 0:э %+Det:0 %+Pl:0 %+Ine:0 "@C.TLOSS@"> Tenses1 ;
 < 0:">" 0:н 0:е 0:с 0:т 0:э %+Det:0 %+Pl:0 %+Ela:0 "@C.TLOSS@"> Tenses1 ;
 < 0:">" 0:н 0:е 0:ш 0:к 0:а %+Det:0 %+Pl:0 %+Comp:0 "@C.TLOSS@"> Tenses1 ;
 < 0:">" 0:н 0:е 0:в 0:а %+Det:0 %+Pl:0 %+Prl:0 "@C.TLOSS@"> Attributes2 ; 
 < 0:">" 0:н 0:е 0:в 0:т 0:е 0:м 0:е %+Det:0 %+Pl:0 %+Abe:0 "@C.TLOSS@"> Attributes2 ; 
-< 0:">" 0:н 0:е 0:к 0:с 0:Ы3 %+Det:0 %+Pl:0 %+Transl:0 "@C.TLOSS@"> Attributes2 ; 
+< 0:">" 0:н 0:е 0:к 0:с %+Det:0 %+Pl:0 %+Transl:0 "@C.TLOSS@"> Attributes2 ; 
 < 0:">" 0:н 0:е 0:с 0:э %+Det:0 %+Pl:0 %+Ine:0 "@C.TLOSS@"> Attributes2 ; 
 < 0:">" 0:н 0:е 0:с 0:т 0:э %+Det:0 %+Pl:0 %+Ela:0 "@C.TLOSS@"> Attributes2 ;
 < 0:">" 0:н 0:е 0:ш 0:к 0:а %+Det:0 %+Pl:0 %+Comp:0 "@C.TLOSS@"> Attributes2 ; 
