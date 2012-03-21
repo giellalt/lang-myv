@@ -1,5 +1,6 @@
 LEXICON ADV
 ! Ad-adverb
+вельть+AdA:вельть kit-N ;
 дюм+AdA:дюм pek-Gen-Attributes ;
 пек+AdA:пек pek-Gen-Attributes ;
 тунь+AdA:тунь # ;
@@ -11,19 +12,31 @@ LEXICON ADV
 истя+Manner:истя istja-Gen-Attributes ;
 истяня+Manner:истяня Clitic ;
 ладсо+Manner+Use/Sub/PhonInfl+Ine:лацо istja-Gen-Attributes ;
+мейкенерть+Composite+Pl+Manner:мейкенерть Clitic ;
+мейкенерть+Composite+Pl+Manner+Use/Sub/PhonComb:мейгенерть Clitic ;
+мекевлангт+Composite+Pl+Manner:мекевлангт Clitic ;
+мекевлангт+Composite+Pl+Manner+Use/Sub/PhonInfl:мекевланк Clitic ;
+нацяс+Ill+Manner:нацяс Clitic ;
 парсте+Manner:парсте # ;
-пееньпачк+Manner++Use/Sub/PhonInfl:пееньбачк Clitic ;
+пееньпачк+Manner+Use/Sub/PhonInfl:пееньбачк Clitic ;
 пек+Manner:пек pek-Gen-Attributes ;
+састо+Manner:састо istja-Gen-Attributes ;
 
 ! Spatials
 аксяло+Spat-NoArg:аксял Spatials_4cx ;
-аловпандт+Pl+Adv+Use/Sub/Phon:аловбандт Clitic ;
+аловпандт+Pl+Adv+Use/Sub/PhonComb:аловбандт Clitic ;
 аловпандт+Pl+Adv:аловпандт Clitic ;
 вальмало+Adv+Spat:вальмал Spatials_4cx ;
 венеле+Adv+Spat:венель Spatials_4cx ;
-веревпандт+Pl+Adv:веревбандт Clitic ;
+веревпандт+Pl+Adv+Use/Sub/PhonComb:веревбандт Clitic ;
 веревпандт+Pl+Adv:веревпандт Clitic ;
+кавалало+Spat-NoArg:кавалал Spatials_4cx ;
+карадо-каршо+Spat-NoArg:карадо-каршо kudo-N ;
 каштыкеле+Spat-NoArg:каштыкель Spatials_4cx ;
+ковия+Spat-NoArg+Lat+Der/Ыя+Indef:ковия Clitic ;
+кудыкеле+Spat-NoArg:кудыкель Spatials_4cx ;
+малав+Spat-NoArg+Lat:малав Clitic ;
+мастор+Spat-NoArg:мастор Spatials_4cx ;
 пильгало+Spat-NoArg:пильгал Spatials_4cx ;
 сезэ+Deict+Spat-NoArg+Ill:сезэ # ;
 сезэнь+Deict+Spat-NoArg+Ill:сезэнь # ;
@@ -64,6 +77,28 @@ LEXICON ADV
 чилисемаёно+Spat-NoArg:чилисемаён Spatials_4cx ;
 чипеле+Spat-NoArg:чипель Spatials_4cx ;
 
+!! Secondary Predication +Pred2
+штадоньпрят+Pl+Adv+Pred2+State:штадоньпрят vitj-Adj ;
+!!!!!
+!!inchoative verb based stative particles
+вачодо+Verb+Pred2+State+Abl:вачодо kudo-N ;
+комадо+Verb+Pred2+State+Abl:комадо kudo-N ;
+кундадо+Verb+Pred2+State+Abl:кундадо kudo-N ;
+ландядо+Verb+Pred2+State+Abl:ландядо kudo-N ;
+озадо+Verb+Pred2+State+Abl:озадо kudo-N ;
+панжадо+Verb+Pred2+State+Abl:панжадо kudo-N ;
+педядо+Verb+Pred2+State+Abl:педядо kudo-N ;
+пульзядо+Verb+Pred2+State+Abl:пульзядо kudo-N ;
+стядо+Verb+Pred2+State+Abl:стядо kudo-N ;
+сялгадо+Verb+Pred2+State+Abl:сялгадо kudo-N ;
+чалгадо+Verb+Pred2+State+Abl:чалгадо kudo-N ;
+!! Others
+иредьстэ+Verb+Pcle+Ela+State:иредьстэ kudo-N ;
+кепе+Pred2+State:кепе kudo-N ;
+кунст+Pred2+State:кунст kit-N ;
+ласте+Pred2+State:ласте kudo-N ;
+ялго+Pred2+State:ялго kudo-N ;
+
 
 ! Temporals
 валске+Temp-NoArg:валске kudo-N ;
@@ -78,6 +113,10 @@ LEXICON ADV
 веньперть+Temp-NoArg:веньберть Clitic ;
 весть-кавксть+Distr+Temp-NoArg:весть-кавксть # ;
 веть+Temp-NoArg:веть Clitic ;
+исяк+Temp-NoArg:исяк lak-N ;
+кувать+Temp-NoArg:кувать kit-N ;
+куватьс+Temp-NoArg+Ill:куватьс Clitic ;
+курок+Temp-NoArg:курок lak-N ;
 маныть+Pl+Temp-NoArg:маныть Clitic ;
 мейле+Temp-NoArg:мейле Clitic ;
 мелят+Pl+Temp-NoArg:мелят pek-Gen-Attributes ;
@@ -144,5 +183,4 @@ LEXICON ADV
 спокойна+Adv:спокойна kudo-N ;
 ужасна+Adj:ужасна kudo-N ;
 
-ялго+Adv:ялго kudo-N ;
 
