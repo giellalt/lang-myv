@@ -104,9 +104,9 @@ LEXICON kadoms-V-a
 +Conj: Conjunctive1 ;
 +Des: Desiderative1 ;
  Indicative1 ;
-+IndPretI+3Sg:%>сь Clitic ;
-+IndPretI+3Pl:%>сть Clitic ;
-+IndPrt2: IndicativePrt2_1 ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
++Ind.Prt2: IndicativePrt2_1 ;
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
 
@@ -126,9 +126,9 @@ LEXICON sajevems-V-a
 +Conj+Use/Sub/Dial: Conjunctive1 ;
 +Des: Desiderative1 ;
  Indicative1 ;
-+IndPretI+3Sg:%>сь Clitic ;
-+IndPretI+3Pl:%>сть Clitic ;
-+IndPrt2: IndicativePrt2_1 ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
++Ind.Prt2: IndicativePrt2_1 ;
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
 
@@ -147,9 +147,9 @@ LEXICON jangavoms-V-a
 +Conj+Use/Sub/Dial: Conjunctive1 ;
 +Des: Desiderative1 ;
  Indicative1 ;
-+IndPretI+3Sg:%>сь Clitic ;
-+IndPretI+3Pl:%>сть Clitic ;
-+IndPrt2: IndicativePrt2_1 ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
++Ind.Prt2: IndicativePrt2_1 ;
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
 
@@ -167,9 +167,9 @@ LEXICON kundams-V-a
 +Conj: Conjunctive2 ;
 +Des: Desiderative2 ;
  Indicative1 ;
-+IndPretI+3Sg:%>сь Clitic ;
-+IndPretI+3Pl:%>сть Clitic ;
-+IndPrt2: IndicativePrt2_2 ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
++Ind.Prt2: IndicativePrt2_2 ;
 +Imp: Imperative2 ;
 +Opt: Optative1 ;
 
@@ -196,11 +196,11 @@ LEXICON Verbs3-a
 +Conj: Conjunctive2 ;
 +Des: Desiderative2 ;
  Indicative1 ;
-+Use/Sub/Dial+IndPretI+3Sg:%>сь Clitic ;
-+Use/Sub/Dial+IndPretI+3Pl:%>сть Clitic ;
-+IndPretI+3Sg:%>О1тсь Clitic ;
-+IndPretI+3Pl:%>О1тсть Clitic ;
-+IndPrt2: IndicativePrt2_2 ;
++Use/Sub/Dial+Ind.Prt1.3.Sg:%>сь Clitic ;
++Use/Sub/Dial+Ind.Prt1.3+Pl:%>сть Clitic ;
++Ind.Prt1.3.Sg:%>О1тсь Clitic ;
++Ind.Prt1.3+Pl:%>О1тсть Clitic ;
++Ind.Prt2: IndicativePrt2_2 ;
 +Imp: Imperative2 ;
 +Opt: Optative1 ;
 
@@ -1257,18 +1257,16 @@ LEXICON Tenses1
 
 LEXICON Tenses-NomSg
  Clitic ;
-+Ind.Prs.1Sg:%>А2н Clitic ;
-+Ind.Prs.2Sg:%>А2т Clitic ;
-+Ind.Prs+3Sg: Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
 +Ind.Prt2+1Sg:%>О1линь Clitic ;
 +Ind.Prt2+2Sg:%>О1лить Clitic ;
 +Ind.Prt2+3Sg:%>О1ль Clitic ;
 
 LEXICON Tenses-NomPl
  Clitic ;
-+Ind.Prs.1Pl:%>тА2но Clitic ;
-+Ind.Prs.2Pl:%>тА2до Clitic ;
-+Ind.Prs+3Pl: Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
 +Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
 +Ind.Prt2+2Pl:%>О1лиде Clitic ;
 +Ind.Prt2+3Pl:%>О1льть Clitic ;
@@ -1280,17 +1278,16 @@ LEXICON Tenses-Abs
 Tenses-Abs-1 ;
 
 LEXICON Tenses-Abs-1
-+Ind.Prs.1Pl:%>тА2но Clitic ;
-+Ind.Prs.2Pl:%>тА2до Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
 
 LEXICON Tenses-Obl
-+NoPredx: Clitic ;
-+Ind.Prs.1Sg:%>А2н Clitic ;
-+Ind.Prs.2Sg:%>А2т Clitic ;
-+Ind.Prs.3Sg: Clitic ;
-+Ind.Prs.1Pl:%>тА2но Clitic ;
-+Ind.Prs.2Pl:%>тА2до Clitic ;
-+Ind.Prs.3Pl:%>тУ4 Clitic ;
+ Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.NonPast.3Pl:%>тЬ2 Clitic ;
 +Ind.Prt2+1Sg:%>О1линь Clitic ;
 +Ind.Prt2+2Sg:%>О1лить Clitic ;
 +Ind.Prt2.3Sg:%>О1ль Clitic ;
