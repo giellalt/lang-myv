@@ -207,50 +207,50 @@ LEXICON Verbs3-a
 LEXICON Indicative1
 +IndPretI: IndicativePretI-plus ;
 !Indicative Non-past
-+IndNonpast1Sg:%>А2н Clitic ;
-+IndNonpast2Sg:%>А2т Clitic ;
-+IndNonpast3Sg:%>Ы2 Clitic ;
-+IndNonpast1Pl:%>тА2но Clitic ;
-+Use/Sub/Dial+IndNonpast1Pl:%>тА2м Clitic ;
-+Kozl+IndNonpast1Pl:%>тА2нок lak-Clitic ;
-+IndNonpast2Pl:%>тА2до Clitic ;
-+IndNonpast3Pl:%>Ы2ть Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.NonPast.3Sg:%>Ы2 Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Use/Sub/Dial+Ind.NonPast.1Pl:%>тА2м Clitic ;
++Kozl+Ind.NonPast.1Pl:%>тА2нок lak-Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.NonPast.3Pl:%>Ы2ть Clitic ;
 ! Indicative Preterite I
 <"@R.CONJ.ObjAll@"> Indicative_Present_Obj ;
 < %+TLoss:0 "@R.TLOSS.ON@"> Indicative_Present_TLoss ;
 
 LEXICON Indicative_Present_TLoss
-+IndNonpast1Pl:%>А2но Clitic ;
-+Use/Sub/Dial+IndNonpast1Pl:%>А2м Clitic ;
-+Kozl+IndNonpast1Pl:%>А2нок lak-Clitic ;
-+IndNonpast2Pl:%>А2до Clitic ;
++Ind.NonPast.1Pl:%>А2но Clitic ;
++Use/Sub/Dial+Ind.NonPast.1Pl:%>А2м Clitic ;
++Kozl+Ind.NonPast.1Pl:%>А2нок lak-Clitic ;
++Ind.NonPast.2Pl:%>А2до Clitic ;
 
 LEXICON Indicative_Present_Obj
 
-+IndNonpast1Sg/2Sg:%>тА2н Clitic ;
-+IndNonpast1Sg/3Sg:%>са Clitic ;
-+Use/Sub/Dial+IndNonpast1Sg/3Sg:%>сан Clitic ;
-+Use/Sub/Dial+IndNonpast1Sg/3Sg:%>сать Clitic ;
-+IndNonpast1Sg/3Pl:%>сынь Clitic ;
-+IndNonpast2Sg/1Sg:%>самак lak-Clitic ;
-+IndNonpast2Sg/3Sg:%>сак lak-Clitic ;
-+IndNonpast2Sg/3Pl:%>сыть Clitic ;
-+IndNonpast3Sg/1Sg:%>самам Clitic ;
-+IndNonpast3Sg/2Sg:%>тА2нзат Clitic ;
-+IndNonpast3Sg/3Sg:%>сы Clitic ;
-+Use/Sub/Dial+IndNonpast3Sg/3Sg:%>сазо Clitic ;
-+IndNonpast3Sg/3Pl:%>сынзе Clitic ;
-+IndNonpast1Pl/3:%>сынек lak-Clitic ;
-+IndNonpast2Pl/3:%>сынк lak-Clitic ;
-+IndNonpast3Pl/3:%>сызь Clitic ;
-+IndNonpastObj1:%>самизь Clitic ;
-+IndNonpastObj2:%>тА2дызь Clitic ;
++Ind.NonPast.1Sg/2Sg:%>тА2н Clitic ;
++Ind.NonPast.1Sg/3Sg:%>са Clitic ;
++Use/Sub/Dial+Ind.NonPast.1Sg/3Sg:%>сан Clitic ;
++Use/Sub/Dial+Ind.NonPast.1Sg/3Sg:%>сать Clitic ;
++Ind.NonPast.1Sg/3Pl:%>сынь Clitic ;
++Ind.NonPast.2Sg/1Sg:%>самак lak-Clitic ;
++Ind.NonPast.2Sg/3Sg:%>сак lak-Clitic ;
++Ind.NonPast.2Sg/3Pl:%>сыть Clitic ;
++Ind.NonPast.3Sg/1Sg:%>самам Clitic ;
++Ind.NonPast.3Sg/2Sg:%>тА2нзат Clitic ;
++Ind.NonPast.3Sg/3Sg:%>сы Clitic ;
++Use/Sub/Dial+Ind.NonPast.3Sg/3Sg:%>сазо Clitic ;
++Ind.NonPast.3Sg/3Pl:%>сынзе Clitic ;
++Ind.NonPast.1Pl/3:%>сынек lak-Clitic ;
++Ind.NonPast.2Pl/3:%>сынк lak-Clitic ;
++Ind.NonPast.3Pl/3:%>сызь Clitic ;
++Ind.NonPast.Obj1:%>самизь Clitic ;
++Ind.NonPast.Obj2:%>тА2дызь Clitic ;
 < %+TLoss:0 "@R.TLOSS.ON@"> Indicative_Present_Obj_TLoss ;
 
 LEXICON Indicative_Present_Obj_TLoss
-+IndNonpast1Sg/2Sg:%>А2н Clitic ;
-+IndNonpast3Sg/2Sg:%>А2нзат Clitic ;
-+IndNonpastDefault/2:%>А2дызь Clitic ;
++Ind.NonPast.1Sg/2Sg:%>А2н Clitic ;
++Ind.NonPast.3Sg/2Sg:%>А2нзат Clitic ;
++Ind.NonPast.Default/2:%>А2дызь Clitic ;
 
 LEXICON IndicativePretI-plus
 ! Indicative Preterite I
@@ -858,9 +858,9 @@ LEXICON ImpClitic
 !+ClitKayatya:%>каятя # ;
 
 LEXICON VerbsPresPrt_1
-+DeverbalPrsPrtLong+NConsStem:%>Ы2ця kudo-N ;
-+DeverbalPrsPrtMedium+NConsStem:%>Ы2й Nouns1 ;
-+DeverbalPrsPrtShort:%>Ы2 kudo-N ;
++Der/Ыця+DeverbalPrsPrtLong:%>Ы2ця kudo-N ;
++Der/Ый+DeverbalPrsPrtMedium:%>Ы2й Nouns1 ;
++Der/Ы+DeverbalPrsPrtShort:%>Ы2 kudo-N ;
 
 LEXICON Deverbals_1
 
