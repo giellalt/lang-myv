@@ -470,24 +470,15 @@ LEXICON PROP-M
 
 !!!!!
 !!!!Postpositions
-авасоло+Postp+Spatial:авасол Spatials_4cx ;
 вайх+Prt:вайх # ;
-васоло+Postp+Spatial:васол Spatials_4cx ;
 васов+Postp+Lat:васов kal-N ;
-вере+Adv+Spatial:верь Spatials_4cx ;
 видна+Prt+ForeignNew:видна # ;
-икелепеле+Postp+Spatial:икелепель Spatials_4cx ;
 
 кондямо+Postp:кондямУ2 pango-N ;
-латало+Postp+Spatial:латал Spatials_4cx ;
 мейле+Postp+Loc:мейле kudo-N ;
 мееле+Postp+Loc:мееле kudo-N ;
 мики+Prt:мики # ;
-пандало+Postp+Spatial:пандал Spatials_4cx ;
 парстине+Adv+DimNE:парстине # ;
-перть-пеле+Orth_hyphen+Adv+Spatial:перть-пель Spatials_4cx ;
-пильгало+Postp+Spatial:пильгал Spatials_4cx ;
-пертьпеле+Adv+Spatial:пертьпель Spatials_4cx ;
 эська+Postp+Prl:эська kudo-Possessives2 ;
 
 истямо+Pron+Dem:истямУ2 pango-N ;
@@ -511,14 +502,14 @@ LEXICON Spatials_4cx
 +Spat4+Der/кс:%>кс osh-N ;
 
 +Spat4+Lat+Indef:%>О1в Clitic ;
-
-+Spat4+Loc+Indef:%>О1 Nouns3-1 ; 
-+Spat4+Prl+Indef:%>Г2а Nouns3-1 ;
 +Spat4+Abl+Indef:%>дО1 Nouns3-1 ;
 
-+Spat4+Abl:%>дО1 Indef-DefSg-Poss ;
-+Spat4+Loc:%>О1 Indef-DefSg-Poss ; 
-+Spat4+Prl:%>Г2а Indef-DefSg-Poss ;
++Spat4+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Spat4+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
+
++Spat4+Abl:%>дО1 Indef--Poss ;
++Spat4+Loc:%>О1 Indef--Poss ; 
++Spat4+Prl:%>Г2а Indef--Poss ;
 
 
 LEXICON Mezty
@@ -620,8 +611,14 @@ LEXICON Nouns3-1
 
 
 LEXICON Indef-DefSg-Poss
-+Indef: Tenses-Obl ;
+ -DefSg- ;
+ Indef--Poss ;
+
+LEXICON -DefSg-
 +DefSg:%>О1нть Clitic ;
+
+LEXICON Indef--Poss
++Indef: Tenses-Obl ;
 +Poss1Sg:%>О1нЬ2 Tenses-Obl ;
 +Poss2Sg:%>О1тЬ2 Tenses-Obl ;
 +Poss3Sg:%>О1нзО1 Tenses-Obl ;
@@ -892,48 +889,6 @@ LEXICON Determinatives1
  Tenses-Obl ;
 
 
-LEXICON Tenses-NomSg
-+NoPredx: Clitic ;
-+Pred+Pres+1Sg:%>А2н Clitic ;
-+Pred+Pres+2Sg:%>А2т Clitic ;
-+Pred+Pres+3Sg: Clitic ;
-+Pred+PretII+1Sg:%>О1линь Clitic ;
-+Pred+PretII+2Sg:%>О1лить Clitic ;
-+Pred+PretII+3Sg:%>О1ль Clitic ;
-
-LEXICON Tenses-NomPl
-+NoPredx: Clitic ;
-+Pred+Pres+1Pl:%>тА2но Clitic ;
-+Pred+Pres+2Pl:%>тА2до Clitic ;
-+Pred+Pres+3Pl: Clitic ;
-+Pred+PretII+1Pl:%>О1линек Clitic ;
-+Pred+PretII+2Pl:%>О1лиде Clitic ;
-+Pred+PretII+3Pl:%>О1льть Clitic ;
-
-LEXICON Tenses-Abs
-+Pred+PretII+1Pl:%>О1линек Clitic ;
-+Pred+PretII+2Pl:%>О1лиде Clitic ;
-+Pred+PretII+3Pl:%>О1льть Clitic ;
-Tenses-Abs-1 ;
-
-LEXICON Tenses-Abs-1
-+Pred+Pres+1Pl:%>тА2но Clitic ;
-+Pred+Pres+2Pl:%>тА2до Clitic ;
-
-LEXICON Tenses-Obl
-+NoPredx: Clitic ;
-+Pred+Pres+1Sg:%>А2н Clitic ;
-+Pred+Pres+2Sg:%>А2т Clitic ;
-+Pred+Pres+3Sg: Clitic ;
-+Pred+PretII+1Sg:%>О1линь Clitic ;
-+Pred+PretII+2Sg:%>О1лить Clitic ;
-+Pred+PretII+3Sg:%>О1ль Clitic ;
-+Pred+Pres+1Pl:%>тА2но Clitic ;
-+Pred+Pres+2Pl:%>тА2до Clitic ;
-+Pred+Pres+3Pl:%>тЬ2 Clitic ;
-+Pred+PretII+1Pl:%>О1линек Clitic ;
-+Pred+PretII+2Pl:%>О1лиде Clitic ;
-+Pred+PretII+3Pl:%>О1льть Clitic ;
 
 
 ! These have been introduced with the flag: <"@P.INDEF.PREF@">
@@ -956,48 +911,47 @@ LEXICON  Indef_Pronouns
 ко+Pron+Interr:ко Indef_Pronouns-Cases ;
 ков+Spat+Lat:ков Indef_Pronouns-Clitic ;
 кода+Pron+Manner:кода Indef_Pronouns-Clitic ;
-кодамо+Adn+Interr+Nom+Sg:кодамУ2 Indef_Pronouns-Clitic ;
-кодамо+Adn+Interr+Nom+Pl:кодат Indef_Pronouns-Clitic ;
-кодамо+Adn+Interr+Pl+Det+Nom:кодатнэ Indef_Pronouns-Clitic ;
-кодамо+Adn+Interr+Pl+Det:кодатнэ Indef_Pronouns-Cases ;
-кодамо+Adn+Interr:кодамУ2 Indef_Pronouns-Cases ;
+кодамо+Adn+Nom+Sg:кодамУ2 Indef_Pronouns-Clitic ;
+кодамо+Adn+Nom+Pl:кодат Indef_Pronouns-Clitic ;
+кодамо+Adn+Pl+Det+Nom:кодатнэ Indef_Pronouns-Clitic ;
+кодамо+Adn+Pl+Det:кодатнэ Indef_Pronouns-Cases ;
+кодамо+Adn:кодамУ2 Indef_Pronouns-Cases ;
 кува+Spat+Prl:кува Indef_Pronouns-Clitic ;
 
-кона+Adn+Interr+Nom+Sg:кона Indef_Pronouns-Clitic ;
-кона+Adn+Interr:кона Indef_Pronouns-Cases ;
+кона+Adn+Nom+Sg:кона Indef_Pronouns-Clitic ;
+кона+Adn:кона Indef_Pronouns-Cases ;
 
-зярдо+Pron+Interr+Abl:зярдо Indef_Pronouns-Clitic ;
-зяро+Pron+Interr+Nom:зяро Indef_Pronouns-Clitic ;
-зяро+Pron+Interr:зяро Indef_Pronouns-Cases ;
+зярдо+Pron+Abl:зярдо Indef_Pronouns-Clitic ;
+зяро+Pron+Nom:зяро Indef_Pronouns-Clitic ;
+зяро+Pron:зяро Indef_Pronouns-Cases ;
 !зяродо+Pron+Interr+Abl:зяродо Indef_Pronouns-Clitic ;
 !зяро+Pron+Interr+Ela:зяросто Indef_Pronouns-Clitic ;
-зяро+Pron+Interr+Ill:зярс Indef_Pronouns-Clitic ;
-зярдо+Pron+Interr+Alb+Gen:зярдонь Indef_Pronouns-Clitic ;
+зяро+Pron+Ill:зярс Indef_Pronouns-Clitic ;
+зярдо+Pron+Alb+Gen:зярдонь Indef_Pronouns-Clitic ;
 
-знярдо+Pron+Interr+Abl:знярдо Indef_Pronouns-Clitic ;
-зняро+Pron+Interr+Nom:зняро Indef_Pronouns-Clitic ;
-зняро+Pron+Interr:зняро Indef_Pronouns-Cases ;
-!зняро+Pron+Interr+Ela:зняросто Indef_Pronouns-Clitic ;
-зняро+Pron+Interr+Ill:знярс Indef_Pronouns-Clitic ;
-знярдо+Pron+Interr+Abl+Gen:знярдонь Indef_Pronouns-Clitic ;
+знярдо+Pron+Abl:знярдо Indef_Pronouns-Clitic ;
+зняро+Pron+Nom:зняро Indef_Pronouns-Clitic ;
+зняро+Pron:зняро Indef_Pronouns-Cases ;
+!зняро+Pron+Ela:зняросто Indef_Pronouns-Clitic ;
+зняро+Pron+Ill:знярс Indef_Pronouns-Clitic ;
+знярдо+Pron+Abl+Gen:знярдонь Indef_Pronouns-Clitic ;
 
 мезе+Pron+Nom+Sg:мезе Indef_Pronouns-Clitic ;
-мезе+Pron+Interr:мезе Indef_Pronouns-Cases ;
-мезе+Pron+Interr:мезе PossPX1 ;
+мезе+Pron:мезь osh-Indef_Pronouns-Cases ;
+мезе+Pron:мезе PossPX1 ;
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-Clitic ;
-мень+Pron+Interr+Dep+Gen:мень Indef_Pronouns-Clitic ;
-мезе+Pron+Interr:мезИ3 Indef_Pronouns-Cases ;
-мезе+Pron+Interr+Nom+Pl:мезть Indef_Pronouns-Clitic ;
-мезе+Pron+Interr+OldOrth+Nom+Pl:месть Indef_Pronouns-Clitic ;
-мекс+Pron+Interr+Transl:мекс Indef_Pronouns-Clitic ;
-мезе+Pron+Interr:мейИ3 Indef_Pronouns-Cases ;
-мезе+Pron+Interr+Transl:мезекс Indef_Pronouns-Clitic ;
-мезе+Pron+Interr+Abl:мезде Indef_Pronouns-Clitic ;
-мезе+Pron+Interr+Dat:мезнень Indef_Pronouns-Clitic ;
-мезе+Pron+Interr+Abl+Det:мезденть Indef_Pronouns-Clitic ;
-мезе+Pron+Interr+Ine:мейсэ Indef_Pronouns-Clitic ;
-
-мезе+Pron+Interr+Com:мезнек # ;
+мень+Adn+Dep+Gen:мень Indef_Pronouns-Clitic ;
+!мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
+!мезе+Pron+Nom+Pl:мезть Indef_Pronouns-Clitic ;
+мезе+Pron+OldOrth+Nom+Pl:месть Indef_Pronouns-Clitic ;
+мекс+Pron+Transl:мекс Indef_Pronouns-Clitic ;
+!мезе+Pron:мейИ3 Indef_Pronouns-Cases ;
+!мезе+Pron+Transl:мезекс Indef_Pronouns-Clitic ;
+!мезе+Pron+Abl:мезде Indef_Pronouns-Clitic ;
+!мезе+Pron+Dat:мезнень Indef_Pronouns-Clitic ;
+!мезе+Pron+Abl+Det:мезденть Indef_Pronouns-Clitic ;
+!мезе+Pron+Ine:мейсэ Indef_Pronouns-Clitic ;
+!мезе+Pron+Com:мезнек # ;
 
 
 
@@ -1025,6 +979,36 @@ LEXICON Indef_Pronouns-Cases
 +Pl+Def.Pl.Nom:%>тне Indef_Pronouns-Clitic ;
 +Pl+Def.Pl+Gen:%>тнень Indef_Pronouns-Clitic ;
 +Pl+Def.Pl+Dat:%>тненень Indef_Pronouns-Clitic ;
+
+LEXICON osh-Indef_Pronouns-Cases
++Pl+Nom:%>тЬ2 Indef_Pronouns-Clitic ; 
++Ela:%>О1стО1 Indef_Pronouns-Clitic ;
++Ine:%>О1сО1 Indef_Pronouns-Clitic ;
++Ill:%>О1с Indef_Pronouns-Clitic ;
++Tra:%>О1кс Indef_Pronouns-Clitic ;
++Dat:%>нень Indef_Pronouns-Clitic ;
++Abe:%>втО1мО1 Indef_Pronouns-Clitic ;
++Abl:%>дО1 Indef_Pronouns-Clitic ;
++Ela+Gen:%>О1стО1%>нь Indef_Pronouns-Clitic ;
++Abl+Gen:%>дО1%>нь Indef_Pronouns-Clitic ;
++Ine+Gen:%>О1сО1%>нь Indef_Pronouns-Clitic ;
++Gen:%>О1нь Indef_Pronouns-Clitic ;
++Com:%>нек Indef_Pronouns-Clitic ;
+
++Nom.Def.Sg:%>О1сь Indef_Pronouns-Clitic ;
++Gen.Def.Sg:%>О1нть Indef_Pronouns-Clitic ;
++Def.Sg.Dat:%>О1нтень Indef_Pronouns-Clitic ;
++Pl+Def.Pl.Nom:%>тне Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Gen:%>тнень Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Dat:%>тненень Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Abl:%>тнеде Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Ela:%>тнестэ Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Ine:%>тнесэ Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Ill:%>тнес Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Lat:%>тнев Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Tra:%>тнекс Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Abe:%>тневтеме Indef_Pronouns-Clitic ;
++Pl+Def.Pl+Comp:%>тнешка Indef_Pronouns-Clitic ;
 
 LEXICON kudo-Indef_Pronouns-Cases
 +Pl.Indef.Nom:%>тЬ2 Indef_Pronouns-Clitic ; 
@@ -1059,14 +1043,14 @@ LEXICON Indef_Pronouns-Clitic-pref
 +Pref+Clit+Indef: # ;
 
 LEXICON Indef_Pronouns-Clitic-post
-+Der/бути+Indef+Clt:%-бути # ;
-+Der/Гак+Indef+Clt:%>Г1ак # ;
++Der/бути+Clt+Indef:%-бути # ;
++Der/Гак+Clt+Indef:%>Г1ак # ;
 +Relat:  # ;
 +Interr:  # ;
 
 LEXICON Misc_Pronouns
-се+Dem+Pron:се te-Misc_Pronouns1 ;
-секе+Dem+Pron:секе te-Misc_Pronouns1 ;
+се+Dem:се vese-QNT ;
+секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
 сете+Dem+Pron:сете te-Misc_Pronouns1 ;
 севате+Dem+Pron:севате te-Misc_Pronouns1 ;
 те+Dem:те te-Misc_Pronouns1 ;
@@ -1085,8 +1069,8 @@ LEXICON Misc_Pronouns
 ! мезе+Pron:мезИ2 Misc_Pronouns1 ;
 ! мезе+Pron+Indef+Gen:мень Clitic ;
 ! ки+Pron+Interr:ки Misc_Pronouns1 ;
-не+Dem+Pron:не Misc_Pronouns1 ;
-неке+Dem+Pron:неке Misc_Pronouns1 ;
+не+Dem:не ne-Misc_Pronouns1 ;
+неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
 нете+Dem+Pron:нете Misc_Pronouns1 ;
 ! Obligatory Possessor Index
 !!!!!!!!
@@ -1111,9 +1095,12 @@ LEXICON Misc_Pronouns1
 
 LEXICON te-Misc_Pronouns1
 +Pron: kudo-Misc_Pronouns_Sg ;
-+Pron: Misc_Pronouns_Pl ;
 +Adn: # ;
 !+NomGen: kudo-PossPX1 ;
+
+LEXICON ne-Misc_Pronouns1
++Pron: kudo-Misc_Pronouns_Pl ;
++Adn: # ;
 
 LEXICON Misc_Pronouns_Sg
   Misc_Pronouns_Indef ;
