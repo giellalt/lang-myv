@@ -51,6 +51,8 @@ LEXICON tujems-V_ObjAll
 
 LEXICON tujems-V
 :й kadoms-V ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
 
 LEXICON tejems-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> tejems-V ;
@@ -63,12 +65,16 @@ LEXICON nejems-V_ObjAll
 
 LEXICON nejems-V
 :й kadoms-V ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
 
 LEXICON mijems-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> mijems-V ;
 
 LEXICON mijems-V
 :й kadoms-V ;
++Ind.Prt1.3.Sg:%>сь Clitic ;
++Ind.Prt1.3+Pl:%>сть Clitic ;
 
 LEXICON nekshnems-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> nekshnems-V ;
@@ -205,14 +211,14 @@ LEXICON Verbs3-a
 +Opt: Optative1 ;
 
 LEXICON Indicative1
-+IndPretI: IndicativePretI-plus ;
++Ind.Prt1: IndicativePretI-plus ;
 !Indicative Non-past
 +Ind.NonPast.1Sg:%>А2н Clitic ;
 +Ind.NonPast.2Sg:%>А2т Clitic ;
 +Ind.NonPast.3Sg:%>Ы2 Clitic ;
 +Ind.NonPast.1Pl:%>тА2но Clitic ;
-+Use/Sub/Dial+Ind.NonPast.1Pl:%>тА2м Clitic ;
-+Kozl+Ind.NonPast.1Pl:%>тА2нок lak-Clitic ;
++Ind.NonPast.1Pl+Use/Sub/Dial:%>тА2м Clitic ;
++Ind.NonPast.1Pl+Kozl:%>тА2нок lak-Clitic ;
 +Ind.NonPast.2Pl:%>тА2до Clitic ;
 +Ind.NonPast.3Pl:%>Ы2ть Clitic ;
 ! Indicative Preterite I
@@ -759,7 +765,7 @@ LEXICON Imperative1
 !Verbs2 and Verbs3 are directly routed here
 !
 LEXICON Imperative2
-+2Sg:%>К1У4 ImpClitic ;
++2Sg:%>К1Ь2 ImpClitic ;
 +2Pl:%>дО1 ImpClitic ;
 <"@R.CONJ.ObjAll@">  Imperative2_Obj ;
 
@@ -775,7 +781,7 @@ LEXICON Imperative2_Obj
 
 !Verbs1
 LEXICON Imperative2_NoLVReq
-+2Sg:%>К1У4 ImpClitic ;
++2Sg:%>К1Ь2 ImpClitic ;
 <"@R.CONJ.ObjAll@">  Imperative2_NoLVReq_Obj ;
 
 LEXICON Imperative2_NoLVReq_Obj
@@ -884,7 +890,7 @@ LEXICON Deverbals_1
 +Deverbal+Der/Онь+Ptc:%>О1нсе kudo-N2-Def-Declension ;
 
 +Use/Sub/Dial+Deverbal+mOInf+Loc:%>мО1 kudo-N ;
-+Use/Sub/Dial+Deverbal+msInf+Transl:%>мО1%>ксУ4 Tenses1 ;
++Use/Sub/Dial+Deverbal+msInf+Transl:%>мО1%>кс osh-Tenses1 ;
 !!This one was marked on 2006-12-01
 +Use/Sub/Dial+Deverbal+mOInf+Abl:%>мО1%>дО1 Possessives1 ;
 !!This one was marked on 2006-12-01
@@ -947,14 +953,14 @@ LEXICON Nouns-Secondary-declension
 +Gen+OrthMorph+SOD:%>О1ньсе Nouns3-1 ;
 +Gen+OrthPhon+SOD:%>О1нце Nouns3-1 ;
 +OrthMorph+DefSg+SOD:%>О1нт%>се Nouns3-1 ;
-+Gen+Poss1Sg:%>О1нУ4 Nouns1-1 ;
-+Gen+Poss2Sg:%>О1тУ4 Nouns1-1 ;
++Gen+Poss1Sg:%>О1нЬ2 Nouns1-1 ;
++Gen+Poss2Sg:%>О1тЬ2 Nouns1-1 ;
 +Gen+Poss3Sg:%>О1нзО1 Nouns3-1 ;
 +Gen+Poss1Pl:%>О1нО1к Nouns1-1 ;
 +Gen+Poss2Pl:%>О1нк Nouns1-1 ;
 +Gen+Poss3Pl:%>О1ст Nouns1-1 ;
-+Gen+Poss1Sg+SOD:%>О1нУ4%>се Nouns3-1 ;
-+Gen+Poss2Sg+SOD:%>О1тУ4%>се Nouns3-1 ;
++Gen+Poss1Sg+SOD:%>О1нЬ2%>се Nouns3-1 ;
++Gen+Poss2Sg+SOD:%>О1тЬ2%>се Nouns3-1 ;
 +Gen+Poss3Sg+SOD:%>О1нзО1%>се Nouns3-1 ;
 +Gen+Poss1Pl+SOD:%>О1нО1к%>се Nouns3-1 ;
 +Gen+Poss2Pl+SOD:%>О1нк%>се Nouns3-1 ;
@@ -972,8 +978,8 @@ LEXICON Nouns-Secondary-declension
 LEXICON Nouns-Secondary-declension_Poss
 
 !!Possessive declension
-+Poss1Sg:%>О1нУ4 Nouns1-1 ;
-+Poss2Sg:%>О1тУ4 Nouns1-1 ;
++Poss1Sg:%>О1нЬ2 Nouns1-1 ;
++Poss2Sg:%>О1тЬ2 Nouns1-1 ;
 +Poss3Sg:%>О1нзО1 Nouns3-1 ;
 +Poss1Pl:%>О1нО1к Nouns1-1 ;
 +Poss2Pl:%>О1нк Nouns1-1 ;
@@ -1023,8 +1029,8 @@ LEXICON Nouns3-1
 LEXICON Indef-DefSg-Poss
 +Indef: Tenses-Obl ;
 +DefSg:%>О1нть Clitic ;
-+Poss1Sg:%>О1нУ4 Tenses-Obl ;
-+Poss2Sg:%>О1тУ4 Tenses-Obl ;
++Poss1Sg:%>О1нЬ2 Tenses-Obl ;
++Poss2Sg:%>О1тЬ2 Tenses-Obl ;
 +Poss3Sg:%>О1нзО1 Tenses-Obl ;
 +Poss1Pl:%>О1нО1к Tenses-Obl ;
 +Poss2Pl:%>О1нк Tenses-Obl ;
@@ -1041,7 +1047,7 @@ LEXICON Nouns_Shibilant
 +Ela:%>стО1 Indef-DefSg-Poss ;
 
 LEXICON Nouns_Pl
-+Indet+Pl:%>тУ4 Tenses-NomPl ;
++Indet+Pl:%>тЬ2 Tenses-NomPl ;
 +Pl.DefPl+Abe:%>тне%>втеме Tenses-Obl  ;
 +Pl.DefPl+Abl:%>тне%>де Tenses-Obl ;
 +Pl.DefPl+Com:%>тне%>нек lak-Clitic ;
@@ -1109,13 +1115,13 @@ LEXICON Possessive-NomGen
 +Use/Sub/Dial+NomPl+Poss1Sg/м:%>О1м Tenses-NomPl ;
 +Gen+Poss1Sg/м:%>О1м Tenses-Obl ;
 
-+NomPl+Poss1Sg/Н:%>О1нУ4 Tenses-NomPl ;
-+Gen+Poss1Sg/Н:%>О1нУ4 Tenses-Obl ;
++NomPl+Poss1Sg/Н:%>О1нЬ2 Tenses-NomPl ;
++Gen+Poss1Sg/Н:%>О1нЬ2 Tenses-Obl ;
 +Poss1Sg+KinGen:%>О1нь Tenses-Obl ;
 
-+NomSg+Poss2Sg:%>О1тУ4 Tenses-NomSg ;
-+NomPl+Poss2Sg:%>О1тУ4 Tenses-NomPl ;
-+Gen+Poss2Sg:%>О1тУ4 Tenses-Obl ;
++NomSg+Poss2Sg:%>О1тЬ2 Tenses-NomSg ;
++NomPl+Poss2Sg:%>О1тЬ2 Tenses-NomPl ;
++Gen+Poss2Sg:%>О1тЬ2 Tenses-Obl ;
 +Poss2Sg+KinGen:%>О1ть Tenses-Obl ;
 
 +NomSg+Poss3Sg:%>О1зО1 Tenses-NomSg ;
@@ -1237,8 +1243,8 @@ LEXICON Possessives1
 
 LEXICON Possessives2
 +Use/Sub/Dial+Poss1Sg/м:%>О1м Determinatives1 ;
-+Poss1Sg/Н+NonNomSg:%>О1нУ4 Determinatives1 ;
-+Poss2Sg:%>О1тУ4 Determinatives1 ;
++Poss1Sg/Н+NonNomSg:%>О1нЬ2 Determinatives1 ;
++Poss2Sg:%>О1тЬ2 Determinatives1 ;
 +Poss3Sg+NonNomSg:%>О1нзО1 Determinatives1 ;
 +Poss1Pl:%>О1нО1к Determinatives1 ;
 +Poss2Pl:%>О1нк Determinatives1 ;
