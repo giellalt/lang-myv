@@ -133,26 +133,26 @@ ZERO
 +Ind +Imp +Cond +Opt 
 +Des ! Ыксэль 'was about to; wanted to' 
 +Conj ! Ындеря- (Derivational)
++Obligatory ! андомс: андома , якамс: якама
++Sugg ! I still need the right word for this андомс: андомсат
 
 +Ind.NonPast.1Sg
 +Ind.NonPast.2Sg
-+Ind.NonPast.3Sg
++Ind.NonPast.3.Sg
 +Ind.NonPast.1Pl
 +Ind.NonPast.2Pl
-+Ind.NonPast.3Pl
-+Ind.Prt1
-+Ind.Prt2
-+Ind.Prt2.3Sg
++Ind.NonPast.3.Pl
 
-+Nonpast +Nonpast.3Sg +Nonpast.3Pl ! In Erzya There is no morphological distinction between present and future
-+Prs +Fut +Fut1 
-+Prt1 +Prt2 +Prf
-+PrfIpf +HstPrf +PluPrf +HstPluPrf
-+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
-+1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
-+1 +2 +3
-+Inf
-+Pos +Neg +ConNeg
++Ind.Prt1
++Ind.Prt1.3.Sg
++Ind.Prt1.3
++Ind.NonPast.1Sg
++Ind.NonPast.2Sg
++Ind.NonPast.1Pl
++Ind.NonPast.2Pl
++Ind.Prt2.3.Sg
++Ind.Prt2.3.Pl
++Ind.Prt2
 +1Sg/2Sg
 +1Sg/3Sg
 +1Sg/3Pl
@@ -170,8 +170,16 @@ ZERO
 +Default/1
 +Default/2
 
-+Ger !Gerund This is used with
-!+Der/Озь
++Nonpast +Nonpast.3Sg +Nonpast.3Pl ! In Erzya There is no morphological distinction between present and future
++Prs +Fut +Fut1 
++Prt1 +Prt2 +Prf
++PrfIpf +HstPrf +PluPrf +HstPluPrf
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
++1 +2 +3
++Inf
++Pos +Neg +ConNeg
+
 
 ! Used for predicate marking in Conjugation
 +Pred
@@ -253,12 +261,14 @@ ZERO
 !!
 +Der/Омс !
 +Der/ОмО !
++Der/ОмстО
++Der/Омга
++Der/ОмА
 +Der/Ыця
 +Der/Ы
 +Der/Ый
-+Der/Озь
-+Der/ОмстО
-+Der/Омга
++Ger !Gerund This is used with
++Der/Озь !Gerund 
 
 
 +CLB +PUNCT +LEFT +RIGHT
@@ -321,17 +331,7 @@ ZERO
 +Prl.NbAmb.Indef
 +Temp.NbAmb.Indef
 +Tra.NbAmb.Indef
-! verb-type
-+Ind.Prt1
-+Ind.Prt1.3.Sg
-+Ind.Prt1.3
-+Ind.NonPast.1Sg
-+Ind.NonPast.2Sg
-+Ind.NonPast.1Pl
-+Ind.NonPast.2Pl
-+Ind.Prt2.3Sg
-+Ind.Prt2.3Pl
-+Ind.Prt2
+
 
 ! Nominal stem vowel following vowel, word finally realized as "й"
 !И4
