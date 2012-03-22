@@ -165,7 +165,7 @@ LEXICON kundams-V
 +Conneg:%>К3 Tenses1 ;
 +V2+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V2+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V2+NoLV:  Deverbals_2 ; !This denies linking vowel
++V2:  Deverbals_2 ; !This denies linking vowel
 
 
 LEXICON kundams-V-a
@@ -186,7 +186,7 @@ LEXICON satoms-V
 +Conneg:%>О1К3 Tenses1 ;
 +V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V3+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V3+NoLV:  Deverbals_1 ; 
++V3:  Deverbals_1 ; 
 
 LEXICON letems-V
 +V3: Verbs3-a ;
@@ -194,7 +194,7 @@ LEXICON letems-V
 +Conneg:%>О1К3 Tenses1 ;
 +V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V3+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V3+NoLV:  Deverbals_1 ; 
++V3:  Deverbals_1 ; 
 
 
 LEXICON Verbs3-a
@@ -218,7 +218,7 @@ LEXICON Indicative1
 +Ind.NonPast.3Sg:%>Ы2 Clitic ;
 +Ind.NonPast.1Pl:%>тА2но Clitic ;
 +Ind.NonPast.1Pl+Use/Sub/Dial:%>тА2м Clitic ;
-+Ind.NonPast.1Pl+Kozl:%>тА2нок lak-Clitic ;
++Ind.NonPast.1Pl+Use/Sub/DialKozl:%>тА2нок lak-Clitic ;
 +Ind.NonPast.2Pl:%>тА2до Clitic ;
 +Ind.NonPast.3Pl:%>Ы2ть Clitic ;
 ! Indicative Preterite I
@@ -228,7 +228,7 @@ LEXICON Indicative1
 LEXICON Indicative_Present_TLoss
 +Ind.NonPast.1Pl:%>А2но Clitic ;
 +Use/Sub/Dial+Ind.NonPast.1Pl:%>А2м Clitic ;
-+Kozl+Ind.NonPast.1Pl:%>А2нок lak-Clitic ;
++Use/Sub/DialKozl+Ind.NonPast.1Pl:%>А2нок lak-Clitic ;
 +Ind.NonPast.2Pl:%>А2до Clitic ;
 
 LEXICON Indicative_Present_Obj
@@ -755,7 +755,7 @@ LEXICON ILYA_Obj
 !
 LEXICON Imperative1
 !Imperative
-+NoLV: Imperative2_NoLVReq ;
+: Imperative2_NoLVReq ;
 <0:%>  %+LV:О1 "@P.LV.ON@"> Imperative2_LVReq ;
 
 !LEXICON Imperative1_A
@@ -1148,22 +1148,22 @@ LEXICON Possessive-NomGen
 LEXICON Nouns1S_A_ReqVow
  Possessive-NomGen ;
 
-+LVStem+Ine:%>О1сО1 Indef-DefSg-Poss ;
-+LVStem+Ela:%>О1стО1 Indef-DefSg-Poss ;
-+LVStem+Comp:%>О1шка Indef-DefSg-Poss ;
-+LVStem+Ill:%>О1с Clitic ;
++Ine:%>О1сО1 Indef-DefSg-Poss ;
++Ela:%>О1стО1 Indef-DefSg-Poss ;
++Comp:%>О1шка Indef-DefSg-Poss ;
++Ill:%>О1с Clitic ;
 
 +Lat+Indef:%>О1в Clitic ;
 
 
-+NoLVStem+Ine:%>сО1 Indef-DefSg-Poss ;
-+NoLVStem+Ela:%>стО1 Indef-DefSg-Poss ;
-+NoLVStem+Comp:%>шка Indef-DefSg-Poss ;
++Ine:%>сО1 Indef-DefSg-Poss ;
++Ela:%>стО1 Indef-DefSg-Poss ;
++Comp:%>шка Indef-DefSg-Poss ;
 +Transl:%>О1кс Indef-DefSg-Poss ;
-+NoLVStem+Ill:%>с Clitic ;
++Ill:%>с Clitic ;
 
-+LVStem+Use/Sub/Dial+GenDefSg:%>О1сть Clitic ;
-+LVStem+Use/Sub/Dial+DatDefSg:%>О1стень Clitic ;
++Use/Sub/Dial+GenDefSg:%>О1сть Clitic ;
++Use/Sub/Dial+DatDefSg:%>О1стень Clitic ;
 +Dat+Poss+3:%>О1нстэнь Clitic ;
 +Use/Sub/Dial+Dat+Poss+3:%>О1нстО1 Clitic ;
 +Use/Sub/Dial+Dat+Poss3Sg:%>О1нстэнзэ Clitic ;
