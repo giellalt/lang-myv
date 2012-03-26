@@ -8,7 +8,11 @@
     <root v="">
       <xsl:for-each  select="//entry">
 	<xsl:sort select="lg/l"/>
-	<xsl:if test="e/mg/m/defNative[text()] or e/mg/tg/t[text()] or e/mg/m/semRel or e/mg/xg/x[text()]">
+	<xsl:if test="e/mg/m/defNative[text()] or
+		      e/mg/tg/t[text()] or
+		      e/mg/m/semRel or
+		      e/mg/xg/x[text()]">
+
 	  <xsl:variable name="s-l-word">
 	    <xsl:value-of select="lg/l">
 	    </xsl:value-of>
