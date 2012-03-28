@@ -15,6 +15,7 @@
             <xs:element ref="lg"/>
             <xs:element ref="pos"/>
             <xs:element minOccurs="0" ref="phonet"/>
+            <xs:element minOccurs="0" ref="morphg"/>
             <xs:element maxOccurs="unbounded" ref="e"/>
          </xs:sequence>
          <xs:attribute name="exclude">
@@ -109,38 +110,61 @@
          <xs:enumeration value="A"/>
          <xs:enumeration value="AD-A"/>
          <xs:enumeration value="PRED_A"/>
-         <xs:enumeration value="A-ADN"/>
+         <xs:enumeration value="ADN_A"/>
+         <xs:enumeration value="ADN_A-INDEF"/>
          <xs:enumeration value="A-1ARG"/>
          <xs:enumeration value="A-INDEF"/>
          <xs:enumeration value="A-SUPERL"/>
          <xs:enumeration value="V-GEN_A"/>
+         <xs:enumeration value="COMP_A"/>
          <xs:enumeration value="ADV"/>
          <xs:enumeration value="CEK_ADV"/>
          <xs:enumeration value="NEK_ADV"/>
+         <xs:enumeration value="PRON_ADV"/>
          <xs:enumeration value="ADV-GEN"/>
+         <xs:enumeration value="ADV-TRA"/>
          <xs:enumeration value="ADV-IDEOPH"/>
          <!--вырк, ноцк, штёлк-->
+         <xs:enumeration value="ADV-IDEOPH-INE">
+            <!--баксорсо-->
+         </xs:enumeration>
          <xs:enumeration value="MANNER"/>
          <xs:enumeration value="MANNER-INDEF"/>
          <xs:enumeration value="ADV-PARENTHETIC"/>
          <xs:enumeration value="PRT_ADV-PARENTHETIC"/>
+         <xs:enumeration value="PRT_EPIST">
+            <!--particle Epistemological modality-->
+         </xs:enumeration>
          <xs:enumeration value="V_ADV-PARENTHETIC"/>
          <xs:enumeration value="ADV-POSITION"/>
          <xs:enumeration value="ADV-STATE"/>
+         <xs:enumeration value="PRED2">
+            <!--secondary predication: чавонь кедть, ласте, озадо-->
+         </xs:enumeration>
          <xs:enumeration value="TEMP-0ARG"/>
          <xs:enumeration value="TEMP-0ARG-INDEF"/>
          <xs:enumeration value="TEMP-INDEF"/>
          <xs:enumeration value="TEMP-DEICT"/>
          <xs:enumeration value="ART"/>
+         <xs:enumeration value="ASSOC-COLL"/>
          <xs:enumeration value="CLT"/>
-         <xs:enumeration value="CONJ"/>
-         <xs:enumeration value="COORD"/>
+         <xs:enumeration value="CONJ">
+            <!--Conjunction that still needs to classified as either coordinator or subordinator-->
+         </xs:enumeration>
+         <xs:enumeration value="CC">
+            <!--COORD "coordinator"-->
+         </xs:enumeration>
          <xs:enumeration value="COORD-CORRELATIVE"/>
-         <xs:enumeration value="SUBORD"/>
+         <xs:enumeration value="CS">
+            <!--SUBORD "subordinator"-->
+         </xs:enumeration>
+         <xs:enumeration value="DAT-1ARG"/>
+         <xs:enumeration value="DEM"/>
          <xs:enumeration value="DEM-ADN"/>
          <xs:enumeration value="DEM-PRON"/>
          <xs:enumeration value="SOD"/>
          <!--Speaker-oriented determiner-->
+         <xs:enumeration value="DET"/>
          <xs:enumeration value="DET-PRON"/>
          <xs:enumeration value="DET-ADN"/>
          <xs:enumeration value="DET-PL"/>
@@ -148,6 +172,9 @@
          <xs:enumeration value="GEN-ATTR"/>
          <xs:enumeration value="ABE_A"/>
          <xs:enumeration value="GEN_A"/>
+         <xs:enumeration value="EXCLUSIVE">
+            <!--Exclusive: just, only, alone-->
+         </xs:enumeration>
          <xs:enumeration value="GER"/>
          <xs:enumeration value="GER-ZJ"/>
          <xs:enumeration value="GER-ZJ_A"/>
@@ -160,7 +187,11 @@
          <xs:enumeration value="INTERJ"/>
          <xs:enumeration value="INTERJ-IMP"/>
          <xs:enumeration value="INTERJ-CONATIVE"/>
+         <xs:enumeration value="INSTR">
+            <!--Instrument-->
+         </xs:enumeration>
          <xs:enumeration value="MODIFIER"/>
+         <xs:enumeration value="DEP-MORPH"/>
          <xs:enumeration value="DV_N"/>
          <xs:enumeration value="N"/>
          <xs:enumeration value="INE_N"/>
@@ -169,6 +200,9 @@
          <xs:enumeration value="N-COLL"/>
          <xs:enumeration value="N-PL"/>
          <xs:enumeration value="N-SG"/>
+         <xs:enumeration value="N-TEMP">
+            <!--Temporal noun: The nominative singular is the same as the Temporal adverb form-->
+         </xs:enumeration>
          <xs:enumeration value="N-VOCATIVE"/>
          <xs:enumeration value="NUM"/>
          <xs:enumeration value="NUM-ADN"/>
@@ -188,6 +222,10 @@
          <xs:enumeration value="PRT_NEG"/>
          <xs:enumeration value="PRT_OPT"/>
          <xs:enumeration value="PART-ONOM"/>
+         <xs:enumeration value="PRT_COMPAR-STND">
+            <!--Comparative standard-->
+         </xs:enumeration>
+         <xs:enumeration value="PRT_SUPERL"/>
          <xs:enumeration value="POSTP"/>
          <xs:enumeration value="TEMP-1ARG"/>
          <xs:enumeration value="PREP"/>
@@ -199,6 +237,7 @@
          <xs:enumeration value="PRON-PERS"/>
          <xs:enumeration value="PRON-PERS-INTENSIVE"/>
          <xs:enumeration value="PERS-DAT"/>
+         <xs:enumeration value="PERS-INDEF"/>
          <xs:enumeration value="PRON-RECIP"/>
          <xs:enumeration value="PRON-REFL"/>
          <xs:enumeration value="ADN-REFL"/>
@@ -215,6 +254,9 @@
          <xs:enumeration value="PTC_N"/>
          <xs:enumeration value="REFL"/>
          <!-- spatial This will be further divided into DEICT, INDEP, DEPEND, INTERR -->
+         <xs:enumeration value="RECIP">
+            <!--Reciprocal-->
+         </xs:enumeration>
          <xs:enumeration value="SPAT"/>
          <xs:enumeration value="SPAT-0ARG"/>
          <xs:enumeration value="SPAT-1ARG"/>
@@ -225,13 +267,23 @@
          <xs:enumeration value="SPAT-DEICT"/>
          <xs:enumeration value="SPAT-INDEP"/>
          <xs:enumeration value="SPAT-DEPEND"/>
+         <xs:enumeration value="SPAT-GOAL"/>
+         <xs:enumeration value="SPAT-SOURCE"/>
+         <xs:enumeration value="SPAT-LOC"/>
+         <xs:enumeration value="SPAT-MULTIPOINT"/>
          <xs:enumeration value="STATE"/>
          <xs:enumeration value="SUMMON"/>
          <xs:enumeration value="TEMP"/>
+         <xs:enumeration value="TEMP-SPAT"/>
+         <xs:enumeration value="TEMP-DISTR"/>
+         <xs:enumeration value="TERMINATIVE">
+            <!--Adverb indicating temporal terminative limit. Erzya: -->
+         </xs:enumeration>
          <xs:enumeration value="QNT"/>
          <xs:enumeration value="QNT-ADN"/>
          <xs:enumeration value="QNT-PRON"/>
          <xs:enumeration value="QNT-INDEF"/>
+         <xs:enumeration value="QNT-COLL"/>
          <xs:enumeration value="QNT-DISTR"/>
          <xs:enumeration value="QNT-GEN"/>
          <xs:enumeration value="QNT-ITER"/>
@@ -442,6 +494,13 @@
             <xs:enumeration value="V-satoms_ObjAll"/>
             <xs:enumeration value="V-jarsams"/>
             <xs:enumeration value="indef_gen"/>
+            <xs:enumeration value="kal-N"/>
+            <xs:enumeration value="osh-N"/>
+            <xs:enumeration value="kudo-N"/>
+            <xs:enumeration value="kadoms-V"/>
+            <xs:enumeration value="nevtems-V"/>
+            <xs:enumeration value="kundams-V"/>
+            <xs:enumeration value="satoms-N"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
@@ -465,7 +524,20 @@
             <xs:enumeration value="A-начко"/>
             <xs:enumeration value="A-вейкеть-PL"/>
             <xs:enumeration value="A-шумбра"/>
+            <xs:enumeration value="od-Adj"/>
+            <xs:enumeration value="vitj-Adj"/>
+            <xs:enumeration value="erek-Adj"/>
+            <xs:enumeration value="vanjks-Adj"/>
+            <xs:enumeration value="chevte-Adj"/>
+            <xs:enumeration value="nachko-Adj"/>
+            <xs:enumeration value="vejketj-Adj-PL"/>
+            <xs:enumeration value="shumbra-Adj"/>
+            <xs:enumeration value="AdvTag"/>
             <xs:enumeration value="Adv-Ideoph-вырк"/>
+            <xs:enumeration value="Adv-Ord">
+               <!--васняяк first of all, secondly-->
+            </xs:enumeration>
+            <xs:enumeration value="GEN-Adj"/>
             <xs:enumeration value="GER-саезь"/>
             <xs:enumeration value="Imit-аха-ха-ха"/>
             <xs:enumeration value="Interj-угу"/>
@@ -477,8 +549,31 @@
             <xs:enumeration value="N-теште"/>
             <xs:enumeration value="N-ие"/>
             <xs:enumeration value="N-кудо"/>
+            <xs:enumeration value="N-COLL">
+               <!--These are collective nouns: атят-сэрдят these entries also have exclude="fst" in the entry elements-->
+            </xs:enumeration>
+            <xs:enumeration value="kal-N"/>
+            <xs:enumeration value="kal-N-PL"/>
+            <xs:enumeration value="lak-N"/>
+            <xs:enumeration value="kit-N"/>
+            <xs:enumeration value="kit-N-PL"/>
+            <xs:enumeration value="osh-N"/>
+            <xs:enumeration value="osh-N-PL"/>
+            <xs:enumeration value="klass-N"/>
+            <xs:enumeration value="pango-N"/>
+            <xs:enumeration value="sjado-NUM-PL"/>
+            <xs:enumeration value="ije-N"/>
+            <xs:enumeration value="tinge-N"/>
+            <xs:enumeration value="tinge-N-PL"/>
+            <xs:enumeration value="teshte-N"/>
+            <xs:enumeration value="kudo-N"/>
+            <xs:enumeration value="kudo-N-PL"/>
             <xs:enumeration value="N-авидем"/>
             <xs:enumeration value="P-Инешкипаз"/>
+            <xs:enumeration value="kal-PROP"/>
+            <xs:enumeration value="osh-PROP"/>
+            <xs:enumeration value="kudo-PROP"/>
+            <xs:enumeration value="kudo-PROP-PL"/>
             <xs:enumeration value="PO-туртов"/>
             <xs:enumeration value="PO-каршо"/>
             <xs:enumeration value="PO-кисэ"/>
@@ -489,6 +584,8 @@
             <xs:enumeration value="SOD-кудоньсесь"/>
             <xs:enumeration value="SOD-икельсь"/>
             <xs:enumeration value="SOD-икельсть-удалсть"/>
+            <xs:enumeration value="alce-Dem"/>
+            <xs:enumeration value="ne-Dem"/>
             <xs:enumeration value="Spat-аловпандт"/>
             <xs:enumeration value="Spat-ало"/>
             <xs:enumeration value="Spat-васов"/>
@@ -516,6 +613,33 @@
             <xs:enumeration value="V-кундамс_ObjAll"/>
             <xs:enumeration value="V-сатомс"/>
             <xs:enumeration value="V-сатомс_Obj3Sg"/>
+            <xs:enumeration value="tejems-V"/>
+            <xs:enumeration value="kadoms-V"/>
+            <xs:enumeration value="nevtems-V"/>
+            <xs:enumeration value="ujems-V"/>
+            <xs:enumeration value="mijems-V"/>
+            <xs:enumeration value="kundams-V"/>
+            <xs:enumeration value="satoms-V"/>
+            <xs:enumeration value="letems-V"/>
+            <xs:enumeration value="savtoms-V"/>
+            <xs:enumeration value="ledems-V"/>
+            <xs:enumeration value="jangavoms-V"/>
+            <xs:enumeration value="sajevems-V"/>
+            <xs:enumeration value="tujems-V"/>
+            <xs:enumeration value="nejems-V"/>
+            <xs:enumeration value="nekshnems-V"/>
+            <xs:enumeration value="tejems-V_Obj3Sg"/>
+            <xs:enumeration value="kadoms-V_Obj3Sg"/>
+            <xs:enumeration value="nevtems-V_Obj3Sg"/>
+            <xs:enumeration value="ujems-V_Obj3Sg"/>
+            <xs:enumeration value="mijems-V_Obj3Sg"/>
+            <xs:enumeration value="kundams-V_Obj3Sg"/>
+            <xs:enumeration value="satoms-V_Obj3Sg"/>
+            <xs:enumeration value="savtoms-V_Obj3Sg"/>
+            <xs:enumeration value="ledems-V_Obj3Sg"/>
+            <xs:enumeration value="tujems-V_Obj3Sg"/>
+            <xs:enumeration value="nejems-V_Obj3Sg"/>
+            <xs:enumeration value="nekshnems-V_Obj3Sg"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
@@ -537,6 +661,45 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
+   <xs:element name="morphg">
+      <xs:complexType>
+         <xs:choice maxOccurs="unbounded" minOccurs="1">
+            <xs:element ref="morph"/>
+            <xs:element ref="morphCtn"/>
+         </xs:choice>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="morph">
+      <xs:complexType mixed="true">
+         <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="constituent" type="xs:string"/>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="t"/>
+         </xs:sequence>
+         <xs:attribute name="type">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="A"/>
+                  <xs:enumeration value="N"/>
+                  <xs:enumeration value="V"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="morphCtn">
+      <xs:complexType>
+         <xs:choice>
+            <xs:element maxOccurs="unbounded" minOccurs="2" ref="morph"/>
+         </xs:choice>
+         <xs:attribute name="type">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="stemVariation"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
    <xs:element name="etymg">
       <xs:complexType>
          <xs:choice maxOccurs="unbounded" minOccurs="1">
@@ -547,9 +710,10 @@
    </xs:element>
    <xs:element name="etymCtn">
       <xs:complexType>
-         <xs:choice>
+         <xs:sequence>
             <xs:element maxOccurs="unbounded" minOccurs="2" ref="etym"/>
-         </xs:choice>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="t"/>
+         </xs:sequence>
          <xs:attribute name="type">
             <xs:simpleType>
                <xs:restriction base="xs:string">
@@ -563,10 +727,19 @@
       <xs:complexType mixed="true">
          <xs:sequence>
             <xs:element maxOccurs="unbounded" minOccurs="0" name="constituent" type="xs:string"/>
-            <xs:element maxOccurs="unbounded" minOccurs="0" ref="tg"/>
+            <xs:element maxOccurs="unbounded" minOccurs="0" ref="t"/>
          </xs:sequence>
          <xs:attribute ref="cx"/>
          <xs:attribute ref="dx"/>
+         <xs:attribute name="langForm">
+            <!--This should be either dial or *-->
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="dial"/>
+                  <xs:enumeration value="*"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
          <xs:attribute ref="etymType"/>
          <xs:attribute ref="lang"/>
          <xs:attribute ref="lemmaID"/>
@@ -906,7 +1079,12 @@
          <xs:attribute ref="genreType"/>
       </xs:complexType>
    </xs:element>
-   <xs:element name="x" type="xs:string"/>
+   <xs:element name="x">
+      <xs:complexType mixed="true">
+         <xs:sequence/>
+         <xs:attribute name="src" type="xs:string"/>
+      </xs:complexType>
+   </xs:element>
    <xs:element name="answer">
       <xs:complexType>
          <xs:sequence>
@@ -1005,9 +1183,17 @@
    <xs:attribute name="lang">
       <xs:simpleType>
          <xs:restriction base="xs:string">
-            <xs:enumeration value="arab"/>
-            <!-- Arab?? -->
+            <xs:enumeration value="ara">
+               <!--Arabic-->
+            </xs:enumeration>
+            <!-- -->
+            <xs:enumeration value="cze">
+               <!--Czech-->
+            </xs:enumeration>
             <xs:enumeration value="deu"/>
+            <xs:enumeration value="dut">
+               <!--Dutch-->
+            </xs:enumeration>
             <xs:enumeration value="ell"/>
             <!-- Modern Greek -->
             <xs:enumeration value="eng"/>
@@ -1016,13 +1202,25 @@
             <xs:enumeration value="erz"/>
             <!--Language users would have prefered ERZ from the Russian Gos, but for some reason ISO decided they wanted something NEW and LACKING in any mnemonic value; they elected to impliment MYV. How long did it take for ISO to accept both GER and DEU?-->
             <xs:enumeration value="myv"/>
-            <xs:enumeration value="es"/>
+            <xs:enumeration value="esp"/>
+            <xs:enumeration value="est"/>
             <xs:enumeration value="fin"/>
+            <xs:enumeration value="fiu-shoksha"/>
             <xs:enumeration value="fra"/>
-            <xs:enumeration value="grc"/>
-            <!-- Ancient Greek -->
+            <xs:enumeration value="grc">
+               <!--Ancient Greek-->
+            </xs:enumeration>
+            <xs:enumeration value="gre">
+               <!--Ancient Greek-->
+            </xs:enumeration>
+            <xs:enumeration value="heb"/>
             <xs:enumeration value="a-iran"/>
             <!-- Ancient Iran?? -->
+            <xs:enumeration value="ira">
+               <!--One of the 100 some languages of Iran-->
+            </xs:enumeration>
+            <xs:enumeration value="hun"/>
+            <xs:enumeration value="ita"/>
             <xs:enumeration value="koi"/>
             <xs:enumeration value="kom"/>
             <xs:enumeration value="kpv">
@@ -1030,11 +1228,24 @@
             </xs:enumeration>
             <xs:enumeration value="lat"/>
             <xs:enumeration value="mdf"/>
+            <xs:enumeration value="mhr"/>
+            <xs:enumeration value="mrj"/>
+            <xs:enumeration value="pol"/>
             <xs:enumeration value="rus"/>
-            <xs:enumeration value="sme"/>
-            <!-- Northern Sámi -->
+            <xs:enumeration value="san">
+               <!--Sanskrit-->
+            </xs:enumeration>
+            <xs:enumeration value="sme">
+               <!--Northern Sámi -->
+            </xs:enumeration>
+            <xs:enumeration value="swe"/>
             <xs:enumeration value="tr"/>
-            <xs:enumeration value="tt"/>
+            <xs:enumeration value="tut">
+               <!--Old Turkic-->
+            </xs:enumeration>
+            <xs:enumeration value="tat">
+               <!--tt Tatar-->
+            </xs:enumeration>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
