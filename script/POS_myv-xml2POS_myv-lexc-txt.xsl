@@ -10,12 +10,15 @@
       omit-xml-declaration="no">
   </xsl:output>
   <!--
-      In gtsvn/kt/myv/src/ the following line can be written for deriving POS_myv-lexc.txt files from POS_myv-lex.xml files in gtsvn/kt/myv/src/working_files/:
+      In gtsvn/kt/myv/src/ the following line can be written for deriving POS_myv-lex.txt files from POS_myv-lex.xml files in gtsvn/kt/myv/src/working_files/:
       
-      xsltproc -o POS_myv-lexc.txt ../script/POS_myv-xml2POS_myv-lexc-txt.xsl working_files/POS_myv-lex.xml
+      xsltproc -o POS_myv-lex.txt ../script/POS_myv-xml2POS_myv-lexc-txt.xsl working_files/POS_myv-lex.xml
       
       This was originally written March 28, 2012 by Jack Rueter.
-      
+     
+Additional requirements are:
+(1) the removal of xml tags and
+(2) the introduction of "% " notation where the simple " " white space is present in the lemmas and stems. 
   -->
   <xsl:template match="/">
     <ls>
