@@ -537,6 +537,7 @@
             <xs:enumeration value="Adv-Ord">
                <!--васняяк first of all, secondly-->
             </xs:enumeration>
+            <xs:enumeration value="Assoc-Coll"/>
             <xs:enumeration value="GEN-Adj"/>
             <xs:enumeration value="GER-саезь"/>
             <xs:enumeration value="Imit-аха-ха-ха"/>
@@ -569,6 +570,16 @@
             <xs:enumeration value="kudo-N"/>
             <xs:enumeration value="kudo-N-PL"/>
             <xs:enumeration value="N-авидем"/>
+            <xs:enumeration value="NUM">
+               <!--This tag is used for numerals that will not show up in fst (exclude="fst")-->
+            </xs:enumeration>
+            <xs:enumeration value="kal-NUM"/>
+            <xs:enumeration value="osh-NUM"/>
+            <xs:enumeration value="kudo-NUM"/>
+            <xs:enumeration value="ORD">
+               <!--This tag is used for ordinals that will not show up in fst (exclude="fst")-->
+            </xs:enumeration>
+            <xs:enumeration value="OrdTag"/>
             <xs:enumeration value="P-Инешкипаз"/>
             <xs:enumeration value="kal-PROP"/>
             <xs:enumeration value="osh-PROP"/>
@@ -580,6 +591,8 @@
             <xs:enumeration value="PO-коряс"/>
             <xs:enumeration value="PO-эйс"/>
             <xs:enumeration value="Pron-Refl-эськанзо"/>
+            <xs:enumeration value="QntTag"/>
+            <xs:enumeration value="Qnt-Distr"/>
             <xs:enumeration value="SOD-алце"/>
             <xs:enumeration value="SOD-кудоньсесь"/>
             <xs:enumeration value="SOD-икельсь"/>
