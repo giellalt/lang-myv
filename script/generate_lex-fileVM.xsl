@@ -31,7 +31,7 @@
   <xsl:param name="outDir" select="'out'"/>
   <xsl:variable name="of" select="'txt'"/>
   <xsl:variable name="debug" select="true()"/>
-  <xsl:variable name="FstEntries" select="count(document($inFile)/dict/entry[not(@exclude='fst')])"/>
+  <xsl:variable name="FstEntries" select="count(document($inFile)/r/entry[not(@exclude='fst')])"/>
 
   <xsl:template match="/" name="main">
     
