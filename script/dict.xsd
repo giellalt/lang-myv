@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	   xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty">
    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
    <xs:element name="r">
@@ -606,7 +607,28 @@
             <xs:enumeration value="Spat-экшсэ"/>
             <xs:enumeration value="Spat-лангсо"/>
             <xs:enumeration value="Spat-ютксо"/>
+            <xs:enumeration value="Spat-NoArg"/>
+            <xs:enumeration value="alo-Spat"/>
+            <xs:enumeration value="TEMP">
+               <!--(exclude="fst")-->
+            </xs:enumeration>
+            <xs:enumeration value="kudo-N-Temp"/>
+            <xs:enumeration value="kit-N-Temp"/>
+            <xs:enumeration value="lak-N-Temp"/>
+            <xs:enumeration value="Temp-1Arg"/>
+            <xs:enumeration value="Temp-1Arg-Ela"/>
+            <xs:enumeration value="Temp-Pl"/>
+            <xs:enumeration value="Temp-NoArg"/>
             <xs:enumeration value="Temp-мейле"/>
+            <xs:enumeration value="Temp-Coll"/>
+            <xs:enumeration value="Temp-Distr"/>
+            <xs:enumeration value="TempTag"/>
+            <xs:enumeration value="Temp-ms"/>
+            <xs:enumeration value="Temp-Ela"/>
+            <xs:enumeration value="Temp-Ill"/>
+            <xs:enumeration value="Temp-Lat"/>
+            <xs:enumeration value="Temp-Prl"/>
+            <xs:enumeration value="Temp-Temp"/>
             <xs:enumeration value="V-панемс"/>
             <xs:enumeration value="V-панемс_ObjAll"/>
             <xs:enumeration value="V-паневемс"/>
