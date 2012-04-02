@@ -141,7 +141,7 @@ ihfst i$(GTLANG).hfst: ../bin/i$(GTLANG).hfstol
 upper-lexc-hfst: ../bin/$(GTLANG)-upper.hfst
 ../bin/$(GTLANG)-upper.hfst: \
 		../bin/$(GTLANG)-tagsremoved.hfst \
-		../bin/uppercase-first.hfst
+		$(GTHOME)/gt/common/bin/uppercase-first.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
