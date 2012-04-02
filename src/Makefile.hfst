@@ -47,6 +47,7 @@ include Makefile_xml
 	save stack $@ \n" > $@.script
 	hfst-xfst -F $(HFST_FORMAT) -f $@.script
 
+
 # Target for all common xfst script files:
 ../bin/%.hfst: ../src/%.xfst
 	@echo
@@ -97,7 +98,7 @@ lexc-hfst: ../bin/$(GTLANG)-lexc.hfst
 save-hfst: ../bin/$(GTLANG)-gen.hfst
 ../bin/$(GTLANG)-gen.hfst: \
 		../bin/$(GTLANG)-lexc.hfst \
-		../bin/xfst-$(GTLANG).hfst
+		../bin/twol-$(GTLANG).hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
