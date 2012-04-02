@@ -75,7 +75,6 @@
    <xs:element name="st">
       <xs:complexType mixed="true">
          <xs:sequence/>
-         <xs:attribute ref="contlex"/>
          <xs:attribute ref="erzContlex"/>
          <xs:attribute ref="kpvContlex"/>
          <xs:attribute ref="orthType"/>
@@ -375,6 +374,7 @@
          </xs:simpleContent>
       </xs:complexType>
    </xs:element>
+<!--
    <xs:attribute name="contlex">
       <xs:simpleType>
          <xs:restriction base="xs:string">
@@ -476,7 +476,6 @@
             <xs:enumeration value="SPAT3-INDEP"/>
             <xs:enumeration value="SUMMON"/>
             <xs:enumeration value="V-FINITE"/>
-            <!-- This is actually where valency comes in -->
             <xs:enumeration value="V-NEG"/>
             <xs:enumeration value="V-avolj"/>
             <xs:enumeration value="V-ez"/>
@@ -505,6 +504,7 @@
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
+-->
    <xs:element name="e">
       <xs:complexType>
          <xs:sequence>
@@ -571,6 +571,7 @@
             <xs:enumeration value="kudo-N"/>
             <xs:enumeration value="kudo-N-PL"/>
             <xs:enumeration value="N-авидем"/>
+            <xs:enumeration value="avidem-N"/>
             <xs:enumeration value="NUM">
                <!--This tag is used for numerals that will not show up in fst (exclude="fst")-->
             </xs:enumeration>
@@ -581,6 +582,11 @@
                <!--This tag is used for ordinals that will not show up in fst (exclude="fst")-->
             </xs:enumeration>
             <xs:enumeration value="OrdTag"/>
+            <xs:enumeration value="PcleTag"/>
+            <xs:enumeration value="Pcle-Neg"/>
+            <xs:enumeration value="Pcle-Superl"/>
+            <xs:enumeration value="Pcle-Compar-Stnd"/>
+            <xs:enumeration value="Pcle-Epist"/>
             <xs:enumeration value="P-Инешкипаз"/>
             <xs:enumeration value="kal-PROP"/>
             <xs:enumeration value="osh-PROP"/>
@@ -591,6 +597,9 @@
             <xs:enumeration value="PO-кисэ"/>
             <xs:enumeration value="PO-коряс"/>
             <xs:enumeration value="PO-эйс"/>
+            <xs:enumeration value="PronTag"/>
+            <xs:enumeration value="Pron-Indef"/>
+            <xs:enumeration value="Pron-Pers"/>
             <xs:enumeration value="Pron-Refl-эськанзо"/>
             <xs:enumeration value="QntTag"/>
             <xs:enumeration value="Qnt-Distr"/>
