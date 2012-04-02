@@ -19,7 +19,7 @@ ZERO
 +Adj ! Adjective
 +Attr ! Attribute
 +Capitalizing
-+Dem ! Demonstrative
++Dem ! Demonstrative also what was called +SOD
 +Def ! Definite
 +Der ! Derivation +Deriv
 +Det ! Determinative
@@ -288,7 +288,7 @@ ZERO
 
 !Modifier without noun
 +Der/MWN ! Modifier without Noun
-+Der/SOD ! Speaker-Oriented Demonstrative
++Der/Dem ! Speaker-Oriented Demonstrative
 
 !Declaring Indefinite Pronoun derivations
 +Der/гак
@@ -311,6 +311,8 @@ ZERO
 
 
 +Dim 
+
++Der/Abe ! Adjective usage Maybe this is not necessary.
 
 ! There portmanteau morphology
 ! Noun-type
@@ -531,24 +533,22 @@ TESTINGTESTING ;
 
 ! contlexes    ! the file, where the contlex is located
 ! ------------ ! ---------------------------------------
-Adj ;			   ! ../../tmp/out/A_myv-lex.xml
-!2012-03-14!A-SUPERL ;	   ! ../../tmp/out/A-SUPERL_myv-lex.xml
+A ;			   ! ../../tmp/out/A_myv-lex.xml
 ADV ;		   ! ../../tmp/out/ADV_myv-lex.xml
-!2012-03-14!!!! ADVROOT ;	   ! ../../tmp/out/ADVROOT_myv-lex.xml ! no longer exists
-!2012-03-14!Abbreviation ; ! abbr-myv-lex.txt
+Abbreviation ; ! abbr-myv-lex.txt
 !2012-03-14!ABBR ;			   ! ../../tmp/out/ABBR_myv-lex.xml
 !2012-03-14!Acronym ;	   ! acro-myv-lex.txt
 !2012-03-14!ACRON ;			   ! ../../tmp/out/ACRON_myv-lex.xml
 CONJ ;		   ! ../../tmp/out/CONJ_myv-lex.xml
 !2012-03-14!IDIOM ;		   ! ../../tmp/out/IDIOM_myv-lex.xml
 INTERJ ;	   ! ../../tmp/out/INTERJ_myv-lex.xml
-!2012-03-14!INTERR ;         ! pron-myv-morph.txt
+INTERR ;         ! pron-myv-morph.txt
 N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
 !2012-03-14!N-DV ;			   ! ../../tmp/out/N-DV_myv-lex.xml
 !2012-03-14!N-F ;			   ! ../../tmp/out/N-F_myv-lex.xml
 !2012-03-14!No-e-element-N ;	   ! ../../tmp/out/No-e-element-N_myv-lex.xml
 !2012-03-14!No-e-element-V ;	   ! ../../tmp/out/No-e-element-V_myv-lex.xml
-QNT ;
+QNT ;			   	   ! ../../tmp/out/QNT_myv-lex.xml
 !2012-03-14!NUM ;		   ! ../../tmp/out/NUM_myv-lex.xml
 !2012-03-14!NUM-PREFIXES ; ! num-myv-morph.txt
 PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
@@ -599,9 +599,11 @@ LEXICON R
 
 
 LEXICON Interj-Imp
-+2Sg: ImpClitic ;
-+2Pl:%>дО1 ImpClitic ;
++Interj+Imp+2Sg: ImpClitic ;
++Interj+Imp+2Pl:%>дО1 ImpClitic ;
 
+LEXICON FormulaicTag
++Interj+Formulaic: # ;
 
 
 ! ============ !
@@ -659,10 +661,13 @@ LEXICON osh-SPAT-PossX
 
 
 
-!This contlex allows for relational word which, otherwise, are open 
-!to extensive declension
-!LEXICON POSTP1
-!PO-APR ;
+! This contlex allows for relational word which, otherwise, are open 
+! to extensive declension
+LEXICON PostpTag
++Po: Clitic ;
+
+LEXICON Dat-1Arg
++Po+DAT: Clitic ;
 
 ! ==================================== !
 ! Lexica called End, whatever they are !
@@ -671,27 +676,128 @@ LEXICON osh-SPAT-PossX
 !LEXICON ABBR-IS_ADV
 !+ABBR: ADVTAG ;
 
-!LEXICON Ad-ATAG ! these are checked as advs.
-!+AdA: # ;
+LEXICON Ad-ATag ! 
++AdA: # ;
 
-!LEXICON ADV-IS_GER-IGON ! these are checked as gerunds in +Der/иг
-!+V+Der/иг+Instr: ADVTAG ;
+LEXICON AdvTag ! 
++Adv: Clitic ;
 
-!LEXICON ADVTAG ! these are checked as advs.
-!+Adv: COMPARATIVE ;
+LEXICON Adv-Ideoph ! 
++Adv-Ideoph: Clitic ;
+! сорк, кальцк ; twang, thwang, bang
 
-!LEXICON ADV-SPAT ! these are adverbs in spatial cases
-      !and they probably are equivalent in morphology to postpositions
-! ADV-SPAT-APR ;
+LEXICON Adv-Ideoph-Ine ! 
++Adv-Ideoph+Ine: Clitic ;
+
+LEXICON Adv-Ine ! 
++Ine: AdvTag ;
+
+LEXICON Adv-Tra ! 
++Tra: AdvTag ;
+
+
+
+
+!! spatial adverbs 
+!! dependent and independent case marking 
+LEXICON Spat-NoArg
++Adv+Spat-NoArg: Clitic ;
+
+!!Temporal tags with cases
+LEXICON TempTag
++Adv+Temp: Clitic ;
+
+!! This marking would indicate a word form that may be 
+!  construed as an adv as well as a adposition.
+LEXICON Temp-NoArg
++Adv+Temp: Clitic ;
+
+LEXICON Temp-Coll
++Coll+Adv+Temp: Clitic ;
+
+LEXICON Temp-Distr
++Distr+Adv+Temp: Clitic ;
+
+LEXICON Temp-Ela
++Ela+Adv+Temp: Clitic ;
+
+LEXICON Temp-Ill
++Ill+Adv+Temp: Clitic ;
+
+LEXICON Temp-Lat
++Lat+Adv+Temp: Clitic ;
+
+LEXICON Temp-ms
++Der/мс+Ill+Adv+Temp: Clitic ;
+
+LEXICON Temp-Pl
++Pl+Adv+Temp: Clitic ;
+
+LEXICON Temp-Prl
++Prl+Adv+Temp: Clitic ;
+
+LEXICON Temp-Temp
++Temp+Adv+Temp: Clitic ;
+
+LEXICON lak-N-Temp
++N+Adv+Temp: Clitic ;
+
+LEXICON kit-N-Temp
++N+Adv+Temp: Clitic ;
+
+LEXICON kudo-N-Temp
++N+Adv+Temp: Clitic ;
+
+LEXICON Temp-1Arg-Ela
++Po+Ela+Temp: Clitic ; !This will require Possessor Indices
+
+
+
+LEXICON Cc
++CC: # ;
+
+LEXICON Cs
++CS: # ;
+
 
 !LEXICON EndConj
 !+CC: # ;
+
+!!Let's remember that Particle is merely an expression of form
+!LEXICON PCLE
+!а+Pcle+Neg:а # ;
+!аволь+Pcle+Neg+Emphatic:аволь # ;
+!ай+Pcle+Neg+Emphatic:ай kal-N ;
+!апак+Pcle+Neg:апак Tenses-Obl ;
+!седе+Pcle+Compar:седе # ;
+!сех+Pcle+Superl:сех # ;
+!сех+Pcle+Superl+Abl:сехте # ; ! This is a comparative construction
+!уш+Pcle+Intensifier:уш # ;
+
+LEXICON Pcle-Compar-Stnd
++Pcle+Compar: # ;
+
+LEXICON Pcle-Epist
++Pcle+Epist: # ;
+
+LEXICON Pcle-Neg
++Pcle+Superl: # ;
+
+LEXICON Pcle-Superl
++Pcle+Superl: # ;
+
+LEXICON PcleTag
++Pcle: # ;
+
 
 !LEXICON EndPart
 !+Pcle: # ;
 
 !LEXICON EndInterj
 !+Interj: # ;
+
+LEXICON Interj
++Interj: # ;
 
 !LEXICON EndNeg 
 !+CC+Neg: # ; ! ни
@@ -745,6 +851,51 @@ LEXICON TESTINGTESTING
 LEXICON TESTCOMP
 
 +CmpTest: # ;
+
+
+!!!
+!formerly Spatials_4cx
+LEXICON alo-Spat
++Spat4+OrthPhon+Loc+Der/це:%>це kudo-N ;
++Spat4+Loc+Der/се:%>се kudo-N ;
++Spat4+Der/кс:%>кс osh-N ;
+
++Spat4+Lat+Indef:%>О1в Clitic ;
++Spat4+Abl+Indef:%>дО1 Nouns3-1 ;
+
++Spat4+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Spat4+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
+
++Spat4+Abl:%>дО1 Indef--Poss ;
++Spat4+Loc:%>О1 Indef--Poss ; 
++Spat4+Prl:%>Г2а Indef--Poss ;
+
+
+LEXICON Mezty
++Assoc+Pl+Nom:%>мезть Clitic ;
++Assoc+Dat:%>мезнень Clitic ;
++Assoc+Gen:%>мезень Clitic ;
++Assoc+Abl:%>мезде Clitic ;
++Assoc+Abe:%>мезевтеме Clitic ;
+!+Assoc:%>мезть Clitic
+!+Assoc:%>мезть Clitic
+
+
+LEXICON Indef-DefSg-Poss
+ -DefSg- ;
+ Indef--Poss ;
+
+LEXICON -DefSg-
++DefSg:%>О1нть Clitic ;
+
+LEXICON Indef--Poss
++Indef: Tenses-Obl ;
++Poss1Sg:%>О1нЬ2 Tenses-Obl ;
++Poss2Sg:%>О1тЬ2 Tenses-Obl ;
++Poss3Sg:%>О1нзО1 Tenses-Obl ;
++Poss1Pl:%>О1нО1к Tenses-Obl ;
++Poss2Pl:%>О1нк Tenses-Obl ;
++Poss3Pl:%>О1ст Tenses-Obl ;
 
 
 
