@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../script/dict.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+<r xsi:noNamespaceSchemaLocation="../../script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
@@ -4042,6 +4040,23 @@
    </entry>
    <entry>
       <lg>
+         <l>оцинямс</l>
+         <stg>
+            <st erzContlex="kundams-V">оциня</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Охотничамс.</defNative>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>палавомс</l>
          <stg>
             <st erzContlex="jangavoms-V">палав</st>
@@ -5320,6 +5335,29 @@
             <m>
                <head/>
                <defNative/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>скимемс</l>
+         <stg>
+            <st erzContlex="kadoms-V">ским</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Валгомс, аламгадомс, мекев совамс берёкс. (Лейде)</defNative>
+            </m>
+         </mg>
+         <mg>
+            <m>
+               <head/>
+               <defNative>(Скалдо)</defNative>
             </m>
          </mg>
       </e>
@@ -6744,6 +6782,23 @@
             <m>
                <head/>
                <defNative>Каравомс шождынестэ, чевтьстэ. Парсте умбодовомс пекше чувтонтень.</defNative>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>умбодомс</l>
+         <stg>
+            <st erzContlex="kadoms-V_ObjAll">умбод</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Сверлямс, пелемс варя.</defNative>
             </m>
          </mg>
       </e>
@@ -8220,6 +8275,23 @@
             <m>
                <head/>
                <defNative/>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>аевемс</l>
+         <stg>
+            <st erzContlex="sajevems-V">аев</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Саевемс, туевемс ве ёнов.</defNative>
             </m>
          </mg>
       </e>
@@ -24258,6 +24330,23 @@
    </entry>
    <entry>
       <lg>
+         <l>васькавтомс</l>
+         <stg>
+            <st erzContlex="savtoms-V_ObjAll">васькавт</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Жалямс, кольневтемс.</defNative>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>васькамс</l>
          <stg>
             <st erzContlex="kundams-V">васька</st>
@@ -39477,7 +39566,7 @@
       <lg>
          <l>пивсэмс</l>
          <stg>
-            <st contlex="kundams-V">пивсэ</st>
+            <st erzContlex="kundams-V">пивсэ</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -50818,7 +50907,7 @@
          <l>чочамс</l>
          <lsub>шочтамс</lsub>
          <stg>
-            <st erzContlex="V-кундамс_ObjAll">чоча</st>
+            <st erzContlex="kundams-V_ObjAll">чоча</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -52031,6 +52120,23 @@
             <m>
                <head/>
                <defNative>Вачкоемс эрьба калень тарадсо, илейсэ.</defNative>
+            </m>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>эрьвамс</l>
+         <stg>
+            <st erzContlex="kundams-V">эрьва</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Бажамс.</defNative>
             </m>
          </mg>
       </e>
@@ -54074,24 +54180,6 @@
                <x>Ваканонть варсодизе, натой лазовсь.</x>
                <xt/>
             </xg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lg>
-         <l>васняяк</l>
-         <stg>
-            <st erzContlex="Adv-Ord">васняяк</st>
-         </stg>
-      </lg>
-      <pos>ORD</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-               <semRel lemmaID="васень" semRelType="confer"/>
-               <defNative/>
-            </m>
          </mg>
       </e>
    </entry>
@@ -65239,7 +65327,7 @@
       <lg>
          <l>сезтемс</l>
          <stg>
-            <st contlex="kundams-V">сезте</st>
+            <st erzContlex="kundams-V">сезте</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -66438,7 +66526,7 @@
       <lg>
          <l>эртемс</l>
          <stg>
-            <st contlex="kundams-V">эрте</st>
+            <st erzContlex="kundams-V">эрте</st>
          </stg>
       </lg>
       <pos>V</pos>
