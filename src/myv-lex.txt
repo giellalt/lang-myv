@@ -99,6 +99,7 @@ ZERO
  +Rel +Interr +Recipr
 +Hum +NonHum 
 +Ptc
++ActDemPtc
 !! This has something to do with  verb stem tracking
 !  The three should be removed a little later if there
 !  is no reason to keep them
@@ -542,7 +543,7 @@ Abbreviation ; ! abbr-myv-lex.txt
 CONJ ;		   ! ../../tmp/out/CONJ_myv-lex.xml
 !2012-03-14!IDIOM ;		   ! ../../tmp/out/IDIOM_myv-lex.xml
 INTERJ ;	   ! ../../tmp/out/INTERJ_myv-lex.xml
-INTERR ;         ! pron-myv-morph.txt
+MANNER ;  ! ../../tmp/out/MANNER_myv-lex.xml
 N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
 !2012-03-14!N-DV ;			   ! ../../tmp/out/N-DV_myv-lex.xml
 !2012-03-14!N-F ;			   ! ../../tmp/out/N-F_myv-lex.xml
@@ -559,6 +560,8 @@ POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
  Misc_Pronouns ;
  Indef_Pronouns ;
 <"@P.INDEF.PREF@">  Indef_Pronouns-pref ;
+PRED2 ;	   ! ../../tmp/out/PRED2_myv-lex.xml !! Secondary Predication
+PRON ;	   ! ../../tmp/out/PRON_myv-lex.xml
 !2012-03-14!PRON-DEM ;	   ! ../../tmp/out/PRON-DEM_myv-lex.xml
 !2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
 !2012-03-14!PRON-INTER ;   ! ../../tmp/out/PRON-INTER_myv-lex.xml
@@ -572,7 +575,9 @@ PROP ;		   ! ../../tmp/out/PROP_myv-lex.xml
 !2012-03-14!PROP-CYRILLIC-MALE-SURNAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-SURNAMES_myv-lex.xml
 !2012-03-14!PROP-RUSSIAN-MALE-NAMES-Derivable ;	  ! ../../tmp/out/PROP-RUSSIAN-MALE-NAMES-Derivable_myv-lex.xml
 !2012-03-14!PROP-CYRILLIC-MALE-NAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
-!2012-03-14!Punctuation ;  ! punct-myv-lex.txt
+Punctuation ;  ! punct-myv-lex.txt
+SPAT ;  ! ../../tmp/out/SPAT_myv-lex.xml
+TEMP ;  ! ../../tmp/out/TEMP_myv-lex.xml
 V ;			   !!! ../../tmp/out/V_myv-lex.xml
 !2012-03-14!V-N2END ;			   ! ../../tmp/out/V-N2END_myv-lex.xml
 !2012-03-14!VERBNEGATIVE ; ! verb-myv-morph.txt
@@ -605,6 +610,8 @@ LEXICON Interj-Imp
 LEXICON FormulaicTag
 +Interj+Formulaic: # ;
 
+LEXICON VocativeTag
++Interj+Voc: # ;
 
 ! ============ !
 ! Postp lexica !
@@ -689,12 +696,20 @@ LEXICON Adv-Ideoph !
 LEXICON Adv-Ideoph-Ine ! 
 +Adv-Ideoph+Ine: Clitic ;
 
+LEXICON Exclusive ! 
++Adv+Exclusive: Clitic ;
+
 LEXICON Adv-Ine ! 
 +Ine: AdvTag ;
 
 LEXICON Adv-Tra ! 
 +Tra: AdvTag ;
 
+LEXICON MannerTag ! 
++Adv+Manner: Clitic ;
+
+LEXICON Manner-Interr ! 
++Interr+Adv+Manner: Clitic ;
 
 
 
@@ -702,6 +717,12 @@ LEXICON Adv-Tra !
 !! dependent and independent case marking 
 LEXICON Spat-NoArg
 +Adv+Spat-NoArg: Clitic ;
+
+LEXICON Interr-Spat
++Interr+Spat: # ;
+
+LEXICON SpatTag
++Spat: Clitic ;
 
 !!Temporal tags with cases
 LEXICON TempTag
@@ -723,6 +744,12 @@ LEXICON Temp-Ela
 
 LEXICON Temp-Ill
 +Ill+Adv+Temp: Clitic ;
+
+LEXICON Temp-Indef
++Adv+Temp+Indef: Clitic ;
+
+LEXICON Temp-Interr
++Adv+Temp+Interr: Clitic ;
 
 LEXICON Temp-Lat
 +Lat+Adv+Temp: Clitic ;
@@ -799,6 +826,9 @@ LEXICON PcleTag
 LEXICON Interj
 +Interj: # ;
 
+LEXICON N-Voc-Px1Sg
++N+Px1Sg+Interj+Voc: # ;
+
 !LEXICON EndNeg 
 !+CC+Neg: # ; ! ни
 
@@ -856,19 +886,57 @@ LEXICON TESTCOMP
 !!!
 !formerly Spatials_4cx
 LEXICON alo-Spat
-+Spat4+OrthPhon+Loc+Der/це:%>це kudo-N ;
-+Spat4+Loc+Der/се:%>се kudo-N ;
-+Spat4+Der/кс:%>кс osh-N ;
+ alo-Spat-NoArg ;
+ alo-Spat-1Arg ;
 
-+Spat4+Lat+Indef:%>О1в Clitic ;
-+Spat4+Abl+Indef:%>дО1 Nouns3-1 ;
+LEXICON alo-Spat-NoArg
++Adv+Spat+OrthPhon+Loc+Der/це:%>це kudo-N ;
++Adv+Spat+Loc+Der/се:%>се kudo-N ;
++Adv+Spat+Der/кс:%>кс osh-N ;
++Adv+Spat+Lat+Indef:%>О1в Clitic ;
++Adv+Spat+Abl+Indef:%>дО1 Nouns3-1 ;
++Adv+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Adv+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
-+Spat4+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Spat4+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
+LEXICON alo-Spat-1Arg
++Po+Spat+Abl:%>дО1 Indef--Poss ;
++Po+Spat+Loc:%>О1 Indef--Poss ; 
++Po+Spat+Prl:%>Г2а Indef--Poss ;
++Po+Spat+OrthPhon+Loc+Der/це:%>це kudo-N ;
++Po+Spat+Loc+Der/се:%>се kudo-N ;
++Po+Spat+Der/кс:%>кс osh-N ;
++Po+Spat+Lat+Indef:%>О1в Clitic ;
++Po+Spat+Abl+Indef:%>дО1 Nouns3-1 ;
++Po+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Po+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
-+Spat4+Abl:%>дО1 Indef--Poss ;
-+Spat4+Loc:%>О1 Indef--Poss ; 
-+Spat4+Prl:%>Г2а Indef--Poss ;
+LEXICON alo-Spat-AdvN
+ alo-Spat-NoArg ;
+ kal-N ;
++N+Loc:%>О1 Clitic ;
+
+LEXICON alo-Spat-PoN
+ alo-Spat-1Arg ;
+ kal-N ;
++N+Loc:%>О1 Clitic ;
+
+LEXICON kovolo-Spat
++Interr+Spat+Lat+Indef:%>О1в Clitic ;
++Interr+Spat+Abl+Indef:%>дО1 Nouns3-1 ;
++Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Interr+Spat+Abl:%>дО1 Indef--Poss ;
++Interr+Spat+Loc:%>О1 Indef--Poss ; 
++Interr+Spat+Prl:%>Г2а Indef--Poss ;
+
++Rel+Spat+Lat+Indef:%>О1в Clitic ;
++Rel+Spat+Abl+Indef:%>дО1 Nouns3-1 ;
++Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Rel+Spat+Abl:%>дО1 Indef--Poss ;
++Rel+Spat+Loc:%>О1 Indef--Poss ; 
++Rel+Spat+Prl:%>Г2а Indef--Poss ;
+
 
 
 LEXICON Mezty
