@@ -1720,126 +1720,154 @@ LEXICON osh-PossPX1
 
 
 
-LEXICON Nouns-Secondary-declension
+!LEXICON Nouns-Secondary-declension
 !!!!Secondary declension
 
-+Abe:%>втО1мО1 Nouns-Secondary-declension_Poss ;
-+Abl:%>дО1 Nouns-Secondary-declension_Poss ;
-+Comp:%>О1шка Nouns-Secondary-declension_Poss ;
-+Ela:%>стО1 Nouns-Secondary-declension_Poss ;
-+Ine:%>сО1 Nouns-Secondary-declension_Poss ;
-+Prl:%>Г2а Nouns-Secondary-declension_Poss ;
-+Transl:%>О1кс Nouns-Secondary-declension_Poss ;
+!+Abe:%>втО1мО1 Nouns-Secondary-declension_Poss ;
+!+Abl:%>дО1 Nouns-Secondary-declension_Poss ;
+!+Comp:%>О1шка Nouns-Secondary-declension_Poss ;
+!+Ela:%>стО1 Nouns-Secondary-declension_Poss ;
+!+Ine:%>сО1 Nouns-Secondary-declension_Poss ;
+!+Prl:%>Г2а Nouns-Secondary-declension_Poss ;
+!+Transl:%>О1кс Nouns-Secondary-declension_Poss ;
 
-LEXICON Nouns-Secondary-declension_Poss
+!LEXICON Nouns-Secondary-declension_Poss
+!
+!!!Possessive declension
+!+Px1Sg:%>О1нЬ2 kal-Nouns1-1 ;
+!+Px2Sg:%>О1тЬ2 kit-Nouns1-1 ;
+!+Px3Sg:%>О1нзО1 kudo-N ;
+!+Px1Pl:%>О1нО1к lak-Nouns1-1 ;
+!+Px2Pl:%>О1нк lak-Nouns1-1 ;
+!+Px3Pl:%>О1ст kit-Nouns1-1 ;
 
-!!Possessive declension
-+Px1Sg:%>О1нЬ2 Nouns1-1 ;
-+Px2Sg:%>О1тЬ2 Nouns1-1 ;
-+Px3Sg:%>О1нзО1 Nouns3-1 ;
-+Px1Pl:%>О1нО1к Nouns1-1 ;
-+Px2Pl:%>О1нк Nouns1-1 ;
-+Px3Pl:%>О1ст Nouns1-1 ;
+LEXICON lak-Nouns1-1
++N1+IndefNomSg+ZeroSuf: lak-Tenses-NomSg ;
++N1+Abs: lak-Tenses-Abs ;
++N1: Nouns_Voiceless ; 
++N1: Nouns1_A ;
+ Mezty ;
 
+LEXICON kal-Nouns1-1
++N1+IndefNomSg+ZeroSuf: kal-Tenses-NomSg ;
++N1+Abs: kal-Tenses-Abs ;
++N1: Nouns_Voiceless ; 
++N1: Nouns1_A ;
+ Mezty ;
 
+LEXICON kit-Nouns1-1
++N1+IndefNomSg+ZeroSuf: kit-Tenses-NomSg ;
++N1+Abs: kit-Tenses-Abs ;
++N1: Nouns_Voiceless ; 
++N1: Nouns1_A ;
+ Mezty ;
 
-LEXICON Nouns1-1
-+N1+IndefNomSg+ZeroSuf: Tenses-NomSg ;
-+N1+Abs: Tenses-Abs ;
+LEXICON kudo-Nouns1-1
++N1+IndefNomSg+ZeroSuf: kudo-Tenses-NomSg ;
++N1+Abs: kudo-Tenses-Abs ;
 +N1: Nouns_Voiceless ; 
 +N1: Nouns1_A ;
  Mezty ;
 
 
+
+!LEXICON Nouns1-1
+!+N1+IndefNomSg+ZeroSuf: Tenses-NomSg ;
+!+N1+Abs: Tenses-Abs ;
+!+N1: Nouns_Voiceless ; 
+!+N1: Nouns1_A ;
+! Mezty ;
+
+
 LEXICON Nouns1S-1 
-+IndefNomSg+ZeroSuf: Tenses-NomSg ;
-+N1S+Abs: Tenses-Abs ;
++IndefNomSg+ZeroSuf: osh-Tenses-NomSg ;
++N1S+Abs: osh-Tenses-Abs ;
 +N1S: Nouns1S_A_ReqVow ;
 +N1S: Nouns1S_A_NoReqVow ;
  Mezty ;
 
 
-LEXICON Nouns2I-1
-+N2I+IndefNomSg+ZeroSuf:е Tenses-NomSg ;
-+N2I+Abs+LVStem:е Tenses-Abs ;
-+N2I+Abs+NoLVStem: Tenses-Abs-1 ;
-+N2I+NoLVStem: Nouns_Voiceless ;
-+N2I+LVStem:е Nouns_Voiceless ;
-+N2I+LVStem:е Nouns2-a ;
- Mezty ;
+!LEXICON Nouns2I-1
+!+N2I+IndefNomSg+ZeroSuf:е Tenses-NomSg ;
+!+N2I+Abs+LVStem:е Tenses-Abs ;
+!+N2I+Abs+NoLVStem: Tenses-Abs-1 ;
+!+N2I+NoLVStem: Nouns_Voiceless ;
+!+N2I+LVStem:е Nouns_Voiceless ;
+!+N2I+LVStem:е Nouns2-a ;
+! Mezty ;
 
-LEXICON Nouns2I-y-1
-+N2I+IndefNomSg+ZeroSuf:е Tenses-NomSg ;
-+N2I+Abs+LVStem:е Tenses-Abs ;
-+N2I+Abs+NoLVStem:ь Tenses-Abs-1 ;
-+N2I+NoLVStem:ь Nouns_Voiceless ;
-+N2I+LVStem:е Nouns_Voiceless ;
-+N2I+LVStem:е Nouns2-a ;
- Mezty ;
+!LEXICON Nouns2I-y-1
+!+N2I+IndefNomSg+ZeroSuf:е Tenses-NomSg ;
+!+N2I+Abs+LVStem:е Tenses-Abs ;
+!+N2I+Abs+NoLVStem:ь Tenses-Abs-1 ;
+!+N2I+NoLVStem:ь Nouns_Voiceless ;
+!+N2I+LVStem:е Nouns_Voiceless ;
+!+N2I+LVStem:е Nouns2-a ;
+! Mezty ;
 
-LEXICON Nouns2I-j-1 
-+N2I+IndefNomSg+ZeroSuf:е Tenses-NomSg ;
-+N2I+Abs+LVStem:е Tenses-Abs ;
-+N2I+Abs+NoLVStem:й Tenses-Abs-1 ;
-+N2I+NoLVStem:й Nouns_Voiceless ;
-+N2I+LVStem:е Nouns_Voiceless ;
-+N2I+LVStem:е Nouns2-a ;
- Mezty ;
-
-
-LEXICON Nouns2U-1
-+N2U+IndefNomSg+ZeroSuf:о Tenses-NomSg ;
-+N2U+Abs+LVStem:о Tenses-Abs ;
-+N2U+Abs+NoLVStem: Tenses-Abs-1 ;
-+N2U+NoLVStem: Nouns_Voiceless ;
-+N2U+LVStem:о Nouns_Voiceless ;
-+N2U+LVStem:о Nouns2-a ;
- Mezty ;
+!LEXICON Nouns2I-j-1 
+!+N2I+IndefNomSg+ZeroSuf:е Tenses-NomSg ;
+!+N2I+Abs+LVStem:е Tenses-Abs ;
+!+N2I+Abs+NoLVStem:й Tenses-Abs-1 ;
+!+N2I+NoLVStem:й Nouns_Voiceless ;
+!+N2I+LVStem:е Nouns_Voiceless ;
+!+N2I+LVStem:е Nouns2-a ;
+! Mezty ;
 
 
-LEXICON Nouns3-1
-+N3+IndefNomSg+ZeroSuf: Tenses-NomSg ;
-+N3+Abs: Tenses-Abs ;
-+N3: Nouns_Voiceless ;
-+N3: Nouns2-a ;
- Mezty ;
+!LEXICON Nouns2U-1
+!+N2U+IndefNomSg+ZeroSuf:о Tenses-NomSg ;
+!+N2U+Abs+LVStem:о Tenses-Abs ;
+!+N2U+Abs+NoLVStem: Tenses-Abs-1 ;
+!+N2U+NoLVStem: Nouns_Voiceless ;
+!+N2U+LVStem:о Nouns_Voiceless ;
+!+N2U+LVStem:о Nouns2-a ;
+! Mezty ;
 
 
-LEXICON Nouns_Voiceless
-Nouns_Pl ;
-Nouns_Shibilant ;
+!LEXICON Nouns3-1
+!+N3+IndefNomSg+ZeroSuf: Tenses-NomSg ;
+!+N3+Abs: Tenses-Abs ;
+!+N3: Nouns_Voiceless ;
+!+N3: Nouns2-a ;
+! Mezty ;
 
 
-LEXICON Nouns_Shibilant
-+Ill+Indef:%>с Clitic ;
-+Ine:%>сО1 Indef-DefSg-Poss ;
-+Ela:%>стО1 Indef-DefSg-Poss ;
+!LEXICON Nouns_Voiceless
+!Nouns_Pl ;
+!Nouns_Shibilant ;
 
-LEXICON Nouns_Pl
-+Indef+Pl:%>тЬ2 kit-Tenses-NomPl ;
-+Pl.DefPl+Abe:%>тне%>втеме kudo-Tenses-Obl  ;
-+Pl.DefPl+Abl:%>тне%>де kudo-Tenses-Obl ;
-+Pl.DefPl+Com:%>тне%>нек Clitic ;
-+Pl.DefPl+Comp:%>тне%>шка kudo-Tenses-Obl ;
-+Pl.DefPl+Dat:%>тне%>нень Clitic ;
-+Pl.DefPl+Ela:%>тне%>стэ kudo-Tenses-Obl ;
-+Pl.DefPl+Gen:%>тне%>нь Clitic ;
-+Pl.DefPl+Ill:%>тне%>с Clitic ;
-+Pl.DefPl+Ine:%>тне%>сэ kudo-Tenses-Obl ;
-+Pl.DefPl+Lat:%>тне%>в Clitic ;
-+Pl.DefPl+Nom:%>тне kudo-Tenses-NomPl ;
-+Pl.DefPl+Prl:%>тне%>ва kudo-Tenses-Obl ;
-+Pl.DefPl+Transl:%>тне%>кс osh-Tenses-Obl ;
+
+!LEXICON Nouns_Shibilant
+!+Ill+Indef:%>с Clitic ;
+!+Ine:%>сО1 kudo-Indef-DefSg-Poss ;
+!+Ela:%>стО1 kudo-Indef-DefSg-Poss ;
+
+!LEXICON Nouns_Pl
+!+Indef+Pl:%>тЬ2 kit-Tenses-NomPl ;
+!+Pl.DefPl+Abe:%>тне%>втеме kudo-Tenses-Obl  ;
+!+Pl.DefPl+Abl:%>тне%>де kudo-Tenses-Obl ;
+!+Pl.DefPl+Com:%>тне%>нек Clitic ;
+!+Pl.DefPl+Comp:%>тне%>шка kudo-Tenses-Obl ;
+!+Pl.DefPl+Dat:%>тне%>нень Clitic ;
+!+Pl.DefPl+Ela:%>тне%>стэ kudo-Tenses-Obl ;
+!+Pl.DefPl+Gen:%>тне%>нь Clitic ;
+!+Pl.DefPl+Ill:%>тне%>с Clitic ;
+!+Pl.DefPl+Ine:%>тне%>сэ kudo-Tenses-Obl ;
+!+Pl.DefPl+Lat:%>тне%>в Clitic ;
+!+Pl.DefPl+Nom:%>тне kudo-Tenses-NomPl ;
+!+Pl.DefPl+Prl:%>тне%>ва kudo-Tenses-Obl ;
+!+Pl.DefPl+Transl:%>тне%>кс osh-Tenses-Obl ;
 
 
 LEXICON Nouns1_A
  Possessive-NomGen ;
 
-+Abe:%>втО1мО1 Indef-DefSg-Poss ;
-+Abl:%>дО1 Indef-DefSg-Poss ;
-+Comp:%>О1шка Indef-DefSg-Poss ;
-+Prl:%>Г2а Indef-DefSg-Poss ;
-+Transl:%>О1кс Indef-DefSg-Poss ;
++Abe:%>втО1мО1 kudo-Indef-DefSg-Poss ;
++Abl:%>дО1 kudo-Indef-DefSg-Poss ;
++Comp:%>О1шка kudo-Indef-DefSg-Poss ;
++Prl:%>Г2а kudo-Indef-DefSg-Poss ;
++Transl:%>О1кс osh-Indef-DefSg-Poss ;
 
 +Ill:%>О1з osh-Possessives2 ;
 
@@ -1917,18 +1945,18 @@ LEXICON Possessive-NomGen
 LEXICON Nouns1S_A_ReqVow
  Possessive-NomGen ;
 
-+LVStem+Ine:%>О1сО1 Indef-DefSg-Poss ;
-+LVStem+Ela:%>О1стО1 Indef-DefSg-Poss ;
-+LVStem+Comp:%>О1шка Indef-DefSg-Poss ;
++LVStem+Ine:%>О1сО1 kudo-Indef-DefSg-Poss ;
++LVStem+Ela:%>О1стО1 kudo-Indef-DefSg-Poss ;
++LVStem+Comp:%>О1шка kudo-Indef-DefSg-Poss ;
 +LVStem+Ill:%>О1с Clitic ;
 
 +Lat+Indef:%>О1в Clitic ;
 
 
-+NoLVStem+Ine:%>сО1 Indef-DefSg-Poss ;
-+NoLVStem+Ela:%>стО1 Indef-DefSg-Poss ;
-+NoLVStem+Comp:%>шка Indef-DefSg-Poss ;
-+Transl:%>О1кс Indef-DefSg-Poss ;
++NoLVStem+Ine:%>сО1 kudo-Indef-DefSg-Poss ;
++NoLVStem+Ela:%>стО1 kudo-Indef-DefSg-Poss ;
++NoLVStem+Comp:%>шка kudo-Indef-DefSg-Poss ;
++Transl:%>О1кс osh-Indef-DefSg-Poss ;
 +NoLVStem+Ill:%>с Clitic ;
 
 +LVStem+Dial+GenDefSg:%>О1сть Clitic ;
@@ -1940,17 +1968,17 @@ LEXICON Nouns1S_A_ReqVow
 +Dial+Dat+Px3Pl:%>О1нстэст Clitic ;
 
 
-+NomDefSg:%>О1сь Tenses-NomSg ;
++NomDefSg:%>О1сь osh-Tenses-NomSg ;
 +GenDefSg:%>О1нть Clitic ;
 +DatDefSg:%>О1нтень Clitic ;
-+Gen+Indef:%>О1нь Tenses-Obl ;
++Gen+Indef:%>О1нь kal-Tenses-Obl ;
 
 
 
 LEXICON Nouns1S_A_NoReqVow
-+Abl:%>дО1 Indef-DefSg-Poss ;
-+Prl:%>Г2а Indef-DefSg-Poss ;
-+Abe:%>втО1мО1 Indef-DefSg-Poss ;
++Abl:%>дО1 kudo-Indef-DefSg-Poss ;
++Prl:%>Г2а kudo-Indef-DefSg-Poss ;
++Abe:%>втО1мО1 kudo-Indef-DefSg-Poss ;
 
 +Dial+Dat+Px2Sg:%>теть Clitic ;
 +Dial+Dat+Px2Sg:%>те Clitic ;
@@ -1963,7 +1991,7 @@ LEXICON Nouns1S_A_NoReqVow
 +Temporal:%>не Clitic ;
 !!This one would render voiceless "s"
 +Dial+Ill:%>з osh-Possessives2 ;
-+Dial+Sg+Nom+Px3Sg:%>зО1 Tenses-NomSg ;
++Dial+Sg+Nom+Px3Sg:%>зО1 kudo-Tenses-NomSg ;
 Nouns_Pl ;
 
 
@@ -1978,20 +2006,20 @@ LEXICON Nouns2-a
 +Dat:%>нень Clitic ;
 +Com:%>нек Clitic ;
 +Temporal:%>не Clitic ;
-+Abe:%>втО1мО1 Indef-DefSg-Poss ;
-+Abl:%>дО1 Indef-DefSg-Poss ;
-+Comp:%>О1шка Indef-DefSg-Poss ;
-+Prl:%>Г2а Indef-DefSg-Poss ;
-+Transl:%>О1кс Indef-DefSg-Poss ;
++Abe:%>втО1мО1 kudo-Indef-DefSg-Poss ;
++Abl:%>дО1 kudo-Indef-DefSg-Poss ;
++Comp:%>О1шка kudo-Indef-DefSg-Poss ;
++Prl:%>Г2а kudo-Indef-DefSg-Poss ;
++Transl:%>О1кс osh-Indef-DefSg-Poss ;
 
 +Lat+Indef:%>О1в Clitic ;
 +Ill:%>О1з osh-Possessives2 ;
 +Dat+Poss+3:%>О1нстэнь Clitic ;
 
-+NomDefSg:%>О1сь Tenses-NomSg ;
++NomDefSg:%>О1сь osh-Tenses-NomSg ;
 +GenDefSg:%>О1нть Clitic ;
 +DatDefSg:%>О1нтень Clitic ;
-+Gen+Indef:%>О1нь Tenses-Obl ;
++Gen+Indef:%>О1нь kal-Tenses-Obl ;
 
 +Dial+Dat+Px2Sg:%>теть Clitic ;
 +Dial+Dat+Px2Sg:%>те Clitic ;
@@ -2004,10 +2032,10 @@ LEXICON Nouns2-a
 LEXICON istja-Gen-Attributes
  Clitic ; !This means that stem is word final !!!
 +Abl+Indef:%>дО1 Clitic ;
-+Indef+GenIndef:%>нь Tenses-Obl ;
-+OrthOld+GenIndef+Dem:%>нсе Nouns3-1 ;
-+OrthMorph+GenIndef+Dem:%>ньсе Nouns3-1 ;
-+OrthPhon+GenIndef+Dem:%>нце Nouns3-1 ;
++Indef+GenIndef:%>нь kal-Tenses-Obl ;
++OrthOld+GenIndef+Dem:%>нсе kudo-N2-Def-Declension ;
++OrthMorph+GenIndef+Dem:%>ньсе kudo-N2-Def-Declension ;
++OrthPhon+GenIndef+Dem:%>нце kudo-N2-Def-Declension ;
 
 
 LEXICON chop-Gen-Attributes
@@ -2016,57 +2044,73 @@ LEXICON chop-Gen-Attributes
 LEXICON pek-Gen-Attributes
  Clitic ; !This means that stem is word final !!!
 +Abl+Indef:%>дО1 Clitic ;
-+Indef+GenIndef:%>О1нь Tenses-Obl ;
-+OrthOld+GenIndef+Dem:%>О1нсе Nouns3-1 ;
-+OrthMorph+GenIndef+Dem:%>О1ньсе Nouns3-1 ;
-+OrthPhon+GenIndef+Dem:%>О1нце Nouns3-1 ;
++Indef+GenIndef:%>О1нь kal-Tenses-Obl ;
++OrthOld+GenIndef+Dem:%>О1нсе kudo-N2-Def-Declension ;
++OrthMorph+GenIndef+Dem:%>О1ньсе kudo-N2-Def-Declension ;
++OrthPhon+GenIndef+Dem:%>О1нце kudo-N2-Def-Declension ;
 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!
 
 
-LEXICON Possessives1
-+Indef+NoPossPx: Tenses-Obl ;
- Possessives2 ;
+!LEXICON Possessives1
+!+Indef+NoPossPx: Tenses-Obl ;
+! Possessives2 ;
 
 LEXICON Possessives2
-+Dial+Px1Sg/м:%>О1м Determinatives1 ;
-+Px1Sg/Н+NonNomSg:%>О1нЬ2 Determinatives1 ;
-+Px2Sg:%>О1тЬ2 Determinatives1 ;
-+Px3Sg+NonNomSg:%>О1нзО1 Determinatives1 ;
-+Px1Pl:%>О1нО1к Determinatives1 ;
-+Px2Pl:%>О1нк Determinatives1 ;
-+Px3Pl:%>О1ст Determinatives1 ;
-+Px3Pl:%>О1нст Determinatives1 ;
++Dial+Px1Sg/м:%>О1м kal-Determinatives1 ;
++Px1Sg/Н+NonNomSg:%>О1нЬ2 kal-Determinatives1 ;
++Px2Sg:%>О1тЬ2 kit-Determinatives1 ;
++Px3Sg+NonNomSg:%>О1нзО1 kudo-Determinatives1 ;
++Px1Pl:%>О1нО1к lak-Determinatives1 ;
++Px2Pl:%>О1нк lak-Determinatives1 ;
++Px3Pl:%>О1ст kit-Determinatives1 ;
++Px3Pl:%>О1нст kit-Determinatives1 ;
 
 ! These are possessor Indices for non-nominative singular
 ! +NonNomSg
 LEXICON osh-Possessives2
-+Dial+Px1Sg/м:%>О1м Determinatives1 ;
-+Px1Sg/Н+NonNomSg:%>О1нЬ2 Determinatives1 ;
-+Px2Sg:%>О1тЬ2 Determinatives1 ;
-+Px3Sg+NonNomSg:%>О1нзО1 Determinatives1 ;
-+Px1Pl:%>О1нО1к Determinatives1 ;
-+Px2Pl:%>О1нк Determinatives1 ;
-+Px3Pl:%>О1ст Determinatives1 ;
-+Px3Pl:%>О1нст Determinatives1 ;
++Dial+Px1Sg/м:%>О1м kal-Determinatives1 ;
++Px1Sg/Н+NonNomSg:%>О1нЬ2 kal-Determinatives1 ;
++Px2Sg:%>О1тЬ2 kit-Determinatives1 ;
++Px3Sg+NonNomSg:%>О1нзО1 kudo-Determinatives1 ;
++Px1Pl:%>О1нО1к lak-Determinatives1 ;
++Px2Pl:%>О1нк lak-Determinatives1 ;
++Px3Pl:%>О1ст kit-Determinatives1 ;
++Px3Pl:%>О1нст kit-Determinatives1 ;
 
 LEXICON kudo-Possessives2
-+Px1Sg+Use/Sub/Dial:%>м Determinatives1 ;
-+Px1Sg:%>нЬ2 Determinatives1 ;
-+Px2Sg:%>тЬ2 Determinatives1 ;
-+Use/Sub/Dial+Px2Sg:%>нтЬ2 Determinatives1 ;
-+Px3Sg:%>нзО1 Determinatives1 ;
-+Px1Pl:%>нО1к Determinatives1 ;
-+Px2Pl:%>нк Determinatives1 ;
-+Px3Pl:%>ст Determinatives1 ;
-+Px3Pl+Use/Sub/Dial:%>нст Determinatives1 ;
++Px1Sg+Use/Sub/Dial:%>м kal-Determinatives1 ;
++Px1Sg:%>нЬ2 kal-Determinatives1 ;
++Px2Sg:%>тЬ2 kit-Determinatives1 ;
++Use/Sub/Dial+Px2Sg:%>нтЬ2 kit-Determinatives1 ;
++Px3Sg:%>нзО1 kudo-Determinatives1 ;
++Px1Pl:%>нО1к lak-Determinatives1 ;
++Px2Pl:%>нк lak-Determinatives1 ;
++Px3Pl:%>ст kit-Determinatives1 ;
++Px3Pl+Use/Sub/Dial:%>нст kit-Determinatives1 ;
 
-LEXICON Determinatives1
+LEXICON kal-Determinatives1
 +Dem:%>се kudo-N2-Def-Declension ;
 +OrthPhon+Dem:%>це kudo-N2-Def-Declension ;
- Tenses-Obl ;
+ kal-Tenses-Obl ;
+
+LEXICON kit-Determinatives1
++Dem:%>се kudo-N2-Def-Declension ;
++OrthPhon+Dem:%>це kudo-N2-Def-Declension ;
+ kit-Tenses-Obl ;
+
+LEXICON lak-Determinatives1
++Dem:%>се kudo-N2-Def-Declension ;
++OrthPhon+Dem:%>це kudo-N2-Def-Declension ;
+ lak-Tenses-Obl ;
+
+
+LEXICON kudo-Determinatives1
++Dem:%>се kudo-N2-Def-Declension ;
++OrthPhon+Dem:%>це kudo-N2-Def-Declension ;
+ kudo-Tenses-Obl ;
 
 LEXICON DemTag
 +Dem: Clitic ; 
@@ -2086,4 +2130,26 @@ LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
 :%- kudo-PROP ;
 :%' kudo-PROP ;
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!POSSESSIVE marking followed by clitics!!!
+
+LEXICON osh-Possessive-Before-Clitic
++Px1Sg:%>О1нЬ2 Clitic ;
++Px1Sg+Use/Sub/Dial:%>О1м Clitic ;
++Px2Sg:%>О1тЬ2 Clitic ;
++Px2Sg+Use/Sub/Dial:%>О1нтЬ2 Clitic ;
++Px3Sg:%>О1нзО1 Clitic ;
++Px1Pl:%>О1нО1к lak-Clitic ;
++Px2Pl:%>О1нк lak-Clitic ;
++Px3Pl:%>О1ст Clitic ;
+
+LEXICON kudo-Possessive-Before-Clitic
++Px1Sg:%>нЬ2 Clitic ;
++Px1Sg+Use/Sub/Dial:%>м Clitic ;
++Px2Sg:%>тЬ2 Clitic ;
++Px2Sg+Use/Sub/Dial:%>нтЬ2 Clitic ;
++Px3Sg:%>нзО1 Clitic ;
++Px1Pl:%>нО1к lak-Clitic ;
++Px2Pl:%>нк lak-Clitic ;
++Px3Pl:%>ст Clitic ;
 
