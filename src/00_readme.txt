@@ -12,10 +12,10 @@
 # Manuscript of a Russian-Erzya wordlist by Bol'kin
 # The Erzya-Russian Dictionary 1993
 # The Erzya-German Dictionary 2002
-# 
+ 
 
 ##(1)##
-# The spellchecker
+# The spellchecker, and the hfst analyser
 In This directory:
 
 make lexfiles
@@ -27,3 +27,9 @@ echo "кал" |hfst-lookup ../bin/myv.hfstol
 
 ##(2)##
 # The Apertium dictionary
+
+##(3)##
+# The xerox analyser, in this directory:
+
+make lexfiles
+make
