@@ -533,16 +533,46 @@
             <xs:enumeration value="nachko-Adj"/>
             <xs:enumeration value="vejketj-Adj-PL"/>
             <xs:enumeration value="shumbra-Adj"/>
+            <xs:enumeration value="Abe-Adj"/>
+            <xs:enumeration value="Adj-Interr"/>
+            <xs:enumeration value="Comp-Adj"/>
             <xs:enumeration value="AdvTag"/>
+            <xs:enumeration value="Ad-ATag"/>
+            <xs:enumeration value="Adv_Phrase"/>
             <xs:enumeration value="Adv-Ideoph-вырк"/>
+            <xs:enumeration value="Adv-Ideoph"/>
+            <xs:enumeration value="Adv-Ideoph-Ine"/>
+            <xs:enumeration value="Adv-Ine"/>
+            <xs:enumeration value="Adv-Tra"/>
+            <xs:enumeration value="Exclusive"/>
+            <xs:enumeration value="MannerTag"/>
+            <xs:enumeration value="Manner-Interr"/>
             <xs:enumeration value="Adv-Ord">
                <!--васняяк first of all, secondly-->
             </xs:enumeration>
+            <xs:enumeration value="Pred2"/>
             <xs:enumeration value="Assoc-Coll"/>
-            <xs:enumeration value="GEN-Adj"/>
+            <xs:enumeration value="Gen-Adj"/>
+            <xs:enumeration value="ConjTag"/>
+            <xs:enumeration value="Cc"/>
+            <xs:enumeration value="Cs"/>
+            <xs:enumeration value="DemTag"/>
+            <xs:enumeration value="Dem-Abe"/>
+            <xs:enumeration value="Dem-Ela"/>
+            <xs:enumeration value="Dem-Ine"/>
+            <xs:enumeration value="ne-Dem"/>
+            <xs:enumeration value="te-Dem"/>
+            <xs:enumeration value="Misc_Pronouns"/>
             <xs:enumeration value="GER-саезь"/>
             <xs:enumeration value="Imit-аха-ха-ха"/>
             <xs:enumeration value="Interj-угу"/>
+            <xs:enumeration value="InterjTag"/>
+            <xs:enumeration value="VocativeTag"/>
+            <xs:enumeration value="N-Voc-Px1Sg"/>
+            <xs:enumeration value="Interj-Imp"/>
+            <xs:enumeration value="FormulaicTag"/>
+            <xs:enumeration value="MorphTag"/>
+            <xs:enumeration value="DV-NTag"/>
             <xs:enumeration value="N-кал"/>
             <xs:enumeration value="N-ломать"/>
             <xs:enumeration value="N-ош"/>
@@ -572,6 +602,7 @@
             <xs:enumeration value="kudo-N-PL"/>
             <xs:enumeration value="N-авидем"/>
             <xs:enumeration value="avidem-N"/>
+            <xs:enumeration value="N-Coll"/>
             <xs:enumeration value="NUM">
                <!--This tag is used for numerals that will not show up in fst (exclude="fst")-->
             </xs:enumeration>
@@ -584,15 +615,21 @@
             <xs:enumeration value="OrdTag"/>
             <xs:enumeration value="PcleTag"/>
             <xs:enumeration value="Pcle-Neg"/>
+            <xs:enumeration value="Pcle-Neg-Contrast"/>
             <xs:enumeration value="Pcle-Superl"/>
             <xs:enumeration value="Pcle-Compar-Stnd"/>
             <xs:enumeration value="Pcle-Epist"/>
+            <xs:enumeration value="Pers-Interr"/>
             <xs:enumeration value="P-Инешкипаз"/>
             <xs:enumeration value="kal-PROP"/>
             <xs:enumeration value="osh-PROP"/>
+            <xs:enumeration value="pango-PROP"/>
             <xs:enumeration value="kudo-PROP"/>
             <xs:enumeration value="kudo-PROP-PL"/>
-            <xs:enumeration value="PO-туртов"/>
+            <xs:enumeration value="letter-B"/>
+            <xs:enumeration value="letter-F"/>
+            <xs:enumeration value="PostpTag"/>
+            <xs:enumeration value="Dat-1Arg"/>
             <xs:enumeration value="PO-каршо"/>
             <xs:enumeration value="PO-кисэ"/>
             <xs:enumeration value="PO-коряс"/>
@@ -601,6 +638,8 @@
             <xs:enumeration value="Pron-Indef"/>
             <xs:enumeration value="Pron-Pers"/>
             <xs:enumeration value="Pron-Refl-эськанзо"/>
+            <xs:enumeration value="ActDemPtc"/>
+            <xs:enumeration value="Ptc-Telic"/>
             <xs:enumeration value="QntTag"/>
             <xs:enumeration value="Qnt-Distr"/>
             <xs:enumeration value="SOD-алце"/>
@@ -609,6 +648,19 @@
             <xs:enumeration value="SOD-икельсть-удалсть"/>
             <xs:enumeration value="alce-Dem"/>
             <xs:enumeration value="ne-Dem"/>
+            <xs:enumeration value="SpatTag"/>
+            <xs:enumeration value="Spat-Interr"/>
+            <xs:enumeration value="vaksso-SPAT"/>
+            <xs:enumeration value="malaso-SPAT"/>
+            <xs:enumeration value="ushoso-SPAT"/>
+            <xs:enumeration value="jutkso-SPAT"/>
+            <xs:enumeration value="langso-SPAT"/>
+            <xs:enumeration value="kovolo-Spat"/>
+            <xs:enumeration value="Spat-Ela"/>
+            <xs:enumeration value="Spat-Ine"/>
+            <xs:enumeration value="Spat-Ill"/>
+            <xs:enumeration value="Spat-Lat"/>
+            <xs:enumeration value="Spat-Prl"/>
             <xs:enumeration value="Spat-аловпандт"/>
             <xs:enumeration value="Spat-ало"/>
             <xs:enumeration value="Spat-васов"/>
@@ -618,12 +670,17 @@
             <xs:enumeration value="Spat-ютксо"/>
             <xs:enumeration value="Spat-NoArg"/>
             <xs:enumeration value="alo-Spat"/>
+            <xs:enumeration value="alo-Spat-NoArg"/>
+            <xs:enumeration value="alo-Spat-AdvN"/>
+            <xs:enumeration value="alo-Spat-PoN"/>
             <xs:enumeration value="TEMP">
                <!--(exclude="fst")-->
             </xs:enumeration>
             <xs:enumeration value="kudo-N-Temp"/>
             <xs:enumeration value="kit-N-Temp"/>
             <xs:enumeration value="lak-N-Temp"/>
+            <xs:enumeration value="Temp-Interr"/>
+            <xs:enumeration value="Temp-Indef"/>
             <xs:enumeration value="Temp-1Arg"/>
             <xs:enumeration value="Temp-1Arg-Ela"/>
             <xs:enumeration value="Temp-Pl"/>
@@ -657,6 +714,7 @@
             <xs:enumeration value="V-кундамс_ObjAll"/>
             <xs:enumeration value="V-сатомс"/>
             <xs:enumeration value="V-сатомс_Obj3Sg"/>
+            <xs:enumeration value="Phrase_V"/>
             <xs:enumeration value="tejems-V"/>
             <xs:enumeration value="kadoms-V"/>
             <xs:enumeration value="nevtems-V"/>
@@ -724,6 +782,7 @@
                <xs:restriction base="xs:string">
                   <xs:enumeration value="A"/>
                   <xs:enumeration value="N"/>
+                  <xs:enumeration value="PROP"/>
                   <xs:enumeration value="V"/>
                </xs:restriction>
             </xs:simpleType>
