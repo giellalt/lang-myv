@@ -314,7 +314,8 @@ ZERO
 +Dim 
 
 +Der/Abe ! Adjective usage Maybe this is not necessary.
-
++Der/Comp
++Der/Gen
 ! There portmanteau morphology
 ! Noun-type
 +Abe.NbAmb.Indef
@@ -536,11 +537,13 @@ TESTINGTESTING ;
 ! ------------ ! ---------------------------------------
 A ;			   ! ../../tmp/out/A_myv-lex.xml
 ADV ;		   ! ../../tmp/out/ADV_myv-lex.xml
+AD-A ;		   ! ../../tmp/out/AD-A_myv-lex.xml
 Abbreviation ; ! abbr-myv-lex.txt
 !2012-03-14!ABBR ;			   ! ../../tmp/out/ABBR_myv-lex.xml
 !2012-03-14!Acronym ;	   ! acro-myv-lex.txt
 !2012-03-14!ACRON ;			   ! ../../tmp/out/ACRON_myv-lex.xml
 CONJ ;		   ! ../../tmp/out/CONJ_myv-lex.xml
+DEM ;	   ! ../../tmp/out/DEM_myv-lex.xml !! Dem can be Adn or Pron
 !2012-03-14!IDIOM ;		   ! ../../tmp/out/IDIOM_myv-lex.xml
 INTERJ ;	   ! ../../tmp/out/INTERJ_myv-lex.xml
 MANNER ;  ! ../../tmp/out/MANNER_myv-lex.xml
@@ -562,7 +565,6 @@ POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
 <"@P.INDEF.PREF@">  Indef_Pronouns-pref ;
 PRED2 ;	   ! ../../tmp/out/PRED2_myv-lex.xml !! Secondary Predication
 PRON ;	   ! ../../tmp/out/PRON_myv-lex.xml
-!2012-03-14!PRON-DEM ;	   ! ../../tmp/out/PRON-DEM_myv-lex.xml
 !2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
 !2012-03-14!PRON-INTER ;   ! ../../tmp/out/PRON-INTER_myv-lex.xml
 !2012-03-14!PRON-NEG ;	   ! pron-myv-morph.txt
@@ -574,7 +576,8 @@ PROP ;		   ! ../../tmp/out/PROP_myv-lex.xml
 !2012-03-14!PROP-RUSSIAN-MALE-SURNAMES-Derivable ;		   ! ../../tmp/out/PROP-RUSSIAN-MALE-SURNAMES-Derivable_myv-lex.xml
 !2012-03-14!PROP-CYRILLIC-MALE-SURNAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-SURNAMES_myv-lex.xml
 !2012-03-14!PROP-RUSSIAN-MALE-NAMES-Derivable ;	  ! ../../tmp/out/PROP-RUSSIAN-MALE-NAMES-Derivable_myv-lex.xml
-!2012-03-14!PROP-CYRILLIC-MALE-NAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
+PROP-CYRILLIC-MALE-NAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
+PROP-CYRILLIC-FEMALE-NAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
 Punctuation ;  ! punct-myv-lex.txt
 SPAT ;  ! ../../tmp/out/SPAT_myv-lex.xml
 TEMP ;  ! ../../tmp/out/TEMP_myv-lex.xml
@@ -632,19 +635,34 @@ LEXICON vaksso-SPAT
 +LV+Ill:%>О1с Clitic ;
 +LV+Ine:%>О1сО1 kudo-Conjugation ;
 
+LEXICON jutkso-SPAT
++Prl:%>Г2а kudo-SPAT-PossX ;
++Prl:%>Г2а kudo-Conjugation ;
+ langso-SPAT ;
+
 LEXICON langso-SPAT
 +Ela:%>VLossстО1 kudo-Conjugation ;
 +Ill:%>VLossс Clitic ;
 +Ine:%>VLossсО1 kudo-Conjugation ;
++Ela:%>VLossстО1 kudo-SPAT-PossX ;
++Ill:%>О1з osh-SPAT-PossX ;
++Ine:%>VLossсО1 kudo-SPAT-PossX ;
 
 LEXICON malaso-SPAT
 +Ela:%>стО1 kudo-Conjugation ;
 +Ill:%>с Clitic ;
 +Ine:%>сО1 kudo-Conjugation ;
++Prl:%>Г2а kudo-Conjugation ;
 +Ela:%>стО1 kudo-SPAT-PossX ;
 +Ill:%>О1з osh-SPAT-PossX ;
 +Ine:%>сО1 kudo-SPAT-PossX ;
 +Prl:%>Г2а kudo-SPAT-PossX ;
+
+LEXICON ushoso-SPAT
++Spat+Ela:%>стО1 kudo-Conjugation ;
++Spat+Ill:%>с Clitic ;
++Spat+Ine:%>сО1 kudo-Conjugation ;
++Spat+Prl:%>Г2а kudo-Conjugation ;
 
 LEXICON kudo-SPAT-PossX
 +Px1Sg:%>нЬ2 kal-Conjugation ;
@@ -676,6 +694,8 @@ LEXICON PostpTag
 LEXICON Dat-1Arg
 +Po+DAT: Clitic ;
 
+
+
 ! ==================================== !
 ! Lexica called End, whatever they are !
 ! ==================================== !
@@ -688,6 +708,9 @@ LEXICON Ad-ATag !
 
 LEXICON AdvTag ! 
 +Adv: Clitic ;
+
+LEXICON Adv_Phrase ! 
++Adv: # ;
 
 LEXICON Adv-Ideoph ! 
 +Adv-Ideoph: Clitic ;
@@ -711,7 +734,9 @@ LEXICON MannerTag !
 LEXICON Manner-Interr ! 
 +Interr+Adv+Manner: Clitic ;
 
-
+LEXICON Pred2 !
++Pred2: Clitic ;
++Pred2+Der/MWN: kudo-N ;
 
 !! spatial adverbs 
 !! dependent and independent case marking 
@@ -723,6 +748,18 @@ LEXICON Interr-Spat
 
 LEXICON SpatTag
 +Spat: Clitic ;
+
+LEXICON Spat-Ela
++Spat+Ela: Clitic ;
+
+LEXICON Spat-Ine
++Spat+Ine: Clitic ;
+
+LEXICON Spat-Lat
++Spat+Lat: Clitic ;
+
+LEXICON Spat-Prl
++Spat+Prl: Clitic ;
 
 !!Temporal tags with cases
 LEXICON TempTag
@@ -807,8 +844,11 @@ LEXICON Pcle-Compar-Stnd
 LEXICON Pcle-Epist
 +Pcle+Epist: # ;
 
+LEXICON Pcle-Neg-Contrast
++Pcle+Neg+Intensive: # ;
+
 LEXICON Pcle-Neg
-+Pcle+Superl: # ;
++Pcle+Neg: # ;
 
 LEXICON Pcle-Superl
 +Pcle+Superl: # ;
