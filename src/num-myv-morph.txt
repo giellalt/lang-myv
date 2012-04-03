@@ -144,7 +144,7 @@ LEXICON Quants2
 < %+Appr:0 %+Coll:0 ш к а н е к  "@P.KLOSS.ON@"> Clitics ;
 +Coll:%>не Possessives2-Ill ;
 +Appr+Coll:%>шкане Possessives2-Ill ;
-+Coll:%>не Possessives2 ;
++Coll:%>не kudo-Possessive-Before-Clitic ;
 +Iter:%>ксть Clitics ;
 +LV+Iter:%>О1ксть Clitics ;
 +Appr+Iter:%>шкаксть Clitics ;
@@ -316,31 +316,6 @@ LEXICON Attributes2
 +Noun2+Det+Pl+Comp:%>тне%>шка kudo-Tenses1 ;
 
 
-
-LEXICON Possessives2-Ill
- Possessives2 ;
-+NoVowX+Ill:%>з osh-Possessive-Before-Clitic ;
-
-
-LEXICON Possessives2
-+NoVowX+Poss+1Sgm:%>м kal-Tenses1 ;
-+NoVowX+Poss+1SgN:%>нЬ2 kal-Tenses1 ;
-+NoVowX+Poss+2Sg:%>тЬ2 kit-Tenses1 ;
-+NoVowX+Poss+3Sg+NonNomSg:%>нзО1 kudo-Tenses1 ;
-+NoVowX+Poss+3Sg+Nom+Sg:%>зО1 kudo-Tenses1 ;
-+NoVowX+Poss+1Pl:%>нО1к lak-Tenses1 ;
-+NoVowX+Poss+2Pl:%>нк lak-Tenses1 ;
-< 0:">" 0:с 0:т %+NoVowX:0 %+Poss:0 %+3Pl:0 "@P.TLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:с 0:к %+NoVowX:0 %+Poss:0 %+3Pl:0 "@P.TLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:с 0:к 0:е %+NoVowX:0 %+Poss:0 %+3Pl:0 "@P.TLOSS.ON@"> kudo-Tenses1 ;
-
-+VowX+Poss+1Sgm:%>О1м kal-Tenses1 ;
-+VowX+Poss+1SgN:%>О1нЬ2 kal-Tenses1 ;
-+VowX+Poss+2Sg:%>О1тЬ2 kit-Tenses1 ;
-+VowX+Poss+3Sg+NonNomSg:%>О1нзО1 kudo-Tenses1 ;
-< 0:">" 0:О1 0:н 0:О1 0:к %+VowX:0 %+Poss:0 %+1Pl:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:О1 0:н 0:к %+VowX:0 %+Poss:0 %+2Pl:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:О1 0:с 0:т %+VowX:0 %+Poss:0 %+3Pl:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
 
 
 
