@@ -3,6 +3,11 @@
 ! ============================= !
 !  Person morphological lexica !
 ! ============================= !
+
+LEXICON Dat-NoArg
++Prs+DAT: # ;
+
+
 LEXICON Interr-Pers
 +Interr+Prs: # ; ! кие THIS should be depricated
 
@@ -535,13 +540,14 @@ LEXICON Indef_Pronouns-Clitic-post
 +Interr:  # ;
 
 LEXICON Misc_Pronouns
-се+Dem:се vese-QNT ;
-секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
-сете+Dem+Pron:сете te-Dem ;
+!се+Dem:се vese-QNT ;
+!секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
+!сете+Dem+Pron:сете te-Dem ;
+!те+Dem:те te-Dem ;
+!тевате+Dem:тевате te-Dem ;
+
 севате+Dem+Pron:севате te-Dem ;
-те+Dem:те te-Dem ;
 тете+Dem:тете te-Dem ;
-тевате+Dem:тевате te-Dem ;
 !
 те+Dem+Pron+Gen+Abl:тенде Clitic ;
 те+Dem+Pron+Gen+Abe+Use/Sub/Dial:тенстеме Clitic ;
