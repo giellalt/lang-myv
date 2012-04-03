@@ -1,3 +1,16 @@
+LEXICON VERBNEGATIVE
+аволть+Verb+Neg+Cond+3Pl:авольть # ;
+< а в о л ь %+Verb:0 %+Neg:0 %+Cond:0   %+ObjOpen:0 "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
+аволь+Verb+Neg+Cond+3Sg:аволь # ;
+< и л я %+Prt:0 %+Verb:0 %+Neg:0  %+ObjOpen:0 "@P.CONJ.ObjAll@"> ILYA ;
+
+
+эзть+Verb+Neg+IndPretI+3Pl:эзть # ;
+< э з ь %+Verb:0 %+Neg:0  %+ObjOpen:0 %+IndPretII:0 "@P.CONJ.ObjAll@"> IndicativePrt2_1 ;
+< э з ь %+Verb:0 %+Neg:0  %+ObjOpen:0 %+Ind:0 %+IndPretI:0 "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
+эзь+Verb+Neg+IndPretI+3Sg:эзь # ;
+эзь+Verb+Neg+IndPretI+3Sg/3Sg:эсе # ;
+
 
 LEXICON CondVerbs
 +Der/Ындеря+Cond+Conj:%>Ы2ндеря Conjunctive2 ;
@@ -98,11 +111,11 @@ LEXICON nevtems-V
 LEXICON kadoms-V
 +V1: kadoms-V-a ;
 +V1:     VerbsPresPrt_1 ;
-+Conneg:%>О1К3 Tenses1 ;
++ConNeg:%>О1К3 Tenses1 ;
 +V1+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V1+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V1: Deverbals_1 ;
-+V1+LV+Conneg:%>О1К3 Tenses1 ;
++V1+LV+ConNeg:%>О1К3 Tenses1 ;
 
 
 LEXICON kadoms-V-a
@@ -119,11 +132,11 @@ LEXICON kadoms-V-a
 LEXICON sajevems-V
 +V1VI: sajevems-V-a ;
 +V1VI:     VerbsPresPrt_1 ;
-+Conneg:%>О1К3 Tenses1 ;
++ConNeg:%>О1К3 Tenses1 ;
 +V1VI+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V1VI+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V1VI:  Deverbals_1 ;
-+V1VI+LV+Conneg:%>О1К3 Tenses1 ;
++V1VI+LV+ConNeg:%>О1К3 Tenses1 ;
 
 
 LEXICON sajevems-V-a
@@ -141,11 +154,11 @@ LEXICON sajevems-V-a
 LEXICON jangavoms-V
 +V1VU: jangavoms-V-a ;
 +V1VU:     VerbsPresPrt_1 ;
-+Conneg:%>О1К3 Tenses1 ;
++ConNeg:%>О1К3 Tenses1 ;
 +V1VU+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V1VU+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V1VU: Deverbals_1 ;
-+V1VU+LV+Conneg:%>О1К3 Tenses1 ;
++V1VU+LV+ConNeg:%>О1К3 Tenses1 ;
 
 LEXICON jangavoms-V-a
  CondVerbs ;
@@ -162,7 +175,7 @@ LEXICON jangavoms-V-a
 LEXICON kundams-V
 +V2: kundams-V-a ;
 +V2:     VerbsPresPrt_1 ;
-+Conneg:%>К3 Tenses1 ;
++ConNeg:%>К3 Tenses1 ;
 +V2+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V2+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V2:  Deverbals_2 ; !This denies linking vowel
@@ -183,7 +196,7 @@ LEXICON kundams-V-a
 LEXICON satoms-V
 +V3: Verbs3-a ;
 +V3:     VerbsPresPrt_1 ;
-+Conneg:%>О1К3 Tenses1 ;
++ConNeg:%>О1К3 Tenses1 ;
 +V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V3+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V3:  Deverbals_1 ; 
@@ -191,7 +204,7 @@ LEXICON satoms-V
 LEXICON letems-V
 +V3: Verbs3-a ;
 +V3:     VerbsPresPrt_1 ;
-+Conneg:%>О1К3 Tenses1 ;
++ConNeg:%>О1К3 Tenses1 ;
 +V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V3+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V3:  Deverbals_1 ; 
@@ -1053,20 +1066,20 @@ LEXICON Nouns_Shibilant
 +Ela:%>стО1 Indef-DefSg-Poss ;
 
 LEXICON Nouns_Pl
-+Indet+Pl:%>тЬ2 Tenses-NomPl ;
-+Pl.DefPl+Abe:%>тне%>втеме Tenses-Obl  ;
-+Pl.DefPl+Abl:%>тне%>де Tenses-Obl ;
++Indet+Pl:%>тЬ2 kit-Tenses-NomPl ;
++Pl.DefPl+Abe:%>тне%>втеме kudo-Tenses-Obl  ;
++Pl.DefPl+Abl:%>тне%>де kudo-Tenses-Obl ;
 +Pl.DefPl+Com:%>тне%>нек lak-Clitic ;
-+Pl.DefPl+Comp:%>тне%>шка Tenses-Obl ;
++Pl.DefPl+Comp:%>тне%>шка kudo-Tenses-Obl ;
 +Pl.DefPl+Dat:%>тне%>нень Clitic ;
-+Pl.DefPl+Ela:%>тне%>стэ Tenses-Obl ;
++Pl.DefPl+Ela:%>тне%>стэ kudo-Tenses-Obl ;
 +Pl.DefPl+Gen:%>тне%>нь Clitic ;
 +Pl.DefPl+Ill:%>тне%>с Clitic ;
-+Pl.DefPl+Ine:%>тне%>сэ Tenses-Obl ;
++Pl.DefPl+Ine:%>тне%>сэ kudo-Tenses-Obl ;
 +Pl.DefPl+Lat:%>тне%>в Clitic ;
-+Pl.DefPl+Nom:%>тне Tenses-NomPl ;
-+Pl.DefPl+Prl:%>тне%>ва Tenses-Obl ;
-+Pl.DefPl+Transl:%>тне%>кс Tenses-Obl ;
++Pl.DefPl+Nom:%>тне kudo-Tenses-NomPl ;
++Pl.DefPl+Prl:%>тне%>ва kudo-Tenses-Obl ;
++Pl.DefPl+Transl:%>тне%>кс osh-Tenses-Obl ;
 
 
 LEXICON Nouns1_A
@@ -1090,10 +1103,10 @@ LEXICON Nouns1_A
 
 
 
-+NomDefSg:%>О1сь Tenses-NomSg ;
++NomDefSg:%>О1сь osh-Tenses-NomSg ;
 +GenDefSg:%>О1нть Clitic ;
 +DatDefSg:%>О1нтень Clitic ;
-+Gen+Indef:%>О1нь Tenses-Obl ;
++Gen+Indef:%>О1нь kal-Tenses-Obl ;
 +Com+Indef:%>нек lak-Clitic ;
 
 +Use/Sub/Dial+Dat+Poss2Sg:%>теть Clitic ;
@@ -1105,47 +1118,47 @@ LEXICON Nouns1_A
 +Use/Sub/Dial+Dat+Poss3Pl:%>О1нстэст Clitic ;
 +Use/Sub/Dial+Ill:%>з Possessives2 ;
 
-+Use/Sub/Dial+NomSg+Poss3Sg:%>зО1 Tenses-NomSg ;
++Use/Sub/Dial+NomSg+Poss3Sg:%>зО1 kudo-Tenses-NomSg ;
 
-+Use/Sub/Dial+NomSg+Poss1Pl:%>нО1к Tenses-NomSg ;
-+Use/Sub/Dial+NomPl+Poss1Pl:%>нО1к Tenses-NomPl ;
-+Use/Sub/Dial+Gen+Poss1Pl:%>нО1к Tenses-Obl ;
++Use/Sub/Dial+NomSg+Poss1Pl:%>нО1к lak-Tenses-NomSg ;
++Use/Sub/Dial+NomPl+Poss1Pl:%>нО1к lak-Tenses-NomPl ;
++Use/Sub/Dial+Gen+Poss1Pl:%>нО1к lak-Tenses-Obl ;
 
-+Use/Sub/Dial+NomDefSg:%>сь Tenses-NomSg ;
++Use/Sub/Dial+NomDefSg:%>сь osh-Tenses-NomSg ;
 +Use/Sub/Dial+GenDefSg:%>сть Clitic ;
 +Use/Sub/Dial+DatDefSg:%>стень Clitic ;
 
 
 LEXICON Possessive-NomGen
-+NomSg+Poss1Sg/м:%>О1м Tenses-NomSg ;
-+Use/Sub/Dial+NomPl+Poss1Sg/м:%>О1м Tenses-NomPl ;
-+Gen+Poss1Sg/м:%>О1м Tenses-Obl ;
++NomSg+Poss1Sg/м:%>О1м kal-Tenses-NomSg ;
++Use/Sub/Dial+NomPl+Poss1Sg/м:%>О1м kal-Tenses-NomPl ;
++Gen+Poss1Sg/м:%>О1м kal-Tenses-Obl ;
 
-+NomPl+Poss1Sg/Н:%>О1нЬ2 Tenses-NomPl ;
-+Gen+Poss1Sg/Н:%>О1нЬ2 Tenses-Obl ;
-+Poss1Sg+KinGen:%>О1нь Tenses-Obl ;
++NomPl+Poss1Sg/Н:%>О1нЬ2 kal-Tenses-NomPl ;
++Gen+Poss1Sg/Н:%>О1нЬ2 kal-Tenses-Obl ;
++Poss1Sg+KinGen:%>О1нь kal-Tenses-Obl ;
 
-+NomSg+Poss2Sg:%>О1тЬ2 Tenses-NomSg ;
-+NomPl+Poss2Sg:%>О1тЬ2 Tenses-NomPl ;
-+Gen+Poss2Sg:%>О1тЬ2 Tenses-Obl ;
-+Poss2Sg+KinGen:%>О1ть Tenses-Obl ;
++NomSg+Poss2Sg:%>О1тЬ2 kit-Tenses-NomSg ;
++NomPl+Poss2Sg:%>О1тЬ2 kit-Tenses-NomPl ;
++Gen+Poss2Sg:%>О1тЬ2 kit-Tenses-Obl ;
++Poss2Sg+KinGen:%>О1ть kit-Tenses-Obl ;
 
-+NomSg+Poss3Sg:%>О1зО1 Tenses-NomSg ;
-+NomPl+Poss3Sg:%>О1нзО1 Tenses-NomPl ;
-+Gen+Poss3Sg:%>О1нзО1 Tenses-Obl ;
++NomSg+Poss3Sg:%>О1зО1 kudo-Tenses-NomSg ;
++NomPl+Poss3Sg:%>О1нзО1 kudo-Tenses-NomPl ;
++Gen+Poss3Sg:%>О1нзО1 kudo-Tenses-Obl ;
 
-+NomSg+Poss1Pl:%>О1нО1к Tenses-NomSg ;
-+NomPl+Poss1Pl:%>О1нО1к Tenses-NomPl ;
-+Gen+Poss1Pl:%>О1нО1к Tenses-Obl ;
-+Use/Sub/Dial+NomSg+Poss1Pl:%>О1мО1к Tenses-NomSg ;
++NomSg+Poss1Pl:%>О1нО1к lak-Tenses-NomSg ;
++NomPl+Poss1Pl:%>О1нО1к lak-Tenses-NomPl ;
++Gen+Poss1Pl:%>О1нО1к lak-Tenses-Obl ;
++Use/Sub/Dial+NomSg+Poss1Pl:%>О1мО1к lak-Tenses-NomSg ;
 
-+NomSg+Poss2Pl:%>О1нк Tenses-NomSg ;
-+NomPl+Poss2Pl:%>О1нк Tenses-NomPl ;
-+Gen+Poss2Pl:%>О1нк Tenses-Obl ;
++NomSg+Poss2Pl:%>О1нк lak-Tenses-NomSg ;
++NomPl+Poss2Pl:%>О1нк lak-Tenses-NomPl ;
++Gen+Poss2Pl:%>О1нк lak-Tenses-Obl ;
 
-+NomSg+Poss3Pl:%>О1ст Tenses-NomSg ;
-+NomPl+Poss3Pl:%>О1ст Tenses-NomPl ;
-+Gen+Poss3Pl:%>О1ст Tenses-Obl ;
++NomSg+Poss3Pl:%>О1ст kit-Tenses-NomSg ;
++NomPl+Poss3Pl:%>О1ст kit-Tenses-NomPl ;
++Gen+Poss3Pl:%>О1ст kit-Tenses-Obl ;
 
 
 
@@ -1263,11 +1276,11 @@ LEXICON Determinatives1
  Tenses-Obl ;
 
 !Used with deverbals
-LEXICON Tenses1
- Tenses-NomSg ;
- Tenses-NomPl ;
+LEXICON kal-Tenses1
+ kal-Tenses-NomSg ;
+ kal-Tenses-NomPl ;
 
-LEXICON Tenses-NomSg
+LEXICON kal-Tenses-NomSg
  Clitic ;
 +Ind.NonPast.1Sg:%>А2н Clitic ;
 +Ind.NonPast.2Sg:%>А2т Clitic ;
@@ -1275,7 +1288,7 @@ LEXICON Tenses-NomSg
 +Ind.Prt2+2Sg:%>О1лить Clitic ;
 +Ind.Prt2+3Sg:%>О1ль Clitic ;
 
-LEXICON Tenses-NomPl
+LEXICON kal-Tenses-NomPl
  Clitic ;
 +Ind.NonPast.1Pl:%>тА2но Clitic ;
 +Ind.NonPast.2Pl:%>тА2до Clitic ;
@@ -1283,17 +1296,17 @@ LEXICON Tenses-NomPl
 +Ind.Prt2+2Pl:%>О1лиде Clitic ;
 +Ind.Prt2+3Pl:%>О1льть Clitic ;
 
-LEXICON Tenses-Abs
+LEXICON kal-Tenses-Abs
 +Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
 +Ind.Prt2+2Pl:%>О1лиде Clitic ;
 +Ind.Prt2+3Pl:%>О1льть Clitic ;
-Tenses-Abs-1 ;
+ kal-Tenses-Abs-1 ;
 
-LEXICON Tenses-Abs-1
+LEXICON kal-Tenses-Abs-1
 +Ind.NonPast.1Pl:%>тА2но Clitic ;
 +Ind.NonPast.2Pl:%>тА2до Clitic ;
 
-LEXICON Tenses-Obl
+LEXICON kal-Tenses-Obl
  Clitic ;
 +Ind.NonPast.1Sg:%>А2н Clitic ;
 +Ind.NonPast.2Sg:%>А2т Clitic ;
@@ -1307,5 +1320,218 @@ LEXICON Tenses-Obl
 +Ind.Prt2+2Pl:%>О1лиде Clitic ;
 +Ind.Prt2+3Pl:%>О1льть Clitic ;
 
+LEXICON osh-Tenses1
+ osh-Tenses-NomSg ;
+ osh-Tenses-NomPl ;
+
+LEXICON osh-Tenses-NomSg
+ Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.Prt2+1Sg:%>О1линь Clitic ;
++Ind.Prt2+2Sg:%>О1лить Clitic ;
++Ind.Prt2+3Sg:%>О1ль Clitic ;
+
+LEXICON osh-Tenses-NomPl
+ Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
++Ind.Prt2+2Pl:%>О1лиде Clitic ;
++Ind.Prt2+3Pl:%>О1льть Clitic ;
+
+LEXICON osh-Tenses-Abs
++Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
++Ind.Prt2+2Pl:%>О1лиде Clitic ;
++Ind.Prt2+3Pl:%>О1льть Clitic ;
+ osh-Tenses-Abs-1 ;
+
+LEXICON osh-Tenses-Abs-1
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
+
+LEXICON osh-Tenses-Obl
+ Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.NonPast.3Pl:%>тЬ2 Clitic ;
++Ind.Prt2+1Sg:%>О1линь Clitic ;
++Ind.Prt2+2Sg:%>О1лить Clitic ;
++Ind.Prt2.3Sg:%>О1ль Clitic ;
++Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
++Ind.Prt2+2Pl:%>О1лиде Clitic ;
++Ind.Prt2+3Pl:%>О1льть Clitic ;
+
+LEXICON lak-Tenses1
+ lak-Tenses-NomSg ;
+ lak-Tenses-NomPl ;
+
+LEXICON lak-Tenses-NomSg
+ lak-Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.Prt2+1Sg:%>О1линь Clitic ;
++Ind.Prt2+2Sg:%>О1лить Clitic ;
++Ind.Prt2+3Sg:%>О1ль Clitic ;
+
+LEXICON lak-Tenses-NomPl
+ lak-Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
++Ind.Prt2+2Pl:%>О1лиде Clitic ;
++Ind.Prt2+3Pl:%>О1льть Clitic ;
+
+LEXICON lak-Tenses-Abs
++Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
++Ind.Prt2+2Pl:%>О1лиде Clitic ;
++Ind.Prt2+3Pl:%>О1льть Clitic ;
+ lak-Tenses-Abs-1 ;
+
+LEXICON lak-Tenses-Abs-1
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
+
+LEXICON lak-Tenses-Obl
+ Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.NonPast.3Pl:%>тЬ2 Clitic ;
++Ind.Prt2+1Sg:%>О1линь Clitic ;
++Ind.Prt2+2Sg:%>О1лить Clitic ;
++Ind.Prt2.3Sg:%>О1ль Clitic ;
++Ind.Prt2+1Pl:%>О1линек lak-Clitic ;
++Ind.Prt2+2Pl:%>О1лиде Clitic ;
++Ind.Prt2+3Pl:%>О1льть Clitic ;
+
+LEXICON kit-Tenses1
+ kit-Tenses-NomSg ;
+ kit-Tenses-NomPl ;
+
+LEXICON kit-Tenses-NomSg
+ kal-Tenses-NomSg ;
+
+LEXICON kit-Tenses-NomPl
+ kal-Tenses-NomPl ;
++Use/Sub/Short+Ind.NonPast.1Pl:%>TLossтА2но Clitic ;
++Use/Sub/Short+Ind.NonPast.2Pl:%>TLossтА2до Clitic ;
+
+LEXICON kit-Tenses-Abs
+ kal-Tenses-Abs ;
+
+LEXICON kit-Tenses-Abs-1
+ kal-Tenses-Abs-1 ;
++Use/Sub/Short+Ind.NonPast.1Pl:%>TLossтА2но Clitic ;
++Use/Sub/Short+Ind.NonPast.2Pl:%>TLossтА2до Clitic ;
+
+LEXICON kit-Tenses-Obl
+ kal-Tenses-Obl ;
++Use/Sub/Short+Ind.NonPast.1Pl:%>TLossтА2но Clitic ;
++Use/Sub/Short+Ind.NonPast.2Pl:%>TLossтА2до Clitic ;
+
+
+LEXICON kudo-Tenses1
+ kudo-Tenses-NomSg ;
+ kudo-Tenses-NomPl ;
+
+LEXICON kudo-Tenses-NomSg
+ Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.Prt2+1Sg:%>линь Clitic ;
++Ind.Prt2+2Sg:%>лить Clitic ;
++Ind.Prt2+3Sg:%>ль Clitic ;
+
+LEXICON kudo-Tenses-NomPl
+ Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.Prt2+1Pl:%>линек lak-Clitic ;
++Ind.Prt2+2Pl:%>лиде Clitic ;
++Ind.Prt2+3Pl:%>льть Clitic ;
+
+LEXICON kudo-Tenses-Abs
++Ind.Prt2+1Pl:%>линек lak-Clitic ;
++Ind.Prt2+2Pl:%>лиде Clitic ;
++Ind.Prt2+3Pl:%>льть Clitic ;
+ kudo-Tenses-Abs-1 ;
+
+LEXICON kudo-Tenses-Abs-1
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
+
+LEXICON kudo-Tenses-Obl
+ Clitic ;
++Ind.NonPast.1Sg:%>А2н Clitic ;
++Ind.NonPast.2Sg:%>А2т Clitic ;
++Ind.NonPast.1Pl:%>тА2но Clitic ;
++Ind.NonPast.2Pl:%>тА2до Clitic ;
++Ind.NonPast.3Pl:%>тЬ2 Clitic ;
++Ind.Prt2+1Sg:%>линь Clitic ;
++Ind.Prt2+2Sg:%>лить Clitic ;
++Ind.Prt2.3Sg:%>ль Clitic ;
++Ind.Prt2+1Pl:%>линек lak-Clitic ;
++Ind.Prt2+2Pl:%>лиде Clitic ;
++Ind.Prt2+3Pl:%>льть Clitic ;
+
+
+
+!!!!!!!!!!!!!!!
+!!
+! =========== !
+! Conjugation !
+! =========== !
+
+LEXICON Tenses1_Prep-SG
+<"@P.NUM.SG@"> Tenses1 ;
+
+LEXICON osh-Tenses1_Prep-SG
+<"@P.NUM.SG@"> osh-Tenses1 ;
+
+LEXICON kudo-Tenses1_Prep-SG
+<"@P.NUM.SG@"> kudo-Tenses1 ;
+
+
+
+!LEXICON kit-Tenses1
+! kal-Tenses1 ;
+!< 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о "+Use/Sub/Short":0 "+Pred":0 "+Pres":0 "+1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > Clitic ;
+!< 0:">" 0:"TLoss" 0:т 0:А2 0:д 0:о "+Use/Sub/Short":0 "+Pred":0 "+Pres":0 "+2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > Clitic ;
+
+!LEXICON kal-Tenses1
+! Clitic ;
+! Tenses1_A  ; !This provides a linking vowel
+
+
+!LEXICON kudo-Tenses1
+! Clitic ;
+!< 0:А2 0:н "+Pred":0 "+Pres":0 "+1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> Clitic ;
+!< 0:А2 0:т "+Pred":0 "+Pres":0 "+2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> Clitic ;
+!< 0:т 0:А2 0:н 0:о "+Pred":0 "+Pres":0 "+1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > Clitic ;
+!< 0:т 0:А2 0:д 0:о "+Pred":0 "+Pres":0 "+2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > Clitic ;
+!< 0:">" 0:л 0:и 0:н 0:ь "+Pred":0 "+Prt2":0 "+1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> Clitic ;
+!< 0:">" 0:л 0:и 0:т 0:ь "+Pred":0 "+Prt2":0 "+2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> Clitic ;
+!< 0:">" 0:л 0:ь "+Pred":0 "+Prt2":0 "+3Sg":0 "@U.TPERS.3@" "@D.TNUM.PL@" > Clitic ;
+!< 0:">" 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Prt2":0 "+1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > Clitic ;
+!< 0:">" 0:л 0:и 0:д 0:е "+Pred":0 "+Prt2":0 "+2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > Clitic ;
+!< 0:">" 0:л 0:ь 0:т 0:ь "+Pred":0 "+Prt2":0 "+3Pl":0 "@U.TPERS.3@" "@D.TNUM.SG@" > Clitic ;
+
+
+
+LEXICON Tenses1_A
+< 0:А2 0:н "+Pred":0 "+Pres":0 "+1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> Clitic ;
+< 0:А2 0:т "+Pred":0 "+Pres":0 "+2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> Clitic ;
+< 0:т 0:А2 0:н 0:о "+Pred":0 "+Pres":0 "+1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > Clitic ;
+< 0:т 0:А2 0:д 0:о "+Pred":0 "+Pres":0 "+2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Prt2":0 "+1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Prt2":0 "+2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> Clitic ;
+< 0:">" 0:О1 0:л 0:ь "+Pred":0 "+Prt2":0 "+3Sg":0 "@U.TPERS.3@" "@D.TNUM.PL@" > Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Prt2":0 "+1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е "+Pred":0 "+Prt2":0 "+2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > Clitic ;
+< 0:">" 0:О1 0:л 0:ь 0:т 0:ь "+Pred":0 "+Prt2":0 "+3Pl":0 "@U.TPERS.3@" "@D.TNUM.SG@" > Clitic ;
 
 
