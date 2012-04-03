@@ -80,7 +80,6 @@ TWOLC = twolc
 ../bin/$(GTLANG).fst: \
 				../bin/$(GTLANG).save \
 				../bin/caseconv.fst \
-				../bin/tok.fst \
 				$(GTHOME)/gt/common/bin/spellrelax.fst
 	@echo
 	@echo "*** Building $(@F) ***" ;
@@ -137,27 +136,27 @@ caseconv.fst: ../bin/caseconv.fst
 
 
 
-# Another goal is to build a preprocessor.This goal depends on tok.txt
-# We actually use the perl preprocesssor "preprocess" now.
-tok.fst: ../bin/tok.fst
-../bin/tok.fst: tok.txt
-	@echo
-	@echo "*** Building the tokenizer $(@F) ***" ;
-	@echo
-	@printf "source tok.txt \n\
-	save stack ../bin/tok.fst \n\
-	quit \n" > ../../tmp/tok-script
-	$(XFST) < ../../tmp/tok-script
-	@rm -f ../../tmp/tok-script
+## Another goal is to build a preprocessor.This goal depends on tok.txt
+## We actually use the perl preprocesssor "preprocess" now.
+#tok.fst: ../bin/tok.fst
+#../bin/tok.fst: tok.txt
+#	@echo
+#	@echo "*** Building the tokenizer $(@F) ***" ;
+#	@echo
+#	@printf "source tok.txt \n\
+#	save stack ../bin/tok.fst \n\
+#	quit \n" > ../../tmp/tok-script
+#	$(XFST) < ../../tmp/tok-script
+#	@rm -f ../../tmp/tok-script
 
 
 $(GTLANG).save: ../bin/$(GTLANG).save
-../bin/$(GTLANG).save: ../bin/$(GTLANG)-lex.save ../bin/xfst-$(GTLANG).bin 
+../bin/$(GTLANG).save: ../bin/$(GTLANG)-lex.save ../bin/twol-$(GTLANG).bin 
 	@echo
 	@echo "*** Building the parser $(@F) ***"
 	@echo
 	@printf "read regex [[@\"../bin/$(GTLANG)-lex.save\"] .o. \
-	[@\"../bin/xfst-$(GTLANG).bin\"]] ; \n\
+	[@\"../bin/twol-$(GTLANG).bin\"]] ; \n\
 	save stack ../bin/$(GTLANG).save \n\
 	quit \n" > ../../tmp/$(GTLANG)-save-script
 	$(XFST) < ../../tmp/$(GTLANG)-save-script
@@ -176,19 +175,21 @@ $(GTLANG)-lex.save: ../bin/$(GTLANG)-lex.save
 	rm -f ../../tmp/$(GTLANG)-lex-save-script
 
 
-# The second goal is to build xfst-$(GTLANG).bin
-# This goal depends on xfst-$(GTLANG).txt
+# The second goal is to build twol-$(GTLANG).bin
+# This goal depends on twol-$(GTLANG).txt
 # Compile the phonological rules:
-xfst-$(GTLANG).bin: ../bin/xfst-$(GTLANG).bin
-../bin/xfst-$(GTLANG).bin: xfst-$(GTLANG).txt
+twol-$(GTLANG).bin: ../bin/twol-$(GTLANG).bin
+../bin/twol-$(GTLANG).bin: twol-$(GTLANG).twolc
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
-	@printf "source xfst-$(GTLANG).txt \n\
-	save stack ../bin/xfst-$(GTLANG).bin \n\
-	quit \n" > ../../tmp/xfst-$(GTLANG)-script
-	$(XFST) < ../../tmp/xfst-$(GTLANG)-script
-	@rm -f ../../tmp/xfst-$(GTLANG)-script
+	@printf "read-grammar twol-$(GTLANG).twolc \n\
+	compile \n\
+	save-binary ../bin/twol-$(GTLANG).bin \n\
+	quit \n" > ../../tmp/twol-$(GTLANG)-script
+	$(TWOLC) < ../../tmp/twol-$(GTLANG)-script
+	@rm -f ../../tmp/twol-$(GTLANG)-script
+
 
 
 $(GTLANG)-num.fst: ../bin/$(GTLANG)-num.fst
