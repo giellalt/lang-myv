@@ -560,7 +560,7 @@ PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
 PERS ;         ! pronoun !pers-myv-morph.txt
                ! ../../tmp/out/PERS_myv-lex.xml
 POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml
- Misc_Pronouns ;
+!2012-04-03! Misc_Pronouns ;
  Indef_Pronouns ;
 <"@P.INDEF.PREF@">  Indef_Pronouns-pref ;
 PRED2 ;	   ! ../../tmp/out/PRED2_myv-lex.xml !! Secondary Predication
@@ -583,7 +583,8 @@ SPAT ;  ! ../../tmp/out/SPAT_myv-lex.xml
 TEMP ;  ! ../../tmp/out/TEMP_myv-lex.xml
 V ;			   !!! ../../tmp/out/V_myv-lex.xml
 !2012-03-14!V-N2END ;			   ! ../../tmp/out/V-N2END_myv-lex.xml
-!2012-03-14!VERBNEGATIVE ; ! verb-myv-morph.txt
+VERBNEGATIVE ; ! verb-myv-morph.txt
+
 
 
 
@@ -605,6 +606,8 @@ LEXICON R
 ! Interj lexica !
 ! ============ !
 
+LEXICON InterjTag
++Interj Clitic ;
 
 LEXICON Interj-Imp
 +Interj+Imp+2Sg: ImpClitic ;
@@ -626,8 +629,8 @@ LEXICON marto-PO
 +Po+Der/MWN: kudo-N ;
 
 LEXICON kudo-PO-ILL
-+Ill:%>с Clitic ;
-+Ill:%>з Clitic ;
++Po+Ill:%>с Clitic ;
++Po+Ill:%>з osh-Possessives2 ;
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
@@ -998,12 +1001,12 @@ LEXICON -DefSg-
 
 LEXICON Indef--Poss
 +Indef: Tenses-Obl ;
-+Poss1Sg:%>О1нЬ2 Tenses-Obl ;
-+Poss2Sg:%>О1тЬ2 Tenses-Obl ;
-+Poss3Sg:%>О1нзО1 Tenses-Obl ;
-+Poss1Pl:%>О1нО1к Tenses-Obl ;
-+Poss2Pl:%>О1нк Tenses-Obl ;
-+Poss3Pl:%>О1ст Tenses-Obl ;
++Px1Sg:%>О1нЬ2 Tenses-Obl ;
++Px2Sg:%>О1тЬ2 Tenses-Obl ;
++Px3Sg:%>О1нзО1 Tenses-Obl ;
++Px1Pl:%>О1нО1к Tenses-Obl ;
++Px2Pl:%>О1нк Tenses-Obl ;
++Px3Pl:%>О1ст Tenses-Obl ;
 
 
 
