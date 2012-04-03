@@ -64,14 +64,6 @@ include Makefile_xml
 	@echo
 	hfst-twolc $(HTWOLC_FLAGS) -i $< -o $@
 
-# Compile the twolc file:
-twol-hfst \
-../bin/$(GTLANG)-twol.hfst: ../src/twol-$(GTLANG).txt
-	@echo
-	@echo "*** Building $(@F) ***" ;
-	@echo
-	hfst-twolc $(HTWOLC_FLAGS) -i $< -o $@
-
 # Compile the xfst script file:
 xfst-$(GTLANG).bin: ../bin/xfst-$(GTLANG).hfst
 ../bin/xfst-$(GTLANG).hfst: xfst-$(GTLANG).txt
