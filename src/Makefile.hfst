@@ -306,6 +306,7 @@ apertium: ../bin/$(GTLANG)-mor.hfstol ../bin/$(GTLANG)-mor.lower.hfstol ../bin/$
 clean:
 	rm -f ../bin/*.hfst \
 		  ../bin/*.hfstol \
-		  ../../tmp/out/*$(GTLANG)-* \
+		  ../../tmp/*$(GTLANG)* \
+		  ../../tmp/out/*$(GTLANG)* \
 		  $(GTLANG)-lex-xmlsrc.txt \
 		  $(GTHOME)/gt/common/bin/uppercase-first.hfst
