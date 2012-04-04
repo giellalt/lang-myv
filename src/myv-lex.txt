@@ -625,7 +625,7 @@ LEXICON VocativeTag
 
 LEXICON marto-PO
 +Po+Abs: Clitic ;
- kudo-Possessives2 ; 
++Po+COM: kudo-Possessives2 ; 
 +Po+Der/MWN: kudo-N ;
 
 LEXICON kudo-PO-ILL
@@ -634,32 +634,32 @@ LEXICON kudo-PO-ILL
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
-+LV+Ela:%>О1стО1 kudo-Conjugation ;
-+LV+Ill:%>О1с Clitic ;
-+LV+Ine:%>О1сО1 kudo-Conjugation ;
++Po+LV+Ela:%>О1стО1 kudo-Conjugation ;
++Po+LV+Ill:%>О1с Clitic ;
++Po+LV+Ine:%>О1сО1 kudo-Conjugation ;
 
 LEXICON jutkso-SPAT
-+Prl:%>Г2а kudo-SPAT-PossX ;
-+Prl:%>Г2а kudo-Conjugation ;
++Po+Prl:%>Г2а kudo-SPAT-PossX ;
++Po+Prl:%>Г2а kudo-Conjugation ;
  langso-SPAT ;
 
 LEXICON langso-SPAT
-+Ela:%>VLossстО1 kudo-Conjugation ;
-+Ill:%>VLossс Clitic ;
-+Ine:%>VLossсО1 kudo-Conjugation ;
-+Ela:%>VLossстО1 kudo-SPAT-PossX ;
-+Ill:%>О1з osh-SPAT-PossX ;
-+Ine:%>VLossсО1 kudo-SPAT-PossX ;
++Po+Ela:%>VLossстО1 kudo-Conjugation ;
++Po+Ill:%>VLossс Clitic ;
++Po+Ine:%>VLossсО1 kudo-Conjugation ;
++Po+Ela:%>VLossстО1 kudo-SPAT-PossX ;
++Po+Ill:%>О1з osh-SPAT-PossX ;
++Po+Ine:%>VLossсО1 kudo-SPAT-PossX ;
 
 LEXICON malaso-SPAT
 +Ela:%>стО1 kudo-Conjugation ;
 +Ill:%>с Clitic ;
 +Ine:%>сО1 kudo-Conjugation ;
 +Prl:%>Г2а kudo-Conjugation ;
-+Ela:%>стО1 kudo-SPAT-PossX ;
-+Ill:%>О1з osh-SPAT-PossX ;
-+Ine:%>сО1 kudo-SPAT-PossX ;
-+Prl:%>Г2а kudo-SPAT-PossX ;
++Po+Ela:%>стО1 kudo-SPAT-PossX ;
++Po+Ill:%>О1з osh-SPAT-PossX ;
++Po+Ine:%>сО1 kudo-SPAT-PossX ;
++Po+Prl:%>Г2а kudo-SPAT-PossX ;
 
 LEXICON ushoso-SPAT
 +Spat+Ela:%>стО1 kudo-Conjugation ;
@@ -807,13 +807,16 @@ LEXICON Temp-Temp
 +Temp+Adv+Temp: Clitic ;
 
 LEXICON lak-N-Temp
-+N+Adv+Temp: Clitic ;
++Adv+Temp: Clitic ;
++Adv+Temp+Der/MWN: lak-N ;
 
 LEXICON kit-N-Temp
-+N+Adv+Temp: Clitic ;
++Adv+Temp: Clitic ;
++Adv+Temp+Der/MWN: kit-N ;
 
 LEXICON kudo-N-Temp
-+N+Adv+Temp: Clitic ;
++Adv+Temp: Clitic ;
++Adv+Temp+Der/MWN: kudo-N ;
 
 LEXICON Temp-1Arg-Ela
 +Po+Ela+Temp: Clitic ; !This will require Possessor Indices
