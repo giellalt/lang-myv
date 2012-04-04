@@ -530,6 +530,7 @@
             <xs:enumeration value="erek-Adj"/>
             <xs:enumeration value="vanjks-Adj"/>
             <xs:enumeration value="chevte-Adj"/>
+            <xs:enumeration value="lembe-Adj"/>
             <xs:enumeration value="nachko-Adj"/>
             <xs:enumeration value="vejketj-Adj-PL"/>
             <xs:enumeration value="shumbra-Adj"/>
@@ -642,6 +643,11 @@
             <xs:enumeration value="ActDemPtc"/>
             <xs:enumeration value="Ptc-Telic"/>
             <xs:enumeration value="QntTag"/>
+            <xs:enumeration value="Qnt-Adn"/>
+            <xs:enumeration value="Qnt-Indef"/>
+            <xs:enumeration value="IterTag"/>
+            <xs:enumeration value="Iter-Indef"/>
+            <xs:enumeration value="vese-QNT"/>
             <xs:enumeration value="Qnt-Distr"/>
             <xs:enumeration value="SOD-алце"/>
             <xs:enumeration value="SOD-кудоньсесь"/>
@@ -731,18 +737,18 @@
             <xs:enumeration value="tujems-V"/>
             <xs:enumeration value="nejems-V"/>
             <xs:enumeration value="nekshnems-V"/>
-            <xs:enumeration value="tejems-V_Obj3Sg"/>
-            <xs:enumeration value="kadoms-V_Obj3Sg"/>
-            <xs:enumeration value="nevtems-V_Obj3Sg"/>
-            <xs:enumeration value="ujems-V_Obj3Sg"/>
-            <xs:enumeration value="mijems-V_Obj3Sg"/>
-            <xs:enumeration value="kundams-V_Obj3Sg"/>
-            <xs:enumeration value="satoms-V_Obj3Sg"/>
-            <xs:enumeration value="savtoms-V_Obj3Sg"/>
-            <xs:enumeration value="ledems-V_Obj3Sg"/>
-            <xs:enumeration value="tujems-V_Obj3Sg"/>
-            <xs:enumeration value="nejems-V_Obj3Sg"/>
-            <xs:enumeration value="nekshnems-V_Obj3Sg"/>
+            <xs:enumeration value="tejems-V_ObjAll"/>
+            <xs:enumeration value="kadoms-V_ObjAll"/>
+            <xs:enumeration value="nevtems-V_ObjAll"/>
+            <xs:enumeration value="ujems-V_ObjAll"/>
+            <xs:enumeration value="mijems-V_ObjAll"/>
+            <xs:enumeration value="kundams-V_ObjAll"/>
+            <xs:enumeration value="satoms-V_ObjAll"/>
+            <xs:enumeration value="savtoms-V_ObjAll"/>
+            <xs:enumeration value="ledems-V_ObjAll"/>
+            <xs:enumeration value="tujems-V_ObjAll"/>
+            <xs:enumeration value="nejems-V_ObjAll"/>
+            <xs:enumeration value="nekshnems-V_ObjAll"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
