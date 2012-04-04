@@ -204,7 +204,8 @@ $(GTLANG)-num.fst: ../bin/$(GTLANG)-num.fst
 
 
 clean:
-	@rm -rf \
-		../bin/* \
-		../../tmp \
+	@rm -f \
+		../bin/*.fst \
+		../../tmp/*$(GTLANG)* \
+		../../tmp/out/*$(GTLANG)* \
 		$(GTLANG)-lex-xmlsrc.txt
