@@ -67,7 +67,7 @@
 		  <xsl:for-each select="./r/entry[not(./@exclude='fst')]/lg/stg/st">
 		    <e>
 		      <xsl:attribute name="stem">
-			<xsl:value-of select="normalize-space(.)"/>
+			<xsl:value-of select="translate(normalize-space(.), '&#x20;', '%&#x20;')"/>
 		      </xsl:attribute>
 		      <xsl:attribute name="pos">
 			<xsl:value-of select="normalize-space(../../../pos)"/>
@@ -79,7 +79,7 @@
 			<xsl:value-of select="normalize-space(../../../e[1]/mg[1]/tg[@lang='eng']/t[1])"/>
 		      </xsl:attribute>
 		      <!-- xsl:value-of select="normalize-space(./lemma)"/ replace underscore by "% "-->
-		      <xsl:value-of select="translate(normalize-space(../../l), '_', '% ')"/>		
+		      <xsl:value-of select="translate(normalize-space(../../l), '&#x20;', '%&#x20;')"/>		
 		    </e>
 		  </xsl:for-each>
 		</out>
