@@ -107,13 +107,13 @@ LEXICON nevtems-V
  kadoms-V ;
 
 LEXICON kadoms-V
-+V1: kadoms-V-a ;
-+V1:     VerbsPresPrt_1 ;
-+ConNeg:%>О1К3 Tenses1 ;
-+V1+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V1+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V1: Deverbals_1 ;
-+V1+LV+ConNeg:%>О1К3 Tenses1 ;
++V: kadoms-V-a ;
++V: VerbsPresPrt_1 ;
++V+ConNeg:%>О1К3 kudo-Tenses1 ;
++V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V+Cond:%>Ы2ндеря   Deverbals_2 ;
++V: Deverbals_1 ;
++V+LV+ConNeg:%>О1К3 Tenses1 ;
 
 
 LEXICON kadoms-V-a
@@ -128,13 +128,13 @@ LEXICON kadoms-V-a
 +Opt: Optative1 ;
 
 LEXICON sajevems-V
-+V1VI: sajevems-V-a ;
-+V1VI:     VerbsPresPrt_1 ;
-+ConNeg:%>О1К3 Tenses1 ;
-+V1VI+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V1VI+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V1VI:  Deverbals_1 ;
-+V1VI+LV+ConNeg:%>О1К3 Tenses1 ;
++V: sajevems-V-a ;
++V:     VerbsPresPrt_1 ;
++V+ConNeg:%>О1К3 Tenses1 ;
++V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V+Cond:%>Ы2ндеря   Deverbals_2 ;
++V:  Deverbals_1 ;
++V+LV+ConNeg:%>О1К3 Tenses1 ;
 
 
 LEXICON sajevems-V-a
@@ -150,13 +150,13 @@ LEXICON sajevems-V-a
 +Opt: Optative1 ;
 
 LEXICON jangavoms-V
-+V1VU: jangavoms-V-a ;
-+V1VU:     VerbsPresPrt_1 ;
-+ConNeg:%>О1К3 Tenses1 ;
-+V1VU+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V1VU+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V1VU: Deverbals_1 ;
-+V1VU+LV+ConNeg:%>О1К3 Tenses1 ;
++V: jangavoms-V-a ;
++V:     VerbsPresPrt_1 ;
++V+ConNeg:%>О1К3 Tenses1 ;
++V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V+Cond:%>Ы2ндеря   Deverbals_2 ;
++V: Deverbals_1 ;
++V+LV+ConNeg:%>О1К3 Tenses1 ;
 
 LEXICON jangavoms-V-a
  CondVerbs ;
@@ -171,12 +171,12 @@ LEXICON jangavoms-V-a
 +Opt: Optative1 ;
 
 LEXICON kundams-V
-+V2: kundams-V-a ;
-+V2:     VerbsPresPrt_1 ;
-+ConNeg:%>К3 Tenses1 ;
-+V2+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V2+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V2:  Deverbals_2 ; !This denies linking vowel
++V: kundams-V-a ;
++V:     VerbsPresPrt_1 ;
++V+ConNeg:%>К3 Tenses1 ;
++V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V+Cond:%>Ы2ндеря   Deverbals_2 ;
++V:  Deverbals_2 ; !This denies linking vowel
 
 
 LEXICON kundams-V-a
@@ -192,20 +192,20 @@ LEXICON kundams-V-a
 
 
 LEXICON satoms-V
-+V3: Verbs3-a ;
-+V3:     VerbsPresPrt_1 ;
-+ConNeg:%>О1К3 Tenses1 ;
-+V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V3+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V3:  Deverbals_1 ; 
++V: Verbs3-a ;
++V:     VerbsPresPrt_1 ;
++V+ConNeg:%>О1К3 Tenses1 ;
++V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V+Cond:%>Ы2ндеря   Deverbals_2 ;
++V:  Deverbals_1 ; 
 
 LEXICON letems-V
-+V3: Verbs3-a ;
-+V3:     VerbsPresPrt_1 ;
-+ConNeg:%>О1К3 Tenses1 ;
-+V3+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V3+Cond:%>Ы2ндеря   Deverbals_2 ;
-+V3:  Deverbals_1 ; 
++V: Verbs3-a ;
++V:     VerbsPresPrt_1 ;
++V+ConNeg:%>О1К3 Tenses1 ;
++V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++V+Cond:%>Ы2ндеря   Deverbals_2 ;
++V:  Deverbals_1 ; 
 
 
 LEXICON Verbs3-a
@@ -875,28 +875,31 @@ LEXICON ImpClitic
 !+ClitKayatya:%>каятя # ;
 
 LEXICON VerbsPresPrt_1
-+Der/Ыця+DeverbalPrsPrtLong:%>Ы2ця kudo-N ;
++Der/Ыця+ActDemPtc:%>Ы2ця kudo-N ;
 +Der/Ый+DeverbalPrsPrtMedium:%>Ы2й kal-N ;
 +Der/Ы+DeverbalPrsPrtShort:%>Ы2 kudo-N ;
 
 LEXICON Deverbals_1
 
-+Deverbal+Noun:%>О1мА1 kudo-N ;
-+Deverbal+Oblig:%>О1ма Tenses1 ;
-+Deverbal+Noun:%>О1мка kudo-N ;
-+Deverbal+mOInf+Loc:%>О1мО1 kudo-N ;
-+Deverbal+msInf+Ill:%>О1мс sajems-Conjugation ;
-+Deverbal+mstOInf+Ela:%>О1мстО1 kudo-Possessive-Before-Clitic ;
-+Deverbal+msOInf+Ine:%>О1мсО1 kudo-Possessive-Before-Clitic ;
-+Deverbal+mgaInf+Prl:%>О1мга kudo-Possessive-Before-Clitic ;
-!!Marked 2006-12-01
-+Deverbal+mdOInf+Abl:%>О1мдО1 kudo-Possessive-Before-Clitic ;
-!!Marked 2006-12-01
-+Deverbal+mOInf+Abl:%>О1мО1%>дО1 kudo-Possessive-Before-Clitic ;
-!!Marked 2006-12-01
-+Deverbal+mOInf+Ill:%>О1мО1%>з osh-Possessive-Before-Clitic ;
-+Deverbal+Der/Озь+Ptc:%>О1зь sajezj-PTC ; !!
-+Deverbal+Der/Онь+Ptc:%>О1нь Tenses1 ;
++Der/ОмА:%>О1мА1 kudo-N ;
++Der/Ома+Oblig:%>О1ма kudo-Tenses1 ;
++Der/Омка+Oblig:%>О1мка kudo-Tenses1 ;
++Der/Омка:%>О1мка kudo-N ;
++Der/ОмО+Inf+Loc:%>О1мО1 kudo-Possessive-Before-Clitic ;
++Der/ОмО+Inf+Loc:%>О1мО1 Clitic ;
++Der/Омс+Inf+Ill:%>О1мс sajems-Conjugation ;
++Der/ОмстО+Inf+Ela:%>О1мстО1 kudo-Possessive-Before-Clitic ;
++Der/ОмстО+Inf+Ela:%>О1мстО1 Clitic ;
++Der/ОмсО+Inf+Ine:%>О1мсО1 kudo-Possessive-Before-Clitic ;
++Der/ОмсО+Inf+Ine:%>О1мсО1 Clitic ;
++Der/Омга+Inf+Prl:%>О1мга kudo-Possessive-Before-Clitic ;
++Der/Омга+Inf+Prl:%>О1мга Clitic ;
++Der/ОмдО+Inf+Abl:%>О1мдО1 kudo-Possessive-Before-Clitic ;
++Der/ОмдО+Inf+Abl:%>О1мдО1 Clitic ;
++Der/ОмО+Der/дО+Inf+Abl:%>О1мО1%>дО1 kudo-Possessive-Before-Clitic ;
++Der/ОмО+Inf+Ill:%>О1мО1%>з osh-Possessive-Before-Clitic ;
++Der/Озь:%>О1зь sajezj-PTC ; !!
++Der/Онь+Ptc:%>О1нь Tenses1 ;
 
 +Deverbal+Der/Онь+Ptc:%>О1нсе kudo-N2-Def-Declension ;
 
@@ -936,6 +939,7 @@ LEXICON ActDemPtc
 
 LEXICON sajezj-PTC
 +Ptc: vanjks-Adj ;
++Ptc: Clitic ;
 
 LEXICON Ptc-Telic ! sajevtj
 +Ptc+Telic: kit-N ;
