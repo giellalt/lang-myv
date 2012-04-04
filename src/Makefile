@@ -32,7 +32,7 @@ TWOLC = twolc
 # Here we build the final generator, an inverted transducer of the analyzer.
 # It is dependent upon $(GTLANG).save
 
-../bin/i$(GTLANG).fst: r-$(GTLANG).fst $(GTLANG)-num.fst
+../bin/i$(GTLANG).fst: ../bin/r-$(GTLANG).fst ../bin/$(GTLANG)-num.fst
 	@echo
 	@echo "*** Building the inverse $(@F) ***"
 	@echo
@@ -47,11 +47,11 @@ TWOLC = twolc
 # We want an analyzer with Russian tags. It takes the linguistic 
 # $(GTLANG).fst as input and gives us an alternate r-$(GTLANG).fst
 
-../bin/r-$(GTLANG).fst: ../bin/$(GTLANG).fst ../int/tag-rus.fst
+../bin/r-$(GTLANG).fst: ../bin/$(GTLANG).fst ../bin/tag-rus.fst
 	@echo
 	@echo "*** Building $(@F), $(<F) with Russian tags ***"
 	@echo
-	@printf "read regex [[@\"../int/tag-rus.fst\"] .o. \
+	@printf "read regex [[@\"../bin/tag-rus.fst\"] .o. \
 	[@\"../bin/$(GTLANG).fst\"]] ; \n\
 	save stack ../bin/r-$(GTLANG).fst \n\
 	quit \n" > ../../tmp/r-$(GTLANG)-fst-script
@@ -62,12 +62,12 @@ TWOLC = twolc
 # In order to make r-$(GTLANG).fst we need a binary tag-rus.fst
 # This goal depends on tag-rus.regex
 
-../int/tag-rus.fst: tag-rus.regex
+../bin/tag-rus.fst: tag-rus.regex
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
 	@printf "read regex < tag-rus.regex \n\
-	save stack ../int/tag-rus.fst \n\
+	save stack ../bin/tag-rus.fst \n\
 	quit \n" > ../../tmp/$(GTLANG)-tag-rus-script
 	$(XFST) < ../../tmp/$(GTLANG)-tag-rus-script
 	@rm -f ../../tmp/$(GTLANG)-tag-rus-script
@@ -155,12 +155,13 @@ $(GTLANG).save: ../bin/$(GTLANG).save
 	@echo
 	@echo "*** Building the parser $(@F) ***"
 	@echo
-	@printf "read regex [[@\"../bin/$(GTLANG)-lex.save\"] .o. \
-	[@\"../bin/twol-$(GTLANG).bin\"]] ; \n\
-	save stack ../bin/$(GTLANG).save \n\
-	quit \n" > ../../tmp/$(GTLANG)-save-script
-	$(XFST) < ../../tmp/$(GTLANG)-save-script
-	@rm -f ../../tmp/$(GTLANG)-save-script
+	printf "read-source $< \n\
+	read-rules ../bin/twol-$(GTLANG).bin \n\
+	compose-result \n\
+	save-result $@ \n\
+	quit \n" > ../../tmp/save-hyph-script-$(GTLANG)
+	$(LEXC) < ../../tmp/save-hyph-script-$(GTLANG)
+	rm -f ../../tmp/save-hyph-script-$(GTLANG)
 
 # Compile the lexicon:
 $(GTLANG)-lex.save: ../bin/$(GTLANG)-lex.save
