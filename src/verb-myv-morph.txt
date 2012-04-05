@@ -35,8 +35,8 @@ LEXICON nevtems-V_ObjAll
 LEXICON savtoms-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> savtoms-V ;
 
-LEXICON jangavoms-V_ObjAll
-< %+ObjOpen:0 "@P.CONJ.ObjAll@"> jangavoms-V ;
+!LEXICON jangavoms-V_ObjAll
+!< %+ObjOpen:0 "@P.CONJ.ObjAll@"> jangavoms-V ;
 
 LEXICON kundams-V_ObjAll
 < %+ObjOpen:0 "@P.CONJ.ObjAll@"> kundams-V ;
@@ -93,8 +93,6 @@ LEXICON nekshnems-V_ObjAll
 LEXICON nekshnems-V
 +Stem/е:е kundams-V ;
 +Stem/э:э kundams-V ;
-
-
 
 
 LEXICON ledems-V
@@ -173,7 +171,7 @@ LEXICON jangavoms-V-a
 LEXICON kundams-V
 +V: kundams-V-a ;
 +V:     VerbsPresPrt_1 ;
-+V+ConNeg:%>К3 Tenses1 ;
++V+ConNeg:%>К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_2 ; !This denies linking vowel
@@ -857,6 +855,11 @@ LEXICON Optative1_A_Obj
 
 LEXICON ImpClitic
 +NoClitic: # ;
++Clt/а+Clt:%>а # ;
++Clt/ая+Clt:%>ая # ;
++Clt/аять+Clt:%>аять # ;
++Clt/аятя+Clt:%>аятя # ;
+
 +ClitGa:%>Г1а # ;
 +ClitGaka:%>Г1ака # ;
 +ClitGakaya:%>Г1акая # ;
@@ -864,8 +867,6 @@ LEXICON ImpClitic
 +ClitGayaty:%>Г1аять # ;
 +ClitGayatya:%>Г1аятя # ;
 +ClitGak:%>Г1ак # ;
-+ClitA:%>а # ;
-+ClitA:%>ая # ;
 +ClitKA:%>ака # ;
 !+ClitKa:%>ка # ;
 !+ClitKaka:%>кака # ;
