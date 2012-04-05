@@ -28,14 +28,20 @@ $_ = <>;
 ##Especially for nouns
 ##correcting continuation reading found in original
 # _$4_ is dropped out in favor of _osh_
-s/(ц|з|ж|ч|с|ш|щ)(ь|)(\<\/l\>\<stg\>\<st\ erzContlex\=\")(kal)(\-N\"\>)/$1$2€3osh$5/g;
+s/(ц|з|ж|ч|с|ш|щ)(ь|)(\<\/l\>\<stg\>\<st\ erzContlex\=\")(kal)(\-N\"\>)/$1$2$3osh$5/g;
 
 #esthetics cleaning up <t/>
 s/(\<tg\>\<t\>)\"([^<]*)\"\ *(\<\/t\>\<\/tg\>)/$1$2$3/g;
 
 #Providing pos
+#+Adj
+s/(\<pos\>)(\<\/pos\>\<e\>\<mg\>\<m\>\<head\>\<tags\>)\+(A)dj(\+|\<)/$1$3$2$4/g;
 #+NCom
-s/(\<pos\>)(\<\/pos\>\<e\>\<mg\>\<m\>\<head\>\<tags\>)\+(NCom)(\+|\<)/$1$3$2$4/g;
+s/(\<pos\>)(\<\/pos\>\<e\>\<mg\>\<m\>\<head\>\<tags\>)\+(N)Com(\+|\<)/$1$3$2$4/g;
+#+POSTP
+s/(\<pos\>)(\<\/pos\>\<e\>\<mg\>\<m\>\<head\>\<tags\>)\+(P)ostp(\+|\<)/$1$3OSTP$2$4/g;
+#+Verb
+s/(\<pos\>)(\<\/pos\>\<e\>\<mg\>\<m\>\<head\>\<tags\>)\+(V)erb(\+|\<)/$1$3$2$4/g;
 
 ###
     
