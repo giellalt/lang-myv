@@ -97,6 +97,7 @@ Alphabet
 !V2:0 
 
 TLoss:0
+SLoss:0
 KLoss:0
 VLoss:0
 WLoss:0
@@ -195,7 +196,7 @@ Rules
 О1:е <=>  [ :е | :э | FTV %>:0 ] м  _  [ #: | %>:0 [Г1:0 | SIVV ]] ;
          [[ LFCS | FTV ] %>:0 | :FTV ] [ н | м ] _ к ;
          [ LFCS | л ь: | :FTV ( %>:0* м ) ] %>:0  д:  _ [ %>:0 [ Г1:0 |  SIVV ] | #: ] ;
-         [ LFCS | FTV ] %>:0  [в:0 | в ] т _ м [ О1:0 | О1:е ] ;
+         [ LFCS | FTV | FTC | л ь] %>:0  [в:0 | в ] т _ м [ О1:0 | О1:е ] ;
           ConsDent: ь:0 %>:0 _ [( %>:0 ) SIVV | К3:0 | #: | %>:0 Г1:0 ] ;
           LFCS %>:0 _  SIVV ;
          [ FTV %>:0 | FTV в:0 WLoss:0 %>:0 | :FTV ] в _ л [ ь | и ] ;
@@ -267,7 +268,7 @@ Rules
 
 !Changes in suffix consonants
 "v:0"
-в:0 <=> [ Cons  ( ь ) ] %>:0 _ т [О1:о|О1:е|О1:э] м [О1:о|О1:е|О1:0] ;
+в:0 <=> [ :Cons  ( ь: ) ] %>:0 _ т [О1:о|О1:е|О1:э] м [О1:о|О1:е|О1:0] ;
         :Vows _ %>:0 WLoss:0 [ в О1: л | в л ] ;
 
 !!!Depricated due to 
@@ -334,6 +335,10 @@ Rules
 "t:0"
 т:0 <=> [ [ т | К1:т ] ( Ь2: ) %>:0 TLoss:0 | т У2:0 %>:0 VLoss:0 TLoss:0 ] ( %>:0 ) _ ;
 
+!!SLoss s s > s = s 0 0 s
+"s:0"
+с:0 <=> с _ %>:0 SLoss:0 с ;
+
 !Ablative d/t
 "d:t"
 д:т  <=> [ ConsVoiceless | д | г] (ь:0)  %>:0 _ [О1:е|О1:э|О1:о] ;
@@ -380,6 +385,9 @@ TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %>:0 _ ;
 
 "Disallow KLoss after non-k"
 KLoss:0 /<= [[ :* Letters ] - [ :* :к ] ] %>:0 _ ;
+
+"Disallow SLoss after non-s"
+SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %>:0 _ ;
 
 "Disallow WLoss after non-v"
 WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %>:0 _ ;
