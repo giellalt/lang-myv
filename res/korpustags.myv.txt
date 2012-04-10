@@ -1,6 +1,6 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 %                                                                              %
-%       List of morphological and syntactic tags used in the Komi corpus       %
+%       List of morphological and syntactic tags used in the Erzya corpus       %
 %                                                                              %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 
@@ -37,6 +37,8 @@ Pron	Pronoun
 CS	Subjunction
 CC	Conjunction
 Po	Postposition
+Spat	Spatial 
+Temp	Temporal
 Interj	Interjection
 Pcle	Particle
 Num	Numeral
@@ -44,13 +46,15 @@ Num	Numeral
 
 Prop	Propernoun
 Pers	Personal
-Interr	Interrogative
 Refl	Reflexive
 Recipr	Reciprocal
-Rel	Relative
 Card	Cardinal
 Ord	Ordinal
 #Subclass
+
+Interr	Interrogative
+Rel	Relative
+#Subrange
 
 Sg	Singular
 Pl	Plural
@@ -58,61 +62,76 @@ Pl	Plural
 
 Nom	Nominative
 Gen	Genitive
-Acc	Accusative
+#Acc	Accusative
 Abl	Ablative
 Dat	Dative
 Comp	Comparative
-Cns	Consecultive
-Instr	Instructive
+Com	Comitative
 Ill	Illative
 Ine Inessive
 Ela Elative
-Car	Caritive
-Egr	Egressive
+Lat Lative
+Loc Locative
+Temp	Temporalis
 Tra	Translative	
-Apr	Approximative
-Ter	Terminative
 Prl	Prolative
 Abe	Abessive
-Ess	Essive
 #Case
 
 Attr	Attribute
 Pred	Predicative
 #Attributive
 
-Comp	Comparative
+Compar	Comparative
 Superl	Superlative
 #Grade
 
-PxSg1	Possessive Singular 1st Person
-PxSg2	Possessive Singular 2nd Person
-PxSg3	Possessive Singular 3rd Person
-PxDu1	Possessive Dual 1st Person
-PxDu2	Possessive Dual 2nd Person
-PxDu3	Possessive Dual 3rd Person
-PxPl1	Possessive Plural 1st Person
-PxPl2	Possessive Plural 2nd Person
-PxPl3	Possessive Plural 3rd Person
-#Possessive
+Px1Sg	Possessive 1st Person Singular
+Px2Sg	Possessive 2nd Person Singular
+Px3Sg	Possessive 3rd Person Singular
+Px1Du	Possessive 1st Person Dual
+Px2Du	Possessive 2nd Person Dual
+Px3Du	Possessive 3rd Person Dual
+Px1Pl	Possessive 1st Person Plural
+Px2Pl	Possessive 2nd Person Plural
+Px3Pl	Possessive 3rd Person Plural
+#Possessor index
 
-Prs	Present Tense
-Prt	Preterite Tense
+NonPast	Nonpast Tense
+Prt1	Preterite 1 Tense
+Prt2	Preterite 2 Tense
 #Tense
 
 Cond	Conditional
+Conj	Conjunctional
 Imprt	Imperative
-ImprtII	Second Imperative
+Opt	Optative
 Ind	Indicative
-Pot	Potential
+Des	Desiderative
 #Mood
 
-Sg1	1. Person Singular
-Sg2	2. Person Singular
-Sg3	3. Person Singular
-Pl1	1. Person Plural
-Pl2	2. Person Plural
-Pl3	3. Person Plural
+Sx1Sg	Subject Index 1st Person Singular
+Sx2Sg	Subject Index 2nd Person Singular
+Sx3Sg	Subject Index 3rd Person Singular
+Sx1Du	Subject Index 1st Person Dual
+Sx2Du	Subject Index 2nd Person Dual
+Sx3Du	Subject Index 3rd Person Dual
+Sx1Pl	Subject Index 1st Person Plural
+Sx2Pl	Subject Index 2nd Person Plural
+Sx3Pl	Subject Index 3rd Person Plural
+#Subject index
+
+Ox1Sg	Object Index 1st Person Singular
+Ox2Sg	Object Index 2nd Person Singular
+Ox3Sg	Object Index 3rd Person Singular
+Ox1Du	Object Index 1st Person Dual
+Ox2Du	Object Index 2nd Person Dual
+Ox3Du	Object Index 3rd Person Dual
+Ox1Pl	Object Index 1st Person Plural
+Ox2Pl	Object Index 2nd Person Plural
+Ox3Pl	Object Index 3rd Person Plural
+#Object index
+
 ConNeg	Negative form of the verb
 #Person-Number
 
@@ -126,6 +145,7 @@ Neg	Negative verb
 Inf	Infinitive
 PrfPrc	Perfect Participle
 PrsPrc	Present Participle
+ActDemPtc	Active Demonstrative Participle
 Sup	Supine
 VGen	Verb Genitive
 VAbess	Verb Abessive
