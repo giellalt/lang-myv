@@ -154,7 +154,7 @@
          <xs:enumeration value="CC">
             <!--COORD "coordinator"-->
          </xs:enumeration>
-         <xs:enumeration value="COORD-CORRELATIVE"/>
+         <xs:enumeration value="CC-CORRELATIVE"/>
          <xs:enumeration value="CS">
             <!--SUBORD "subordinator"-->
          </xs:enumeration>
@@ -494,13 +494,6 @@
             <xs:enumeration value="V-satoms_ObjAll"/>
             <xs:enumeration value="V-jarsams"/>
             <xs:enumeration value="indef_gen"/>
-            <xs:enumeration value="kal-N"/>
-            <xs:enumeration value="osh-N"/>
-            <xs:enumeration value="kudo-N"/>
-            <xs:enumeration value="kadoms-V"/>
-            <xs:enumeration value="nevtems-V"/>
-            <xs:enumeration value="kundams-V"/>
-            <xs:enumeration value="satoms-N"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
@@ -740,60 +733,60 @@
             <xs:enumeration value="V-сатомс"/>
             <xs:enumeration value="V-сатомс_Obj3Sg"/>
             <xs:enumeration value="Phrase_V"/>
-            <xs:enumeration value="tejems-V"/>
-            <xs:enumeration value="kadoms-V"/>
-            <xs:enumeration value="nevtems-V"/>
-            <xs:enumeration value="ujems-V"/>
-            <xs:enumeration value="mijems-V"/>
-            <xs:enumeration value="kundams-V"/>
-            <xs:enumeration value="satoms-V"/>
-            <xs:enumeration value="letems-V"/>
-            <xs:enumeration value="savtoms-V"/>
-            <xs:enumeration value="ledems-V"/>
-            <xs:enumeration value="jangavoms-V"/>
-            <xs:enumeration value="sajevems-V"/>
-            <xs:enumeration value="tujems-V"/>
-            <xs:enumeration value="nejems-V"/>
-            <xs:enumeration value="nekshnems-V"/>
-            <xs:enumeration value="tejems-V_ObjAll"/>
-            <xs:enumeration value="kadoms-V_ObjAll"/>
-            <xs:enumeration value="nevtems-V_ObjAll"/>
-            <xs:enumeration value="ujems-V_ObjAll"/>
-            <xs:enumeration value="mijems-V_ObjAll"/>
-            <xs:enumeration value="kundams-V_ObjAll"/>
-            <xs:enumeration value="satoms-V_ObjAll"/>
-            <xs:enumeration value="savtoms-V_ObjAll"/>
-            <xs:enumeration value="ledems-V_ObjAll"/>
-            <xs:enumeration value="tujems-V_ObjAll"/>
-            <xs:enumeration value="nejems-V_ObjAll"/>
-            <xs:enumeration value="nekshnems-V_ObjAll"/>
-            <xs:enumeration value="tejems-V-WORK"/>
-            <xs:enumeration value="kadoms-V-WORK"/>
-            <xs:enumeration value="nevtems-V-WORK"/>
-            <xs:enumeration value="ujems-V-WORK"/>
-            <xs:enumeration value="mijems-V-WORK"/>
-            <xs:enumeration value="kundams-V-WORK"/>
-            <xs:enumeration value="satoms-V-WORK"/>
-            <xs:enumeration value="letems-V-WORK"/>
-            <xs:enumeration value="savtoms-V-WORK"/>
-            <xs:enumeration value="ledems-V-WORK"/>
-            <xs:enumeration value="jangavoms-V-WORK"/>
-            <xs:enumeration value="sajevems-V-WORK"/>
-            <xs:enumeration value="tujems-V-WORK"/>
-            <xs:enumeration value="nejems-V-WORK"/>
-            <xs:enumeration value="nekshnems-V-WORK"/>
-            <xs:enumeration value="tejems-V_ObjAll-WORK"/>
-            <xs:enumeration value="kadoms-V_ObjAll-WORK"/>
-            <xs:enumeration value="nevtems-V_ObjAll-WORK"/>
-            <xs:enumeration value="ujems-V_ObjAll-WORK"/>
-            <xs:enumeration value="mijems-V_ObjAll-WORK"/>
-            <xs:enumeration value="kundams-V_ObjAll-WORK"/>
-            <xs:enumeration value="satoms-V_ObjAll-WORK"/>
-            <xs:enumeration value="savtoms-V_ObjAll-WORK"/>
-            <xs:enumeration value="ledems-V_ObjAll-WORK"/>
-            <xs:enumeration value="tujems-V_ObjAll-WORK"/>
-            <xs:enumeration value="nejems-V_ObjAll-WORK"/>
-            <xs:enumeration value="nekshnems-V_ObjAll-WORK"/>
+            <xs:enumeration value="V-tejems"/>
+            <xs:enumeration value="kadoms"/>
+            <xs:enumeration value="V-nevtems"/>
+            <xs:enumeration value="V-ujems"/>
+            <xs:enumeration value="V-mijems"/>
+            <xs:enumeration value="V-kundams"/>
+            <xs:enumeration value="V-satoms"/>
+            <xs:enumeration value="V-letems"/>
+            <xs:enumeration value="V-savtoms"/>
+            <xs:enumeration value="V-ledems"/>
+            <xs:enumeration value="V-jangavoms"/>
+            <xs:enumeration value="V-sajevems"/>
+            <xs:enumeration value="V-tujems"/>
+            <xs:enumeration value="V-nejems"/>
+            <xs:enumeration value="V-nekshnems"/>
+            <xs:enumeration value="V-tejems_ObjAll"/>
+            <xs:enumeration value="V-kadoms_ObjAll"/>
+            <xs:enumeration value="V-nevtems-V_ObjAll"/>
+            <xs:enumeration value="V-ujems_ObjAll"/>
+            <xs:enumeration value="V-mijems_ObjAll"/>
+            <xs:enumeration value="V-kundams_ObjAll"/>
+            <xs:enumeration value="V-satoms_ObjAll"/>
+            <xs:enumeration value="V-savtoms_ObjAll"/>
+            <xs:enumeration value="V-ledems_ObjAll"/>
+            <xs:enumeration value="V-tujems_ObjAll"/>
+            <xs:enumeration value="V-nejems_ObjAll"/>
+            <xs:enumeration value="V-nekshnems_ObjAll"/>
+            <xs:enumeration value="V-tejems-WORK"/>
+            <xs:enumeration value="V-kadoms-WORK"/>
+            <xs:enumeration value="V-nevtems-WORK"/>
+            <xs:enumeration value="V-ujems-WORK"/>
+            <xs:enumeration value="V-mijems-WORK"/>
+            <xs:enumeration value="V-kundams-WORK"/>
+            <xs:enumeration value="V-satoms-WORK"/>
+            <xs:enumeration value="V-letems-WORK"/>
+            <xs:enumeration value="V-savtoms-WORK"/>
+            <xs:enumeration value="V-ledems-WORK"/>
+            <xs:enumeration value="V-jangavoms-WORK"/>
+            <xs:enumeration value="V-sajevems-WORK"/>
+            <xs:enumeration value="V-tujems-WORK"/>
+            <xs:enumeration value="V-nejems-WORK"/>
+            <xs:enumeration value="V-nekshnems-WORK"/>
+            <xs:enumeration value="V-tejems_ObjAll-WORK"/>
+            <xs:enumeration value="V-kadoms_ObjAll-WORK"/>
+            <xs:enumeration value="V-nevtems_ObjAll-WORK"/>
+            <xs:enumeration value="V-ujems_ObjAll-WORK"/>
+            <xs:enumeration value="V-mijems_ObjAll-WORK"/>
+            <xs:enumeration value="V-kundams_ObjAll-WORK"/>
+            <xs:enumeration value="V-satoms_ObjAll-WORK"/>
+            <xs:enumeration value="V-savtoms_ObjAll-WORK"/>
+            <xs:enumeration value="V-ledems_ObjAll-WORK"/>
+            <xs:enumeration value="V-tujems_ObjAll-WORK"/>
+            <xs:enumeration value="V-nejems_ObjAll-WORK"/>
+            <xs:enumeration value="V-nekshnems_ObjAll-WORK"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
