@@ -1225,6 +1225,7 @@
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="x"/>
+            <xs:element minOccurs="0" ref="phonet"/>
             <xs:choice maxOccurs="unbounded">
                <xs:element ref="xt"/>
                <xs:element ref="xtCtn"/>
