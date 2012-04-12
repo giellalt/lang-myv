@@ -19,93 +19,93 @@ LEXICON CondVerbs
 +Der/Ындеря+Cond+Ind+Nonpast+Sx3Pl:%>Ы2ндеряйть Clitic ;
 
 
-LEXICON ledems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> ledems-V ;
+LEXICON V-ledems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-ledems ;
 
-LEXICON kadoms-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> kadoms-V ;
+LEXICON V-kadoms_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-kadoms ;
 
 ! This should not occur
-!LEXICON sajevems-V_ObjAll
-!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> sajevems-V ;
+!LEXICON V-sajevems_ObjAll
+!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-sajevems ;
 
-LEXICON nevtems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> nevtems-V ;
+LEXICON V-nevtems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-nevtems ;
 
-LEXICON savtoms-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> savtoms-V ;
+LEXICON V-savtoms_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-savtoms ;
 
-!LEXICON jangavoms-V_ObjAll
-!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> jangavoms-V ;
+!LEXICON V-jangavoms_ObjAll
+!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-jangavoms ;
 
-LEXICON kundams-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> kundams-V ;
+LEXICON V-kundams_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-kundams ;
 
 ! This actually does exist in a pair verb
 ! таргатомс
-LEXICON satoms-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> satoms-V ;
+LEXICON V-satoms_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-satoms ;
 
 ! This should not exist by definition
 ! 
-!LEXICON letems-V_ObjAll
-!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> letems-V ;
+!LEXICON V-letems_ObjAll
+!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-letems ;
 
-LEXICON ujems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> ujems-V ;
+LEXICON V-ujems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-ujems ;
 
-LEXICON ujems-V
-:й kadoms-V ;
+LEXICON V-ujems
+:й V-kadoms ;
 
-LEXICON tujems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> tujems-V ;
+LEXICON V-tujems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-tujems ;
 
-LEXICON tujems-V
-:й kadoms-V ;
+LEXICON V-tujems
+:й V-kadoms ;
 +Ind+Prt1+Sx3Sg:%>сь Clitic ;
 +Ind+Prt1+Sx3Pl:%>сть Clitic ;
 
-LEXICON tejems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> tejems-V ;
+LEXICON V-tejems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-tejems ;
 
-LEXICON tejems-V
- kadoms-V ;
+LEXICON V-tejems
+ V-kadoms ;
 
-LEXICON nejems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> nejems-V ;
+LEXICON V-nejems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-nejems ;
 
-LEXICON nejems-V
-:й kadoms-V ;
+LEXICON V-nejems
+:й V-kadoms ;
 +Ind+Prt1+Sx3Sg:%>сь Clitic ;
 +Ind+Prt1+Sx3Pl:%>сть Clitic ;
 
-LEXICON mijems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> mijems-V ;
+LEXICON V-mijems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-mijems ;
 
-LEXICON mijems-V
-:й kadoms-V ;
+LEXICON V-mijems
+:й V-kadoms ;
 +Ind+Prt1+Sx3Sg:%>сь Clitic ;
 +Ind+Prt1+Sx3Pl:%>сть Clitic ;
 
-LEXICON nekshnems-V_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> nekshnems-V ;
+LEXICON V-nekshnems_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-nekshnems ;
 
-LEXICON nekshnems-V
-+Stem/е:е kundams-V ;
-+Stem/э:э kundams-V ;
+LEXICON V-nekshnems
++Stem/е:е V-kundams ;
++Stem/э:э V-kundams ;
 
 
-LEXICON ledems-V
- kadoms-V ;
+LEXICON V-ledems
+ V-kadoms ;
 
-LEXICON savtoms-V
- kadoms-V ;
+LEXICON V-savtoms
+ V-kadoms ;
 
-LEXICON nevtems-V
- kadoms-V ;
+LEXICON V-nevtems
+ V-kadoms ;
 
-LEXICON kadoms-V
-+V: kadoms-V-a ;
+LEXICON V-kadoms
++V: V-kadoms-a ;
 +V: VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
@@ -114,7 +114,7 @@ LEXICON kadoms-V
 +V+LV+ConNeg:%>О1К3 Tenses1 ;
 
 
-LEXICON kadoms-V-a
+LEXICON V-kadoms-a
 <"@C.TLOSS@"> CondVerbs ;
 +Conj: Conjunctive1 ;
 +Des: Desiderative1 ;
@@ -125,8 +125,8 @@ LEXICON kadoms-V-a
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
 
-LEXICON sajevems-V
-+V: sajevems-V-a ;
+LEXICON V-sajevems
++V: V-sajevems-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
@@ -135,7 +135,7 @@ LEXICON sajevems-V
 +V+LV+ConNeg:%>О1К3 Tenses1 ;
 
 
-LEXICON sajevems-V-a
+LEXICON V-sajevems-a
  CondVerbs ;
 +Conj:WLoss Conjunctive2 ;
 +Conj+Use/Sub/Dial: Conjunctive1 ;
@@ -147,8 +147,8 @@ LEXICON sajevems-V-a
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
 
-LEXICON jangavoms-V
-+V: jangavoms-V-a ;
+LEXICON V-jangavoms
++V: V-jangavoms-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
@@ -156,7 +156,7 @@ LEXICON jangavoms-V
 +V: Deverbals_1 ;
 +V+LV+ConNeg:%>О1К3 Tenses1 ;
 
-LEXICON jangavoms-V-a
+LEXICON V-jangavoms-a
  CondVerbs ;
 +Conj:WLoss Conjunctive2 ;
 +Conj+Use/Sub/Dial: Conjunctive1 ;
@@ -168,8 +168,8 @@ LEXICON jangavoms-V-a
 +Imp: Imperative1 ;
 +Opt: Optative1 ;
 
-LEXICON kundams-V
-+V: kundams-V-a ;
+LEXICON V-kundams
++V: V-kundams-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
@@ -177,7 +177,7 @@ LEXICON kundams-V
 +V:  Deverbals_2 ; !This denies linking vowel
 
 
-LEXICON kundams-V-a
+LEXICON V-kundams-a
  CondVerbs ;
 +Conj: Conjunctive2 ;
 +Des: Desiderative2 ;
@@ -189,7 +189,7 @@ LEXICON kundams-V-a
 +Opt: Optative1 ;
 
 
-LEXICON satoms-V
+LEXICON V-satoms
 +V: Verbs3-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 Tenses1 ;
@@ -197,7 +197,7 @@ LEXICON satoms-V
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_1 ; 
 
-LEXICON letems-V
+LEXICON V-letems
 +V: Verbs3-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 Tenses1 ;
@@ -760,7 +760,7 @@ LEXICON ILYA_Obj
 +Imp+Sx2Pl+Ox3:%>Ы2нк ImpClitic ;
 +Imp+Default+Ox1:%>мизь ImpClitic ;
 
-!This is only for kadoms-V
+!This is only for V-kadoms
 !
 LEXICON Imperative1
 !Imperative
