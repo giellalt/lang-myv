@@ -10,8 +10,7 @@
       <xsl:sort select="lg/l"/>
       <xsl:if test="e/mg/tg/t[text()] and not(e/mg/tg/t[text()='???'])">
 	<xsl:variable name="s-l-word">
-	  <xsl:value-of select="lg/l">
-	  </xsl:value-of>
+	  <xsl:value-of select="normalize-space(lg/l)"/>
 	</xsl:variable>
 	<xsl:variable name="s-l-pos">
 	  <xsl:choose>
@@ -68,8 +67,7 @@
 	  </xsl:choose>
 	</xsl:variable>
 	<xsl:variable name="t-l-word">
-	  <xsl:value-of select="e/mg/tg/t">
-	  </xsl:value-of>
+	  <xsl:value-of select="normalize-space(e/mg/tg/t)"/>
 	</xsl:variable>
 	<n v="{$s-l-word}">
 	  <w v="{$s-l-word}">
