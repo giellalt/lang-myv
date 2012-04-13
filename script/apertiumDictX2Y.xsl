@@ -16,28 +16,25 @@
 	<xsl:variable name="s-l-pos">
 	  <xsl:choose>
 	    <xsl:when test="pos[text()='A']">
-	      <xsl:text>a</xsl:text>
+	      <xsl:text>a.</xsl:text>
 	    </xsl:when>
 	    <xsl:when test="pos[text()='ADV']">
-	      <xsl:text>adv</xsl:text>
+	      <xsl:text>adv.</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="pos[text()='CC']">
+	      <xsl:text>conj.</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="pos[text()='INTERJ']">
+	      <xsl:text>interj.</xsl:text>
 	      </xsl:when>
 	      <xsl:when test="pos[text()='N']">
-		<xsl:text>n</xsl:text>
+		<xsl:text>n.</xsl:text>
 	      </xsl:when>
 	      <xsl:when test="pos[text()='PRON']">
-		<xsl:text>pron</xsl:text>
+		<xsl:text>pron.</xsl:text>
 	      </xsl:when>
 	      <xsl:when test="pos[text()='PROP']">
-		<xsl:text>prop</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="pos[text()='V']">
-		<xsl:text>v</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="pos[text()='VI']">
-		<xsl:text>vi</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="pos[text()='VT']">
-		<xsl:text>vt</xsl:text>
+		<xsl:text>proper n.</xsl:text>
 	      </xsl:when>
 	    <xsl:when test="pos[text()='DEM']">
 	      <xsl:text>dem</xsl:text>
@@ -46,16 +43,25 @@
 	      <xsl:text>qnt</xsl:text>
 	      </xsl:when>
 	    <xsl:when test="pos[text()='NUM']">
-	      <xsl:text>num</xsl:text>
+	      <xsl:text>num.</xsl:text>
 	      </xsl:when>
 	    <xsl:when test="pos[text()='ITER']">
 	      <xsl:text>ord</xsl:text>
 	      </xsl:when>
-	      <xsl:when test="pos[text()='INTERJ']">
-	      <xsl:text>interj</xsl:text>
-	      </xsl:when>
 	    <xsl:when test="pos[text()='PRT']">
 	      <xsl:text>prt</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="pos[text()='CS']">
+	      <xsl:text>subjunc.</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="pos[text()='V']">
+		<xsl:text>v.</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="pos[text()='VI']">
+		<xsl:text>vi</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="pos[text()='VT']">
+		<xsl:text>vt</xsl:text>
 	      </xsl:when>
 	      <xsl:otherwise>
 	      </xsl:otherwise>
