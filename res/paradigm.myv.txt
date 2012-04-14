@@ -6,11 +6,11 @@
 # "?" marks the optionality of the tag.
 # It is not possible to mark alternation of the different tags.
 	
-N+Number+Case
-N+Number+Possessive+Case
-N+Number+Case+Possessive
-N+Number+Possessive?+Apr+Case+Possessive?
-N+ACR+Number+Case
+N+Case+Number+Declension
+N+Number+Declension+Case
+#N+Number+Case+Possessive
+#N+Number+Possessive?+Apr+Case+Possessive?
+#N+ACR+Number+Case
 #A+Grade+Number+Case+Possessive?
 #A+Grade+Ess+Possessive?
 #A+Grade+Attr
@@ -24,12 +24,13 @@ N+ACR+Number+Case
 #A+Ord+Attr
 V+Inf
 V+PrfPrc
+V+ActDemPtc
 #V+PrsPrc
 #V+Sup
 #V+VGen
 #V+VAbess
-V+Ger
-V+Ind+Prs+Person-Number
+#V+Ger
+V+Ind+NonPast+Person-Number
 V+Ind+Prt1+Person-Number
 V+Ind+Prt2+Person-Number
 V+Ind+Fut+Person-Number
