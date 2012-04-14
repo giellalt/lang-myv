@@ -1930,16 +1930,16 @@ LEXICON kit-NomSg-Conjugation
 
 LEXICON kit-NomPl-Conjugation
  kal-NomPl-Conjugation ;
-+TLoss+Use/Sub/Short+Pred+Ind+Prs+Sc1Pl:%>TLossтА2но Clitic ;
-+TLoss+Use/Sub/Short+Pred+Ind+Prs+Sc2Pl:%>TLossтА2до Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до Clitic ;
 
 LEXICON kit-Conjugation
  kal-Conjugation ;
 
 
 LEXICON kal-NomSg-Conjugation
-+Pred+Ind+Prs+Sc1Sg:%>А2н Clitic ;
-+Pred+Ind+Prs+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
@@ -1949,17 +1949,17 @@ LEXICON kal-NomPl-Conjugation
  kal-NomPl-Conjugation-only ;
 
 LEXICON kal-NomPl-Conjugation-only
-+Pred+Ind+Prs+Sc1Pl:%>тА2но Clitic ;
-+Pred+Ind+Prs+Sc2Pl:%>тА2до Clitic ;
++Pred+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
++Pred+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
 +Pred+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
 +Pred+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
 +Pred+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
 
 LEXICON kal-Conjugation
-+Pred+Ind+Prs+Sc1Sg:%>А2н Clitic ;
-+Pred+Ind+Prs+Sc2Sg:%>А2т Clitic ;
-+Pred+Ind+Prs+Sc1Pl:%>тА2но Clitic ;
-+Pred+Ind+Prs+Sc2Pl:%>тА2до Clitic ;
++Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
++Pred+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
@@ -1969,18 +1969,18 @@ LEXICON kal-Conjugation
  Clitic ;
 
 LEXICON osh-NomSg-Conjugation
-+Pred+Ind+Prs+Sc1Sg:%>А2н Clitic ;
-+Pred+Ind+Prs+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
  Clitic ;
 
 LEXICON osh-Conjugation
-+Pred+Ind+Prs+Sc1Sg:%>А2н Clitic ;
-+Pred+Ind+Prs+Sc2Sg:%>А2т Clitic ;
-+Pred+Ind+Prs+Sc1Pl:%>тА2но Clitic ;
-+Pred+Ind+Prs+Sc2Pl:%>тА2до Clitic ;
++Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
++Pred+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
@@ -1990,21 +1990,21 @@ LEXICON osh-Conjugation
  Clitic ;
 
 LEXICON sajems-Conjugation
-+Pred+Delib+Prs+1Sg:%>А2н Clitic ;
-+Pred+Delib+Prs+2Sg:%>А2т Clitic ;
-+Pred+Delib+Prs+1Pl:%>тА2но Clitic ;
-+Pred+Delib+Prs+2Pl:%>тА2до Clitic ;
-+Pred+Delib+Prt2+1Sg:%>О1линь Clitic ;
-+Pred+Delib+Prt2+2Sg:%>О1лить Clitic ;
-+Pred+Delib+Prt2+3Sg:%>О1ль Clitic ;
-+Pred+Delib+Prt2+1Pl:%>О1линек lak-Clitic ;
-+Pred+Delib+Prt2+2Pl:%>О1лиде Clitic ;
-+Pred+Delib+Prt2+3Pl:%>О1льть Clitic ;
-+Pred+Delib+Prs+1+Use/Sub/Dial:%>самизь Clitic ;
-+Pred+Delib+Prs+2+Use/Sub/Dial:%>тА2дызь Clitic ;
-+Pred+Delib+Prt2+Obj1+Use/Sub/Dial:%>О1лимизь Clitic ;
-+Pred+Delib+Prt2+Obj2+Use/Sub/Dial:%>О1лидизь Clitic ;
-+Pred+Delib+Prt2+Obj3+Use/Sub/Dial:%>О1лизь Clitic ;
++Pred+Ind+NonPast+1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+1Pl:%>тА2но Clitic ;
++Pred+Ind+NonPast+2Pl:%>тА2до Clitic ;
++Pred+Ind+Prt2+1Sg:%>О1линь Clitic ;
++Pred+Ind+Prt2+2Sg:%>О1лить Clitic ;
++Pred+Ind+Prt2+3Sg:%>О1ль Clitic ;
++Pred+Ind+Prt2+1Pl:%>О1линек lak-Clitic ;
++Pred+Ind+Prt2+2Pl:%>О1лиде Clitic ;
++Pred+Ind+Prt2+3Pl:%>О1льть Clitic ;
++Pred+Ind+NonPast+1+Use/Sub/Dial:%>самизь Clitic ;
++Pred+Ind+NonPast+2+Use/Sub/Dial:%>тА2дызь Clitic ;
++Pred+Ind+Prt2+Obj1+Use/Sub/Dial:%>О1лимизь Clitic ;
++Pred+Ind+Prt2+Obj2+Use/Sub/Dial:%>О1лидизь Clitic ;
++Pred+Ind+Prt2+Obj3+Use/Sub/Dial:%>О1лизь Clitic ;
  Clitic ;
 
 LEXICON pango-NomSg-Conjugation
@@ -2016,21 +2016,21 @@ LEXICON pango-NomPl-Conjugation
 
 LEXICON pango-NomPl-Conjugation-only
  kudo-NomPl-Conjugation-only ;
-+TLoss+Use/Sub/Short+Pred+Ind+Prs+Sc1Pl:%>TLossтА2но Clitic ;
-+TLoss+Use/Sub/Short+Pred+Ind+Prs+Sc2Pl:%>TLossтА2до Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до Clitic ;
 
 LEXICON pango-Conjugation
-+TLoss+Use/Sub/Short+Pred+Ind+Prs+Sc1Pl:%>TLossтА2но Clitic ;
-+TLoss+Use/Sub/Short+Pred+Ind+Prs+Sc2Pl:%>TLossтА2до Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до Clitic ;
  kudo-Conjugation ;
 
 
 !
 LEXICON kudo-NomSg-Conjugation
-+Pred+Ind+Prs+Sc1Sg:%>А2н Clitic ;
-+Pred+Ind+Prs+Sc1Sg+Use/Sub/Dial:%>ян Clitic ;
-+Pred+Ind+Prs+Sc2Sg:%>А2т Clitic ;
-+Pred+Ind+Prs+Sc2Sg+Use/Sub/Dial:%>ят Clitic ;
++Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+Sc1Sg+Use/Sub/Dial:%>ян Clitic ;
++Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc2Sg+Use/Sub/Dial:%>ят Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>ль Clitic ;
@@ -2041,19 +2041,19 @@ LEXICON kudo-NomPl-Conjugation
  kudo-NomPl-Conjugation-only;
 
 LEXICON kudo-NomPl-Conjugation-only
-+Pred+Ind+Prs+Sc1Pl:%>тА2но Clitic ;
-+Pred+Ind+Prs+Sc2Pl:%>тА2до Clitic ;
++Pred+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
++Pred+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
 +Pred+Ind+Prt2+Sc1Pl:%>линек lak-Clitic ;
 +Pred+Ind+Prt2+Sc2Pl:%>лиде Clitic ;
 +Pred+Ind+Prt2+Sc3Pl:%>льть Clitic ;
 
 LEXICON kudo-Conjugation
-+Pred+Ind+Prs+Sc1Sg:%>А2н Clitic ;
-+Pred+Ind+Prs+Sc1Sg+Use/Sub/Dial:%>ян Clitic ;
-+Pred+Ind+Prs+Sc2Sg:%>А2т Clitic ;
-+Pred+Ind+Prs+Sc2Sg+Use/Sub/Dial:%>ят Clitic ;
-+Pred+Ind+Prs+Sc1Pl:%>тА2но Clitic ;
-+Pred+Ind+Prs+Sc2Pl:%>тА2до Clitic ;
++Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
++Pred+Ind+NonPast+Sc1Sg+Use/Sub/Dial:%>ян Clitic ;
++Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc2Sg+Use/Sub/Dial:%>ят Clitic ;
++Pred+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
++Pred+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>ль Clitic ;
