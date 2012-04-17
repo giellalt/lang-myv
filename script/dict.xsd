@@ -196,6 +196,9 @@
          <xs:enumeration value="DEP-MORPH"/>
          <xs:enumeration value="DV_N"/>
          <xs:enumeration value="N"/>
+         <xs:enumeration value="N.ABE"/>
+         <xs:enumeration value="N.COMP"/>
+         <xs:enumeration value="N.GEN"/>
          <xs:enumeration value="INE_N"/>
          <xs:enumeration value="NN"/>
          <xs:enumeration value="N-ASSOC"/>
@@ -548,6 +551,9 @@
             <xs:enumeration value="Adv-Ideoph-Ine"/>
             <xs:enumeration value="Adv-Ine"/>
             <xs:enumeration value="Adv-Tra"/>
+            <xs:enumeration value="Adv-kudo">
+               <!--providing for adv stems-->
+            </xs:enumeration>
             <xs:enumeration value="Exclusive"/>
             <xs:enumeration value="MannerTag"/>
             <xs:enumeration value="Manner-Interr"/>
@@ -615,6 +621,11 @@
             <xs:enumeration value="tinge-N-WORK"/>
             <xs:enumeration value="teshte-N-WORK"/>
             <xs:enumeration value="kudo-N-WORK"/>
+            <xs:enumeration value="N.ABE"/>
+            <xs:enumeration value="N.COMP"/>
+            <xs:enumeration value="N.GEN">
+               <!-- Indefinite genitive forms of nouns are used as attribute and predicative modifiers. The semantics appears to affect word order.  -->
+            </xs:enumeration>
             <xs:enumeration value="NUM">
                <!--This tag is used for numerals that will not show up in fst (exclude="fst")-->
             </xs:enumeration>
