@@ -255,7 +255,7 @@ ZERO
 +Comp ! Case form -шка
 
 
-+Temp ! Case form -не
++TempCx ! Case form -не
 
 !!Pair Verbs, Serial Verbs compounding
 +SerialVerb
@@ -296,6 +296,7 @@ ZERO
 +Spat ! spatial
 +Spat-1Arg ! This takes care of postpostions
 +Spat-NoArg ! This takes care of adverbs
++Temp
 +Temp-1Arg ! This takes care of postpostions
 +Temp-NoArg ! This takes care of adverbs
 
@@ -1035,7 +1036,7 @@ LEXICON osh-Indef-DefSg-Poss
  osh-Indef--Poss ;
 
 LEXICON osh--DefSg-
-+Def+Sg:%>О1нть Clitic ;
++Sg+Def:%>О1нть Clitic ;
 
 LEXICON osh-Indef--Poss
 +Indef: osh-Tenses-Obl ;
@@ -1051,7 +1052,7 @@ LEXICON kudo-Indef-DefSg-Poss
  kudo-Indef--Poss ;
 
 LEXICON kudo--DefSg-
-+Def+Sg:%>О1нть Clitic ;
++Sg+Def:%>О1нть Clitic ;
 
 LEXICON kudo-Indef--Poss
 +Indef: kudo-Tenses-Obl ;
