@@ -16,8 +16,8 @@ LEXICON Abe-Adj
 
 LEXICON Gen-Adj ! The genitive is used as an attribute and predicate modifier
 +Der/Gen: Clitic ;
-+Der/Gen: kal-NomSg-Conjugation ;
-+Der/Gen: kal-NomPl-Conjugation ;
++Der/Gen: kal-NomSg-Conjugation ; ! These need checking 2012-04-17
++Der/Gen: kal-NomPl-Conjugation ; ! These need checking 2012-04-17
 
 
 LEXICON vejketj-Adj-PL
@@ -27,7 +27,7 @@ LEXICON vitj-Adj
 +A: Clitic ;
 +A: kit-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kit-NomPl-Conjugation ;
++A+Pl: kit-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kit-N ;
 
@@ -35,7 +35,7 @@ LEXICON erek-Adj
 +A: Clitic ;
 +A: lak-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: lak-NomPl-Conjugation ;
++A+Pl: lak-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: lak-N ;
 
@@ -43,7 +43,7 @@ LEXICON od-Adj
 +A: Clitic ;
 +A: kal-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kal-NomPl-Conjugation ;
++A+Pl: kal-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kal-N ;
 
@@ -51,7 +51,7 @@ LEXICON vanjks-Adj
 +A: Clitic ;
 +A: kal-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kal-NomPl-Conjugation ;
++A+Pl: kal-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: osh-N ;
 
@@ -65,7 +65,7 @@ LEXICON nachko-Adj
 +A: Clitic ;
 +A: pango-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: pango-NomPl-Conjugation ;
++A+Pl: pango-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: pango-N ;
 
@@ -73,7 +73,7 @@ LEXICON shumbra-Adj
 +A: Clitic ;
 +A: kudo-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kudo-NomPl-Conjugation ;
++A+Pl: kudo-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kudo-N ;
 
@@ -1418,7 +1418,7 @@ LEXICON pango-Indef-Declension
 +Nom+Sg+Indef: pango-NomSg-Conjugation ;
 +Nom+Pl+Indef:%>тЬ2 kit-NomPl-Conjugation ;
 +Nom+Pl+Indef:%>тЬ2 Clitic ;
-+Nom+Pl+Indef: pango-NomPl-Conjugation ;
++Nom+Pl+Indef: pango-NomPl-Conjugation-only ;
 +Gen+Sg+Indef:%>нь kal-Conjugation ;
 +Gen+Pl+Indef:%>нь kal-Conjugation ;
 +Dat+Sg+Indef:%>нень Clitic ;
@@ -1921,6 +1921,10 @@ LEXICON lak-NomPl-Conjugation
  kal-NomPl-Conjugation ;
 +Use/Sub/Short:%>KLoss Clitic ;
 
+LEXICON lak-NomPl-Conjugation-only
+ kal-NomPl-Conjugation-only ;
++Use/Sub/Short:%>KLoss Clitic ;
+
 LEXICON lak-Conjugation
  kal-Conjugation ;
 +Use/Sub/Short:%>KLoss Clitic ;
@@ -1930,6 +1934,11 @@ LEXICON kit-NomSg-Conjugation
 
 LEXICON kit-NomPl-Conjugation
  kal-NomPl-Conjugation ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но Clitic ;
++TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до Clitic ;
+
+LEXICON kit-NomPl-Conjugation-only
+ kal-NomPl-Conjugation-only ;
 +TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но Clitic ;
 +TLoss+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до Clitic ;
 
