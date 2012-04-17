@@ -577,6 +577,7 @@ PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
 PERS ;         ! pronoun !pers-myv-morph.txt
                ! ../../tmp/out/PERS_myv-lex.xml.txt
 POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml.txt
+ejs-PO ;	   ! Difficult postpositions such as эйс, эйсэ
 !2012-04-03! Misc_Pronouns ;
  Indef_Pronouns ;
 <"@P.INDEF.PREF@">  Indef_Pronouns-pref ;
@@ -642,10 +643,19 @@ LEXICON VocativeTag
 ! Postp lexica !
 ! ============ !
 
+LEXICON ejs-PO
+эйсэ+Po+Ill:эйс Clitic ;
+эйсэ+Po+Ine:эйсэ kudo-Conjugation ;
+эйсэ+Po+Ela:эйстэ kudo-Conjugation ;
+эйсэ+Po+Ill:эйз osh-SPAT-PossX ;
+эйсэ+Po+Ine:эйсэ kudo-SPAT-PossX ;
+эйсэ+Po+Ela:эйстэ kudo-SPAT-PossX ;
+
 LEXICON marto-PO
 +Po+Abs: Clitic ;
 +Po+COM: kudo-Possessives2 ; 
 +Po+Der/MWN: kudo-N ;
+
 
 LEXICON kudo-PO-ILL
 +Po+Ill:%>с Clitic ;
@@ -730,6 +740,9 @@ LEXICON Ad-ATag !
 
 LEXICON AdvTag ! 
 +Adv: Clitic ;
+
+LEXICON Adv-kudo ! Coping with stem structure
+ AdvTag ;
 
 LEXICON Adv_Phrase ! 
 +Adv: # ;
