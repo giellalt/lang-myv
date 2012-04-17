@@ -25,7 +25,7 @@ LEXICON PERS
 < т ы н:0 ь:0 "+Pron":0 "+Pers":0 "+2Pl":0 "@P.PossPx.2Pl@" "@P.TNUM.PL@" "@P.TPERS.2@" > Pers_Pronouns1 ;
 < с ы н:0 ь:0 "+Pron":0 "+Pers":0 "+3Pl":0 "@P.PossPx.3Pl@" "@P.TNUM.PL@" "@P.TPERS.3@" > Pers_Pronouns1 ;
 !!!!!!
-эсь+Refl+Pron:эсь PersPron_Minsy ;
+эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
 эсь+Refl+Adn:эсь # ;
 эсь+Refl+Pron+2Sg+Noun2+Pl+Det+Nom:эсетне Clitic ;
 эсь+Refl+Pron+2Sg+OldOrth+Pl+Det:эсетне kudo-PersPronGen_CX-2 ;
@@ -96,6 +96,9 @@ LEXICON Pers_Pronouns1
 !
 LEXICON PersPron_Minsy
 +Nom: osh-Tenses1 ;
+ PersPron_Minsy-Obliq ;
+
+LEXICON PersPron_Minsy-Obliq
 !!!< "@N.TPERS.1@" "@N.TPERS.2@" "@N.TPERS.3@" "@C.TNUM@"> PersPron_Gen ;
 +Dat:%>те PersPron_PossPX ;
 +Abl+Abl:%>теде PersPron_PossPX ;
