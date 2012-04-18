@@ -106,24 +106,24 @@ LEXICON kit-N
 +Use/Sub/Short:%>TLoss DefPl-Declension ;
 +N: kit-N-Def-Declension ;
 +N: kit-Indef-Declension ;
-+N: kit-N-Poss-Declension-CX ;
++N: kal-N-Poss-Declension-CX ;
 
 LEXICON kit-N-PL
 +Use/Sub/Short:%>TLoss DefPl-Declension ;
 +N: kit-Indef-Declension ;
-+N: kit-N-Poss-Declension-CX-PL ;
++N: kal-N-Poss-Declension-CX-PL ;
 
 LEXICON klass-N
 +N: klass-N-Derivation ;
 +N: osh-N-Def-Declension ;
 +N: osh-Indef-Declension ;
-+N: kit-N-Poss-Declension-CX ;
++N: kal-N-Poss-Declension-CX ;
 
 LEXICON osh-N
 +N: osh-N-Derivation ;
 +N: osh-N-Def-Declension ;
 +N: osh-Indef-Declension ;
-+N: kit-N-Poss-Declension-CX ;
++N: kal-N-Poss-Declension-CX ;
 
 LEXICON osh-N-PL
 +N: osh-N-Derivation ;
@@ -184,14 +184,14 @@ LEXICON lak-PROP
 +Prop: lak-N-Derivation ;
 +Prop: lak-N-Def-Declension ;
 +Prop: lak-Indef-Declension ;
-+Prop: lak-N-Poss-Declension-CX ;
++Prop: kal-N-Poss-Declension-CX ;
 
 LEXICON kit-PROP
 +Prop: kit-N-Derivation ;
 +Use/Sub/Short:%>TLoss DefPl-Declension ;
 +Prop: kit-N-Def-Declension ;
 +Prop: kit-Indef-Declension ;
-+Prop: kit-N-Poss-Declension-CX ;
++Prop: kal-N-Poss-Declension-CX ;
 
 LEXICON osh-PROP
 +Prop: osh-N-Derivation ;
@@ -1496,201 +1496,36 @@ LEXICON kudo-Indef-Declension
 LEXICON kal-N-Poss-Declension-CX
  kal-N-Poss-Declension-CX-SG ;
  kal-N-Poss-Declension-CX-PL ;
- kal-N-Poss-Declension-CX-NbAmb ;
+
 
 LEXICON kal-N-Poss-Declension-CX-SG
-+Nom+Sg+Px1Sg:%>О1м kal-NomSg-Conjugation ;
-+Nom+Sg+Px2Sg+Use/Sub/Dial:%>О1тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Sg:%>О1зО1 kudo-NomSg-Conjugation ;
-+Nom+Sg+Px3Pl+Use/Sub/Dial:%>О1мО1к lak-NomSg-Conjugation ;
-+Gen+Sg+Px1Sg:%>О1м kal-Conjugation ;
-+Gen+Sg+Px3Sg+Inanim+Use/Sub/Dial:%>О1зО1 kudo-Conjugation ;
+:%>О1 kudo-N-Poss-Declension-CX-SG-noArrow ;
 
- kal-N-Poss-Declension-CX-NbAmb ;
++Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
++Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
++Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
++Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
++Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
+
 
 LEXICON kal-N-Poss-Declension-CX-PL
-+Nom+Pl+Px1Sg:%>О1нЬ2 kal-NomPl-Conjugation ;
-+Nom+Pl+Px1Sg:%>О1нЬ2 Clitic ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-NomPl-Conjugation ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 Clitic ;
-+Nom+Pl+Px3Sg:%>О1нзО1 kudo-NomPl-Conjugation ;
-+Gen+Pl+Px1Sg:%>О1нЬ2 kal-Conjugation ;
- kal-N-Poss-Declension-CX-NbAmb ;
-
-LEXICON kal-N-Poss-Declension-CX-NbAmb
-+Nom+Sg+Px1Sg+Use/Sub/Dial:%>О1м kal-NomSg-Conjugation ;
-+Nom+Sg+Px2Sg:%>О1тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Pl:%>О1нО1к lak-NomSg-Conjugation ;
-+Nom+Pl+Px3Pl:%>О1нО1к lak-NomPl-Conjugation ;
-+Nom+Sg+Px2Pl:%>О1нк lak-NomSg-Conjugation ;
-+Nom+Pl+Px2Pl:%>О1нк lak-NomPl-Conjugation ;
-+Nom+Pl+Px3Pl:%>О1ст kit-NomPl-Conjugation ;
-+Gen+Sg+Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
-+Gen+Pl+Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
-+Gen+Sg+Px2Sg:%>О1тЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg:%>О1тЬ2 kit-Conjugation ;
-+Gen+Sg+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
-+Gen+Sg+Px3Sg:%>О1нзО1 kudo-Conjugation ;
-+Gen+Pl+Px3Sg:%>О1нзО1 kudo-Conjugation ;
-+Dat+Sg+Px3:%>О1нстэнь kudo-Conjugation ;
-+Dat+Pl+Px3:%>О1нстэнь kudo-Conjugation ;
-+Gen+Sg+Px3Pl:%>О1нО1к lak-Conjugation ;
-+Gen+Pl+Px3Pl:%>О1нО1к lak-Conjugation ;
-+Gen+Sg+Px2Pl:%>О1нк lak-Conjugation ;
-+Gen+Pl+Px2Pl:%>О1нк lak-Conjugation ;
-+Gen+Sg+Px3Pl:%>О1ст kit-Conjugation ;
-+Gen+Pl+Px3Pl:%>О1ст kit-Conjugation ;
-+Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
+:%>О1 kudo-N-Poss-Declension-CX-PL-noArrow ;
 +Abl+Pl:%>дО1 kudo-N-Poss-Declension-PossX ;
-+Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
 +Ela+Pl:%>стО1 kudo-N-Poss-Declension-PossX ;
-+Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
 +Ine+Pl:%>сО1 kudo-N-Poss-Declension-PossX ;
-+Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
 +Prl+Pl:%>Г2а kudo-N-Poss-Declension-PossX ;
-+Comp+Sg:%>О1шка kudo-N-Poss-Declension-PossX ;
-+Comp+Pl:%>О1шка kudo-N-Poss-Declension-PossX ;
-+Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
 +Abe+Pl:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-+Tra+Sg:%>О1кс osh-N-Poss-Declension-PossX ;
-+Tra+Pl:%>О1кс osh-N-Poss-Declension-PossX ;
-+Ill+Sg:%>О1з osh-N-Poss-Declension-PossX ;
-+Ill+Pl:%>О1з osh-N-Poss-Declension-PossX ;
+
+
+
+!LEXICON kal-N-Poss-Declension-CX-NbAmb
+
 
 LEXICON kit-N-Poss-Declension-CX
-kit-N-Poss-Declension-CX-SG ;
-kit-N-Poss-Declension-CX-PL ;
-kit-N-Poss-Declension-CX-NbAmb ;
+ kal-N-Poss-Declension-CX-SG ;
+ kal-N-Poss-Declension-CX-PL ;
+!! kit-N-Poss-Declension-CX-NbAmb ;
 
-LEXICON kit-N-Poss-Declension-CX-SG
-+Nom+Sg+Px1Sg:%>О1м kal-NomSg-Conjugation ;
-+Nom+Sg+Px2Sg+Use/Sub/Dial:%>О1тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Sg:%>О1зО1 kudo-NomSg-Conjugation ;
-+Nom+Sg+Px3Pl+Use/Sub/Dial:%>О1мО1к lak-NomSg-Conjugation ;
-+Gen+Sg+Px1Sg:%>О1м kal-Conjugation ;
-+Gen+Sg+Px3Sg+Inanim+Use/Sub/Dial:%>О1зО1 kudo-Conjugation ;
-
- kit-N-Poss-Declension-CX-NbAmb ;
-
-
-LEXICON kit-N-Poss-Declension-CX-PL
-+Nom+Pl+Px1Sg:%>О1нЬ2 kal-NomPl-Conjugation ;
-+Nom+Pl+Px1Sg:%>О1нЬ2 Clitic ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-NomPl-Conjugation ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 Clitic ;
-+Nom+Pl+Px3Sg:%>О1нзО1 kudo-NomPl-Conjugation ;
-+Gen+Pl+Px1Sg:%>О1нЬ2 kal-Conjugation ;
-
- kit-N-Poss-Declension-CX-NbAmb ;
-
-LEXICON kit-N-Poss-Declension-CX-NbAmb
-+Nom+Sg+Px1Sg+Use/Sub/Dial:%>О1м kal-NomSg-Conjugation ;
-+Nom+Sg+Px2Sg:%>О1тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Pl:%>О1нО1к lak-NomSg-Conjugation ;
-+Nom+Pl+Px3Pl:%>О1нО1к lak-NomPl-Conjugation ;
-+Nom+Sg+Px2Pl:%>О1нк lak-NomSg-Conjugation ;
-+Nom+Pl+Px2Pl:%>О1нк lak-NomPl-Conjugation ;
-+Nom+Pl+Px3Pl:%>О1ст kit-NomPl-Conjugation ;
-+Gen+Sg+Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
-+Gen+Pl+Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
-+Gen+Sg+Px2Sg:%>О1тЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg:%>О1тЬ2 kit-Conjugation ;
-+Gen+Sg+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
-+Gen+Sg+Px3Sg:%>О1нзО1 kudo-Conjugation ;
-+Gen+Pl+Px3Sg:%>О1нзО1 kudo-Conjugation ;
-+Dat+Sg+Px3:%>О1нстэнь kudo-Conjugation ;
-+Dat+Pl+Px3:%>О1нстэнь kudo-Conjugation ;
-+Gen+Sg+Px3Pl:%>О1нО1к lak-Conjugation ;
-+Gen+Pl+Px3Pl:%>О1нО1к lak-Conjugation ;
-+Gen+Sg+Px2Pl:%>О1нк lak-Conjugation ;
-+Gen+Pl+Px2Pl:%>О1нк lak-Conjugation ;
-+Gen+Sg+Px3Pl:%>О1ст kit-Conjugation ;
-+Gen+Pl+Px3Pl:%>О1ст kit-Conjugation ;
-+Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
-+Abl+Pl:%>дО1 kudo-N-Poss-Declension-PossX ;
-+Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
-+Ela+Pl:%>стО1 kudo-N-Poss-Declension-PossX ;
-+Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
-+Ine+Pl:%>сО1 kudo-N-Poss-Declension-PossX ;
-+Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
-+Prl+Pl:%>Г2а kudo-N-Poss-Declension-PossX ;
-+Comp+Sg:%>О1шка kudo-N-Poss-Declension-PossX ;
-+Comp+Pl:%>О1шка kudo-N-Poss-Declension-PossX ;
-+Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-+Abe+Pl:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-+Tra+Sg:%>О1кс osh-N-Poss-Declension-PossX ;
-+Tra+Pl:%>О1кс osh-N-Poss-Declension-PossX ;
-+Ill+Sg:%>О1з osh-N-Poss-Declension-PossX ;
-+Ill+Pl:%>О1з osh-N-Poss-Declension-PossX ;
-
-LEXICON lak-N-Poss-Declension-CX
-kit-N-Poss-Declension-CX-SG ;
-kit-N-Poss-Declension-CX-PL ;
-kit-N-Poss-Declension-CX-NbAmb ;
-
-LEXICON lak-N-Poss-Declension-CX-SG
-+Nom+Sg+Px1Sg:%>О1м kal-NomSg-Conjugation ;
-+Nom+Sg+Px2Sg+Use/Sub/Dial:%>О1тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Sg:%>О1зО1 kudo-NomSg-Conjugation ;
-+Nom+Sg+Px3Pl+Use/Sub/Dial:%>О1мО1к lak-NomSg-Conjugation ;
-+Gen+Sg+Px1Sg:%>О1м kal-Conjugation ;
-+Gen+Sg+Px3Sg+Inanim+Use/Sub/Dial:%>О1зО1 kudo-Conjugation ;
-
- lak-N-Poss-Declension-CX-NbAmb ;
-
-
-LEXICON lak-N-Poss-Declension-CX-PL
-+Nom+Pl+Px1Sg:%>О1нЬ2 kal-NomPl-Conjugation ;
-+Nom+Pl+Px1Sg:%>О1нЬ2 Clitic ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-NomPl-Conjugation ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 Clitic ;
-+Nom+Pl+Px3Sg:%>О1нзО1 kudo-NomPl-Conjugation ;
-+Gen+Pl+Px1Sg:%>О1нЬ2 kal-Conjugation ;
-
- lak-N-Poss-Declension-CX-NbAmb ;
-
-LEXICON lak-N-Poss-Declension-CX-NbAmb
-+Nom+Sg+Px1Sg+Use/Sub/Dial:%>О1м kal-NomSg-Conjugation ;
-+Nom+Sg+Px2Sg:%>О1тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Pl:%>О1нО1к lak-NomSg-Conjugation ;
-+Nom+Pl+Px3Pl:%>О1нО1к lak-NomPl-Conjugation ;
-+Nom+Sg+Px2Pl:%>О1нк lak-NomSg-Conjugation ;
-+Nom+Pl+Px2Pl:%>О1нк lak-NomPl-Conjugation ;
-+Nom+Pl+Px3Pl:%>О1ст kit-NomPl-Conjugation ;
-+Gen+Sg+Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
-+Gen+Pl+Px1Sg+Use/Sub/Dial:%>О1м kal-Conjugation ;
-+Gen+Sg+Px2Sg:%>О1тЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg:%>О1тЬ2 kit-Conjugation ;
-+Gen+Sg+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
-+Gen+Sg+Px3Sg:%>О1нзО1 kudo-Conjugation ;
-+Gen+Pl+Px3Sg:%>О1нзО1 kudo-Conjugation ;
-+Dat+Sg+Px3:%>О1нстэнь kudo-Conjugation ;
-+Dat+Pl+Px3:%>О1нстэнь kudo-Conjugation ;
-+Gen+Sg+Px3Pl:%>О1нО1к lak-Conjugation ;
-+Gen+Pl+Px3Pl:%>О1нО1к lak-Conjugation ;
-+Gen+Sg+Px2Pl:%>О1нк lak-Conjugation ;
-+Gen+Pl+Px2Pl:%>О1нк lak-Conjugation ;
-+Gen+Sg+Px3Pl:%>О1ст kit-Conjugation ;
-+Gen+Pl+Px3Pl:%>О1ст kit-Conjugation ;
-+Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
-+Abl+Pl:%>дО1 kudo-N-Poss-Declension-PossX ;
-+Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
-+Ela+Pl:%>стО1 kudo-N-Poss-Declension-PossX ;
-+Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
-+Ine+Pl:%>сО1 kudo-N-Poss-Declension-PossX ;
-+Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
-+Prl+Pl:%>Г2а kudo-N-Poss-Declension-PossX ;
-+Comp+Sg:%>О1шка kudo-N-Poss-Declension-PossX ;
-+Comp+Pl:%>О1шка kudo-N-Poss-Declension-PossX ;
-+Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-+Abe+Pl:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-+Tra+Sg:%>О1кс osh-N-Poss-Declension-PossX ;
-+Tra+Pl:%>О1кс osh-N-Poss-Declension-PossX ;
-+Ill+Sg:%>О1з osh-N-Poss-Declension-PossX ;
-+Ill+Pl:%>О1з osh-N-Poss-Declension-PossX ;
 
 LEXICON osh-N-Poss-Declension-CX
 osh-N-Poss-Declension-CX-SG ;
@@ -1699,19 +1534,14 @@ osh-N-Poss-Declension-CX-NbAmb ;
 
 LEXICON osh-N-Poss-Declension-CX-SG
  kal-N-Poss-Declension-CX-SG ;
- osh-N-Poss-Declension-CX-NbAmb ;
++Ela+Sg:%>О1стО1 kudo-N-Poss-Declension-PossX ;
++Ine+Sg:%>О1сО1 kudo-N-Poss-Declension-PossX ;
 
 
 LEXICON osh-N-Poss-Declension-CX-PL
  kal-N-Poss-Declension-CX-PL ;
- osh-N-Poss-Declension-CX-NbAmb ;
-
-LEXICON osh-N-Poss-Declension-CX-NbAmb
- kal-N-Poss-Declension-CX-NbAmb ;
-+LV+Ela+Sg:%>О1стО1 kudo-N-Poss-Declension-PossX ;
-+LV+Ela+Pl:%>О1стО1 kudo-N-Poss-Declension-PossX ;
-+LV+Ine+Sg:%>О1сО1 kudo-N-Poss-Declension-PossX ;
-+LV+Ine+Pl:%>О1сО1 kudo-N-Poss-Declension-PossX ;
++Ela+Pl:%>О1стО1 kudo-N-Poss-Declension-PossX ;
++Ine+Pl:%>О1сО1 kudo-N-Poss-Declension-PossX ;
 
 LEXICON pango-N-Poss-Declension-CX
  pango-N-Poss-Declension-CX-SG ;
@@ -1785,65 +1615,75 @@ LEXICON pango-N-Poss-Declension-CX-NbAmb
 LEXICON kudo-N-Poss-Declension-CX
  kudo-N-Poss-Declension-CX-SG ;
  kudo-N-Poss-Declension-CX-PL ;
- kudo-N-Poss-Declension-CX-NbAmb ;
 
 LEXICON kudo-N-Poss-Declension-CX-SG
-+Nom+Sg+Px1Sg:%>м kal-NomSg-Conjugation ;
-+Gen+Sg+Px1Sg:%>м kal-Conjugation ;
-+Nom+Sg+Px2Sg+Use/Sub/Dial:%>тЬ2 kit-NomSg-Conjugation ;
-+Nom+Sg+Px3Sg:%>зО1 kudo-NomSg-Conjugation ;
-+Gen+Sg+Px3Sg+Inanim+Use/Sub/Dial:%>зО1 kudo-Conjugation ;
-+Nom+Sg+Px3Pl+Use/Sub/Dial:%>мО1к lak-NomSg-Conjugation ;
- kudo-N-Poss-Declension-CX-NbAmb ;
+:%> kudo-N-Poss-Declension-CX-SG-noArrow ;
++Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
++Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
++Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
++Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
++Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
+
+
+LEXICON kudo-N-Poss-Declension-CX-SG-noArrow
++Nom+Sg+Px1Sg:м kal-NomSg-Conjugation ;
++Nom+Sg+Px2Sg:тЬ2 kit-NomSg-Conjugation ;
++Nom+Sg+Px3Sg:зО1 kudo-NomSg-Conjugation ;
++Nom+Sg+Px1Pl:нО1к lak-NomSg-Conjugation ;
++Nom+Sg+Px1Pl+Use/Sub/Dial:мО1к lak-NomSg-Conjugation ;
++Nom+Sg+Px2Pl:нк lak-NomSg-Conjugation ;
++Nom+Sg+Px3Pl:ст lak-NomSg-Conjugation ;
++Gen+Sg+Px1Sg:м kal-Conjugation ;
++Gen+Sg+Px1Sg:нЬ2 kal-Conjugation ;
++Gen+Sg+Px3Sg+Inanim+Use/Sub/Dial:зО1 kudo-Conjugation ;
++Gen+Sg+Px2Sg:тЬ2 kit-Conjugation ;
++Gen+Sg+Px2Sg+Use/Sub/Dial:нтЬ2 kit-Conjugation ;
++Gen+Sg+Px3Sg:нзО1 kudo-Conjugation ;
++Dat+Sg+Px3:нстэнь kudo-Conjugation ;
++Gen+Sg+Px3Pl:нО1к lak-Conjugation ;
++Gen+Sg+Px2Pl:нк lak-Conjugation ;
++Gen+Sg+Px3Pl:ст kit-Conjugation ;
++Comp+Sg:шка kudo-N-Poss-Declension-PossX ;
++Tra+Sg:кс osh-N-Poss-Declension-PossX ;
++Ill+Sg:з osh-N-Poss-Declension-PossX ;
+
+
+
+
 
 LEXICON kudo-N-Poss-Declension-CX-PL
-+Nom+Pl+Px1Sg:%>нЬ2 kal-NomPl-Conjugation ;
-+Nom+Pl+Px1Sg:%>нЬ2 Clitic ;
-+Gen+Pl+Px1Sg:%>нЬ2 kal-Conjugation ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-NomPl-Conjugation ;
-+Nom+Pl+Px2Sg+Use/Sub/Dial:%>нтЬ2 Clitic ;
-+Nom+Pl+Px3Sg:%>нзО1 kudo-NomPl-Conjugation ;
-
-LEXICON kudo-N-Poss-Declension-CX-NbAmb
-+Nom+Sg+Px1Sg+Use/Sub/Dial:%>м kal-NomSg-Conjugation ;
-+Gen+Sg+Px1Sg+Use/Sub/Dial:%>м kal-Conjugation ;
-+Gen+Pl+Px1Sg+Use/Sub/Dial:%>м kal-Conjugation ;
-+Nom+Sg+Px2Sg:%>тЬ2 kit-NomSg-Conjugation ;
-+Gen+Sg+Px2Sg:%>тЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg:%>тЬ2 kit-Conjugation ;
-+Gen+Sg+Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-Conjugation ;
-+Gen+Pl+Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-Conjugation ;
-+Gen+Sg+Px3Sg:%>нзО1 kudo-Conjugation ;
-+Gen+Pl+Px3Sg:%>нзО1 kudo-Conjugation ;
-+Dat+Sg+Px3:%>нстэнь kudo-Conjugation ;
-+Dat+Pl+Px3:%>нстэнь kudo-Conjugation ;
-+Nom+Sg+Px3Pl:%>нО1к lak-NomSg-Conjugation ;
-+Nom+Pl+Px3Pl:%>нО1к lak-NomPl-Conjugation ;
-+Gen+Sg+Px3Pl:%>нО1к lak-Conjugation ;
-+Gen+Pl+Px3Pl:%>нО1к lak-Conjugation ;
-+Nom+Sg+Px2Pl:%>нк lak-NomSg-Conjugation ;
-+Nom+Pl+Px2Pl:%>нк lak-NomPl-Conjugation ;
-+Gen+Sg+Px2Pl:%>нк lak-Conjugation ;
-+Gen+Pl+Px2Pl:%>нк lak-Conjugation ;
-+Nom+Pl+Px3Pl:%>ст kit-NomPl-Conjugation ;
-+Gen+Sg+Px3Pl:%>ст kit-Conjugation ;
-+Gen+Pl+Px3Pl:%>ст kit-Conjugation ;
-+Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
+:%> kudo-N-Poss-Declension-CX-PL-noArrow ;
 +Abl+Pl:%>дО1 kudo-N-Poss-Declension-PossX ;
-+Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
 +Ela+Pl:%>стО1 kudo-N-Poss-Declension-PossX ;
-+Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
 +Ine+Pl:%>сО1 kudo-N-Poss-Declension-PossX ;
-+Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
 +Prl+Pl:%>Г2а kudo-N-Poss-Declension-PossX ;
-+Comp+Sg:%>шка kudo-N-Poss-Declension-PossX ;
-+Comp+Pl:%>шка kudo-N-Poss-Declension-PossX ;
-+Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
 +Abe+Pl:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-+Tra+Sg:%>кс osh-N-Poss-Declension-PossX ;
-+Tra+Pl:%>кс osh-N-Poss-Declension-PossX ;
-+Ill+Sg:%>з osh-N-Poss-Declension-PossX ;
-+Ill+Pl:%>з osh-N-Poss-Declension-PossX ;
+
+LEXICON kudo-N-Poss-Declension-CX-PL-noArrow
++Nom+Pl+Px1Sg:нЬ2 kal-NomPl-Conjugation ;
++Nom+Pl+Px1Sg:нЬ2 Clitic ;
++Nom+Pl+Px2Sg:тЬ2 kit-NomPl-Conjugation ;
++Nom+Pl+Px2Sg:тЬ2 Clitic ;
++Nom+Pl+Px2Sg+Use/Sub/Dial:нтЬ2 kit-NomPl-Conjugation ;
++Nom+Pl+Px2Sg+Use/Sub/Dial:нтЬ2 Clitic ;
++Nom+Pl+Px3Sg:нзО1 kudo-NomPl-Conjugation ;
++Gen+Pl+Px1Sg:нЬ2 kal-Conjugation ;
++Nom+Pl+Px1Sg+Use/Sub/Dial:м kal-NomSg-Conjugation ;
++Nom+Pl+Px1Pl:нО1к lak-NomPl-Conjugation ;
++Nom+Pl+Px2Pl:нк lak-NomPl-Conjugation ;
++Nom+Pl+Px3Pl:ст kit-NomPl-Conjugation ;
++Gen+Pl+Px1Sg+Use/Sub/Dial:м kal-Conjugation ;
++Gen+Pl+Px2Sg:тЬ2 kit-Conjugation ;
++Gen+Pl+Px2Sg+Use/Sub/Dial:нтЬ2 kit-Conjugation ;
++Gen+Pl+Px3Sg:нзО1 kudo-Conjugation ;
++Dat+Pl+Px3:нстэнь kudo-Conjugation ;
++Gen+Pl+Px3Pl:нО1к lak-Conjugation ;
++Gen+Pl+Px2Pl:нк lak-Conjugation ;
++Gen+Pl+Px3Pl:ст kit-Conjugation ;
++Comp+Pl:шка kudo-N-Poss-Declension-PossX ;
++Tra+Pl:кс osh-N-Poss-Declension-PossX ;
++Ill+Pl:з osh-N-Poss-Declension-PossX ;
+
 
 LEXICON kal-N-Poss-Declension-PossX
 +Px1Sg:%>О1нЬ2 kal-Conjugation ;
