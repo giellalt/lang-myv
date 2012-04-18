@@ -350,6 +350,8 @@ LEXICON  Indef_Pronouns-pref
 +Der/та:та- Indef_Pronouns ;
 +Der/таго:таго- Indef_Pronouns ;
 
+мезе+Adn+Dep+Gen:мень Indef_Pronouns-Clitic-post ; !This one cannot take prefix
+
 
 LEXICON  Indef_Pronouns
 
@@ -370,13 +372,13 @@ LEXICON  Indef_Pronouns
 кона+Adn+Nom+Sg:кона Indef_Pronouns-Clitic ;
 кона+Adn:кона Indef_Pronouns-Cases ;
 
-зярдо+Pron+Abl:зярдо Indef_Pronouns-Clitic ;
+зярдо+Pron+Abl+Temp:зярдо Indef_Pronouns-Clitic ;
 зяро+Pron+Nom:зяро Indef_Pronouns-Clitic ;
 зяро+Pron:зяро Indef_Pronouns-Cases ;
 !зяродо+Pron+Interr+Abl:зяродо Indef_Pronouns-Clitic ;
 !зяро+Pron+Interr+Ela:зяросто Indef_Pronouns-Clitic ;
-зяро+Pron+Ill:зярс Indef_Pronouns-Clitic ;
-зярдо+Pron+Alb+Gen:зярдонь Indef_Pronouns-Clitic ;
+зяро+Pron+Ill+Temp:зярс Indef_Pronouns-Clitic ;
+зярдо+Pron+Abl+Temp+Gen:зярдонь Indef_Pronouns-Clitic ;
 
 знярдо+Pron+Abl:знярдо Indef_Pronouns-Clitic ;
 зняро+Pron+Nom:зняро Indef_Pronouns-Clitic ;
@@ -389,7 +391,6 @@ LEXICON  Indef_Pronouns
 мезе+Pron:мезь osh-Indef_Pronouns-Cases ;
 мезе+Pron:мезе PossPX1 ;
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-Clitic ;
-мень+Adn+Dep+Gen:мень Indef_Pronouns-Clitic ;
 !мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
 !мезе+Pron+Nom+Pl:мезть Indef_Pronouns-Clitic ;
 мезе+Pron+OldOrth+Nom+Pl:месть Indef_Pronouns-Clitic ;
