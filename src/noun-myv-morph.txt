@@ -142,7 +142,7 @@ LEXICON tinge-N
 
 LEXICON tinge-N-PL
 +N:%> DefPl-Declension ;
-+N+VLoss:%>VLoss DefPl-Declension ;
++N:%>VLoss DefPl-Declension ;
 +N: pango-Indef-Declension ;
 +N: kudo-N-Poss-Declension-CX-PL ;
 
@@ -917,7 +917,7 @@ LEXICON pango-N-Def-Declension
 +Tra+Sg+Def+Use/Sub/Dial:%>кс%>О1сть Clitic ;
 
 :%> DefPl-Declension ;
-+VLoss:%>VLoss DefPl-Declension ;
+:%>VLoss DefPl-Declension ;
 
 
 LEXICON kudo-N-Def-Declension
@@ -1057,16 +1057,16 @@ LEXICON pango-Indef-Declension
 +TempCx+Sg+Indef:%>не Clitic ;
 +TempCx+Pl+Indef:%>не Clitic ;
 !
-+VLoss+Nom+Pl+Indef:%>VLossтЬ2 kit-NomPl-Conjugation ;
-+VLoss+Nom+Pl+Indef:%>VLossтЬ2 Clitic ;
-+VLoss+Abl+Sg+Indef:%>VLossдО1 kudo-Conjugation ;
-+VLoss+Abl+Pl+Indef:%>VLossдО1 kudo-Conjugation ;
-+VLoss+Ela+Sg+Indef:%>VLossстО1 kudo-Conjugation ;
-+VLoss+Ela+Pl+Indef:%>VLossстО1 kudo-Conjugation ;
-+VLoss+Ill+Sg+Indef:%>VLossс Clitic ;
-+VLoss+Ill+Pl+Indef:%>VLossс Clitic ;
-+VLoss+Ine+Sg+Indef:%>VLossсО1 kudo-Conjugation ;
-+VLoss+Ine+Pl+Indef:%>VLossсО1 kudo-Conjugation ;
++Nom+Pl+Indef:%>VLossтЬ2 kit-NomPl-Conjugation ;
++Nom+Pl+Indef:%>VLossтЬ2 Clitic ;
++Abl+Sg+Indef:%>VLossдО1 kudo-Conjugation ;
++Abl+Pl+Indef:%>VLossдО1 kudo-Conjugation ;
++Ela+Sg+Indef:%>VLossстО1 kudo-Conjugation ;
++Ela+Pl+Indef:%>VLossстО1 kudo-Conjugation ;
++Ill+Sg+Indef:%>VLossс Clitic ;
++Ill+Pl+Indef:%>VLossс Clitic ;
++Ine+Sg+Indef:%>VLossсО1 kudo-Conjugation ;
++Ine+Pl+Indef:%>VLossсО1 kudo-Conjugation ;
 
 
 
@@ -1160,9 +1160,9 @@ LEXICON pango-N-Poss-Declension-CX
 
 LEXICON pango-N-Poss-Declension-CX-SG
  kudo-N-Poss-Declension-CX-SG ;
-+VLoss+Abl+Sg:%>VLossдО1 kudo-N-Poss-Declension-PossX ;
-+VLoss+Ela+Sg:%>VLossстО1 kudo-N-Poss-Declension-PossX ;
-+VLoss+Ine+Sg:%>VLossсО1 kudo-N-Poss-Declension-PossX ;
++Abl+Sg:%>VLossдО1 kudo-N-Poss-Declension-PossX ;
++Ela+Sg:%>VLossстО1 kudo-N-Poss-Declension-PossX ;
++Ine+Sg:%>VLossсО1 kudo-N-Poss-Declension-PossX ;
 !! +Nom+Sg+Px1Sg:%>м kal-NomSg-Conjugation ;
 !! +Gen+Sg+Px1Sg:%>м kal-Conjugation ;
 !! +Nom+Sg+Px2Sg+Use/Sub/Dial:%>тЬ2 kit-NomSg-Conjugation ;
@@ -1173,9 +1173,9 @@ LEXICON pango-N-Poss-Declension-CX-SG
 
 LEXICON pango-N-Poss-Declension-CX-PL
  kudo-N-Poss-Declension-CX-PL ;
-+VLoss+Abl+Pl:%>VLossдО1 kudo-N-Poss-Declension-PossX ;
-+VLoss+Ela+Pl:%>VLossстО1 kudo-N-Poss-Declension-PossX ;
-+VLoss+Ine+Pl:%>VLossсО1 kudo-N-Poss-Declension-PossX ;
++Abl+Pl:%>VLossдО1 kudo-N-Poss-Declension-PossX ;
++Ela+Pl:%>VLossстО1 kudo-N-Poss-Declension-PossX ;
++Ine+Pl:%>VLossсО1 kudo-N-Poss-Declension-PossX ;
 
 !! +Nom+Pl+Px1Sg:%>нЬ2 kal-NomPl-Conjugation ;
 !! +Nom+Pl+Px1Sg:%>нЬ2 Clitic ;
