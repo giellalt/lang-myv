@@ -111,7 +111,7 @@ LEXICON V-kadoms
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V: Deverbals_1 ;
-+V+LV+ConNeg:%>О1К3 Tenses1 ;
++V+LV+ConNeg:%>О1К3 kudo-Tenses1 ;
 
 
 LEXICON V-kadoms-a
@@ -128,11 +128,11 @@ LEXICON V-kadoms-a
 LEXICON V-sajevems
 +V: V-sajevems-a ;
 +V:     VerbsPresPrt_1 ;
-+V+ConNeg:%>О1К3 Tenses1 ;
++V+ConNeg:%>О1К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_1 ;
-+V+LV+ConNeg:%>О1К3 Tenses1 ;
++V+LV+ConNeg:%>О1К3 kudo-Tenses1 ;
 
 
 LEXICON V-sajevems-a
@@ -150,11 +150,11 @@ LEXICON V-sajevems-a
 LEXICON V-jangavoms
 +V: V-jangavoms-a ;
 +V:     VerbsPresPrt_1 ;
-+V+ConNeg:%>О1К3 Tenses1 ;
++V+ConNeg:%>О1К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V: Deverbals_1 ;
-+V+LV+ConNeg:%>О1К3 Tenses1 ;
++V+LV+ConNeg:%>О1К3 kudo-Tenses1 ;
 
 LEXICON V-jangavoms-a
  CondVerbs ;
@@ -192,7 +192,7 @@ LEXICON V-kundams-a
 LEXICON V-satoms
 +V: Verbs3-a ;
 +V:     VerbsPresPrt_1 ;
-+V+ConNeg:%>О1К3 Tenses1 ;
++V+ConNeg:%>О1К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_1 ; 
@@ -200,7 +200,7 @@ LEXICON V-satoms
 LEXICON V-letems
 +V: Verbs3-a ;
 +V:     VerbsPresPrt_1 ;
-+V+ConNeg:%>О1К3 Tenses1 ;
++V+ConNeg:%>О1К3 kudo-Tenses1 ;
 +V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
 +V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_1 ; 
@@ -1222,7 +1222,7 @@ LEXICON Deverbals_1
 +Der/ОмдО+Inf+Abl:%>О1мдО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/ОмО+Inf+Abl:%>О1мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/Омс+Inf+Ill:%>О1мО1%>з osh-Possessive-Before-Clitic ;
-+Der/Озь+Ptc:%>О1зь sajezj-PTC ; !!
++Der/Озь+Ger:%>О1зь sajezj-PTC ; !!
 +Der/Онь+VGen:%>О1нь kal-Tenses1 ;
 +Der/Онь+VGen+Der/Dem:%>О1нсе kudo-N2-Def-Declension ;
 
@@ -1237,8 +1237,8 @@ LEXICON Deverbals_2
 
 +Der/ОмА:%>мА1 kudo-N ;
 +Der/Омка:%>мка kudo-N ;
-+Der/Ома+Oblig:%>ма Tenses1 ;
-+Der/Омка+Oblig:%>мка Tenses1 ;
++Der/Ома+Oblig:%>ма kudo-Tenses1 ;
++Der/Омка+Oblig:%>мка kudo-Tenses1 ;
 +Der/ОмО+Inf+Loc:%>мО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/Омс+Inf+Ill:%>мс sajems-Conjugation ;
 +Der/ОмстО+Inf+Ela:%>мстО1 kudo-Possessive-Before-Clitic-or-Clitic ;
@@ -1246,16 +1246,16 @@ LEXICON Deverbals_2
 +Deverbal+mdOInf+Abl:%>мдО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/ОмО+Inf+Abl:%>мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/ОмО+Inf+Ill:%>мО1%>з osh-Possessive-Before-Clitic ;
-+Der/Озь+Ptc:%>зь sajezj-PTC ; !!
++Der/Озь+Ger:%>зь sajezj-PTC ; !!
 +Der/Онь+VGen:%>нь kal-Tenses1 ;
 +Der/Онь+VGen+Der/Dem:%>нсе kudo-N2-Def-Declension ;
-+Use/Sub/Dial+Der/Омс+Inf+Tra:%>мО1%>кс Tenses1 ;
++Use/Sub/Dial+Der/Омс+Inf+Tra:%>мО1%>кс osh-Tenses1 ;
 
 LEXICON ActDemPtc
-+ActDemPtc: shumbra-Adj ;
++ActDemPtc: Adj-shumbra ;
 
 LEXICON sajezj-PTC
- vanjks-Adj ;
+ Adj-vanjks ;
  Clitic ;
 
 LEXICON Ptc-Telic ! sajevtj
@@ -1302,6 +1302,10 @@ LEXICON kal-Tenses1
 
 LEXICON kal-Tenses-NomSg
  Clitic ;
++Ind+NonPast+Sc3Sg: Clitic ;
+ kal-Tenses-NomSg-noClt ;
+
+LEXICON kal-Tenses-NomSg-noClt
 +Ind+NonPast+Sc1Sg:%>А2н Clitic ;
 +Ind+NonPast+Sc2Sg:%>А2т Clitic ;
 +Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
@@ -1310,8 +1314,12 @@ LEXICON kal-Tenses-NomSg
 
 LEXICON kal-Tenses-NomPl
  Clitic ;
+ kal-Tenses-NomPl-noClt ;
+
+LEXICON kal-Tenses-NomPl-noClt
 +Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
 +Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
++Ind+NonPast+Sc3Pl: Clitic ;
 +Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
 +Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
 +Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
@@ -1328,6 +1336,10 @@ LEXICON kal-Tenses-Abs-1
 
 LEXICON kal-Tenses-Obl
  Clitic ;
++Ind+NonPast+Sc3Sg: Clitic ;
+ kal-Tenses-Obl-noClt ;
+
+LEXICON kal-Tenses-Obl-noClt
 +Ind+NonPast+Sc1Sg:%>А2н Clitic ;
 +Ind+NonPast+Sc2Sg:%>А2т Clitic ;
 +Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
@@ -1341,92 +1353,39 @@ LEXICON kal-Tenses-Obl
 +Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
 
 LEXICON osh-Tenses1
- osh-Tenses-NomSg ;
- osh-Tenses-NomPl ;
-
-LEXICON osh-Tenses-NomSg
- Clitic ;
-+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
-+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
-+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
-+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
-+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
-
-LEXICON osh-Tenses-NomPl
- Clitic ;
-+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
-+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
-+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
-+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
-+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
+ kal-Tenses-NomSg ;
+ kal-Tenses-NomPl ;
 
 LEXICON osh-Tenses-Abs
-+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
-+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
-+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
- osh-Tenses-Abs-1 ;
-
-LEXICON osh-Tenses-Abs-1
-+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
-+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
+ kal-Tenses-Abs ;
 
 LEXICON osh-Tenses-Obl
- Clitic ;
-+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
-+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
-+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
-+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
-+Ind+NonPast+Sc3Pl:%>тЬ2 Clitic ;
-+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
-+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
-+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
-+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
-+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
-+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
+ kal-Tenses-Obl ;
 
 LEXICON lak-Tenses1
  lak-Tenses-NomSg ;
  lak-Tenses-NomPl ;
 
 LEXICON lak-Tenses-NomSg
++Ind+NonPast+Sc3Sg: lak-Clitic ;
+ kal-Tenses-NomSg-noClt ;
  lak-Clitic ;
-+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
-+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
-+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
-+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
-+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
 
 LEXICON lak-Tenses-NomPl
  lak-Clitic ;
-+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
-+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
-+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
-+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
-+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
+ kal-Tenses-NomPl-noClt ;
 
 LEXICON lak-Tenses-Abs
-+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
-+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
-+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
- lak-Tenses-Abs-1 ;
+ kal-Tenses-Abs ;
 
 LEXICON lak-Tenses-Abs-1
 +Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
 +Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
 
 LEXICON lak-Tenses-Obl
- Clitic ;
-+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
-+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
-+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
-+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
-+Ind+NonPast+Sc3Pl:%>тЬ2 Clitic ;
-+Ind+Prt2+Sc1Sg:%>О1линь Clitic ;
-+Ind+Prt2+Sc2Sg:%>О1лить Clitic ;
-+Ind+Prt2+Sc3Sg:%>О1ль Clitic ;
-+Ind+Prt2+Sc1Pl:%>О1линек lak-Clitic ;
-+Ind+Prt2+Sc2Pl:%>О1лиде Clitic ;
-+Ind+Prt2+Sc3Pl:%>О1льть Clitic ;
+ lak-Clitic ;
+ kal-Tenses-Obl-noClt ;
++Ind+NonPast+Sc3Sg: lak-Clitic ;
 
 LEXICON kit-Tenses1
  kit-Tenses-NomSg ;
