@@ -157,32 +157,32 @@ LEXICON Quants3
 !Cx PossPx Tx PredPx Clitic
 !Cases1 Possessives1 Tenses1 PredPersons1 Clitics
 +Indet+Sg+Nom: Tenses1 ;
-+VowX+Sg+Nom+Px3Sg:%>О1зО1 Tenses1 ;
-+NoVowX+Sg+Nom+Px3Sg:%>зО1 Tenses1 ;
++VowX+Sg+Nom+Px3Sg:%>О1зО1 kudo-Tenses1 ;
++NoVowX+Sg+Nom+Px3Sg:%>зО1 kudo-Tenses1 ;
 +VowX+Indet+Lat:%>О1в Clitics ;
 +NoVowX+Indet+Lat:%>в Clitics ;
 
 
-+NoVowX+NoNum+NomGen+Px1Sg:%>м Tenses1 ;
-+NoVowX+NoNum+NonNomSg+Px1Sg:%>нЬ2 Tenses1 ;
-+NoVowX+NoNum+NomGen+Px2Sg:%>тЬ2 Tenses1 ;
-+NoVowX+NoNum+NonNomSg+Px3Sg:%>нзО1 Tenses1 ;
-< 0:">" 0:н 0:О1 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px1Pl:0 "@P.KLOSS.ON@"> Tenses1 ;
-< 0:">" 0:н 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px2Pl:0  "@P.KLOSS.ON@"> Tenses1 ;
-< 0:">" 0:с 0:т %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px3Pl:0 "@P.TLOSS.ON@"> Tenses1 ;
-+VowX+NoNum+NomGen+Px1Sg:%>О1м Tenses1 ;
-+VowX+NoNum+NonNomSg+Px1Sg:%>О1нЬ2 Tenses1 ;
-+VowX+NoNum+NomGen+Px2Sg:%>О1тЬ2 Tenses1 ;
-+VowX+NoNum+NonNomSg+Px3Sg:%>О1нзО1 Tenses1 ;
-< 0:">" 0:О1 0:н 0:О1 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px1Pl:0  "@P.KLOSS.ON@"> Tenses1 ;
-< 0:">" 0:О1 0:н 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px2Pl:0 "@P.KLOSS.ON@"> Tenses1 ;
-< 0:">" 0:О1 0:с 0:т %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px3Pl:0 "@P.TLOSS.ON@"> Tenses1 ;
++NoVowX+NoNum+NomGen+Px1Sg:%>м kal-Tenses1 ;
++NoVowX+NoNum+NonNomSg+Px1Sg:%>нЬ2 kal-Tenses1 ;
++NoVowX+NoNum+NomGen+Px2Sg:%>тЬ2 kit-Tenses1 ;
++NoVowX+NoNum+NonNomSg+Px3Sg:%>нзО1 kudo-Tenses1 ;
+< 0:">" 0:н 0:О1 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px1Pl:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:н 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px2Pl:0  "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:с 0:т %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px3Pl:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
++VowX+NoNum+NomGen+Px1Sg:%>О1м kal-Tenses1 ;
++VowX+NoNum+NonNomSg+Px1Sg:%>О1нЬ2 kal-Tenses1 ;
++VowX+NoNum+NomGen+Px2Sg:%>О1тЬ2 kit-Tenses1 ;
++VowX+NoNum+NonNomSg+Px3Sg:%>О1нзО1 kudo-Tenses1 ;
+< 0:">" 0:О1 0:н 0:О1 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px1Pl:0  "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:О1 0:н 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px2Pl:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:О1 0:с 0:т %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px3Pl:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
 
 
 
 
-+NoVowX+Det+Sg+Nom:%>сь Tenses1 ;
-+VowX+Det+Sg+Nom:%>О1сь Tenses1 ;
++NoVowX+Det+Sg+Nom:%>сь osh-Tenses1 ;
++VowX+Det+Sg+Nom:%>О1сь osh-Tenses1 ;
 +NoVowX+Det+Sg+Gen:%>нть Clitics ;
 +NoVowX+Det+Sg+Dat:%>нтень Clitics ;
 +VowX+Det+Sg+Gen:%>О1нть Clitics ;
@@ -190,16 +190,16 @@ LEXICON Quants3
 +NoVowX+Ill:%>з osh-Possessive-Before-Clitic ;
 +VowX+Ill:%>О1з osh-Possessive-Before-Clitic ;
 
-+Indet+Pl:%>VLossтЬ2 Tenses1 ;
-+Indet+Pl:%>NoVLossтЬ2 Tenses1 ;
-+Det+Pl:%>тне Tenses1 ;
++Indet+Pl:%>VLossтЬ2 kit-Tenses1 ;
++Indet+Pl:%>NoVLossтЬ2 kit-Tenses1 ;
++Det+Pl:%>тне kudo-Tenses1 ;
 
 +Abl:%>дО1 kudo-Possessive-Before-Clitic ;
 +LV+Abl:%>О1дО1 kudo-Possessive-Before-Clitic ;
-+NoVowX+Gen:%>нь Tenses1 ;
++NoVowX+Gen:%>нь kal-Tenses1 ;
 +Dat:%>нень Clitics ;
 +NoVowX+Ill:%>с Clitics ;
-+VowX+Gen:%>О1нь Tenses1 ;
++VowX+Gen:%>О1нь kal-Tenses1 ;
 +VowX+Ill:%>О1с Clitics ;
 
 +Prl+Det+Sg:%>Г2а%>нть Clitics ;
@@ -231,12 +231,12 @@ LEXICON Quants3
 +VowX+Comp:%>О1шка kudo-Possessive-Before-Clitic ;
 +VowX+Comp+Com:%>О1шкане kudo-Possessive-Before-Clitic ;
 
-+Det+Pl+Prl:%>тне%>ва Tenses1 ;
-+Det+Pl+Abe:%>тне%>втеме Tenses1 ;
++Det+Pl+Prl:%>тне%>ва kudo-Tenses1 ;
++Det+Pl+Abe:%>тне%>втеме kudo-Tenses1 ;
 +Det+Pl+Transl:%>тне%>кс Clitics ;
-+Det+Pl+Ine:%>тне%>сэ Tenses1 ;
-+Det+Pl+Ela:%>тне%>стэ Tenses1 ;
-+Det+Pl+Comp:%>тне%>шка Tenses1 ;
++Det+Pl+Ine:%>тне%>сэ kudo-Tenses1 ;
++Det+Pl+Ela:%>тне%>стэ kudo-Tenses1 ;
++Det+Pl+Comp:%>тне%>шка kudo-Tenses1 ;
 
 !Attributes
 +Prl:%>Г2а Attributes2 ; 
@@ -258,17 +258,17 @@ LEXICON Quants3
 < %+TLoss:0 "@R.TLOSS.ON@"> Quants3_TLOSS ;
 
 LEXICON Quants3_TLOSS
-< 0:">" 0:н 0:е %+Det:0 %+Pl:0 "@C.TLOSS@"> Tenses1 ;
+< 0:">" 0:н 0:е %+Det:0 %+Pl:0 "@C.TLOSS@"> kudo-Tenses1 ;
 < 0:">" 0:н 0:е 0:д 0:е %+Det:0 %+Pl:0 %+Abl:0 "@C.TLOSS@"> Clitics ;
 < 0:">" 0:н 0:е 0:н 0:ь %+Det:0 %+Pl:0 %+Gen:0 "@C.TLOSS@"> Clitics ;
 < 0:">" 0:н 0:е 0:н 0:е 0:н 0:ь %+Det:0 %+Pl:0 %+Dat:0 "@C.TLOSS@"> Clitics ;
 < 0:">" 0:н 0:е 0:с %+Det:0 %+Pl:0 %+Ill:0 "@C.TLOSS@"> Clitics ;
-< 0:">" 0:н 0:е 0:в 0:а %+Det:0 %+Pl:0 %+Prl:0 "@C.TLOSS@"> Tenses1 ;
-< 0:">" 0:н 0:е 0:в 0:т 0:е 0:м 0:е %+Det:0 %+Pl:0 %+Abe:0 "@C.TLOSS@"> Tenses1 ;
+< 0:">" 0:н 0:е 0:в 0:а %+Det:0 %+Pl:0 %+Prl:0 "@C.TLOSS@"> kudo-Tenses1 ;
+< 0:">" 0:н 0:е 0:в 0:т 0:е 0:м 0:е %+Det:0 %+Pl:0 %+Abe:0 "@C.TLOSS@"> kudo-Tenses1 ;
 < 0:">" 0:н 0:е 0:к 0:с %+Det:0 %+Pl:0 %+Transl:0 "@C.TLOSS@"> Clitics ;
-< 0:">" 0:н 0:е 0:с 0:э %+Det:0 %+Pl:0 %+Ine:0 "@C.TLOSS@"> Tenses1 ;
-< 0:">" 0:н 0:е 0:с 0:т 0:э %+Det:0 %+Pl:0 %+Ela:0 "@C.TLOSS@"> Tenses1 ;
-< 0:">" 0:н 0:е 0:ш 0:к 0:а %+Det:0 %+Pl:0 %+Comp:0 "@C.TLOSS@"> Tenses1 ;
+< 0:">" 0:н 0:е 0:с 0:э %+Det:0 %+Pl:0 %+Ine:0 "@C.TLOSS@"> kudo-Tenses1 ;
+< 0:">" 0:н 0:е 0:с 0:т 0:э %+Det:0 %+Pl:0 %+Ela:0 "@C.TLOSS@"> kudo-Tenses1 ;
+< 0:">" 0:н 0:е 0:ш 0:к 0:а %+Det:0 %+Pl:0 %+Comp:0 "@C.TLOSS@"> kudo-Tenses1 ;
 < 0:">" 0:н 0:е 0:в 0:а %+Det:0 %+Pl:0 %+Prl:0 "@C.TLOSS@"> Attributes2 ; 
 < 0:">" 0:н 0:е 0:в 0:т 0:е 0:м 0:е %+Det:0 %+Pl:0 %+Abe:0 "@C.TLOSS@"> Attributes2 ; 
 < 0:">" 0:н 0:е 0:к 0:с %+Det:0 %+Pl:0 %+Transl:0 "@C.TLOSS@"> Attributes2 ; 
@@ -279,7 +279,7 @@ LEXICON Quants3_TLOSS
 
 LEXICON Attributes1
  Attributes2 ;
-+Indet+Nom+Pl:%>тЬ2  Tenses1 ;
++Indet+Nom+Pl:%>тЬ2  kit-Tenses1 ;
 +Indet+Ela:%>стО1 Clitics ;
 +Indet+Transl:%>кс Clitics ;
 +Indet+Nom+Sg: Clitics ;
