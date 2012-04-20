@@ -8,11 +8,11 @@
 ! ===== !
 
 LEXICON Abe-Adj
-+Der/Abe: shumbra-Adj ;
++Der/Abe: Adj-shumbra ;
 
 ! 2012-04-03 These do not exist in present dictionary
 !LEXICON Comp-Adj
-!+Der/Comp: shumbra-Adj ;
+!+Der/Comp: Adj-shumbra ;
 
 LEXICON Gen-Adj ! The genitive is used as an attribute and predicate modifier
 +Der/Gen: Clitic ;
@@ -20,10 +20,10 @@ LEXICON Gen-Adj ! The genitive is used as an attribute and predicate modifier
 +Der/Gen: kal-NomPl-Conjugation ; ! These need checking 2012-04-17
 
 
-LEXICON vejketj-Adj-PL
- vitj-Adj ;
+LEXICON Adj-PL-vejketj
+ Adj-vitj ;
 
-LEXICON vitj-Adj
+LEXICON Adj-vitj
 +A: Clitic ;
 +A: kit-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
@@ -31,7 +31,7 @@ LEXICON vitj-Adj
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kit-N ;
 
-LEXICON erek-Adj
+LEXICON Adj-erek
 +A: Clitic ;
 +A: lak-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
@@ -39,7 +39,7 @@ LEXICON erek-Adj
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: lak-N ;
 
-LEXICON od-Adj
+LEXICON Adj-od
 +A: Clitic ;
 +A: kal-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
@@ -47,7 +47,7 @@ LEXICON od-Adj
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kal-N ;
 
-LEXICON vanjks-Adj
+LEXICON Adj-vanjks
 +A: Clitic ;
 +A: kal-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
@@ -55,13 +55,13 @@ LEXICON vanjks-Adj
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: osh-N ;
 
-LEXICON chevte-Adj
- nachko-Adj ;
+LEXICON Adj-chevte
+ Adj-nachko ;
 
-LEXICON lembe-Adj
- nachko-Adj ;
+LEXICON Adj-lembe
+ Adj-nachko ;
 
-LEXICON nachko-Adj
+LEXICON Adj-nachko
 +A: Clitic ;
 +A: pango-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
@@ -69,7 +69,7 @@ LEXICON nachko-Adj
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: pango-N ;
 
-LEXICON shumbra-Adj
+LEXICON Adj-shumbra
 +A: Clitic ;
 +A: kudo-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
@@ -77,9 +77,16 @@ LEXICON shumbra-Adj
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kudo-N ;
 
-LEXICON Adj-Interr
-+Interr: nachko-Adj ;
-+Rel: nachko-Adj ;
+LEXICON Adj-InterrRel ! кодамо
++Interr: Adj-nachko ;
++Rel: Adj-nachko ;
+
+LEXICON Adj-Dem ! истямо
++Dem: Adj-nachko ;
+
+LEXICON Adj-Po ! кондямо
++Po: Adj-nachko ;
+
 
 ! ===== !
 ! Nouns !
@@ -826,7 +833,7 @@ LEXICON kudo-N2-Def-Declension
 ! where triple consonants are disallowed
 ! and some double consonants are alternately dropped
 ! A two-class system has been extended to a six-classer
-! pango-N and chevte-Adj types are closed-class word sets
+! pango-N and Adj-chevte types are closed-class word sets
 ! which can drop their stem final vowels in certain combinations
 
 
@@ -1561,7 +1568,7 @@ LEXICON ne-Dem
 
 LEXICON Misc_Pronouns_Sg
   Misc_Pronouns_Indef ;
-+Nom+Sg+Def:%>сь  Tenses1_Prep-SG ;
++Nom+Sg+Def:%>сь  osh-Tenses1_Prep-SG ;
 +Gen+Sg+Def:%>нть Clitic ;
 +Sg+Def+Dat:%>нтень Clitic ;
 +Prl+Sg+Def:%>Г2а kudo-SgDet-PossPx ;
@@ -1611,7 +1618,7 @@ LEXICON kudo-SgDet-PossPx
 LEXICON Misc_Pronouns_Indef
 +Indef+Nom+Sg:0  Tenses1_Prep-SG ;
 +Indef+Abl:%>дО1 Clitic ;
-+Indef+Gen:%>нь Tenses1 ; 
++Indef+Gen:%>нь kal-Tenses1 ; 
 +Indef+Dat:%>нень Clitic ;
 +Indef+Ill:%>с Clitic ;
 +Indef+Gen+Abl:%>нь%>стэ Clitic ;
@@ -1663,7 +1670,7 @@ LEXICON Misc_Pronouns_Pl
 
 
 LEXICON SecondaryDeclination
-+Sg+Def+Nom:%>сь  Tenses1_Prep-SG ;
++Sg+Def+Nom:%>сь  osh-Tenses1_Prep-SG ;
 +Sg+Def+Gen:%>нть Clitic ;
 +Sg+Def+Dat:%>нтень Clitic ;
 +Prl+Sg+Def:%>Г2а SecondaryDeclination_SgDet-PossPx ;
@@ -1698,50 +1705,50 @@ LEXICON SecondaryDeclination_SgDet-PossPx
 
 
 
-LEXICON lak-Nouns1-1
-+N1+IndefNomSg+ZeroSuf: lak-Tenses-NomSg ;
-+N1+Abs: lak-Tenses-Abs ;
-+N1: Nouns_Voiceless ; 
-+N1: Nouns1_A ;
- Mezty ;
-
-LEXICON kal-Nouns1-1
-+N1+IndefNomSg+ZeroSuf: kal-Tenses-NomSg ;
-+N1+Abs: kal-Tenses-Abs ;
-+N1: Nouns_Voiceless ; 
-+N1: Nouns1_A ;
- Mezty ;
-
-LEXICON kit-Nouns1-1
-+N1+IndefNomSg+ZeroSuf: kit-Tenses-NomSg ;
-+N1+Abs: kit-Tenses-Abs ;
-+N1: Nouns_Voiceless ; 
-+N1: Nouns1_A ;
- Mezty ;
-
-LEXICON kudo-Nouns1-1
-+N1+IndefNomSg+ZeroSuf: kudo-Tenses-NomSg ;
-+N1+Abs: kudo-Tenses-Abs ;
-+N1: Nouns_Voiceless ; 
-+N1: Nouns1_A ;
- Mezty ;
-
-
-
-!LEXICON Nouns1-1
-!+N1+IndefNomSg+ZeroSuf: Tenses-NomSg ;
-!+N1+Abs: Tenses-Abs ;
-!+N1: Nouns_Voiceless ; 
-!+N1: Nouns1_A ;
-! Mezty ;
-
-
-LEXICON Nouns1S-1 
-+IndefNomSg+ZeroSuf: osh-Tenses-NomSg ;
-+N1S+Abs: osh-Tenses-Abs ;
-+N1S: Nouns1S_A_ReqVow ;
-+N1S: Nouns1S_A_NoReqVow ;
- Mezty ;
+!! LEXICON lak-Nouns1-1
+!! +N1+IndefNomSg+ZeroSuf: lak-Tenses-NomSg ;
+!! +N1+Abs: lak-Tenses-Abs ;
+!! +N1: Nouns_Voiceless ; 
+!! +N1: Nouns1_A ;
+!!  Mezty ;
+!! 
+!! LEXICON kal-Nouns1-1
+!! +N1+IndefNomSg+ZeroSuf: kal-Tenses-NomSg ;
+!! +N1+Abs: kal-Tenses-Abs ;
+!! +N1: Nouns_Voiceless ; 
+!! +N1: Nouns1_A ;
+!!  Mezty ;
+!! 
+!! LEXICON kit-Nouns1-1
+!! +N1+IndefNomSg+ZeroSuf: kit-Tenses-NomSg ;
+!! +N1+Abs: kit-Tenses-Abs ;
+!! +N1: Nouns_Voiceless ; 
+!! +N1: Nouns1_A ;
+!!  Mezty ;
+!! 
+!! LEXICON kudo-Nouns1-1
+!! +N1+IndefNomSg+ZeroSuf: kudo-Tenses-NomSg ;
+!! +N1+Abs: kudo-Tenses-Abs ;
+!! +N1: Nouns_Voiceless ; 
+!! +N1: Nouns1_A ;
+!!  Mezty ;
+!! 
+!! 
+!! 
+!! !LEXICON Nouns1-1
+!! !+N1+IndefNomSg+ZeroSuf: Tenses-NomSg ;
+!! !+N1+Abs: Tenses-Abs ;
+!! !+N1: Nouns_Voiceless ; 
+!! !+N1: Nouns1_A ;
+!! ! Mezty ;
+!! 
+!! 
+!! LEXICON Nouns1S-1 
+!! +IndefNomSg+ZeroSuf: kal-Tenses-NomSg ;
+!! +N1S+Abs: osh-Tenses-Abs ;
+!! +N1S: Nouns1S_A_ReqVow ;
+!! +N1S: Nouns1S_A_NoReqVow ;
+!!  Mezty ;
 
 
 
@@ -1768,7 +1775,7 @@ LEXICON Nouns1_A
 +Dat+Pl+Px1Sg:%>нень Clitic ;
 +Dat+Pl+Px2Sg:%>тень Clitic ;
 +Dat+Pl+Px3:%>О1нстэнь Clitic ;
-+Nom+Sg+Def:%>О1сь osh-Tenses-NomSg ;
++Nom+Sg+Def:%>О1сь kal-Tenses-NomSg ;
 +Gen+Sg+Def:%>О1нть Clitic ;
 +Dat+Sg+Def:%>О1нтень Clitic ;
 
@@ -1797,7 +1804,7 @@ LEXICON Nouns1_A
 +Use/Sub/Dial+Nom+Pl+Px1Pl:%>нО1к lak-Tenses-NomPl ;
 +Use/Sub/Dial+Gen+Sg+Px1Pl:%>нО1к lak-Tenses-Obl ;
 +Use/Sub/Dial+Gen+Pl+Px1Pl:%>нО1к lak-Tenses-Obl ;
-+Use/Sub/Dial+Nom+Sg+Def:%>сь osh-Tenses-NomSg ;
++Use/Sub/Dial+Nom+Sg+Def:%>сь kal-Tenses-NomSg ;
 +Use/Sub/Dial+Gen+Sg+Def:%>сть Clitic ;
 +Use/Sub/Dial+Dat+Sg+Def:%>стень Clitic ;
 
@@ -1857,7 +1864,7 @@ LEXICON Nouns1S_A_ReqVow
 +Use/Sub/Dial+Dat+Px3Pl:%>О1нстэст Clitic ;
 
 
-+Nom+Sg+Def:%>О1сь osh-Tenses-NomSg ;
++Nom+Sg+Def:%>О1сь kal-Tenses-NomSg ;
 +Gen+Sg+Def:%>О1нть Clitic ;
 +Dat+Sg+Def:%>О1нтень Clitic ;
 +Gen+Indef:%>О1нь kal-Tenses-Obl ;
@@ -1886,37 +1893,37 @@ Nouns_Pl ;
 
 
 
-!!!!!!!!Nouns2_A
-LEXICON Nouns2-a
- Possessive-NomGen ;
-
-+Dat+Px1Sg:%>нень Clitic ;
-+Dat+Px2Sg:%>тень Clitic ;
-+Dat:%>нень Clitic ;
-+Com:%>нек lak-Clitic ;
-+TempCx:%>не Clitic ;
-+Abe:%>втО1мО1 kudo-Indef-DefSg-Poss ;
-+Abl:%>дО1 kudo-Indef-DefSg-Poss ;
-+Comp:%>О1шка kudo-Indef-DefSg-Poss ;
-+Prl:%>Г2а kudo-Indef-DefSg-Poss ;
-+Tra:%>О1кс osh-Indef-DefSg-Poss ;
-
-+Lat+Indef:%>О1в Clitic ;
-+Ill:%>О1з osh-Possessive-Before-Clitic ;
-+Dat+Px3Sg:%>О1нстэнь Clitic ;
-+Dat+Px3Pl:%>О1нстэнь Clitic ;
-
-+Nom+Sg+Def:%>О1сь osh-Tenses-NomSg ;
-+Gen+Sg+Def:%>О1нть Clitic ;
-+Dat+Sg+Def:%>О1нтень Clitic ;
-+Gen+Indef:%>О1нь kal-Tenses-Obl ;
-
-+Use/Sub/Dial+Dat+Px2Sg:%>теть Clitic ;
-+Use/Sub/Dial+Dat+Px2Sg:%>те Clitic ;
-+Use/Sub/Dial+Dat+Px3:%>О1нстО1 Clitic ;
-+Use/Sub/Dial+Dat+Px3Sg:%>О1нстэнзэ Clitic ;
-+Use/Sub/Dial+Dat+Px3Pl:%>О1нстэнст Clitic ;
-+Use/Sub/Dial+Dat+Px3Pl:%>О1нстэст Clitic ;
+!! !!!!!!!!Nouns2_A
+!! LEXICON Nouns2-a
+!!  Possessive-NomGen ;
+!! 
+!! +Dat+Px1Sg:%>нень Clitic ;
+!! +Dat+Px2Sg:%>тень Clitic ;
+!! +Dat:%>нень Clitic ;
+!! +Com:%>нек lak-Clitic ;
+!! +TempCx:%>не Clitic ;
+!! +Abe:%>втО1мО1 kudo-Indef-DefSg-Poss ;
+!! +Abl:%>дО1 kudo-Indef-DefSg-Poss ;
+!! +Comp:%>О1шка kudo-Indef-DefSg-Poss ;
+!! +Prl:%>Г2а kudo-Indef-DefSg-Poss ;
+!! +Tra:%>О1кс osh-Indef-DefSg-Poss ;
+!! 
+!! +Lat+Indef:%>О1в Clitic ;
+!! +Ill:%>О1з osh-Possessive-Before-Clitic ;
+!! +Dat+Px3Sg:%>О1нстэнь Clitic ;
+!! +Dat+Px3Pl:%>О1нстэнь Clitic ;
+!! 
+!! +Nom+Sg+Def:%>О1сь kal-Tenses-NomSg ;
+!! +Gen+Sg+Def:%>О1нть Clitic ;
+!! +Dat+Sg+Def:%>О1нтень Clitic ;
+!! +Gen+Indef:%>О1нь kal-Tenses-Obl ;
+!! 
+!! +Use/Sub/Dial+Dat+Px2Sg:%>теть Clitic ;
+!! +Use/Sub/Dial+Dat+Px2Sg:%>те Clitic ;
+!! +Use/Sub/Dial+Dat+Px3:%>О1нстО1 Clitic ;
+!! +Use/Sub/Dial+Dat+Px3Sg:%>О1нстэнзэ Clitic ;
+!! +Use/Sub/Dial+Dat+Px3Pl:%>О1нстэнст Clitic ;
+!! +Use/Sub/Dial+Dat+Px3Pl:%>О1нстэст Clitic ;
 
 
 LEXICON istja-Gen-Attributes
