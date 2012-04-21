@@ -46,6 +46,20 @@ LEXICON PERS
 мон+Pron+Pers+1Sg+Pron+Dem:монете kudo-PersPronGen_CX ;
 тон+Pron+Pers+2Sg+Pron+Dem:тонете kudo-PersPronGen_CX ;
 
+! Obligatory Possessor Index
+!!!!!!!!
+!!Periferal
+!
+ськамонзо+Pron+Exclusive+PerifMod:ськамо kudo-N-Poss-Declension-PossX ;
+ськамнензэ+Pron+Exclusive+PerifMod+Der/не:ськамне kudo-N-Poss-Declension-PossX ; 
+ськаминензэ+Pron+Exclusive+PerifMod+Der/не:ськамине kudo-N-Poss-Declension-PossX ; 
+ськамнинензэ+Pron+Exclusive+PerifMod+Der/не+Der/не:ськамнине kudo-N-Poss-Declension-PossX ; 
+! in the PRON_myv-lex.xml file !Dat-Pron ! тензэ+Short+Pron+DAT:те PossPX1 ; 
+
+эстензэ+Refl+Pron+Dat:эсте PossPX1 ; 
+эськанзо+Refl+Pron+Prl:эська PossPX1 ; 
+эськанзо+Refl+Pron+Prl+Prl:эськава PossPX1 ; 
+
 
 
 
@@ -370,11 +384,11 @@ LEXICON  Indef_Pronouns
 кува+Spat+Prl:кува Indef_Pronouns-Clitic ;
 
 кона+Adn+Nom+Sg:кона Indef_Pronouns-Clitic ;
-кона+Adn:кона Indef_Pronouns-Cases ;
+кона+Det+Pron:кона kudo-Indef_Pronouns-Cases ;
 
 зярдо+Pron+Abl+Temp:зярдо Indef_Pronouns-Clitic ;
 зяро+Pron+Nom:зяро Indef_Pronouns-Clitic ;
-зяро+Pron:зяро Indef_Pronouns-Cases ;
+зяро+Pron:зяро kudo-Indef_Pronouns-Cases ;
 !зяродо+Pron+Interr+Abl:зяродо Indef_Pronouns-Clitic ;
 !зяро+Pron+Interr+Ela:зяросто Indef_Pronouns-Clitic ;
 зяро+Pron+Ill+Temp:зярс Indef_Pronouns-Clitic ;
@@ -523,18 +537,4 @@ LEXICON Misc_Pronouns
 !не+Dem:не ne-Misc_Pronouns1 ;
 !неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
 !нете+Dem+Pron:нете Misc_Pronouns1 ;
-! Obligatory Possessor Index
-!!!!!!!!
-!!Periferal
-!
-ськамонзо+Pron+Exclusive+PerifMod:ськамо kudo-N-Poss-Declension-PossX ;
-ськамнензэ+Pron+Exclusive+PerifMod+Der/не:ськамне kudo-N-Poss-Declension-PossX ; 
-ськаминензэ+Pron+Exclusive+PerifMod+Der/не:ськамине kudo-N-Poss-Declension-PossX ; 
-ськамнинензэ+Pron+Exclusive+PerifMod+Der/не+Der/не:ськамнине kudo-N-Poss-Declension-PossX ; 
-
-тензэ+Short+Pron+DAT:те PossPX1 ; 
-эстензэ+Refl+Pron+Dat:эсте PossPX1 ; 
-эськанзо+Refl+Pron+Prl:эська PossPX1 ; 
-эськанзо+Refl+Pron+Prl+Prl:эськава PossPX1 ; 
-
 
