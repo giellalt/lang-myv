@@ -35,6 +35,9 @@ LEXICON V-nevtems_ObjAll
 LEXICON V-savtoms_ObjAll
 < "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-savtoms ;
 
+LEXICON V-chachtoms_ObjAll
+< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-chachtoms ;
+
 !LEXICON V-jangavoms_ObjAll
 !< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-jangavoms ;
 
@@ -58,6 +61,7 @@ LEXICON V-ujems
 :й V-kadoms ;
 
 LEXICON V-tujems_ObjAll
+< "+V":0 "+ObjOpen":0 "@P.CONJ.ObjAll@"> Indicative_Present_Obj ;
 < "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-tujems ;
 
 LEXICON V-tujems
@@ -100,6 +104,11 @@ LEXICON V-ledems
 
 LEXICON V-savtoms
  V-kadoms ;
+
+LEXICON V-chachtoms
+ V-kadoms ;
++V+Pred+Ind+Prt1+Sc3Sg:%>ась Clitic ;
++V+Pred+Ind+Prt1+Sc3Pl:%>асть Clitic ;
 
 LEXICON V-nevtems
  V-kadoms ;
