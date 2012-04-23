@@ -314,6 +314,7 @@
          <xs:enumeration value="Q_N"/>
          <xs:enumeration value="Q_ORD"/>
          <xs:enumeration value="Q_ORD-ITER"/>
+         <xs:enumeration value="Q_PCLE"/>
          <xs:enumeration value="Q_PRON"/>
          <xs:enumeration value="Q_PERS"/>
          <xs:enumeration value="Q_QNT"/>
@@ -517,21 +518,15 @@
    <xs:attribute name="erzContlex">
       <xs:simpleType>
          <xs:restriction base="xs:string">
-            <xs:enumeration value="A-сэнь"/>
-            <xs:enumeration value="A-керш"/>
-            <xs:enumeration value="A-чевте"/>
-            <xs:enumeration value="A-начко"/>
-            <xs:enumeration value="A-вейкеть-PL"/>
-            <xs:enumeration value="A-шумбра"/>
-            <xs:enumeration value="od-Adj"/>
-            <xs:enumeration value="vitj-Adj"/>
-            <xs:enumeration value="erek-Adj"/>
-            <xs:enumeration value="vanjks-Adj"/>
-            <xs:enumeration value="chevte-Adj"/>
-            <xs:enumeration value="lembe-Adj"/>
-            <xs:enumeration value="nachko-Adj"/>
-            <xs:enumeration value="vejketj-Adj-PL"/>
-            <xs:enumeration value="shumbra-Adj"/>
+            <xs:enumeration value="Adj-od"/>
+            <xs:enumeration value="Adj-vitj"/>
+            <xs:enumeration value="Adj-erek"/>
+            <xs:enumeration value="Adj-vanjks"/>
+            <xs:enumeration value="Adj-chevte"/>
+            <xs:enumeration value="Adj-lembe"/>
+            <xs:enumeration value="Adj-nachko"/>
+            <xs:enumeration value="Adj-PL-vejketj"/>
+            <xs:enumeration value="Adj-shumbra"/>
             <xs:enumeration value="od-Adj-WORK"/>
             <xs:enumeration value="vitj-Adj-WORK"/>
             <xs:enumeration value="erek-Adj-WORK"/>
@@ -746,6 +741,8 @@
             <xs:enumeration value="V-сатомс"/>
             <xs:enumeration value="V-сатомс_Obj3Sg"/>
             <xs:enumeration value="Phrase_V"/>
+            <xs:enumeration value="V-chachtoms"/>
+            <xs:enumeration value="V-chachtoms_ObjAll"/>
             <xs:enumeration value="V-tejems"/>
             <xs:enumeration value="V-kadoms"/>
             <xs:enumeration value="V-nevtems"/>
