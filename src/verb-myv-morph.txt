@@ -1,68 +1,70 @@
 LEXICON VERBNEGATIVE
 аволть+Verb+Neg+Cond+Sc3Pl:авольть # ;
-< а в о л ь "+Verb":0 "+Neg":0 "+Cond":0   "+ObjOpen":0 "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
+< а в о л ь "+Verb":0 "+Neg":0 "+Cond":0  "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
 аволь+Verb+Neg+Cond+Sc3Sg:аволь # ;
-< и л я "+Prt":0 "+Verb":0 "+Neg":0  "+ObjOpen":0 "@P.CONJ.ObjAll@"> ILYA ;
+< и л я "+Prt":0 "+Verb":0 "+Neg":0 "@P.CONJ.ObjAll@"> ILYA ;
 
 
 эзть+Verb+Neg+Ind+Prt1+Sc3Pl:эзть # ;
-< э з ь "+Verb":0 "+Neg":0  "+ObjOpen":0 "+Ind":0 "+Prt2":0 "@P.CONJ.ObjAll@"> IndicativePrt2_kadoms ;
-< э з ь "+Verb":0 "+Neg":0  "+ObjOpen":0 "+Ind":0 "+Prt1":0 "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
+< э з ь "+Verb":0 "+Neg":0  "+Ind":0 "+Prt2":0 "@P.CONJ.ObjAll@"> IndicativePrt2_kadoms ;
+< э з ь "+Verb":0 "+Neg":0  "+Ind":0 "+Prt1":0 "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
 эзь+Verb+Neg+Ind+Prt1+Sc3Sg:эзь # ;
 эзь+Verb+Neg+Ind+Prt1+Sc3Sg+Oc3Sg:эсе # ;
 
 
 LEXICON CondVerbs
-+Der/Ындеря+Cond+Conj:%>Ы2ндеря Conjunctive-kundams ;
-+Der/Ындеря+Cond:%>Ы2ндеря Indicative1 ;
-+Der/Ындеря+Cond+Ind+Nonpast+Sc3Sg:%>Ы2ндеряй Clitic ;
-+Der/Ындеря+Cond+Ind+Nonpast+Sc3Pl:%>Ы2ндеряйть Clitic ;
++Der/Ындеря+V+Cond+Conj:%>Ы2ндеря Conjunctive-kundams ;
++Der/Ындеря+V+Cond:%>Ы2ндеря Indicative1 ;
++Der/Ындеря+V+Cond+Ind+Nonpast+Sc3Sg:%>Ы2ндеряй Clitic ;
++Der/Ындеря+V+Cond+Ind+Nonpast+Sc3Pl:%>Ы2ндеряйть Clitic ;
++Der/Ындеря+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
++Der/Ындеря+V+Cond:%>Ы2ндеря   Deverbals_2 ;
 
 
 LEXICON V-ledems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-ledems ;
+< "@P.CONJ.ObjAll@"> V-ledems ;
 
 LEXICON V-kadoms_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-kadoms ;
+< "@P.CONJ.ObjAll@"> V-kadoms ;
 
 ! This should not occur
 !LEXICON V-sajevems_ObjAll
-!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-sajevems ;
+!< "@P.CONJ.ObjAll@"> V-sajevems ;
 
 LEXICON V-nevtems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-nevtems ;
+< "@P.CONJ.ObjAll@"> V-nevtems ;
 
 LEXICON V-savtoms_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-savtoms ;
+< "@P.CONJ.ObjAll@"> V-savtoms ;
 
 LEXICON V-chachtoms_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-chachtoms ;
+< "@P.CONJ.ObjAll@"> V-chachtoms ;
 
 !LEXICON V-jangavoms_ObjAll
-!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-jangavoms ;
+!< "@P.CONJ.ObjAll@"> V-jangavoms ;
 
 LEXICON V-kundams_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-kundams ;
+< "@P.CONJ.ObjAll@"> V-kundams ;
 
 ! This actually does exist in a pair verb
 ! таргатомс
 LEXICON V-satoms_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-satoms ;
+< "@P.CONJ.ObjAll@"> V-satoms ;
 
 ! This should not exist by definition
 ! 
 !LEXICON V-letems_ObjAll
-!< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-letems ;
+!< "@P.CONJ.ObjAll@"> V-letems ;
 
 LEXICON V-ujems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-ujems ;
+< "@P.CONJ.ObjAll@"> V-ujems ;
 
 LEXICON V-ujems
 :й V-kadoms ;
 
 LEXICON V-tujems_ObjAll
-< "+V":0 "+ObjOpen":0 "@P.CONJ.ObjAll@"> Indicative_Present_Obj ;
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-tujems ;
+< "+V":0 "@P.CONJ.ObjAll@"> Indicative_Present_Obj ;
+< "@P.CONJ.ObjAll@"> V-tujems ;
 
 LEXICON V-tujems
 :й V-kadoms ;
@@ -70,13 +72,13 @@ LEXICON V-tujems
 +V+Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 
 LEXICON V-tejems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-tejems ;
+< "@P.CONJ.ObjAll@"> V-tejems ;
 
 LEXICON V-tejems
  V-kadoms ;
 
 LEXICON V-nejems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-nejems ;
+< "@P.CONJ.ObjAll@"> V-nejems ;
 
 LEXICON V-nejems
 :й V-kadoms ;
@@ -84,7 +86,7 @@ LEXICON V-nejems
 +V+Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 
 LEXICON V-mijems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-mijems ;
+< "@P.CONJ.ObjAll@"> V-mijems ;
 
 LEXICON V-mijems
 :й V-kadoms ;
@@ -92,8 +94,8 @@ LEXICON V-mijems
 +V+Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 
 LEXICON V-nekshnems_ObjAll
-< "+ObjOpen":0 "@P.CONJ.ObjAll@"> V-nekshnems ;
-
+< "@P.CONJ.ObjAll@"> V-nekshnems ;
+!!2012-04-24 the TAG "+ObjOpen":0 has been removed 
 LEXICON V-nekshnems
 +Stem/е:е V-kundams ;
 +Stem/э:э V-kundams ;
@@ -122,8 +124,8 @@ LEXICON V-kadoms
 
 LEXICON V-kadoms-a
 +ConNeg:%>О1К3 kudo-Tenses1 ;
-+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+Cond:%>Ы2ндеря   Deverbals_2 ;
+!+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
+!+Cond:%>Ы2ндеря   Deverbals_2 ;
 !! <"@C.TLOSS@"> CondVerbs ;
  CondVerbs ;
 +Pred+Des: Desiderative1 ;
@@ -148,8 +150,8 @@ LEXICON V-kundams
 +V: V-kundams-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>К3 kudo-Tenses1 ;
-+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V+Cond:%>Ы2ндеря   Deverbals_2 ;
+!+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
+!+V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_2 ; !This denies linking vowel
 +V+Pred+Conj: Conjunctive-kundams ;
 
@@ -169,8 +171,8 @@ LEXICON V-satoms
 +V: V-satoms-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 kudo-Tenses1 ;
-+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V+Cond:%>Ы2ндеря   Deverbals_2 ;
+!+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
+!+V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_1 ; 
 +V+Pred+Conj: Conjunctive-kadoms ;
 
@@ -178,8 +180,8 @@ LEXICON V-letems
 +V: V-satoms-a ;
 +V:     VerbsPresPrt_1 ;
 +V+ConNeg:%>О1К3 kudo-Tenses1 ;
-+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+V+Cond:%>Ы2ндеря   Deverbals_2 ;
+!+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
+!+V+Cond:%>Ы2ндеря   Deverbals_2 ;
 +V:  Deverbals_1 ; 
 +V+Pred+Conj: Conjunctive-kadoms ;
 
@@ -1040,48 +1042,33 @@ LEXICON VerbsPresPrt_1
 +Der/Ый+DeverbalPrsPrtMedium:%>Ы2й kal-N ;
 +Der/Ы+DeverbalPrsPrtShort:%>Ы2 kudo-N ;
 
-LEXICON Deverbals_1
-
-+Der/ОмА:%>О1мА1 kudo-N ;
-+Der/Ома+Oblig:%>О1ма kudo-Tenses1 ;
-+Der/Омка+Oblig:%>О1мка kudo-Tenses1 ;
-+Der/Омка:%>О1мка kudo-N ;
-+Der/ОмО+Inf+Loc:%>О1мО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/Омс+Inf+Ill:%>О1мс sajems-Conjugation ;
-+Der/ОмстО+Inf+Ela:%>О1мстО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/ОмсО+Inf+Ine:%>О1мсО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/Омга+Inf+Prl:%>О1мга kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/ОмдО+Inf+Abl:%>О1мдО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/ОмО+Inf+Abl:%>О1мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/Омс+Inf+Ill:%>О1мО1%>з osh-Possessive-Before-Clitic ;
-+Der/Озь+Ger:%>О1зь sajezj-PTC ; !!
-+Der/Онь+VGen:%>О1нь kal-Tenses1 ;
-+Der/Онь+VGen+Der/Dem:%>О1нсе kudo-N2-Def-Declension ;
-
+LEXICON Deverbals_1 ! kadoms
+:%>О1 Deverbals_noArrow ;
 +Use/Sub/Dial+Der/ОмО+Inf+Loc:%>мО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Use/Sub/Dial+Der/Омс+Inf+Tra:%>мО1%>кс osh-Tenses1 ;
 +Use/Sub/Dial+Der/ОмО+Inf+Abl:%>мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Use/Sub/Dial+Der/ОмО+Inf+Ill:%>мО1%>з osh-Possessive-Before-Clitic ;
 
-!!!!!!!!!
-!!Verbs2 
-LEXICON Deverbals_2
+LEXICON Deverbals_2 ! kundams
+:%> Deverbals_noArrow ;
 
-+Der/ОмА:%>мА1 kudo-N ;
-+Der/Омка:%>мка kudo-N ;
-+Der/Ома+Oblig:%>ма kudo-Tenses1 ;
-+Der/Омка+Oblig:%>мка kudo-Tenses1 ;
-+Der/ОмО+Inf+Loc:%>мО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/Омс+Inf+Ill:%>мс sajems-Conjugation ;
-+Der/ОмстО+Inf+Ela:%>мстО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/Омга+Inf+Prl:%>мга kudo-Possessive-Before-Clitic-or-Clitic ;
-+Deverbal+mdOInf+Abl:%>мдО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/ОмО+Inf+Abl:%>мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
-+Der/ОмО+Inf+Ill:%>мО1%>з osh-Possessive-Before-Clitic ;
-+Der/Озь+Ger:%>зь sajezj-PTC ; !!
-+Der/Онь+VGen:%>нь kal-Tenses1 ;
-+Der/Онь+VGen+Der/Dem:%>нсе kudo-N2-Def-Declension ;
-+Use/Sub/Dial+Der/Омс+Inf+Tra:%>мО1%>кс osh-Tenses1 ;
+LEXICON Deverbals_noArrow
++Der/ОмА:мА1 kudo-N ;
++Der/Ома+Oblig:ма kudo-Tenses1 ;
++Der/Омка+Oblig:мка kudo-Tenses1 ;
++Der/Омка:мка kudo-N ;
++Der/ОмО+Inf+Loc:мО1 kudo-Possessive-Before-Clitic-or-Clitic ;
++Der/Омс+Inf+Ill:мс sajems-Conjugation ;
++Der/ОмстО+Inf+Ela:мстО1 kudo-Possessive-Before-Clitic-or-Clitic ;
++Der/ОмсО+Inf+Ine:мсО1 kudo-Possessive-Before-Clitic-or-Clitic ;
++Der/Омга+Inf+Prl:мга kudo-Possessive-Before-Clitic-or-Clitic ;
++Der/ОмдО+Inf+Abl:мдО1 kudo-Possessive-Before-Clitic-or-Clitic ;
++Der/ОмО+Inf+Abl:мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
++Der/ОмО+Inf+Ill:мО1%>з osh-Possessive-Before-Clitic ;
++Der/Озь+Ger:зь sajezj-PTC ; !!
++Der/Онь+VGen:нь kal-Tenses1 ;
++Der/Онь+VGen+Der/Dem:нсе kudo-N2-Def-Declension ;
+
 
 LEXICON ActDemPtc
 +ActDemPtc: Adj-shumbra ;
