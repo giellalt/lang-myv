@@ -13,12 +13,16 @@ LEXICON VERBNEGATIVE
 
 
 LEXICON CondVerbs
-+Der/Ындеря+V+Cond+Conj:%>Ы2ндеря Conjunctive-kundams ;
-+Der/Ындеря+V+Cond:%>Ы2ндеря Indicative1 ;
-+Der/Ындеря+V+Cond+Ind+Nonpast+Sc3Sg:%>Ы2ндеряй Clitic ;
-+Der/Ындеря+V+Cond+Ind+Nonpast+Sc3Pl:%>Ы2ндеряйть Clitic ;
-+Der/Ындеря+V+Cond:%>Ы2ндеря   VerbsPresPrt_1 ;
-+Der/Ындеря+V+Cond:%>Ы2ндеря   Deverbals_2 ;
++Der/Ындеря+Cond+V+Pred+Conj:%>Ы2ндеря Conjunctive-kundams ;
++Der/Ындеря+Cond+V:%>Ы2ндеря Indicative1 ;
++Der/Ындеря+Cond+V+Pred+Ind+Prt1+Sc3Sg:%>Ы2ндерясь Clitic ;
++Der/Ындеря+Cond+V+Pred+Ind+Prt1+Sc3Pl:%>Ы2ндерясть Clitic ;
+!2012-04-24 rather odd and infrequent
++Der/Ындеря+Cond+V+Pred+Ind+Prt2:%>Ы2ндеря IndicativePrt2_kundams ;
++Der/Ындеря+Cond+V+Pred+Ind+Nonpast+Sc3Sg:%>Ы2ндеряй Clitic ;
++Der/Ындеря+Cond+V+Pred+Ind+Nonpast+Sc3Pl:%>Ы2ндеряйть Clitic ;
++Der/Ындеря+Cond+V:%>Ы2ндеря   VerbsPresPrt_1 ;
++Der/Ындеря+Cond+V:%>Ы2ндеря   Deverbals_2 ;
 
 
 LEXICON V-ledems_ObjAll
@@ -128,13 +132,13 @@ LEXICON V-kadoms-a
 !+Cond:%>Ы2ндеря   Deverbals_2 ;
 !! <"@C.TLOSS@"> CondVerbs ;
  CondVerbs ;
-+Pred+Des: Desiderative1 ;
++Pred+Des: Desiderative-kadoms ;
  Indicative1 ;
 +Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kadoms ;
 +Pred+Imp: Imperative1 ;
-+Pred+Opt: Optative1 ;
++Pred+Opt: Optative-kadoms ;
 
 LEXICON V-sajevems
 +V: V-kadoms-a ;
@@ -158,13 +162,13 @@ LEXICON V-kundams
 
 LEXICON V-kundams-a
  CondVerbs ;
-+Pred+Des: Desiderative2 ;
++Pred+Des: Desiderative-kundams ;
  Indicative1 ;
 +Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kundams ;
 +Pred+Imp: Imperative2 ;
-+Pred+Opt: Optative1 ;
++Pred+Opt: Optative-kundams ;
 
 
 LEXICON V-satoms
@@ -188,7 +192,7 @@ LEXICON V-letems
 
 LEXICON V-satoms-a
  CondVerbs ;
-+Pred+Des: Desiderative2 ;
++Pred+Des: Desiderative-kadoms ;
  Indicative1 ;
 +Use/Sub/Dial+Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Use/Sub/Dial+Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
@@ -196,7 +200,7 @@ LEXICON V-satoms-a
 +Pred+Ind+Prt1+Sc3Pl:%>О1тсть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kadoms ;
 +Pred+Imp: Imperative2 ;
-+Pred+Opt: Optative1 ;
++Pred+Opt: Optative-kadoms ;
 
 LEXICON Indicative1
 +Pred+Ind+Prt1: IndicativePretI-plus ;
@@ -513,322 +517,186 @@ LEXICON Derya_KLoss
 +Pcle+Conj:деря Clitic ;
  ImpClitic ;
 
-LEXICON Desiderative1
+LEXICON Desiderative-kadoms
+:%> Desiderative-noArrow ;
++Use/Sub/Dial+Prt2+Sc1Sg:%>О1ксылинь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg:%>О1ксылить Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg:%>О1ксыль Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl:%>О1ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl:%>О1ксылиде Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl:%>О1ксыльть Clitic ;
+< 0:"%>" 0:"О1" "@R.CONJ.ObjAll@"> Desiderative_Obj-dial-noArrow ;
+
+LEXICON Desiderative-kundams
+:%> Desiderative-noArrow ;
++Use/Sub/Dial+Prt2+Sc1Sg:%>ксылинь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg:%>ксылить Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg:%>ксыль Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl:%>ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl:%>ксылиде Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl:%>ксыльть Clitic ;
+< 0:"%>" "@R.CONJ.ObjAll@"> Desiderative_Obj-dial-noArrow ;
+
+LEXICON Desiderative-noArrow
 !Desiderative Preterite II
-+Sc1Sg:%>Ы2ксэлинь Clitic ;
-+Sc2Sg:%>Ы2ксэлить Clitic ;
-+Sc3Sg:%>Ы2ксэль Clitic ;
-+Sc1Pl:%>Ы2ксэлинек lak-Clitic ;
-+Sc2Pl:%>Ы2ксэлиде Clitic ;
-+Sc3Pl:%>Ы2ксэльть Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg:%>Ы2кскелинь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg:%>Ы2кскелить Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg:%>Ы2кскель Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl:%>Ы2кскелинек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl:%>Ы2кскелиде Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl:%>Ы2кскельть Clitic ;
-+Use/Sub/Dial+Sc1Sg:%>Ы2ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg:%>Ы2ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg:%>Ы2ксыль Clitic ;
-+Use/Sub/Dial+Sc1Pl:%>Ы2ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl:%>Ы2ксылиде Clitic ;
-+Use/Sub/Dial+Sc3Pl:%>Ы2ксыльть Clitic ;
-+Use/Sub/Dial+Sc1Sg:%>О1ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg:%>О1ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg:%>О1ксыль Clitic ;
-+Use/Sub/Dial+Sc1Pl:%>О1ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl:%>О1ксылиде Clitic ;
-+Use/Sub/Dial+Sc3Pl:%>О1ксыльть Clitic ;
++Prt2+Sc1Sg:Ы2ксэлинь Clitic ;
++Prt2+Sc2Sg:Ы2ксэлить Clitic ;
++Prt2+Sc3Sg:Ы2ксэль Clitic ;
++Prt2+Sc1Pl:Ы2ксэлинек lak-Clitic ;
++Prt2+Sc2Pl:Ы2ксэлиде Clitic ;
++Prt2+Sc3Pl:Ы2ксэльть Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Sg:Ы2кскелинь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Sg:Ы2кскелить Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg:Ы2кскель Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Pl:Ы2кскелинек lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Pl:Ы2кскелиде Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl:Ы2кскельть Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg:Ы2ксылинь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg:Ы2ксылить Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg:Ы2ксыль Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl:Ы2ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl:Ы2ксылиде Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl:Ы2ксыльть Clitic ;
 <"@R.CONJ.ObjAll@"> Desiderative1_Obj ;
 
 LEXICON Desiderative1_Obj
-+Sc1Sg+Oc2Sg:%>Ы2ксэлитинь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc2Sg:%>Ы2ксэлитень Clitic ;
-+Sc1Sg+Oc3Sg:%>Ы2ксэлия Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Sg:%>Ы2ксэлие Clitic ;
-+Sc1Sg+Oc3Pl:%>Ы2ксэлинь Clitic ;
-+Sc2Sg+Oc1Sg:%>Ы2ксэлимик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Sg:%>Ы2ксэлимек lak-Clitic ;
-+Sc2Sg+Oc3Sg:%>Ы2ксэлик lak-Clitic ;
-+Sc2Sg+Oc3Pl:%>Ы2ксэлить Clitic ;
-+Sc3Sg+Oc1Sg:%>Ы2ксэлимим Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Sg:%>Ы2ксэлимем Clitic ;
-+Sc3Sg+Oc2Sg:%>Ы2ксэлинзеть Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Sg:%>Ы2ксэлинзить Clitic ;
-+Sc3Sg+Oc3Sg:%>Ы2ксэлизе Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2ксэльсе Clitic ;
-+Sc3Sg+Oc3Pl:%>Ы2ксэлинзе Clitic ;
-+Sc1Pl+Oc3Sg:%>Ы2ксэлинек lak-Clitic ;
-+Sc1Pl+Oc3Pl:%>Ы2ксэлинек lak-Clitic ;
-+Sc2Pl+Oc3Sg:%>Ы2ксэлинк lak-Clitic ;
-+Sc2Pl+Oc3Pl:%>Ы2ксэлинк lak-Clitic ;
-+Sc3Pl+Oc3Sg:%>Ы2ксэлизь Clitic ;
-+Sc3Pl+Oc3Pl:%>Ы2ксэлизь Clitic ;
-+Sc2Sg+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc2Pl+Oc1Sg:%>Ы2ксэлимизь Clitic ;
-+Sc2Pl+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc3Sg+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc3Pl+Oc1Sg:%>Ы2ксэлимизь Clitic ;
-+Sc3Pl+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc1Sg+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-+Sc1Pl+Oc2Sg:%>Ы2ксэлидизь Clitic ;
-+Sc1Pl+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-+Sc3Sg+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-+Sc3Pl+Oc2Sg:%>Ы2ксэлидизь Clitic ;
-+Sc3Pl+Oc2Pl:%>Ы2ксэлидизь Clitic ;
++Prt2+Sc1Sg+Oc2Sg:Ы2ксэлитинь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc2Sg:Ы2ксэлитень Clitic ;
++Prt2+Sc1Sg+Oc3Sg:Ы2ксэлия Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc3Sg:Ы2ксэлие Clitic ;
++Prt2+Sc1Sg+Oc3Pl:Ы2ксэлинь Clitic ;
++Prt2+Sc2Sg+Oc1Sg:Ы2ксэлимик lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc1Sg:Ы2ксэлимек lak-Clitic ;
++Prt2+Sc2Sg+Oc3Sg:Ы2ксэлик lak-Clitic ;
++Prt2+Sc2Sg+Oc3Pl:Ы2ксэлить Clitic ;
++Prt2+Sc3Sg+Oc1Sg:Ы2ксэлимим Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc1Sg:Ы2ксэлимем Clitic ;
++Prt2+Sc3Sg+Oc2Sg:Ы2ксэлинзеть Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc2Sg:Ы2ксэлинзить Clitic ;
++Prt2+Sc3Sg+Oc3Sg:Ы2ксэлизе Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc3Sg:Ы2ксэльсе Clitic ;
++Prt2+Sc3Sg+Oc3Pl:Ы2ксэлинзе Clitic ;
++Prt2+Sc1Pl+Oc3Sg:Ы2ксэлинек lak-Clitic ;
++Prt2+Sc1Pl+Oc3Pl:Ы2ксэлинек lak-Clitic ;
++Prt2+Sc2Pl+Oc3Sg:Ы2ксэлинк lak-Clitic ;
++Prt2+Sc2Pl+Oc3Pl:Ы2ксэлинк lak-Clitic ;
++Prt2+Sc3Pl+Oc3Sg:Ы2ксэлизь Clitic ;
++Prt2+Sc3Pl+Oc3Pl:Ы2ксэлизь Clitic ;
++Prt2+Sc2Sg+Oc1Pl:Ы2ксэлимизь Clitic ;
++Prt2+Sc2Pl+Oc1Sg:Ы2ксэлимизь Clitic ;
++Prt2+Sc2Pl+Oc1Pl:Ы2ксэлимизь Clitic ;
++Prt2+Sc3Sg+Oc1Pl:Ы2ксэлимизь Clitic ;
++Prt2+Sc3Pl+Oc1Sg:Ы2ксэлимизь Clitic ;
++Prt2+Sc3Pl+Oc1Pl:Ы2ксэлимизь Clitic ;
++Prt2+Sc1Sg+Oc2Pl:Ы2ксэлидизь Clitic ;
++Prt2+Sc1Pl+Oc2Sg:Ы2ксэлидизь Clitic ;
++Prt2+Sc1Pl+Oc2Pl:Ы2ксэлидизь Clitic ;
++Prt2+Sc3Sg+Oc2Pl:Ы2ксэлидизь Clitic ;
++Prt2+Sc3Pl+Oc2Sg:Ы2ксэлидизь Clitic ;
++Prt2+Sc3Pl+Oc2Pl:Ы2ксэлидизь Clitic ;
 !Dial
-+Use/Sub/Dial+Dim+Sc1Sg+Oc2Sg:%>Ы2кскелитинь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc2Sg:%>Ы2кскелитень Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc3Sg:%>Ы2кскелия Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc3Pl:%>Ы2кскелинь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc1Sg:%>Ы2кскелимик lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc1Sg:%>Ы2кскелимек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc3Sg:%>Ы2кскелик lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc3Pl:%>Ы2кскелить Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc1Sg:%>Ы2кскелимим Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc1Sg:%>Ы2кскелимем Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc2Sg:%>Ы2кскелинзеть Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc2Sg:%>Ы2кскелинзить Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc3Sg:%>Ы2кскелизе Clitic ;
-+Use/Sub/Dial+Dim+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2кскельсе Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc3Pl:%>Ы2кскелинзе Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc3Sg:%>Ы2кскелинек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc3Pl:%>Ы2кскелинек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc3Sg:%>Ы2кскелинк lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc3Pl:%>Ы2кскелинк lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc3Sg:%>Ы2кскелизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc3Pl:%>Ы2кскелизь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc1Sg:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc1Sg:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc2Pl:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc2Sg:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc2Pl:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc2Pl:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc2Sg:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc2Pl:%>Ы2кскелидизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Sg+Oc2Sg:Ы2кскелитинь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Sg+Oc2Sg:Ы2кскелитень Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Sg+Oc3Sg:Ы2кскелия Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Sg+Oc3Pl:Ы2кскелинь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Sg+Oc1Sg:Ы2кскелимик lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Sg+Oc1Sg:Ы2кскелимек lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Sg+Oc3Sg:Ы2кскелик lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Sg+Oc3Pl:Ы2кскелить Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc1Sg:Ы2кскелимим Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc1Sg:Ы2кскелимем Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc2Sg:Ы2кскелинзеть Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc2Sg:Ы2кскелинзить Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc3Sg:Ы2кскелизе Clitic ;
++Use/Sub/Dial+Dim+Use/Sub/Dial+Prt2+Sc3Sg+Oc3Sg:Ы2кскельсе Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc3Pl:Ы2кскелинзе Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Pl+Oc3Sg:Ы2кскелинек lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Pl+Oc3Pl:Ы2кскелинек lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Pl+Oc3Sg:Ы2кскелинк lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Pl+Oc3Pl:Ы2кскелинк lak-Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl+Oc3Sg:Ы2кскелизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl+Oc3Pl:Ы2кскелизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Sg+Oc1Pl:Ы2кскелимизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Pl+Oc1Sg:Ы2кскелимизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc2Pl+Oc1Pl:Ы2кскелимизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc1Pl:Ы2кскелимизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl+Oc1Sg:Ы2кскелимизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl+Oc1Pl:Ы2кскелимизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Sg+Oc2Pl:Ы2кскелидизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Pl+Oc2Sg:Ы2кскелидизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc1Pl+Oc2Pl:Ы2кскелидизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Sg+Oc2Pl:Ы2кскелидизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl+Oc2Sg:Ы2кскелидизь Clitic ;
++Use/Sub/Dial+Dim+Prt2+Sc3Pl+Oc2Pl:Ы2кскелидизь Clitic ;
 
-+Use/Sub/Dial+Sc1Sg+Oc2Sg:%>Ы2ксылитинь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Sg:%>Ы2ксылия Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Pl:%>Ы2ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Sg:%>Ы2ксылимик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Sg:%>Ы2ксылик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Sg:%>Ы2ксылимим Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Sg:%>Ы2ксылинзеть Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2ксылизе Clitic ;
-+Use/Sub/Dial+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2ксыльсе Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Pl:%>Ы2ксылинзе Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Sg:%>Ы2ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Pl:%>Ы2ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Sg:%>Ы2ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Pl:%>Ы2ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Sg:%>Ы2ксылизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Pl:%>Ы2ксылизь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Sg:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Sg:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc2Pl:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Sg:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Pl:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Pl:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Sg:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Pl:%>Ы2ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc2Sg:Ы2ксылитинь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc3Sg:Ы2ксылия Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc3Pl:Ы2ксылинь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc1Sg:Ы2ксылимик lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc3Sg:Ы2ксылик lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc3Pl:Ы2ксылить Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc1Sg:Ы2ксылимим Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc2Sg:Ы2ксылинзеть Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc3Sg:Ы2ксылизе Clitic ;
++Use/Sub/Dial+Use/Sub/Dial+Prt2+Sc3Sg+Oc3Sg:Ы2ксыльсе Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc3Pl:Ы2ксылинзе Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc3Sg:Ы2ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc3Pl:Ы2ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc3Sg:Ы2ксылинк lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc3Pl:Ы2ксылинк lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc3Sg:Ы2ксылизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc3Pl:Ы2ксылизь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc1Pl:Ы2ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc1Sg:Ы2ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc1Pl:Ы2ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc1Pl:Ы2ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc1Sg:Ы2ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc1Pl:Ы2ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc2Pl:Ы2ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc2Sg:Ы2ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc2Pl:Ы2ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc2Pl:Ы2ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc2Sg:Ы2ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc2Pl:Ы2ксылидизь Clitic ;
 
-+Use/Sub/Dial+Sc1Sg+Oc2Sg:%>О1ксылитинь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Sg:%>О1ксылия Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Pl:%>О1ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Sg:%>О1ксылимик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Sg:%>О1ксылик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>О1ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Sg:%>О1ксылимим Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Sg:%>О1ксылинзеть Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>О1ксылизе Clitic ;
-+Use/Sub/Dial+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>О1ксыльсе Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Pl:%>О1ксылинзе Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Sg:%>О1ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Pl:%>О1ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Sg:%>О1ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Pl:%>О1ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Sg:%>О1ксылизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Pl:%>О1ксылизь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Pl:%>О1ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Sg:%>О1ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Pl:%>О1ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Pl:%>О1ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Sg:%>О1ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Pl:%>О1ксылимизь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc2Pl:%>О1ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Sg:%>О1ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Pl:%>О1ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Pl:%>О1ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Sg:%>О1ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Pl:%>О1ксылидизь Clitic ;
+LEXICON Desiderative_Obj-dial-noArrow
++Use/Sub/Dial+Prt2+Sc1Sg+Oc2Sg:ксылитинь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc3Sg:ксылия Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc3Pl:ксылинь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc1Sg:ксылимик lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc3Sg:ксылик lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc3Pl:ксылить Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc1Sg:ксылимим Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc2Sg:ксылинзеть Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc3Sg:ксылизе Clitic ;
++Use/Sub/Dial+Use/Sub/Dial+Prt2+Sc3Sg+Oc3Sg:ксыльсе Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc3Pl:ксылинзе Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc3Sg:ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc3Pl:ксылинек lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc3Sg:ксылинк lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc3Pl:ксылинк lak-Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc3Sg:ксылизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc3Pl:ксылизь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Sg+Oc1Pl:ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc1Sg:ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc2Pl+Oc1Pl:ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc1Pl:ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc1Sg:ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc1Pl:ксылимизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Sg+Oc2Pl:ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc2Sg:ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc1Pl+Oc2Pl:ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Sg+Oc2Pl:ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc2Sg:ксылидизь Clitic ;
++Use/Sub/Dial+Prt2+Sc3Pl+Oc2Pl:ксылидизь Clitic ;
 
-LEXICON Desiderative2
-!Desiderative Preterite II
-+Sc1Sg:%>Ы2ксэлинь Clitic ;
-+Sc2Sg:%>Ы2ксэлить Clitic ;
-+Sc3Sg:%>Ы2ксэль Clitic ;
-+Sc1Pl:%>Ы2ксэлинек lak-Clitic ;
-+Sc2Pl:%>Ы2ксэлиде Clitic ;
-+Sc3Pl:%>Ы2ксэльть Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg:%>Ы2кскелинь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg:%>Ы2кскелить Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg:%>Ы2кскель Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl:%>Ы2кскелинек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl:%>Ы2кскелиде Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl:%>Ы2кскельть Clitic ;
-+Use/Sub/Dial+Sc1Sg:%>Ы2ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg:%>Ы2ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg:%>Ы2ксыль Clitic ;
-+Use/Sub/Dial+Sc1Pl:%>Ы2ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl:%>Ы2ксылиде Clitic ;
-+Use/Sub/Dial+Sc3Pl:%>Ы2ксыльть Clitic ;
-+Use/Sub/Dial+Sc1Sg:%>ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg:%>ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg:%>ксыль Clitic ;
-+Use/Sub/Dial+Sc1Pl:%>ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl:%>ксылиде Clitic ;
-+Use/Sub/Dial+Sc3Pl:%>ксыльть Clitic ;
-<"@R.CONJ.ObjAll@"> Desiderative2_Obj ;
-
-LEXICON Desiderative2_Obj
-+Sc1Sg+Oc2Sg:%>Ы2ксэлитинь Clitic ;
-+Sc1Sg+Oc3Sg:%>Ы2ксэлия Clitic ;
-+Sc1Sg+Oc3Pl:%>Ы2ксэлинь Clitic ;
-+Sc2Sg+Oc1Sg:%>Ы2ксэлимик lak-Clitic ;
-+Sc2Sg+Oc3Sg:%>Ы2ксэлик lak-Clitic ;
-+Sc2Sg+Oc3Pl:%>Ы2ксэлить Clitic ;
-+Sc3Sg+Oc1Sg:%>Ы2ксэлимим Clitic ;
-+Sc3Sg+Oc2Sg:%>Ы2ксэлинзеть Clitic ;
-+Sc3Sg+Oc3Sg:%>Ы2ксэлизе Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2ксэльсе Clitic ;
-+Sc3Sg+Oc3Pl:%>Ы2ксэлинзе Clitic ;
-+Sc1Pl+Oc3Sg:%>Ы2ксэлинек lak-Clitic ;
-+Sc1Pl+Oc3Pl:%>Ы2ксэлинек lak-Clitic ;
-+Sc2Pl+Oc3Sg:%>Ы2ксэлинк lak-Clitic ;
-+Sc2Pl+Oc3Pl:%>Ы2ксэлинк lak-Clitic ;
-+Sc3Pl+Oc3Sg:%>Ы2ксэлизь Clitic ;
-+Sc3Pl+Oc3Pl:%>Ы2ксэлизь Clitic ;
-+Sc2Sg+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc2Pl+Oc1Sg:%>Ы2ксэлимизь Clitic ;
-+Sc2Pl+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc3Sg+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc3Pl+Oc1Sg:%>Ы2ксэлимизь Clitic ;
-+Sc3Pl+Oc1Pl:%>Ы2ксэлимизь Clitic ;
-+Sc1Sg+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-+Sc1Pl+Oc2Sg:%>Ы2ксэлидизь Clitic ;
-+Sc1Pl+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-+Sc3Sg+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-+Sc3Pl+Oc2Sg:%>Ы2ксэлидизь Clitic ;
-+Sc3Pl+Oc2Pl:%>Ы2ксэлидизь Clitic ;
-!Dial
-+Use/Sub/Dial+Dim+Sc1Sg+Oc2Sg:%>Ы2кскелитинь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc3Sg:%>Ы2кскелия Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc3Pl:%>Ы2кскелинь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc1Sg:%>Ы2кскелимик lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc3Sg:%>Ы2кскелик lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc3Pl:%>Ы2кскелить Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc1Sg:%>Ы2кскелимим Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc2Sg:%>Ы2кскелинзеть Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc3Sg:%>Ы2кскелизе Clitic ;
-+Use/Sub/Dial+Dim+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2кскельсе Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc3Pl:%>Ы2кскелинзе Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc3Sg:%>Ы2кскелинек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc3Pl:%>Ы2кскелинек lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc3Sg:%>Ы2кскелинк lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc3Pl:%>Ы2кскелинк lak-Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc3Sg:%>Ы2кскелизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc3Pl:%>Ы2кскелизь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Sg+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc1Sg:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc2Pl+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc1Sg:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc1Pl:%>Ы2кскелимизь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Sg+Oc2Pl:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc2Sg:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc1Pl+Oc2Pl:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Sg+Oc2Pl:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc2Sg:%>Ы2кскелидизь Clitic ;
-+Use/Sub/Dial+Dim+Sc3Pl+Oc2Pl:%>Ы2кскелидизь Clitic ;
-
-+Use/Sub/Dial+Sc1Sg+Oc2Sg:%>Ы2ксылитинь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Sg:%>Ы2ксылия Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Pl:%>Ы2ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Sg:%>Ы2ксылимик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Sg:%>Ы2ксылик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Sg:%>Ы2ксылимим Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Sg:%>Ы2ксылинзеть Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2ксылизе Clitic ;
-+Use/Sub/Dial+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>Ы2ксыльсе Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Pl:%>Ы2ксылинзе Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Sg:%>Ы2ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Pl:%>Ы2ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Sg:%>Ы2ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Pl:%>Ы2ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Sg:%>Ы2ксылизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Pl:%>Ы2ксылизь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Sg:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Sg:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Pl:%>Ы2ксылимизь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc2Pl:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Sg:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Pl:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Pl:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Sg:%>Ы2ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Pl:%>Ы2ксылидизь Clitic ;
-
-+Use/Sub/Dial+Sc1Sg+Oc2Sg:%>ксылитинь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Sg:%>ксылия Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Pl:%>ксылинь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Sg:%>ксылимик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Sg:%>ксылик lak-Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>ксылить Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Sg:%>ксылимим Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Sg:%>ксылинзеть Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>ксылизе Clitic ;
-+Use/Sub/Dial+Use/Sub/Dial+Sc3Sg+Oc3Sg:%>ксыльсе Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc3Pl:%>ксылинзе Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Sg:%>ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc3Pl:%>ксылинек lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Sg:%>ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc3Pl:%>ксылинк lak-Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Sg:%>ксылизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc3Pl:%>ксылизь Clitic ;
-+Use/Sub/Dial+Sc2Sg+Oc1Pl:%>ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Sg:%>ксылимизь Clitic ;
-+Use/Sub/Dial+Sc2Pl+Oc1Pl:%>ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc1Pl:%>ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Sg:%>ксылимизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc1Pl:%>ксылимизь Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc2Pl:%>ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Sg:%>ксылидизь Clitic ;
-+Use/Sub/Dial+Sc1Pl+Oc2Pl:%>ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Sg+Oc2Pl:%>ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Sg:%>ксылидизь Clitic ;
-+Use/Sub/Dial+Sc3Pl+Oc2Pl:%>ксылидизь Clitic ;
 
 
 LEXICON ILYA
- Optative1 ;
-+Gr2000+Sc1Sg:зан Clitic ;
-+Gr2000+Sc2Sg:зат Clitic ;
-+Gr2000+Sc3Sg:зо Clitic ;
-+Gr2000+Sc1Pl:зтано Clitic ;
-+Gr2000+Sc2Pl:зтадо Clitic ;
-+Gr2000+Sc3Pl:зт Clitic ;
+ Optative-kundams ;
++Sc1Sg:зан Clitic ;
++Sc2Sg:зат Clitic ;
++Sc3Sg:зо Clitic ;
 +Sc1Pl:стано Clitic ;
 +Sc2Pl:стадо Clitic ;
 +Sc3Pl:ст Clitic ;
@@ -836,6 +704,11 @@ LEXICON ILYA
 +Imp+Sc2Sg: ImpClitic ;
 +Imp+Sc2Pl:%>до ImpClitic ;
 <"@R.CONJ.ObjAll@"> ILYA_Obj ;
+! Attested in Grammar 2000
++Sc1Pl:зтано Clitic ;
++Sc2Pl:зтадо Clitic ;
++Sc3Pl:зт Clitic ;
+
 
 LEXICON ILYA_Obj
 +Use/Sub/Dial+Opt+Sc1Sg+Oc2Pl:%>Ы2дезь # ;
@@ -963,59 +836,60 @@ LEXICON Imperative2_LVReq_Obj
 +Sc3Pl+Oc1Pl:мизь ImpClitic ;
 
 
-LEXICON Optative1
-!Optative
-  Optative1_A ;
+LEXICON Optative-kadoms
+:%>О1 Optative-noArrow ;
 
-!Verbs1 comes here
-LEXICON Optative1_A
-+Gr2000+Sc1Sg:%>О1зан Clitic ;
-+Gr2000+Sc2Sg:%>О1зат Clitic ;
-+Gr2000+Sc3Sg:%>О1зО1 Clitic ;
-+Gr2000+Sc1Pl:%>О1зтано Clitic ;
-+Gr2000+Sc2Pl:%>О1зтадо Clitic ;
-+Gr2000+Sc3Pl:%>О1зт Clitic ;
-+Sc1Pl:%>О1стано Clitic ;
-+Sc2Pl:%>О1стадо Clitic ;
-+Sc3Pl:%>О1ст Clitic ;
+LEXICON Optative-kundams
+:%> Optative-noArrow ;
+
+LEXICON Optative-noArrow
++Sc1Pl:стано Clitic ;
++Sc2Pl:стадо Clitic ;
++Sc3Pl:ст Clitic ;
++Sc1Sg:зан Clitic ;
++Sc2Sg:зат Clitic ;
++Sc3Sg:зО1 Clitic ;
+!! Given in Grammar 2000
++Sc1Pl:зтано Clitic ;
++Sc2Pl:зтадо Clitic ;
++Sc3Pl:зт Clitic ;
 <"@R.CONJ.ObjAll@"> Optative1_A_Obj ;
 
 LEXICON Optative1_A_Obj
-+Gr2000+Sc1Sg+Oc2Sg:%>О1здан Clitic ;
-+Sc1Sg+Oc2Sg:%>О1зтан Clitic ;
-+Sc1Sg+Oc3Sg:%>О1са Clitic ;
-+Gr2000+Sc1Sg+Oc3Sg:%>О1зса Clitic ;
-+Use/Sub/Dial+Sc1Sg+Oc3Sg:%>О1сан Clitic ;
-+Gr2000+Sc1Sg+Oc3Pl:%>О1зсынь Clitic ;
-+Gr2000+Sc2Sg+Oc1Sg:%>О1змак lak-Clitic ;
-+Gr2000+Sc2Sg+Oc3Sg:%>О1зсак lak-Clitic ;
-+Gr2000+Sc2Sg+Oc3Pl:%>О1зсыть Clitic ;
-+Gr2000+Sc3Sg+Oc1Sg:%>О1змам Clitic ;
-+Gr2000+Sc3Sg+Oc2Sg:%>О1нзат Clitic ;
-+Gr2000+Sc3Sg+Oc3Sg:%>О1зсы Clitic ;
-+Sc3Sg+Oc3Sg:%>О1ссО1 Clitic ;
-!+Sc3Sg+Oc3Sg:%>О1сазо Clitic ;
-+Gr2000+Sc3Sg+Oc3Pl:%>О1зсынзе Clitic ;
-+Gr2000+Sc1Pl+Oc3Sg:%>О1зсынек lak-Clitic ;
-+Gr2000+Sc1Pl+Oc3Pl:%>О1зсынек lak-Clitic ;
-+Gr2000+Sc2Pl+Oc3Sg:%>О1зсынк lak-Clitic ;
-+Gr2000+Sc2Pl+Oc3Pl:%>О1зсынк lak-Clitic ;
-+Gr2000+Sc3Pl+Oc3Sg:%>О1зсызь Clitic ;
-+Gr2000+Sc3Pl+Oc3Pl:%>О1зсызь Clitic ;
-+Gr2000+Sc2Sg+Oc1Pl:%>О1змизь Clitic ;
-+Gr2000+Sc2Pl+Oc1Sg:%>О1змизь Clitic ;
-+Gr2000+Sc2Pl+Oc1Pl:%>О1змизь Clitic ;
-+Gr2000+Sc3Sg+Oc1Pl:%>О1змизь Clitic ;
-+Gr2000+Sc3Pl+Oc1Sg:%>О1змизь Clitic ;
-+Gr2000+Sc3Pl+Oc1Pl:%>О1змизь Clitic ;
-+Gr2000+Sc1Sg+Oc2Pl:%>О1зтадызь Clitic ;
-+Gr2000+Sc1Pl+Oc2Sg:%>О1зтадызь Clitic ;
-+Gr2000+Sc1Pl+Oc2Pl:%>О1зтадызь Clitic ;
-+Gr2000+Sc3Sg+Oc2Pl:%>О1зтадызь Clitic ;
-+Gr2000+Sc3Pl+Oc2Sg:%>О1зтадызь Clitic ;
-+Gr2000+Sc3Pl+Oc2Pl:%>О1зтадызь Clitic ;
-
-
++Sc1Sg+Oc2Sg:зтан Clitic ;
++Sc1Sg+Oc3Sg:са Clitic ;
++Use/Sub/Dial+Sc1Sg+Oc3Sg:сан Clitic ;
++Sc3Sg+Oc3Sg:ссО1 Clitic ;
+!+Sc3Sg+Oc3Sg:сазо Clitic ;
+!! Introduced in Grammar 2000
++Sc1Sg+Oc2Sg:здан Clitic ;
++Sc1Sg+Oc3Sg:зса Clitic ;
++Sc1Sg+Oc3Pl:зсынь Clitic ;
++Sc2Sg+Oc1Sg:змак lak-Clitic ;
++Sc2Sg+Oc3Sg:зсак lak-Clitic ;
++Sc2Sg+Oc3Pl:зсыть Clitic ;
++Sc3Sg+Oc1Sg:змам Clitic ;
++Sc3Sg+Oc2Sg:нзат Clitic ;
++Sc3Sg+Oc3Sg:зсы Clitic ;
++Sc3Sg+Oc3Pl:зсынзе Clitic ;
++Sc1Pl+Oc3Sg:зсынек lak-Clitic ;
++Sc1Pl+Oc3Pl:зсынек lak-Clitic ;
++Sc2Pl+Oc3Sg:зсынк lak-Clitic ;
++Sc2Pl+Oc3Pl:зсынк lak-Clitic ;
++Sc3Pl+Oc3Sg:зсызь Clitic ;
++Sc3Pl+Oc3Pl:зсызь Clitic ;
++Sc2Sg+Oc1Pl:змизь Clitic ;
++Sc2Pl+Oc1Sg:змизь Clitic ;
++Sc2Pl+Oc1Pl:змизь Clitic ;
++Sc3Sg+Oc1Pl:змизь Clitic ;
++Sc3Pl+Oc1Sg:змизь Clitic ;
++Sc3Pl+Oc1Pl:змизь Clitic ;
++Sc1Sg+Oc2Pl:зтадызь Clitic ;
++Sc1Pl+Oc2Sg:зтадызь Clitic ;
++Sc1Pl+Oc2Pl:зтадызь Clitic ;
++Sc3Sg+Oc2Pl:зтадызь Clitic ;
++Sc3Pl+Oc2Sg:зтадызь Clitic ;
++Sc3Pl+Oc2Pl:зтадызь Clitic ;
 
 
 LEXICON ImpClitic
@@ -1038,9 +912,9 @@ LEXICON ImpClitic
 !+ClitKayatya:%>каятя # ;
 
 LEXICON VerbsPresPrt_1
-+Der/Ыця+ActDemPtc:%>Ы2ця kudo-N ;
-+Der/Ый+DeverbalPrsPrtMedium:%>Ы2й kal-N ;
-+Der/Ы+DeverbalPrsPrtShort:%>Ы2 kudo-N ;
++Der/Ыця+ActDemPtc:%>Ы2ця Adj-shumbra ;
++Der/Ый+ActPtcLong:%>Ы2й Adj-od ;
++Der/Ы+ActPtcShort:%>Ы2 Adj-shumbra ;
 
 LEXICON Deverbals_1 ! kadoms
 :%>О1 Deverbals_noArrow ;
@@ -1075,6 +949,8 @@ LEXICON ActDemPtc
 
 LEXICON sajezj-PTC
  Adj-vanjks ;
+ kal-NomSg-Conjugation-only ;
+ kal-NomPl-Conjugation-only ;
  Clitic ;
 
 LEXICON Ptc-Telic ! sajevtj
@@ -1240,6 +1116,7 @@ LEXICON kudo-Tenses-NomSg
  Clitic ;
 +Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
 +Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
++Pred+Ind+NonPast+Sc3Sg: Clitic ;
 +Pred+Ind+Prt2+Sc1Sg:%>линь Clitic ;
 +Pred+Ind+Prt2+Sc2Sg:%>лить Clitic ;
 +Pred+Ind+Prt2+Sc3Sg:%>ль Clitic ;

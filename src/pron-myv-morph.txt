@@ -504,11 +504,13 @@ LEXICON Indef_Pronouns-Clitic
 <"@D.INDEF.PREF@"> Indef_Pronouns-Clitic-post ;
 
 LEXICON Indef_Pronouns-Clitic-pref
-+Pref+Clit+Indef: # ;
+! Removing +Clit tag, this is a derivation
++Pref+Indef: # ;
 
 LEXICON Indef_Pronouns-Clitic-post
-+Der/бути+Clt+Indef:%-бути # ;
-+Der/Гак+Clt+Indef:%>Г1ак # ;
+! Removing +Clit tag, these derivations
++Der/бути+Indef:%-бути # ;
++Der/Гак+Indef:%>Г1ак # ;
 +Relat:  # ;
 +Interr:  # ;
 
