@@ -554,66 +554,67 @@ LEXICON Root
 TESTINGTESTING ;
 !SUBSTANDARDS ; ! temporary solution
 
-! contlexes    ! the file, where the contlex is located
-! ------------ ! ---------------------------------------
-A ;			   ! ../../tmp/out/A_myv-lex.xml
-ADV ;		   ! ../../tmp/out/ADV_myv-lex.xml
-AD-A ;		   ! ../../tmp/out/AD-A_myv-lex.xml
-Abbreviation ; ! abbr-myv-lex.txt
-!2012-03-14!ABBR ;			   ! ../../tmp/out/ABBR_myv-lex.xml
-Acronym ;	   ! acro-myv-lex.txt
-!2012-03-14!ACRON ;			   ! ../../tmp/out/ACRON_myv-lex.xml
-BAHUVRIHI ;	  ! ../../tmp/out/BAHUVRIHI_myv-lex.xml
-CONJ ;		   ! ../../tmp/out/CONJ_myv-lex.xml
-DEM ;	   ! ../../tmp/out/DEM_myv-lex.xml !! Dem can be Adn or Pron
-DV-N ;	      ! ../../tmp/out/DV-N_myv-lex.xml !! 
-!2012-03-14!IDIOM ;		   ! ../../tmp/out/IDIOM_myv-lex.xml
-INTERJ ;	   ! ../../tmp/out/INTERJ_myv-lex.xml
-MANNER ;  ! ../../tmp/out/MANNER_myv-lex.xml
-N ;			 !!!!!  ! ../../tmp/out/N_myv-lex.xml
-  ! working_files/PHRASE-N_myv-lex.xml
-  ! working_files/PHRASE-V_myv-lex.xml
-PTC ;			 ! ../../tmp/out/PTC_myv-lex.xml !! 
-!2012-03-14!N-DV ;			   ! ../../tmp/out/N-DV_myv-lex.xml
-!2012-03-14!N-F ;			   ! ../../tmp/out/N-F_myv-lex.xml
-!2012-03-14!No-e-element-N ;	   ! ../../tmp/out/No-e-element-N_myv-lex.xml
-!2012-03-14!No-e-element-V ;	   ! ../../tmp/out/No-e-element-V_myv-lex.xml
-QNT ;			   	   ! ../../tmp/out/QNT_myv-lex.xml
-!2012-03-14!NUM ;		   ! ../../tmp/out/NUM_myv-lex.xml
-!2012-03-14!NUM-PREFIXES ; ! num-myv-morph.txt
-PCLE ;		   !! particles ! ../../tmp/out/PCLE_myv-lex.xml
-!2012-03-14!PART-ONOM ;	   ! ../../tmp/out/PART-ONOM_myv-lex.xml
-PERS ;         ! pronoun !pers-myv-morph.txt
-               ! ../../tmp/out/PERS_myv-lex.xml.txt
-POSTP ;		   ! ../../tmp/out/POSTP_myv-lex.xml.txt
-ejs-PO ;	   ! Difficult postpositions such as эйс, эйсэ
-!2012-04-03! Misc_Pronouns ;
+! contlexes                             ! the file, where the contlex is located
+! ------------                          ! ---------------------------------------
+A ;                                     ! ../../tmp/out/A_myv-lex.xml
+ADV ;                                   ! ../../tmp/out/ADV_myv-lex.xml
+AD-A ;                                  ! ../../tmp/out/AD-A_myv-lex.xml
+Abbreviation ;                          ! abbr-myv-lex.txt
+!ABBR ;                                 ! ../../tmp/out/ABBR_myv-lex.xml           !2012-03-14
+Acronym ;                               ! acro-myv-lex.txt
+!ACRON ;                                ! ../../tmp/out/ACRON_myv-lex.xml          !2012-03-14
+BAHUVRIHI ;                             ! ../../tmp/out/BAHUVRIHI_myv-lex.xml
+CONJ ;                                  ! ../../tmp/out/CONJ_myv-lex.xml
+DEM ;                                   ! ../../tmp/out/DEM_myv-lex.xml !! Dem can be Adn or Pron
+DV-N ;                                  ! ../../tmp/out/DV-N_myv-lex.xml
+!IDIOM ;                                ! ../../tmp/out/IDIOM_myv-lex.xml          !2012-03-14
+INTERJ ;                                ! ../../tmp/out/INTERJ_myv-lex.xml
+MANNER ;                                ! ../../tmp/out/MANNER_myv-lex.xml
+N ;                                     ! ../../tmp/out/N_myv-lex.xml
+                                        ! working_files/PHRASE-N_myv-lex.xml
+                                        ! working_files/PHRASE-V_myv-lex.xml
+PTC ;                                   ! ../../tmp/out/PTC_myv-lex.xml !! 
+!N-DV ;                                 ! ../../tmp/out/N-DV_myv-lex.xml           !2012-03-14
+!N-F ;                                  ! ../../tmp/out/N-F_myv-lex.xml            !2012-03-14
+!No-e-element-N ;                       ! ../../tmp/out/No-e-element-N_myv-lex.xml !2012-03-14
+!No-e-element-V ;                       ! ../../tmp/out/No-e-element-V_myv-lex.xml !2012-03-14
+QNT ;                                   ! ../../tmp/out/QNT_myv-lex.xml
+!NUM ;                                  ! ../../tmp/out/NUM_myv-lex.xml            !2012-03-14
+!NUM-PREFIXES ;                         ! num-myv-morph.txt                        !2012-03-14
+PCLE ;                                  ! ../../tmp/out/PCLE_myv-lex.xml    ! particles
+!PART-ONOM ;                            ! ../../tmp/out/PART-ONOM_myv-lex.xml      !2012-03-14
+PERS ;                                  ! pronoun !pers-myv-morph.txt
+                                        ! ../../tmp/out/PERS_myv-lex.xml.txt
+POSTP ;                                 ! ../../tmp/out/POSTP_myv-lex.xml.txt
+ejs-PO ;                                ! Difficult postpositions such as эйс, эйсэ
+
+! Misc_Pronouns ;                                              !2012-04-03
  Indef_Pronouns ;
 @P.INDEF.PREF@  Indef_Pronouns-pref ;
-PRED2 ;	   ! ../../tmp/out/PRED2_myv-lex.xml !! Secondary Predication
-PRON ;	   ! ../../tmp/out/PRON_myv-lex.xml
-!2012-03-14!PRON-INDEF ;   ! ../../tmp/out/PRON-INDEF_myv-lex.xml
-!2012-03-14!PRON-INTER ;   ! ../../tmp/out/PRON-INTER_myv-lex.xml
-!2012-03-14!PRON-NEG ;	   ! pron-myv-morph.txt
-!2012-03-14!PRON-QNT ;	   ! ../../tmp/out/PRON-QNT_myv-lex.xml
-!2012-03-14!PRON-REFL ;	   ! ../../tmp/out/PRON-REFL_myv-lex.xml
-!2012-03-14!PRON-REL ;	   ! pron-myv-morph.txt
-PROP ;		   ! ../../tmp/out/PROP_myv-lex.xml
-!2012-03-14!PROP-RUSSIAN-TOPONYMS ;		   ! ../../tmp/out/PROPRUSSIAN-TOPONYMS_myv-lex.xml
-!2012-03-14!PROP-RUSSIAN-MALE-SURNAMES-Derivable ;		   ! ../../tmp/out/PROP-RUSSIAN-MALE-SURNAMES-Derivable_myv-lex.xml
-!2012-03-14!PROP-CYRILLIC-MALE-SURNAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-SURNAMES_myv-lex.xml
-!2012-03-14!PROP-RUSSIAN-MALE-NAMES-Derivable ;	  ! ../../tmp/out/PROP-RUSSIAN-MALE-NAMES-Derivable_myv-lex.xml
-PROP-CYRILLIC-MALE-NAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
-PROP-CYRILLIC-FEMALE-NAMES ;		   ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
-Punctuation ;  ! punct-myv-lex.txt
-SPAT ;  ! ../../tmp/out/SPAT_myv-lex.xml.txt
-TEMP ;  ! ../../tmp/out/TEMP_myv-lex.xml.txt
-V ;			   !!! ../../tmp/out/V_myv-lex.xml
-!2012-03-14!V-N2END ;			   ! ../../tmp/out/V-N2END_myv-lex.xml
-VERBNEGATIVE ; ! verb-myv-morph.txt
-Working-A ;			 ! ../../tmp/out/Working-A_myv-lex.xml !! 
-Working-N ;			 ! ../../tmp/out/Working-N_myv-lex.xml !! 
-Working-V ;			 ! ../../tmp/out/Working-V_myv-lex.xml !! 
+PRED2 ;                                 ! ../../tmp/out/PRED2_myv-lex.xml !! Secondary Predication
+PRON ;                                  ! ../../tmp/out/PRON_myv-lex.xml
+!PRON-INDEF ;                           ! ../../tmp/out/PRON-INDEF_myv-lex.xml                           !2012-03-14
+!PRON-INTER ;                           ! ../../tmp/out/PRON-INTER_myv-lex.xml                           !2012-03-14
+!PRON-NEG ;                             ! pron-myv-morph.txt                                             !2012-03-14
+!PRON-QNT ;                             ! ../../tmp/out/PRON-QNT_myv-lex.xml                             !2012-03-14
+!PRON-REFL ;                            ! ../../tmp/out/PRON-REFL_myv-lex.xml                            !2012-03-14
+!PRON-REL ;                             ! pron-myv-morph.txt                                             !2012-03-14
+PROP ;                                  ! ../../tmp/out/PROP_myv-lex.xml
+!PROP-RUSSIAN-TOPONYMS ;                ! ../../tmp/out/PROPRUSSIAN-TOPONYMS_myv-lex.xml                 !2012-03-14
+!PROP-RUSSIAN-MALE-SURNAMES-Derivable ; ! ../../tmp/out/PROP-RUSSIAN-MALE-SURNAMES-Derivable_myv-lex.xml !2012-03-14
+!PROP-CYRILLIC-MALE-SURNAMES ;          ! ../../tmp/out/PROP-CYRILLIC-MALE-SURNAMES_myv-lex.xml          !2012-03-14
+!PROP-RUSSIAN-MALE-NAMES-Derivable ;    ! ../../tmp/out/PROP-RUSSIAN-MALE-NAMES-Derivable_myv-lex.xml    !2012-03-14
+PROP-CYRILLIC-MALE-NAMES ;              ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
+PROP-CYRILLIC-FEMALE-NAMES ;            ! ../../tmp/out/PROP-CYRILLIC-MALE-NAMES_myv-lex.xml
+Punctuation ;                           ! punct-myv-lex.txt
+SPAT ;                                  ! ../../tmp/out/SPAT_myv-lex.xml.txt
+TEMP ;                                  ! ../../tmp/out/TEMP_myv-lex.xml.txt
+V ;                                     ! ../../tmp/out/V_myv-lex.xml
+!V-N2END ;                              ! ../../tmp/out/V-N2END_myv-lex.xml                              !2012-03-14
+VERBNEGATIVE ;                          ! verb-myv-morph.txt
+Working-A ;                             ! ../../tmp/out/Working-A_myv-lex.xml !! 
+Working-N ;                             ! ../../tmp/out/Working-N_myv-lex.xml !! 
+Working-V ;                             ! ../../tmp/out/Working-V_myv-lex.xml !! 
 
 
 
