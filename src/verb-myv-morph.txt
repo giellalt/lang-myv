@@ -14,13 +14,15 @@ LEXICON VERBNEGATIVE
 
 LEXICON CondVerbs
 +Der/Ындеря+Cond+V+Pred+Conj:%>Ы2ндеря Conjunctive-kundams ;
-+Der/Ындеря+Cond+V:%>Ы2ндеря Indicative1 ;
++Der/Ындеря+Cond+V:%>Ы2ндеря Indicative1-noSc3 ;
 +Der/Ындеря+Cond+V+Pred+Ind+Prt1+Sc3Sg:%>Ы2ндерясь Clitic ;
 +Der/Ындеря+Cond+V+Pred+Ind+Prt1+Sc3Pl:%>Ы2ндерясть Clitic ;
 !2012-04-24 rather odd and infrequent
 +Der/Ындеря+Cond+V+Pred+Ind+Prt2:%>Ы2ндеря IndicativePrt2_kundams ;
 +Der/Ындеря+Cond+V+Pred+Ind+NonPast+Sc3Sg:%>Ы2ндеряй Clitic ;
 +Der/Ындеря+Cond+V+Pred+Ind+NonPast+Sc3Pl:%>Ы2ндеряйть Clitic ;
++Use/Sub+Der/Ындеря+Cond+V+Pred+Ind+NonPast+Sc3Sg:%>Ы2ндери Clitic ;
++Use/Sub+Der/Ындеря+Cond+V+Pred+Ind+NonPast+Sc3Pl:%>Ы2ндерить Clitic ;
 +Der/Ындеря+Cond+V:%>Ы2ндеря   VerbsPresPrt_1 ;
 +Der/Ындеря+Cond+V:%>Ы2ндеря   Deverbals_2 ;
 
@@ -203,16 +205,19 @@ LEXICON V-satoms-a
 +Pred+Opt: Optative-kadoms ;
 
 LEXICON Indicative1
+ Indicative1-noSc3 ; ! This accommodates Cond
++Pred+Ind+NonPast+Sc3Sg:%>Ы2 Clitic ;
++Pred+Ind+NonPast+Sc3Pl:%>Ы2ть Clitic ;
+
+LEXICON Indicative1-noSc3
 +Pred+Ind+Prt1: IndicativePretI-plus ;
 !Indicative Non-past
 +Pred+Ind+NonPast+Sc1Sg:%>А2н Clitic ;
 +Pred+Ind+NonPast+Sc2Sg:%>А2т Clitic ;
-+Pred+Ind+NonPast+Sc3Sg:%>Ы2 Clitic ;
 +Pred+Ind+NonPast+Sc1Pl:%>тА2но Clitic ;
 +Pred+Ind+NonPast+Sc1Pl+Use/Sub/Dial:%>тА2м Clitic ;
 +Pred+Ind+NonPast+Sc1Pl+Use/Sub/DialKozl:%>тА2нок lak-Clitic ;
 +Pred+Ind+NonPast+Sc2Pl:%>тА2до Clitic ;
-+Pred+Ind+NonPast+Sc3Pl:%>Ы2ть Clitic ;
 ! Indicative Preterite I
 <"@R.CONJ.ObjAll@"> Indicative_Present_Obj ;
 < "+TLoss":0 "@R.TLOSS.ON@"> Indicative_Present_TLoss ;
@@ -705,9 +710,9 @@ LEXICON ILYA
 +Imp+Sc2Pl:%>до ImpClitic ;
 <"@R.CONJ.ObjAll@"> ILYA_Obj ;
 ! Attested in Grammar 2000
-+Sc1Pl:зтано Clitic ;
-+Sc2Pl:зтадо Clitic ;
-+Sc3Pl:зт Clitic ;
++Gr2000+Sc1Pl:зтано Clitic ;
++Gr2000+Sc2Pl:зтадо Clitic ;
++Gr2000+Sc3Pl:зт Clitic ;
 
 
 LEXICON ILYA_Obj
@@ -873,29 +878,30 @@ LEXICON Optative-noArrow
 +Sc2Sg:зат Clitic ;
 +Sc3Sg:зО1 Clitic ;
 !! Given in Grammar 2000
-+Sc1Pl:зтано Clitic ;
-+Sc2Pl:зтадо Clitic ;
-+Sc3Pl:зт Clitic ;
++Gr2000+Sc1Pl:зтано Clitic ;
++Gr2000+Sc2Pl:зтадо Clitic ;
++Gr2000+Sc3Pl:зт Clitic ;
 <"@R.CONJ.ObjAll@"> Optative1_A_Obj ;
 
 LEXICON Optative1_A_Obj
-+Sc1Sg+Oc2Sg:зтан Clitic ;
-+Sc1Sg+Oc3Sg:са Clitic ;
++Sc1Sg+Oc2Sg:стан Clitic ;
++Use/Sub/Morph+Sc1Sg+Oc2Sg:зтан Clitic ;
++Use/Sub+Sc1Sg+Oc3Sg:са Clitic ;
 +Sc1Sg+Oc3Sg:сса Clitic ;
 +Use/Sub/Dial+Sc1Sg+Oc3Sg:сан Clitic ;
 +Sc3Sg+Oc3Sg:ссО1 Clitic ;
-+Sc3Sg+Oc3Sg:зсО1 Clitic ;
 !+Sc3Sg+Oc3Sg:сазо Clitic ;
 !! Introduced in Grammar 2000
-+Sc1Sg+Oc2Sg:здан Clitic ;
-+Sc1Sg+Oc3Sg:зса Clitic ;
++Gr2000+Sc1Sg+Oc2Sg:здан Clitic ;
++Gr2000+Sc3Sg+Oc3Sg:зсО1 Clitic ;
++Gr2000+Sc1Sg+Oc3Sg:зса Clitic ;
++Gr2000+Sc3Sg+Oc3Sg:зсы Clitic ;
 +Sc1Sg+Oc3Pl:зсынь Clitic ;
 +Sc2Sg+Oc1Sg:змак lak-Clitic ;
 +Sc2Sg+Oc3Sg:зсак lak-Clitic ;
 +Sc2Sg+Oc3Pl:зсыть Clitic ;
 +Sc3Sg+Oc1Sg:змам Clitic ;
 +Sc3Sg+Oc2Sg:нзат Clitic ;
-+Sc3Sg+Oc3Sg:зсы Clitic ;
 +Sc3Sg+Oc3Pl:зсынзе Clitic ;
 +Sc1Pl+Oc3Sg:зсынек lak-Clitic ;
 +Sc1Pl+Oc3Pl:зсынек lak-Clitic ;
@@ -909,12 +915,18 @@ LEXICON Optative1_A_Obj
 +Sc3Sg+Oc1Pl:змизь Clitic ;
 +Sc3Pl+Oc1Sg:змизь Clitic ;
 +Sc3Pl+Oc1Pl:змизь Clitic ;
-+Sc1Sg+Oc2Pl:зтадызь Clitic ;
-+Sc1Pl+Oc2Sg:зтадызь Clitic ;
-+Sc1Pl+Oc2Pl:зтадызь Clitic ;
-+Sc3Sg+Oc2Pl:зтадызь Clitic ;
-+Sc3Pl+Oc2Sg:зтадызь Clitic ;
-+Sc3Pl+Oc2Pl:зтадызь Clitic ;
++Sc1Sg+Oc2Pl:стадызь Clitic ;
++Sc1Pl+Oc2Sg:стадызь Clitic ;
++Sc1Pl+Oc2Pl:стадызь Clitic ;
++Sc3Sg+Oc2Pl:стадызь Clitic ;
++Sc3Pl+Oc2Sg:стадызь Clitic ;
++Sc3Pl+Oc2Pl:стадызь Clitic ;
++Gr2000+Sc1Sg+Oc2Pl:зтадызь Clitic ;
++Gr2000+Sc1Pl+Oc2Sg:зтадызь Clitic ;
++Gr2000+Sc1Pl+Oc2Pl:зтадызь Clitic ;
++Gr2000+Sc3Sg+Oc2Pl:зтадызь Clitic ;
++Gr2000+Sc3Pl+Oc2Sg:зтадызь Clitic ;
++Gr2000+Sc3Pl+Oc2Pl:зтадызь Clitic ;
 
 
 LEXICON ImpClitic
@@ -956,6 +968,8 @@ LEXICON Deverbals_noArrow
 +Der/ОмА:мА1 kudo-N ;
 +Der/Ома+Oblig:ма kudo-Tenses1 ;
 +Der/Омка+Oblig:мка kudo-Tenses1 ;
++Der/Ома+Oblig+Pred+Ind+NonPast+Sc3Pl:мат Clitic ;
++Der/Омка+Oblig+Pred+Ind+NonPast+Sc3Pl:мкат Clitic ;
 +Der/Омка:мка kudo-N ;
 +Der/ОмО+Inf+Loc:мО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/Омс+Inf+Ill:мс sajems-Conjugation ;
