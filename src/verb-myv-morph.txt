@@ -19,8 +19,8 @@ LEXICON CondVerbs
 +Der/Ындеря+Cond+V+Pred+Ind+Prt1+Sc3Pl:%>Ы2ндерясть Clitic ;
 !2012-04-24 rather odd and infrequent
 +Der/Ындеря+Cond+V+Pred+Ind+Prt2:%>Ы2ндеря IndicativePrt2_kundams ;
-+Der/Ындеря+Cond+V+Pred+Ind+Nonpast+Sc3Sg:%>Ы2ндеряй Clitic ;
-+Der/Ындеря+Cond+V+Pred+Ind+Nonpast+Sc3Pl:%>Ы2ндеряйть Clitic ;
++Der/Ындеря+Cond+V+Pred+Ind+NonPast+Sc3Sg:%>Ы2ндеряй Clitic ;
++Der/Ындеря+Cond+V+Pred+Ind+NonPast+Sc3Pl:%>Ы2ндеряйть Clitic ;
 +Der/Ындеря+Cond+V:%>Ы2ндеря   VerbsPresPrt_1 ;
 +Der/Ындеря+Cond+V:%>Ы2ндеря   Deverbals_2 ;
 
@@ -137,7 +137,7 @@ LEXICON V-kadoms-a
 +Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kadoms ;
-+Pred+Imp: Imperative1 ;
++Pred+Imp: Imperative-kadoms ;
 +Pred+Opt: Optative-kadoms ;
 
 LEXICON V-sajevems
@@ -167,7 +167,7 @@ LEXICON V-kundams-a
 +Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kundams ;
-+Pred+Imp: Imperative2 ;
++Pred+Imp: Imperative-kundams ;
 +Pred+Opt: Optative-kundams ;
 
 
@@ -199,7 +199,7 @@ LEXICON V-satoms-a
 +Pred+Ind+Prt1+Sc3Sg:%>О1тсь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>О1тсть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kadoms ;
-+Pred+Imp: Imperative2 ;
++Pred+Imp: Imperative-kadoms ;
 +Pred+Opt: Optative-kadoms ;
 
 LEXICON Indicative1
@@ -748,13 +748,18 @@ LEXICON ILYA_Obj
 +Use/Sub/Dial+Opt+Sc3Sg+Oc1Sg:%>Ы2мам # ;
 +Opt+Sc3Sg+Oc2Sg:%>нзат # ;
 +Opt+Sc1Sg+Oc3Sg:%>са # ;
+! Attested in Grammar 2000
++Opt+Sc1Sg+Oc3Sg:%>зса # ;
++Opt+Sc3Pl+Oc3Sg:%>ссызь # ;
++Opt+Sc3Pl+Oc3Pl:%>ссызь # ;
+!
 +Opt+Sc3Sg+Oc1Sg:%>самам # ;
-+Gr2000+Opt+Sc3Pl+Oc3Sg:%>ссызь # ;
-+Gr2000+Opt+Sc3Pl+Oc3Pl:%>ссызь # ;
 +Opt+Sc3Pl+Oc3Sg:%>сызь # ;
 +Opt+Sc3Pl+Oc3Pl:%>сызь # ;
 +Use/Sub/Dial+Opt+Sc1Sg+Oc3Sg:%>ссан # ;
 +Opt+Sc3Sg+Oc3Sg:%>сО1 # ;
++Opt+Sc3Sg+Oc3Sg:%>ссО1 # ;
++Opt+Sc3Sg+Oc3Sg:%>зсО1 # ;
 +Opt+Sc1Sg+Oc2Sg:%>тан # ;
 +Opt+Sc1Sg+Oc2Sg:%>затан # ;
 +Opt+Sc3Pl+Oc3Sg:%>зь # ;
@@ -773,12 +778,30 @@ LEXICON ILYA_Obj
 +Imp+Sc3Pl+Oc1Sg:%>мизь ImpClitic ;
 +Imp+Sc3Pl+Oc1Pl:%>мизь ImpClitic ;
 
-!This is only for V-kadoms
-!
-LEXICON Imperative1
-!Imperative
-: Imperative2_NoLVReq ;
-<0:">"  "+LV":О1 "@P.LV.ON@"> Imperative2_LVReq ;
+LEXICON Imperative-kadoms
++Sc2Sg:%>К1Ь2 ImpClitic ;
++Sc2Pl:%>О1%>дО1 ImpClitic ;
+<"@R.CONJ.ObjAll@">  Imperative_Obj-kadoms ;
+
+LEXICON Imperative_Obj-kadoms
++Sc2Sg+Oc3Sg:%>Ы2к ImpClitic ;
++Sc2Sg+Oc3Pl:%>Ы2ть ImpClitic ;
+!!This dialect form is realised
+!!as the previous if followed by a clitic
++Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2 # ;
++Sc2Pl+Oc3Sg:%>Ы2нк ImpClitic ;
++Sc2Pl+Oc3Pl:%>Ы2нк ImpClitic ;
++Sc2Sg+Oc1Sg:%>О1мак ImpClitic ;
++Sc2Sg+Oc1Pl:%>О1мизь ImpClitic ;
++Sc2Pl+Oc1Sg:%>О1мизь ImpClitic ;
++Sc2Pl+Oc1Pl:%>О1мизь ImpClitic ;
++Sc3Sg+Oc1Pl:%>О1мизь ImpClitic ;
++Sc3Pl+Oc1Sg:%>О1мизь ImpClitic ;
++Sc3Pl+Oc1Pl:%>О1мизь ImpClitic ;
+
+
+!!: Imperative2_NoLVReq ;
+!!<0:">"  "+LV":О1 "@P.LV.ON@"> Imperative2_LVReq ;
 
 !LEXICON Imperative1_A
 !<"@D.LV.ON@"> Imperative2_NoLVReq ;
@@ -786,12 +809,12 @@ LEXICON Imperative1
 
 !Verbs2 and Verbs3 are directly routed here
 !
-LEXICON Imperative2
+LEXICON Imperative-kundams
 +Sc2Sg:%>К1Ь2 ImpClitic ;
 +Sc2Pl:%>дО1 ImpClitic ;
-<"@R.CONJ.ObjAll@">  Imperative2_Obj ;
+<"@R.CONJ.ObjAll@">  Imperative_Obj-kundams ;
 
-LEXICON Imperative2_Obj
+LEXICON Imperative_Obj-kundams
 +Sc2Sg+Oc3Sg:%>Ы2к ImpClitic ;
 +Sc2Sg+Oc3Pl:%>Ы2ть ImpClitic ;
 !!This dialect form is realised 
@@ -807,33 +830,33 @@ LEXICON Imperative2_Obj
 +Sc3Pl+Oc1Sg:%>мизь ImpClitic ;
 +Sc3Pl+Oc1Pl:%>мизь ImpClitic ;
 
-!Verbs1
-LEXICON Imperative2_NoLVReq
-+Sc2Sg:%>К1Ь2 ImpClitic ;
-<"@R.CONJ.ObjAll@">  Imperative2_NoLVReq_Obj ;
-
-LEXICON Imperative2_NoLVReq_Obj
-+Sc2Sg+Oc3Sg:%>Ы2к ImpClitic ;
-+Sc2Sg+Oc3Pl:%>Ы2ть ImpClitic ;
-!!This dialect form is realised 
-!!as the previous if followed by a clitic
-+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2 # ;
-+Sc2Pl+Oc3Sg:%>Ы2нк ImpClitic ;
-+Sc2Pl+Oc3Pl:%>Ы2нк ImpClitic ;
-
-!Verbs1
-LEXICON Imperative2_LVReq
-+Sc2Pl:дО1 ImpClitic ;
-<"@R.CONJ.ObjAll@">  Imperative2_LVReq_Obj ;
-
-LEXICON Imperative2_LVReq_Obj
-+Sc2Sg+Oc1Sg:мак ImpClitic ;
-+Sc2Sg+Oc1Pl:мизь ImpClitic ;
-+Sc2Pl+Oc1Sg:мизь ImpClitic ;
-+Sc2Pl+Oc1Pl:мизь ImpClitic ;
-+Sc3Sg+Oc1Pl:мизь ImpClitic ;
-+Sc3Pl+Oc1Sg:мизь ImpClitic ;
-+Sc3Pl+Oc1Pl:мизь ImpClitic ;
+!! !Verbs1
+!! LEXICON Imperative2_NoLVReq
+!! +Sc2Sg:%>К1Ь2 ImpClitic ;
+!! <"@R.CONJ.ObjAll@">  Imperative2_NoLVReq_Obj ;
+!! 
+!! LEXICON Imperative2_NoLVReq_Obj
+!! +Sc2Sg+Oc3Sg:%>Ы2к ImpClitic ;
+!! +Sc2Sg+Oc3Pl:%>Ы2ть ImpClitic ;
+!! !!This dialect form is realised 
+!! !!as the previous if followed by a clitic
+!! +Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2 # ;
+!! +Sc2Pl+Oc3Sg:%>Ы2нк ImpClitic ;
+!! +Sc2Pl+Oc3Pl:%>Ы2нк ImpClitic ;
+!! 
+!! !Verbs1
+!! LEXICON Imperative2_LVReq
+!! +Sc2Pl:дО1 ImpClitic ;
+!! <"@R.CONJ.ObjAll@">  Imperative2_LVReq_Obj ;
+!! 
+!! LEXICON Imperative2_LVReq_Obj
+!! +Sc2Sg+Oc1Sg:мак ImpClitic ;
+!! +Sc2Sg+Oc1Pl:мизь ImpClitic ;
+!! +Sc2Pl+Oc1Sg:мизь ImpClitic ;
+!! +Sc2Pl+Oc1Pl:мизь ImpClitic ;
+!! +Sc3Sg+Oc1Pl:мизь ImpClitic ;
+!! +Sc3Pl+Oc1Sg:мизь ImpClitic ;
+!! +Sc3Pl+Oc1Pl:мизь ImpClitic ;
 
 
 LEXICON Optative-kadoms
@@ -858,8 +881,10 @@ LEXICON Optative-noArrow
 LEXICON Optative1_A_Obj
 +Sc1Sg+Oc2Sg:зтан Clitic ;
 +Sc1Sg+Oc3Sg:са Clitic ;
++Sc1Sg+Oc3Sg:сса Clitic ;
 +Use/Sub/Dial+Sc1Sg+Oc3Sg:сан Clitic ;
 +Sc3Sg+Oc3Sg:ссО1 Clitic ;
++Sc3Sg+Oc3Sg:зсО1 Clitic ;
 !+Sc3Sg+Oc3Sg:сазо Clitic ;
 !! Introduced in Grammar 2000
 +Sc1Sg+Oc2Sg:здан Clitic ;
@@ -915,6 +940,7 @@ LEXICON VerbsPresPrt_1
 +Der/Ыця+ActDemPtc:%>Ы2ця Adj-shumbra ;
 +Der/Ый+ActPtcLong:%>Ы2й Adj-od ;
 +Der/Ы+ActPtcShort:%>Ы2 Adj-shumbra ;
++Der/Ы+ActPtcShort+Der/кс:%>Ы2кс Adj-vanjks ;
 
 LEXICON Deverbals_1 ! kadoms
 :%>О1 Deverbals_noArrow ;
@@ -939,7 +965,9 @@ LEXICON Deverbals_noArrow
 +Der/ОмдО+Inf+Abl:мдО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/ОмО+Inf+Abl:мО1%>дО1 kudo-Possessive-Before-Clitic-or-Clitic ;
 +Der/ОмО+Inf+Ill:мО1%>з osh-Possessive-Before-Clitic ;
++Der/Овт+TelicN:втЬ2 kit-N ; !!
 +Der/Озь+Ger:зь sajezj-PTC ; !!
++Der/Озь+Ger+Pred+Ind+NonPast+Sc3Pl:зь%>тЬ2 Clitic ; !!
 +Der/Онь+VGen:нь kal-Tenses1 ;
 +Der/Онь+VGen+Der/Dem:нсе kudo-N2-Def-Declension ;
 

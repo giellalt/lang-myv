@@ -190,7 +190,7 @@ Rules
 !
 "O1:e"
 О1:э <=>  LFCH %>:0 д:  _ [ %>:0 [ Г1:0 | SIVV ] | #: ] ;
-         [[[ LFCH | LFCS | ь: | й: | :FTV ] %>:0 ]| И2:0 %>:0 VLoss:0 | [FTV %>:0 | %>:0 [ О1:э | О1:е ] ] м ] с (т) _  [ #: |%>:0 [Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ;
+         [[[ LFCH | LFCS | ь: | й: | :FTV ] %>:0 ]| И2:0 %>:0 VLoss:0 | [FTV %>:0 | %>:0 [ О1:э | О1:е ] ] м ] (з) с (т) _  [ #: |%>:0 [Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ;
           [[[ LFCH | LFCS | :FTV ] %>:0 | :FTV ] (н) з | [LFCH | LFCS | :FTV | И2: ] %>:0 ( VLoss:0 ) з %>:0 ] _ [ #: | (%>:0) [ SIVV | л ] | %>:0 Г1:0 ] ;
          LFCH %>:0 в:0 т _ м [О1:0|О1:е] ;
           LFCH  %>:0 _ SIVV ;
@@ -203,7 +203,7 @@ Rules
          [[ LBC | :BTV ] %>:0 | :BTV ] [ н | м ] _ к ; ! Px1Pl
          [ LBC %>:0 | :BTV ( ( %>:0 ) м ) ( %>:0 ) ] д:  _ [ %>:0 [ Г1:0 |  SIVV ]| #: ] ; ! +Abl
          [ LBC | :BTV ] %>:0 в: т _ м [О1:0|О1:о] ; ! +Abe
-         [[ LBC | :BTV ] %>:0 | У2:0 %>:0 VLoss:0 | [ BTV %>:0 | О1:о ] м ] с (т) _  [ #: | %>:0 [ Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ; !
+         [[ LBC | :BTV ] %>:0 | У2:0 %>:0 VLoss:0 | [ BTV %>:0 | О1:о ] м ] (з) с (т) _  [ #: | %>:0 [ Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ; !
          [[[ LBC | :BTV ] %>:0 | :BTV ] (н) з | [ У2: %>:0 ( VLoss:0 ) | [ LBC | :BTV ] %>:0 ] з  %>:0 ] _  [ #: | %>:0 [ Г1:0 | т | н| с |Г2:в |д: ] | ( %>:0 ) [ SIVV | л ]] ;
          [ BTV %>:0 | BTV в:0 %>:0 WLoss:0 | :BTV ] в _ л [ ь | и ] ;
          LBC ( Ь2:0 ) %>:0 _ [( %>:0 ) SIVV | #: | %>:0 Г1:0  | К3:0 ] ;
@@ -260,25 +260,25 @@ Rules
 !!Solved in several contexts by declaring both lexical
 !!and surface forms in the alphabet.
 "G1:0"
-Г1:0 <=> [ :Vows ((%>:0) К3:0 )  %>:0 | К1: Ь2:0 %>:0 | :к %>:0 KLoss:0 ] _ а: ;
+Г1:0 <=> [ :Vows ((%>:0) К3:0 )  %>:0 | К1: Ь2:0 %>:0 KLoss:0 | :к %>:0 KLoss:0 ] _ а: ;
 
 "G1:g"
-Г1:г  <=> [ConsVoicedDent (:ь|Ь2:0)| й | [ ConsVoicedNonDent - г ] ( :ь )] %>:0 _ а ;
+Г1:г <=> [ConsVoicedDent (:ь|Ь2:0)| й | [ ConsVoicedNonDent - г ] ( :ь )] %>:0 _ а ;
 
 "G1:k"
-Г1:к  <=>  [ ConsVoicelessDent ( :ь | Ь2:0 | Ь2:ь ) | ConsVoicelessNonDent | г | К4:0 ] :0* %>:0 _ а  ;
+Г1:к <=>  [ ConsVoicelessDent ( :ь | Ь2:0 | Ь2:ь ) | ConsVoicelessNonDent | г | К1: Ь2: | К4:0 ] :0* %>:0 _ а  ;
           
 
 !Prolative
 "G2:g"
-Г2:г  <=> [ ConsVoicedDent ( :ь )| [ ConsVoicedNonDent - г ] ( :ь ) ] %>:0 _ а ;
+Г2:г <=> [ ConsVoicedDent ( :ь )| [ ConsVoicedNonDent - г ] ( :ь ) ] %>:0 _ а ;
 
 "G2:v"! 
-Г2:в  <=> [ :Vows (:0) %>:0 | :Vows ] _ а [ #: |%>:0 [Г1:0 | SIVV |т | н | с | д: | в | к с | л ] ];
+Г2:в <=> [ :Vows (:0) %>:0 | :Vows ] _ а [ #: |%>:0 [Г1:0 | SIVV |т | н | с | д: | в | к с | л ] ];
 
 
 "G2:k"
-Г2:к  <=>  [ ConsVoicelessDent ( :ь )| ConsVoicelessNonDent ( :ь )| г ] %>:0 _ а [ #: |%>:0 [Г1:0 | SIVV |т | н| с |д: |в |к с| л ] ] ;
+Г2:к <=>  [ ConsVoicelessDent ( :ь )| ConsVoicelessNonDent ( :ь )| г ] %>:0 _ а [ #: |%>:0 [Г1:0 | SIVV |т | н| с |д: |в |к с| л ] ] ;
            Vows ConsVoiceless [У2:0 | И2:0 ] %>:0 VLoss:0 _ а ;
 
 !!Depricated
@@ -312,7 +312,7 @@ Rules
 ! Suffix final hard vs soft
 !Adding "И2:0" 18.04.2007
 "U4:y"
-Ь2:ь  <=>  [[[ LFCS | :FTV ] %>:0 | О1:е | О1:э ] [ н | (н) т ] | И2:0 %>:0 VLoss:0 т | [ LFCS | ь: | :FTV ] %>:0 К1:т ]  _  [ #: | %>:0  Г1: ] ;
+Ь2:ь <=>  [[[ LFCS | :FTV | ь: ] %>:0 | О1:е | О1:э ] [ н | ( н | в ) т ] | И2:0 %>:0 VLoss:0 т | [ LFCS | ь: | :FTV ] %>:0 К1:т ]  _  [ #: | %>:0  Г1: ] ;
 
 
 !!TLoss sloppy
