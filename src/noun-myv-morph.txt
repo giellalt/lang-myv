@@ -30,6 +30,7 @@ LEXICON Adj-vitj
 +A+Pl: kit-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kit-N ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-erek
 +A: Clitic ;
@@ -38,6 +39,7 @@ LEXICON Adj-erek
 +A+Pl: lak-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: lak-N ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-od
 +A: Clitic ;
@@ -46,6 +48,7 @@ LEXICON Adj-od
 +A+Pl: kal-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kal-N ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-vanjks
 +A: Clitic ;
@@ -54,6 +57,7 @@ LEXICON Adj-vanjks
 +A+Pl: kal-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: osh-N ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-chevte
  Adj-nachko ;
@@ -68,6 +72,7 @@ LEXICON Adj-nachko
 +A+Pl: pango-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: pango-N ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-shumbra
 +A: Clitic ;
@@ -76,6 +81,8 @@ LEXICON Adj-shumbra
 +A+Pl: kudo-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 +A+Der/MWN: kudo-N ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
 
 LEXICON Adj-InterrRel ! кодамо
 +Interr: Adj-nachko ;
@@ -286,18 +293,18 @@ LEXICON kal-N-Derivation
 +Comp+Pl+Px3Sg+Der/MWN+N:%>О1шка%>нзО1 kudo-N2-Def-Declension ;
 +Abe+Sg+Px3Sg+Der/MWN+N:%>втО1мО1%>нзО1 kudo-N2-Def-Declension ;
 +Abe+Pl+Px3Sg+Der/MWN+N:%>втО1мО1%>нзО1 kudo-N2-Def-Declension ;
-+Gen+Sg+Px3Pl+Der/MWN+N:%>О1нО1к lak-N2-Def-Declension ;
-+Gen+Pl+Px3Pl+Der/MWN+N:%>О1нО1к lak-N2-Def-Declension ;
-+Ela+Sg+Px3Pl+Der/MWN+N:%>стО1%>нО1к lak-N2-Def-Declension ;
-+Ela+Pl+Px3Pl+Der/MWN+N:%>стО1%>нО1к lak-N2-Def-Declension ;
-+Ine+Sg+Px3Pl+Der/MWN+N:%>сО1%>нО1к lak-N2-Def-Declension ;
-+Ine+Pl+Px3Pl+Der/MWN+N:%>сО1%>нО1к lak-N2-Def-Declension ;
-+Prl+Sg+Px3Pl+Der/MWN+N:%>Г2а%>нО1к lak-N2-Def-Declension ;
-+Prl+Pl+Px3Pl+Der/MWN+N:%>Г2а%>нО1к lak-N2-Def-Declension ;
-+Comp+Sg+Px3Pl+Der/MWN+N:%>О1шка%>нО1к lak-N2-Def-Declension ;
-+Comp+Pl+Px3Pl+Der/MWN+N:%>О1шка%>нО1к lak-N2-Def-Declension ;
-+Abe+Sg+Px3Pl+Der/MWN+N:%>втО1мО1%>нО1к lak-N2-Def-Declension ;
-+Abe+Pl+Px3Pl+Der/MWN+N:%>втО1мО1%>нО1к lak-N2-Def-Declension ;
++Gen+Sg+Px1Pl+Der/MWN+N:%>О1нО1к lak-N2-Def-Declension ;
++Gen+Pl+Px1Pl+Der/MWN+N:%>О1нО1к lak-N2-Def-Declension ;
++Ela+Sg+Px1Pl+Der/MWN+N:%>стО1%>нО1к lak-N2-Def-Declension ;
++Ela+Pl+Px1Pl+Der/MWN+N:%>стО1%>нО1к lak-N2-Def-Declension ;
++Ine+Sg+Px1Pl+Der/MWN+N:%>сО1%>нО1к lak-N2-Def-Declension ;
++Ine+Pl+Px1Pl+Der/MWN+N:%>сО1%>нО1к lak-N2-Def-Declension ;
++Prl+Sg+Px1Pl+Der/MWN+N:%>Г2а%>нО1к lak-N2-Def-Declension ;
++Prl+Pl+Px1Pl+Der/MWN+N:%>Г2а%>нО1к lak-N2-Def-Declension ;
++Comp+Sg+Px1Pl+Der/MWN+N:%>О1шка%>нО1к lak-N2-Def-Declension ;
++Comp+Pl+Px1Pl+Der/MWN+N:%>О1шка%>нО1к lak-N2-Def-Declension ;
++Abe+Sg+Px1Pl+Der/MWN+N:%>втО1мО1%>нО1к lak-N2-Def-Declension ;
++Abe+Pl+Px1Pl+Der/MWN+N:%>втО1мО1%>нО1к lak-N2-Def-Declension ;
 +Gen+Sg+Px2Pl+Der/MWN+N:%>О1нк lak-N2-Def-Declension ;
 +Gen+Pl+Px2Pl+Der/MWN+N:%>О1нк lak-N2-Def-Declension ;
 +Ela+Sg+Px2Pl+Der/MWN+N:%>стО1%>нк lak-N2-Def-Declension ;
@@ -472,10 +479,10 @@ LEXICON klass-N-Derivation
 +SLoss+Ela+Pl+Px3Sg+Der/MWN+N:%>SLossстО1%>нзО1 kudo-N2-Def-Declension ;
 +SLoss+Ine+Sg+Px3Sg+Der/MWN+N:%>SLossсО1%>нзО1 kudo-N2-Def-Declension ;
 +SLoss+Ine+Pl+Px3Sg+Der/MWN+N:%>SLossсО1%>нзО1 kudo-N2-Def-Declension ;
-+SLoss+Ela+Sg+Px3Pl+Der/MWN+N:%>SLossстО1%>нО1к lak-N2-Def-Declension ;
-+SLoss+Ela+Pl+Px3Pl+Der/MWN+N:%>SLossстО1%>нО1к lak-N2-Def-Declension ;
-+SLoss+Ine+Sg+Px3Pl+Der/MWN+N:%>SLossсО1%>нО1к lak-N2-Def-Declension ;
-+SLoss+Ine+Pl+Px3Pl+Der/MWN+N:%>SLossсО1%>нО1к lak-N2-Def-Declension ;
++SLoss+Ela+Sg+Px1Pl+Der/MWN+N:%>SLossстО1%>нО1к lak-N2-Def-Declension ;
++SLoss+Ela+Pl+Px1Pl+Der/MWN+N:%>SLossстО1%>нО1к lak-N2-Def-Declension ;
++SLoss+Ine+Sg+Px1Pl+Der/MWN+N:%>SLossсО1%>нО1к lak-N2-Def-Declension ;
++SLoss+Ine+Pl+Px1Pl+Der/MWN+N:%>SLossсО1%>нО1к lak-N2-Def-Declension ;
 +SLoss+Ela+Sg+Px2Pl+Der/MWN+N:%>SLossстО1%>нк lak-N2-Def-Declension ;
 +SLoss+Ela+Pl+Px2Pl+Der/MWN+N:%>SLossстО1%>нк lak-N2-Def-Declension ;
 +SLoss+Ine+Sg+Px2Pl+Der/MWN+N:%>SLossсО1%>нк lak-N2-Def-Declension ;
@@ -508,10 +515,10 @@ LEXICON klass-N-Derivation
 +SLoss+Ela+Pl+Px3Sg+Der/Dem+Der/MWN+N:%>SLossстО1%>нзО1%>се kudo-N2-Def-Declension ;
 +SLoss+Ine+Sg+Px3Sg+Der/Dem+Der/MWN+N:%>SLossсО1%>нзО1%>се kudo-N2-Def-Declension ;
 +SLoss+Ine+Pl+Px3Sg+Der/Dem+Der/MWN+N:%>SLossсО1%>нзО1%>се kudo-N2-Def-Declension ;
-+SLoss+Ela+Sg+Px3Pl+Der/Dem+Der/MWN+N:%>SLossстО1%>нО1к%>се kudo-N2-Def-Declension ;
-+SLoss+Ela+Pl+Px3Pl+Der/Dem+Der/MWN+N:%>SLossстО1%>нО1к%>се kudo-N2-Def-Declension ;
-+SLoss+Ine+Sg+Px3Pl+Der/Dem+Der/MWN+N:%>SLossсО1%>нО1к%>се kudo-N2-Def-Declension ;
-+SLoss+Ine+Pl+Px3Pl+Der/Dem+Der/MWN+N:%>SLossсО1%>нО1к%>се kudo-N2-Def-Declension ;
++SLoss+Ela+Sg+Px1Pl+Der/Dem+Der/MWN+N:%>SLossстО1%>нО1к%>се kudo-N2-Def-Declension ;
++SLoss+Ela+Pl+Px1Pl+Der/Dem+Der/MWN+N:%>SLossстО1%>нО1к%>се kudo-N2-Def-Declension ;
++SLoss+Ine+Sg+Px1Pl+Der/Dem+Der/MWN+N:%>SLossсО1%>нО1к%>се kudo-N2-Def-Declension ;
++SLoss+Ine+Pl+Px1Pl+Der/Dem+Der/MWN+N:%>SLossсО1%>нО1к%>се kudo-N2-Def-Declension ;
 +SLoss+Ela+Sg+Px2Pl+Der/Dem+Der/MWN+N:%>SLossстО1%>нксе kudo-N2-Def-Declension ;
 +SLoss+Ela+Pl+Px2Pl+Der/Dem+Der/MWN+N:%>SLossстО1%>нксе kudo-N2-Def-Declension ;
 +SLoss+Ine+Sg+Px2Pl+Der/Dem+Der/MWN+N:%>SLossсО1%>нксе kudo-N2-Def-Declension ;
@@ -536,10 +543,10 @@ LEXICON osh-N-Derivation
 +LV+Ela+Pl+Px3Sg+Der/MWN+N:%>О1стО1%>нзО1 kudo-N2-Def-Declension ;
 +LV+Ine+Sg+Px3Sg+Der/MWN+N:%>О1сО1%>нзО1 kudo-N2-Def-Declension ;
 +LV+Ine+Pl+Px3Sg+Der/MWN+N:%>О1сО1%>нзО1 kudo-N2-Def-Declension ;
-+LV+Ela+Sg+Px3Pl+Der/MWN+N:%>О1стО1%>нО1к lak-N2-Def-Declension ;
-+LV+Ela+Pl+Px3Pl+Der/MWN+N:%>О1стО1%>нО1к lak-N2-Def-Declension ;
-+LV+Ine+Sg+Px3Pl+Der/MWN+N:%>О1сО1%>нО1к lak-N2-Def-Declension ;
-+LV+Ine+Pl+Px3Pl+Der/MWN+N:%>О1сО1%>нО1к lak-N2-Def-Declension ;
++LV+Ela+Sg+Px1Pl+Der/MWN+N:%>О1стО1%>нО1к lak-N2-Def-Declension ;
++LV+Ela+Pl+Px1Pl+Der/MWN+N:%>О1стО1%>нО1к lak-N2-Def-Declension ;
++LV+Ine+Sg+Px1Pl+Der/MWN+N:%>О1сО1%>нО1к lak-N2-Def-Declension ;
++LV+Ine+Pl+Px1Pl+Der/MWN+N:%>О1сО1%>нО1к lak-N2-Def-Declension ;
 +LV+Ela+Sg+Px2Pl+Der/MWN+N:%>О1стО1%>нк lak-N2-Def-Declension ;
 +LV+Ela+Pl+Px2Pl+Der/MWN+N:%>О1стО1%>нк lak-N2-Def-Declension ;
 +LV+Ine+Sg+Px2Pl+Der/MWN+N:%>О1сО1%>нк lak-N2-Def-Declension ;
@@ -572,10 +579,10 @@ LEXICON osh-N-Derivation
 +LV+Ela+Pl+Px3Sg+Der/Dem+Der/MWN+N:%>О1стО1%>нзО1%>се kudo-N2-Def-Declension ;
 +LV+Ine+Sg+Px3Sg+Der/Dem+Der/MWN+N:%>О1сО1%>нзО1%>се kudo-N2-Def-Declension ;
 +LV+Ine+Pl+Px3Sg+Der/Dem+Der/MWN+N:%>О1сО1%>нзО1%>се kudo-N2-Def-Declension ;
-+LV+Ela+Sg+Px3Pl+Der/Dem+Der/MWN+N:%>О1стО1%>нО1к%>се kudo-N2-Def-Declension ;
-+LV+Ela+Pl+Px3Pl+Der/Dem+Der/MWN+N:%>О1стО1%>нО1к%>се kudo-N2-Def-Declension ;
-+LV+Ine+Sg+Px3Pl+Der/Dem+Der/MWN+N:%>О1сО1%>нО1к%>се kudo-N2-Def-Declension ;
-+LV+Ine+Pl+Px3Pl+Der/Dem+Der/MWN+N:%>О1сО1%>нО1к%>се kudo-N2-Def-Declension ;
++LV+Ela+Sg+Px1Pl+Der/Dem+Der/MWN+N:%>О1стО1%>нО1к%>се kudo-N2-Def-Declension ;
++LV+Ela+Pl+Px1Pl+Der/Dem+Der/MWN+N:%>О1стО1%>нО1к%>се kudo-N2-Def-Declension ;
++LV+Ine+Sg+Px1Pl+Der/Dem+Der/MWN+N:%>О1сО1%>нО1к%>се kudo-N2-Def-Declension ;
++LV+Ine+Pl+Px1Pl+Der/Dem+Der/MWN+N:%>О1сО1%>нО1к%>се kudo-N2-Def-Declension ;
 +LV+Ela+Sg+Px2Pl+Der/Dem+Der/MWN+N:%>О1стО1%>нксе kudo-N2-Def-Declension ;
 +LV+Ela+Pl+Px2Pl+Der/Dem+Der/MWN+N:%>О1стО1%>нксе kudo-N2-Def-Declension ;
 +LV+Ine+Sg+Px2Pl+Der/Dem+Der/MWN+N:%>О1сО1%>нксе kudo-N2-Def-Declension ;
@@ -981,88 +988,35 @@ LEXICON kal-Indef-Declension
 +Ine+Pl+Indef:%>сО1 kudo-Conjugation ;
 +Prl+Sg+Indef:%>Г2а kudo-Conjugation ;
 +Prl+Pl+Indef:%>Г2а kudo-Conjugation ;
-+Comp+Sg+Indef:%>О1шка kudo-Conjugation ;
-+Comp+Pl+Indef:%>О1шка kudo-Conjugation ;
-+Com+Sg+Indef:%>О1нек lak-Clitic ;
-+Com+Pl+Indef:%>О1нек lak-Clitic ;
-+Abe+Sg+Indef:%>втО1мО1 kudo-Conjugation ;
-+Abe+Pl+Indef:%>втО1мО1 kudo-Conjugation ;
-+Tra+Sg+Indef:%>О1кс osh-Conjugation ;
-+Tra+Pl+Indef:%>О1кс osh-Conjugation ;
-+TempCx+Sg+Indef:%>не Clitic ;
-+TempCx+Pl+Indef:%>не Clitic ;
-
-LEXICON osh-Indef-Declension
-
-+Nom+Sg+Indef: kal-NomSg-Conjugation ;
-+Nom+Pl+Indef:%>тЬ2 kit-NomPl-Conjugation ;
-+Nom+Pl+Indef:%>тЬ2 Clitic ;
-+Nom+Pl+Indef: kal-NomPl-Conjugation ;
-+Gen+Sg+Indef:%>О1нь kal-Conjugation ;
-+Gen+Pl+Indef:%>О1нь kal-Conjugation ;
-+Dat+Sg+Indef:%>О1нень Clitic ;
-+Dat+Pl+Indef:%>О1нень Clitic ;
-+Abl+Sg+Indef:%>дО1 kudo-Conjugation ;
-+Abl+Pl+Indef:%>дО1 kudo-Conjugation ;
-+Ela+Sg+Indef:%>стО1 kudo-Conjugation ;
-+Ela+Pl+Indef:%>стО1 kudo-Conjugation ;
-+Ill+Sg+Indef:%>с Clitic ;
-+Ill+Pl+Indef:%>с Clitic ;
-+Ine+Sg+Indef:%>сО1 kudo-Conjugation ;
-+Ine+Pl+Indef:%>сО1 kudo-Conjugation ;
-+LV+Ela+Sg+Indef:%>О1стО1 kudo-Conjugation ;
-+LV+Ela+Pl+Indef:%>О1стО1 kudo-Conjugation ;
-+LV+Ill+Sg+Indef:%>О1с Clitic ;
-+LV+Ill+Pl+Indef:%>О1с Clitic ;
-+LV+Ine+Sg+Indef:%>О1сО1 kudo-Conjugation ;
-+LV+Ine+Pl+Indef:%>О1сО1 kudo-Conjugation ;
-+Prl+Sg+Indef:%>Г2а kudo-Conjugation ;
-+Prl+Pl+Indef:%>Г2а kudo-Conjugation ;
-+Comp+Sg+Indef:%>О1шка kudo-Conjugation ;
-+Comp+Pl+Indef:%>О1шка kudo-Conjugation ;
-+Com+Sg+Indef:%>О1нек lak-Clitic ;
-+Com+Pl+Indef:%>О1нек lak-Clitic ;
-+Abe+Sg+Indef:%>втО1мО1 kudo-Conjugation ;
-+Abe+Pl+Indef:%>втО1мО1 kudo-Conjugation ;
-+Tra+Sg+Indef:%>О1кс osh-Conjugation ;
-+Tra+Pl+Indef:%>О1кс osh-Conjugation ;
-+TempCx+Sg+Indef:%>не Clitic ;
-+TempCx+Pl+Indef:%>не Clitic ;
-+Lat+Sg+Indef:%>О1в Clitic ;
-+Lat+Pl+Indef:%>О1в Clitic ;
-
-LEXICON pango-Indef-Declension
-
-+Nom+Sg+Indef: pango-NomSg-Conjugation ;
-+Nom+Pl+Indef:%>тЬ2 kit-NomPl-Conjugation ;
-+Nom+Pl+Indef:%>тЬ2 Clitic ;
-+Nom+Pl+Indef: pango-NomPl-Conjugation-only ;
-+Gen+Sg+Indef:%>нь kal-Conjugation ;
-+Gen+Pl+Indef:%>нь kal-Conjugation ;
-+Dat+Sg+Indef:%>нень Clitic ;
-+Dat+Pl+Indef:%>нень Clitic ;
-+Abl+Sg+Indef:%>дО1 kudo-Conjugation ;
-+Abl+Pl+Indef:%>дО1 kudo-Conjugation ;
-+Ela+Sg+Indef:%>стО1 kudo-Conjugation ;
-+Ela+Pl+Indef:%>стО1 kudo-Conjugation ;
-+Ill+Sg+Indef:%>с Clitic ;
-+Ill+Pl+Indef:%>с Clitic ;
-+Lat+Sg+Indef:%>в Clitic ;
-+Lat+Pl+Indef:%>в Clitic ;
-+Ine+Sg+Indef:%>сО1 kudo-Conjugation ;
-+Ine+Pl+Indef:%>сО1 kudo-Conjugation ;
-+Prl+Sg+Indef:%>Г2а kudo-Conjugation ;
-+Prl+Pl+Indef:%>Г2а kudo-Conjugation ;
-+Comp+Sg+Indef:%>шка kudo-Conjugation ;
-+Comp+Pl+Indef:%>шка kudo-Conjugation ;
 +Com+Sg+Indef:%>нек lak-Clitic ;
 +Com+Pl+Indef:%>нек lak-Clitic ;
 +Abe+Sg+Indef:%>втО1мО1 kudo-Conjugation ;
 +Abe+Pl+Indef:%>втО1мО1 kudo-Conjugation ;
++Comp+Sg+Indef:%>О1шка kudo-Conjugation ;
++Comp+Pl+Indef:%>О1шка kudo-Conjugation ;
++Tra+Sg+Indef:%>О1кс osh-Conjugation ;
++Tra+Pl+Indef:%>О1кс osh-Conjugation ;
++Comp+Sg+Indef:%>шка kudo-Conjugation ;
++Comp+Pl+Indef:%>шка kudo-Conjugation ;
 +Tra+Sg+Indef:%>кс osh-Conjugation ;
 +Tra+Pl+Indef:%>кс osh-Conjugation ;
 +TempCx+Sg+Indef:%>не Clitic ;
 +TempCx+Pl+Indef:%>не Clitic ;
+
+LEXICON osh-Indef-Declension
+ kal-Indef-Declension ;
++Ela+Sg+Indef:%>О1стО1 kudo-Conjugation ;
++Ela+Pl+Indef:%>О1стО1 kudo-Conjugation ;
++Ill+Sg+Indef:%>О1с Clitic ;
++Ill+Pl+Indef:%>О1с Clitic ;
++Ine+Sg+Indef:%>О1сО1 kudo-Conjugation ;
++Ine+Pl+Indef:%>О1сО1 kudo-Conjugation ;
+
+
+
+LEXICON pango-Indef-Declension
+ kudo-Indef-Declension ;
++Nom+Pl+Indef: pango-NomPl-Conjugation-only ;
 !
 +Nom+Pl+Indef:%>VLossтЬ2 kit-NomPl-Conjugation ;
 +Nom+Pl+Indef:%>VLossтЬ2 Clitic ;
@@ -1170,13 +1124,6 @@ LEXICON pango-N-Poss-Declension-CX-SG
 +Abl+Sg:%>VLossдО1 kudo-N-Poss-Declension-PossX ;
 +Ela+Sg:%>VLossстО1 kudo-N-Poss-Declension-PossX ;
 +Ine+Sg:%>VLossсО1 kudo-N-Poss-Declension-PossX ;
-!! +Nom+Sg+Px1Sg:%>м kal-NomSg-Conjugation ;
-!! +Gen+Sg+Px1Sg:%>м kal-Conjugation ;
-!! +Nom+Sg+Px2Sg+Use/Sub/Dial:%>тЬ2 kit-NomSg-Conjugation ;
-!! +Nom+Sg+Px3Sg:%>зО1 kudo-NomSg-Conjugation ;
-!! +Gen+Sg+Px3Sg+Inanim+Use/Sub/Dial:%>зО1 kudo-Conjugation ;
-!! +Nom+Sg+Px3Pl+Use/Sub/Dial:%>мО1к lak-NomSg-Conjugation ;
-!!  kudo-N-Poss-Declension-CX-NbAmb ;
 
 LEXICON pango-N-Poss-Declension-CX-PL
  kudo-N-Poss-Declension-CX-PL ;
@@ -1184,53 +1131,6 @@ LEXICON pango-N-Poss-Declension-CX-PL
 +Ela+Pl:%>VLossстО1 kudo-N-Poss-Declension-PossX ;
 +Ine+Pl:%>VLossсО1 kudo-N-Poss-Declension-PossX ;
 
-!! +Nom+Pl+Px1Sg:%>нЬ2 kal-NomPl-Conjugation ;
-!! +Nom+Pl+Px1Sg:%>нЬ2 Clitic ;
-!! +Gen+Pl+Px1Sg:%>нЬ2 kal-Conjugation ;
-!! +Nom+Pl+Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-NomPl-Conjugation ;
-!! +Nom+Pl+Px2Sg+Use/Sub/Dial:%>нтЬ2 Clitic ;
-!! +Nom+Pl+Px3Sg:%>нзО1 kudo-NomPl-Conjugation ;
-!! 
-!! LEXICON pango-N-Poss-Declension-CX-NbAmb
-!! +Nom+Sg+Px1Sg+Use/Sub/Dial:%>м kal-NomSg-Conjugation ;
-!! +Gen+Sg+Px1Sg+Use/Sub/Dial:%>м kal-Conjugation ;
-!! +Gen+Pl+Px1Sg+Use/Sub/Dial:%>м kal-Conjugation ;
-!! +Nom+Sg+Px2Sg:%>тЬ2 kit-NomSg-Conjugation ;
-!! +Gen+Sg+Px2Sg:%>тЬ2 kit-Conjugation ;
-!! +Gen+Pl+Px2Sg:%>тЬ2 kit-Conjugation ;
-!! +Gen+Sg+Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-Conjugation ;
-!! +Gen+Pl+Px2Sg+Use/Sub/Dial:%>нтЬ2 kit-Conjugation ;
-!! +Gen+Sg+Px3Sg:%>нзО1 kudo-Conjugation ;
-!! +Gen+Pl+Px3Sg:%>нзО1 kudo-Conjugation ;
-!! +Dat+Sg+Px3:%>нстэнь kudo-Conjugation ;
-!! +Dat+Pl+Px3:%>нстэнь kudo-Conjugation ;
-!! +Nom+Sg+Px3Pl:%>нО1к lak-NomSg-Conjugation ;
-!! +Nom+Pl+Px3Pl:%>нО1к lak-NomPl-Conjugation ;
-!! +Gen+Sg+Px3Pl:%>нО1к lak-Conjugation ;
-!! +Gen+Pl+Px3Pl:%>нО1к lak-Conjugation ;
-!! +Nom+Sg+Px2Pl:%>нк lak-NomSg-Conjugation ;
-!! +Nom+Pl+Px2Pl:%>нк lak-NomPl-Conjugation ;
-!! +Gen+Sg+Px2Pl:%>нк lak-Conjugation ;
-!! +Gen+Pl+Px2Pl:%>нк lak-Conjugation ;
-!! +Nom+Pl+Px3Pl:%>ст kit-NomPl-Conjugation ;
-!! +Gen+Sg+Px3Pl:%>ст kit-Conjugation ;
-!! +Gen+Pl+Px3Pl:%>ст kit-Conjugation ;
-!! +Comp+Sg:%>шка kudo-N-Poss-Declension-PossX ;
-!! +Comp+Pl:%>шка kudo-N-Poss-Declension-PossX ;
-!! +Abe+Sg:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-!! +Abe+Pl:%>втО1мО1 kudo-N-Poss-Declension-PossX ;
-!! +Tra+Sg:%>кс osh-N-Poss-Declension-PossX ;
-!! +Tra+Pl:%>кс osh-N-Poss-Declension-PossX ;
-!! +Ill+Sg:%>з osh-N-Poss-Declension-PossX ;
-!! +Ill+Pl:%>з osh-N-Poss-Declension-PossX ;
-!! +Abl+Sg:%>дО1 kudo-N-Poss-Declension-PossX ;
-!! +Abl+Pl:%>дО1 kudo-N-Poss-Declension-PossX ;
-!! +Ela+Sg:%>стО1 kudo-N-Poss-Declension-PossX ;
-!! +Ela+Pl:%>стО1 kudo-N-Poss-Declension-PossX ;
-!! +Ine+Sg:%>сО1 kudo-N-Poss-Declension-PossX ;
-!! +Ine+Pl:%>сО1 kudo-N-Poss-Declension-PossX ;
-!! +Prl+Sg:%>Г2а kudo-N-Poss-Declension-PossX ;
-!! +Prl+Pl:%>Г2а kudo-N-Poss-Declension-PossX ;
 
 LEXICON kudo-N-Poss-Declension-CX
  kudo-N-Poss-Declension-CX-SG ;
@@ -1264,7 +1164,7 @@ LEXICON kudo-N-Poss-Declension-CX-SG-noArrow
 +Gen+Sg+Px3Pl:ст kit-Conjugation ;
 +Dat+Sg+Px3Sg:нстэнь Clitic ;
 +Dat+Sg+Px3Pl:нстэнь Clitic ;
-+Gen+Sg+Px3Pl:нО1к lak-Conjugation ;
++Gen+Sg+Px1Pl:нО1к lak-Conjugation ;
 +Gen+Sg+Px2Pl:нк lak-Conjugation ;
 +Gen+Sg+Px3Pl:ст kit-Conjugation ;
 +Comp+Sg:шка kudo-N-Poss-Declension-PossX ;
