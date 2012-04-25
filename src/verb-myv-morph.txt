@@ -139,7 +139,7 @@ LEXICON V-kadoms-a
 +Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kadoms ;
-+Pred+Imp: Imperative-kadoms ;
++Pred+Imprt: Imperative-kadoms ;
 +Pred+Opt: Optative-kadoms ;
 
 LEXICON V-sajevems
@@ -169,7 +169,7 @@ LEXICON V-kundams-a
 +Pred+Ind+Prt1+Sc3Sg:%>сь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>сть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kundams ;
-+Pred+Imp: Imperative-kundams ;
++Pred+Imprt: Imperative-kundams ;
 +Pred+Opt: Optative-kundams ;
 
 
@@ -201,7 +201,7 @@ LEXICON V-satoms-a
 +Pred+Ind+Prt1+Sc3Sg:%>О1тсь Clitic ;
 +Pred+Ind+Prt1+Sc3Pl:%>О1тсть Clitic ;
 +Pred+Ind+Prt2: IndicativePrt2_kadoms ;
-+Pred+Imp: Imperative-kadoms ;
++Pred+Imprt: Imperative-kadoms ;
 +Pred+Opt: Optative-kadoms ;
 
 LEXICON Indicative1
@@ -706,8 +706,8 @@ LEXICON ILYA
 +Sc2Pl:стадо Clitic ;
 +Sc3Pl:ст Clitic ;
 +Opt+Sc3Sg:%>зО1 # ;
-+Imp+Sc2Sg: ImpClitic ;
-+Imp+Sc2Pl:%>до ImpClitic ;
++Imprt+Sc2Sg: ImpClitic ;
++Imprt+Sc2Pl:%>до ImpClitic ;
 <"@R.CONJ.ObjAll@"> ILYA_Obj ;
 ! Attested in Grammar 2000
 +Gr2000+Sc1Pl:зтано Clitic ;
@@ -769,19 +769,19 @@ LEXICON ILYA_Obj
 +Opt+Sc1Sg+Oc2Sg:%>затан # ;
 +Opt+Sc3Pl+Oc3Sg:%>зь # ;
 +Opt+Sc3Pl+Oc3Pl:%>зь # ;
-+Imp+Sc2Sg+Oc1Sg:%>мак ImpClitic ;
-+Use/Sub/Dial+Imp+Sc2Sg+Oc1Sg:%>Ы2мак ImpClitic ;
-+Imp+Sc2Sg+Oc3Sg:%>ак ImpClitic ;
-+Imp+Sc2Sg+Oc3Pl:%>Ы2ть ImpClitic ;
-+Imp+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2 ImpClitic ;
-+Imp+Sc2Pl+Oc3Sg:%>Ы2нк ImpClitic ;
-+Imp+Sc2Pl+Oc3Pl:%>Ы2нк ImpClitic ;
-+Imp+Sc2Sg+Oc1Pl:%>мизь ImpClitic ;
-+Imp+Sc2Pl+Oc1Sg:%>мизь ImpClitic ;
-+Imp+Sc2Pl+Oc1Pl:%>мизь ImpClitic ;
-+Imp+Sc3Sg+Oc1Pl:%>мизь ImpClitic ;
-+Imp+Sc3Pl+Oc1Sg:%>мизь ImpClitic ;
-+Imp+Sc3Pl+Oc1Pl:%>мизь ImpClitic ;
++Imprt+Sc2Sg+Oc1Sg:%>мак ImpClitic ;
++Use/Sub/Dial+Imprt+Sc2Sg+Oc1Sg:%>Ы2мак ImpClitic ;
++Imprt+Sc2Sg+Oc3Sg:%>ак ImpClitic ;
++Imprt+Sc2Sg+Oc3Pl:%>Ы2ть ImpClitic ;
++Imprt+Use/Sub/Dial+Sc2Sg+Oc3Pl:%>Ы2 ImpClitic ;
++Imprt+Sc2Pl+Oc3Sg:%>Ы2нк ImpClitic ;
++Imprt+Sc2Pl+Oc3Pl:%>Ы2нк ImpClitic ;
++Imprt+Sc2Sg+Oc1Pl:%>мизь ImpClitic ;
++Imprt+Sc2Pl+Oc1Sg:%>мизь ImpClitic ;
++Imprt+Sc2Pl+Oc1Pl:%>мизь ImpClitic ;
++Imprt+Sc3Sg+Oc1Pl:%>мизь ImpClitic ;
++Imprt+Sc3Pl+Oc1Sg:%>мизь ImpClitic ;
++Imprt+Sc3Pl+Oc1Pl:%>мизь ImpClitic ;
 
 LEXICON Imperative-kadoms
 +Sc2Sg:%>К1Ь2 ImpClitic ;
