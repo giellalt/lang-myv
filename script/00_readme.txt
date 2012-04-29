@@ -1,4 +1,5 @@
-How to get a monolingual mvy-dict in apertium format.
+
+I. How to get a monolingual mvy-dict in apertium format.
 
 1. transform the input file into Jack's apertium format.
 
@@ -16,6 +17,10 @@ java -Xmx2048m -Dfile.encoding=UTF8 net.sf.saxon.Transform -it main subopt_ap2ap
 
 NB - "def" in the output file name stands for "definition", i.e., this is
      a monolingual dictionary.
+
+II. merging fin-translation into the existing working files
+
+
 
 
 
