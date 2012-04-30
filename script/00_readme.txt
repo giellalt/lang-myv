@@ -26,6 +26,9 @@ II. merging fin-translation into the existing working files
  specification:
    - add the Finnish translation to the first tg of the first e element of an entry
 
+{Clarification of specification: the tg _translation group with lang attribute value fin_ must be created where nonexistent. In theory, and I hope in practice, there should be no instances where the tg/@lang='fin' element already exists AND I want to merge more information, i.e. another tg element or even a t element.}
+{LOCATION: The tg element comes directly after it's singular m sibling. There might be another tg element present, e.g., tg/@lang='rus'. ALLOW us to utilize alphabetical ordering, i.e., _fin_ preceeds _rus_ but would follow _eng_.}
+
 
 Problem: semi-structured infos in the transaltion elements in AddTgFin2N_MyvLexXml.xml
 
@@ -55,11 +58,11 @@ Problem: semi-structured infos in the transaltion elements in AddTgFin2N_MyvLexX
 1. question: is this structure be transfered as 2 meaning groups (semicolon as separator) in which the first one contains
 only one t-element and the second one 3 (comma as separator)
 
-
+{answer 1. do not break into separate elements.}
 
 2. question: if so which meaning to match with the first one of the first e element in the N_xxx-file?
    Even worse, the N_xxx-file does not possess any t-elements!
-
+{answer 2. no splitting no reordering. 2a. As noted above a tg element with lang attribute value fin must be created and a child element t to boote.}
    <entry>
       <lg>
          <l>авака левкс</l>
