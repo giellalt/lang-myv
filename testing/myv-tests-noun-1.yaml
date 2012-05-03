@@ -1,0 +1,1044 @@
+Config:
+  hfst:
+    Gen: ../bin/myv-gen.hfstol
+    Morph: ../bin/myv.hfstol
+  xerox:
+    Gen: ../bin/imyv.fst
+    Morph: ../bin/myv.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - псака: # Ordinary nouns - full paradigm including MWN
+    псака+N+Nom+Sg+Indef: псака
+    псака+N+Gen+Sg+Indef: псакань
+    псака+N+Gen+Pl+Indef: псакань
+    псака+N+Abl+Sg+Indef: псакадо
+    псака+N+Abl+Pl+Indef: псакадо
+    псака+N+Dat+Sg+Indef: псаканень
+    псака+N+Dat+Pl+Indef: псаканень
+    псака+N+Com+Sg+Indef: псаканек
+    псака+N+Com+Pl+Indef: псаканек
+    псака+N+Abe+Sg+Indef: псакавтомо
+    псака+N+Abe+Pl+Indef: псакавтомо
+    псака+N+Comp+Sg+Indef: псакашка
+    псака+N+Comp+Pl+Indef: псакашка
+    псака+N+Ine+Sg+Indef: псакасо
+    псака+N+Ine+Pl+Indef: псакасо
+    псака+N+Ela+Sg+Indef: псакасто
+    псака+N+Ela+Pl+Indef: псакасто
+    псака+N+Ill+Sg+Indef: псакас
+    псака+N+Ill+Pl+Indef: псакас
+    псака+N+Prl+Sg+Indef: псакава
+    псака+N+Prl+Pl+Indef: псакава
+    псака+N+Tra+Sg+Indef: псакакс
+    псака+N+Tra+Pl+Indef: псакакс
+    псака+N+Lat+Sg+Indef: псакав
+    псака+N+Lat+Pl+Indef: псакав
+    псака+N+TempCx+Sg+Indef: псакане
+    псака+N+TempCx+Pl+Indef: псакане
+    псака+N+Nom+Sg+Px1Sg: псакам
+    псака+N+Gen+Sg+Px1Sg: [псакам, псакан]
+    псака+N+Gen+Pl+Px1Sg: псакан
+    псака+N+Abl+Sg+Px1Sg: псакадон
+    псака+N+Abl+Pl+Px1Sg: псакадон
+    псака+N+Abe+Sg+Px1Sg: псакавтомон
+    псака+N+Abe+Pl+Px1Sg: псакавтомон
+    псака+N+Comp+Sg+Px1Sg: псакашкан
+    псака+N+Comp+Pl+Px1Sg: псакашкан
+    псака+N+Ine+Sg+Px1Sg: псакасон
+    псака+N+Ine+Pl+Px1Sg: псакасон
+    псака+N+Ela+Sg+Px1Sg: псакастон
+    псака+N+Ela+Pl+Px1Sg: псакастон
+    псака+N+Ill+Sg+Px1Sg: псаказон
+    псака+N+Ill+Pl+Px1Sg: псаказон
+    псака+N+Prl+Sg+Px1Sg: псакаван
+    псака+N+Prl+Pl+Px1Sg: псакаван
+    псака+N+Tra+Sg+Px1Sg: псакаксон
+    псака+N+Tra+Pl+Px1Sg: псакаксон
+    псака+N+Nom+Sg+Px2Sg: псакат
+    псака+N+Nom+Pl+Px2Sg: псакат
+    псака+N+Gen+Sg+Px2Sg: псакат
+    псака+N+Gen+Pl+Px2Sg: псакат
+    псака+N+Abl+Sg+Px2Sg: псакадот
+    псака+N+Abl+Pl+Px2Sg: псакадот
+    псака+N+Abe+Sg+Px2Sg: псакавтомот
+    псака+N+Abe+Pl+Px2Sg: псакавтомот
+    псака+N+Comp+Sg+Px2Sg: псакашкат
+    псака+N+Comp+Pl+Px2Sg: псакашкат
+    псака+N+Ine+Sg+Px2Sg: псакасот
+    псака+N+Ine+Pl+Px2Sg: псакасот
+    псака+N+Ela+Sg+Px2Sg: псакастот
+    псака+N+Ela+Pl+Px2Sg: псакастот
+    псака+N+Ill+Sg+Px2Sg: псаказот
+    псака+N+Ill+Pl+Px2Sg: псаказот
+    псака+N+Prl+Sg+Px2Sg: псакават
+    псака+N+Prl+Pl+Px2Sg: псакават
+    псака+N+Tra+Sg+Px2Sg: псакаксот
+    псака+N+Tra+Pl+Px2Sg: псакаксот
+    псака+N+Nom+Sg+Px3Sg: псаказо
+    псака+N+Gen+Sg+Px3Sg: псаканзо
+    псака+N+Gen+Pl+Px3Sg: псаканзо
+    псака+N+Abl+Sg+Px3Sg: псакадонзо
+    псака+N+Abl+Pl+Px3Sg: псакадонзо
+    псака+N+Dat+Sg+Px3Sg: псаканстэнь
+    псака+N+Dat+Pl+Px3Sg: псаканстэнь
+    псака+N+Abe+Sg+Px3Sg: псакавтомонзо
+    псака+N+Abe+Pl+Px3Sg: псакавтомонзо
+    псака+N+Comp+Sg+Px3Sg: псакашканзо
+    псака+N+Comp+Pl+Px3Sg: псакашканзо
+    псака+N+Ine+Sg+Px3Sg: псакасонзо
+    псака+N+Ine+Pl+Px3Sg: псакасонзо
+    псака+N+Ela+Sg+Px3Sg: псакастонзо
+    псака+N+Ela+Pl+Px3Sg: псакастонзо
+    псака+N+Ill+Sg+Px3Sg: псаказонзо
+    псака+N+Ill+Pl+Px3Sg: псаказонзо
+    псака+N+Prl+Sg+Px3Sg: псакаванзо
+    псака+N+Prl+Pl+Px3Sg: псакаванзо
+    псака+N+Tra+Sg+Px3Sg: псакаксонзо
+    псака+N+Tra+Pl+Px3Sg: псакаксонзо
+    псака+N+Nom+Sg+Px1Pl: псаканок
+    псака+N+Nom+Pl+Px1Pl: псаканок
+    псака+N+Gen+Sg+Px1Pl: псаканок
+    псака+N+Gen+Pl+Px1Pl: псаканок
+    псака+N+Abl+Sg+Px1Pl: псакадонок
+    псака+N+Abl+Pl+Px1Pl: псакадонок
+    псака+N+Abe+Sg+Px1Pl: псакавтомонок
+    псака+N+Abe+Pl+Px1Pl: псакавтомонок
+    псака+N+Comp+Sg+Px1Pl: псакашканок
+    псака+N+Comp+Pl+Px1Pl: псакашканок
+    псака+N+Ine+Sg+Px1Pl: псакасонок
+    псака+N+Ine+Pl+Px1Pl: псакасонок
+    псака+N+Ela+Sg+Px1Pl: псакастонок
+    псака+N+Ela+Pl+Px1Pl: псакастонок
+    псака+N+Ill+Sg+Px1Pl: псаказонок
+    псака+N+Ill+Pl+Px1Pl: псаказонок
+    псака+N+Prl+Sg+Px1Pl: псакаванок
+    псака+N+Prl+Pl+Px1Pl: псакаванок
+    псака+N+Tra+Sg+Px1Pl: псакаксонок
+    псака+N+Tra+Pl+Px1Pl: псакаксонок
+    псака+N+Nom+Sg+Px2Pl: псаканк
+    псака+N+Nom+Pl+Px2Pl: псаканк
+    псака+N+Gen+Sg+Px2Pl: псаканк
+    псака+N+Gen+Pl+Px2Pl: псаканк
+    псака+N+Abl+Sg+Px2Pl: псакадонк
+    псака+N+Abl+Pl+Px2Pl: псакадонк
+    псака+N+Abe+Sg+Px2Pl: псакавтомонк
+    псака+N+Abe+Pl+Px2Pl: псакавтомонк
+    псака+N+Comp+Sg+Px2Pl: псакашканк
+    псака+N+Comp+Pl+Px2Pl: псакашканк
+    псака+N+Ine+Sg+Px2Pl: псакасонк
+    псака+N+Ine+Pl+Px2Pl: псакасонк
+    псака+N+Ela+Sg+Px2Pl: псакастонк
+    псака+N+Ela+Pl+Px2Pl: псакастонк
+    псака+N+Ill+Sg+Px2Pl: псаказонк
+    псака+N+Ill+Pl+Px2Pl: псаказонк
+    псака+N+Prl+Sg+Px2Pl: псакаванк
+    псака+N+Prl+Pl+Px2Pl: псакаванк
+    псака+N+Tra+Sg+Px2Pl: псакаксонк
+    псака+N+Tra+Pl+Px2Pl: псакаксонк
+    псака+N+Nom+Sg+Px3Pl: псакаст
+    псака+N+Nom+Pl+Px3Pl: псакаст
+    псака+N+Gen+Sg+Px3Pl: псакаст
+    псака+N+Gen+Pl+Px3Pl: псакаст
+    псака+N+Abl+Sg+Px3Pl: псакадост
+    псака+N+Abl+Pl+Px3Pl: псакадост
+    псака+N+Abe+Sg+Px3Pl: псакавтомост
+    псака+N+Abe+Pl+Px3Pl: псакавтомост
+    псака+N+Comp+Sg+Px3Pl: псакашкаст
+    псака+N+Comp+Pl+Px3Pl: псакашкаст
+    псака+N+Ine+Sg+Px3Pl: псакасост
+    псака+N+Ine+Pl+Px3Pl: псакасост
+    псака+N+Ela+Sg+Px3Pl: псакастост
+    псака+N+Ela+Pl+Px3Pl: псакастост
+    псака+N+Ill+Sg+Px3Pl: псаказост
+    псака+N+Ill+Pl+Px3Pl: псаказост
+    псака+N+Prl+Sg+Px3Pl: псакаваст
+    псака+N+Prl+Pl+Px3Pl: псакаваст
+    псака+N+Tra+Sg+Px3Pl: псакаксост
+    псака+N+Tra+Pl+Px3Pl: псакаксост
+    псака+N+Nom+Pl+Indef: псакат
+    псака+N+Nom+Pl+Px1Sg: псакан
+    псака+N+Nom+Pl+Px3Sg: псаканзо
+    псака+N+Nom+Sg+Def: псакась
+    псака+N+Gen+Sg+Def: псаканть
+    псака+N+Dat+Sg+Def: псакантень
+    псака+N+Abl+Sg+Def: псакадонть
+    псака+N+Ine+Sg+Def: псакасонть
+    псака+N+Ela+Sg+Def: псакастонть
+    псака+N+Prl+Sg+Def: псакаванть
+    псака+N+Abe+Sg+Def: псакавтомонть
+    псака+N+Comp+Sg+Def: псакашканть
+    псака+N+Tra+Sg+Def: псакаксонть
+    псака+N+Pl+Def+Nom: псакатне
+    псака+N+Pl+Def+Gen: псакатнень
+    псака+N+Pl+Def+Dat: псакатненень
+    псака+N+Pl+Def+Abl: псакатнеде
+    псака+N+Pl+Def+Ine: псакатнесэ
+    псака+N+Pl+Def+Ela: псакатнестэ
+    псака+N+Pl+Def+Ill: псакатнес
+    псака+N+Pl+Def+Prl: псакатнева
+    псака+N+Pl+Def+Tra: псакатнекс
+    псака+N+Pl+Def+Lat: псакатнев
+    псака+N+Pl+Def+Abe: псакатневтеме
+    псака+N+Pl+Def+Comp: псакатнешка
+    псака+N+Pl+Def+Com: псакатненек
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псаканзодо
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псаканзодо
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псаканзодо
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псаканзодо
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псаканзокс
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псаканзокс
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псаканзокс
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псаканзокс
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псаканзось
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псаканзось
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псаканзонть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псаканзонть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псаканзонтень
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псаканзонтень
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псаканзодонть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псаканзодонть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псаканзосонть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псаканзосонть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псаканзостонть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псаканзостонть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псаканзованть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псаканзованть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псаканзовтомонть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псаканзовтомонть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псаканзошканть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псаканзошканть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псаканзоксонть
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псаканзоксонть
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псаканзотне
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псаканзотне
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псаканзотнень
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псаканзотнень
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псаканзотненень
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псаканзотненень
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псаканзотнеде
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псаканзотнеде
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псаканзотнесэ
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псаканзотнесэ
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псаканзотнестэ
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псаканзотнестэ
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псаканзотнес
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псаканзотнес
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псаканзотнева
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псаканзотнева
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псаканзотнекс
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псаканзотнекс
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псаканзотнев
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псаканзотнев
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псаканзотневтеме
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псаканзотневтеме
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псаканзотнешка
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псаканзотнешка
+    псака+N+Gen+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псаканзотненек
+    псака+N+Gen+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псаканзотненек
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакавтомонзодо
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакавтомонзодо
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакавтомонзодо
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакавтомонзодо
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакавтомонзокс
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакавтомонзокс
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакавтомонзокс
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакавтомонзокс
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакавтомонзось
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакавтомонзось
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакавтомонзонть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакавтомонзонть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакавтомонзонтень
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакавтомонзонтень
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакавтомонзодонть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакавтомонзодонть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакавтомонзосонть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакавтомонзосонть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакавтомонзостонть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакавтомонзостонть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакавтомонзованть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакавтомонзованть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакавтомонзовтомонть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакавтомонзовтомонть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакавтомонзошканть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакавтомонзошканть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакавтомонзоксонть
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакавтомонзоксонть
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакавтомонзотне
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакавтомонзотне
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакавтомонзотнень
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакавтомонзотнень
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакавтомонзотненень
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакавтомонзотненень
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакавтомонзотнеде
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакавтомонзотнеде
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакавтомонзотнесэ
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакавтомонзотнесэ
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакавтомонзотнестэ
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакавтомонзотнестэ
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакавтомонзотнес
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакавтомонзотнес
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакавтомонзотнева
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакавтомонзотнева
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакавтомонзотнекс
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакавтомонзотнекс
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакавтомонзотнев
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакавтомонзотнев
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакавтомонзотневтеме
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакавтомонзотневтеме
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакавтомонзотнешка
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакавтомонзотнешка
+    псака+N+Abe+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псакавтомонзотненек
+    псака+N+Abe+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псакавтомонзотненек
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакашканзодо
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакашканзодо
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакашканзодо
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакашканзодо
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакашканзокс
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакашканзокс
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакашканзокс
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакашканзокс
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакашканзось
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакашканзось
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакашканзонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакашканзонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакашканзонтень
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакашканзонтень
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакашканзодонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакашканзодонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакашканзосонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакашканзосонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакашканзостонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакашканзостонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакашканзованть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакашканзованть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакашканзошканть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакашканзошканть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакашканзошканть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакашканзошканть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакашканзоксонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакашканзоксонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакашканзотне
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакашканзотне
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакашканзотнень
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакашканзотнень
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакашканзотненень
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакашканзотненень
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакашканзотнеде
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакашканзотнеде
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакашканзотнесэ
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакашканзотнесэ
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакашканзотнестэ
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакашканзотнестэ
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакашканзотнес
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакашканзотнес
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакашканзотнева
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакашканзотнева
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакашканзотнекс
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакашканзотнекс
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакашканзотнев
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакашканзотнев
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакашканзотневтеме
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакашканзотневтеме
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакашканзотнешка
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакашканзотнешка
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псакашканзотненек
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псакашканзотненек
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакашканзодо
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакашканзодо
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакашканзодо
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакашканзодо
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакашканзокс
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакашканзокс
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакашканзокс
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакашканзокс
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакашканзось
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакашканзось
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакашканзонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакашканзонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакашканзонтень
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакашканзонтень
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакашканзодонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакашканзодонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакашканзосонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакашканзосонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакашканзостонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакашканзостонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакашканзованть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакашканзованть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакашканзовтомонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакашканзовтомонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакашканзошканть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакашканзошканть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакашканзоксонть
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакашканзоксонть
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакашканзотне
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакашканзотне
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакашканзотнень
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакашканзотнень
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакашканзотненень
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакашканзотненень
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакашканзотнеде
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакашканзотнеде
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакашканзотнесэ
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакашканзотнесэ
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакашканзотнестэ
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакашканзотнестэ
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакашканзотнес
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакашканзотнес
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакашканзотнева
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакашканзотнева
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакашканзотнекс
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакашканзотнекс
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакашканзотнев
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакашканзотнев
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакашканзотневтеме
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакашканзотневтеме
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакашканзотнешка
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакашканзотнешка
+    псака+N+Comp+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псакашканзотненек
+    псака+N+Comp+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псакашканзотненек
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакасонзодо
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакасонзодо
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакасонзодо
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакасонзодо
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакасонзокс
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакасонзокс
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакасонзокс
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакасонзокс
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакасонзось
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакасонзось
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакасонзонть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакасонзонть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакасонзонтень
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакасонзонтень
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакасонзодонть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакасонзодонть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакасонзосонть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакасонзосонть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакасонзостонть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакасонзостонть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакасонзованть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакасонзованть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакасонзовтомонть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакасонзовтомонть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакасонзошканть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакасонзошканть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакасонзоксонть
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакасонзоксонть
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакасонзотне
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакасонзотне
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакасонзотнень
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакасонзотнень
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакасонзотненень
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакасонзотненень
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакасонзотнеде
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакасонзотнеде
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакасонзотнесэ
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакасонзотнесэ
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакасонзотнестэ
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакасонзотнестэ
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакасонзотнес
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакасонзотнес
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакасонзотнева
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакасонзотнева
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакасонзотнекс
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакасонзотнекс
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакасонзотнев
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакасонзотнев
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакасонзотневтеме
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакасонзотневтеме
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакасонзотнешка
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакасонзотнешка
+    псака+N+Ine+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псакасонзотненек
+    псака+N+Ine+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псакасонзотненек
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакастонзодо
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакастонзодо
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакастонзодо
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакастонзодо
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакастонзокс
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакастонзокс
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакастонзокс
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакастонзокс
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакастонзось
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакастонзось
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакастонзонть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакастонзонть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакастонзонтень
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакастонзонтень
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакастонзодонть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакастонзодонть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакастонзосонть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакастонзосонть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакастонзостонть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакастонзостонть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакастонзованть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакастонзованть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакастонзовтомонть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакастонзовтомонть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакастонзошканть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакастонзошканть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакастонзоксонть
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакастонзоксонть
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакастонзотне
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакастонзотне
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакастонзотнень
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакастонзотнень
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакастонзотненень
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакастонзотненень
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакастонзотнеде
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакастонзотнеде
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакастонзотнесэ
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакастонзотнесэ
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакастонзотнестэ
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакастонзотнестэ
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакастонзотнес
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакастонзотнес
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакастонзотнева
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакастонзотнева
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакастонзотнекс
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакастонзотнекс
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакастонзотнев
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакастонзотнев
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакастонзотневтеме
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакастонзотневтеме
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакастонзотнешка
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакастонзотнешка
+    псака+N+Ela+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псакастонзотненек
+    псака+N+Ela+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псакастонзотненек
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакаванзодо
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакаванзодо
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Indef: псакаванзодо
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Abl+Pl+Indef: псакаванзодо
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакаванзокс
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакаванзокс
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Indef: псакаванзокс
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Tra+Pl+Indef: псакаванзокс
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакаванзось
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Nom+Sg+Def: псакаванзось
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакаванзонть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Gen+Sg+Def: псакаванзонть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакаванзонтень
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Dat+Sg+Def: псакаванзонтень
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакаванзодонть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Abl+Sg+Def: псакаванзодонть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакаванзосонть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Ine+Sg+Def: псакаванзосонть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакаванзостонть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Ela+Sg+Def: псакаванзостонть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакаванзованть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Prl+Sg+Def: псакаванзованть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакаванзовтомонть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Abe+Sg+Def: псакаванзовтомонть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакаванзошканть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Comp+Sg+Def: псакаванзошканть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакаванзоксонть
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Tra+Sg+Def: псакаванзоксонть
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакаванзотне
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Nom: псакаванзотне
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакаванзотнень
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Gen: псакаванзотнень
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакаванзотненень
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Dat: псакаванзотненень
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакаванзотнеде
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abl: псакаванзотнеде
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакаванзотнесэ
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ine: псакаванзотнесэ
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакаванзотнестэ
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ela: псакаванзотнестэ
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакаванзотнес
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Ill: псакаванзотнес
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакаванзотнева
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Prl: псакаванзотнева
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакаванзотнекс
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Tra: псакаванзотнекс
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакаванзотнев
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Lat: псакаванзотнев
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакаванзотневтеме
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Abe: псакаванзотневтеме
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакаванзотнешка
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Comp: псакаванзотнешка
+    псака+N+Prl+Sg+Px3Sg+Der/MWN+N+Pl+Def+Com: псакаванзотненек
+    псака+N+Prl+Pl+Px3Sg+Der/MWN+N+Pl+Def+Com: псакаванзотненек
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Abl+Sg+Indef: псакаксто
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Abl+Pl+Indef: псакаксто
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Abl+Sg+Indef: псакаксто
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Abl+Pl+Indef: псакаксто
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Tra+Sg+Indef: псакаксокс
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Tra+Pl+Indef: псакаксокс
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Tra+Sg+Indef: псакаксокс
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Tra+Pl+Indef: псакаксокс
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Nom+Sg+Def: псакаксось
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Gen+Sg+Def: псакаксонть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Dat+Sg+Def: псакаксонтень
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Abl+Sg+Def: псакакстонть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Ine+Sg+Def: псакакссонть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Ela+Sg+Def: псакаксстонть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Prl+Sg+Def: псакаксканть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Abe+Sg+Def: псакакстомонть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Comp+Sg+Def: псакаксошканть
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Nom: псакакстнэ
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Nom: псакакстнэ
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Gen: псакакстнэнь
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Gen: псакакстнэнь
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Dat: псакакстнэнень
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Dat: псакакстнэнень
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Abl: псакакстнэде
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Abl: псакакстнэде
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Ine: псакакстнэсэ
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Ine: псакакстнэсэ
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Ela: псакакстнэстэ
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Ela: псакакстнэстэ
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Ill: псакакстнэс
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Ill: псакакстнэс
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Prl: псакакстнэва
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Prl: псакакстнэва
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Tra: псакакстнэкс
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Tra: псакакстнэкс
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Lat: псакакстнэв
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Lat: псакакстнэв
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Abe: псакакстнэвтеме
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Abe: псакакстнэвтеме
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Comp: псакакстнэшка
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Comp: псакакстнэшка
+    псака+N+Tra+Sg+Indef+Der/MWN+N+Pl+Def+Com: псакакстнэнек
+    псака+N+Tra+Pl+Indef+Der/MWN+N+Pl+Def+Com: псакакстнэнек
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакашканокто
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакашканокто
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакашканокто
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакашканокто
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакашканококс
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакашканококс
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакашканококс
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакашканококс
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакашканокось
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакашканокось
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакашканоконть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакашканоконть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакашканоконтень
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакашканоконтень
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакашканоктонть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакашканоктонть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакашканоксонть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакашканоксонть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакашканокстонть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакашканокстонть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакашканокканть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакашканокканть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакашканоктомонть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакашканоктомонть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакашканокошканть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакашканокошканть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакашканококсонть
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакашканококсонть
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакашканоктне, псакашканоктнэ]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакашканоктне, псакашканоктнэ]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакашканоктнень, псакашканоктнэнь]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакашканоктнень, псакашканоктнэнь]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакашканоктненень, псакашканоктнэнень]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакашканоктненень, псакашканоктнэнень]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакашканоктнеде, псакашканоктнэде]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакашканоктнеде, псакашканоктнэде]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакашканоктнесэ, псакашканоктнэсэ]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакашканоктнесэ, псакашканоктнэсэ]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакашканоктнестэ, псакашканоктнэстэ]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакашканоктнестэ, псакашканоктнэстэ]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакашканоктнес, псакашканоктнэс]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакашканоктнес, псакашканоктнэс]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакашканоктнева, псакашканоктнэва]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакашканоктнева, псакашканоктнэва]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакашканоктнекс, псакашканоктнэкс]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакашканоктнекс, псакашканоктнэкс]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакашканоктнев, псакашканоктнэв]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакашканоктнев, псакашканоктнэв]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакашканоктневтеме, псакашканоктнэвтеме]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакашканоктневтеме, псакашканоктнэвтеме]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакашканоктнешка, псакашканоктнэшка]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакашканоктнешка, псакашканоктнэшка]
+    псака+N+Comp+Sg+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакашканоктненек, псакашканоктнэнек]
+    псака+N+Comp+Pl+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакашканоктненек, псакашканоктнэнек]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакасонокто
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакасонокто
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакасонокто
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакасонокто
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакасонококс
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакасонококс
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакасонококс
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакасонококс
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакасонокось
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакасонокось
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакасоноконть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакасоноконть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакасоноконтень
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакасоноконтень
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакасоноктонть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакасоноктонть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакасоноксонть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакасоноксонть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакасонокстонть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакасонокстонть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакасонокканть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакасонокканть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакасоноктомонть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакасоноктомонть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакасонокошканть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакасонокошканть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакасонококсонть
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакасонококсонть
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакасоноктне, псакасоноктнэ]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакасоноктне, псакасоноктнэ]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакасоноктнень, псакасоноктнэнь]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакасоноктнень, псакасоноктнэнь]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакасоноктненень, псакасоноктнэнень]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакасоноктненень, псакасоноктнэнень]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакасоноктнеде, псакасоноктнэде]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакасоноктнеде, псакасоноктнэде]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакасоноктнесэ, псакасоноктнэсэ]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакасоноктнесэ, псакасоноктнэсэ]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакасоноктнестэ, псакасоноктнэстэ]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакасоноктнестэ, псакасоноктнэстэ]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакасоноктнес, псакасоноктнэс]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакасоноктнес, псакасоноктнэс]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакасоноктнева, псакасоноктнэва]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакасоноктнева, псакасоноктнэва]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакасоноктнекс, псакасоноктнэкс]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакасоноктнекс, псакасоноктнэкс]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакасоноктнев, псакасоноктнэв]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакасоноктнев, псакасоноктнэв]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакасоноктневтеме, псакасоноктнэвтеме]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакасоноктневтеме, псакасоноктнэвтеме]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакасоноктнешка, псакасоноктнэшка]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакасоноктнешка, псакасоноктнэшка]
+    псака+N+Ine+Sg+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакасоноктненек, псакасоноктнэнек]
+    псака+N+Ine+Pl+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакасоноктненек, псакасоноктнэнек]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакастонокто
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакастонокто
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакастонокто
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакастонокто
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакастонококс
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакастонококс
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакастонококс
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакастонококс
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакастонокось
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакастонокось
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакастоноконть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакастоноконть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакастоноконтень
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакастоноконтень
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакастоноктонть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакастоноктонть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакастоноксонть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакастоноксонть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакастонокстонть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакастонокстонть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакастонокканть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакастонокканть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакастоноктомонть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакастоноктомонть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакастонокошканть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакастонокошканть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакастонококсонть
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакастонококсонть
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакастоноктне, псакастоноктнэ]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакастоноктне, псакастоноктнэ]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакастоноктнень, псакастоноктнэнь]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакастоноктнень, псакастоноктнэнь]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакастоноктненень, псакастоноктнэнень]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакастоноктненень, псакастоноктнэнень]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакастоноктнеде, псакастоноктнэде]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакастоноктнеде, псакастоноктнэде]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакастоноктнесэ, псакастоноктнэсэ]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакастоноктнесэ, псакастоноктнэсэ]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакастоноктнестэ, псакастоноктнэстэ]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакастоноктнестэ, псакастоноктнэстэ]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакастоноктнес, псакастоноктнэс]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакастоноктнес, псакастоноктнэс]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакастоноктнева, псакастоноктнэва]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакастоноктнева, псакастоноктнэва]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакастоноктнекс, псакастоноктнэкс]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакастоноктнекс, псакастоноктнэкс]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакастоноктнев, псакастоноктнэв]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакастоноктнев, псакастоноктнэв]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакастоноктневтеме, псакастоноктнэвтеме]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакастоноктневтеме, псакастоноктнэвтеме]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакастоноктнешка, псакастоноктнэшка]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакастоноктнешка, псакастоноктнэшка]
+    псака+N+Ela+Sg+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакастоноктненек, псакастоноктнэнек]
+    псака+N+Ela+Pl+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакастоноктненек, псакастоноктнэнек]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакаванокто
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакаванокто
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Indef: псакаванокто
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Abl+Pl+Indef: псакаванокто
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакаванококс
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакаванококс
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Indef: псакаванококс
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Tra+Pl+Indef: псакаванококс
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакаванокось
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Nom+Sg+Def: псакаванокось
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакаваноконть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Gen+Sg+Def: псакаваноконть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакаваноконтень
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Dat+Sg+Def: псакаваноконтень
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакаваноктонть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Abl+Sg+Def: псакаваноктонть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакаваноксонть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Ine+Sg+Def: псакаваноксонть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакаванокстонть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Ela+Sg+Def: псакаванокстонть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакаванокканть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Prl+Sg+Def: псакаванокканть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакаваноктомонть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Abe+Sg+Def: псакаваноктомонть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакаванокошканть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Comp+Sg+Def: псакаванокошканть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакаванококсонть
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Tra+Sg+Def: псакаванококсонть
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакаваноктне, псакаваноктнэ]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Nom: [псакаваноктне, псакаваноктнэ]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакаваноктнень, псакаваноктнэнь]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Gen: [псакаваноктнень, псакаваноктнэнь]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакаваноктненень, псакаваноктнэнень]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Dat: [псакаваноктненень, псакаваноктнэнень]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакаваноктнеде, псакаваноктнэде]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abl: [псакаваноктнеде, псакаваноктнэде]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакаваноктнесэ, псакаваноктнэсэ]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ine: [псакаваноктнесэ, псакаваноктнэсэ]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакаваноктнестэ, псакаваноктнэстэ]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ela: [псакаваноктнестэ, псакаваноктнэстэ]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакаваноктнес, псакаваноктнэс]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Ill: [псакаваноктнес, псакаваноктнэс]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакаваноктнева, псакаваноктнэва]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Prl: [псакаваноктнева, псакаваноктнэва]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакаваноктнекс, псакаваноктнэкс]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Tra: [псакаваноктнекс, псакаваноктнэкс]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакаваноктнев, псакаваноктнэв]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Lat: [псакаваноктнев, псакаваноктнэв]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакаваноктневтеме, псакаваноктнэвтеме]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Abe: [псакаваноктневтеме, псакаваноктнэвтеме]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакаваноктнешка, псакаваноктнэшка]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Comp: [псакаваноктнешка, псакаваноктнэшка]
+    псака+N+Prl+Sg+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакаваноктненек, псакаваноктнэнек]
+    псака+N+Prl+Pl+Px1Pl+Der/MWN+N+Pl+Def+Com: [псакаваноктненек, псакаваноктнэнек]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакашканкто
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакашканкто
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакашканкто
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакашканкто
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакашканкокс
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакашканкокс
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакашканкокс
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакашканкокс
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакашканкось
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакашканкось
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакашканконть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакашканконть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакашканконтень
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакашканконтень
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакашканктонть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакашканктонть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакашканксонть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакашканксонть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакашканкстонть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакашканкстонть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакашканкканть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакашканкканть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакашканктомонть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакашканктомонть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакашканкошканть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакашканкошканть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакашканкоксонть
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакашканкоксонть
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакашканктне, псакашканктнэ]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакашканктне, псакашканктнэ]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакашканктнень, псакашканктнэнь]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакашканктнень, псакашканктнэнь]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакашканктненень, псакашканктнэнень]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакашканктненень, псакашканктнэнень]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакашканктнеде, псакашканктнэде]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакашканктнеде, псакашканктнэде]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакашканктнесэ, псакашканктнэсэ]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакашканктнесэ, псакашканктнэсэ]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакашканктнестэ, псакашканктнэстэ]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакашканктнестэ, псакашканктнэстэ]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакашканктнес, псакашканктнэс]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакашканктнес, псакашканктнэс]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакашканктнева, псакашканктнэва]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакашканктнева, псакашканктнэва]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакашканктнекс, псакашканктнэкс]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакашканктнекс, псакашканктнэкс]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакашканктнев, псакашканктнэв]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакашканктнев, псакашканктнэв]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакашканктневтеме, псакашканктнэвтеме]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакашканктневтеме, псакашканктнэвтеме]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакашканктнешка, псакашканктнэшка]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакашканктнешка, псакашканктнэшка]
+    псака+N+Comp+Sg+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакашканктненек, псакашканктнэнек]
+    псака+N+Comp+Pl+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакашканктненек, псакашканктнэнек]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакасонкто
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакасонкто
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакасонкто
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакасонкто
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакасонкокс
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакасонкокс
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакасонкокс
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакасонкокс
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакасонкось
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакасонкось
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакасонконть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакасонконть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакасонконтень
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакасонконтень
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакасонктонть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакасонктонть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакасонксонть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакасонксонть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакасонкстонть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакасонкстонть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакасонкканть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакасонкканть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакасонктомонть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакасонктомонть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакасонкошканть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакасонкошканть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакасонкоксонть
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакасонкоксонть
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакасонктне, псакасонктнэ]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакасонктне, псакасонктнэ]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакасонктнень, псакасонктнэнь]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакасонктнень, псакасонктнэнь]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакасонктненень, псакасонктнэнень]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакасонктненень, псакасонктнэнень]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакасонктнеде, псакасонктнэде]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакасонктнеде, псакасонктнэде]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакасонктнесэ, псакасонктнэсэ]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакасонктнесэ, псакасонктнэсэ]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакасонктнестэ, псакасонктнэстэ]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакасонктнестэ, псакасонктнэстэ]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакасонктнес, псакасонктнэс]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакасонктнес, псакасонктнэс]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакасонктнева, псакасонктнэва]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакасонктнева, псакасонктнэва]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакасонктнекс, псакасонктнэкс]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакасонктнекс, псакасонктнэкс]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакасонктнев, псакасонктнэв]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакасонктнев, псакасонктнэв]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакасонктневтеме, псакасонктнэвтеме]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакасонктневтеме, псакасонктнэвтеме]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакасонктнешка, псакасонктнэшка]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакасонктнешка, псакасонктнэшка]
+    псака+N+Ine+Sg+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакасонктненек, псакасонктнэнек]
+    псака+N+Ine+Pl+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакасонктненек, псакасонктнэнек]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакастонкто
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакастонкто
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакастонкто
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакастонкто
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакастонкокс
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакастонкокс
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакастонкокс
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакастонкокс
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакастонкось
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакастонкось
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакастонконть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакастонконть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакастонконтень
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакастонконтень
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакастонктонть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакастонктонть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакастонксонть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакастонксонть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакастонкстонть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакастонкстонть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакастонкканть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакастонкканть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакастонктомонть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакастонктомонть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакастонкошканть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакастонкошканть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакастонкоксонть
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакастонкоксонть
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакастонктне, псакастонктнэ]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакастонктне, псакастонктнэ]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакастонктнень, псакастонктнэнь]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакастонктнень, псакастонктнэнь]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакастонктненень, псакастонктнэнень]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакастонктненень, псакастонктнэнень]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакастонктнеде, псакастонктнэде]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакастонктнеде, псакастонктнэде]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакастонктнесэ, псакастонктнэсэ]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакастонктнесэ, псакастонктнэсэ]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакастонктнестэ, псакастонктнэстэ]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакастонктнестэ, псакастонктнэстэ]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакастонктнес, псакастонктнэс]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакастонктнес, псакастонктнэс]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакастонктнева, псакастонктнэва]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакастонктнева, псакастонктнэва]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакастонктнекс, псакастонктнэкс]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакастонктнекс, псакастонктнэкс]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакастонктнев, псакастонктнэв]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакастонктнев, псакастонктнэв]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакастонктневтеме, псакастонктнэвтеме]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакастонктневтеме, псакастонктнэвтеме]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакастонктнешка, псакастонктнэшка]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакастонктнешка, псакастонктнэшка]
+    псака+N+Ela+Sg+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакастонктненек, псакастонктнэнек]
+    псака+N+Ela+Pl+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакастонктненек, псакастонктнэнек]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакаванкто
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакаванкто
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Indef: псакаванкто
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Abl+Pl+Indef: псакаванкто
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакаванкокс
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакаванкокс
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Indef: псакаванкокс
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Tra+Pl+Indef: псакаванкокс
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакаванкось
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Nom+Sg+Def: псакаванкось
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакаванконть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Gen+Sg+Def: псакаванконть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакаванконтень
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Dat+Sg+Def: псакаванконтень
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакаванктонть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Abl+Sg+Def: псакаванктонть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакаванксонть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Ine+Sg+Def: псакаванксонть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакаванкстонть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Ela+Sg+Def: псакаванкстонть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакаванкканть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Prl+Sg+Def: псакаванкканть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакаванктомонть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Abe+Sg+Def: псакаванктомонть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакаванкошканть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Comp+Sg+Def: псакаванкошканть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакаванкоксонть
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Tra+Sg+Def: псакаванкоксонть
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакаванктне, псакаванктнэ]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Nom: [псакаванктне, псакаванктнэ]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакаванктнень, псакаванктнэнь]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Gen: [псакаванктнень, псакаванктнэнь]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакаванктненень, псакаванктнэнень]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Dat: [псакаванктненень, псакаванктнэнень]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакаванктнеде, псакаванктнэде]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abl: [псакаванктнеде, псакаванктнэде]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакаванктнесэ, псакаванктнэсэ]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ine: [псакаванктнесэ, псакаванктнэсэ]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакаванктнестэ, псакаванктнэстэ]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ela: [псакаванктнестэ, псакаванктнэстэ]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакаванктнес, псакаванктнэс]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Ill: [псакаванктнес, псакаванктнэс]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакаванктнева, псакаванктнэва]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Prl: [псакаванктнева, псакаванктнэва]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакаванктнекс, псакаванктнэкс]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Tra: [псакаванктнекс, псакаванктнэкс]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакаванктнев, псакаванктнэв]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Lat: [псакаванктнев, псакаванктнэв]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакаванктневтеме, псакаванктнэвтеме]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Abe: [псакаванктневтеме, псакаванктнэвтеме]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакаванктнешка, псакаванктнэшка]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Comp: [псакаванктнешка, псакаванктнэшка]
+    псака+N+Prl+Sg+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакаванктненек, псакаванктнэнек]
+    псака+N+Prl+Pl+Px2Pl+Der/MWN+N+Pl+Def+Com: [псакаванктненек, псакаванктнэнек]
