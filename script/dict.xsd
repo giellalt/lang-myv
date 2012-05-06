@@ -101,6 +101,8 @@
    <xs:attribute name="pos" type="posType"/>
    <xs:simpleType name="posType">
       <xs:restriction base="xs:string">
+         <xs:enumeration value="SUF"/>
+         <xs:enumeration value="PREF"/>
          <xs:enumeration value="PHRASE_A"/>
          <xs:enumeration value="PHRASE_ADV"/>
          <xs:enumeration value="PHRASE_N"/>
