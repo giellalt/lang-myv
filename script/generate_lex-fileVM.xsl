@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <!--+
-    | Generate lex files from XML (at the moment only for Komi)
-    | apply to Erzya
+    | Generate lex files from XML (at the moment only for Komi, Moksha,
+    | Hill Mari)
+    | apply to Moksha
     | NB: An XSLT-2.0-processor is needed!
     | Usage: java -Xmx2048m net.sf.saxon.Transform -it main XSLT_SCRIPT inFile="INPUT-FILE"
     | 
