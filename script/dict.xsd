@@ -79,6 +79,9 @@
          <xs:sequence/>
          <xs:attribute ref="erzContlex"/>
          <xs:attribute ref="kpvContlex"/>
+         <xs:attribute ref="mdfContlex"/>
+         <xs:attribute ref="mrjContlex"/>
+         <xs:attribute ref="vroContlex"/>
          <xs:attribute ref="orthType"/>
       </xs:complexType>
    </xs:element>
@@ -328,6 +331,12 @@
          <xs:enumeration value="R_TEMP"/>
          <xs:enumeration value="PRT_INTERR"/>
          <xs:enumeration value="R_PRON"/>
+         <xs:enumeration value="VB"/>
+         <xs:enumeration value="VB1"/>
+         <xs:enumeration value="VB2"/>
+         <xs:enumeration value="DESCR"/>
+         <xs:enumeration value="MWE"/>
+         <xs:enumeration value="PCLE"/>
       </xs:restriction>
    </xs:simpleType>
    <xs:element name="src">
@@ -517,6 +526,9 @@
       </xs:complexType>
    </xs:element>
    <xs:attribute name="kpvContlex" type="xs:string"/>
+   <xs:attribute name="mdfContlex" type="xs:string"/>
+   <xs:attribute name="mrjContlex" type="xs:string"/>
+   <xs:attribute name="vroContlex" type="xs:string"/>
    <xs:attribute name="erzContlex">
       <xs:simpleType>
          <xs:restriction base="xs:string">
