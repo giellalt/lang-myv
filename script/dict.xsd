@@ -81,6 +81,7 @@
          <xs:attribute ref="kpvContlex"/>
          <xs:attribute ref="mdfContlex"/>
          <xs:attribute ref="mrjContlex"/>
+         <xs:attribute ref="vepContlex"/>
          <xs:attribute ref="vroContlex"/>
          <xs:attribute ref="orthType"/>
       </xs:complexType>
@@ -110,13 +111,21 @@
          <xs:enumeration value="PHRASE_ADV"/>
          <xs:enumeration value="PHRASE_N"/>
          <xs:enumeration value="PHRASE_NUM"/>
+         <xs:enumeration value="PHRASE_PRON"/>
          <xs:enumeration value="PHRASE_QNT"/>
          <xs:enumeration value="PHRASE_SPAT"/>
          <xs:enumeration value="PHRASE_TEMP"/>
          <xs:enumeration value="PHRASE_V"/>
          <xs:enumeration value="A"/>
          <xs:enumeration value="AD-A"/>
+         <xs:enumeration value="ADDITIVE">
+<!-- too, also -->	 </xs:enumeration>
          <xs:enumeration value="PRED_A"/>
+         <xs:enumeration value="PRED_IDEOPH">
+<!-- IDEOPH used as a predication в роли сказ. -->
+	 </xs:enumeration>
+         <xs:enumeration value="PRED_N">
+<!-- в роли сказ. -->	 </xs:enumeration>
          <xs:enumeration value="ADN_A"/>
          <xs:enumeration value="ADN_A-INDEF"/>
          <xs:enumeration value="A-1ARG"/>
@@ -138,8 +147,9 @@
          <xs:enumeration value="MANNER"/>
          <xs:enumeration value="MANNER-INDEF"/>
          <xs:enumeration value="ADV-PARENTHETIC"/>
-         <xs:enumeration value="PRT_ADV-PARENTHETIC"/>
-         <xs:enumeration value="PRT_EPIST">
+         <xs:enumeration value="FINITE_PARENTHETIC"/>
+         <xs:enumeration value="PCLE_ADV-PARENTHETIC"/>
+         <xs:enumeration value="PCLE_EPIST">
             <!--particle Epistemological modality-->
          </xs:enumeration>
          <xs:enumeration value="V_ADV-PARENTHETIC"/>
@@ -155,19 +165,48 @@
          <xs:enumeration value="ART"/>
          <xs:enumeration value="ASSOC-COLL"/>
          <xs:enumeration value="CLT"/>
+         <xs:enumeration value="A-PRED">
+            <!--A-PRED >> ??COMPL "complement Russian grammars tend to use the term 'наречия' with Full statements _Холодно!_. "-->
+         </xs:enumeration>
          <xs:enumeration value="CONJ">
             <!--Conjunction that still needs to classified as either coordinator or subordinator-->
          </xs:enumeration>
          <xs:enumeration value="CC">
             <!--COORD "coordinator"-->
          </xs:enumeration>
-         <xs:enumeration value="CC-CORRELATIVE"/>
+         <xs:enumeration value="CC-ADDITIVE">
+<!--соед. -->	 </xs:enumeration>
+         <xs:enumeration value="CC-DISJUNCTIVE">
+<!-- раздел. -->	 </xs:enumeration>
+         <xs:enumeration value="CC-ADVERSATIVE"/>
+         <xs:enumeration value="CC-CORRELATIVE">
+<!-- присоединит.-->
+	 </xs:enumeration>
+         <xs:enumeration value="CC-EMPHATIC">
+<!--усил., выделит. -->
+	 </xs:enumeration>
          <xs:enumeration value="CS">
             <!--SUBORD "subordinator"-->
          </xs:enumeration>
+         <xs:enumeration value="CS-CAUSE">
+<!-- причин. потому что -->
+	 </xs:enumeration>
+         <xs:enumeration value="CS-COMPARISON">
+<!-- сравнит. -->
+	 </xs:enumeration>
+         <xs:enumeration value="CS-CONCESSIVE">
+<!--уступ. -->
+	 </xs:enumeration>
+         <xs:enumeration value="CS-CORRELATIVE">
+<!-- кымын ... сымын : чем ... тем -->
+	 </xs:enumeration>
+         <xs:enumeration value="CS-CORRELATIVE-MAIN">
+<!-- кымын ... сымын : чем ... тем Main clause marker-->
+	 </xs:enumeration>
          <xs:enumeration value="DAT-1ARG"/>
          <xs:enumeration value="DEM"/>
          <xs:enumeration value="DEM-ADN"/>
+         <xs:enumeration value="DEM-ADV"/>
          <xs:enumeration value="DEM-PRON"/>
          <xs:enumeration value="SOD"/>
          <!--Speaker-oriented determiner-->
@@ -178,6 +217,8 @@
          <xs:enumeration value="FORMULAIC"/>
          <xs:enumeration value="GEN-ATTR"/>
          <xs:enumeration value="ABE_A"/>
+         <xs:enumeration value="CAR_A"/>
+         <xs:enumeration value="CAR_ADV"/>
          <xs:enumeration value="GEN_A"/>
          <xs:enumeration value="EXCLUSIVE">
             <!--Exclusive: just, only, alone-->
@@ -213,33 +254,57 @@
          <xs:enumeration value="N-TEMP">
             <!--Temporal noun: The nominative singular is the same as the Temporal adverb form-->
          </xs:enumeration>
-         <xs:enumeration value="N-VOCATIVE"/>
+         <xs:enumeration value="N-VOCATIVE">
+<!-- depricating to VOCATIVE -->
+	 </xs:enumeration>
+         <xs:enumeration value="VOCATIVE"/>
          <xs:enumeration value="NUM"/>
          <xs:enumeration value="NUM-ADN"/>
          <xs:enumeration value="NUM-UNIV"/>
+         <xs:enumeration value="NUM-DISTR">
+<!-- кыкӧн-кыкӧн -->
+	 </xs:enumeration>
          <xs:enumeration value="CARD"/>
          <xs:enumeration value="CARD-ADV"/>
          <xs:enumeration value="CARD-APPR"/>
          <xs:enumeration value="CARD-ITER"/>
+         <xs:enumeration value="CARD-ITER-APPR">
+<!-- кыкысь-куимысь -->
+	 </xs:enumeration>
+         <xs:enumeration value="ADV-ITER"/>
          <xs:enumeration value="ITER"/>
          <xs:enumeration value="CARD-PL"/>
+         <xs:enumeration value="NUM-ORD"/>
          <xs:enumeration value="ORD"/>
          <xs:enumeration value="ORD-ITER"/>
-         <xs:enumeration value="PART"/>
-         <xs:enumeration value="PART-DEICT"/>
-         <xs:enumeration value="PART-IMP"/>
-         <xs:enumeration value="PRT"/>
-         <xs:enumeration value="PRT_NEG"/>
-         <xs:enumeration value="PRT_OPT"/>
-         <xs:enumeration value="PART-ONOM"/>
-         <xs:enumeration value="PRT_COMPAR-STND">
+         <xs:enumeration value="UNIV-ITER"/>
+         <xs:enumeration value="PCLE_AFFIRM">
+<!-- утверд. (да) -->
+	 </xs:enumeration>
+         <xs:enumeration value="PCLE_CONCESSIVE">
+<!-- уступ. (хотя)-->
+	 </xs:enumeration>
+         <xs:enumeration value="PCLE-DEICT"/>
+         <xs:enumeration value="PCLE-DEM"/>
+         <xs:enumeration value="PCLE-DESCR"/>
+         <xs:enumeration value="PCLE-IMP"/>
+         <xs:enumeration value="PCLE"/>
+         <xs:enumeration value="PCLE_NEG"/>
+         <xs:enumeration value="PCLE_OPT"/>
+         <xs:enumeration value="PCLE-ONOM"/>
+         <xs:enumeration value="PCLE_COMPAR-STND">
             <!--Comparative standard-->
          </xs:enumeration>
-         <xs:enumeration value="PRT_SUPERL"/>
+         <xs:enumeration value="PCLE_STRENGTH">
+<!-- усилит. strengthening -->
+	 </xs:enumeration>
+         <xs:enumeration value="PCLE_SUPERL"/>
+         <xs:enumeration value="ADV_SUPERL"/>
          <xs:enumeration value="POSTP"/>
          <xs:enumeration value="TEMP-1ARG"/>
          <xs:enumeration value="PREP"/>
          <xs:enumeration value="PRON"/>
+         <xs:enumeration value="PRON-NEG"/>
          <xs:enumeration value="PRON-EXCL"/>
          <xs:enumeration value="PRON-GEN"/>
          <xs:enumeration value="PRON-INDEF"/>
@@ -255,12 +320,18 @@
          <xs:enumeration value="PROP-ANIM"/>
          <xs:enumeration value="PROP-DEITY"/>
          <xs:enumeration value="PROP-FirstM"/>
+         <xs:enumeration value="PROP-HUM"/>
          <xs:enumeration value="PROP-PL"/>
          <xs:enumeration value="PTC"/>
          <xs:enumeration value="PTC-I_A"/>
          <xs:enumeration value="PTC-CJA"/>
          <xs:enumeration value="PTC-CJA_N"/>
          <xs:enumeration value="PTC-VIKS"/>
+         <xs:enumeration value="PTC-AN"/>
+         <xs:enumeration value="PTC-ANA"/>
+         <xs:enumeration value="PTC-OM"/>
+         <xs:enumeration value="PTC-TOM"/>
+         <xs:enumeration value="PTC-YSJ"/>
          <xs:enumeration value="PTC_N"/>
          <xs:enumeration value="REFL"/>
          <!-- spatial This will be further divided into DEICT, INDEP, DEPEND, INTERR -->
@@ -269,6 +340,7 @@
          </xs:enumeration>
          <xs:enumeration value="SPAT"/>
          <xs:enumeration value="SPAT-0ARG"/>
+         <xs:enumeration value="SPAT-NoARG"/>
          <xs:enumeration value="SPAT-1ARG"/>
          <xs:enumeration value="SPAT-INDEF"/>
          <xs:enumeration value="SPAT-DEM"/>
@@ -291,9 +363,11 @@
          </xs:enumeration>
          <xs:enumeration value="QNT"/>
          <xs:enumeration value="QNT-ADN"/>
+         <xs:enumeration value="QNT-ADV"/>
          <xs:enumeration value="QNT-PRON"/>
          <xs:enumeration value="QNT-INDEF"/>
          <xs:enumeration value="QNT-COLL"/>
+         <xs:enumeration value="QNT-COLL-UNIV"/>
          <xs:enumeration value="QNT-DISTR"/>
          <xs:enumeration value="QNT-GEN"/>
          <xs:enumeration value="QNT-ITER"/>
@@ -326,6 +400,7 @@
          <xs:enumeration value="Q_REASON"/>
          <xs:enumeration value="Q_SPAT"/>
          <xs:enumeration value="Q_TEMP"/>
+         <xs:enumeration value="R_ORD"/>
          <xs:enumeration value="R_QNT"/>
          <xs:enumeration value="R_SPAT"/>
          <xs:enumeration value="R_TEMP"/>
@@ -518,16 +593,21 @@
    <xs:element name="e">
       <xs:complexType>
          <xs:sequence>
-            <xs:element maxOccurs="unbounded" minOccurs="0" ref="drv"/>
-            <xs:element minOccurs="0" ref="etymg"/>
+	   <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element ref="drv"/>
+            <xs:element ref="etymg"/>
+            <xs:element ref="val"/>
+	   </xs:choice>
             <xs:element maxOccurs="unbounded" ref="mg"/>
          </xs:sequence>
          <xs:attribute ref="No"/>
+         <xs:attribute ref="RNo"/>
       </xs:complexType>
    </xs:element>
    <xs:attribute name="kpvContlex" type="xs:string"/>
    <xs:attribute name="mdfContlex" type="xs:string"/>
    <xs:attribute name="mrjContlex" type="xs:string"/>
+   <xs:attribute name="vepContlex" type="xs:string"/>
    <xs:attribute name="vroContlex" type="xs:string"/>
    <xs:attribute name="erzContlex">
       <xs:simpleType>
@@ -550,7 +630,11 @@
             <xs:enumeration value="nachko-Adj-WORK"/>
             <xs:enumeration value="shumbra-Adj-WORK"/>
             <xs:enumeration value="Abe-Adj"/>
+            <xs:enumeration value="Adj-Dem"/>
             <xs:enumeration value="Adj-Interr"/>
+            <xs:enumeration value="Adj-InterrRel">
+<!-- -->	    </xs:enumeration>
+            <xs:enumeration value="Adj-Po"/>
             <xs:enumeration value="Comp-Adj"/>
             <xs:enumeration value="AdvTag"/>
             <xs:enumeration value="Ad-ATag"/>
@@ -822,6 +906,7 @@
                <xs:attribute ref="drvType"/>
                <xs:attribute ref="dx"/>
                <xs:attribute ref="lemmaID"/>
+               <xs:attribute ref="stemID"/>
                <xs:attribute ref="erzMorph"/>
                <xs:attribute ref="kpvMorph"/>
                <xs:attribute ref="mx"/>
@@ -915,6 +1000,7 @@
          <xs:attribute ref="etymType"/>
          <xs:attribute ref="lang"/>
          <xs:attribute ref="lemmaID"/>
+	 <xs:attribute ref="stemID"/>
          <xs:attribute ref="nx"/>
       </xs:complexType>
    </xs:element>
@@ -922,14 +1008,25 @@
       <xs:simpleType>
          <xs:restriction base="xs:string">
             <xs:enumeration value="Allegro"/>
-            <xs:enumeration value="DIM"/>
+            <xs:enumeration value="Descr">
+<!-- изобр. descriptive-->	    </xs:enumeration>
+            <xs:enumeration value="Dim"/>
             <xs:enumeration value="Dim/не"/>
             <xs:enumeration value="Dim/ке"/>
+            <xs:enumeration value="Distr"/>
             <xs:enumeration value="DV_N"/>
+            <xs:enumeration value="Der/а"/>
+            <xs:enumeration value="Der/ана"/>
+            <xs:enumeration value="Der/ан"/>
+            <xs:enumeration value="Der/Ин"/>
+            <xs:enumeration value="Der/ӧм"/>
+            <xs:enumeration value="Der/тӧм"/>
+            <xs:enumeration value="Der/ысь"/>
          </xs:restriction>
       </xs:simpleType>
    </xs:attribute>
    <xs:attribute name="lemmaID" type="xs:string"/>
+   <xs:attribute name="stemID" type="xs:string"/>
    <xs:element name="tg">
       <xs:complexType>
          <xs:choice maxOccurs="unbounded">
@@ -943,7 +1040,14 @@
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="t"/>
-            <xs:element maxOccurs="unbounded" ref="re"/>
+	    <xs:choice maxOccurs="unbounded">
+	      <xs:element ref="att"/>
+	      <xs:element ref="field"/>
+	      <xs:element ref="re"/>
+	      <xs:element ref="range"/>
+	      <xs:element ref="register"/>
+	      <xs:element ref="sense"/>
+	    </xs:choice>
          </xs:sequence>
          <xs:attribute ref="lang"/>
       </xs:complexType>
@@ -970,6 +1074,7 @@
          </xs:attribute>
          <xs:attribute ref="nx"/>
          <xs:attribute ref="pos"/>
+         <xs:attribute ref="tType"/>
       </xs:complexType>
    </xs:element>
    <xs:attribute name="erzMorph">
@@ -1092,33 +1197,10 @@
             <xs:element minOccurs="0" ref="sense"/>
             <xs:element ref="att"/>
             <xs:element ref="sci"/>
+            <xs:element minOccurs="0" ref="re"/>
             <xs:element minOccurs="0" ref="tags"/>
             <xs:element minOccurs="0" ref="argg"/>
-            <xs:element name="range">
-               <xs:complexType>
-                  <xs:simpleContent>
-                     <xs:extension base="xs:string">
-                        <xs:attribute ref="dialect"/>
-                        <xs:attribute name="rangeSpat">
-                           <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                 <xs:enumeration value="dialect"/>
-                              </xs:restriction>
-                           </xs:simpleType>
-                        </xs:attribute>
-                        <xs:attribute name="rangeTemp">
-                           <xs:simpleType>
-                              <xs:restriction base="xs:string">
-                                 <xs:enumeration value="neologism"/>
-                                 <xs:enumeration value="historical"/>
-                                 <xs:enumeration value="obsolete"/>
-                              </xs:restriction>
-                           </xs:simpleType>
-                        </xs:attribute>
-                     </xs:extension>
-                  </xs:simpleContent>
-               </xs:complexType>
-            </xs:element>
+            <xs:element minOccurs="0" ref="range"/>
          </xs:choice>
       </xs:complexType>
    </xs:element>
@@ -1191,14 +1273,57 @@
          <xs:attribute name="att">
             <xs:simpleType>
                <xs:restriction base="xs:string">
+                  <xs:enumeration value="abusive">
+<!-- бранный -->
+		  </xs:enumeration>
                   <xs:enumeration value="contempt"/>
+                  <xs:enumeration value="disapprovingly">
+<!-- неодобрительный -->
+		  </xs:enumeration>
+                  <xs:enumeration value="disparaging">
+<!-- пренебрежительный -->
+		  </xs:enumeration>
+                  <xs:enumeration value="endearment"/>
                   <xs:enumeration value="ironic"/>
                   <xs:enumeration value="joc"/>
                   <xs:enumeration value="neg"/>
+                  <xs:enumeration value="reproachful">
+<!-- укор. -->
+		  </xs:enumeration>
                </xs:restriction>
             </xs:simpleType>
          </xs:attribute>
       </xs:complexType>
+   </xs:element>
+   <xs:element name="range">
+     <xs:complexType>
+       <xs:simpleContent>
+	 <xs:extension base="xs:string">
+	   <xs:attribute ref="dialect"/>
+	   <xs:attribute name="rangeSpat">
+	     <xs:simpleType>
+	       <xs:restriction base="xs:string">
+		 <xs:enumeration value="dialect"/>
+		 <xs:enumeration value="regional"/>
+	       </xs:restriction>
+	     </xs:simpleType>
+	   </xs:attribute>
+	   <xs:attribute name="rangeTemp">
+	     <xs:simpleType>
+	       <xs:restriction base="xs:string">
+		 <xs:enumeration value="neologism"/>
+		 <xs:enumeration value="historical">
+<!-- concept is no longer in common use-->
+		 </xs:enumeration>
+		 <xs:enumeration value="obsolete">
+<!-- term no longer used for a given concept -->
+		 </xs:enumeration>
+	       </xs:restriction>
+	     </xs:simpleType>
+	   </xs:attribute>
+	 </xs:extension>
+       </xs:simpleContent>
+     </xs:complexType>
    </xs:element>
    <xs:element name="sense">
       <xs:complexType>
@@ -1206,6 +1331,7 @@
             <xs:simpleType>
                <xs:restriction base="xs:string">
                   <xs:enumeration value="figurative"/>
+                  <xs:enumeration value="literal"/>
                </xs:restriction>
             </xs:simpleType>
          </xs:attribute>
@@ -1221,6 +1347,7 @@
                <xs:attribute ref="isaType"/>
                <xs:attribute ref="semClass"/>
                <xs:attribute ref="lemmaID"/>
+               <xs:attribute ref="stemID"/>
             </xs:extension>
          </xs:simpleContent>
       </xs:complexType>
@@ -1243,11 +1370,22 @@
          <xs:sequence>
             <xs:element ref="x"/>
             <xs:element minOccurs="0" ref="phonet"/>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+	      <xs:element ref="att"/>
+	      <xs:element ref="field"/>
+	      <xs:element ref="range"/>
+	      <xs:element ref="register"/>
+	      <xs:element ref="sense"/>
+	      <xs:element ref="source"/>
+	    </xs:choice>
             <xs:choice maxOccurs="unbounded">
                <xs:element ref="xt"/>
                <xs:element ref="xtCtn"/>
             </xs:choice>
-            <xs:element maxOccurs="unbounded" minOccurs="0" ref="answer"/>
+	    <xs:choice maxOccurs="unbounded" minOccurs="0">
+	      <xs:element ref="answer"/>
+	      <xs:element ref="com"/>
+	    </xs:choice>
          </xs:sequence>
          <xs:attribute ref="genreType"/>
       </xs:complexType>
@@ -1263,8 +1401,19 @@
          <xs:sequence>
             <xs:element ref="native"/>
             <xs:choice maxOccurs="unbounded">
-               <xs:element maxOccurs="unbounded" ref="xt"/>
-               <xs:element maxOccurs="unbounded" ref="tg"/>
+               <xs:element ref="xt"/>
+               <xs:element ref="tg"/>
+            </xs:choice>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="com">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="x"/>
+            <xs:choice maxOccurs="unbounded">
+               <xs:element ref="xt"/>
+               <xs:element ref="xtCtn"/>
             </xs:choice>
          </xs:sequence>
       </xs:complexType>
@@ -1282,6 +1431,9 @@
          </xs:sequence>
          <xs:attribute ref="drvType"/>
          <xs:attribute ref="lemmaID"/>
+	 <xs:attribute ref="stemID"/>
+         <xs:attribute ref="No"/>
+         <xs:attribute ref="RNo"/>
          <xs:attribute ref="pos"/>
          <xs:attribute name="semRelType">
             <xs:simpleType>
@@ -1305,16 +1457,33 @@
       <xs:complexType mixed="true">
          <xs:sequence/>
          <xs:attribute ref="lang"/>
+         <xs:attribute ref="pos"/>
+         <xs:attribute ref="tType"/>
       </xs:complexType>
    </xs:element>
    <xs:element name="xtCtn">
       <xs:complexType>
          <xs:sequence>
             <xs:element ref="xt"/>
-            <xs:element minOccurs="0" ref="re"/>
+	    <xs:choice maxOccurs="unbounded">
+	      <xs:element ref="att"/>
+	      <xs:element ref="field"/>
+	      <xs:element ref="re"/>
+	      <xs:element ref="range"/>
+	      <xs:element ref="register"/>
+	      <xs:element ref="sense"/>
+	    </xs:choice>
          </xs:sequence>
       </xs:complexType>
    </xs:element>
+   <xs:attribute name="tType">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+	 <xs:enumeration value="equivalent"/>
+	 <xs:enumeration value="literal"/>
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
    <xs:element name="field">
       <xs:complexType>
          <xs:simpleContent>
@@ -1326,6 +1495,7 @@
    </xs:element>
    <xs:element name="re" type="xs:string"/>
    <xs:attribute name="No" type="xs:integer"/>
+   <xs:attribute name="RNo" type="xs:string"/>
    <xs:attribute name="dialect">
       <xs:simpleType>
          <xs:restriction base="xs:string">
@@ -1403,6 +1573,7 @@
             <xs:enumeration value="mdf"/>
             <xs:enumeration value="mhr"/>
             <xs:enumeration value="mrj"/>
+            <xs:enumeration value="nno"/>
             <xs:enumeration value="pol"/>
             <xs:enumeration value="rus"/>
             <xs:enumeration value="san">
@@ -1428,11 +1599,17 @@
          <xs:attribute name="register">
             <xs:simpleType>
                <xs:restriction base="xs:string">
-                  <xs:enumeration value="colloquial"/>
+                  <xs:enumeration value="colloquial">
+<!-- простр. -->
+		  </xs:enumeration>
                   <!--Umgangssprache Erz-Deu_2002-->
-                  <xs:enumeration value="conversation"/>
-                  <xs:enumeration value="dial"/>
+                  <xs:enumeration value="conversation">
+<!-- разг. -->
+                  </xs:enumeration>
+		  <xs:enumeration value="dial"/>
+                  <xs:enumeration value="familiar"/>
                   <xs:enumeration value="motherese"/>
+                  <xs:enumeration value="official"/>
                   <xs:enumeration value="poetic"/>
                   <xs:enumeration value="vulgar"/>
                </xs:restriction>
@@ -1446,8 +1623,32 @@
             <xs:extension base="xs:string">
                <xs:attribute ref="isaType"/>
                <xs:attribute ref="lemmaID"/>
+               <xs:attribute ref="stemID"/>
             </xs:extension>
          </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="source">
+      <xs:complexType>
+         <xs:attribute name="source">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="folklore"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
+      </xs:complexType>
+   </xs:element>
+   <xs:element name="val">
+      <xs:complexType>
+         <xs:attribute name="valency">
+            <xs:simpleType>
+               <xs:restriction base="xs:string">
+                  <xs:enumeration value="vi"/>
+                  <xs:enumeration value="vt"/>
+               </xs:restriction>
+            </xs:simpleType>
+         </xs:attribute>
       </xs:complexType>
    </xs:element>
    <xs:attribute name="isaType">
@@ -1485,6 +1686,7 @@
             <xs:enumeration value="color"/>
             <xs:enumeration value="company"/>
             <xs:enumeration value="continent"/>
+            <xs:enumeration value="Cyrillic_surname"/>
             <xs:enumeration value="document"/>
             <xs:enumeration value="domestic_animal"/>
             <xs:enumeration value="wild_animal"/>
@@ -1502,6 +1704,7 @@
             <xs:enumeration value="human"/>
             <xs:enumeration value="institution"/>
             <xs:enumeration value="kin_term"/>
+            <xs:enumeration value="Komi_surname"/>
             <xs:enumeration value="parent"/>
             <xs:enumeration value="lake"/>
             <xs:enumeration value="male"/>
@@ -1520,6 +1723,7 @@
             <xs:enumeration value="region"/>
             <xs:enumeration value="river"/>
             <xs:enumeration value="river_basin"/>
+            <xs:enumeration value="Russian_surname"/>
             <xs:enumeration value="sea"/>
             <xs:enumeration value="settlement"/>
             <xs:enumeration value="sovkhoz"/>
@@ -1527,6 +1731,7 @@
             <xs:enumeration value="surname"/>
             <xs:enumeration value="toponym"/>
             <xs:enumeration value="tree"/>
+            <xs:enumeration value="Ukrainian_surname"/>
             <xs:enumeration value="village"/>
             <xs:enumeration value="war"/>
             <xs:enumeration value="weekday"/>
@@ -1802,9 +2007,14 @@
             <xs:enumeration value="acc">
                <!--[kvp: -ӧс]-->
             </xs:enumeration>
+            <xs:enumeration value="apr"/>
+            <xs:enumeration value="car"/>
             <xs:enumeration value="comp"/>
             <xs:enumeration value="com"/>
             <xs:enumeration value="dat"/>
+            <xs:enumeration value="egr">
+<!-- [kvp: -сянь] -->
+	    </xs:enumeration>
             <xs:enumeration value="ela"/>
             <xs:enumeration value="gen"/>
             <xs:enumeration value="ill"/>
@@ -1817,6 +2027,9 @@
             <xs:enumeration value="nom"/>
             <xs:enumeration value="prol"/>
             <xs:enumeration value="temp"/>
+            <xs:enumeration value="ter">
+<!--[kvp: -ӧдз]-->
+	    </xs:enumeration>
             <xs:enumeration value="trnsl"/>
          </xs:restriction>
       </xs:simpleType>
