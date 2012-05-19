@@ -719,7 +719,7 @@ LEXICON ejs-PO
 LEXICON marto-PO
 +Po+Abs: Clitic ;
 +Po+COM: kudo-Possessives2 ; 
-+Po+Der/MWN: kudo-N ;
++Po+Der/MWN: N-kudo ;
 
 
 LEXICON kudo-PO-ILL
@@ -836,7 +836,7 @@ LEXICON Manner-Interr !
 
 LEXICON Pred2 !
 +Pred2: Clitic ;
-+Pred2+Der/MWN: kudo-N ;
++Pred2+Der/MWN: N-kudo ;
 
 !! spatial adverbs 
 !! dependent and independent case marking 
@@ -905,15 +905,15 @@ LEXICON Temp-Temp
 
 LEXICON lak-N-Temp
 +Adv+Temp: Clitic ;
-+Adv+Temp+Der/MWN: lak-N ;
++Adv+Temp+Der/MWN: N-lak ;
 
 LEXICON kit-N-Temp
 +Adv+Temp: Clitic ;
-+Adv+Temp+Der/MWN: kit-N ;
++Adv+Temp+Der/MWN: N-kit ;
 
 LEXICON kudo-N-Temp
 +Adv+Temp: Clitic ;
-+Adv+Temp+Der/MWN: kudo-N ;
++Adv+Temp+Der/MWN: N-kudo ;
 
 LEXICON Temp-1Arg-Ela
 +Po+Ela+Temp: Clitic ; !This will require Possessor Indices
@@ -934,7 +934,7 @@ LEXICON Cs
 !LEXICON PCLE
 !а+Pcle+Neg:а # ;
 !аволь+Pcle+Neg+Emphatic:аволь # ;
-!ай+Pcle+Neg+Emphatic:ай kal-N ;
+!ай+Pcle+Neg+Emphatic:ай N-kal ;
 !апак+Pcle+Neg:апак lak-Tenses-Obl ;
 !седе+Pcle+Compar:седе # ;
 !сех+Pcle+Superl:сех # ;
@@ -1035,7 +1035,7 @@ LEXICON alo-Spat
 LEXICON alo-Spat-NoArg
 +Adv+Spat+OrthPhon+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Adv+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
-+Adv+Spat+Der/кс:%>кс osh-N ;
++Adv+Spat+Der/кс:%>кс N-osh ;
 +Adv+Spat+Lat:%>О1в Clitic ;
 +Adv+Spat+Abl:%>дО1 Clitic ;
 +Adv+Spat+Loc:%>О1 Clitic ;
@@ -1050,7 +1050,7 @@ LEXICON alo-Spat-1Arg
 +Po+Spat+Prl:%>Г2а kudo-Indef--Poss ;
 +Po+Spat+OrthPhon+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Po+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
-+Po+Spat+Der/кс:%>кс osh-N ;
++Po+Spat+Der/кс:%>кс N-osh ;
 +Po+Spat+Lat+Indef:%>О1в Clitic ;
 +Po+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
 +Po+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
@@ -1058,12 +1058,12 @@ LEXICON alo-Spat-1Arg
 
 LEXICON alo-Spat-AdvN
  alo-Spat-NoArg ;
- kal-N ;
+ N-kal ;
 +N+Loc:%>О1 Clitic ;
 
 LEXICON alo-Spat-PoN
  alo-Spat-1Arg ;
- kal-N ;
+ N-kal ;
 +N+Loc:%>О1 Clitic ;
 
 LEXICON kovolo-Spat
@@ -1213,28 +1213,28 @@ LEXICON shumbra-Adj-WORK
 +WORK: Adj-shumbra ;
 
 LEXICON kal-N-WORK
-+WORK: kal-N ;
++WORK: N-kal ;
 
 LEXICON kit-N-WORK
-+WORK: kit-N ;
++WORK: N-kit ;
 
 LEXICON lak-N-WORK
-+WORK: lak-N ;
++WORK: N-lak ;
 
 LEXICON osh-N-WORK
-+WORK: osh-N ;
++WORK: N-osh ;
 
 LEXICON pango-N-WORK
-+WORK: pango-N ;
++WORK: N-pango ;
 
 LEXICON tinge-N-WORK
-+WORK: tinge-N ;
++WORK: N-tinge ;
 
 LEXICON teshte-N-WORK
-+WORK: teshte-N ;
++WORK: N-teshte ;
 
 LEXICON kudo-N-WORK
-+WORK: kudo-N ;
++WORK: N-kudo ;
 
 
 
