@@ -1,3 +1,4 @@
+
 LEXICON VERBNEGATIVE
 аволть+V+Neg+Conj+Sc3Pl:авольть # ;
 < а в о л ь "+V":0 "+Pred":0 "+Neg":0 "+Conj":0  "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
@@ -201,7 +202,7 @@ LEXICON VerbsPresPtc_1
 
 LEXICON Deverbals-kadoms ! kadoms
 < 0:">" 0:О1 "@U.CONJ-INF.YES@" > Deverbals_noArrow ;
-+Der/Овт+TelicN:%>О1втЬ2 kit-N ; !!
++Der/Овт+TelicN:%>О1втЬ2 N-kit ; !!
 +Der/Озь+Ger:%>О1зь sajezj-PTC ; !!
 +Der/Озь+Ger+Pred+Ind+NonPast+Sc3Pl:%>О1зь%>тЬ2 VerbEnd_Clitic ; !!
 +Der/Онь+VGen:%>О1нь kal-Tenses1 ;
@@ -214,7 +215,7 @@ LEXICON Deverbals-kadoms ! kadoms
 
 LEXICON Deverbals-kundams ! kundams
 < 0:">" "@U.CONJ-INF.YES@" > Deverbals_noArrow ;
-+Der/Овт+TelicN:%>втЬ2 kit-N ; !!
++Der/Овт+TelicN:%>втЬ2 N-kit ; !!
 +Der/Озь+Ger:%>зь sajezj-PTC ; !!
 +Der/Озь+Ger+Pred+Ind+NonPast+Sc3Pl:%>зь%>тЬ2 VerbEnd_Clitic ; !!
 +Der/Онь+VGen:%>нь kal-Tenses1 ;
@@ -222,8 +223,8 @@ LEXICON Deverbals-kundams ! kundams
 
 
 LEXICON Deverbals_noArrow
-< 0:м 0:А1 "+Der/ОмА":0 "@C.CONJ-INF@" > kudo-N ;
-< 0:м 0:к 0:а "+Der/Омка":0 "@C.CONJ-INF@" > kudo-N ;
+< 0:м 0:А1 "+Der/ОмА":0 "@C.CONJ-INF@" > N-kudo ;
+< 0:м 0:к 0:а "+Der/Омка":0 "@C.CONJ-INF@" > N-kudo ;
 < 0:м 0:а "+Der/Ома":0 "+Oblig":0 "@U.CX.NOM@" > kudo-Tenses1-4Inf ;
 < 0:м 0:к 0:а "+Der/Омка":0 "+Oblig":0 "@U.CX.NOM@" > kudo-Tenses1-4Inf ;
 
@@ -247,7 +248,7 @@ LEXICON sajezj-PTC
  VerbEnd_Clitic ;
 
 LEXICON Ptc-Telic ! sajevtj
-+Ptc+Telic: kit-N ;
++Ptc+Telic: N-kit ;
 
 
 
