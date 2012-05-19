@@ -29,7 +29,7 @@ LEXICON Adj-vitj
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kit-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: kit-N ;
++A+Der/MWN: N-kit ;
 +A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-erek
@@ -38,7 +38,7 @@ LEXICON Adj-erek
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: lak-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: lak-N ;
++A+Der/MWN: N-lak ;
 +A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-od
@@ -47,7 +47,7 @@ LEXICON Adj-od
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kal-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: kal-N ;
++A+Der/MWN: N-kal ;
 +A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-vanjks
@@ -56,7 +56,7 @@ LEXICON Adj-vanjks
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kal-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: osh-N ;
++A+Der/MWN: N-osh ;
 +A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-chevte
@@ -71,7 +71,7 @@ LEXICON Adj-nachko
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: pango-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: pango-N ;
++A+Der/MWN: N-pango ;
 +A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 LEXICON Adj-shumbra
@@ -80,7 +80,7 @@ LEXICON Adj-shumbra
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kudo-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: kudo-N ;
++A+Der/MWN: N-kudo ;
 +A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
 
 
@@ -99,7 +99,7 @@ LEXICON Adj-Po ! кондямо
 ! Nouns !
 ! ===== !
 
-LEXICON kal-N
+LEXICON N-kal
 +N: kal-N-Derivation ;
 +N: kal-N-Def-Declension ;
 +N: kal-Indef-Declension ;
@@ -110,12 +110,12 @@ LEXICON kal-N-PL
 +N: kal-Indef-Declension ;
 +N: kal-N-Poss-Declension-CX-PL ;
 
-LEXICON lak-N
+LEXICON N-lak
 +N: lak-N-Derivation ;
 +N: lak-N-Def-Declension ;
 +N: lak-Indef-Declension ;
 
-LEXICON kit-N
+LEXICON N-kit
 +N: kit-N-Derivation ;
 +Use/Sub/Short:%>TLoss DefPl-Declension ;
 +N: kit-N-Def-Declension ;
@@ -127,13 +127,13 @@ LEXICON kit-N-PL
 +N: kit-Indef-Declension ;
 +N: kal-N-Poss-Declension-CX-PL ;
 
-LEXICON klass-N
+LEXICON N-klass
 +N: klass-N-Derivation ;
 +N: osh-N-Def-Declension ;
 +N: osh-Indef-Declension ;
 +N: kal-N-Poss-Declension-CX ;
 
-LEXICON osh-N
+LEXICON N-osh
 +N: osh-N-Derivation ;
 +N: osh-N-Def-Declension ;
 +N: osh-Indef-Declension ;
@@ -145,14 +145,14 @@ LEXICON osh-N-PL
 +N: osh-Indef-Declension ;
 +N: osh-N-Poss-Declension-CX-PL ;
 
-LEXICON ije-N
- pango-N ;
+LEXICON N-ije
+ N-pango ;
 
-LEXICON teshte-N
- pango-N ;
+LEXICON N-teshte
+ N-pango ;
 
-LEXICON tinge-N
- pango-N ;
+LEXICON N-tinge
+ N-pango ;
 
 LEXICON tinge-N-PL
 +N:%> DefPl-Declension ;
@@ -160,16 +160,16 @@ LEXICON tinge-N-PL
 +N: pango-Indef-Declension ;
 +N: kudo-N-Poss-Declension-CX-PL ;
 
-LEXICON pango-N
+LEXICON N-pango
 +N: pango-N-Derivation ;
 +N: pango-N-Def-Declension ;
 +N: pango-Indef-Declension ;
 +N: pango-N-Poss-Declension-CX ;
 
 LEXICON DV-NTag
-+V+Der/OmA: kudo-N ;
++V+Der/OmA: N-kudo ;
 
-LEXICON kudo-N
+LEXICON N-kudo
 +N: kudo-N-Derivation ;
 +N: kudo-N-Def-Declension ;
 +N: kudo-Indef-Declension ;
@@ -181,7 +181,7 @@ LEXICON kudo-N-PL
 +N: kudo-Indef-Declension ;
 +N: kudo-N-Poss-Declension-CX-PL ;
 
-LEXICON avidem-N
+LEXICON N-avidem
 +N+Assoc-Coll: kudo-N-Poss-Declension-CX ;
 
 ! ===== !
@@ -214,10 +214,10 @@ LEXICON osh-PROP
 +Prop: osh-N-Poss-Declension-CX ;
 
 LEXICON teshte-PROP
- pango-N ;
+ N-pango ;
 
 LEXICON tinge-PROP
- pango-N ;
+ N-pango ;
 
 LEXICON pango-PROP
 +Prop: pango-N-Derivation ;
