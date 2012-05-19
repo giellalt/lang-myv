@@ -116,6 +116,7 @@
          <xs:enumeration value="PHRASE_SPAT"/>
          <xs:enumeration value="PHRASE_TEMP"/>
          <xs:enumeration value="PHRASE_V"/>
+	 <xs:enumeration value="BAHUVRIHI"/>
          <xs:enumeration value="A"/>
          <xs:enumeration value="AD-A"/>
          <xs:enumeration value="ADDITIVE">
@@ -647,6 +648,9 @@
             <xs:enumeration value="Adv-kudo">
                <!--providing for adv stems-->
             </xs:enumeration>
+            <xs:enumeration value="BahuvTag-kal"/>
+            <xs:enumeration value="BahuvTag-kudo"/>
+            <xs:enumeration value="BahuvTag-pango"/>
             <xs:enumeration value="Exclusive"/>
             <xs:enumeration value="MannerTag"/>
             <xs:enumeration value="Manner-Interr"/>
@@ -687,24 +691,24 @@
             <xs:enumeration value="N-COLL">
                <!--These are collective nouns: атят-сэрдят these entries also have exclude="fst" in the entry elements-->
             </xs:enumeration>
-            <xs:enumeration value="kal-N"/>
+            <xs:enumeration value="N-kal"/>
             <xs:enumeration value="kal-N-PL"/>
-            <xs:enumeration value="lak-N"/>
-            <xs:enumeration value="kit-N"/>
+            <xs:enumeration value="N-lak"/>
+            <xs:enumeration value="N-kit"/>
             <xs:enumeration value="kit-N-PL"/>
-            <xs:enumeration value="osh-N"/>
+            <xs:enumeration value="N-osh"/>
             <xs:enumeration value="osh-N-PL"/>
-            <xs:enumeration value="klass-N"/>
-            <xs:enumeration value="pango-N"/>
+            <xs:enumeration value="N-klass"/>
+            <xs:enumeration value="N-pango"/>
             <xs:enumeration value="sjado-NUM-PL"/>
-            <xs:enumeration value="ije-N"/>
-            <xs:enumeration value="tinge-N"/>
+            <xs:enumeration value="N-ije"/>
+            <xs:enumeration value="N-tinge"/>
             <xs:enumeration value="tinge-N-PL"/>
-            <xs:enumeration value="teshte-N"/>
-            <xs:enumeration value="kudo-N"/>
+            <xs:enumeration value="N-teshte"/>
+            <xs:enumeration value="N-kudo"/>
             <xs:enumeration value="kudo-N-PL"/>
             <xs:enumeration value="N-авидем"/>
-            <xs:enumeration value="avidem-N"/>
+            <xs:enumeration value="N-avidem"/>
             <xs:enumeration value="N-Coll"/>
             <xs:enumeration value="kal-N-WORK"/>
             <xs:enumeration value="lak-N-WORK"/>
