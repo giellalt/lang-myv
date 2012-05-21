@@ -78,9 +78,11 @@
       <xs:complexType mixed="true">
          <xs:sequence/>
          <xs:attribute ref="erzContlex"/>
+         <xs:attribute ref="kcaContlex"/>
          <xs:attribute ref="kpvContlex"/>
          <xs:attribute ref="mdfContlex"/>
          <xs:attribute ref="mrjContlex"/>
+         <xs:attribute ref="nioContlex"/>
          <xs:attribute ref="vepContlex"/>
          <xs:attribute ref="vroContlex"/>
          <xs:attribute ref="orthType"/>
@@ -605,9 +607,11 @@
          <xs:attribute ref="RNo"/>
       </xs:complexType>
    </xs:element>
+   <xs:attribute name="kcaContlex" type="xs:string"/>
    <xs:attribute name="kpvContlex" type="xs:string"/>
    <xs:attribute name="mdfContlex" type="xs:string"/>
    <xs:attribute name="mrjContlex" type="xs:string"/>
+   <xs:attribute name="nioContlex" type="xs:string"/>
    <xs:attribute name="vepContlex" type="xs:string"/>
    <xs:attribute name="vroContlex" type="xs:string"/>
    <xs:attribute name="erzContlex">
