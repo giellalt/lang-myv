@@ -47,8 +47,6 @@ ZERO
 +PossPX
 !+Pref
 !+Pres
-!+PretI
-!+PretII
 !+Prt !Participle >+Ptc
 !+Relat
 +Short ! short pronouns ??
@@ -56,7 +54,6 @@ ZERO
 +Telic ! Telic aspect
 +Top ! Topic
 +TLoss ! for T loss in чувтУ2>VLossTLossтне чувтнэ
-!+Transl ! Translative
 +V1VU ! эряви
 +Verb ! Verb
 +Voicing
@@ -151,23 +148,6 @@ ZERO
 +Delib ! +Sugg modality: deontic/directive/deliberative
        ! I still need the right word for this андомс: андомсат
 
-+Ind.NonPast.1Sg
-+Ind.NonPast.2Sg
-+Ind.NonPast.3.Sg
-+Ind.NonPast.1Pl
-+Ind.NonPast.2Pl
-+Ind.NonPast.3.Pl
-
-+Ind.Prt1
-+Ind.Prt1.3.Sg
-+Ind.Prt1.3
-+Ind.NonPast.1Sg
-+Ind.NonPast.2Sg
-+Ind.NonPast.1Pl
-+Ind.NonPast.2Pl
-+Ind.Prt2.3.Sg
-+Ind.Prt2.3.Pl
-+Ind.Prt2
 +1Sg/2Sg
 +1Sg/3Sg
 +1Sg/3Pl
@@ -217,7 +197,7 @@ ZERO
 !!!! FUNCTIONS are all upper-case !!!!
 +ACC +DAT +COM ! This marks a function not a morpheme
 
-+Gen +Abl +Dat +Com 
++Gen +Abl +DatCx +Com 
 ! The accusative is marked by the indefite nominative
 ! The definite genitives
 ! The possessum genitive where there is a morphological distinction
@@ -226,7 +206,7 @@ ZERO
       ! it will be noted that this complement
       ! is not necessarily limited to postpositions, non-finites are also
       ! possible. Generally the forms of +Acc and +Cmpl are identical
-      ! In some dialects and literature the form +Pl+Def.Pl.Nom 
+      ! In some dialects and literature the form +Pl+Nom+Def
       ! also occurs with postpositions
 
 +Ine +Ill 
@@ -249,8 +229,7 @@ ZERO
 +Px1Pl
 +Px2Pl
 +Px3Pl
-! the dat form does not indicate number of possessor
-+Px3
+
 
 
 +NoPoss
@@ -346,25 +325,6 @@ ZERO
 +Der/Gen
 ! There portmanteau morphology
 ! Noun-type
-+Abe.NbAmb.Indef
-+Abl.NbAmb.Indef
-+Com.NbAmb.Indef
-+Comp.NbAmb.Indef
-+Dat.DefSg
-+Dat.NbAmb.Indef
-+Ela.NbAmb.Indef
-+Gen.DefSg
-+Gen.NbAmb.Indef
-+Ill.NbAmb.Indef
-+Ine.NbAmb.Indef
-+Lat.NbAmb.Indef
-+Nom.Def.Sg
-+Nom.NbAmb.Indef
-+Nom.Pl.Indef
-+Nom.Sg.Indef
-+Prl.NbAmb.Indef
-+Temp.NbAmb.Indef
-+Tra.NbAmb.Indef
 
 
 ! Nominal stem vowel following vowel, word finally realized as "й"
@@ -390,7 +350,7 @@ ZERO
 
 !Range limitations with regard to 4 classical sentence types:
 ! Statement, Question,      Command, Exclamation
-! --"--    , +Rance/Interr, 
+! --"--    , +Range/Interr, 
 ! 
 
 !Use for limitation later
@@ -1087,7 +1047,7 @@ LEXICON kovolo-Spat
 
 LEXICON Mezty
 +Assoc+Pl+Nom:%>мезть Clitic ;
-+Assoc+Dat:%>мезнень Clitic ;
++Assoc+DatCx:%>мезнень Clitic ;
 +Assoc+Gen:%>мезень Clitic ;
 +Assoc+Abl:%>мезде Clitic ;
 +Assoc+Abe:%>мезевтеме Clitic ;
