@@ -28,7 +28,7 @@ LEXICON Pers_Pronouns1
 +Refl+Abe:%>О1нстеме PossPX1 ;
 +Refl+Abl:%>О1нстеде PossPX1 ;
 +Refl+Comp:%>О1нсешка PossPX1 ;
-+Refl+Dat:%>О1нсте PossPX1 ;
++Refl+DatCx:%>О1нсте PossPX1 ;
 
 < 0:">" 0:О1 0:н 0:ь "+Gen":0 "+2Sg":0 "@U.PossPx.2Sg@" "@C.TNUM@" "@N.TPERS.2@"> kal-Tenses1 ;
 < 0:">" 0:О1 0:н 0:з 0:о "+Use/Sub/Dial":0 "+Px3Sg":0 "+Gen":0 "@U.PossPx.3Sg@" "@C.TNUM@" "@N.TPERS.3@"> kudo-Tenses1 ;
@@ -36,7 +36,7 @@ LEXICON Pers_Pronouns1
 +Abl:%>О1нде PersPron_PossPX ; 
 +Abl+Abl:%>О1ндеде PersPron_PossPX ; 
 +Abl+Gen+Abl:%>О1нденде PersPron_PossPX ; 
-+Dat:не  PersPron_PossPX ;
++DatCx:не  PersPron_PossPX ;
 +Ill:ньзэ  PersPron_PossPX ;
 < 0:н 0:ь 0:к 0:с "+Tra":0 "@P.LV.ON@" > osh-PersPron_PossPX ; 
 < 0:н 0:ь 0:к 0:с 0:э 0:к 0:с "+Tra":0 "+LV":0 "+Tra":0"@P.LV.ON@" > osh-PersPron_PossPX ; 
@@ -53,13 +53,13 @@ LEXICON Pers_Pronouns1
 LEXICON PersPron_Minsy
 +Nom: osh-Tenses1 ;
 !!!< "@N.TPERS.1@" "@N.TPERS.2@" "@N.TPERS.3@" "@C.TNUM@"> PersPron_Gen ;
-+Dat:%>те PersPron_PossPX ;
++DatCx:%>те PersPron_PossPX ;
 +Abl+Abl:%>теде PersPron_PossPX ;
 +Abl:%>О1де PersPron_PossPX ;
 +Prl:%>Г2а PersPron_Oblique ;
 +LV+Comp:%>О1шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
-< 0:">" 0:О1 0:к 0:с  "+LV":0 "+Transl":0 "@P.LV.ON@" > osh-PersPron_PossPX ;
+< 0:">" 0:О1 0:к 0:с  "+LV":0 "+Tra":0 "@P.LV.ON@" > osh-PersPron_PossPX ;
 < 0:">" 0:О1 "+Gen":0 0:м "+Use/Sub/Dial":0 "+Px1Sg":0 "@U.PossPx.1Sg@"> kal-PersPronGen_CX ;
 < 0:">" 0:О1 "+Gen":0 0:н 0:ь "+Px1Sg":0 "@U.PossPx.1Sg@"> kal-PersPronGen_CX ;
 < 0:">" 0:О1 "+Gen":0 0:т 0:Ь2 "+Px2Sg":0 "@U.PossPx.2Sg@"> kit-PersPronGen_CX ;
@@ -202,57 +202,57 @@ LEXICON kal-PersPronGen_CX-2
 +Abe:%>втО1мО1 kudo-PersPronGenCX_DX ;
 +Abl:%>дО1  kudo-PersPronGenCX_DX ;
 +Comp:%>шка kudo-PersPronGenCX_DX ;
-+Dat:%>нень  PersPronGenCX_DX-1 ;
-< 0:">" 0:О1 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+Dat":0 "@U.DNUM.SG@" > Clitic ; 
++DatCx:%>нень  PersPronGenCX_DX-1 ;
+< 0:">" 0:О1 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+DatCx":0 "@U.DNUM.SG@" > Clitic ; 
 +Ela:%>стО1 kudo-PersPronGenCX_DX ;
 +Gen:%>О1нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
 +Prl:Г2а kudo-PersPronGenCX_DX ;
-+Trans:%>О1кс osh-PersPronGenCX_DX ;
++Tra:%>О1кс osh-PersPronGenCX_DX ;
 
 LEXICON lak-PersPronGen_CX-2
 +Abe:%>втО1мО1 kudo-PersPronGenCX_DX ;
 +Abl:%>дО1  kudo-PersPronGenCX_DX ;
 +Comp:%>О1шка kudo-PersPronGenCX_DX ;
-+Dat:%>нень  PersPronGenCX_DX-1 ;
-< 0:">" 0:О1 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+Dat":0 "@U.DNUM.SG@" > Clitic ; 
++DatCx:%>нень  PersPronGenCX_DX-1 ;
+< 0:">" 0:О1 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+DatCx":0 "@U.DNUM.SG@" > Clitic ; 
 +Ela:%>стО1 kudo-PersPronGenCX_DX ;
 +Gen:%>О1нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
 +Prl:Г2а kudo-PersPronGenCX_DX ;
-+Trans:%>О1кс osh-PersPronGenCX_DX ;
++Tra:%>О1кс osh-PersPronGenCX_DX ;
 
 LEXICON kit-PersPronGen_CX-2
 +Abe:%>втО1мО1 kudo-PersPronGenCX_DX ;
 +Abl:%>дО1  kudo-PersPronGenCX_DX ;
 +Comp:%>шка kudo-PersPronGenCX_DX ;
-+Dat:%>нень  PersPronGenCX_DX-1 ;
-< 0:">" 0:О1 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+Dat":0 "@U.DNUM.SG@" > Clitic ; 
++DatCx:%>нень  PersPronGenCX_DX-1 ;
+< 0:">" 0:О1 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+DatCx":0 "@U.DNUM.SG@" > Clitic ; 
 +Ela:%>стО1 kudo-PersPronGenCX_DX ;
 +Gen:%>О1нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
 +Prl:Г2а kudo-PersPronGenCX_DX ;
-+Trans:%>О1кс osh-PersPronGenCX_DX ;
++Tra:%>О1кс osh-PersPronGenCX_DX ;
 
 LEXICON kudo-PersPronGen_CX-2
 +Abe:%>втО1мО1 kudo-PersPronGenCX_DX ;
 +Abl:%>дО1  kudo-PersPronGenCX_DX ;
 +Comp:%>шка kudo-PersPronGenCX_DX ;
-+Dat:%>нень  PersPronGenCX_DX-1 ;
-< 0:">" 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+Dat":0 "@U.DNUM.SG@" > Clitic ; 
++DatCx:%>нень  PersPronGenCX_DX-1 ;
+< 0:">" 0:н 0:т 0:е 0:н 0:ь "+Det":0 "+SG":0 "+DatCx":0 "@U.DNUM.SG@" > Clitic ; 
 +Ela:%>стО1 kudo-PersPronGenCX_DX ;
 +Gen:%>нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
 +Ine:%>сО1 kudo-PersPronGenCX_DX ;
 +Lat:%>в PersPronGenCX_DX-1 ;
 +Prl:%>Г2а kudo-PersPronGenCX_DX ;
-+Trans:%>кс osh-PersPronGenCX_DX ;
++Tra:%>кс osh-PersPronGenCX_DX ;
 
 LEXICON kal-PersPronGenCX_DX
 < 0:">" 0:О1 0:н 0:т 0:ь "+Det":0 "+Gen":0 "+SG":0 "@U.DNUM.SG@"> Clitic ;
