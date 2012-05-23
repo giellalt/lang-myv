@@ -21,8 +21,8 @@ Tests:
     псака+N+Pl+Gen+Indef: псакань
     псака+N+Sg+Abl+Indef: псакадо
     псака+N+Pl+Abl+Indef: псакадо
-    псака+N+Sg+Dat+Indef: псаканень
-    псака+N+Pl+Dat+Indef: псаканень
+    псака+N+Sg+DatCx+Indef: псаканень
+    псака+N+Pl+DatCx+Indef: псаканень
     псака+N+Sg+Com+Indef: псаканек
     псака+N+Pl+Com+Indef: псаканек
     псака+N+Sg+Abe+Indef: псакавтомо
@@ -87,8 +87,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg: псаканзо
     псака+N+Sg+Abl+Px3Sg: псакадонзо
     псака+N+Pl+Abl+Px3Sg: псакадонзо
-    псака+N+Sg+Dat+Px3Sg: псаканстэнь
-    псака+N+Pl+Dat+Px3Sg: псаканстэнь
+    псака+N+Sg+DatCx+Px3Sg: псаканстэнь
+    псака+N+Pl+DatCx+Px3Sg: псаканстэнь
     псака+N+Sg+Abe+Px3Sg: псакавтомонзо
     псака+N+Pl+Abe+Px3Sg: псакавтомонзо
     псака+N+Sg+Comp+Px3Sg: псакашканзо
@@ -168,7 +168,7 @@ Tests:
     псака+N+Pl+Nom+Px3Sg: псаканзо
     псака+N+Sg+Nom+Def: псакась
     псака+N+Sg+Gen+Def: псаканть
-    псака+N+Sg+Dat+Def: псакантень
+    псака+N+Sg+DatCx+Def: псакантень
     псака+N+Sg+Abl+Def: псакадонть
     псака+N+Sg+Ine+Def: псакасонть
     псака+N+Sg+Ela+Def: псакастонть
@@ -178,7 +178,7 @@ Tests:
     псака+N+Sg+Tra+Def: псакаксонть
     псака+N+Pl+Nom+Def: псакатне
     псака+N+Pl+Gen+Def: псакатнень
-    псака+N+Pl+Dat+Def: псакатненень
+    псака+N+Pl+DatCx+Def: псакатненень
     псака+N+Pl+Abl+Def: псакатнеде
     псака+N+Pl+Ine+Def: псакатнесэ
     псака+N+Pl+Ela+Def: псакатнестэ
@@ -201,8 +201,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Nom+Def: псаканзось
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Gen+Def: псаканзонть
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Gen+Def: псаканзонть
-    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Dat+Def: псаканзонтень
-    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Dat+Def: псаканзонтень
+    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псаканзонтень
+    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псаканзонтень
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Abl+Def: псаканзодонть
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Abl+Def: псаканзодонть
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Ine+Def: псаканзосонть
@@ -221,8 +221,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Nom+Def: псаканзотне
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Gen+Def: псаканзотнень
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Gen+Def: псаканзотнень
-    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Dat+Def: псаканзотненень
-    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Dat+Def: псаканзотненень
+    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псаканзотненень
+    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псаканзотненень
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Abl+Def: псаканзотнеде
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Abl+Def: псаканзотнеде
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Ine+Def: псаканзотнесэ
@@ -255,8 +255,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Nom+Def: псакавтомонзось
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакавтомонзонть
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакавтомонзонть
-    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакавтомонзонтень
-    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакавтомонзонтень
+    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакавтомонзонтень
+    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакавтомонзонтень
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакавтомонзодонть
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакавтомонзодонть
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Ine+Def: псакавтомонзосонть
@@ -275,8 +275,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Nom+Def: псакавтомонзотне
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакавтомонзотнень
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакавтомонзотнень
-    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакавтомонзотненень
-    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакавтомонзотненень
+    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакавтомонзотненень
+    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакавтомонзотненень
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакавтомонзотнеде
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакавтомонзотнеде
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Ine+Def: псакавтомонзотнесэ
@@ -309,8 +309,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Nom+Def: псакашканзось
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакашканзонть
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакашканзонть
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакашканзонтень
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакашканзонтень
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакашканзонтень
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакашканзонтень
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакашканзодонть
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакашканзодонть
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Ine+Def: псакашканзосонть
@@ -329,8 +329,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Nom+Def: псакашканзотне
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакашканзотнень
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакашканзотнень
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакашканзотненень
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакашканзотненень
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакашканзотненень
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакашканзотненень
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакашканзотнеде
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакашканзотнеде
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Ine+Def: псакашканзотнесэ
@@ -363,8 +363,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Nom+Def: псакашканзось
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакашканзонть
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакашканзонть
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакашканзонтень
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакашканзонтень
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакашканзонтень
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакашканзонтень
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакашканзодонть
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакашканзодонть
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Ine+Def: псакашканзосонть
@@ -383,8 +383,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Nom+Def: псакашканзотне
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакашканзотнень
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакашканзотнень
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакашканзотненень
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакашканзотненень
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакашканзотненень
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакашканзотненень
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакашканзотнеде
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакашканзотнеде
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Ine+Def: псакашканзотнесэ
@@ -417,8 +417,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Nom+Def: псакасонзось
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакасонзонть
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакасонзонть
-    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакасонзонтень
-    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакасонзонтень
+    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакасонзонтень
+    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакасонзонтень
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакасонзодонть
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакасонзодонть
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Ine+Def: псакасонзосонть
@@ -437,8 +437,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Nom+Def: псакасонзотне
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакасонзотнень
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакасонзотнень
-    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакасонзотненень
-    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакасонзотненень
+    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакасонзотненень
+    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакасонзотненень
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакасонзотнеде
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакасонзотнеде
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Ine+Def: псакасонзотнесэ
@@ -471,8 +471,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Nom+Def: псакастонзось
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакастонзонть
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакастонзонть
-    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакастонзонтень
-    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакастонзонтень
+    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакастонзонтень
+    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакастонзонтень
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакастонзодонть
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакастонзодонть
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Ine+Def: псакастонзосонть
@@ -491,8 +491,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Nom+Def: псакастонзотне
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакастонзотнень
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакастонзотнень
-    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакастонзотненень
-    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакастонзотненень
+    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакастонзотненень
+    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакастонзотненень
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакастонзотнеде
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакастонзотнеде
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Ine+Def: псакастонзотнесэ
@@ -525,8 +525,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Nom+Def: псакаванзось
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакаванзонть
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Gen+Def: псакаванзонть
-    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакаванзонтень
-    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Dat+Def: псакаванзонтень
+    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакаванзонтень
+    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+DatCx+Def: псакаванзонтень
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакаванзодонть
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Abl+Def: псакаванзодонть
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Ine+Def: псакаванзосонть
@@ -545,8 +545,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Nom+Def: псакаванзотне
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакаванзотнень
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Gen+Def: псакаванзотнень
-    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакаванзотненень
-    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Dat+Def: псакаванзотненень
+    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакаванзотненень
+    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+DatCx+Def: псакаванзотненень
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакаванзотнеде
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Abl+Def: псакаванзотнеде
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Ine+Def: псакаванзотнесэ
@@ -577,7 +577,7 @@ Tests:
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Tra+Indef: псакаксокс
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Nom+Def: псакаксось
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Gen+Def: псакаксонть
-    псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Dat+Def: псакаксонтень
+    псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+DatCx+Def: псакаксонтень
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Abl+Def: псакакстонть
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Ine+Def: псакаксосонть
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Ela+Def: псакаксостонть
@@ -588,8 +588,8 @@ Tests:
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Nom+Def: псакакстнэ
     псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Gen+Def: псакакстнэнь
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Gen+Def: псакакстнэнь
-    псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Dat+Def: псакакстнэнень
-    псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Dat+Def: псакакстнэнень
+    псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+DatCx+Def: псакакстнэнень
+    псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+DatCx+Def: псакакстнэнень
     псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Abl+Def: псакакстнэде
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Abl+Def: псакакстнэде
     псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Ine+Def: псакакстнэсэ
@@ -622,8 +622,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Nom+Def: псакашканокось
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакашканоконть
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакашканоконть
-    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакашканоконтень
-    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакашканоконтень
+    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакашканоконтень
+    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакашканоконтень
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакашканоктонть
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакашканоктонть
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Ine+Def: псакашканоксонть
@@ -642,8 +642,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Nom+Def: псакашканоктне
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакашканоктнень
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакашканоктнень
-    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакашканоктненень
-    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакашканоктненень
+    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакашканоктненень
+    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакашканоктненень
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакашканоктнеде
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакашканоктнеде
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Ine+Def: псакашканоктнесэ
@@ -676,8 +676,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Nom+Def: псакасонокось
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакасоноконть
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакасоноконть
-    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакасоноконтень
-    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакасоноконтень
+    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакасоноконтень
+    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакасоноконтень
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакасоноктонть
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакасоноктонть
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Ine+Def: псакасоноксонть
@@ -696,8 +696,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Nom+Def: псакасоноктне
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакасоноктнень
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакасоноктнень
-    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакасоноктненень
-    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакасоноктненень
+    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакасоноктненень
+    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакасоноктненень
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакасоноктнеде
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакасоноктнеде
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Ine+Def: псакасоноктнесэ
@@ -730,8 +730,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Nom+Def: псакастонокось
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакастоноконть
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакастоноконть
-    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакастоноконтень
-    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакастоноконтень
+    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакастоноконтень
+    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакастоноконтень
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакастоноктонть
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакастоноктонть
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Ine+Def: псакастоноксонть
@@ -750,8 +750,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Nom+Def: псакастоноктне
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакастоноктнень
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакастоноктнень
-    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакастоноктненень
-    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакастоноктненень
+    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакастоноктненень
+    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакастоноктненень
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакастоноктнеде
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакастоноктнеде
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Ine+Def: псакастоноктнесэ
@@ -784,8 +784,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Nom+Def: псакаванокось
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакаваноконть
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Gen+Def: псакаваноконть
-    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакаваноконтень
-    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Dat+Def: псакаваноконтень
+    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакаваноконтень
+    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+DatCx+Def: псакаваноконтень
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакаваноктонть
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Abl+Def: псакаваноктонть
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Ine+Def: псакаваноксонть
@@ -804,8 +804,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Nom+Def: псакаваноктне
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакаваноктнень
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Gen+Def: псакаваноктнень
-    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакаваноктненень
-    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Dat+Def: псакаваноктненень
+    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакаваноктненень
+    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+DatCx+Def: псакаваноктненень
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакаваноктнеде
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Abl+Def: псакаваноктнеде
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Ine+Def: псакаваноктнесэ
@@ -838,8 +838,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Nom+Def: псакашканкось
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакашканконть
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакашканконть
-    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакашканконтень
-    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакашканконтень
+    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакашканконтень
+    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакашканконтень
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакашканктонть
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакашканктонть
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Ine+Def: псакашканксонть
@@ -858,8 +858,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Nom+Def: псакашканктне
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакашканктнень
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакашканктнень
-    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакашканктненень
-    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакашканктненень
+    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакашканктненень
+    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакашканктненень
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакашканктнеде
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакашканктнеде
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Ine+Def: псакашканктнесэ
@@ -892,8 +892,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Nom+Def: псакасонкось
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакасонконть
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакасонконть
-    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакасонконтень
-    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакасонконтень
+    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакасонконтень
+    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакасонконтень
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакасонктонть
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакасонктонть
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Ine+Def: псакасонксонть
@@ -912,8 +912,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Nom+Def: псакасонктне
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакасонктнень
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакасонктнень
-    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакасонктненень
-    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакасонктненень
+    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакасонктненень
+    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакасонктненень
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакасонктнеде
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакасонктнеде
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Ine+Def: псакасонктнесэ
@@ -946,8 +946,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Nom+Def: псакастонкось
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакастонконть
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакастонконть
-    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакастонконтень
-    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакастонконтень
+    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакастонконтень
+    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакастонконтень
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакастонктонть
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакастонктонть
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Ine+Def: псакастонксонть
@@ -966,8 +966,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Nom+Def: псакастонктне
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакастонктнень
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакастонктнень
-    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакастонктненень
-    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакастонктненень
+    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакастонктненень
+    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакастонктненень
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакастонктнеде
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакастонктнеде
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Ine+Def: псакастонктнесэ
@@ -1000,8 +1000,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Nom+Def: псакаванкось
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакаванконть
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Gen+Def: псакаванконть
-    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакаванконтень
-    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Dat+Def: псакаванконтень
+    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакаванконтень
+    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+DatCx+Def: псакаванконтень
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакаванктонть
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Abl+Def: псакаванктонть
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Ine+Def: псакаванксонть
@@ -1020,8 +1020,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Nom+Def: псакаванктне
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакаванктнень
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Gen+Def: псакаванктнень
-    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакаванктненень
-    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Dat+Def: псакаванктненень
+    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакаванктненень
+    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+DatCx+Def: псакаванктненень
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакаванктнеде
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Abl+Def: псакаванктнеде
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Ine+Def: псакаванктнесэ
@@ -1054,8 +1054,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Nom+Def: псакашкастось
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакашкастонть
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакашкастонть
-    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакашкастонтень
-    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакашкастонтень
+    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакашкастонтень
+    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакашкастонтень
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакашкасттонть
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакашкасттонть
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Ine+Def: псакашкастсонть
@@ -1074,8 +1074,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Nom+Def: псакашкасттнэ
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакашкасттнэнь
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакашкасттнэнь
-    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакашкасттнэнень
-    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакашкасттнэнень
+    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакашкасттнэнень
+    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакашкасттнэнень
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакашкасттнэде
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакашкасттнэде
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Ine+Def: псакашкасттнэсэ
@@ -1108,8 +1108,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Nom+Def: псакасостось
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакасостонть
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакасостонть
-    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакасостонтень
-    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакасостонтень
+    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакасостонтень
+    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакасостонтень
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакасосттонть
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакасосттонть
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Ine+Def: псакасостсонть
@@ -1128,8 +1128,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Nom+Def: псакасосттнэ
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакасосттнэнь
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакасосттнэнь
-    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакасосттнэнень
-    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакасосттнэнень
+    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакасосттнэнень
+    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакасосттнэнень
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакасосттнэде
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакасосттнэде
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Ine+Def: псакасосттнэсэ
@@ -1162,8 +1162,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Nom+Def: псакастостось
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакастостонть
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакастостонть
-    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакастостонтень
-    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакастостонтень
+    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакастостонтень
+    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакастостонтень
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакастосттонть
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакастосттонть
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Ine+Def: псакастостсонть
@@ -1182,8 +1182,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Nom+Def: псакастосттнэ
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакастосттнэнь
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакастосттнэнь
-    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакастосттнэнень
-    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакастосттнэнень
+    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакастосттнэнень
+    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакастосттнэнень
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакастосттнэде
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакастосттнэде
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Ine+Def: псакастосттнэсэ
@@ -1216,8 +1216,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Nom+Def: псакавастось
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакавастонть
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Gen+Def: псакавастонть
-    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакавастонтень
-    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Dat+Def: псакавастонтень
+    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакавастонтень
+    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+DatCx+Def: псакавастонтень
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакавасттонть
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Abl+Def: псакавасттонть
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Ine+Def: псакавастсонть
@@ -1236,8 +1236,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Nom+Def: псакавасттнэ
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакавасттнэнь
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Gen+Def: псакавасттнэнь
-    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакавасттнэнень
-    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Dat+Def: псакавасттнэнень
+    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакавасттнэнень
+    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+DatCx+Def: псакавасттнэнень
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакавасттнэде
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Abl+Def: псакавасттнэде
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Ine+Def: псакавасттнэсэ
@@ -1266,8 +1266,8 @@ Tests:
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псаканоксесь
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканоксенть
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканоксенть
-    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканоксентень
-    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканоксентень
+    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканоксентень
+    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканоксентень
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканокседенть
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканокседенть
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псаканоксесэнть
@@ -1286,8 +1286,8 @@ Tests:
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псаканоксетне
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканоксетнень
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканоксетнень
-    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканоксетненень
-    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканоксетненень
+    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканоксетненень
+    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканоксетненень
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканоксетнеде
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканоксетнеде
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псаканоксетнесэ
@@ -1316,8 +1316,8 @@ Tests:
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомоноксесь
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомоноксенть
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомоноксенть
-    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомоноксентень
-    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомоноксентень
+    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомоноксентень
+    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомоноксентень
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонокседенть
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонокседенть
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомоноксесэнть
@@ -1336,8 +1336,8 @@ Tests:
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомоноксетне
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомоноксетнень
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомоноксетнень
-    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомоноксетненень
-    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомоноксетненень
+    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомоноксетненень
+    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомоноксетненень
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомоноксетнеде
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомоноксетнеде
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомоноксетнесэ
@@ -1366,8 +1366,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашканксесь
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканксенть
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканксенть
-    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканксентень
-    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканксентень
+    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканксентень
+    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканксентень
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканкседенть
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканкседенть
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашканксесэнть
@@ -1386,8 +1386,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашканксетне
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканксетнень
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканксетнень
-    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканксетненень
-    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканксетненень
+    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканксетненень
+    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканксетненень
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканксетнеде
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканксетнеде
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашканксетнесэ
@@ -1416,8 +1416,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасоноксесь
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасоноксенть
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасоноксенть
-    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасоноксентень
-    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасоноксентень
+    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасоноксентень
+    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасоноксентень
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонокседенть
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонокседенть
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасоноксесэнть
@@ -1436,8 +1436,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасоноксетне
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасоноксетнень
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасоноксетнень
-    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасоноксетненень
-    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасоноксетненень
+    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасоноксетненень
+    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасоноксетненень
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасоноксетнеде
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасоноксетнеде
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасоноксетнесэ
@@ -1466,8 +1466,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастоноксесь
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастоноксенть
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастоноксенть
-    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастоноксентень
-    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастоноксентень
+    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастоноксентень
+    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастоноксентень
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонокседенть
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонокседенть
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастоноксесэнть
@@ -1486,8 +1486,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастоноксетне
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастоноксетнень
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастоноксетнень
-    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастоноксетненень
-    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастоноксетненень
+    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастоноксетненень
+    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастоноксетненень
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастоноксетнеде
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастоноксетнеде
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастоноксетнесэ
@@ -1516,8 +1516,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакаванксесь
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванксенть
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванксенть
-    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванксентень
-    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванксентень
+    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванксентень
+    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванксентень
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванкседенть
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванкседенть
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакаванксесэнть
@@ -1536,8 +1536,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакаванксетне
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванксетнень
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванксетнень
-    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванксетненень
-    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванксетненень
+    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванксетненень
+    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванксетненень
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванксетнеде
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванксетнеде
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакаванксетнесэ
@@ -1566,8 +1566,8 @@ Tests:
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псаканксесь
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканксенть
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканксенть
-    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканксентень
-    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканксентень
+    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканксентень
+    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканксентень
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканкседенть
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканкседенть
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псаканксесэнть
@@ -1586,8 +1586,8 @@ Tests:
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псаканксетне
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканксетнень
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканксетнень
-    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканксетненень
-    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканксетненень
+    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканксетненень
+    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканксетненень
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканксетнеде
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканксетнеде
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псаканксетнесэ
@@ -1616,8 +1616,8 @@ Tests:
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомонксесь
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонксенть
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонксенть
-    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонксентень
-    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонксентень
+    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонксентень
+    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонксентень
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонкседенть
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонкседенть
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомонксесэнть
@@ -1636,8 +1636,8 @@ Tests:
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомонксетне
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонксетнень
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонксетнень
-    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонксетненень
-    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонксетненень
+    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонксетненень
+    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонксетненень
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонксетнеде
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонксетнеде
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомонксетнесэ
@@ -1666,8 +1666,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашканксесь
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканксенть
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканксенть
-    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканксентень
-    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканксентень
+    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканксентень
+    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканксентень
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканкседенть
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканкседенть
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашканксесэнть
@@ -1686,8 +1686,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашканксетне
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканксетнень
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканксетнень
-    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканксетненень
-    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканксетненень
+    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканксетненень
+    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканксетненень
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканксетнеде
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканксетнеде
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашканксетнесэ
@@ -1716,8 +1716,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасонксесь
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонксенть
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонксенть
-    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонксентень
-    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонксентень
+    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонксентень
+    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонксентень
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонкседенть
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонкседенть
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасонксесэнть
@@ -1736,8 +1736,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасонксетне
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонксетнень
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонксетнень
-    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонксетненень
-    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонксетненень
+    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонксетненень
+    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонксетненень
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонксетнеде
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонксетнеде
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасонксетнесэ
@@ -1766,8 +1766,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастонксесь
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонксенть
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонксенть
-    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонксентень
-    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонксентень
+    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонксентень
+    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонксентень
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонкседенть
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонкседенть
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастонксесэнть
@@ -1786,8 +1786,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастонксетне
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонксетнень
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонксетнень
-    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонксетненень
-    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонксетненень
+    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонксетненень
+    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонксетненень
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонксетнеде
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонксетнеде
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастонксетнесэ
@@ -1816,8 +1816,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакаванксесь
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванксенть
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванксенть
-    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванксентень
-    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванксентень
+    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванксентень
+    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванксентень
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванкседенть
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванкседенть
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакаванксесэнть
@@ -1836,8 +1836,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакаванксетне
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванксетнень
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванксетнень
-    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванксетненень
-    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванксетненень
+    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванксетненень
+    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванксетненень
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванксетнеде
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванксетнеде
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакаванксетнесэ
@@ -1866,8 +1866,8 @@ Tests:
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастсесь
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастсенть
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастсенть
-    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастсентень
-    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастсентень
+    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастсентень
+    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастсентень
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастседенть
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастседенть
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастсесэнть
@@ -1886,8 +1886,8 @@ Tests:
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастсетне
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастсетнень
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастсетнень
-    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастсетненень
-    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастсетненень
+    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастсетненень
+    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастсетненень
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастсетнеде
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастсетнеде
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастсетнесэ
@@ -1916,8 +1916,8 @@ Tests:
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомостсесь
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомостсенть
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомостсенть
-    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомостсентень
-    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомостсентень
+    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомостсентень
+    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомостсентень
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомостседенть
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомостседенть
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомостсесэнть
@@ -1936,8 +1936,8 @@ Tests:
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомостсетне
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомостсетнень
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомостсетнень
-    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомостсетненень
-    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомостсетненень
+    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомостсетненень
+    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомостсетненень
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомостсетнеде
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомостсетнеде
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомостсетнесэ
@@ -1966,8 +1966,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашкастсесь
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашкастсенть
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашкастсенть
-    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашкастсентень
-    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашкастсентень
+    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашкастсентень
+    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашкастсентень
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашкастседенть
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашкастседенть
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашкастсесэнть
@@ -1986,8 +1986,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашкастсетне
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашкастсетнень
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашкастсетнень
-    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашкастсетненень
-    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашкастсетненень
+    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашкастсетненень
+    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашкастсетненень
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашкастсетнеде
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашкастсетнеде
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашкастсетнесэ
@@ -2016,8 +2016,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасостсесь
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасостсенть
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасостсенть
-    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасостсентень
-    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасостсентень
+    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасостсентень
+    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасостсентень
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасостседенть
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасостседенть
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасостсесэнть
@@ -2036,8 +2036,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасостсетне
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасостсетнень
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасостсетнень
-    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасостсетненень
-    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасостсетненень
+    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасостсетненень
+    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасостсетненень
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасостсетнеде
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасостсетнеде
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасостсетнесэ
@@ -2066,8 +2066,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастостсесь
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастостсенть
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастостсенть
-    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастостсентень
-    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастостсентень
+    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастостсентень
+    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастостсентень
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастостседенть
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастостседенть
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастостсесэнть
@@ -2086,8 +2086,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастостсетне
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастостсетнень
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастостсетнень
-    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастостсетненень
-    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастостсетненень
+    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастостсетненень
+    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастостсетненень
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастостсетнеде
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастостсетнеде
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастостсетнесэ
@@ -2116,8 +2116,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавастсесь
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавастсенть
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавастсенть
-    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавастсентень
-    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавастсентень
+    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавастсентень
+    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавастсентень
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавастседенть
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавастседенть
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавастсесэнть
@@ -2136,8 +2136,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавастсетне
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавастсетнень
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавастсетнень
-    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавастсетненень
-    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавастсетненень
+    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавастсетненень
+    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавастсетненень
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавастсетнеде
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавастсетнеде
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавастсетнесэ
@@ -2166,8 +2166,8 @@ Tests:
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакамсесь
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакамсенть
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакамсенть
-    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакамсентень
-    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакамсентень
+    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакамсентень
+    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакамсентень
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакамседенть
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакамседенть
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакамсесэнть
@@ -2186,8 +2186,8 @@ Tests:
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакамсетне
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакамсетнень
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакамсетнень
-    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакамсетненень
-    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакамсетненень
+    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакамсетненень
+    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакамсетненень
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакамсетнеде
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакамсетнеде
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакамсетнесэ
@@ -2216,8 +2216,8 @@ Tests:
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомонсесь
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонсенть
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонсенть
-    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонсентень
-    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонсентень
+    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонсентень
+    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонсентень
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонседенть
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонседенть
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомонсесэнть
@@ -2236,8 +2236,8 @@ Tests:
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомонсетне
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонсетнень
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонсетнень
-    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонсетненень
-    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонсетненень
+    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонсетненень
+    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонсетненень
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонсетнеде
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонсетнеде
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомонсетнесэ
@@ -2266,8 +2266,8 @@ Tests:
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашканксесь
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканксенть
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканксенть
-    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканксентень
-    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканксентень
+    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканксентень
+    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканксентень
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканкседенть
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканкседенть
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашканксесэнть
@@ -2286,8 +2286,8 @@ Tests:
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашканксетне
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканксетнень
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканксетнень
-    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканксетненень
-    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканксетненень
+    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканксетненень
+    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканксетненень
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканксетнеде
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканксетнеде
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашканксетнесэ
@@ -2316,8 +2316,8 @@ Tests:
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасонсесь
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонсенть
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонсенть
-    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонсентень
-    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонсентень
+    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонсентень
+    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонсентень
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонседенть
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонседенть
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасонсесэнть
@@ -2336,8 +2336,8 @@ Tests:
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасонсетне
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонсетнень
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонсетнень
-    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонсетненень
-    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонсетненень
+    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонсетненень
+    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонсетненень
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонсетнеде
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонсетнеде
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасонсетнесэ
@@ -2366,8 +2366,8 @@ Tests:
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастонсесь
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонсенть
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонсенть
-    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонсентень
-    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонсентень
+    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонсентень
+    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонсентень
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонседенть
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонседенть
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастонсесэнть
@@ -2386,8 +2386,8 @@ Tests:
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастонсетне
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонсетнень
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонсетнень
-    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонсетненень
-    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонсетненень
+    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонсетненень
+    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонсетненень
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонсетнеде
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонсетнеде
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастонсетнесэ
@@ -2416,8 +2416,8 @@ Tests:
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакаванксесь
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванксенть
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванксенть
-    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванксентень
-    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванксентень
+    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванксентень
+    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванксентень
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванкседенть
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванкседенть
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакаванксесэнть
@@ -2436,8 +2436,8 @@ Tests:
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакаванксетне
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванксетнень
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванксетнень
-    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванксетненень
-    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванксетненень
+    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванксетненень
+    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванксетненень
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванксетнеде
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванксетнеде
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакаванксетнесэ
@@ -2466,8 +2466,8 @@ Tests:
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакатсесь
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакатсенть
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакатсенть
-    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакатсентень
-    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакатсентень
+    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакатсентень
+    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакатсентень
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакатседенть
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакатседенть
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакатсесэнть
@@ -2486,8 +2486,8 @@ Tests:
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакатсетне
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакатсетнень
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакатсетнень
-    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакатсетненень
-    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакатсетненень
+    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакатсетненень
+    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакатсетненень
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакатсетнеде
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакатсетнеде
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакатсетнесэ
@@ -2516,8 +2516,8 @@ Tests:
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомотсесь
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомотсенть
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомотсенть
-    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомотсентень
-    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомотсентень
+    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомотсентень
+    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомотсентень
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомотседенть
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомотседенть
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомотсесэнть
@@ -2536,8 +2536,8 @@ Tests:
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомотсетне
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомотсетнень
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомотсетнень
-    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомотсетненень
-    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомотсетненень
+    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомотсетненень
+    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомотсетненень
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомотсетнеде
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомотсетнеде
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомотсетнесэ
@@ -2566,8 +2566,8 @@ Tests:
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашкатсесь
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашкатсенть
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашкатсенть
-    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашкатсентень
-    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашкатсентень
+    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашкатсентень
+    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашкатсентень
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашкатседенть
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашкатседенть
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашкатсесэнть
@@ -2586,8 +2586,8 @@ Tests:
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашкатсетне
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашкатсетнень
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашкатсетнень
-    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашкатсетненень
-    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашкатсетненень
+    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашкатсетненень
+    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашкатсетненень
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашкатсетнеде
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашкатсетнеде
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашкатсетнесэ
@@ -2616,8 +2616,8 @@ Tests:
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасотсесь
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасотсенть
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасотсенть
-    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасотсентень
-    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасотсентень
+    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасотсентень
+    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасотсентень
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасотседенть
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасотседенть
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасотсесэнть
@@ -2636,8 +2636,8 @@ Tests:
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасотсетне
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасотсетнень
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасотсетнень
-    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасотсетненень
-    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасотсетненень
+    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасотсетненень
+    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасотсетненень
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасотсетнеде
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасотсетнеде
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасотсетнесэ
@@ -2666,8 +2666,8 @@ Tests:
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастотсесь
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастотсенть
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастотсенть
-    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастотсентень
-    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастотсентень
+    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастотсентень
+    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастотсентень
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастотседенть
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастотседенть
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастотсесэнть
@@ -2686,8 +2686,8 @@ Tests:
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастотсетне
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастотсетнень
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастотсетнень
-    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастотсетненень
-    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастотсетненень
+    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастотсетненень
+    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастотсетненень
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастотсетнеде
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастотсетнеде
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастотсетнесэ
@@ -2716,8 +2716,8 @@ Tests:
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакаватсесь
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаватсенть
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаватсенть
-    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаватсентень
-    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаватсентень
+    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаватсентень
+    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаватсентень
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаватседенть
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаватседенть
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакаватсесэнть
@@ -2736,8 +2736,8 @@ Tests:
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакаватсетне
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаватсетнень
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаватсетнень
-    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаватсетненень
-    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаватсетненень
+    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаватсетненень
+    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаватсетненень
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаватсетнеде
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаватсетнеде
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакаватсетнесэ
@@ -2766,8 +2766,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псаканзосесь
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканзосенть
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканзосенть
-    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканзосентень
-    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканзосентень
+    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканзосентень
+    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканзосентень
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканзоседенть
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканзоседенть
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псаканзосесэнть
@@ -2786,8 +2786,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псаканзосетне
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканзосетнень
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканзосетнень
-    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканзосетненень
-    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканзосетненень
+    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканзосетненень
+    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканзосетненень
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканзосетнеде
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканзосетнеде
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псаканзосетнесэ
@@ -2816,8 +2816,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомонзосесь
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонзосенть
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонзосенть
-    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонзосентень
-    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонзосентень
+    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонзосентень
+    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонзосентень
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонзоседенть
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонзоседенть
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомонзосесэнть
@@ -2836,8 +2836,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомонзосетне
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонзосетнень
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонзосетнень
-    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонзосетненень
-    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонзосетненень
+    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонзосетненень
+    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонзосетненень
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонзосетнеде
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонзосетнеде
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомонзосетнесэ
@@ -2866,8 +2866,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашканзосесь
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканзосенть
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашканзосенть
-    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканзосентень
-    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашканзосентень
+    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканзосентень
+    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашканзосентень
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканзоседенть
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашканзоседенть
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашканзосесэнть
@@ -2886,8 +2886,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашканзосетне
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканзосетнень
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашканзосетнень
-    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканзосетненень
-    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашканзосетненень
+    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканзосетненень
+    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашканзосетненень
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканзосетнеде
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашканзосетнеде
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашканзосетнесэ
@@ -2916,8 +2916,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасонзосесь
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонзосенть
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонзосенть
-    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонзосентень
-    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонзосентень
+    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонзосентень
+    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонзосентень
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонзоседенть
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонзоседенть
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасонзосесэнть
@@ -2936,8 +2936,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасонзосетне
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонзосетнень
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонзосетнень
-    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонзосетненень
-    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонзосетненень
+    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонзосетненень
+    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонзосетненень
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонзосетнеде
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонзосетнеде
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасонзосетнесэ
@@ -2966,8 +2966,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастонзосесь
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонзосенть
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонзосенть
-    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонзосентень
-    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонзосентень
+    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонзосентень
+    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонзосентень
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонзоседенть
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонзоседенть
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастонзосесэнть
@@ -2986,8 +2986,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастонзосетне
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонзосетнень
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонзосетнень
-    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонзосетненень
-    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонзосетненень
+    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонзосетненень
+    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонзосетненень
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонзосетнеде
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонзосетнеде
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастонзосетнесэ
@@ -3016,8 +3016,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакаванзосесь
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванзосенть
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакаванзосенть
-    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванзосентень
-    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакаванзосентень
+    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванзосентень
+    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакаванзосентень
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванзоседенть
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакаванзоседенть
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакаванзосесэнть
@@ -3036,8 +3036,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакаванзосетне
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванзосетнень
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакаванзосетнень
-    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванзосетненень
-    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакаванзосетненень
+    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванзосетненень
+    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакаванзосетненень
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванзосетнеде
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакаванзосетнеде
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакаванзосетнесэ
@@ -3066,8 +3066,8 @@ Tests:
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Nom+Def: псаканьсесь
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканьсенть
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Gen+Def: псаканьсенть
-    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканьсентень
-    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Dat+Def: псаканьсентень
+    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканьсентень
+    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псаканьсентень
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканьседенть
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Abl+Def: псаканьседенть
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Ine+Def: псаканьсесэнть
@@ -3086,8 +3086,8 @@ Tests:
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Nom+Def: псаканьсетне
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканьсетнень
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Gen+Def: псаканьсетнень
-    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканьсетненень
-    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Dat+Def: псаканьсетненень
+    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканьсетненень
+    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псаканьсетненень
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканьсетнеде
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Abl+Def: псаканьсетнеде
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Ine+Def: псаканьсетнесэ
@@ -3112,7 +3112,7 @@ Tests:
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef: псакантьсекс
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакантьсесь
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакантьсенть
-    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакантьсентень
+    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакантьсентень
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакантьседенть
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакантьсесэнть
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def: псакантьсестэнть
@@ -3122,7 +3122,7 @@ Tests:
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def: псакантьсексэнть
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакантьсетне
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакантьсетнень
-    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакантьсетненень
+    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакантьсетненень
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакантьсетнеде
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакантьсетнесэ
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def: псакантьсетнестэ
@@ -3137,7 +3137,7 @@ Tests:
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef: псакасонтьсекс
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакасонтьсесь
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакасонтьсенть
-    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакасонтьсентень
+    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакасонтьсентень
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакасонтьседенть
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакасонтьсесэнть
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def: псакасонтьсестэнть
@@ -3147,7 +3147,7 @@ Tests:
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def: псакасонтьсексэнть
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакасонтьсетне
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакасонтьсетнень
-    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакасонтьсетненень
+    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакасонтьсетненень
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакасонтьсетнеде
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакасонтьсетнесэ
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def: псакасонтьсетнестэ
@@ -3162,7 +3162,7 @@ Tests:
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef: псакастонтьсекс
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакастонтьсесь
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакастонтьсенть
-    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакастонтьсентень
+    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакастонтьсентень
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакастонтьседенть
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакастонтьсесэнть
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def: псакастонтьсестэнть
@@ -3172,7 +3172,7 @@ Tests:
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def: псакастонтьсексэнть
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакастонтьсетне
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакастонтьсетнень
-    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакастонтьсетненень
+    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакастонтьсетненень
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакастонтьсетнеде
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакастонтьсетнесэ
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def: псакастонтьсетнестэ
@@ -3187,7 +3187,7 @@ Tests:
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef: псакавантьсекс
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавантьсесь
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавантьсенть
-    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавантьсентень
+    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавантьсентень
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавантьседенть
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавантьсесэнть
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def: псакавантьсестэнть
@@ -3197,7 +3197,7 @@ Tests:
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def: псакавантьсексэнть
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавантьсетне
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавантьсетнень
-    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавантьсетненень
+    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавантьсетненень
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавантьсетнеде
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавантьсетнесэ
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def: псакавантьсетнестэ
@@ -3212,7 +3212,7 @@ Tests:
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef: псакавтомонтьсекс
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакавтомонтьсесь
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакавтомонтьсенть
-    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакавтомонтьсентень
+    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакавтомонтьсентень
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакавтомонтьседенть
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакавтомонтьсесэнть
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def: псакавтомонтьсестэнть
@@ -3222,7 +3222,7 @@ Tests:
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def: псакавтомонтьсексэнть
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакавтомонтьсетне
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакавтомонтьсетнень
-    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакавтомонтьсетненень
+    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакавтомонтьсетненень
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакавтомонтьсетнеде
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакавтомонтьсетнесэ
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def: псакавтомонтьсетнестэ
@@ -3237,7 +3237,7 @@ Tests:
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef: псакашкантьсекс
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def: псакашкантьсесь
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def: псакашкантьсенть
-    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def: псакашкантьсентень
+    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def: псакашкантьсентень
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def: псакашкантьседенть
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def: псакашкантьсесэнть
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def: псакашкантьсестэнть
@@ -3247,7 +3247,7 @@ Tests:
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def: псакашкантьсексэнть
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def: псакашкантьсетне
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def: псакашкантьсетнень
-    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def: псакашкантьсетненень
+    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def: псакашкантьсетненень
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def: псакашкантьсетнеде
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def: псакашкантьсетнесэ
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def: псакашкантьсетнестэ
@@ -3265,8 +3265,8 @@ Tests:
     псака+N+Pl+Gen+Indef+Clt/Гак: псаканьгак
     псака+N+Sg+Abl+Indef+Clt/Гак: псакадояк
     псака+N+Pl+Abl+Indef+Clt/Гак: псакадояк
-    псака+N+Sg+Dat+Indef+Clt/Гак: псаканеньгак
-    псака+N+Pl+Dat+Indef+Clt/Гак: псаканеньгак
+    псака+N+Sg+DatCx+Indef+Clt/Гак: псаканеньгак
+    псака+N+Pl+DatCx+Indef+Clt/Гак: псаканеньгак
     псака+N+Sg+Com+Indef+Clt/Гак: псаканеккак
     псака+N+Pl+Com+Indef+Clt/Гак: псаканеккак
     псака+N+Sg+Abe+Indef+Clt/Гак: псакавтомояк
@@ -3331,8 +3331,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Clt/Гак: псаканзояк
     псака+N+Sg+Abl+Px3Sg+Clt/Гак: псакадонзояк
     псака+N+Pl+Abl+Px3Sg+Clt/Гак: псакадонзояк
-    псака+N+Sg+Dat+Px3Sg+Clt/Гак: псаканстэньгак
-    псака+N+Pl+Dat+Px3Sg+Clt/Гак: псаканстэньгак
+    псака+N+Sg+DatCx+Px3Sg+Clt/Гак: псаканстэньгак
+    псака+N+Pl+DatCx+Px3Sg+Clt/Гак: псаканстэньгак
     псака+N+Sg+Abe+Px3Sg+Clt/Гак: псакавтомонзояк
     псака+N+Pl+Abe+Px3Sg+Clt/Гак: псакавтомонзояк
     псака+N+Sg+Comp+Px3Sg+Clt/Гак: псакашканзояк
@@ -3412,7 +3412,7 @@ Tests:
     псака+N+Pl+Nom+Px3Sg+Clt/Гак: псаканзояк
     псака+N+Sg+Nom+Def+Clt/Гак: псакаськак
     псака+N+Sg+Gen+Def+Clt/Гак: псакантькак
-    псака+N+Sg+Dat+Def+Clt/Гак: псакантеньгак
+    псака+N+Sg+DatCx+Def+Clt/Гак: псакантеньгак
     псака+N+Sg+Abl+Def+Clt/Гак: псакадонтькак
     псака+N+Sg+Ine+Def+Clt/Гак: псакасонтькак
     псака+N+Sg+Ela+Def+Clt/Гак: псакастонтькак
@@ -3422,7 +3422,7 @@ Tests:
     псака+N+Sg+Tra+Def+Clt/Гак: псакаксонтькак
     псака+N+Pl+Nom+Def+Clt/Гак: псакатнеяк
     псака+N+Pl+Gen+Def+Clt/Гак: псакатненьгак
-    псака+N+Pl+Dat+Def+Clt/Гак: псакатнененьгак
+    псака+N+Pl+DatCx+Def+Clt/Гак: псакатнененьгак
     псака+N+Pl+Abl+Def+Clt/Гак: псакатнедеяк
     псака+N+Pl+Ine+Def+Clt/Гак: псакатнесэяк
     псака+N+Pl+Ela+Def+Clt/Гак: псакатнестэяк
@@ -3445,8 +3445,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псаканзоськак
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканзонтькак
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканзонтькак
-    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканзонтеньгак
-    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканзонтеньгак
+    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканзонтеньгак
+    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканзонтеньгак
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканзодонтькак
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканзодонтькак
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псаканзосонтькак
@@ -3465,8 +3465,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псаканзотнеяк
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканзотненьгак
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканзотненьгак
-    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканзотнененьгак
-    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканзотнененьгак
+    псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканзотнененьгак
+    псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканзотнененьгак
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканзотнедеяк
     псака+N+Pl+Gen+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканзотнедеяк
     псака+N+Sg+Gen+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псаканзотнесэяк
@@ -3499,8 +3499,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомонзоськак
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонзонтькак
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонзонтькак
-    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонзонтеньгак
-    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонзонтеньгак
+    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонзонтеньгак
+    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонзонтеньгак
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонзодонтькак
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонзодонтькак
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомонзосонтькак
@@ -3519,8 +3519,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомонзотнеяк
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонзотненьгак
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонзотненьгак
-    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонзотнененьгак
-    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонзотнененьгак
+    псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонзотнененьгак
+    псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонзотнененьгак
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонзотнедеяк
     псака+N+Pl+Abe+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонзотнедеяк
     псака+N+Sg+Abe+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомонзотнесэяк
@@ -3553,8 +3553,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканзоськак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканзонтькак
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканзонтькак
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканзонтеньгак
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканзонтеньгак
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканзонтеньгак
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканзонтеньгак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканзодонтькак
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканзодонтькак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканзосонтькак
@@ -3573,8 +3573,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканзотнеяк
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканзотненьгак
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканзотненьгак
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканзотнененьгак
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканзотнененьгак
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканзотнененьгак
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканзотнененьгак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканзотнедеяк
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканзотнедеяк
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканзотнесэяк
@@ -3607,8 +3607,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканзоськак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканзонтькак
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканзонтькак
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканзонтеньгак
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканзонтеньгак
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканзонтеньгак
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканзонтеньгак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканзодонтькак
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканзодонтькак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканзосонтькак
@@ -3627,8 +3627,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканзотнеяк
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканзотненьгак
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканзотненьгак
-    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканзотнененьгак
-    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканзотнененьгак
+    псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканзотнененьгак
+    псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканзотнененьгак
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканзотнедеяк
     псака+N+Pl+Comp+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканзотнедеяк
     псака+N+Sg+Comp+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканзотнесэяк
@@ -3661,8 +3661,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонзоськак
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонзонтькак
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонзонтькак
-    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонзонтеньгак
-    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонзонтеньгак
+    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонзонтеньгак
+    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонзонтеньгак
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонзодонтькак
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонзодонтькак
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасонзосонтькак
@@ -3681,8 +3681,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасонзотнеяк
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонзотненьгак
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонзотненьгак
-    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонзотнененьгак
-    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонзотнененьгак
+    псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонзотнененьгак
+    псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонзотнененьгак
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонзотнедеяк
     псака+N+Pl+Ine+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонзотнедеяк
     псака+N+Sg+Ine+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасонзотнесэяк
@@ -3715,8 +3715,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонзоськак
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонзонтькак
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонзонтькак
-    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонзонтеньгак
-    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонзонтеньгак
+    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонзонтеньгак
+    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонзонтеньгак
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонзодонтькак
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонзодонтькак
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастонзосонтькак
@@ -3735,8 +3735,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастонзотнеяк
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонзотненьгак
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонзотненьгак
-    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонзотнененьгак
-    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонзотнененьгак
+    псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонзотнененьгак
+    псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонзотнененьгак
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонзотнедеяк
     псака+N+Pl+Ela+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонзотнедеяк
     псака+N+Sg+Ela+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастонзотнесэяк
@@ -3769,8 +3769,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванзоськак
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванзонтькак
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванзонтькак
-    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванзонтеньгак
-    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванзонтеньгак
+    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванзонтеньгак
+    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванзонтеньгак
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванзодонтькак
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванзодонтькак
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаванзосонтькак
@@ -3789,8 +3789,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаванзотнеяк
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванзотненьгак
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванзотненьгак
-    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванзотнененьгак
-    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванзотнененьгак
+    псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванзотнененьгак
+    псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванзотнененьгак
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванзотнедеяк
     псака+N+Pl+Prl+Px3Sg+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванзотнедеяк
     псака+N+Sg+Prl+Px3Sg+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаванзотнесэяк
@@ -3821,7 +3821,7 @@ Tests:
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Tra+Indef+Clt/Гак: псакаксокскак
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаксоськак
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаксонтькак
-    псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаксонтеньгак
+    псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаксонтеньгак
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакакстонтькак
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаксосонтькак
     псака+N+Sg+Tra+Indef+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакаксостонтькак
@@ -3832,8 +3832,8 @@ Tests:
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакакстнэяк
     псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакакстнэньгак
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакакстнэньгак
-    псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакакстнэненьгак
-    псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакакстнэненьгак
+    псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакакстнэненьгак
+    псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакакстнэненьгак
     псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакакстнэдеяк
     псака+N+Pl+Tra+Indef+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакакстнэдеяк
     псака+N+Sg+Tra+Indef+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакакстнэсэяк
@@ -3866,8 +3866,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканокоськак
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканоконтькак
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканоконтькак
-    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканоконтеньгак
-    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканоконтеньгак
+    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканоконтеньгак
+    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканоконтеньгак
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканоктонтькак
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканоктонтькак
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканоксонтькак
@@ -3886,8 +3886,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканоктнеяк
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканоктненьгак
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканоктненьгак
-    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканоктнененьгак
-    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканоктнененьгак
+    псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканоктнененьгак
+    псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканоктнененьгак
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканоктнедеяк
     псака+N+Pl+Comp+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканоктнедеяк
     псака+N+Sg+Comp+Px1Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканоктнесэяк
@@ -3920,8 +3920,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонокоськак
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасоноконтькак
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасоноконтькак
-    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасоноконтеньгак
-    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасоноконтеньгак
+    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасоноконтеньгак
+    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасоноконтеньгак
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасоноктонтькак
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасоноктонтькак
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасоноксонтькак
@@ -3940,8 +3940,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасоноктнеяк
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасоноктненьгак
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасоноктненьгак
-    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасоноктнененьгак
-    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасоноктнененьгак
+    псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасоноктнененьгак
+    псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасоноктнененьгак
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасоноктнедеяк
     псака+N+Pl+Ine+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасоноктнедеяк
     псака+N+Sg+Ine+Px1Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасоноктнесэяк
@@ -3974,8 +3974,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонокоськак
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастоноконтькак
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастоноконтькак
-    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастоноконтеньгак
-    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастоноконтеньгак
+    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастоноконтеньгак
+    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастоноконтеньгак
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастоноктонтькак
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастоноктонтькак
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастоноксонтькак
@@ -3994,8 +3994,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастоноктнеяк
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастоноктненьгак
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастоноктненьгак
-    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастоноктнененьгак
-    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастоноктнененьгак
+    псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастоноктнененьгак
+    псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастоноктнененьгак
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастоноктнедеяк
     псака+N+Pl+Ela+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастоноктнедеяк
     псака+N+Sg+Ela+Px1Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастоноктнесэяк
@@ -4028,8 +4028,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванокоськак
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаваноконтькак
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаваноконтькак
-    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаваноконтеньгак
-    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаваноконтеньгак
+    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаваноконтеньгак
+    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаваноконтеньгак
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаваноктонтькак
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаваноктонтькак
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаваноксонтькак
@@ -4048,8 +4048,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаваноктнеяк
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаваноктненьгак
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаваноктненьгак
-    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаваноктнененьгак
-    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаваноктнененьгак
+    псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаваноктнененьгак
+    псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаваноктнененьгак
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаваноктнедеяк
     псака+N+Pl+Prl+Px1Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаваноктнедеяк
     псака+N+Sg+Prl+Px1Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаваноктнесэяк
@@ -4082,8 +4082,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканкоськак
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканконтькак
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканконтькак
-    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканконтеньгак
-    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканконтеньгак
+    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканконтеньгак
+    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканконтеньгак
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканктонтькак
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканктонтькак
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканксонтькак
@@ -4102,8 +4102,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканктнеяк
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканктненьгак
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканктненьгак
-    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканктнененьгак
-    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканктнененьгак
+    псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканктнененьгак
+    псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканктнененьгак
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканктнедеяк
     псака+N+Pl+Comp+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканктнедеяк
     псака+N+Sg+Comp+Px2Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканктнесэяк
@@ -4136,8 +4136,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонкоськак
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонконтькак
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонконтькак
-    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонконтеньгак
-    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонконтеньгак
+    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонконтеньгак
+    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонконтеньгак
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонктонтькак
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонктонтькак
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасонксонтькак
@@ -4156,8 +4156,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасонктнеяк
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонктненьгак
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонктненьгак
-    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонктнененьгак
-    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонктнененьгак
+    псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонктнененьгак
+    псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонктнененьгак
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонктнедеяк
     псака+N+Pl+Ine+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонктнедеяк
     псака+N+Sg+Ine+Px2Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасонктнесэяк
@@ -4190,8 +4190,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонкоськак
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонконтькак
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонконтькак
-    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонконтеньгак
-    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонконтеньгак
+    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонконтеньгак
+    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонконтеньгак
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонктонтькак
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонктонтькак
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастонксонтькак
@@ -4210,8 +4210,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастонктнеяк
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонктненьгак
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонктненьгак
-    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонктнененьгак
-    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонктнененьгак
+    псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонктнененьгак
+    псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонктнененьгак
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонктнедеяк
     псака+N+Pl+Ela+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонктнедеяк
     псака+N+Sg+Ela+Px2Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастонктнесэяк
@@ -4244,8 +4244,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванкоськак
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванконтькак
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванконтькак
-    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванконтеньгак
-    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванконтеньгак
+    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванконтеньгак
+    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванконтеньгак
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванктонтькак
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванктонтькак
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаванксонтькак
@@ -4264,8 +4264,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаванктнеяк
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванктненьгак
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванктненьгак
-    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванктнененьгак
-    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванктнененьгак
+    псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванктнененьгак
+    псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванктнененьгак
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванктнедеяк
     псака+N+Pl+Prl+Px2Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванктнедеяк
     псака+N+Sg+Prl+Px2Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаванктнесэяк
@@ -4298,8 +4298,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашкастоськак
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкастонтькак
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкастонтькак
-    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкастонтеньгак
-    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкастонтеньгак
+    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкастонтеньгак
+    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкастонтеньгак
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкасттонтькак
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкасттонтькак
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашкастсонтькак
@@ -4318,8 +4318,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашкасттнэяк
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкасттнэньгак
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкасттнэньгак
-    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкасттнэненьгак
-    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкасттнэненьгак
+    псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкасттнэненьгак
+    псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкасттнэненьгак
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкасттнэдеяк
     псака+N+Pl+Comp+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкасттнэдеяк
     псака+N+Sg+Comp+Px3Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашкасттнэсэяк
@@ -4352,8 +4352,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасостоськак
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасостонтькак
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасостонтькак
-    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасостонтеньгак
-    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасостонтеньгак
+    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасостонтеньгак
+    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасостонтеньгак
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасосттонтькак
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасосттонтькак
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасостсонтькак
@@ -4372,8 +4372,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасосттнэяк
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасосттнэньгак
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасосттнэньгак
-    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасосттнэненьгак
-    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасосттнэненьгак
+    псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасосттнэненьгак
+    псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасосттнэненьгак
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасосттнэдеяк
     псака+N+Pl+Ine+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасосттнэдеяк
     псака+N+Sg+Ine+Px3Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасосттнэсэяк
@@ -4406,8 +4406,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастостоськак
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастостонтькак
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастостонтькак
-    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастостонтеньгак
-    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастостонтеньгак
+    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастостонтеньгак
+    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастостонтеньгак
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастосттонтькак
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастосттонтькак
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастостсонтькак
@@ -4426,8 +4426,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастосттнэяк
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастосттнэньгак
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастосттнэньгак
-    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастосттнэненьгак
-    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастосттнэненьгак
+    псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастосттнэненьгак
+    псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастосттнэненьгак
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастосттнэдеяк
     псака+N+Pl+Ela+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастосттнэдеяк
     псака+N+Sg+Ela+Px3Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастосттнэсэяк
@@ -4460,8 +4460,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавастоськак
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавастонтькак
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавастонтькак
-    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавастонтеньгак
-    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавастонтеньгак
+    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавастонтеньгак
+    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавастонтеньгак
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавасттонтькак
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавасттонтькак
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавастсонтькак
@@ -4480,8 +4480,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавасттнэяк
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавасттнэньгак
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавасттнэньгак
-    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавасттнэненьгак
-    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавасттнэненьгак
+    псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавасттнэненьгак
+    псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавасттнэненьгак
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавасттнэдеяк
     псака+N+Pl+Prl+Px3Pl+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавасттнэдеяк
     псака+N+Sg+Prl+Px3Pl+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавасттнэсэяк
@@ -4510,8 +4510,8 @@ Tests:
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псаканоксеськак
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканоксентькак
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканоксентькак
-    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканоксентеньгак
-    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканоксентеньгак
+    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканоксентеньгак
+    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканоксентеньгак
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканокседентькак
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканокседентькак
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псаканоксесэнтькак
@@ -4530,8 +4530,8 @@ Tests:
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псаканоксетнеяк
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканоксетненьгак
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканоксетненьгак
-    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканоксетнененьгак
-    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканоксетнененьгак
+    псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканоксетнененьгак
+    псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканоксетнененьгак
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканоксетнедеяк
     псака+N+Pl+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканоксетнедеяк
     псака+N+Sg+Gen+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псаканоксетнесэяк
@@ -4560,8 +4560,8 @@ Tests:
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомоноксеськак
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомоноксентькак
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомоноксентькак
-    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомоноксентеньгак
-    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомоноксентеньгак
+    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомоноксентеньгак
+    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомоноксентеньгак
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонокседентькак
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонокседентькак
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомоноксесэнтькак
@@ -4580,8 +4580,8 @@ Tests:
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомоноксетнеяк
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомоноксетненьгак
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомоноксетненьгак
-    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомоноксетнененьгак
-    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомоноксетнененьгак
+    псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомоноксетнененьгак
+    псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомоноксетнененьгак
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомоноксетнедеяк
     псака+N+Pl+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомоноксетнедеяк
     псака+N+Sg+Abe+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомоноксетнесэяк
@@ -4610,8 +4610,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканксеськак
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканксентькак
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканксентькак
-    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканксентеньгак
-    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканксентеньгак
+    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканксентеньгак
+    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканксентеньгак
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканкседентькак
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканкседентькак
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканксесэнтькак
@@ -4630,8 +4630,8 @@ Tests:
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканксетнеяк
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканксетненьгак
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканксетненьгак
-    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканксетнененьгак
-    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканксетнененьгак
+    псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканксетнененьгак
+    псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканксетнененьгак
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканксетнедеяк
     псака+N+Pl+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканксетнедеяк
     псака+N+Sg+Comp+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканксетнесэяк
@@ -4660,8 +4660,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасоноксеськак
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасоноксентькак
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасоноксентькак
-    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасоноксентеньгак
-    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасоноксентеньгак
+    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасоноксентеньгак
+    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасоноксентеньгак
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонокседентькак
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонокседентькак
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасоноксесэнтькак
@@ -4680,8 +4680,8 @@ Tests:
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасоноксетнеяк
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасоноксетненьгак
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасоноксетненьгак
-    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасоноксетнененьгак
-    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасоноксетнененьгак
+    псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасоноксетнененьгак
+    псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасоноксетнененьгак
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасоноксетнедеяк
     псака+N+Pl+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасоноксетнедеяк
     псака+N+Sg+Ine+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасоноксетнесэяк
@@ -4710,8 +4710,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастоноксеськак
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастоноксентькак
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастоноксентькак
-    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастоноксентеньгак
-    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастоноксентеньгак
+    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастоноксентеньгак
+    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастоноксентеньгак
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонокседентькак
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонокседентькак
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастоноксесэнтькак
@@ -4730,8 +4730,8 @@ Tests:
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастоноксетнеяк
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастоноксетненьгак
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастоноксетненьгак
-    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастоноксетнененьгак
-    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастоноксетнененьгак
+    псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастоноксетнененьгак
+    псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастоноксетнененьгак
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастоноксетнедеяк
     псака+N+Pl+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастоноксетнедеяк
     псака+N+Sg+Ela+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастоноксетнесэяк
@@ -4760,8 +4760,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванксеськак
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванксентькак
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванксентькак
-    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванксентеньгак
-    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванксентеньгак
+    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванксентеньгак
+    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванксентеньгак
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванкседентькак
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванкседентькак
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаванксесэнтькак
@@ -4780,8 +4780,8 @@ Tests:
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаванксетнеяк
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванксетненьгак
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванксетненьгак
-    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванксетнененьгак
-    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванксетнененьгак
+    псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванксетнененьгак
+    псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванксетнененьгак
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванксетнедеяк
     псака+N+Pl+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванксетнедеяк
     псака+N+Sg+Prl+Px1Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаванксетнесэяк
@@ -4810,8 +4810,8 @@ Tests:
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псаканксеськак
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканксентькак
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканксентькак
-    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканксентеньгак
-    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканксентеньгак
+    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканксентеньгак
+    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканксентеньгак
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканкседентькак
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканкседентькак
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псаканксесэнтькак
@@ -4830,8 +4830,8 @@ Tests:
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псаканксетнеяк
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканксетненьгак
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканксетненьгак
-    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканксетнененьгак
-    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканксетнененьгак
+    псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканксетнененьгак
+    псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканксетнененьгак
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканксетнедеяк
     псака+N+Pl+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканксетнедеяк
     псака+N+Sg+Gen+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псаканксетнесэяк
@@ -4860,8 +4860,8 @@ Tests:
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомонксеськак
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонксентькак
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонксентькак
-    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонксентеньгак
-    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонксентеньгак
+    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонксентеньгак
+    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонксентеньгак
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонкседентькак
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонкседентькак
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомонксесэнтькак
@@ -4880,8 +4880,8 @@ Tests:
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомонксетнеяк
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонксетненьгак
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонксетненьгак
-    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонксетнененьгак
-    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонксетнененьгак
+    псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонксетнененьгак
+    псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонксетнененьгак
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонксетнедеяк
     псака+N+Pl+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонксетнедеяк
     псака+N+Sg+Abe+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомонксетнесэяк
@@ -4910,8 +4910,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканксеськак
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканксентькак
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканксентькак
-    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканксентеньгак
-    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканксентеньгак
+    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканксентеньгак
+    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканксентеньгак
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканкседентькак
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканкседентькак
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканксесэнтькак
@@ -4930,8 +4930,8 @@ Tests:
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканксетнеяк
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканксетненьгак
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканксетненьгак
-    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканксетнененьгак
-    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканксетнененьгак
+    псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканксетнененьгак
+    псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканксетнененьгак
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканксетнедеяк
     псака+N+Pl+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканксетнедеяк
     псака+N+Sg+Comp+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканксетнесэяк
@@ -4960,8 +4960,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонксеськак
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонксентькак
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонксентькак
-    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонксентеньгак
-    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонксентеньгак
+    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонксентеньгак
+    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонксентеньгак
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонкседентькак
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонкседентькак
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасонксесэнтькак
@@ -4980,8 +4980,8 @@ Tests:
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасонксетнеяк
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонксетненьгак
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонксетненьгак
-    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонксетнененьгак
-    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонксетнененьгак
+    псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонксетнененьгак
+    псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонксетнененьгак
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонксетнедеяк
     псака+N+Pl+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонксетнедеяк
     псака+N+Sg+Ine+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасонксетнесэяк
@@ -5010,8 +5010,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонксеськак
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонксентькак
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонксентькак
-    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонксентеньгак
-    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонксентеньгак
+    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонксентеньгак
+    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонксентеньгак
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонкседентькак
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонкседентькак
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастонксесэнтькак
@@ -5030,8 +5030,8 @@ Tests:
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастонксетнеяк
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонксетненьгак
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонксетненьгак
-    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонксетнененьгак
-    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонксетнененьгак
+    псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонксетнененьгак
+    псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонксетнененьгак
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонксетнедеяк
     псака+N+Pl+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонксетнедеяк
     псака+N+Sg+Ela+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастонксетнесэяк
@@ -5060,8 +5060,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванксеськак
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванксентькак
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванксентькак
-    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванксентеньгак
-    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванксентеньгак
+    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванксентеньгак
+    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванксентеньгак
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванкседентькак
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванкседентькак
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаванксесэнтькак
@@ -5080,8 +5080,8 @@ Tests:
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаванксетнеяк
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванксетненьгак
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванксетненьгак
-    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванксетнененьгак
-    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванксетнененьгак
+    псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванксетнененьгак
+    псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванксетнененьгак
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванксетнедеяк
     псака+N+Pl+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванксетнедеяк
     псака+N+Sg+Prl+Px2Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаванксетнесэяк
@@ -5110,8 +5110,8 @@ Tests:
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастсеськак
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастсентькак
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастсентькак
-    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастсентеньгак
-    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастсентеньгак
+    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастсентеньгак
+    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастсентеньгак
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастседентькак
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастседентькак
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастсесэнтькак
@@ -5130,8 +5130,8 @@ Tests:
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастсетнеяк
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастсетненьгак
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастсетненьгак
-    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастсетнененьгак
-    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастсетнененьгак
+    псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастсетнененьгак
+    псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастсетнененьгак
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастсетнедеяк
     псака+N+Pl+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастсетнедеяк
     псака+N+Sg+Gen+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастсетнесэяк
@@ -5160,8 +5160,8 @@ Tests:
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомостсеськак
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомостсентькак
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомостсентькак
-    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомостсентеньгак
-    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомостсентеньгак
+    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомостсентеньгак
+    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомостсентеньгак
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомостседентькак
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомостседентькак
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомостсесэнтькак
@@ -5180,8 +5180,8 @@ Tests:
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомостсетнеяк
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомостсетненьгак
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомостсетненьгак
-    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомостсетнененьгак
-    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомостсетнененьгак
+    псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомостсетнененьгак
+    псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомостсетнененьгак
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомостсетнедеяк
     псака+N+Pl+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомостсетнедеяк
     псака+N+Sg+Abe+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомостсетнесэяк
@@ -5210,8 +5210,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашкастсеськак
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкастсентькак
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкастсентькак
-    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкастсентеньгак
-    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкастсентеньгак
+    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкастсентеньгак
+    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкастсентеньгак
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкастседентькак
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкастседентькак
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашкастсесэнтькак
@@ -5230,8 +5230,8 @@ Tests:
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашкастсетнеяк
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкастсетненьгак
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкастсетненьгак
-    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкастсетнененьгак
-    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкастсетнененьгак
+    псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкастсетнененьгак
+    псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкастсетнененьгак
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкастсетнедеяк
     псака+N+Pl+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкастсетнедеяк
     псака+N+Sg+Comp+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашкастсетнесэяк
@@ -5260,8 +5260,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасостсеськак
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасостсентькак
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасостсентькак
-    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасостсентеньгак
-    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасостсентеньгак
+    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасостсентеньгак
+    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасостсентеньгак
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасостседентькак
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасостседентькак
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасостсесэнтькак
@@ -5280,8 +5280,8 @@ Tests:
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасостсетнеяк
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасостсетненьгак
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасостсетненьгак
-    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасостсетнененьгак
-    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасостсетнененьгак
+    псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасостсетнененьгак
+    псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасостсетнененьгак
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасостсетнедеяк
     псака+N+Pl+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасостсетнедеяк
     псака+N+Sg+Ine+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасостсетнесэяк
@@ -5310,8 +5310,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастостсеськак
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастостсентькак
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастостсентькак
-    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастостсентеньгак
-    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастостсентеньгак
+    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастостсентеньгак
+    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастостсентеньгак
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастостседентькак
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастостседентькак
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастостсесэнтькак
@@ -5330,8 +5330,8 @@ Tests:
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастостсетнеяк
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастостсетненьгак
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастостсетненьгак
-    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастостсетнененьгак
-    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастостсетнененьгак
+    псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастостсетнененьгак
+    псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастостсетнененьгак
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастостсетнедеяк
     псака+N+Pl+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастостсетнедеяк
     псака+N+Sg+Ela+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастостсетнесэяк
@@ -5360,8 +5360,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавастсеськак
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавастсентькак
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавастсентькак
-    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавастсентеньгак
-    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавастсентеньгак
+    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавастсентеньгак
+    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавастсентеньгак
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавастседентькак
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавастседентькак
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавастсесэнтькак
@@ -5380,8 +5380,8 @@ Tests:
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавастсетнеяк
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавастсетненьгак
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавастсетненьгак
-    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавастсетнененьгак
-    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавастсетнененьгак
+    псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавастсетнененьгак
+    псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавастсетнененьгак
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавастсетнедеяк
     псака+N+Pl+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавастсетнедеяк
     псака+N+Sg+Prl+Px3Pl+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавастсетнесэяк
@@ -5410,8 +5410,8 @@ Tests:
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакамсеськак
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакамсентькак
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакамсентькак
-    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакамсентеньгак
-    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакамсентеньгак
+    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакамсентеньгак
+    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакамсентеньгак
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакамседентькак
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакамседентькак
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакамсесэнтькак
@@ -5430,8 +5430,8 @@ Tests:
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакамсетнеяк
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакамсетненьгак
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакамсетненьгак
-    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакамсетнененьгак
-    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакамсетнененьгак
+    псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакамсетнененьгак
+    псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакамсетнененьгак
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакамсетнедеяк
     псака+N+Pl+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакамсетнедеяк
     псака+N+Sg+Gen+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакамсетнесэяк
@@ -5460,8 +5460,8 @@ Tests:
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомонсеськак
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонсентькак
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонсентькак
-    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонсентеньгак
-    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонсентеньгак
+    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонсентеньгак
+    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонсентеньгак
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонседентькак
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонседентькак
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомонсесэнтькак
@@ -5480,8 +5480,8 @@ Tests:
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомонсетнеяк
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонсетненьгак
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонсетненьгак
-    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонсетнененьгак
-    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонсетнененьгак
+    псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонсетнененьгак
+    псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонсетнененьгак
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонсетнедеяк
     псака+N+Pl+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонсетнедеяк
     псака+N+Sg+Abe+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомонсетнесэяк
@@ -5510,8 +5510,8 @@ Tests:
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканксеськак
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканксентькак
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканксентькак
-    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканксентеньгак
-    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканксентеньгак
+    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканксентеньгак
+    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканксентеньгак
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканкседентькак
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканкседентькак
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканксесэнтькак
@@ -5530,8 +5530,8 @@ Tests:
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканксетнеяк
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканксетненьгак
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканксетненьгак
-    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканксетнененьгак
-    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканксетнененьгак
+    псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканксетнененьгак
+    псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканксетнененьгак
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканксетнедеяк
     псака+N+Pl+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканксетнедеяк
     псака+N+Sg+Comp+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканксетнесэяк
@@ -5560,8 +5560,8 @@ Tests:
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонсеськак
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонсентькак
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонсентькак
-    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонсентеньгак
-    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонсентеньгак
+    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонсентеньгак
+    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонсентеньгак
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонседентькак
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонседентькак
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасонсесэнтькак
@@ -5580,8 +5580,8 @@ Tests:
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасонсетнеяк
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонсетненьгак
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонсетненьгак
-    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонсетнененьгак
-    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонсетнененьгак
+    псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонсетнененьгак
+    псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонсетнененьгак
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонсетнедеяк
     псака+N+Pl+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонсетнедеяк
     псака+N+Sg+Ine+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасонсетнесэяк
@@ -5610,8 +5610,8 @@ Tests:
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонсеськак
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонсентькак
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонсентькак
-    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонсентеньгак
-    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонсентеньгак
+    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонсентеньгак
+    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонсентеньгак
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонседентькак
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонседентькак
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастонсесэнтькак
@@ -5630,8 +5630,8 @@ Tests:
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастонсетнеяк
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонсетненьгак
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонсетненьгак
-    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонсетнененьгак
-    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонсетнененьгак
+    псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонсетнененьгак
+    псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонсетнененьгак
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонсетнедеяк
     псака+N+Pl+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонсетнедеяк
     псака+N+Sg+Ela+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастонсетнесэяк
@@ -5660,8 +5660,8 @@ Tests:
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванксеськак
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванксентькак
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванксентькак
-    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванксентеньгак
-    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванксентеньгак
+    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванксентеньгак
+    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванксентеньгак
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванкседентькак
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванкседентькак
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаванксесэнтькак
@@ -5680,8 +5680,8 @@ Tests:
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаванксетнеяк
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванксетненьгак
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванксетненьгак
-    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванксетнененьгак
-    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванксетнененьгак
+    псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванксетнененьгак
+    псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванксетнененьгак
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванксетнедеяк
     псака+N+Pl+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванксетнедеяк
     псака+N+Sg+Prl+Px1Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаванксетнесэяк
@@ -5710,8 +5710,8 @@ Tests:
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакатсеськак
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакатсентькак
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакатсентькак
-    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакатсентеньгак
-    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакатсентеньгак
+    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакатсентеньгак
+    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакатсентеньгак
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакатседентькак
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакатседентькак
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакатсесэнтькак
@@ -5730,8 +5730,8 @@ Tests:
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакатсетнеяк
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакатсетненьгак
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакатсетненьгак
-    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакатсетнененьгак
-    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакатсетнененьгак
+    псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакатсетнененьгак
+    псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакатсетнененьгак
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакатсетнедеяк
     псака+N+Pl+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакатсетнедеяк
     псака+N+Sg+Gen+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакатсетнесэяк
@@ -5760,8 +5760,8 @@ Tests:
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомотсеськак
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомотсентькак
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомотсентькак
-    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомотсентеньгак
-    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомотсентеньгак
+    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомотсентеньгак
+    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомотсентеньгак
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомотседентькак
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомотседентькак
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомотсесэнтькак
@@ -5780,8 +5780,8 @@ Tests:
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомотсетнеяк
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомотсетненьгак
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомотсетненьгак
-    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомотсетнененьгак
-    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомотсетнененьгак
+    псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомотсетнененьгак
+    псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомотсетнененьгак
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомотсетнедеяк
     псака+N+Pl+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомотсетнедеяк
     псака+N+Sg+Abe+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомотсетнесэяк
@@ -5810,8 +5810,8 @@ Tests:
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашкатсеськак
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкатсентькак
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкатсентькак
-    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкатсентеньгак
-    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкатсентеньгак
+    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкатсентеньгак
+    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкатсентеньгак
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкатседентькак
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкатседентькак
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашкатсесэнтькак
@@ -5830,8 +5830,8 @@ Tests:
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашкатсетнеяк
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкатсетненьгак
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкатсетненьгак
-    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкатсетнененьгак
-    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкатсетнененьгак
+    псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкатсетнененьгак
+    псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкатсетнененьгак
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкатсетнедеяк
     псака+N+Pl+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкатсетнедеяк
     псака+N+Sg+Comp+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашкатсетнесэяк
@@ -5860,8 +5860,8 @@ Tests:
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасотсеськак
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасотсентькак
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасотсентькак
-    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасотсентеньгак
-    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасотсентеньгак
+    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасотсентеньгак
+    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасотсентеньгак
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасотседентькак
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасотседентькак
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасотсесэнтькак
@@ -5880,8 +5880,8 @@ Tests:
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасотсетнеяк
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасотсетненьгак
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасотсетненьгак
-    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасотсетнененьгак
-    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасотсетнененьгак
+    псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасотсетнененьгак
+    псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасотсетнененьгак
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасотсетнедеяк
     псака+N+Pl+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасотсетнедеяк
     псака+N+Sg+Ine+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасотсетнесэяк
@@ -5910,8 +5910,8 @@ Tests:
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастотсеськак
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастотсентькак
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастотсентькак
-    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастотсентеньгак
-    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастотсентеньгак
+    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастотсентеньгак
+    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастотсентеньгак
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастотседентькак
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастотседентькак
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастотсесэнтькак
@@ -5930,8 +5930,8 @@ Tests:
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастотсетнеяк
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастотсетненьгак
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастотсетненьгак
-    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастотсетнененьгак
-    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастотсетнененьгак
+    псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастотсетнененьгак
+    псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастотсетнененьгак
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастотсетнедеяк
     псака+N+Pl+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастотсетнедеяк
     псака+N+Sg+Ela+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастотсетнесэяк
@@ -5960,8 +5960,8 @@ Tests:
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаватсеськак
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаватсентькак
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаватсентькак
-    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаватсентеньгак
-    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаватсентеньгак
+    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаватсентеньгак
+    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаватсентеньгак
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаватседентькак
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаватседентькак
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаватсесэнтькак
@@ -5980,8 +5980,8 @@ Tests:
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаватсетнеяк
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаватсетненьгак
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаватсетненьгак
-    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаватсетнененьгак
-    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаватсетнененьгак
+    псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаватсетнененьгак
+    псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаватсетнененьгак
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаватсетнедеяк
     псака+N+Pl+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаватсетнедеяк
     псака+N+Sg+Prl+Px2Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаватсетнесэяк
@@ -6010,8 +6010,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псаканзосеськак
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканзосентькак
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканзосентькак
-    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканзосентеньгак
-    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканзосентеньгак
+    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканзосентеньгак
+    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканзосентеньгак
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканзоседентькак
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканзоседентькак
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псаканзосесэнтькак
@@ -6030,8 +6030,8 @@ Tests:
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псаканзосетнеяк
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканзосетненьгак
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканзосетненьгак
-    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканзосетнененьгак
-    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканзосетнененьгак
+    псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканзосетнененьгак
+    псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканзосетнененьгак
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканзосетнедеяк
     псака+N+Pl+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканзосетнедеяк
     псака+N+Sg+Gen+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псаканзосетнесэяк
@@ -6060,8 +6060,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомонзосеськак
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонзосентькак
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонзосентькак
-    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонзосентеньгак
-    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонзосентеньгак
+    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонзосентеньгак
+    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонзосентеньгак
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонзоседентькак
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонзоседентькак
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомонзосесэнтькак
@@ -6080,8 +6080,8 @@ Tests:
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомонзосетнеяк
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонзосетненьгак
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонзосетненьгак
-    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонзосетнененьгак
-    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонзосетнененьгак
+    псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонзосетнененьгак
+    псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонзосетнененьгак
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонзосетнедеяк
     псака+N+Pl+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонзосетнедеяк
     псака+N+Sg+Abe+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомонзосетнесэяк
@@ -6110,8 +6110,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашканзосеськак
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканзосентькак
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашканзосентькак
-    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканзосентеньгак
-    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашканзосентеньгак
+    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканзосентеньгак
+    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашканзосентеньгак
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканзоседентькак
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашканзоседентькак
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашканзосесэнтькак
@@ -6130,8 +6130,8 @@ Tests:
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашканзосетнеяк
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканзосетненьгак
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашканзосетненьгак
-    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканзосетнененьгак
-    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашканзосетнененьгак
+    псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканзосетнененьгак
+    псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашканзосетнененьгак
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканзосетнедеяк
     псака+N+Pl+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашканзосетнедеяк
     псака+N+Sg+Comp+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашканзосетнесэяк
@@ -6160,8 +6160,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонзосеськак
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонзосентькак
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонзосентькак
-    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонзосентеньгак
-    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонзосентеньгак
+    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонзосентеньгак
+    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонзосентеньгак
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонзоседентькак
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонзоседентькак
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасонзосесэнтькак
@@ -6180,8 +6180,8 @@ Tests:
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасонзосетнеяк
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонзосетненьгак
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонзосетненьгак
-    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонзосетнененьгак
-    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонзосетнененьгак
+    псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонзосетнененьгак
+    псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонзосетнененьгак
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонзосетнедеяк
     псака+N+Pl+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонзосетнедеяк
     псака+N+Sg+Ine+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасонзосетнесэяк
@@ -6210,8 +6210,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонзосеськак
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонзосентькак
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонзосентькак
-    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонзосентеньгак
-    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонзосентеньгак
+    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонзосентеньгак
+    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонзосентеньгак
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонзоседентькак
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонзоседентькак
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастонзосесэнтькак
@@ -6230,8 +6230,8 @@ Tests:
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастонзосетнеяк
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонзосетненьгак
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонзосетненьгак
-    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонзосетнененьгак
-    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонзосетнененьгак
+    псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонзосетнененьгак
+    псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонзосетнененьгак
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонзосетнедеяк
     псака+N+Pl+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонзосетнедеяк
     псака+N+Sg+Ela+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастонзосетнесэяк
@@ -6260,8 +6260,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакаванзосеськак
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванзосентькак
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакаванзосентькак
-    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванзосентеньгак
-    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакаванзосентеньгак
+    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванзосентеньгак
+    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакаванзосентеньгак
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванзоседентькак
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакаванзоседентькак
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакаванзосесэнтькак
@@ -6280,8 +6280,8 @@ Tests:
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакаванзосетнеяк
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванзосетненьгак
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакаванзосетненьгак
-    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванзосетнененьгак
-    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакаванзосетнененьгак
+    псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванзосетнененьгак
+    псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакаванзосетнененьгак
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванзосетнедеяк
     псака+N+Pl+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакаванзосетнедеяк
     псака+N+Sg+Prl+Px3Sg+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакаванзосетнесэяк
@@ -6310,8 +6310,8 @@ Tests:
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псаканьсеськак
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканьсентькак
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псаканьсентькак
-    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканьсентеньгак
-    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псаканьсентеньгак
+    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканьсентеньгак
+    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псаканьсентеньгак
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканьседентькак
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псаканьседентькак
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псаканьсесэнтькак
@@ -6330,8 +6330,8 @@ Tests:
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псаканьсетнеяк
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканьсетненьгак
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псаканьсетненьгак
-    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканьсетнененьгак
-    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псаканьсетнененьгак
+    псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканьсетнененьгак
+    псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псаканьсетнененьгак
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканьсетнедеяк
     псака+N+Pl+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псаканьсетнедеяк
     псака+N+Sg+Gen+Indef+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псаканьсетнесэяк
@@ -6356,7 +6356,7 @@ Tests:
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef+Clt/Гак: псакантьсекскак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакантьсеськак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакантьсентькак
-    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакантьсентеньгак
+    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакантьсентеньгак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакантьседентькак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакантьсесэнтькак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакантьсестэнтькак
@@ -6366,7 +6366,7 @@ Tests:
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def+Clt/Гак: псакантьсексэнтькак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакантьсетнеяк
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакантьсетненьгак
-    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакантьсетнененьгак
+    псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакантьсетнененьгак
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакантьсетнедеяк
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакантьсетнесэяк
     псака+N+Sg+Gen+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def+Clt/Гак: псакантьсетнестэяк
@@ -6381,7 +6381,7 @@ Tests:
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef+Clt/Гак: псакасонтьсекскак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакасонтьсеськак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакасонтьсентькак
-    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакасонтьсентеньгак
+    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакасонтьсентеньгак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакасонтьседентькак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакасонтьсесэнтькак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакасонтьсестэнтькак
@@ -6391,7 +6391,7 @@ Tests:
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def+Clt/Гак: псакасонтьсексэнтькак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакасонтьсетнеяк
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакасонтьсетненьгак
-    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакасонтьсетнененьгак
+    псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакасонтьсетнененьгак
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакасонтьсетнедеяк
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакасонтьсетнесэяк
     псака+N+Sg+Ine+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def+Clt/Гак: псакасонтьсетнестэяк
@@ -6406,7 +6406,7 @@ Tests:
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef+Clt/Гак: псакастонтьсекскак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакастонтьсеськак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакастонтьсентькак
-    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакастонтьсентеньгак
+    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакастонтьсентеньгак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакастонтьседентькак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакастонтьсесэнтькак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакастонтьсестэнтькак
@@ -6416,7 +6416,7 @@ Tests:
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def+Clt/Гак: псакастонтьсексэнтькак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакастонтьсетнеяк
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакастонтьсетненьгак
-    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакастонтьсетнененьгак
+    псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакастонтьсетнененьгак
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакастонтьсетнедеяк
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакастонтьсетнесэяк
     псака+N+Sg+Ela+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def+Clt/Гак: псакастонтьсетнестэяк
@@ -6431,7 +6431,7 @@ Tests:
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef+Clt/Гак: псакавантьсекскак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавантьсеськак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавантьсентькак
-    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавантьсентеньгак
+    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавантьсентеньгак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавантьседентькак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавантьсесэнтькак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакавантьсестэнтькак
@@ -6441,7 +6441,7 @@ Tests:
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def+Clt/Гак: псакавантьсексэнтькак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавантьсетнеяк
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавантьсетненьгак
-    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавантьсетнененьгак
+    псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавантьсетнененьгак
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавантьсетнедеяк
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавантьсетнесэяк
     псака+N+Sg+Prl+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def+Clt/Гак: псакавантьсетнестэяк
@@ -6456,7 +6456,7 @@ Tests:
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef+Clt/Гак: псакавтомонтьсекскак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакавтомонтьсеськак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакавтомонтьсентькак
-    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакавтомонтьсентеньгак
+    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакавтомонтьсентеньгак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакавтомонтьседентькак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакавтомонтьсесэнтькак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакавтомонтьсестэнтькак
@@ -6466,7 +6466,7 @@ Tests:
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def+Clt/Гак: псакавтомонтьсексэнтькак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакавтомонтьсетнеяк
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакавтомонтьсетненьгак
-    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакавтомонтьсетнененьгак
+    псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакавтомонтьсетнененьгак
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакавтомонтьсетнедеяк
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакавтомонтьсетнесэяк
     псака+N+Sg+Abe+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def+Clt/Гак: псакавтомонтьсетнестэяк
@@ -6481,7 +6481,7 @@ Tests:
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Tra+Indef+Clt/Гак: псакашкантьсекскак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Nom+Def+Clt/Гак: псакашкантьсеськак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Gen+Def+Clt/Гак: псакашкантьсентькак
-    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Dat+Def+Clt/Гак: псакашкантьсентеньгак
+    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+DatCx+Def+Clt/Гак: псакашкантьсентеньгак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Abl+Def+Clt/Гак: псакашкантьседентькак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Ine+Def+Clt/Гак: псакашкантьсесэнтькак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Ela+Def+Clt/Гак: псакашкантьсестэнтькак
@@ -6491,7 +6491,7 @@ Tests:
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Sg+Tra+Def+Clt/Гак: псакашкантьсексэнтькак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Nom+Def+Clt/Гак: псакашкантьсетнеяк
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Gen+Def+Clt/Гак: псакашкантьсетненьгак
-    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Dat+Def+Clt/Гак: псакашкантьсетнененьгак
+    псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+DatCx+Def+Clt/Гак: псакашкантьсетнененьгак
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Abl+Def+Clt/Гак: псакашкантьсетнедеяк
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Ine+Def+Clt/Гак: псакашкантьсетнесэяк
     псака+N+Sg+Comp+Def+Der/Dem+Der/MWN+N+Pl+Ela+Def+Clt/Гак: псакашкантьсетнестэяк
