@@ -157,26 +157,26 @@ LEXICON Quants3
 !Cx PossPx Tx PredPx Clitic
 !Cases1 Possessives1 Tenses1 PredPersons1 Clitics
 +Indet+Sg+Nom: Tenses1 ;
-+VowX+Sg+Nom+Px3Sg:%>О1зО1 kudo-Tenses1 ;
-+NoVowX+Sg+Nom+Px3Sg:%>зО1 kudo-Tenses1 ;
++VowX+Sg+Nom+PxSg3:%>О1зО1 kudo-Tenses1 ;
++NoVowX+Sg+Nom+PxSg3:%>зО1 kudo-Tenses1 ;
 +VowX+Indet+Lat:%>О1в Clitics ;
 +NoVowX+Indet+Lat:%>в Clitics ;
 
 
-+NoVowX+NoNum+NomGen+Px1Sg:%>м kal-Tenses1 ;
-+NoVowX+NoNum+NonNomSg+Px1Sg:%>нЬ2 kal-Tenses1 ;
-+NoVowX+NoNum+NomGen+Px2Sg:%>тЬ2 kit-Tenses1 ;
-+NoVowX+NoNum+NonNomSg+Px3Sg:%>нзО1 kudo-Tenses1 ;
-< 0:">" 0:н 0:О1 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px1Pl:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:н 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px2Pl:0  "@P.KLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:с 0:т %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+Px3Pl:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
-+VowX+NoNum+NomGen+Px1Sg:%>О1м kal-Tenses1 ;
-+VowX+NoNum+NonNomSg+Px1Sg:%>О1нЬ2 kal-Tenses1 ;
-+VowX+NoNum+NomGen+Px2Sg:%>О1тЬ2 kit-Tenses1 ;
-+VowX+NoNum+NonNomSg+Px3Sg:%>О1нзО1 kudo-Tenses1 ;
-< 0:">" 0:О1 0:н 0:О1 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px1Pl:0  "@P.KLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:О1 0:н 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px2Pl:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
-< 0:">" 0:О1 0:с 0:т %+VowX:0 %+NoNum:0 %+NomGen:0 %+Px3Pl:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
++NoVowX+NoNum+NomGen+PxSg1:%>м kal-Tenses1 ;
++NoVowX+NoNum+NonNomSg+PxSg1:%>нЬ2 kal-Tenses1 ;
++NoVowX+NoNum+NomGen+PxSg2:%>тЬ2 kit-Tenses1 ;
++NoVowX+NoNum+NonNomSg+PxSg3:%>нзО1 kudo-Tenses1 ;
+< 0:">" 0:н 0:О1 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+PxPl1:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:н 0:к %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+PxPl2:0  "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:с 0:т %+NoVowX:0 %+NoNum:0 %+NomGen:0 %+PxPl3:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
++VowX+NoNum+NomGen+PxSg1:%>О1м kal-Tenses1 ;
++VowX+NoNum+NonNomSg+PxSg1:%>О1нЬ2 kal-Tenses1 ;
++VowX+NoNum+NomGen+PxSg2:%>О1тЬ2 kit-Tenses1 ;
++VowX+NoNum+NonNomSg+PxSg3:%>О1нзО1 kudo-Tenses1 ;
+< 0:">" 0:О1 0:н 0:О1 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+PxPl1:0  "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:О1 0:н 0:к %+VowX:0 %+NoNum:0 %+NomGen:0 %+PxPl2:0 "@P.KLOSS.ON@"> lak-Tenses1 ;
+< 0:">" 0:О1 0:с 0:т %+VowX:0 %+NoNum:0 %+NomGen:0 %+PxPl3:0 "@P.TLOSS.ON@"> kit-Tenses1 ;
 
 
 
@@ -324,26 +324,26 @@ LEXICON Attributes2
 
 
 LEXICON Tenses1
-+Pred+Pres+1Sg:%>А2н Clitics ;
-+Pred+Pres+2Sg:%>А2т Clitics ;
-+Pred+Pres+1Pl:%>тА2но Clitics ;
-+Pred+Pres+2Pl:%>тА2до Clitics ;
++Pred+Pres+ScSg1:%>А2н Clitics ;
++Pred+Pres+ScSg2:%>А2т Clitics ;
++Pred+Pres+ScPl1:%>тА2но Clitics ;
++Pred+Pres+ScPl2:%>тА2до Clitics ;
 
-+NoVowX+Pred+Prt2+1Sg:%>линь Clitics ;
-+NoVowX+Pred+Prt2+2Sg:%>лить Clitics ;
-+NoVowX+Pred+Prt2+3Sg:%>ль Clitics ;
-< 0:">" 0:л 0:и 0:н 0:е 0:к %+NoVowX:0 %+Pred:0 %+Prt2:0 %+1Pl:0  "@P.KLOSS.ON@"> Clitics ;
-+NoVowX+Pred+Prt2+2Pl:%>лиде Clitics ;
-+NoVowX+Pred+Prt2+3Pl:%>льть Clitics ;
-< 0:">" 0:А2 0:н 0:о %+Pred:0 %+Pres:0 %+1Pl:0 "@R.TLOSS.ON@"> Clitics ;
-< 0:">" 0:А2 0:д 0:о %+Pred:0 %+Pres:0 %+2Pl:0 "@R.TLOSS.ON@"> Clitics ;
++NoVowX+Pred+Prt2+ScSg1:%>линь Clitics ;
++NoVowX+Pred+Prt2+ScSg2:%>лить Clitics ;
++NoVowX+Pred+Prt2+ScSg3:%>ль Clitics ;
+< 0:">" 0:л 0:и 0:н 0:е 0:к %+NoVowX:0 %+Pred:0 %+Prt2:0 %+ScPl1:0  "@P.KLOSS.ON@"> Clitics ;
++NoVowX+Pred+Prt2+ScPl2:%>лиде Clitics ;
++NoVowX+Pred+Prt2+ScPl3:%>льть Clitics ;
+< 0:">" 0:А2 0:н 0:о %+Pred:0 %+Pres:0 %+ScPl1:0 "@R.TLOSS.ON@"> Clitics ;
+< 0:">" 0:А2 0:д 0:о %+Pred:0 %+Pres:0 %+ScPl2:0 "@R.TLOSS.ON@"> Clitics ;
 
-+VowX+Pred+Prt2+1Sg:%>О1линь Clitics ;
-+VowX+Pred+Prt2+2Sg:%>О1лить Clitics ;
-+VowX+Pred+Prt2+3Sg:%>О1ль Clitics ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к %+VowX:0 %+Pred:0 %+Prt2:0 %+1Pl:0 "@P.KLOSS.ON@"> Clitics ;
-+VowX+Pred+Prt2+2Pl:%>О1лиде Clitics ;
-+VowX+Pred+Prt2+3Pl:%>О1льть Clitics ;
++VowX+Pred+Prt2+ScSg1:%>О1линь Clitics ;
++VowX+Pred+Prt2+ScSg2:%>О1лить Clitics ;
++VowX+Pred+Prt2+ScSg3:%>О1ль Clitics ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к %+VowX:0 %+Pred:0 %+Prt2:0 %+ScPl1:0 "@P.KLOSS.ON@"> Clitics ;
++VowX+Pred+Prt2+ScPl2:%>О1лиде Clitics ;
++VowX+Pred+Prt2+ScPl3:%>О1льть Clitics ;
 
 LEXICON Clitics
 < 0:">" 0:а 0:к %+KLoss:0 "@R.KLOSS.ON@"> # ;
