@@ -1,16 +1,16 @@
 
 LEXICON VERBNEGATIVE
-аволть+V+Neg+Conj+Sc3Pl:авольть # ;
+аволть+V+Neg+Conj+ScPl3:авольть # ;
 < а в о л ь "+V":0 "+Pred":0 "+Neg":0 "+Conj":0  "@P.CONJ.ObjAll@"> IndicativePretI-plus ;
-аволь+V+Neg+Conj+Sc3Sg:аволь # ;
+аволь+V+Neg+Conj+ScSg3:аволь # ;
 < и л я "+V":0 "+Pred":0 "+Neg":0 "@P.CONJ.ObjAll@"> ILYA ;
 
 
-эзть+V+Neg+Ind+Prt1+Sc3Pl:эзть # ;
+эзть+V+Neg+Ind+Prt1+ScPl3:эзть # ;
 < э з ь "+V":0 "+Neg":0 "+Pred":0 "+Ind":0 "@P.CONJ.ObjAll@" > IndicativePrt2_kadoms ;
 < э з ь "+V":0 "+Neg":0 "+Pred":0 "+Ind":0 "+Prt1":0 "@P.CONJ.ObjAll@" > IndicativePretI-plus ;
-эзь+V+Neg+Ind+Prt1+Sc3Sg:эзь # ;
-эзь+V+Neg+Ind+Prt1+Sc3Sg+OcSg3:эсе # ;
+эзь+V+Neg+Ind+Prt1+ScSg3:эзь # ;
+эзь+V+Neg+Ind+Prt1+ScSg3+OcSg3:эсе # ;
 
 LEXICON V-ledems_ObjAll
 < "@P.CONJ.ObjAll@"> V-ledems ;
@@ -169,8 +169,8 @@ LEXICON V-satoms-a
 +Use/Sub/Dial: PredIndPrt1Sc3 ; !!2012-05-05 What's this for
 < "+Use/Sub/Dial":0 0:">" 0:К3 "+ConNeg":0 "@U.CONJ-CONNEG.YES@" > kudo-Tenses1 ;
 < 0:">" 0:О1 0:т 0:Ь2 "+ConNeg":0 "@U.CONJ-CONNEG.YES@" > kudo-Tenses1 ;
-< "+V":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" 0:">" 0:О1 0:т 0:с 0:ь "+Prt1":0 "@U.CONJ-TX.PRET1@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< "+V":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" 0:">" 0:О1 0:т 0:с 0:т 0:ь "+Prt1":0 "@U.CONJ-TX.PRET1@" "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< "+V":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" 0:">" 0:О1 0:т 0:с 0:ь "+Prt1":0 "@U.CONJ-TX.PRET1@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< "+V":0 "@U.CONJ-INF.NO@" "@U.CONJ-CONNEG.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" 0:">" 0:О1 0:т 0:с 0:т 0:ь "+Prt1":0 "@U.CONJ-TX.PRET1@" "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
  Desiderative-kadoms ;
 < "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" > IndicativePrt2_kadoms ;
 < "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" > Imperative-kadoms ;
@@ -187,10 +187,10 @@ LEXICON CondVerbs
 
 !!! 2012-04-24 rather odd and infrequent
 < 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:я "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" > IndicativePrt2_kundams ;
-< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:я 0:й "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:я 0:й 0:т 0:ь "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:и "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Use/Sub":0 "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:и 0:т 0:ь "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Use/Sub":0 "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:я 0:й "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:я 0:й 0:т 0:ь "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:и "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Use/Sub":0 "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:д 0:е 0:р 0:и 0:т 0:ь "+Der/Ындеря":0 "+Cond":0 "+V":0 "@U.CONJ-INF.NO@" "+Use/Sub":0 "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
 +Der/Ындеря+Cond+V:%>Ы2ндеря   VerbsPresPtc_1 ;
 +Der/Ындеря+Cond+V:%>Ы2ндеря   Deverbals-kundams ;
 
@@ -204,7 +204,7 @@ LEXICON Deverbals-kadoms ! kadoms
 < 0:">" 0:О1 "@U.CONJ-INF.YES@" > Deverbals_noArrow ;
 +Der/Овт+TelicN:%>О1втЬ2 N-kit ; !!
 +Der/Озь+Ger:%>О1зь sajezj-PTC ; !!
-+Der/Озь+Ger+Pred+Ind+NonPast+Sc3Pl:%>О1зь%>тЬ2 VerbEnd_Clitic ; !!
++Der/Озь+Ger+Pred+Ind+NonPast+ScPl3:%>О1зь%>тЬ2 VerbEnd_Clitic ; !!
 +Der/Онь+VGen:%>О1нь kal-Tenses1 ;
 +Der/Онь+VGen+Der/Dem:%>О1нсе kudo-N2-Def-Declension ;
 
@@ -217,7 +217,7 @@ LEXICON Deverbals-kundams ! kundams
 < 0:">" "@U.CONJ-INF.YES@" > Deverbals_noArrow ;
 +Der/Овт+TelicN:%>втЬ2 N-kit ; !!
 +Der/Озь+Ger:%>зь sajezj-PTC ; !!
-+Der/Озь+Ger+Pred+Ind+NonPast+Sc3Pl:%>зь%>тЬ2 VerbEnd_Clitic ; !!
++Der/Озь+Ger+Pred+Ind+NonPast+ScPl3:%>зь%>тЬ2 VerbEnd_Clitic ; !!
 +Der/Онь+VGen:%>нь kal-Tenses1 ;
 +Der/Онь+VGen+Der/Dem:%>нсе kudo-N2-Def-Declension ;
 
@@ -256,29 +256,29 @@ LEXICON Ptc-Telic ! sajevtj
 !! CONJUGATION
 
 LEXICON PredIndPrt1Sc3
-< "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+Prt1":0 "@U.CONJ-TX.PRET1@" 0:">" 0:с 0:ь "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+Prt1":0 "@U.CONJ-TX.PRET1@" 0:">" 0:с 0:т 0:ь "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+Prt1":0 "@U.CONJ-TX.PRET1@" 0:">" 0:с 0:ь "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+Prt1":0 "@U.CONJ-TX.PRET1@" 0:">" 0:с 0:т 0:ь "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
 
 
 LEXICON Indicative1
  Indicative1-noSc3 ; ! This accommodates Cond
-< 0:">" 0:Ы2 "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:т 0:ь "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "@U.CONJ-PX.30@"> VerbEnd_Clitic ;
+< 0:">" 0:Ы2 "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:т 0:ь "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "@U.CONJ-PX.30@"> VerbEnd_Clitic ;
 
 LEXICON Indicative1-noSc3
 < "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+Prt1":0 "@U.CONJ-TX.PRET1@" > IndicativePretI-plus ;
 !Indicative Non-past
-< 0:">" 0:А2 0:н "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
-< 0:">" 0:А2 0:т "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< 0:">" 0:т 0:А2 0:н 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:т 0:А2 0:м "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:">" 0:т 0:А2 0:н 0:о 0:к "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< 0:">" 0:т 0:А2 0:д 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< 0:">" 0:А2 0:н "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
+< 0:">" 0:А2 0:т "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< 0:">" 0:т 0:А2 0:н 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:т 0:А2 0:м "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:">" 0:т 0:А2 0:н 0:о 0:к "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< 0:">" 0:т 0:А2 0:д 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
 
-< "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:м "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о 0:к "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:д 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:м "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о 0:к "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:д 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
 
 ! Indicative Preterite I
 <"@R.CONJ.ObjAll@"> Indicative_Present_Obj ;
@@ -288,164 +288,164 @@ LEXICON Indicative_Present_Obj
 < "+Use/Sub":0 ">" 0:"TLoss" > Indicative_Present_Obj-TLoss ;
 :%>  Indicative_Present_Obj-TLoss ;
 
-< 0:">" 0:с 0:а "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:н "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:т 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:н "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:т 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
 
-< 0:">" 0:с 0:ы 0:н 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:а 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:т 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:а 0:м "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:з 0:о "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:н 0:з 0:е "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:н 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:н 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:н 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:а 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:т 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:а 0:м "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:з 0:о "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:н 0:з 0:е "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:н 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:н 0:к "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< 0:">" 0:с 0:а 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
 
 LEXICON Indicative_Present_Obj-TLoss
-< 0:т 0:А2 0:н "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< 0:т 0:А2 0:н 0:з 0:а 0:т "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-<  0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-<  0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:н "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:н 0:з 0:а 0:т "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+<  0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+<  0:т 0:А2 0:д 0:ы 0:з 0:ь "+Pred":0 "+Ind":0 "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
 
 LEXICON IndicativePretI-plus
 ! Indicative Preterite I
-< 0:">" 0:Ы2 0:н 0:ь "+Sc1Sg":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:т 0:ь "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:е 0:к "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< 0:">" 0:Ы2 0:д 0:е "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:ь "+ScSg1":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:т 0:ь "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:е 0:к "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< 0:">" 0:Ы2 0:д 0:е "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
 <"@R.CONJ.ObjAll@"> Indicative_PretI_Obj ;
 
 LEXICON Indicative_PretI_Obj
-< 0:">" 0:Ы2 0:я "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:е "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:я 0:т 0:ь "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:ь "+Sc1Sg":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:к "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:к "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:т 0:ь "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:м "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:м "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:з 0:е "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:з 0:е "+Sc3Sg":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:е 0:к "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:е 0:к "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:я "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:е "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:я 0:т 0:ь "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:ь "+ScSg1":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:к "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:к "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:т 0:ь "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:м "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:м "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:з 0:е "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:з 0:е "+ScSg3":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:е 0:к "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:е 0:к "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
 
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:н 0:и 0:к "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:н 0:и 0:к "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:к "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:к "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:з 0:ь "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:з 0:ь "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:т 0:и 0:н 0:ь "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:н 0:з 0:е 0:т 0:ь "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-< 0:">"  0:Ы2 0:д 0:и 0:з 0:ь "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-< 0:">"  0:Ы2 0:д 0:и 0:з 0:ь "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:н 0:и 0:к "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:н 0:и 0:к "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:к "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:к "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:з 0:ь "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:з 0:ь "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:т 0:и 0:н 0:ь "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:н 0:з 0:е 0:т 0:ь "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< 0:">" 0:Ы2 0:д 0:и 0:з 0:ь "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+< 0:">"  0:Ы2 0:д 0:и 0:з 0:ь "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+< 0:">"  0:Ы2 0:д 0:и 0:з 0:ь "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:т 0:е 0:н 0:ь "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:н 0:з 0:и 0:т "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0  0:Ы2 0:д 0:е 0:з 0:ь "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0  0:Ы2 0:д 0:е 0:з 0:ь "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:е 0:з 0:ь "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:т 0:е 0:н 0:ь "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:н 0:з 0:и 0:т "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0  0:Ы2 0:д 0:е 0:з 0:ь "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0  0:Ы2 0:д 0:е 0:з 0:ь "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
 
 LEXICON IndicativePrt2_kadoms
 :%> IndicativePrt2_noArrow ;
-< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:д 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:ь 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:и 0:д 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:О1 0:л 0:ь 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
 < "+Use/Sub/Dial":0 "@R.CONJ.ObjAll@"> Indicative_Prt2_Obj-Dial_noArrows ;
 
 LEXICON Indicative_Prt2_Obj-Dial_noArrows
-< 0:">" 0:О1 0:л 0:и 0:я "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:я 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:м "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:м "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:з 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:з 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:я "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:я 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:м "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:м "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:з 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:з 0:е "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
 
-< 0:">" 0:О1 0:л 0:и 0:н 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:т 0:и 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:з 0:е 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-< 0:">"  0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-< 0:">"  0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:и 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:к "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:т 0:и 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:з 0:е 0:т 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+< 0:">"  0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+< 0:">"  0:О1 0:л 0:и 0:д 0:и 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:т 0:е 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:з 0:и 0:т "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-<  0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:м 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:т 0:е 0:н 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:з 0:и 0:т "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+<  0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е 0:з 0:ь "+Pred":0 "+Ind":0 "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
 
 LEXICON IndicativePrt2_noArrow
@@ -456,66 +456,66 @@ LEXICON Prt2-noArrow
  Prt2-noArrow-Sc ;
 
 LEXICON Prt2-noArrow-Sc
-< 0:л 0:и 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
-< 0:л 0:и 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:е 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:е 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< 0:л 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:е 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< 0:л 0:и 0:д 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
-< 0:л 0:ь 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
+< 0:л 0:и 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:е 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:е 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< 0:л 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:е 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< 0:л 0:и 0:д 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< 0:л 0:ь 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
 
 LEXICON Prt2_Obj_noArrows
-< 0:л 0:и 0:я "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:я 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:м "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:м "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:з 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:з 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:е 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:е 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:т 0:и 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:н 0:з 0:е 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:я "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:я 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:м "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:м "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:з 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:з 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:е 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:е 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:и 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:к "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:м 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:т 0:и 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:н 0:з 0:е 0:т 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+< 0:л 0:и 0:д 0:и 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
-< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.52@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:т 0:е 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:з 0:и 0:т "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0  0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.52@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:т 0:е 0:н 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:н 0:з 0:и 0:т "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0  0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:л 0:и 0:д 0:е 0:з 0:ь "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_Clitic ;
 
 
 
@@ -543,9 +543,9 @@ LEXICON Desiderative-noArrow
 <"@R.CONJ.ObjAll@"> Desiderative1_Obj ;
 
 LEXICON Desiderative1_Obj
-< "+Use/Sub/Dial":0 0:Ы2 0:к 0:с 0:э 0:л 0:ь 0:с 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:к 0:с 0:к 0:е 0:л 0:ь 0:с 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:к 0:с 0:ы 0:л 0:ь 0:с 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:к 0:с 0:э 0:л 0:ь 0:с 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:к 0:с 0:к 0:е 0:л 0:ь 0:с 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:к 0:с 0:ы 0:л 0:ь 0:с 0:е "+Prt2":0 "@U.CONJ-TX.PRET2@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_Clitic ;
 
 !!!!!!!!!!!!!!!!!
 !! CONJUNCTIVE !!
@@ -556,68 +556,68 @@ LEXICON Conjunctive-kadoms
 
 LEXICON Conjunctive-noArrow
 <"@R.CONJ.ObjAll@"> Conjunctive-kadoms_Obj ;
-< 0:в 0:л 0:и 0:н 0:ь "+Sc1Sg":0 "@U.CONJ-PX.10@" >  Derya ;
-< 0:в 0:л 0:и 0:т 0:ь "+Sc2Sg":0 "@U.CONJ-PX.20@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:е 0:н 0:ь "+Sc1Sg":0 "@U.CONJ-PX.10@" >  Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:е 0:т 0:ь "+Sc2Sg":0 "@U.CONJ-PX.20@" > Derya ;
-< 0:в 0:О1 0:л 0:ь "+Sc3Sg":0 "@U.CONJ-PX.30@" > Derya ;
-< 0:в 0:л 0:и 0:н 0:е 0:к "+Sc1Pl":0 "@U.CONJ-PX.40@" > Derya_KLoss ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:и 0:к "+Sc1Pl":0 "@U.CONJ-PX.40@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:д 0:е "+Sc2Pl":0 "@U.CONJ-PX.50@" > Derya ;
-< 0:в 0:О1 0:л 0:ь 0:т 0:ь "+Sc3Pl":0 "@U.CONJ-PX.60@" > Derya ;
+< 0:в 0:л 0:и 0:н 0:ь "+ScSg1":0 "@U.CONJ-PX.10@" >  Derya ;
+< 0:в 0:л 0:и 0:т 0:ь "+ScSg2":0 "@U.CONJ-PX.20@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:е 0:н 0:ь "+ScSg1":0 "@U.CONJ-PX.10@" >  Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:е 0:т 0:ь "+ScSg2":0 "@U.CONJ-PX.20@" > Derya ;
+< 0:в 0:О1 0:л 0:ь "+ScSg3":0 "@U.CONJ-PX.30@" > Derya ;
+< 0:в 0:л 0:и 0:н 0:е 0:к "+ScPl1":0 "@U.CONJ-PX.40@" > Derya_KLoss ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:и 0:к "+ScPl1":0 "@U.CONJ-PX.40@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:д 0:е "+ScPl2":0 "@U.CONJ-PX.50@" > Derya ;
+< 0:в 0:О1 0:л 0:ь 0:т 0:ь "+ScPl3":0 "@U.CONJ-PX.60@" > Derya ;
 
 
 LEXICON Conjunctive-kadoms_Obj
-< 0:в 0:л 0:и 0:я "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:е "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:я 0:т 0:ь "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > Derya ;
-< 0:в 0:л 0:и 0:н 0:ь "+Sc1Sg":0 "+OcPl3":0  "@U.CONJ-PX.16@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:к "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:к "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:т 0:ь "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:м "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:м "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > Derya ;
-< 0:в 0:л 0:и 0:з 0:е "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:О1 0:л 0:с 0:е "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > Derya ;
-< 0:в 0:л 0:и 0:н 0:з 0:е "+Sc3Sg":0 "+OcPl3":0  "@U.CONJ-PX.36@" > Derya ;
-< 0:в 0:л 0:и 0:н 0:е 0:к "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:н 0:е 0:к "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > Derya_KLoss ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:и 0:к "+Sc1Pl":0 "+OcSg3":0  "@U.CONJ-PX.43@" > Derya_KLoss ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:и 0:к "+Sc1Pl":0 "+OcPl3":0  "@U.CONJ-PX.46@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:н 0:к "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:н 0:к "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > Derya_KLoss ;
-< 0:в 0:л 0:и 0:з 0:ь "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > Derya ;
-< 0:в 0:л 0:и 0:з 0:ь "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > Derya ;
-< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > Derya ;
-< 0:в 0:л 0:и 0:т 0:и 0:н 0:ь "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > Derya ;
-< 0:в 0:л 0:и 0:н 0:з 0:е 0:т 0:ь "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > Derya ;
-< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > Derya ;
-< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > Derya ;
-< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > Derya ;
-< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > Derya ;
-< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > Derya ;
-< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > Derya ;
+< 0:в 0:л 0:и 0:я "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:е "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:я 0:т 0:ь "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > Derya ;
+< 0:в 0:л 0:и 0:н 0:ь "+ScSg1":0 "+OcPl3":0  "@U.CONJ-PX.16@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:к "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:к "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:т 0:ь "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:м "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:м "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > Derya ;
+< 0:в 0:л 0:и 0:з 0:е "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:О1 0:л 0:с 0:е "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > Derya ;
+< 0:в 0:л 0:и 0:н 0:з 0:е "+ScSg3":0 "+OcPl3":0  "@U.CONJ-PX.36@" > Derya ;
+< 0:в 0:л 0:и 0:н 0:е 0:к "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:н 0:е 0:к "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > Derya_KLoss ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:и 0:к "+ScPl1":0 "+OcSg3":0  "@U.CONJ-PX.43@" > Derya_KLoss ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:и 0:к "+ScPl1":0 "+OcPl3":0  "@U.CONJ-PX.46@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:н 0:к "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:н 0:к "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > Derya_KLoss ;
+< 0:в 0:л 0:и 0:з 0:ь "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > Derya ;
+< 0:в 0:л 0:и 0:з 0:ь "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > Derya ;
+< 0:в 0:л 0:и 0:м 0:и 0:з 0:ь "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > Derya ;
+< 0:в 0:л 0:и 0:т 0:и 0:н 0:ь "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > Derya ;
+< 0:в 0:л 0:и 0:н 0:з 0:е 0:т 0:ь "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > Derya ;
+< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > Derya ;
+< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > Derya ;
+< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > Derya ;
+< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > Derya ;
+< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > Derya ;
+< 0:в 0:л 0:и 0:д 0:и 0:з 0:ь "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > Derya ;
 
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
-< "+Use/Sub/Dial":0 0:в "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:т 0:е 0:н 0:ь "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:з 0:и 0:т "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > Derya ;
-< "+Use/Sub/Dial":0 0:в  0:л 0:и 0:д 0:е 0:з 0:ь "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > Derya ;
-< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
+< "+Use/Sub/Dial":0 0:в "+Use/Sub/Dial":0 0:л 0:и 0:м 0:е 0:з 0:ь "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.24@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:м 0:е 0:з 0:ь "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.24@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:т 0:е 0:н 0:ь "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:н 0:з 0:и 0:т "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > Derya ;
+< "+Use/Sub/Dial":0 0:в  0:л 0:и 0:д 0:е 0:з 0:ь "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > Derya ;
+< "+Use/Sub/Dial":0 0:в 0:л 0:и 0:д 0:е 0:з 0:ь "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > Derya ;
 
 LEXICON Conjunctive-kundams
 :%> Conjunctive-noArrow ;
@@ -641,88 +641,88 @@ LEXICON Derya_KLoss
 LEXICON ILYA
  Optative-kundams ;
 <"@R.CONJ.ObjAll@"> ILYA_Obj ;
-< 0:з 0:а 0:н "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
-< 0:з 0:а 0:т "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< 0:з 0:О1 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
-< 0:с 0:т 0:а 0:н 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< 0:с 0:т 0:а 0:д 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
-< 0:с 0:т "+Sc3Pl":0 "+Opt":0 "@U.CONJ-MX.OPT@" "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
-< "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
-< 0:д 0:О1 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< 0:з 0:а 0:н "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "@U.CONJ-PX.10@" >  VerbEnd_Clitic ;
+< 0:з 0:а 0:т "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< 0:з 0:О1 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "@U.CONJ-PX.30@" > VerbEnd_Clitic ;
+< 0:с 0:т 0:а 0:н 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< 0:с 0:т 0:а 0:д 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< 0:с 0:т "+ScPl3":0 "+Opt":0 "@U.CONJ-MX.OPT@" "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
+< 0:д 0:О1 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
 ! Attested in Grammar 2000
-< "+Gr2000":0 0:з 0:т 0:а 0:н 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
-< "+Gr2000":0 0:з 0:т 0:а 0:д 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
-< "+Gr2000":0 0:з 0:т "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
+< "+Gr2000":0 0:з 0:т 0:а 0:н 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< "+Gr2000":0 0:з 0:т 0:а 0:д 0:о "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
+< "+Gr2000":0 0:з 0:т "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "@U.CONJ-PX.60@" > VerbEnd_Clitic ;
 
 
 LEXICON ILYA_Obj
-< 0:">" 0:с 0:а "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:">" 0:с 0:с 0:а 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
-< "+Gr2000":0 0:">" 0:з 0:с 0:а "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:ы 0:н 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:а "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:с 0:а 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:с 0:с 0:а 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
+< "+Gr2000":0 0:">" 0:з 0:с 0:а "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg3":0  "@U.CONJ-PX.13@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:ы 0:н 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcPl3":0  "@U.CONJ-PX.16@" > VerbEnd_ImpClitic ;
 
-< 0:">" 0:з 0:м 0:а 0:к "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:а 0:к "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:а 0:к "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:ы 0:т 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:с 0:ы 0:т 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:а 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:">" 0:с 0:О1 "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:с 0:О1 "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:с 0:О1 "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_ImpClitic ;
-< 0:">" 0:ы 0:н 0:з 0:е "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
-< 0:">" 0:с 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:т 0:А2 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_ImpClitic ;
-< 0:з 0:а 0:т 0:А2 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_ImpClitic ;
-< 0:з 0:т 0:А2 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_ImpClitic ;
-< 0:н 0:з 0:а 0:т "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_ImpClitic ;
-<  "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_ImpClitic ;
-<  "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_ImpClitic ;
-< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_ImpClitic ;
-< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_ImpClitic ;
-< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_ImpClitic ;
-< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_ImpClitic ;
-<  0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_ImpClitic ;
-<  0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_ImpClitic ;
-< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Sg":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_ImpClitic ;
-< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_ImpClitic ;
-< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc1Pl":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_ImpClitic ;
-< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Sg":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_ImpClitic ;
-<  0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_ImpClitic ;
-<  0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+Sc3Pl":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:а 0:к "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:а 0:к "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:а 0:к "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:ы 0:т 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:с 0:ы 0:т 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:а 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:а 0:м "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg1":0  "@U.CONJ-PX.31@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:с 0:О1 "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:с 0:О1 "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:с 0:О1 "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg3":0  "@U.CONJ-PX.33@" > VerbEnd_ImpClitic ;
+< 0:">" 0:ы 0:н 0:з 0:е "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl3":0  "@U.CONJ-PX.36@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
+< 0:">" 0:с 0:с 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg3":0  "@U.CONJ-PX.63@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl3":0  "@U.CONJ-PX.66@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:з 0:м 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:т 0:А2 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_ImpClitic ;
+< 0:з 0:а 0:т 0:А2 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_ImpClitic ;
+< 0:з 0:т 0:А2 0:н "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcSg2":0  "@U.CONJ-PX.12@" > VerbEnd_ImpClitic ;
+< 0:н 0:з 0:а 0:т "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcSg2":0  "@U.CONJ-PX.32@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_ImpClitic ;
+<  "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_ImpClitic ;
+<  "+Use/Sub/Dial":0 0:Ы2 0:д 0:е 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_ImpClitic ;
+< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_ImpClitic ;
+< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_ImpClitic ;
+< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_ImpClitic ;
+< 0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_ImpClitic ;
+<  0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_ImpClitic ;
+<  0:Ы2 0:д 0:и 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_ImpClitic ;
+< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg1":0 "+OcPl2":0  "@U.CONJ-PX.15@" > VerbEnd_ImpClitic ;
+< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "+OcPl2":0  "@U.CONJ-PX.45@" > VerbEnd_ImpClitic ;
+< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl1":0 "+OcSg2":0  "@U.CONJ-PX.42@" > VerbEnd_ImpClitic ;
+< 0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScSg3":0 "+OcPl2":0  "@U.CONJ-PX.35@" > VerbEnd_ImpClitic ;
+<  0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcSg2":0  "@U.CONJ-PX.62@" > VerbEnd_ImpClitic ;
+<  0:д 0:ы 0:з 0:ь "+Pred":0 "+Opt":0 "@U.CONJ-MX.OPT@" "+ScPl3":0 "+OcPl2":0  "@U.CONJ-PX.65@" > VerbEnd_ImpClitic ;
 
 
 
@@ -731,61 +731,61 @@ LEXICON ILYA_Obj
 !! IMPERATIVE !!
 !!!!!!!!!!!!!!!!
 
-< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:а 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:а 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
-< 0:">" 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:т 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:н 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:н 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:а 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 0:м 0:а 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
+< 0:">" 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:т 0:ь "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:н 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:н 0:к "+Pred":0 "+Imprt":0 "@U.CONJ-MX.IMP@" "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_ImpClitic ;
 
 LEXICON Imperative-kadoms
 <"@R.CONJ.ObjAll@">  Imperative_Obj-kadoms ;
-< 0:">" 0:К1 0:Ь2 "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_ImpClitic ;
-< 0:">" 0:О1 0:">" 0:д 0:О1 "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_ImpClitic ;
+< 0:">" 0:К1 0:Ь2 "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_ImpClitic ;
+< 0:">" 0:О1 0:">" 0:д 0:О1 "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_ImpClitic ;
 
 LEXICON Imperative_Obj-kadoms
-< 0:">" 0:Ы2 0:к "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:т 0:ь "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:к "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:т 0:ь "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
 !!This dialect form is realised
 !!as the previous if followed by a clitic
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > # ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:н 0:к  "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:н 0:к  "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:а 0:к "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > # ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:н 0:к  "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:н 0:к  "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:а 0:к "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
 
 LEXICON Imperative-kundams
 <"@R.CONJ.ObjAll@">  Imperative_Obj-kundams ;
-< 0:">" 0:К1 0:Ь2 "+Sc2Sg":0 "@U.CONJ-PX.20@" > VerbEnd_ImpClitic ;
-< 0:">" 0:д 0:О1 "+Sc2Pl":0 "@U.CONJ-PX.50@" > VerbEnd_ImpClitic ;
+< 0:">" 0:К1 0:Ь2 "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_ImpClitic ;
+< 0:">" 0:д 0:О1 "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_ImpClitic ;
 
 LEXICON Imperative_Obj-kundams
-< 0:">" 0:Ы2 0:к "+Sc2Sg":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:т 0:ь "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:к "+ScSg2":0 "+OcSg3":0  "@U.CONJ-PX.23@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:т 0:ь "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > VerbEnd_ImpClitic ;
 !!This dialect form is realised
 !!as the previous if followed by a clitic
-< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+Sc2Sg":0 "+OcPl3":0  "@U.CONJ-PX.26@" > # ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc2Sg":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc2Pl":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc2Pl":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc3Sg":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc3Pl":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:и 0:з 0:ь  "+Sc3Pl":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:н 0:к  "+Sc2Pl":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_ImpClitic ;
-< 0:">" 0:Ы2 0:н 0:к  "+Sc2Pl":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_ImpClitic ;
-< 0:">" 0:м 0:а 0:к "+Sc2Sg":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
+< "+Use/Sub/Dial":0 0:">" 0:Ы2 "+ScSg2":0 "+OcPl3":0  "@U.CONJ-PX.26@" > # ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScSg2":0 "+OcPl1":0  "@U.CONJ-PX.24@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl2":0 "+OcPl1":0  "@U.CONJ-PX.54@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl2":0 "+OcSg1":0  "@U.CONJ-PX.51@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScSg3":0 "+OcPl1":0  "@U.CONJ-PX.34@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl3":0 "+OcPl1":0  "@U.CONJ-PX.64@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:и 0:з 0:ь  "+ScPl3":0 "+OcSg1":0  "@U.CONJ-PX.61@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:н 0:к  "+ScPl2":0 "+OcSg3":0  "@U.CONJ-PX.53@" > VerbEnd_ImpClitic ;
+< 0:">" 0:Ы2 0:н 0:к  "+ScPl2":0 "+OcPl3":0  "@U.CONJ-PX.56@" > VerbEnd_ImpClitic ;
+< 0:">" 0:м 0:а 0:к "+ScSg2":0 "+OcSg1":0  "@U.CONJ-PX.21@" > VerbEnd_ImpClitic ;
 
 
 LEXICON Optative-kadoms
@@ -800,62 +800,62 @@ LEXICON Optative-kundams
 
 
 LEXICON Optative-noArrow
-+Sc1Pl:стано VerbEnd_Clitic ;
-+Sc2Pl:стадо VerbEnd_Clitic ;
-+Sc3Pl:ст VerbEnd_Clitic ;
-+Sc1Sg:зан VerbEnd_Clitic ;
-+Sc2Sg:зат VerbEnd_Clitic ;
-+Sc3Sg:зО1 VerbEnd_Clitic ;
++ScPl1:стано VerbEnd_Clitic ;
++ScPl2:стадо VerbEnd_Clitic ;
++ScPl3:ст VerbEnd_Clitic ;
++ScSg1:зан VerbEnd_Clitic ;
++ScSg2:зат VerbEnd_Clitic ;
++ScSg3:зО1 VerbEnd_Clitic ;
 !! Given in Grammar 2000
-+Gr2000+Sc1Pl:зтано VerbEnd_Clitic ;
-+Gr2000+Sc2Pl:зтадо VerbEnd_Clitic ;
-+Gr2000+Sc3Pl:зт VerbEnd_Clitic ;
++Gr2000+ScPl1:зтано VerbEnd_Clitic ;
++Gr2000+ScPl2:зтадо VerbEnd_Clitic ;
++Gr2000+ScPl3:зт VerbEnd_Clitic ;
 <"@R.CONJ.ObjAll@"> Optative1_A_Obj ;
 
 LEXICON Optative1_A_Obj
-+Sc1Sg+OcSg2:стан VerbEnd_Clitic ;
-+Use/Sub/Morph+Sc1Sg+OcSg2:зтан VerbEnd_Clitic ;
-+Use/Sub+Sc1Sg+OcSg3:са VerbEnd_Clitic ;
-+Sc1Sg+OcSg3:сса VerbEnd_Clitic ;
-+Use/Sub/Dial+Sc1Sg+OcSg3:сан VerbEnd_Clitic ;
-+Sc3Sg+OcSg3:ссО1 VerbEnd_Clitic ;
-!+Sc3Sg+OcSg3:сазо VerbEnd_Clitic ;
++ScSg1+OcSg2:стан VerbEnd_Clitic ;
++Use/Sub/Morph+ScSg1+OcSg2:зтан VerbEnd_Clitic ;
++Use/Sub+ScSg1+OcSg3:са VerbEnd_Clitic ;
++ScSg1+OcSg3:сса VerbEnd_Clitic ;
++Use/Sub/Dial+ScSg1+OcSg3:сан VerbEnd_Clitic ;
++ScSg3+OcSg3:ссО1 VerbEnd_Clitic ;
+!+ScSg3+OcSg3:сазо VerbEnd_Clitic ;
 !! Introduced in Grammar 2000
-+Gr2000+Sc1Sg+OcSg2:здан VerbEnd_Clitic ;
-+Gr2000+Sc3Sg+OcSg3:зсО1 VerbEnd_Clitic ;
-+Gr2000+Sc1Sg+OcSg3:зса VerbEnd_Clitic ;
-+Gr2000+Sc3Sg+OcSg3:зсы VerbEnd_Clitic ;
-+Sc1Sg+OcPl3:зсынь VerbEnd_Clitic ;
-+Sc2Sg+OcSg1:змак VerbEnd_lak-Clitic ;
-+Sc2Sg+OcSg3:зсак VerbEnd_lak-Clitic ;
-+Sc2Sg+OcPl3:зсыть VerbEnd_Clitic ;
-+Sc3Sg+OcSg1:змам VerbEnd_Clitic ;
-+Sc3Sg+OcSg2:нзат VerbEnd_Clitic ;
-+Sc3Sg+OcPl3:зсынзе VerbEnd_Clitic ;
-+Sc1Pl+OcSg3:зсынек VerbEnd_lak-Clitic ;
-+Sc1Pl+OcPl3:зсынек VerbEnd_lak-Clitic ;
-+Sc2Pl+OcSg3:зсынк VerbEnd_lak-Clitic ;
-+Sc2Pl+OcPl3:зсынк VerbEnd_lak-Clitic ;
-+Sc3Pl+OcSg3:зсызь VerbEnd_Clitic ;
-+Sc3Pl+OcPl3:зсызь VerbEnd_Clitic ;
-+Sc2Sg+OcPl1:змизь VerbEnd_Clitic ;
-+Sc2Pl+OcSg1:змизь VerbEnd_Clitic ;
-+Sc2Pl+OcPl1:змизь VerbEnd_Clitic ;
-+Sc3Sg+OcPl1:змизь VerbEnd_Clitic ;
-+Sc3Pl+OcSg1:змизь VerbEnd_Clitic ;
-+Sc3Pl+OcPl1:змизь VerbEnd_Clitic ;
-+Sc1Sg+OcPl2:стадызь VerbEnd_Clitic ;
-+Sc1Pl+OcSg2:стадызь VerbEnd_Clitic ;
-+Sc1Pl+OcPl2:стадызь VerbEnd_Clitic ;
-+Sc3Sg+OcPl2:стадызь VerbEnd_Clitic ;
-+Sc3Pl+OcSg2:стадызь VerbEnd_Clitic ;
-+Sc3Pl+OcPl2:стадызь VerbEnd_Clitic ;
-+Gr2000+Sc1Sg+OcPl2:зтадызь VerbEnd_Clitic ;
-+Gr2000+Sc1Pl+OcSg2:зтадызь VerbEnd_Clitic ;
-+Gr2000+Sc1Pl+OcPl2:зтадызь VerbEnd_Clitic ;
-+Gr2000+Sc3Sg+OcPl2:зтадызь VerbEnd_Clitic ;
-+Gr2000+Sc3Pl+OcSg2:зтадызь VerbEnd_Clitic ;
-+Gr2000+Sc3Pl+OcPl2:зтадызь VerbEnd_Clitic ;
++Gr2000+ScSg1+OcSg2:здан VerbEnd_Clitic ;
++Gr2000+ScSg3+OcSg3:зсО1 VerbEnd_Clitic ;
++Gr2000+ScSg1+OcSg3:зса VerbEnd_Clitic ;
++Gr2000+ScSg3+OcSg3:зсы VerbEnd_Clitic ;
++ScSg1+OcPl3:зсынь VerbEnd_Clitic ;
++ScSg2+OcSg1:змак VerbEnd_lak-Clitic ;
++ScSg2+OcSg3:зсак VerbEnd_lak-Clitic ;
++ScSg2+OcPl3:зсыть VerbEnd_Clitic ;
++ScSg3+OcSg1:змам VerbEnd_Clitic ;
++ScSg3+OcSg2:нзат VerbEnd_Clitic ;
++ScSg3+OcPl3:зсынзе VerbEnd_Clitic ;
++ScPl1+OcSg3:зсынек VerbEnd_lak-Clitic ;
++ScPl1+OcPl3:зсынек VerbEnd_lak-Clitic ;
++ScPl2+OcSg3:зсынк VerbEnd_lak-Clitic ;
++ScPl2+OcPl3:зсынк VerbEnd_lak-Clitic ;
++ScPl3+OcSg3:зсызь VerbEnd_Clitic ;
++ScPl3+OcPl3:зсызь VerbEnd_Clitic ;
++ScSg2+OcPl1:змизь VerbEnd_Clitic ;
++ScPl2+OcSg1:змизь VerbEnd_Clitic ;
++ScPl2+OcPl1:змизь VerbEnd_Clitic ;
++ScSg3+OcPl1:змизь VerbEnd_Clitic ;
++ScPl3+OcSg1:змизь VerbEnd_Clitic ;
++ScPl3+OcPl1:змизь VerbEnd_Clitic ;
++ScSg1+OcPl2:стадызь VerbEnd_Clitic ;
++ScPl1+OcSg2:стадызь VerbEnd_Clitic ;
++ScPl1+OcPl2:стадызь VerbEnd_Clitic ;
++ScSg3+OcPl2:стадызь VerbEnd_Clitic ;
++ScPl3+OcSg2:стадызь VerbEnd_Clitic ;
++ScPl3+OcPl2:стадызь VerbEnd_Clitic ;
++Gr2000+ScSg1+OcPl2:зтадызь VerbEnd_Clitic ;
++Gr2000+ScPl1+OcSg2:зтадызь VerbEnd_Clitic ;
++Gr2000+ScPl1+OcPl2:зтадызь VerbEnd_Clitic ;
++Gr2000+ScSg3+OcPl2:зтадызь VerbEnd_Clitic ;
++Gr2000+ScPl3+OcSg2:зтадызь VerbEnd_Clitic ;
++Gr2000+ScPl3+OcPl2:зтадызь VerbEnd_Clitic ;
 
 
 LEXICON Nouns_Voiceless
@@ -895,21 +895,21 @@ LEXICON kudo-Tenses1-4Inf
 
 LEXICON kudo-Tenses-NomSg-4Inf
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Sg:%>А2н VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Sg:%>А2т VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Sg:%>линь VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc2Sg:%>лить VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Sg:%>ль VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg1:%>А2н VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg2:%>А2т VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg1:%>линь VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg2:%>лить VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg3:%>ль VerbEnd_Clitic ;
 
 LEXICON kudo-Tenses-NomPl-4Inf
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Pl:%>тЬ2 VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Pl:%>линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>льть VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl3:%>тЬ2 VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>льть VerbEnd_Clitic ;
 
 !!!!
 
@@ -949,55 +949,55 @@ LEXICON kal-Tenses1
 
 LEXICON kal-Tenses-NomSg
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_Clitic ;
  kal-Tenses-NomSg-noClt ;
 
 LEXICON kal-Tenses-NomSg-noClt
-+Pred+Ind+NonPast+Sc1Sg:%>А2н VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Sg:%>А2т VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Sg:%>О1линь VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc2Sg:%>О1лить VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Sg:%>О1ль VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg1:%>А2н VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg2:%>А2т VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg1:%>О1линь VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg2:%>О1лить VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg3:%>О1ль VerbEnd_Clitic ;
 
 LEXICON kal-Tenses-NomPl
  VerbEnd_Clitic ;
  kal-Tenses-NomPl-noClt ;
 
 LEXICON kal-Tenses-NomPl-noClt
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Pl: VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Pl:%>О1линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>О1лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>О1льть VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl3: VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>О1линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>О1лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>О1льть VerbEnd_Clitic ;
 
 LEXICON kal-Tenses-Abs
-+Pred+Ind+Prt2+Sc1Pl:%>О1линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>О1лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>О1льть VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>О1линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>О1лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>О1льть VerbEnd_Clitic ;
  kal-Tenses-Abs-1 ;
 
 LEXICON kal-Tenses-Abs-1
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
 
 LEXICON kal-Tenses-Obl
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_Clitic ;
  kal-Tenses-Obl-noClt ;
 
 LEXICON kal-Tenses-Obl-noClt
-+Pred+Ind+NonPast+Sc1Sg:%>А2н VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Sg:%>А2т VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Pl:%>тЬ2 VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Sg:%>О1линь VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc2Sg:%>О1лить VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Sg:%>О1ль VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Pl:%>О1линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>О1лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>О1льть VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg1:%>А2н VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg2:%>А2т VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl3:%>тЬ2 VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg1:%>О1линь VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg2:%>О1лить VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg3:%>О1ль VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>О1линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>О1лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>О1льть VerbEnd_Clitic ;
 
 LEXICON osh-Tenses1
  kal-Tenses-NomSg ;
@@ -1014,7 +1014,7 @@ LEXICON lak-Tenses1
  lak-Tenses-NomPl ;
 
 LEXICON lak-Tenses-NomSg
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_lak-Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_lak-Clitic ;
  kal-Tenses-NomSg-noClt ;
  VerbEnd_lak-Clitic ;
 
@@ -1026,13 +1026,13 @@ LEXICON lak-Tenses-Abs
  kal-Tenses-Abs ;
 
 LEXICON lak-Tenses-Abs-1
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
 
 LEXICON lak-Tenses-Obl
  VerbEnd_lak-Clitic ;
  kal-Tenses-Obl-noClt ;
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_lak-Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_lak-Clitic ;
 
 LEXICON kit-Tenses1
  kit-Tenses-NomSg ;
@@ -1043,21 +1043,21 @@ LEXICON kit-Tenses-NomSg
 
 LEXICON kit-Tenses-NomPl
  kal-Tenses-NomPl ;
-+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но VerbEnd_Clitic ;
-+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до VerbEnd_Clitic ;
++Use/Sub/Short+Pred+Ind+NonPast+ScPl1:%>TLossтА2но VerbEnd_Clitic ;
++Use/Sub/Short+Pred+Ind+NonPast+ScPl2:%>TLossтА2до VerbEnd_Clitic ;
 
 LEXICON kit-Tenses-Abs
  kal-Tenses-Abs ;
 
 LEXICON kit-Tenses-Abs-1
  kal-Tenses-Abs-1 ;
-+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но VerbEnd_Clitic ;
-+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до VerbEnd_Clitic ;
++Use/Sub/Short+Pred+Ind+NonPast+ScPl1:%>TLossтА2но VerbEnd_Clitic ;
++Use/Sub/Short+Pred+Ind+NonPast+ScPl2:%>TLossтА2до VerbEnd_Clitic ;
 
 LEXICON kit-Tenses-Obl
  kal-Tenses-Obl ;
-+Use/Sub/Short+Pred+Ind+NonPast+Sc1Pl:%>TLossтА2но VerbEnd_Clitic ;
-+Use/Sub/Short+Pred+Ind+NonPast+Sc2Pl:%>TLossтА2до VerbEnd_Clitic ;
++Use/Sub/Short+Pred+Ind+NonPast+ScPl1:%>TLossтА2но VerbEnd_Clitic ;
++Use/Sub/Short+Pred+Ind+NonPast+ScPl2:%>TLossтА2до VerbEnd_Clitic ;
 
 
 LEXICON kudo-Tenses1
@@ -1066,44 +1066,44 @@ LEXICON kudo-Tenses1
 
 LEXICON kudo-Tenses-NomSg
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Sg:%>А2н VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Sg:%>А2т VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Sg:%>линь VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc2Sg:%>лить VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Sg:%>ль VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg1:%>А2н VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg2:%>А2т VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg1:%>линь VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg2:%>лить VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg3:%>ль VerbEnd_Clitic ;
 
 LEXICON kudo-Tenses-NomPl
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Pl:%>линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>льть VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>льть VerbEnd_Clitic ;
 
 LEXICON kudo-Tenses-Abs
-+Pred+Ind+Prt2+Sc1Pl:%>линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>льть VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>льть VerbEnd_Clitic ;
  kudo-Tenses-Abs-1 ;
 
 LEXICON kudo-Tenses-Abs-1
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
 
 LEXICON kudo-Tenses-Obl
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Sg:%>А2н VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Sg:%>А2т VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Pl:%>тЬ2 VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Sg:%>линь VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc2Sg:%>лить VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Sg:%>ль VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Pl:%>линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>льть VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg1:%>А2н VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg2:%>А2т VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl3:%>тЬ2 VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg1:%>линь VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg2:%>лить VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg3:%>ль VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>льть VerbEnd_Clitic ;
 
 
 
@@ -1130,18 +1130,18 @@ LEXICON sajems-Conjugation-4Inf
 
 LEXICON kal-Conjugation-4Inf
  VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Sg:%>А2н VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Sg:%>А2т VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Sg: VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Sg:%>О1линь VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc2Sg:%>О1лить VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Sg:%>О1ль VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc1Pl:%>тА2но VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc2Pl:%>тА2до VerbEnd_Clitic ;
-+Pred+Ind+NonPast+Sc3Pl: VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc1Pl:%>О1линек VerbEnd_lak-Clitic ;
-+Pred+Ind+Prt2+Sc2Pl:%>О1лиде VerbEnd_Clitic ;
-+Pred+Ind+Prt2+Sc3Pl:%>О1льть VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg1:%>А2н VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg2:%>А2т VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScSg3: VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg1:%>О1линь VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg2:%>О1лить VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScSg3:%>О1ль VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl1:%>тА2но VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl2:%>тА2до VerbEnd_Clitic ;
++Pred+Ind+NonPast+ScPl3: VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl1:%>О1линек VerbEnd_lak-Clitic ;
++Pred+Ind+Prt2+ScPl2:%>О1лиде VerbEnd_Clitic ;
++Pred+Ind+Prt2+ScPl3:%>О1льть VerbEnd_Clitic ;
 
 !!
 LEXICON Tenses1_Prep-SG
@@ -1157,8 +1157,8 @@ LEXICON kudo-Tenses1_Prep-SG
 
 !LEXICON kit-Tenses1
 ! kal-Tenses1 ;
-!< 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о "+Use/Sub/Short":0 "+Pred":0 "+Pres":0 "+Sc1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-!< 0:">" 0:"TLoss" 0:т 0:А2 0:д 0:о "+Use/Sub/Short":0 "+Pred":0 "+Pres":0 "+Sc2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о "+Use/Sub/Short":0 "+Pred":0 "+Pres":0 "+ScPl1":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:">" 0:"TLoss" 0:т 0:А2 0:д 0:о "+Use/Sub/Short":0 "+Pred":0 "+Pres":0 "+ScPl2":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
 
 !LEXICON kal-Tenses1
 ! VerbEnd_Clitic ;
@@ -1167,30 +1167,30 @@ LEXICON kudo-Tenses1_Prep-SG
 
 !LEXICON kudo-Tenses1
 ! VerbEnd_Clitic ;
-!< 0:А2 0:н "+Pred":0 "+Pres":0 "+Sc1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-!< 0:А2 0:т "+Pred":0 "+Pres":0 "+Sc2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-!< 0:т 0:А2 0:н 0:о "+Pred":0 "+Pres":0 "+Sc1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-!< 0:т 0:А2 0:д 0:о "+Pred":0 "+Pres":0 "+Sc2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-!< 0:">" 0:л 0:и 0:н 0:ь "+Pred":0 "+Prt2":0 "+Sc1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-!< 0:">" 0:л 0:и 0:т 0:ь "+Pred":0 "+Prt2":0 "+Sc2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-!< 0:">" 0:л 0:ь "+Pred":0 "+Prt2":0 "+Sc3Sg":0 "@U.TPERS.3@" "@D.TNUM.PL@" > VerbEnd_Clitic ;
-!< 0:">" 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Prt2":0 "+Sc1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-!< 0:">" 0:л 0:и 0:д 0:е "+Pred":0 "+Prt2":0 "+Sc2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-!< 0:">" 0:л 0:ь 0:т 0:ь "+Pred":0 "+Prt2":0 "+Sc3Pl":0 "@U.TPERS.3@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:А2 0:н "+Pred":0 "+Pres":0 "+ScSg1":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+!< 0:А2 0:т "+Pred":0 "+Pres":0 "+ScSg2":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+!< 0:т 0:А2 0:н 0:о "+Pred":0 "+Pres":0 "+ScPl1":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:т 0:А2 0:д 0:о "+Pred":0 "+Pres":0 "+ScPl2":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:">" 0:л 0:и 0:н 0:ь "+Pred":0 "+Prt2":0 "+ScSg1":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+!< 0:">" 0:л 0:и 0:т 0:ь "+Pred":0 "+Prt2":0 "+ScSg2":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+!< 0:">" 0:л 0:ь "+Pred":0 "+Prt2":0 "+ScSg3":0 "@U.TPERS.3@" "@D.TNUM.PL@" > VerbEnd_Clitic ;
+!< 0:">" 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Prt2":0 "+ScPl1":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:">" 0:л 0:и 0:д 0:е "+Pred":0 "+Prt2":0 "+ScPl2":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+!< 0:">" 0:л 0:ь 0:т 0:ь "+Pred":0 "+Prt2":0 "+ScPl3":0 "@U.TPERS.3@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
 
 
 
 LEXICON Tenses1_A
-< 0:А2 0:н "+Pred":0 "+Pres":0 "+Sc1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-< 0:А2 0:т "+Pred":0 "+Pres":0 "+Sc2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-< 0:т 0:А2 0:н 0:о "+Pred":0 "+Pres":0 "+Sc1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-< 0:т 0:А2 0:д 0:о "+Pred":0 "+Pres":0 "+Sc2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Prt2":0 "+Sc1Sg":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Prt2":0 "+Sc2Sg":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:ь "+Pred":0 "+Prt2":0 "+Sc3Sg":0 "@U.TPERS.3@" "@D.TNUM.PL@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Prt2":0 "+Sc1Pl":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:и 0:д 0:е "+Pred":0 "+Prt2":0 "+Sc2Pl":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
-< 0:">" 0:О1 0:л 0:ь 0:т 0:ь "+Pred":0 "+Prt2":0 "+Sc3Pl":0 "@U.TPERS.3@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+< 0:А2 0:н "+Pred":0 "+Pres":0 "+ScSg1":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+< 0:А2 0:т "+Pred":0 "+Pres":0 "+ScSg2":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+< 0:т 0:А2 0:н 0:о "+Pred":0 "+Pres":0 "+ScPl1":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+< 0:т 0:А2 0:д 0:о "+Pred":0 "+Pres":0 "+ScPl2":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:ь "+Pred":0 "+Prt2":0 "+ScSg1":0 "@U.TPERS.1@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:т 0:ь "+Pred":0 "+Prt2":0 "+ScSg2":0 "@U.TPERS.2@" "@D.TNUM.PL@"> VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:ь "+Pred":0 "+Prt2":0 "+ScSg3":0 "@U.TPERS.3@" "@D.TNUM.PL@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:н 0:е 0:к "+Pred":0 "+Prt2":0 "+ScPl1":0 "@U.TPERS.1@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:и 0:д 0:е "+Pred":0 "+Prt2":0 "+ScPl2":0 "@U.TPERS.2@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
+< 0:">" 0:О1 0:л 0:ь 0:т 0:ь "+Pred":0 "+Prt2":0 "+ScPl3":0 "@U.TPERS.3@" "@D.TNUM.SG@" > VerbEnd_Clitic ;
 
 LEXICON ImpClitic
  # ;
