@@ -353,14 +353,19 @@ ZERO
 ! --"--    , +Range/Interr, 
 ! 
 
-!Use for limitation later
+! Usage tags:
++Use/Sub  ! Substandard
 +Use/Sub/PhonDeriv ! Derivation is phonetic 
                    ! but declension and conjugation morphologic
 +Use/Sub/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30 
 +Use/Sub/PhonComb
-+Use/Sub/Short
+
+! Dialect tags:
++Dial/SH ! depricate Use/Sub/Short
 +Use/Sub/Dial ! Для не-литературного слова / форма / и.т.д.
  ! This might actually make reference to dialect type or location
+
+! Source Tags:
 +Src/F ! Majority-language words that might be utilized in several languages 
        ! Let's begin with nouns книга, учитель
 
