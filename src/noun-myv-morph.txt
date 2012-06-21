@@ -188,54 +188,59 @@ LEXICON N-avidem
 ! Proper nouns !
 ! ===== !
 
-LEXICON kal-PROP
+LEXICON Prop-kal
 +Prop: kal-N-Derivation ;
 +Prop: kal-N-Def-Declension ;
 +Prop: kal-Indef-Declension ;
 +Prop: kal-N-Poss-Declension-CX ;
 
-LEXICON lak-PROP
+LEXICON Prop-lak
 +Prop: lak-N-Derivation ;
 +Prop: lak-N-Def-Declension ;
 +Prop: lak-Indef-Declension ;
 +Prop: kal-N-Poss-Declension-CX ;
 
-LEXICON kit-PROP
+LEXICON Prop-kit
 +Prop: kit-N-Derivation ;
 +Use/Sub/Short:%>TLoss DefPl-Declension ;
 +Prop: kit-N-Def-Declension ;
 +Prop: kit-Indef-Declension ;
 +Prop: kal-N-Poss-Declension-CX ;
 
-LEXICON osh-PROP
+LEXICON Prop-osh
 +Prop: osh-N-Derivation ;
 +Prop: osh-N-Def-Declension ;
 +Prop: osh-Indef-Declension ;
 +Prop: osh-N-Poss-Declension-CX ;
 
-LEXICON teshte-PROP
+LEXICON Prop-teshte
  N-pango ;
 
-LEXICON tinge-PROP
+LEXICON Prop-tinge
  N-pango ;
 
-LEXICON pango-PROP
+LEXICON Prop-pango
 +Prop: pango-N-Derivation ;
 +Prop: pango-N-Def-Declension ;
 +Prop: pango-Indef-Declension ;
 +Prop: pango-N-Poss-Declension-CX ;
 
-LEXICON kudo-PROP
+LEXICON Prop-kudo
 +Prop: kudo-N-Derivation ;
 +Prop: kudo-N-Def-Declension ;
 +Prop: kudo-Indef-Declension ;
 +Prop: kudo-N-Poss-Declension-CX ;
 
-LEXICON kudo-PROP-PL
+LEXICON Prop-kudo-PL
 +Prop:%> DefPl-Declension ;
 +Prop: kudo-Indef-Declension ;
 +Prop: kudo-N-Poss-Declension-CX-PL ;
 
+LEXICON Prop-kudo_SUB
++Use/Sub Prop-kudo ;
+
+LEXICON Prop-kudo_SH
++Use/Short Prop-kudo ;
 
 ! ========== !
 ! Derivation !
@@ -1915,16 +1920,16 @@ LEXICON alce-Dem
 +Spat+Der/Dem: kudo-N2-Def-Declension ;
 
 LEXICON letter-F ! this needs fixing front vowel
-+Prop:%- kudo-PROP ;
++Prop:%- Prop-kudo ;
 
 LEXICON letter-B ! this needs fixing back vowel
-+Prop:%- kudo-PROP ;
++Prop:%- Prop-kudo ;
 
 LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
-    kudo-PROP ;
-:%: kudo-PROP ;
-:%- kudo-PROP ;
-:%' kudo-PROP ;
+    Prop-kudo ;
+:%: Prop-kudo ;
+:%- Prop-kudo ;
+:%' Prop-kudo ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!POSSESSIVE marking followed by clitics!!!
