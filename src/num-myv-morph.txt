@@ -114,13 +114,42 @@ LEXICON QntTag
 +Qnt: Clitic ;
 
 LEXICON Qnt-Adn
-+Qnt+Adn: Clitic ;
++Qnt+Adn: # ;
 
 LEXICON Qnt-Distr
 +Qnt+Distr: Clitic ;
 
 LEXICON Qnt-Indef
 +Qnt+Indef: Clitic ;
+
+LEXICON Qnt-veseme
++Qnt+Adn: # ;
++Qnt+Pron+Sg+Nom+Indef: Clitic ;
++Qnt+Pron+Sg+Gen+Indef:%>нь Clitic ;
++Qnt+Pron+Sg+Dat+Indef:%>нень Clitic ;
++Qnt+Pron+Sg+Abl+Indef:%>дО1 Clitic ;
++Qnt+Pron+Sg+Ine+Indef:%>сО1 Clitic ;
++Qnt+Pron+Sg+Ill+Indef:%>с Clitic ;
++Qnt+Pron+Sg+Ela+Indef:%>стО1 Clitic ;
++Qnt+Pron+Sg+Prl+Indef:%>Г2а Clitic ;
++Qnt+Pron+Sg+Tra+Indef:%>кс Clitic ;
+
++Qnt+Pron+Sg+Nom+Def:%>сь Clitic ;
++Qnt+Pron+Sg+Gen+Def:%>нть Clitic ;
++Qnt+Pron+Sg+Dat+Def:%>нтень Clitic ;
++Qnt+Pron+Sg+Abl+Def:%>дО1%>нть Clitic ;
++Qnt+Pron+Sg+Ine+Def:%>сО1%>нть Clitic ;
+
++Qnt+Pron+Sg+Nom+PxSg3:%>зэ Clitic ;
++Qnt+Pron+Sg+Gen+PxSg3:%>нзэ Clitic ;
++Qnt+Pron+Sg+Nom+PxPl2:%>нк Clitic ;
++Qnt+Pron+Sg+Gen+PxPl2:%>нк Clitic ;
++Qnt+Pron+Sg+Abl+PxPl2:%>дО1%>нк Clitic ;
++Qnt+Pron+Sg+Nom+PxPl3:%>ст Clitic ;
++Qnt+Pron+Sg+Gen+PxPl3:%>ст Clitic ;
++Qnt+Pron+Sg+Abl+PxPl3:%>дО1%>ст Clitic ;
++Qnt+Pron+Sg+Ela+PxPl3:%>стО1%>ст Clitic ;
+
 
 LEXICON kudo-NUM
 +Qnt+Num: kudo-N-Def-Declension ;
