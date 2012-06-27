@@ -373,10 +373,10 @@ LEXICON  Indef_Pronouns
 кие+Pron+Nom+Sg:кие Indef_Pronouns-Clitic ;
 кие+Pron+Nom+Sg:ки Indef_Pronouns-Clitic ;
 кие+Pron:ки kudo-Indef_Pronouns-Cases ;
-ко+Pron+Interr:ко Indef_Pronouns-Cases ;
+ко+Pron:ко Indef_Pronouns-Cases ;
 ков+Spat+Lat:ков Indef_Pronouns-Clitic ;
 кода+Pron+Manner:кода Indef_Pronouns-Clitic ;
-кодамо+Adn+Nom+Sg:кодамУ2 Indef_Pronouns-Clitic ;
+кодамо+Adn+Nom+Sg:кодамо Indef_Pronouns-Clitic ;
 кодамо+Adn+Nom+Pl:кодат Indef_Pronouns-Clitic ;
 кодамо+Adn+Pl+Det+Nom:кодатнэ Indef_Pronouns-Clitic ;
 кодамо+Adn+Pl+Det:кодатнэ Indef_Pronouns-Cases ;
@@ -406,7 +406,7 @@ LEXICON  Indef_Pronouns
 мезе+Pron:мезе PossPX1 ;
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-Clitic ;
 !мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
-!мезе+Pron+Nom+Pl:мезть Indef_Pronouns-Clitic ;
+мезе+Pron+Nom+Pl:мезть Indef_Pronouns-Clitic ;
 мезе+Pron+OldOrth+Nom+Pl:месть Indef_Pronouns-Clitic ;
 мекс+Pron+Tra:мекс Indef_Pronouns-Clitic ;
 !мезе+Pron:мейИ3 Indef_Pronouns-Cases ;
@@ -491,12 +491,20 @@ LEXICON kudo-Indef_Pronouns-Cases
 +Ill:%>зО1 Indef_Pronouns-Clitic ;
 +Ill:%>зО1нь Indef_Pronouns-Clitic ;
 
-+Nom+Def+Sg:%>сь Indef_Pronouns-Clitic ;
-+Gen+Def+Sg:%>нть Indef_Pronouns-Clitic ;
-+Def+Sg+DatCx:%>нтень Indef_Pronouns-Clitic ;
-+Pl+Def+Nom:%>тне Indef_Pronouns-Clitic ;
-+Pl+Def+Gen:%>тне%>нь Indef_Pronouns-Clitic ;
-+Pl+Def+DatCx:%>тне%>нень Indef_Pronouns-Clitic ;
++Sg+Nom+Def:%>сь Indef_Pronouns-Clitic ;
++Sg+Gen+Def:%>нть Indef_Pronouns-Clitic ;
++Sg+DatCx+Def:%>нтень Indef_Pronouns-Clitic ;
++Pl+Nom+Def:%>тне Indef_Pronouns-Clitic ;
++Pl+Gen+Def:%>тне%>нь Indef_Pronouns-Clitic ;
++Pl+Abl+Def:%>тне%>дО1 Indef_Pronouns-Clitic ;
++Pl+DatCx+Def:%>тне%>нень Indef_Pronouns-Clitic ;
++Pl+Ine+Def:%>тне%>сО1 Indef_Pronouns-Clitic ;
++Pl+Ela+Def:%>тне%>стО1 Indef_Pronouns-Clitic ;
++Pl+Ill+Def:%>тне%>с Indef_Pronouns-Clitic ;
+
++Pl+Nom+PxPl1:%>нО1к Indef_Pronouns-Clitic ;
++Pl+Nom+PxPl2:%>нк Indef_Pronouns-Clitic ;
++Pl+Nom+PxPl3:%>ст Indef_Pronouns-Clitic ;
 
 
 LEXICON Indef_Pronouns-Clitic
@@ -513,6 +521,36 @@ LEXICON Indef_Pronouns-Clitic-post
 +Der/Гак+Indef:%>Г1ак # ;
 +Relat:  # ;
 +Interr:  # ;
+
+LEXICON Dem-tona
++Dem+Adn: # ;
++Dem: Pron-Sg ;
++Dem: Pron-Pl ;
+
+LEXICON Pron-Sg
++Pron+Sg+Nom+Indef: Clitic ;
++Pron+Sg+Gen+Indef:%>нь Clitic ;
++Pron+Sg+Dat+Indef:%>нень Clitic ;
++Pron+Sg+Abl+Indef:%>дО1 Clitic ;
++Pron+Sg+Ill+Indef:%>с Clitic ;
+
++Pron+Sg+Nom+Def:%>сь Clitic ;
++Pron+Sg+Gen+Def:%>нть Clitic ;
++Pron+Sg+Dat+Def:%>нтень Clitic ;
++Pron+Sg+Abl+Def:%>дО1%>нть Clitic ;
+
+LEXICON Pron-Pl
++Pron+Pl+Nom+Indef:%>тЬ2 Clitic ;
++Pron+Pl+Gen+Indef:%>нь Clitic ;
++Pron+Pl+Dat+Indef:%>нень Clitic ;
++Pron+Pl+Abl+Indef:%>дО1 Clitic ;
++Pron+Pl+Ill+Indef:%>с Clitic ;
+
++Pron+Pl+Nom+Def:%>тне Clitic ;
++Pron+Pl+Gen+Def:%>тне%>нь Clitic ;
++Pron+Pl+Dat+Def:%>тне%>нень Clitic ;
++Pron+Pl+Abl+Def:%>тне%>дО1 Clitic ;
++Pron+Pl+Ill+Def:%>тне%>с Clitic ;
 
 LEXICON Misc_Pronouns
 !се+Dem:се vese-QNT ;
