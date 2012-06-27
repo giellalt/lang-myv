@@ -6,6 +6,8 @@ Multichar_Symbols
 ZERO
 %0
 
+%-
+
 ! tags
 +NCrd
 +NOrd
@@ -816,15 +818,18 @@ LEXICON SpatTag
 
 LEXICON Spat-Ela
 +Spat+Ela: Clitic ;
++Po+Spat+Ela: kudo-Possessive-Before-Clitic ;
 
 LEXICON Spat-Ine
 +Spat+Ine: Clitic ;
++Po+Spat+Ine: kudo-Possessive-Before-Clitic ;
 
 LEXICON Spat-Lat
 +Spat+Lat: Clitic ;
 
 LEXICON Spat-Prl
 +Spat+Prl: Clitic ;
++Po+Spat+Prl: kudo-Possessive-Before-Clitic ;
 
 !!Temporal tags with cases
 LEXICON TempTag
@@ -1085,12 +1090,12 @@ LEXICON kudo--DefSg-
 
 LEXICON kudo-Indef--Poss
 +Indef: kudo-Tenses-Obl ;
-+PxSg1:%>О1нЬ2 kal-Tenses-Obl ;
-+PxSg2:%>О1тЬ2 kit-Tenses-Obl ;
-+PxSg3:%>О1нзО1 kudo-Tenses-Obl ;
-+PxPl1:%>О1нО1к lak-Tenses-Obl ;
-+PxPl2:%>О1нк lak-Tenses-Obl ;
-+PxPl3:%>О1ст kit-Tenses-Obl ;
++PxSg1:%>нЬ2 kal-Tenses-Obl ;
++PxSg2:%>тЬ2 kit-Tenses-Obl ;
++PxSg3:%>нзО1 kudo-Tenses-Obl ;
++PxPl1:%>нО1к lak-Tenses-Obl ;
++PxPl2:%>нк lak-Tenses-Obl ;
++PxPl3:%>ст kit-Tenses-Obl ;
 
 
 
