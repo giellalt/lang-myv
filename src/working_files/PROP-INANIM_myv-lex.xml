@@ -2,17 +2,227 @@
 <r xsi:noNamespaceSchemaLocation="../../script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-<entry> <!-- myv-fin --> <lg IdNo="3"> <l>Евангелия</l> <stg> <st erzContlex="Prop-kudo">Евангелия</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>evankeliumi</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <lg IdNo="3"> <l>Кремля</l> <stg> <st erzContlex="Prop-kudo">Кремля</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Kreml</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <!-- myv-fin --> <lg IdNo="3"> <l>Мордовия</l> <stg> <st erzContlex="Prop-kudo">Мордовия</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Mordva</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <!-- myv-fin --> <lg IdNo="3"> <l>Орданьбуе</l> <stg> <st erzContlex="Prop-kudo">Орданьбуе</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Ardatov</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <!-- myv-fin --> <lg IdNo="3"> <l>Рим</l> <stg> <st erzContlex="Prop-kal">Рим</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Rooma</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <!-- myv-fin --> <lg IdNo="3"> <l>Россия</l> <stg> <st erzContlex="Prop-kudo">Россия</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Venäjä</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <!-- myv-fin --> <lg IdNo="3"> <l>Сибирь</l> <stg> <st erzContlex="Prop-kal">Сибирь</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Siperia</t></tg></mg> </e> </entry> 
-<entry exclude="fst"> <!-- myv-fin --> <lg IdNo="3"> <l>Сисем Озякат</l> <stg> <st erzContlex="Prop-kudo_PL">Сисем Озяка</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Otava</t></tg></mg> </e> </entry> 
-<entry> <lg IdNo="1"> <l>Спас</l> <stg> <st erzContlex="Prop-osh">Спас</st> </stg> </lg> <pos>PROP</pos> <e> <mg> <m> <head> <tags>+Inanim+Cnt</tags> </head> </m> <tg> <t/> </tg> </mg> </e> </entry> 
-<entry> <lg IdNo="3"> <l>Финляндия</l> <stg> <st erzContlex="Prop-kudo">Финляндия</st> </stg> </lg> <pos>prop</pos> <e> <mg><m><head/></m> <tg lang="fin"><t>Suomi</t></tg></mg> </e> </entry> 
-<entry> <!-- Working-N --> <lg IdNo="1"> <l>Чумчара</l> <stg> <st erzContlex="Prop-kudo">Чумчара</st> </stg> </lg> <pos>PROP</pos> <e> <mg> <m> <head> <tags/> </head> </m> <tg> <t/> </tg> </mg> </e> </entry> 
+   <entry>
+      <!-- myv-fin -->
+      <lg>
+         <l>Евангелия</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Евангелия</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>evankeliumi</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>Кремля</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Кремля</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Kreml</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <!-- myv-fin -->
+      <lg>
+         <l>Мордовия</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Мордовия</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Mordva</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <!-- myv-fin -->
+      <lg>
+         <l>Орданьбуе</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Орданьбуе</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Ardatov</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <!-- myv-fin -->
+      <lg>
+         <l>Рим</l>
+         <stg>
+            <st erzContlex="Prop-kal">Рим</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Rooma</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <!-- myv-fin -->
+      <lg>
+         <l>Россия</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Россия</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Venäjä</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <!-- myv-fin -->
+      <lg>
+         <l>Сибирь</l>
+         <stg>
+            <st erzContlex="Prop-kal">Сибирь</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Siperia</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <!-- myv-fin -->
+      <lg>
+         <l>Сисем Озякат</l>
+         <stg>
+            <st erzContlex="Prop-kudo-PL">Сисем Озяка</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Otava</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Спас</l>
+         <stg>
+            <st erzContlex="Prop-osh">Спас</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <tags>+Inanim+Cnt</tags>
+               </head>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Финляндия</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Финляндия</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="fin">
+               <t>Suomi</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <!-- Working-N -->
+      <lg>
+         <l>Чумчара</l>
+         <stg>
+            <st erzContlex="Prop-kudo">Чумчара</st>
+         </stg>
+      </lg>
+      <pos>PROP-INANIM</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <tags/>
+               </head>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
    <entry>
       <lg>
          <l>Цярдань</l>
@@ -20,7 +230,7 @@
             <st erzContlex="Prop-kal">Цярдань</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -39,7 +249,7 @@
             <st erzContlex="Prop-kudo">Паргеле</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -58,7 +268,7 @@
             <st erzContlex="Prop-kudo">Азия</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Азиясо</morph>
          <morph type="N">Азиянь</morph>
@@ -80,7 +290,7 @@
             <st erzContlex="Prop-osh">Ало пелькс</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Ало пелькссо</morph>
          <morph type="N">Ало пельксэнь</morph>
@@ -107,7 +317,7 @@
             <st erzContlex="Prop-kudo">Америка</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Америкасо</morph>
          <morph type="N">Американь</morph>
@@ -132,7 +342,7 @@
             <st erzContlex="Prop-kudo">Атлантика</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Атлантикасо</morph>
          <morph type="N">Атлантикань</morph>
@@ -154,7 +364,7 @@
             <st erzContlex="Prop-kudo">Африка</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Африкасо</morph>
          <morph type="N">Африкань</morph>
@@ -176,7 +386,7 @@
             <st erzContlex="Prop-kudo">Волга</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -194,7 +404,7 @@
             <st erzContlex="Prop-kudo">Европа</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Европасо</morph>
          <morph type="N">Европань</morph>
@@ -218,7 +428,7 @@
             <st erzContlex="Prop-kudo">Каргонь Ки</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Каргонь Кисэ</morph>
          <morph type="N">Каргонь Кинь</morph>
@@ -244,7 +454,7 @@
             <st erzContlex="Prop-kudo">Кечепуло</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Кечепулосо</morph>
          <morph type="N">Кечепулонь</morph>
@@ -267,7 +477,7 @@
             <st erzContlex="Prop-kal">Москов</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="PROP">Московсо</morph>
          <morph type="PROP">Московонь</morph>
@@ -292,7 +502,7 @@
             <st erzContlex="Prop-kal">Рав</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Равсо</morph>
          <morph type="N">Равонь</morph>
@@ -319,7 +529,7 @@
             <st erzContlex="Prop-kal">Ратор</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Раторсо</morph>
          <morph type="N">Раторонь</morph>
@@ -345,7 +555,7 @@
             <st erzContlex="Prop-kal">Ратор леZQZй</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Ратор лейсэ</morph>
          <morph type="N">Ратор леень</morph>
@@ -371,7 +581,7 @@
             <st erzContlex="Prop-osh">Ратор ош</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Ратор ошсо</morph>
          <morph type="N">Ратор ошонь</morph>
@@ -397,7 +607,7 @@
             <st erzContlex="letter-B">а</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -414,7 +624,7 @@
             <st erzContlex="letter-F">б</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -432,7 +642,7 @@
             <st erzContlex="letter-F">в</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -450,7 +660,7 @@
             <st erzContlex="letter-F">г</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -468,7 +678,7 @@
             <st erzContlex="letter-F">д</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -486,7 +696,7 @@
             <st erzContlex="letter-F">е</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -506,7 +716,7 @@
             <st erzContlex="letter-F">ж</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -524,7 +734,7 @@
             <st erzContlex="letter-F">з</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -542,7 +752,7 @@
             <st erzContlex="letter-F">и</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -559,7 +769,7 @@
             <st erzContlex="letter-F">й</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -577,7 +787,7 @@
             <st erzContlex="letter-F">к</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -595,7 +805,7 @@
             <st erzContlex="letter-F">л</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -613,7 +823,7 @@
             <st erzContlex="letter-F">м</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -631,7 +841,7 @@
             <st erzContlex="letter-F">н</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -649,7 +859,7 @@
             <st erzContlex="letter-B">о</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -667,7 +877,7 @@
             <st erzContlex="letter-F">п</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -685,7 +895,7 @@
             <st erzContlex="letter-F">р</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -721,7 +931,7 @@
             <st erzContlex="letter-F">с</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -739,7 +949,7 @@
             <st erzContlex="letter-F">т</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -757,7 +967,7 @@
             <st erzContlex="letter-B">у</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -784,7 +994,9 @@
             <tg lang="eng">
                <t>August</t>
             </tg>
- <tg lang="fin"><t>elokuu</t></tg>
+            <tg lang="fin">
+               <t>elokuu</t>
+            </tg>
          </mg>
       </e>
    </entry>
@@ -795,7 +1007,7 @@
             <st erzContlex="letter-F">ф</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -813,7 +1025,7 @@
             <st erzContlex="letter-B">х</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -831,7 +1043,7 @@
             <st erzContlex="letter-F">ц</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -849,7 +1061,7 @@
             <st erzContlex="letter-F">ч</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -867,7 +1079,7 @@
             <st erzContlex="letter-B">ш</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -885,7 +1097,7 @@
             <st erzContlex="letter-F">щ</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -904,7 +1116,7 @@
             <st erzContlex="letter-F">ъ</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -923,7 +1135,7 @@
             <st erzContlex="letter-F">ы</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -941,7 +1153,7 @@
             <st erzContlex="letter-F">ь</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -959,7 +1171,7 @@
             <st erzContlex="letter-F">э</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -976,7 +1188,7 @@
             <st erzContlex="letter-F">э</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -994,7 +1206,7 @@
             <st erzContlex="letter-B">ю</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -1013,7 +1225,7 @@
             <st erzContlex="letter-B">я</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -1032,7 +1244,7 @@
             <st erzContlex="letter-B">ё</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <e>
          <mg>
             <m>
@@ -1076,7 +1288,7 @@
             <st erzContlex="Prop-kal">Илимбург</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-INANIM</pos>
       <morphg>
          <morph type="N">Илимбургсо</morph>
          <morph type="N">Илимбургонь</morph>
@@ -1098,7 +1310,7 @@
             <st erzContlex="Prop-osh">Модапаз</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
+      <pos>PROP-ANIM</pos>
       <morphg>
          <morph type="N">мода пазсо</morph>
          <morph type="N">мода пазонь</morph>
