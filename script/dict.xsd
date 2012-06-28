@@ -83,6 +83,7 @@
          <xs:attribute ref="mdfContlex"/>
          <xs:attribute ref="mrjContlex"/>
          <xs:attribute ref="nioContlex"/>
+         <xs:attribute ref="oloContlex"/>
          <xs:attribute ref="vepContlex"/>
          <xs:attribute ref="vroContlex"/>
          <xs:attribute ref="orthType"/>
@@ -324,6 +325,7 @@
          <xs:enumeration value="PROP-DEITY"/>
          <xs:enumeration value="PROP-FirstM"/>
          <xs:enumeration value="PROP-HUM"/>
+         <xs:enumeration value="PROP-INANIM"/>
          <xs:enumeration value="PROP-PL"/>
          <xs:enumeration value="PTC"/>
          <xs:enumeration value="PTC-I_A"/>
@@ -612,6 +614,7 @@
    <xs:attribute name="mdfContlex" type="xs:string"/>
    <xs:attribute name="mrjContlex" type="xs:string"/>
    <xs:attribute name="nioContlex" type="xs:string"/>
+   <xs:attribute name="oloContlex" type="xs:string"/>
    <xs:attribute name="vepContlex" type="xs:string"/>
    <xs:attribute name="vroContlex" type="xs:string"/>
    <xs:attribute name="erzContlex">
@@ -750,6 +753,21 @@
             <xs:enumeration value="pango-PROP"/>
             <xs:enumeration value="kudo-PROP"/>
             <xs:enumeration value="kudo-PROP-PL"/>
+            <xs:enumeration value="Prop-kal"/>
+            <xs:enumeration value="Prop-osh"/>
+            <xs:enumeration value="Prop-pango"/>
+            <xs:enumeration value="Prop-kudo"/>
+            <xs:enumeration value="Prop-Fem-kal"/>
+            <xs:enumeration value="Prop-Fem-osh"/>
+            <xs:enumeration value="Prop-Fem-pango"/>
+            <xs:enumeration value="Prop-Fem-kudo"/>
+            <xs:enumeration value="Prop-Mal-kal"/>
+            <xs:enumeration value="Prop-Mal-osh"/>
+            <xs:enumeration value="Prop-Mal-pango"/>
+            <xs:enumeration value="Prop-Mal-kudo"/>
+            <xs:enumeration value="Prop-kudo_SH"/>
+            <xs:enumeration value="Prop-kudo_SUB"/>
+            <xs:enumeration value="Prop-kudo-PL"/>
             <xs:enumeration value="letter-B"/>
             <xs:enumeration value="letter-F"/>
             <xs:enumeration value="PostpTag"/>
