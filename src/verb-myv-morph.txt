@@ -272,7 +272,7 @@ LEXICON Indicative1-noSc3
 < 0:">" 0:А2 0:т "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScSg2":0 "@U.CONJ-PX.20@" > VerbEnd_Clitic ;
 < 0:">" 0:т 0:А2 0:н 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
 < "+Use/Sub/Dial":0 0:">" 0:т 0:А2 0:м "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
-< "+Use/Sub/Dial":0 0:">" 0:">" 0:т 0:А2 0:н 0:о 0:к "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
+< "+Use/Sub/Dial":0 0:">" 0:т 0:А2 0:н 0:о 0:к "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_lak-Clitic ;
 < 0:">" 0:т 0:А2 0:д 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl2":0 "@U.CONJ-PX.50@" > VerbEnd_Clitic ;
 
 < "+Use/Sub/Dial":0 0:">" 0:"TLoss" 0:т 0:А2 0:н 0:о "+Pred":0 "+Ind":0 "@U.CONJ-MX.IND@" "+NonPast":0 "@U.CONJ-TX.NONPAST@" "+ScPl1":0 "@U.CONJ-PX.40@" > VerbEnd_Clitic ;
@@ -1195,13 +1195,23 @@ LEXICON Tenses1_A
 LEXICON ImpClitic
  # ;
 
-+Clt/Га:%>Г1а # ;
-+Clt/Гака:%>Г1ака # ;
-+Clt/Гакая:%>Г1акая # ;
-+Clt/Гая:%>Г1ая # ;
-+Clt/Гаять:%>Г1аять # ;
-+Clt/Гаятя:%>Г1аятя # ;
-+Clt/Гак:%>Г1ак # ;
++Clt/Га:%>а # ;
++Clt/Гака:%>ака # ;
++Clt/Гакая:%>акая # ;
++Clt/Гая:%>ая # ;
++Clt/Гаять:%>аять # ;
++Clt/Гаятя:%>аятя # ;
++Clt/Гатя:%>атя # ;
++Clt/Гак:%>ак # ;
+
+!+Clt/Га:%>Г1а # ;
+!+Clt/Гака:%>Г1ака # ;
+!+Clt/Гакая:%>Г1акая # ;
+!+Clt/Гая:%>Г1ая # ;
+!+Clt/Гаять:%>Г1аять # ;
+!+Clt/Гаятя:%>Г1аятя # ;
+!+Clt/Гатя:%>Г1атя # ;
+!+Clt/Гак:%>Г1ак # ;
 
 LEXICON VerbEnd_ImpClitic
  # ;

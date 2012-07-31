@@ -189,29 +189,29 @@ LEXICON N-avidem
 ! ===== !
 
 LEXICON Prop-kal
-+Prop: kal-N-Derivation ;
-+Prop: kal-N-Def-Declension ;
-+Prop: kal-Indef-Declension ;
-+Prop: kal-N-Poss-Declension-CX ;
++N+Prop: kal-N-Derivation ;
++N+Prop: kal-N-Def-Declension ;
++N+Prop: kal-Indef-Declension ;
++N+Prop: kal-N-Poss-Declension-CX ;
 
 LEXICON Prop-lak
-+Prop: lak-N-Derivation ;
-+Prop: lak-N-Def-Declension ;
-+Prop: lak-Indef-Declension ;
-+Prop: kal-N-Poss-Declension-CX ;
++N+Prop: lak-N-Derivation ;
++N+Prop: lak-N-Def-Declension ;
++N+Prop: lak-Indef-Declension ;
++N+Prop: kal-N-Poss-Declension-CX ;
 
 LEXICON Prop-kit
-+Prop: kit-N-Derivation ;
-+Use/Sub/Short:%>TLoss DefPl-Declension ;
-+Prop: kit-N-Def-Declension ;
-+Prop: kit-Indef-Declension ;
-+Prop: kal-N-Poss-Declension-CX ;
++N+Prop: kit-N-Derivation ;
++N+Prop+Use/Sub/Short:%>TLoss DefPl-Declension ;
++N+Prop: kit-N-Def-Declension ;
++N+Prop: kit-Indef-Declension ;
++N+Prop: kal-N-Poss-Declension-CX ;
 
 LEXICON Prop-osh
-+Prop: osh-N-Derivation ;
-+Prop: osh-N-Def-Declension ;
-+Prop: osh-Indef-Declension ;
-+Prop: osh-N-Poss-Declension-CX ;
++N+Prop: osh-N-Derivation ;
++N+Prop: osh-N-Def-Declension ;
++N+Prop: osh-Indef-Declension ;
++N+Prop: osh-N-Poss-Declension-CX ;
 
 LEXICON Prop-teshte
  N-pango ;
@@ -220,27 +220,119 @@ LEXICON Prop-tinge
  N-pango ;
 
 LEXICON Prop-pango
-+Prop: pango-N-Derivation ;
-+Prop: pango-N-Def-Declension ;
-+Prop: pango-Indef-Declension ;
-+Prop: pango-N-Poss-Declension-CX ;
++N+Prop: pango-N-Derivation ;
++N+Prop: pango-N-Def-Declension ;
++N+Prop: pango-Indef-Declension ;
++N+Prop: pango-N-Poss-Declension-CX ;
 
 LEXICON Prop-kudo
-+Prop: kudo-N-Derivation ;
-+Prop: kudo-N-Def-Declension ;
-+Prop: kudo-Indef-Declension ;
-+Prop: kudo-N-Poss-Declension-CX ;
++N+Prop: kudo-N-Derivation ;
++N+Prop: kudo-N-Def-Declension ;
++N+Prop: kudo-Indef-Declension ;
++N+Prop: kudo-N-Poss-Declension-CX ;
+
+
+LEXICON Prop-Mal-kal
++N+Prop+Mal: kal-N-Derivation ;
++N+Prop+Mal: kal-N-Def-Declension ;
++N+Prop+Mal: kal-Indef-Declension ;
++N+Prop+Mal: kal-N-Poss-Declension-CX ;
+
+LEXICON Prop-Mal-lak
++N+Prop+Mal: lak-N-Derivation ;
++N+Prop+Mal: lak-N-Def-Declension ;
++N+Prop+Mal: lak-Indef-Declension ;
++N+Prop+Mal: kal-N-Poss-Declension-CX ;
+
+LEXICON Prop-Mal-kit
++N+Prop+Mal: kit-N-Derivation ;
++N+Prop+Use/Sub/Short:%>TLoss DefPl-Declension ;
++N+Prop+Mal: kit-N-Def-Declension ;
++N+Prop+Mal: kit-Indef-Declension ;
++N+Prop+Mal: kal-N-Poss-Declension-CX ;
+
+LEXICON Prop-Mal-osh
++N+Prop+Mal: osh-N-Derivation ;
++N+Prop+Mal: osh-N-Def-Declension ;
++N+Prop+Mal: osh-Indef-Declension ;
++N+Prop+Mal: osh-N-Poss-Declension-CX ;
+
+LEXICON Prop-Mal-teshte
+ N-pango ;
+
+LEXICON Prop-Mal-tinge
+ N-pango ;
+
+LEXICON Prop-Mal-pango
++N+Prop+Mal: pango-N-Derivation ;
++N+Prop+Mal: pango-N-Def-Declension ;
++N+Prop+Mal: pango-Indef-Declension ;
++N+Prop+Mal: pango-N-Poss-Declension-CX ;
+
+LEXICON Prop-Mal-kudo
++N+Prop+Mal: kudo-N-Derivation ;
++N+Prop+Mal: kudo-N-Def-Declension ;
++N+Prop+Mal: kudo-Indef-Declension ;
++N+Prop+Mal: kudo-N-Poss-Declension-CX ;
+
+LEXICON Prop-Fem-kal
++N+Prop+Fem: kal-N-Derivation ;
++N+Prop+Fem: kal-N-Def-Declension ;
++N+Prop+Fem: kal-Indef-Declension ;
++N+Prop+Fem: kal-N-Poss-Declension-CX ;
+
+LEXICON Prop-Fem-lak
++N+Prop+Fem: lak-N-Derivation ;
++N+Prop+Fem: lak-N-Def-Declension ;
++N+Prop+Fem: lak-Indef-Declension ;
++N+Prop+Fem: kal-N-Poss-Declension-CX ;
+
+LEXICON Prop-Fem-kit
++N+Prop+Fem: kit-N-Derivation ;
++N+Prop+Fem+Use/Sub/Short:%>TLoss DefPl-Declension ;
++N+Prop+Fem: kit-N-Def-Declension ;
++N+Prop+Fem: kit-Indef-Declension ;
++N+Prop+Fem: kal-N-Poss-Declension-CX ;
+
+LEXICON Prop-Fem-osh
++N+Prop+Fem: osh-N-Derivation ;
++N+Prop+Fem: osh-N-Def-Declension ;
++N+Prop+Fem: osh-Indef-Declension ;
++N+Prop+Fem: osh-N-Poss-Declension-CX ;
+
+LEXICON Prop-Fem-teshte
+ N-pango ;
+
+LEXICON Prop-Fem-tinge
+ N-pango ;
+
+LEXICON Prop-Fem-pango
++N+Prop+Fem: pango-N-Derivation ;
++N+Prop+Fem: pango-N-Def-Declension ;
++N+Prop+Fem: pango-Indef-Declension ;
++N+Prop+Fem: pango-N-Poss-Declension-CX ;
+
+LEXICON Prop-Fem-kudo
++N+Prop+Fem: kudo-N-Derivation ;
++N+Prop+Fem: kudo-N-Def-Declension ;
++N+Prop+Fem: kudo-Indef-Declension ;
++N+Prop+Fem: kudo-N-Poss-Declension-CX ;
+
+
+!! DECLENSION LIMITATIONS
 
 LEXICON Prop-kudo-PL
-+Prop:%> DefPl-Declension ;
-+Prop: kudo-Indef-Declension ;
-+Prop: kudo-N-Poss-Declension-CX-PL ;
++N+Prop:%> DefPl-Declension ;
++N+Prop: kudo-Indef-Declension ;
++N+Prop: kudo-N-Poss-Declension-CX-PL ;
 
 LEXICON Prop-kudo_SUB
 +Use/Sub Prop-kudo ;
 
 LEXICON Prop-kudo_SH
 +Use/Short Prop-kudo ;
+
+
 
 ! ========== !
 ! Derivation !
