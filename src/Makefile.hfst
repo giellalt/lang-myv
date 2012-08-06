@@ -82,7 +82,7 @@ lexc-hfst: ../bin/$(GTLANG)-lexc.hfst
 	@echo
 	@echo "*** Building $(@F) ***" ;
 	@echo
-	hfst-lexc $(HLEXC_FLAGS) -f openfst -o $@ $^
+	hfst-lexc $(HLEXC_FLAGS) -f openfst-tropical -o $@ $^
 
 # Compose&intersect lexicon and twol into a raw transducer
 save-hfst: ../bin/$(GTLANG)-gen.hfst
