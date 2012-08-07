@@ -13,49 +13,49 @@ LEXICON VERBNEGATIVE
 эзь+V+Neg+Ind+Prt1+ScSg3+OcSg3:эсе # ;
 
 LEXICON V-ledems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-ledems ;
+@P.CONJ.ObjAll@ V-ledems ;
 
 LEXICON V-kadoms_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-kadoms ;
+@P.CONJ.ObjAll@ V-kadoms ;
 
 ! This should not occur
 !LEXICON V-sajevems_ObjAll
-! @P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-sajevems ;
+! @P.CONJ.ObjAll@ V-sajevems ;
 
 LEXICON V-nevtems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-nevtems ;
+@P.CONJ.ObjAll@ V-nevtems ;
 
 LEXICON V-savtoms_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-savtoms ;
+@P.CONJ.ObjAll@ V-savtoms ;
 
 LEXICON V-chachtoms_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-chachtoms ;
+@P.CONJ.ObjAll@ V-chachtoms ;
 
 !LEXICON V-jangavoms_ObjAll
-! @P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-jangavoms ;
+! @P.CONJ.ObjAll@ V-jangavoms ;
 
 LEXICON V-kundams_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-kundams ;
+@P.CONJ.ObjAll@ V-kundams ;
 
 ! This actually does exist in a pair verb
 ! таргатомс
 LEXICON V-satoms_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-satoms ;
+@P.CONJ.ObjAll@ V-satoms ;
 
 ! This should not exist by definition
 ! 
 !LEXICON V-letems_ObjAll
-! @P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-letems ;
+! @P.CONJ.ObjAll@ V-letems ;
 
 LEXICON V-ujems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-ujems ;
+@P.CONJ.ObjAll@ V-ujems ;
 
 LEXICON V-ujems
  :й V-kadoms ;
 
 LEXICON V-tujems_ObjAll
 +V@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ Indicative_Present_Obj ;
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-tujems ;
+@P.CONJ.ObjAll@ V-tujems ;
 
 LEXICON V-tujems
                  :й V-kadoms ;
@@ -64,13 +64,13 @@ LEXICON V-tujems
 
 
 LEXICON V-tejems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-tejems ;
+@P.CONJ.ObjAll@ V-tejems ;
 
 LEXICON V-tejems
  V-kadoms ;
 
 LEXICON V-nejems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-nejems ;
+@P.CONJ.ObjAll@ V-nejems ;
 
 LEXICON V-nejems
                  :й V-kadoms ;
@@ -78,14 +78,14 @@ LEXICON V-nejems
 
 
 LEXICON V-mijems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-mijems ;
+@P.CONJ.ObjAll@ V-mijems ;
 
 LEXICON V-mijems
                  :й V-kadoms ;
 +V@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 LEXICON V-nekshnems_ObjAll
-@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V-nekshnems ;
+@P.CONJ.ObjAll@ V-nekshnems ;
 !!2012-04-24 the TAG "+ObjOpen":0 has been removed 
 
 LEXICON V-nekshnems
@@ -146,7 +146,7 @@ LEXICON V-letems
  V-satoms ;
 
 LEXICON V-kadoms-a
-@U.CONJ-MX.IND@:@U.CONJ-MX.IND@ Indicative1 ;
+@U.CONJ-MX.IND@ Indicative1 ;
 +ConNeg@U.CONJ-CONNEG.YES@:%>О1К3@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
  Desiderative-kadoms ;
 
@@ -155,7 +155,7 @@ LEXICON V-kadoms-a
   +Pred+Opt@U.CONJ-MX.OPT@:@U.CONJ-MX.OPT@ Optative-kadoms ;
 
 LEXICON V-kundams-a
-           @U.CONJ-MX.IND@:@U.CONJ-MX.IND@         Indicative1 ;
+           @U.CONJ-MX.IND@         Indicative1 ;
 +ConNeg@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
  Desiderative-kundams ;
   +Pred+Ind@U.CONJ-MX.IND@:@U.CONJ-MX.IND@ IndicativePrt2_kundams ;
@@ -165,7 +165,7 @@ LEXICON V-kundams-a
 
 LEXICON V-satoms-a
  CondVerbs ;
-@U.CONJ-MX.IND@:@U.CONJ-MX.IND@ Indicative1 ;
+@U.CONJ-MX.IND@ Indicative1 ;
 +Use/Sub/Dial: PredIndPrt1Sc3 ; !!2012-05-05 What's this for
 +Use/Sub/Dial+ConNeg@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
 +ConNeg@U.CONJ-CONNEG.YES@:%>О1тЬ2@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
@@ -282,7 +282,7 @@ LEXICON Indicative1-noSc3
 +Use/Sub/Dial+Pred+Ind+NonPast+ScPl2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.50@:%>TLossтА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.50@ VerbEnd_Clitic ;
 
 ! Indicative Preterite I
- @R.CONJ.ObjAll@:@R.CONJ.ObjAll@  Indicative_Present_Obj ;
+ @R.CONJ.ObjAll@  Indicative_Present_Obj ;
 
 
 LEXICON Indicative_Present_Obj
@@ -331,7 +331,7 @@ LEXICON IndicativePretI-plus
 +ScSg2@U.CONJ-PX.20@:%>Ы2ть@U.CONJ-PX.20@ VerbEnd_Clitic ;
 +ScPl1@U.CONJ-PX.40@:%>Ы2нек@U.CONJ-PX.40@ VerbEnd_lak-Clitic ;
 +ScPl2@U.CONJ-PX.50@:%>Ы2де@U.CONJ-PX.50@ VerbEnd_Clitic ;
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Indicative_PretI_Obj ;
+@R.CONJ.ObjAll@ Indicative_PretI_Obj ;
 
 LEXICON Indicative_PretI_Obj
              +ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2я@U.CONJ-PX.13@ VerbEnd_Clitic ;
@@ -453,7 +453,7 @@ LEXICON IndicativePrt2_noArrow
 :Ы2 Prt2-noArrow ;
 
 LEXICON Prt2-noArrow
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Prt2_Obj_noArrows ;
+@R.CONJ.ObjAll@ Prt2_Obj_noArrows ;
  Prt2-noArrow-Sc ;
 
 LEXICON Prt2-noArrow-Sc
@@ -541,7 +541,7 @@ LEXICON Desiderative-noArrow
 :Ы2ксэ Prt2-noArrow ;
 +Use/Sub/Dial+Der/ке+Dim:Ы2кске Prt2-noArrow ;
 +Use/Sub/Dial:Ы2ксы Prt2-noArrow ;
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Desiderative1_Obj ;
+@R.CONJ.ObjAll@ Desiderative1_Obj ;
 
 LEXICON Desiderative1_Obj
 +Use/Sub/Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2ксэльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
@@ -556,7 +556,7 @@ LEXICON Conjunctive-kadoms
 :%>О1 Conjunctive-noArrow ;
 
 LEXICON Conjunctive-noArrow
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Conjunctive-kadoms_Obj ;
+@R.CONJ.ObjAll@ Conjunctive-kadoms_Obj ;
 +ScSg1@U.CONJ-PX.10@:влинь@U.CONJ-PX.10@  Derya ;
 +ScSg2@U.CONJ-PX.20@:влить@U.CONJ-PX.20@ Derya ;
 +Use/Sub/Dial+ScSg1@U.CONJ-PX.10@:влень@U.CONJ-PX.10@  Derya ;
@@ -641,7 +641,7 @@ LEXICON Derya_KLoss
 
 LEXICON ILYA
  Optative-kundams ;
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ ILYA_Obj ;
+@R.CONJ.ObjAll@ ILYA_Obj ;
 +Opt+ScSg1@U.CONJ-MX.OPT@@U.CONJ-PX.10@:зан@U.CONJ-MX.OPT@@U.CONJ-PX.10@  VerbEnd_Clitic ;
 +Opt+ScSg2@U.CONJ-MX.OPT@@U.CONJ-PX.20@:зат@U.CONJ-MX.OPT@@U.CONJ-PX.20@ VerbEnd_Clitic ;
 +Opt+ScSg3@U.CONJ-MX.OPT@@U.CONJ-PX.30@:зО1@U.CONJ-MX.OPT@@U.CONJ-PX.30@ VerbEnd_Clitic ;
@@ -747,7 +747,7 @@ LEXICON ILYA_Obj
 +Pred+Imprt+ScPl2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.56@:%>Ы2нк@U.CONJ-MX.IMP@@U.CONJ-PX.56@ VerbEnd_ImpClitic ;
 
 LEXICON Imperative-kadoms
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@  Imperative_Obj-kadoms ;
+@R.CONJ.ObjAll@  Imperative_Obj-kadoms ;
 +ScSg2@U.CONJ-PX.20@:%>К1Ь2@U.CONJ-PX.20@ VerbEnd_ImpClitic ;
 +ScPl2@U.CONJ-PX.50@:%>О1%>дО1@U.CONJ-PX.50@ VerbEnd_ImpClitic ;
 
@@ -768,7 +768,7 @@ LEXICON Imperative_Obj-kadoms
 +ScSg2+OcSg1@U.CONJ-PX.21@:%>мак@U.CONJ-PX.21@  VerbEnd_ImpClitic ;
 
 LEXICON Imperative-kundams
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@  Imperative_Obj-kundams ;
+@R.CONJ.ObjAll@  Imperative_Obj-kundams ;
 +ScSg2@U.CONJ-PX.20@:%>К1Ь2@U.CONJ-PX.20@ VerbEnd_ImpClitic ;
 +ScPl2@U.CONJ-PX.50@:%>дО1@U.CONJ-PX.50@ VerbEnd_ImpClitic ;
 
@@ -810,7 +810,7 @@ LEXICON Optative-noArrow
 +Gr2000+ScPl1:зтано VerbEnd_Clitic ;
 +Gr2000+ScPl2:зтадо VerbEnd_Clitic ;
 +Gr2000+ScPl3:зт VerbEnd_Clitic ;
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Optative1_A_Obj ;
+@R.CONJ.ObjAll@ Optative1_A_Obj ;
 
 LEXICON Optative1_A_Obj
 +ScSg1+OcSg2:стан VerbEnd_Clitic ;
@@ -1145,13 +1145,13 @@ LEXICON kal-Conjugation-4Inf
 
 !!
 LEXICON Tenses1_Prep-SG
-@P.NUM.SG@:@P.NUM.SG@ Tenses1 ;
+@P.NUM.SG@ Tenses1 ;
 
 LEXICON osh-Tenses1_Prep-SG
-@P.NUM.SG@:@P.NUM.SG@ osh-Tenses1 ;
+@P.NUM.SG@ osh-Tenses1 ;
 
 LEXICON kudo-Tenses1_Prep-SG
-@P.NUM.SG@:@P.NUM.SG@ kudo-Tenses1 ;
+@P.NUM.SG@ kudo-Tenses1 ;
 
 
 LEXICON Tenses1_A
