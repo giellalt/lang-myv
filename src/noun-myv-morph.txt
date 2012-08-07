@@ -1629,16 +1629,16 @@ LEXICON osh-SgDet-PossPx
 +Sg+Def:%>нть Clitic ; 
 
 LEXICON kudo-SgDet-PossPx
-< 0:">" 0:н 0:Ь2 "+PxSg1":0 "@U.PossPx.1Sg@" > SecondaryDeclination ;
-< "+Dial":0 0:">" 0:м "+PxSg1":0 "@U.PossPx.1Sg@" > SecondaryDeclination ;
-< 0:">" 0:т 0:Ь2 "+PxSg2":0 "@U.PossPx.2Sg@" > SecondaryDeclination ;
-< "+Dial":0 0:">" 0:н 0:т 0:Ь2 "+PxSg2":0 "@U.PossPx.2Sg@" > SecondaryDeclination ;
-< 0:">" 0:н 0:з 0:О1 "+PxSg3":0 "@U.PossPx.3Sg@" > SecondaryDeclination ;
-< 0:">" 0:н 0:О1 0:к "+PxPl1":0 "@U.PossPx.1Pl@" > SecondaryDeclination ;
-< 0:">" 0:н 0:к "+PxPl2":0 "@U.PossPx.2Pl@" > SecondaryDeclination ;
-< 0:">" 0:с 0:т "+PxPl3":0 "@U.PossPx.3Pl@" > SecondaryDeclination ;
-< "+Dial":0 0:">" 0:н 0:с 0:т "+PxPl3":0 "@U.PossPx.3Pl@" > SecondaryDeclination ;
-                   +Sg+Def:%>нть                Clitic ;
+     +PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@  SecondaryDeclination ;
++Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@    SecondaryDeclination ;
+     +PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@  SecondaryDeclination ;
++Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ SecondaryDeclination ;
+     +PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ SecondaryDeclination ;
+     +PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ SecondaryDeclination ;
+     +PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@   SecondaryDeclination ;
+     +PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@   SecondaryDeclination ;
++Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@  SecondaryDeclination ;
+                  +Sg+Def:%>нть                Clitic ;
 
 LEXICON Misc_Pronouns_Indef
 +Sg+Nom+Indef:0  Tenses1_Prep-SG ;
