@@ -8,7 +8,7 @@ LEXICON VERBNEGATIVE
 
 эзть+V+Neg+Ind+Prt1+ScPl3:эзть # ;
 эзь+V+Neg+Pred+Ind@P.CONJ.ObjAll@:эзь@P.CONJ.ObjAll@ IndicativePrt2_kadoms ;
-эзь+V+Neg+Pred+Ind+Prt1@P.CONJ.ObjAll@эзь@P.CONJ.ObjAll@ IndicativePretI-plus ;
+эзь+V+Neg+Pred+Ind+Prt1@P.CONJ.ObjAll@:эзь@P.CONJ.ObjAll@ IndicativePretI-plus ;
 эзь+V+Neg+Ind+Prt1+ScSg3:эзь # ;
 эзь+V+Neg+Ind+Prt1+ScSg3+OcSg3:эсе # ;
 
@@ -74,6 +74,7 @@ LEXICON V-nejems_ObjAll
 
 LEXICON V-nejems
                  :й V-kadoms ;
+ @R.CONJ.ObjAll@  Indicative_Present_Obj-in-S ; ! 2012-08-07 неса
 +V@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 
@@ -82,6 +83,7 @@ LEXICON V-mijems_ObjAll
 
 LEXICON V-mijems
                  :й V-kadoms ;
+@R.CONJ.ObjAll@  Indicative_Present_Obj-in-S ; ! 2012-08-07 миса
 +V@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 LEXICON V-nekshnems_ObjAll
@@ -288,7 +290,9 @@ LEXICON Indicative1-noSc3
 LEXICON Indicative_Present_Obj
 +Use/Sub:%>TLoss Indicative_Present_Obj-TLoss ;
 :%>  Indicative_Present_Obj-TLoss ;
+ Indicative_Present_Obj-in-S ;
 
+LEXICON Indicative_Present_Obj-in-S
 +Pred+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>са@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
 +Use/Sub/Dial+Pred+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сан@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
 +Use/Sub/Dial+Pred+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сать@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
@@ -757,15 +761,15 @@ LEXICON Imperative_Obj-kadoms
 !!This dialect form is realised
 !!as the previous if followed by a clitic
 +Use/Sub/Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ # ;
-+ScSg2+OcPl1@U.CONJ-PX.24@:%>мизь@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
-+ScPl2+OcPl1@U.CONJ-PX.54@:%>мизь@U.CONJ-PX.54@ VerbEnd_ImpClitic ;
-+ScPl2+OcSg1@U.CONJ-PX.51@:%>мизь@U.CONJ-PX.51@ VerbEnd_ImpClitic ;
-+ScSg3+OcPl1@U.CONJ-PX.34@:%>мизь@U.CONJ-PX.34@ VerbEnd_ImpClitic ;
-+ScPl3+OcPl1@U.CONJ-PX.64@:%>мизь@U.CONJ-PX.64@ VerbEnd_ImpClitic ;
-+ScPl3+OcSg1@U.CONJ-PX.61@:%>мизь@U.CONJ-PX.61@ VerbEnd_ImpClitic ;
++ScSg2+OcPl1@U.CONJ-PX.24@:%>О1мизь@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
++ScPl2+OcPl1@U.CONJ-PX.54@:%>О1мизь@U.CONJ-PX.54@ VerbEnd_ImpClitic ;
++ScPl2+OcSg1@U.CONJ-PX.51@:%>О1мизь@U.CONJ-PX.51@ VerbEnd_ImpClitic ;
++ScSg3+OcPl1@U.CONJ-PX.34@:%>О1мизь@U.CONJ-PX.34@ VerbEnd_ImpClitic ;
++ScPl3+OcPl1@U.CONJ-PX.64@:%>О1мизь@U.CONJ-PX.64@ VerbEnd_ImpClitic ;
++ScPl3+OcSg1@U.CONJ-PX.61@:%>О1мизь@U.CONJ-PX.61@ VerbEnd_ImpClitic ;
 +ScPl2+OcSg3@U.CONJ-PX.53@:%>Ы2нк@U.CONJ-PX.53@ VerbEnd_ImpClitic ;
 +ScPl2+OcPl3@U.CONJ-PX.56@:%>Ы2нк@U.CONJ-PX.56@ VerbEnd_ImpClitic ;
-+ScSg2+OcSg1@U.CONJ-PX.21@:%>мак@U.CONJ-PX.21@  VerbEnd_ImpClitic ;
++ScSg2+OcSg1@U.CONJ-PX.21@:%>О1мак@U.CONJ-PX.21@  VerbEnd_ImpClitic ;
 
 LEXICON Imperative-kundams
 @R.CONJ.ObjAll@  Imperative_Obj-kundams ;
@@ -1191,13 +1195,13 @@ LEXICON VerbEnd_ImpClitic
  # ;
  VerbEnd ;
 
-+Clt/Га:%>Г1а # ;
-+Clt/Гака:%>Г1ака # ;
-+Clt/Гакая:%>Г1акая # ;
-+Clt/Гая:%>Г1ая # ;
-+Clt/Гаять:%>Г1аять # ;
-+Clt/Гаятя:%>Г1аятя # ;
-+Clt/Гак:%>Г1ак # ;
++Clt/Га:%>Г4а # ;
++Clt/Гака:%>Г4ака # ;
++Clt/Гакая:%>Г4акая # ;
++Clt/Гая:%>Г4ая # ;
++Clt/Гаять:%>Г4аять # ;
++Clt/Гаятя:%>Г4аятя # ;
++Clt/Гак:%>Г4ак # ;
 
 LEXICON VerbEnd_Clitic
  Clitic ;
@@ -1209,4 +1213,5 @@ LEXICON VerbEnd_lak-Clitic
 
 LEXICON VerbEnd
 +SerialVerb:- V ;
++SerialVerb:- Working-V ;
 
