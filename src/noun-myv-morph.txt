@@ -1344,7 +1344,7 @@ LEXICON osh-N-Poss-Declension-PossX
 +PxPl3:%>О1ст kit-Conjugation ;
 
 ! These are possessor Indices for non-nominative singular
-! +NonNomSg
+! NonNomSg
 LEXICON kudo-N-Poss-Declension-PossX
 +PxSg1:%>нЬ2 kal-Conjugation ;
 +PxSg1+Dial:%>м kal-Conjugation ;
@@ -1589,12 +1589,12 @@ LEXICON Misc_Pronouns1
  Misc_Pronouns_Sg ;
  Misc_Pronouns_Pl ;
 +Adn: # ;
-+NomGen: PossPX1 ;
++Nom: PossPX1 ; !2012-08-09 Removing NomGen
++Gen: PossPX1 ; !2012-08-09 Removing NomGen
 
 LEXICON te-Dem
 +Pron: kudo-Misc_Pronouns_Sg ;
 +Adn: # ;
-!+NomGen: kudo-PossPX1 ;
 
 !Formerly ne-Misc_Pronouns1
 LEXICON ne-Dem
@@ -1639,15 +1639,15 @@ LEXICON osh-SgDet-PossPx
 +Sg+Def:%>нть Clitic ; 
 
 LEXICON kudo-SgDet-PossPx
-     +PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@  SecondaryDeclination ;
-+Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@    SecondaryDeclination ;
-     +PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@  SecondaryDeclination ;
-+Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ SecondaryDeclination ;
-     +PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ SecondaryDeclination ;
-     +PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ SecondaryDeclination ;
-     +PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@   SecondaryDeclination ;
-     +PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@   SecondaryDeclination ;
-+Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@  SecondaryDeclination ;
+     +PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@  kal-SecondaryDeclination ;
++Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@    kal-SecondaryDeclination ;
+     +PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@  kit-SecondaryDeclination ;
++Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ kit-SecondaryDeclination ;
+     +PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ kudo-SecondaryDeclination ;
+     +PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ lak-SecondaryDeclination ;
+     +PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@   lak-SecondaryDeclination ;
+     +PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@   kit-SecondaryDeclination ;
++Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@  kit-SecondaryDeclination ;
                   +Sg+Def:%>нть                Clitic ;
 
 LEXICON Misc_Pronouns_Indef
@@ -1702,20 +1702,38 @@ LEXICON Misc_Pronouns_Pl
 +Pl+Tra+Def:%>тне%>кс Clitic ;
 +Pl+Prl+Def:%>тне%>ва Clitic ;
 
+LEXICON kal-SecondaryDeclination
+:%>О1 SecondaryDeclination_1RequiresVowel ;
+ SecondaryDeclination_1RequiresNoVowel ;
 
+LEXICON kit-SecondaryDeclination
+:%>О1 SecondaryDeclination_1RequiresVowel ;
+ SecondaryDeclination_1RequiresNoVowel ;
+
+LEXICON lak-SecondaryDeclination
+:%>О1 SecondaryDeclination_1RequiresVowel ;
+ SecondaryDeclination_1RequiresNoVowel ;
+
+LEXICON kudo-SecondaryDeclination
+ SecondaryDeclination ;
 
 LEXICON SecondaryDeclination
-+Sg+Def+Nom:%>сь  osh-Tenses1_Prep-SG ;
-+Sg+Def+Gen:%>нть Clitic ;
-+Sg+Def+DatCx:%>нтень Clitic ;
+:%> SecondaryDeclination_1RequiresVowel ;
+ SecondaryDeclination_1RequiresNoVowel ;
+
+LEXICON SecondaryDeclination_1RequiresVowel
++Sg+Def+Nom:сь  osh-Tenses1_Prep-SG ;
++Sg+Def+Gen:нть Clitic ;
++Sg+Def+DatCx:нтень Clitic ;
++Sg+Tra+Def:%>кс osh-SecondaryDeclination_SgDet-PossPx ;
+
+LEXICON SecondaryDeclination_1RequiresNoVowel
 +Sg+Prl+Def:%>Г2а SecondaryDeclination_SgDet-PossPx ;
 +Sg+Abe+Def:%>втО1мО1 SecondaryDeclination_SgDet-PossPx ;
 +Sg+Abl+Def:%>дО1 SecondaryDeclination_SgDet-PossPx ;
-+Sg+Tra+Def:%>ксЬ2 SecondaryDeclination_SgDet-PossPx ;
 +Sg+Ine+Def:%>сО1 SecondaryDeclination_SgDet-PossPx ;
 +Sg+Ela+Def:%>стО1 SecondaryDeclination_SgDet-PossPx ;
-+NoLV+Sg+CompCx+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
-+LV+Sg+Tra+Def:%>V1ксЬ2 SecondaryDeclination_SgDet-PossPx ;
++Sg+CompCx+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
 
  Clitic ;
 +Pl+Nom+InDef:%>тЬ2 Clitic ;
@@ -1735,6 +1753,11 @@ LEXICON SecondaryDeclination
 LEXICON SecondaryDeclination_SgDet-PossPx
 +Sg+Def:%>нть Clitic ; 
  Clitic ; 
+
+LEXICON osh-SecondaryDeclination_SgDet-PossPx
++Sg+Def:%>О1нть Clitic ; 
+ Clitic ; 
+
 
 !!!
 
@@ -1917,21 +1940,21 @@ LEXICON Possessives2-Ill
 
 LEXICON Possessives2
 +Dial+PxSg1/м:%>О1м kal-Determinatives1 ;
-+PxSg1/Н+NonNomSg:%>О1нЬ2 kal-Determinatives1 ;
++PxSg1:%>О1нЬ2 kal-Determinatives1 ;
 +PxSg2:%>О1тЬ2 kit-Determinatives1 ;
-+PxSg3+NonNomSg:%>О1нзО1 kudo-Determinatives1 ;
++PxSg3:%>О1нзО1 kudo-Determinatives1 ;
 +PxPl1:%>О1нО1к lak-Determinatives1 ;
 +PxPl2:%>О1нк lak-Determinatives1 ;
 +PxPl3:%>О1ст kit-Determinatives1 ;
-+PxPl3:%>О1нст kit-Determinatives1 ;
++Dial+PxPl3:%>О1нст kit-Determinatives1 ;
 
 ! These are possessor Indices for non-nominative singular
-! +NonNomSg
+! NonNomSg
 LEXICON osh-Possessives2
 +Dial+PxSg1/м:%>О1м kal-Determinatives1 ;
-+PxSg1/Н+NonNomSg:%>О1нЬ2 kal-Determinatives1 ;
++PxSg1:%>О1нЬ2 kal-Determinatives1 ;
 +PxSg2:%>О1тЬ2 kit-Determinatives1 ;
-+PxSg3+NonNomSg:%>О1нзО1 kudo-Determinatives1 ;
++PxSg3:%>О1нзО1 kudo-Determinatives1 ;
 +PxPl1:%>О1нО1к lak-Determinatives1 ;
 +PxPl2:%>О1нк lak-Determinatives1 ;
 +PxPl3:%>О1ст kit-Determinatives1 ;
