@@ -1,5 +1,183 @@
 Multichar_Symbols
 
+! Tags for POS
+  +N +A +Adv +V
+  +Pron 
+  +CS ! subordinating conjunction
+  +CC ! coordinating conjunction
+  +Po +Pr +Interj +Pcle +Num
+
+! Tags for sub-POS
+! Nouns
+  +Prop
+! Pronouns
+  +Interr +Rel
+  +Pers +Dem +Refl +Recipr
+  +Indef ! 
+! Quantifiers (numerals)
+ +Coll ! Collective
+ +Card
+ +Ord
+ +Distr ! Distributive
+ +Iter ! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
+ +Appr ! Approximative numeral кавто-колмо, колмошка 'two or three'
+    ! NB! do not confuse with Komi case +Apr
+
+! Usage tags
+  +Use/Sub   ! Substandard
+  +Use/Marg  ! Marginal
+  +Use/-Spell !recognized but not suggested in speller
+  +Use/LexSub ! The lemma is not an Erzya word (Depricating _+Src/F_)
+
+! Dialect tags
+ +Dial/SH ! Short forms
+ +Dial/L  ! Long forms
+ +Dial    ! Specific to some dialects
+
+! Orthography tags
+  +Orth/PhonDeriv ! Derivation is phonetic
+                   ! but declension and conjugation morphologic
+  +Orth/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30
+  +Orth/PhonComb
+
+!!!! === Tags for Inflection ===
+
+! Tags for Case and Number Inflection
+  +Sg +Pl 
+  +Nom +Gen +Abl +DatCx +Ine +Ill 
+  +Ela +Tra 
+  +Abe 
+  +Prl !Prolative "га/ка/ва"
+  +CompCx ! Case form -шка
+  +Com ! Comitative "-нек/-нэк"
+  +Loc ! Locative "вить ён : вить ёно"
+  +TempCx ! Case form "-не/-нэ"
+  +Voc ! Vocative
+  +PxSg1 +PxSg2 +PxSg3
+  +PxPl1 +PxPl2 +PxPl3
+  +Def ! Definite
+  +InDef ! Indefinite
+  +NonPast ! In Erzya There is no morphological distinction 
+           ! between present and future
+  +Prt1 +Prt2 
+! Subject conjugation
+  +ScSg1 +ScSg2 +ScSg3 +ScPl1 +ScPl2 +ScPl3
+! Object conjugation
+  +OcSg1 +OcSg2 +OcSg3 +OcPl1 +OcPl2 +OcPl3
+
+  +Neg    ! verb of negation эзь, аволь, иля
+  +ConNeg ! main verb complement to Neg, 
+  +VGen   ! Verb Genitive
+  +VAbl   ! Verb Ablative "озадо"
+
+  +Inf
+  +TelicPrc ! Telic participle ! "саевть" 
+  +Prc ! 
+  +ActPrcLong ! Ы2й
+  +ActPrcShort ! Ы2
+  +ActDemPrc
+  +Ger ! Gerund This is used with Der/Озь and VAbl
+
+
+! moods
+ +Ind +Imprt +Cond +Opt 
+ +Des ! Ыксэль 'was about to; wanted to' 
+ +Conj ! Ындеря- (Derivational)
+ +Oblig ! modality: deontic/directive/obligative
+           !  андомс: андома , якамс: якама
+ +Delib ! +Sugg modality: deontic/directive/deliberative
+       ! I still need the right word for this андомс: андомсат
+
+
+ +Comp ! comparative as opposed to superlative
+ +Superl ! superlative
+ +Attr ! Attribute
+
+
+
+! Other tags
+  +ABBR ! Abbreviation
+  +ACR  ! Acronym
+  +TV +IV ! Transitivity tags
+  +Multi ! Multiword phrase tag
+  +Hyph  ! A tag to indicate that a hyphen was used when compounding
+
+  +CLB +PUNCT +LEFT +RIGHT
+  
+  ! Different focus particles
+  +Foc/Гак
+
+! Semantic tags to help disambiguation & synt. analysis:
+ +Mal ! Male
+ +Fem ! Female
+ +Sur ! Surname
+ +Patr ! Patronym
+ +Plc ! Place name
+ +Org ! name of organization
+ +Ani ! Animate
+ +Inanim ! Inanimate
+ +Hum    ! Human
+ +NonHum ! Nonhuman
+ +Kin ! Kinship term (This is reflected in special PxSg2 forms)
+
+! Der#begin
++Der/ай ! vocative
++Der/кай ! vocative
+ 
+!!Then they should have indication of whether they are gerunds or participles!!
+!!
++Der/Овт !
++Der/Омс !
++Der/ОмО !
++Der/ОмстО
++Der/ОмсО
++Der/ОмдО
++Der/Омга
++Der/Ома
++Der/Омка
++Der/Ыця
++Der/Ы
++Der/Ый
++Der/Озь !Gerund 
+
+! Declaring noun derivations
++Der/пель
+
+! Modifier without noun
++Der/MWN ! Modifier without Noun
++Der/Dem ! Speaker-Oriented Demonstrative
+
+
+!Declaring Indefinite Pronoun derivations
++Der/Гак
++Der/кой
++Der/та
++Der/таго
++Der/бути
++Der/Ыя ! +Indef  ковия, зярыя
+
+
+!Declaring Noun derivations
++Der/чи ! adjective-to-noun
+! the combinatory +Event preceding the NP-final noun
++Der/ОмА ! verb-to-noun
+
+!Declaring Deverbal derivations of verbs
++Der/кшнО
++Der/се
++Der/не
+
+
++Dimin 
++Der/ке
++Der/ка
++Der/нЕ
++Der/Ыне
++Der/Ынька
++Der/Ынькине
+
+!!!!!
+
 !Development tag
 +WORK
 
@@ -20,23 +198,13 @@ ZERO
 
 
 ! tags
-+Abs ! Absolutive
-+Adj ! Adjective
-+Attr ! Attribute
-+Bahuvrihi
-+Capitalizing
-+Dem ! Demonstrative also what was called +SOD
-+Def ! Definite
-+Der ! Derivation +Deriv
-+Det ! Determinative
-+Dial
-+DimKE ! Diminutive
-+DimNE ! Diminutive
-+Ellips ! Ellipsis
++Adn ! Adnominal !! This is not an NP head like +Pron
++Bahuvrihi ! This is a nominative-case NP used as an adjective
 +Emphatic
 +Gr2000
-!!!+Indet ! Indeterminative
-+Fin ! Finite
+
+!!! CHECKING 2012-08-09
+
 +Noun ! Noun
 +NomGen ! Nominative and genitive functions
 +NonNomSg ! applicable to 1sg and 3sg possession
@@ -49,7 +217,6 @@ ZERO
 +PossPX
 !+Pref
 !+Pres
-!+Prt !Participle >+Ptc
 !+Relat
 +Short ! short pronouns ??
 +Subj
@@ -75,7 +242,7 @@ ZERO
 
 +Err ! marking missing lexica
 !From xfst-Jack
-+NCom +Inanim +Anim +Cnt +NPrp
++NCom +Cnt +NPrp
 +SurnameM +PatronymM +Familiar
 +SurnameF 
 +NoPredx
@@ -85,40 +252,29 @@ ZERO
 
 
 ! POS
-+N +V +A 
-+Adv
 +Adv-Ideoph ! These are ideophonic descriptors used to modify the verb
             ! вырк ливтясь '_flit_ and it flew off'
 +AdA ! Ad-adjective
 +Manner ! with reference to type of adverb
-+CC ! coordinating conjunction
-+CS ! subordinating conjunction
- +Interj +Pcle +Clt +Po  
-+Pron ! Pronoun
-+Adn ! Adnominal !! This is not an NP head like +Pron
-+Indef
-+Refl ! In Erzya this would include 
++Clt
+
+
+
 +Intensive
 +Intensifier ! уш
- +Rel +Interr +Recipr
-+Hum +NonHum 
-+Ptc
-+VGen
-+ActDemPtc
+ 
+
 !! This has something to do with  verb stem tracking
 !  The three should be removed a little later if there
 !  is no reason to keep them
 +V1 +V2 +V3
 
 
-+Pers
-+Imprt
 
 
 +Qnt ! Quantifier
 +Onom ! onomapoetic words
 +Descr ! descriptive words
-+Clt/гак ! 
 !! Imperative clitics
 +Clt/Га ! редяка
 +Clt/Гая ! редякая
@@ -128,78 +284,29 @@ ZERO
 +Clt/Гака ! редякака ARE these real?
 +Clt/Гакая ! редякакая ARE these real?
 
-! Quantifiers 
-+Appr ! Approximative numeral кавто-колмо, колмошка 'two or three' 
-    ! NB! do not confuse with Komi case +Apr
 
-+Num ! numeral
-+Card
-+Coll !Collective
-+ZeroColl ! In combinations with the plural possessive marker the +Coll
-          ! morpheme нан is not always necessary
-+Distr ! Distributive
-+Iter ! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
-+Ord
 
 ! Verbal MSP
-! moods
-+Ind +Imp +Cond +Opt 
-+Des ! Ыксэль 'was about to; wanted to' 
-+Conj ! Ындеря- (Derivational)
-+Oblig ! modality: deontic/directive/obligative
-           !  андомс: андома , якамс: якама
-+Delib ! +Sugg modality: deontic/directive/deliberative
-       ! I still need the right word for this андомс: андомсат
 
-+1Sg/2Sg
-+1Sg/3Sg
-+1Sg/3Pl
-+2Sg/1Sg
-+2Sg/3Sg
-+2Sg/3Pl
-+3Sg/1Sg
-+3Sg/2Sg
-+3Sg/3Sg
-+3Sg/3Pl
-+1Pl/3
-+2Pl/3
-+3Pl/3
-+Default/1
-+Default/2
 
-+NonPast ! In Erzya There is no morphological distinction between present and future
-+Prs +Fut +Fut1 
-+Prt1 +Prt2 +Prf
++Prf
 +PrfIpf +HstPrf +PluPrf +HstPluPrf
 +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
-!+1Sg +2Sg +3Sg +1Pl +2Pl +3Pl
 +1 +2 +3
-+Inf
-+Pos +Neg +ConNeg
-! Subject conjugation
-+ScSg1 +ScSg2 +ScSg3 +ScPl1 +ScPl2 +ScPl3
-! Object conjugation
-+OcSg1 +OcSg2 +OcSg3 +OcPl1 +OcPl2 +OcPl3
+
++Pos
 
 
 ! Used for predicate marking in Conjugation
 +Pred
 
 ! Nominal MSP
-+Sg +Pl 
-+Prop
-+Sur ! Surname
-+Mal
-+Fem
-+Patr ! Patronym
-+Plc ! Place name
-+Org ! name of organization
-+Nom
+
 
 !!!! FUNCTIONS are all upper-case !!!!
 +ACC +DAT +COM ! This marks a function not a morpheme
 
-+Gen +Abl +DatCx +Com 
+
 ! The accusative is marked by the indefite nominative
 ! The definite genitives
 ! The possessum genitive where there is a morphological distinction
@@ -211,42 +318,19 @@ ZERO
       ! In some dialects and literature the form +Pl+Nom+Def
       ! also occurs with postpositions
 
-+Ine +Ill 
-+Ela +Tra 
-+Abe 
-+Loc
-+Prl !Prolative "га/ка/ва"
-+Voc ! Vocative
-+Compar ! comparative as opposed to superlative
 
-+Superl ! superlative
-+ACR +ABBR
 
 +Cmp ! first part of compound
-
-
-+PxSg1
-+PxSg2
-+PxSg3
-+PxPl1
-+PxPl2
-+PxPl3
 
 
 
 +NoPoss
 
-+Comp ! Case form -шка
-
-
-+TempCx ! Case form -не
 
 !!Pair Verbs, Serial Verbs compounding
 +SerialVerb
 
 ! tags
-+Der/ай ! vocative
-+Der/кай ! vocative
 
 
 +Instr
@@ -258,28 +342,6 @@ ZERO
 !
 !
 !
-!!Then they should have indication of whether they are gerunds or participles!!
-!!
-+Der/Овт !
-+Der/Омс !
-+Der/ОмО !
-+Der/ОмстО
-+Der/ОмсО
-+Der/ОмдО
-+Der/Омга
-+Der/Ома
-+Der/Омка
-+Der/Ыця
-+Der/Ы
-+Der/Ый
-+Ger !Gerund This is used with
-+Der/Озь !Gerund 
-
-
-+CLB +PUNCT +LEFT +RIGHT
-
-! Declaring noun derivations
-+Der/пель
 
 +Spat ! spatial
 +Spat-1Arg ! This takes care of postpostions
@@ -289,38 +351,6 @@ ZERO
 +Temp-NoArg ! This takes care of adverbs
 
 +State ! position or state
-
-!Modifier without noun
-+Der/MWN ! Modifier without Noun
-+Der/Dem ! Speaker-Oriented Demonstrative
-
-!Declaring Indefinite Pronoun derivations
-+Der/Гак
-+Der/кой
-+Der/та
-+Der/таго
-+Der/бути
-+Der/Ыя ! +Indef  ковия, зярыя
-
-
-!Declaring Noun derivations
-+Der/чи ! adjective-to-noun
-! the combinatory +Event preceding the NP-final noun
-+Der/ОмА ! verb-to-noun
-
-!Declaring Deverbal derivations of verbs
-+Der/кшнО
-+Der/се
-+Der/не
-
-
-+Dim 
-+Der/ке
-+Der/ка
-+Der/нЕ
-+Der/Ыне
-+Der/Ынька
-+Der/Ынькине
 
 +Der/Abe ! Adjective usage Maybe this is not necessary.
 +Der/Comp
@@ -354,23 +384,6 @@ ZERO
 ! Statement, Question,      Command, Exclamation
 ! --"--    , +Range/Interr, 
 ! 
-
-! Usage tags:
-+Use/Sub  ! Substandard
-+Use/Sub/PhonDeriv ! Derivation is phonetic 
-                   ! but declension and conjugation morphologic
-+Use/Sub/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30 
-+Use/Sub/PhonComb
-
-! Dialect tags:
-+Dial/SH ! depricate Use/Sub/Short
-+Use/Sub/Dial ! Для не-литературного слова / форма / и.т.д.
- ! This might actually make reference to dialect type or location
-
-! Source Tags:
-+Src/F ! Majority-language words that might be utilized in several languages 
-       ! Let's begin with nouns книга, учитель
-
 
 !!!! Flags used with serial verbs
 ! INF = Infinitive
@@ -676,8 +689,8 @@ LEXICON InterjTag
 +Interj: Clitic ;
 
 LEXICON Interj-Imp
-+Interj+Imp+2Sg: ImpClitic ;
-+Interj+Imp+2Pl:%>дО1 ImpClitic ;
++Interj+Imprt+2Sg: ImpClitic ;
++Interj+Imprt+2Pl:%>дО1 ImpClitic ;
 
 LEXICON FormulaicTag
 +Interj+Formulaic: # ;
@@ -698,7 +711,7 @@ LEXICON ejs-PO
 эйсэ+Po+Ela:эйстэ kudo-SPAT-PossX ;
 
 LEXICON marto-PO
-+Po+Abs: Clitic ;
++Po+Adn: Clitic ;
 +Po+COM: kudo-Possessives2 ; 
 +Po+Der/MWN: N-kudo ;
 
@@ -744,9 +757,9 @@ LEXICON ushoso-SPAT
 
 LEXICON kudo-SPAT-PossX
 +PxSg1:%>нЬ2 kal-Conjugation ;
-+PxSg1+Use/Sub/Dial:%>м kal-Conjugation ;
++PxSg1+Dial:%>м kal-Conjugation ;
 +PxSg2:%>тЬ2 kit-Conjugation ;
-+PxSg2+Use/Sub/Dial:%>нтЬ2 kit-Conjugation ;
++PxSg2+Dial:%>нтЬ2 kit-Conjugation ;
 +PxSg3:%>нзО1 kudo-Conjugation ;
 +PxPl1:%>нО1к lak-Conjugation ;
 +PxPl2:%>нк lak-Conjugation ;
@@ -754,9 +767,9 @@ LEXICON kudo-SPAT-PossX
 
 LEXICON osh-SPAT-PossX
 +PxSg1:%>О1нЬ2 kal-Conjugation ;
-+PxSg1+Use/Sub/Dial:%>О1м kal-Conjugation ;
++PxSg1+Dial:%>О1м kal-Conjugation ;
 +PxSg2:%>О1тЬ2 kit-Conjugation ;
-+PxSg2+Use/Sub/Dial:%>О1нтЬ2 kit-Conjugation ;
++PxSg2+Dial:%>О1нтЬ2 kit-Conjugation ;
 +PxSg3:%>О1нзО1 kudo-Conjugation ;
 +PxPl1:%>О1нО1к lak-Conjugation ;
 +PxPl2:%>О1нк lak-Conjugation ;
@@ -867,7 +880,7 @@ LEXICON Temp-Ill
 +Ill+Adv+Temp: Clitic ;
 
 LEXICON Temp-Indef
-+Adv+Temp+Indef: Clitic ;
++Adv+Temp+InDef: Clitic ;
 
 LEXICON Temp-Interr
 +Adv+Temp+Interr: Clitic ;
@@ -920,13 +933,13 @@ LEXICON Cs
 !аволь+Pcle+Neg+Emphatic:аволь # ;
 !ай+Pcle+Neg+Emphatic:ай N-kal ;
 !апак+Pcle+Neg:апак lak-Tenses-Obl ;
-!седе+Pcle+Compar:седе # ;
+!седе+Pcle+Comp:седе # ;
 !сех+Pcle+Superl:сех # ;
 !сех+Pcle+Superl+Abl:сехте # ; ! This is a comparative construction
 !уш+Pcle+Intensifier:уш # ;
 
 LEXICON Pcle-Compar-Stnd
-+Pcle+Compar: # ;
++Pcle+Comp: # ;
 
 LEXICON Pcle-Epist
 +Pcle+Epist: # ;
@@ -975,12 +988,12 @@ LEXICON N-Voc-Px1Sg
 ! ======= !
 
 LEXICON lak-Clitic
-+Use/Sub/Short+Clt/Гак:%>KLossГ1ак # ;
++Use/Sub/Short+Foc/Гак:%>KLossГ1ак # ;
  Clitic ;
 
 LEXICON Clitic
             # ; 
-+Clt/Гак:%>Г1ак # ;
++Foc/Гак:%>Г1ак # ;
 
 
 ! List of spurious lexica
@@ -1024,8 +1037,8 @@ LEXICON alo-Spat-NoArg
 +Adv+Spat+Abl:%>дО1 Clitic ;
 +Adv+Spat+Loc:%>О1 Clitic ;
 +Adv+Spat+Prl:%>Г2а Clitic ;
-+Adv+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Adv+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Adv+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Adv+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
 LEXICON alo-Spat-1Arg
 +Po+Spat+Abl:%>дО1 kudo-Indef--Poss ;
@@ -1035,10 +1048,10 @@ LEXICON alo-Spat-1Arg
 +Po+Spat+OrthPhon+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Po+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
 +Po+Spat+Der/кс:%>кс N-osh ;
-+Po+Spat+Lat+Indef:%>О1в Clitic ;
-+Po+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
-+Po+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Po+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Po+Spat+Lat+InDef:%>О1в Clitic ;
++Po+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
++Po+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Po+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
 LEXICON alo-Spat-AdvN
  alo-Spat-NoArg ;
@@ -1051,18 +1064,18 @@ LEXICON alo-Spat-PoN
 +N+Loc:%>О1 Clitic ;
 
 LEXICON kovolo-Spat
-+Interr+Spat+Lat+Indef:%>О1в Clitic ;
-+Interr+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
-+Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Interr+Spat+Lat+InDef:%>О1в Clitic ;
++Interr+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
++Interr+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Interr+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 +Interr+Spat+Abl:%>дО1 kudo-Indef--Poss ;
 +Interr+Spat+Loc:%>О1 kudo-Indef--Poss ; 
 +Interr+Spat+Prl:%>Г2а kudo-Indef--Poss ;
 
-+Rel+Spat+Lat+Indef:%>О1в Clitic ;
-+Rel+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
-+Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Rel+Spat+Lat+InDef:%>О1в Clitic ;
++Rel+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
++Rel+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Rel+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 +Rel+Spat+Abl:%>дО1 kudo-Indef--Poss ;
 +Rel+Spat+Loc:%>О1 kudo-Indef--Poss ; 
 +Rel+Spat+Prl:%>Г2а kudo-Indef--Poss ;
@@ -1087,7 +1100,7 @@ LEXICON osh--DefSg-
 +Sg+Def:%>О1нть Clitic ;
 
 LEXICON osh-Indef--Poss
-+Indef: osh-Tenses-Obl ;
++InDef: osh-Tenses-Obl ;
 +PxSg1:%>О1нЬ2 kal-Tenses-Obl ;
 +PxSg2:%>О1тЬ2 kit-Tenses-Obl ;
 +PxSg3:%>О1нзО1 kudo-Tenses-Obl ;
@@ -1103,7 +1116,7 @@ LEXICON kudo--DefSg-
 +Sg+Def:%>О1нть Clitic ;
 
 LEXICON kudo-Indef--Poss
-+Indef: kudo-Tenses-Obl ;
++InDef: kudo-Tenses-Obl ;
 +PxSg1:%>нЬ2 kal-Tenses-Obl ;
 +PxSg2:%>тЬ2 kit-Tenses-Obl ;
 +PxSg3:%>нзО1 kudo-Tenses-Obl ;
