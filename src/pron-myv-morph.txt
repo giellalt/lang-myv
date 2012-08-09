@@ -27,15 +27,15 @@ LEXICON PERS
 !!!!!!
 эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
 эсь+Refl+Adn:эсь # ;
-эсь+Use/Sub+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне Clitic ;
-эсь+Use/Sub+Refl+Pron+Gen+PxSg2+Pl:эсетне kudo-PersPronGen_CX-2 ;
+эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне Clitic ;
+эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Pl:эсетне kudo-PersPronGen_CX-2 ;
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсеттне Clitic ;
-эсь+Refl+Pron+Gen+PxSg2+OldOrth+Pl:эсеттне kudo-PersPronGen_CX-2 ;
+эсь+Refl+Pron+Gen+PxSg2+Pl:эсеттне kudo-PersPronGen_CX-2 ;
 
-эсь+Use/Sub+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсестнэ Clitic ;
-эсь+Use/Sub+Refl+Pron+Gen+PxPl3+Pl:эсестнэ kudo-PersPronGen_CX-2 ;
+эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсестнэ Clitic ;
+эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Pl:эсестнэ kudo-PersPronGen_CX-2 ;
 эсь+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсесттнэ Clitic ;
-эсь+Refl+Pron+Gen+PxPl3+OldOrth+Pl:эсесттнэ kudo-PersPronGen_CX-2 ;
+эсь+Refl+Pron+Gen+PxPl3+Pl:эсесттнэ kudo-PersPronGen_CX-2 ;
 !Dealing with short comings! need to be fixed
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Sg+Tra+InDef:эсетекс Clitic ;
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Tra+InDef:эсетекс Clitic ;
@@ -59,7 +59,7 @@ LEXICON PERS
 ськамнензэ+Pron+Exclusive+PerifMod+Der/не:ськамне kudo-N-Poss-Declension-PossX ; 
 ськаминензэ+Pron+Exclusive+PerifMod+Der/не:ськамине kudo-N-Poss-Declension-PossX ; 
 ськамнинензэ+Pron+Exclusive+PerifMod+Der/не+Der/не:ськамнине kudo-N-Poss-Declension-PossX ; 
-! in the PRON_myv-lex.xml file !Dat-Pron ! тензэ+Short+Pron+DAT:те PossPX1 ; 
+! in the PRON_myv-lex.xml file !Dat-Pron ! тензэ+Pron+DAT:те PossPX1 ; 
 
 эстензэ+Refl+Pron+DatCx:эсте PossPX1 ; 
 эськанзо+Refl+Pron+Prl:эська PossPX1 ; 
@@ -83,7 +83,7 @@ LEXICON Pers_Pronouns1
 !!PROBLEM 2009-09-16 why does nstY4 have the Y4
 
 !+Refl+Gen+Pron:%>О1нсе PersPron_Gen ;
-+Dial+Refl+LV+Gen+Pron:%>О1нси PersPron_Gen ;
++Dial+Refl+Gen+Pron:%>О1нси PersPron_Gen ;
 
 
 !2! Pers_Pronouns1_es ;
@@ -102,7 +102,7 @@ LEXICON Pers_Pronouns1
 +DatCx:не PersPron_PossPX ;
 +Ill:ньзэ  PersPron_PossPX ;
 +Tra@P.LV.ON@:нькс@P.LV.ON@ osh-PersPron_PossPX ; 
-+Tra+LV+Tra@P.LV.ON@:ньксэкс@P.LV.ON@ osh-PersPron_PossPX ; 
++Tra+Tra@P.LV.ON@:ньксэкс@P.LV.ON@ osh-PersPron_PossPX ; 
 
 +Abl:%>нде PersPron_Oblique ; 
 +Abe:%>нтеме PersPron_Oblique ;
@@ -123,9 +123,9 @@ LEXICON PersPron_Minsy-Obliq
 +Abl+Abl:%>теде PersPron_PossPX ;
 +Abl:%>О1де PersPron_PossPX ;
 +Prl:%>Г2а PersPron_Oblique ;
-+LV+CompCx:%>О1шка PersPron_Oblique ;
++CompCx:%>О1шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
-+LV+Tra@P.LV.ON@:%>О1кс@P.LV.ON@ osh-PersPron_PossPX ;
++Tra@P.LV.ON@:%>О1кс@P.LV.ON@ osh-PersPron_PossPX ;
 +Gen+Dial+PxSg1@U.PossPx.1Sg@:%>О1м@U.PossPx.1Sg@ kal-PersPronGen_CX ;
 +Gen+PxSg1@U.PossPx.1Sg@:%>О1нь@U.PossPx.1Sg@ kal-PersPronGen_CX ;
 +Gen+PxSg2@U.PossPx.2Sg@:%>О1тЬ2@U.PossPx.2Sg@ kit-PersPronGen_CX ;
@@ -138,16 +138,16 @@ LEXICON PersPron_Minsy-Obliq
 +Gen+Dial+PxPl3@U.PossPx.3Pl@:%>О1нст@U.PossPx.3Pl@ Clitic ;
 
 LEXICON PersPron_Gen
-+LV+Gen+Dial+PxSg1@U.PossPx.1Sg@:%>О1м@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+LV+Gen+PxSg1@U.PossPx.1Sg@:%>О1нь@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+LV+Gen+PxSg2@U.PossPx.2Sg@:%>О1тЬ2@U.PossPx.2Sg@ kit-PersPronGen_CX ;
-+LV+Gen+PxSg3@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+LV+Gen+PxPl1@U.PossPx.1Pl@:%>О1нО1к@U.PossPx.1Pl@ lak-PersPronGen_CX ;
-+LV+Gen+PxPl2@U.PossPx.2Pl@:%>О1нк@U.PossPx.2Pl@ lak-PersPronGen_CX ;
-+LV+Gen+PxPl3@U.PossPx.3Pl@:%>О1ст@U.PossPx.3Pl@ kit-PersPronGen_CX ;
++Gen+Dial+PxSg1@U.PossPx.1Sg@:%>О1м@U.PossPx.1Sg@ kal-PersPronGen_CX ;
++Gen+PxSg1@U.PossPx.1Sg@:%>О1нь@U.PossPx.1Sg@ kal-PersPronGen_CX ;
++Gen+PxSg2@U.PossPx.2Sg@:%>О1тЬ2@U.PossPx.2Sg@ kit-PersPronGen_CX ;
++Gen+PxSg3@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
++Gen+PxPl1@U.PossPx.1Pl@:%>О1нО1к@U.PossPx.1Pl@ lak-PersPronGen_CX ;
++Gen+PxPl2@U.PossPx.2Pl@:%>О1нк@U.PossPx.2Pl@ lak-PersPronGen_CX ;
++Gen+PxPl3@U.PossPx.3Pl@:%>О1ст@U.PossPx.3Pl@ kit-PersPronGen_CX ;
 !!these just go onto the clitics
-+LV+Gen+Dial+PxSg2@U.PossPx.2Sg@:%>О1нтЬ2@U.PossPx.2Sg@ Clitic ;
-+LV+Gen+Dial+PxPl3@U.PossPx.3Pl@:%>О1нст@U.PossPx.3Pl@ Clitic ;
++Gen+Dial+PxSg2@U.PossPx.2Sg@:%>О1нтЬ2@U.PossPx.2Sg@ Clitic ;
++Gen+Dial+PxPl3@U.PossPx.3Pl@:%>О1нст@U.PossPx.3Pl@ Clitic ;
 +Dial+NoPoss: Clitic ;
 
 LEXICON PersPron_Oblique
@@ -195,7 +195,7 @@ LEXICON osh-PersPron_PossPX
 LEXICON kal-PersPronGen_CX
 @C.TPERS@@C.TNUM@ kal-Tenses1 ;
 +Der/MWN+N: kal-PersPronGen_CX-1A ;
-+Der/MWN+N+Use/Sub/OldOrth+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+SOD@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
@@ -203,7 +203,7 @@ LEXICON kal-PersPronGen_CX
 LEXICON lak-PersPronGen_CX
 @C.TPERS@@C.TNUM@ lak-Tenses1 ;
 +Der/MWN+N:  lak-PersPronGen_CX-1A ;
-+Der/MWN+N+Use/Sub/OldOrth+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+SOD@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
@@ -211,7 +211,7 @@ LEXICON lak-PersPronGen_CX
 LEXICON kit-PersPronGen_CX
 @C.TPERS@@C.TNUM@ kit-Tenses1 ;
 +Der/MWN+N:  kit-PersPronGen_CX-1A ;
-+Der/MWN+N+Use/Sub/OldOrth+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+SOD@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
@@ -219,7 +219,7 @@ LEXICON kit-PersPronGen_CX
 LEXICON kudo-PersPronGen_CX
 @C.TPERS@@C.TNUM@ kudo-Tenses1 ;
 +Der/MWN+N: kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Use/Sub/OldOrth+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+SOD@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
 +Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
@@ -388,7 +388,7 @@ LEXICON  Indef_Pronouns
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-Clitic ;
 !мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
 мезе+Pron+Nom+Pl:мезть Indef_Pronouns-Clitic ;
-мезе+Pron+OldOrth+Nom+Pl:месть Indef_Pronouns-Clitic ;
+мезе+Pron+Orth/PhonInfl+Nom+Pl:месть Indef_Pronouns-Clitic ;
 мекс+Pron+Tra:мекс Indef_Pronouns-Clitic ;
 !мезе+Pron:мейИ3 Indef_Pronouns-Cases ;
 !мезе+Pron+Tra:мезекс Indef_Pronouns-Clitic ;
@@ -500,7 +500,7 @@ LEXICON Indef_Pronouns-Clitic-post
 ! Removing +Clt tag, these derivations
 +Der/бути+Indef:%-бути # ;
 +Der/Гак+Indef:%>Г1ак # ;
-+Relat:  # ;
++Rel:  # ;
 +Interr:  # ;
 
 LEXICON Dem-tona

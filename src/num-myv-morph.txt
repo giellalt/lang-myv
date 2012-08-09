@@ -162,12 +162,23 @@ LEXICON sjado-NUM-PL
 +Qnt+Num: pango-N-Poss-Declension-CX-PL ;
 
 
-
-
-LEXICON Quants1
- Quants2 ;
+LEXICON Cards-kal
 +Ord:%>це Quants3 ;
-+Ord+LV:%>О1це Quants3 ;
+ Quants2 ;
+
+LEXICON Cards-osh
++Ord:%>О1це Quants3 ;
+ Quants2 ;
+
+LEXICON Cards-kudo
++Ord:%>це Quants3 ;
+ Quants2 ;
+
+! 2012-08-09
+!LEXICON Quants1
+! Quants2 ;
+! +Ord:%>це Quants3 ;
+! +Ord:%>О1це Quants3 ;
 
 LEXICON Quants2
  Quants3 ;
@@ -178,9 +189,9 @@ LEXICON Quants2
 +Appr+Coll:%>шкане Possessives2-Ill ;
 +Coll:%>не kudo-Possessive-Before-Clitic ;
 +Iter:%>ксть Clitics ;
-+LV+Iter:%>О1ксть Clitics ;
++Iter:%>О1ксть Clitics ;
 +Appr+Iter:%>шкаксть Clitics ;
-+LV+Appr+Iter:%>О1шкаксть Clitics ;
++Appr+Iter:%>О1шкаксть Clitics ;
 
 LEXICON Quants3
 !Cx PossPx Tx PredPx Clitic
@@ -261,7 +272,7 @@ LEXICON Quants3
 +Pl+Nom+Def:%>тне kudo-Tenses1 ;
 
 +Abl:%>дО1 kudo-Possessive-Before-Clitic ;
-+LV+Abl:%>О1дО1 kudo-Possessive-Before-Clitic ;
++Abl:%>О1дО1 kudo-Possessive-Before-Clitic ;
 +NoVowX+Gen:%>нь kal-Tenses1 ;
 +DatCx:%>нень Clitics ;
 +NoVowX+Ill:%>с Clitics ;
@@ -321,7 +332,7 @@ LEXICON Quants3
 +Pl+Ine+Def:%>тне%>сэ kudo-Attributes2 ; 
 +Pl+Ela+Def:%>тне%>стэ kudo-Attributes2 ;
 +Pl+CompCx+Def:%>тне%>шка kudo-Attributes2 ; 
-+TLoss@R.TLOSS.ON@:@R.TLOSS.ON@ Quants3_TLOSS ;
++Use/Sub@R.TLOSS.ON@:@R.TLOSS.ON@ Quants3_TLOSS ;
 
 LEXICON Quants3_TLOSS
 +Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ kudo-Tenses1 ;
@@ -399,10 +410,10 @@ LEXICON Attributes2_PL
 
 
 LEXICON Tenses1
-+Pred+Pres+ScSg1:%>А2н Clitics ;
-+Pred+Pres+ScSg2:%>А2т Clitics ;
-+Pred+Pres+ScPl1:%>тА2но Clitics ;
-+Pred+Pres+ScPl2:%>тА2до Clitics ;
++Pred+NonPast+ScSg1:%>А2н Clitics ;
++Pred+NonPast+ScSg2:%>А2т Clitics ;
++Pred+NonPast+ScPl1:%>тА2но Clitics ;
++Pred+NonPast+ScPl2:%>тА2до Clitics ;
 
 +NoVowX+Pred+Prt2+ScSg1:%>линь Clitics ;
 +NoVowX+Pred+Prt2+ScSg2:%>лить Clitics ;
@@ -410,8 +421,8 @@ LEXICON Tenses1
 +NoVowX+Pred+Prt2+ScPl1@P.KLOSS.ON@:%>линек@P.KLOSS.ON@ Clitics ;
 +NoVowX+Pred+Prt2+ScPl2:%>лиде Clitics ;
 +NoVowX+Pred+Prt2+ScPl3:%>льть Clitics ;
-+Pred+Pres+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Clitics ;
-+Pred+Pres+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Clitics ;
++Pred+NonPast+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Clitics ;
++Pred+NonPast+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Clitics ;
 
 +VowX+Pred+Prt2+ScSg1:%>О1линь Clitics ;
 +VowX+Pred+Prt2+ScSg2:%>О1лить Clitics ;
@@ -421,9 +432,9 @@ LEXICON Tenses1
 +VowX+Pred+Prt2+ScPl3:%>О1льть Clitics ;
 
 LEXICON Clitics
-+KLoss@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ # ;
-+Clt:%>Г1ак # ;
-+NoClitic: # ;
++Use/Sub@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ # ;
++Foc/Гак:%>Г1ак # ;
+   # ; ! No clitics
 
 LEXICON vese-QNT
 +Pron: kudo-Misc_Pronouns_Sg ;
