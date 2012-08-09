@@ -23,18 +23,33 @@ Multichar_Symbols
  +Appr ! Approximative numeral кавто-колмо, колмошка 'two or three'
     ! NB! do not confuse with Komi case +Apr
 
-! Usage tags
+! Adverbs
+ +Adv-Ideoph ! These are ideophonic descriptors used to modify the verb
+            ! вырк ливтясь '_flit_ and it flew off'
+ +AdA ! Ad-adjective
+ +Manner ! with reference to type of adverb
+ +Spat ! spatial
+ +Spat-NoArg ! This takes care of adverbs
+ +Temp
+ +Temp-NoArg ! This takes care of adverbs
+
+! Postposition
+ +Spat-1Arg ! This takes care of postpostions
+ +Temp-1Arg ! This takes care of postpostions
+
+
+!!! ==== Usage tags ====
   +Use/Sub   ! Substandard
   +Use/Marg  ! Marginal
   +Use/-Spell !recognized but not suggested in speller
   +Use/LexSub ! The lemma is not an Erzya word (Depricating _+Src/F_)
 
-! Dialect tags
+!!! ==== Dialect tags ====
  +Dial/SH ! Short forms
  +Dial/L  ! Long forms
  +Dial    ! Specific to some dialects
 
-! Orthography tags
+!!! ==== Orthography tags ====
   +Orth/PhonDeriv ! Derivation is phonetic
                    ! but declension and conjugation morphologic
   +Orth/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30
@@ -205,10 +220,6 @@ ZERO
 
 !!! CHECKING 2012-08-09
 
-+Noun ! Noun
-+NomGen ! Nominative and genitive functions
-+NonNomSg ! applicable to 1sg and 3sg possession
-!+NoLV ! +NoVowX
 +Obj ! Object
 +Obliq !
 !+MVme !Main verb "mo" vs "me"
@@ -252,10 +263,6 @@ ZERO
 
 
 ! POS
-+Adv-Ideoph ! These are ideophonic descriptors used to modify the verb
-            ! вырк ливтясь '_flit_ and it flew off'
-+AdA ! Ad-adjective
-+Manner ! with reference to type of adverb
 +Clt
 
 
@@ -343,12 +350,6 @@ ZERO
 !
 !
 
-+Spat ! spatial
-+Spat-1Arg ! This takes care of postpostions
-+Spat-NoArg ! This takes care of adverbs
-+Temp
-+Temp-1Arg ! This takes care of postpostions
-+Temp-NoArg ! This takes care of adverbs
 
 +State ! position or state
 
