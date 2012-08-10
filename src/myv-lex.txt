@@ -60,6 +60,7 @@ Multichar_Symbols
                    ! but declension and conjugation morphologic
   +Orth/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30
   +Orth/PhonComb
+  +Orth/SH
 
 !!!! === Tags for Inflection ===
 
@@ -106,7 +107,7 @@ Multichar_Symbols
  +Conj ! Ындеря- (Derivational)
  +Oblig ! modality: deontic/directive/obligative
            !  андомс: андома , якамс: якама
- +Delib ! +Sugg modality: deontic/directive/deliberative
+ +Delib ! _+ Sugg modality_: deontic/directive/deliberative
        ! I still need the right word for this андомс: андомсат
 
 
@@ -167,7 +168,8 @@ Multichar_Symbols
 ! Modifier without noun
 +Der/MWN ! Modifier without Noun
 +Der/Dem ! Speaker-Oriented Demonstrative
-
+! Conjugation of words other than finite verbs
++Der/Pr
 
 !Declaring Indefinite Pronoun derivations
 +Der/Гак
@@ -284,7 +286,7 @@ ZERO
 
 !Range limitations with regard to 4 classical sentence types:
 ! Statement, Question,      Command, Exclamation
-! --"--    , +Range/Interr, 
+! --"--    , + Range/Interr, 
 ! 
 
 !!!! Flags used with serial verbs
@@ -730,7 +732,7 @@ LEXICON MannerTag !
 LEXICON Manner-Interr ! 
 +Interr+Adv+Manner: Clitic ;
 
-LEXICON Pred2 !
+LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 +Pred2: Clitic ;
 +Pred2+Der/MWN: N-kudo ;
 
@@ -890,7 +892,7 @@ LEXICON N-Voc-Px1Sg
 ! ======= !
 
 LEXICON lak-Clitic
-+Use/Sub/Short+Foc/Гак:%>KLossГ1ак # ;
++Use/Sub+Orth/SH+Foc/Гак:%>KLossГ1ак # ;
  Clitic ;
 
 LEXICON Clitic
@@ -905,7 +907,7 @@ LEXICON Clitic
 ! This lexicon would allow a loop whereby any full form
 ! could be treated as a noun
 ! E.G. мезеяк # 'anything'
-! E.G. мезеяк+ось # 'This _anything_ you are talking about'
+! E.G. мезеяк+ ось # 'This _anything_ you are talking about'
 !LEXICON Encapsulate
 
 
@@ -932,7 +934,7 @@ LEXICON alo-Spat
  alo-Spat-1Arg ;
 
 LEXICON alo-Spat-NoArg
-+Adv+Spat+OrthPhon+Loc+Der/це:%>це kudo-N2-Def-Declension ;
++Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Adv+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
 +Adv+Spat+Der/кс:%>кс N-osh ;
 +Adv+Spat+Lat:%>О1в Clitic ;
@@ -947,7 +949,7 @@ LEXICON alo-Spat-1Arg
 +Po+Spat+Loc:%>О1 kudo-Indef--Poss ; 
 +Po+Spat+Lat:%>О1 kudo-Possessive-Before-Clitic ;
 +Po+Spat+Prl:%>Г2а kudo-Indef--Poss ;
-+Po+Spat+OrthPhon+Loc+Der/це:%>це kudo-N2-Def-Declension ;
++Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Po+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
 +Po+Spat+Der/кс:%>кс N-osh ;
 +Po+Spat+Lat+InDef:%>О1в Clitic ;
