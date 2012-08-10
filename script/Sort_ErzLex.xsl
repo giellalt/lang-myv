@@ -15,6 +15,7 @@
   <xsl:for-each select="//entry">
     <xsl:sort select="lg/l"/>
     <xsl:sort select="@order"/>
+    <xsl:sort select="lg/@IdNo"/>
     <xsl:sort select="e/mg/tg/t"/>
 
 <xsl:copy-of select="."/>
