@@ -35,13 +35,11 @@ Multichar_Symbols
  +AdA ! Ad-adjective
  +Manner ! with reference to type of adverb
  +Spat ! spatial
- +Spat-NoArg ! This takes care of adverbs
  +Temp
- +Temp-NoArg ! This takes care of adverbs
+
 
 ! Postpositions
- +Spat-1Arg ! This takes care of postpostions
- +Temp-1Arg ! This takes care of postpostions
+! _+ Spat_, _+ Temp_
 
 
 !!! ==== Usage tags ====
@@ -210,9 +208,7 @@ ZERO
 %-
 
 ! tags
-+NCrd
-+NOrd
-+Dig1
+§+Dig1
 +Dig2
 +Dig3
 +Dig4
@@ -739,7 +735,7 @@ LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 !! spatial adverbs 
 !! dependent and independent case marking 
 LEXICON Spat-NoArg
-+Adv+Spat-NoArg: Clitic ;
++Adv+Spat: Clitic ;
 
 LEXICON Spat-Interr
 +Interr+Spat: # ;
