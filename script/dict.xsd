@@ -1414,7 +1414,10 @@
    <xs:element name="xg">
       <xs:complexType>
          <xs:sequence>
+<xs:choice>
             <xs:element ref="x"/>
+            <xs:element ref="xCtn"/>
+</xs:choice>
             <xs:element minOccurs="0" ref="phonet"/>
             <xs:choice maxOccurs="unbounded" minOccurs="0">
 	      <xs:element ref="att"/>
@@ -1436,6 +1439,16 @@
          <xs:attribute ref="genreType"/>
       </xs:complexType>
    </xs:element>
+<xs:element name="xCtn">
+<xs:complexType>
+         <xs:sequence>
+<xs:element ref="x"/>
+<xs:choice>
+<xs:element ref="re"/>
+</xs:choice>
+	 </xs:sequence>
+</xs:complexType>
+</xs:element>
    <xs:element name="x">
       <xs:complexType mixed="true">
          <xs:sequence/>
