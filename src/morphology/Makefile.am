@@ -17,27 +17,90 @@
 
 # Set this to name of lexc file containing Multichar_Symbols and LEXICON Root
 GT_LEXC_ROOT=root.lexc
-# Set this to names of all other lexc files
+
+# Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
-			 stems/abbr.lexc \
-			 stems/acro.lexc \
-			 stems/adj.lexc \
-			 stems/adv.lexc \
-			 stems/cc.lexc \
-			 stems/cs.lexc \
-			 stems/det.lexc \
-			 stems/interj.lexc \
-			 stems/noun.lexc \
-			 stems/numeral.lexc \
-			 stems/pp.lexc \
-			 stems/pron.lexc \
-			 stems/propernoun.lexc \
-			 stems/punct.lexc \
-			 stems/verb.lexc \
-			 affixes/adjectives.lexc \
-			 affixes/nouns.lexc \
-			 affixes/propernouns.lexc \
-			 affixes/verbs.lexc
+			stems/abbr.lexc
+			stems/acro.lexc
+			stems/punct.lexc
+			affixes/adjectives.lexc  \
+			affixes/nouns.lexc       \
+			affixes/pronouns.lexc    \
+			affixes/propernouns.lexc \
+			affixes/quantifiers.lexc \
+			affixes/verbs.lexc
+
+# Set this to the names of all generated lexc files, if any
+GENERATED_LEXC_SRCS=\
+			stems/adjective-adverb-modifiers.lexc              \
+			stems/adjectives.lexc                              \
+			stems/adverb-manner.lexc                           \
+			stems/adverb-spatials.lexc                         \
+			stems/adverb-temporals.lexc                        \
+			stems/adverbs.lexc                                 \
+			stems/bahuvrihis.lexc                              \
+			stems/conjunctions.lexc                            \
+			stems/demonstratives.lexc                          \
+			stems/interjections.lexc                           \
+			stems/mwe-nouns.lexc                               \
+			stems/mwe-verbs.lexc                               \
+			stems/noun-common-collective.lexc                  \
+			stems/noun-common.lexc                             \
+			stems/noun-deverbal.lexc                           \
+			stems/noun-proper-animate-femalenames.lexc         \
+			stems/noun-proper-animate-malenames.lexc           \
+			stems/noun-proper-animate-names.lexc               \
+			stems/noun-proper-femalenames-cyrillic.lexc        \
+			stems/noun-proper-inanimate.lexc                   \
+			stems/noun-proper-malenames-cyrillic.lexc          \
+			stems/noun-proper-malenames-russian-derivable.lexc \
+			stems/noun-proper.lexc                             \
+			stems/participles.lexc                             \
+			stems/particles.lexc                               \
+			stems/postpositions.lexc                           \
+			stems/predication-secondary.lexc                   \
+			stems/pronouns.lexc                                \
+			stems/quantifiers.lexc                             \
+			stems/verbs.lexc                                   \
+			stems/Working-adjectives.lexc                      \
+			stems/Working-nouns.lexc                           \
+			stems/Working-verbs.lexc
+
+# Set this to the names of all source xml files, if any
+GT_XML_SRCS=\
+			stems/adjective-adverb-modifiers.xml              \
+			stems/adjectives.xml                              \
+			stems/adverb-manner.xml                           \
+			stems/adverb-spatials.xml                         \
+			stems/adverb-temporals.xml                        \
+			stems/adverbs.xml                                 \
+			stems/bahuvrihis.xml                              \
+			stems/conjunctions.xml                            \
+			stems/demonstratives.xml                          \
+			stems/interjections.xml                           \
+			stems/mwe-nouns.xml                               \
+			stems/mwe-verbs.xml                               \
+			stems/noun-common-collective.xml                  \
+			stems/noun-common.xml                             \
+			stems/noun-deverbal.xml                           \
+			stems/noun-proper-animate-femalenames.xml         \
+			stems/noun-proper-animate-malenames.xml           \
+			stems/noun-proper-animate-names.xml               \
+			stems/noun-proper-femalenames-cyrillic.xml        \
+			stems/noun-proper-inanimate.xml                   \
+			stems/noun-proper-malenames-cyrillic.xml          \
+			stems/noun-proper-malenames-russian-derivable.xml \
+			stems/noun-proper.xml                             \
+			stems/participles.xml                             \
+			stems/particles.xml                               \
+			stems/postpositions.xml                           \
+			stems/predication-secondary.xml                   \
+			stems/pronouns.xml                                \
+			stems/quantifiers.xml                             \
+			stems/verbs.xml                                   \
+			stems/Working-adjectives.xml                      \
+			stems/Working-nouns.xml                           \
+			stems/Working-verbs.xml
 
 include $(top_srcdir)/am-shared/lexc-include.am
 
