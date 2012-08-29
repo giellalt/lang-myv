@@ -42,9 +42,6 @@ GENERATED_LEXC_SRCS=\
 			stems/conjunctions.lexc                            \
 			stems/demonstratives.lexc                          \
 			stems/interjections.lexc                           \
-			stems/mwe-nouns.lexc                               \
-			stems/mwe-verbs.lexc                               \
-			stems/noun-common-collective.lexc                  \
 			stems/noun-common.lexc                             \
 			stems/noun-deverbal.lexc                           \
 			stems/noun-proper-animate-femalenames.lexc         \
@@ -78,9 +75,6 @@ GT_XML_SRCS=\
 			stems/conjunctions.xml                            \
 			stems/demonstratives.xml                          \
 			stems/interjections.xml                           \
-			stems/mwe-nouns.xml                               \
-			stems/mwe-verbs.xml                               \
-			stems/noun-common-collective.xml                  \
 			stems/noun-common.xml                             \
 			stems/noun-deverbal.xml                           \
 			stems/noun-proper-animate-femalenames.xml         \
