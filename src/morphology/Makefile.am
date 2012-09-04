@@ -58,10 +58,7 @@ GENERATED_LEXC_SRCS=\
 			stems/predication-secondary.lexc                   \
 			stems/pronouns.lexc                                \
 			stems/quantifiers.lexc                             \
-			stems/verbs.lexc                                   \
-			stems/Working-adjectives.lexc                      \
-			stems/Working-nouns.lexc                           \
-			stems/Working-verbs.lexc
+			stems/verbs.lexc                                   
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -91,10 +88,7 @@ GT_XML_SRCS=\
 			stems/predication-secondary.xml                   \
 			stems/pronouns.xml                                \
 			stems/quantifiers.xml                             \
-			stems/verbs.xml                                   \
-			stems/Working-adjectives.xml                      \
-			stems/Working-nouns.xml                           \
-			stems/Working-verbs.xml
+			stems/verbs.xml                                   
 
 include $(top_srcdir)/am-shared/lexc-include.am
 
