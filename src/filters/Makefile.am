@@ -22,6 +22,8 @@ GT_FILTER_SRCS=
 GT_FILTER_TARGETS=
 if WANT_HFST
 GT_FILTER_TARGETS+=\
+				   make-optional-semantic-tags.hfst     \
+				   make-optional-transitivity-tags.hfst \
 				   remove-derivation-position-tags.hfst \
 				   remove-dictionary-tags.hfst          \
 				   remove-morph-borders.hfst            \
@@ -33,6 +35,8 @@ endif
 
 if WANT_XFST
 GT_FILTER_TARGETS+=\
+				   make-optional-semantic-tags.xfst     \
+				   make-optional-transitivity-tags.xfst \
 				   remove-derivation-position-tags.xfst \
 				   remove-dictionary-tags.xfst          \
 				   remove-morph-borders.xfst            \

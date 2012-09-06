@@ -140,6 +140,8 @@ analyser.gt.xfst.tmp: raw.gt.xfst \
 # This is the standard generating transducer. It should not require any tags
 # beyond the standard morphological analysis, thus all other tags are deleted.
 generator.gt.xfst.tmp: raw.gt.xfst \
+					filters/make-optional-semantic-tags.xfst \
+					filters/make-optional-transitivity-tags.xfst \
 					filters/remove-derivation-position-tags.xfst \
 					filters/remove-dialect-tags.xfst \
 					filters/remove-dictionary-tags.xfst \
@@ -149,7 +151,9 @@ generator.gt.xfst.tmp: raw.gt.xfst \
 					filters/remove-sub-forms.xfst \
 					filters/remove-usage-tags.xfst
 	$(PRINTF) "read regex \
-				@\"filters/remove-derivation-position-tags.xfst\" \
+				@\"filters/make-optional-semantic-tags.xfst\" \
+			.o. @\"filters/make-optional-transitivity-tags.xfst\" \
+			.o. @\"filters/remove-derivation-position-tags.xfst\" \
 			.o. @\"filters/remove-dialect-tags.xfst\" \
 			.o. @\"filters/remove-dictionary-tags.xfst\" \
 			.o. @\"filters/remove-norm-comp-tags.xfst\" \
