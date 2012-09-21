@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/myv-gen.hfstol
-    Morph: ../bin/myv.hfstol
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
   xerox:
-    Gen: ../bin/imyv.fst
-    Morph: ../bin/myv.fst
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
     App: lookup
 
 Tests:
