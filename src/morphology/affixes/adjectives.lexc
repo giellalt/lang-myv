@@ -1,0 +1,100 @@
+!! Adjective inflection
+!! --------------------
+!! The UNDEFINED language adjectives compare.
+
+
+LEXICON Abe-Adj
++Der/Abe: Adj-shumbra ;
+
+! 2012-04-03 These do not exist in present dictionary
+!LEXICON Comp-Adj
+!+Der/Comp: Adj-shumbra ;
+
+LEXICON Gen-Adj ! The genitive is used as an attribute and predicate modifier
++Der/Gen: Clitic ;
++Der/Gen: kal-NomSg-Conjugation ; ! These need checking 2012-04-17
++Der/Gen: kal-NomPl-Conjugation ; ! These need checking 2012-04-17
+
+
+LEXICON Adj-PL-vejketj
+ Adj-vitj ;
+
+LEXICON Adj-vitj
++A: Clitic ;
++A: kit-NomSg-Conjugation ;
++A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
++A+Pl: kit-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 Clitic ;
++A+Der/MWN: N-kit ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
+LEXICON Adj-erek
++A: Clitic ;
++A: lak-NomSg-Conjugation ;
++A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
++A+Pl: lak-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 Clitic ;
++A+Der/MWN: N-lak ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
+LEXICON Adj-od
++A: Clitic ;
++A: kal-NomSg-Conjugation ;
++A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
++A+Pl: kal-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 Clitic ;
++A+Der/MWN: N-kal ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
+LEXICON Adj-vanjks
++A: Clitic ;
++A: kal-NomSg-Conjugation ;
++A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
++A+Pl: kal-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 Clitic ;
++A+Der/MWN: N-osh ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
+LEXICON Adj-chevte
+:И2 Adj-nachko-lembe ;
+
+LEXICON Adj-tashto
+:У2 Adj-nachko-lembe ;
+
+LEXICON Adj-lembe
+:И2 Adj-nachko-lembe ;
+
+LEXICON Adj-nachko
+:У2 Adj-nachko-lembe ;
+
+LEXICON Adj-nachko-lembe
++A: Clitic ;
++A: pango-NomSg-Conjugation ;
++A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
++A+Pl: pango-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 Clitic ;
++A+Der/MWN: N-pango ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
+LEXICON Adj-shumbra
++A: Clitic ;
++A: kudo-NomSg-Conjugation ;
++A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
++A+Pl: kudo-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 Clitic ;
++A+Der/MWN: N-kudo ;
++A+Der/Dem+Der/MWN+N:%>се kudo-N2-Def-Declension ;
+
+
+LEXICON Adj-InterrRel ! кодамо
++Interr: Adj-nachko ;
++Rel: Adj-nachko ;
+
+LEXICON Adj-Dem ! истямо
++Dem: Adj-nachko ;
+
+LEXICON Adj-Po ! кондямо
++Po: Adj-nachko ;
+
+! vim: set ft=xfst-lexc:
+
