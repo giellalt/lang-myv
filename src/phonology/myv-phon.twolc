@@ -1,0 +1,393 @@
+!! =================================== !
+!! The Erzya morphophonological/twolc rules file !
+!! =================================== !
+
+
+Alphabet
+а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я  
+А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+
+
+! Nominal stem vowels that alternate 
+! work with "+VLoss" and "+NoVLoss" tags
+!
+У2:о
+У2:0
+И2:е
+И2:ь
+И2:0
+
+
+!Suffix final variant vowel for hard vs soft
+Ь2:ь !
+Ь2:0 !
+
+! verbal stem consonant that appear in PretI 3sg
+!Т1:0 !
+
+! derivational suffix protovowel with "o" and "a" 
+!realisation  in deverbal noun ending
+А1:а !
+
+! conjugational suffix protovowels 
+!showing "a" vs "я" and "ы" vs "и" alternation
+А2:а !А2
+А2:я !А2
+Ы2:и !
+Ы2:ы !
+
+! derivational suffix protovowel  "mo" and "me"
+О1:е !
+О1:э !
+О1:о !
+О1:0 !
+
+! clitic proto consonant
+Г1:г !
+Г1:к !
+Г1:0 !
+
+
+
+! Prolative Ga
+Г2:г !
+Г2:к !
+Г2:в !
+
+
+! Imperative clitic proto consonant
+Г4:г !
+Г4:к !
+Г4:0 !
+!Replace these with "G1" but apply stem final "K4" to
+!
+
+
+
+
+! imperative suffix
+К1:к !
+
+!
+
+! connegative suffix rendering vowel
+! панемс пань>О1К3 : пан00е0
+К3:0 !
+
+! Stem final on Imperative Verbs
+!!К4:0 !
+
+
+! Some verbs need a marker for vowel placement
+!Used before Conjuntive ending
+!V1:е !
+!V1:э !2012-03-13 look to О1:
+!V1:о !
+! I2 and U2 adjectives and nouns need this with their "t" and "s"
+!V2:0 
+
+TLoss:0
+SLoss:0
+KLoss:0
+VLoss:0
+WLoss:0
+NoVLoss:0
+
+%- !Hyphen with constructions like "-buti"
+%>:0
+
+;
+
+
+Sets
+
+Vows = а о у ы э я ё ю и е ;
+verbStemVows = а о э я ё е ;
+verbStemVowStrong = а о э я ё е ;
+noGlideVow = а о у ы э ;
+glideVow = я ё ю и е ;
+BTV = а о у я ё ю ; ! Back Trigger Vowels
+FTV = ы и е э ; ! Front Trigger Vowels
+
+Cons = б в г д ж з й к л м н п р с т ф х ц ч ш щ ;
+NPC = б в г д ж з к л м н п р с т ф х ц ч ш щ ; ! Nonpalatal Consonants
+ConsVoiced = б в г д ж з й л м н р ;
+ConsVoicedDent = д з л н р ;
+ConsVoicedNonDent = б в г ж й м ;
+ConsVoiceless = к п с т ф х ц ч ш щ ;
+ConsVoicelessDent = с т ц ;
+ConsVoicelessNonDent = к п ф х ч ш щ ;
+ConsNonDent = б в г ж к м п ф х ч ш щ ;
+ConsDent = д з л н р с т ц  ;
+ConsDentNoL = д з н р с т ц  ;
+
+Letters = Vows Cons ь ъ ;
+
+Definitions
+
+! Front Trigger Consonants (less ль)
+FTC = [ й: | д ь: | з ь: | н ь: | р ь: | с ь: | т ь: | ц ь: ] ;
+
+! All Consonants
+AC = [ FTC | л ь | NPC ] ;
+
+! Left Front Context Soft
+LFCS = [ [ FTV AC* [ Cons - ConsDent ] ] | FTV AC* FTC | [ BTV FTC [ AC* [ Cons - ConsDent ] ]* ] ] ;
+
+! Left Front Context Hard
+LFCH =[ [ :FTV AC* ConsDent ] | [ BTV FTC [ AC* ConsDent ]+ ] | [ BTV л ь [ к с ] ] ] ;
+
+! Left Back Context
+LBC = [ [ BTV ( %>:0 ) NPC+ ] | [ BTV л ь [[ NPC* NPC ] - [ :* к с ] ] ] ] ;
+
+PossX = [ м | н Ь2: | т Ь2: | н т Ь2: | н О1: к | н к | с т ] ;
+
+! Suffix-Initial Variable Vowel
+SIVV = [ PossX | в | н е н ь | т е н ь | т е т ь | н с т э н ь | н с т О1: | н т е н ь | л ь | л и | к с | ш к а | м О1: к | с | з ( %>:0 ) О1: | н з О1: | т ь | н т ь: | н ь: | в ( О1: ) л | м А1: | м г а | т с ь | т с т ь | з ь: ] ;
+
+SubseqBackHarm = [ А2:а | а | О1:о | У2:о | о | а:я | у| А2:я | я | ё | ю ] ;
+Back =  :* [SubseqBackHarm \[ :FTV | :й | :ь | И2: ]* ( л ь ) [NPC]]  ;
+
+
+
+
+!2007.04.11
+!didn't accept istoriya, ideya
+!accepted aziya, liya [:* - SubseqBackHarm*]] ;
+
+
+Rules
+
+
+!Changes in the stem vowels before "10", "20", "30" and "60"
+"verbStemVowStrong:0"
+ X:Y <=> [ Cons | Vows ] _  %>:0 [А2:я|А2:а [ н | т ]| Ы2:] ;
+!                   Cons  _ К4:0 %>:0  Ы2: ;
+          where X in (а о э ы у я ё е и ю)
+                Y in (0 0 0 0 0 0 0 0 0 0) matched ;
+
+!€ цёра%>А2н
+!€ цёр00ан
+
+
+!
+!Vowels in Nouns and Adjectives 
+!2006-12-02
+!"YI3:y"
+!И3:ь <=>  ConsDent  _ [%>:0  [Г1:г|Г1:к|Г2:г|Г2:к|с [%>:0 |#: ] | с (т) О1:э |:ConsNonDent]| #:] ;
+!      .#.   :* л  _ [%>:0 (в:0) :Cons|#:] ;
+!
+
+
+! Deverbal noun in ОмА
+"A1:o"
+А1:о <=>  [ а |я ] %>:0  м  _ ;
+
+"Y2:yi"
+Ы2:и <=> [ я:0 | ё:0 | е:0 | ю:0 | ь:0 | й:0 | ConsNonDent (noGlideVow:0)]  %>:0 _ ;
+
+
+"O1:ye"
+О1:е <=>  [ :е | :э | FTV %>:0 ] м  _  [ #: | %- | %>:0 [Г1:0 | SIVV | д: О1: ] | л  ] ;
+          [ ь:0 | й:0 ] %>:0   _   %>:0  д: О1:  ;
+         [[ LFCS | :FTV ] %>:0 | :FTV ] [ н | м ] _ к ;
+         [[ LFCS | л ь: ] %>:0 | :FTV ( ( %>:0 ) м ) ( %>:0 ) | [ О1:е | О1:э ] %>:0 | :FTV ( %>:0 ) [н Ь2:0 | т Ь2:0 | н О1: к | н к ]  %>:0  ] д:  _ [ %>:0 [ Г1:0 |  SIVV ] | #: ] ;
+         [ LFCS | FTV | FTC | л ь] %>:0  [в:0 | в ] т _ м [ О1:0 | О1:е ] ;
+          [ ConsDent: ь:0 | Vows й:0 ] %>:0 _ [( %>:0 ) SIVV | К3:0 | #: | %>:0 Г1:0 ] ;
+          LFCS %>:0 _  [ SIVV | К3:0 ] ;
+         [ FTV %>:0 | FTV в:0 %>:0 WLoss:0 | :FTV ] в _ л [ ь | и ] ;
+         
+
+!
+"O1:e"
+О1:э <=>  [ LFCH | :FTV ( %>:0 ) с т ] %>:0 д:  _ [ %>:0 [ Г1:0 | SIVV ] | #: ] ;
+         [[[ LFCH | LFCS | ь: | й: | :FTV | :FTV ( %>:0 ) [ PossX | т ь: | н т ь: | н ь:  ] ] %>:0 ] | И2:0 %>:0 VLoss:0 | [FTV %>:0 | %>:0 [ О1:э | О1:е ] ] м ] (з | с ) с (т) _  [ #: |%>:0 [Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ;
+          [[[[ LFCH | LFCS | :FTV ] %>:0 | :FTV ] [ (н) з | к с %>:0 ]| [LFCH | LFCS | :FTV | ь: | И2: ] %>:0 ( VLoss:0 ) [ з | н Ь2:0 | т Ь2:0 | н О1: к | н к | с т ] %>:0 ] | [ :е | :э | FTV %>:0 ] м с %>:0  | LFCH %>:0 ] _ [ #: | (%>:0) [ SIVV | л ] | %>:0 [ Г1:0 | д О1: ] ] ;
+         LFCH %>:0 в:0 т _ м [О1:0|О1:е] ;
+          LFCH  %>:0 _ SIVV ;
+!!2012-03-14
+
+!
+"O1:o"
+О1:о <=> [ О1:о | :BTV %>:0 ]  м ( с %>:0 )  _  [ #: | %- |%>:0 [Г1:0 | SIVV | д: О1: ] | л ] ;
+         [ %>:0 О1:о ( н ) ] з _ [ %>:0  [ м | н Ь2:0 | н* т Ь2:0  | н з О1:о | н О1:о к | н к | с т ] [ %>:0 [ Г1:0 | Г1:г | Г1:к ] а: | #: | %- ] | [ %>:0 [ Г1:0 | Г1:г | Г1:к ] а: | #: | %- ] ] ; ! Px3Sg
+         [[ LBC | :BTV ] %>:0 | :BTV ] [ н | м ] _ к ; ! Px1Pl
+         [ LBC %>:0 | :BTV ( ( %>:0 ) м ) ( %>:0 ) | О1:о %>:0 | :BTV ( %>:0 ) PossX %>:0 ] д:  _ [ %>:0 [ Г1:0 |  SIVV ]| #: | %- ] ; ! +Abl
+         [ LBC | :BTV ((%>:0) PossX) ] %>:0 в: т _ м [О1:0|О1:о] ; ! +Abe
+         [[[ LBC | :BTV | :BTV (%>:0) PossX ] %>:0 | У2:0 %>:0 VLoss:0 | [ BTV %>:0 | О1:о ] м ] ( з | с ) с (т) | LBC %>:0 ] _  [ #: | %- | %>:0 [ Г1:0 | SIVV |т | н| с |Г2:в |д: |л ]] ; !
+         [[[ LBC | :BTV ] %>:0 | :BTV ] [ (н) з | к с %>:0 ] | [ У2: %>:0 ( VLoss:0 ) | [ LBC | :BTV ] %>:0 ] [ з | н Ь2:0 | т Ь2:0 | н О1:о к | н к | с т ] %>:0 ] _  [ #: | %- | %>:0 [ Г1:0 | т | н| с | Г2:в | д: О1: ] | ( %>:0 ) [ SIVV | л ]] ;
+         [ BTV %>:0 | BTV в:0 %>:0 WLoss:0 | :BTV ] в _ л [ ь | и ] ;
+         LBC ( Ь2:0 ) %>:0 _ [( %>:0 ) SIVV | #: | %- | %>:0 Г1:0  | К3:0 ] ;
+         :BTV ( %>:0 ) з  %>:0 _ [ т Ь2: | н Ь2: | м | н з | с т | н О1: к | н к ] ; 
+!!2012-03-14
+
+"O1:0"
+О1:0 <=>   _  %>:0 [А2:а|А2:я] ;
+
+
+!!Changes in the suffix vowels
+"A2:ya"
+А2:я <=> [ FTC | :FTV | ь | LFCS :FTV* ( (н) т ( Ь2: ) | н Ь2: ) ]  %>:0 [ т | TLoss:0 ( %>:0 ) т:0 ] _  [ д | н | м ] ;
+         [ ConsDent [ И2:0 | ь:0 |я:0 | ё:0 | е:0 | и:0 | ю:0 ]| Vows [ я:0 | ё:0 | е:0 | ю:0 | й:0 ] | [ LFCS ( :FTV ) %>:0  | О1:е | О1:э ] ( (н) т  Ь2:0  | н Ь2: )  ]  %>:0  _ [ т | н ] ;
+
+
+!HERE
+"A2:a"
+А2:а <=> [[ :BTV | LBC ] %>:0 [ т | TLoss:0 ( %>:0 ) т:0 ] | %>:0 ( О1: ) м с %>:0 т ] _  [ д | н ] ;
+         [ConsDent ( э:0 | ы:0 | О1:0 | а:0 | о:0 | у:0 )|  в: т О1: м  О1:0 | ConsNonDent ( Vows:0 | И2:0 ) | У2:0 | [ LBC ( :BTV ) %>:0  |  О1:о ]  ((н) т Ь2:0 | н Ь2: )  ] %>:0  _  [ т | н ] ;
+
+
+
+"j:0"
+й:0 <=> Vows _ [И2:е  | %>:0 Ы2:и| (И2:0)  %>:0 [А2:я | О1:е [ :Cons | К3:0 ]] ] ;
+
+
+!
+!18.04.2007 Adding "U2:" and contemplating environment "%>:0 т н _"
+!
+"ye:e always"
+е:э <=
+          ConsDent (О1:0) %>:0  н _ [[ #: | %-|%>:0 Г1:0 а:я]| н ь: | к] ;
+          [[[Back - [:* Vows]] %>:0| ConsDent]  %>:0| У2:0 %>:0 VLoss:0 ( TLoss:0 ) ] т: н _ [ #: | %- |%>:0 [Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
+
+
+"ye:e sometimes"
+е:э =>
+          [ConsDent|ConsNonDent] ( О1:0 ) %>:0  н _ [[ #: | %-|%>:0 Г1:0 а:я]|н ь:|к ] ;
+          [ ConsDent | ConsNonDent | м:0 ]  ( О1:0 | У2:0 ) %>:0 ( VLoss:0 ) ( TLoss:0 ) т: н _ [ #: | %- | %>:0 [Г1:0 а:я | т | л | Г2:в а | в | д | к | н | с | ш ]];
+
+
+"a:ya"
+а:я  <=> :Vows ((%>:0) К3:0 )  %>:0 Г1:0 _  ;
+
+
+!Changes in suffix consonants
+"v:0"
+в:0 <=> [ :Cons  ( ь: ) ] %>:0 _ т [О1:о|О1:е|О1:э] м [О1:о|О1:е|О1:0] ;
+        :Vows _ %>:0 WLoss:0 [ в О1: л | в л ] ;
+
+!!!Depricated due to 
+!!ERROR: Label not found in 'EQV_LABELS' (114) **
+!!Solved in several contexts by declaring both lexical
+!!and surface forms in the alphabet.
+"G1:0"
+Г1:0 <=> [ :Vows ((%>:0) К3:0 )  %>:0 | К1: Ь2:0 %>:0 KLoss:0 | :к %>:0 KLoss:0 ] _ а: ;
+
+"G1:g"
+Г1:г <=> [ConsVoicedDent (:ь|Ь2:0)| й | [ ConsVoicedNonDent - г ] ( :ь )] %>:0 _ а ;
+
+"G1:k"
+Г1:к <=>  [ ConsVoicelessDent ( :ь | Ь2:0 | Ь2:ь ) | ConsVoicelessNonDent | г | К1: Ь2: | К4:0 ] :0* %>:0 _ а  ;
+          
+
+!Prolative
+"G2:g"
+Г2:г <=> [ ConsVoicedDent ( :ь )| [ ConsVoicedNonDent - г ] ( :ь ) ] %>:0 _ а ;
+
+"G2:v"! 
+Г2:в <=> [ :Vows (:0) %>:0 | :Vows ] _ а [ #: | %- |%>:0 [Г1:0 | SIVV |т | н | с | д: | в | к с | л ] ];
+
+
+"G2:k"
+Г2:к <=>  [ ConsVoicelessDent ( :ь )| ConsVoicelessNonDent ( :ь )| г ] %>:0 _ а [ #: | %- |%>:0 [Г1:0 | SIVV |т | н| с |д: |в |к с| л ] ] ;
+           Vows ConsVoiceless [У2:0 | И2:0 ] %>:0 VLoss:0 _ а ;
+
+! 2012-08-07
+"G4:g" !Imperative Clitics
+Г4:г  <=> з ь %>:0 _ а ;
+
+
+"G4:0"
+Г4:0  <=>
+           [ К1: Ь2: | к ] %>:0 _ а ;
+  [О1:е|О1:о] %>:0 _ а: ;
+
+"G4:k"
+Г4:к  <=>  #: [и л я|у ж о|а з ё|а д я|а й д а] %>:0 _ а  ;
+
+
+"m:0" 
+м:0 <=> 
+ BTV  _ У2:0  %>:0  VLoss: [ т| т н е:э ] ;
+        т (ь) _ [У2:|И2:]  %>:0  VLoss: [с (т) [О1:э|О1:о|О1:0]|с [#: | %-| %>:0 [Г1:0|Г1:к]]] ;
+
+
+
+!! imperative suffix
+"K1:t"
+К1:т <=>  [ Cons ( ь: ) ] %>:0 _  ;
+
+
+
+! Suffix final hard vs soft
+!Adding "И2:0" 18.04.2007
+"U4:y"
+Ь2:ь <=>  [[[ LFCS | :FTV | ь: ] %>:0 | О1:е | О1:э ] [ н | ( н | в ) т ] | И2:0 %>:0 VLoss:0 т | [ LFCS | ь: | :FTV ] %>:0 К1:т ]  _  [ #: | %- | %>:0  Г1: ] ;
+
+
+!!TLoss sloppy
+"t:0"
+т:0 <=> [ [ т | К1:т ] ( Ь2: ) %>:0 TLoss:0 | т У2:0 %>:0 VLoss:0 TLoss:0 ] ( %>:0 ) _ ;
+
+!!SLoss s s > s = s 0 0 s
+"s:0"
+с:0 <=> с _ %>:0 SLoss:0 с ;
+
+!€ класс%>SLossс
+!€ клас000с
+
+
+
+!Ablative d/t
+"d:t"
+д:т  <=> [ ConsVoiceless | д | г] (ь:0)  %>:0 _ [О1:е|О1:э|О1:о] ;
+         т [ У2:0 | И2:0 ] %>:0 VLoss:0 _ [О1:е|О1:э|О1:о] ;
+!Word final Vowels
+
+
+"y:0"
+ь:0 <=>        ConsDent  _  %>:0 [ А2:я | Ы2:и | О1:е [ ( %>:0 ) SIVV | К3:0 | #: | %- | %>:0 [ Г1:0 | д О1: ] ] ];
+              ConsDentNoL _ %>:0 [в:0 т О1:е м [О1:е|О1:0] | К1: | н | д: | т | с (т) [ ь: | е: ]] ;
+
+
+
+"U2:0"
+У2:0 <=>  _ %>:0 VLoss:0 [ ( TLoss:0 ) т [ Ь2:0 | Ь2:ь | А2:а ] | ( TLoss:0 ) т: н е: |с (т) [О1:о|О1:0]| с [ %>:0 |  #: | %- ] ] ;
+          _ %>:0 VLoss:0 д: [ О1:о ] ;
+
+"U2:o"
+У2:о  <=>  _ [ %>:0 [ (н) т Ь2:0 | н Ь2:0 | т н е: | с ь: | с (т) [ О1:о | О1:0 ] | с [ %>:0 |  #: | %- ] | з %>:0 О1: | л  |  (н) з [ О1:о | О1:0 ] | ш к а | к с | н | в | Г2:в | д | с т [ %>:0 |  #: | %- ] ] | Г1:0|  #: | %-] ;
+
+
+"YI2:0 sometimes"
+И2:0 <=> Cons _ %>:0 VLoss:0 т [Ь2:0|Ь2:ь |н е: |А2:я [д|н]] ;
+         ConsNonDent: _ %>:0 VLoss:0 [с (т) [О1:э|О1:0]| с [ %>:0 |  #: | %- ] ] ;
+         [NPC|й:0] _ %>:0 [ А2:я|А2:а] ;
+            _  %>:0 VLoss:0 д: [О1:е|О1:э] ;
+         Vows ConsVoiceless _ %>:0 (VLoss:0) Г2:к а ;
+
+"YI2:y"
+И2:ь  <=>  ConsDent _ %>:0 VLoss:0 [с (т) [О1:э|О1:0]| с [ %>:0 |  #: | %- ] ] ;
+
+
+"YI2:ye"
+И2:е  <=>   _ [ %>:0 [т [Ь2:0|Ь2:ь]|т н е|с ь:|с (т) [О1:э|О1:0] |с (т) ь:| с [ %>:0 |  #: | %- ] | з %>:0 О1:э | л  |  (н) з [ О1:э | О1:0 ] | ш к а | к с | н | в | д | с т [ %>:0 |  #: | %- ]] |  Г1:0|  #: | %- ] ;
+
+
+!Disallow
+
+"Disallow TLoss after non-t"
+TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %>:0 _ ;
+
+"Disallow KLoss after non-k"
+KLoss:0 /<= [[ :* Letters ] - [ :* :к ] ] %>:0 _ ;
+
+"Disallow SLoss after non-s"
+SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %>:0 _ ;
+
+"Disallow VLoss after non-U2I2"
+VLoss:0 /<= [[ :* [ Letters | А1: | А2: | Ы2: | К1: | О1: | Ь2: | Г1: | Г2: | К3:  ] ] - [ :* [ У2: | И2: ] ] ] %>:0 _ ;
+
+"Disallow WLoss after non-v"
+WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %>:0 _ ;
+

@@ -1,0 +1,12 @@
+# This regex removes tags we do not want in the ordinary $(GTLANG).fst
+# That is, we do not give them as output from analysis
+
+# delete dialect tags from myv
+0 <- %+Dial%/%-C,
+0 <- %+Dial%/%-W,
+0 <- %+Dial%/%-NW,
+0 <- %+Dial%/%-SE,
+0 <- %+Dial%/%-M,
+0 <- %+Dial%/SH,
+0 <- %+Dial%/L,
+0 <- %+Dial;
