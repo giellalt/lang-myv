@@ -1,13 +1,7 @@
 
-; Testing
+! for yaml testing
+make check
 
-./HfstTester.py -x myv-tests.yaml
 
-#When there are [FAIL] marks that might involve other pos-s use
--i, --ignore-extra-analyses
-
-./HfstTester.py -x -i myv-tests.yaml
-
-#py HfstTester.py -cixf myv-tests.yaml
-
-make num-paradigm WORD=нёль
+! For manual testing of yaml
+python3.2 ../../../../../gtcore/scripts/morph-test.py -ci -i -S xerox myv.tests.yaml
