@@ -95,6 +95,72 @@ LEXICON Roman-numerals
 
 
 !!!Now regular
+LEXICON Num-kal_Sub
++Use/Sub: Num-kal ;
+
+LEXICON Num-kal
++Qnt+Num: # ;
++Qnt+Num+Appr:%>шка # ;
++Qnt+Num+Der/MWN: N-kal ;
+ NumOrd-kal ;
+
+LEXICON NumOrd-kal
++Qnt+Num+Ord:%>це # ;
++Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
++Qnt+Num+Ord:%>О1тькс # ;
++Qnt+Num+Ord+Der/MWN:%>О1тькс N-osh ;
+
+LEXICON Num-osh_Sub
++Use/Sub: Num-osh ;
+
+LEXICON Num-osh
++Qnt+Num: # ;
++Qnt+Num+Appr:%>О1шка # ;
++Qnt+Num+Der/MWN: N-osh ;
+ NumOrd-osh ;
+
+LEXICON NumOrd-osh
++Qnt+Num+Ord:%>О1%>це # ;
++Qnt+Num+Ord+Der/MWN:%>О1%>це N-kudo ;
++Qnt+Num+Ord:%>О1тькс # ;
++Qnt+Num+Ord+Der/MWN:%>О1тькс N-osh ;
+
+LEXICON Num-sjado_Sub
++Use/Sub: Num-sjado ;
+
+LEXICON Num-sjado
++Qnt+Num: # ;
++Qnt+Num+Appr:%>шка # ;
++Qnt+Num+Der/MWN: N-pango ;
+ NumOrd-sjado ;
+
+LEXICON NumOrd-sjado
++Qnt+Num+Ord:%>це # ;
++Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
++Qnt+Num+Ord:%>тькс # ;
++Qnt+Num+Ord+Der/MWN:%>тькс N-osh ;
+
+LEXICON Num-kudo_Sub
++Use/Sub: Num-kudo ;
+
+LEXICON Num-kudo
++Qnt+Num: # ;
++Qnt+Num+Appr:%>шка # ;
++Qnt+Num+Der/MWN: N-kudo ;
+ NumOrd-kudo ;
+
+LEXICON NumOrd-kudo
++Qnt+Num+Ord:%>це # ;
++Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
++Qnt+Num+Ord:%>тькс # ;
++Qnt+Num+Ord+Der/MWN:%>тькс N-osh ;
+
+LEXICON Cards-1-2
++Qnt+Num: # ;
++Qnt+Num+Appr:%>шка # ;
++Qnt+Num+Der/MWN: N-kudo ;
+
+
 LEXICON Assoc-Coll
 +Qnt+Univ+Assoc-Coll: kudo-N-Poss-Declension-PossX ;
 
@@ -179,6 +245,7 @@ LEXICON Cards-osh
  Quants2 ;
 +Qnt+Num+Card: # ;
 +Qnt+Num+Card+Der/MWN: N-osh ;
+
 
 LEXICON Cards-kudo
 +Qnt+Num+Ord:%>це Quants3 ;
