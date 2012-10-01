@@ -4,6 +4,104 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry exclude="fst">
       <lg>
+         <l>колмотькс</l>
+         <stg>
+            <st Contlex="osh-N-WORK">колмотькс</st>
+         </stg>
+      </lg>
+      <pos>NUM-ORD</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <tags>+Inanim+Cnt</tags>
+               </head>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>кавксотькс</l>
+         <stg>
+            <st Contlex="osh-N-WORK">кавксотькс</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head>
+                  <tags>+Inanim+Cnt</tags>
+               </head>
+            </m>
+            <tg>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>кавто</l>
+         <stg>
+            <st Contlex="Cards-1-2">кавто</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <morphg>
+         <morph type="N">кавтосо</morph>
+         <morph type="N">кавтонь;</morph>
+      </morphg>
+      <e>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Ловома вал, невти зяро ломатнеде эли лиятне мезтне.</defNative>
+            </m>
+            <xg>
+               <x>Кавто ломанть. Кавто книгат. Эйкакшонтень топодсть кавто иеть. Авась стась кавто панарт.</x>
+               <xt/>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ниле</l>
+         <stg>
+            <st Contlex="Num-kudo">ниле</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <morphg>
+         <morph type="N">нилесэ</morph>
+         <morph type="N">нилень</morph>
+      </morphg>
+      <e>
+         <etymg>
+            <etym lang="fin"><constituent>neljä</constituent></etym>
+            <etym lang="sme"><constituent>njeallji</constituent></etym>
+            <etym lang="hun"><constituent>négy</constituent></etym>
+            <etym lang="kpv"><constituent>нёль</constituent></etym>
+         </etymg>
+         <mg>
+            <m>
+               <head/>
+               <defNative>Ловома вал. Нилесь моли колмонть мельга. Нилесь ашти ветенть икеле.</defNative>
+            </m>
+            <xg>
+               <x>Ниле чить ютасть, кода сынь ошсто. Ниле умаринат озавтынь пирес. Ниле цёрат кастынь эрямозон.</x>
+               <xt/>
+            </xg>
+         </mg>
+      </e>
+   </entry>
+   <entry exclude="fst">
+      <lg>
          <l>сизьгеменьшка</l>
          <stg>
             <st Contlex="Num-kudo">сизьгеменьшка</st>
@@ -270,7 +368,7 @@
       <lg>
          <l>комськотово</l>
          <stg>
-            <st Contlex="Nnum-kudo">комськотово</st>
+            <st Contlex="Num-kudo">комськотово</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -638,7 +736,7 @@
       <lg>
          <l>сядо</l>
          <stg>
-            <st Contlex="Num-sjado">сядО2</st>
+            <st Contlex="Num-sjado">сядУ2</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -816,7 +914,7 @@
       <lg>
          <l>кото</l>
          <stg>
-            <st Contlex="Cards-kudo">кото</st>
+            <st Contlex="Num-kudo">кото</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -938,7 +1036,7 @@
       <lg>
          <l>кавксо</l>
          <stg>
-            <st Contlex="Cards-kudo">кавксо</st>
+            <st Contlex="Num-kudo">кавксо</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -1215,7 +1313,7 @@
       <lg>
          <l>кемень</l>
          <stg>
-            <st Contlex="Cards-kal">кемень</st>
+            <st Contlex="Num-kal">кемень</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -1342,7 +1440,7 @@
       <lg>
          <l>колмо</l>
          <stg>
-            <st Contlex="Cards-kudo">колмо</st>
+            <st Contlex="Num-kudo">колмо</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -1367,8 +1465,8 @@
       <lg>
          <l>колмоньгемень</l>
          <stg>
-            <st Contlex="Cards-kal">колмоньгемень</st>
-            <st Contlex="Cards-kal">колоньгемень</st>
+            <st Contlex="Num-kal">колмоньгемень</st>
+            <st Contlex="Num-kal">колоньгемень</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -1419,7 +1517,7 @@
       <lg>
          <l>кодгемень</l>
          <stg>
-            <st Contlex="Cards-kal">кодгемень</st>
+            <st Contlex="Num-kal">кодгемень</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -1809,7 +1907,7 @@
       <lg>
          <l>вейксэньгемень</l>
          <stg>
-            <st Contlex="Cards-kal">вейксэньгемень</st>
+            <st Contlex="Num-kal">вейксэньгемень</st>
          </stg>
       </lg>
       <pos>QNT</pos>
@@ -2017,7 +2115,7 @@
       <lg>
          <l>вейксэ</l>
          <stg>
-            <st Contlex="Cards-kudo">вейксэ</st>
+            <st Contlex="Num-kudo">вейксэ</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -2068,7 +2166,7 @@
       <lg>
          <l>вейке</l>
          <stg>
-            <st Contlex="kudo-NUM">вейке</st>
+            <st Contlex="Cards-1/2">вейке</st>
          </stg>
       </lg>
       <pos>NUM</pos>
@@ -3299,7 +3397,7 @@
       <lg>
          <l>вете</l>
          <stg>
-            <st Contlex="Cards-kudo">вете</st>
+            <st Contlex="Num-kudo">вете</st>
          </stg>
       </lg>
       <pos>NUM</pos>
