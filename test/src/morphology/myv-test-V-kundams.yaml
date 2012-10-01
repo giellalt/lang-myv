@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/myv-gen.hfstol
-    Morph: ../bin/myv.hfstol
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
   xerox:
-    Gen: ../bin/imyv.fst
-    Morph: ../bin/myv.fst
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
     App: lookup
 
 Tests:
@@ -16,47 +16,47 @@ Tests:
 
   Verb - кундамс: # Verb1 "to catch"
      кундамс+V+Der/Омс+Inf+Ill: кундамс
-     кундамс+V+Der/ОмО+Inf+Ill+Px1Sg: кундамозон
-     кундамс+V+Der/ОмО+Inf+Ill+Px2Sg: кундамозот
-     кундамс+V+Der/ОмО+Inf+Ill+Px3Sg: кундамозонзо
-     кундамс+V+Der/ОмО+Inf+Ill+Px1Pl: кундамозонок
-     кундамс+V+Der/ОмО+Inf+Ill+Px2Pl: кундамозонк
-     кундамс+V+Der/ОмО+Inf+Ill+Px3Pl: кундамозост
+     кундамс+V+Der/ОмО+Inf+Ill+PxSg1: кундамозон
+     кундамс+V+Der/ОмО+Inf+Ill+PxSg2: кундамозот
+     кундамс+V+Der/ОмО+Inf+Ill+PxSg3: кундамозонзо
+     кундамс+V+Der/ОмО+Inf+Ill+PxPl1: кундамозонок
+     кундамс+V+Der/ОмО+Inf+Ill+PxPl2: кундамозонк
+     кундамс+V+Der/ОмО+Inf+Ill+PxPl3: кундамозост
      кундамс+V+Der/ОмО+Inf+Loc: кундамо
-     кундамс+V+Der/ОмО+Inf+Loc+Px1Sg: кундамон
-     кундамс+V+Der/ОмО+Inf+Loc+Px2Sg: кундамот
-     кундамс+V+Der/ОмО+Inf+Loc+Px3Sg: кундамонзо
-     кундамс+V+Der/ОмО+Inf+Loc+Px1Pl: кундамонок
-     кундамс+V+Der/ОмО+Inf+Loc+Px2Pl: кундамонк
-     кундамс+V+Der/ОмО+Inf+Loc+Px3Pl: кундамост
-     кундамс+V+Der/ОмА+N+Abl+Sg+Indef: кундамодо
-     кундамс+V+Der/ОмА+N+Abl+Sg+Px1Sg: кундамодон
-     кундамс+V+Der/ОмА+N+Abl+Sg+Px2Sg: кундамодот
-     кундамс+V+Der/ОмА+N+Abl+Sg+Px3Sg: кундамодонзо
-     кундамс+V+Der/ОмА+N+Abl+Sg+Px1Pl: кундамодонок
-     кундамс+V+Der/ОмА+N+Abl+Sg+Px2Pl: кундамодонк
-     кундамс+V+Der/ОмА+N+Abl+Sg+Px3Pl: кундамодост
-     кундамс+V+Der/ОмА+N+Abl+Pl+Indef: кундамодо
-     кундамс+V+Der/ОмА+N+Abl+Pl+Px1Sg: кундамодон
-     кундамс+V+Der/ОмА+N+Abl+Pl+Px2Sg: кундамодот
-     кундамс+V+Der/ОмА+N+Abl+Pl+Px3Sg: кундамодонзо
-     кундамс+V+Der/ОмА+N+Abl+Pl+Px1Pl: кундамодонок
-     кундамс+V+Der/ОмА+N+Abl+Pl+Px2Pl: кундамодонк
-     кундамс+V+Der/ОмА+N+Abl+Pl+Px3Pl: кундамодост
+     кундамс+V+Der/ОмО+Inf+Loc+PxSg1: кундамон
+     кундамс+V+Der/ОмО+Inf+Loc+PxSg2: кундамот
+     кундамс+V+Der/ОмО+Inf+Loc+PxSg3: кундамонзо
+     кундамс+V+Der/ОмО+Inf+Loc+PxPl1: кундамонок
+     кундамс+V+Der/ОмО+Inf+Loc+PxPl2: кундамонк
+     кундамс+V+Der/ОмО+Inf+Loc+PxPl3: кундамост
+     кундамс+V+Der/ОмА+N+Sg+Abl+Indef: кундамодо
+     кундамс+V+Der/ОмА+N+Sg+Abl+PxSg1: кундамодон
+     кундамс+V+Der/ОмА+N+Sg+Abl+PxSg2: кундамодот
+     кундамс+V+Der/ОмА+N+Sg+Abl+PxSg3: кундамодонзо
+     кундамс+V+Der/ОмА+N+Sg+Abl+PxPl1: кундамодонок
+     кундамс+V+Der/ОмА+N+Sg+Abl+PxPl2: кундамодонк
+     кундамс+V+Der/ОмА+N+Sg+Abl+PxPl3: кундамодост
+     кундамс+V+Der/ОмА+N+Pl+Abl+Indef: кундамодо
+     кундамс+V+Der/ОмА+N+Pl+Abl+PxSg1: кундамодон
+     кундамс+V+Der/ОмА+N+Pl+Abl+PxSg2: кундамодот
+     кундамс+V+Der/ОмА+N+Pl+Abl+PxSg3: кундамодонзо
+     кундамс+V+Der/ОмА+N+Pl+Abl+PxPl1: кундамодонок
+     кундамс+V+Der/ОмА+N+Pl+Abl+PxPl2: кундамодонк
+     кундамс+V+Der/ОмА+N+Pl+Abl+PxPl3: кундамодост
      кундамс+V+Der/Омга+Inf+Prl: кундамга
-     кундамс+V+Der/Омга+Inf+Prl+Px1Sg: кундамган
-     кундамс+V+Der/Омга+Inf+Prl+Px2Sg: кундамгат
-     кундамс+V+Der/Омга+Inf+Prl+Px3Sg: кундамганзо
-     кундамс+V+Der/Омга+Inf+Prl+Px1Pl: кундамганок
-     кундамс+V+Der/Омга+Inf+Prl+Px2Pl: кундамганк
-     кундамс+V+Der/Омга+Inf+Prl+Px3Pl: кундамгаст
+     кундамс+V+Der/Омга+Inf+Prl+PxSg1: кундамган
+     кундамс+V+Der/Омга+Inf+Prl+PxSg2: кундамгат
+     кундамс+V+Der/Омга+Inf+Prl+PxSg3: кундамганзо
+     кундамс+V+Der/Омга+Inf+Prl+PxPl1: кундамганок
+     кундамс+V+Der/Омга+Inf+Prl+PxPl2: кундамганк
+     кундамс+V+Der/Омга+Inf+Prl+PxPl3: кундамгаст
      кундамс+V+Der/ОмстО+Inf+Ela: кундамсто
-     кундамс+V+Der/ОмстО+Inf+Ela+Px1Sg: кундамстон
-     кундамс+V+Der/ОмстО+Inf+Ela+Px2Sg: кундамстот
-     кундамс+V+Der/ОмстО+Inf+Ela+Px3Sg: кундамстонзо
-     кундамс+V+Der/ОмстО+Inf+Ela+Px1Pl: кундамстонок
-     кундамс+V+Der/ОмстО+Inf+Ela+Px2Pl: кундамстонк
-     кундамс+V+Der/ОмстО+Inf+Ela+Px3Pl: кундамстост
+     кундамс+V+Der/ОмстО+Inf+Ela+PxSg1: кундамстон
+     кундамс+V+Der/ОмстО+Inf+Ela+PxSg2: кундамстот
+     кундамс+V+Der/ОмстО+Inf+Ela+PxSg3: кундамстонзо
+     кундамс+V+Der/ОмстО+Inf+Ela+PxPl1: кундамстонок
+     кундамс+V+Der/ОмстО+Inf+Ela+PxPl2: кундамстонк
+     кундамс+V+Der/ОмстО+Inf+Ela+PxPl3: кундамстост
      кундамс+V+Der/Омс+Inf+Ill+Ind+NonPast+ScSg1: кундамсан
      кундамс+V+Der/Омс+Inf+Ill+Ind+NonPast+ScSg2: кундамсат
      кундамс+V+Der/Омс+Inf+Ill+Ind+NonPast+ScSg3: кундамс
@@ -82,25 +82,25 @@ Tests:
      кундамс+V+Der/Ома+Oblig+Ind+Prt2+ScPl2: кундамалиде
      кундамс+V+Der/Ома+Oblig+Ind+Prt2+ScPl3: кундамальть
      кундамс+V+Der/Озь+Ger: кундазь
-     кундамс+V+Der/Озь+Ger+Ind+NonPast+ScSg1: кундазян
-     кундамс+V+Der/Озь+Ger+Ind+NonPast+ScSg2: кундазят
-     кундамс+V+Der/Озь+Ger+Ind+NonPast+ScSg3: кундазь
-     кундамс+V+Der/Озь+Ger+Ind+NonPast+ScPl1: кундазтяно
-     кундамс+V+Der/Озь+Ger+Ind+NonPast+ScPl2: кундазтядо
-     кундамс+V+Der/Озь+Ger+Ind+NonPast+ScPl3: кундазть
-     кундамс+V+Der/Озь+Ger+Ind+Prt2+ScSg1: кундазелинь
-     кундамс+V+Der/Озь+Ger+Ind+Prt2+ScSg2: кундазелить
-     кундамс+V+Der/Озь+Ger+Ind+Prt2+ScSg3: кундазель
-     кундамс+V+Der/Озь+Ger+Ind+Prt2+ScPl1: кундазелинек
-     кундамс+V+Der/Озь+Ger+Ind+Prt2+ScPl2: кундазелиде
-     кундамс+V+Der/Озь+Ger+Ind+Prt2+ScPl3: кундазельть
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+NonPast+ScSg1: кундазян
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+NonPast+ScSg2: кундазят
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+NonPast+ScSg3: кундазь
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+NonPast+ScPl1: кундазтяно
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+NonPast+ScPl2: кундазтядо
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+NonPast+ScPl3: кундазть
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+Prt2+ScSg1: кундазелинь
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+Prt2+ScSg2: кундазелить
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+Prt2+ScSg3: кундазель
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+Prt2+ScPl1: кундазелинек
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+Prt2+ScPl2: кундазелиде
+     кундамс+V+Der/Озь+Ger+Der/Pr+Ind+Prt2+ScPl3: кундазельть
      кундамс+V+Der/Онь+VGen: кундань
-     кундамс+V+Der/Овт+TelicN+N+Nom+Sg+Indef: кундавт
-     кундамс+V+Der/ОмА+N+Nom+Sg+Indef: кундамо
-     кундамс+V+Der/Ы+ActPtcShort+A: кунды
-     кундамс+V+Der/Ы+ActPtcShort+Der/кс+A: кундыкс
-     кундамс+V+Der/Ый+ActPtcLong+A: кундый
-     кундамс+V+Der/Ыця+ActDemPtc+A: кундыця
+     кундамс+V+Der/Овт+TelicN+N+Sg+Nom+Indef: кундавт
+     кундамс+V+Der/ОмА+N+Sg+Nom+Indef: кундамо
+     кундамс+V+Der/Ы+ActPrcShort+A: кунды
+     кундамс+V+Der/Ы+ActPrcShort+Der/кс+A: кундыкс
+     кундамс+V+Der/Ый+ActPrcLong+A: кундый
+     кундамс+V+Der/Ыця+ActDemPrc+A: кундыця
      кундамс+V+ConNeg: кунда
      кундамс+V+Imprt+ScSg2: кундак
      кундамс+V+Imprt+ScSg2+OcSg3: кундык
@@ -117,13 +117,13 @@ Tests:
      кундамс+V+Imprt+ScPl3+OcPl1: кундамизь
      кундамс+V+Opt+ScSg1: кундазан
      кундамс+V+Opt+ScSg2: кундазат
-     кундамс+V+Opt+ScSg3: кундасо
-     кундамс+V+Opt+ScPl1: кундазтано
-     кундамс+V+Opt+ScPl2: кундазтадо
-     кундамс+V+Opt+ScPl3: кундаст
+     кундамс+V+Opt+ScSg3: кундазо
+     кундамс+V+Opt+ScPl1: [кундазтано, кундастано]
+     кундамс+V+Opt+ScPl2: [кундазтадо, кундастадо]
+     кундамс+V+Opt+ScPl3: [кундазт, кундаст]
      кундамс+V+Opt+ScSg1+OcSg3: кундазса
      кундамс+V+Opt+ScSg2+OcSg3: кундазсак
-     кундамс+V+Opt+ScSg3+OcSg3: кундазсо
+     кундамс+V+Opt+ScSg3+OcSg3: кундассо
      кундамс+V+Opt+ScSg1+OcPl3: кундазсынь
      кундамс+V+Opt+ScSg2+OcPl3: кундазсыть
      кундамс+V+Opt+ScSg3+OcPl3: кундазсынзе
@@ -133,14 +133,14 @@ Tests:
      кундамс+V+Opt+ScPl2+OcPl3: кундазсынк
      кундамс+V+Opt+ScPl3+OcSg3: кундазсызь
      кундамс+V+Opt+ScPl3+OcPl3: кундазсызь
-     кундамс+V+Opt+ScSg1+OcSg2: кундазтан
+     кундамс+V+Opt+ScSg1+OcSg2: [кундазтан, кундаздан, кундазатан]
      кундамс+V+Opt+ScSg3+OcSg2: кунданзат
-     кундамс+V+Opt+ScSg1+OcPl2: кундаздызь
-     кундамс+V+Opt+ScPl1+OcSg2: кундаздызь
-     кундамс+V+Opt+ScPl1+OcPl2: кундаздызь
-     кундамс+V+Opt+ScSg3+OcPl2: кундаздызь
-     кундамс+V+Opt+ScPl3+OcSg2: кундаздызь
-     кундамс+V+Opt+ScPl3+OcPl2: кундаздызь
+     кундамс+V+Opt+ScSg1+OcPl2: кундазтадызь
+     кундамс+V+Opt+ScPl1+OcSg2: кундазтадызь
+     кундамс+V+Opt+ScPl1+OcPl2: кундазтадызь
+     кундамс+V+Opt+ScSg3+OcPl2: кундазтадызь
+     кундамс+V+Opt+ScPl3+OcSg2: кундазтадызь
+     кундамс+V+Opt+ScPl3+OcPl2: кундазтадызь
      кундамс+V+Opt+ScSg2+OcSg1: кундазмак
      кундамс+V+Opt+ScSg3+OcSg1: кундазмам
      кундамс+V+Opt+ScSg2+OcPl1: кундазмизь
@@ -187,7 +187,7 @@ Tests:
      кундамс+V+Ind+Prt1+ScSg2: кундыть
      кундамс+V+Ind+Prt1+ScSg3: кундась
      кундамс+V+Ind+Prt1+ScPl1: кундынек
-     кундамс+V+Ind+Prt1+ScPl2: кундынк
+     кундамс+V+Ind+Prt1+ScPl2: кундыде
      кундамс+V+Ind+Prt1+ScPl3: кундасть
      кундамс+V+Ind+Prt1+ScSg1+OcSg3: кундыя
      кундамс+V+Ind+Prt1+ScSg2+OcSg3: кундык
@@ -271,9 +271,9 @@ Tests:
      кундамс+V+Conj+ScPl3+OcPl3: кундавлизь
      кундамс+V+Conj+ScSg1+OcSg2: кундавлитинь
      кундамс+V+Conj+ScSg3+OcSg2: кундавлинзеть
-     кундамс+V+Conj+ScSg1+OcPl2: кундавлимизь
-     кундамс+V+Conj+ScSg2+OcSg1: кундавлимизь
-     кундамс+V+Conj+ScSg3+OcSg1: кундавлимизь
+     кундамс+V+Conj+ScSg1+OcPl2: кундавлидизь
+     кундамс+V+Conj+ScSg2+OcSg1: кундавлимик
+     кундамс+V+Conj+ScSg3+OcSg1: кундавлимим
      кундамс+V+Conj+ScSg2+OcPl1: кундавлимизь
      кундамс+V+Conj+ScPl2+OcSg1: кундавлимизь
      кундамс+V+Conj+ScPl2+OcPl1: кундавлимизь
@@ -368,7 +368,7 @@ Tests:
      кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScPl3+OcSg3: кундындеризь
      кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScPl3+OcPl3: кундындеризь
      кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScSg1+OcSg2: кундындеритинь
-     кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScSg3+OcSg2: кундындеринзить
+     кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScSg3+OcSg2: кундындеринзеть
      кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScSg1+OcPl2: кундындеридизь
      кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScPl1+OcSg2: кундындеридизь
      кундамс+V+Der/Ындеря+Cond+V+Ind+Prt1+ScPl1+OcPl2: кундындеридизь
