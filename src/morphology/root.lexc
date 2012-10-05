@@ -39,6 +39,8 @@ Multichar_Symbols
   +Interr +Rel
   +Pers +Dem +Refl +Recipr
   +Indef ! 
++CollN ! used with paired nouns _collective nouns_
+
 ! Quantifiers (numerals)
  +Num
  +Coll ! Collective
@@ -79,11 +81,11 @@ Multichar_Symbols
  +Dial 	  ! No specification
     ! Specific to some dialects
     ! Rueter 2010: 8
- +Dial/-C  ! 1 Central or Kozlovka-Mokshlei 
- +Dial/-W  ! 2 Western or Insar
- +Dial/-NW ! 3 North-western or Alatyr
- +Dial/-SE ! 4 South-easter or Sura
- +Dial/-M  ! 5 Mixed or Drakino-Shoksha
+ +Dial/C  ! 1 Central or Kozlovka-Mokshlei 
+ +Dial/W  ! 2 Western or Insar
+ +Dial/NW ! 3 North-western or Alatyr
+ +Dial/SE ! 4 South-easter or Sura
+ +Dial/M  ! 5 Mixed or Drakino-Shoksha
 
 !! ==== Orthography tags ====
   +Orth/PhonDeriv ! Derivation is phonetic
@@ -565,6 +567,44 @@ ZERO
 
 @C.KLOSS@
 @C.TLOSS@
+
+!!! FLAGS USED WITH COLLECTIVE NOUNS
+! number
+@U.DECL-NX.SG@
+@U.DECL-NX.PL@
+@R.DECL-NX.PL@
+! case
+@U.DECL-CX.NOM@
+@U.DECL-CX.ACC@
+@U.DECL-CX.GEN@
+@U.DECL-CX.DAT@
+@U.DECL-CX.ABL@
+@U.DECL-CX.ILL@
+@U.DECL-CX.INE@
+@U.DECL-CX.ELA@
+@U.DECL-CX.LAT@
+@U.DECL-CX.LOC@
+@U.DECL-CX.TRA@
+@U.DECL-CX.PRL@
+@U.DECL-CX.COM@
+@U.DECL-CX.TEMP@
+@U.DECL-CX.ABE@
+@U.DECL-CX.CMP@
+
+! declension type
+@U.DECL-DX.DEF@
+@U.DECL-DX.INDEF@
+@U.DECL-DX.PX@
+
+! predicate
+!@U.DECL-PR.1@
+!@C.DECL-PR@
+
+!! Removal
+@C.DECL-NX@
+@C.DECL-DX@
+@C.DECL-CX@
+
 
 
 ! Key lexicon

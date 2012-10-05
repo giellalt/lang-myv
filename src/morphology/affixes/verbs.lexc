@@ -1210,6 +1210,203 @@ LEXICON VerbEnd_lak-Clitic
 LEXICON VerbEnd
 +SerialVerb:%- verbs ;
 
+!!! NON-VERB CONJUGATION
+!!!!!!!!
+
+! =========== !
+! Conjugation !
+! =========== !
+
+LEXICON lak-NomSg-Conjugation
+ kal-NomSg-Conjugation ;
+ NounEnd_lak-Clitic  ;
++Der/Pr+Ind+NonPast+ScSg3: NounEnd_lak-Clitic ;
+
+LEXICON lak-NomPl-Conjugation
+ kal-NomPl-Conjugation ;
+ NounEnd_lak-Clitic  ;
+
+LEXICON lak-NomPl-Conjugation-only
+ kal-NomPl-Conjugation-only ;
+ NounEnd_lak-Clitic  ;
+
+LEXICON lak-NomPl-Conjugation-only-4Poss
+ kal-NomPl-Conjugation-only-4Poss ;
+ NounEnd_lak-Clitic  ;
+
+LEXICON lak-Conjugation
+ kal-Conjugation ;
+ NounEnd_lak-Clitic  ;
+
+LEXICON lak-Conjugation-4Poss
+ kal-Conjugation-4Poss ;
+ NounEnd_lak-Clitic  ;
+
+LEXICON kit-NomSg-Conjugation
+ kal-NomSg-Conjugation ;
+
+LEXICON kit-NomPl-Conjugation
+ kal-NomPl-Conjugation ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl1:%>TLossтА2но NounEnd_Clitic ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl2:%>TLossтА2до NounEnd_Clitic ;
+
+LEXICON kit-NomPl-Conjugation-4Poss
+ kal-NomPl-Conjugation-4Poss ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl1:%>TLossтА2но NounEnd_Clitic ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl2:%>TLossтА2до NounEnd_Clitic ;
+
+LEXICON kit-NomPl-Conjugation-only
+ kal-NomPl-Conjugation-only ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl1:%>TLossтА2но NounEnd_Clitic ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl2:%>TLossтА2до NounEnd_Clitic ;
+
+LEXICON kit-NomPl-Conjugation-only-4Poss
+ kal-NomPl-Conjugation-only-4Poss ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl1:%>TLossтА2но NounEnd_Clitic ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl2:%>TLossтА2до NounEnd_Clitic ;
+
+LEXICON kit-Conjugation
+ kal-Conjugation ;
+
+LEXICON kit-Conjugation-4Poss
+ kal-Conjugation-4Poss ;
+
+
+LEXICON kal-NomSg-Conjugation
+ NounEnd_Clitic ;
+ kal-NomSg-Conjugation-only ;
+
+LEXICON kal-NomSg-Conjugation-only
++Der/Pr+Ind+NonPast+ScSg1:%>А2н NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScSg2:%>А2т NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScSg3: NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScSg1:%>О1линь NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScSg2:%>О1лить NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScSg3:%>О1ль NounEnd_Clitic ;
+
+LEXICON kal-NomPl-Conjugation
+ NounEnd_Clitic ;
+ kal-NomPl-Conjugation-only ;
+
+LEXICON kal-NomPl-Conjugation-4Poss
+ NounEnd_Clitic ;
+ kal-NomPl-Conjugation-only-4Poss ;
+
+LEXICON kal-NomPl-Conjugation-only
+ kal-NomPl-Conjugation-only-mutal ;
++Der/Pr+Ind+NonPast+ScPl3:%>тЬ2 NounEnd_Clitic ;
+
+LEXICON kal-NomPl-Conjugation-only-4Poss
+ kal-NomPl-Conjugation-only-mutal ;
++Der/Pr+Ind+NonPast+ScPl3: NounEnd_Clitic ;
+
+LEXICON kal-NomPl-Conjugation-only-mutal
++Der/Pr+Ind+NonPast+ScPl1:%>тА2но NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScPl2:%>тА2до NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScPl1:%>О1линек NounEnd_lak-Clitic ;
++Der/Pr+Ind+Prt2+ScPl2:%>О1лиде NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScPl3:%>О1льть NounEnd_Clitic ;
+
+LEXICON kal-Conjugation
+ kal-NomSg-Conjugation-only ;
+ kal-NomPl-Conjugation-only ;
+ NounEnd_Clitic ;
+
+LEXICON kal-Conjugation-4Poss
+ kal-NomSg-Conjugation-only ;
+ kal-NomPl-Conjugation-only-4Poss ;
+ NounEnd_Clitic ;
+
+LEXICON osh-NomSg-Conjugation
+ kal-NomSg-Conjugation ;
+
+LEXICON osh-Conjugation
+ kal-NomSg-Conjugation-only ;
+ kal-NomPl-Conjugation-only ;
+ NounEnd_Clitic ;
+
+LEXICON sajems-Conjugation
+ kal-Conjugation ;
++Der/Pr+Ind+NonPast+OcSg1+Dial:%>самизь Clitic ;
++Der/Pr+Ind+NonPast+OcSg2+Dial:%>тА2дызь Clitic ;
++Der/Pr+Ind+Prt2+OcSg1+Dial:%>О1лимизь Clitic ;
++Der/Pr+Ind+Prt2+OcSg2+Dial:%>О1лидизь Clitic ;
++Der/Pr+Ind+Prt2+OcSg3+Dial:%>О1лизь Clitic ;
++Der/Pr+Ind+NonPast+OcPl1+Dial:%>самизь Clitic ;
++Der/Pr+Ind+NonPast+OcPl2+Dial:%>тА2дызь Clitic ;
++Der/Pr+Ind+Prt2+OcPl1+Dial:%>О1лимизь Clitic ;
++Der/Pr+Ind+Prt2+OcPl2+Dial:%>О1лидизь Clitic ;
++Der/Pr+Ind+Prt2+OcPl3+Dial:%>О1лизь Clitic ;
+
+
+
+LEXICON pango-NomSg-Conjugation
+ kudo-NomSg-Conjugation ;
+
+LEXICON pango-NomPl-Conjugation
+ NounEnd_Clitic ;
+ pango-NomPl-Conjugation-only ;
+
+LEXICON pango-NomPl-Conjugation-only
+ kudo-NomPl-Conjugation-only ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl1:%>TLossтА2но NounEnd_Clitic ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl2:%>TLossтА2до NounEnd_Clitic ;
+
+LEXICON pango-Conjugation
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl1:%>TLossтА2но NounEnd_Clitic ;
++Use/Sub+Orth/PhonInfl+Der/Pr+Ind+NonPast+ScPl2:%>TLossтА2до NounEnd_Clitic ;
+ kudo-Conjugation ;
+
+
+!
+LEXICON kudo-NomSg-Conjugation
+ NounEnd_Clitic ;
+ kudo-NomSg-Conjugation-only ;
+
+LEXICON kudo-NomSg-Conjugation-only
++Der/Pr+Ind+NonPast+ScSg1:%>А2н NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScSg1+Dial:%>ян NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScSg2:%>А2т NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScSg2+Dial:%>ят NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScSg3: NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScSg1:%>линь NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScSg2:%>лить NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScSg3:%>ль NounEnd_Clitic ;
+
+LEXICON kudo-NomPl-Conjugation
+ NounEnd_Clitic ;
+ kudo-NomPl-Conjugation-only;
+
+LEXICON kudo-NomPl-Conjugation-4Poss
+ NounEnd_Clitic ;
+ kudo-NomPl-Conjugation-only-4Poss ;
+
+LEXICON kudo-NomPl-Conjugation-only
+ kudo-NomPl-Conjugation-only-mutual ;
++Der/Pr+Ind+NonPast+ScPl3:%>тЬ2 NounEnd_Clitic ;
+
+LEXICON kudo-NomPl-Conjugation-only-4Poss
+ kudo-NomPl-Conjugation-only-mutual ;
++Der/Pr+Ind+NonPast+ScPl3: NounEnd_Clitic ;
+
+LEXICON kudo-NomPl-Conjugation-only-mutual
++Der/Pr+Ind+NonPast+ScPl1:%>тА2но NounEnd_Clitic ;
++Der/Pr+Ind+NonPast+ScPl2:%>тА2до NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScPl1:%>линек NounEnd_lak-Clitic ;
++Der/Pr+Ind+Prt2+ScPl2:%>лиде NounEnd_Clitic ;
++Der/Pr+Ind+Prt2+ScPl3:%>льть NounEnd_Clitic ;
+
+LEXICON kudo-Conjugation
+ kudo-NomSg-Conjugation-only ;
+ kudo-NomPl-Conjugation-only ;
+ NounEnd_Clitic ;
+
+LEXICON kudo-Conjugation-4Poss
+ kudo-NomSg-Conjugation-only ;
+ kudo-NomPl-Conjugation-only-4Poss ;
+ NounEnd_Clitic ;
+
+
 
 ! vim: set ft=xfst-lexc:
 
