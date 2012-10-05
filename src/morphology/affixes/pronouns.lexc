@@ -575,6 +575,128 @@ LEXICON Misc_Pronouns
 
 !!!!
 !
+!!!!
+!!
+!! Some pronoun continuation have been moved here
+!! Out of TestLexc-noun.txt
+
+LEXICON Misc_Pronouns1
+ Misc_Pronouns_Sg ;
+ Misc_Pronouns_Pl ;
++Adn: # ;
++Nom: PossPX1 ; !2012-08-09 Removing NomGen
++Gen: PossPX1 ; !2012-08-09 Removing NomGen
+
+LEXICON te-Dem
++Pron: kudo-Misc_Pronouns_Sg ;
++Adn: # ;
+
+!Formerly ne-Misc_Pronouns1
+LEXICON ne-Dem
++Dem+Pron: Misc_Pronouns_Pl ;
++Dem+Adn: # ;
+
+
+LEXICON Misc_Pronouns_Sg
+  Misc_Pronouns_Indef ;
++Sg+Nom+Def:%>сь  osh-Tenses1_Prep-SG ;
++Sg+Gen+Def:%>нть Clitic ;
++Sg+Def+DatCx:%>нтень Clitic ;
++Sg+Prl+Def:%>Г2а kudo-SgDet-PossPx ;
++Sg+Abe+Def:%>втО1мО1 kudo-SgDet-PossPx ;
++Sg+Abl+Def:%>дО1 kudo-SgDet-PossPx ;
++Sg+Tra+Def:%>кс osh-SgDet-PossPx ;
++Sg+Ine+Def:%>сО1 kudo-SgDet-PossPx ;
++Sg+Ela+Def:%>стО1 kudo-SgDet-PossPx ;
++Sg+CompCx+Def:%>шка kudo-SgDet-PossPx ;
++Sg+Tra+Def:%>V1кс osh-SgDet-PossPx ;
+
+LEXICON kudo-Misc_Pronouns_Sg
+  kudo-Misc_Pronouns_Indef ;
++Sg+Def+Nom:%>сь  osh-Tenses1_Prep-SG ;
++Sg+Def+Gen:%>нть Clitic ;
++Sg+Def+DatCx:%>нтень Clitic ;
++Sg+Prl+Def:%>Г2а kudo-SgDet-PossPx ;
++Sg+Abe+Def:%>втО1мО1 kudo-SgDet-PossPx ;
++Sg+Abl+Def:%>дО1 kudo-SgDet-PossPx ;
++Sg+Tra+Def:%>кс osh-SgDet-PossPx ;
++Sg+Ine+Def:%>сО1 kudo-SgDet-PossPx ;
++Sg+Ela+Def:%>стО1 kudo-SgDet-PossPx ;
++Sg+CompCx+Def:%>шка kudo-SgDet-PossPx ;
++Sg+Tra+Def:%>кс osh-SgDet-PossPx ;
+
+
+LEXICON SgDet-PossPx
+ PossPX1 ;
++Sg+Def:%>нть Clitic ; 
+
+LEXICON osh-SgDet-PossPx
+ osh-PossPX1 ;
++Sg+Def:%>нть Clitic ; 
+
+LEXICON kudo-SgDet-PossPx
+     +PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@  kal-SecondaryDeclination ;
++Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@    kal-SecondaryDeclination ;
+     +PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@  kit-SecondaryDeclination ;
++Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ kit-SecondaryDeclination ;
+     +PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ kudo-SecondaryDeclination ;
+     +PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ lak-SecondaryDeclination ;
+     +PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@   lak-SecondaryDeclination ;
+     +PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@   kit-SecondaryDeclination ;
++Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@  kit-SecondaryDeclination ;
+                  +Sg+Def:%>нть  Clitic ;
+
+LEXICON Misc_Pronouns_Indef
++Sg+Nom+InDef:0  Tenses1_Prep-SG ;
++Abl+InDef:%>дО1 Clitic ;
++Gen+InDef:%>нь kal-Tenses1 ; 
++DatCx+InDef:%>нень Clitic ;
++Ill+InDef:%>с Clitic ;
++Gen+InDef+Abl+InDef:%>нь%>стэ Clitic ;
++Gen+InDef+Ela+InDef:%>нь%>стэ Clitic ;
++Gen+InDef+Ine+InDef:%>нь%>сэ Clitic ;
++Gen+InDef+Ill+InDef:%>нь%>с Clitic ; 
++Gen+InDef+Abe+InDef:%>нь%>втО1мО1 Clitic ;
++Ine+InDef:%>сО1 Clitic ; 
++Ela+InDef:%>стО1 Clitic ;
++Prl+InDef:%>Г2а Clitic ;
++Abe+InDef:%>втО1мО1 Clitic ;
++Tra+InDef:%>ксЬ2 Clitic ;
++CompCx+InDef:%>шка Clitic ; 
+
+
+LEXICON kudo-Misc_Pronouns_Indef
++Sg+Nom+InDef:0  kudo-Tenses1_Prep-SG ;
++Abl+InDef:%>дО1 Clitic ;
++Gen+InDef:%>нь kal-Tenses1 ; 
++DatCx+InDef:%>нень Clitic ;
++Ill+InDef:%>с Clitic ;
++Gen+InDef+Abl+InDef:%>нь%>стэ Clitic ;
++Gen+InDef+Ela+InDef:%>нь%>стэ Clitic ;
++Gen+InDef+Ine+InDef:%>нь%>сэ Clitic ;
++Gen+InDef+Ill+InDef:%>нь%>с Clitic ; 
++Gen+InDef+Abe+InDef:%>нь%>втО1мО1 Clitic ;
++Ine+InDef:%>сО1 Clitic ; 
++Ela+InDef:%>стО1 Clitic ;
++Prl+InDef:%>Г2а Clitic ;
++Abe+InDef:%>втО1мО1 Clitic ;
++Tra+InDef:%>ксЬ2 Clitic ;
++CompCx+InDef:%>шка Clitic ; 
+
+
+LEXICON Misc_Pronouns_Pl
++Pl+Nom+InDef:%>тЬ2 Clitic ;
++Pl+Nom+Def:%>тне Clitic ; 
++Pl+Abl+Def:%>тне%>де Clitic ;
++Pl+Abe+Def:%>тне%>с Clitic ;
++Pl+CompCx+Def:%>тне%>шка Clitic ;
++Pl+Gen+Def:%>тне%>нь Clitic ;
++Pl+DatCx+Def:%>тне%>нень Clitic ;
++Pl+Ill+Def:%>тне%>с Clitic ;
++Pl+Ine+Def:%>тне%>сэ Clitic ;
++Pl+Ela+Def:%>тне%>стэ Clitic ;
++Pl+Tra+Def:%>тне%>кс Clitic ;
++Pl+Prl+Def:%>тне%>ва Clitic ;
 
 
 
