@@ -59,7 +59,8 @@ LEXICON osh-N-PL
 +N: osh-N-Poss-Declension-CX-PL ;
 
 LEXICON N-ije
- N-pango ;
+:е N-kudo ;
++Use/Sub:й N-kal ;
 
 LEXICON N-teshte
  N-pango ;
@@ -69,8 +70,8 @@ LEXICON N-tinge
 
 LEXICON tinge-N-PL
 +N:%> DefPl-Declension ;
-+N:%>VLoss DefPl-Declension ;
-+N: pango-Indef-Declension ;
++N:%>О1 DefPl-Declension ;
++N: pango-Indef-Declension-PL ;
 +N: kudo-N-Poss-Declension-CX-PL ;
 
 LEXICON N-pango
@@ -81,6 +82,11 @@ LEXICON N-pango
 
 LEXICON DV-NTag
 +V+Der/OmA: N-kudo ;
+
+LEXICON N-ki
+ N-kudo ;
++N:я SG-PRL-INDEF ;
++N:я SG-PRL-DEF ;
 
 LEXICON N-kudo
 +N: kudo-N-Derivation ;
@@ -924,12 +930,74 @@ LEXICON SG-TRA-DEF_Dial-NW
 !! INDEFINITE DECLENSION
 
 LEXICON kit-Indef-Declension
- kal-Indef-Declension ;
+:%> SG-ABE-INDEF ;
+:%> SG-ABL-INDEF ;
+:%> SG-CMP-INDEF ;
+:%>О1 SG-CMP-INDEF ;
+:%> SG-COM-INDEF ;
+:%> SG-DAT-INDEF ;
+:%> SG-ELA-INDEF ;
+:%>О1 SG-GEN-INDEF ;
+:%> SG-ILL-INDEF ;
+:%> SG-INE-INDEF ;
+:%>О1 SG-LAT-INDEF ;
+:%> SG-LOC-INDEF ;
+ kit-SG-NOM-INDEF ;
+:%> SG-PRL-INDEF ;
+:%> SG-TMP-INDEF ;
+:%> SG-TRA-INDEF ;
+:%>О1 SG-TRA-INDEF ;
+:%> PL-ABE-INDEF ;
+:%> PL-ABL-INDEF ;
+:%> PL-CMP-INDEF ;
+:%>О1 PL-CMP-INDEF ;
+:%> PL-COM-INDEF ;
+:%> PL-DAT-INDEF ;
+:%> PL-ELA-INDEF ;
+:%>О1 PL-GEN-INDEF ;
+:%> PL-ILL-INDEF ;
+:%> PL-INE-INDEF ;
+:%> PL-NOM-INDEF ;
+:%> PL-PRL-INDEF ;
+:%> PL-TRA-INDEF ;
+:%>О1 PL-TRA-INDEF ;
+
 !2012-10-05  +Use/Sub+Orth/PhonInfl+Pl+Nom+InDef:%>TLossтЬ2 kit-NomPl-Conjugation ;
 !2012-10-05  +Use/Sub+Orth/PhonInfl+Pl+Nom+InDef:%>TLossтЬ2 Clitic ;
 
 LEXICON lak-Indef-Declension
- kal-Indef-Declension ;
+:%> SG-ABE-INDEF ;
+:%> SG-ABL-INDEF ;
+:%> SG-CMP-INDEF ;
+:%>О1 SG-CMP-INDEF ;
+:%> SG-COM-INDEF ;
+:%> SG-DAT-INDEF ;
+:%> SG-ELA-INDEF ;
+:%>О1 SG-GEN-INDEF ;
+:%> SG-ILL-INDEF ;
+:%> SG-INE-INDEF ;
+:%>О1 SG-LAT-INDEF ;
+:%> SG-LOC-INDEF ;
+ lak-SG-NOM-INDEF ;
+:%> SG-PRL-INDEF ;
+:%> SG-TMP-INDEF ;
+:%> SG-TRA-INDEF ;
+:%>О1 SG-TRA-INDEF ;
+:%> PL-ABE-INDEF ;
+:%> PL-ABL-INDEF ;
+:%> PL-CMP-INDEF ;
+:%>О1 PL-CMP-INDEF ;
+:%> PL-COM-INDEF ;
+:%> PL-DAT-INDEF ;
+:%> PL-ELA-INDEF ;
+:%>О1 PL-GEN-INDEF ;
+:%> PL-ILL-INDEF ;
+:%> PL-INE-INDEF ;
+:%> PL-NOM-INDEF ;
+:%> PL-PRL-INDEF ;
+:%> PL-TRA-INDEF ;
+:%>О1 PL-TRA-INDEF ;
+
 
 LEXICON kal-Indef-Declension
 :%> SG-ABE-INDEF ;
@@ -944,7 +1012,7 @@ LEXICON kal-Indef-Declension
 :%> SG-INE-INDEF ;
 :%>О1 SG-LAT-INDEF ;
 :%> SG-LOC-INDEF ;
- SG-NOM-INDEF ;
+ kal-SG-NOM-INDEF ;
 :%> SG-PRL-INDEF ;
 :%> SG-TMP-INDEF ;
 :%> SG-TRA-INDEF ;
@@ -979,6 +1047,11 @@ LEXICON osh-Indef-Declension
 
 
 LEXICON pango-Indef-Declension
+ pango-Indef-Declension-SG ;
+ pango-Indef-Declension-PL ;
+
+LEXICON pango-Indef-Declension-SG
++Use/Sub:%> SG-ABE-INDEF ;
 :%>О1 SG-ABE-INDEF ;
 :%>О1 SG-ABL-INDEF ;
 +Use/Sub:%> SG-ABL-INDEF ;
@@ -993,10 +1066,13 @@ LEXICON pango-Indef-Declension
 :%>О1 SG-INE-INDEF ;
 :%> SG-INE-INDEF ;
 :%>О1 SG-LAT-INDEF ;
-:%>О1 SG-NOM-INDEF ;
+:%>О1 pango-SG-NOM-INDEF ;
 :%>О1 SG-PRL-INDEF ;
 :%>О1 SG-TMP-INDEF ;
 :%>О1 SG-TRA-INDEF ;
+
+LEXICON pango-Indef-Declension-PL
++Use/Sub:%> PL-ABE-INDEF ;
 :%>О1 PL-ABE-INDEF ;
 :%>О1 PL-ABL-INDEF ;
 +Use/Sub:%> PL-ABL-INDEF ;
@@ -1027,7 +1103,7 @@ LEXICON kudo-Indef-Declension
 :%> SG-ILL-INDEF ;
 :%> SG-INE-INDEF ;
 :%> SG-LAT-INDEF ;
- SG-NOM-INDEF ;
+ kudo-SG-NOM-INDEF ;
 :%> SG-PRL-INDEF ;
 :%> SG-TMP-INDEF ;
 :%> SG-TRA-INDEF ;
@@ -1079,8 +1155,18 @@ LEXICON SG-LAT-INDEF
 LEXICON SG-LOC-INDEF
 +Sg+Loc+InDef@U.DECL-NX.SG@:О1@U.DECL-NX.SG@ NounEnd_Clitic ;
 
-LEXICON SG-NOM-INDEF
+LEXICON kal-SG-NOM-INDEF
 +Sg+Nom+InDef@U.DECL-NX.SG@:@U.DECL-NX.SG@ kal-NomSg-Conjugation ;
+LEXICON kit-SG-NOM-INDEF
++Sg+Nom+InDef@U.DECL-NX.SG@:@U.DECL-NX.SG@ kit-NomSg-Conjugation ;
+LEXICON lak-SG-NOM-INDEF
++Sg+Nom+InDef@U.DECL-NX.SG@:@U.DECL-NX.SG@ lak-NomSg-Conjugation ;
+LEXICON osh-SG-NOM-INDEF
++Sg+Nom+InDef@U.DECL-NX.SG@:@U.DECL-NX.SG@ osh-NomSg-Conjugation ;
+LEXICON pango-SG-NOM-INDEF
++Sg+Nom+InDef@U.DECL-NX.SG@:@U.DECL-NX.SG@ pango-NomSg-Conjugation ;
+LEXICON kudo-SG-NOM-INDEF
++Sg+Nom+InDef@U.DECL-NX.SG@:@U.DECL-NX.SG@ kudo-NomSg-Conjugation ;
 
 LEXICON SG-PRL-INDEF
 +Sg+Prl+InDef@U.DECL-NX.SG@:Г2а@U.DECL-NX.SG@ kudo-Conjugation ;
@@ -1818,6 +1904,7 @@ LEXICON Possessive-Before-Clitic-noArrow
 +PxPl1:нО1к lak-Clitic ;
 +PxPl2:нк lak-Clitic ;
 +PxPl3:ст Clitic ;
++Dial+PxPl3:ск Clitic ;
 
 
 LEXICON kudo-Possessive-Word-Final

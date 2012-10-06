@@ -129,10 +129,10 @@ LEXICON Num-sjado_Sub
 +Use/Sub: Num-sjado ;
 
 LEXICON Num-sjado
-+Qnt+Num: # ;
-+Qnt+Num+Appr:%>шка # ;
++Qnt+Num:%>О1 # ;
++Qnt+Num+Appr:%>О1шка # ;
 +Qnt+Num+Der/MWN: N-pango ;
- NumOrd-sjado ;
+:О1 NumOrd-sjado ;
 
 LEXICON NumOrd-sjado
 +Qnt+Num+Ord:%>це # ;
@@ -162,7 +162,7 @@ LEXICON Cards-1-2
 
 
 LEXICON Assoc-Coll
-+Qnt+Univ+Assoc-Coll: kudo-N-Poss-Declension-PossX ;
++Qnt+AssocColl: kudo-N-Poss-Declension-PossX ;
 
 LEXICON IterTag
 +Qnt+Iter: Clitic ;
@@ -232,9 +232,10 @@ LEXICON kudo-NUM
 +Qnt+Num: kudo-N-Poss-Declension-CX ;
 
 LEXICON sjado-NUM-PL
-+Qnt+Num: DefPl-Declension ;
-+Qnt+Num: pango-Indef-Declension ;
-+Qnt+Num: pango-N-Poss-Declension-CX-PL ;
++Qnt+Num+Der/MWN+N:%> DefPl-Declension ;
++Qnt+Num+Der/MWN+N:%>О1 DefPl-Declension ;
++Qnt+Num+Der/MWN+N: pango-Indef-Declension ;
++Qnt+Num+Der/MWN+N: pango-N-Poss-Declension-CX-PL ;
 
 
 LEXICON Cards-kal
@@ -268,9 +269,9 @@ LEXICON Quants2
 +Coll+Attr@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
 +Coll@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
 +Appr+Coll@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
-+Coll:%>не Possessives2-Ill ;
-+Appr+Coll:%>шкане Possessives2-Ill ;
-+Coll:%>не kudo-Possessive-Before-Clitic ;
++AssocColl:%>не Possessives2-Ill ;
++Appr+AssocColl:%>шкане Possessives2-Ill ;
++AssocColl:%>не kudo-Possessive-Before-Clitic ;
 +Iter:%>ксть Clitics ;
 +Iter:%>О1ксть Clitics ;
 +Appr+Iter:%>шкаксть Clitics ;
