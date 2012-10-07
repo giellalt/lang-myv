@@ -143,18 +143,33 @@ LEXICON NumOrd-sjado
 LEXICON Num-kudo_Sub
 +Use/Sub: Num-kudo ;
 
+! More work needed 2012-10-08
 LEXICON Num-kudo
 +Qnt+Num: # ;
 +Qnt+Num+Appr:%>шка # ;
 +Qnt+Num+Der/MWN: N-kudo ;
  NumOrd-kudo ;
++Coll+Attr@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
++AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
++Appr+Coll@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
++AssocColl:%>не kudo-Possessives2-Ill ;
++Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
++AssocColl:%>не kudo-Possessive-Before-Clitic ;
++Iter:%>ксть Clitics ;
++Appr+Iter:%>шкаксть Clitics ;
 
 LEXICON NumOrd-kudo
 +Qnt+Num+Ord:%>це # ;
++Qnt+Num+Ord+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
 +Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
 +Qnt+Num+Ord:%>тькс # ;
 +Qnt+Num+Ord+Der/MWN:%>тькс N-osh ;
 
+!!
+LEXICON AssocColl-kavone
++Qnt+Num+AssocColl: PossPX1 ;
+
+!!
 LEXICON Cards-1-2
 +Qnt+Num: # ;
 +Qnt+Num+Appr:%>шка # ;
@@ -269,8 +284,8 @@ LEXICON Quants2
 +Coll+Attr@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
 +Coll@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
 +Appr+Coll@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
-+AssocColl:%>не Possessives2-Ill ;
-+Appr+AssocColl:%>шкане Possessives2-Ill ;
++AssocColl:%>не kudo-Possessives2-Ill ;
++Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
 +AssocColl:%>не kudo-Possessive-Before-Clitic ;
 +Iter:%>ксть Clitics ;
 +Iter:%>О1ксть Clitics ;

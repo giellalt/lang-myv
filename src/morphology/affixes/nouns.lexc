@@ -87,6 +87,7 @@ LEXICON N-ki
  N-kudo ;
 +N:я SG-PRL-INDEF ;
 +N:я SG-PRL-DEF ;
++N+Sg+Prl:ява PossPX1 ;
 
 LEXICON N-kudo
 +N: kudo-N-Derivation ;
@@ -1801,42 +1802,57 @@ LEXICON pek-Gen-Attributes
 !!!!!!!!!!!!!!!!!!!!!!!!
 
 
-LEXICON Possessives2-Ill
- Possessives2 ;
+LEXICON kudo-Possessives2-Ill
+ kudo-Possessives2 ;
 +NoVowX+Ill:%>з osh-Possessive-Before-Clitic ;
 
-LEXICON Possessives2
-+Dial+PxSg1/м:%>О1м kal-Determinatives1 ;
-+PxSg1:%>О1нЬ2 kal-Determinatives1 ;
-+PxSg2:%>О1тЬ2 kit-Determinatives1 ;
-+PxSg3:%>О1нзО1 kudo-Determinatives1 ;
-+PxPl1:%>О1нО1к lak-Determinatives1 ;
-+PxPl2:%>О1нк lak-Determinatives1 ;
-+PxPl3:%>О1ст kit-Determinatives1 ;
-+Dial+PxPl3:%>О1нст kit-Determinatives1 ;
+LEXICON kal-Possessives2
+:%>О1 Possessives2-PxSg1 ;
+:%>О1 Possessives2-PxSg2 ;
+:%>О1 Possessives2-PxSg3 ;
+:%>О1 Possessives2-PxPl1 ;
+:%>О1 Possessives2-PxPl2 ;
+:%>О1 Possessives2-PxPl3 ;
 
 ! These are possessor Indices for non-nominative singular
 ! NonNomSg
 LEXICON osh-Possessives2
-+Dial+PxSg1/м:%>О1м kal-Determinatives1 ;
-+PxSg1:%>О1нЬ2 kal-Determinatives1 ;
-+PxSg2:%>О1тЬ2 kit-Determinatives1 ;
-+PxSg3:%>О1нзО1 kudo-Determinatives1 ;
-+PxPl1:%>О1нО1к lak-Determinatives1 ;
-+PxPl2:%>О1нк lak-Determinatives1 ;
-+PxPl3:%>О1ст kit-Determinatives1 ;
-+PxPl3:%>О1нст kit-Determinatives1 ;
+:%>О1 Possessives2-PxSg1 ;
+:%>О1 Possessives2-PxSg2 ;
+:%>О1 Possessives2-PxSg3 ;
+:%>О1 Possessives2-PxPl1 ;
+:%>О1 Possessives2-PxPl2 ;
+:%>О1 Possessives2-PxPl3 ;
 
 LEXICON kudo-Possessives2
-+PxSg1+Dial:%>м kal-Determinatives1 ;
+:%> Possessives2-PxSg1 ;
+:%> Possessives2-PxSg2 ;
+:%> Possessives2-PxSg3 ;
+:%> Possessives2-PxPl1 ;
+:%> Possessives2-PxPl2 ;
+:%> Possessives2-PxPl3 ;
+
+LEXICON Possessives2-PxSg1
++Dial+PxSg1:%>м kal-Determinatives1 ;
 +PxSg1:%>нЬ2 kal-Determinatives1 ;
+
+LEXICON Possessives2-PxSg2
 +PxSg2:%>тЬ2 kit-Determinatives1 ;
 +Dial+PxSg2:%>нтЬ2 kit-Determinatives1 ;
+
+LEXICON Possessives2-PxSg3
 +PxSg3:%>нзО1 kudo-Determinatives1 ;
+
+LEXICON Possessives2-PxPl1
 +PxPl1:%>нО1к lak-Determinatives1 ;
+
+LEXICON Possessives2-PxPl2
 +PxPl2:%>нк lak-Determinatives1 ;
+
+LEXICON Possessives2-PxPl3
 +PxPl3:%>ст kit-Determinatives1 ;
-+PxPl3+Dial:%>нст kit-Determinatives1 ;
++Dial+PxPl3:%>ск lak-Determinatives1 ;
++Dial+PxPl3:%>нст kit-Determinatives1 ;
 
 LEXICON kal-Determinatives1
 +Der/Dem:%>се kudo-N2-Def-Declension ;
