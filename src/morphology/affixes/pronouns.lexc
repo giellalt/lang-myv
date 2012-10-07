@@ -309,17 +309,28 @@ LEXICON kudo-PersPronGenCX_DX
 LEXICON PersPronGenCX_DX-1
  Clitic; 
 
+LEXICON PossPX1-NomSg
++Sg+Nom+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@ Clitic ;
++Sg+Nom+PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@ Clitic ;
++Sg+Nom+PxSg3@U.PossPx.3Sg@:%>зО1@U.PossPx.3Sg@ Clitic ;
++Sg+Nom+PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ Clitic ;
++Dial+Sg+Nom+PxPl1@U.PossPx.1Pl@:%>мО1к@U.PossPx.1Pl@ Clitic ;
++Sg+Nom+PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@ Clitic ;
++Sg+Nom+PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@ Clitic ;
 
+
+! This should be checked. Where does it come from?
+! 
 LEXICON PossPX1
-+ScSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@ Clitic ;
-+Dial+ScSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@ Clitic ;
-+ScSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@ Clitic ;
-+Dial+ScSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ Clitic ;
-+ScSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ Clitic ;
-+ScPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ Clitic ;
-+ScPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@ Clitic ;
-+ScPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@ Clitic ;
-+Dial+ScPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@ Clitic ;
++PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@ Clitic ;
++Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@ Clitic ;
++PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@ Clitic ;
++Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ Clitic ;
++PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ Clitic ;
++PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ Clitic ;
++PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@ Clitic ;
++PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@ Clitic ;
++Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@ Clitic ;
 
 LEXICON osh-PossPX1
 +PxSg1@U.PossPx.1Sg@:%>О1нЬ2@U.PossPx.1Sg@  SecondaryDeclination ;
@@ -390,6 +401,7 @@ LEXICON  Indef_Pronouns
 мезе+Pron+Nom+Sg:мезе Indef_Pronouns-Clitic ;
 мезе+Pron:мезь osh-Indef_Pronouns-Cases ;
 мезе+Pron:мезе PossPX1 ;
+мезе+Pron:мезе PossPX1-NomSg ;
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-Clitic ;
 !мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
 мезе+Pron+Nom+Pl:мезть Indef_Pronouns-Clitic ;
@@ -584,7 +596,7 @@ LEXICON Misc_Pronouns1
  Misc_Pronouns_Sg ;
  Misc_Pronouns_Pl ;
 +Adn: # ;
-+Nom: PossPX1 ; !2012-08-09 Removing NomGen
+ PossPX1-NomSg ; !2012-08-09 Removing NomGen
 +Gen: PossPX1 ; !2012-08-09 Removing NomGen
 
 LEXICON te-Dem
