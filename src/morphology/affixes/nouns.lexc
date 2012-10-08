@@ -1410,7 +1410,8 @@ LEXICON SG-GEN-PX
 +Sg+Gen+PxPl3+Der/Pr+Ind+NonPast+ScSg3@U.DECL-NX.SG@:ст@U.DECL-NX.SG@ NounEnd_Clitic ;
 
 LEXICON SG-ILL-PX
-+Sg+Ill@U.DECL-NX.SG@:з@U.DECL-NX.SG@ osh-N-Poss-Declension-PossX ;
++Sg+Ill@U.DECL-NX.SG@:з%>О1@U.DECL-NX.SG@ ILL-N-Poss-Declension-PossX ;
+
 
 LEXICON SG-INE-PX
 +Sg+Ine@U.DECL-NX.SG@:сО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
@@ -1467,7 +1468,7 @@ LEXICON PL-GEN-PX
 !!+Pl+Gen+PxPl3+Der/Pr+Ind+NonPast+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:ст@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_Clitic ;
 
 LEXICON PL-ILL-PX
-+Pl+Ill@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@:з@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@ osh-N-Poss-Declension-PossX ;
++Pl+Ill@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@:з%>О1@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@ ILL-N-Poss-Declension-PossX ;
 
 LEXICON PL-INE-PX
 +Pl+Ine@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.PX@:сО1@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
@@ -1520,6 +1521,17 @@ LEXICON osh-N-Poss-Declension-PossX
 +PxPl2:%>О1нк lak-Conjugation ;
 +PxPl3:%>О1ст kit-Conjugation ;
 
+LEXICON ILL-N-Poss-Declension-PossX
++PxSg1:нЬ2 NounEnd_Clitic ;
++Dial+PxSg1:м NounEnd_Clitic ;
++PxSg2:тЬ2 NounEnd_Clitic ;
++Dial+PxSg2:нтЬ2 NounEnd_Clitic ;
++PxSg3:нзО1 NounEnd_Clitic ;
++PxPl1:нО1к NounEnd_lak-Clitic ;
++PxPl2:нк NounEnd_lak-Clitic ;
++PxPl3:ст NounEnd_Clitic ;
++Dial+PxPl3:ск NounEnd_lak-Clitic ;
+
 ! These are possessor Indices for non-nominative singular
 ! NonNomSg
 LEXICON kudo-N-Poss-Declension-PossX
@@ -1560,7 +1572,7 @@ LEXICON NounEnd_Clitic
  NounEnd ;
 
 LEXICON NounEnd_lak-Clitic
- lak-Clitic
+ lak-Clitic ;
  NounEnd ;
 
 LEXICON NounEnd
