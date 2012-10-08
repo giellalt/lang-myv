@@ -322,15 +322,20 @@ LEXICON PossPX1-NomSg
 ! This should be checked. Where does it come from?
 ! 
 LEXICON PossPX1
-+PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@ Clitic ;
-+Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@ Clitic ;
-+PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@ Clitic ;
-+Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ Clitic ;
-+PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ Clitic ;
-+PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ Clitic ;
-+PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@ Clitic ;
-+PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@ Clitic ;
-+Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@ Clitic ;
+:%> PossMarker-then-Clt ;
+
+! PossMarker-followed-by-Clitic-possibility
+LEXICON PossMarker-then-Clt
++PxSg1@U.PossPx.1Sg@:нЬ2@U.PossPx.1Sg@ Clitic ;
++Dial+PxSg1@U.PossPx.1Sg@:м@U.PossPx.1Sg@ Clitic ;
++PxSg2@U.PossPx.2Sg@:тЬ2@U.PossPx.2Sg@ Clitic ;
++Dial+PxSg2@U.PossPx.2Sg@:нтЬ2@U.PossPx.2Sg@ Clitic ;
++PxSg3@U.PossPx.3Sg@:нзО1@U.PossPx.3Sg@ Clitic ;
++PxPl1@U.PossPx.1Pl@:нО1к@U.PossPx.1Pl@ lak-Clitic ;
++PxPl2@U.PossPx.2Pl@:нк@U.PossPx.2Pl@ lak-Clitic ;
++PxPl3@U.PossPx.3Pl@:ст@U.PossPx.3Pl@ Clitic ;
++Dial+PxPl3@U.PossPx.3Pl@:ск@U.PossPx.3Pl@ lak-Clitic ;
++Dial+PxPl3@U.PossPx.3Pl@:нст@U.PossPx.3Pl@ Clitic ;
 
 LEXICON osh-PossPX1
 +PxSg1@U.PossPx.1Sg@:%>О1нЬ2@U.PossPx.1Sg@  SecondaryDeclination ;
@@ -361,7 +366,6 @@ LEXICON  Indef_Pronouns-pref
 +Der/та:та- Indef_Pronouns ;
 +Der/таго:таго- Indef_Pronouns ;
 
-мезе+Adn+Dep+Gen:мень Indef_Pronouns-Clitic-post ; !This one cannot take prefix
 
 
 LEXICON  Indef_Pronouns
@@ -370,8 +374,10 @@ LEXICON  Indef_Pronouns
 кие+Pron+Nom+Sg:кие Indef_Pronouns-Clitic ;
 кие+Pron+Nom+Sg:ки Indef_Pronouns-Clitic ;
 кие+Pron:ки kudo-Indef_Pronouns-Cases ;
-ко+Pron:ко Indef_Pronouns-Cases ;
-ков+Spat+Lat:ков Indef_Pronouns-Clitic ;
+!ко+Pron:ко Indef_Pronouns-Cases ;
+ков+Pron+Lat:ков Indef_Pronouns-Clitic ;
+косо+Pron+Ine:косо Indef_Pronouns-Clitic ;
+косто+Pron+Ela:косто Indef_Pronouns-Clitic ;
 кода+Pron+Manner:кода Indef_Pronouns-Clitic ;
 кодамо+Adn+Nom+Sg:кодамо Indef_Pronouns-Clitic ;
 кодамо+Adn+Nom+Pl:кодат Indef_Pronouns-Clitic ;
@@ -398,6 +404,7 @@ LEXICON  Indef_Pronouns
 зняро+Pron+Ill:знярс Indef_Pronouns-Clitic ;
 знярдо+Pron+Abl+Gen:знярдонь Indef_Pronouns-Clitic ;
 
+!мезе+Adn+Dep+Gen:мень Indef_Pronouns-Clitic-post ; !This one cannot take prefix
 мезе+Pron+Nom+Sg:мезе Indef_Pronouns-Clitic ;
 мезе+Pron:мезь osh-Indef_Pronouns-Cases ;
 мезе+Pron:мезе PossPX1 ;
