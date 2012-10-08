@@ -24,6 +24,8 @@ GT_LEXC_SRCS=\
 			stems/acro.lexc		\
 			stems/punct.lexc	\
 			affixes/adjectives.lexc  \
+			affixes/adverbs.lexc  \
+			affixes/clitics.lexc  \
 			affixes/nouns.lexc       \
 			affixes/pronouns.lexc    \
 			affixes/propernouns.lexc \
@@ -58,7 +60,7 @@ GENERATED_LEXC_SRCS=\
 			stems/predication-secondary.lexc                   \
 			stems/pronouns.lexc                                \
 			stems/quantifiers.lexc                             \
-			stems/verbs.lexc                                   
+			stems/verbs.lexc 
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -88,7 +90,7 @@ GT_XML_SRCS=\
 			stems/predication-secondary.xml                   \
 			stems/pronouns.xml                                \
 			stems/quantifiers.xml                             \
-			stems/verbs.xml                                   
+			stems/verbs.xml 
 
 include $(top_srcdir)/am-shared/lexc-include.am
 
