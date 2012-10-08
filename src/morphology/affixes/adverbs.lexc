@@ -1,0 +1,165 @@
+!! Adverb inflection
+!! --------------------
+!! The Erzya language adjectives do not compare.
+
+
+! These _states_ can conjugate,
+! a distinctive feature
+!
+LEXICON AdvState-kudo_Sub
++Use/Sub: AdvState-kudo ; 
+
+LEXICON AdvState-kudo
++Adv+State: # ;
++Adv+State+Der/Pr:%> StateConjugation-kudo ;
+
+!+Pred2: Clitic ;
+!+Pred2+Der/MWN: N-kudo ;
+
+! This is fed by AdvState
+LEXICON StateConjugation-kudo
++Ind+NonPast+ScSg1:А2н Clitic ;
++Dial+Ind+NonPast+ScSg1:ян Clitic ;
++Ind+NonPast+ScSg2:А2т Clitic ;
++Dial+Ind+NonPast+ScSg2:ят Clitic ;
++Ind+NonPast+ScSg3: Clitic ;
++Ind+Prt2+ScSg1:линь Clitic ;
++Ind+Prt2+ScSg2:лить Clitic ;
++Ind+Prt2+ScSg3:ль Clitic ;
+
++Ind+NonPast+ScPl1:тА2но Clitic ;
++Ind+NonPast+ScPl2:тА2до Clitic ;
++Ind+NonPast+ScPl3:тЬ2 Clitic ;
++Ind+Prt2+ScPl1:линек lak-Clitic ;
++Ind+Prt2+ScPl2:лиде Clitic ;
++Ind+Prt2+ScPl3:льть Clitic ;
+
+
+!LEXICON ABBR-IS_ADV
+!+ABBR: ADVTAG ;
+
+LEXICON Ad-ATag ! 
++AdA: # ;
+
+LEXICON AdvTag ! 
++Adv: Clitic ;
+
+LEXICON Adv-kudo ! Coping with stem structure
+ AdvTag ;
+
+LEXICON Adv_Phrase ! 
++Adv: # ;
+
+LEXICON Adv-Ideoph ! 
++Adv-Ideoph: Clitic ;
+! сорк, кальцк ; twang, thwang, bang
+
+LEXICON Adv-Ideoph-Ine ! 
++Adv-Ideoph+Ine: Clitic ;
+
+LEXICON Exclusive ! 
++Adv+Exclusive: Clitic ;
+
+LEXICON Adv-Ine ! 
++Ine: AdvTag ;
+
+LEXICON Adv-Tra ! 
++Tra: AdvTag ;
+
+LEXICON MannerTag ! 
++Adv+Manner: Clitic ;
+
+LEXICON Manner-Interr ! 
++Interr+Adv+Manner: Clitic ;
+
+LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
++Pred2: Clitic ;
++Pred2+Der/MWN: N-kudo ;
+
+!! spatial adverbs 
+!! dependent and independent case marking 
+LEXICON Spat-NoArg
++Adv+Spat: Clitic ;
+
+LEXICON Spat-Interr
++Interr+Spat: # ;
+
+LEXICON SpatTag
++Spat: Clitic ;
+
+LEXICON Spat-Ela
++Spat+Ela: Clitic ;
++Po+Spat+Ela: kudo-Possessive-Before-Clitic ;
+
+LEXICON Spat-Ine
++Spat+Ine: Clitic ;
++Po+Spat+Ine: kudo-Possessive-Before-Clitic ;
+
+LEXICON Spat-Lat
++Spat+Lat: Clitic ;
+
+LEXICON Spat-Prl
++Spat+Prl: Clitic ;
++Po+Spat+Prl: kudo-Possessive-Before-Clitic ;
+
+!!Temporal tags with cases
+LEXICON TempTag
++Adv+Temp: Clitic ;
+
+!! This marking would indicate a word form that may be 
+!  construed as an adv as well as a adposition.
+LEXICON Temp-NoArg
++Adv+Temp: Clitic ;
+
+LEXICON Temp-Coll
++Coll+Adv+Temp: Clitic ;
+
+LEXICON Temp-Distr
++Distr+Adv+Temp: Clitic ;
+
+LEXICON Temp-Ela
++Ela+Adv+Temp: Clitic ;
+
+LEXICON Temp-Ill
++Ill+Adv+Temp: Clitic ;
+
+LEXICON Temp-Indef
++Adv+Temp+InDef: Clitic ;
+
+LEXICON Temp-Interr
++Adv+Temp+Interr: Clitic ;
+
+LEXICON Temp-Lat
++Lat+Adv+Temp: Clitic ;
+
+LEXICON Temp-ms
++Der/мс+Ill+Adv+Temp: Clitic ;
+
+LEXICON Temp-Pl
++Pl+Adv+Temp: Clitic ;
+
+LEXICON Temp-Prl
++Prl+Adv+Temp: Clitic ;
+
+LEXICON Temp-Temp
++Temp+Adv+Temp: Clitic ;
+
+LEXICON lak-N-Temp
++Adv+Temp: Clitic ;
++Adv+Temp+Der/MWN: N-lak ;
+
+LEXICON kit-N-Temp
++Adv+Temp: Clitic ;
++Adv+Temp+Der/MWN: N-kit ;
+
+LEXICON kudo-N-Temp
++Adv+Temp: Clitic ;
++Adv+Temp+Der/MWN: N-kudo ;
+
+LEXICON Temp-1Arg-Ela
++Po+Ela+Temp: Clitic ; !This will require Possessor Indices
+
+
+
+! vim: set ft=xfst-lexc:
+
