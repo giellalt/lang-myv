@@ -36,9 +36,6 @@ GT_LEXC_SRCS=\
 GENERATED_LEXC_SRCS=\
 			stems/adjective-adverb-modifiers.lexc              \
 			stems/adjectives.lexc                              \
-			stems/adverb-manner.lexc                           \
-			stems/adverb-spatials.lexc                         \
-			stems/adverb-temporals.lexc                        \
 			stems/adverbs.lexc                                 \
 			stems/bahuvrihis.lexc                              \
 			stems/conjunctions.lexc                            \
@@ -66,9 +63,6 @@ GENERATED_LEXC_SRCS=\
 GT_XML_SRCS=\
 			stems/adjective-adverb-modifiers.xml              \
 			stems/adjectives.xml                              \
-			stems/adverb-manner.xml                           \
-			stems/adverb-spatials.xml                         \
-			stems/adverb-temporals.xml                        \
 			stems/adverbs.xml                                 \
 			stems/bahuvrihis.xml                              \
 			stems/conjunctions.xml                            \

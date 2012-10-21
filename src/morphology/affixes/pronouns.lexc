@@ -23,12 +23,12 @@ LEXICON Interr-Pers
 
 LEXICON PERS
 
-мон+Pron+Pers+PxSg1@P.PossPx.1Sg@@P.TNUM.SG@@P.TPERS.1@:мо@P.PossPx.1Sg@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
-тон+Pron+Pers+PxSg2@P.PossPx.2Sg@@P.TNUM.SG@@P.TPERS.2@:то@P.PossPx.2Sg@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
-сон+Pron+Pers+PxSg3@P.PossPx.3Sg@@P.TNUM.SG@@P.TPERS.3@:со@P.PossPx.3Sg@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
-минь+Pron+Pers+PxPl1@P.PossPx.1Pl@@P.TNUM.PL@@P.TPERS.1@:ми@P.PossPx.1Pl@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
-тынь+Pron+Pers+PxPl2@P.PossPx.2Pl@@P.TNUM.PL@@P.TPERS.2@:ты@P.PossPx.2Pl@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
-сынь+Pron+Pers+PxPl3@P.PossPx.3Pl@@P.TNUM.PL@@P.TPERS.3@:сы@P.PossPx.3Pl@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
+мон+Pron+Pers+PxSg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:мо@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
+тон+Pron+Pers+PxSg2@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@:то@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
+сон+Pron+Pers+PxSg3@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@:со@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
+минь+Pron+Pers+PxPl1@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@:ми@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
+тынь+Pron+Pers+PxPl2@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@:ты@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
+сынь+Pron+Pers+PxPl3@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:сы@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
 !!!!!!
 эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
 эсь+Refl+Adn:эсь # ;
@@ -77,14 +77,14 @@ LEXICON Pers_Pronouns1
 +Nom@D.TNUM.PL@:н@D.TNUM.PL@ kal-Tenses1 ;
 +Nom@D.TNUM.SG@:нь@D.TNUM.SG@ kal-Tenses1 ;
 +Intensive:нсь PersPron_Minsy ;
-+PxSg1+Gen@U.PossPx.1Sg@@N.TPERS.1@@C.TNUM@:нь@U.PossPx.1Sg@@N.TPERS.1@@C.TNUM@ kal-PersPronGen_CX ;
-+NoPoss+Gen@U.PossPx.2Sg@@N.TPERS.2@@C.TNUM@:нь@U.PossPx.2Sg@@N.TPERS.2@@C.TNUM@ kal-PersPronGen_CX ;
-+Dial+PxSg2+Gen@U.PossPx.2Sg@@N.TPERS.2@@C.TNUM@:нть@U.PossPx.2Sg@@N.TPERS.2@@C.TNUM@ kit-Tenses1 ;
++PxSg1+Gen@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@:нь@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@ kal-PersPronGen_CX ;
++NoPoss+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нь@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ kal-PersPronGen_CX ;
++Dial+PxSg2+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нть@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ kit-Tenses1 ;
 
-+PxSg3+Gen@U.PossPx.3Sg@@N.TPERS.3@@C.DNUM@@C.TNUM@:нзэ@U.PossPx.3Sg@@N.TPERS.3@@C.DNUM@@C.TNUM@ kudo-PersPronGen_CX ;
-+PxPl1+Gen@U.PossPx.1Pl@@N.TPERS.1@@C.TNUM@:нек@U.PossPx.1Pl@@N.TPERS.1@@C.TNUM@ lak-PersPronGen_CX ;
-+PxPl2+Gen@U.PossPx.2Pl@@N.TPERS.2@@C.TNUM@:нк@U.PossPx.2Pl@@N.TPERS.2@@C.TNUM@ lak-PersPronGen_CX ;
-+PxPl3+Gen@U.PossPx.3Pl@@N.TPERS.3@@C.TNUM@:нст@U.PossPx.3Pl@@N.TPERS.3@@C.TNUM@ kit-PersPronGen_CX ;
++PxSg3+Gen@U.PossPx.S3@@N.TPERS.3@@C.DNUM@@C.TNUM@:нзэ@U.PossPx.Sg3@@N.TPERS.3@@C.DNUM@@C.TNUM@ kudo-PersPronGen_CX ;
++PxPl1+Gen@U.PossPx.Pl1@@N.TPERS.1@@C.TNUM@:нек@U.PossPx.Pl1@@N.TPERS.1@@C.TNUM@ lak-PersPronGen_CX ;
++PxPl2+Gen@U.PossPx.Pl2@@N.TPERS.2@@C.TNUM@:нк@U.PossPx.Pl2@@N.TPERS.2@@C.TNUM@ lak-PersPronGen_CX ;
++PxPl3+Gen@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@:нст@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@ kit-PersPronGen_CX ;
 !!PROBLEM 2009-09-16 why does nstY4 have the Y4
 
 !+Refl+Gen+Pron:%>О1нсе PersPron_Gen ;
@@ -98,8 +98,8 @@ LEXICON Pers_Pronouns1
 +Refl+CompCx:%>нсешка PossPX1 ;
 +Refl+DatCx:%>нсте PossPX1 ;
 
-+Gen+PxSg2@U.PossPx.2Sg@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.2Sg@@C.TNUM@@N.TPERS.2@ kal-Tenses1 ;
-+Dial+PxSg3+Gen@U.PossPx.3Sg@@C.TNUM@@N.TPERS.3@:%>нзо@U.PossPx.3Sg@@C.TNUM@@N.TPERS.3@ kudo-Tenses1 ;
++Gen+PxSg2@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@ kal-Tenses1 ;
++Dial+PxSg3+Gen@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@:%>нзо@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@ kudo-Tenses1 ;
 
 +Abl:%>нде PersPron_PossPX ; 
 +Abl+Abl:%>ндеде PersPron_PossPX ; 
@@ -131,38 +131,38 @@ LEXICON PersPron_Minsy-Obliq
 +CompCx:%>О1шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
 +Tra@P.LV.ON@:%>О1кс@P.LV.ON@ osh-PersPron_PossPX ;
-+Gen+Dial+PxSg1@U.PossPx.1Sg@:%>О1м@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+Gen+PxSg1@U.PossPx.1Sg@:%>О1нь@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+Gen+PxSg2@U.PossPx.2Sg@:%>О1тЬ2@U.PossPx.2Sg@ kit-PersPronGen_CX ;
-+Gen+PxSg3@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+Gen+PxPl1@U.PossPx.1Pl@:%>О1нО1к@U.PossPx.1Pl@ lak-PersPronGen_CX ;
-+Gen+PxPl2@U.PossPx.2Pl@:%>О1нк@U.PossPx.2Pl@ lak-PersPronGen_CX ;
-+Gen+PxPl3@U.PossPx.3Pl@:%>О1ст@U.PossPx.3Pl@ kit-PersPronGen_CX ;
++Gen+Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@ kal-PersPronGen_CX ;
++Gen+PxSg1@U.PossPx.Sg1@:%>О1нь@U.PossPx.Sg1@ kal-PersPronGen_CX ;
++Gen+PxSg2@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@ kit-PersPronGen_CX ;
++Gen+PxSg3@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
++Gen+PxPl1@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@ lak-PersPronGen_CX ;
++Gen+PxPl2@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@ lak-PersPronGen_CX ;
++Gen+PxPl3@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@ kit-PersPronGen_CX ;
 !!these just go onto the clitics
-+Gen+Dial+PxSg2@U.PossPx.2Sg@:%>О1нтЬ2@U.PossPx.2Sg@ Clitic ;
-+Gen+Dial+PxPl3@U.PossPx.3Pl@:%>О1нст@U.PossPx.3Pl@ Clitic ;
++Gen+Dial+PxSg2@U.PossPx.Sg2@:%>О1нтЬ2@U.PossPx.Sg2@ Clitic ;
++Gen+Dial+PxPl3@U.PossPx.Pl3@:%>О1нст@U.PossPx.Pl3@ Clitic ;
 
 LEXICON PersPron_Gen
-+Gen+Dial+PxSg1@U.PossPx.1Sg@:%>О1м@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+Gen+PxSg1@U.PossPx.1Sg@:%>О1нь@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+Gen+PxSg2@U.PossPx.2Sg@:%>О1тЬ2@U.PossPx.2Sg@ kit-PersPronGen_CX ;
-+Gen+PxSg3@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+Gen+PxPl1@U.PossPx.1Pl@:%>О1нО1к@U.PossPx.1Pl@ lak-PersPronGen_CX ;
-+Gen+PxPl2@U.PossPx.2Pl@:%>О1нк@U.PossPx.2Pl@ lak-PersPronGen_CX ;
-+Gen+PxPl3@U.PossPx.3Pl@:%>О1ст@U.PossPx.3Pl@ kit-PersPronGen_CX ;
++Gen+Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@ kal-PersPronGen_CX ;
++Gen+PxSg1@U.PossPx.Sg1@:%>О1нь@U.PossPx.Sg1@ kal-PersPronGen_CX ;
++Gen+PxSg2@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@ kit-PersPronGen_CX ;
++Gen+PxSg3@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
++Gen+PxPl1@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@ lak-PersPronGen_CX ;
++Gen+PxPl2@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@ lak-PersPronGen_CX ;
++Gen+PxPl3@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@ kit-PersPronGen_CX ;
 !!these just go onto the clitics
-+Gen+Dial+PxSg2@U.PossPx.2Sg@:%>О1нтЬ2@U.PossPx.2Sg@ Clitic ;
-+Gen+Dial+PxPl3@U.PossPx.3Pl@:%>О1нст@U.PossPx.3Pl@ Clitic ;
++Gen+Dial+PxSg2@U.PossPx.Sg2@:%>О1нтЬ2@U.PossPx.Sg2@ Clitic ;
++Gen+Dial+PxPl3@U.PossPx.Pl3@:%>О1нст@U.PossPx.Pl3@ Clitic ;
 +Dial+NoPoss: Clitic ;
 
 LEXICON PersPron_Oblique
-+Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@ kal-PersPronGen_CX ;
-+PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@ kit-PersPronGen_CX ;
-+PxSg3@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@:%>нзО1@U.PossPx.3Sg@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ lak-PersPronGen_CX ;
-+PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@ lak-PersPronGen_CX ;
-+PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@ kit-PersPronGen_CX ;
++Dial+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@ kal-PersPronGen_CX ;
++PxSg1@U.PossPx.Sg1@:%>нЬ2@U.PossPx.Sg1@ kal-PersPronGen_CX ;
++PxSg2@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@ kit-PersPronGen_CX ;
++PxSg3@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
++PxPl1@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ lak-PersPronGen_CX ;
++PxPl2@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@ lak-PersPronGen_CX ;
++PxPl3@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@ kit-PersPronGen_CX ;
 +Dial+NoPoss: Clitic ;
 
 
@@ -170,27 +170,27 @@ LEXICON PersPron_Oblique
 !!These PossPXs are applied after Obl cases
 !!
 LEXICON PersPron_PossPX
-+PxSg1@U.PossPx.1Sg@@D.LV.ON@:%>нЬ2@U.PossPx.1Sg@@D.LV.ON@ Clitic ;
-+Dial+PxSg1@U.PossPx.1Sg@@D.LV.ON@:%>м@U.PossPx.1Sg@@D.LV.ON@ Clitic ;
-+PxSg2@U.PossPx.2Sg@@D.LV.ON@:%>тЬ2@U.PossPx.2Sg@@D.LV.ON@ Clitic ;
-+Dial+PxSg2@U.PossPx.2Sg@@D.LV.ON@:%>нтЬ2@U.PossPx.2Sg@@D.LV.ON@ Clitic ;
-+PxSg3@U.PossPx.3Sg@@D.LV.ON@:%>нзО1@U.PossPx.3Sg@@D.LV.ON@ Clitic ;
-+PxPl1@U.PossPx.1Pl@@D.LV.ON@:%>нО1к@U.PossPx.1Pl@@D.LV.ON@ Clitic ;
-+PxPl2@U.PossPx.2Pl@@D.LV.ON@:%>нк@U.PossPx.2Pl@@D.LV.ON@ Clitic ;
-+PxPl3@U.PossPx.3Pl@@D.LV.ON@:%>ст@U.PossPx.3Pl@@D.LV.ON@ Clitic ;
-+Dial+PxPl3@U.PossPx.3Pl@@D.LV.ON@:%>нст@U.PossPx.3Pl@@D.LV.ON@ Clitic ;
++PxSg1@U.PossPx.Sg1@@D.LV.ON@:%>нЬ2@U.PossPx.Sg1@@D.LV.ON@ Clitic ;
++Dial+PxSg1@U.PossPx.Sg1@@D.LV.ON@:%>м@U.PossPx.Sg1@@D.LV.ON@ Clitic ;
++PxSg2@U.PossPx.Sg2@@D.LV.ON@:%>тЬ2@U.PossPx.Sg2@@D.LV.ON@ Clitic ;
++Dial+PxSg2@U.PossPx.Sg2@@D.LV.ON@:%>нтЬ2@U.PossPx.Sg2@@D.LV.ON@ Clitic ;
++PxSg3@U.PossPx.Sg3@@D.LV.ON@:%>нзО1@U.PossPx.Sg3@@D.LV.ON@ Clitic ;
++PxPl1@U.PossPx.Pl1@@D.LV.ON@:%>нО1к@U.PossPx.Pl1@@D.LV.ON@ Clitic ;
++PxPl2@U.PossPx.Pl2@@D.LV.ON@:%>нк@U.PossPx.Pl2@@D.LV.ON@ Clitic ;
++PxPl3@U.PossPx.Pl3@@D.LV.ON@:%>ст@U.PossPx.Pl3@@D.LV.ON@ Clitic ;
++Dial+PxPl3@U.PossPx.Pl3@@D.LV.ON@:%>нст@U.PossPx.Pl3@@D.LV.ON@ Clitic ;
 +Dial+NoPoss: Clitic ;
 
 LEXICON osh-PersPron_PossPX 
-+PxSg1@U.PossPx.1Sg@@D.LV.ON@:%>О1нЬ2@U.PossPx.1Sg@@D.LV.ON@ Clitic ;
-+Dial+PxSg1@U.PossPx.1Sg@@D.LV.ON@:%>О1м@U.PossPx.1Sg@@D.LV.ON@ Clitic ;
-+PxSg2@U.PossPx.2Sg@@D.LV.ON@:%>О1тЬ2@U.PossPx.2Sg@@D.LV.ON@ Clitic ;
-+Dial+PxSg2@U.PossPx.2Sg@@D.LV.ON@:%>О1нтЬ2@U.PossPx.2Sg@@D.LV.ON@ Clitic ;
-+PxSg3@U.PossPx.3Sg@@D.LV.ON@:%>О1нзО1@U.PossPx.3Sg@@D.LV.ON@ Clitic ;
-+PxPl1@U.PossPx.1Pl@@D.LV.ON@:%>О1нО1к@U.PossPx.1Pl@@D.LV.ON@ Clitic ;
-+PxPl2@U.PossPx.2Pl@@D.LV.ON@:%>О1нк@U.PossPx.2Pl@@D.LV.ON@ Clitic ;
-+PxPl3@U.PossPx.3Pl@@D.LV.ON@:%>О1ст@U.PossPx.3Pl@@D.LV.ON@ Clitic ;
-+Dial+PxPl3@U.PossPx.3Pl@@D.LV.ON@:%>О1нст@U.PossPx.3Pl@@D.LV.ON@ Clitic ;
++PxSg1@U.PossPx.Sg1@@D.LV.ON@:%>О1нЬ2@U.PossPx.Sg1@@D.LV.ON@ Clitic ;
++Dial+PxSg1@U.PossPx.Sg1@@D.LV.ON@:%>О1м@U.PossPx.Sg1@@D.LV.ON@ Clitic ;
++PxSg2@U.PossPx.Sg2@@D.LV.ON@:%>О1тЬ2@U.PossPx.Sg2@@D.LV.ON@ Clitic ;
++Dial+PxSg2@U.PossPx.Sg2@@D.LV.ON@:%>О1нтЬ2@U.PossPx.Sg2@@D.LV.ON@ Clitic ;
++PxSg3@U.PossPx.Sg3@@D.LV.ON@:%>О1нзО1@U.PossPx.Sg3@@D.LV.ON@ Clitic ;
++PxPl1@U.PossPx.Pl1@@D.LV.ON@:%>О1нО1к@U.PossPx.Pl1@@D.LV.ON@ Clitic ;
++PxPl2@U.PossPx.Pl2@@D.LV.ON@:%>О1нк@U.PossPx.Pl2@@D.LV.ON@ Clitic ;
++PxPl3@U.PossPx.Pl3@@D.LV.ON@:%>О1ст@U.PossPx.Pl3@@D.LV.ON@ Clitic ;
++Dial+PxPl3@U.PossPx.Pl3@@D.LV.ON@:%>О1нст@U.PossPx.Pl3@@D.LV.ON@ Clitic ;
 +Dial+NoPoss: Clitic ;
 
 
@@ -310,13 +310,13 @@ LEXICON PersPronGenCX_DX-1
  Clitic; 
 
 LEXICON PossPX1-NomSg
-+Sg+Nom+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@ Clitic ;
-+Sg+Nom+PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@ Clitic ;
-+Sg+Nom+PxSg3@U.PossPx.3Sg@:%>зО1@U.PossPx.3Sg@ Clitic ;
-+Sg+Nom+PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ Clitic ;
-+Dial+Sg+Nom+PxPl1@U.PossPx.1Pl@:%>мО1к@U.PossPx.1Pl@ Clitic ;
-+Sg+Nom+PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@ Clitic ;
-+Sg+Nom+PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@ Clitic ;
++Sg+Nom+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@ Clitic ;
++Sg+Nom+PxSg2@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@ Clitic ;
++Sg+Nom+PxSg3@U.PossPx.Sg3@:%>зО1@U.PossPx.Sg3@ Clitic ;
++Sg+Nom+PxPl1@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ Clitic ;
++Dial+Sg+Nom+PxPl1@U.PossPx.Pl1@:%>мО1к@U.PossPx.Pl1@ Clitic ;
++Sg+Nom+PxPl2@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@ Clitic ;
++Sg+Nom+PxPl3@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@ Clitic ;
 
 
 ! This should be checked. Where does it come from?
@@ -326,27 +326,27 @@ LEXICON PossPX1
 
 ! PossMarker-followed-by-Clitic-possibility
 LEXICON PossMarker-then-Clt
-+PxSg1@U.PossPx.1Sg@:нЬ2@U.PossPx.1Sg@ Clitic ;
-+Dial+PxSg1@U.PossPx.1Sg@:м@U.PossPx.1Sg@ Clitic ;
-+PxSg2@U.PossPx.2Sg@:тЬ2@U.PossPx.2Sg@ Clitic ;
-+Dial+PxSg2@U.PossPx.2Sg@:нтЬ2@U.PossPx.2Sg@ Clitic ;
-+PxSg3@U.PossPx.3Sg@:нзО1@U.PossPx.3Sg@ Clitic ;
-+PxPl1@U.PossPx.1Pl@:нО1к@U.PossPx.1Pl@ lak-Clitic ;
-+PxPl2@U.PossPx.2Pl@:нк@U.PossPx.2Pl@ lak-Clitic ;
-+PxPl3@U.PossPx.3Pl@:ст@U.PossPx.3Pl@ Clitic ;
-+Dial+PxPl3@U.PossPx.3Pl@:ск@U.PossPx.3Pl@ lak-Clitic ;
-+Dial+PxPl3@U.PossPx.3Pl@:нст@U.PossPx.3Pl@ Clitic ;
++PxSg1@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ Clitic ;
++Dial+PxSg1@U.PossPx.Sg1@:м@U.PossPx.Sg1@ Clitic ;
++PxSg2@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ Clitic ;
++Dial+PxSg2@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ Clitic ;
++PxSg3@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ Clitic ;
++PxPl1@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ lak-Clitic ;
++PxPl2@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ lak-Clitic ;
++PxPl3@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ Clitic ;
++Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ lak-Clitic ;
++Dial+PxPl3@U.PossPx.Pl3@:нст@U.PossPx.Pl3@ Clitic ;
 
 LEXICON osh-PossPX1
-+PxSg1@U.PossPx.1Sg@:%>О1нЬ2@U.PossPx.1Sg@  SecondaryDeclination ;
-+Dial+PxSg1@U.PossPx.1Sg@:%>О1м@U.PossPx.1Sg@  SecondaryDeclination ;
-+PxSg2@U.PossPx.2Sg@:%>О1тЬ2@U.PossPx.2Sg@  SecondaryDeclination ;
-+Dial+PxSg2@U.PossPx.2Sg@:%>О1нтЬ2@U.PossPx.2Sg@  SecondaryDeclination ;
-+PxSg3@U.PossPx.3Sg@:%>О1нзО1@U.PossPx.3Sg@  SecondaryDeclination ;
-+PxPl1@U.PossPx.1Pl@:%>О1нО1к@U.PossPx.1Pl@  SecondaryDeclination ;
-+PxPl2@U.PossPx.2Pl@:%>О1нк@U.PossPx.2Pl@  SecondaryDeclination ;
-+PxPl3@U.PossPx.3Pl@:%>О1ст@U.PossPx.3Pl@  SecondaryDeclination ;
-+Dial+PxPl3@U.PossPx.3Pl@:%>О1нст@U.PossPx.3Pl@  SecondaryDeclination ;
++PxSg1@U.PossPx.Sg1@:%>О1нЬ2@U.PossPx.Sg1@  SecondaryDeclination ;
++Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@  SecondaryDeclination ;
++PxSg2@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@  SecondaryDeclination ;
++Dial+PxSg2@U.PossPx.Sg2@:%>О1нтЬ2@U.PossPx.Sg2@  SecondaryDeclination ;
++PxSg3@U.PossPx.Sg3@:%>О1нзО1@U.PossPx.Sg3@  SecondaryDeclination ;
++PxPl1@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@  SecondaryDeclination ;
++PxPl2@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@  SecondaryDeclination ;
++PxPl3@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@  SecondaryDeclination ;
++Dial+PxPl3@U.PossPx.Pl3@:%>О1нст@U.PossPx.Pl3@  SecondaryDeclination ;
 
 
 LEXICON PronTag
@@ -654,15 +654,15 @@ LEXICON osh-SgDet-PossPx
 +Sg+Def:%>нть Clitic ; 
 
 LEXICON kudo-SgDet-PossPx
-     +PxSg1@U.PossPx.1Sg@:%>нЬ2@U.PossPx.1Sg@  kal-SecondaryDeclination ;
-+Dial+PxSg1@U.PossPx.1Sg@:%>м@U.PossPx.1Sg@    kal-SecondaryDeclination ;
-     +PxSg2@U.PossPx.2Sg@:%>тЬ2@U.PossPx.2Sg@  kit-SecondaryDeclination ;
-+Dial+PxSg2@U.PossPx.2Sg@:%>нтЬ2@U.PossPx.2Sg@ kit-SecondaryDeclination ;
-     +PxSg3@U.PossPx.3Sg@:%>нзО1@U.PossPx.3Sg@ kudo-SecondaryDeclination ;
-     +PxPl1@U.PossPx.1Pl@:%>нО1к@U.PossPx.1Pl@ lak-SecondaryDeclination ;
-     +PxPl2@U.PossPx.2Pl@:%>нк@U.PossPx.2Pl@   lak-SecondaryDeclination ;
-     +PxPl3@U.PossPx.3Pl@:%>ст@U.PossPx.3Pl@   kit-SecondaryDeclination ;
-+Dial+PxPl3@U.PossPx.3Pl@:%>нст@U.PossPx.3Pl@  kit-SecondaryDeclination ;
+     +PxSg1@U.PossPx.Sg1@:%>нЬ2@U.PossPx.Sg1@  kal-SecondaryDeclination ;
++Dial+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@    kal-SecondaryDeclination ;
+     +PxSg2@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@  kit-SecondaryDeclination ;
++Dial+PxSg2@U.PossPx.Sg2@:%>нтЬ2@U.PossPx.Sg2@ kit-SecondaryDeclination ;
+     +PxSg3@U.PossPx.Sg3@:%>нзО1@U.PossPx.Sg3@ kudo-SecondaryDeclination ;
+     +PxPl1@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ lak-SecondaryDeclination ;
+     +PxPl2@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@   lak-SecondaryDeclination ;
+     +PxPl3@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@   kit-SecondaryDeclination ;
++Dial+PxPl3@U.PossPx.Pl3@:%>нст@U.PossPx.Pl3@  kit-SecondaryDeclination ;
                   +Sg+Def:%>нть  Clitic ;
 
 LEXICON Misc_Pronouns_Indef
