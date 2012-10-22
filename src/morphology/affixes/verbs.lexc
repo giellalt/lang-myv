@@ -65,7 +65,8 @@ LEXICON V-tujems_ObjAll
 LEXICON V-tujems
                  :й V-kadoms ;
 +V@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
-
+ IND-PRS-40 ;
+ IND-PRS-50 ;
 
 
 LEXICON V-tejems_ObjAll
@@ -128,7 +129,7 @@ LEXICON V-sajevems
 +V@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ V-kadoms-a ;
 +V:  Deverbals-kadoms ;
 +V+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>WLoss@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-noArrow ;
-+V+Dial+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>О1@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-noArrow ;
++V+Use/Sub+Dial+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>О1@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-noArrow ;
 
 LEXICON V-jangavoms
  V-sajevems ;
@@ -173,8 +174,8 @@ LEXICON V-kundams-a
 LEXICON V-satoms-a
  CondVerbs ;
 @U.CONJ-MX.IND@ Indicative1 ;
-+Dial: PredIndPrt1Sc3 ; !!2012-05-05 What's this for
-+Dial+ConNeg@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
++Use/Sub+Dial: PredIndPrt1Sc3 ; !!2012-05-05 What's this for
++Use/Sub+Dial+ConNeg@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
 +ConNeg@U.CONJ-CONNEG.YES@:%>О1тЬ2@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
 +V+Ind+Prt1+ScSg3@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@:%>О1тсь@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
 +V+Ind+Prt1+ScPl3@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6%0@:%>О1тсть@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ VerbEnd_Clitic ;
@@ -216,10 +217,10 @@ LEXICON Deverbals-kadoms ! kadoms
 +Der/Онь+VGen:%>О1нь kal-Tenses1 ;
 +Der/Онь+VGen+Der/Dem:%>О1нсе kudo-N2-Def-Declension ;
 
-+Dial/SH+Inf+Loc@U.CONJ-INF.YES@@U.CX.LOC@:%>мО1@U.CONJ-INF.YES@@U.CX.LOC@ kudo-Possessive-Before-Clitic-or-Clitic ;
-+Dial/NW+Inf+Tra@U.CONJ-INF.YES@@U.CX.TRA@:%>мО1%>кс@U.CONJ-INF.YES@@U.CX.TRA@ osh-Tenses1 ;
-+Dial+Inf+Abl@U.CONJ-INF.YES@@U.CX.ABL@:%>мО1%>дО1@U.CONJ-INF.YES@@U.CX.ABL@ kudo-Possessive-Before-Clitic-or-Clitic ;
-+Dial/NW+Inf+Ill@U.CONJ-INF.YES@@U.CX.ILL@:%>мО1%>з@U.CONJ-INF.YES@@U.CX.ILL@ osh-Possessive-Before-Clitic ;
++Use/Sub+Dial/SH+Inf+Loc@U.CONJ-INF.YES@@U.CX.LOC@:%>мО1@U.CONJ-INF.YES@@U.CX.LOC@ kudo-Possessive-Before-Clitic-or-Clitic ;
++Use/Sub+Dial/NW+Inf+Tra@U.CONJ-INF.YES@@U.CX.TRA@:%>мО1%>кс@U.CONJ-INF.YES@@U.CX.TRA@ osh-Tenses1 ;
++Use/Sub+Dial+Inf+Abl@U.CONJ-INF.YES@@U.CX.ABL@:%>мО1%>дО1@U.CONJ-INF.YES@@U.CX.ABL@ kudo-Possessive-Before-Clitic-or-Clitic ;
++Use/Sub+Dial/NW+Inf+Ill@U.CONJ-INF.YES@@U.CX.ILL@:%>мО1%>з@U.CONJ-INF.YES@@U.CX.ILL@ osh-Possessive-Before-Clitic ;
 
 LEXICON Deverbals-kundams ! kundams
 @U.CONJ-INF.YES@:%>@U.CONJ-INF.YES@ Deverbals_noArrow ;
@@ -260,33 +261,28 @@ LEXICON Prc-Telic ! sajevtj
 
 
 
-
-!! CONJUGATION
+!!!!!!!!!!!!!!!!!
+!! CONJUGATION !!
+!!!!!!!!!!!!!!!!!
 
 LEXICON PredIndPrt1Sc3
-+Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@:%>сь@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
-+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6%0@:%>сть@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6%0@ VerbEnd_Clitic ;
+ IND-PRT1-30 ;
+ IND-PRT1-60 ;
 
 
 LEXICON Indicative1
  Indicative1-noSc3 ; ! This accommodates Cond
-+Ind+NonPast+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@:%>Ы2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@:%>Ы2ть@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
+ IND-PRS-30 ;
+ IND-PRS-60 ;
 
 LEXICON Indicative1-noSc3
 +Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
 !Indicative Non-past
-+Ind+NonPast+ScSg1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1%0@:%>А2н@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
-+Ind+NonPast+ScSg2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2%0@:%>А2т@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>тА2но@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
-+Dial/W+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>тА2м@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
-+Dial/NW+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>тА2нок@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
-+Ind+NonPast+ScPl2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@:%>тА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
+ IND-PRS-10 ;
+ IND-PRS-20 ;
+ IND-PRS-40 ;
+ IND-PRS-50 ;
 
-+Dial+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>TLossтА2но@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
-+Dial/W+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>TLossтА2м@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
-+Dial/NW+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>TLossтА2нок@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
-+Dial+Ind+NonPast+ScPl2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@:%>TLossтА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
 
 ! Indicative Preterite I
  @R.CONJ.ObjAll@  Indicative_Present_Obj ;
@@ -298,164 +294,118 @@ LEXICON Indicative_Present_Obj
  Indicative_Present_Obj-in-S ;
 
 LEXICON Indicative_Present_Obj-in-S
-+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>са@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Dial+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сан@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Dial/SE+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сать@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-
-+Ind+NonPast+ScSg1+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@:%>сынь@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg2+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@:%>самак@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg2+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@:%>сак@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg2+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@:%>сыть@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg3+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@:%>самам@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg3+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@:%>сы@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+Dial/NW+Ind+NonPast+ScSg3+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@:%>сазо@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg3+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@:%>сынзе@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@:%>сынек@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl1+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@:%>сынек@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl2+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@:%>сынк@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl2+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@:%>сынк@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@:%>сызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@:%>сызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg2+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl2+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl2+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg3+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@ VerbEnd_Clitic ;
+ IND-PRS-13 ;
+ IND-PRS-16 ;
+ IND-PRS-21 ;
+ IND-PRS-23 ;
+ IND-PRS-26 ;
+ IND-PRS-31 ;
+ IND-PRS-33 ;
+ IND-PRS-36 ;
+ IND-PRS-43 ;
+ IND-PRS-46 ;
+ IND-PRS-53 ;
+ IND-PRS-56 ;
+ IND-PRS-63 ;
+ IND-PRS-66 ;
+ IND-PRS-24 ;
+ IND-PRS-54 ;
+ IND-PRS-51 ;
+ IND-PRS-34 ;
+ IND-PRS-64 ;
+ IND-PRS-61 ;
 
 LEXICON Indicative_Present_Obj-TLoss
-+Ind+NonPast+ScSg1+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@:тА2н@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg3+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@:тА2нзат@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg1+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl1+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl1+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+Ind+NonPast+ScSg3+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+Ind+NonPast+ScPl3+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@ VerbEnd_Clitic ;
+ IND-PRS-12 ;
+ IND-PRS-32 ;
+ IND-PRS-15 ;
+ IND-PRS-35 ;
+ IND-PRS-42 ;
+ IND-PRS-45 ;
+ IND-PRS-62 ;
+ IND-PRS-65 ;
 
 
 LEXICON IndicativePretI-plus
 ! Indicative Preterite I
-+ScSg1@U.CONJ-PX.1%0@:%>Ы2нь@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
-+ScSg2@U.CONJ-PX.2%0@:%>Ы2ть@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
-+ScPl1@U.CONJ-PX.4%0@:%>Ы2нек@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
-+ScPl2@U.CONJ-PX.5%0@:%>Ы2де@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
+ IND-PRT1-10 ;
+ IND-PRT1-20 ;
+ IND-PRT1-40 ;
+ IND-PRT1-50 ;
 @R.CONJ.ObjAll@ Indicative_PretI_Obj ;
 
 LEXICON Indicative_PretI_Obj
-+ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2я@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Dial/NW+ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2е@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Dial/SE+ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2ять@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+ScSg1+OcPl3@U.CONJ-PX.16@:%>Ы2нь@U.CONJ-PX.16@ VerbEnd_Clitic ;
-+ScSg2+OcSg1@U.CONJ-PX.21@:%>Ы2мик@U.CONJ-PX.21@ VerbEnd_Clitic ;
-+ScSg2+OcSg3@U.CONJ-PX.23@:%>Ы2к@U.CONJ-PX.23@ VerbEnd_Clitic ;
-+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2ть@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+ScSg3+OcSg1@U.CONJ-PX.31@:%>Ы2мим@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+Dial+ScSg3+OcSg1@U.CONJ-PX.31@:%>Ы2мем@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+ScSg3+OcSg3@U.CONJ-PX.33@:%>Ы2зе@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+ScSg3+OcPl3@U.CONJ-PX.36@:%>Ы2нзе@U.CONJ-PX.36@ VerbEnd_Clitic ;
-+ScPl1+OcSg3@U.CONJ-PX.43@:%>Ы2нек@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+ScPl1+OcPl3@U.CONJ-PX.46@:%>Ы2нек@U.CONJ-PX.46@ VerbEnd_Clitic ;
+ IND-PRT1-13 ;
+ IND-PRT1-16 ;
+ IND-PRT1-21 ;
+ IND-PRT1-23 ;
+ IND-PRT1-26 ;
+ IND-PRT1-31 ;
+ IND-PRT1-33 ;
+ IND-PRT1-36 ;
+ IND-PRT1-43 ;
+ IND-PRT1-46 ;
+ IND-PRT1-53 ;
+ IND-PRT1-56 ;
+ IND-PRT1-63 ;
+ IND-PRT1-66 ;
+ IND-PRT1-12 ;
+ IND-PRT1-15 ;
+ IND-PRT1-24 ;
+ IND-PRT1-32 ;
+ IND-PRT1-34 ;
+ IND-PRT1-35 ;
+ IND-PRT1-42 ;
+ IND-PRT1-45 ;
+ IND-PRT1-51 ;
+ IND-PRT1-54 ;
+ IND-PRT1-61 ;
+ IND-PRT1-62 ;
+ IND-PRT1-64 ;
+ IND-PRT1-65 ;
 
-+Dial+ScPl1+OcSg3@U.CONJ-PX.43@:%>Ы2ник@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+Dial+ScPl1+OcPl3@U.CONJ-PX.46@:%>Ы2ник@U.CONJ-PX.46@ VerbEnd_Clitic ;
-+ScPl2+OcSg3@U.CONJ-PX.53@:%>Ы2нк@U.CONJ-PX.53@ VerbEnd_Clitic ;
-+ScPl2+OcPl3@U.CONJ-PX.56@:%>Ы2нк@U.CONJ-PX.56@ VerbEnd_Clitic ;
-+ScPl3+OcSg3@U.CONJ-PX.63@:%>Ы2зь@U.CONJ-PX.63@ VerbEnd_Clitic ;
-+ScPl3+OcPl3@U.CONJ-PX.66@:%>Ы2зь@U.CONJ-PX.66@ VerbEnd_Clitic ;
-+ScSg2+OcPl1@U.CONJ-PX.24@:%>Ы2мизь@U.CONJ-PX.24@ VerbEnd_Clitic ;
-+ScPl2+OcPl1@U.CONJ-PX.54@:%>Ы2мизь@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+ScPl2+OcSg1@U.CONJ-PX.51@:%>Ы2мизь@U.CONJ-PX.51@ VerbEnd_Clitic ;
-+ScSg3+OcPl1@U.CONJ-PX.34@:%>Ы2мизь@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+ScPl3+OcPl1@U.CONJ-PX.64@:%>Ы2мизь@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+ScPl3+OcSg1@U.CONJ-PX.61@:%>Ы2мизь@U.CONJ-PX.61@ VerbEnd_Clitic ;
-+ScSg1+OcSg2@U.CONJ-PX.12@:%>Ы2тинь@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+ScSg3+OcSg2@U.CONJ-PX.32@:%>Ы2нзеть@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+ScSg1+OcPl2@U.CONJ-PX.15@:%>Ы2дизь@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+ScPl1+OcPl2@U.CONJ-PX.45@:%>Ы2дизь@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+ScPl1+OcSg2@U.CONJ-PX.42@:%>Ы2дизь@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+ScSg3+OcPl2@U.CONJ-PX.35@:%>Ы2дизь@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+ScPl3+OcSg2@U.CONJ-PX.62@:%>Ы2дизь@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+ScPl3+OcPl2@U.CONJ-PX.65@:%>Ы2дизь@U.CONJ-PX.65@ VerbEnd_Clitic ;
-
-+Dial+ScSg2+OcPl1@U.CONJ-PX.24@:%>Ы2мезь@U.CONJ-PX.24@  VerbEnd_Clitic ;
-+Dial+ScPl2+OcPl1@U.CONJ-PX.54@:%>Ы2мезь@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+Dial+ScPl2+OcSg1@U.CONJ-PX.51@:%>Ы2мезь@U.CONJ-PX.51@ VerbEnd_Clitic ;
-+Dial+ScSg3+OcPl1@U.CONJ-PX.34@:%>Ы2мезь@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+Dial+ScPl3+OcPl1@U.CONJ-PX.64@:%>Ы2мезь@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+Dial+ScPl3+OcSg1@U.CONJ-PX.61@:%>Ы2мезь@U.CONJ-PX.61@ VerbEnd_Clitic ;
-+Dial+ScSg1+OcSg2@U.CONJ-PX.12@:Ы2тень@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+Dial+ScSg3+OcSg2@U.CONJ-PX.32@:Ы2нзить@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+Dial+ScSg1+OcPl2@U.CONJ-PX.15@:Ы2дезь@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+Dial+ScPl1+OcPl2@U.CONJ-PX.45@:Ы2дезь@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+Dial+ScPl1+OcSg2@U.CONJ-PX.42@:Ы2дезь@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+Dial+ScSg3+OcPl2@U.CONJ-PX.35@:Ы2дезь@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+Dial+ScPl3+OcSg2@U.CONJ-PX.62@:Ы2дезь@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+Dial+ScPl3+OcPl2@U.CONJ-PX.65@:Ы2дезь@U.CONJ-PX.65@ VerbEnd_Clitic ;
 
 
 LEXICON IndicativePrt2_kadoms
 :%> IndicativePrt2_noArrow ;
-+Dial+Ind+Prt2+ScSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@:%>О1линь@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
-+Dial+Ind+Prt2+ScSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@:%>О1лить@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
-+Dial+Ind+Prt2+ScSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.3%0@:%>О1ль@U.CONJ-TX.PRET2@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
-+Dial+Ind+Prt2+ScPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@:%>О1линек@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
-+Dial+Ind+Prt2+ScPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.5%0@:%>О1лиде@U.CONJ-TX.PRET2@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
-+Dial+Ind+Prt2+ScPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.6%0@:%>О1льть@U.CONJ-TX.PRET2@@U.CONJ-PX.6%0@ VerbEnd_Clitic ;
-+Dial@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Indicative_Prt2_Obj-Dial_noArrows ;
++Use/Sub+Dial+Ind:%>О1 IND-PRT2-10 ;
++Use/Sub+Dial+Ind:%>О1 IND-PRT2-20 ;
++Use/Sub+Dial+Ind:%>О1 IND-PRT2-30 ;
++Use/Sub+Dial+Ind:%>О1 IND-PRT2-40 ;
++Use/Sub+Dial+Ind:%>О1 IND-PRT2-50 ;
++Use/Sub+Dial+Ind:%>О1 IND-PRT2-60 ;
+
++Use/Sub+Dial@R.CONJ.ObjAll@:@R.CONJ.ObjAll@ Indicative_Prt2_Obj-Dial_noArrows ;
 
 LEXICON Indicative_Prt2_Obj-Dial_noArrows
-+Ind+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:%>О1лия@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:%>О1лие@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:%>О1лиять@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.16@:%>О1линь@U.CONJ-TX.PRET2@@U.CONJ-PX.16@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.21@:%>О1лимик@U.CONJ-TX.PRET2@@U.CONJ-PX.21@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg2+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.23@:%>О1лик@U.CONJ-TX.PRET2@@U.CONJ-PX.23@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.26@:%>О1лить@U.CONJ-TX.PRET2@@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.26@:%>О1ли@U.CONJ-TX.PRET2@@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.31@:%>О1лимим@U.CONJ-TX.PRET2@@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.31@:%>О1лимем@U.CONJ-TX.PRET2@@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:%>О1лизе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.36@:%>О1линзе@U.CONJ-TX.PRET2@@U.CONJ-PX.36@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.43@:%>О1линек@U.CONJ-TX.PRET2@@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.46@:%>О1линек@U.CONJ-TX.PRET2@@U.CONJ-PX.46@ VerbEnd_Clitic ;
-
-+Ind+Prt2+ScPl1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.43@:%>О1линик@U.CONJ-TX.PRET2@@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.46@:%>О1линик@U.CONJ-TX.PRET2@@U.CONJ-PX.46@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl2+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.53@:%>О1линк@U.CONJ-TX.PRET2@@U.CONJ-PX.53@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.56@:%>О1линк@U.CONJ-TX.PRET2@@U.CONJ-PX.56@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.63@:%>О1лизь@U.CONJ-TX.PRET2@@U.CONJ-PX.63@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.66@:%>О1лизь@U.CONJ-TX.PRET2@@U.CONJ-PX.66@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.24@:%>О1лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.24@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.54@:%>О1лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.51@:%>О1лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.51@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.34@:%>О1лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.64@:%>О1лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.61@:%>О1лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.61@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.12@:%>О1литинь@U.CONJ-TX.PRET2@@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.32@:%>О1линзеть@U.CONJ-TX.PRET2@@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.15@:%>О1лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.45@:%>О1лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.42@:%>О1лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.35@:%>О1лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.62@:%>О1лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.65@:%>О1лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.65@ VerbEnd_Clitic ;
-
-+Ind+Prt2+ScSg2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.24@:%>О1лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.24@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.54@:%>О1лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.51@:%>О1лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.51@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.34@:%>О1лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.64@:%>О1лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.61@:%>О1лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.61@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.12@:%>О1литень@U.CONJ-TX.PRET2@@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.32@:%>О1линзить@U.CONJ-TX.PRET2@@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.15@:%>О1лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.45@:%>О1лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.42@:%>О1лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+Ind+Prt2+ScSg3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.35@:%>О1лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.62@:%>О1лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+Ind+Prt2+ScPl3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.65@:%>О1лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.65@ VerbEnd_Clitic ;
++Ind:%>О1  IND-PRT2-12 ;
++Ind:%>О1  IND-PRT2-13 ;
++Ind:%>О1  IND-PRT2-15 ;
++Ind:%>О1  IND-PRT2-16 ;
++Ind:%>О1  IND-PRT2-21 ;
++Ind:%>О1  IND-PRT2-23 ;
++Ind:%>О1  IND-PRT2-24 ;
++Ind:%>О1  IND-PRT2-26 ;
++Ind:%>О1  IND-PRT2-31 ;
++Ind:%>О1  IND-PRT2-32 ;
++Ind:%>О1  IND-PRT2-33 ;
++Ind:%>О1  IND-PRT2-34 ;
++Ind:%>О1  IND-PRT2-35 ;
++Ind:%>О1  IND-PRT2-36 ;
++Ind:%>О1  IND-PRT2-42 ;
++Ind:%>О1  IND-PRT2-43 ;
++Ind:%>О1  IND-PRT2-45 ;
++Ind:%>О1  IND-PRT2-46 ;
++Ind:%>О1  IND-PRT2-51 ;
++Ind:%>О1  IND-PRT2-53 ;
++Ind:%>О1  IND-PRT2-54 ;
++Ind:%>О1  IND-PRT2-56 ;
++Ind:%>О1  IND-PRT2-61 ;
++Ind:%>О1  IND-PRT2-62 ;
++Ind:%>О1  IND-PRT2-63 ;
++Ind:%>О1  IND-PRT2-64 ;
++Ind:%>О1  IND-PRT2-65 ;
++Ind:%>О1  IND-PRT2-66 ;
 
 
 LEXICON IndicativePrt2_noArrow
@@ -466,168 +416,608 @@ LEXICON Prt2-noArrow
  Prt2-noArrow-Sc ;
 
 LEXICON Prt2-noArrow-Sc
-+Prt2+ScSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@:линь@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
-+Prt2+ScSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@:лить@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@:лень@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@:леть@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
-+Prt2+ScSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.3%0@:ль@U.CONJ-TX.PRET2@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
-+Prt2+ScPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@:линек@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
-+Dial+Prt2+ScPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@:линик@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
-+Prt2+ScPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.5%0@:лиде@U.CONJ-TX.PRET2@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
-+Prt2+ScPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.6%0@:льть@U.CONJ-TX.PRET2@@U.CONJ-PX.6%0@ VerbEnd_Clitic ;
+ IND-PRT2-10 ;
+ IND-PRT2-20 ;
+ IND-PRT2-30 ;
+ IND-PRT2-40 ;
+ IND-PRT2-50 ;
+ IND-PRT2-60 ;
 
 LEXICON Prt2_Obj_noArrows
-+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:лия@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:лие@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:лиять@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
-+Prt2+ScSg1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.16@:линь@U.CONJ-TX.PRET2@@U.CONJ-PX.16@ VerbEnd_Clitic ;
-+Prt2+ScSg2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.21@:лимик@U.CONJ-TX.PRET2@@U.CONJ-PX.21@ VerbEnd_Clitic ;
-+Prt2+ScSg2+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.23@:лик@U.CONJ-TX.PRET2@@U.CONJ-PX.23@ VerbEnd_Clitic ;
-+Prt2+ScSg2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.26@:лить@U.CONJ-TX.PRET2@@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.26@:ли@U.CONJ-TX.PRET2@@U.CONJ-PX.26@ VerbEnd_Clitic ;
-+Prt2+ScSg3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.31@:лимим@U.CONJ-TX.PRET2@@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.31@:лимем@U.CONJ-TX.PRET2@@U.CONJ-PX.31@ VerbEnd_Clitic ;
-+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:лизе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+Prt2+ScSg3+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.36@:линзе@U.CONJ-TX.PRET2@@U.CONJ-PX.36@ VerbEnd_Clitic ;
-+Prt2+ScPl1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.43@:линек@U.CONJ-TX.PRET2@@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+Prt2+ScPl1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.46@:линек@U.CONJ-TX.PRET2@@U.CONJ-PX.46@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.43@:линик@U.CONJ-TX.PRET2@@U.CONJ-PX.43@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.46@:линик@U.CONJ-TX.PRET2@@U.CONJ-PX.46@ VerbEnd_Clitic ;
-+Prt2+ScPl2+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.53@:линк@U.CONJ-TX.PRET2@@U.CONJ-PX.53@ VerbEnd_Clitic ;
-+Prt2+ScPl2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.56@:линк@U.CONJ-TX.PRET2@@U.CONJ-PX.56@ VerbEnd_Clitic ;
-+Prt2+ScPl3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.63@:лизь@U.CONJ-TX.PRET2@@U.CONJ-PX.63@ VerbEnd_Clitic ;
-+Prt2+ScPl3+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.66@:лизь@U.CONJ-TX.PRET2@@U.CONJ-PX.66@ VerbEnd_Clitic ;
-+Prt2+ScSg2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.24@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.24@ VerbEnd_Clitic ;
-+Prt2+ScPl2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.54@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+Prt2+ScPl2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.51@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.51@ VerbEnd_Clitic ;
-+Prt2+ScSg3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.34@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+Prt2+ScPl3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.64@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+Prt2+ScPl3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.61@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.61@ VerbEnd_Clitic ;
-+Prt2+ScSg1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.12@:литинь@U.CONJ-TX.PRET2@@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+Prt2+ScSg3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.32@:линзеть@U.CONJ-TX.PRET2@@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+Prt2+ScSg1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.15@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+Prt2+ScPl1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.45@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+Prt2+ScPl1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.42@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+Prt2+ScSg3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.35@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+Prt2+ScPl3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.62@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+Prt2+ScPl3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.65@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.65@ VerbEnd_Clitic ;
-
-+Dial+Prt2+ScSg2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.24@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.24@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.54@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.54@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.52@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.52@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.34@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.34@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.64@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.64@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.61@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.61@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.12@:литень@U.CONJ-TX.PRET2@@U.CONJ-PX.12@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.32@:линзить@U.CONJ-TX.PRET2@@U.CONJ-PX.32@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.15@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.15@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.45@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.45@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.42@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.42@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.35@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.35@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.62@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.62@ VerbEnd_Clitic ;
-+Dial+Prt2+ScPl3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.65@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.65@ VerbEnd_Clitic ;
-
+ IND-PRT2-12 ;
+ IND-PRT2-13 ;
+ IND-PRT2-15 ;
+ IND-PRT2-16 ;
+ IND-PRT2-21 ;
+ IND-PRT2-23 ;
+ IND-PRT2-24 ;
+ IND-PRT2-26 ;
+ IND-PRT2-31 ;
+ IND-PRT2-32 ;
+ IND-PRT2-33 ;
+ IND-PRT2-34 ;
+ IND-PRT2-35 ;
+ IND-PRT2-36 ;
+ IND-PRT2-42 ;
+ IND-PRT2-43 ;
+ IND-PRT2-45 ;
+ IND-PRT2-46 ;
+ IND-PRT2-51 ;
+ IND-PRT2-53 ;
+ IND-PRT2-54 ;
+ IND-PRT2-56 ;
+ IND-PRT2-61 ;
+ IND-PRT2-62 ;
+ IND-PRT2-63 ;
+ IND-PRT2-64 ;
+ IND-PRT2-65 ;
+ IND-PRT2-66 ;
 
 
 !!!
 LEXICON IndicativePrt2_kundams
 :%> IndicativePrt2_noArrow ;
 
+!!!!!!!!!!!!!!!!
+!! INDICATIVE !!
+!!!!!!!!!!!!!!!!
+
+!! Indicative NonPast !!
+LEXICON IND-PRS-10
++Ind+NonPast+ScSg1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1%0@:%>А2н@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
+
+LEXICON IND-PRS-12
++Ind+NonPast+ScSg1+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@:тА2н@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-13
++Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>са@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
++Use/Sub+Dial+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сан@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
++Use/Sub+Dial/SE+Ind+NonPast+ScSg1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сать@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-15
++Ind+NonPast+ScSg1+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-16
++Ind+NonPast+ScSg1+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@:%>сынь@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-20
++Ind+NonPast+ScSg2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2%0@:%>А2т@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-21
++Ind+NonPast+ScSg2+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@:%>самак@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-23
++Ind+NonPast+ScSg2+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@:%>сак@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-24
++Ind+NonPast+ScSg2+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-26
++Ind+NonPast+ScSg2+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@:%>сыть@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-30
++Ind+NonPast+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@:%>Ы2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-31
++Ind+NonPast+ScSg3+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@:%>самам@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-32
++Ind+NonPast+ScSg3+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@:тА2нзат@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-33
++Ind+NonPast+ScSg3+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@:%>сы@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@ VerbEnd_Clitic ;
++Use/Sub+Dial/NW+Ind+NonPast+ScSg3+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@:%>сазо@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-34
++Ind+NonPast+ScSg3+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-35
++Ind+NonPast+ScSg3+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-36
++Ind+NonPast+ScSg3+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@:%>сынзе@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-40
++Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>тА2но@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
++Use/Sub+Dial/W+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>тА2м@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
++Use/Sub+Dial/NW+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>тА2нок@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
++Use/Sub+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>TLossтА2но@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
++Use/Sub+Dial/W+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>TLossтА2м@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_Clitic ;
++Use/Sub+Dial/NW+Ind+NonPast+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@:%>TLossтА2нок@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
+LEXICON IND-PRS-42
++Ind+NonPast+ScPl1+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-43
++Ind+NonPast+ScPl1+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@:%>сынек@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-45
++Ind+NonPast+ScPl1+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-46
++Ind+NonPast+ScPl1+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@:%>сынек@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-50
++Ind+NonPast+ScPl2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@:%>тА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
++Use/Sub+Dial+Ind+NonPast+ScPl2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@:%>TLossтА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-51
++Ind+NonPast+ScPl2+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-53
++Ind+NonPast+ScPl2+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@:%>сынк@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-54
++Ind+NonPast+ScPl2+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-56
++Ind+NonPast+ScPl2+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@:%>сынк@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-60
++Ind+NonPast+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@:%>Ы2ть@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-61
++Ind+NonPast+ScPl3+OcSg1@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-62
++Ind+NonPast+ScPl3+OcSg2@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-63
++Ind+NonPast+ScPl3+OcSg3@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@:%>сызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-64
++Ind+NonPast+ScPl3+OcPl1@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@:%>самизь@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-65
++Ind+NonPast+ScPl3+OcPl2@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@:тА2дызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@ VerbEnd_Clitic ;
+
+LEXICON IND-PRS-66
++Ind+NonPast+ScPl3+OcPl3@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@:%>сызь@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@ VerbEnd_Clitic ;
+
+!! Indicative Preterite I !!
+LEXICON IND-PRT1-10
++ScSg1@U.CONJ-PX.1%0@:%>Ы2нь@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-12
++ScSg1+OcSg2@U.CONJ-PX.12@:%>Ы2тинь@U.CONJ-PX.12@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg1+OcSg2@U.CONJ-PX.12@:Ы2тень@U.CONJ-PX.12@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-13
++ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2я@U.CONJ-PX.13@ VerbEnd_Clitic ;
++Use/Sub+Dial/NW+ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2е@U.CONJ-PX.13@ VerbEnd_Clitic ;
++Use/Sub+Dial/SE+ScSg1+OcSg3@U.CONJ-PX.13@:%>Ы2ять@U.CONJ-PX.13@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-15
++ScSg1+OcPl2@U.CONJ-PX.15@:%>Ы2дизь@U.CONJ-PX.15@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg1+OcPl2@U.CONJ-PX.15@:Ы2дезь@U.CONJ-PX.15@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-16
++ScSg1+OcPl3@U.CONJ-PX.16@:%>Ы2нь@U.CONJ-PX.16@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-20
++ScSg2@U.CONJ-PX.2%0@:%>Ы2ть@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-21
++ScSg2+OcSg1@U.CONJ-PX.21@:%>Ы2мик@U.CONJ-PX.21@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-23
++ScSg2+OcSg3@U.CONJ-PX.23@:%>Ы2к@U.CONJ-PX.23@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-24
++ScSg2+OcPl1@U.CONJ-PX.24@:%>Ы2мизь@U.CONJ-PX.24@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg2+OcPl1@U.CONJ-PX.24@:%>Ы2мезь@U.CONJ-PX.24@  VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-26
++ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2ть@U.CONJ-PX.26@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-30
++Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@:%>сь@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-31
++ScSg3+OcSg1@U.CONJ-PX.31@:%>Ы2мим@U.CONJ-PX.31@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg3+OcSg1@U.CONJ-PX.31@:%>Ы2мем@U.CONJ-PX.31@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-32
++ScSg3+OcSg2@U.CONJ-PX.32@:%>Ы2нзеть@U.CONJ-PX.32@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg3+OcSg2@U.CONJ-PX.32@:Ы2нзить@U.CONJ-PX.32@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-33
++ScSg3+OcSg3@U.CONJ-PX.33@:%>Ы2зе@U.CONJ-PX.33@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-34
++ScSg3+OcPl1@U.CONJ-PX.34@:%>Ы2мизь@U.CONJ-PX.34@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg3+OcPl1@U.CONJ-PX.34@:%>Ы2мезь@U.CONJ-PX.34@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-35
++ScSg3+OcPl2@U.CONJ-PX.35@:%>Ы2дизь@U.CONJ-PX.35@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg3+OcPl2@U.CONJ-PX.35@:Ы2дезь@U.CONJ-PX.35@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-36
++ScSg3+OcPl3@U.CONJ-PX.36@:%>Ы2нзе@U.CONJ-PX.36@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-40
++ScPl1@U.CONJ-PX.4%0@:%>Ы2нек@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
+
+LEXICON IND-PRT1-42
++ScPl1+OcSg2@U.CONJ-PX.42@:%>Ы2дизь@U.CONJ-PX.42@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl1+OcSg2@U.CONJ-PX.42@:Ы2дезь@U.CONJ-PX.42@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-43
++ScPl1+OcSg3@U.CONJ-PX.43@:%>Ы2нек@U.CONJ-PX.43@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl1+OcSg3@U.CONJ-PX.43@:%>Ы2ник@U.CONJ-PX.43@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-45
++ScPl1+OcPl2@U.CONJ-PX.45@:%>Ы2дизь@U.CONJ-PX.45@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl1+OcPl2@U.CONJ-PX.45@:Ы2дезь@U.CONJ-PX.45@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-46
++ScPl1+OcPl3@U.CONJ-PX.46@:%>Ы2нек@U.CONJ-PX.46@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl1+OcPl3@U.CONJ-PX.46@:%>Ы2ник@U.CONJ-PX.46@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-50
++ScPl2@U.CONJ-PX.5%0@:%>Ы2де@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-51
++ScPl2+OcSg1@U.CONJ-PX.51@:%>Ы2мизь@U.CONJ-PX.51@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl2+OcSg1@U.CONJ-PX.51@:%>Ы2мезь@U.CONJ-PX.51@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-53
++ScPl2+OcSg3@U.CONJ-PX.53@:%>Ы2нк@U.CONJ-PX.53@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-54
++ScPl2+OcPl1@U.CONJ-PX.54@:%>Ы2мизь@U.CONJ-PX.54@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl2+OcPl1@U.CONJ-PX.54@:%>Ы2мезь@U.CONJ-PX.54@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-56
++ScPl2+OcPl3@U.CONJ-PX.56@:%>Ы2нк@U.CONJ-PX.56@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-60
++Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6%0@:%>сть@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-61
++ScPl3+OcSg1@U.CONJ-PX.61@:%>Ы2мизь@U.CONJ-PX.61@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl3+OcSg1@U.CONJ-PX.61@:%>Ы2мезь@U.CONJ-PX.61@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-62
++ScPl3+OcSg2@U.CONJ-PX.62@:%>Ы2дизь@U.CONJ-PX.62@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl3+OcSg2@U.CONJ-PX.62@:Ы2дезь@U.CONJ-PX.62@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-63
++ScPl3+OcSg3@U.CONJ-PX.63@:%>Ы2зь@U.CONJ-PX.63@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-64
++ScPl3+OcPl1@U.CONJ-PX.64@:%>Ы2мизь@U.CONJ-PX.64@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl3+OcPl1@U.CONJ-PX.64@:%>Ы2мезь@U.CONJ-PX.64@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-65
++ScPl3+OcPl2@U.CONJ-PX.65@:%>Ы2дизь@U.CONJ-PX.65@ VerbEnd_Clitic ;
++Use/Sub+Dial+ScPl3+OcPl2@U.CONJ-PX.65@:Ы2дезь@U.CONJ-PX.65@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT1-66
++ScPl3+OcPl3@U.CONJ-PX.66@:%>Ы2зь@U.CONJ-PX.66@ VerbEnd_Clitic ;
+
+
+!! Indicative Preterite II !!
+LEXICON IND-PRT2-10
++Prt2+ScSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@:линь@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@  VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@:лень@U.CONJ-TX.PRET2@@U.CONJ-PX.1%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-12
++Prt2+ScSg1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.12@:литинь@U.CONJ-TX.PRET2@@U.CONJ-PX.12@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.12@:литень@U.CONJ-TX.PRET2@@U.CONJ-PX.12@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-13
++Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:лия@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:лие@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.13@:лиять@U.CONJ-TX.PRET2@@U.CONJ-PX.13@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-15
++Prt2+ScSg1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.15@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.15@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.15@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.15@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-16
++Prt2+ScSg1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.16@:линь@U.CONJ-TX.PRET2@@U.CONJ-PX.16@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-20
++Prt2+ScSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@:лить@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@:леть@U.CONJ-TX.PRET2@@U.CONJ-PX.2%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-21
++Prt2+ScSg2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.21@:лимик@U.CONJ-TX.PRET2@@U.CONJ-PX.21@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-23
++Prt2+ScSg2+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.23@:лик@U.CONJ-TX.PRET2@@U.CONJ-PX.23@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-24
++Prt2+ScSg2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.24@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.24@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.24@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.24@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-26
++Prt2+ScSg2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.26@:лить@U.CONJ-TX.PRET2@@U.CONJ-PX.26@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.26@:ли@U.CONJ-TX.PRET2@@U.CONJ-PX.26@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-30
++Prt2+ScSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.3%0@:ль@U.CONJ-TX.PRET2@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-31
++Prt2+ScSg3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.31@:лимим@U.CONJ-TX.PRET2@@U.CONJ-PX.31@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.31@:лимем@U.CONJ-TX.PRET2@@U.CONJ-PX.31@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-32
++Prt2+ScSg3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.32@:линзеть@U.CONJ-TX.PRET2@@U.CONJ-PX.32@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.32@:линзить@U.CONJ-TX.PRET2@@U.CONJ-PX.32@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-33
++Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:лизе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-34
++Prt2+ScSg3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.34@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.34@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.34@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.34@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-35
++Prt2+ScSg3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.35@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.35@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.35@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.35@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-36
++Prt2+ScSg3+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.36@:линзе@U.CONJ-TX.PRET2@@U.CONJ-PX.36@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-40
++Prt2+ScPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@:линек@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
++Use/Sub+Dial+Prt2+ScPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@:линик@U.CONJ-TX.PRET2@@U.CONJ-PX.4%0@ VerbEnd_lak-Clitic ;
+
+LEXICON IND-PRT2-42
++Prt2+ScPl1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.42@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.42@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl1+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.42@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.42@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-43
++Prt2+ScPl1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.43@:линек@U.CONJ-TX.PRET2@@U.CONJ-PX.43@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl1+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.43@:линик@U.CONJ-TX.PRET2@@U.CONJ-PX.43@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-45
++Prt2+ScPl1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.45@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.45@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl1+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.45@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.45@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-46
++Prt2+ScPl1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.46@:линек@U.CONJ-TX.PRET2@@U.CONJ-PX.46@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl1+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.46@:линик@U.CONJ-TX.PRET2@@U.CONJ-PX.46@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-50
++Prt2+ScPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.5%0@:лиде@U.CONJ-TX.PRET2@@U.CONJ-PX.5%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-51
++Prt2+ScPl2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.51@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.51@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl2+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.51@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.51@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-53
++Prt2+ScPl2+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.53@:линк@U.CONJ-TX.PRET2@@U.CONJ-PX.53@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-54
++Prt2+ScPl2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.54@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.54@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl2+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.54@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.54@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-56
++Prt2+ScPl2+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.56@:линк@U.CONJ-TX.PRET2@@U.CONJ-PX.56@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-60
++Prt2+ScPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.6%0@:льть@U.CONJ-TX.PRET2@@U.CONJ-PX.6%0@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-61
++Prt2+ScPl3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.61@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.61@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl3+OcSg1@U.CONJ-TX.PRET2@@U.CONJ-PX.61@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.61@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-62
++Prt2+ScPl3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.62@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.62@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl3+OcSg2@U.CONJ-TX.PRET2@@U.CONJ-PX.62@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.62@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-63
++Prt2+ScPl3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.63@:лизь@U.CONJ-TX.PRET2@@U.CONJ-PX.63@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-64
++Prt2+ScPl3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.64@:лимизь@U.CONJ-TX.PRET2@@U.CONJ-PX.64@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl3+OcPl1@U.CONJ-TX.PRET2@@U.CONJ-PX.64@:лимезь@U.CONJ-TX.PRET2@@U.CONJ-PX.64@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-65
++Prt2+ScPl3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.65@:лидизь@U.CONJ-TX.PRET2@@U.CONJ-PX.65@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScPl3+OcPl2@U.CONJ-TX.PRET2@@U.CONJ-PX.65@:лидезь@U.CONJ-TX.PRET2@@U.CONJ-PX.65@ VerbEnd_Clitic ;
+
+LEXICON IND-PRT2-66
++Prt2+ScPl3+OcPl3@U.CONJ-TX.PRET2@@U.CONJ-PX.66@:лизь@U.CONJ-TX.PRET2@@U.CONJ-PX.66@ VerbEnd_Clitic ;
+
+
 !!!!!!!!!!!!!!!!!!
 !! DESIDERATIVE !!
 !!!!!!!!!!!!!!!!!!
 
+
 LEXICON Desiderative-kadoms
 +Des@U.CONJ-MX.DES@:%>@U.CONJ-MX.DES@ Desiderative-noArrow ;
-+Dial+Des@U.CONJ-MX.DES@:%>О1ксы@U.CONJ-MX.DES@  Prt2-noArrow-Sc ;
++Use/Sub+Dial+Des@U.CONJ-MX.DES@:%>О1ксы@U.CONJ-MX.DES@  Prt2-noArrow-Sc ;
 
 LEXICON Desiderative-kundams
 +Des@U.CONJ-MX.DES@:%>@U.CONJ-MX.DES@ Desiderative-noArrow ;
-+Dial+Des@U.CONJ-MX.DES@:%>ксы@U.CONJ-MX.DES@  Prt2-noArrow-Sc ;
++Use/Sub+Dial+Des@U.CONJ-MX.DES@:%>ксы@U.CONJ-MX.DES@  Prt2-noArrow-Sc ;
 
 LEXICON Desiderative-noArrow
 !Desiderative Preterite II
 :Ы2ксэ Prt2-noArrow ;
-+Dial+Der/ке+Dimin:Ы2кске Prt2-noArrow ;
-+Dial:Ы2ксы Prt2-noArrow ;
++Use/Sub+Dial+Der/ке+Dimin:Ы2кске Prt2-noArrow ;
++Use/Sub+Dial:Ы2ксы Prt2-noArrow ;
 @R.CONJ.ObjAll@ Desiderative1_Obj ;
 
 LEXICON Desiderative1_Obj
-+Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2ксэльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2кскельсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
-+Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2ксыльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2ксэльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2кскельсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
++Use/Sub+Dial+Prt2+ScSg3+OcSg3@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:Ы2ксыльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_Clitic ;
 
 !!!!!!!!!!!!!!!!!
 !! CONJUNCTIVE !!
 !!!!!!!!!!!!!!!!!
+LEXICON CNJ-10
++ScSg1@U.CONJ-PX.1%0@:влинь@U.CONJ-PX.1%0@  Derya ;
++Use/Sub+Dial+ScSg1@U.CONJ-PX.1%0@:влень@U.CONJ-PX.1%0@  Derya ;
+
+LEXICON CNJ-12
++ScSg1+OcSg2@U.CONJ-PX.12@:влитинь@U.CONJ-PX.12@ Derya ;
++Use/Sub+Dial+ScSg1+OcSg2@U.CONJ-PX.12@:влитень@U.CONJ-PX.12@ Derya ;
+
+LEXICON CNJ-13
++ScSg1+OcSg3@U.CONJ-PX.13@:влия@U.CONJ-PX.13@ Derya ;
++Use/Sub+Dial+ScSg1+OcSg3@U.CONJ-PX.13@:влие@U.CONJ-PX.13@ Derya ;
++Use/Sub+Dial+ScSg1+OcSg3@U.CONJ-PX.13@:влиять@U.CONJ-PX.13@ Derya ;
+
+LEXICON CNJ-15
++ScSg1+OcPl2@U.CONJ-PX.15@:влидизь@U.CONJ-PX.15@ Derya ;
++Use/Sub+Dial+ScSg1+OcPl2@U.CONJ-PX.15@:влидезь@U.CONJ-PX.15@ Derya ;
+
+LEXICON CNJ-16
++ScSg1+OcPl3@U.CONJ-PX.16@:влинь@U.CONJ-PX.16@ Derya ;
+
+LEXICON CNJ-20
++ScSg2@U.CONJ-PX.2%0@:влить@U.CONJ-PX.2%0@ Derya ;
++Use/Sub+Dial+ScSg2@U.CONJ-PX.2%0@:влеть@U.CONJ-PX.2%0@ Derya ;
+
+LEXICON CNJ-21
++ScSg2+OcSg1@U.CONJ-PX.21@:влимик@U.CONJ-PX.21@ Derya_KLoss ;
+
+LEXICON CNJ-23
++ScSg2+OcSg3@U.CONJ-PX.23@:влик@U.CONJ-PX.23@ Derya_KLoss ;
+
+LEXICON CNJ-24
++ScSg2+OcPl1@U.CONJ-PX.24@:влимизь@U.CONJ-PX.24@ Derya ;
++Use/Sub+Dial+ScSg2+OcPl1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
+
+LEXICON CNJ-26
++ScSg2+OcPl3@U.CONJ-PX.26@:влить@U.CONJ-PX.26@ Derya ;
++Use/Sub+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:вли@U.CONJ-PX.26@ Derya ;
+
+LEXICON CNJ-30
++ScSg3@U.CONJ-PX.3%0@:вО1ль@U.CONJ-PX.3%0@ Derya ;
+
+LEXICON CNJ-31
++ScSg3+OcSg1@U.CONJ-PX.31@:влимим@U.CONJ-PX.31@ Derya ;
++Use/Sub+Dial+ScSg3+OcSg1@U.CONJ-PX.31@:влимем@U.CONJ-PX.31@ Derya ;
+
+LEXICON CNJ-32
++ScSg3+OcSg2@U.CONJ-PX.32@:влинзеть@U.CONJ-PX.32@ Derya ;
++Use/Sub+Dial+ScSg3+OcSg2@U.CONJ-PX.32@:влинзить@U.CONJ-PX.32@ Derya ;
+
+LEXICON CNJ-33
++ScSg3+OcSg3@U.CONJ-PX.33@:влизе@U.CONJ-PX.33@ Derya ;
++Use/Sub+Dial+ScSg3+OcSg3@U.CONJ-PX.33@:вльсе@U.CONJ-PX.33@ Derya ;
+
+LEXICON CNJ-34
++ScSg3+OcPl1@U.CONJ-PX.34@:влимизь@U.CONJ-PX.34@ Derya ;
++Use/Sub+Dial+ScSg3+OcPl1@U.CONJ-PX.34@:влимезь@U.CONJ-PX.34@ Derya ;
+
+LEXICON CNJ-35
++ScSg3+OcPl2@U.CONJ-PX.35@:влидизь@U.CONJ-PX.35@ Derya ;
++Use/Sub+Dial+ScSg3+OcPl2@U.CONJ-PX.35@:влидезь@U.CONJ-PX.35@ Derya ;
+
+LEXICON CNJ-36
++ScSg3+OcPl3@U.CONJ-PX.36@:влинзе@U.CONJ-PX.36@ Derya ;
+
+LEXICON CNJ-40
++ScPl1@U.CONJ-PX.4%0@:влинек@U.CONJ-PX.4%0@ Derya_KLoss ;
++Use/Sub+Dial+ScPl1@U.CONJ-PX.4%0@:влиник@U.CONJ-PX.4%0@ Derya_KLoss ;
+
+LEXICON CNJ-42
++ScPl1+OcSg2@U.CONJ-PX.42@:влидизь@U.CONJ-PX.42@ Derya ;
++Use/Sub+Dial+ScPl1+OcSg2@U.CONJ-PX.42@:влидезь@U.CONJ-PX.42@ Derya ;
+
+LEXICON CNJ-43
++ScPl1+OcSg3@U.CONJ-PX.43@:влинек@U.CONJ-PX.43@ Derya_KLoss ;
++Use/Sub+Dial+ScPl1+OcSg3@U.CONJ-PX.43@:влиник@U.CONJ-PX.43@ Derya_KLoss ;
+
+LEXICON CNJ-45
++ScPl1+OcPl2@U.CONJ-PX.45@:влидизь@U.CONJ-PX.45@ Derya ;
++Use/Sub+Dial+ScPl1+OcPl2@U.CONJ-PX.45@:влидезь@U.CONJ-PX.45@ Derya ;
+
+LEXICON CNJ-46
++ScPl1+OcPl3@U.CONJ-PX.46@:влинек@U.CONJ-PX.46@ Derya_KLoss ;
++Use/Sub+Dial+ScPl1+OcPl3@U.CONJ-PX.46@:влиник@U.CONJ-PX.46@ Derya_KLoss ;
+
+LEXICON CNJ-50
++ScPl2@U.CONJ-PX.5%0@:влиде@U.CONJ-PX.5%0@ Derya ;
+
+LEXICON CNJ-51
++ScPl2+OcSg1@U.CONJ-PX.51@:влимизь@U.CONJ-PX.51@ Derya ;
++Use/Sub+Dial+ScPl2+OcSg1@U.CONJ-PX.51@:влимезь@U.CONJ-PX.51@ Derya ;
+
+LEXICON CNJ-53
++ScPl2+OcSg3@U.CONJ-PX.53@:влинк@U.CONJ-PX.53@ Derya_KLoss ;
+
+LEXICON CNJ-54
++ScPl2+OcPl1@U.CONJ-PX.54@:влимизь@U.CONJ-PX.54@ Derya ;
++Use/Sub+Dial+ScPl2+OcPl1@U.CONJ-PX.54@:влимезь@U.CONJ-PX.54@ Derya ;
+
+LEXICON CNJ-56
++ScPl2+OcPl3@U.CONJ-PX.56@:влинк@U.CONJ-PX.56@ Derya_KLoss ;
+
+LEXICON CNJ-60
++ScPl3@U.CONJ-PX.6%0@:вО1льть@U.CONJ-PX.6%0@ Derya ;
+
+LEXICON CNJ-61
++ScPl3+OcSg1@U.CONJ-PX.61@:влимизь@U.CONJ-PX.61@ Derya ;
++Use/Sub+Dial+ScPl3+OcSg1@U.CONJ-PX.61@:влимезь@U.CONJ-PX.61@ Derya ;
+
+LEXICON CNJ-62
++ScPl3+OcSg2@U.CONJ-PX.62@:влидизь@U.CONJ-PX.62@ Derya ;
++Use/Sub+Dial+ScPl3+OcSg2@U.CONJ-PX.62@:влидезь@U.CONJ-PX.62@ Derya ;
+
+LEXICON CNJ-63
++ScPl3+OcSg3@U.CONJ-PX.63@:влизь@U.CONJ-PX.63@ Derya ;
+
+LEXICON CNJ-64
++ScPl3+OcPl1@U.CONJ-PX.64@:влимизь@U.CONJ-PX.64@ Derya ;
++Use/Sub+Dial+ScPl3+OcPl1@U.CONJ-PX.64@:влимезь@U.CONJ-PX.64@ Derya ;
+
+LEXICON CNJ-65
++ScPl3+OcPl2@U.CONJ-PX.65@:влидизь@U.CONJ-PX.65@ Derya ;
++Use/Sub+Dial+ScPl3+OcPl2@U.CONJ-PX.65@:влидезь@U.CONJ-PX.65@ Derya ;
+
+LEXICON CNJ-66
++ScPl3+OcPl3@U.CONJ-PX.66@:влизь@U.CONJ-PX.66@ Derya ;
+
 
 LEXICON Conjunctive-kadoms
 :%>О1 Conjunctive-noArrow ;
 
 LEXICON Conjunctive-noArrow
 @R.CONJ.ObjAll@ Conjunctive-kadoms_Obj ;
-+ScSg1@U.CONJ-PX.1%0@:влинь@U.CONJ-PX.1%0@  Derya ;
-+ScSg2@U.CONJ-PX.2%0@:влить@U.CONJ-PX.2%0@ Derya ;
-+Dial+ScSg1@U.CONJ-PX.1%0@:влень@U.CONJ-PX.1%0@  Derya ;
-+Dial+ScSg2@U.CONJ-PX.2%0@:влеть@U.CONJ-PX.2%0@ Derya ;
-+ScSg3@U.CONJ-PX.3%0@:вО1ль@U.CONJ-PX.3%0@ Derya ;
-+ScPl1@U.CONJ-PX.4%0@:влинек@U.CONJ-PX.4%0@ Derya_KLoss ;
-+Dial+ScPl1@U.CONJ-PX.4%0@:влиник@U.CONJ-PX.4%0@ Derya_KLoss ;
-+ScPl2@U.CONJ-PX.5%0@:влиде@U.CONJ-PX.5%0@ Derya ;
-+ScPl3@U.CONJ-PX.6%0@:вО1льть@U.CONJ-PX.6%0@ Derya ;
+ CNJ-10 ;
+ CNJ-20 ;
+ CNJ-30 ;
+ CNJ-40 ;
+ CNJ-50 ;
+ CNJ-60 ;
 
 
 LEXICON Conjunctive-kadoms_Obj
-+ScSg1+OcSg3@U.CONJ-PX.13@:влия@U.CONJ-PX.13@ Derya ;
-+Dial+ScSg1+OcSg3@U.CONJ-PX.13@:влие@U.CONJ-PX.13@ Derya ;
-+Dial+ScSg1+OcSg3@U.CONJ-PX.13@:влиять@U.CONJ-PX.13@ Derya ;
-+ScSg1+OcPl3@U.CONJ-PX.16@:влинь@U.CONJ-PX.16@ Derya ;
-+ScSg2+OcSg1@U.CONJ-PX.21@:влимик@U.CONJ-PX.21@ Derya_KLoss ;
-+ScSg2+OcSg3@U.CONJ-PX.23@:влик@U.CONJ-PX.23@ Derya_KLoss ;
-+ScSg2+OcPl3@U.CONJ-PX.26@:влить@U.CONJ-PX.26@ Derya ;
-+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:вли@U.CONJ-PX.26@ Derya ;
-+ScSg3+OcSg1@U.CONJ-PX.31@:влимим@U.CONJ-PX.31@ Derya ;
-+Dial+ScSg3+OcSg1@U.CONJ-PX.31@:влимем@U.CONJ-PX.31@ Derya ;
-+ScSg3+OcSg3@U.CONJ-PX.33@:влизе@U.CONJ-PX.33@ Derya ;
-+Dial+ScSg3+OcSg3@U.CONJ-PX.33@:влсе@U.CONJ-PX.33@ Derya ;
-+ScSg3+OcPl3@U.CONJ-PX.36@:влинзе@U.CONJ-PX.36@ Derya ;
-+ScPl1+OcSg3@U.CONJ-PX.43@:влинек@U.CONJ-PX.43@ Derya_KLoss ;
-+ScPl1+OcPl3@U.CONJ-PX.46@:влинек@U.CONJ-PX.46@ Derya_KLoss ;
-+Dial+ScPl1+OcSg3@U.CONJ-PX.43@:влиник@U.CONJ-PX.43@ Derya_KLoss ;
-+Dial+ScPl1+OcPl3@U.CONJ-PX.46@:влиник@U.CONJ-PX.46@ Derya_KLoss ;
-+ScPl2+OcSg3@U.CONJ-PX.53@:влинк@U.CONJ-PX.53@ Derya_KLoss ;
-+ScPl2+OcPl3@U.CONJ-PX.56@:влинк@U.CONJ-PX.56@ Derya_KLoss ;
-+ScPl3+OcSg3@U.CONJ-PX.63@:влизь@U.CONJ-PX.63@ Derya ;
-+ScPl3+OcPl3@U.CONJ-PX.66@:влизь@U.CONJ-PX.66@ Derya ;
-+ScSg2+OcPl1@U.CONJ-PX.24@:влимизь@U.CONJ-PX.24@ Derya ;
-+ScPl2+OcPl1@U.CONJ-PX.54@:влимизь@U.CONJ-PX.54@ Derya ;
-+ScPl2+OcSg1@U.CONJ-PX.51@:влимизь@U.CONJ-PX.51@ Derya ;
-+ScSg3+OcPl1@U.CONJ-PX.34@:влимизь@U.CONJ-PX.34@ Derya ;
-+ScPl3+OcPl1@U.CONJ-PX.64@:влимизь@U.CONJ-PX.64@ Derya ;
-+ScPl3+OcSg1@U.CONJ-PX.61@:влимизь@U.CONJ-PX.61@ Derya ;
-+ScSg1+OcSg2@U.CONJ-PX.12@:влитинь@U.CONJ-PX.12@ Derya ;
-+ScSg3+OcSg2@U.CONJ-PX.32@:влинзеть@U.CONJ-PX.32@ Derya ;
-+ScSg1+OcPl2@U.CONJ-PX.15@:влидизь@U.CONJ-PX.15@ Derya ;
-+ScPl1+OcSg2@U.CONJ-PX.42@:влидизь@U.CONJ-PX.42@ Derya ;
-+ScPl1+OcPl2@U.CONJ-PX.45@:влидизь@U.CONJ-PX.45@ Derya ;
-+ScSg3+OcPl2@U.CONJ-PX.35@:влидизь@U.CONJ-PX.35@ Derya ;
-+ScPl3+OcSg2@U.CONJ-PX.62@:влидизь@U.CONJ-PX.62@ Derya ;
-+ScPl3+OcPl2@U.CONJ-PX.65@:влидизь@U.CONJ-PX.65@ Derya ;
+ CNJ-12 ;
+ CNJ-13 ;
+ CNJ-15 ;
+ CNJ-16 ;
+ CNJ-21 ;
+ CNJ-23 ;
+ CNJ-24 ;
+ CNJ-26 ;
+ CNJ-31 ;
+ CNJ-32 ;
+ CNJ-33 ;
+ CNJ-34 ;
+ CNJ-35 ;
+ CNJ-36 ;
+ CNJ-51 ;
+ CNJ-53 ;
+ CNJ-54 ;
+ CNJ-56 ;
+ CNJ-61 ;
+ CNJ-62 ;
+ CNJ-63 ;
+ CNJ-64 ;
+ CNJ-65 ;
+ CNJ-66 ;
 
-+Dial+ScSg2+OcPl1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
-+Dial+ScPl2+OcPl1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
-+Dial+ScPl2+OcSg1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
-+Dial+ScSg3+OcPl1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
-+Dial+ScPl3+OcPl1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
-+Dial+ScPl3+OcSg1@U.CONJ-PX.24@:влимезь@U.CONJ-PX.24@ Derya ;
-+Dial+ScSg1+OcSg2@U.CONJ-PX.12@:влитень@U.CONJ-PX.12@ Derya ;
-+Dial+ScSg3+OcSg2@U.CONJ-PX.32@:влинзить@U.CONJ-PX.32@ Derya ;
-+Dial+ScSg1+OcPl2@U.CONJ-PX.15@:влидезь@U.CONJ-PX.15@ Derya ;
-+Dial+ScPl1+OcPl2@U.CONJ-PX.45@:влидезь@U.CONJ-PX.45@ Derya ;
-+Dial+ScPl1+OcSg2@U.CONJ-PX.42@:влидезь@U.CONJ-PX.42@ Derya ;
-+Dial+ScSg3+OcPl2@U.CONJ-PX.35@:влидезь@U.CONJ-PX.35@ Derya ;
-+Dial+ScPl3+OcSg2@U.CONJ-PX.62@:влидезь@U.CONJ-PX.62@ Derya ;
-+Dial+ScPl3+OcPl2@U.CONJ-PX.65@:влидезь@U.CONJ-PX.65@ Derya ;
 
 LEXICON Conjunctive-kundams
 :%> Conjunctive-noArrow ;
@@ -647,6 +1037,46 @@ LEXICON Derya_KLoss
 !!!!!!!!!!!!!!
 !! OPTATIVE !!
 !!!!!!!!!!!!!!
+!LEXICON OPT-10
+!LEXICON OPT-12
+!LEXICON OPT-13
+!LEXICON OPT-15
+!LEXICON OPT-16
+
+!LEXICON OPT-20
+!LEXICON OPT-21
+!LEXICON OPT-23
+!LEXICON OPT-24
+!LEXICON OPT-26
+
+!LEXICON OPT-30
+!LEXICON OPT-31
+!LEXICON OPT-32
+!LEXICON OPT-33
+!LEXICON OPT-34
+!LEXICON OPT-35
+!LEXICON OPT-36
+
+!LEXICON OPT-40
+!LEXICON OPT-42
+!LEXICON OPT-43
+!LEXICON OPT-45
+!LEXICON OPT-46
+
+!LEXICON OPT-50
+!LEXICON OPT-51
+!LEXICON OPT-53
+!LEXICON OPT-54
+!LEXICON OPT-56
+
+!LEXICON OPT-60
+!LEXICON OPT-61
+!LEXICON OPT-62
+!LEXICON OPT-63
+!LEXICON OPT-64
+!LEXICON OPT-65
+!LEXICON OPT-66
+
 
 LEXICON ILYA
  Optative-kundams ;
@@ -667,8 +1097,8 @@ LEXICON ILYA
 
 LEXICON ILYA_Obj
 +Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:са@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>сан@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>ссан@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>сан@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>ссан@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpClitic ;
 +Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>зса@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpClitic ;
 +Opt+ScSg1+OcPl3@U.CONJ-MX.OPT@@U.CONJ-PX.16@:%>сынь@U.CONJ-MX.OPT@@U.CONJ-PX.16@ VerbEnd_ImpClitic ;
 
@@ -681,7 +1111,7 @@ LEXICON ILYA_Obj
 +Opt+ScSg3+OcSg1@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>змам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpClitic ;
 +Opt+ScSg3+OcSg1@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>мам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpClitic ;
 +Opt+ScSg3+OcSg1@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>Ы2мам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScSg3+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>сО1@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScSg3+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>сО1@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpClitic ;
 +Opt+ScSg3+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>ссО1@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpClitic ;
 +Opt+ScSg3+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>зсО1@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpClitic ;
 +Opt+ScSg3+OcPl3@U.CONJ-MX.OPT@@U.CONJ-PX.36@:%>ынзе@U.CONJ-MX.OPT@@U.CONJ-PX.36@ VerbEnd_ImpClitic ;
@@ -715,12 +1145,12 @@ LEXICON ILYA_Obj
 +Opt+ScSg1+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.12@:%>затан@U.CONJ-MX.OPT@@U.CONJ-PX.12@ VerbEnd_ImpClitic ;
 +Opt+ScSg1+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.12@:%>зтан@U.CONJ-MX.OPT@@U.CONJ-PX.12@ VerbEnd_ImpClitic ;
 +Opt+ScSg3+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.32@:%>нзат@U.CONJ-MX.OPT@@U.CONJ-PX.32@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScSg1+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScPl1+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScPl1+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScSg3+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScPl3+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpClitic ;
-+Dial+Opt+ScPl3+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScSg1+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScPl1+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScPl1+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScSg3+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScPl3+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Opt+ScPl3+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpClitic ;
 +Opt+ScSg1+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%>Ы2дизь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpClitic ;
 +Opt+ScPl1+OcPl2@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>Ы2дизь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpClitic ;
 +Opt+ScPl1+OcSg2@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>Ы2дизь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpClitic ;
@@ -741,6 +1171,19 @@ LEXICON ILYA_Obj
 !! IMPERATIVE !!
 !!!!!!!!!!!!!!!!
 
+!LEXICON IMPRT-20
+!LEXICON IMPRT-21
+!LEXICON IMPRT-23
+!LEXICON IMPRT-24
+!LEXICON IMPRT-26
+
+!LEXICON IMPRT-50
+!LEXICON IMPRT-51
+!LEXICON IMPRT-53
+!LEXICON IMPRT-54
+!LEXICON IMPRT-56
+
+
 +Imprt+ScSg2+OcPl1@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
 +Imprt+ScPl2+OcPl1@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
 +Imprt+ScPl2+OcSg1@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
@@ -748,10 +1191,10 @@ LEXICON ILYA_Obj
 +Imprt+ScPl3+OcPl1@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
 +Imprt+ScPl3+OcSg1@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
 +Imprt+ScSg2+OcSg1@U.CONJ-MX.IMP@@U.CONJ-PX.21@:%>мак@U.CONJ-MX.IMP@@U.CONJ-PX.21@ VerbEnd_ImpClitic ;
-+Dial+Imprt+ScSg2+OcSg1@U.CONJ-MX.IMP@@U.CONJ-PX.21@:%>Ы2мак@U.CONJ-MX.IMP@@U.CONJ-PX.21@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Imprt+ScSg2+OcSg1@U.CONJ-MX.IMP@@U.CONJ-PX.21@:%>Ы2мак@U.CONJ-MX.IMP@@U.CONJ-PX.21@ VerbEnd_ImpClitic ;
 +Imprt+ScSg2+OcSg3@U.CONJ-MX.IMP@@U.CONJ-PX.23@:%>к@U.CONJ-MX.IMP@@U.CONJ-PX.23@ VerbEnd_ImpClitic ;
 +Imprt+ScSg2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>Ы2ть@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpClitic ;
-+Dial+Imprt+ScSg2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>Ы2@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpClitic ;
++Use/Sub+Dial+Imprt+ScSg2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>Ы2@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpClitic ;
 +Imprt+ScPl2+OcSg3@U.CONJ-MX.IMP@@U.CONJ-PX.53@:%>Ы2нк@U.CONJ-MX.IMP@@U.CONJ-PX.53@ VerbEnd_ImpClitic ;
 +Imprt+ScPl2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.56@:%>Ы2нк@U.CONJ-MX.IMP@@U.CONJ-PX.56@ VerbEnd_ImpClitic ;
 
@@ -765,7 +1208,7 @@ LEXICON Imperative_Obj-kadoms
 +ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2ть@U.CONJ-PX.26@ VerbEnd_ImpClitic ;
 !!This dialect form is realised
 !!as the previous if followed by a clitic
-+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ # ;
++Use/Sub+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ # ;
 +ScSg2+OcPl1@U.CONJ-PX.24@:%>О1мизь@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
 +ScPl2+OcPl1@U.CONJ-PX.54@:%>О1мизь@U.CONJ-PX.54@ VerbEnd_ImpClitic ;
 +ScPl2+OcSg1@U.CONJ-PX.51@:%>О1мизь@U.CONJ-PX.51@ VerbEnd_ImpClitic ;
@@ -786,7 +1229,7 @@ LEXICON Imperative_Obj-kundams
 +ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2ть@U.CONJ-PX.26@ VerbEnd_ImpClitic ;
 !!This dialect form is realised
 !!as the previous if followed by a clitic
-+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ # ;
++Use/Sub+Dial+ScSg2+OcPl3@U.CONJ-PX.26@:%>Ы2@U.CONJ-PX.26@ # ;
 +ScSg2+OcPl1@U.CONJ-PX.24@:%>мизь@U.CONJ-PX.24@ VerbEnd_ImpClitic ;
 +ScPl2+OcPl1@U.CONJ-PX.54@:%>мизь@U.CONJ-PX.54@ VerbEnd_ImpClitic ;
 +ScPl2+OcSg1@U.CONJ-PX.51@:%>мизь@U.CONJ-PX.51@ VerbEnd_ImpClitic ;+ScSg3+OcPl1@U.CONJ-PX.34@:%>мизь@U.CONJ-PX.34@ VerbEnd_ImpClitic ;
@@ -826,7 +1269,7 @@ LEXICON Optative1_A_Obj
 +ScSg1+OcSg2:зтан VerbEnd_Clitic ;
 +Use/Sub+ScSg1+OcSg3:са VerbEnd_Clitic ;
 +ScSg1+OcSg3:сса VerbEnd_Clitic ;
-+Dial+ScSg1+OcSg3:сан VerbEnd_Clitic ;
++Use/Sub+Dial+ScSg1+OcSg3:сан VerbEnd_Clitic ;
 +ScSg3+OcSg3:ссО1 VerbEnd_Clitic ;
 !+ScSg3+OcSg3:сазо VerbEnd_Clitic ;
 !! Introduced in Grammar 2000
@@ -939,9 +1382,9 @@ LEXICON kudo-Possessive-Before-Clitic-4Inf
 
 LEXICON Possessive-Before-Clitic-noArrow-4Inf
 +PxSg1:нЬ2 VerbEnd_Clitic ;
-+PxSg1+Dial:м VerbEnd_Clitic ;
++PxSg1+Use/Sub+Dial:м VerbEnd_Clitic ;
 +PxSg2:тЬ2 VerbEnd_Clitic ;
-+PxSg2+Dial:нтЬ2 VerbEnd_Clitic ;
++PxSg2+Use/Sub+Dial:нтЬ2 VerbEnd_Clitic ;
 +PxSg3:нзО1 VerbEnd_Clitic ;
 +PxPl1:нО1к VerbEnd_lak-Clitic ;
 +PxPl2:нк VerbEnd_lak-Clitic ;
@@ -1124,16 +1567,16 @@ LEXICON kudo-Tenses-Obl
 
 LEXICON sajems-Conjugation-4Inf
  kal-Conjugation-4Inf ;
-+Ind+NonPast+OcSg1+Dial:%>самизь VerbEnd_Clitic ;
-+Ind+NonPast+OcSg2+Dial:%>тА2дызь VerbEnd_Clitic ;
-+Ind+Prt2+OcSg1+Dial:%>О1лимизь VerbEnd_Clitic ;
-+Ind+Prt2+OcSg2+Dial:%>О1лидизь VerbEnd_Clitic ;
-+Ind+Prt2+OcSg3+Dial:%>О1лизь VerbEnd_Clitic ;
-+Ind+NonPast+OcPl1+Dial:%>самизь VerbEnd_Clitic ;
-+Ind+NonPast+OcPl2+Dial:%>тА2дызь VerbEnd_Clitic ;
-+Ind+Prt2+OcPl1+Dial:%>О1лимизь VerbEnd_Clitic ;
-+Ind+Prt2+OcPl2+Dial:%>О1лидизь VerbEnd_Clitic ;
-+Ind+Prt2+OcPl3+Dial:%>О1лизь VerbEnd_Clitic ;
++Ind+NonPast+OcSg1+Use/Sub+Dial:%>самизь VerbEnd_Clitic ;
++Ind+NonPast+OcSg2+Use/Sub+Dial:%>тА2дызь VerbEnd_Clitic ;
++Ind+Prt2+OcSg1+Use/Sub+Dial:%>О1лимизь VerbEnd_Clitic ;
++Ind+Prt2+OcSg2+Use/Sub+Dial:%>О1лидизь VerbEnd_Clitic ;
++Ind+Prt2+OcSg3+Use/Sub+Dial:%>О1лизь VerbEnd_Clitic ;
++Ind+NonPast+OcPl1+Use/Sub+Dial:%>самизь VerbEnd_Clitic ;
++Ind+NonPast+OcPl2+Use/Sub+Dial:%>тА2дызь VerbEnd_Clitic ;
++Ind+Prt2+OcPl1+Use/Sub+Dial:%>О1лимизь VerbEnd_Clitic ;
++Ind+Prt2+OcPl2+Use/Sub+Dial:%>О1лидизь VerbEnd_Clitic ;
++Ind+Prt2+OcPl3+Use/Sub+Dial:%>О1лизь VerbEnd_Clitic ;
 
 !!
 
@@ -1327,16 +1770,16 @@ LEXICON osh-Conjugation
 
 LEXICON sajems-Conjugation
  kal-Conjugation ;
-+Der/Pr+Ind+NonPast+OcSg1+Dial:%>самизь Clitic ;
-+Der/Pr+Ind+NonPast+OcSg2+Dial:%>тА2дызь Clitic ;
-+Der/Pr+Ind+Prt2+OcSg1+Dial:%>О1лимизь Clitic ;
-+Der/Pr+Ind+Prt2+OcSg2+Dial:%>О1лидизь Clitic ;
-+Der/Pr+Ind+Prt2+OcSg3+Dial:%>О1лизь Clitic ;
-+Der/Pr+Ind+NonPast+OcPl1+Dial:%>самизь Clitic ;
-+Der/Pr+Ind+NonPast+OcPl2+Dial:%>тА2дызь Clitic ;
-+Der/Pr+Ind+Prt2+OcPl1+Dial:%>О1лимизь Clitic ;
-+Der/Pr+Ind+Prt2+OcPl2+Dial:%>О1лидизь Clitic ;
-+Der/Pr+Ind+Prt2+OcPl3+Dial:%>О1лизь Clitic ;
++Der/Pr+Ind+NonPast+OcSg1+Use/Sub+Dial:%>самизь Clitic ;
++Der/Pr+Ind+NonPast+OcSg2+Use/Sub+Dial:%>тА2дызь Clitic ;
++Der/Pr+Ind+Prt2+OcSg1+Use/Sub+Dial:%>О1лимизь Clitic ;
++Der/Pr+Ind+Prt2+OcSg2+Use/Sub+Dial:%>О1лидизь Clitic ;
++Der/Pr+Ind+Prt2+OcSg3+Use/Sub+Dial:%>О1лизь Clitic ;
++Der/Pr+Ind+NonPast+OcPl1+Use/Sub+Dial:%>самизь Clitic ;
++Der/Pr+Ind+NonPast+OcPl2+Use/Sub+Dial:%>тА2дызь Clitic ;
++Der/Pr+Ind+Prt2+OcPl1+Use/Sub+Dial:%>О1лимизь Clitic ;
++Der/Pr+Ind+Prt2+OcPl2+Use/Sub+Dial:%>О1лидизь Clitic ;
++Der/Pr+Ind+Prt2+OcPl3+Use/Sub+Dial:%>О1лизь Clitic ;
 
 
 
