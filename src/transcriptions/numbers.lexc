@@ -1,50 +1,30 @@
-! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
-! http://giellatekno.uit.no & http://divvun.no
-!
-! This program is free software; you can redistribute and/or modify
-! this file under the terms of the GNU General Public License as published by
-! the Free Software Foundation, either version 3 of the License, or
-! (at your option) any later version. The GNU General Public License
-! is found at http://www.gnu.org/licenses/gpl.html. It is
-! also available in the file $GTHOME/LICENSE.txt.
-!
-! Other licensing options are available upon request, please contact
-! giellatekno@hum.uit.no or divvun@samediggi.no
+!Distributed under the terms of the GNU General Public License version 2
+! or any later version.
 
-Multichar_Symbols
-
-  +Use/NG    ! Do not generate, for isme-ped.fst and apertium
-  +String    ! Tag to denote non-numeric strings
-  +NumNum    ! Tag to denote real numbers in one form or another
 
 LEXICON Root
-< %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|æ|ø|å|ä|ö|á|č|đ|ŋ|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Æ|Ø|Å|Ä|Ö|Á|Č|Đ|Ŋ|Š|Ŧ|Ž]* > COMMA ; ! This first line is to allow all letter strings.
-+NumNum NUMBERSECTION ;
-+NumNum COMMASECTION ;
-
-LEXICON NUMBERSECTION
 HUNDREDSM ;		! 200M
-tjuetie:1 HUNDREDM ;	! 100M
+сядо:1 HUNDREDM ;	! 100M
 stoereluhkie+Use/NG:1 HUNDREDM ;	! 100M
 stoerreluhkie+Use/NG:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-tjuetie:1 HUNDREDT ;	! 100000-100999
+сядо:1 HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
 tåvsene:1 THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
-TENS ;			! 20-99
+TENS ;			! 30-99
 TEENS ;			! 10-19
+TWEENS ;		! 20-29 ! not just Hobbits
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-göökte:2  CUODIM ;
-golme:3 CUODIM ;
+кавто:2  CUODIM ;
+колмо:3 CUODIM ;
 njieljie:4 CUODIM ; ! Google: 459
 njielje+Use/NG:4 CUODIM ;  ! Google: 218
 nieljie+Use/NG:4 CUODIM ;  ! Google:  61
@@ -56,7 +36,7 @@ gaektsie:8 CUODIM ;
 uktsie:9 CUODIM ;
 
 LEXICON CUODIM
-tjuetie: HUNDREDM ;
+сядт: HUNDREDM ;
 stoereluhkie: HUNDREDM ;
 stoerreluhkie: HUNDREDM ;
 
@@ -70,9 +50,9 @@ LEXICON TEENSM
 luhkie:1 TEENM ;
 
 LEXICON TEENM
-akte:1     LOHKAIM ;
-göökte:2   LOHKAIM ;
-golme:3    LOHKAIM ;
+вейке:1     LOHKAIM ;
+кавто:2   LOHKAIM ;
+колмо:3    LOHKAIM ;
 njieljie:4 LOHKAIM ;
 njielje+Use/NG:4  LOHKAIM ;
 nieljie+Use/NG:4  LOHKAIM ;
@@ -88,8 +68,8 @@ MILJON ;
 
 LEXICON TENSM
 luhkie:1%0 MILJON ;
-göökte:2   LUHKIEM ;
-golme:3    LUHKIEM ;
+кавто:2   LUHKIEM ;
+колмо:3    LUHKIEM ;
 njieljie:4 LUHKIEM ;
 njielje+Use/NG:4  LUHKIEM ;
 nieljie+Use/NG:4  LUHKIEM ;
@@ -105,9 +85,9 @@ luhkie:%0 MILJON ;
 luhkie:   ONESM ;
 
 LEXICON ONESM
-akte% miljon% :1 OVERTHOUSANDS ;
-göökte:2         MILJON ;
-golme:3          MILJON ;
+вейке% miljon% :1 OVERTHOUSANDS ;
+кавто:2         MILJON ;
+колмо:3          MILJON ;
 njieljie:4       MILJON ;
 njielje+Use/NG:4        MILJON ;
 nieljie+Use/NG:4        MILJON ;
@@ -127,7 +107,7 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-tjuetie:1 HUNDREDT ;	! 100.000.000
+сядо:1 HUNDREDT ;	! 100.000.000
 stoereluhkie:1 HUNDREDT ;	! 100.000.000
 stoerreluhkie:1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
@@ -141,8 +121,8 @@ tåvsene:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0%0%0%0 COMMA ;	!  x000000
 
 LEXICON HUNDREDST
-göökte:2   CUODIT ;	! 200000-299999
-golme:3    CUODIT ;	! 300000-399999
+кавто:2   CUODIT ;	! 200000-299999
+колмо:3    CUODIT ;	! 300000-399999
 njieljie:4 CUODIT ;	! 400000-499999
 njielje+Use/NG:4  CUODIT ;
 nieljie+Use/NG:4  CUODIT ;
@@ -154,14 +134,12 @@ gaektsie:8 CUODIT ;	! 800000-899999
 uktsie:9   CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-tjuetie: HUNDREDT ;	! 100000-199999
-stoereluhkie+Use/NG: HUNDREDT ;	! 100000-199999
-stoerreluhkie+Use/NG: HUNDREDT ;	! 100000-199999
+сядт: HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
 TEENST ;		! X1XYYY
-akte:%01 THOUSANDS ;
+вейке:%01 THOUSANDS ;
 :%0 ONEST ;		! XX0YYY
 :%0%0 THOUSANDS ;	! X00YYY
 
@@ -171,8 +149,8 @@ luhkie:1%0 THOUSANDS ;
 
 LEXICON TEENT
 akte:1     LOHKAIT ;
-göökte:2   LOHKAIT ;
-golme:3    LOHKAIT ;
+кавто:2   LOHKAIT ;
+колмо:3    LOHKAIT ;
 njieljie:4 LOHKAIT ;
 njielje+Use/NG:4  LOHKAIT ;
 nieljie+Use/NG:4  LOHKAIT ;
@@ -187,8 +165,8 @@ LEXICON LOHKAIT
 THOUSANDS ;
 
 LEXICON TENST
-göökteluhkie:2   LUHKIET ;
-golmeluhkie:3    LUHKIET ;
+комсь:2   LUHKIET ;
+колоньгемень% :3    LUHKIET ;
 njieljieluhkie:4 LUHKIET ;
 njieljeluhkie+Use/NG:4  LUHKIET ;
 nieljieluhkie+Use/NG:4  LUHKIET ;
@@ -201,33 +179,30 @@ uktsieluhkie:9   LUHKIET ;
 
 LEXICON LUHKIET
 :%0 THOUSANDS ;
-akte:1 THOUSANDS ;
+вейке% :1 THOUSANDS ;
 ONEST ;
 
 LEXICON ONEST
-göökte:2 THOUSANDS ;
-golme:3 THOUSANDS ;
-njieljie:4 THOUSANDS ;
-njielje+Use/NG:4 THOUSANDS ;
-nieljie+Use/NG:4 THOUSANDS ;  
- nielje+Use/NG:4 THOUSANDS ;   
-vïjhte:5 THOUSANDS ;
-govhte:6 THOUSANDS ;
-tjïjhtje:7 THOUSANDS ;
-gaektsie:8 THOUSANDS ;
-uktsie:9 THOUSANDS ;
+кавто% :2 THOUSANDS ;
+колмо% :3 THOUSANDS ;
+ниле% :4 THOUSANDS ;
+вете% :5 THOUSANDS ;
+кото% :6 THOUSANDS ;
+сисем% :7 THOUSANDS ;
+кавксо% :8 THOUSANDS ;
+вейксэ% :9 THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-tåvsene: THOUSAND ;
-stoerretjuetie+Use/NG: THOUSAND ; 
-stoeretjuetie+Use/NG: THOUSAND ; 
+тёжа% : THOUSAND ;
+тёжа% :%0%0%0 COMMA ;	   ! 1000
+
 
 LEXICON THOUSAND
 UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1020-1099
+:%0 TENS ;	   ! 1030-1099
 :%0 TEENS ;	   ! 1010-1019
+:%0 TWEENS ;	   ! 1020-1029
 :%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 COMMA ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -235,33 +210,25 @@ UNDERTHOUSAND ;	   ! 1100-1999
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-tjuetie:1 HUNDRED ;
-stoereluhkie+Use/NG:1 HUNDRED ;
-stoerreluhkie+Use/NG:1 HUNDRED ;
-tjuatede:1  CUODAAT ;
-stoerelåhkede+Use/NG:1  CUODAAT ;
-stoerrelåhkede+Use/NG:1  CUODAAT ;
+сядо% :1 HUNDRED ;
+сядоце:1  CUODAAT ;
 
 LEXICON HUNDREDS
-göökte:2   CUODI ;
-golme:3    CUODI ;
-njieljie:4 CUODI ;
-njielje+Use/NG:4  CUODI ;
-nieljie+Use/NG:4  CUODI ;
-nielje+Use/NG:4  CUODI ;
-vïjhte:5   CUODI ;
-govhte:6   CUODI ;
-tjïjhtje:7 CUODI ;
-gaektsie:8 CUODI ;
-uktsie:9   CUODI ;
+кавто:2   CUODI ;
+колмо:3    CUODI ;
+ниле:4 CUODI ;
+вете:5   CUODI ;
+кото:6   CUODI ;
+сисем:7   CUODI ;
+сисемзядт+Use/NG% :7 HUNDRED ;
+сисемзядоце+Use/NG:7 CUODAAT ;
+кавксо:8 CUODI ;
+вейксэ:9   CUODI ;
 
 LEXICON CUODI
-tjuetie:   HUNDRED ;
-stoereluhkie+Use/NG:   HUNDRED ;
-stoerreluhkie+Use/NG:   HUNDRED ;
-tjuatede:  CUODAAT ;
-stoerelåhkede+Use/NG:  CUODAAT ;
-stoerrelåhkede+Use/NG:  CUODAAT ;
+сядт% :   HUNDRED ;
+сядоце:  CUODAAT ;
+
 
 LEXICON HUNDRED
       TENS ;
@@ -274,33 +241,69 @@ LEXICON CUODAAT
 :%0%0%.    COMMA ;
 
 LEXICON TEENS
-luhkie:1 ONES ;
+ CARDINAL-TEENS ;
+ ORDINAL-TEENS ;
 
 LEXICON TWEENS
+комсь:2%0 COMMA ;
+комсеце:2%0%. COMMA ;
 комсь:2 ONES-TW ;
 
 
 LEXICON TENS
-кемень:1%0 COMMA ;
-кеменце:1%0%. COMMA ;
-комсь:2%0 COMMA ;
-комсеце:2%0%. COMMA ;
+колмонь:3 LUHKIE_3-9_morph ;
 колонь:3 LUHKIE_3-9 ;
 нилень:4 LUHKIE_3-9 ;
+нилень:4 LUHKIE_3-9_morph ;
+ветень:5 LUHKIE_3-9_morph ;
 ведь:5 LUHKIE_3-9 ;
+котонь:6 LUHKIE_3-9_morph ;
 код:6 LUHKIE_3-9 ;
+сисьмень:7 LUHKIE_3-9_morph ;
 сизь:7 LUHKIE_3-9 ;
 кавксонь:8 LUHKIE_3-9 ;
+кавксонь:8 LUHKIE_3-9_morph ;
 вейксэнь:9 LUHKIE_3-9 ;
+вейксэнь:9 LUHKIE_3-9_morph ;
 
 LEXICON LUHKIE_3-9
 гемень:%0 COMMA ;
 геменце:%0%. COMMA ;
 гемень% : ONES ;
 
+LEXICON LUHKIE_3-9_morph
+кемень+Use/SpellNoSugg:%0 COMMA ;
+кеменце+Use/SpellNoSugg:%0%. COMMA ;
+кемень+Use/SpellNoSugg% : ONES ;
+
+
+LEXICON CARDINAL-TEENS
+кемень:1%0 COMMA ;
+кевейкее:11 COMMA ;
+кемгавтово:12 COMMA ;
+кемголмово:13 COMMA ;
+кемнилее:14 COMMA ;
+кеветее:15 COMMA ;
+кемготово:16 COMMA ;
+кемзисемге:17 COMMA ;
+кемгавксово:18 COMMA ;
+кевейксэе:19 COMMA ;
+
+LEXICON ORDINAL-TEENS
+кеменце:1%0%. COMMA ;
+кевейкееце:11%.     COMMA ;
+кемгавтовоце:12%.   COMMA ;
+кемголмовоце:13%.   COMMA ;
+кемнилееце:14%. COMMA ;
+кеветееце:15%.   COMMA ;
+кемготовоце:16%.   COMMA ;
+кемзисемгеце:17%.    COMMA ;
+кемгавксовоце:18%.   COMMA ;
+кевейксэеце:19%.    COMMA ;
+
 LEXICON ONES-TW
-CARDINAL-TW ;
-ORDINAL-TW ;
+ CARDINAL-TW ;
+ ORDINAL-TW ;
 
 LEXICON CARDINAL-TW
 вейкее:1 COMMA ;
@@ -352,19 +355,6 @@ LEXICON ORDINAL
 
 LEXICON COMMA
  ENDLEX ;
- COMMASECTION ;
-
-LEXICON COMMASECTION  ! these are not spellchecked!!!
-                  ENDLEX ;
-! % komma% :,      Root ;
-! % tjuohkkis% :%. Root ;
-! % kolon% :%:     Root ;
-! % sárggis% :%-   Root ; 
- % la% :%=         Root ; 
- % gráda% :%°      Root ; 
- % paragráfa% :§   Root ; 
-! % násti% :%*     Root ; 
- % ja% :&          Root ; 
 
 LEXICON ENDLEX
  # ;
