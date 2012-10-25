@@ -266,6 +266,7 @@ stoerrelåhkede+Use/NG:  CUODAAT ;
 LEXICON HUNDRED
       TENS ;
       TEENS ;
+      TWEENS ;
 :%0   ONES ;
 :%0%0 COMMA ;
 
@@ -275,55 +276,79 @@ LEXICON CUODAAT
 LEXICON TEENS
 luhkie:1 ONES ;
 
+LEXICON TWEENS
+комсь:2 ONES-TW ;
+
 
 LEXICON TENS
-luhkie:1%0 COMMA ;
-låhkede:1%0%. COMMA ;
-göökte:2 LUHKIE ;
-golme:3 LUHKIE ;
-njieljie:4 LUHKIE ;
-njielje+Use/NG:4 LUHKIE ;
-nieljie+Use/NG:4 LUHKIE ;
-nielje+Use/NG:4 LUHKIE ;
-vïjhte:5 LUHKIE ;
-govhte:6 LUHKIE ;
-tjïjhtje:7 LUHKIE ;
-gaektsie:8 LUHKIE ;
-uktsie:9 LUHKIE ;
+кемень:1%0 COMMA ;
+кеменце:1%0%. COMMA ;
+комсь:2%0 COMMA ;
+комсеце:2%0%. COMMA ;
+колонь:3 LUHKIE_3-9 ;
+нилень:4 LUHKIE_3-9 ;
+ведь:5 LUHKIE_3-9 ;
+код:6 LUHKIE_3-9 ;
+сизь:7 LUHKIE_3-9 ;
+кавксонь:8 LUHKIE_3-9 ;
+вейксэнь:9 LUHKIE_3-9 ;
 
-LEXICON LUHKIE
-luhkie:%0 COMMA ;
-låhkede:%0%. COMMA ;
-luhkie: ONES ;
+LEXICON LUHKIE_3-9
+гемень:%0 COMMA ;
+геменце:%0%. COMMA ;
+гемень% : ONES ;
+
+LEXICON ONES-TW
+CARDINAL-TW ;
+ORDINAL-TW ;
+
+LEXICON CARDINAL-TW
+вейкее:1 COMMA ;
+кавтово:2 COMMA ;
+колмово:3 COMMA ;
+нилее:4 COMMA ;
+ветее:5 COMMA ;
+котово:6 COMMA ;
+сисемге:7 COMMA ;
+кавксово:8 COMMA ;
+вейксэе:9 COMMA ;
+
+LEXICON ORDINAL-TW
+вейкееце:1%.     COMMA ;
+кавтовоце:2%.   COMMA ;
+колмовоце:3%.   COMMA ;
+нилееце:4%. COMMA ;
+ветееце:5%.   COMMA ;
+котовоце:6%.   COMMA ;
+сисемгеце:7%.    COMMA ;
+кавксовоце:8%.   COMMA ;
+вейксэеце:9%.    COMMA ;
 
 LEXICON ONES
 CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-akte:1 COMMA ;
-göökte:2 COMMA ;
-golme:3 COMMA ;
-njieljie:4 COMMA ;
-njielje+Use/NG:4 COMMA ;
-nieljie+Use/NG:4 COMMA ;  
-nielje+Use/NG:4 COMMA ; 
-vïjhte:5 COMMA ;
-govhte:6 COMMA ;
-tjïjhtje:7 COMMA ;
-gaektsie:8 COMMA ;
-uktsie:9 COMMA ;
+вейке:1 COMMA ;
+кавто:2 COMMA ;
+колмо:3 COMMA ;
+ниле:4 COMMA ;
+вете:5 COMMA ;
+кото:6 COMMA ;
+сисем:7 COMMA ;
+кавксо:8 COMMA ;
+вейксэ:9 COMMA ;
 
 LEXICON ORDINAL
-voestes:1%.     COMMA ;
-mubpie:2%.   COMMA ;
-gåalmede:3%.   COMMA ;
-njealjede:4%. COMMA ;
-vïjhtede:5%.   COMMA ;
-govhtede:6%.   COMMA ;
-tjïjhtjede:7%.    COMMA ;
-gaaktsede:8%.   COMMA ;
-åktsede:9%.    COMMA ;
+васенце:1%.     COMMA ;
+омбоце:2%.   COMMA ;
+колмоце:3%.   COMMA ;
+нилеце:4%. COMMA ;
+ветеце:5%.   COMMA ;
+котоце:6%.   COMMA ;
+сисемце:7%.    COMMA ;
+кавксоце:8%.   COMMA ;
+вейксэце:9%.    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
