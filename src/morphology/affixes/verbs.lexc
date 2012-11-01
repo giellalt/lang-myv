@@ -5,16 +5,16 @@
 
 LEXICON VERBNEGATIVE
 аволть+V+Neg+Conj+ScPl3:авольть # ;
-аволь+V+Neg+Conj@P.CONJ.ObjAll@:аволь@P.CONJ.ObjAll@ IndicativePretI-plus ;
+аволь+V+Neg+Conj@P.CONJ.ObjAll@:а@P.CONJ.ObjAll@  ConjPers-withO-all ;
 аволь+V+Neg+Conj+ScSg3:аволь # ;
 иля+V+Neg@P.CONJ.ObjAll@:иля@P.CONJ.ObjAll@ ILYA ;
 
 
-эзть+V+Neg+Ind+Prt1+ScPl3:эзть # ;
+эзть+V+Neg+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@:эзть@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@ # ;
 эзь+V+Neg+Ind@P.CONJ.ObjAll@:эзь@P.CONJ.ObjAll@ IndicativePrt2_kadoms ;
 эзь+V+Neg@P.CONJ.ObjAll@:эзь@P.CONJ.ObjAll@ IND-PRT1-all-but-Sc3 ;
-эзь+V+Neg+Ind+Prt1+ScSg3:эзь # ;
-эзь+Use/Sub+V+Neg+Ind+Prt1+ScSg3:эсть # ;
+эзь+V+Neg+Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@:эзь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@ # ;
+эзь+Use/Sub+V+Neg+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@:эсть@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@ # ;
 эзь+V+Neg+Ind+Prt1+ScSg3+OcSg3:эсе # ;
 
 !!!!!!!!!!!!!!!!!!
@@ -1260,20 +1260,156 @@ LEXICON Conjunctive-kadoms_Obj
  CNJ-65 ;
  CNJ-66 ;
 
+!! begin
+LEXICON CNJ-withO-10
++ScSg1@U.CONJ-PX.1%0@:вО1линь@U.CONJ-PX.1%0@  Derya ;
 
+LEXICON CNJ-withO-12
++ScSg1+OcSg2@U.CONJ-PX.12@:вО1литинь@U.CONJ-PX.12@ Derya ;
+
+LEXICON CNJ-withO-13
++ScSg1+OcSg3@U.CONJ-PX.13@:вО1лия@U.CONJ-PX.13@ Derya ;
+
+LEXICON CNJ-withO-15
++ScSg1+OcPl2@U.CONJ-PX.15@:вО1лидизь@U.CONJ-PX.15@ Derya ;
+
+LEXICON CNJ-withO-16
++ScSg1+OcPl3@U.CONJ-PX.16@:вО1линь@U.CONJ-PX.16@ Derya ;
+
+LEXICON CNJ-withO-20
++ScSg2@U.CONJ-PX.2%0@:вО1лить@U.CONJ-PX.2%0@ Derya ;
+
+LEXICON CNJ-withO-21
++ScSg2+OcSg1@U.CONJ-PX.21@:вО1лимик@U.CONJ-PX.21@ Derya_KLoss ;
+
+LEXICON CNJ-withO-23
++ScSg2+OcSg3@U.CONJ-PX.23@:вО1лик@U.CONJ-PX.23@ Derya_KLoss ;
+
+LEXICON CNJ-withO-24
++ScSg2+OcPl1@U.CONJ-PX.24@:вО1лимизь@U.CONJ-PX.24@ Derya ;
+
+LEXICON CNJ-withO-26
++ScSg2+OcPl3@U.CONJ-PX.26@:вО1лить@U.CONJ-PX.26@ Derya ;
+
+LEXICON CNJ-withO-31
++ScSg3+OcSg1@U.CONJ-PX.31@:вО1лимим@U.CONJ-PX.31@ Derya ;
+
+LEXICON CNJ-withO-32
++ScSg3+OcSg2@U.CONJ-PX.32@:вО1линзеть@U.CONJ-PX.32@ Derya ;
+
+LEXICON CNJ-withO-33
++ScSg3+OcSg3@U.CONJ-PX.33@:вО1лизе@U.CONJ-PX.33@ Derya ;
+
+LEXICON CNJ-withO-34
++ScSg3+OcPl1@U.CONJ-PX.34@:вО1лимизь@U.CONJ-PX.34@ Derya ;
+
+LEXICON CNJ-withO-35
++ScSg3+OcPl2@U.CONJ-PX.35@:вО1лидизь@U.CONJ-PX.35@ Derya ;
+
+LEXICON CNJ-withO-36
++ScSg3+OcPl3@U.CONJ-PX.36@:вО1линзе@U.CONJ-PX.36@ Derya ;
+
+LEXICON CNJ-withO-40
++ScPl1@U.CONJ-PX.4%0@:вО1линек@U.CONJ-PX.4%0@ Derya_KLoss ;
+
+LEXICON CNJ-withO-42
++ScPl1+OcSg2@U.CONJ-PX.42@:вО1лидизь@U.CONJ-PX.42@ Derya ;
+
+LEXICON CNJ-withO-43
++ScPl1+OcSg3@U.CONJ-PX.43@:вО1линек@U.CONJ-PX.43@ Derya_KLoss ;
+
+LEXICON CNJ-withO-45
++ScPl1+OcPl2@U.CONJ-PX.45@:вО1лидизь@U.CONJ-PX.45@ Derya ;
+
+LEXICON CNJ-withO-46
++ScPl1+OcPl3@U.CONJ-PX.46@:вО1линек@U.CONJ-PX.46@ Derya_KLoss ;
+
+LEXICON CNJ-withO-50
++ScPl2@U.CONJ-PX.5%0@:вО1лиде@U.CONJ-PX.5%0@ Derya ;
+
+LEXICON CNJ-withO-51
++ScPl2+OcSg1@U.CONJ-PX.51@:вО1лимизь@U.CONJ-PX.51@ Derya ;
+
+LEXICON CNJ-withO-53
++ScPl2+OcSg3@U.CONJ-PX.53@:вО1линк@U.CONJ-PX.53@ Derya_KLoss ;
+
+LEXICON CNJ-withO-54
++ScPl2+OcPl1@U.CONJ-PX.54@:вО1лимизь@U.CONJ-PX.54@ Derya ;
+
+LEXICON CNJ-withO-56
++ScPl2+OcPl3@U.CONJ-PX.56@:вО1линк@U.CONJ-PX.56@ Derya_KLoss ;
+
+LEXICON CNJ-withO-61
++ScPl3+OcSg1@U.CONJ-PX.61@:вО1лимизь@U.CONJ-PX.61@ Derya ;
+
+LEXICON CNJ-withO-62
++ScPl3+OcSg2@U.CONJ-PX.62@:вО1лидизь@U.CONJ-PX.62@ Derya ;
+
+LEXICON CNJ-withO-63
++ScPl3+OcSg3@U.CONJ-PX.63@:вО1лизь@U.CONJ-PX.63@ Derya ;
+
+LEXICON CNJ-withO-64
++ScPl3+OcPl1@U.CONJ-PX.64@:вО1лимизь@U.CONJ-PX.64@ Derya ;
+
+LEXICON CNJ-withO-65
++ScPl3+OcPl2@U.CONJ-PX.65@:вО1лидизь@U.CONJ-PX.65@ Derya ;
+
+LEXICON CNJ-withO-66
++ScPl3+OcPl3@U.CONJ-PX.66@:вО1лизь@U.CONJ-PX.66@ Derya ;
+
+
+
+LEXICON ConjPers-withO-all
+@R.CONJ.ObjAll@ ConjPers-withO-all_Obj ;
+ CNJ-withO-10 ;
+ CNJ-withO-20 ;
+ CNJ-30 ;
+ CNJ-withO-40 ;
+ CNJ-withO-50 ;
+ CNJ-60 ;
+
+
+LEXICON ConjPers-withO-all_Obj
+ CNJ-withO-12 ;
+ CNJ-withO-13 ;
+ CNJ-withO-15 ;
+ CNJ-withO-16 ;
+ CNJ-withO-21 ;
+ CNJ-withO-23 ;
+ CNJ-withO-24 ;
+ CNJ-withO-26 ;
+ CNJ-withO-31 ;
+ CNJ-withO-32 ;
+ CNJ-withO-33 ;
+ CNJ-withO-34 ;
+ CNJ-withO-35 ;
+ CNJ-withO-36 ;
+ CNJ-withO-51 ;
+ CNJ-withO-53 ;
+ CNJ-withO-54 ;
+ CNJ-withO-56 ;
+ CNJ-withO-61 ;
+ CNJ-withO-62 ;
+ CNJ-withO-63 ;
+ CNJ-withO-64 ;
+ CNJ-withO-65 ;
+ CNJ-withO-66 ;
+
+
+!! end
 LEXICON Conjunctive-kundams
 :%> Conjunctive-noArrow ;
 
 LEXICON Derya
-+Pcle+Conj:деря VerbEnd_Clitic ;
++Pcle+Cond:деря VerbEnd_Clitic ;
  VerbEnd_ImpClitic ;
 
 LEXICON ImpDerya
-+Pcle+Conj:деря VerbEnd_Clitic ;
++Pcle+Cond:деря VerbEnd_Clitic ;
  VerbEnd_ImpClitic ;
 
 LEXICON Derya_KLoss
-+Pcle+Conj:деря VerbEnd_Clitic ;
++Pcle+Cond:деря VerbEnd_Clitic ;
  VerbEnd_ImpClitic ;
 
 !!!!!!!!!!!!!!
