@@ -1402,7 +1402,7 @@ LEXICON ImpDerya
 
 LEXICON Derya_KLoss
 +Pcle+Cond:деря VerbEnd_Clitic ;
- VerbEnd_ImpClitic ;
+ VerbEnd_lak-ImpClitic ;
 
 !!!!!!!!!!!!!!
 !! OPTATIVE !!
@@ -2000,7 +2000,9 @@ LEXICON ImpClitic
 +Clt/Гатя:%>Г4атя # ;
 +Clt/Гак:%>Г4ак # ;
 
+
 LEXICON VerbEnd_ImpClitic
++Clt/Гак:%>Г1ак # ;
  # ;
  VerbEnd ;
 
@@ -2011,6 +2013,19 @@ LEXICON VerbEnd_ImpClitic
 +Clt/Гаять:%>Г4аять # ;
 +Clt/Гаятя:%>Г4аятя # ;
 +Clt/Гак:%>Г4ак # ;
+
+LEXICON VerbEnd_lak-ImpClitic
+ VerbEnd_ImpClitic ;
+ VerbEnd_lak-Clitic ;
++Use/Sub+Clt/Га:%>KLossГ4а # ;
++Use/Sub+Clt/Гака:%>KLossГ4ака # ;
++Use/Sub+Clt/Гакая:%>KLossГ4акая # ;
++Use/Sub+Clt/Гая:%>KLossГ4ая # ;
++Use/Sub+Clt/Гаять:%>KLossГ4аять # ;
++Use/Sub+Clt/Гаятя:%>KLossГ4аятя # ;
++Use/Sub+Clt/Гатя:%>KLossГ4атя # ;
++Use/Sub+Clt/Гак:%>KLossГ4ак # ;
+
 
 LEXICON VerbEnd_Clitic
  Clitic ;
