@@ -1,0 +1,38 @@
+!! Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+!! else. This file contains all enumerated word forms that cannot reasonably be
+!! created from lexical data by regular inflection. Usually there should be next
+!! to none exceptions, it's always better to have a paradigm that covers only
+!! one or few words than an exception since these will not work nicely with e.g.
+!! compounding scheme or possibly many end applications.
+
+LEXICON EXCEPTIONS
+
+!! verbs of negation have partial inflection:
+!! € аволь
+!! € иля
+!! € эзь
+аволть+V+Neg+Conj+ScPl3:авольть # ;
+аволь+V+Neg+Conj@P.CONJ.ObjAll@:а@P.CONJ.ObjAll@  ConjPers-withO-all ;
+аволь+V+Neg+Conj+ScSg3:аволь # ;
+иля+V+Neg@P.CONJ.ObjAll@:иля@P.CONJ.ObjAll@ ILYA ;
+эзть+V+Neg+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@:эзть00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@ # ;
+эзь+V+Neg+Ind@P.CONJ.ObjAll@:эзь000@P.CONJ.ObjAll@ IndicativePrt2_kadoms ;
+эзь+V+Neg@P.CONJ.ObjAll@:эзь00@P.CONJ.ObjAll@ IND-PRT1-all-but-Sc3 ;
+эзь+V+Neg+Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@:эзь00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@ # ;
+эзь+Use/Sub+V+Neg+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@:эсть00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@ # ;
+эзь+V+Neg+Ind+Prt1+ScSg3+OcSg3:эсе # ;
+
+!! The verb ярсамс has additional irregular forms:
+!! € ярстано
+!! € ярстадо
+ярсамс+V:ярс     IND-PRS-40    ;
+ярсамс+V:ярс     IND-PRS-50    ;
+
+
+!! Some of the nouns have archaic consonat stem forms left:
+!! € ийть
+
+ие+N:ий%>     PL-NOM-INDEF ;
+
+
+
