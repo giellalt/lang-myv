@@ -3,20 +3,6 @@
 !! Erzya language verbs inflect for person, subject and object.
 
 
-LEXICON VERBNEGATIVE
-аволть+V+Neg+Conj+ScPl3:авольть # ;
-аволь+V+Neg+Conj@P.CONJ.ObjAll@:а0000000@P.CONJ.ObjAll@  ConjPers-withO-all ;
-аволь+V+Neg+Conj+ScSg3:аволь # ;
-иля+V+Neg@P.CONJ.ObjAll@:иля00@P.CONJ.ObjAll@ ILYA ;
-
-
-эзть+V+Neg+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@:эзть00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@ # ;
-эзь+V+Neg+Ind@P.CONJ.ObjAll@:эзь000@P.CONJ.ObjAll@ IndicativePrt2_kadoms ;
-эзь+V+Neg@P.CONJ.ObjAll@:эзь00@P.CONJ.ObjAll@ IND-PRT1-all-but-Sc3 ;
-эзь+V+Neg+Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@:эзь00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@ # ;
-эзь+Use/Sub+V+Neg+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@:эсть00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@ # ;
-эзь+V+Neg+Ind+Prt1+ScSg3+OcSg3:эсе # ;
-
 !!!!!!!!!!!!!!!!!!
 !! OBJECT FLAGS !!
 !!!!!!!!!!!!!!!!!!
@@ -127,6 +113,7 @@ LEXICON V-nevtems
 LEXICON V-kadoms
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all ;
 +V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
++V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ Conjunctive-kadoms ;
 
 
 +V:  CondVerbs ;
@@ -134,7 +121,6 @@ LEXICON V-kadoms
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V-kadoms-a ;
 +V: Deverbals-kadoms ;
-+V+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:00@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-kadoms ;
 
 
 
@@ -142,14 +128,14 @@ LEXICON V-kadoms
 LEXICON V-sajevems
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all ;
 +V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
++V0@U.CONJ-INF.NO@:%>WLoss@U.CONJ-INF.NO@ Conjunctive-noArrow ;
++V+Use/Sub+Dial@U.CONJ-INF.NO@:%>О10@U.CONJ-INF.NO@ Conjunctive-noArrow ;
 
 +V:  CondVerbs ;
 +V:     VerbsPresPrc_1 ;
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V-kadoms-a ;
 +V:  Deverbals-kadoms ;
-+V+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>WLoss@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-noArrow ;
-+V+Use/Sub+Dial+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>О100@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-noArrow ;
 
 LEXICON V-jangavoms
  V-sajevems ;
@@ -157,13 +143,13 @@ LEXICON V-jangavoms
 LEXICON V-kundams
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all ;
 +V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
++V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ Conjunctive-kundams ;
 
 +V:  CondVerbs ;
 +V:     VerbsPresPrc_1 ;
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V-kundams-a ;
 +V:  Deverbals-kundams ; !This denies linking vowel
-+V+Conj@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:00@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-kundams ;
 
 
 
@@ -1095,132 +1081,132 @@ LEXICON DES-PRT2-66
 !! redo conj 2012-11-07 begin
 
 LEXICON CNJ-10
-+Conj+ScSg1000@U.CONJ-MX.CNJ@@U.CONJ-PX.1%0@:влинь@U.CONJ-MX.CNJ@@U.CONJ-PX.1%0@  Derya ;
-+Use/Sub+Dial+Conj+ScSg10@U.CONJ-MX.CNJ@@U.CONJ-PX.1%0@:влень@U.CONJ-MX.CNJ@@U.CONJ-PX.1%0@  Derya ;
++Conj+ScSg1000@U.CONJ-MX.CONJ@@U.CONJ-PX.1%0@:влинь@U.CONJ-MX.CONJ@@U.CONJ-PX.1%0@  Derya ;
++Use/Sub+Dial+Conj+ScSg10@U.CONJ-MX.CONJ@@U.CONJ-PX.1%0@:влень@U.CONJ-MX.CONJ@@U.CONJ-PX.1%0@  Derya ;
 
 LEXICON CNJ-12
-+Conj+ScSg1+OcSg20000@U.CONJ-MX.CNJ@@U.CONJ-PX.12@:влитинь@U.CONJ-MX.CNJ@@U.CONJ-PX.12@ Derya ;
-+Use/Sub+Dial+Conj+ScSg1+OcSg200@U.CONJ-MX.CNJ@@U.CONJ-PX.12@:влитень@U.CONJ-MX.CNJ@@U.CONJ-PX.12@ Derya ;
++Conj+ScSg1+OcSg20000@U.CONJ-MX.CONJ@@U.CONJ-PX.12@:влитинь@U.CONJ-MX.CONJ@@U.CONJ-PX.12@ Derya ;
++Use/Sub+Dial+Conj+ScSg1+OcSg200@U.CONJ-MX.CONJ@@U.CONJ-PX.12@:влитень@U.CONJ-MX.CONJ@@U.CONJ-PX.12@ Derya ;
 
 LEXICON CNJ-13
-+Conj+ScSg1+OcSg30@U.CONJ-MX.CNJ@@U.CONJ-PX.13@:влия@U.CONJ-MX.CNJ@@U.CONJ-PX.13@ Derya ;
-+Use/Sub+Dial+Conj+ScSg1+OcSg3@U.CONJ-MX.CNJ@@U.CONJ-PX.13@:влие0@U.CONJ-MX.CNJ@@U.CONJ-PX.13@ Derya ;
-+Use/Sub+Dial/SE+Conj+ScSg1+OcSg30@U.CONJ-MX.CNJ@@U.CONJ-PX.13@:влиять@U.CONJ-MX.CNJ@@U.CONJ-PX.13@ Derya ;
++Conj+ScSg1+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:влия@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
++Use/Sub+Dial+Conj+ScSg1+OcSg3@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:влие0@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
++Use/Sub+Dial/SE+Conj+ScSg1+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:влиять@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
 
 LEXICON CNJ-15
-+Conj+ScSg1+OcPl20000@U.CONJ-MX.CNJ@@U.CONJ-PX.15@:влидизь@U.CONJ-MX.CNJ@@U.CONJ-PX.15@ Derya ;
-+Use/Sub+Dial+Conj+ScSg1+OcPl200@U.CONJ-MX.CNJ@@U.CONJ-PX.15@:влидезь@U.CONJ-MX.CNJ@@U.CONJ-PX.15@ Derya ;
++Conj+ScSg1+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.15@:влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.15@ Derya ;
++Use/Sub+Dial+Conj+ScSg1+OcPl200@U.CONJ-MX.CONJ@@U.CONJ-PX.15@:влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.15@ Derya ;
 
 LEXICON CNJ-16
-+Conj+ScSg1+OcPl300@U.CONJ-MX.CNJ@@U.CONJ-PX.16@:влинь@U.CONJ-MX.CNJ@@U.CONJ-PX.16@ Derya ;
-+Use/Sub+Dial+Conj+ScSg1+OcPl3@U.CONJ-MX.CNJ@@U.CONJ-PX.16@:влень@U.CONJ-MX.CNJ@@U.CONJ-PX.16@ Derya ;
++Conj+ScSg1+OcPl300@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:влинь@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
++Use/Sub+Dial+Conj+ScSg1+OcPl3@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:влень@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
 
 LEXICON CNJ-20
-+Conj+ScSg200@U.CONJ-MX.IND@@U.CONJ-MX.CNJ@@U.CONJ-PX.2%0@:влить@U.CONJ-MX.IND@@U.CONJ-MX.CNJ@@U.CONJ-PX.2%0@ Derya ;
-+Use/Sub+Dial+Conj+ScSg2@U.CONJ-MX.IND@@U.CONJ-MX.CNJ@@U.CONJ-PX.2%0@:влеть@U.CONJ-MX.IND@@U.CONJ-MX.CNJ@@U.CONJ-PX.2%0@ Derya ;
++Conj+ScSg200@U.CONJ-MX.IND@@U.CONJ-MX.CONJ@@U.CONJ-PX.2%0@:влить@U.CONJ-MX.IND@@U.CONJ-MX.CONJ@@U.CONJ-PX.2%0@ Derya ;
++Use/Sub+Dial+Conj+ScSg2@U.CONJ-MX.IND@@U.CONJ-MX.CONJ@@U.CONJ-PX.2%0@:влеть@U.CONJ-MX.IND@@U.CONJ-MX.CONJ@@U.CONJ-PX.2%0@ Derya ;
 
 LEXICON CNJ-21
-+Conj+ScSg2+OcSg1000@U.CONJ-MX.CNJ@@U.CONJ-PX.21@:влимик@U.CONJ-MX.CNJ@@U.CONJ-PX.21@ Derya_KLoss ;
-+Use/Sub+Dial+Conj+ScSg2+OcSg10@U.CONJ-MX.CNJ@@U.CONJ-PX.21@:влимек@U.CONJ-MX.CNJ@@U.CONJ-PX.21@ Derya_KLoss ;
++Conj+ScSg2+OcSg1000@U.CONJ-MX.CONJ@@U.CONJ-PX.21@:влимик@U.CONJ-MX.CONJ@@U.CONJ-PX.21@ Derya_KLoss ;
++Use/Sub+Dial+Conj+ScSg2+OcSg10@U.CONJ-MX.CONJ@@U.CONJ-PX.21@:влимек@U.CONJ-MX.CONJ@@U.CONJ-PX.21@ Derya_KLoss ;
 
 LEXICON CNJ-23
-+Conj+ScSg2+OcSg30@U.CONJ-MX.CNJ@@U.CONJ-PX.23@:влик@U.CONJ-MX.CNJ@@U.CONJ-PX.23@ Derya_KLoss ;
-+Use/Sub+Dial+Conj+ScSg2+OcSg3@U.CONJ-MX.CNJ@@U.CONJ-PX.23@:влек0@U.CONJ-MX.CNJ@@U.CONJ-PX.23@ Derya_KLoss ;
++Conj+ScSg2+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.23@:влик@U.CONJ-MX.CONJ@@U.CONJ-PX.23@ Derya_KLoss ;
++Use/Sub+Dial+Conj+ScSg2+OcSg3@U.CONJ-MX.CONJ@@U.CONJ-PX.23@:влек0@U.CONJ-MX.CONJ@@U.CONJ-PX.23@ Derya_KLoss ;
 
 LEXICON CNJ-24
-+Conj+ScSg2+OcPl10000@U.CONJ-MX.CNJ@@U.CONJ-PX.24@:влимизь@U.CONJ-MX.CNJ@@U.CONJ-PX.24@ Derya ;
-+Use/Sub+Dial+Conj+ScSg2+OcPl100@U.CONJ-MX.CNJ@@U.CONJ-PX.24@:влимезь@U.CONJ-MX.CNJ@@U.CONJ-PX.24@ Derya ;
++Conj+ScSg2+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.24@:влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.24@ Derya ;
++Use/Sub+Dial+Conj+ScSg2+OcPl100@U.CONJ-MX.CONJ@@U.CONJ-PX.24@:влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.24@ Derya ;
 
 LEXICON CNJ-26
-+Conj+ScSg2+OcPl300@U.CONJ-MX.CNJ@@U.CONJ-PX.26@:влить@U.CONJ-MX.CNJ@@U.CONJ-PX.26@ Derya ;
-+Use/Sub+Dial/NW+Conj+ScSg2+OcPl3@U.CONJ-MX.CNJ@@U.CONJ-PX.26@:вли00@U.CONJ-MX.CNJ@@U.CONJ-PX.26@ Derya ;
++Conj+ScSg2+OcPl300@U.CONJ-MX.CONJ@@U.CONJ-PX.26@:влить@U.CONJ-MX.CONJ@@U.CONJ-PX.26@ Derya ;
++Use/Sub+Dial/NW+Conj+ScSg2+OcPl3@U.CONJ-MX.CONJ@@U.CONJ-PX.26@:вли00@U.CONJ-MX.CONJ@@U.CONJ-PX.26@ Derya ;
 
 LEXICON CNJ-30
-+Conj+ScSg3@U.CONJ-MX.CNJ@@U.CONJ-PX.3%0@:вО1ль000@U.CONJ-MX.CNJ@@U.CONJ-PX.3%0@ Derya ;
++Conj+ScSg3@U.CONJ-MX.CONJ@@U.CONJ-PX.3%0@:вО1ль000@U.CONJ-MX.CONJ@@U.CONJ-PX.3%0@ Derya ;
 
 LEXICON CNJ-31
-+Conj+ScSg3+OcSg1000@U.CONJ-MX.CNJ@@U.CONJ-PX.31@:влимим@U.CONJ-MX.CNJ@@U.CONJ-PX.31@ Derya ;
-+Use/Sub+Dial+Conj+ScSg3+OcSg10@U.CONJ-MX.CNJ@@U.CONJ-PX.31@:влимем@U.CONJ-MX.CNJ@@U.CONJ-PX.31@ Derya ;
++Conj+ScSg3+OcSg1000@U.CONJ-MX.CONJ@@U.CONJ-PX.31@:влимим@U.CONJ-MX.CONJ@@U.CONJ-PX.31@ Derya ;
++Use/Sub+Dial+Conj+ScSg3+OcSg10@U.CONJ-MX.CONJ@@U.CONJ-PX.31@:влимем@U.CONJ-MX.CONJ@@U.CONJ-PX.31@ Derya ;
 
 LEXICON CNJ-32
-+Conj+ScSg3+OcSg200000@U.CONJ-MX.CNJ@@U.CONJ-PX.32@:влинзеть@U.CONJ-MX.CNJ@@U.CONJ-PX.32@ Derya ;
-+Use/Sub+Dial+Conj+ScSg3+OcSg2000@U.CONJ-MX.CNJ@@U.CONJ-PX.32@:влинзить@U.CONJ-MX.CNJ@@U.CONJ-PX.32@ Derya ;
++Conj+ScSg3+OcSg200000@U.CONJ-MX.CONJ@@U.CONJ-PX.32@:влинзеть@U.CONJ-MX.CONJ@@U.CONJ-PX.32@ Derya ;
++Use/Sub+Dial+Conj+ScSg3+OcSg2000@U.CONJ-MX.CONJ@@U.CONJ-PX.32@:влинзить@U.CONJ-MX.CONJ@@U.CONJ-PX.32@ Derya ;
 
 LEXICON CNJ-33
-+Conj+ScSg3+OcSg300@U.CONJ-MX.CNJ@@U.CONJ-PX.33@:влизе@U.CONJ-MX.CNJ@@U.CONJ-PX.33@ Derya ;
++Conj+ScSg3+OcSg300@U.CONJ-MX.CONJ@@U.CONJ-PX.33@:влизе@U.CONJ-MX.CONJ@@U.CONJ-PX.33@ Derya ;
 
 LEXICON CNJ-34
-+Conj+ScSg3+OcPl10000@U.CONJ-MX.CNJ@@U.CONJ-PX.34@:влимизь@U.CONJ-MX.CNJ@@U.CONJ-PX.34@ Derya ;
-+Use/Sub+Dial+Conj+ScSg3+OcPl100@U.CONJ-MX.CNJ@@U.CONJ-PX.34@:влимезь@U.CONJ-MX.CNJ@@U.CONJ-PX.34@ Derya ;
++Conj+ScSg3+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.34@:влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.34@ Derya ;
++Use/Sub+Dial+Conj+ScSg3+OcPl100@U.CONJ-MX.CONJ@@U.CONJ-PX.34@:влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.34@ Derya ;
 
 LEXICON CNJ-35
-+Conj+ScSg3+OcPl20000@U.CONJ-MX.CNJ@@U.CONJ-PX.35@:влидизь@U.CONJ-MX.CNJ@@U.CONJ-PX.35@ Derya ;
-+Use/Sub+Dial+Conj+ScSg3+OcPl200@U.CONJ-MX.CNJ@@U.CONJ-PX.35@:влидезь@U.CONJ-MX.CNJ@@U.CONJ-PX.35@ Derya ;
++Conj+ScSg3+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.35@:влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.35@ Derya ;
++Use/Sub+Dial+Conj+ScSg3+OcPl200@U.CONJ-MX.CONJ@@U.CONJ-PX.35@:влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.35@ Derya ;
 
 LEXICON CNJ-36
-+Conj+ScSg3+OcPl3000@U.CONJ-MX.CNJ@@U.CONJ-PX.36@:влинзе@U.CONJ-MX.CNJ@@U.CONJ-PX.36@ Derya ;
++Conj+ScSg3+OcPl3000@U.CONJ-MX.CONJ@@U.CONJ-PX.36@:влинзе@U.CONJ-MX.CONJ@@U.CONJ-PX.36@ Derya ;
 
 LEXICON CNJ-40
-+Conj+ScPl10000@U.CONJ-MX.CNJ@@U.CONJ-PX.4%0@:влинек@U.CONJ-MX.CNJ@@U.CONJ-PX.4%0@ Derya_KLoss ;
-+Use/Sub+Dial+Conj+ScPl100@U.CONJ-MX.CNJ@@U.CONJ-PX.4%0@:влиник@U.CONJ-MX.CNJ@@U.CONJ-PX.4%0@ Derya_KLoss ;
++Conj+ScPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.4%0@:влинек@U.CONJ-MX.CONJ@@U.CONJ-PX.4%0@ Derya_KLoss ;
++Use/Sub+Dial+Conj+ScPl100@U.CONJ-MX.CONJ@@U.CONJ-PX.4%0@:влиник@U.CONJ-MX.CONJ@@U.CONJ-PX.4%0@ Derya_KLoss ;
 
 LEXICON CNJ-42
-+Conj+ScPl1+OcSg20000@U.CONJ-MX.CNJ@@U.CONJ-PX.42@:влидизь@U.CONJ-MX.CNJ@@U.CONJ-PX.42@ Derya ;
-+Use/Sub+Dial+Conj+ScPl1+OcSg200@U.CONJ-MX.CNJ@@U.CONJ-PX.42@:влидезь@U.CONJ-MX.CNJ@@U.CONJ-PX.42@ Derya ;
++Conj+ScPl1+OcSg20000@U.CONJ-MX.CONJ@@U.CONJ-PX.42@:влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.42@ Derya ;
++Use/Sub+Dial+Conj+ScPl1+OcSg200@U.CONJ-MX.CONJ@@U.CONJ-PX.42@:влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.42@ Derya ;
 
 LEXICON CNJ-43
-+Conj+ScPl1+OcSg3000@U.CONJ-MX.CNJ@@U.CONJ-PX.43@:влинек@U.CONJ-MX.CNJ@@U.CONJ-PX.43@ Derya_KLoss ;
-+Use/Sub+Dial+Conj+ScPl1+OcSg30@U.CONJ-MX.CNJ@@U.CONJ-PX.43@:влиник@U.CONJ-MX.CNJ@@U.CONJ-PX.43@ Derya_KLoss ;
++Conj+ScPl1+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.43@:влинек@U.CONJ-MX.CONJ@@U.CONJ-PX.43@ Derya_KLoss ;
++Use/Sub+Dial+Conj+ScPl1+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.43@:влиник@U.CONJ-MX.CONJ@@U.CONJ-PX.43@ Derya_KLoss ;
 
 LEXICON CNJ-45
-+Conj+ScPl1+OcPl20000@U.CONJ-MX.CNJ@@U.CONJ-PX.45@:влидизь@U.CONJ-MX.CNJ@@U.CONJ-PX.45@ Derya ;
-+Use/Sub+Dial+Conj+ScPl1+OcPl200@U.CONJ-MX.CNJ@@U.CONJ-PX.45@:влидезь@U.CONJ-MX.CNJ@@U.CONJ-PX.45@ Derya ;
++Conj+ScPl1+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.45@:влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.45@ Derya ;
++Use/Sub+Dial+Conj+ScPl1+OcPl200@U.CONJ-MX.CONJ@@U.CONJ-PX.45@:влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.45@ Derya ;
 
 LEXICON CNJ-46
-+Conj+ScPl1+OcPl3000@U.CONJ-MX.CNJ@@U.CONJ-PX.46@:влинек@U.CONJ-MX.CNJ@@U.CONJ-PX.46@ Derya_KLoss ;
-+Use/Sub+Dial+Conj+ScPl1+OcPl30@U.CONJ-MX.CNJ@@U.CONJ-PX.46@:влиник@U.CONJ-MX.CNJ@@U.CONJ-PX.46@ Derya_KLoss ;
++Conj+ScPl1+OcPl3000@U.CONJ-MX.CONJ@@U.CONJ-PX.46@:влинек@U.CONJ-MX.CONJ@@U.CONJ-PX.46@ Derya_KLoss ;
++Use/Sub+Dial+Conj+ScPl1+OcPl30@U.CONJ-MX.CONJ@@U.CONJ-PX.46@:влиник@U.CONJ-MX.CONJ@@U.CONJ-PX.46@ Derya_KLoss ;
 
 LEXICON CNJ-50
-+Conj+ScPl2000@U.CONJ-MX.CNJ@@U.CONJ-PX.5%0@:влиде@U.CONJ-MX.CNJ@@U.CONJ-PX.5%0@ Derya ;
++Conj+ScPl2000@U.CONJ-MX.CONJ@@U.CONJ-PX.5%0@:влиде@U.CONJ-MX.CONJ@@U.CONJ-PX.5%0@ Derya ;
 
 LEXICON CNJ-51
-+Conj+ScPl2+OcSg10000@U.CONJ-MX.CNJ@@U.CONJ-PX.51@:влимизь@U.CONJ-MX.CNJ@@U.CONJ-PX.51@ Derya ;
-+Use/Sub+Dial+Conj+ScPl2+OcSg100@U.CONJ-MX.CNJ@@U.CONJ-PX.51@:влимезь@U.CONJ-MX.CNJ@@U.CONJ-PX.51@ Derya ;
++Conj+ScPl2+OcSg10000@U.CONJ-MX.CONJ@@U.CONJ-PX.51@:влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.51@ Derya ;
++Use/Sub+Dial+Conj+ScPl2+OcSg100@U.CONJ-MX.CONJ@@U.CONJ-PX.51@:влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.51@ Derya ;
 
 LEXICON CNJ-53
-+Conj+ScPl2+OcSg300@U.CONJ-MX.CNJ@@U.CONJ-PX.53@:влинк@U.CONJ-MX.CNJ@@U.CONJ-PX.53@ Derya_KLoss ;
++Conj+ScPl2+OcSg300@U.CONJ-MX.CONJ@@U.CONJ-PX.53@:влинк@U.CONJ-MX.CONJ@@U.CONJ-PX.53@ Derya_KLoss ;
 
 LEXICON CNJ-54
-+Conj+ScPl2+OcPl10000@U.CONJ-MX.CNJ@@U.CONJ-PX.54@:влимизь@U.CONJ-MX.CNJ@@U.CONJ-PX.54@ Derya ;
-+Use/Sub+Dial+Conj+ScPl2+OcPl100@U.CONJ-MX.CNJ@@U.CONJ-PX.54@:влимезь@U.CONJ-MX.CNJ@@U.CONJ-PX.54@ Derya ;
++Conj+ScPl2+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.54@:влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.54@ Derya ;
++Use/Sub+Dial+Conj+ScPl2+OcPl100@U.CONJ-MX.CONJ@@U.CONJ-PX.54@:влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.54@ Derya ;
 
 LEXICON CNJ-56
-+Conj+ScPl2+OcPl300@U.CONJ-MX.CNJ@@U.CONJ-PX.56@:влинк@U.CONJ-MX.CNJ@@U.CONJ-PX.56@ Derya_KLoss ;
++Conj+ScPl2+OcPl300@U.CONJ-MX.CONJ@@U.CONJ-PX.56@:влинк@U.CONJ-MX.CONJ@@U.CONJ-PX.56@ Derya_KLoss ;
 
 LEXICON CNJ-60
-+Conj+ScPl30000@U.CONJ-MX.CNJ@@U.CONJ-PX.3%0@:вО1льть@U.CONJ-MX.CNJ@@U.CONJ-PX.3%0@ Derya ;
++Conj+ScPl30000@U.CONJ-MX.CONJ@@U.CONJ-PX.3%0@:вО1льть@U.CONJ-MX.CONJ@@U.CONJ-PX.3%0@ Derya ;
 
 LEXICON CNJ-61
-+Conj+ScPl3+OcSg10000@U.CONJ-MX.CNJ@@U.CONJ-PX.61@:влимизь@U.CONJ-MX.CNJ@@U.CONJ-PX.61@ Derya ;
-+Use/Sub+Dial+Conj+ScPl3+OcSg100@U.CONJ-MX.CNJ@@U.CONJ-PX.61@:влимезь@U.CONJ-MX.CNJ@@U.CONJ-PX.61@ Derya ;
++Conj+ScPl3+OcSg10000@U.CONJ-MX.CONJ@@U.CONJ-PX.61@:влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.61@ Derya ;
++Use/Sub+Dial+Conj+ScPl3+OcSg100@U.CONJ-MX.CONJ@@U.CONJ-PX.61@:влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.61@ Derya ;
 
 LEXICON CNJ-62
-+Conj+ScPl3+OcSg20000@U.CONJ-MX.CNJ@@U.CONJ-PX.62@:влидизь@U.CONJ-MX.CNJ@@U.CONJ-PX.62@ Derya ;
-+Use/Sub+Dial+Conj+ScPl3+OcSg200@U.CONJ-MX.CNJ@@U.CONJ-PX.62@:влидезь@U.CONJ-MX.CNJ@@U.CONJ-PX.62@ Derya ;
++Conj+ScPl3+OcSg20000@U.CONJ-MX.CONJ@@U.CONJ-PX.62@:влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.62@ Derya ;
++Use/Sub+Dial+Conj+ScPl3+OcSg200@U.CONJ-MX.CONJ@@U.CONJ-PX.62@:влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.62@ Derya ;
 
 LEXICON CNJ-63
-+Conj+ScPl3+OcSg300@U.CONJ-MX.CNJ@@U.CONJ-PX.63@:влизь@U.CONJ-MX.CNJ@@U.CONJ-PX.63@ Derya ;
++Conj+ScPl3+OcSg300@U.CONJ-MX.CONJ@@U.CONJ-PX.63@:влизь@U.CONJ-MX.CONJ@@U.CONJ-PX.63@ Derya ;
 
 LEXICON CNJ-64
-+Conj+ScPl3+OcPl10000@U.CONJ-MX.CNJ@@U.CONJ-PX.64@:влимизь@U.CONJ-MX.CNJ@@U.CONJ-PX.64@ Derya ;
-+Use/Sub+Dial+Conj+ScPl3+OcPl100@U.CONJ-MX.CNJ@@U.CONJ-PX.64@:влимезь@U.CONJ-MX.CNJ@@U.CONJ-PX.64@ Derya ;
++Conj+ScPl3+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.64@:влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.64@ Derya ;
++Use/Sub+Dial+Conj+ScPl3+OcPl100@U.CONJ-MX.CONJ@@U.CONJ-PX.64@:влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.64@ Derya ;
 
 LEXICON CNJ-65
-+Conj+ScPl3+OcPl20000@U.CONJ-MX.CNJ@@U.CONJ-PX.65@:влидизь@U.CONJ-MX.CNJ@@U.CONJ-PX.65@ Derya ;
-+Use/Sub+Dial+Conj+ScPl3+OcPl200@U.CONJ-MX.CNJ@@U.CONJ-PX.65@:влидезь@U.CONJ-MX.CNJ@@U.CONJ-PX.65@ Derya ;
++Conj+ScPl3+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.65@:влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.65@ Derya ;
++Use/Sub+Dial+Conj+ScPl3+OcPl200@U.CONJ-MX.CONJ@@U.CONJ-PX.65@:влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.65@ Derya ;
 
 LEXICON CNJ-66
-+Conj+ScPl3+OcPl300@U.CONJ-MX.CNJ@@U.CONJ-PX.66@:влизь@U.CONJ-MX.CNJ@@U.CONJ-PX.66@ Derya ;
++Conj+ScPl3+OcPl300@U.CONJ-MX.CONJ@@U.CONJ-PX.66@:влизь@U.CONJ-MX.CONJ@@U.CONJ-PX.66@ Derya ;
 
 
 !! redo conj 2012-11-07 end
@@ -1228,6 +1214,9 @@ LEXICON CNJ-66
 
 LEXICON Conjunctive-kadoms
 :%>О1 Conjunctive-noArrow ;
+
+LEXICON Conjunctive-kundams
+:%> Conjunctive-noArrow ;
 
 LEXICON Conjunctive-noArrow
 @R.CONJ.ObjAll@ Conjunctive-kadoms_Obj ;
@@ -1402,8 +1391,6 @@ LEXICON ConjPers-withO-all_Obj
 
 
 !! end
-LEXICON Conjunctive-kundams
-:%> Conjunctive-noArrow ;
 
 LEXICON Derya
 +Pcle+Cond:деря VerbEnd_Clitic ;
