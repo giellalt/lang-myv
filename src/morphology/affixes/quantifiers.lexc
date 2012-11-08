@@ -99,71 +99,71 @@ LEXICON Num-kal_Sub
 +Use/Sub: Num-kal ;
 
 LEXICON Num-kal
-+Qnt+Num: # ;
-+Qnt+Num+Appr:%>шка # ;
-+Qnt+Num+Der/MWN: N-kal ;
++Qnt+NCrd: # ;
++Qnt+NCrd+Appr:%>шка # ;
++Qnt+NCrd+Der/MWN: N-kal ;
  NumOrd-kal ;
 
 LEXICON NumOrd-kal
-+Qnt+Num+Ord:%>це # ;
-+Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
-+Qnt+Num+Ord:%>О1тькс # ;
-+Qnt+Num+Ord+Der/MWN:%>О1тькс N-osh ;
++Qnt+NOrd:%>це # ;
++Qnt+NOrd+Der/MWN:%>це N-kudo ;
++Qnt+NOrd:%>О1тькс # ;
++Qnt+NOrd+Der/MWN:%>О1тькс N-osh ;
 
 LEXICON Num-osh_Sub
 +Use/Sub: Num-osh ;
 
 LEXICON Num-osh
-+Qnt+Num: # ;
-+Qnt+Num+Appr:%>О1шка # ;
-+Qnt+Num+Der/MWN: N-osh ;
++Qnt+NCrd: # ;
++Qnt+NCrd+Appr:%>О1шка # ;
++Qnt+NCrd+Der/MWN: N-osh ;
  NumOrd-osh ;
 
 LEXICON NumOrd-osh
-+Qnt+Num+Ord:%>О1%>це # ;
-+Qnt+Num+Ord+Der/MWN:%>О1%>це N-kudo ;
-+Qnt+Num+Ord:%>О1тькс # ;
-+Qnt+Num+Ord+Der/MWN:%>О1тькс N-osh ;
++Qnt+NOrd:%>О1%>це # ;
++Qnt+NOrd+Der/MWN:%>О1%>це N-kudo ;
++Qnt+NOrd:%>О1тькс # ;
++Qnt+NOrd+Der/MWN:%>О1тькс N-osh ;
 
 LEXICON Num-sjado_Sub
 +Use/Sub: Num-sjado ;
 
 LEXICON Num-sjado
-+Qnt+Num:%>О1 # ;
-+Qnt+Num+Appr:%>О1шка # ;
-+Qnt+Num+Der/MWN: N-pango ;
++Qnt+NCrd:%>О1 # ;
++Qnt+NCrd+Appr:%>О1шка # ;
++Qnt+NCrd+Der/MWN: N-pango ;
 :О1 NumOrd-sjado ;
 
 LEXICON NumOrd-sjado
-+Qnt+Num+Ord:%>це # ;
-+Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
-+Qnt+Num+Ord:%>тькс # ;
-+Qnt+Num+Ord+Der/MWN:%>тькс N-osh ;
++Qnt+NOrd:%>це # ;
++Qnt+NOrd+Der/MWN:%>це N-kudo ;
++Qnt+NOrd:%>тькс # ;
++Qnt+NOrd+Der/MWN:%>тькс N-osh ;
 
 LEXICON Num-kudo_Sub
 +Use/Sub: Num-kudo ;
 
 ! More work needed 2012-10-08
 LEXICON Num-kudo
-+Qnt+Num: # ;
-+Qnt+Num+Appr:%>шка # ;
-+Qnt+Num+Der/MWN: N-kudo ;
++Qnt+NCrd: # ;
++Qnt+NCrd+Appr:%>шка # ;
++Qnt+NCrd+Der/MWN: N-kudo ;
  NumOrd-kudo ;
-+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
-+Appr+Coll0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
-+AssocColl:%>не kudo-Possessives2-Ill ;
-+Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
-+AssocColl:%>не kudo-Possessive-Before-Clitic ;
-+Iter:%>ксть Clitics ;
-+Appr+Iter:%>шкаксть Clitics ;
++Qnt+NCrd+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
++Qnt+NCrd+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
++Qnt+NCrd+Appr++AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
++Qnt+NCrd+AssocColl:%>не kudo-Possessives2-Ill ;
++Qnt+NCrd+Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
++Qnt+NCrd+AssocColl:%>не kudo-Possessive-Before-Clitic ;
++Qnt+NCrd+Iter:%>ксть Clitics ;
++Qnt+NCrd+Appr+Iter:%>шкаксть Clitics ;
 
 LEXICON NumOrd-kudo
-+Qnt+Num+Ord:%>це # ;
-+Qnt+Num+Ord+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
-+Qnt+Num+Ord+Der/MWN:%>це N-kudo ;
-+Qnt+Num+Ord:%>тькс # ;
-+Qnt+Num+Ord+Der/MWN:%>тькс N-osh ;
++Qnt+NOrd:%>це # ;
++Qnt+NOrd+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
++Qnt+NOrd+Der/MWN:%>це N-kudo ;
++Qnt+NOrd:%>тькс # ;
++Qnt+NOrd+Der/MWN:%>тькс N-osh ;
 
 !!
 LEXICON AssocColl-kavone
@@ -218,21 +218,21 @@ LEXICON Qnt-Indef
 
 LEXICON Qnt-veseme
 +Qnt+Adn: # ;
-+Qnt+Pron+Sg+Nom+InDef: Clitic ;
-+Qnt+Pron+Sg+Gen+InDef:%>нь Clitic ;
-+Qnt+Pron+Sg+Dat+InDef:%>нень Clitic ;
-+Qnt+Pron+Sg+Abl+InDef:%>дО1 Clitic ;
-+Qnt+Pron+Sg+Ine+InDef:%>сО1 Clitic ;
-+Qnt+Pron+Sg+Ill+InDef:%>с Clitic ;
-+Qnt+Pron+Sg+Ela+InDef:%>стО1 Clitic ;
-+Qnt+Pron+Sg+Prl+InDef:%>Г2а Clitic ;
-+Qnt+Pron+Sg+Tra+InDef:%>кс Clitic ;
++Qnt+Pron@P.POS.PRON@:@P.POS.PRON@ SG-NOM-INDEF-kudo ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-GEN-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-DAT-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-ABL-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-INE-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-ILL-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-ELA-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-PRL-INDEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-TRA-INDEF ;
 
-+Qnt+Pron+Sg+Nom+Def:%>сь Clitic ;
-+Qnt+Pron+Sg+Gen+Def:%>нть Clitic ;
-+Qnt+Pron+Sg+Dat+Def:%>нтень Clitic ;
-+Qnt+Pron+Sg+Abl+Def:%>дО1%>нть Clitic ;
-+Qnt+Pron+Sg+Ine+Def:%>сО1%>нть Clitic ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-NOM-DEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-GEN-DEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-DAT-DEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-ABL-DEF ;
++Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-INE-DEF ;
 
 +Qnt+Pron+Sg+Nom+PxSg3:%>зэ Clitic ;
 +Qnt+Pron+Sg+Gen+PxSg3:%>нзэ Clitic ;
@@ -258,23 +258,23 @@ LEXICON sjado-NUM-PL
 
 
 LEXICON Cards-kal
-+Qnt+Num+Ord:%>це Quants3 ;
++Qnt+NOrd:%>це Quants3 ;
  Quants2 ;
-+Qnt+Num+Card: # ;
-+Qnt+Num+Card+Der/MWN: N-kal ;
++Qnt+NCrd: # ;
++Qnt+NCrd+Der/MWN: N-kal ;
 
 LEXICON Cards-osh
-+Qnt+Num+Ord:%>О1це Quants3 ;
++Qnt+NOrd:%>О1це Quants3 ;
  Quants2 ;
-+Qnt+Num+Card: # ;
-+Qnt+Num+Card+Der/MWN: N-osh ;
++Qnt+NCrd: # ;
++Qnt+NCrd+Der/MWN: N-osh ;
 
 
 LEXICON Cards-kudo
-+Qnt+Num+Ord:%>це Quants3 ;
++Qnt+NOrd:%>це Quants3 ;
  Quants2 ;
-+Qnt+Num+Card: # ;
-+Qnt+Num+Card+Der/MWN: N-kudo ;
++Qnt+NCrd: # ;
++Qnt+NCrd+Der/MWN: N-kudo ;
 
 
 ! 2012-08-09
@@ -286,8 +286,8 @@ LEXICON Cards-kudo
 LEXICON Quants2
  Quants3 ;
 +Coll+Attr@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Coll@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
-+Appr+Coll@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
++AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
++Appr+AssocColl@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
 +AssocColl:%>не kudo-Possessives2-Ill ;
 +Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
 +AssocColl:%>не kudo-Possessive-Before-Clitic ;
@@ -513,10 +513,10 @@ LEXICON Attributes2_PL
 
 
 LEXICON Tenses1
-+Der/Pr+NonPast+ScSg1:%>А2н Clitics ;
-+Der/Pr+NonPast+ScSg2:%>А2т Clitics ;
-+Der/Pr+NonPast+ScPl1:%>тА2но Clitics ;
-+Der/Pr+NonPast+ScPl2:%>тА2до Clitics ;
++Der/Pr+Prs+ScSg1:%>А2н Clitics ;
++Der/Pr+Prs+ScSg2:%>А2т Clitics ;
++Der/Pr+Prs+ScPl1:%>тА2но Clitics ;
++Der/Pr+Prs+ScPl2:%>тА2до Clitics ;
 
 +Der/Pr+Prt2+ScSg1:%>линь Clitics ;
 +Der/Pr+Prt2+ScSg2:%>лить Clitics ;
@@ -524,8 +524,8 @@ LEXICON Tenses1
 +Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>линек@P.KLOSS.ON@ Clitics ;
 +Der/Pr+Prt2+ScPl2:%>лиде Clitics ;
 +Der/Pr+Prt2+ScPl3:%>льть Clitics ;
-+Use/Sub+Der/Pr+NonPast+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Clitics ;
-+Use/Sub+Der/Pr+NonPast+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Clitics ;
++Use/Sub+Der/Pr+Prs+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Clitics ;
++Use/Sub+Der/Pr+Prs+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Clitics ;
 
 +Der/Pr+Prt2+ScSg1:%>О1линь Clitics ;
 +Der/Pr+Prt2+ScSg2:%>О1лить Clitics ;
