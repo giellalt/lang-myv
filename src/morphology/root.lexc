@@ -40,13 +40,14 @@ Multichar_Symbols
   +Pers +Dem +Refl +Recipr
   +Indef ! 
 +CollN ! used with paired nouns _collective nouns_
-
++Dep ! dependent word requiring the presence of another, e.g. _мень_
 ! Quantifiers (numerals)
  +Num
- +AssocColl ! -ne-
+ +AssocColl ! -ne- ; avide-
+ +Assoc ! +мезть
  +Coll ! Collective
- +Card
- +Ord
+ +NCrd ! +Card
+ +NOrd ! +Ord
  +Distr ! Distributive
  +Iter ! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
  +Appr ! Approximative numeral кавто-колмо, колмошка 'two or three'
@@ -90,8 +91,8 @@ Multichar_Symbols
     ! Rueter 2010: 8
  +Dial/C  ! 1 Central or Kozlovka-Mokshlei 
  +Dial/W  ! 2 Western or Insar
- +Dial/NW ! 3 North-western or Alatyr
- +Dial/SE ! 4 South-easter or Sura
+ +Dial/NW ! 3 North-Western or Alatyr
+ +Dial/SE ! 4 South-Eastern or Sura
  +Dial/M  ! 5 Mixed or Drakino-Shoksha
 
 !! ==== Orthography tags ====
@@ -145,7 +146,7 @@ Multichar_Symbols
        ! I still need the right word for this андомс: андомсат
 
 !! Tenses in the indicative and infrequently in the conditional
- +NonPast ! In Erzya There is no morphological distinction 
+ +Prs ! In Erzya There is no morphological distinction 
           ! between present and future
  +Prt1 ! Preterite 1
  +Prt2 ! Preterite 2 (This is also used in predicate forms not involving a finite verb.)
@@ -227,6 +228,9 @@ Multichar_Symbols
 
 
 ! Der#begin
++Der/ВтОмО
++Der/шка
++Der/Онь
 +Der/ай ! vocative
 +Der/кай ! vocative
  
@@ -272,7 +276,7 @@ Multichar_Symbols
 
 !Declaring Deverbal derivations of verbs
 +Der/кшнО
-+Der/се
++Der/се ! this also shows in denominal demonstrative _Der/Dem_
 +Der/не
 
 
@@ -359,6 +363,8 @@ ZERO
 
 +Onom ! onomapoetic words
 +Descr ! descriptive words
+!! Focus clitics
++Clt/Гак
 !! Imperative clitics
 +Clt/Га ! редяка
 +Clt/Гая ! редякая
@@ -385,6 +391,14 @@ ZERO
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 !@P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
+
+!!!! Flags used to identify parts of speech
+@P.POS.PRON@
+@P.POS.N@
+@R.POS.N@
+@P.POS.V@
+@R.POS.V@
+@C.POS@
 
 !!!! Flags used with serial verbs
 ! INF = Infinitive

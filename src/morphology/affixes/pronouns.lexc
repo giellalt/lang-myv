@@ -535,25 +535,25 @@ LEXICON Dem-tona
 LEXICON Pron-Sg
 +Pron+Sg+Nom+InDef: Clitic ;
 +Pron+Sg+Gen+InDef:%>нь Clitic ;
-+Pron+Sg+Dat+InDef:%>нень Clitic ;
++Pron+Sg+DatCx+InDef:%>нень Clitic ;
 +Pron+Sg+Abl+InDef:%>дО1 Clitic ;
 +Pron+Sg+Ill+InDef:%>с Clitic ;
 
 +Pron+Sg+Nom+Def:%>сь Clitic ;
 +Pron+Sg+Gen+Def:%>нть Clitic ;
-+Pron+Sg+Dat+Def:%>нтень Clitic ;
++Pron+Sg+DatCx+Def:%>нтень Clitic ;
 +Pron+Sg+Abl+Def:%>дО1%>нть Clitic ;
 
 LEXICON Pron-Pl
 +Pron+Pl+Nom+InDef:%>тЬ2 Clitic ;
 +Pron+Pl+Gen+InDef:%>нь Clitic ;
-+Pron+Pl+Dat+InDef:%>нень Clitic ;
++Pron+Pl+DatCx+InDef:%>нень Clitic ;
 +Pron+Pl+Abl+InDef:%>дО1 Clitic ;
 +Pron+Pl+Ill+InDef:%>с Clitic ;
 
 +Pron+Pl+Nom+Def:%>тне Clitic ;
 +Pron+Pl+Gen+Def:%>тне%>нь Clitic ;
-+Pron+Pl+Dat+Def:%>тне%>нень Clitic ;
++Pron+Pl+DatCx+Def:%>тне%>нень Clitic ;
 +Pron+Pl+Abl+Def:%>тне%>дО1 Clitic ;
 +Pron+Pl+Ill+Def:%>тне%>с Clitic ;
 
@@ -717,7 +717,9 @@ LEXICON Misc_Pronouns_Pl
 +Pl+Tra+Def:%>тне%>кс Clitic ;
 +Pl+Prl+Def:%>тне%>ва Clitic ;
 
-
+!! DEMONSTRATIVE DERIVATION !!
+LEXICON N2Dem-SE
++Der/се+Der/MWN+N:се kudo-N2-Def-Declension ;
 
 ! vim: set ft=xfst-lexc:
 
