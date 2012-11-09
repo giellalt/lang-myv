@@ -741,10 +741,10 @@ LEXICON Interj-Imp
 +Interj+Imprt+ScPl2:%>дО1 ImpClitic ;
 
 LEXICON FormulaicTag
-+Interj+Formulaic: # ;
++Interj+Formulaic: WORD-END ;
 
 LEXICON VocativeTag
-+Interj+Voc: # ;
++Interj+Voc: WORD-END ;
 
 ! ============ !
 ! Postp lexica !
@@ -769,7 +769,7 @@ LEXICON kudo-PO-ILL
 +Po+Ill:%>з osh-Possessives2 ;
 
 LEXICON Postp-karsho
-+Po: # ;
++Po: WORD-END ;
 +Po: PossMarker-then-Clt ;
 +Po+Ill:%>з%>О1 PossMarker-then-Clt ;
 
@@ -846,68 +846,68 @@ LEXICON Dat-1Arg
 
 
 LEXICON Cc
-+CC: # ;
++CC: WORD-END ;
 
 LEXICON Cs
-+CS: # ;
++CS: WORD-END ;
 
 
 !LEXICON EndConj
-!+CC: # ;
+!+CC: WORD-END ;
 
 !!Let's remember that Particle is merely an expression of form
 !LEXICON PCLE
-!а+Pcle+Neg:а # ;
-!аволь+Pcle+Neg+Emphatic:аволь # ;
+!а+Pcle+Neg:а WORD-END ;
+!аволь+Pcle+Neg+Emphatic:аволь WORD-END ;
 !ай+Pcle+Neg+Emphatic:ай N-kal ;
 !апак+Pcle+Neg:апак lak-Tenses-Obl ;
-!седе+Pcle+Comp:седе # ;
-!сех+Pcle+Superl:сех # ;
-!сех+Pcle+Superl+Abl:сехте # ; ! This is a comparative construction
-!уш+Pcle+Intensifier:уш # ;
+!седе+Pcle+Comp:седе WORD-END ;
+!сех+Pcle+Superl:сех WORD-END ;
+!сех+Pcle+Superl+Abl:сехте WORD-END ; ! This is a comparative construction
+!уш+Pcle+Intensifier:уш WORD-END ;
 
 LEXICON Pcle-Compar-Stnd
-+Pcle+Comp: # ;
++Pcle+Comp: WORD-END ;
 
 LEXICON Pcle-Epist
-+Pcle+Epist: # ;
++Pcle+Epist: WORD-END ;
 
 LEXICON Pcle-Neg-Contrast
-+Pcle+Neg+Intensive: # ;
++Pcle+Neg+Intensive: WORD-END ;
 
 LEXICON Pcle-Neg
-+Pcle+Neg: # ;
++Pcle+Neg: WORD-END ;
 
 LEXICON Pcle-Superl
-+Pcle+Superl: # ;
++Pcle+Superl: WORD-END ;
 
 LEXICON PcleTag
-+Pcle: # ;
++Pcle: WORD-END ;
 
 
 !LEXICON EndPart
-!+Pcle: # ;
+!+Pcle: WORD-END ;
 
 !LEXICON EndInterj
-!+Interj: # ;
+!+Interj: WORD-END ;
 
 LEXICON Interj
-+Interj: # ;
++Interj: WORD-END ;
 
 LEXICON N-Voc-Px1Sg
-+N+PxSg1+Interj+Voc: # ;
++N+PxSg1+Interj+Voc: WORD-END ;
 
 !LEXICON EndNeg 
-!+CC+Neg: # ; ! ни
+!+CC+Neg: WORD-END ; ! ни
 
 !LEXICON EndQST
-!+Qst: # ;
+!+Qst: WORD-END ;
 
 !LEXICON ONOM-End
-!+Onom: # ;
+!+Onom: WORD-END ;
 
 !LEXICON DESCR-End
-!+Descr: # ;
+!+Descr: WORD-END ;
 
 
 ! List of spurious lexica
@@ -922,7 +922,7 @@ LEXICON N-Voc-Px1Sg
 
 
 !LEXICON ADV-SUPERL
-!+Adv+Superl: # ;
+!+Adv+Superl: WORD-END ;
 
 
 LEXICON TESTINGTESTING
@@ -934,7 +934,7 @@ LEXICON TESTINGTESTING
 
 LEXICON TESTCOMP
 
-+CmpTest: # ;
++CmpTest: WORD-END ;
 
 
 !!!

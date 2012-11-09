@@ -8,13 +8,19 @@
 ! ======= !
 
 LEXICON lak-Clitic
-+Use/Sub+Orth/SH+Foc/Гак:%>KLossГ1ак # ;
++Use/Sub+Orth/SH+Foc/Гак:%>KLossГ1ак WORD-END ;
  Clitic ;
 
 LEXICON Clitic
-            # ; 
-+Foc/Гак:%>Г1ак # ;
+            WORD-END ; 
++Foc/Гак:%>Г1ак WORD-END ;
 
+!!!!!!!!!
+!! END !!
+!!!!!!!!!
+
+LEXICON WORD-END
+ # ;
 
 
 
