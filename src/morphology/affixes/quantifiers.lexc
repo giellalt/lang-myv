@@ -6,7 +6,7 @@
 
 !Dealing with numerals up to 4 digits long
 LEXICON Numerals
-№+Symbl:№ # ;
+№+Symbl:№ WORD-END ;
 I Roman-numerals ; !
 II Roman-numerals ;
 III Roman-numerals ;
@@ -86,12 +86,12 @@ LEXICON Num-1c
 
 
 LEXICON Num-1d
-+NOrd:-це # ;
-+NCrd: # ;
++NOrd:-це WORD-END ;
++NCrd: WORD-END ;
 
 !!Roman Numerals
 LEXICON Roman-numerals
-+Rom: # ; 
++Rom: WORD-END ; 
 
 
 !!!Now regular
@@ -99,45 +99,45 @@ LEXICON Num-kal_Sub
 +Use/Sub: Num-kal ;
 
 LEXICON Num-kal
-+Qnt+NCrd: # ;
-+Qnt+NCrd+Appr:%>шка # ;
++Qnt+NCrd: WORD-END ;
++Qnt+NCrd+Appr:%>шка WORD-END ;
 +Qnt+NCrd+Der/MWN: N-kal ;
  NumOrd-kal ;
 
 LEXICON NumOrd-kal
-+Qnt+NOrd:%>це # ;
++Qnt+NOrd:%>це WORD-END ;
 +Qnt+NOrd+Der/MWN:%>це N-kudo ;
-+Qnt+NOrd:%>О1тькс # ;
++Qnt+NOrd:%>О1тькс WORD-END ;
 +Qnt+NOrd+Der/MWN:%>О1тькс N-osh ;
 
 LEXICON Num-osh_Sub
 +Use/Sub: Num-osh ;
 
 LEXICON Num-osh
-+Qnt+NCrd: # ;
-+Qnt+NCrd+Appr:%>О1шка # ;
++Qnt+NCrd: WORD-END ;
++Qnt+NCrd+Appr:%>О1шка WORD-END ;
 +Qnt+NCrd+Der/MWN: N-osh ;
  NumOrd-osh ;
 
 LEXICON NumOrd-osh
-+Qnt+NOrd:%>О1%>це # ;
++Qnt+NOrd:%>О1%>це WORD-END ;
 +Qnt+NOrd+Der/MWN:%>О1%>це N-kudo ;
-+Qnt+NOrd:%>О1тькс # ;
++Qnt+NOrd:%>О1тькс WORD-END ;
 +Qnt+NOrd+Der/MWN:%>О1тькс N-osh ;
 
 LEXICON Num-sjado_Sub
 +Use/Sub: Num-sjado ;
 
 LEXICON Num-sjado
-+Qnt+NCrd:%>О1 # ;
-+Qnt+NCrd+Appr:%>О1шка # ;
++Qnt+NCrd:%>О1 WORD-END ;
++Qnt+NCrd+Appr:%>О1шка WORD-END ;
 +Qnt+NCrd+Der/MWN: N-pango ;
 :О1 NumOrd-sjado ;
 
 LEXICON NumOrd-sjado
-+Qnt+NOrd:%>це # ;
++Qnt+NOrd:%>це WORD-END ;
 +Qnt+NOrd+Der/MWN:%>це N-kudo ;
-+Qnt+NOrd:%>тькс # ;
++Qnt+NOrd:%>тькс WORD-END ;
 +Qnt+NOrd+Der/MWN:%>тькс N-osh ;
 
 LEXICON Num-kudo_Sub
@@ -145,8 +145,8 @@ LEXICON Num-kudo_Sub
 
 ! More work needed 2012-10-08
 LEXICON Num-kudo
-+Qnt+NCrd: # ;
-+Qnt+NCrd+Appr:%>шка # ;
++Qnt+NCrd: WORD-END ;
++Qnt+NCrd+Appr:%>шка WORD-END ;
 +Qnt+NCrd+Der/MWN: N-kudo ;
  NumOrd-kudo ;
 +Qnt+NCrd+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
@@ -159,21 +159,21 @@ LEXICON Num-kudo
 +Qnt+NCrd+Appr+Iter:%>шкаксть Clitics ;
 
 LEXICON NumOrd-kudo
-+Qnt+NOrd:%>це # ;
++Qnt+NOrd:%>це WORD-END ;
 +Qnt+NOrd+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
 +Qnt+NOrd+Der/MWN:%>це N-kudo ;
-+Qnt+NOrd:%>тькс # ;
++Qnt+NOrd:%>тькс WORD-END ;
 +Qnt+NOrd+Der/MWN:%>тькс N-osh ;
 
 !!
 LEXICON AssocColl-kavone
 +Qnt+Num+AssocColl: PossPX1 ;
-+Use/Sub+Qnt+Num+AssocColl+PxPl1:к # ; ! 2012-10-28
++Use/Sub+Qnt+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
 
 !!
 LEXICON Cards-1-2
-+Qnt+Num: # ;
-+Qnt+Num+Appr:%>шка # ;
++Qnt+Num: WORD-END ;
++Qnt+Num+Appr:%>шка WORD-END ;
 +Qnt+Num+Der/MWN: N-kudo ;
 
 
@@ -206,9 +206,10 @@ LEXICON Qnt-lamo
 LEXICON Qnt-kudo
 +Qnt: Clitic ;
 +Qnt+Der/MWN: N-kudo ;
++Qnt: kudo-NomPl-Conjugation-only-mutual ; ! ламольть
 
 LEXICON Qnt-Adn
-+Qnt+Adn: # ;
++Qnt+Adn: WORD-END ;
 
 LEXICON Qnt-Distr
 +Qnt+Distr: Clitic ;
@@ -217,7 +218,7 @@ LEXICON Qnt-Indef
 +Qnt+InDef: Clitic ;
 
 LEXICON Qnt-veseme
-+Qnt+Adn: # ;
++Qnt+Adn: WORD-END ;
 +Qnt+Pron@P.POS.PRON@:@P.POS.PRON@ SG-NOM-INDEF-kudo ;
 +Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-GEN-INDEF ;
 +Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-DAT-INDEF ;
@@ -260,20 +261,20 @@ LEXICON sjado-NUM-PL
 LEXICON Cards-kal
 +Qnt+NOrd:%>це Quants3 ;
  Quants2 ;
-+Qnt+NCrd: # ;
++Qnt+NCrd: WORD-END ;
 +Qnt+NCrd+Der/MWN: N-kal ;
 
 LEXICON Cards-osh
 +Qnt+NOrd:%>О1це Quants3 ;
  Quants2 ;
-+Qnt+NCrd: # ;
++Qnt+NCrd: WORD-END ;
 +Qnt+NCrd+Der/MWN: N-osh ;
 
 
 LEXICON Cards-kudo
 +Qnt+NOrd:%>це Quants3 ;
  Quants2 ;
-+Qnt+NCrd: # ;
++Qnt+NCrd: WORD-END ;
 +Qnt+NCrd+Der/MWN: N-kudo ;
 
 
@@ -535,14 +536,14 @@ LEXICON Tenses1
 +Der/Pr+Prt2+ScPl3:%>О1льть Clitics ;
 
 LEXICON Clitics
-+Use/Sub@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ # ;
-+Foc/Гак:%>Г1ак # ;
-   # ; ! No clitics
++Use/Sub@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ WORD-END ;
++Foc/Гак:%>Г1ак WORD-END ;
+   WORD-END ; ! No clitics
 
 LEXICON vese-QNT
 +Pron: kudo-Misc_Pronouns_Sg ;
 +Pron: Misc_Pronouns_Pl ;
-+Adn: # ;
++Adn: WORD-END ;
 
 
 
