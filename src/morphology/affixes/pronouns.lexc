@@ -19,7 +19,7 @@ LEXICON Ill-Pron
 +Pers+Ill: osh-Possessive-Before-Clitic ;
 
 LEXICON Interr-Pers
-+Interr+Pers: # ; ! кие THIS should be depricated
++Interr+Pers: WORD-END ; ! кие THIS should be depricated
 
 LEXICON PERS
 
@@ -31,7 +31,7 @@ LEXICON PERS
 сынь+Pron+Pers+PxPl3@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:сы00000@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
 !!!!!!
 эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
-эсь+Refl+Adn:эсь # ;
+эсь+Refl+Adn:эсь WORD-END ;
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне Clitic ;
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Pl:эсетне kudo-PersPronGen_CX-2 ;
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсеттне Clitic ;
@@ -420,7 +420,7 @@ LEXICON  Indef_Pronouns
 !мезе+Pron+DatCx:мезнень Indef_Pronouns-Clitic ;
 !мезе+Pron+Abl+Def:мезденть Indef_Pronouns-Clitic ;
 !мезе+Pron+Ine:мейсэ Indef_Pronouns-Clitic ;
-!мезе+Pron+Com:мезнек # ;
+!мезе+Pron+Com:мезнек WORD-END ;
 
 
 
@@ -518,17 +518,17 @@ LEXICON Indef_Pronouns-Clitic
 
 LEXICON Indef_Pronouns-Clitic-pref
 ! Removing +Clt tag, this is a derivation
-+Pref+Indef: # ;
++Pref+Indef: WORD-END ;
 
 LEXICON Indef_Pronouns-Clitic-post
 ! Removing +Clt tag, these derivations
-+Der/бути+Indef:%-бути # ;
-+Der/Гак+Indef:%>Г1ак # ;
-+Rel:  # ;
-+Interr:  # ;
++Der/бути+Indef:%-бути WORD-END ;
++Der/Гак+Indef:%>Г1ак WORD-END ;
++Rel:  WORD-END ;
++Interr:  WORD-END ;
 
 LEXICON Dem-tona
-+Dem+Adn: # ;
++Dem+Adn: WORD-END ;
 +Dem: Pron-Sg ;
 +Dem: Pron-Pl ;
 
@@ -602,18 +602,18 @@ LEXICON Misc_Pronouns
 LEXICON Misc_Pronouns1
  Misc_Pronouns_Sg ;
  Misc_Pronouns_Pl ;
-+Adn: # ;
++Adn: WORD-END ;
  PossPX1-NomSg ; !2012-08-09 Removing NomGen
 +Gen: PossPX1 ; !2012-08-09 Removing NomGen
 
 LEXICON te-Dem
 +Pron: kudo-Misc_Pronouns_Sg ;
-+Adn: # ;
++Adn: WORD-END ;
 
 !Formerly ne-Misc_Pronouns1
 LEXICON ne-Dem
 +Dem+Pron: Misc_Pronouns_Pl ;
-+Dem+Adn: # ;
++Dem+Adn: WORD-END ;
 
 
 LEXICON Misc_Pronouns_Sg

@@ -112,7 +112,6 @@ LEXICON N-avidem
 +N+AssocColl: kudo-N-Poss-Declension-CX ;
 
 
-
 ! ========== !
 !! DERIVATION !!
 ! ========== !
@@ -1140,7 +1139,7 @@ LEXICON SG-CMP-INDEF
 
 LEXICON SG-COM-INDEF
 +Sg+Com+InDef@U.DECL-NX.SG@:нек@U.DECL-NX.SG@ NounEnd_lak-Clitic ;
-+Sg+Com+InDef+Coll:нек%-мезнек # ;
++Sg+Com+InDef+Coll:нек%-мезнек WORD-END ;
 
 LEXICON SG-DAT-INDEF
 +Sg+DatCx+InDef0@U.DECL-NX.SG@:нень@U.DECL-NX.SG@ NounEnd_Clitic ;
@@ -1197,7 +1196,7 @@ LEXICON PL-CMP-INDEF
 
 LEXICON PL-COM-INDEF
 +Pl+Com+InDef@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.INDEF@:нек@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.INDEF@ NounEnd_lak-Clitic ;
-+Pl+Com+InDef+Coll:нек%-мезнек # ;
++Pl+Com+InDef+Coll:нек%-мезнек WORD-END ;
 
 LEXICON PL-DAT-INDEF
 +Pl+DatCx+InDef0@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.INDEF@:нень@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.INDEF@ NounEnd_Clitic ;
@@ -1531,14 +1530,15 @@ LEXICON kudo-N-Poss-Declension-PossX
 :%> N-Poss-Declension-PossX_01 ;
 
 LEXICON N-Poss-Declension-PossX_01
-+PxSg10@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ kal-Conjugation ;
-+PxSg1+Dial@U.PossPx.Sg1@:м0@U.PossPx.Sg1@ kal-Conjugation ;
-+PxSg20@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ kit-Conjugation ;
-+PxSg2+Dial0@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ kit-Conjugation ;
-+PxSg300@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ kudo-Conjugation ;
-+PxPl100@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ lak-Conjugation ;
-+PxPl20@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ lak-Conjugation ;
-+PxPl30@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ kit-Conjugation ;
++PxSg10@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ NounEnd_Clitic ;
++Dial+PxSg1@U.PossPx.Sg1@:м0@U.PossPx.Sg1@ NounEnd_Clitic ;
++PxSg20@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ NounEnd_Clitic ;
++Dial+PxSg20@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ NounEnd_Clitic ;
++PxSg300@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ NounEnd_Clitic ;
++PxPl100@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ NounEnd_lak-Clitic ;
++PxPl20@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ NounEnd_lak-Clitic ;
++PxPl30@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ NounEnd_Clitic ;
++Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ NounEnd_lak-Clitic ;
 
 
 !!!!!!!!!!!!!!!!!!!!!
@@ -1932,15 +1932,15 @@ LEXICON Possessive-Before-Clitic-noArrow
 
 
 LEXICON kudo-Possessive-Word-Final
-+PxSg1:%>нЬ2 # ;
-+PxSg1+Dial:%>м # ;
-+PxSg2:%>тЬ2 # ;
-+PxSg2+Dial:%>нтЬ2 # ;
-+PxSg3:%>нзО1 # ;
-+PxPl1:%>нО1к # ;
-+PxPl2:%>нк # ;
-+PxPl3:%>ст # ;
-+PxPl3:%>нст # ;
++PxSg1:%>нЬ2 WORD-END ;
++PxSg1+Dial:%>м WORD-END ;
++PxSg2:%>тЬ2 WORD-END ;
++PxSg2+Dial:%>нтЬ2 WORD-END ;
++PxSg3:%>нзО1 WORD-END ;
++PxPl1:%>нО1к WORD-END ;
++PxPl2:%>нк WORD-END ;
++PxPl3:%>ст WORD-END ;
++PxPl3:%>нст WORD-END ;
 !! Used with words like тензэ
 
 

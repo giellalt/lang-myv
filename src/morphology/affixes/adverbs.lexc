@@ -38,7 +38,7 @@ LEXICON StateConjugation-kudo
 !+ABBR: ADVTAG ;
 
 LEXICON Ad-ATag ! 
-+AdA: # ;
++AdA: WORD-END ;
 
 LEXICON AdvTag ! 
 +Adv: Clitic ;
@@ -47,7 +47,7 @@ LEXICON Adv-kudo ! Coping with stem structure
  AdvTag ;
 
 LEXICON Adv_Phrase ! 
-+Adv: # ;
++Adv: WORD-END ;
 
 LEXICON Adv-Ideoph ! 
 +Adv-Ideoph: Clitic ;
@@ -98,7 +98,7 @@ LEXICON AdvSpat-Prl
 +Adv+Prl: Clitic ;
 
 LEXICON Spat-Interr
-+Interr+Spat: # ;
++Interr+Spat: WORD-END ;
 
 LEXICON SpatTag
 +Spat: Clitic ;
