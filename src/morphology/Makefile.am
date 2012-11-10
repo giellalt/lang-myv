@@ -24,6 +24,9 @@ GT_LEXC_SRCS=\
 			stems/acro.lexc		\
 			stems/exceptions.lexc	\
 			stems/punct.lexc	\
+			stems/rusFemName.lexc	\
+			stems/rusMaleNameDer.lexc	\
+			stems/rusSurDer.lexc	\
 			affixes/adjectives.lexc  \
 			affixes/adverbs.lexc  \
 			affixes/clitics.lexc  \
@@ -50,7 +53,6 @@ GENERATED_LEXC_SRCS=\
 			stems/noun-proper-femalenames-cyrillic.lexc        \
 			stems/noun-proper-inanimate.lexc                   \
 			stems/noun-proper-malenames-cyrillic.lexc          \
-			stems/noun-proper-malenames-russian-derivable.lexc \
 			stems/noun-proper.lexc                             \
 			stems/participles.lexc                             \
 			stems/particles.lexc                               \
@@ -59,6 +61,9 @@ GENERATED_LEXC_SRCS=\
 			stems/pronouns.lexc                                \
 			stems/quantifiers.lexc                             \
 			stems/verbs.lexc 
+
+#			stems/noun-proper-malenames-russian-derivable.lexc 
+
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -77,7 +82,6 @@ GT_XML_SRCS=\
 			stems/noun-proper-femalenames-cyrillic.xml        \
 			stems/noun-proper-inanimate.xml                   \
 			stems/noun-proper-malenames-cyrillic.xml          \
-			stems/noun-proper-malenames-russian-derivable.xml \
 			stems/noun-proper.xml                             \
 			stems/participles.xml                             \
 			stems/particles.xml                               \
@@ -86,6 +90,8 @@ GT_XML_SRCS=\
 			stems/pronouns.xml                                \
 			stems/quantifiers.xml                             \
 			stems/verbs.xml 
+
+#			stems/noun-proper-malenames-russian-derivable.xml 
 
 include $(top_srcdir)/am-shared/lexc-include.am
 

@@ -659,7 +659,7 @@ TESTINGTESTING ;
  noun-proper-femalenames-cyrillic ;
  noun-proper-malenames-cyrillic ;
  noun-proper-inanimate ;
- noun-proper-malenames-russian-derivable ;
+! noun-proper-malenames-russian-derivable ;
  noun-proper ;
  participles ;
  particles ;
@@ -668,6 +668,13 @@ TESTINGTESTING ;
  pronouns ;
  quantifiers ;
  verbs ;
+
+!!
+ CyrillicFemaleName ;
+!! HUNSPELL Type name derivation
+ RussianMalenamesDerive ; !
+ RussianSurnamesDerive ; !
+
 
 !! 2012-10-25 Quick fix
 истямо+Pron+Dem:истямУ2%>VLoss DefPl-Declension ;
