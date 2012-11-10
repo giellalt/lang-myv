@@ -3,6 +3,78 @@
 !! Erzya proper nouns inflect in the same cases as regular
 !! nouns.
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! Male given name for deriving patronyms !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Андрей:Андре
+LEXICON PropNameMaleDer-J-0Evich
+:%>евич Prop-PatrMal-osh ;
+:%>евна Prop-PatrFem-kudo ;
+:й Prop-Mal-kal ;
+
+LEXICON PropNameMaleDer-Y-0Evich
+:%>евич Prop-PatrMal-osh ;
+:%>евна Prop-PatrFem-kudo ;
+:ь Prop-Mal-kal ;
+
+!! Вили:Вил
+LEXICON PropNameMaleDer-I-YEvich
+:%>ьевич Prop-PatrMal-osh ;
+:%>ьевна Prop-PatrFem-kudo ;
+:и Prop-Mal-kal ;
+
+
+
+
+LEXICON PropNameMaleDer-Ovich
+:ович Prop-PatrMal-osh ;
+:овна Prop-PatrFem-kudo ;
+ Prop-Mal-kal ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Russian type Surnames !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Абдеев:Абдеев
+LEXICON PropSurMaleDer-V
+: PropSurMal-kal ;
+:а PropSurFem-kudo ;
+
+!! Багрий:Багр
+LEXICON PropSurMaleDer-IJ
+:ий PropSurMal-kal ;
+:яя PropSurFem-kudo ;
+
+!! Аморский:Аморск
+LEXICON PropSurMaleDer-KIJ
+:ий PropSurMal-kal ;
+:ая PropSurFem-kudo ;
+
+LEXICON PropSurMaleDer-OJ
+:ой PropSurMal-kal ;
+:ая PropSurFem-kudo ;
+
+LEXICON PropSurMaleDer-YJ
+:ый PropSurMal-kal ;
+:ая PropSurFem-kudo ;
+
+LEXICON PropSurMaleDer-IN
+ PropSurMaleDer-V ;
+
+
+LEXICON PropSurMal-kal
++N+Prop+Sur+Mal: kal-N-Derivation ;
++N+Prop+Sur+Mal: kal-N-Def-Declension ;
++N+Prop+Sur+Mal: kal-Indef-Declension ;
++N+Prop+Sur+Mal: kal-N-Poss-Declension-CX ;
+
+LEXICON PropSurFem-kudo
++N+Prop+Sur+Fem: kudo-N-Derivation ;
++N+Prop+Sur+Fem: kudo-N-Def-Declension ;
++N+Prop+Sur+Fem: kudo-Indef-Declension ;
++N+Prop+Sur+Fem: kudo-N-Poss-Declension-CX ;
+
+!! 
+!LEXICON FemaleSurname 
 
 LEXICON Prop-kal
 +N+Prop: kal-N-Derivation ;
