@@ -8,25 +8,35 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Андрей:Андре
 LEXICON PropNameMaleDer-J-0Evich
-:%>евич Prop-PatrMal-osh ;
-:%>евна Prop-PatrFem-kudo ;
++Orth/Colloq:ич Prop-PatrMal-osh ;
+:евич Prop-PatrMal-osh ;
+:евна Prop-PatrFem-kudo ;
 :й Prop-Mal-kal ;
 
+LEXICON PropNameMaleDer-IJ-I0Evich
++Orth/Colloq:ьич Prop-PatrMal-osh ;
+:иевич Prop-PatrMal-osh ;
+:иевна Prop-PatrFem-kudo ;
+:ий Prop-Mal-kal ;
+
 LEXICON PropNameMaleDer-Y-0Evich
-:%>евич Prop-PatrMal-osh ;
-:%>евна Prop-PatrFem-kudo ;
++Orth/Colloq:ич Prop-PatrMal-osh ;
+:евич Prop-PatrMal-osh ;
+:евна Prop-PatrFem-kudo ;
 :ь Prop-Mal-kal ;
 
 !! Вили:Вил
 LEXICON PropNameMaleDer-I-YEvich
-:%>ьевич Prop-PatrMal-osh ;
-:%>ьевна Prop-PatrFem-kudo ;
++Orth/Colloq:ич Prop-PatrMal-osh ;
+:ьевич Prop-PatrMal-osh ;
+:ьевна Prop-PatrFem-kudo ;
 :и Prop-Mal-kal ;
 
 
 
 
 LEXICON PropNameMaleDer-Ovich
++Orth/Colloq:ыч Prop-PatrMal-osh ;
 :ович Prop-PatrMal-osh ;
 :овна Prop-PatrFem-kudo ;
  Prop-Mal-kal ;
@@ -57,6 +67,9 @@ LEXICON PropSurMaleDer-YJ
 :ый PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
+LEXICON PropSurMaleDer-AN
+ PropSurMaleDer-V ;
+
 LEXICON PropSurMaleDer-IN
  PropSurMaleDer-V ;
 
@@ -73,9 +86,22 @@ LEXICON PropSurFem-kudo
 +N+Prop+Sur+Fem: kudo-Indef-Declension ;
 +N+Prop+Sur+Fem: kudo-N-Poss-Declension-CX ;
 
-!! 
-!LEXICON FemaleSurname 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Erzya Homestead names !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Prop-Homestead-kal
++N+Prop+Plc: kal-N-Derivation ;
++N+Prop+Plc: kal-N-Def-Declension ;
++N+Prop+Plc: kal-Indef-Declension ;
++N+Prop+Plc: kal-N-Poss-Declension-CX ;
 
+LEXICON Prop-Homestead-kudo
++N+Prop+Plc: kudo-N-Derivation ;
++N+Prop+Plc: kudo-N-Def-Declension ;
++N+Prop+Plc: kudo-Indef-Declension ;
++N+Prop+Plc: kudo-N-Poss-Declension-CX ;
+
+!!
 LEXICON Prop-kal
 +N+Prop: kal-N-Derivation ;
 +N+Prop: kal-N-Def-Declension ;
