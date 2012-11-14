@@ -51,33 +51,33 @@ LEXICON PropNameMaleDer-Ovich
 !! Russian type Surnames !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Абдеев:Абдеев
-LEXICON PropSurMaleDer-V
+LEXICON Deriv-RUS-V-surmal
 : PropSurMal-kal ;
 :а PropSurFem-kudo ;
 
 !! Багрий:Багр
-LEXICON PropSurMaleDer-IJ
+LEXICON Deriv-RUS-IJ-surmal
 :ий PropSurMal-kal ;
 :яя PropSurFem-kudo ;
 
 !! Аморский:Аморск
-LEXICON PropSurMaleDer-KIJ
+LEXICON Deriv-RUS-KIJ-surmal
 :ий PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON PropSurMaleDer-OJ
+LEXICON Deriv-RUS-OJ-surmal
 :ой PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON PropSurMaleDer-YJ
+LEXICON Deriv-RUS-YJ-surmal
 :ый PropSurMal-kal ;
 :ая PropSurFem-kudo ;
 
-LEXICON PropSurMaleDer-AN
- PropSurMaleDer-V ;
+LEXICON Deriv-RUS-AN-surmal
+ Deriv-RUS-V-surmal ;
 
-LEXICON PropSurMaleDer-IN
- PropSurMaleDer-V ;
+LEXICON Deriv-RUS-IN-surmal
+ Deriv-RUS-V-surmal ;
 
 
 LEXICON PropSurMal-kal
@@ -91,6 +91,34 @@ LEXICON PropSurFem-kudo
 +N+Prop+Sur+Fem: kudo-N-Def-Declension ;
 +N+Prop+Sur+Fem: kudo-Indef-Declension ;
 +N+Prop+Sur+Fem: kudo-N-Poss-Declension-CX ;
+
+LEXICON PropSur-kal
++N+Prop+Sur: kal-N-Derivation ;
++N+Prop+Sur: kal-N-Def-Declension ;
++N+Prop+Sur: kal-Indef-Declension ;
++N+Prop+Sur: kal-N-Poss-Declension-CX ;
+
+LEXICON PropSur-kit
+ PropSur-kal ;
+
+LEXICON PropSur-lak
+ PropSur-kal ;
+
+LEXICON PropSur-osh
++N+Prop+Sur: osh-N-Derivation ;
++N+Prop+Sur: osh-N-Def-Declension ;
++N+Prop+Sur: osh-Indef-Declension ;
++N+Prop+Sur: osh-N-Poss-Declension-CX ;
+
+
+
+LEXICON PropSur-kudo
++N+Prop+Sur: kudo-N-Derivation ;
++N+Prop+Sur: kudo-N-Def-Declension ;
++N+Prop+Sur: kudo-Indef-Declension ;
++N+Prop+Sur: kudo-N-Poss-Declension-CX ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Erzya Homestead names !!
