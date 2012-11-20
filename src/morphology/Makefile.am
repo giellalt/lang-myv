@@ -59,7 +59,6 @@ GENERATED_LEXC_SRCS=\
 			stems/participles.lexc                             \
 			stems/particles.lexc                               \
 			stems/postpositions.lexc                           \
-			stems/predication-secondary.lexc                   \
 			stems/pronouns.lexc                                \
 			stems/quantifiers.lexc                             \
 			stems/verbs.lexc 
@@ -86,7 +85,6 @@ GT_XML_SRCS=\
 			stems/participles.xml                             \
 			stems/particles.xml                               \
 			stems/postpositions.xml                           \
-			stems/predication-secondary.xml                   \
 			stems/pronouns.xml                                \
 			stems/quantifiers.xml                             \
 			stems/verbs.xml  		
