@@ -352,8 +352,11 @@ LEXICON osh-PossPX1
 LEXICON PronTag
 +Pron: Clitic ;
 
-
-
+! This is not the same as indefinite
+LEXICON PronRel-kona
++Pron+Rel: kudo-N-Def-Declension ;
++Pron+Rel: kudo-Indef-Declension ;
++Pron+Rel: kudo-N-Poss-Declension-CX ;
 
 
 ! These have been introduced with the flag: <"@P.INDEF.PREF@">

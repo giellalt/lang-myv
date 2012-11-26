@@ -29,16 +29,37 @@ LEXICON EXCEPTIONS
 ярсамс+V:ярс     IND-PRS-50    ;
 
 
+
 !! Some of the nouns have archaic consonat stem forms left:
 !! € ийть
 
 ие+N:ий%>     PL-NOM-INDEF ;
 
+!! Reciprocal pronouns
+!! These might be done with flags
+вейкенек-вейкенек+Pron+Recip+PxPl1:вейкенек-вейкенек Clitic ;
+вейкенк-вейкенк+Pron+Recip+PxPl2:вейкенк-вейкенк Clitic ;
+вейкест-вейкест+Pron+Recip+PxPl3:вейкест-вейкест Clitic ;
+
+!!
+!! These two stems have м loss but its presence can be
+!! observed in the choice of "тнэ" over "тне"
+истямо+Pron+Dem:истямУ2%>VLoss DefPl-Declension ;
+истямо+Pron+Dem+Pl+Nom+InDef:истят Clitic ;
+кондямо+Po+A+Der/MWN:кондямУ2%>VLoss DefPl-Declension ;
+кондямо+Po+A+Der/MWN+N+Pl+Nom+InDef:кондят Clitic ;
+
+!! 1930s Phonetic transcription
+!! дс >> ц
+ладсо+Adv+Ine+Use/Sub:лацо Clitic ;
+!! гт >> к
+мекевлангт+Adv+Use/Sub:мекевланк Clitic ;
 
 !!
 !! 100 % homographs of Russian words
 ещё+Use/LexSub:ещё TempTag ;
-Саранск+Use/LexSub:Саранск Prop-settlement-kal ;
+можна+Use/LexSub:можна AdvTag ;
+Саранск+Use/LexSub:Саранск Prop-kal_settlement ;
 
 
 !!

@@ -63,6 +63,9 @@ LEXICON V-nekshnems_ObjAll
 @P.CONJ.ObjAll@ V-nekshnems ;
 !!2012-04-24 the TAG "+ObjOpen":0 has been removed 
 
+LEXICON V-kuzems_ObjAll
+@P.CONJ.ObjAll@ V-kuzems ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! VERBS AFTER OBJECT FLAGS !!
@@ -95,6 +98,16 @@ LEXICON V-mijems
 LEXICON V-nekshnems
 +Stem/е:е V-kundams ;
 +Stem/э:э V-kundams ;
+
+!касомс:ка
+LEXICON V-kasoms
+:с V-kadoms ;
++V@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+
+!куземс:ку
+LEXICON V-kuzems
+:зь V-ledems ;
++V@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 
 LEXICON V-ledems
@@ -194,6 +207,7 @@ LEXICON V-satoms-a
 @U.CONJ-MX.IND@ Indicative1 ;
 +Use/Sub+Dial: PredIndPrt1Sc3 ; !!2012-05-05 What's this for
 +Use/Sub+Dial+ConNeg@U.CONJ-CONNEG.YES@:%>К30@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
++ConNeg0@U.CONJ-CONNEG.YES@:%>О1@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
 +ConNeg000@U.CONJ-CONNEG.YES@:%>О1тЬ2@U.CONJ-CONNEG.YES@ kudo-Tenses1 ;
 +V+Ind+Prt1+ScSg30@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@:%>О1тсь@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3%0@ VerbEnd_Clitic ;
 +V+Ind+Prt1+ScPl300@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6%0@:%>О1тсть@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ VerbEnd_Clitic ;

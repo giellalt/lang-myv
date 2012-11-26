@@ -677,12 +677,6 @@ TESTINGTESTING ;
 ! RussianSurnamesDerive ; 
  urj-Cyrl-ProperNouns ; !Testing 2012-11-17
 
-!! 2012-10-25 Quick fix
-истямо+Pron+Dem:истямУ2%>VLoss DefPl-Declension ;
-истямо+Pron+Dem+Pl+Nom+InDef:истят Clitic ;
-кондямо+Po+A+Der/MWN:кондамУ2%>VLoss DefPl-Declension ;
-кондямо+Po+A+Der/MWN+N+Pl+Nom+InDef:кондат Clitic ;
-
 PERS ;                                  ! 
 ejs-PO ;                                ! 
  Indef_Pronouns ;
@@ -788,27 +782,31 @@ LEXICON vaksso-SPAT
 +Po+Ine:%>О1сО1 kudo-Conjugation ;
 
 LEXICON jutkso-SPAT
-+Po+Prl:%>Г2а kudo-SPAT-PossX ;
-+Po+Prl:%>Г2а kudo-Conjugation ;
++Po+Prl:%>О1%>Г2а kudo-SPAT-PossX ;
++Po+Prl:%>О1%>Г2а kudo-Conjugation ;
  langso-SPAT ;
 
 LEXICON langso-SPAT
-+Po+Ela:%>VLossстО1 kudo-Conjugation ;
-+Po+Ill:%>VLossс Clitic ;
-+Po+Ine:%>VLossсО1 kudo-Conjugation ;
-+Po+Ela:%>VLossстО1 kudo-SPAT-PossX ;
++Po+Ela:%>стО1 kudo-Conjugation ;
++Po+Ill:%>с Clitic ;
++Po+Lat:%>О1в Clitic ;
++Po+Ine:%>сО1 kudo-Conjugation ;
++Po+Ela:%>стО1 kudo-SPAT-PossX ;
 +Po+Ill:%>О1з osh-SPAT-PossX ;
-+Po+Ine:%>VLossсО1 kudo-SPAT-PossX ;
++Po+Ine:%>сО1 kudo-SPAT-PossX ;
 
+! malaso:mala
 LEXICON malaso-SPAT
-+Ela:%>стО1 kudo-Conjugation ;
-+Ill:%>с Clitic ;
-+Ine:%>сО1 kudo-Conjugation ;
-+Prl:%>Г2а kudo-Conjugation ;
++Adv+Ela:%>стО1 kudo-Conjugation ;
++Adv+Ill:%>с Clitic ;
++Adv+Ine:%>сО1 kudo-Conjugation ;
++Adv+Prl:%>Г2а kudo-Conjugation ;
++Adv+Lat:%>в kudo-Conjugation ;
 +Po+Ela:%>стО1 kudo-SPAT-PossX ;
 +Po+Ill:%>О1з osh-SPAT-PossX ;
 +Po+Ine:%>сО1 kudo-SPAT-PossX ;
 +Po+Prl:%>Г2а kudo-SPAT-PossX ;
++Po+Lat:%>в kudo-Conjugation ;
 
 LEXICON ushoso-SPAT
 +Spat+Ela:%>стО1 kudo-Conjugation ;
