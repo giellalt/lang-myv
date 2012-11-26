@@ -38,12 +38,16 @@ LEXICON StateConjugation-kudo
 !+ABBR: ADVTAG ;
 
 LEXICON Ad-ATag ! 
-+AdA: WORD-END ;
++Adv+AdA: WORD-END ;
 
 LEXICON AdvTag ! 
 +Adv: Clitic ;
 
 LEXICON Adv-kudo ! Coping with stem structure
+ AdvTag ;
+
+! истяк 
+LEXICON Adv-lak
  AdvTag ;
 
 LEXICON Adv_Phrase ! 
@@ -101,10 +105,10 @@ LEXICON Spat-Interr
 +Interr+Spat: WORD-END ;
 
 LEXICON SpatTag
-+Spat: Clitic ;
++Adv+Spat: Clitic ;
 
 LEXICON Spat-Ela
-+Spat+Ela: Clitic ;
++Adv+Spat+Ela: Clitic ;
 +Po+Spat+Ela: kudo-Possessive-Before-Clitic ;
 
 LEXICON Spat-Ine
