@@ -25,7 +25,6 @@ GT_LEXC_SRCS=\
 			stems/exceptions.lexc	\
 			stems/punct.lexc	\
 			stems/urj-Cyrl-propernouns.lexc	\
-			stems/rusFemName.lexc	\
 			stems/rusMaleNameDer.lexc	\
 			affixes/adjectives.lexc  \
 			affixes/adverbs.lexc  \
