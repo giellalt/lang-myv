@@ -55,7 +55,7 @@ LEXICON N-kal_sub
 
 LEXICON kal-N-PL
 +N:%> DefPl-Declension ;
-+N: kal-Indef-Declension ;
++N: kal-Indef-Declension-PL ;
 +N: kal-N-Poss-Declension-CX-PL ;
 
 LEXICON kal-N-PL_sub
@@ -765,6 +765,18 @@ LEXICON SG-TRA-DEF_Dial-NW
 !! INDEFINITE DECLENSION
 
 LEXICON kit-Indef-Declension
+ kit-Indef-Declension-SG ;
+ kit-Indef-Declension-PL ;
+
+LEXICON kit-Indef-Declension-SG
+ kit-Indef-Declension-MUTUAL ;
+ SG-NOM-INDEF-kit ;
+
+LEXICON kit-Indef-Declension-PL
+@U.DECL-NX.PL@ kit-Indef-Declension-MUTUAL ;
+:%> PL-NOM-INDEF ;
+
+LEXICON kit-Indef-Declension-MUTUAL
 :%> ABE-INDEF ;
 :%> ABL-INDEF ;
 :%> CMP-INDEF ;
@@ -776,14 +788,24 @@ LEXICON kit-Indef-Declension
 :%> ILL-INDEF ;
 :%> INE-INDEF ;
 :%> LOC-INDEF ;
- SG-NOM-INDEF-kit ;
 :%> PRL-INDEF ;
 :%> TMP-INDEF ;
 :%> TRA-INDEF ;
 :%>О1 TRA-INDEF ;
-
 
 LEXICON lak-Indef-Declension
+ lak-Indef-Declension-SG ;
+ lak-Indef-Declension-PL ;
+
+LEXICON lak-Indef-Declension-SG
+ lak-Indef-Declension-MUTUAL ;
+ SG-NOM-INDEF-lak ;
+
+LEXICON lak-Indef-Declension-PL
+@U.DECL-NX.PL@ lak-Indef-Declension-MUTUAL ;
+:%> PL-NOM-INDEF ;
+
+LEXICON lak-Indef-Declension-MUTUAL
 :%> ABE-INDEF ;
 :%> ABL-INDEF ;
 :%> CMP-INDEF ;
@@ -795,12 +817,10 @@ LEXICON lak-Indef-Declension
 :%> ILL-INDEF ;
 :%> INE-INDEF ;
 :%> LOC-INDEF ;
- SG-NOM-INDEF-lak ;
 :%> PRL-INDEF ;
 :%> TMP-INDEF ;
 :%> TRA-INDEF ;
 :%>О1 TRA-INDEF ;
-
 
 LEXICON kal-Indef-Declension
  kal-Indef-Declension-SG ;
@@ -811,8 +831,8 @@ LEXICON kal-Indef-Declension-SG
  SG-NOM-INDEF-kal ;
 
 LEXICON kal-Indef-Declension-PL
- kal-Indef-Declension-MUTUAL ;
- PL-NOM-INDEF ;
+@U.DECL-NX.PL@ kal-Indef-Declension-MUTUAL ;
+:%> PL-NOM-INDEF ;
 
 LEXICON kal-Indef-Declension-MUTUAL
 :%> ABE-INDEF ;
@@ -843,8 +863,8 @@ LEXICON osh-Indef-Declension-SG
  SG-NOM-INDEF-osh ;
 
 LEXICON osh-Indef-Declension-PL
- osh-Indef-Declension-MUTUAL ;
- PL-NOM-INDEF ;
+@U.DECL-NX.PL@ osh-Indef-Declension-MUTUAL ;
+:%> PL-NOM-INDEF ;
 
 LEXICON osh-Indef-Declension-MUTUAL
  kal-Indef-Declension-MUTUAL ;
@@ -863,7 +883,7 @@ LEXICON pango-Indef-Declension-SG
 :%>О1 SG-NOM-INDEF-pango ;
 
 LEXICON pango-Indef-Declension-PL
- pango-Indef-Declension-MUTUAL ;
+@U.DECL-NX.PL@ pango-Indef-Declension-MUTUAL ;
 :%>О1 PL-NOM-INDEF ;
 :%> PL-NOM-INDEF ;
 
@@ -888,6 +908,18 @@ LEXICON pango-Indef-Declension-MUTUAL
 
 
 LEXICON kudo-Indef-Declension
+ kudo-Indef-Declension-SG ;
+ kudo-Indef-Declension-PL ;
+
+LEXICON kudo-Indef-Declension-SG
+ kudo-Indef-Declension-MUTUAL ;
+ SG-NOM-INDEF-kudo ;
+
+LEXICON kudo-Indef-Declension-PL
+@U.DECL-NX.PL@ kudo-Indef-Declension-MUTUAL ;
+:%> PL-NOM-INDEF ;
+
+LEXICON kudo-Indef-Declension-MUTUAL
 :%> ABE-INDEF ;
 :%> ABL-INDEF ;
 :%> CMP-INDEF ;
@@ -897,45 +929,44 @@ LEXICON kudo-Indef-Declension
 :%> GEN-INDEF ;
 :%> ILL-INDEF ;
 :%> INE-INDEF ;
- SG-NOM-INDEF-kudo ;
 :%> PRL-INDEF ;
 :%> TMP-INDEF ;
 :%> TRA-INDEF ;
 
 !! INDEFINITE TAGS
 LEXICON ABE-INDEF
-+Abe+InDef00@U.DECL-NX.SG@:втО1мО1@U.DECL-NX.SG@ kudo-Conjugation ;
++Abe+InDef00@U.DECL-CX.ABE@:втО1мО1@U.DECL-CX.ABE@ kudo-Conjugation ;
 
 LEXICON ABL-INDEF
-+Abl+InDef@U.DECL-NX.SG@:дО10@U.DECL-NX.SG@ kudo-Conjugation ;
++Abl+InDef@U.DECL-CX.ABL@:дО10@U.DECL-CX.ABL@ kudo-Conjugation ;
 
 LEXICON CMP-INDEF
-+CompCx+InDef@U.DECL-NX.SG@:шка@U.DECL-NX.SG@ kudo-Conjugation ;
++CompCx+InDef@U.DECL-CX.CMP@:шка@U.DECL-CX.CMP@ kudo-Conjugation ;
 
 LEXICON COM-INDEF
-+Com+InDef@U.DECL-NX.SG@:нек@U.DECL-NX.SG@ NounEnd_lak-Clitic ;
++Com+InDef@U.DECL-CX.COM@:нек@U.DECL-CX.COM@ NounEnd_lak-Clitic ;
 +Com+InDef+Coll:нек%-мезнек WORD-END ;
 
 LEXICON DAT-INDEF
-+DatCx+InDef0@U.DECL-NX.SG@:нень@U.DECL-NX.SG@ NounEnd_Clitic ;
++DatCx+InDef0@U.DECL-CX.DAT@:нень@U.DECL-CX.DAT@ NounEnd_Clitic ;
 
 LEXICON ELA-INDEF
-+Ela+InDef@U.DECL-NX.SG@:стО1@U.DECL-NX.SG@ kudo-Conjugation ;
++Ela+InDef@U.DECL-CX.ELA@:стО1@U.DECL-CX.ELA@ kudo-Conjugation ;
 
 LEXICON GEN-INDEF
-+Gen+InDef@U.DECL-NX.SG@:нь0@U.DECL-NX.SG@ kal-Conjugation ;
++Gen+InDef@U.DECL-CX.GEN@:нь0@U.DECL-CX.GEN@ kal-Conjugation ;
 
 LEXICON ILL-INDEF
-+Ill+InDef@U.DECL-NX.SG@:с00@U.DECL-NX.SG@ NounEnd_Clitic ;
++Ill+InDef@U.DECL-CX.ILL@:с00@U.DECL-CX.ILL@ NounEnd_Clitic ;
 
 LEXICON INE-INDEF
-+Ine+InDef@U.DECL-NX.SG@:сО10@U.DECL-NX.SG@ kudo-Conjugation ;
++Ine+InDef@U.DECL-CX.INE@:сО10@U.DECL-CX.INE@ kudo-Conjugation ;
 
 LEXICON LAT-INDEF
-+Lat+InDef@U.DECL-NX.SG@:в00@U.DECL-NX.SG@ NounEnd_Clitic ;
++Lat+InDef@U.DECL-CX.LAT@:в00@U.DECL-CX.LAT@ NounEnd_Clitic ;
 
 LEXICON LOC-INDEF
-+Loc+InDef@U.DECL-NX.SG@:О100@U.DECL-NX.SG@ NounEnd_Clitic ;
++Loc+InDef@U.DECL-CX.LOC@:О100@U.DECL-CX.LOC@ NounEnd_Clitic ;
 
 LEXICON SG-NOM-INDEF-kal
 +Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kal-NomSg-Conjugation ;
@@ -951,13 +982,13 @@ LEXICON SG-NOM-INDEF-kudo
 +Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kudo-NomSg-Conjugation ;
 
 LEXICON PRL-INDEF
-+Prl+InDef@U.DECL-NX.SG@:Г2а0@U.DECL-NX.SG@ kudo-Conjugation ;
++Prl+InDef@U.DECL-CX.PRL@:Г2а0@U.DECL-CX.PRL@ kudo-Conjugation ;
 
 LEXICON TMP-INDEF
-+TempCx+InDef@U.DECL-NX.SG@:не0@U.DECL-NX.SG@ NounEnd_Clitic ;
++TempCx+InDef@U.DECL-CX.TEMP@:не0@U.DECL-CX.TEMP@ NounEnd_Clitic ;
 
 LEXICON TRA-INDEF
-+Tra+InDef@U.DECL-NX.SG@:кс0@U.DECL-NX.SG@ osh-Conjugation ;
++Tra+InDef@U.DECL-CX.TRA@:кс0@U.DECL-CX.TRA@ osh-Conjugation ;
 
 
 LEXICON PL-NOM-INDEF
