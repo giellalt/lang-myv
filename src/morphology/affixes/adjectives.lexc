@@ -89,14 +89,20 @@ LEXICON Adj-nachko-lembe
 +A+Pl: pango-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 Clitic ;
 
+LEXICON Adj-ActDemPrc
++Der/Ыця+ActDemPrc: Adj-shumbra_01 ;
+
 LEXICON Adj-shumbra
-+A: Clitic ;
-+A: kudo-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kudo-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 Clitic ;
-+A+Der/MWN: N-kudo ;
++A: Adj-shumbra_01 ;
 +A:%> N2Dem-SE ;
+
+LEXICON Adj-shumbra_01
+ Clitic ;
+ kudo-NomSg-Conjugation ;
++Pl:%>тЬ2 kit-NomPl-Conjugation ;
++Pl: kudo-NomPl-Conjugation-only ;
++Pl:%>тЬ2 Clitic ;
++Der/MWN: N-kudo ;
 
 
 LEXICON Adj-InterrRel ! кодамо
