@@ -7,8 +7,13 @@
 !! OBJECT FLAGS !!
 !!!!!!!!!!!!!!!!!!
 
+LEXICON V-ledems_ObjAll_sub
++Use/Sub: V-ledems_ObjAll ;
 LEXICON V-ledems_ObjAll
 @P.CONJ.ObjAll@ V-ledems ;
+
+LEXICON V-kadoms_ObjAll_sub
++Use/Sub: V-kadoms_ObjAll ;
 
 LEXICON V-kadoms_ObjAll
 @P.CONJ.ObjAll@ V-kadoms ;
@@ -18,11 +23,20 @@ LEXICON V-kadoms_ObjAll
 ! @P.CONJ.ObjAll@ V-sajevems ;
 
 
+LEXICON V-nevtems_ObjAll_sub
++Use/Sub: V-nevtems_ObjAll ;
+
 LEXICON V-nevtems_ObjAll
 @P.CONJ.ObjAll@ V-nevtems ;
 
+LEXICON V-savtoms_ObjAll_sub
++Use/Sub: V-savtoms_ObjAll ;
+
 LEXICON V-savtoms_ObjAll
 @P.CONJ.ObjAll@ V-savtoms ;
+
+LEXICON V-chachtoms_ObjAll_sub
++Use/Sub: V-chachtoms_ObjAll ;
 
 LEXICON V-chachtoms_ObjAll
 @P.CONJ.ObjAll@ V-chachtoms ;
@@ -30,11 +44,17 @@ LEXICON V-chachtoms_ObjAll
 !LEXICON V-jangavoms_ObjAll
 ! @P.CONJ.ObjAll@ V-jangavoms ;
 
+LEXICON V-kundams_ObjAll_sub
++Use/Sub: V-kundams_ObjAll ;
+
 LEXICON V-kundams_ObjAll
 @P.CONJ.ObjAll@ V-kundams ;
 
 ! This actually does exist in a pair verb
 ! таргатомс
+LEXICON V-satoms_ObjAll_sub
++Use/Sub: V-satoms_ObjAll ;
+
 LEXICON V-satoms_ObjAll
 @P.CONJ.ObjAll@ V-satoms ;
 
@@ -43,25 +63,46 @@ LEXICON V-satoms_ObjAll
 !LEXICON V-letems_ObjAll
 ! @P.CONJ.ObjAll@ V-letems ;
 
+LEXICON V-ujems_ObjAll_sub
++Use/Sub: V-ujems_ObjAll ;
+
 LEXICON V-ujems_ObjAll
 @P.CONJ.ObjAll@ V-ujems ;
+
+LEXICON V-tujems_ObjAll_sub
++Use/Sub: V-tujems_ObjAll ;
 
 LEXICON V-tujems_ObjAll
 +V@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ Indicative_Present_Obj ;
 @P.CONJ.ObjAll@ V-tujems ;
 
+LEXICON V-tejems_ObjAll_sub
++Use/Sub: V-tejems_ObjAll ;
+
 LEXICON V-tejems_ObjAll
 @P.CONJ.ObjAll@ V-tejems ;
+
+LEXICON V-nejems_ObjAll_sub
++Use/Sub: V-nejems_ObjAll ;
 
 LEXICON V-nejems_ObjAll
 @P.CONJ.ObjAll@ V-nejems ;
 
+LEXICON V-mijems_ObjAll_sub
++Use/Sub: V-mijems_ObjAll ;
+
 LEXICON V-mijems_ObjAll
 @P.CONJ.ObjAll@ V-mijems ;
+
+LEXICON V-nekshnems_ObjAll_sub
++Use/Sub: V-nekshnems_ObjAll ;
 
 LEXICON V-nekshnems_ObjAll
 @P.CONJ.ObjAll@ V-nekshnems ;
 !!2012-04-24 the TAG "+ObjOpen":0 has been removed 
+
+LEXICON V-kuzems_ObjAll_sub
++Use/Sub: V-kuzems_ObjAll ;
 
 LEXICON V-kuzems_ObjAll
 @P.CONJ.ObjAll@ V-kuzems ;
@@ -95,6 +136,8 @@ LEXICON V-mijems
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 
+LEXICON V-nekshnems_sub
++Use/Sub: V-nekshnems ;
 LEXICON V-nekshnems
 +Stem/е:е V-kundams ;
 +Stem/э:э V-kundams ;
