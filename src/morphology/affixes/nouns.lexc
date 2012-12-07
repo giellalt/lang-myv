@@ -2,6 +2,115 @@
 !! ---------------
 !! Erzya nouns inflect in cases; number , and definite, indefinite and possessive declension.
 
+!!!!!!!!!!!!!
+!! Kinship !!
+!!!!!!!!!!!!!
+LEXICON N-kal_kin
++N+Hum+Kin: N-kal_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-lak_kin
++N+Hum+Kin: N-lak_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-kit_kin
++N+Hum+Kin: N-kit_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-osh_kin
++N+Hum+Kin: N-osh_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-klass_kin
++N+Hum+Kin: N-klass_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-pango_kin
++N+Hum+Kin: N-pango_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-tinge_kin
++N+Hum+Kin: N-tinge_01 ;
+:%>О1 N-KIN ;
+
+LEXICON N-kudo_kin
++N+Hum+Kin: N-kudo_01 ;
+:%> N-KIN ;
+
+LEXICON N-KIN
++N+Hum+Kin+Sg+Gen+PxSg2:ть%> N2Dem-SE ;
++N+Hum+Kin+Sg+Gen+PxSg2:ть N2Dem-SE ; ! _ь_ retension
++N+Hum+Kin+Sg+Gen+PxSg2@U.DECL-NX.SG@:ть@U.DECL-NX.SG@ kit-Conjugation ;
++N+Hum+Kin+Sg+Gen+PxSg1:нь kal-Tenses-Obl ;
++N+Hum+Kin+Sg+Gen+PxSg2:ть kit-Tenses-Obl ;
+
+!!!!!!!!!!!
+!! Human !!
+!!!!!!!!!!!
+LEXICON N-kal_hum
++N+Hum: N-kal_01 ;
+
+LEXICON N-lak_hum
++N+Hum: N-lak_01 ;
+
+LEXICON N-kit_hum
++N+Hum: N-kit_01 ;
+
+LEXICON N-osh_hum
++N+Hum: N-osh_01 ;
+
+LEXICON N-klass_hum
++N+Hum: N-klass_01 ;
+
+LEXICON N-pango_hum
++N+Hum: N-pango_01 ;
+
+LEXICON N-tinge_hum
++N+Hum: N-tinge_01 ;
+
+LEXICON N-teshte_hum
++N+Hum: N-teshte_01 ;
+
+LEXICON N-kudo_hum
++N+Hum: N-kudo_01 ;
+
+!! Place !!
+LEXICON N-kal_plc
++N+Plc: N-kal_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-lak_plc
++N+Plc: N-lak_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-kit_plc
++N+Plc: N-kit_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-osh_plc
++N+Plc: N-osh_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-klass_plc
++N+Plc: N-klass_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-pango_plc
++N+Plc: N-pango_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-tinge_plc
++N+Plc: N-tinge_01 ;
++N+Plc:%>О1 LAT-INDEF ;
+
+LEXICON N-ki_plc
++N+Plc: N-ki_01 ;
++N+Plc:%> LAT-INDEF ;
+
+LEXICON N-kudo_plc
++N+Plc: N-kudo_01 ;
++N+Plc:%> LAT-INDEF ;
+
 !! Lative !!
 LEXICON N-kal_lat
  N-kal ;
@@ -117,10 +226,15 @@ LEXICON N-ije
 +Use/Sub:й N-kal ;
 
 LEXICON N-teshte
- N-pango ;
++N: N-teshte_01 ;
+LEXICON N-teshte_01
+ N-pango_01 ;
 
 LEXICON N-tinge
- N-pango ;
++N: N-tinge_01 ;
+
+LEXICON N-tinge_01
+ N-pango_01 ;
 
 LEXICON tinge-N-PL
 +N:%> DefPl-Declension ;
@@ -146,10 +260,13 @@ LEXICON DV-NTag
 
 ! This might be moved to exceptions 2012-11-21
 LEXICON N-ki
- N-kudo ;
-+N:я PRL-INDEF ;
-+N:я SG-PRL-DEF ;
-+N+Sg+Prl:ява PossPX1 ;
++N: N-ki_01 ;
+
+LEXICON N-ki_01
+ N-kudo_01 ;
+:я PRL-INDEF ;
+:я SG-PRL-DEF ;
++Sg+Prl:ява PossPX1 ;
 
 LEXICON N-kudo_sub
 +Use/Sub: N-kudo ;
@@ -261,7 +378,6 @@ LEXICON kal-N-Derivation
 +CompCx+PxSg1+Dial:%>О1шка%>м%> N2Dem-SE ;
 +Abe+PxSg1+Dial:%>втО1мО1%>м%> N2Dem-SE ;
 +Gen+PxSg2:%>О1тЬ2%> N2Dem-SE ;
-+Sg+Gen+PxSg2+Kin:%>О1ть%> N2Dem-SE ;
 +Ela+PxSg2:%>стО1%>тЬ2%> N2Dem-SE ;
 +Ine+PxSg2:%>сО1%>тЬ2%> N2Dem-SE ;
 +Prl+PxSg2:%>Г2а%>т%> N2Dem-SE ;
@@ -457,7 +573,6 @@ LEXICON kudo-N-Derivation-noArrow
 +CompCx+PxSg1+Dial:шка%>м%> N2Dem-SE ;
 +Abe+PxSg1+Dial:втО1мО1%>м%> N2Dem-SE ;
 +Gen+PxSg2:тЬ2%> N2Dem-SE ;
-+Sg+Gen+PxSg2+Kin:ть N2Dem-SE ; ! _ь_ retension
 +Ela+PxSg2:стО1%>тЬ2%> N2Dem-SE ;
 +Ine+PxSg2:сО1%>тЬ2%> N2Dem-SE ;
 +Prl+PxSg2:Г2а%>т%> N2Dem-SE ;
@@ -1175,7 +1290,6 @@ LEXICON SG-GEN-PX
 +Sg+Gen+PxSg1@U.DECL-NX.SG@:нЬ20@U.DECL-NX.SG@ kal-Conjugation ;
 +Sg+Gen+PxSg3+Inanim+Dial@U.DECL-NX.SG@:зО1000@U.DECL-NX.SG@ kudo-Conjugation ;
 +Sg+Gen+PxSg2@U.DECL-NX.SG@:тЬ20@U.DECL-NX.SG@ kit-Conjugation ;
-+Sg+Gen+PxSg2+Kin@U.DECL-NX.SG@:ть00@U.DECL-NX.SG@ kit-Conjugation ;
 +Sg+Gen+PxSg2+Dial@U.DECL-NX.SG@:нтЬ20@U.DECL-NX.SG@ kit-Conjugation ;
 +Sg+Gen+PxSg3@U.DECL-NX.SG@:нзО1@U.DECL-NX.SG@ kudo-Conjugation ;
 +Sg+Gen+PxPl1@U.DECL-NX.SG@:нО1к@U.DECL-NX.SG@ lak-Conjugation ;
@@ -1458,11 +1572,9 @@ LEXICON Possessive-NomGen
 +Gen+PxSg1/м:%>О1м kal-Tenses-Obl ;
 +Pl+Nom+PxSg1/Н:%>О1нЬ2 kal-Tenses-NomPl ;
 +Gen+PxSg1/Н:%>О1нЬ2 kal-Tenses-Obl ;
-+Sg+Gen+PxSg1+Kin:%>О1нь kal-Tenses-Obl ;
 +Sg+Nom+PxSg2:%>О1тЬ2 kit-Tenses-NomSg ;
 +Pl+Nom+PxSg2:%>О1тЬ2 kit-Tenses-NomPl ;
 +Gen+PxSg2:%>О1тЬ2 kit-Tenses-Obl ;
-+Sg+Gen+PxSg2+Kin:%>О1ть kit-Tenses-Obl ;
 +Sg+Nom+PxSg3:%>О1зО1 kudo-Tenses-NomSg ;
 +Pl+Nom+PxSg3:%>О1нзО1 kudo-Tenses-NomPl ;
 +Gen+PxSg3:%>О1нзО1 kudo-Tenses-Obl ;
