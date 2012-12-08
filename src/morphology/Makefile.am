@@ -39,54 +39,54 @@ GT_LEXC_SRCS=\
 #### GENERATED_LEXC_SRCS=stems/smi-$(GTLANG)-propernouns.lexc
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-			stems/adjective-adverb-modifiers.lexc              \
-			stems/adjectives.lexc                              \
-			stems/adverbs.lexc                                 \
-			stems/bahuvrihis.lexc                              \
-			stems/conjunctions.lexc                            \
-			stems/demonstratives.lexc                          \
-			stems/interjections.lexc                           \
-			stems/noun-common.lexc                             \
-			stems/noun-deverbal.lexc                           \
-			stems/noun-proper-animate-femalenames.lexc         \
-			stems/noun-proper-animate-malenames.lexc           \
-			stems/noun-proper-animate-names.lexc               \
-			stems/noun-proper-femalenames-cyrillic.lexc        \
-			stems/noun-proper-inanimate.lexc                   \
-			stems/noun-proper-malenames-cyrillic.lexc          \
-			stems/noun-proper.lexc                             \
-			stems/participles.lexc                             \
-			stems/particles.lexc                               \
-			stems/postpositions.lexc                           \
-			stems/pronouns.lexc                                \
-			stems/quantifiers.lexc                             \
-			stems/verbs.lexc 
+		stems/adjective-adverb-modifiers.lexc              \
+		stems/adjectives.lexc                              \
+		stems/adverbs.lexc                                 \
+		stems/bahuvrihis.lexc                              \
+		stems/conjunctions.lexc                            \
+		stems/demonstratives.lexc                          \
+		stems/interjections.lexc                           \
+		stems/nouns.lexc                             \
+		stems/noun-deverbal.lexc                           \
+		stems/noun-proper-animate-femalenames.lexc         \
+		stems/noun-proper-animate-malenames.lexc           \
+		stems/noun-proper-animate-names.lexc               \
+		stems/noun-proper-femalenames-cyrillic.lexc        \
+		stems/noun-proper-inanimate.lexc                   \
+		stems/noun-proper-malenames-cyrillic.lexc          \
+		stems/propernouns.lexc                             \
+		stems/participles.lexc                             \
+		stems/particles.lexc                               \
+		stems/postpositions.lexc                           \
+		stems/pronouns.lexc                                \
+		stems/quantifiers.lexc                             \
+		stems/verbs.lexc 
 
 #			stems/urj-Cyrl-$(GTLANG)-propernouns.lexc        
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-			stems/adjective-adverb-modifiers.xml              \
-			stems/adjectives.xml                              \
-			stems/adverbs.xml                                 \
-			stems/bahuvrihis.xml                              \
-			stems/conjunctions.xml                            \
-			stems/demonstratives.xml                          \
-			stems/interjections.xml                           \
-			stems/noun-common.xml                             \
-			stems/noun-deverbal.xml                           \
-			stems/noun-proper-animate-femalenames.xml         \
-			stems/noun-proper-animate-malenames.xml           \
-			stems/noun-proper-animate-names.xml               \
-			stems/noun-proper-femalenames-cyrillic.xml        \
-			stems/noun-proper-inanimate.xml                   \
-			stems/noun-proper-malenames-cyrillic.xml          \
-			stems/noun-proper.xml                             \
-			stems/participles.xml                             \
-			stems/particles.xml                               \
-			stems/postpositions.xml                           \
-			stems/pronouns.xml                                \
-			stems/quantifiers.xml                             \
-			stems/verbs.xml  		
+		stems/adjective-adverb-modifiers.xml              \
+		stems/adjectives.xml                              \
+		stems/adverbs.xml                                 \
+		stems/bahuvrihis.xml                              \
+		stems/conjunctions.xml                            \
+		stems/demonstratives.xml                          \
+		stems/interjections.xml                           \
+		stems/nouns.xml                             \
+		stems/noun-deverbal.xml                           \
+		stems/noun-proper-animate-femalenames.xml         \
+		stems/noun-proper-animate-malenames.xml           \
+		stems/noun-proper-animate-names.xml               \
+		stems/noun-proper-femalenames-cyrillic.xml        \
+		stems/noun-proper-inanimate.xml                   \
+		stems/noun-proper-malenames-cyrillic.xml          \
+		stems/propernouns.xml                             \
+		stems/participles.xml                             \
+		stems/particles.xml                               \
+		stems/postpositions.xml                           \
+		stems/pronouns.xml                                \
+		stems/quantifiers.xml                             \
+		stems/verbs.xml  		
 
 #stems/urj-Cyrl-$(GTLANG)-propernouns.lexc: stems/urj-Cyrl-propernouns.lexc  stems/$(GTLANG)-propernouns.lexc
 #	rm -f $@
