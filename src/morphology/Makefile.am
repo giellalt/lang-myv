@@ -52,7 +52,6 @@ GENERATED_LEXC_SRCS=\
 		stems/noun-proper-animate-malenames.lexc           \
 		stems/noun-proper-animate-names.lexc               \
 		stems/noun-proper-femalenames-cyrillic.lexc        \
-		stems/noun-proper-inanimate.lexc                   \
 		stems/noun-proper-malenames-cyrillic.lexc          \
 		stems/propernouns.lexc                             \
 		stems/participles.lexc                             \
@@ -78,7 +77,6 @@ GT_XML_SRCS=\
 		stems/noun-proper-animate-malenames.xml           \
 		stems/noun-proper-animate-names.xml               \
 		stems/noun-proper-femalenames-cyrillic.xml        \
-		stems/noun-proper-inanimate.xml                   \
 		stems/noun-proper-malenames-cyrillic.xml          \
 		stems/propernouns.xml                             \
 		stems/participles.xml                             \

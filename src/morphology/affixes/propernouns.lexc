@@ -115,10 +115,7 @@ LEXICON CYRL-Sibilant-sur
  PropSur-osh ;
 
 LEXICON PropSur-osh
-+N+Prop+Sur: osh-N-Derivation ;
-+N+Prop+Sur: osh-N-Def-Declension ;
-+N+Prop+Sur: osh-Indef-Declension ;
-+N+Prop+Sur: osh-N-Poss-Declension-CX ;
++N+Prop+Sur: N-osh_01 ;
 
 LEXICON CYRL-Vow-sur
  PropSur-kudo ;
@@ -127,10 +124,7 @@ LEXICON CYRL-A-sur
  PropSur-kudo ;
 
 LEXICON PropSur-kudo
-+N+Prop+Sur: kudo-N-Derivation ;
-+N+Prop+Sur: kudo-N-Def-Declension ;
-+N+Prop+Sur: kudo-Indef-Declension ;
-+N+Prop+Sur: kudo-N-Poss-Declension-CX ;
++N+Prop+Sur: N-kudo_01 ;
 
 
 
@@ -138,22 +132,13 @@ LEXICON PropSur-kudo
 !! Erzya Homestead names !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON Prop-kal_homestead
-+N+Prop+Plc: kal-N-Derivation ;
-+N+Prop+Plc: kal-N-Def-Declension ;
-+N+Prop+Plc: kal-Indef-Declension ;
-+N+Prop+Plc: kal-N-Poss-Declension-CX ;
++N+Prop+Plc: N-kal_01 ;
 
 LEXICON Prop-osh_homestead
-+N+Prop+Plc: osh-N-Derivation ;
-+N+Prop+Plc: osh-N-Def-Declension ;
-+N+Prop+Plc: osh-Indef-Declension ;
-+N+Prop+Plc: osh-N-Poss-Declension-CX ;
++N+Prop+Plc: N-osh_01 ;
 
 LEXICON Prop-kudo_homestead
-+N+Prop+Plc: kudo-N-Derivation ;
-+N+Prop+Plc: kudo-N-Def-Declension ;
-+N+Prop+Plc: kudo-Indef-Declension ;
-+N+Prop+Plc: kudo-N-Poss-Declension-CX ;
++N+Prop+Plc: N-kudo_01 ;
 
 !!!!!!!!!!!!!!!!!
 !! PLACE NAMES !!
@@ -161,62 +146,90 @@ LEXICON Prop-kudo_homestead
 
 LEXICON Prop-kal_settlement
 +N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: kal-N-Derivation ;
-+N+Prop+Plc: kal-N-Def-Declension ;
-+N+Prop+Plc: kal-Indef-Declension ;
-+N+Prop+Plc: kal-N-Poss-Declension-CX ;
++N+Prop+Plc: N-kal_01 ;
 
 LEXICON Prop-osh_settlement
 +N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: osh-N-Derivation ;
-+N+Prop+Plc: osh-N-Def-Declension ;
-+N+Prop+Plc: osh-Indef-Declension ;
-+N+Prop+Plc: osh-N-Poss-Declension-CX ;
++N+Prop+Plc: N-osh_01 ;
 
 LEXICON Prop-kudo_settlement
 +N+Prop+Plc: LAT-INDEF ;
-+N+Prop+Plc: kudo-N-Derivation ;
-+N+Prop+Plc: kudo-N-Def-Declension ;
-+N+Prop+Plc: kudo-Indef-Declension ;
-+N+Prop+Plc: kudo-N-Poss-Declension-CX ;
++N+Prop+Plc: N-kudo_01 ;
+
+!!!!!!!!!!!!!!!!
+!! Divinities !!
+!!!!!!!!!!!!!!!!
+LEXICON Prop-kal_divinity
++N+Prop+Hum+Divinity: N-kal_01 ;
+
+LEXICON Prop-osh_divinity
++N+Prop+Hum+Divinity: N-osh_01 ;
+
+LEXICON Prop-kudo_divinity
++N+Prop+Hum+Divinity: N-kudo_01 ;
+
+!!!!!!!!!!!!!!!!!!!!
+!! Constellations !!
+!!!!!!!!!!!!!!!!!!!!
+LEXICON Prop-kal_constellation
++N+Prop+Constellation+Plc: N-kal_01 ;
+
+LEXICON Prop-osh_constellation
++N+Prop+Constellation+Plc: N-osh_01 ;
+
+LEXICON Prop-kudo_constellation
++N+Prop+Constellation+Plc: N-kudo_01 ;
+
+!!!!!!!!!!!!!!!!
+!! TEXT NAMES !!
+!!!!!!!!!!!!!!!!
+LEXICON Prop-kal_txt
++N+Prop+Txt: N-kal_01 ;
+
+LEXICON Prop-osh_txt
++N+Prop+Txt: N-osh_01 ;
+
+LEXICON Prop-kudo_txt
++N+Prop+Txt: N-kudo_01 ;
+
+!!!!!!!!!!!!!!
+!! HOLIDAYS !!
+!!!!!!!!!!!!!!
+LEXICON Prop-kal_holiday
++N+Prop+Event: N-kal_01 ;
+
+LEXICON Prop-osh_holiday
++N+Prop+Event: N-osh_01 ;
+
+LEXICON Prop-kudo_holiday
++N+Prop+Event: N-kudo_01 ;
+
 
 !!!!!!!!!!!!!!!!!
 !! RIVER NAMES !!
 !!!!!!!!!!!!!!!!!
 LEXICON Prop-kal_rivers
-+N+Prop+Rvr: kal-N-Derivation ;
-+N+Prop+Rvr: kal-N-Def-Declension ;
-+N+Prop+Rvr: kal-Indef-Declension ;
-+N+Prop+Rvr: kal-N-Poss-Declension-CX ;
++N+Prop+Rvr: N-kal_01 ;
+
+LEXICON Prop-osh_rivers
++N+Prop+Rvr: N-osh_01 ;
 
 LEXICON Prop-kudo_rivers
-+N+Prop+Rvr: kudo-N-Derivation ;
-+N+Prop+Rvr: kudo-N-Def-Declension ;
-+N+Prop+Rvr: kudo-Indef-Declension ;
-+N+Prop+Rvr: kudo-N-Poss-Declension-CX ;
++N+Prop+Rvr: N-kudo_01 ;
 
 !!!!!!!!!!!!
 !! MONTHS !!
 !!!!!!!!!!!!
 LEXICON Prop-kal_months
-+N+Prop+Rvr: kal-N-Derivation ;
-+N+Prop+Rvr: kal-N-Def-Declension ;
-+N+Prop+Rvr: kal-Indef-Declension ;
-+N+Prop+Rvr: kal-N-Poss-Declension-CX ;
++N+Prop+Rvr: N-kal_01 ;
 
 
 !!
 LEXICON Prop-kal
-+N+Prop: kal-N-Derivation ;
-+N+Prop: kal-N-Def-Declension ;
-+N+Prop: kal-Indef-Declension ;
-+N+Prop: kal-N-Poss-Declension-CX ;
++N+Prop: N-kal_01 ;
 
 LEXICON Prop-lak
-+N+Prop: lak-N-Derivation ;
-+N+Prop: lak-N-Def-Declension ;
-+N+Prop: lak-Indef-Declension ;
-+N+Prop: kal-N-Poss-Declension-CX ;
++N+Prop: N-lak_01 ;
 
 LEXICON Prop-kit
 +N+Prop: kit-N-Derivation ;
