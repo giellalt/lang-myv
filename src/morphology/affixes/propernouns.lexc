@@ -8,42 +8,42 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Андрей:Андре
 LEXICON PropNameMaleDer-J-0Evich
-+Orth/Colloq:ич Prop-PatrMal-osh ;
-:евич Prop-PatrMal-osh ;
-:евна Prop-PatrFem-kudo ;
-:й Prop-Mal-kal ;
++Orth/Colloq:ич Prop-osh_patrMal ;
+:евич Prop-osh_patrMal ;
+:евна Prop-kudo_patrFem ;
+:й Prop-kal_mal ;
 
 LEXICON PropNameMaleDer-IJ-Y0Evich
-+Orth/Colloq:ьич Prop-PatrMal-osh ;
-:ьевич Prop-PatrMal-osh ;
-:ьевна Prop-PatrFem-kudo ;
-:ий Prop-Mal-kal ;
++Orth/Colloq:ьич Prop-osh_patrMal ;
+:ьевич Prop-osh_patrMal ;
+:ьевна Prop-kudo_patrFem ;
+:ий Prop-kal_mal ;
 
 LEXICON PropNameMaleDer-IJ-I0Evich
-+Orth/Colloq:ьич Prop-PatrMal-osh ;
-:иевич Prop-PatrMal-osh ;
-:иевна Prop-PatrFem-kudo ;
-:ий Prop-Mal-kal ;
++Orth/Colloq:ьич Prop-osh_patrMal ;
+:иевич Prop-osh_patrMal ;
+:иевна Prop-kudo_patrFem ;
+:ий Prop-kal_mal ;
 
 LEXICON PropNameMaleDer-Y-0Evich
-+Orth/Colloq:ич Prop-PatrMal-osh ;
-:евич Prop-PatrMal-osh ;
-:евна Prop-PatrFem-kudo ;
-:ь Prop-Mal-kal ;
++Orth/Colloq:ич Prop-osh_patrMal ;
+:евич Prop-osh_patrMal ;
+:евна Prop-kudo_patrFem ;
+:ь Prop-kal_mal ;
 
 !! Вили:Вил
 LEXICON PropNameMaleDer-I-YEvich
-+Orth/Colloq:ич Prop-PatrMal-osh ;
-:ьевич Prop-PatrMal-osh ;
-:ьевна Prop-PatrFem-kudo ;
-:и Prop-Mal-kal ;
++Orth/Colloq:ич Prop-osh_patrMal ;
+:ьевич Prop-osh_patrMal ;
+:ьевна Prop-kudo_patrFem ;
+:и Prop-kal_mal ;
 
 
 LEXICON PropNameMaleDer-Ovich
-+Orth/Colloq:ыч Prop-PatrMal-osh ;
-:ович Prop-PatrMal-osh ;
-:овна Prop-PatrFem-kudo ;
- Prop-Mal-kal ;
++Orth/Colloq:ыч Prop-osh_patrMal ;
+:ович Prop-osh_patrMal ;
+:овна Prop-kudo_patrFem ;
+ Prop-kal_mal ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Russian type Surnames !!
@@ -263,100 +263,64 @@ LEXICON Prop-kudo
 +N+Prop: kudo-N-Poss-Declension-CX ;
 
 
-LEXICON Prop-Mal-kal
-+N+Prop+Mal: kal-N-Derivation ;
-+N+Prop+Mal: kal-N-Def-Declension ;
-+N+Prop+Mal: kal-Indef-Declension ;
-+N+Prop+Mal: kal-N-Poss-Declension-CX ;
+LEXICON Prop-kal_mal
++N+Prop+Mal: N-kal_01 ;
 
-LEXICON Prop-Mal-lak
-+N+Prop+Mal: lak-N-Derivation ;
-+N+Prop+Mal: lak-N-Def-Declension ;
-+N+Prop+Mal: lak-Indef-Declension ;
-+N+Prop+Mal: kal-N-Poss-Declension-CX ;
+LEXICON Prop-lak_mal
++N+Prop+Mal: N-lak_01 ;
 
-LEXICON Prop-Mal-kit
-+N+Prop+Mal: kit-N-Derivation ;
+LEXICON Prop-kit_mal
++N+Prop+Mal: N-kit_01 ;
 +N+Prop+Use/Sub+Orth/PhonInfl:%>TLoss DefPl-Declension ;
-+N+Prop+Mal: kit-N-Def-Declension ;
-+N+Prop+Mal: kit-Indef-Declension ;
-+N+Prop+Mal: kal-N-Poss-Declension-CX ;
 
-LEXICON Prop-Mal-osh
-+N+Prop+Mal: osh-N-Derivation ;
-+N+Prop+Mal: osh-N-Def-Declension ;
-+N+Prop+Mal: osh-Indef-Declension ;
-+N+Prop+Mal: osh-N-Poss-Declension-CX ;
+LEXICON Prop-osh_mal
++N+Prop+Mal: N-osh_01 ;
 
-LEXICON Prop-Mal-teshte
- N-pango ;
+LEXICON Prop-teshte_mal
+ Prop-pango_mal ;
 
-LEXICON Prop-Mal-tinge
- N-pango ;
+LEXICON Prop-tinge_mal
+ Prop-pango_mal ;
 
-LEXICON Prop-Mal-pango
-+N+Prop+Mal: pango-N-Derivation ;
-+N+Prop+Mal: pango-N-Def-Declension ;
-+N+Prop+Mal: pango-Indef-Declension ;
-+N+Prop+Mal: pango-N-Poss-Declension-CX ;
+LEXICON Prop-pango_mal
++N+Prop+Mal: N-pango_01 ;
 
-LEXICON Prop-Mal-kudo
-+N+Prop+Mal: kudo-N-Derivation ;
-+N+Prop+Mal: kudo-N-Def-Declension ;
-+N+Prop+Mal: kudo-Indef-Declension ;
-+N+Prop+Mal: kudo-N-Poss-Declension-CX ;
+LEXICON Prop-kudo_mal
++N+Prop+Mal: N-kudo_01 ;
 
-LEXICON Prop-Fem-kal
-+N+Prop+Fem: kal-N-Derivation ;
-+N+Prop+Fem: kal-N-Def-Declension ;
-+N+Prop+Fem: kal-Indef-Declension ;
-+N+Prop+Fem: kal-N-Poss-Declension-CX ;
+LEXICON Prop-kal_fem
++N+Prop+Fem: N-kal_01 ;
 
-LEXICON Prop-Fem-lak
-+N+Prop+Fem: lak-N-Derivation ;
-+N+Prop+Fem: lak-N-Def-Declension ;
-+N+Prop+Fem: lak-Indef-Declension ;
-+N+Prop+Fem: kal-N-Poss-Declension-CX ;
+LEXICON Prop-lak_fem
++N+Prop+Fem: N-lak_01 ;
 
-LEXICON Prop-Fem-kit
-+N+Prop+Fem: kit-N-Derivation ;
+LEXICON Prop-kit_fem
++N+Prop+Fem: N-kit_01 ;
 +N+Prop+Fem+Use/Sub+Orth/PhonInfl:%>TLoss DefPl-Declension ;
-+N+Prop+Fem: kit-N-Def-Declension ;
-+N+Prop+Fem: kit-Indef-Declension ;
-+N+Prop+Fem: kal-N-Poss-Declension-CX ;
 
-LEXICON Prop-Fem-osh
-+N+Prop+Fem: osh-N-Derivation ;
-+N+Prop+Fem: osh-N-Def-Declension ;
-+N+Prop+Fem: osh-Indef-Declension ;
-+N+Prop+Fem: osh-N-Poss-Declension-CX ;
+LEXICON Prop-osh_fem
++N+Prop+Fem: N-osh_01 ;
 
-LEXICON Prop-Fem-teshte
- N-pango ;
+LEXICON Prop-teshte_fem
+ Prop-pango_fem ;
 
-LEXICON Prop-Fem-tinge
- N-pango ;
+LEXICON Prop-tinge_fem
+ Prop-pango_fem ;
 
-LEXICON Prop-Fem-pango
-+N+Prop+Fem: pango-N-Derivation ;
-+N+Prop+Fem: pango-N-Def-Declension ;
-+N+Prop+Fem: pango-Indef-Declension ;
-+N+Prop+Fem: pango-N-Poss-Declension-CX ;
+LEXICON Prop-pango_fem
++N+Prop+Fem: N-pango_01 ;
 
-LEXICON Prop-Fem-kudo
-+N+Prop+Fem: kudo-N-Derivation ;
-+N+Prop+Fem: kudo-N-Def-Declension ;
-+N+Prop+Fem: kudo-Indef-Declension ;
-+N+Prop+Fem: kudo-N-Poss-Declension-CX ;
+LEXICON Prop-kudo_fem
++N+Prop+Fem: N-kudo_01 ;
 
 
-LEXICON Prop-PatrMal-osh
+LEXICON Prop-osh_patrMal
 +N+Prop+Patr+Mal: osh-N-Derivation ;
 +N+Prop+Patr+Mal: osh-N-Def-Declension ;
 +N+Prop+Patr+Mal: osh-Indef-Declension ;
 +N+Prop+Patr+Mal: osh-N-Poss-Declension-CX ;
 
-LEXICON Prop-PatrFem-kudo
+LEXICON Prop-kudo_patrFem
 +N+Prop+Patr+Fem: kudo-N-Derivation ;
 +N+Prop+Patr+Fem: kudo-N-Def-Declension ;
 +N+Prop+Patr+Fem: kudo-Indef-Declension ;
