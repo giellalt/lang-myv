@@ -48,11 +48,6 @@ GENERATED_LEXC_SRCS=\
 		stems/interjections.lexc                           \
 		stems/nouns.lexc                             \
 		stems/noun-deverbal.lexc                           \
-		stems/noun-proper-animate-femalenames.lexc         \
-		stems/noun-proper-animate-malenames.lexc           \
-		stems/noun-proper-animate-names.lexc               \
-		stems/noun-proper-femalenames-cyrillic.lexc        \
-		stems/noun-proper-malenames-cyrillic.lexc          \
 		stems/propernouns.lexc                             \
 		stems/participles.lexc                             \
 		stems/particles.lexc                               \
@@ -73,11 +68,6 @@ GT_XML_SRCS=\
 		stems/interjections.xml                           \
 		stems/nouns.xml                             \
 		stems/noun-deverbal.xml                           \
-		stems/noun-proper-animate-femalenames.xml         \
-		stems/noun-proper-animate-malenames.xml           \
-		stems/noun-proper-animate-names.xml               \
-		stems/noun-proper-femalenames-cyrillic.xml        \
-		stems/noun-proper-malenames-cyrillic.xml          \
 		stems/propernouns.xml                             \
 		stems/participles.xml                             \
 		stems/particles.xml                               \
