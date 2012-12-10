@@ -1136,41 +1136,37 @@ LEXICON PL-NOM-INDEF
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON kal-N-Poss-Declension-CX
- kal-N-Poss-Declension-CX-SG ;
- kal-N-Poss-Declension-CX-PL ;
+ kal-N-Poss-Declension-CX-Mutual ;
+:%>О1 SG-GEN-PX ;
+:%>О1 SG-NOM-PX ;
+:%>О1 PL-GEN-PX ;
+:%>О1 PL-NOM-PX ;
 
 LEXICON kal-N-Poss-Declension-CX-SG
-:%> SG-ABE-PX ;
-:%> SG-ABL-PX ;
-:%> SG-CMP-PX ;
-:%>О1 SG-CMP-PX ;
-:%>О1 SG-DAT-PX ;
-:%> SG-ELA-PX ;
+ kal-N-Poss-Declension-CX-Mutual ;
 :%>О1 SG-GEN-PX ;
-:%> SG-ILL-PX ;
-:%>О1 SG-ILL-PX ;
-:%> SG-INE-PX ;
-:%>О1 SG-LAT-PX ;
-:%>О1 SG-LOC-PX ;
 :%>О1 SG-NOM-PX ;
-:%> SG-PRL-PX ;
-:%>О1 SG-TRA-PX ;
+
 
 LEXICON kal-N-Poss-Declension-CX-PL
-:%> PL-ABE-PX ;
-:%> PL-ABL-PX ;
-:%> PL-CMP-PX ;
-:%>О1 PL-CMP-PX ;
-:%>О1 PL-DAT-PX ;
-:%> PL-ELA-PX ;
+ kal-N-Poss-Declension-CX-Mutual ;
 :%>О1 PL-GEN-PX ;
-:%> PL-ILL-PX ;
-:%>О1 PL-ILL-PX ;
-:%> PL-INE-PX ;
 :%>О1 PL-NOM-PX ;
-:%> PL-PRL-PX ;
-:%> PL-TRA-PX ;
-:%>О1 PL-TRA-PX ;
+
+LEXICON kal-N-Poss-Declension-CX-Mutual
+:%> ABE-PX ;
+:%> ABL-PX ;
+:%> CMP-PX ;
+:%>О1 CMP-PX ;
+:%>О1 DAT-PX ;
+:%> ELA-PX ;
+:%> ILL-PX ;
+:%>О1 ILL-PX ;
+:%> INE-PX ;
+:%>О1 LAT-PX ;
+:%> PRL-PX ;
+:%> TRA-PX ;
+:%>О1 TRA-PX ;
 
 
 LEXICON kit-N-Poss-Declension-CX
@@ -1178,131 +1174,121 @@ LEXICON kit-N-Poss-Declension-CX
 
 
 LEXICON osh-N-Poss-Declension-CX
- osh-N-Poss-Declension-CX-SG ;
- osh-N-Poss-Declension-CX-PL ;
+ osh-N-Poss-Declension-CX-Mutual ;
+:%>О1 SG-GEN-PX ;
+:%>О1 SG-NOM-PX ;
+:%>О1 PL-GEN-PX ;
+:%>О1 PL-NOM-PX ;
 
 LEXICON osh-N-Poss-Declension-CX-SG
-:%> SG-ABE-PX ;
-:%> SG-ABL-PX ;
-:%>О1 SG-CMP-PX ;
-:%>О1 SG-DAT-PX ;
-:%> SG-ELA-PX ;
-:%>О1 SG-ELA-PX ;
+ osh-N-Poss-Declension-CX-Mutual ;
 :%>О1 SG-GEN-PX ;
-:%> SG-ILL-PX ;
-:%>О1 SG-ILL-PX ;
-:%> SG-INE-PX ;
-:%>О1 SG-INE-PX ;
-:%>О1 SG-LAT-PX ;
 :%>О1 SG-NOM-PX ;
-:%> SG-PRL-PX ;
-:%>О1 SG-TRA-PX ;
 
 LEXICON osh-N-Poss-Declension-CX-PL
-:%> PL-ABE-PX ;
-:%> PL-ABL-PX ;
-:%>О1 PL-CMP-PX ;
-:%>О1 PL-DAT-PX ;
-:%> PL-ELA-PX ;
-:%>О1 PL-ELA-PX ;
+ osh-N-Poss-Declension-CX-Mutual ;
 :%>О1 PL-GEN-PX ;
-:%> PL-ILL-PX ;
-:%>О1 PL-ILL-PX ;
-:%> PL-INE-PX ;
-:%>О1 PL-INE-PX ;
 :%>О1 PL-NOM-PX ;
-:%> PL-PRL-PX ;
-:%> PL-TRA-PX ;
-:%>О1 PL-TRA-PX ;
+
+LEXICON osh-N-Poss-Declension-CX-Mutual
+:%> ABE-PX ;
+:%> ABL-PX ;
+:%>О1 CMP-PX ;
+:%>О1 DAT-PX ;
+:%> ELA-PX ;
+:%>О1 ELA-PX ;
+:%> ILL-PX ;
+:%>О1 ILL-PX ;
+:%> INE-PX ;
+:%>О1 INE-PX ;
+:%>О1 LAT-PX ;
+:%> PRL-PX ;
+:%> TRA-PX ;
+:%>О1 TRA-PX ;
 
 LEXICON pango-N-Poss-Declension-CX
- pango-N-Poss-Declension-CX-SG ;
- pango-N-Poss-Declension-CX-PL ;
+ pango-N-Poss-Declension-CX-Mutual ;
+:%>О1 SG-GEN-PX ;
+:%>О1 SG-NOM-PX ;
+:%>О1 PL-GEN-PX ;
+:%>О1 PL-NOM-PX ;
 
 LEXICON pango-N-Poss-Declension-CX-SG
-:%>О1 SG-ABE-PX ;
-+Use/Sub:%> SG-ABL-PX ;
-:%>О1 SG-ABL-PX ;
-:%>О1 SG-CMP-PX ;
-:%>О1 SG-DAT-PX ;
-:%> SG-ELA-PX ;
-:%>О1 SG-ELA-PX ;
+ pango-N-Poss-Declension-CX-Mutual ;
 :%>О1 SG-GEN-PX ;
-:%>О1 SG-ILL-PX ;
-:%> SG-INE-PX ;
-:%>О1 SG-INE-PX ;
-:%>О1 SG-LAT-PX ;
 :%>О1 SG-NOM-PX ;
-:%>О1 SG-PRL-PX ;
-:%>О1 SG-TRA-PX ;
 
 LEXICON pango-N-Poss-Declension-CX-PL
-:%>О1 PL-ABE-PX ;
-+Use/Sub:%> PL-ABL-PX ;
-:%>О1 PL-ABL-PX ;
-:%>О1 PL-CMP-PX ;
-:%>О1 PL-DAT-PX ;
-:%> PL-ELA-PX ;
-:%>О1 PL-ELA-PX ;
+ pango-N-Poss-Declension-CX-Mutual ;
 :%>О1 PL-GEN-PX ;
-:%>О1 PL-ILL-PX ;
-:%> PL-INE-PX ;
-:%>О1 PL-INE-PX ;
 :%>О1 PL-NOM-PX ;
-:%> PL-PRL-PX ;
-:%> PL-TRA-PX ;
-:%>О1 PL-TRA-PX ;
+
+LEXICON pango-N-Poss-Declension-CX-Mutual
+:%>О1 ABE-PX ;
++Use/Sub:%> ABL-PX ;
+:%>О1 ABL-PX ;
+:%>О1 CMP-PX ;
+:%>О1 DAT-PX ;
+:%> ELA-PX ;
+:%>О1 ELA-PX ;
+:%>О1 ILL-PX ;
+:%> INE-PX ;
+:%>О1 INE-PX ;
+:%>О1 LAT-PX ;
+:%> PRL-PX ;
+:%> TRA-PX ;
+:%>О1 TRA-PX ;
 
 
 LEXICON kudo-N-Poss-Declension-CX
- kudo-N-Poss-Declension-CX-SG ;
- kudo-N-Poss-Declension-CX-PL ;
+ kudo-N-Poss-Declension-CX-Mutual ;
+:%> SG-GEN-PX ;
+:%> SG-NOM-PX ;
+:%> PL-GEN-PX ;
+:%> PL-NOM-PX ;
+
 
 LEXICON kudo-N-Poss-Declension-CX-SG
-:%> SG-ABE-PX ;
-:%> SG-ABL-PX ;
-:%> SG-CMP-PX ;
-:%> SG-DAT-PX ;
-:%> SG-ELA-PX ;
+ kudo-N-Poss-Declension-CX-Mutual ;
 :%> SG-GEN-PX ;
-:%> SG-ILL-PX ;
-:%> SG-INE-PX ;
-:%> SG-LAT-PX ;
 :%> SG-NOM-PX ;
-:%> SG-PRL-PX ;
-:%> SG-TRA-PX ;
 
 LEXICON kudo-N-Poss-Declension-CX-PL
-:%> PL-ABE-PX ;
-:%> PL-ABL-PX ;
-:%> PL-CMP-PX ;
-:%> PL-DAT-PX ;
-:%> PL-ELA-PX ;
+ kudo-N-Poss-Declension-CX-Mutual ;
 :%> PL-GEN-PX ;
-:%> PL-ILL-PX ;
-:%> PL-INE-PX ;
 :%> PL-NOM-PX ;
-:%> PL-PRL-PX ;
-:%> PL-TRA-PX ;
+
+LEXICON kudo-N-Poss-Declension-CX-Mutual
+:%> ABE-PX ;
+:%> ABL-PX ;
+:%> CMP-PX ;
+:%> DAT-PX ;
+:%> ELA-PX ;
+:%> ILL-PX ;
+:%> INE-PX ;
+:%> LAT-PX ;
+:%> PRL-PX ;
+:%> TRA-PX ;
+
 
 !!!!!!!!!!!!!!!!!!!!!
 !! CASES BEFORE POSSESSIVE TAGS !!
 !!!!!!!!!!!!!!!!!!!!!
-LEXICON SG-ABE-PX
-+Sg+Abe000@U.DECL-NX.SG@:втО1мО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON ABE-PX
++Abe0000@U.DECL-NX.SG@:втО1мО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON SG-ABL-PX
-+Sg+Abl@U.DECL-NX.SG@:дО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON ABL-PX
++Abl0@U.DECL-NX.SG@:дО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON SG-CMP-PX
-+Sg+CompCx0@U.DECL-NX.SG@:шка@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON CMP-PX
++CompCx00@U.DECL-NX.SG@:шка@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON SG-DAT-PX
-+Sg+DatCx+PxSg3000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_Clitic ;
-+Sg+DatCx+PxPl3000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_Clitic ;
+LEXICON DAT-PX
++DatCx+PxSg30000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_Clitic ;
++DatCx+PxPl30000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_Clitic ;
 
-LEXICON SG-ELA-PX
-+Sg+Ela0@U.DECL-NX.SG@:стО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON ELA-PX
++Ela00@U.DECL-NX.SG@:стО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
 LEXICON SG-GEN-PX
 +Sg+Gen+PxSg1@U.DECL-NX.SG@:м00@U.DECL-NX.SG@ kal-Conjugation ;
@@ -1318,18 +1304,18 @@ LEXICON SG-GEN-PX
 +Sg+Gen+PxPl3@U.DECL-NX.SG@:ст0@U.DECL-NX.SG@ kit-Conjugation ;
 +Sg+Gen+PxPl3+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:ст00000@U.DECL-NX.SG@ NounEnd_Clitic ;
 
-LEXICON SG-ILL-PX
-+Sg+Ill0@U.DECL-NX.SG@:з%>О1@U.DECL-NX.SG@ ILL-N-Poss-Declension-PossX ;
+LEXICON ILL-PX
++Ill00@U.DECL-NX.SG@:з%>О1@U.DECL-NX.SG@ ILL-N-Poss-Declension-PossX ;
 
 
-LEXICON SG-INE-PX
-+Sg+Ine@U.DECL-NX.SG@:сО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON INE-PX
++Ine0@U.DECL-NX.SG@:сО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON SG-LAT-PX
-+Sg+Lat@U.DECL-NX.SG@:00@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON LAT-PX
++Lat@U.DECL-NX.SG@:0@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON SG-LOC-PX
-+Sg+Loc@U.DECL-NX.SG@:О10@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON LOC-PX
++Loc@U.DECL-NX.SG@:О1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
 LEXICON SG-NOM-PX
 +Sg+Nom+PxSg1@U.DECL-NX.SG@:м00@U.DECL-NX.SG@ kal-NomSg-Conjugation ;
@@ -1340,28 +1326,28 @@ LEXICON SG-NOM-PX
 +Sg+Nom+PxPl2@U.DECL-NX.SG@:нк0@U.DECL-NX.SG@ lak-NomSg-Conjugation ;
 +Sg+Nom+PxPl3@U.DECL-NX.SG@:ст0@U.DECL-NX.SG@ kit-NomSg-Conjugation ;
 
-LEXICON SG-PRL-PX
-+Sg+Prl@U.DECL-NX.SG@:Г2а@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
+LEXICON PRL-PX
++Prl0@U.DECL-NX.SG@:Г2а@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON SG-TRA-PX
-+Sg+Tra@U.DECL-NX.SG@:кс@U.DECL-NX.SG@ osh-N-Poss-Declension-PossX ;
+LEXICON TRA-PX
++Tra0@U.DECL-NX.SG@:кс@U.DECL-NX.SG@ osh-N-Poss-Declension-PossX ;
 
 
-LEXICON PL-ABE-PX
-+Pl+Abe000@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.PX@:втО1мО1@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
+!LEXICON PL-ABE-PX
+!+Pl+Abe000@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.PX@:втО1мО1@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON PL-ABL-PX
-+Pl+Abl@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.PX@:дО1@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
+!LEXICON PL-ABL-PX
+!+Pl+Abl@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.PX@:дО1@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON PL-CMP-PX
-+Pl+CompCx0@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.PX@:шка@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
+!LEXICON PL-CMP-PX
+!+Pl+CompCx0@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.PX@:шка@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON PL-DAT-PX
-+Pl+DatCx+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@ NounEnd_Clitic ;
-+Pl+DatCx+PxPl3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_Clitic ;
+!LEXICON PL-DAT-PX
+!+Pl+DatCx+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@ NounEnd_Clitic ;
+!+Pl+DatCx+PxPl3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_Clitic ;
 
-LEXICON PL-ELA-PX
-+Pl+Ela0@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.PX@:стО1@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
+!LEXICON PL-ELA-PX
+!+Pl+Ela0@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.PX@:стО1@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
 LEXICON PL-GEN-PX
 +Pl+Gen+PxSg1@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@:нЬ20@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@ kal-Conjugation-4Poss ;
@@ -1376,11 +1362,11 @@ LEXICON PL-GEN-PX
 +Pl+Gen+PxPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@ kit-Conjugation-4Poss ;
 !!+Pl+Gen+PxPl3+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:ст00000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_Clitic ;
 
-LEXICON PL-ILL-PX
-+Pl+Ill0@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@:з%>О1@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@ ILL-N-Poss-Declension-PossX ;
+!LEXICON PL-ILL-PX
+!+Pl+Ill0@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@:з%>О1@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@ ILL-N-Poss-Declension-PossX ;
 
-LEXICON PL-INE-PX
-+Pl+Ine@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.PX@:сО1@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
+!LEXICON PL-INE-PX
+!+Pl+Ine@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.PX@:сО1@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
 LEXICON PL-NOM-PX
 +Pl+Nom+PxSg1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:нЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ kal-NomPl-Conjugation-4Poss ;
@@ -1399,11 +1385,11 @@ LEXICON PL-NOM-PX
 +Pl+Nom+PxPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@ kit-NomPl-Conjugation-only-4Poss ;
 +Pl+Nom+PxPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_Clitic ;
 
-LEXICON PL-PRL-PX
-+Pl+Prl@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.PX@:Г2а@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
+!LEXICON PL-PRL-PX
+!+Pl+Prl@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.PX@:Г2а@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
-LEXICON PL-TRA-PX
-+Pl+Tra@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.PX@:кс@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.PX@ osh-N-Poss-Declension-PossX ;
+!LEXICON PL-TRA-PX
+!+Pl+Tra@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.PX@:кс@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.PX@ osh-N-Poss-Declension-PossX ;
 
 !!!!!!!!!!!!!!!!!!!!!
 !! POSSESSIVE TAGS !!
