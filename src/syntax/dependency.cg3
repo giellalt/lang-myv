@@ -1,10 +1,10 @@
 # ========================== #
-# Faroese dependency grammar #
+# Erzya dependency grammar #
 # ========================== #
 
 # This file is deprecated.
 
-# For Faroese dep analysis, use
+# For Erzya dep analysis, use
 
 # $GTHOME/gt/smi/src/smi-dep.rle
 
@@ -43,7 +43,6 @@ LIST CS = CS ;
 LIST Interj = Interj ;
 LIST Abbr = Abbr ;
 LIST ACR = ACR ;
-LIST Pr = Pr ;
 LIST Pron = Pron ;
 LIST Pers = Pers ;
 LIST Dem = Dem ;
@@ -55,23 +54,58 @@ LIST Interr = Interr ;
 LIST IM = IM ;
 
 LIST Nom = Nom ;
-LIST Acc = Acc ;
+#LIST Acc = Acc ;
 LIST Gen = Gen ;
 LIST Dat = Dat ;
+LIST Abl = Abl ;
+LIST Ela = Ela ;
+LIST Ine = Ine ;
+LIST Loc = Loc ;
+LIST Ill = Ill ;
+LIST Lat = Lat ;
+LIST Com = Com ;
+
 LIST Msc = Msc ;
 LIST Fem = Fem ;
-LIST Neu = Neu ;
+#LIST Neu = Neu ;
 LIST Sg = Sg ;
 LIST Pl = Pl ;
+
+LIST PxSg1 = PxSg1 ;
+LIST PxSg2 = PxSg2 ;
+LIST PxSg3 = PxSg3 ;
+ 
+LIST PxPl1 = PxPl1 ;
+LIST PxPl2 = PxPl2 ;
+LIST PxPl3 = PxPl3 ;
+
 LIST Def = Def ;
 LIST Indef = Indef ;
 LIST Cmp = Cmp ;
 LIST Superl = Superl ;
 LIST Prs = Prs ;
-LIST Prt = Prt ;
-LIST 1Sg = 1Sg ;
-LIST 2Sg = 2Sg ;
-LIST 3Sg = 3Sg ;
+LIST Prt1 = Prt1 ;
+LIST Prt2 = Prt2 ;
+
+LIST ScSg1 = ScSg1 ;
+LIST ScSg2 = ScSg2 ;
+LIST ScSg3 = ScSg3 ;
+
+LIST ScPl1 = ScPl1 ;
+LIST ScPl2 = ScPl2 ;
+LIST ScPl3 = ScPl3 ;
+
+LIST OcSg1 = OcSg1 ;
+LIST OcSg2 = OcSg2 ;
+LIST OcSg3 = OcSg3 ;
+
+LIST OcPl1 = OcPl1 ;
+LIST OcPl2 = OcPl2 ;
+LIST OcPl3 = OcPl3 ;
+
+#LIST 1Sg = 1Sg ;
+#LIST 2Sg = 2Sg ;
+#LIST 3Sg = 3Sg ;
 LIST Inf = Inf ;
 LIST PrfPrc = PrfPrc ;
 LIST PrsPrc = PrsPrc ;
@@ -155,13 +189,36 @@ LIST AUX = "kunna" "skula" "vera" "verða" "hava" ;
 LIST VFIN = Prs Prt Imp Sbj ;
 LIST Ind = Prs Prt ;
 
-LIST NONTHIRDV = 1Sg 2Sg 1Pl 2Pl ;
+LIST NONTHIRDV = ScSg1 ScSg2 ScPl1 ScPl2 ;
 
 LIST VINFIN = Inf Sup PrfPrs PrsPrc ;
 
 LIST MODV = "kunna" "skula" ;
 
 LIST DATV = "smakka" ;
+
+#Numerals are used here to indicate arguments
+#1 2 3
+#0 Absent from syntax such as weather verbs with no subject present
+# as an independent word
+
+LIST 10_SG3V = "пиземс" "якшавтомс" ;
+  # Weather verbs
+
+LIST 1NOM-2ABL/TOPIC_V = "ёвтамс" "кортамс" "сёрмадомс" "содамс" ;
+ #This includes "кортамс" 'talk' verbs
+
+LIST 1NOM-2ABL/CAUSE_V = "пелемс" ;
+ #This includes "пелемс" 'fear' verbs
+
+LIST 1NOM-2NOMGEN/DURATION_V = "ардомс" "аштемс" "удомс" "чиемс" "эрямс" ;
+
+LIST 1NOM/TH-2ILL_V = "ёмамс" "куломс" ;
+  # 'disappear', 'die'
+
+LIST 1NOM/TH-2INE_V = "аштемс" "эрямс" ;
+  #
+
 
 SET NONVFIN = VINFIN ; # sme compatibility
 
@@ -176,7 +233,7 @@ SET NOUNADJ = N | A ;
 
 SET NP-MEMBER = PRE-N | N | Pron ;
 
-LIST TIME = "sunnudagur" ;
+LIST TIME = "атяньчи" "вастаньчи" "калчи" "калоньчи" "куншкачи" "сюконьчи" "таргочи" "шлямочи" ;
 
 
 
