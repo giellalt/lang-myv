@@ -650,7 +650,6 @@ LEXICON Root
 TESTINGTESTING ;
 
  adjectives ;                                     ! 
- adjective-adverb-modifiers ;                                  ! 
  adverbs ;                                   ! 
  bahuvrihis ;                             ! 
  conjunctions ;                                  ! 
@@ -718,13 +717,13 @@ LEXICON R
 %- nouns ;
 
 LEXICON BahuvTag-kal
-+Bahuvrihi: Adj-od ;
++Bahuvrihi: Adj-kal ;
 
 LEXICON BahuvTag-pango
-+Bahuvrihi: Adj-nachko ;
++Bahuvrihi: Adj-pango ;
 
 LEXICON BahuvTag-kudo
-+Bahuvrihi: Adj-shumbra ;
++Bahuvrihi: Adj-kudo ;
 
 
 ! ============ !
@@ -732,11 +731,11 @@ LEXICON BahuvTag-kudo
 ! ============ !
 
 LEXICON InterjTag
-+Interj: Clitic ;
++Interj: K ;
 
 LEXICON Interj-Imp
-+Interj+Imprt+ScSg2: ImpClitic ;
-+Interj+Imprt+ScPl2:%>дО1 ImpClitic ;
++Interj+Imprt+ScSg2: ImpK ;
++Interj+Imprt+ScPl2:%>дО1 ImpK ;
 
 LEXICON FormulaicTag
 +Interj+Formulaic: WORD-END ;
@@ -749,7 +748,7 @@ LEXICON VocativeTag
 ! ============ !
 
 LEXICON ejs-PO
-эйсэ+Po+Ill:эйс Clitic ;
+эйсэ+Po+Ill:эйс K ;
 эйсэ+Po+Ine:эйсэ kudo-Conjugation ;
 эйсэ+Po+Ela:эйстэ kudo-Conjugation ;
 эйсэ+Po+Ill:эйз osh-SPAT-PossX ;
@@ -757,13 +756,13 @@ LEXICON ejs-PO
 эйсэ+Po+Ela:эйстэ kudo-SPAT-PossX ;
 
 LEXICON marto-PO
-+Po+Adn: Clitic ;
++Po+Adn: K ;
 +Po+COM: kudo-Possessives2 ; 
 +Po+Der/MWN: N-kudo ;
 
 
 LEXICON kudo-PO-ILL
-+Po+Ill:%>с Clitic ;
++Po+Ill:%>с K ;
 +Po+Ill:%>з osh-Possessives2 ;
 
 LEXICON Postp-karsho
@@ -774,7 +773,7 @@ LEXICON Postp-karsho
 LEXICON vaksso-SPAT
  malaso-SPAT ;
 +Po+Ela:%>О1стО1 kudo-Conjugation ;
-+Po+Ill:%>О1с Clitic ;
++Po+Ill:%>О1с K ;
 +Po+Ine:%>О1сО1 kudo-Conjugation ;
 
 LEXICON jutkso-SPAT
@@ -784,8 +783,8 @@ LEXICON jutkso-SPAT
 
 LEXICON langso-SPAT
 +Po+Ela:%>стО1 kudo-Conjugation ;
-+Po+Ill:%>с Clitic ;
-+Po+Lat:%>О1в Clitic ;
++Po+Ill:%>с K ;
++Po+Lat:%>О1в K ;
 +Po+Ine:%>сО1 kudo-Conjugation ;
 +Po+Ela:%>стО1 kudo-SPAT-PossX ;
 +Po+Ill:%>О1з osh-SPAT-PossX ;
@@ -794,7 +793,7 @@ LEXICON langso-SPAT
 ! malaso:mala
 LEXICON malaso-SPAT
 +Adv+Ela:%>стО1 kudo-Conjugation ;
-+Adv+Ill:%>с Clitic ;
++Adv+Ill:%>с K ;
 +Adv+Ine:%>сО1 kudo-Conjugation ;
 +Adv+Prl:%>Г2а kudo-Conjugation ;
 +Adv+Lat:%>в kudo-Conjugation ;
@@ -806,7 +805,7 @@ LEXICON malaso-SPAT
 
 LEXICON ushoso-SPAT
 +Spat+Ela:%>стО1 kudo-Conjugation ;
-+Spat+Ill:%>с Clitic ;
++Spat+Ill:%>с K ;
 +Spat+Ine:%>сО1 kudo-Conjugation ;
 +Spat+Prl:%>Г2а kudo-Conjugation ;
 
@@ -835,10 +834,10 @@ LEXICON osh-SPAT-PossX
 ! This contlex allows for relational word which, otherwise, are open 
 ! to extensive declension
 LEXICON PostpTag
-+Po: Clitic ;
++Po: K ;
 
 LEXICON Dat-1Arg
-+Po+DAT: Clitic ;
++Po+DAT: K ;
 
 
 
@@ -949,22 +948,22 @@ LEXICON alo-Spat-NoArg
 +Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Adv+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
 +Adv+Spat+Der/кс:%>кс N-osh ;
-+Adv+Spat+Lat:%>О1в Clitic ;
-+Adv+Spat+Abl:%>дО1 Clitic ;
-+Adv+Spat+Loc:%>О1 Clitic ;
-+Adv+Spat+Prl:%>Г2а Clitic ;
++Adv+Spat+Lat:%>О1в K ;
++Adv+Spat+Abl:%>дО1 K ;
++Adv+Spat+Loc:%>О1 K ;
++Adv+Spat+Prl:%>Г2а K ;
 +Adv+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
 +Adv+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
 LEXICON alo-Spat-1Arg
 +Po+Spat+Abl:%>дО1 kudo-Indef--Poss ;
 +Po+Spat+Loc:%>О1 kudo-Indef--Poss ; 
-+Po+Spat+Lat:%>О1 kudo-Possessive-Before-Clitic ;
++Po+Spat+Lat:%>О1 kudo-Possessive-Before-K ;
 +Po+Spat+Prl:%>Г2а kudo-Indef--Poss ;
 +Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Po+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
 +Po+Spat+Der/кс:%>кс N-osh ;
-+Po+Spat+Lat+InDef:%>О1в Clitic ;
++Po+Spat+Lat+InDef:%>О1в K ;
 +Po+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
 +Po+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
 +Po+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
@@ -972,15 +971,15 @@ LEXICON alo-Spat-1Arg
 LEXICON alo-Spat-AdvN
  alo-Spat-NoArg ;
  N-kal ;
-+N+Loc:%>О1 Clitic ;
++N+Loc:%>О1 K ;
 
 LEXICON alo-Spat-PoN
  alo-Spat-1Arg ;
  N-kal ;
-+N+Loc:%>О1 Clitic ;
++N+Loc:%>О1 K ;
 
 LEXICON kovolo-Spat
-+Interr+Spat+Lat+InDef:%>О1в Clitic ;
++Interr+Spat+Lat+InDef:%>О1в K ;
 +Interr+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
 +Interr+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
 +Interr+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
@@ -988,7 +987,7 @@ LEXICON kovolo-Spat
 +Interr+Spat+Loc:%>О1 kudo-Indef--Poss ; 
 +Interr+Spat+Prl:%>Г2а kudo-Indef--Poss ;
 
-+Rel+Spat+Lat+InDef:%>О1в Clitic ;
++Rel+Spat+Lat+InDef:%>О1в K ;
 +Rel+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
 +Rel+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
 +Rel+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
@@ -999,12 +998,12 @@ LEXICON kovolo-Spat
 
 
 LEXICON Mezty
-+Assoc+Pl+Nom:%>мезть Clitic ;
-+Assoc+DatCx:%>мезнень Clitic ;
-+Assoc+Gen:%>мезень Clitic ;
-+Assoc+Abl:%>мезде Clitic ;
-+Assoc+Abe:%>мезевтеме Clitic ;
-!+Assoc:%>мезть Clitic
++Assoc+Pl+Nom:%>мезть K ;
++Assoc+DatCx:%>мезнень K ;
++Assoc+Gen:%>мезень K ;
++Assoc+Abl:%>мезде K ;
++Assoc+Abe:%>мезевтеме K ;
+!+Assoc:%>мезть K
 
 
  
@@ -1013,7 +1012,7 @@ LEXICON osh-Indef-DefSg-Poss
  osh-Indef--Poss ;
 
 LEXICON osh--DefSg-
-+Sg+Def:%>О1нть Clitic ;
++Sg+Def:%>О1нть K ;
 
 LEXICON osh-Indef--Poss
 +InDef: osh-Tenses-Obl ;
@@ -1029,7 +1028,7 @@ LEXICON kudo-Indef-DefSg-Poss
  kudo-Indef--Poss ;
 
 LEXICON kudo--DefSg-
-+Sg+Def:%>О1нть Clitic ;
++Sg+Def:%>О1нть K ;
 
 LEXICON kudo-Indef--Poss
 +InDef: kudo-Tenses-Obl ;
@@ -1047,53 +1046,6 @@ LEXICON kudo-Indef--Poss
 
 !LEXICON SUBSTANDARDS 
 !коръя+Use/Sub:корья Noun1 ;
-
-!! +WORK Shows up then the following LEXICA are used.
-
-LEXICON vitj-Adj-WORK
-+WORK: Adj-vitj ;
-
-LEXICON erek-Adj-WORK
-+WORK: Adj-erek ;
-
-LEXICON od-Adj-WORK
-+WORK: Adj-od ;
-
-LEXICON vanjks-Adj-WORK
-+WORK: Adj-vanjks ;
-
-LEXICON nachko-Adj-WORK
-+WORK: Adj-nachko ;
-
-LEXICON lembe-Adj-WORK
-+WORK: Adj-lembe ;
-
-LEXICON shumbra-Adj-WORK
-+WORK: Adj-shumbra ;
-
-LEXICON kal-N-WORK
-+WORK: N-kal ;
-
-LEXICON kit-N-WORK
-+WORK: N-kit ;
-
-LEXICON lak-N-WORK
-+WORK: N-lak ;
-
-LEXICON osh-N-WORK
-+WORK: N-osh ;
-
-LEXICON pango-N-WORK
-+WORK: N-pango ;
-
-LEXICON tinge-N-WORK
-+WORK: N-tinge ;
-
-LEXICON teshte-N-WORK
-+WORK: N-teshte ;
-
-LEXICON kudo-N-WORK
-+WORK: N-kudo ;
 
 
 

@@ -178,7 +178,7 @@ LEXICON N-kal_01
  kal-Indef-Declension ;
  kal-N-Poss-Declension-CX ;
 
-LEXICON N-kal_sub
+LEXICON N-kal_Sub
 +Use/Sub: N-kal ;
 
 LEXICON kal-N-PL
@@ -186,7 +186,7 @@ LEXICON kal-N-PL
 +N: kal-Indef-Declension-PL ;
 +N: kal-N-Poss-Declension-CX-PL ;
 
-LEXICON kal-N-PL_sub
+LEXICON kal-N-PL_Sub
 +Use/Sub: kal-N-PL ;
 
 LEXICON N-lak
@@ -222,7 +222,7 @@ LEXICON N-klass_01
  osh-Indef-Declension ;
  kal-N-Poss-Declension-CX ;
 
-LEXICON N-osh_sub
+LEXICON N-osh_Sub
 +Use/Sub: N-osh ;
 
 LEXICON N-osh
@@ -261,7 +261,7 @@ LEXICON tinge-N-PL
 +N: pango-Indef-Declension-PL ;
 +N: kudo-N-Poss-Declension-CX-PL ;
 
-LEXICON N-pango_sub
+LEXICON N-pango_Sub
 +Use/Sub: N-pango ;
 
 ! панго:панг
@@ -287,7 +287,7 @@ LEXICON N-ki_01
 :я SG-PRL-DEF ;
 +Sg+Prl:ява PossPX1 ;
 
-LEXICON N-kudo_sub
+LEXICON N-kudo_Sub
 +Use/Sub: N-kudo ;
 
 LEXICON N-kudo
@@ -659,17 +659,17 @@ LEXICON kit-N2-Def-Declension
 
 LEXICON kal-N2-Def-Declension
  kal-N-Def-Declension ;
-+Tra+InDef:%>О1кс Clitic ;
++Tra+InDef:%>О1кс K ;
 +Abl+InDef:%>дО1 kudo-Conjugation ;
 
 LEXICON osh-N2-Def-Declension
  osh-N-Def-Declension ;
-+Tra+InDef:%>О1кс Clitic ;
++Tra+InDef:%>О1кс K ;
 +Abl+InDef:%>дО1 kudo-Conjugation ;
 
 LEXICON kudo-N2-Def-Declension
  kudo-N-Def-Declension ;
-+Tra+InDef:%>кс Clitic ;
++Tra+InDef:%>кс K ;
 +Abl+InDef:%>дО1 kudo-Conjugation ;
 
 ! =================== !
@@ -837,61 +837,61 @@ LEXICON SG-NOM-DEF
 +Sg+Nom+Def@U.DECL-NX.SG@:сь0@U.DECL-NX.SG@ osh-NomSg-Conjugation ;
 
 LEXICON SG-GEN-DEF
-+Sg+Gen+Def@U.DECL-NX.SG@:нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Gen+Def@U.DECL-NX.SG@:нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-DAT-DEF
-+Sg+DatCx+Def00@U.DECL-NX.SG@:нтень@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+DatCx+Def00@U.DECL-NX.SG@:нтень@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-CMP-DEF
-+Sg+CompCx+Def0000@U.DECL-NX.SG@:шка%>нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+CompCx+Def0000@U.DECL-NX.SG@:шка%>нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-ELA-DEF
-+Sg+Ela+Def0000@U.DECL-NX.SG@:стО1%>нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Ela+Def0000@U.DECL-NX.SG@:стО1%>нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-INE-DEF
-+Sg+Ine+Def000@U.DECL-NX.SG@:сО1%>нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Ine+Def000@U.DECL-NX.SG@:сО1%>нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-ABL-DEF
-+Sg+Abl+Def000@U.DECL-NX.SG@:дО1%>нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Abl+Def000@U.DECL-NX.SG@:дО1%>нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-PRL-DEF
-+Sg+Prl+Def000@U.DECL-NX.SG@:Г2а%>нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Prl+Def000@U.DECL-NX.SG@:Г2а%>нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-ABE-DEF
-+Sg+Abe+Def000000@U.DECL-NX.SG@:втО1мО1%>нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Abe+Def000000@U.DECL-NX.SG@:втО1мО1%>нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-TRA-DEF
-+Sg+Tra+Def0000@U.DECL-NX.SG@:кс%>О1нть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Tra+Def0000@U.DECL-NX.SG@:кс%>О1нть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-NOM-DEF_Dial-NW
-+Sg+Nom+Def@U.DECL-NX.SG@:сь0@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Nom+Def@U.DECL-NX.SG@:сь0@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-GEN-DEF_Dial-NW
-+Use/-Spell+Sg+Gen+Def@U.DECL-NX.SG@:сть0@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Gen+Def@U.DECL-NX.SG@:сть0@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-DAT-DEF_Dial-NW
-+Use/-Spell+Sg+DatCx+Def0@U.DECL-NX.SG@:стень@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+DatCx+Def0@U.DECL-NX.SG@:стень@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-ABL-DEF_Dial-NW
-+Use/-Spell+Sg+Abl+Def00@U.DECL-NX.SG@:дО1%>сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Abl+Def00@U.DECL-NX.SG@:дО1%>сть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-ELA-DEF_Dial-NW
-+Use/-Spell+Sg+Ela+Def000@U.DECL-NX.SG@:стО1%>сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Ela+Def000@U.DECL-NX.SG@:стО1%>сть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-INE-DEF_Dial-NW
-+Use/-Spell+Sg+Ine+Def00@U.DECL-NX.SG@:сО1%>сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Ine+Def00@U.DECL-NX.SG@:сО1%>сть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-PRL-DEF_Dial-NW
-+Use/-Spell+Sg+Prl+Def00@U.DECL-NX.SG@:Г2а%>сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Prl+Def00@U.DECL-NX.SG@:Г2а%>сть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-CMP-DEF_Dial-NW
-+Use/-Spell+Sg+CompCx+Def000@U.DECL-NX.SG@:шка%>сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+CompCx+Def000@U.DECL-NX.SG@:шка%>сть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-ABE-DEF_Dial-NW
-+Use/-Spell+Sg+Abe+Def00000@U.DECL-NX.SG@:втО1мО1%>сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Abe+Def00000@U.DECL-NX.SG@:втО1мО1%>сть@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON SG-TRA-DEF_Dial-NW
-+Use/-Spell+Sg+Tra+Def000@U.DECL-NX.SG@:кс%>О1сть@U.DECL-NX.SG@ NounEnd_Clitic ;
++Use/-Spell+Sg+Tra+Def000@U.DECL-NX.SG@:кс%>О1сть@U.DECL-NX.SG@ NounEnd_K ;
 
 
 
@@ -1078,11 +1078,11 @@ LEXICON CMP-INDEF
 +CompCx+InDef@U.DECL-CX.CMP@:шка@U.DECL-CX.CMP@ kudo-Conjugation ;
 
 LEXICON COM-INDEF
-+Com+InDef@U.DECL-CX.COM@:нек@U.DECL-CX.COM@ NounEnd_lak-Clitic ;
++Com+InDef@U.DECL-CX.COM@:нек@U.DECL-CX.COM@ NounEnd_K-lak ;
 +Com+InDef+Coll:нек%-мезнек WORD-END ;
 
 LEXICON DAT-INDEF
-+DatCx+InDef0@U.DECL-CX.DAT@:нень@U.DECL-CX.DAT@ NounEnd_Clitic ;
++DatCx+InDef0@U.DECL-CX.DAT@:нень@U.DECL-CX.DAT@ NounEnd_K ;
 
 LEXICON ELA-INDEF
 +Ela+InDef@U.DECL-CX.ELA@:стО1@U.DECL-CX.ELA@ kudo-Conjugation ;
@@ -1091,16 +1091,16 @@ LEXICON GEN-INDEF
 +Gen+InDef@U.DECL-CX.GEN@:нь0@U.DECL-CX.GEN@ kal-Conjugation ;
 
 LEXICON ILL-INDEF
-+Ill+InDef@U.DECL-CX.ILL@:с00@U.DECL-CX.ILL@ NounEnd_Clitic ;
++Ill+InDef@U.DECL-CX.ILL@:с00@U.DECL-CX.ILL@ NounEnd_K ;
 
 LEXICON INE-INDEF
 +Ine+InDef@U.DECL-CX.INE@:сО10@U.DECL-CX.INE@ kudo-Conjugation ;
 
 LEXICON LAT-INDEF
-+Lat+InDef@U.DECL-CX.LAT@:в00@U.DECL-CX.LAT@ NounEnd_Clitic ;
++Lat+InDef@U.DECL-CX.LAT@:в00@U.DECL-CX.LAT@ NounEnd_K ;
 
 LEXICON LOC-INDEF
-+Loc+InDef@U.DECL-CX.LOC@:О100@U.DECL-CX.LOC@ NounEnd_Clitic ;
++Loc+InDef@U.DECL-CX.LOC@:О100@U.DECL-CX.LOC@ NounEnd_K ;
 
 LEXICON SG-NOM-INDEF-kal
 +Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kal-NomSg-Conjugation ;
@@ -1119,7 +1119,7 @@ LEXICON PRL-INDEF
 +Prl+InDef@U.DECL-CX.PRL@:Г2а0@U.DECL-CX.PRL@ kudo-Conjugation ;
 
 LEXICON TMP-INDEF
-+TempCx+InDef@U.DECL-CX.TEMP@:не0@U.DECL-CX.TEMP@ NounEnd_Clitic ;
++TempCx+InDef@U.DECL-CX.TEMP@:не0@U.DECL-CX.TEMP@ NounEnd_K ;
 
 LEXICON TRA-INDEF
 +Tra+InDef@U.DECL-CX.TRA@:кс0@U.DECL-CX.TRA@ osh-Conjugation ;
@@ -1127,7 +1127,7 @@ LEXICON TRA-INDEF
 
 LEXICON PL-NOM-INDEF
 +Pl+Nom+InDef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ kit-NomPl-Conjugation ;
-+Pl+Nom+InDef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ NounEnd_Clitic ;
++Pl+Nom+InDef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ NounEnd_K ;
 
 
 
@@ -1284,8 +1284,8 @@ LEXICON CMP-PX
 +CompCx00@U.DECL-NX.SG@:шка@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
 
 LEXICON DAT-PX
-+DatCx+PxSg30000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_Clitic ;
-+DatCx+PxPl30000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_Clitic ;
++DatCx+PxSg30000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_K ;
++DatCx+PxPl30000@U.DECL-NX.SG@:нстэнь@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON ELA-PX
 +Ela00@U.DECL-NX.SG@:стО1@U.DECL-NX.SG@ kudo-N-Poss-Declension-PossX ;
@@ -1298,11 +1298,11 @@ LEXICON SG-GEN-PX
 +Sg+Gen+PxSg2+Dial@U.DECL-NX.SG@:нтЬ20@U.DECL-NX.SG@ kit-Conjugation ;
 +Sg+Gen+PxSg3@U.DECL-NX.SG@:нзО1@U.DECL-NX.SG@ kudo-Conjugation ;
 +Sg+Gen+PxPl1@U.DECL-NX.SG@:нО1к@U.DECL-NX.SG@ lak-Conjugation ;
-+Sg+Gen+PxPl1+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:нО1к0000@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Gen+PxPl1+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:нО1к0000@U.DECL-NX.SG@ NounEnd_K ;
 +Sg+Gen+PxPl2@U.DECL-NX.SG@:нк0@U.DECL-NX.SG@ lak-Conjugation ;
-+Sg+Gen+PxPl2+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:нк00000@U.DECL-NX.SG@ NounEnd_lak-Clitic ;
++Sg+Gen+PxPl2+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:нк00000@U.DECL-NX.SG@ NounEnd_K-lak ;
 +Sg+Gen+PxPl3@U.DECL-NX.SG@:ст0@U.DECL-NX.SG@ kit-Conjugation ;
-+Sg+Gen+PxPl3+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:ст00000@U.DECL-NX.SG@ NounEnd_Clitic ;
++Sg+Gen+PxPl3+Der/Pr+Ind+Prs+ScSg3@U.DECL-NX.SG@:ст00000@U.DECL-NX.SG@ NounEnd_K ;
 
 LEXICON ILL-PX
 +Ill00@U.DECL-NX.SG@:з%>О1@U.DECL-NX.SG@ ILL-N-Poss-Declension-PossX ;
@@ -1343,8 +1343,8 @@ LEXICON TRA-PX
 !+Pl+CompCx0@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.PX@:шка@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
 
 !LEXICON PL-DAT-PX
-!+Pl+DatCx+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@ NounEnd_Clitic ;
-!+Pl+DatCx+PxPl3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_Clitic ;
+!+Pl+DatCx+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Sg3@ NounEnd_K ;
+!+Pl+DatCx+PxPl3000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@:нстэнь@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_K ;
 
 !LEXICON PL-ELA-PX
 !+Pl+Ela0@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.PX@:стО1@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
@@ -1356,11 +1356,11 @@ LEXICON PL-GEN-PX
 +Pl+Gen+PxSg2+Dial@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@:нтЬ20@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@ kit-Conjugation-4Poss ;
 +Pl+Gen+PxSg3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@:нзО1@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@ kudo-Conjugation-4Poss ;
 +Pl+Gen+PxPl1@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@:нО1к@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@ lak-Conjugation-4Poss ;
-!!+Pl+Gen+PxPl1+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:нО1к0000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_Clitic ;
+!!+Pl+Gen+PxPl1+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:нО1к0000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_K ;
 +Pl+Gen+PxPl2@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@:нк0@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@ lak-Conjugation-4Poss ;
-!!+Pl+Gen+PxPl2+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:нк00000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_Clitic ;
+!!+Pl+Gen+PxPl2+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:нк00000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_K ;
 +Pl+Gen+PxPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@ kit-Conjugation-4Poss ;
-!!+Pl+Gen+PxPl3+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:ст00000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_Clitic ;
+!!+Pl+Gen+PxPl3+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@:ст00000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@ NounEnd_K ;
 
 !LEXICON PL-ILL-PX
 !+Pl+Ill0@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@:з%>О1@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.PX@ ILL-N-Poss-Declension-PossX ;
@@ -1370,20 +1370,20 @@ LEXICON PL-GEN-PX
 
 LEXICON PL-NOM-PX
 +Pl+Nom+PxSg1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:нЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ kal-NomPl-Conjugation-4Poss ;
-+Pl+Nom+PxSg1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:нЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ NounEnd_Clitic ;
++Pl+Nom+PxSg1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:нЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ NounEnd_K ;
 +Pl+Nom+PxSg2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ kit-NomPl-Conjugation-4Poss ;
-+Pl+Nom+PxSg2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ NounEnd_Clitic ;
++Pl+Nom+PxSg2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ NounEnd_K ;
 +Pl+Nom+PxSg2+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:нтЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ kit-NomPl-Conjugation-4Poss ;
-+Pl+Nom+PxSg2+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:нтЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ NounEnd_Clitic ;
++Pl+Nom+PxSg2+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:нтЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ NounEnd_K ;
 +Pl+Nom+PxSg3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@:нзО1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@ kudo-NomPl-Conjugation-4Poss ;
 +Pl+Nom+PxSg1+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:м000@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ kal-NomPl-Conjugation-4Poss ;
 +Pl+Nom+PxPl1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@:нО1к@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@ lak-NomPl-Conjugation-only-4Poss ;
-+Pl+Nom+PxPl1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@:нО1к@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@ NounEnd_Clitic ;
++Pl+Nom+PxPl1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@:нО1к@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@ NounEnd_K ;
 +Pl+Nom+PxPl2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@:нк0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@ lak-NomPl-Conjugation-only-4Poss ;
-+Pl+Nom+PxPl2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@:нк0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@ NounEnd_Clitic ;
-+Pl+Nom+PxPl2+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@:нк00000@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@ NounEnd_Clitic ;
++Pl+Nom+PxPl2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@:нк0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@ NounEnd_K ;
++Pl+Nom+PxPl2+Der/Pr+Ind+Prs+ScPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@:нк00000@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@ NounEnd_K ;
 +Pl+Nom+PxPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@ kit-NomPl-Conjugation-only-4Poss ;
-+Pl+Nom+PxPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_Clitic ;
++Pl+Nom+PxPl3@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@:ст0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@ NounEnd_K ;
 
 !LEXICON PL-PRL-PX
 !+Pl+Prl@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.PX@:Г2а@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.PX@ kudo-N-Poss-Declension-PossX ;
@@ -1403,15 +1403,15 @@ LEXICON osh-N-Poss-Declension-PossX
 :%>О1 N-Poss-Declension-PossX_01 ;
 
 LEXICON ILL-N-Poss-Declension-PossX
-+PxSg10@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ NounEnd_Clitic ;
-+Dial+PxSg1@U.PossPx.Sg1@:м0@U.PossPx.Sg1@ NounEnd_Clitic ;
-+PxSg20@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ NounEnd_Clitic ;
-+Dial+PxSg20@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ NounEnd_Clitic ;
-+PxSg300@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ NounEnd_Clitic ;
-+PxPl100@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ NounEnd_lak-Clitic ;
-+PxPl20@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ NounEnd_lak-Clitic ;
-+PxPl30@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ NounEnd_Clitic ;
-+Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ NounEnd_lak-Clitic ;
++PxSg10@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ NounEnd_K ;
++Dial+PxSg1@U.PossPx.Sg1@:м0@U.PossPx.Sg1@ NounEnd_K ;
++PxSg20@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ NounEnd_K ;
++Dial+PxSg20@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ NounEnd_K ;
++PxSg300@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ NounEnd_K ;
++PxPl100@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ NounEnd_K-lak ;
++PxPl20@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ NounEnd_K-lak ;
++PxPl30@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ NounEnd_K ;
++Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ NounEnd_K-lak ;
 
 ! These are possessor Indices for non-nominative singular
 ! NonNomSg
@@ -1419,15 +1419,15 @@ LEXICON kudo-N-Poss-Declension-PossX
 :%> N-Poss-Declension-PossX_01 ;
 
 LEXICON N-Poss-Declension-PossX_01
-+PxSg10@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ NounEnd_Clitic ;
-+Dial+PxSg1@U.PossPx.Sg1@:м0@U.PossPx.Sg1@ NounEnd_Clitic ;
-+PxSg20@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ NounEnd_Clitic ;
-+Dial+PxSg20@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ NounEnd_Clitic ;
-+PxSg300@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ NounEnd_Clitic ;
-+PxPl100@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ NounEnd_lak-Clitic ;
-+PxPl20@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ NounEnd_lak-Clitic ;
-+PxPl30@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ NounEnd_Clitic ;
-+Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ NounEnd_lak-Clitic ;
++PxSg10@U.PossPx.Sg1@:нЬ2@U.PossPx.Sg1@ NounEnd_K ;
++Dial+PxSg1@U.PossPx.Sg1@:м0@U.PossPx.Sg1@ NounEnd_K ;
++PxSg20@U.PossPx.Sg2@:тЬ2@U.PossPx.Sg2@ NounEnd_K ;
++Dial+PxSg20@U.PossPx.Sg2@:нтЬ2@U.PossPx.Sg2@ NounEnd_K ;
++PxSg300@U.PossPx.Sg3@:нзО1@U.PossPx.Sg3@ NounEnd_K ;
++PxPl100@U.PossPx.Pl1@:нО1к@U.PossPx.Pl1@ NounEnd_K-lak ;
++PxPl20@U.PossPx.Pl2@:нк@U.PossPx.Pl2@ NounEnd_K-lak ;
++PxPl30@U.PossPx.Pl3@:ст@U.PossPx.Pl3@ NounEnd_K ;
++Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ NounEnd_K-lak ;
 
 
 !!!!!!!!!!!!!!!!!!!!!
@@ -1436,33 +1436,20 @@ LEXICON N-Poss-Declension-PossX_01
 
 LEXICON DefPl-Declension
 +Pl+Nom+Def@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@:тне@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@ kudo-NomPl-Conjugation ;
-+Pl+Gen+Def000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@:тне%>нь@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@ NounEnd_Clitic ;
-+Pl+DatCx+Def00000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@:тне%>нень@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@ NounEnd_Clitic ;
++Pl+Gen+Def000@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@:тне%>нь@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@ NounEnd_K ;
++Pl+DatCx+Def00000@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@:тне%>нень@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@ NounEnd_K ;
 +Pl+Abl+Def000@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.DEF@:тне%>де@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.DEF@ kudo-Conjugation ;
 +Pl+Ela+Def0000@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.DEF@:тне%>стэ@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.DEF@ kudo-Conjugation ;
-+Pl+Ill+Def00@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@:тне%>с@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@ NounEnd_Clitic ;
++Pl+Ill+Def00@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@:тне%>с@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@ NounEnd_K ;
 +Pl+Ine+Def000@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.DEF@:тне%>сэ@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.DEF@ kudo-Conjugation ;
 +Pl+Prl+Def000@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.DEF@:тне%>Г2а@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.DEF@ kudo-Conjugation ;
 +Pl+CompCx+Def0000@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.DEF@:тне%>шка@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.DEF@ kudo-Conjugation ;
-+Pl+Com+Def0000@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@:тне%>нек@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@ NounEnd_lak-Clitic ;
++Pl+Com+Def0000@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@:тне%>нек@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@ NounEnd_K-lak ;
 +Pl+Abe+Def000000@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.DEF@:тне%>втеме@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.DEF@ kudo-Conjugation ;
 +Pl+Tra+Def000@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.DEF@:тне%>кс@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.DEF@ osh-Conjugation ;
-+Pl+Lat+Def00@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@:тне%>в@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@ NounEnd_Clitic ;
-+Dial/NW+Pl+Com+Def000@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@:тне%>нек@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@ NounEnd_lak-Clitic ;
++Pl+Lat+Def00@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@:тне%>в@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@ NounEnd_K ;
++Dial/NW+Pl+Com+Def000@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@:тне%>нек@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@ NounEnd_K-lak ;
 
-
-
-LEXICON NounEnd_Clitic
- Clitic ;
- NounEnd ;
-
-LEXICON NounEnd_lak-Clitic
- lak-Clitic ;
- NounEnd ;
-
-LEXICON NounEnd
-+CollN%-@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@:0%-@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@ nouns ;
- 
 
 !!
 !
@@ -1488,8 +1475,8 @@ LEXICON SecondaryDeclination
 
 LEXICON SecondaryDeclination_1RequiresVowel
 +Sg+Def+Nom:сь  osh-Tenses1_Prep-SG ;
-+Sg+Def+Gen:нть Clitic ;
-+Sg+Def+DatCx:нтень Clitic ;
++Sg+Def+Gen:нть K ;
++Sg+Def+DatCx:нтень K ;
 +Sg+Tra+Def:%>кс osh-SecondaryDeclination_SgDet-PossPx ;
 
 LEXICON SecondaryDeclination_1RequiresNoVowel
@@ -1500,28 +1487,28 @@ LEXICON SecondaryDeclination_1RequiresNoVowel
 +Sg+Ela+Def:%>стО1 SecondaryDeclination_SgDet-PossPx ;
 +Sg+CompCx+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
 
- Clitic ;
-+Pl+Nom+InDef:%>тЬ2 Clitic ;
-+Pl+Nom+Def:%>тне Clitic ; 
-+Pl+Abl+Def:%>тне%>де Clitic ;
-+Pl+Abe+Def:%>тне%>с Clitic ;
-+Pl+CompCx+Def:%>тне%>шка Clitic ;
-+Pl+Gen+Def:%>тне%>нь Clitic ;
-+Pl+DatCx+Def:%>тне%>нень Clitic ;
-+Pl+Ill+Def:%>тне%>с Clitic ;
-+Pl+Ine+Def:%>тне%>сэ Clitic ;
-+Pl+Ela+Def:%>тне%>стэ Clitic ;
-+Pl+Tra+Def:%>тне%>кс Clitic ;
-+Pl+Prl+Def:%>тне%>ва Clitic ;
+ K ;
++Pl+Nom+InDef:%>тЬ2 K ;
++Pl+Nom+Def:%>тне K ; 
++Pl+Abl+Def:%>тне%>де K ;
++Pl+Abe+Def:%>тне%>с K ;
++Pl+CompCx+Def:%>тне%>шка K ;
++Pl+Gen+Def:%>тне%>нь K ;
++Pl+DatCx+Def:%>тне%>нень K ;
++Pl+Ill+Def:%>тне%>с K ;
++Pl+Ine+Def:%>тне%>сэ K ;
++Pl+Ela+Def:%>тне%>стэ K ;
++Pl+Tra+Def:%>тне%>кс K ;
++Pl+Prl+Def:%>тне%>ва K ;
 
 
 LEXICON SecondaryDeclination_SgDet-PossPx
-+Sg+Def:%>нть Clitic ; 
- Clitic ; 
++Sg+Def:%>нть K ; 
+ K ; 
 
 LEXICON osh-SecondaryDeclination_SgDet-PossPx
-+Sg+Def:%>О1нть Clitic ; 
- Clitic ; 
++Sg+Def:%>О1нть K ; 
+ K ; 
 
 
 !!!
@@ -1537,38 +1524,38 @@ LEXICON Nouns1_A
 +CompCx:%>О1шка kudo-Indef-DefSg-Poss ;
 +Prl:%>Г2а kudo-Indef-DefSg-Poss ;
 +Tra:%>О1кс osh-Indef-DefSg-Poss ;
-+Ill:%>О1з osh-Possessive-Before-Clitic ;
++Ill:%>О1з osh-Possessive-Before-K ;
 
-+TempCx+InDef:%>не Clitic ;
-+Lat+InDef:%>О1в Clitic ;
++TempCx+InDef:%>не K ;
++Lat+InDef:%>О1в K ;
 
-+DatCx+InDef:%>нень Clitic ;
-+DatCx+PxSg1:%>нень Clitic ;
-+DatCx+PxSg2:%>тень Clitic ;
-+DatCx+PxSg3:%>О1нстэнь Clitic ;
-+DatCx+PxPl3:%>О1нстэнь Clitic ;
++DatCx+InDef:%>нень K ;
++DatCx+PxSg1:%>нень K ;
++DatCx+PxSg2:%>тень K ;
++DatCx+PxSg3:%>О1нстэнь K ;
++DatCx+PxPl3:%>О1нстэнь K ;
 +Sg+Nom+Def:%>О1сь kal-Tenses-NomSg ;
-+Sg+Gen+Def:%>О1нть Clitic ;
-+Sg+DatCx+Def:%>О1нтень Clitic ;
++Sg+Gen+Def:%>О1нть K ;
++Sg+DatCx+Def:%>О1нтень K ;
 
 +Gen+InDef:%>О1нь kal-Tenses-Obl ;
-+Com+InDef:%>нек lak-Clitic ;
-+Dial+DatCx+PxSg2:%>теть Clitic ;
-+Dial+DatCx+PxSg2:%>те Clitic ;
-+Dial+DatCx+PxSg3:%>О1нстО1 Clitic ;
-+Dial+DatCx+PxPl3:%>О1нстО1 Clitic ;
-+Dial+DatCx+PxPl2:%>О1нстэнк lak-Clitic ;
-+Dial+DatCx+PxSg3:%>О1нстэнзэ Clitic ;
-+Dial+DatCx+PxPl3:%>О1нстэнст Clitic ;
-+Dial+DatCx+PxPl3:%>О1нстэст Clitic ;
++Com+InDef:%>нек K-lak ;
++Dial+DatCx+PxSg2:%>теть K ;
++Dial+DatCx+PxSg2:%>те K ;
++Dial+DatCx+PxSg3:%>О1нстО1 K ;
++Dial+DatCx+PxPl3:%>О1нстО1 K ;
++Dial+DatCx+PxPl2:%>О1нстэнк K-lak ;
++Dial+DatCx+PxSg3:%>О1нстэнзэ K ;
++Dial+DatCx+PxPl3:%>О1нстэнст K ;
++Dial+DatCx+PxPl3:%>О1нстэст K ;
 
-+Dial+Ill:%>з osh-Possessive-Before-Clitic ;
++Dial+Ill:%>з osh-Possessive-Before-K ;
 +Sg+Nom+PxSg3:%>зО1 kudo-Tenses-NomSg ;
 +Dial+Nom+PxPl1:%>нО1к lak-Tenses-NomSg ;
 +Dial+Gen+PxPl1:%>нО1к lak-Tenses-Obl ;
 +Dial+Sg+Nom+Def:%>сь kal-Tenses-NomSg ;
-+Dial+Sg+Gen+Def:%>сть Clitic ;
-+Dial+Sg+DatCx+Def:%>стень Clitic ;
++Dial+Sg+Gen+Def:%>сть K ;
++Dial+Sg+DatCx+Def:%>стень K ;
 
 
 LEXICON Possessive-NomGen
@@ -1604,29 +1591,29 @@ LEXICON Nouns1S_A_ReqVow
 +Ine:%>О1сО1 kudo-Indef-DefSg-Poss ;
 +Ela:%>О1стО1 kudo-Indef-DefSg-Poss ;
 +CompCx:%>О1шка kudo-Indef-DefSg-Poss ;
-+Ill:%>О1с Clitic ;
++Ill:%>О1с K ;
 
-+Lat+InDef:%>О1в Clitic ;
++Lat+InDef:%>О1в K ;
 
 
 +Ine:%>сО1 kudo-Indef-DefSg-Poss ;
 +Ela:%>стО1 kudo-Indef-DefSg-Poss ;
 +CompCx:%>шка kudo-Indef-DefSg-Poss ;
 +Tra:%>О1кс osh-Indef-DefSg-Poss ;
-+Ill:%>с Clitic ;
++Ill:%>с K ;
 
-+Dial+Sg+Gen+Def:%>О1сть Clitic ;
-+Dial+Sg+DatCx+Def:%>О1стень Clitic ;
-+DatCx+Px3:%>О1нстэнь Clitic ;
-+Dial+DatCx+Px3:%>О1нстО1 Clitic ;
-+Dial+DatCx+PxSg3:%>О1нстэнзэ Clitic ;
-+Dial+DatCx+PxPl3:%>О1нстэнст Clitic ;
-+Dial+DatCx+PxPl3:%>О1нстэст Clitic ;
++Dial+Sg+Gen+Def:%>О1сть K ;
++Dial+Sg+DatCx+Def:%>О1стень K ;
++DatCx+Px3:%>О1нстэнь K ;
++Dial+DatCx+Px3:%>О1нстО1 K ;
++Dial+DatCx+PxSg3:%>О1нстэнзэ K ;
++Dial+DatCx+PxPl3:%>О1нстэнст K ;
++Dial+DatCx+PxPl3:%>О1нстэст K ;
 
 
 +Sg+Nom+Def:%>О1сь kal-Tenses-NomSg ;
-+Sg+Gen+Def:%>О1нть Clitic ;
-+Sg+DatCx+Def:%>О1нтень Clitic ;
++Sg+Gen+Def:%>О1нть K ;
++Sg+DatCx+Def:%>О1нтень K ;
 +Gen+InDef:%>О1нь kal-Tenses-Obl ;
 
 
@@ -1636,17 +1623,17 @@ LEXICON Nouns1S_A_NoReqVow
 +Prl:%>Г2а kudo-Indef-DefSg-Poss ;
 +Abe:%>втО1мО1 kudo-Indef-DefSg-Poss ;
 
-+Dial+DatCx+PxSg2:%>теть Clitic ;
-+Dial+DatCx+PxSg2:%>те Clitic ;
-+DatCx+PxSg2:%>тень Clitic ;
-+DatCx+PxSg1:%>нень Clitic ;
++Dial+DatCx+PxSg2:%>теть K ;
++Dial+DatCx+PxSg2:%>те K ;
++DatCx+PxSg2:%>тень K ;
++DatCx+PxSg1:%>нень K ;
 
 
-+DatCx:%>нень Clitic ;
-+Com:%>нек lak-Clitic ;
-+TempCx:%>не Clitic ;
++DatCx:%>нень K ;
++Com:%>нек K-lak ;
++TempCx:%>не K ;
 !!This one would render voiceless "s"
-+Dial+Ill:%>з osh-Possessive-Before-Clitic ;
++Dial+Ill:%>з osh-Possessive-Before-K ;
 +Dial+Sg+Nom+PxSg3:%>зО1 kudo-Tenses-NomSg ;
 Nouns_Pl ;
 
@@ -1655,8 +1642,8 @@ Nouns_Pl ;
 
 
 LEXICON istja-Gen-Attributes
- Clitic ; !This means that stem is word final !!!
-+Abl+InDef:%>дО1 Clitic ;
+ K ; !This means that stem is word final !!!
++Abl+InDef:%>дО1 K ;
 +InDef+GenIndef:%>нь kal-Tenses-Obl ;
 +OrthOld+GenIndef+Der/се:%>н%> N2Dem-SE ;
 +OrthMorph+GenIndef+Der/се:%>нь N2Dem-SE ; ! _ь_ retension
@@ -1667,8 +1654,8 @@ LEXICON chop-Gen-Attributes
  pek-Gen-Attributes ;
 
 LEXICON pek-Gen-Attributes
- Clitic ; !This means that stem is word final !!!
-+Abl+InDef:%>дО1 Clitic ;
+ K ; !This means that stem is word final !!!
++Abl+InDef:%>дО1 K ;
 +InDef+GenIndef:%>О1нь kal-Tenses-Obl ;
 +OrthOld+GenIndef+Der/се:%>О1н%> N2Dem-SE ;
 +OrthMorph+GenIndef+Der/се:%>О1нь N2Dem-SE ; ! _ь_ retension
@@ -1681,7 +1668,7 @@ LEXICON pek-Gen-Attributes
 
 LEXICON kudo-Possessives2-Ill
  kudo-Possessives2 ;
-+NoVowX+Ill:%>з osh-Possessive-Before-Clitic ;
++NoVowX+Ill:%>з osh-Possessive-Before-K ;
 
 LEXICON kal-Possessives2
 :%>О1 Possessives2-PxSg1 ;
@@ -1753,7 +1740,7 @@ LEXICON kudo-Determinatives1
  kudo-Tenses-Obl ;
 
 LEXICON DemTag
-+Pron+Dem: Clitic ; 
++Pron+Dem: K ; 
 
 LEXICON alce-Dem 
 +Spat+Der/се: kudo-N2-Def-Declension ;
@@ -1773,31 +1760,31 @@ LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!POSSESSIVE marking followed by clitics!!!
 
-LEXICON osh-Possessive-Before-Clitic-or-Clitic 
- Clitic ;
- osh-Possessive-Before-Clitic ;
+LEXICON osh-Possessive-Before-K-or-K 
+ K ;
+ osh-Possessive-Before-K ;
 
-LEXICON kudo-Possessive-Before-Clitic-or-Clitic 
- Clitic ;
- kudo-Possessive-Before-Clitic ;
+LEXICON kudo-Possessive-Before-K-or-K 
+ K ;
+ kudo-Possessive-Before-K ;
 
 
-LEXICON osh-Possessive-Before-Clitic
-:%>О1 Possessive-Before-Clitic-noArrow ;
+LEXICON osh-Possessive-Before-K
+:%>О1 Possessive-Before-K-noArrow ;
 
-LEXICON kudo-Possessive-Before-Clitic
-:%> Possessive-Before-Clitic-noArrow ;
+LEXICON kudo-Possessive-Before-K
+:%> Possessive-Before-K-noArrow ;
 
-LEXICON Possessive-Before-Clitic-noArrow
-+PxSg1:нЬ2 Clitic ;
-+PxSg1+Dial:м Clitic ;
-+PxSg2:тЬ2 Clitic ;
-+PxSg2+Dial:нтЬ2 Clitic ;
-+PxSg3:нзО1 Clitic ;
-+PxPl1:нО1к lak-Clitic ;
-+PxPl2:нк lak-Clitic ;
-+PxPl3:ст Clitic ;
-+Dial+PxPl3:ск Clitic ;
+LEXICON Possessive-Before-K-noArrow
++PxSg1:нЬ2 K ;
++PxSg1+Dial:м K ;
++PxSg2:тЬ2 K ;
++PxSg2+Dial:нтЬ2 K ;
++PxSg3:нзО1 K ;
++PxPl1:нО1к K-lak ;
++PxPl2:нк K-lak ;
++PxPl3:ст K ;
++Dial+PxPl3:ск K ;
 
 
 LEXICON kudo-Possessive-Word-Final
