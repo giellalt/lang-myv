@@ -13,7 +13,7 @@
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ==================== !
-! The South Sámi clock !
+! The Erzya clock !
 ! ==================== !
 
 ! Note! This is NOT checked with native speakers nor
@@ -117,25 +117,22 @@ LEXICON BEFpunkt
 :%.+Use/NA BEF ;
 
 LEXICON AFTpunkt
-:%:+Use/NA AFT ; ! 2:00 = göökte
-:%.+Use/NA AFT ; ! 2.00 = göökte
-:+Use/NA HOUR ; ! 2 = göökte
+:%:+Use/NA AFT ; ! 2:00 = кавто
+:%.+Use/NA AFT ; ! 2.00 = кавто
+:+Use/NA HOUR ; ! 2 = кавто
 
 LEXICON BEF
-luhkie% :2%0 TOHALF ;
-uktsie% :21 TOHALF ;
-gaektsie% :22 TOHALF ;
-tjïjhtje% :23 TOHALF ;
-govhte% :24 TOHALF ;
-vïjhte% :25 TOHALF ; 
-njieljie% :26 TOHALF ; 
-njielje% :26+Use/NG TOHALF ; 
-nieljie% :26+Use/NG TOHALF ; 
-nielje% :26+Use/NG TOHALF ; 
-golme% :27 TOHALF ;
-göökte% :28 TOHALF ; 
-akte% :29 TOHALF ;
-bielie% :3%0 HOUR ;
+кемень% :2%0 TOHALF ;
+вейксэ% :21 TOHALF ;
+кавксо% :22 TOHALF ;
+сисем% :23 TOHALF ;
+кото% :24 TOHALF ;
+вете% :25 TOHALF ; 
+ниле% :26 TOHALF ; 
+колмо% :27 TOHALF ;
+кавто% :28 TOHALF ; 
+вейке% :29 TOHALF ;
+пель% :3%0 HOUR ;
 akte% :31 OVERHALF ;
 göökte% :32 OVERHALF ;
 golme% :33 OVERHALF ;
@@ -148,32 +145,26 @@ govhte% :36 OVERHALF ;
 tjïjhtje% :37 OVERHALF ;
 gaektsie% :38 OVERHALF ; 
 uktsie% :39 OVERHALF ;
-luhkie% :4%0 OVERHALF ;
-luhkieuktsie% :41 TO ;
-luhkiegaektsie% :42 TO ;
-luhkietjïjhtje% :43 TO ;
-luhkiegovhte% :44 TO ;
-njealjehts% :45 TO ;
-luhkienjieljie% :46 TO ;
-luhkienjielje% :46+Use/NG TO ;
-luhkienieljie% :46+Use/NG TO ;
-luhkienielje% :46+Use/NG TO ;
-luhkiegolme% :47 TO ;
-luhkiegöökte% :48 TO ;
-luhkieakte% :49 TO ;
-luhkie% :5%0 TO ;
-uktsie% :51 TO ;
-gaektsie% :52 TO ;
-tjïjhtje% :53 TO ;
-govhte% :54 TO ;
-vïjhte% :55 TO ; 
-njieljie% :56 TO ; 
-njielje% :56+Use/NG TO ;
-nieljie% :56+Use/NG TO ;
-nielje% :56+Use/NG TO ;
-golme% :57 TO ;
-göökte% :58 TO ; 
-akte% :59 TO ;
+комсь% :4%0 TO ;
+кемвейксэе% :41 TO ;
+кемкавксово% :42 TO ;
+кемсисемге% :43 TO ;
+кемкотово% :44 TO ;
+кемветее% :45 TO ;
+кемнилее% :46 TO ;
+кемколмово% :47 TO ;
+кемкавтово% :48 TO ;
+кемвейкее% :49 TO ;
+кемень% :5%0 TO ;
+вейксэ% :51 TO ;
+кавксо% :52 TO ;
+сисем% :53 TO ;
+кото% :54 TO ;
+вете% :55 TO ; 
+ниле% :56 TO ;
+колмо% :57 TO ;
+кавто% :58 TO ; 
+вейке% :59 TO ;
 
 LEXICON AFT
 :%0%0 HOUR ;
@@ -204,32 +195,31 @@ luhkiegaektsie% :18 OVER ;
 luhkieuktsie% :19 OVER ;
 
 LEXICON TOHALF
-åvtelen% bielie% : HOUR ;
-avtelen% bielie% :+Use/NG HOUR ;
+минуттомо% пель% : HOUR ;
+минутавтомо% пель% :+Use/NG HOUR ;
 
 LEXICON OVERHALF
 bijjelen% : bielie%  HOUR ;
 
 LEXICON TO
-åvtelen% : HOUR ;
-avtelen% :+Use/NG HOUR ; ! variant
+минуттомо% : HOUR ;
+минутавтомо% :+Use/NG HOUR ; ! variant
 
 LEXICON OVER
 bijjelen% : HOUR ;
 
 LEXICON HOUR
-@U.TIME.1@akte:@U.TIME.1@ # ;
-@U.TIME.2@göökte:@U.TIME.2@ # ;
-@U.TIME.3@golme:@U.TIME.3@ # ;
-@U.TIME.4@njieljie:@U.TIME.4@ # ;
-@U.TIME.4@njielje:@U.TIME.4@+Use/NG # ;
-@U.TIME.4@nieljie:@U.TIME.4@+Use/NG # ;
-@U.TIME.4@nielje:@U.TIME.4@+Use/NG # ;
-@U.TIME.5@vïjhte:@U.TIME.5@ # ;
-@U.TIME.6@govhte:@U.TIME.6@ # ;
-@U.TIME.7@tjïjhtje:@U.TIME.7@ # ;
-@U.TIME.8@gaektsie:@U.TIME.8@ # ;
-@U.TIME.9@uktsie:@U.TIME.9@ # ;
-@U.TIME.10@luhkie:@U.TIME.10@ # ;
-@U.TIME.11@luhkieakte:@U.TIME.11@ # ;
-@U.TIME.12@luhkiegöökte:@U.TIME.12@ # ;
+@U.TIME.1@вейке:@U.TIME.1@ # ;
+@U.TIME.2@кавто:@U.TIME.2@ # ;
+@U.TIME.3@колмо:@U.TIME.3@ # ;
+@U.TIME.4@ниле:@U.TIME.4@ # ;
+@U.TIME.5@вете:@U.TIME.5@ # ;
+@U.TIME.6@кото:@U.TIME.6@ # ;
+@U.TIME.7@сисем:@U.TIME.7@ # ;
+@U.TIME.8@кавксо:@U.TIME.8@ # ;
+@U.TIME.9@вейксэ:@U.TIME.9@ # ;
+@U.TIME.10@кемень:@U.TIME.10@ # ;
+@U.TIME.11@кемвейкее:@U.TIME.11@ # ;
+@U.TIME.11@кемвейкее:@U.TIME.11@+Use/NG # ;
+@U.TIME.12@кемкавтово:@U.TIME.12@ # ;
+@U.TIME.12@кемкавтово:@U.TIME.12@+Use/NG # ;
