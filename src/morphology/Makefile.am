@@ -39,7 +39,6 @@ GT_LEXC_SRCS=\
 #### GENERATED_LEXC_SRCS=stems/smi-$(GTLANG)-propernouns.lexc
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		stems/adjective-adverb-modifiers.lexc              \
 		stems/adjectives.lexc                              \
 		stems/adverbs.lexc                                 \
 		stems/bahuvrihis.lexc                              \
@@ -59,7 +58,6 @@ GENERATED_LEXC_SRCS=\
 #			stems/urj-Cyrl-$(GTLANG)-propernouns.lexc        
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		stems/adjective-adverb-modifiers.xml              \
 		stems/adjectives.xml                              \
 		stems/adverbs.xml                                 \
 		stems/bahuvrihis.xml                              \
