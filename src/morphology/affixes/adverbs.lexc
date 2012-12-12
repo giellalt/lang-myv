@@ -10,28 +10,28 @@ LEXICON AdvState-kudo_Sub
 +Use/Sub: AdvState-kudo ; 
 
 LEXICON AdvState-kudo
-+Adv+State: Clitic ;
++Adv+State: K ;
 +Adv+State+Der/Pr:%> StateConjugation-kudo ;
 +Adv+State+Der/MWN: N-kudo ;
 
 
 ! This is fed by AdvState
 LEXICON StateConjugation-kudo
-+Ind+NonPast+ScSg1:А2н Clitic ;
-+Dial+Ind+NonPast+ScSg1:ян Clitic ;
-+Ind+NonPast+ScSg2:А2т Clitic ;
-+Dial+Ind+NonPast+ScSg2:ят Clitic ;
-+Ind+NonPast+ScSg3: Clitic ;
-+Ind+Prt2+ScSg1:линь Clitic ;
-+Ind+Prt2+ScSg2:лить Clitic ;
-+Ind+Prt2+ScSg3:ль Clitic ;
++Ind+NonPast+ScSg1:А2н K ;
++Dial+Ind+NonPast+ScSg1:ян K ;
++Ind+NonPast+ScSg2:А2т K ;
++Dial+Ind+NonPast+ScSg2:ят K ;
++Ind+NonPast+ScSg3: K ;
++Ind+Prt2+ScSg1:линь K ;
++Ind+Prt2+ScSg2:лить K ;
++Ind+Prt2+ScSg3:ль K ;
 
-+Ind+NonPast+ScPl1:тА2но Clitic ;
-+Ind+NonPast+ScPl2:тА2до Clitic ;
-+Ind+NonPast+ScPl3:тЬ2 Clitic ;
-+Ind+Prt2+ScPl1:линек lak-Clitic ;
-+Ind+Prt2+ScPl2:лиде Clitic ;
-+Ind+Prt2+ScPl3:льть Clitic ;
++Ind+NonPast+ScPl1:тА2но K ;
++Ind+NonPast+ScPl2:тА2до K ;
++Ind+NonPast+ScPl3:тЬ2 K ;
++Ind+Prt2+ScPl1:линек K-lak ;
++Ind+Prt2+ScPl2:лиде K ;
++Ind+Prt2+ScPl3:льть K ;
 
 
 !LEXICON ABBR-IS_ADV
@@ -41,27 +41,27 @@ LEXICON Ad-ATag !
 +Adv+AdA: WORD-END ;
 
 LEXICON AdvTag ! 
-+Adv: Clitic ;
++Adv: K ;
 
 LEXICON Adv-kudo ! Coping with stem structure
  AdvTag ;
 
 ! истяк 
 LEXICON Adv-lak
- AdvTag ;
++Adv: K-lak ;
 
 LEXICON Adv_Phrase ! 
 +Adv: WORD-END ;
 
 LEXICON Adv-Ideoph ! 
-+Adv-Ideoph: Clitic ;
++Adv-Ideoph: K ;
 ! сорк, кальцк ; twang, thwang, bang
 
 LEXICON Adv-Ideoph-Ine ! 
-+Adv-Ideoph+Ine: Clitic ;
++Adv-Ideoph+Ine: K ;
 
 LEXICON Exclusive ! 
-+Adv+Exclusive: Clitic ;
++Adv+Exclusive: K ;
 
 LEXICON Adv-Ine ! 
 +Ine: AdvTag ;
@@ -70,114 +70,114 @@ LEXICON Adv-Tra !
 +Tra: AdvTag ;
 
 LEXICON MannerTag ! 
-+Adv+Manner: Clitic ;
++Adv+Manner: K ;
 
 LEXICON Manner-Interr ! 
-+Interr+Adv+Manner: Clitic ;
++Interr+Adv+Manner: K ;
 
 LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
-+Pred2: Clitic ;
++Pred2: K ;
 +Pred2+Der/MWN: N-kudo ;
 
 !! spatial adverbs 
 !! dependent and independent case marking 
 LEXICON Spat-NoArg
-+Adv+Spat: Clitic ;
++Adv+Spat: K ;
 
 LEXICON AdvSpat-Ela
-+Adv+Ela: Clitic ;
++Adv+Ela: K ;
 
 LEXICON AdvSpat-Ill
-+Adv+Ill: Clitic ;
++Adv+Ill: K ;
 
 LEXICON AdvSpat-Ine
-+Adv+Ine: Clitic ;
++Adv+Ine: K ;
 +Adv+Ine: kudo-NomSg-Conjugation-only ;
 +Adv+Ine: kudo-NomPl-Conjugation-only-mutual ;
 
 LEXICON AdvSpat-Lat
-+Adv+Lat: Clitic ;
++Adv+Lat: K ;
 
 LEXICON AdvSpat-Prl
-+Adv+Prl: Clitic ;
++Adv+Prl: K ;
 
 LEXICON Spat-Interr
 +Interr+Spat: WORD-END ;
 
 LEXICON SpatTag
-+Adv+Spat: Clitic ;
++Adv+Spat: K ;
 
 LEXICON Spat-Ela
-+Adv+Spat+Ela: Clitic ;
-+Po+Spat+Ela: kudo-Possessive-Before-Clitic ;
++Adv+Spat+Ela: K ;
++Po+Spat+Ela: kudo-Possessive-Before-K ;
 
 LEXICON Spat-Ine
-+Spat+Ine: Clitic ;
-+Po+Spat+Ine: kudo-Possessive-Before-Clitic ;
++Spat+Ine: K ;
++Po+Spat+Ine: kudo-Possessive-Before-K ;
 
 LEXICON Spat-Lat
-+Spat+Lat: Clitic ;
++Spat+Lat: K ;
 
 LEXICON Spat-Prl
-+Spat+Prl: Clitic ;
-+Po+Spat+Prl: kudo-Possessive-Before-Clitic ;
++Spat+Prl: K ;
++Po+Spat+Prl: kudo-Possessive-Before-K ;
 
 !!Temporal tags with cases
 LEXICON TempTag
-+Adv+Temp: Clitic ;
++Adv+Temp: K ;
 
 !! This marking would indicate a word form that may be 
 !  construed as an adv as well as a adposition.
 LEXICON Temp-NoArg
-+Adv+Temp: Clitic ;
++Adv+Temp: K ;
 
 LEXICON Temp-Coll
-+Coll+Adv+Temp: Clitic ;
++Coll+Adv+Temp: K ;
 
 LEXICON Temp-Distr
-+Distr+Adv+Temp: Clitic ;
++Distr+Adv+Temp: K ;
 
 LEXICON Temp-Ela
-+Ela+Adv+Temp: Clitic ;
++Ela+Adv+Temp: K ;
 
 LEXICON Temp-Ill
-+Ill+Adv+Temp: Clitic ;
++Ill+Adv+Temp: K ;
 
 LEXICON Temp-Indef
-+Adv+Temp+InDef: Clitic ;
++Adv+Temp+InDef: K ;
 
 LEXICON Temp-Interr
-+Adv+Temp+Interr: Clitic ;
++Adv+Temp+Interr: K ;
 
 LEXICON Temp-Lat
-+Lat+Adv+Temp: Clitic ;
++Lat+Adv+Temp: K ;
 
 LEXICON Temp-ms
-+Der/мс+Ill+Adv+Temp: Clitic ;
++Der/мс+Ill+Adv+Temp: K ;
 
 LEXICON Temp-Pl
-+Pl+Adv+Temp: Clitic ;
++Pl+Adv+Temp: K ;
 
 LEXICON Temp-Prl
-+Prl+Adv+Temp: Clitic ;
++Prl+Adv+Temp: K ;
 
 LEXICON Temp-Temp
-+Temp+Adv+Temp: Clitic ;
++Temp+Adv+Temp: K ;
 
-LEXICON lak-N-Temp
-+Adv+Temp: Clitic ;
+LEXICON Adv-lak_temp
++Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N-lak ;
 
-LEXICON kit-N-Temp
-+Adv+Temp: Clitic ;
+LEXICON Adv-kit_temp
++Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N-kit ;
 
-LEXICON kudo-N-Temp
-+Adv+Temp: Clitic ;
+LEXICON Adv-kudo_temp
++Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N-kudo ;
 
 LEXICON Temp-1Arg-Ela
-+Po+Ela+Temp: Clitic ; !This will require Possessor Indices
++Po+Ela+Temp: K ; !This will require Possessor Indices
 
 
 

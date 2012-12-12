@@ -50,26 +50,26 @@ LEXICON PropNameMaleDer-Ovich
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Абдеев:Абдеев
 LEXICON Deriv-RUS-V-surmal
-: PropSurMal-kal ;
-:а PropSurFem-kudo ;
+: Prop-kal_surMal ;
+:а Prop-kudo_surFem ;
 
 !! Багрий:Багр
 LEXICON Deriv-RUS-IJ-surmal
-:ий PropSurMal-kal ;
-:яя PropSurFem-kudo ;
+:ий Prop-kal_surMal ;
+:яя Prop-kudo_surFem ;
 
 !! Аморский:Аморск
 LEXICON Deriv-RUS-KIJ-surmal
-:ий PropSurMal-kal ;
-:ая PropSurFem-kudo ;
+:ий Prop-kal_surMal ;
+:ая Prop-kudo_surFem ;
 
 LEXICON Deriv-RUS-OJ-surmal
-:ой PropSurMal-kal ;
-:ая PropSurFem-kudo ;
+:ой Prop-kal_surMal ;
+:ая Prop-kudo_surFem ;
 
 LEXICON Deriv-RUS-YJ-surmal
-:ый PropSurMal-kal ;
-:ая PropSurFem-kudo ;
+:ый Prop-kal_surMal ;
+:ая Prop-kudo_surFem ;
 
 LEXICON Deriv-RUS-AN-surmal
  Deriv-RUS-V-surmal ;
@@ -78,52 +78,52 @@ LEXICON Deriv-RUS-IN-surmal
  Deriv-RUS-V-surmal ;
 
 
-LEXICON PropSurMal-kal
+LEXICON Prop-kal_surMal
 +N+Prop+Sur+Mal: kal-N-Derivation ;
 +N+Prop+Sur+Mal: kal-N-Def-Declension ;
 +N+Prop+Sur+Mal: kal-Indef-Declension ;
 +N+Prop+Sur+Mal: kal-N-Poss-Declension-CX ;
 
-LEXICON PropSurFem-kudo
+LEXICON Prop-kudo_surFem
 +N+Prop+Sur+Fem: kudo-N-Derivation ;
 +N+Prop+Sur+Fem: kudo-N-Def-Declension ;
 +N+Prop+Sur+Fem: kudo-Indef-Declension ;
 +N+Prop+Sur+Fem: kudo-N-Poss-Declension-CX ;
 
 LEXICON CYRL-Cons-sur
- PropSur-kal ;
+ Prop-kal_sur ;
 
-LEXICON PropSur-kal
+LEXICON Prop-kal_sur
 +N+Prop+Sur: kal-N-Derivation ;
 +N+Prop+Sur: kal-N-Def-Declension ;
 +N+Prop+Sur: kal-Indef-Declension ;
 +N+Prop+Sur: kal-N-Poss-Declension-CX ;
 
 LEXICON CYRL-T-sur
- PropSur-kit ;
+ Prop-kit_sur ;
 
-LEXICON PropSur-kit
- PropSur-kal ;
+LEXICON Prop-kit_sur
+ Prop-kal_sur ;
 
 LEXICON CYRL-K-sur
- PropSur-lak ;
+ Prop-lak_sur ;
 
-LEXICON PropSur-lak
- PropSur-kal ;
+LEXICON Prop-lak_sur
+ Prop-kal_sur ;
 
 LEXICON CYRL-Sibilant-sur
- PropSur-osh ;
+ Prop-osh_sur ;
 
-LEXICON PropSur-osh
+LEXICON Prop-osh_sur
 +N+Prop+Sur: N-osh_01 ;
 
 LEXICON CYRL-Vow-sur
- PropSur-kudo ;
+ Prop-kudo_sur ;
 
 LEXICON CYRL-A-sur
- PropSur-kudo ;
+ Prop-kudo_sur ;
 
-LEXICON PropSur-kudo
+LEXICON Prop-kudo_sur
 +N+Prop+Sur: N-kudo_01 ;
 
 
@@ -148,12 +148,16 @@ LEXICON Prop-kal_settlement
 +N+Prop+Plc:%>О1 LAT-INDEF ;
 +N+Prop+Plc: N-kal_01 ;
 
+LEXICON Prop-kit_settlement
++N+Prop+Plc:%>О1 LAT-INDEF ;
++N+Prop+Plc: N-kit_01 ;
+
 LEXICON Prop-osh_settlement
 +N+Prop+Plc:%>О1 LAT-INDEF ;
 +N+Prop+Plc: N-osh_01 ;
 
 LEXICON Prop-kudo_settlement
-+N+Prop+Plc: LAT-INDEF ;
++N+Prop+Plc:%> LAT-INDEF ;
 +N+Prop+Plc: N-kudo_01 ;
 
 !!!!!!!!!!!!!!!!

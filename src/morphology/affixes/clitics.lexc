@@ -7,13 +7,47 @@
 ! Clitics !
 ! ======= !
 
-LEXICON lak-Clitic
+LEXICON K-lak
 +Use/Sub+Orth/SH+Foc/Гак:%>KLossГ1ак WORD-END ;
- Clitic ;
+ K ;
 
-LEXICON Clitic
+LEXICON K
             WORD-END ; 
 +Foc/Гак:%>Г1ак WORD-END ;
+
+LEXICON Ks
++Use/Sub@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ WORD-END ;
++Foc/Гак:%>Г1ак WORD-END ;
+   WORD-END ; ! No clitics
+
+!!
+
+
+LEXICON NounEnd_K
+ K ;
+ NounEnd ;
+
+LEXICON NounEnd_K-lak
+ K-lak ;
+ NounEnd ;
+
+LEXICON NounEnd
++CollN%-@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@:0%-@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@ nouns ;
+ 
+
+!!
+LEXICON VerbEnd_K
+ K ;
+ VerbEnd ;
+
+LEXICON VerbEnd_K-lak
+ K-lak ;
+ VerbEnd ;
+
+LEXICON VerbEnd
++SerialVerb:%- verbs ;
+
+!!
 
 !!!!!!!!!
 !! END !!

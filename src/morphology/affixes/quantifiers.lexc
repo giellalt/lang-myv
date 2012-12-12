@@ -150,13 +150,13 @@ LEXICON Num-kudo
 +Qnt+NCrd+Der/MWN: N-kudo ;
  NumOrd-kudo ;
 +Qnt+NCrd+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Qnt+NCrd+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
-+Qnt+NCrd+Appr++AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
++Qnt+NCrd+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
++Qnt+NCrd+Appr++AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
 +Qnt+NCrd+AssocColl:%>не kudo-Possessives2-Ill ;
 +Qnt+NCrd+Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
-+Qnt+NCrd+AssocColl:%>не kudo-Possessive-Before-Clitic ;
-+Qnt+NCrd+Iter:%>ксть Clitics ;
-+Qnt+NCrd+Appr+Iter:%>шкаксть Clitics ;
++Qnt+NCrd+AssocColl:%>не kudo-Possessive-Before-K ;
++Qnt+NCrd+Iter:%>ксть Ks ;
++Qnt+NCrd+Appr+Iter:%>шкаксть Ks ;
 
 LEXICON NumOrd-kudo
 +Qnt+NOrd:%>це WORD-END ;
@@ -176,7 +176,7 @@ LEXICON NumApproxTag
 
 LEXICON Card-2
  Cards-1-2 ;
-+Qnt+Num+Lat:%>в Clitic ;
++Qnt+Num+Lat:%>в K ;
 !!
 LEXICON Cards-1-2
 +Qnt+Num: WORD-END ;
@@ -191,27 +191,27 @@ LEXICON IterTag_sub
 +Use/Sub: IterTag ;
 
 LEXICON IterTag
-+Qnt+Iter: Clitic ;
++Qnt+Iter: K ;
 !! once, twice; весть, кавксть, аламоксть
 
 LEXICON Iter-Indef
-+Qnt+Iter+InDef: Clitic ;
++Qnt+Iter+InDef: K ;
 
 LEXICON OrdTag
-+Qnt+Ord: Clitic ;
++Qnt+Ord: K ;
 
 LEXICON Adv-Ord
-+Qnt+Ord+Adv: Clitic ;
++Qnt+Ord+Adv: K ;
 !! васняяк 'first of all'
 
 LEXICON QntTag
-+Qnt: Clitic ;
++Qnt: K ;
 
 LEXICON Qnt-lamo
  Qnt-kudo ;
 
 LEXICON Qnt-kudo
-+Qnt: Clitic ;
++Qnt: K ;
 +Qnt+Der/MWN: N-kudo ;
 +Qnt: kudo-NomPl-Conjugation-only-mutual ; ! ламольть
 
@@ -219,10 +219,10 @@ LEXICON Qnt-Adn
 +Qnt+Adn: WORD-END ;
 
 LEXICON Qnt-Distr
-+Qnt+Distr: Clitic ;
++Qnt+Distr: K ;
 
 LEXICON Qnt-Indef
-+Qnt+InDef: Clitic ;
++Qnt+InDef: K ;
 
 LEXICON Qnt-veseme
 +Qnt+Adn: WORD-END ;
@@ -242,15 +242,15 @@ LEXICON Qnt-veseme
 +Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-ABL-DEF ;
 +Qnt+Pron@P.POS.PRON@:%>@P.POS.PRON@ SG-INE-DEF ;
 
-+Qnt+Pron+Sg+Nom+PxSg3:%>зэ Clitic ;
-+Qnt+Pron+Sg+Gen+PxSg3:%>нзэ Clitic ;
-+Qnt+Pron+Sg+Nom+PxPl2:%>нк Clitic ;
-+Qnt+Pron+Sg+Gen+PxPl2:%>нк Clitic ;
-+Qnt+Pron+Sg+Abl+PxPl2:%>дО1%>нк Clitic ;
-+Qnt+Pron+Sg+Nom+PxPl3:%>ст Clitic ;
-+Qnt+Pron+Sg+Gen+PxPl3:%>ст Clitic ;
-+Qnt+Pron+Sg+Abl+PxPl3:%>дО1%>ст Clitic ;
-+Qnt+Pron+Sg+Ela+PxPl3:%>стО1%>ст Clitic ;
++Qnt+Pron+Sg+Nom+PxSg3:%>зэ K ;
++Qnt+Pron+Sg+Gen+PxSg3:%>нзэ K ;
++Qnt+Pron+Sg+Nom+PxPl2:%>нк K ;
++Qnt+Pron+Sg+Gen+PxPl2:%>нк K ;
++Qnt+Pron+Sg+Abl+PxPl2:%>дО1%>нк K ;
++Qnt+Pron+Sg+Nom+PxPl3:%>ст K ;
++Qnt+Pron+Sg+Gen+PxPl3:%>ст K ;
++Qnt+Pron+Sg+Abl+PxPl3:%>дО1%>ст K ;
++Qnt+Pron+Sg+Ela+PxPl3:%>стО1%>ст K ;
 
 
 LEXICON kudo-NUM
@@ -294,24 +294,24 @@ LEXICON Cards-kudo
 LEXICON Quants2
  Quants3 ;
 +Coll+Attr@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Clitics ;
-+Appr+AssocColl@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Clitics ;
++AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
++Appr+AssocColl@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
 +AssocColl:%>не kudo-Possessives2-Ill ;
 +Appr+AssocColl:%>шкане kudo-Possessives2-Ill ;
-+AssocColl:%>не kudo-Possessive-Before-Clitic ;
-+Iter:%>ксть Clitics ;
-+Iter:%>О1ксть Clitics ;
-+Appr+Iter:%>шкаксть Clitics ;
-+Appr+Iter:%>О1шкаксть Clitics ;
++AssocColl:%>не kudo-Possessive-Before-K ;
++Iter:%>ксть Ks ;
++Iter:%>О1ксть Ks ;
++Appr+Iter:%>шкаксть Ks ;
++Appr+Iter:%>О1шкаксть Ks ;
 
 LEXICON Quants3
-!Cx PossPx Tx PredPx Clitic
-!Cases1 Possessives1 Tenses1 PredPersons1 Clitics
+!Cx PossPx Tx PredPx K
+!Cases1 Possessives1 Tenses1 PredPersons1 Ks
 +Indet+Sg+Nom: Tenses1 ;
 +Sg+Nom+PxSg3:%>О1зО1 kudo-Tenses1 ;
 +Sg+Nom+PxSg3:%>зО1 kudo-Tenses1 ;
-+Indet+Lat:%>О1в Clitics ;
-+Indet+Lat:%>в Clitics ;
++Indet+Lat:%>О1в Ks ;
++Indet+Lat:%>в Ks ;
 
 
 +Sg+Nom+PxSg1:%>м kal-Tenses1 ;
@@ -371,57 +371,57 @@ LEXICON Quants3
 
 +Sg+Nom+Def:%>сь osh-Tenses1 ;
 +Sg+Nom+Def:%>О1сь osh-Tenses1 ;
-+Sg+Gen+Def:%>нть Clitics ;
-+Sg+DatCx+Def:%>нтень Clitics ;
-+Sg+Gen+Def:%>О1нть Clitics ;
-+Sg+DatCx+Def:%>О1нтень Clitics ;
-+Ill:%>з osh-Possessive-Before-Clitic ;
-+Ill:%>О1з osh-Possessive-Before-Clitic ;
++Sg+Gen+Def:%>нть Ks ;
++Sg+DatCx+Def:%>нтень Ks ;
++Sg+Gen+Def:%>О1нть Ks ;
++Sg+DatCx+Def:%>О1нтень Ks ;
++Ill:%>з osh-Possessive-Before-K ;
++Ill:%>О1з osh-Possessive-Before-K ;
 
 +Pl+Nom+InDef:%>VLossтЬ2 kit-Tenses1 ;
 +Pl+Nom+InDef:%>NoVLossтЬ2 kit-Tenses1 ;
 +Pl+Nom+Def:%>тне kudo-Tenses1 ;
 
-+Abl:%>дО1 kudo-Possessive-Before-Clitic ;
-+Abl:%>О1дО1 kudo-Possessive-Before-Clitic ;
++Abl:%>дО1 kudo-Possessive-Before-K ;
++Abl:%>О1дО1 kudo-Possessive-Before-K ;
 +Gen:%>нь kal-Tenses1 ;
-+DatCx:%>нень Clitics ;
-+Ill:%>с Clitics ;
++DatCx:%>нень Ks ;
++Ill:%>с Ks ;
 +Gen:%>О1нь kal-Tenses1 ;
-+Ill:%>О1с Clitics ;
++Ill:%>О1с Ks ;
 
-+Sg+Prl+Def:%>Г2а%>нть Clitics ;
-+Sg+Abe+Def:%>втО1мО1%>нть Clitics ;
-+Sg+Abl+Def:%>дО1%>нть Clitics ;
-+Sg+Tra+Def:%>кс%>О1нть Clitics ;
-+Sg+Ine+Def:%>сО1%>нть Clitics ;
-+Sg+Ela+Def:%>стО1%>нть Clitics ;
-+Sg+CompCx+Def:%>шка%>нть Clitics ;
-+Sg+Tra+Def:%>О1кс%>О1нть Clitics ;
-+Sg+Ine+Def:%>О1сО1%>нть Clitics ;
-+Sg+Ela+Def:%>О1стО1%>нть Clitics ;
-+Sg+CompCx+Def:%>О1шка%>нть Clitics ;
-+Pl+Abl+Def:%>тне%>де Clitics ;
-+Pl+Gen+Def:%>тне%>нь Clitics ;
-+Pl+DatCx+Def:%>тне%>нень Clitics ;
-+Pl+Ill+Def:%>тне%>с Clitics ;
++Sg+Prl+Def:%>Г2а%>нть Ks ;
++Sg+Abe+Def:%>втО1мО1%>нть Ks ;
++Sg+Abl+Def:%>дО1%>нть Ks ;
++Sg+Tra+Def:%>кс%>О1нть Ks ;
++Sg+Ine+Def:%>сО1%>нть Ks ;
++Sg+Ela+Def:%>стО1%>нть Ks ;
++Sg+CompCx+Def:%>шка%>нть Ks ;
++Sg+Tra+Def:%>О1кс%>О1нть Ks ;
++Sg+Ine+Def:%>О1сО1%>нть Ks ;
++Sg+Ela+Def:%>О1стО1%>нть Ks ;
++Sg+CompCx+Def:%>О1шка%>нть Ks ;
++Pl+Abl+Def:%>тне%>де Ks ;
++Pl+Gen+Def:%>тне%>нь Ks ;
++Pl+DatCx+Def:%>тне%>нень Ks ;
++Pl+Ill+Def:%>тне%>с Ks ;
 
-+Prl:%>Г2а kudo-Possessive-Before-Clitic ;
-+Abe:%>втО1мО1 kudo-Possessive-Before-Clitic ;
-+Tra:%>кс osh-Possessive-Before-Clitic ;
-+Ine:%>сО1 kudo-Possessive-Before-Clitic ;
-+Ela:%>стО1 kudo-Possessive-Before-Clitic ;
-+CompCx:%>шка kudo-Possessive-Before-Clitic ;
-+CompCx+Com:%>шкане kudo-Possessive-Before-Clitic ;
-+Tra:%>О1кс osh-Possessive-Before-Clitic ;
-+Ine:%>О1сО1 kudo-Possessive-Before-Clitic ;
-+Ela:%>О1стО1 kudo-Possessive-Before-Clitic ;
-+CompCx:%>О1шка kudo-Possessive-Before-Clitic ;
-+CompCx+Com:%>О1шкане kudo-Possessive-Before-Clitic ;
++Prl:%>Г2а kudo-Possessive-Before-K ;
++Abe:%>втО1мО1 kudo-Possessive-Before-K ;
++Tra:%>кс osh-Possessive-Before-K ;
++Ine:%>сО1 kudo-Possessive-Before-K ;
++Ela:%>стО1 kudo-Possessive-Before-K ;
++CompCx:%>шка kudo-Possessive-Before-K ;
++CompCx+Com:%>шкане kudo-Possessive-Before-K ;
++Tra:%>О1кс osh-Possessive-Before-K ;
++Ine:%>О1сО1 kudo-Possessive-Before-K ;
++Ela:%>О1стО1 kudo-Possessive-Before-K ;
++CompCx:%>О1шка kudo-Possessive-Before-K ;
++CompCx+Com:%>О1шкане kudo-Possessive-Before-K ;
 
 +Pl+Prl+Def:%>тне%>ва kudo-Tenses1 ;
 +Pl+Abe+Def:%>тне%>втеме kudo-Tenses1 ;
-+Pl+Tra+Def:%>тне%>кс Clitics ;
++Pl+Tra+Def:%>тне%>кс Ks ;
 +Pl+Ine+Def:%>тне%>сэ kudo-Tenses1 ;
 +Pl+Ela+Def:%>тне%>стэ kudo-Tenses1 ;
 +Pl+CompCx+Def:%>тне%>шка kudo-Tenses1 ;
@@ -447,14 +447,14 @@ LEXICON Quants3
 
 LEXICON Quants3_TLOSS
 +Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ kudo-Tenses1 ;
-+Pl+Abl+Def@C.TLOSS@:%>неде@C.TLOSS@ Clitics ;
-+Pl+Gen+Def@C.TLOSS@:%>нень@C.TLOSS@ Clitics ;
-+Pl+DatCx+Def@C.TLOSS@:%>ненень@C.TLOSS@ Clitics ;
-+Pl+Ill+Def@C.TLOSS@:%>нес@C.TLOSS@ Clitics ;
++Pl+Abl+Def@C.TLOSS@:%>неде@C.TLOSS@ Ks ;
++Pl+Gen+Def@C.TLOSS@:%>нень@C.TLOSS@ Ks ;
++Pl+DatCx+Def@C.TLOSS@:%>ненень@C.TLOSS@ Ks ;
++Pl+Ill+Def@C.TLOSS@:%>нес@C.TLOSS@ Ks ;
 
 +Pl+Prl+Def@C.TLOSS@:%>нева@C.TLOSS@ kudo-Tenses1 ;
 +Pl+Abe+Def@C.TLOSS@:%>невтеме@C.TLOSS@ kudo-Tenses1 ;
-+Pl+Tra+Def@C.TLOSS@:%>некс@C.TLOSS@ Clitics ;
++Pl+Tra+Def@C.TLOSS@:%>некс@C.TLOSS@ Ks ;
 +Pl+Ine+Def@C.TLOSS@:%>несэ@C.TLOSS@ kudo-Tenses1 ;
 +Pl+Ela+Def@C.TLOSS@:%>нестэ@C.TLOSS@ kudo-Tenses1 ;
 +Pl+CompCx+Def@C.TLOSS@:%>нешка@C.TLOSS@ kudo-Tenses1 ;
@@ -469,48 +469,48 @@ LEXICON Quants3_TLOSS
 !LEXICON Attributes1
 ! Attributes2 ;
 !+Pl+Nom+InDef:%>тЬ2  kit-Tenses1 ;
-!+Sg+Ela+InDef:%>стО1 Clitics ;
-!+Sg+Tra+InDef:%>кс Clitics ;
-!+Pl+Ela+InDef:%>стО1 Clitics ;
-!+Pl+Tra+InDef:%>кс Clitics ;
-!+Sg+Nom+InDef: Clitics ;
+!+Sg+Ela+InDef:%>стО1 Ks ;
+!+Sg+Tra+InDef:%>кс Ks ;
+!+Pl+Ela+InDef:%>стО1 Ks ;
+!+Pl+Tra+InDef:%>кс Ks ;
+!+Sg+Nom+InDef: Ks ;
 
 
 LEXICON kudo-Attributes2
 +Der/MWN+N+Sg+Nom+Def:%>сь osh-Tenses1 ;
-+Der/MWN+N+Sg+Gen+Def:%>нть Clitics ;
-+Der/MWN+N+Sg+DatCx+Def:%>нтень Clitics ;
++Der/MWN+N+Sg+Gen+Def:%>нть Ks ;
++Der/MWN+N+Sg+DatCx+Def:%>нтень Ks ;
 +Der/MWN+N+Pl+Nom+InDef:%>тЬ2 kit-Tenses1 ;
 +Der/MWN+N+Pl+Nom+Def:%>тне kudo-Tenses1 ;
 +Der/MWN+N+Gen+InDef:%>нь kal-Tenses1 ;
-+Der/MWN+N+Sg+Prl+Def:%>Г2а%>нть Clitics ;
-+Der/MWN+N+Sg+Abe+Def:%>втО1мО1%>нть Clitics ;
-+Der/MWN+N+Sg+Abl+Def:%>дО1%>нть Clitics ;
-+Der/MWN+N+Sg+Tra+Def:%>кс%>О1нть Clitics ;
-+Der/MWN+N+Sg+Ine+Def:%>сО1%>нть Clitics ;
-+Der/MWN+N+Sg+Ela+Def:%>стО1%>нть Clitics ;
-+Der/MWN+N+Sg+CompCx+Def:%>шка%>нть Clitics ;
++Der/MWN+N+Sg+Prl+Def:%>Г2а%>нть Ks ;
++Der/MWN+N+Sg+Abe+Def:%>втО1мО1%>нть Ks ;
++Der/MWN+N+Sg+Abl+Def:%>дО1%>нть Ks ;
++Der/MWN+N+Sg+Tra+Def:%>кс%>О1нть Ks ;
++Der/MWN+N+Sg+Ine+Def:%>сО1%>нть Ks ;
++Der/MWN+N+Sg+Ela+Def:%>стО1%>нть Ks ;
++Der/MWN+N+Sg+CompCx+Def:%>шка%>нть Ks ;
  Attributes2_PL ;
 
 LEXICON osh-Attributes2
 +Der/MWN+N+Sg+Nom+Def:%>О1сь osh-Tenses1 ;
-+Der/MWN+N+Sg+Gen+Def:%>О1нть Clitics ;
-+Der/MWN+N+Sg+DatCx+Def:%>О1нтень Clitics ;
++Der/MWN+N+Sg+Gen+Def:%>О1нть Ks ;
++Der/MWN+N+Sg+DatCx+Def:%>О1нтень Ks ;
 +Der/MWN+N+Gen+InDef:%>О1нь kal-Tenses1 ;
-+Der/MWN+N+Sg+Tra+Def:%>О1кс%>О1нть Clitics ;
-+Der/MWN+N+Sg+Ine+Def:%>О1сО1%>нть Clitics ;
-+Der/MWN+N+Sg+Ela+Def:%>О1стО1%>нть Clitics ;
-+Der/MWN+N+Sg+CompCx+Def:%>О1шка%>нть Clitics ;
++Der/MWN+N+Sg+Tra+Def:%>О1кс%>О1нть Ks ;
++Der/MWN+N+Sg+Ine+Def:%>О1сО1%>нть Ks ;
++Der/MWN+N+Sg+Ela+Def:%>О1стО1%>нть Ks ;
++Der/MWN+N+Sg+CompCx+Def:%>О1шка%>нть Ks ;
  Attributes2_PL ;
 
 LEXICON Attributes2_PL
-+Der/MWN+N+Pl+Abl+Def:%>тне%>де Clitics ;
-+Der/MWN+N+Pl+Gen+Def:%>тне%>нь Clitics ;
-+Der/MWN+N+Pl+DatCx+Def:%>тне%>нень Clitics ;
-+Der/MWN+N+Pl+Ill+Def:%>тне%>с Clitics ;
++Der/MWN+N+Pl+Abl+Def:%>тне%>де Ks ;
++Der/MWN+N+Pl+Gen+Def:%>тне%>нь Ks ;
++Der/MWN+N+Pl+DatCx+Def:%>тне%>нень Ks ;
++Der/MWN+N+Pl+Ill+Def:%>тне%>с Ks ;
 +Der/MWN+N+Pl+Prl+Def:%>тне%>ва kudo-Tenses1 ;
 +Der/MWN+N+Pl+Abe+Def:%>тне%>втеме kudo-Tenses1 ;
-+Der/MWN+N+Pl+Tra+Def:%>тне%>кс Clitics ;
++Der/MWN+N+Pl+Tra+Def:%>тне%>кс Ks ;
 +Der/MWN+N+Pl+Ine+Def:%>тне%>сэ kudo-Tenses1 ;
 +Der/MWN+N+Pl+Ela+Def:%>тне%>стэ kudo-Tenses1 ;
 +Der/MWN+N+Pl+CompCx+Def:%>тне%>шка kudo-Tenses1 ;
@@ -521,31 +521,26 @@ LEXICON Attributes2_PL
 
 
 LEXICON Tenses1
-+Der/Pr+Prs+ScSg1:%>А2н Clitics ;
-+Der/Pr+Prs+ScSg2:%>А2т Clitics ;
-+Der/Pr+Prs+ScPl1:%>тА2но Clitics ;
-+Der/Pr+Prs+ScPl2:%>тА2до Clitics ;
++Der/Pr+Prs+ScSg1:%>А2н Ks ;
++Der/Pr+Prs+ScSg2:%>А2т Ks ;
++Der/Pr+Prs+ScPl1:%>тА2но Ks ;
++Der/Pr+Prs+ScPl2:%>тА2до Ks ;
 
-+Der/Pr+Prt2+ScSg1:%>линь Clitics ;
-+Der/Pr+Prt2+ScSg2:%>лить Clitics ;
-+Der/Pr+Prt2+ScSg3:%>ль Clitics ;
-+Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>линек@P.KLOSS.ON@ Clitics ;
-+Der/Pr+Prt2+ScPl2:%>лиде Clitics ;
-+Der/Pr+Prt2+ScPl3:%>льть Clitics ;
-+Use/Sub+Der/Pr+Prs+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Clitics ;
-+Use/Sub+Der/Pr+Prs+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Clitics ;
++Der/Pr+Prt2+ScSg1:%>линь Ks ;
++Der/Pr+Prt2+ScSg2:%>лить Ks ;
++Der/Pr+Prt2+ScSg3:%>ль Ks ;
++Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>линек@P.KLOSS.ON@ Ks ;
++Der/Pr+Prt2+ScPl2:%>лиде Ks ;
++Der/Pr+Prt2+ScPl3:%>льть Ks ;
++Use/Sub+Der/Pr+Prs+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Ks ;
++Use/Sub+Der/Pr+Prs+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Ks ;
 
-+Der/Pr+Prt2+ScSg1:%>О1линь Clitics ;
-+Der/Pr+Prt2+ScSg2:%>О1лить Clitics ;
-+Der/Pr+Prt2+ScSg3:%>О1ль Clitics ;
-+Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>О1линек@P.KLOSS.ON@ Clitics ;
-+Der/Pr+Prt2+ScPl2:%>О1лиде Clitics ;
-+Der/Pr+Prt2+ScPl3:%>О1льть Clitics ;
-
-LEXICON Clitics
-+Use/Sub@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ WORD-END ;
-+Foc/Гак:%>Г1ак WORD-END ;
-   WORD-END ; ! No clitics
++Der/Pr+Prt2+ScSg1:%>О1линь Ks ;
++Der/Pr+Prt2+ScSg2:%>О1лить Ks ;
++Der/Pr+Prt2+ScSg3:%>О1ль Ks ;
++Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>О1линек@P.KLOSS.ON@ Ks ;
++Der/Pr+Prt2+ScPl2:%>О1лиде Ks ;
++Der/Pr+Prt2+ScPl3:%>О1льть Ks ;
 
 LEXICON vese-QNT
 +Pron: kudo-Misc_Pronouns_Sg ;

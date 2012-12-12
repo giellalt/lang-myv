@@ -5,115 +5,115 @@
 ! This is for Russian source adjectives
 ! that might be used in a template
 LEXICON Adj-RU-Oj
-+Use/SpellNoSugg: Adj-od ;
++Use/SpellNoSugg: Adj-kal ;
 
 LEXICON Abe-Adj
-+Der/ВтОмО: Adj-shumbra ;
++Der/ВтОмО: Adj-kudo ;
 
 ! 2012-04-03 These do not exist in present dictionary
 !LEXICON Comp-Adj
-!+Der/шка: Adj-shumbra ;
+!+Der/шка: Adj-kudo ;
 
 LEXICON Gen-Adj ! The genitive is used as an attribute and predicate modifier
-+Der/Онь: Clitic ;
++Der/Онь: K ;
 +Der/Онь: kal-NomSg-Conjugation ; ! These need checking 2012-04-17
 +Der/Онь: kal-NomPl-Conjugation ; ! These need checking 2012-04-17
 
 
 LEXICON Adj-PL-vejketj
- Adj-vitj ;
+ Adj-kit ;
 
-LEXICON Adj-vitj
-+A: Clitic ;
+LEXICON Adj-kit
++A: K ;
 +A: kit-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kit-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 Clitic ;
++A+Pl:%>тЬ2 K ;
 +A+Der/MWN: N-kit ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-erek
-+A: Clitic ;
+LEXICON Adj-lak
++A: K ;
 +A: lak-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: lak-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 Clitic ;
++A+Pl:%>тЬ2 K ;
 +A+Der/MWN: N-lak ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-od_sub
-+Use/Sub: Adj-od ;
+LEXICON Adj-kal_Sub
++Use/Sub: Adj-kal ;
 
-LEXICON Adj-od
-+A: Clitic ;
+LEXICON Adj-kal
++A: K ;
 +A: kal-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kal-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 Clitic ;
++A+Pl:%>тЬ2 K ;
 +A+Der/MWN: N-kal ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-vanjks
-+A: Clitic ;
+LEXICON Adj-osh
++A: K ;
 +A: kal-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: kal-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 Clitic ;
++A+Pl:%>тЬ2 K ;
 +A+Der/MWN: N-osh ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-chevte
-:О1 Adj-nachko-lembe ;
+LEXICON Adj-teshte
+:О1 Adj-pango-tinge ;
 +A+Der/MWN: N-pango ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-tashto
-:О1 Adj-nachko-lembe ;
+LEXICON Adj-chuvto
+:О1 Adj-pango-tinge ;
 +A+Der/MWN: N-pango ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-lembe
-:О1 Adj-nachko-lembe ;
+LEXICON Adj-tinge
+:О1 Adj-pango-tinge ;
 +A+Der/MWN: N-pango ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-nachko
-:О1 Adj-nachko-lembe ;
+LEXICON Adj-pango
+:О1 Adj-pango-tinge ;
 +A+Der/MWN: N-pango ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-nachko-lembe
-+A: Clitic ;
+LEXICON Adj-pango-tinge
++A: K ;
 +A: pango-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +A+Pl: pango-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 Clitic ;
++A+Pl:%>тЬ2 K ;
 
 LEXICON Adj-ActDemPrc
-+Der/Ыця+ActDemPrc: Adj-shumbra_01 ;
++Der/Ыця+ActDemPrc: Adj-kudo_01 ;
 
-LEXICON Adj-shumbra
-+A: Adj-shumbra_01 ;
+LEXICON Adj-kudo
++A: Adj-kudo_01 ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-shumbra_01
- Clitic ;
+LEXICON Adj-kudo_01
+ K ;
  kudo-NomSg-Conjugation ;
 +Pl:%>тЬ2 kit-NomPl-Conjugation ;
 +Pl: kudo-NomPl-Conjugation-only ;
-+Pl:%>тЬ2 Clitic ;
++Pl:%>тЬ2 K ;
 +Der/MWN: N-kudo ;
 
 
 LEXICON Adj-InterrRel ! кодамо
-+Interr: Adj-nachko ;
-+Rel: Adj-nachko ;
++Interr: Adj-pango ;
++Rel: Adj-pango ;
 
 LEXICON Adj-Dem ! истямо
-+Dem: Adj-nachko ;
++Dem: Adj-pango ;
 
 LEXICON Adj-Po ! кондямо
-+Po: Adj-nachko ;
++Po: Adj-pango ;
 
 ! vim: set ft=xfst-lexc:
 

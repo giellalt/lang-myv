@@ -37,25 +37,96 @@ LEXICON EXCEPTIONS
 
 !! Reciprocal pronouns
 !! These might be done with flags
-вейкенек-вейкенек+Pron+Recip+PxPl1:вейкенек-вейкенек Clitic ;
-вейкенк-вейкенк+Pron+Recip+PxPl2:вейкенк-вейкенк Clitic ;
-вейкест-вейкест+Pron+Recip+PxPl3:вейкест-вейкест Clitic ;
+вейкенек-вейкенек+Pron+Recip+PxPl1:вейкенек-вейкенек K ;
+вейкенк-вейкенк+Pron+Recip+PxPl2:вейкенк-вейкенк K ;
+вейкест-вейкест+Pron+Recip+PxPl3:вейкест-вейкест K ;
 
 !!
 !! These two stems have м loss but its presence can be
 !! observed in the choice of "тнэ" over "тне"
 истямо+Pron+Dem:истямУ2%>VLoss DefPl-Declension ;
-истямо+Pron+Dem+Pl+Nom+InDef:истят Clitic ;
+истямо+Pron+Dem+Pl+Nom+InDef:истят K ;
 кондямо+Po+A+Der/MWN:кондямУ2%>VLoss DefPl-Declension ;
-кондямо+Po+A+Der/MWN+N+Pl+Nom+InDef:кондят Clitic ;
+кондямо+Po+A+Der/MWN+N+Pl+Nom+InDef:кондят K ;
 
 !! 1930s Phonetic transcription
 !! дс >> ц
-ладсо+Adv+Ine+Use/Sub:лацо Clitic ;
+ладсо+Adv+Ine+Use/Sub:лацо K ;
 !! гт >> к
-мекевлангт+Adv+Use/Sub:мекевланк Clitic ;
+мекевлангт+Adv+Use/Sub:мекевланк K ;
 
-!!
+
+!!Biblical names
+Авия:Авия Prop-kudo_mal ;
+Алфей:Алфей Prop-kal_mal ;
+Аминадав:Аминадав Prop-kal_mal ;
+Амон:Амон Prop-kal_mal ;
+Аса:Аса Prop-kudo_mal ;
+Ахаз:Ахаз Prop-osh_mal ;
+Боаз:Боаз Prop-osh_mal ;
+Зеведей:Зеведей Prop-kal_mal ;
+Зерах:Зерах Prop-kal_mal ;
+Екония:Екония Prop-kudo_mal ;
+Есрон:Есрон Prop-kal_mal ;
+Иессей:Иессей Prop-kal_mal ;
+Иисус:Иисус Prop-osh_mal ;
+Иоаким:Иоаким Prop-kal_mal ;
+Иорам:Иорам Prop-kal_mal ;
+Иосия:Иосия Prop-kudo_mal ;
+Иосафат:Иосафат Prop-kit_mal ;
+Иотам:Иотам Prop-kal_mal ;
+Искариот:Искариот Prop-kit_sur ;
+Иуда:Иуда Prop-kudo_mal ;
+Леббей:Леббей Prop-kal_mal ;
+Манассе:Манассе Prop-kudo_mal ;
+Нахшон:Нахшон Prop-kal_mal ;
+Овид:Овид Prop-kal_mal ;
+Перес:Перес Prop-osh_mal ;
+Рехавеам:Рехавеам Prop-kal_mal ;
+Салмон:Салмон Prop-kal_mal ;
+Таддей:Таддей Prop-kal_mal ;
+Узия:Узия Prop-kudo_mal ;
+Урия:Урия Prop-kudo_mal ;
+Филип:Филип Prop-kal_mal ;
+Христос:Христос Prop-osh_sur ;
+Эзекия:Эзекия Prop-kudo_mal ;
+Екония:Екония Prop-kudo_mal ;
+Салатил:Салатил Prop-kal_mal ;
+Зоровавель:Зоровавель Prop-kal_mal ;
+Авиуд:Авиуд Prop-kal_mal ;
+Элиаким:Элиаким Prop-kal_mal ;
+Азур:Азур Prop-kal_mal ;
+Садок:Садок Prop-lak_mal ;
+Ахим:Ахим Prop-kal_mal ;
+Элиуд:Элиуд Prop-kal_mal ;
+Элеазар:Элеазар Prop-kal_mal ;
+Матван:Матван Prop-kal_mal ;
+Иммануэл:Иммануэл Prop-kal_mal ;
+Ирод:Ирод Prop-kal_mal ;
+Еремия:Еремия Prop-kudo_mal ;
+Аркелай:Аркелай Prop-kal_mal ;
+Исайя:Исайя Prop-kudo_mal ;
+
+!
+Рахав:Рахав Prop-kal_fem ;
+Рахиль:Рахиль Prop-kal_fem ;
+Рут:Рут Prop-kit_fem ;
+Тамар:Тамар Prop-kal_fem ;
+!
+фарисей:фарисей N-kal ;
+саддукей:саддукей N-kal ;
+!
+пежетев:пежетев Adj-kal ;
+!
+Вавилон:Вавилон Prop-kudo_settlement ;
+Вифлеем:Вифлеем Prop-kal_settlement ;
+Галилея:Галилея Prop-kudo_settlement ;
+Египет:Египет Prop-kit_settlement ;
+Ерусалим:Ерусалим Prop-kal_settlement ;
+Израиль:Израиль Prop-kal_settlement ;
+Иудея:Иудея Prop-kudo_settlement ;
+Самария:Самария Prop-kudo_settlement ;
+
 !! 100 % homographs of Russian words
 ещё+Use/LexSub:ещё TempTag ;
 можна+Use/LexSub:можна AdvTag ;
