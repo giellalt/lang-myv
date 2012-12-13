@@ -5,8 +5,6 @@
 LEXICON Root
 HUNDREDSM ;		! 200M
 сядо:1 HUNDREDM ;	! 100M
-stoereluhkie+Use/NG:1 HUNDREDM ;	! 100M
-stoerreluhkie+Use/NG:1 HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
@@ -15,7 +13,7 @@ HUNDREDST ;		! 200000-999999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tåvsene:1 THOUSAND ;	! 1000-1999
+тёжа:1 THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 30-99
 TEENS ;			! 10-19
@@ -25,20 +23,15 @@ ONES ;			! 1-9
 LEXICON HUNDREDSM
 кавто:2  CUODIM ;
 колмо:3 CUODIM ;
-njieljie:4 CUODIM ; ! Google: 459
-njielje+Use/NG:4 CUODIM ;  ! Google: 218
-nieljie+Use/NG:4 CUODIM ;  ! Google:  61
- nielje+Use/NG:4 CUODIM ;  ! Google: irrelevant (20,600)
-vïjhte:5 CUODIM ;
-govhte:6 CUODIM ;
-tjïjhtje:7 CUODIM ;
-gaektsie:8 CUODIM ;
-uktsie:9 CUODIM ;
+ниле:4 CUODIM ; ! Google: 459
+вете:5 CUODIM ;
+кото:6 CUODIM ;
+сисем:7 CUODIM ;
+кавксо:8 CUODIM ;
+вейксэ:9 CUODIM ;
 
 LEXICON CUODIM
 сядт: HUNDREDM ;
-stoereluhkie: HUNDREDM ;
-stoerreluhkie: HUNDREDM ;
 
 LEXICON HUNDREDM
       TENSM ;
@@ -67,39 +60,33 @@ LEXICON LOHKAIM
 MILJON ;
 
 LEXICON TENSM
-luhkie:1%0 MILJON ;
-кавто:2   LUHKIEM ;
-колмо:3    LUHKIEM ;
-njieljie:4 LUHKIEM ;
-njielje+Use/NG:4  LUHKIEM ;
-nieljie+Use/NG:4  LUHKIEM ;
- nielje+Use/NG:4  LUHKIEM ;
-vïjhte:5   LUHKIEM ;
-govhte:6   LUHKIEM ;
-tjïjhtje:7 LUHKIEM ;
-gaektsie:8 LUHKIEM ;
-uktsie:9   LUHKIEM ;
+кемень:1%0 MILJON ;
+комсь:2%0 MILJON ;
+колонь:3    LUHKIEM ;
+нилень:4 LUHKIEM ;
+ведь:5   LUHKIEM ;
+код:6   LUHKIEM ;
+сизь:7 LUHKIEM ;
+кавксонь:8 LUHKIEM ;
+вейксэнь:9   LUHKIEM ;
 
 LEXICON LUHKIEM
-luhkie:%0 MILJON ;
-luhkie:   ONESM ;
+гемень:%0 MILJON ;
+гемень% :   ONESM ;
 
 LEXICON ONESM
-вейке% miljon% :1 OVERTHOUSANDS ;
+вейке% миллион% :1 OVERTHOUSANDS ;
 кавто:2         MILJON ;
 колмо:3          MILJON ;
-njieljie:4       MILJON ;
-njielje+Use/NG:4        MILJON ;
-nieljie+Use/NG:4        MILJON ;
- nielje+Use/NG:4        MILJON ;
-vïjhte:5         MILJON ;
-govhte:6         MILJON ;
-tjïjhtje:7       MILJON ;
-gaektsie:8       MILJON ;
-uktsie:9         MILJON ; 
+ниле:4       MILJON ;
+вете:5         MILJON ;
+кото:6         MILJON ;
+сисем:7       MILJON ;
+кавксо:8       MILJON ;
+вейксэ:9         MILJON ; 
 
 LEXICON MILJON
-% miljona% : OVERTHOUSANDS ;
+% миллион% : OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -108,12 +95,10 @@ LEXICON MILJON
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
 сядо:1 HUNDREDT ;	! 100.000.000
-stoereluhkie:1 HUNDREDT ;	! 100.000.000
-stoerreluhkie:1 HUNDREDT ;	! 100.000.000
 :%0 TENST ;		!  20.000.000
 :%0 TEENST ;		!  10.000.000
 :%0%0 ONEST ;		!   2.000.000
-tåvsene:%0%01 THOUSAND ;	!   1.000.000
+тёжа:%0%01 THOUSAND ;	!   1.000.000
 :%0%0%0 UNDERTHOUSAND ;	
 :%0%0%0%0 TENS ;
 :%0%0%0%0 TEENS ;
@@ -123,15 +108,12 @@ tåvsene:%0%01 THOUSAND ;	!   1.000.000
 LEXICON HUNDREDST
 кавто:2   CUODIT ;	! 200000-299999
 колмо:3    CUODIT ;	! 300000-399999
-njieljie:4 CUODIT ;	! 400000-499999
-njielje+Use/NG:4  CUODIT ;
-nieljie+Use/NG:4  CUODIT ;
-nielje+Use/NG:4  CUODIT ;
-vïjhte:5   CUODIT ;	! 500000-599999
-govhte:6   CUODIT ;	! 600000-699999
-tjïjhtje:7 CUODIT ;	! 700000-799999
-gaektsie:8 CUODIT ;	! 800000-899999
-uktsie:9   CUODIT ;	! 900000-999999
+ниле:4 CUODIT ;	! 400000-499999
+вете:5   CUODIT ;	! 500000-599999
+кото:6   CUODIT ;	! 600000-699999
+сисем:7 CUODIT ;	! 700000-799999
+кавксо:8 CUODIT ;	! 800000-899999
+вейксэ:9   CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
 сядт: HUNDREDT ;	! 100000-199999
@@ -167,15 +149,12 @@ THOUSANDS ;
 LEXICON TENST
 комсь:2   LUHKIET ;
 колоньгемень% :3    LUHKIET ;
-njieljieluhkie:4 LUHKIET ;
-njieljeluhkie+Use/NG:4  LUHKIET ;
-nieljieluhkie+Use/NG:4  LUHKIET ;
- nieljeluhkie+Use/NG:4  LUHKIET ;
-vïjhteluhkie:5   LUHKIET ;
-govhteluhkie:6   LUHKIET ;
-tjïjhtjeluhkie:7 LUHKIET ;
-gaektsieluhkie:8 LUHKIET ;
-uktsieluhkie:9   LUHKIET ;
+ниленьгемень:4 LUHKIET ;
+ведьгемень:5   LUHKIET ;
+кодгемень:6   LUHKIET ;
+сизьгемень:7 LUHKIET ;
+кавксоньгемень:8 LUHKIET ;
+вейксэньгемень:9   LUHKIET ;
 
 LEXICON LUHKIET
 :%0 THOUSANDS ;
