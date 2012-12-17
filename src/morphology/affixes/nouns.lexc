@@ -171,6 +171,7 @@ LEXICON N_kinVoc
 
 LEXICON N-kal
 +N: N-kal_01 ;
++N+Der/НЕ+Dimin:%>Н1е N-kudo_01 ;
 
 LEXICON N-kal_01
  kal-N-Derivation ;
@@ -191,6 +192,7 @@ LEXICON kal-N-PL_Sub
 
 LEXICON N-lak
 +N: N-lak_01 ;
++N+Der/НЕ+Dimin:%>Н1е N-kudo_01 ;
 
 LEXICON N-lak_01
  lak-N-Derivation ;
@@ -200,6 +202,7 @@ LEXICON N-lak_01
 
 LEXICON N-kit
 +N: N-kit_01 ;
++N+Der/НЕ+Dimin:%>Н1е N-kudo_01 ;
 
 LEXICON N-kit_01
  kit-N-Derivation ;
@@ -215,6 +218,7 @@ LEXICON kit-N-PL
 
 LEXICON N-klass
 +N: N-klass_01 ;
++N+Der/НЕ+Dimin:%>Н1е N-kudo_01 ;
 
 LEXICON N-klass_01
  klass-N-Derivation ;
@@ -227,6 +231,7 @@ LEXICON N-osh_Sub
 
 LEXICON N-osh
 +N: N-osh_01 ;
++N+Der/НЕ+Dimin:%>Н1е N-kudo_01 ;
 
 LEXICON N-osh_01
  osh-N-Derivation ;
@@ -246,11 +251,14 @@ LEXICON N-ije
 
 LEXICON N-teshte
 +N: N-teshte_01 ;
++N+Der/НЕ+Dimin:%>Н1е N-kudo_01 ;
+
 LEXICON N-teshte_01
  N-pango_01 ;
 
 LEXICON N-tinge
 +N: N-tinge_01 ;
++N+Der/НЕ+Dimin:%>Ы2не N-kudo_01 ;
 
 LEXICON N-tinge_01
  N-pango_01 ;
@@ -267,6 +275,7 @@ LEXICON N-pango_Sub
 ! панго:панг
 LEXICON N-pango
 +N: N-pango_01 ;
++N+Der/НЕ+Dimin:%>Ы2не N-kudo_01 ;
 
 LEXICON N-pango_01
  pango-N-Derivation ;
@@ -280,6 +289,7 @@ LEXICON DV-NTag
 ! This might be moved to exceptions 2012-11-21
 LEXICON N-ki
 +N: N-ki_01 ;
++N+Der/НЕ+Dimin:%>Ы2не N-kudo_01 ;
 
 LEXICON N-ki_01
  N-kudo_01 ;
@@ -292,6 +302,7 @@ LEXICON N-kudo_Sub
 
 LEXICON N-kudo
 +N: N-kudo_01 ;
++N+Der/НЕ+Dimin:%>Ы2не N-kudo_01 ;
 
 LEXICON N-kudo_01
  kudo-N-Derivation ;
@@ -305,6 +316,7 @@ LEXICON kudo-N-PL
 +N: kudo-Indef-Declension ;
 +N: kudo-N-Poss-Declension-CX-PL ;
 
+!Does this need a diminutive?
 LEXICON N-avidem
 +N+AssocColl: kudo-N-Poss-Declension-CX ;
 
