@@ -126,7 +126,7 @@ Multichar_Symbols
  +PxSg1 +PxSg2 +PxSg3
  +PxPl1 +PxPl2 +PxPl3
  +Def ! Definite
- +InDef ! Indefinite
+!  +InDef moved to +Indef ! Indefinite
 
 !! The comparative forms are:
  +Comp ! comparative as opposed to superlative
@@ -955,8 +955,8 @@ LEXICON alo-Spat-NoArg
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
-+Adv+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Adv+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Adv+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Adv+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
 LEXICON alo-Spat-1Arg
 +Po+Spat+Abl:%>дО1 kudo-Indef--Poss ;
@@ -966,10 +966,10 @@ LEXICON alo-Spat-1Arg
 +Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
 +Po+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
 +Po+Spat+Der/кс:%>кс N-osh ;
-+Po+Spat+Lat+InDef:%>О1в K ;
-+Po+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
-+Po+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Po+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Po+Spat+Lat+Indef:%>О1в K ;
++Po+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
++Po+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Po+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 
 LEXICON alo-Spat-AdvN
  alo-Spat-NoArg ;
@@ -982,18 +982,18 @@ LEXICON alo-Spat-PoN
 +N+Loc:%>О1 K ;
 
 LEXICON kovolo-Spat
-+Interr+Spat+Lat+InDef:%>О1в K ;
-+Interr+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
-+Interr+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Interr+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Interr+Spat+Lat+Indef:%>О1в K ;
++Interr+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
++Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 +Interr+Spat+Abl:%>дО1 kudo-Indef--Poss ;
 +Interr+Spat+Loc:%>О1 kudo-Indef--Poss ; 
 +Interr+Spat+Prl:%>Г2а kudo-Indef--Poss ;
 
-+Rel+Spat+Lat+InDef:%>О1в K ;
-+Rel+Spat+Abl+InDef:%>дО1 kudo-N2-Def-Declension ;
-+Rel+Spat+Loc+InDef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Rel+Spat+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Rel+Spat+Lat+Indef:%>О1в K ;
++Rel+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
++Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
++Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
 +Rel+Spat+Abl:%>дО1 kudo-Indef--Poss ;
 +Rel+Spat+Loc:%>О1 kudo-Indef--Poss ; 
 +Rel+Spat+Prl:%>Г2а kudo-Indef--Poss ;
@@ -1018,7 +1018,7 @@ LEXICON osh--DefSg-
 +Sg+Def:%>О1нть K ;
 
 LEXICON osh-Indef--Poss
-+InDef: osh-Tenses-Obl ;
++Indef: osh-Tenses-Obl ;
 +PxSg1:%>О1нЬ2 kal-Tenses-Obl ;
 +PxSg2:%>О1тЬ2 kit-Tenses-Obl ;
 +PxSg3:%>О1нзО1 kudo-Tenses-Obl ;
@@ -1034,7 +1034,7 @@ LEXICON kudo--DefSg-
 +Sg+Def:%>О1нть K ;
 
 LEXICON kudo-Indef--Poss
-+InDef: kudo-Tenses-Obl ;
++Indef: kudo-Tenses-Obl ;
 +PxSg1:%>нЬ2 kal-Tenses-Obl ;
 +PxSg2:%>тЬ2 kit-Tenses-Obl ;
 +PxSg3:%>нзО1 kudo-Tenses-Obl ;

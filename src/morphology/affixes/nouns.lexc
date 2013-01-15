@@ -327,8 +327,8 @@ LEXICON N-avidem
 
 LEXICON lak-N-Derivation
  kal-N-Derivation ;
-+Use/Sub+Orth/PhonInfl+Tra+InDef:%>KLossкс%> N2Dem-SE ;
-+Use/Sub+Orth/PhonInfl+Tra+InDef:%>KLossкс%>О1%> N2Dem-SE ;
++Use/Sub+Orth/PhonInfl+Tra+Indef:%>KLossкс%> N2Dem-SE ;
++Use/Sub+Orth/PhonInfl+Tra+Indef:%>KLossкс%>О1%> N2Dem-SE ;
 
 
 LEXICON kit-N-Derivation
@@ -350,13 +350,13 @@ LEXICON kit-N-Derivation
 
 
 LEXICON kal-N-Derivation
-+Ela+InDef+Der/MWN+N:%>стО1 kudo-N2-Def-Declension ;
-+Ine+InDef+Der/MWN+N:%>сО1 kudo-N2-Def-Declension ;
-+Prl+InDef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
-+CompCx+InDef+Der/MWN+N:%>О1шка kudo-N2-Def-Declension ;
-+Abe+InDef+Der/MWN+N:%>втО1мО1 kudo-N2-Def-Declension ;
++Ela+Indef+Der/MWN+N:%>стО1 kudo-N2-Def-Declension ;
++Ine+Indef+Der/MWN+N:%>сО1 kudo-N2-Def-Declension ;
++Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++CompCx+Indef+Der/MWN+N:%>О1шка kudo-N2-Def-Declension ;
++Abe+Indef+Der/MWN+N:%>втО1мО1 kudo-N2-Def-Declension ;
 
-+Tra+InDef+Der/MWN+N:%>О1кс osh-N2-Def-Declension ;
++Tra+Indef+Der/MWN+N:%>О1кс osh-N2-Def-Declension ;
 +Gen+PxSg3+Der/MWN+N:%>О1нзО1 kudo-N2-Def-Declension ;
 +Ela+PxSg3+Der/MWN+N:%>стО1%>нзО1 kudo-N2-Def-Declension ;
 +Ine+PxSg3+Der/MWN+N:%>сО1%>нзО1 kudo-N2-Def-Declension ;
@@ -387,14 +387,14 @@ LEXICON kal-N-Derivation
 +Pl+CompCx+Def+Der/MWN+N:%>тне%>шка kudo-N2-Def-Declension ;
 +Pl+Abe+Def+Der/MWN+N:%>тне%>втеме kudo-N2-Def-Declension ;
 +Pl+Tra+Def+Der/MWN+N:%>тне%>кс osh-N2-Def-Declension ;
-+Gen+InDef:%>О1нь N2Dem-SE ; ! _ь_ retension
-+Ela+InDef:%>стО1%> N2Dem-SE ;
-+Ine+InDef:%>сО1%> N2Dem-SE ;
-+Prl+InDef:%>Г2а%> N2Dem-SE ;
-+CompCx+InDef:%>О1шка%> N2Dem-SE ;
-+Abe+InDef:%>втО1мО1%> N2Dem-SE ;
-+Tra+InDef:%>кс%> N2Dem-SE ;
-+Tra+InDef:%>кс%>О1%> N2Dem-SE ;
++Gen+Indef:%>О1нь N2Dem-SE ; ! _ь_ retension
++Ela+Indef:%>стО1%> N2Dem-SE ;
++Ine+Indef:%>сО1%> N2Dem-SE ;
++Prl+Indef:%>Г2а%> N2Dem-SE ;
++CompCx+Indef:%>О1шка%> N2Dem-SE ;
++Abe+Indef:%>втО1мО1%> N2Dem-SE ;
++Tra+Indef:%>кс%> N2Dem-SE ;
++Tra+Indef:%>кс%>О1%> N2Dem-SE ;
 +Sg+Gen+PxSg1:%>О1м%> N2Dem-SE ;
 +Pl+Gen+PxSg1:%>О1нЬ2%> N2Dem-SE ;
 +Ela+PxSg1:%>стО1%>нЬ2%> N2Dem-SE ;
@@ -469,8 +469,8 @@ LEXICON kal-N-Derivation
 !This requires a twolc rule that will [ с с:0 > с ] SLoss
 LEXICON klass-N-Derivation
  osh-N-Derivation ;
-+SLoss+Ela+InDef+Der/MWN+N:%>SLossстО1 kudo-N2-Def-Declension ;
-+SLoss+Ine+InDef+Der/MWN+N:%>SLossсО1 kudo-N2-Def-Declension ;
++SLoss+Ela+Indef+Der/MWN+N:%>SLossстО1 kudo-N2-Def-Declension ;
++SLoss+Ine+Indef+Der/MWN+N:%>SLossсО1 kudo-N2-Def-Declension ;
 +SLoss+Ela+PxSg3+Der/MWN+N:%>SLossстО1%>нзО1 kudo-N2-Def-Declension ;
 +SLoss+Ine+PxSg3+Der/MWN+N:%>SLossсО1%>нзО1 kudo-N2-Def-Declension ;
 +SLoss+Ela+PxPl1+Der/MWN+N:%>SLossстО1%>нО1к lak-N2-Def-Declension ;
@@ -479,8 +479,8 @@ LEXICON klass-N-Derivation
 +SLoss+Ine+PxPl2+Der/MWN+N:%>SLossсО1%>нк lak-N2-Def-Declension ;
 +SLoss+Ela+PxPl3+Der/MWN+N:%>SLossстО1%>ст kit-N2-Def-Declension ;
 +SLoss+Ine+PxPl3+Der/MWN+N:%>SLossсО1%>ст kit-N2-Def-Declension ;
-+SLoss+Ela+InDef:%>SLossстО1%> N2Dem-SE ;
-+SLoss+Ine+InDef:%>SLossсО1%> N2Dem-SE ;
++SLoss+Ela+Indef:%>SLossстО1%> N2Dem-SE ;
++SLoss+Ine+Indef:%>SLossсО1%> N2Dem-SE ;
 +SLoss+Ela+PxSg1:%>SLossстО1%>нЬ2%> N2Dem-SE ;
 +SLoss+Ine+PxSg1:%>SLossсО1%>нЬ2%> N2Dem-SE ;
 +SLoss+Ela+PxSg1+Dial:%>SLossстО1%>м%> N2Dem-SE ;
@@ -505,8 +505,8 @@ LEXICON klass-N-Derivation
 
 LEXICON osh-N-Derivation
  kal-N-Derivation ;
-+Ela+InDef+Der/MWN+N:%>О1стО1 kudo-N2-Def-Declension ;
-+Ine+InDef+Der/MWN+N:%>О1сО1 kudo-N2-Def-Declension ;
++Ela+Indef+Der/MWN+N:%>О1стО1 kudo-N2-Def-Declension ;
++Ine+Indef+Der/MWN+N:%>О1сО1 kudo-N2-Def-Declension ;
 +Ela+PxSg3+Der/MWN+N:%>О1стО1%>нзО1 kudo-N2-Def-Declension ;
 +Ine+PxSg3+Der/MWN+N:%>О1сО1%>нзО1 kudo-N2-Def-Declension ;
 +Ela+PxPl1+Der/MWN+N:%>О1стО1%>нО1к lak-N2-Def-Declension ;
@@ -515,8 +515,8 @@ LEXICON osh-N-Derivation
 +Ine+PxPl2+Der/MWN+N:%>О1сО1%>нк lak-N2-Def-Declension ;
 +Ela+PxPl3+Der/MWN+N:%>О1стО1%>ст kit-N2-Def-Declension ;
 +Ine+PxPl3+Der/MWN+N:%>О1сО1%>ст kit-N2-Def-Declension ;
-+Ela+InDef:%>О1стО1%> N2Dem-SE ;
-+Ine+InDef:%>О1сО1%> N2Dem-SE ;
++Ela+Indef:%>О1стО1%> N2Dem-SE ;
++Ine+Indef:%>О1сО1%> N2Dem-SE ;
 +Ela+PxSg1:%>О1стО1%>нЬ2%> N2Dem-SE ;
 +Ine+PxSg1:%>О1сО1%>нЬ2%> N2Dem-SE ;
 +Ela+PxSg1+Dial:%>О1стО1%>м%> N2Dem-SE ;
@@ -546,12 +546,12 @@ LEXICON kudo-N-Derivation
 :%> kudo-N-Derivation-noArrow ;
 
 LEXICON kudo-N-Derivation-noArrow
-+Ela+InDef+Der/MWN+N:стО1 kudo-N2-Def-Declension ;
-+Ine+InDef+Der/MWN+N:сО1 kudo-N2-Def-Declension ;
-+Prl+InDef+Der/MWN+N:Г2а kudo-N2-Def-Declension ;
-+CompCx+InDef+Der/MWN+N:шка kudo-N2-Def-Declension ;
-+Abe+InDef+Der/MWN+N:втО1мО1 kudo-N2-Def-Declension ;
-+Tra+InDef+Der/MWN+N:кс osh-N2-Def-Declension ;
++Ela+Indef+Der/MWN+N:стО1 kudo-N2-Def-Declension ;
++Ine+Indef+Der/MWN+N:сО1 kudo-N2-Def-Declension ;
++Prl+Indef+Der/MWN+N:Г2а kudo-N2-Def-Declension ;
++CompCx+Indef+Der/MWN+N:шка kudo-N2-Def-Declension ;
++Abe+Indef+Der/MWN+N:втО1мО1 kudo-N2-Def-Declension ;
++Tra+Indef+Der/MWN+N:кс osh-N2-Def-Declension ;
 +Gen+PxSg3+Der/MWN+N:нзО1 kudo-N2-Def-Declension ;
 +Ela+PxSg3+Der/MWN+N:стО1%>нзО1 kudo-N2-Def-Declension ;
 +Ine+PxSg3+Der/MWN+N:сО1%>нзО1 kudo-N2-Def-Declension ;
@@ -582,14 +582,14 @@ LEXICON kudo-N-Derivation-noArrow
 +Pl+CompCx+Def+Der/MWN+N:тне%>шка kudo-N2-Def-Declension ;
 +Pl+Abe+Def+Der/MWN+N:тне%>втеме kudo-N2-Def-Declension ;
 +Pl+Tra+Def+Der/MWN+N:тне%>кс osh-N2-Def-Declension ;
-+Gen+InDef:нь N2Dem-SE ; ! _ь_ retension
-+Ela+InDef:стО1%> N2Dem-SE ;
-+Ine+InDef:сО1%> N2Dem-SE ;
-+Prl+InDef:Г2а%> N2Dem-SE ;
-+CompCx+InDef:шка%> N2Dem-SE ;
-+Abe+InDef:втО1мО1%> N2Dem-SE ;
-+Tra+InDef:кс%> N2Dem-SE ;
-+Tra+InDef:кс%>О1%> N2Dem-SE ;
++Gen+Indef:нь N2Dem-SE ; ! _ь_ retension
++Ela+Indef:стО1%> N2Dem-SE ;
++Ine+Indef:сО1%> N2Dem-SE ;
++Prl+Indef:Г2а%> N2Dem-SE ;
++CompCx+Indef:шка%> N2Dem-SE ;
++Abe+Indef:втО1мО1%> N2Dem-SE ;
++Tra+Indef:кс%> N2Dem-SE ;
++Tra+Indef:кс%>О1%> N2Dem-SE ;
 +Sg+Gen+PxSg1:м%> N2Dem-SE ;
 +Pl+Gen+PxSg1:нЬ2%> N2Dem-SE ;
 +Ela+PxSg1:стО1%>нЬ2%> N2Dem-SE ;
@@ -671,18 +671,18 @@ LEXICON kit-N2-Def-Declension
 
 LEXICON kal-N2-Def-Declension
  kal-N-Def-Declension ;
-+Tra+InDef:%>О1кс K ;
-+Abl+InDef:%>дО1 kudo-Conjugation ;
++Tra+Indef:%>О1кс K ;
++Abl+Indef:%>дО1 kudo-Conjugation ;
 
 LEXICON osh-N2-Def-Declension
  osh-N-Def-Declension ;
-+Tra+InDef:%>О1кс K ;
-+Abl+InDef:%>дО1 kudo-Conjugation ;
++Tra+Indef:%>О1кс K ;
++Abl+Indef:%>дО1 kudo-Conjugation ;
 
 LEXICON kudo-N2-Def-Declension
  kudo-N-Def-Declension ;
-+Tra+InDef:%>кс K ;
-+Abl+InDef:%>дО1 kudo-Conjugation ;
++Tra+Indef:%>кс K ;
++Abl+Indef:%>дО1 kudo-Conjugation ;
 
 ! =================== !
 ! Inflectional lexica !
@@ -1081,65 +1081,65 @@ LEXICON kudo-Indef-Declension-MUTUAL
 
 !! INDEFINITE TAGS
 LEXICON ABE-INDEF
-+Abe+InDef00@U.DECL-CX.ABE@:втО1мО1@U.DECL-CX.ABE@ kudo-Conjugation ;
++Abe+Indef00@U.DECL-CX.ABE@:втО1мО1@U.DECL-CX.ABE@ kudo-Conjugation ;
 
 LEXICON ABL-INDEF
-+Abl+InDef@U.DECL-CX.ABL@:дО10@U.DECL-CX.ABL@ kudo-Conjugation ;
++Abl+Indef@U.DECL-CX.ABL@:дО10@U.DECL-CX.ABL@ kudo-Conjugation ;
 
 LEXICON CMP-INDEF
-+CompCx+InDef@U.DECL-CX.CMP@:шка@U.DECL-CX.CMP@ kudo-Conjugation ;
++CompCx+Indef@U.DECL-CX.CMP@:шка@U.DECL-CX.CMP@ kudo-Conjugation ;
 
 LEXICON COM-INDEF
-+Com+InDef@U.DECL-CX.COM@:нек@U.DECL-CX.COM@ NounEnd_K-lak ;
-+Com+InDef+Coll:нек%-мезнек WORD-END ;
++Com+Indef@U.DECL-CX.COM@:нек@U.DECL-CX.COM@ NounEnd_K-lak ;
++Com+Indef+Coll:нек%-мезнек WORD-END ;
 
 LEXICON DAT-INDEF
-+DatCx+InDef0@U.DECL-CX.DAT@:нень@U.DECL-CX.DAT@ NounEnd_K ;
++DatCx+Indef0@U.DECL-CX.DAT@:нень@U.DECL-CX.DAT@ NounEnd_K ;
 
 LEXICON ELA-INDEF
-+Ela+InDef@U.DECL-CX.ELA@:стО1@U.DECL-CX.ELA@ kudo-Conjugation ;
++Ela+Indef@U.DECL-CX.ELA@:стО1@U.DECL-CX.ELA@ kudo-Conjugation ;
 
 LEXICON GEN-INDEF
-+Gen+InDef@U.DECL-CX.GEN@:нь0@U.DECL-CX.GEN@ kal-Conjugation ;
++Gen+Indef@U.DECL-CX.GEN@:нь0@U.DECL-CX.GEN@ kal-Conjugation ;
 
 LEXICON ILL-INDEF
-+Ill+InDef@U.DECL-CX.ILL@:с00@U.DECL-CX.ILL@ NounEnd_K ;
++Ill+Indef@U.DECL-CX.ILL@:с00@U.DECL-CX.ILL@ NounEnd_K ;
 
 LEXICON INE-INDEF
-+Ine+InDef@U.DECL-CX.INE@:сО10@U.DECL-CX.INE@ kudo-Conjugation ;
++Ine+Indef@U.DECL-CX.INE@:сО10@U.DECL-CX.INE@ kudo-Conjugation ;
 
 LEXICON LAT-INDEF
-+Lat+InDef@U.DECL-CX.LAT@:в00@U.DECL-CX.LAT@ NounEnd_K ;
++Lat+Indef@U.DECL-CX.LAT@:в00@U.DECL-CX.LAT@ NounEnd_K ;
 
 LEXICON LOC-INDEF
-+Loc+InDef@U.DECL-CX.LOC@:О100@U.DECL-CX.LOC@ NounEnd_K ;
++Loc+Indef@U.DECL-CX.LOC@:О100@U.DECL-CX.LOC@ NounEnd_K ;
 
 LEXICON SG-NOM-INDEF-kal
-+Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kal-NomSg-Conjugation ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kal-NomSg-Conjugation ;
 LEXICON SG-NOM-INDEF-kit
-+Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kit-NomSg-Conjugation ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kit-NomSg-Conjugation ;
 LEXICON SG-NOM-INDEF-lak
-+Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ lak-NomSg-Conjugation ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ lak-NomSg-Conjugation ;
 LEXICON SG-NOM-INDEF-osh
-+Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ osh-NomSg-Conjugation ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ osh-NomSg-Conjugation ;
 LEXICON SG-NOM-INDEF-pango
-+Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ pango-NomSg-Conjugation ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ pango-NomSg-Conjugation ;
 LEXICON SG-NOM-INDEF-kudo
-+Sg+Nom+InDef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kudo-NomSg-Conjugation ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ kudo-NomSg-Conjugation ;
 
 LEXICON PRL-INDEF
-+Prl+InDef@U.DECL-CX.PRL@:Г2а0@U.DECL-CX.PRL@ kudo-Conjugation ;
++Prl+Indef@U.DECL-CX.PRL@:Г2а0@U.DECL-CX.PRL@ kudo-Conjugation ;
 
 LEXICON TMP-INDEF
-+TempCx+InDef@U.DECL-CX.TEMP@:не0@U.DECL-CX.TEMP@ NounEnd_K ;
++TempCx+Indef@U.DECL-CX.TEMP@:не0@U.DECL-CX.TEMP@ NounEnd_K ;
 
 LEXICON TRA-INDEF
-+Tra+InDef@U.DECL-CX.TRA@:кс0@U.DECL-CX.TRA@ osh-Conjugation ;
++Tra+Indef@U.DECL-CX.TRA@:кс0@U.DECL-CX.TRA@ osh-Conjugation ;
 
 
 LEXICON PL-NOM-INDEF
-+Pl+Nom+InDef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ kit-NomPl-Conjugation ;
-+Pl+Nom+InDef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ NounEnd_K ;
++Pl+Nom+Indef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ kit-NomPl-Conjugation ;
++Pl+Nom+Indef@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@:тЬ20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@ NounEnd_K ;
 
 
 
@@ -1500,7 +1500,7 @@ LEXICON SecondaryDeclination_1RequiresNoVowel
 +Sg+CompCx+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
 
  K ;
-+Pl+Nom+InDef:%>тЬ2 K ;
++Pl+Nom+Indef:%>тЬ2 K ;
 +Pl+Nom+Def:%>тне K ; 
 +Pl+Abl+Def:%>тне%>де K ;
 +Pl+Abe+Def:%>тне%>с K ;
@@ -1538,10 +1538,10 @@ LEXICON Nouns1_A
 +Tra:%>О1кс osh-Indef-DefSg-Poss ;
 +Ill:%>О1з osh-Possessive-Before-K ;
 
-+TempCx+InDef:%>не K ;
-+Lat+InDef:%>О1в K ;
++TempCx+Indef:%>не K ;
++Lat+Indef:%>О1в K ;
 
-+DatCx+InDef:%>нень K ;
++DatCx+Indef:%>нень K ;
 +DatCx+PxSg1:%>нень K ;
 +DatCx+PxSg2:%>тень K ;
 +DatCx+PxSg3:%>О1нстэнь K ;
@@ -1550,8 +1550,8 @@ LEXICON Nouns1_A
 +Sg+Gen+Def:%>О1нть K ;
 +Sg+DatCx+Def:%>О1нтень K ;
 
-+Gen+InDef:%>О1нь kal-Tenses-Obl ;
-+Com+InDef:%>нек K-lak ;
++Gen+Indef:%>О1нь kal-Tenses-Obl ;
++Com+Indef:%>нек K-lak ;
 +Dial+DatCx+PxSg2:%>теть K ;
 +Dial+DatCx+PxSg2:%>те K ;
 +Dial+DatCx+PxSg3:%>О1нстО1 K ;
@@ -1605,7 +1605,7 @@ LEXICON Nouns1S_A_ReqVow
 +CompCx:%>О1шка kudo-Indef-DefSg-Poss ;
 +Ill:%>О1с K ;
 
-+Lat+InDef:%>О1в K ;
++Lat+Indef:%>О1в K ;
 
 
 +Ine:%>сО1 kudo-Indef-DefSg-Poss ;
@@ -1626,7 +1626,7 @@ LEXICON Nouns1S_A_ReqVow
 +Sg+Nom+Def:%>О1сь kal-Tenses-NomSg ;
 +Sg+Gen+Def:%>О1нть K ;
 +Sg+DatCx+Def:%>О1нтень K ;
-+Gen+InDef:%>О1нь kal-Tenses-Obl ;
++Gen+Indef:%>О1нь kal-Tenses-Obl ;
 
 
 
@@ -1655,8 +1655,8 @@ Nouns_Pl ;
 
 LEXICON istja-Gen-Attributes
  K ; !This means that stem is word final !!!
-+Abl+InDef:%>дО1 K ;
-+InDef+GenIndef:%>нь kal-Tenses-Obl ;
++Abl+Indef:%>дО1 K ;
++Indef+GenIndef:%>нь kal-Tenses-Obl ;
 +OrthOld+GenIndef+Der/се:%>н%> N2Dem-SE ;
 +OrthMorph+GenIndef+Der/се:%>нь N2Dem-SE ; ! _ь_ retension
 +OrthPhon+GenIndef+Der/се:%>нце kudo-N2-Def-Declension ;
@@ -1667,8 +1667,8 @@ LEXICON chop-Gen-Attributes
 
 LEXICON pek-Gen-Attributes
  K ; !This means that stem is word final !!!
-+Abl+InDef:%>дО1 K ;
-+InDef+GenIndef:%>О1нь kal-Tenses-Obl ;
++Abl+Indef:%>дО1 K ;
++Indef+GenIndef:%>О1нь kal-Tenses-Obl ;
 +OrthOld+GenIndef+Der/се:%>О1н%> N2Dem-SE ;
 +OrthMorph+GenIndef+Der/се:%>О1нь N2Dem-SE ; ! _ь_ retension
 +OrthPhon+GenIndef+Der/се:%>О1нце kudo-N2-Def-Declension ;
