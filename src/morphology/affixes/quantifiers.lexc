@@ -195,7 +195,7 @@ LEXICON IterTag
 !! once, twice; весть, кавксть, аламоксть
 
 LEXICON Iter-Indef
-+Qnt+Iter+InDef: K ;
++Qnt+Iter+Indef: K ;
 
 LEXICON OrdTag
 +Qnt+Ord: K ;
@@ -222,7 +222,7 @@ LEXICON Qnt-Distr
 +Qnt+Distr: K ;
 
 LEXICON Qnt-Indef
-+Qnt+InDef: K ;
++Qnt+Indef: K ;
 
 LEXICON Qnt-veseme
 +Qnt+Adn: WORD-END ;
@@ -378,8 +378,8 @@ LEXICON Quants3
 +Ill:%>з osh-Possessive-Before-K ;
 +Ill:%>О1з osh-Possessive-Before-K ;
 
-+Pl+Nom+InDef:%>VLossтЬ2 kit-Tenses1 ;
-+Pl+Nom+InDef:%>NoVLossтЬ2 kit-Tenses1 ;
++Pl+Nom+Indef:%>VLossтЬ2 kit-Tenses1 ;
++Pl+Nom+Indef:%>NoVLossтЬ2 kit-Tenses1 ;
 +Pl+Nom+Def:%>тне kudo-Tenses1 ;
 
 +Abl:%>дО1 kudo-Possessive-Before-K ;
@@ -468,21 +468,21 @@ LEXICON Quants3_TLOSS
 !! 2012-08-09
 !LEXICON Attributes1
 ! Attributes2 ;
-!+Pl+Nom+InDef:%>тЬ2  kit-Tenses1 ;
-!+Sg+Ela+InDef:%>стО1 Ks ;
-!+Sg+Tra+InDef:%>кс Ks ;
-!+Pl+Ela+InDef:%>стО1 Ks ;
-!+Pl+Tra+InDef:%>кс Ks ;
-!+Sg+Nom+InDef: Ks ;
+!+Pl+Nom+Indef:%>тЬ2  kit-Tenses1 ;
+!+Sg+Ela+Indef:%>стО1 Ks ;
+!+Sg+Tra+Indef:%>кс Ks ;
+!+Pl+Ela+Indef:%>стО1 Ks ;
+!+Pl+Tra+Indef:%>кс Ks ;
+!+Sg+Nom+Indef: Ks ;
 
 
 LEXICON kudo-Attributes2
 +Der/MWN+N+Sg+Nom+Def:%>сь osh-Tenses1 ;
 +Der/MWN+N+Sg+Gen+Def:%>нть Ks ;
 +Der/MWN+N+Sg+DatCx+Def:%>нтень Ks ;
-+Der/MWN+N+Pl+Nom+InDef:%>тЬ2 kit-Tenses1 ;
++Der/MWN+N+Pl+Nom+Indef:%>тЬ2 kit-Tenses1 ;
 +Der/MWN+N+Pl+Nom+Def:%>тне kudo-Tenses1 ;
-+Der/MWN+N+Gen+InDef:%>нь kal-Tenses1 ;
++Der/MWN+N+Gen+Indef:%>нь kal-Tenses1 ;
 +Der/MWN+N+Sg+Prl+Def:%>Г2а%>нть Ks ;
 +Der/MWN+N+Sg+Abe+Def:%>втО1мО1%>нть Ks ;
 +Der/MWN+N+Sg+Abl+Def:%>дО1%>нть Ks ;
@@ -496,7 +496,7 @@ LEXICON osh-Attributes2
 +Der/MWN+N+Sg+Nom+Def:%>О1сь osh-Tenses1 ;
 +Der/MWN+N+Sg+Gen+Def:%>О1нть Ks ;
 +Der/MWN+N+Sg+DatCx+Def:%>О1нтень Ks ;
-+Der/MWN+N+Gen+InDef:%>О1нь kal-Tenses1 ;
++Der/MWN+N+Gen+Indef:%>О1нь kal-Tenses1 ;
 +Der/MWN+N+Sg+Tra+Def:%>О1кс%>О1нть Ks ;
 +Der/MWN+N+Sg+Ine+Def:%>О1сО1%>нть Ks ;
 +Der/MWN+N+Sg+Ela+Def:%>О1стО1%>нть Ks ;
