@@ -25,24 +25,33 @@ Multichar_Symbols
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V
- +Pron
+ +A ! adjective
+ +Adv ! adverb
+ +N ! noun
+ +V ! verb
+ +Pron ! pronoun
  +CS ! subordinating conjunction
  +CC ! coordinating conjunction
- +Po +Pr +Interj +Pcle
+ +Po ! postposition
+ +Interj ! interjection 
+ +Pcle ! particle
  +Qnt ! Quantifier
 
 !! The parts of speech are further split up into:
 ! Nouns
-  +Prop
+  +Prop ! proper
 ! Pronouns
-  +Interr +Rel
-  +Pers +Dem +Refl +Recipr
-  +Indef ! 
-+CollN ! used with paired nouns _collective nouns_
-+Dep ! dependent word requiring the presence of another, e.g. _мень_
+ +Interr ! interrogative
+ +Rel ! relative
+ +Pers ! personal
+ +Dem ! demonstrative
+ +Refl ! reflexive
+ +Recipr ! reciprocal
+ +Indef ! indefinite
+ +CollN ! used with paired nouns _collective nouns_
+ +Dep ! dependent word requiring the presence of another, e.g. _мень_
 ! Quantifiers (numerals)
- +Num
+ +Num ! numeral
  +AssocColl ! -ne- ; avide-
  +Assoc ! +мезть
  +Coll ! Collective
@@ -76,10 +85,10 @@ Multichar_Symbols
  +Use/Marg  ! Marginal
  +Use/-Spell !Exclude from speller
  +Use/SpellNoSugg !recognized but not suggested in speller
-  +Use/Circ  ! Circular path
-  +Use/CircN ! Circular number path
-  +Use/-Ped   ! Remove from pedagogical speller
-  +Use/NG    ! Do not generate, for isme-ped.fst and apertium
+ +Use/Circ  ! Circular path
+ +Use/CircN ! Circular number path
+ +Use/-Ped   ! Remove from pedagogical speller
+ +Use/NG    ! Do not generate, for isme-ped.fst and apertium
  +Use/NA     !
 
  +Use/LexSub ! The lemma is not an Erzya word (Depricating _+Src/F_)
@@ -105,26 +114,33 @@ Multichar_Symbols
   +Orth/Colloq ! Colloquial speech reflected in spelling
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Pl
- +Nom ! Nominative case
- +Gen ! Genitive case
- +Abl ! Ablative case
- +DatCx ! Dative case
- +Ine ! Inessive
- +Ill ! Illative
- +Ela ! Elative
- +Tra ! Translative
- +Abe ! Abessive
- +Prl ! Prolative "га/ка/ва"
- +CompCx ! Comparative case form -шка
+! number
+ +Sg ! singular
+ +Pl ! plural
+! case
+ +Abe ! abessive
+ +Abl ! ablative case
  +Com ! Comitative "-нек/-нэк"
+ +CompCx ! Comparative case form -шка
+ +DatCx ! dative case
+ +Ela ! elative
+ +Gen ! genitive case
+ +Ine ! inessive
+ +Ill ! illative
  +Loc ! Locative "вить ён : вить ёно"
+ +Nom ! nominative case
+ +Prl ! prolative "га/ка/ва"
+ +Tra ! translative
  +TempCx ! Temporalis case form "-не/-нэ"
  +Voc ! Vocative
 
 !! The possession and other declension types are marked with:
- +PxSg1 +PxSg2 +PxSg3
- +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 ! first person singular
+ +PxSg2 ! second person singular
+ +PxSg3 ! third person singular
+ +PxPl1 ! first person plural
+ +PxPl2 ! second person plural
+ +PxPl3 ! third person plural
  +Def ! Definite
 !  +InDef moved to +Indef ! Indefinite
 
@@ -135,12 +151,13 @@ Multichar_Symbols
 
  
 !! Verb moods are:
- +Ind ! Indicative
- +Imprt ! Imperative
- +Conj ! Conjunctional "вОль"
- +Opt ! Optative 
- +Des ! Ыксэль 'was about to; wanted to' 
- +Cond ! Ындеря- (Derivational)
+ +Cond ! conditional Ындеря- (Derivational)
+ +Conj ! conjunctional "вОль"
+ +Des ! desiderative Ыксэль 'was about to; wanted to' 
+ +Ind ! indicative
+ +Imprt ! imperative
+ +Opt ! optative 
+!! infinitive moods
  +Oblig ! modality: deontic/directive/obligative
            !  андомс: андома , якамс: якама
  +Delib ! _+ Sugg modality_: deontic/directive/deliberative
@@ -160,7 +177,7 @@ Multichar_Symbols
 
 !! Other verb forms are
   +Neg    ! verb of negation эзь, аволь, иля
-  +ConNeg ! main verb complement to Neg, 
+  +ConNeg ! connegative, main verb complement to Neg, 
   +VGen   ! Verb Genitive
   +VAbl   ! Verb Ablative "озадо"
   +Inf    ! Infinitive
