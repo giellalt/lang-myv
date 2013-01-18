@@ -27,40 +27,29 @@ Multichar_Symbols
 !! The parts-of-speech are:
  +A ! adjective
  +Adv ! adverb
- +N ! noun
- +V ! verb
- +Pron ! pronoun
  +CS ! subordinating conjunction
  +CC ! coordinating conjunction
- +Po ! postposition
  +Interj ! interjection 
+ +N ! noun
  +Pcle ! particle
+ +Po ! postposition
+ +Pron ! pronoun
  +Qnt ! Quantifier
+ +V ! verb
 
 !! The parts of speech are further split up into:
 ! Nouns
-  +Prop ! proper
-! Pronouns
- +Interr ! interrogative
- +Rel ! relative
- +Pers ! personal
- +Dem ! demonstrative
- +Refl ! reflexive
- +Recipr ! reciprocal
- +Indef ! indefinite
+ +Prop ! proper
  +CollN ! used with paired nouns _collective nouns_
+! Pronouns
+ +Dem ! demonstrative
+ +Indef ! indefinite
  +Dep ! dependent word requiring the presence of another, e.g. _мень_
-! Quantifiers (numerals)
- +Num ! numeral
- +AssocColl ! -ne- ; avide-
- +Assoc ! +мезть
- +Coll ! Collective
- +NCrd ! +Card
- +NOrd ! +Ord
- +Distr ! Distributive
- +Iter ! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
- +Appr ! Approximative numeral кавто-колмо, колмошка 'two or three'
-    ! NB! do not confuse with Komi case +Apr
+ +Interr ! interrogative
+ +Pers ! personal
+ +Recipr ! reciprocal
+ +Refl ! reflexive
+ +Rel ! relative
 
 ! Adjectives
  +Adn ! Adnominal (modifier) !! This is not an NP head like +Pron
@@ -149,6 +138,19 @@ Multichar_Symbols
  +Superl ! superlative
  +Attr ! Attribute
 
+!! Quantifiers and Numerals are classified under:
+! Quantifiers (numerals)
+ +Num ! numeral
+ +Appr ! Approximative numeral кавто-колмо, колмошка 'two or three'
+    ! NB! do not confuse with Komi case +Apr
+ +AssocColl ! -ne- ; avide-
+ +Assoc ! +мезть
+ +Card ! cardinal + NCard
+ +Coll ! collective
+ +Distr ! Distributive
+ +Iter ! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
+ +Ord ! ordinal + NOrd
+
  
 !! Verb moods are:
  +Cond ! conditional Ындеря- (Derivational)
@@ -171,22 +173,32 @@ Multichar_Symbols
 
 !! Verb personal forms are:
 ! Subject conjugation
-  +ScSg1 +ScSg2 +ScSg3 +ScPl1 +ScPl2 +ScPl3
+ +ScSg1 ! subject conjugation first person singular
+ +ScSg2 ! subject conjugation second person singular
+ +ScSg3 ! subject conjugation third person singular
+ +ScPl1 ! subject conjugation first person plural
+ +ScPl2 ! subject conjugation second person plural
+ +ScPl3 ! subject conjugation third person plural
 ! Object conjugation
-  +OcSg1 +OcSg2 +OcSg3 +OcPl1 +OcPl2 +OcPl3
+ +OcSg1 ! objject conjugation first person singular
+ +OcSg2 ! objject conjugation second person singular
+ +OcSg3 ! objject conjugation third person singular
+ +OcPl1 ! objject conjugation first person plural
+ +OcPl2 ! objject conjugation second person plural
+ +OcPl3 ! objject conjugation third person plural
 
 !! Other verb forms are
-  +Neg    ! verb of negation эзь, аволь, иля
-  +ConNeg ! connegative, main verb complement to Neg, 
-  +VGen   ! Verb Genitive
-  +VAbl   ! Verb Ablative "озадо"
-  +Inf    ! Infinitive
-  +TelicPrc ! Telic participle ! "саевть" 
-  +Prc ! participle
   +ActPrcLong  ! Ы2й (This is dealt with elsewhere as an active present participle)
   +ActPrcShort ! Ы2  (This is dealt with elsewhere as an active present participle)
   +ActDemPrc   ! Ы2ця  (This is dealt with elsewhere as an active present participle)
-  +Ger ! Gerund This is used with Der/Озь and VAbl
+  +ConNeg ! connegative, main verb complement to Neg, 
+  +Ger ! gerund This is used with Der/Озь and VAbl
+  +Inf    ! infinitive
+  +Neg    ! verb of negation эзь, аволь, иля
+  +Prc ! participle
+  +VGen   ! Verb Genitive
+  +VAbl   ! Verb Ablative "озадо"
+  +TelicPrc ! Telic participle ! "саевть" 
 
 !! Is this necessary ?? 2012-08-21
    +PrfPrc
