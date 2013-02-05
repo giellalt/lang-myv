@@ -24,44 +24,44 @@ Multichar_Symbols
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +A ! adjective
- +Adv ! adverb
- +CS ! subordinating conjunction
- +CC ! coordinating conjunction
- +Interj ! interjection 
- +N ! noun
- +Pcle ! particle
- +Po ! postposition
- +Pron ! pronoun
- +Qnt ! Quantifier
- +V ! verb
+!! !!The parts-of-speech are:
+ +A !! adjective
+ +Adv !! adverb
+ +CS !! subordinating conjunction
+ +CC !! coordinating conjunction
+ +Interj !! interjection 
+ +N !! noun
+ +Pcle !! particle
+ +Po !! postposition
+ +Pron !! pronoun
+ +Qnt !! Quantifier
+ +V !! verb
 
 !! The parts of speech are further split up into:
 ! Nouns
- +Prop ! proper
- +CollN ! used with paired nouns _collective nouns_
+ +Prop !! proper
+ +CollN !! used with paired nouns _collective nouns_
 ! Pronouns
- +Dem ! demonstrative
- +Indef ! indefinite
- +Dep ! dependent word requiring the presence of another, e.g. _мень_
- +Interr ! interrogative
- +Pers ! personal
- +Recipr ! reciprocal
- +Refl ! reflexive
- +Rel ! relative
+ +Dem !! demonstrative
+ +Indef !! indefinite
+ +Dep !! dependent word requiring the presence of another, e.g. _мень_
+ +Interr !! interrogative
+ +Pers !! personal
+ +Recipr !! reciprocal
+ +Refl !! reflexive
+ +Rel !! relative
 
 ! Adjectives
- +Adn ! Adnominal (modifier) !! This is not an NP head like +Pron
- +Bahuvrihi ! This is a nominative-case NP used as an adjective
+ +Adn !! Adnominal (modifier) !! This is not an NP head like +Pron
+ +Bahuvrihi !! This is a nominative-case NP used as an adjective
 
 ! Adverbs
- +Adv-Ideoph ! These are ideophonic descriptors used to modify the verb
-            ! вырк ливтясь '_flit_ and it flew off'
- +AdA ! Ad-adjective
- +Manner ! with reference to type of adverb
- +Spat ! spatial
- +Temp ! temporal
+ +Adv-Ideoph !! These are ideophonic descriptors used to modify the verb
+            !! вырк ливтясь '_flit_ and it flew off'
+ +AdA !! Ad-adjective
+ +Manner !! with reference to type of adverb
+ +Spat !! spatial
+ +Temp !! temporal
 
 ! Postpositions
 ! _+ Spat_, _+ Temp_
@@ -70,149 +70,149 @@ Multichar_Symbols
  +Formulaic
 
 !! The Usage extents are marked using following tags:
- +Use/Sub   ! Substandard
- +Use/Marg  ! Marginal
- +Use/-Spell !Exclude from speller
- +Use/SpellNoSugg !recognized but not suggested in speller
- +Use/Circ  ! Circular path
- +Use/CircN ! Circular number path
- +Use/-Ped   ! Remove from pedagogical speller
- +Use/NG    ! Do not generate, for isme-ped.fst and apertium
- +Use/NA     !
+ +Use/Sub   !! Substandard
+ +Use/Marg  !! Marginal
+ +Use/-Spell !! Exclude from speller
+ +Use/SpellNoSugg !! recognized but not suggested in speller
+ +Use/Circ  !! Circular path
+ +Use/CircN !! Circular number path
+ +Use/-Ped   !! Remove from pedagogical speller
+ +Use/NG    !! Do not generate, for isme-ped.fst and apertium
+ +Use/NA     !!
 
- +Use/LexSub ! The lemma is not an Erzya word (Depricating _+Src/F_)
+ +Use/LexSub !! The lemma is not an Erzya word (Depricating _+Src/F_)
 
 !! ==== Dialect tags ====
- +Dial/SH ! Short forms
- +Dial/L  ! Long forms
- +Dial 	  ! No specification
-    ! Specific to some dialects
-    ! Rueter 2010: 8
- +Dial/C  ! 1 Central or Kozlovka-Mokshlei 
- +Dial/W  ! 2 Western or Insar
- +Dial/NW ! 3 North-Western or Alatyr
- +Dial/SE ! 4 South-Eastern or Sura
- +Dial/M  ! 5 Mixed or Drakino-Shoksha
+ +Dial/SH !! Short forms
+ +Dial/L  !! Long forms
+ +Dial 	  !! No specification
+    !! Specific to some dialects
+    !! Rueter 2010: 8
+ +Dial/C  !! 1 Central or Kozlovka-Mokshlei 
+ +Dial/W  !! 2 Western or Insar
+ +Dial/NW !! 3 North-Western or Alatyr
+ +Dial/SE !! 4 South-Eastern or Sura
+ +Dial/M  !! 5 Mixed or Drakino-Shoksha
 
 !! ==== Orthography tags ====
-  +Orth/PhonDeriv ! Derivation is phonetic
-                   ! but declension and conjugation morphologic
-  +Orth/PhonInfl  ! Entire inflection is phonetic 1821, 1920-30
+  +Orth/PhonDeriv !! Derivation is phonetic
+                   !! but declension and conjugation morphologic
+  +Orth/PhonInfl  !! Entire inflection is phonetic 1821, 1920-30
   +Orth/PhonComb
   +Orth/SH
-  +Orth/Colloq ! Colloquial speech reflected in spelling
+  +Orth/Colloq !! Colloquial speech reflected in spelling
 
-!! The nominals are inflected in the following Case and Number
-! number
- +Sg ! singular
- +Pl ! plural
-! case
- +Abe ! abessive
- +Abl ! ablative case
- +Com ! Comitative "-нек/-нэк"
- +CompCx ! Comparative case form -шка
- +DatCx ! dative case
- +Ela ! elative
- +Gen ! genitive case
- +Ine ! inessive
- +Ill ! illative
- +Loc ! Locative "вить ён : вить ёно"
- +Nom ! nominative case
- +Prl ! prolative "га/ка/ва"
- +Tra ! translative
- +TempCx ! Temporalis case form "-не/-нэ"
- +Voc ! Vocative
+!! !!The nominals are inflected in the following Case and Number
+!! !!number
+ +Sg !! singular
+ +Pl !! plural
+!! !!case
+ +Abe !! abessive
+ +Abl !! ablative case
+ +Com !! Comitative "-нек/-нэк"
+ +CompCx !! Comparative case form -шка
+ +DatCx !! dative case
+ +Ela !! elative
+ +Gen !! genitive case
+ +Ine !! inessive
+ +Ill !! illative
+ +Loc !! Locative "вить ён : вить ёно"
+ +Nom !! nominative case
+ +Prl !! prolative "га/ка/ва"
+ +Tra !! translative
+ +TempCx !! Temporalis case form "-не/-нэ"
+ +Voc !! Vocative
 
 !! The possession and other declension types are marked with:
- +PxSg1 ! first person singular
- +PxSg2 ! second person singular
- +PxSg3 ! third person singular
- +PxPl1 ! first person plural
- +PxPl2 ! second person plural
- +PxPl3 ! third person plural
- +Def ! Definite
-!  +InDef moved to +Indef ! Indefinite
+ +PxSg1 !! first person singular
+ +PxSg2 !! second person singular
+ +PxSg3 !! third person singular
+ +PxPl1 !! first person plural
+ +PxPl2 !! second person plural
+ +PxPl3 !! third person plural
+ +Def !! Definite
+!  +InDef moved to +Indef !! Indefinite
 
 !! The comparative forms are:
- +Comp ! comparative as opposed to superlative
- +Superl ! superlative
- +Attr ! Attribute
+ +Comp !! comparative as opposed to superlative
+ +Superl !! superlative
+ +Attr !! Attribute
 
 !! Quantifiers and Numerals are classified under:
 ! Quantifiers (numerals)
- +Num ! numeral
- +Appr ! Approximative numeral кавто-колмо, колмошка 'two or three'
-    ! NB! do not confuse with Komi case +Apr
- +AssocColl ! -ne- ; avide-
- +Assoc ! +мезть
- +Card ! cardinal + NCard
- +Coll ! collective
- +Distr ! Distributive
- +Iter ! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
- +Ord ! ordinal + NOrd
+ +Num !! numeral
+ +Appr !! Approximative numeral кавто-колмо, колмошка 'two or three'
+    !! NB! do not confuse with Komi case +Apr
+ +AssocColl !! -ne- ; avide-
+ +Assoc !! +мезть
+ +Card !! cardinal + NCard
+ +Coll !! collective
+ +Distr !! Distributive
+ +Iter !! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
+ +Ord !! ordinal + NOrd
 
  
 !! Verb moods are:
- +Cond ! conditional Ындеря- (Derivational)
- +Conj ! conjunctional "вОль"
- +Des ! desiderative Ыксэль 'was about to; wanted to' 
- +Ind ! indicative
- +Imprt ! imperative
- +Opt ! optative 
+ +Cond !! conditional Ындеря- (Derivational)
+ +Conj !! conjunctional "вОль"
+ +Des !! desiderative Ыксэль 'was about to; wanted to' 
+ +Ind !! indicative
+ +Imprt !! imperative
+ +Opt !! optative 
 !! infinitive moods
- +Oblig ! modality: deontic/directive/obligative
-           !  андомс: андома , якамс: якама
- +Delib ! _+ Sugg modality_: deontic/directive/deliberative
-       ! I still need the right word for this андомс: андомсат
+ +Oblig !! modality: deontic/directive/obligative
+           !!  андомс: андома , якамс: якама
+ +Delib !! _+ Sugg modality_: deontic/directive/deliberative
+       !! I still need the right word for this андомс: андомсат
 
-!! Tenses in the indicative and infrequently in the conditional
- +Prs ! In Erzya There is no morphological distinction 
-          ! between present and future
- +Prt1 ! Preterite 1
- +Prt2 ! Preterite 2 (This is also used in predicate forms not involving a finite verb.)
+!! !!Tenses in the indicative and infrequently in the conditional
+ +Prs !! In Erzya There is no morphological distinction 
+          !! between present and future
+ +Prt1 !! Preterite 1
+ +Prt2 !! Preterite 2 (This is also used in predicate forms not involving a finite verb.)
 
-!! Verb personal forms are:
+!! !!Verb personal forms are:
 ! Subject conjugation
- +ScSg1 ! subject conjugation first person singular
- +ScSg2 ! subject conjugation second person singular
- +ScSg3 ! subject conjugation third person singular
- +ScPl1 ! subject conjugation first person plural
- +ScPl2 ! subject conjugation second person plural
- +ScPl3 ! subject conjugation third person plural
-! Object conjugation
- +OcSg1 ! objject conjugation first person singular
- +OcSg2 ! objject conjugation second person singular
- +OcSg3 ! objject conjugation third person singular
- +OcPl1 ! objject conjugation first person plural
- +OcPl2 ! objject conjugation second person plural
- +OcPl3 ! objject conjugation third person plural
+ +ScSg1 !! subject conjugation first person singular
+ +ScSg2 !! subject conjugation second person singular
+ +ScSg3 !! subject conjugation third person singular
+ +ScPl1 !! subject conjugation first person plural
+ +ScPl2 !! subject conjugation second person plural
+ +ScPl3 !! subject conjugation third person plural
+!! !!Object conjugation
+ +OcSg1 !! objject conjugation first person singular
+ +OcSg2 !! objject conjugation second person singular
+ +OcSg3 !! objject conjugation third person singular
+ +OcPl1 !! objject conjugation first person plural
+ +OcPl2 !! objject conjugation second person plural
+ +OcPl3 !! objject conjugation third person plural
 
 !! Other verb forms are
-  +ActPrcLong  ! Ы2й (This is dealt with elsewhere as an active present participle)
-  +ActPrcShort ! Ы2  (This is dealt with elsewhere as an active present participle)
-  +ActDemPrc   ! Ы2ця  (This is dealt with elsewhere as an active present participle)
-  +ConNeg ! connegative, main verb complement to Neg, 
-  +Ger ! gerund This is used with Der/Озь and VAbl
-  +Inf    ! infinitive
-  +Neg    ! verb of negation эзь, аволь, иля
-  +Prc ! participle
-  +VGen   ! Verb Genitive, genitive form participle
-  +VAbl   ! Verb Ablative "озадо"
-  +TelicPrc ! Telic participle ! "саевть" 
+  +ActPrcLong  !! Ы2й (This is dealt with elsewhere as an active present participle)
+  +ActPrcShort !! Ы2  (This is dealt with elsewhere as an active present participle)
+  +ActDemPrc   !! Ы2ця  (This is dealt with elsewhere as an active present participle)
+  +ConNeg !! connegative, main verb complement to Neg, 
+  +Ger !! gerund This is used with Der/Озь and VAbl
+  +Inf    !! infinitive
+  +Neg    !! verb of negation эзь, аволь, иля
+  +Prc !! participle
+  +VGen   !! Verb Genitive, genitive form participle
+  +VAbl   !! Verb Ablative "озадо"
+  +TelicPrc !! Telic participle ! "саевть" 
 
 !! Is this necessary ?? 2012-08-21
    +PrfPrc
 
 ! Abbreviated words are classified with:
-  +ABBR ! Abbreviation
-  +ACR  ! Acronym
+  +ABBR !! Abbreviation
+  +ACR  !! Acronym
 
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 
 !! The verbs are syntactically split according to transitivity:
- +TV ! transitive verb
- +IV ! intransitive verb
+ +TV !! transitive verb
+ +IV !! intransitive verb
 
 !! Special multiword units are analysed with:
  +Multi
@@ -223,34 +223,34 @@ Multichar_Symbols
  +Qst +Foc
 
 
-!! Semantics are classified with
- +Mal ! Male
- +Fem ! Female
- +Sur ! Surname
- +Patr ! Patronym
- +Plc ! Place name
- +Org ! name of organization
+!! !!Semantics are classified with
+ +Mal !! Male
+ +Fem !! Female
+ +Sur !! Surname
+ +Patr !! Patronym
+ +Plc !! Place name
+ +Org !! name of organization
 !! What is this 2012-08-21
  +Obj	!
- +Ani ! name of animal
- +Rvr ! name of river or water way, media of transportation
- +Anim ! Animate
- +Inanim ! Inanimate
- +Hum    ! Human
- +NonHum ! Nonhuman
- +Kin ! Kinship term (This is reflected in special PxSg2 forms)
- +Divinity ! -паз, -ава _divinity is God personified_
+ +Ani !! name of animal
+ +Rvr !! name of river or water way, media of transportation
+ +Anim !! Animate
+ +Inanim !! Inanimate
+ +Hum    !! Human
+ +NonHum !! Nonhuman
+ +Kin !! Kinship term (This is reflected in special PxSg2 forms)
+ +Divinity !! -паз, -ава _divinity is God personified_
  +Constellation 
 
  +Plant
  +Group
  +Time 
- +Txt  ! name of a text
- +Route	 ! name of a route
- +Measr ! measure
+ +Txt  !! name of a text
+ +Route	 !! name of a route
+ +Measr !! measure
  +Wthr	! weather
- +Build ! building
- +Event ! event
+ +Build !! building
+ +Event !! event
  +Edu
  +Veh	! vehicle
  +Clth	! clothing
@@ -265,64 +265,64 @@ Multichar_Symbols
 ! Der#begin
 +Der/ВтОмО
 +Der/шка
-+Der/Онь ! genitive attribute derivation of non-nouns
-+Der/ай ! vocative
-+Der/кай ! vocative
++Der/Онь !! genitive attribute derivation of non-nouns
++Der/ай !! vocative
++Der/кай !! vocative
  
 !!Then they should have indication of whether they are gerunds or participles!!
 !!
-+Der/Овт ! telic deverbal noun also attr
-+Der/Омс ! infinitive illative
-+Der/ОмО ! infinitive locative/nominative
-+Der/ОмстО ! infinitive elative
-+Der/ОмсО  ! infinitive inessive
-+Der/ОмдО  ! infinitive ablative
-+Der/Омга  ! infinitive prolative
-+Der/Ома   ! modality: deontic/directive/obligative андомс: андома , якамс: якама
-+Der/Омка  ! modality: deontic/directive/obligative андомс: андомка , якамс: якамка
-+Der/Ыця   ! active (demonstrative) present participle
-+Der/Ы	   ! active short present participle
-+Der/Ый	   ! active long present participle
-+Der/Озь !Gerund 
-+Der/Ындеря ! conditional derivation
++Der/Овт !! telic deverbal noun also attr
++Der/Омс !! infinitive illative
++Der/ОмО !! infinitive locative/nominative
++Der/ОмстО !! infinitive elative
++Der/ОмсО  !! infinitive inessive
++Der/ОмдО  !! infinitive ablative
++Der/Омга  !! infinitive prolative
++Der/Ома   !! modality: deontic/directive/obligative андомс: андома , якамс: якама
++Der/Омка  !! modality: deontic/directive/obligative андомс: андомка , якамс: якамка
++Der/Ыця   !! active (demonstrative) present participle
++Der/Ы	   !! active short present participle
++Der/Ый	   !! active long present participle
++Der/Озь !! Gerund 
++Der/Ындеря !! conditional derivation
 
 ! Declaring noun derivations
 +Der/пель
 
 ! Modifier without noun
-+Der/MWN ! Modifier without Noun
-+Der/Dem ! Speaker-Oriented Demonstrative
-! Conjugation of words other than finite verbs
-+Der/Pr ! derivation to predicate head, e.g. nominal conjugation
++Der/MWN !! Modifier without Noun
++Der/Dem !! Speaker-Oriented Demonstrative
+!! !!Conjugation of words other than finite verbs
++Der/Pr !! derivation to predicate head, e.g. nominal conjugation
 
 !Declaring Indefinite Pronoun derivations
-+Der/Гак ! suffix +_Indef in indefinite pronouns
-+Der/кой ! prefix +_Indef in indefinite pronouns
-+Der/та ! prefix +_Indef in indefinite pronouns
-+Der/таго ! prefix +_Indef in indefinite pronouns
-+Der/бути ! suffix +_Indef in indefinite pronouns
-+Der/Ыя ! suffix +_Indef in indefinite pronouns  ковия, зярыя
++Der/Гак !! suffix +_Indef in indefinite pronouns
++Der/кой !! prefix +_Indef in indefinite pronouns
++Der/та !! prefix +_Indef in indefinite pronouns
++Der/таго !! prefix +_Indef in indefinite pronouns
++Der/бути !! suffix +_Indef in indefinite pronouns
++Der/Ыя !! suffix +_Indef in indefinite pronouns  ковия, зярыя
 
 
-!Declaring Noun derivations
-+Der/чи ! adjective-to-noun
-! the combinatory _Event_ preceding the NP-final noun
-+Der/ОмА ! verb-to-noun
+!! !!Declaring Noun derivations
++Der/чи !! adjective-to-noun
+!! !!the combinatory _Event_ preceding the NP-final noun
++Der/ОмА !! verb-to-noun
 
-!Declaring Deverbal derivations of verbs
-+Der/кшнО ! verb2verb derivation
-+Der/се ! this in verb2verb derivation and also in denominal demonstrative _Der/Dem_
-+Der/не ! verb2verb derivation
+!! !!Declaring Deverbal derivations of verbs
++Der/кшнО !! verb2verb derivation
++Der/се !! this in verb2verb derivation and also in denominal demonstrative _Der/Dem_
++Der/не !! verb2verb derivation
 
 
 +Dimin 
-+Der/ка ! diminutive
-+Der/НЕ ! This is used in ошке, калнэ and кудыне
-+Der/нЕ ! diminutive
-+Der/ке ! diminutive in _ке_
-+Der/Ыне  ! diminutive
-+Der/Ынька  ! diminutive
-+Der/Ынькине  ! diminutive
++Der/ка !! diminutive
++Der/НЕ !! This is used in ошке, калнэ and кудыне
++Der/нЕ !! diminutive
++Der/ке !! diminutive in _ке_
++Der/Ыне  !! diminutive
++Der/Ынька  !! diminutive
++Der/Ынькине  !! diminutive
 
 
 
@@ -367,12 +367,12 @@ Multichar_Symbols
 ! 
 
 !! MISC
-  +Hyph  ! A tag to indicate that a hyphen was used when compounding
+  +Hyph  !! A tag to indicate that a hyphen was used when compounding
 
-  ! Different focus particles
-  +Foc/Гак
+  !! !!Different focus particles
+  +Foc/Гак !!
 
-! Development tag
+!! Development tag
 +WORK
 
 ZERO
@@ -385,41 +385,41 @@ ZERO
 +Dig2
 +Dig3
 +Dig4
-+Rom !Roman numerals
++Rom !! Roman numerals
 
 
 
-! tags
+!! !!Tags
 +Emphatic
 +Gr2000
-+Pref ! Prefix
-+Exclusive ! "ансяк"
++Pref !! Prefix
++Exclusive !! "ансяк"
 +Intensive
-+Intensifier ! уш
++Intensifier !! уш
 
 
-+Onom ! onomapoetic words
-+Descr ! descriptive words
++Onom !! onomapoetic words
++Descr !! descriptive words
 !! Focus clitics
 +Clt/Гак
 !! Imperative clitics
-+Clt/Га ! редяка
-+Clt/Гая ! редякая
-+Clt/Гаять ! редякаять
-+Clt/Гаятя ! редякаятя
-+Clt/Гатя ! редякатя
-+Clt/Гака ! редякака ARE these real?
-+Clt/Гакая ! редякакая ARE these real?
-!+Pred ! Marking the predicate
-+Pred2 ! secondary predicate
-       ! Joe came in _with his hat on_.
-       ! Joe came in _Joe had his hat on_.
++Clt/Га !! редяка
++Clt/Гая !! редякая
++Clt/Гаять !! редякаять
++Clt/Гаятя !! редякаятя
++Clt/Гатя !! редякатя
++Clt/Гака !! редякака ARE these real?
++Clt/Гакая !! редякакая ARE these real?
+!+Pred !! Marking the predicate
++Pred2 !! secondary predicate
+       !! Joe came in _with his hat on_.
+       !! Joe came in _Joe had his hat on_.
 
-!!!! FUNCTIONS are all upper-case !!!!
-+ACC +DAT +COM ! This marks a function not a morpheme
+!! !!FUNCTIONS are all upper-case !!!!
++ACC +DAT +COM !! This marks a function not a morpheme
 
-+NoPoss ! used with personal pronouns in oblique cases, 
-        ! where a possessor index is expected
++NoPoss !! used with personal pronouns in oblique cases, 
+        !! where a possessor index is expected
 
 !!Pair Verbs, Serial Verbs compounding
 +SerialVerb
