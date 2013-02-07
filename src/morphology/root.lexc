@@ -25,118 +25,50 @@ Multichar_Symbols
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! !!The parts-of-speech are:
- +A !! adjective
- +Adv !! adverb
- +CS !! subordinating conjunction
- +CC !! coordinating conjunction
+ +A 	 !! adjective
+ +Adv 	 !! adverb
+ +CS 	 !! subordinating conjunction
+ +CC 	 !! coordinating conjunction
  +Interj !! interjection 
- +N !! noun
- +Pcle !! particle
- +Po !! postposition
- +Pron !! pronoun
- +Qnt !! Quantifier
- +V !! verb
+ +N 	 !! noun
+ +Pcle 	 !! particle
+ +Po 	 !! postposition
+ +Pron 	 !! pronoun
+ +Qnt 	 !! Quantifier
+ +V 	 !! verb
 
-!! The parts of speech are further split up into:
-! Nouns
- +Prop !! proper
- +CollN !! used with paired nouns _collective nouns_
-! Pronouns
- +Dem !! demonstrative
- +Indef !! indefinite
- +Dep !! dependent word requiring the presence of another, e.g. _мень_
- +Interr !! interrogative
- +Pers !! personal
- +Recipr !! reciprocal
- +Refl !! reflexive
- +Rel !! relative
-
-! Adjectives
- +Adn !! Adnominal (modifier) !! This is not an NP head like +Pron
+!! !!Parts of speech are further split up into:
+!! Adjectives
+ +Adn	!! Adnominal (modifier) !! This is not an NP head like +Pron
  +Bahuvrihi !! This is a nominative-case NP used as an adjective
 
-! Adverbs
+!! Adverbs
  +Adv-Ideoph !! These are ideophonic descriptors used to modify the verb
-            !! вырк ливтясь '_flit_ and it flew off'
- +AdA !! Ad-adjective
- +Manner !! with reference to type of adverb
- +Spat !! spatial
- +Temp !! temporal
+             !! вырк ливтясь '_flit_ and it flew off'
+ +AdA 	     !! Ad-adjective
+ +Manner     !! with reference to type of adverb
+ +Spat 	     !! spatial
+ +Temp 	     !! temporal
 
-! Postpositions
+!! Interjections
+ +Formulaic !!
+
+!! Nouns
+ +Prop	!! proper
+ +CollN !! used with paired nouns _collective nouns_
+
+!! Postpositions
 ! _+ Spat_, _+ Temp_
 
-! Interjections
- +Formulaic
-
-!! The Usage extents are marked using following tags:
- +Use/Sub   !! Substandard
- +Use/Marg  !! Marginal
- +Use/-Spell !! Exclude from speller
- +Use/SpellNoSugg !! recognized but not suggested in speller
- +Use/Circ  !! Circular path
- +Use/CircN !! Circular number path
- +Use/-Ped   !! Remove from pedagogical speller
- +Use/NG    !! Do not generate, for isme-ped.fst and apertium
- +Use/NA     !!
-
- +Use/LexSub !! The lemma is not an Erzya word (Depricating _+Src/F_)
-
-!! ==== Dialect tags ====
- +Dial/SH !! Short forms
- +Dial/L  !! Long forms
- +Dial 	  !! No specification
-    !! Specific to some dialects
-    !! Rueter 2010: 8
- +Dial/C  !! 1 Central or Kozlovka-Mokshlei 
- +Dial/W  !! 2 Western or Insar
- +Dial/NW !! 3 North-Western or Alatyr
- +Dial/SE !! 4 South-Eastern or Sura
- +Dial/M  !! 5 Mixed or Drakino-Shoksha
-
-!! ==== Orthography tags ====
-  +Orth/PhonDeriv !! Derivation is phonetic
-                   !! but declension and conjugation morphologic
-  +Orth/PhonInfl  !! Entire inflection is phonetic 1821, 1920-30
-  +Orth/PhonComb
-  +Orth/SH
-  +Orth/Colloq !! Colloquial speech reflected in spelling
-
-!! !!The nominals are inflected in the following Case and Number
-!! !!number
- +Sg !! singular
- +Pl !! plural
-!! !!case
- +Abe !! abessive
- +Abl !! ablative case
- +Com !! Comitative "-нек/-нэк"
- +CompCx !! Comparative case form -шка
- +DatCx !! dative case
- +Ela !! elative
- +Gen !! genitive case
- +Ine !! inessive
- +Ill !! illative
- +Loc !! Locative "вить ён : вить ёно"
- +Nom !! nominative case
- +Prl !! prolative "га/ка/ва"
- +Tra !! translative
- +TempCx !! Temporalis case form "-не/-нэ"
- +Voc !! Vocative
-
-!! The possession and other declension types are marked with:
- +PxSg1 !! first person singular
- +PxSg2 !! second person singular
- +PxSg3 !! third person singular
- +PxPl1 !! first person plural
- +PxPl2 !! second person plural
- +PxPl3 !! third person plural
- +Def !! Definite
-!  +InDef moved to +Indef !! Indefinite
-
-!! The comparative forms are:
- +Comp !! comparative as opposed to superlative
- +Superl !! superlative
- +Attr !! Attribute
+!! !!Pronouns
+ +Dem	!! demonstrative
+ +Indef !! indefinite
+ +Dep 	!! dependent word requiring the presence of another, e.g. _мень_
+ +Interr !! interrogative
+ +Pers 	 !! personal
+ +Recipr !! reciprocal
+ +Refl 	 !! reflexive
+ +Rel 	 !! relative
 
 !! Quantifiers and Numerals are classified under:
 ! Quantifiers (numerals)
@@ -151,7 +83,43 @@ Multichar_Symbols
  +Iter !! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
  +Ord !! ordinal + NOrd
 
- 
+!! !!Nominals are inflected for Number and Case
+!! !!Number
+ +Sg !! singular
+ +Pl !! plural
+!! !!Case
+ +Abe !! abessive
+ +Abl !! ablative case
+ +Com !! Comitative "-нек/-нэк"
+ +CompCx !! Comparative case form -шка
+ +DatCx !! dative case
+ +Ela !! elative
+ +Gen !! genitive case
+ +Ill !! illative
+ +Ine !! inessive
+ +Lat !! lative
+ +Loc !! Locative "вить ён : вить ёно"
+ +Nom !! nominative case
+ +Prl !! prolative "га/ка/ва"
+ +Tra !! translative
+ +TempCx !! Temporalis case form "-не/-нэ"
+ +Voc !! Vocative
+
+!! !!Possession and other declension types are marked with:
+ +PxSg1 !! first person singular
+ +PxSg2 !! second person singular
+ +PxSg3 !! third person singular
+ +PxPl1 !! first person plural
+ +PxPl2 !! second person plural
+ +PxPl3 !! third person plural
+ +Def 	!! Definite
+!!  +InDef moved to +Indef !! Indefinite
+
+!! The comparative forms are:
+ +Comp   !! comparative as opposed to superlative
+ +Superl !! superlative
+ +Attr 	 !! Attribute
+
 !! Verb moods are:
  +Cond !! conditional Ындеря- (Derivational)
  +Conj !! conjunctional "вОль"
@@ -201,7 +169,42 @@ Multichar_Symbols
   +TelicPrc !! Telic participle ! "саевть" 
 
 !! Is this necessary ?? 2012-08-21
-   +PrfPrc
+   +PrfPrc !! 
+
+ 
+
+!! !!The Usage extents are marked using following tags:
+ +Use/Sub   !! Substandard
+ +Use/Marg  !! Marginal
+ +Use/-Spell !! Exclude from speller
+ +Use/SpellNoSugg !! recognized but not suggested in speller
+ +Use/Circ  !! Circular path
+ +Use/CircN !! Circular number path
+ +Use/-Ped   !! Remove from pedagogical speller
+ +Use/NG    !! Do not generate, for isme-ped.fst and apertium
+ +Use/NA     !!
+
+ +Use/LexSub !! The lemma is not an Erzya word (Depricating _+Src/F_)
+
+!! ==== Dialect tags ====
+ +Dial/SH !! Short forms
+ +Dial/L  !! Long forms
+ +Dial 	  !! No specification
+    !! Specific to some dialects
+    !! Rueter 2010: 8
+ +Dial/C  !! 1 Central or Kozlovka-Mokshlei 
+ +Dial/W  !! 2 Western or Insar
+ +Dial/NW !! 3 North-Western or Alatyr
+ +Dial/SE !! 4 South-Eastern or Sura
+ +Dial/M  !! 5 Mixed or Drakino-Shoksha
+
+!! ==== Orthography tags ====
+  +Orth/PhonDeriv !! Derivation is phonetic
+                  !! but declension and conjugation morphologic
+  +Orth/PhonInfl  !! Entire inflection is phonetic 1821, 1920-30
+  +Orth/PhonComb
+  +Orth/SH
+  +Orth/Colloq !! Colloquial speech reflected in spelling
 
 ! Abbreviated words are classified with:
   +ABBR !! Abbreviation
