@@ -1,28 +1,8 @@
-І (->) I, # Komi cyrillic (->) latin
-і (->) i, # Komi etc
-ӯ (->) ӯ, # Cyrillic у + U+0304 (->) precomposed
-ӣ (->) ӣ, # Cyrillic и + U+0304 (->) precomposed
-ӯ (->) у, # Cyrillic у + U+0304 (->) basic
-ӣ (->) и, # Cyrillic и + U+0304 (->) basic
-          # We use composing letters, may get precomposed input
-          # (No other long Cyrillic vowels precomposed)
-а̄ (->) а, # Cyrillic for sjd
-е̄ (->) е, # Cyrillic for sjd
-о̄ (->) о, # Cyrillic for sjd
-ӯ (->) у, # Cyrillic for sjd
-ы̄ (->) ы, # Cyrillic for sjd
-ю̄ (->) ю, # Cyrillic for sjd
-я̄ (->) я, # Cyrillic for sjd
-ӣ (->) и, # Cyrillic for sjd
-а́ (->) а, # Russian long vowel, accept short
-е́ (->) е, # Russian long vowel, accept short
-и́ (->) и, # Russian long vowel, accept short
-о́ (->) о, # Russian long vowel, accept short
-у́ (->) у, # Russian long vowel, accept short
-я́ (->) я, # Russian long vowel, accept short
-ё (->) е, # Russian long vowel, accept je pro jo
-ы́ (->) ы, # Russian long vowel, accept short
-ю́ (->) ю, # Russian long vowel, accept short
+а (->) a, # Cyrillic letter, accept Latin look-alike
+е (->) e, # Cyrillic letter, accept Latin look-alike
+о (->) o, # Cyrillic letter, accept Latin look-alike
+с т т н э (->) с т н э, # Typically written with one т
+# but morphological presentation would call for two.
 т с (->) ц, #
 д с (->) ц #
 ;
@@ -44,6 +24,4 @@
 # and read through the line with the arrow key. The letters who span over
 # two characters (press arrow twice) are the precomposed ones.
 
-# Note that the ï/Ï letters are there for sma.
-# They are probably substandard, and should be relegated to sma.fst
-# but removed from a sma.norm.fst.
+
