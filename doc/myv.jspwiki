@@ -1,6 +1,6 @@
-!!!Free and Open source Erzya analyser gtsvn-myv
+!!!Free and Open source Finnish analyser gtsvn-fi
 
-;Authors: Jack Rueter in cooperation with the Divvun and Giellatekno teams
+;Authors: Divvun and Giellatekno teams, community members
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
@@ -21,46 +21,189 @@ The morphological analyses of wordforms of ERZYA are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-The parts-of-speech are:
+!!The parts-of-speech are:
+adjective
+adverb
+subordinating conjunction
+coordinating conjunction
+interjection 
+noun
+particle
+postposition
+pronoun
+Quantifier
+verb
 
-The parts of speech are further split up into:
-
+!!Parts of speech are further split up into:
+Adjectives
 This is not an NP head like +Pron
+This is a nominative-case NP used as an adjective
 
+Adverbs
+These are ideophonic descriptors used to modify the verb
+вырк ливтясь '_flit_ and it flew off'
+Ad-adjective
+with reference to type of adverb
+spatial
+temporal
 
+Interjections
 
+Nouns
+proper
+used with paired nouns _collective nouns_
 
-The Usage extents are marked using following tags:
+Postpositions
 
-
-==== Dialect tags ====
-
-==== Orthography tags ====
-
-The nominals are inflected in the following Case and Number
-
-The possession and other declension types are marked with:
-
-The comparative forms are:
+!!Pronouns
+demonstrative
+indefinite
+dependent word requiring the presence of another, e.g. _мень_
+interrogative
+personal
+reciprocal
+reflexive
+relative
 
 Quantifiers and Numerals are classified under:
+numeral
+Approximative numeral кавто-колмо, колмошка 'two or three'
+NB! do not confuse with Komi case +Apr
+-ne- ; avide-
++мезть
+cardinal + NCard
+collective
+Distributive
+Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
+ordinal + NOrd
 
+!!Nominals are inflected for Number and Case
+!!Number
+singular
+plural
+!!Case
+abessive
+ablative case
+Comitative "-нек/-нэк"
+Comparative case form -шка
+dative case
+elative
+genitive case
+illative
+inessive
+lative
+Locative "вить ён : вить ёно"
+nominative case
+prolative "га/ка/ва"
+translative
+Temporalis case form "-не/-нэ"
+Vocative
+
+!!Possession and other declension types are marked with:
+first person singular
+second person singular
+third person singular
+first person plural
+second person plural
+third person plural
+Definite
+Indefinite
+
+The comparative forms are:
+comparative as opposed to superlative
+superlative
+Attribute
 
 Verb moods are:
+conditional Ындеря- (Derivational)
+conjunctional "вОль"
+desiderative Ыксэль 'was about to; wanted to' 
+indicative
+imperative
+optative 
 infinitive moods
+modality: deontic/directive/obligative
+ андомс: андома , якамс: якама
+_+ Sugg modality_: deontic/directive/deliberative
+I still need the right word for this андомс: андомсат
 
-Tenses in the indicative and infrequently in the conditional
+!!Tenses in the indicative and infrequently in the conditional
+In Erzya There is no morphological distinction 
+between present and future
+Preterite 1
+Preterite 2 (This is also used in predicate forms not involving a finite verb.)
 
-Verb personal forms are:
+!!Verb personal forms are:
+subject conjugation first person singular
+subject conjugation second person singular
+subject conjugation third person singular
+subject conjugation first person plural
+subject conjugation second person plural
+subject conjugation third person plural
+!!Object conjugation
+objject conjugation first person singular
+objject conjugation second person singular
+objject conjugation third person singular
+objject conjugation first person plural
+objject conjugation second person plural
+objject conjugation third person plural
 
 Other verb forms are
+Ы2й (This is dealt with elsewhere as an active present participle)
+Ы2  (This is dealt with elsewhere as an active present participle)
+Ы2ця  (This is dealt with elsewhere as an active present participle)
+connegative, main verb complement to Neg, 
+gerund This is used with Der/Озь and VAbl
+infinitive
+verb of negation эзь, аволь, иля
+participle
+Verb Genitive, genitive form participle
+Verb Ablative "озадо"
+Telic participle ! "саевть" 
 
 Is this necessary ?? 2012-08-21
 
 
+
+
+!!The Usage extents are marked using following tags:
+Substandard
+Marginal
+Exclude from speller
+recognized but not suggested in speller
+Circular path
+Circular number path
+Remove from pedagogical speller
+Do not generate, for isme-ped.fst and apertium
+
+The lemma is not an Erzya word (Depricating _+Src/F_)
+
+==== Dialect tags ====
+Short forms
+Long forms
+No specification
+Specific to some dialects
+Rueter 2010: 8
+1 Central or Kozlovka-Mokshlei 
+2 Western or Insar
+3 North-Western or Alatyr
+4 South-Eastern or Sura
+5 Mixed or Drakino-Shoksha
+
+==== Orthography tags ====
+Derivation is phonetic
+but declension and conjugation morphologic
+Entire inflection is phonetic 1821, 1920-30
+Colloquial speech reflected in spelling
+
+Abbreviation
+Acronym
+
 Special symbols are classified with:
 
 The verbs are syntactically split according to transitivity:
+transitive verb
+intransitive verb
 
 Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
@@ -68,23 +211,84 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 
 
-Semantics are classified with
+!!Semantics are classified with
+Male
+Female
+Surname
+Patronym
+Place name
+name of organization
 What is this 2012-08-21
+name of animal
+name of river or water way, media of transportation
+Animate
+Inanimate
+Human
+Nonhuman
+Kinship term (This is reflected in special PxSg2 forms)
+-паз, -ава _divinity is God personified_
 
+name of a text
+name of a route
+measure
+building
+event
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
 
+genitive attribute derivation of non-nouns
+vocative
+vocative
+
+telic deverbal noun also attr
+infinitive illative
+infinitive locative/nominative
+infinitive elative
+infinitive inessive
+infinitive ablative
+infinitive prolative
+modality: deontic/directive/obligative андомс: андома , якамс: якама
+modality: deontic/directive/obligative андомс: андомка , якамс: якамка
+active (demonstrative) present participle
+active short present participle
+active long present participle
+Gerund 
+conditional derivation
 
 
+Modifier without Noun
+Speaker-Oriented Demonstrative
+!!Conjugation of words other than finite verbs
+derivation to predicate head, e.g. nominal conjugation
+
+suffix +_Indef in indefinite pronouns
+prefix +_Indef in indefinite pronouns
+prefix +_Indef in indefinite pronouns
+prefix +_Indef in indefinite pronouns
+suffix +_Indef in indefinite pronouns
+suffix +_Indef in indefinite pronouns  ковия, зярыя
 
 
+!!Declaring Noun derivations
+adjective-to-noun
+!!the combinatory _Event_ preceding the NP-final noun
+verb-to-noun
+
+!!Declaring Deverbal derivations of verbs
+verb2verb derivation
+this in verb2verb derivation and also in denominal demonstrative _Der/Dem_
+verb2verb derivation
 
 
-
-
-
+diminutive
+This is used in ошке, калнэ and кудыне
+diminutive
+diminutive in _ке_
+diminutive
+diminutive
+diminutive
 
 
 
@@ -106,21 +310,45 @@ And following triggers to control variation
 
 
 MISC
+A tag to indicate that a hyphen was used when compounding
+
+!!Different focus particles
+
+Development tag
 
 
 
+Roman numerals
 
 
 
+!!Tags
+Prefix
+"ансяк"
+уш
 
 
-
-
+onomapoetic words
+descriptive words
 Focus clitics
 Imperative clitics
+редяка
+редякая
+редякаять
+редякаятя
+редякатя
+редякака ARE these real?
+редякакая ARE these real?
+Marking the predicate
+secondary predicate
+Joe came in _with his hat on_.
+Joe came in _Joe had his hat on_.
 
-FUNCTIONS are all upper-case !!!!
+!!FUNCTIONS are all upper-case !!!!
+This marks a function not a morpheme
 
+used with personal pronouns in oblique cases, 
+where a possessor index is expected
 
 
 
@@ -228,6 +456,1085 @@ HUNSPELL Type name derivation
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Adjective inflection
+--------------------
+Adjectives and other parts of speech in ERZYA are compared by means of 
+either a particle or ablative case marking on the standard of comparison
+
+
+
+
+The genitive is used as an attribute and predicate modifier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!Noun inflection
+---------------
+Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
+
+Kinship !!
+
+
+
+
+
+
+
+
+
+Human !!
+
+
+
+
+
+
+
+
+
+Place !!
+
+
+
+
+
+
+
+
+
+Lative !!
+
+
+
+
+
+
+
+
+
+Vocative !!
+
+
+
+
+
+
+Common Nouns !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DERIVATION !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEFINITE SINGULAR TAGS !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDEFINITE DECLENSION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDEFINITE TAGS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POSSESSIVE DECLENSION !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CASES BEFORE POSSESSIVE TAGS !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+POSSESSIVE TAGS !!
+
+
+
+
+
+
+
+
+DEFINITE PLURAL !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Used with words like тензэ
+
+
+
+
+Proper noun inflection
+----------------------
+Erzya proper nouns inflect in the same cases as regular
+nouns.
+
+Male given name for deriving patronyms !!!
+
+
+
+
+Вили:Вил
+
+
+
+Russian type Surnames !!
+Абдеев:Абдеев
+
+Багрий:Багр
+
+Аморский:Аморск
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Erzya Homestead names !!
+
+
+
+PLACE NAMES FROM TEMPLATES !!
+
+
+
+
+
+Erzya settlements !!
+
+
+
+
+Divinities !!
+
+
+
+
+Constellations !!
+
+
+
+TEXT NAMES !!
+
+
+
+HOLIDAYS !!
+
+
+
+
+RIVER NAMES !!
+
+
+
+MONTHS !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLENSION LIMITATIONS
+
+
+
+
+
+
+Verb inflection
+---------------
+Erzya language verbs inflect for person, subject and object.
+
+
+OBJECT FLAGS !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VERBS AFTER OBJECT FLAGS !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DERIVATION !!!!!
+2012-05-04 Is this contLex correct??
+
+2012-04-24 rather odd and infrequent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONJUGATION !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Indicative Preterite I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDICATIVE !!
+
+
+Indicative NonPast !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDICATIVE PRETERITE 2 !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DESIDERATIVE !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONJUNCTIVE !!
+redo conj 2012-11-07 begin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+redo conj 2012-11-07 end
+
+
+
+
+
+
+
+begin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
+
+
+
+
+OPTATIVE !!
+
+
+
+
+
+
+
+
+
+IMPERATIVE !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OPTATIVE !!
+
+
+
+2012-11-09
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Given in Grammar 2000
+
+
+
+
+
+
+
+
+
+
+used with infinitives
+
+
+
+
+
+
+
+
+
+
+
+
+
+Used with deverbals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NON-VERB CONJUGATION !!
 
 
 
