@@ -751,31 +751,31 @@ Punctuation ;                           ! punct-myv-lex.txt
 LEXICON R
 %- nouns ;
 
-LEXICON BahuvTag-kal
-+Bahuvrihi: Adj-kal ;
+LEXICON BAHUV_КАЛ
++Bahuvrihi: A_КАЛ ;
 
-LEXICON BahuvTag-pango
-+Bahuvrihi: Adj-pango ;
+LEXICON BAHUV_ПАНГО
++Bahuvrihi: A_ПАНГО ;
 
-LEXICON BahuvTag-kudo
-+Bahuvrihi: Adj-kudo ;
+LEXICON BAHUV_КУДО
++Bahuvrihi: A_КУДО ;
 
 
 ! ============ !
 ! Interj lexica !
 ! ============ !
 
-LEXICON InterjTag
+LEXICON INTERJ_
 +Interj: K ;
 
 LEXICON Interj-Imp
 +Interj+Imprt+ScSg2: ImpK ;
 +Interj+Imprt+ScPl2:%>дО1 ImpK ;
 
-LEXICON FormulaicTag
+LEXICON FORMULAIC_
 +Interj+Formulaic: WORD-END ;
 
-LEXICON VocativeTag
+LEXICON VOCATIVE_
 +Interj+Voc: WORD-END ;
 
 ! ============ !
@@ -784,21 +784,21 @@ LEXICON VocativeTag
 
 LEXICON ejs-PO
 эйсэ+Po+Ill:эйс K ;
-эйсэ+Po+Ine:эйсэ kudo-Conjugation ;
-эйсэ+Po+Ela:эйстэ kudo-Conjugation ;
-эйсэ+Po+Ill:эйз osh-SPAT-PossX ;
-эйсэ+Po+Ine:эйсэ kudo-SPAT-PossX ;
-эйсэ+Po+Ela:эйстэ kudo-SPAT-PossX ;
+эйсэ+Po+Ine:эйсэ _КУДО-Conjugation ;
+эйсэ+Po+Ela:эйстэ _КУДО-Conjugation ;
+эйсэ+Po+Ill:эйз _ОШ-SPAT-PossX ;
+эйсэ+Po+Ine:эйсэ _КУДО-SPAT-PossX ;
+эйсэ+Po+Ela:эйстэ _КУДО-SPAT-PossX ;
 
 LEXICON marto-PO
 +Po+Adn: K ;
-+Po+COM: kudo-Possessives2 ; 
-+Po+Der/MWN: N-kudo ;
++Po+COM: _КУДО-Possessives2 ; 
++Po+Der/MWN: N_КУДО ;
 
 
-LEXICON kudo-PO-ILL
+LEXICON PO_КУДО-ILL
 +Po+Ill:%>с K ;
-+Po+Ill:%>з osh-Possessives2 ;
++Po+Ill:%>з _ОШ-Possessives2 ;
 
 LEXICON Postp-karsho
 +Po: WORD-END ;
@@ -807,68 +807,68 @@ LEXICON Postp-karsho
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
-+Po+Ela:%>О1стО1 kudo-Conjugation ;
++Po+Ela:%>О1стО1 _КУДО-Conjugation ;
 +Po+Ill:%>О1с K ;
-+Po+Ine:%>О1сО1 kudo-Conjugation ;
++Po+Ine:%>О1сО1 _КУДО-Conjugation ;
 
 LEXICON jutkso-SPAT
-+Po+Prl:%>О1%>Г2а kudo-SPAT-PossX ;
-+Po+Prl:%>О1%>Г2а kudo-Conjugation ;
++Po+Prl:%>О1%>Г2а _КУДО-SPAT-PossX ;
++Po+Prl:%>О1%>Г2а _КУДО-Conjugation ;
  langso-SPAT ;
 
 LEXICON langso-SPAT
-+Po+Ela:%>стО1 kudo-Conjugation ;
++Po+Ela:%>стО1 _КУДО-Conjugation ;
 +Po+Ill:%>с K ;
 +Po+Lat:%>О1в K ;
-+Po+Ine:%>сО1 kudo-Conjugation ;
-+Po+Ela:%>стО1 kudo-SPAT-PossX ;
-+Po+Ill:%>О1з osh-SPAT-PossX ;
-+Po+Ine:%>сО1 kudo-SPAT-PossX ;
++Po+Ine:%>сО1 _КУДО-Conjugation ;
++Po+Ela:%>стО1 _КУДО-SPAT-PossX ;
++Po+Ill:%>О1з _ОШ-SPAT-PossX ;
++Po+Ine:%>сО1 _КУДО-SPAT-PossX ;
 
 ! malaso:mala
 LEXICON malaso-SPAT
-+Adv+Ela:%>стО1 kudo-Conjugation ;
++Adv+Ela:%>стО1 _КУДО-Conjugation ;
 +Adv+Ill:%>с K ;
-+Adv+Ine:%>сО1 kudo-Conjugation ;
-+Adv+Prl:%>Г2а kudo-Conjugation ;
-+Adv+Lat:%>в kudo-Conjugation ;
-+Po+Ela:%>стО1 kudo-SPAT-PossX ;
-+Po+Ill:%>О1з osh-SPAT-PossX ;
-+Po+Ine:%>сО1 kudo-SPAT-PossX ;
-+Po+Prl:%>Г2а kudo-SPAT-PossX ;
-+Po+Lat:%>в kudo-Conjugation ;
++Adv+Ine:%>сО1 _КУДО-Conjugation ;
++Adv+Prl:%>Г2а _КУДО-Conjugation ;
++Adv+Lat:%>в _КУДО-Conjugation ;
++Po+Ela:%>стО1 _КУДО-SPAT-PossX ;
++Po+Ill:%>О1з _ОШ-SPAT-PossX ;
++Po+Ine:%>сО1 _КУДО-SPAT-PossX ;
++Po+Prl:%>Г2а _КУДО-SPAT-PossX ;
++Po+Lat:%>в _КУДО-Conjugation ;
 
 LEXICON ushoso-SPAT
-+Spat+Ela:%>стО1 kudo-Conjugation ;
++Spat+Ela:%>стО1 _КУДО-Conjugation ;
 +Spat+Ill:%>с K ;
-+Spat+Ine:%>сО1 kudo-Conjugation ;
-+Spat+Prl:%>Г2а kudo-Conjugation ;
++Spat+Ine:%>сО1 _КУДО-Conjugation ;
++Spat+Prl:%>Г2а _КУДО-Conjugation ;
 
-LEXICON kudo-SPAT-PossX
-+PxSg1:%>нЬ2 kal-Conjugation ;
-+PxSg1+Dial:%>м kal-Conjugation ;
-+PxSg2:%>тЬ2 kit-Conjugation ;
-+PxSg2+Dial:%>нтЬ2 kit-Conjugation ;
-+PxSg3:%>нзО1 kudo-Conjugation ;
-+PxPl1:%>нО1к lak-Conjugation ;
-+PxPl2:%>нк lak-Conjugation ;
-+PxPl3:%>ст kit-Conjugation ;
+LEXICON _КУДО-SPAT-PossX
++PxSg1:%>нЬ2 _КАЛ-Conjugation ;
++PxSg1+Dial:%>м _КАЛ-Conjugation ;
++PxSg2:%>тЬ2 _КИТ-Conjugation ;
++PxSg2+Dial:%>нтЬ2 _КИТ-Conjugation ;
++PxSg3:%>нзО1 _КУДО-Conjugation ;
++PxPl1:%>нО1к _ЛАК-Conjugation ;
++PxPl2:%>нк _ЛАК-Conjugation ;
++PxPl3:%>ст _КИТ-Conjugation ;
 
-LEXICON osh-SPAT-PossX
-+PxSg1:%>О1нЬ2 kal-Conjugation ;
-+PxSg1+Dial:%>О1м kal-Conjugation ;
-+PxSg2:%>О1тЬ2 kit-Conjugation ;
-+PxSg2+Dial:%>О1нтЬ2 kit-Conjugation ;
-+PxSg3:%>О1нзО1 kudo-Conjugation ;
-+PxPl1:%>О1нО1к lak-Conjugation ;
-+PxPl2:%>О1нк lak-Conjugation ;
-+PxPl3:%>О1ст kit-Conjugation ;
+LEXICON _ОШ-SPAT-PossX
++PxSg1:%>О1нЬ2 _КАЛ-Conjugation ;
++PxSg1+Dial:%>О1м _КАЛ-Conjugation ;
++PxSg2:%>О1тЬ2 _КИТ-Conjugation ;
++PxSg2+Dial:%>О1нтЬ2 _КИТ-Conjugation ;
++PxSg3:%>О1нзО1 _КУДО-Conjugation ;
++PxPl1:%>О1нО1к _ЛАК-Conjugation ;
++PxPl2:%>О1нк _ЛАК-Conjugation ;
++PxPl3:%>О1ст _КИТ-Conjugation ;
 
 
 
 ! This contlex allows for relational word which, otherwise, are open 
 ! to extensive declension
-LEXICON PostpTag
+LEXICON POSTP_
 +Po: K ;
 
 LEXICON Dat-1Arg
@@ -881,10 +881,10 @@ LEXICON Dat-1Arg
 ! ==================================== !
 
 
-LEXICON Cc
+LEXICON CC
 +CC: WORD-END ;
 
-LEXICON Cs
+LEXICON CS
 +CS: WORD-END ;
 
 
@@ -895,29 +895,29 @@ LEXICON Cs
 !LEXICON PCLE
 !а+Pcle+Neg:а WORD-END ;
 !аволь+Pcle+Neg+Emphatic:аволь WORD-END ;
-!ай+Pcle+Neg+Emphatic:ай N-kal ;
-!апак+Pcle+Neg:апак lak-Tenses-Obl ;
+!ай+Pcle+Neg+Emphatic:ай N_КАЛ ;
+!апак+Pcle+Neg:апак _ЛАК-Tenses-Obl ;
 !седе+Pcle+Comp:седе WORD-END ;
 !сех+Pcle+Superl:сех WORD-END ;
 !сех+Pcle+Superl+Abl:сехте WORD-END ; ! This is a comparative construction
 !уш+Pcle+Intensifier:уш WORD-END ;
 
-LEXICON Pcle-Compar-Stnd
+LEXICON PCLE-COMPAR-STND
 +Pcle+Comp: WORD-END ;
 
-LEXICON Pcle-Epist
+LEXICON PCLE-EPIST
 +Pcle+Epist: WORD-END ;
 
-LEXICON Pcle-Neg-Contrast
+LEXICON PCLE-NEG-CONTRAST
 +Pcle+Neg+Intensive: WORD-END ;
 
-LEXICON Pcle-Neg
+LEXICON PCLE-NEG
 +Pcle+Neg: WORD-END ;
 
-LEXICON Pcle-Superl
+LEXICON PCLE-SUPERL
 +Pcle+Superl: WORD-END ;
 
-LEXICON PcleTag
+LEXICON PCLE_
 +Pcle: WORD-END ;
 
 
@@ -976,59 +976,59 @@ LEXICON TESTCOMP
 !!!
 !formerly Spatials_4cx
 LEXICON alo-Spat
- alo-Spat-NoArg ;
- alo-Spat-1Arg ;
+ alo-SPAT-NoArg ;
+ alo-SPAT-1Arg ;
 
-LEXICON alo-Spat-NoArg
-+Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
-+Adv+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
-+Adv+Spat+Der/кс:%>кс N-osh ;
+LEXICON alo-SPAT-NoArg
++Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
++Adv+Spat+Loc+Der/се:%>се _КУДО-N2-Def-Declension ;
++Adv+Spat+Der/кс:%>кс N_ОШ ;
 +Adv+Spat+Lat:%>О1в K ;
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
-+Adv+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Adv+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Adv+Spat+Loc+Indef+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
++Adv+Spat+Prl+Indef+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
 
-LEXICON alo-Spat-1Arg
-+Po+Spat+Abl:%>дО1 kudo-Indef--Poss ;
-+Po+Spat+Loc:%>О1 kudo-Indef--Poss ; 
-+Po+Spat+Lat:%>О1 kudo-Possessive-Before-K ;
-+Po+Spat+Prl:%>Г2а kudo-Indef--Poss ;
-+Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це kudo-N2-Def-Declension ;
-+Po+Spat+Loc+Der/се:%>се kudo-N2-Def-Declension ;
-+Po+Spat+Der/кс:%>кс N-osh ;
+LEXICON alo-SPAT-1Arg
++Po+Spat+Abl:%>дО1 _КУДО-Indef--Poss ;
++Po+Spat+Loc:%>О1 _КУДО-Indef--Poss ; 
++Po+Spat+Lat:%>О1 _КУДО-Possessive-Before-K ;
++Po+Spat+Prl:%>Г2а _КУДО-Indef--Poss ;
++Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
++Po+Spat+Loc+Der/се:%>се _КУДО-N2-Def-Declension ;
++Po+Spat+Der/кс:%>кс N_ОШ ;
 +Po+Spat+Lat+Indef:%>О1в K ;
-+Po+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
-+Po+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Po+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
++Po+Spat+Abl+Indef:%>дО1 _КУДО-N2-Def-Declension ;
++Po+Spat+Loc+Indef+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
++Po+Spat+Prl+Indef+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
 
-LEXICON alo-Spat-AdvN
- alo-Spat-NoArg ;
- N-kal ;
+LEXICON alo-SPAT-AdvN
+ alo-SPAT-NoArg ;
+ N_КАЛ ;
 +N+Loc:%>О1 K ;
 
-LEXICON alo-Spat-PoN
- alo-Spat-1Arg ;
- N-kal ;
+LEXICON alo-SPAT-PoN
+ alo-SPAT-1Arg ;
+ N_КАЛ ;
 +N+Loc:%>О1 K ;
 
 LEXICON kovolo-Spat
 +Interr+Spat+Lat+Indef:%>О1в K ;
-+Interr+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
-+Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
-+Interr+Spat+Abl:%>дО1 kudo-Indef--Poss ;
-+Interr+Spat+Loc:%>О1 kudo-Indef--Poss ; 
-+Interr+Spat+Prl:%>Г2а kudo-Indef--Poss ;
++Interr+Spat+Abl+Indef:%>дО1 _КУДО-N2-Def-Declension ;
++Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
++Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
++Interr+Spat+Abl:%>дО1 _КУДО-Indef--Poss ;
++Interr+Spat+Loc:%>О1 _КУДО-Indef--Poss ; 
++Interr+Spat+Prl:%>Г2а _КУДО-Indef--Poss ;
 
 +Rel+Spat+Lat+Indef:%>О1в K ;
-+Rel+Spat+Abl+Indef:%>дО1 kudo-N2-Def-Declension ;
-+Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 kudo-N2-Def-Declension ; 
-+Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а kudo-N2-Def-Declension ;
-+Rel+Spat+Abl:%>дО1 kudo-Indef--Poss ;
-+Rel+Spat+Loc:%>О1 kudo-Indef--Poss ; 
-+Rel+Spat+Prl:%>Г2а kudo-Indef--Poss ;
++Rel+Spat+Abl+Indef:%>дО1 _КУДО-N2-Def-Declension ;
++Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
++Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
++Rel+Spat+Abl:%>дО1 _КУДО-Indef--Poss ;
++Rel+Spat+Loc:%>О1 _КУДО-Indef--Poss ; 
++Rel+Spat+Prl:%>Г2а _КУДО-Indef--Poss ;
 
 
 
@@ -1042,37 +1042,37 @@ LEXICON Mezty
 
 
  
-LEXICON osh-Indef-DefSg-Poss
- osh--DefSg- ;
- osh-Indef--Poss ;
+LEXICON _ОШ-Indef-DefSg-Poss
+ _ОШ--DefSg- ;
+ _ОШ-Indef--Poss ;
 
-LEXICON osh--DefSg-
+LEXICON _ОШ--DefSg-
 +Sg+Def:%>О1нть K ;
 
-LEXICON osh-Indef--Poss
-+Indef: osh-Tenses-Obl ;
-+PxSg1:%>О1нЬ2 kal-Tenses-Obl ;
-+PxSg2:%>О1тЬ2 kit-Tenses-Obl ;
-+PxSg3:%>О1нзО1 kudo-Tenses-Obl ;
-+PxPl1:%>О1нО1к lak-Tenses-Obl ;
-+PxPl2:%>О1нк lak-Tenses-Obl ;
-+PxPl3:%>О1ст kit-Tenses-Obl ;
+LEXICON _ОШ-Indef--Poss
++Indef: _ОШ-Tenses-Obl ;
++PxSg1:%>О1нЬ2 _КАЛ-Tenses-Obl ;
++PxSg2:%>О1тЬ2 _КИТ-Tenses-Obl ;
++PxSg3:%>О1нзО1 _КУДО-Tenses-Obl ;
++PxPl1:%>О1нО1к _ЛАК-Tenses-Obl ;
++PxPl2:%>О1нк _ЛАК-Tenses-Obl ;
++PxPl3:%>О1ст _КИТ-Tenses-Obl ;
 
-LEXICON kudo-Indef-DefSg-Poss
- kudo--DefSg- ;
- kudo-Indef--Poss ;
+LEXICON _КУДО-Indef-DefSg-Poss
+ _КУДО--DefSg- ;
+ _КУДО-Indef--Poss ;
 
-LEXICON kudo--DefSg-
+LEXICON _КУДО--DefSg-
 +Sg+Def:%>О1нть K ;
 
-LEXICON kudo-Indef--Poss
-+Indef: kudo-Tenses-Obl ;
-+PxSg1:%>нЬ2 kal-Tenses-Obl ;
-+PxSg2:%>тЬ2 kit-Tenses-Obl ;
-+PxSg3:%>нзО1 kudo-Tenses-Obl ;
-+PxPl1:%>нО1к lak-Tenses-Obl ;
-+PxPl2:%>нк lak-Tenses-Obl ;
-+PxPl3:%>ст kit-Tenses-Obl ;
+LEXICON _КУДО-Indef--Poss
++Indef: _КУДО-Tenses-Obl ;
++PxSg1:%>нЬ2 _КАЛ-Tenses-Obl ;
++PxSg2:%>тЬ2 _КИТ-Tenses-Obl ;
++PxSg3:%>нзО1 _КУДО-Tenses-Obl ;
++PxPl1:%>нО1к _ЛАК-Tenses-Obl ;
++PxPl2:%>нк _ЛАК-Tenses-Obl ;
++PxPl3:%>ст _КИТ-Tenses-Obl ;
 
 
 
