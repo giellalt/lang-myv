@@ -6,116 +6,117 @@
 
 ! This is for Russian source adjectives
 ! that might be used in a template
-LEXICON Adj-RU-Oj
-+Use/SpellNoSugg: Adj-kal ;
 
-LEXICON Abe-Adj
-+Der/ВтОмО: Adj-kudo ;
+LEXICON A_RU-ОЙ
++Use/SpellNoSugg: A_КАЛ ;
+
+LEXICON ABE-ADJ
++Der/ВтОмО: A_КУДО ;
 
 ! 2012-04-03 These do not exist in present dictionary
-!LEXICON Comp-Adj
-!+Der/шка: Adj-kudo ;
+!LEXICON COMP-A
+!+Der/шка: A_КУДО ;
 
-LEXICON Gen-Adj !! The genitive is used as an attribute and predicate modifier
+LEXICON GEN-A !! The genitive is used as an attribute and predicate modifier
 +Der/Онь: K ;
-+Der/Онь: kal-NomSg-Conjugation ; ! These need checking 2012-04-17
-+Der/Онь: kal-NomPl-Conjugation ; ! These need checking 2012-04-17
++Der/Онь: _КАЛ-NomSg-Conjugation ; ! These need checking 2012-04-17
++Der/Онь: _КАЛ-NomPl-Conjugation ; ! These need checking 2012-04-17
 
 
-LEXICON Adj-PL-vejketj
- Adj-kit ;
+LEXICON A_ВЕЙКЕТЬ-PL
+ A_КИТ ;
 
-LEXICON Adj-kit
+LEXICON A_КИТ
 +A: K ;
-+A: kit-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kit-NomPl-Conjugation-only ;
++A: _КИТ-NomSg-Conjugation ;
++A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl: _КИТ-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N-kit ;
++A+Der/MWN: N_КИТ ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-lak
+LEXICON A_ЛАК
 +A: K ;
-+A: lak-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: lak-NomPl-Conjugation-only ;
++A: _ЛАК-NomSg-Conjugation ;
++A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl: _ЛАК-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N-lak ;
++A+Der/MWN: N_ЛАК ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-kal_Sub
-+Use/Sub: Adj-kal ;
+LEXICON A_КАЛ_Sub
++Use/Sub: A_КАЛ ;
 
-LEXICON Adj-kal
+LEXICON A_КАЛ
 +A: K ;
-+A: kal-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kal-NomPl-Conjugation-only ;
++A: _КАЛ-NomSg-Conjugation ;
++A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl: _КАЛ-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N-kal ;
++A+Der/MWN: N_КАЛ ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-osh
+LEXICON A_ОШ
 +A: K ;
-+A: kal-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: kal-NomPl-Conjugation-only ;
++A: _КАЛ-NomSg-Conjugation ;
++A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl: _КАЛ-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N-osh ;
++A+Der/MWN: N_ОШ ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-teshte
+LEXICON A_ТЕШТЕ
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N-pango ;
++A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-chuvto
+LEXICON A_ЧУВТО
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N-pango ;
++A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-tinge
+LEXICON A_ТИНГЕ
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N-pango ;
++A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON Adj-pango
+LEXICON A_ПАНГО
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N-pango ;
++A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON Adj-pango-tinge
 +A: K ;
-+A: pango-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+A+Pl: pango-NomPl-Conjugation-only ;
++A: _ПАНГО-NomSg-Conjugation ;
++A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl: _ПАНГО-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
 
-LEXICON Adj-ActDemPrc
-+Der/Ыця+ActDemPrc: Adj-kudo_01 ;
+LEXICON ActDemPrc-A
++Der/Ыця+ActDemPrc: A_КУДО_01 ;
 
-LEXICON Adj-kudo
-+A: Adj-kudo_01 ;
+LEXICON A_КУДО
++A: A_КУДО_01 ;
 +A:%> N2Dem-SE ;
 
-LEXICON Adj-kudo_01
+LEXICON A_КУДО_01
  K ;
- kudo-NomSg-Conjugation ;
-+Pl:%>тЬ2 kit-NomPl-Conjugation ;
-+Pl: kudo-NomPl-Conjugation-only ;
+ _КУДО-NomSg-Conjugation ;
++Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++Pl: _КУДО-NomPl-Conjugation-only ;
 +Pl:%>тЬ2 K ;
-+Der/MWN: N-kudo ;
++Der/MWN: N_КУДО ;
 
 
 LEXICON Adj-InterrRel ! кодамо
-+Interr: Adj-pango ;
-+Rel: Adj-pango ;
++Interr: A_ПАНГО ;
++Rel: A_ПАНГО ;
 
 LEXICON Adj-Dem ! истямо
-+Dem: Adj-pango ;
++Dem: A_ПАНГО ;
 
 LEXICON Adj-Po ! кондямо
-+Po: Adj-pango ;
++Po: A_ПАНГО ;
 
 ! vim: set ft=xfst-lexc:
 

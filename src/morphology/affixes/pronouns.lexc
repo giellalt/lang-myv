@@ -10,13 +10,13 @@
 ! ============================= !
 
 LEXICON Dat-Pron
-+Pers+DAT: kudo-Possessive-Word-Final ;
++Pers+DAT: _КУДО-Possessive-Word-Final ;
 
 LEXICON Dat-NoArg
-+Pers+DAT: kudo-Possessive-Word-Final ;
++Pers+DAT: _КУДО-Possessive-Word-Final ;
 
 LEXICON Ill-Pron
-+Pers+Ill: osh-Possessive-Before-K ;
++Pers+Ill: _ОШ-Possessive-Before-K ;
 
 LEXICON Interr-Pers
 +Interr+Pers: WORD-END ; ! кие THIS should be depricated
@@ -33,14 +33,14 @@ LEXICON PERS
 эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
 эсь+Refl+Adn:эсь WORD-END ;
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне K ;
-эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Pl:эсетне kudo-PersPronGen_CX-2 ;
+эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Pl:эсетне _КУДО-PersPronGen_CX-2 ;
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсеттне K ;
-эсь+Refl+Pron+Gen+PxSg2+Pl:эсеттне kudo-PersPronGen_CX-2 ;
+эсь+Refl+Pron+Gen+PxSg2+Pl:эсеттне _КУДО-PersPronGen_CX-2 ;
 
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсестнэ K ;
-эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Pl:эсестнэ kudo-PersPronGen_CX-2 ;
+эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Pl:эсестнэ _КУДО-PersPronGen_CX-2 ;
 эсь+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсесттнэ K ;
-эсь+Refl+Pron+Gen+PxPl3+Pl:эсесттнэ kudo-PersPronGen_CX-2 ;
+эсь+Refl+Pron+Gen+PxPl3+Pl:эсесттнэ _КУДО-PersPronGen_CX-2 ;
 !Dealing with short comings! need to be fixed
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Sg+Tra+InDef:эсетекс K ;
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Tra+InDef:эсетекс K ;
@@ -53,17 +53,17 @@ LEXICON PERS
 мон+Dial+Pron+Pers+PxSg1+Refl+Abe+NoPoss:монстеме K ;
 тон+Dial+Pron+Pers+PxSg2+Refl+Abe+NoPoss:тонстеме K ;
 
-мон+Pron+Pers+PxSg1+Pron+Dem:монете kudo-PersPronGen_CX ;
-тон+Pron+Pers+PxSg2+Pron+Dem:тонете kudo-PersPronGen_CX ;
+мон+Pron+Pers+PxSg1+Pron+Dem:монете _КУДО-PersPronGen_CX ;
+тон+Pron+Pers+PxSg2+Pron+Dem:тонете _КУДО-PersPronGen_CX ;
 
 ! Obligatory Possessor Index
 !!!!!!!!
 !!Periferal
 !
-ськамонзо+Pron+Exclusive+PerifMod:ськамо kudo-N-Poss-Declension-PossX ;
-ськамнензэ+Pron+Exclusive+PerifMod+Der/не:ськамне kudo-N-Poss-Declension-PossX ; 
-ськаминензэ+Pron+Exclusive+PerifMod+Der/не:ськамине kudo-N-Poss-Declension-PossX ; 
-ськамнинензэ+Pron+Exclusive+PerifMod+Der/не+Der/не:ськамнине kudo-N-Poss-Declension-PossX ; 
+ськамонзо+Pron+Exclusive+PerifMod:ськамо N_КУДО-Poss-Declension-PossX ;
+ськамнензэ+Pron+Exclusive+PerifMod+Der/не:ськамне N_КУДО-Poss-Declension-PossX ; 
+ськаминензэ+Pron+Exclusive+PerifMod+Der/не:ськамине N_КУДО-Poss-Declension-PossX ; 
+ськамнинензэ+Pron+Exclusive+PerifMod+Der/не+Der/не:ськамнине N_КУДО-Poss-Declension-PossX ; 
 ! in the PRON_myv-lex.xml file !Dat-Pron ! тензэ+Pron+DAT:те PossPX1 ; 
 
 эстензэ+Refl+Pron+DatCx:эсте PossPX1 ; 
@@ -74,17 +74,17 @@ LEXICON PERS
 
 
 LEXICON Pers_Pronouns1
-+Nom@D.TNUM.PL@:н@D.TNUM.PL@ kal-Tenses1 ;
-+Nom0@D.TNUM.SG@:нь@D.TNUM.SG@ kal-Tenses1 ;
++Nom@D.TNUM.PL@:н@D.TNUM.PL@ _КАЛ-Tenses1 ;
++Nom0@D.TNUM.SG@:нь@D.TNUM.SG@ _КАЛ-Tenses1 ;
 +Intensive:нсь PersPron_Minsy ;
-+PxSg1+Gen@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@:нь@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@ kal-PersPronGen_CX ;
-+NoPoss+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нь@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ kal-PersPronGen_CX ;
-+Dial+PxSg2+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нть@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ kit-Tenses1 ;
++PxSg1+Gen@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@:нь@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@ _КАЛ-PersPronGen_CX ;
++NoPoss+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нь@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ _КАЛ-PersPronGen_CX ;
++Dial+PxSg2+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нть@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ _КИТ-Tenses1 ;
 
-+PxSg3+Gen0@U.PossPx.S3@@N.TPERS.3@@C.DNUM@@C.TNUM@:нзэ@U.PossPx.Sg3@@N.TPERS.3@@C.DNUM@@C.TNUM@ kudo-PersPronGen_CX ;
-+PxPl1+Gen0@U.PossPx.Pl1@@N.TPERS.1@@C.TNUM@:нек@U.PossPx.Pl1@@N.TPERS.1@@C.TNUM@ lak-PersPronGen_CX ;
-+PxPl2+Gen@U.PossPx.Pl2@@N.TPERS.2@@C.TNUM@:нк@U.PossPx.Pl2@@N.TPERS.2@@C.TNUM@ lak-PersPronGen_CX ;
-+PxPl3+Gen0@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@:нст@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@ kit-PersPronGen_CX ;
++PxSg3+Gen0@U.PossPx.S3@@N.TPERS.3@@C.DNUM@@C.TNUM@:нзэ@U.PossPx.Sg3@@N.TPERS.3@@C.DNUM@@C.TNUM@ _КУДО-PersPronGen_CX ;
++PxPl1+Gen0@U.PossPx.Pl1@@N.TPERS.1@@C.TNUM@:нек@U.PossPx.Pl1@@N.TPERS.1@@C.TNUM@ _ЛАК-PersPronGen_CX ;
++PxPl2+Gen@U.PossPx.Pl2@@N.TPERS.2@@C.TNUM@:нк@U.PossPx.Pl2@@N.TPERS.2@@C.TNUM@ _ЛАК-PersPronGen_CX ;
++PxPl3+Gen0@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@:нст@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@ _КИТ-PersPronGen_CX ;
 !!PROBLEM 2009-09-16 why does nstY4 have the Y4
 
 !+Refl+Gen+Pron:%>О1нсе PersPron_Gen ;
@@ -98,16 +98,16 @@ LEXICON Pers_Pronouns1
 +Refl+CompCx:%>нсешка PossPX1 ;
 +Refl+DatCx:%>нсте PossPX1 ;
 
-+Gen+PxSg20@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@ kal-Tenses1 ;
-+Dial+PxSg3+Gen0@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@:%>нзо@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@ kudo-Tenses1 ;
++Gen+PxSg20@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@ _КАЛ-Tenses1 ;
++Dial+PxSg3+Gen0@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@:%>нзо@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@ _КУДО-Tenses1 ;
 
 +Abl:%>нде PersPron_PossPX ; 
 +Abl+Abl:%>ндеде PersPron_PossPX ; 
 +Abl+Gen+Abl:%>нденде PersPron_PossPX ; 
 +DatCx:не PersPron_PossPX ;
 +Ill:ньзэ  PersPron_PossPX ;
-+Tra000@P.LV.ON@:нькс@P.LV.ON@ osh-PersPron_PossPX ; 
-+Tra+Tra00000@P.LV.ON@:ньксэкс@P.LV.ON@ osh-PersPron_PossPX ; 
++Tra000@P.LV.ON@:нькс@P.LV.ON@ _ОШ-PersPron_PossPX ; 
++Tra+Tra00000@P.LV.ON@:ньксэкс@P.LV.ON@ _ОШ-PersPron_PossPX ; 
 
 +Abl:%>нде PersPron_Oblique ; 
 +Abe:%>нтеме PersPron_Oblique ;
@@ -119,7 +119,7 @@ LEXICON Pers_Pronouns1
 !!!!
 !
 LEXICON PersPron_Minsy
-+Nom: osh-Tenses1 ;
++Nom: _ОШ-Tenses1 ;
  PersPron_Minsy-Obliq ;
 
 LEXICON PersPron_Minsy-Obliq
@@ -130,39 +130,39 @@ LEXICON PersPron_Minsy-Obliq
 +Prl:%>Г2а PersPron_Oblique ;
 +CompCx:%>О1шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
-+Tra000@P.LV.ON@:%>О1кс@P.LV.ON@ osh-PersPron_PossPX ;
-+Gen+Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@ kal-PersPronGen_CX ;
-+Gen+PxSg100@U.PossPx.Sg1@:%>О1нь@U.PossPx.Sg1@ kal-PersPronGen_CX ;
-+Gen+PxSg200@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@ kit-PersPronGen_CX ;
-+Gen+PxSg3000@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+Gen+PxPl1000@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@ lak-PersPronGen_CX ;
-+Gen+PxPl200@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@ lak-PersPronGen_CX ;
-+Gen+PxPl300@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@ kit-PersPronGen_CX ;
++Tra000@P.LV.ON@:%>О1кс@P.LV.ON@ _ОШ-PersPron_PossPX ;
++Gen+Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
++Gen+PxSg100@U.PossPx.Sg1@:%>О1нь@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
++Gen+PxSg200@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@ _КИТ-PersPronGen_CX ;
++Gen+PxSg3000@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ _КУДО-PersPronGen_CX ;
++Gen+PxPl1000@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@ _ЛАК-PersPronGen_CX ;
++Gen+PxPl200@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@ _ЛАК-PersPronGen_CX ;
++Gen+PxPl300@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@ _КИТ-PersPronGen_CX ;
 !!these just go onto the clitics
 +Gen+Dial+PxSg200@U.PossPx.Sg2@:%>О1нтЬ2@U.PossPx.Sg2@ K ;
 +Gen+Dial+PxPl300@U.PossPx.Pl3@:%>О1нст@U.PossPx.Pl3@ K ;
 
 LEXICON PersPron_Gen
-+Gen+Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@ kal-PersPronGen_CX ;
-+Gen+PxSg100@U.PossPx.Sg1@:%>О1нь@U.PossPx.Sg1@ kal-PersPronGen_CX ;
-+Gen+PxSg200@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@ kit-PersPronGen_CX ;
-+Gen+PxSg3000@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+Gen+PxPl1000@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@ lak-PersPronGen_CX ;
-+Gen+PxPl200@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@ lak-PersPronGen_CX ;
-+Gen+PxPl300@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@ kit-PersPronGen_CX ;
++Gen+Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
++Gen+PxSg100@U.PossPx.Sg1@:%>О1нь@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
++Gen+PxSg200@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@ _КИТ-PersPronGen_CX ;
++Gen+PxSg3000@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>О1нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ _КУДО-PersPronGen_CX ;
++Gen+PxPl1000@U.PossPx.Pl1@:%>О1нО1к@U.PossPx.Pl1@ _ЛАК-PersPronGen_CX ;
++Gen+PxPl200@U.PossPx.Pl2@:%>О1нк@U.PossPx.Pl2@ _ЛАК-PersPronGen_CX ;
++Gen+PxPl300@U.PossPx.Pl3@:%>О1ст@U.PossPx.Pl3@ _КИТ-PersPronGen_CX ;
 !!these just go onto the clitics
 +Gen+Dial+PxSg200@U.PossPx.Sg2@:%>О1нтЬ2@U.PossPx.Sg2@ K ;
 +Gen+Dial+PxPl300@U.PossPx.Pl3@:%>О1нст@U.PossPx.Pl3@ K ;
 +Dial+NoPoss: K ;
 
 LEXICON PersPron_Oblique
-+Dial+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@ kal-PersPronGen_CX ;
-+PxSg100@U.PossPx.Sg1@:%>нЬ2@U.PossPx.Sg1@ kal-PersPronGen_CX ;
-+PxSg200@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@ kit-PersPronGen_CX ;
-+PxSg3000@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ kudo-PersPronGen_CX ;
-+PxPl1000@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ lak-PersPronGen_CX ;
-+PxPl200@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@ lak-PersPronGen_CX ;
-+PxPl300@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@ kit-PersPronGen_CX ;
++Dial+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
++PxSg100@U.PossPx.Sg1@:%>нЬ2@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
++PxSg200@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@ _КИТ-PersPronGen_CX ;
++PxSg3000@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@:%>нзО1@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@ _КУДО-PersPronGen_CX ;
++PxPl1000@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ _ЛАК-PersPronGen_CX ;
++PxPl200@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@ _ЛАК-PersPronGen_CX ;
++PxPl300@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@ _КИТ-PersPronGen_CX ;
 +Dial+NoPoss: K ;
 
 
@@ -181,7 +181,7 @@ LEXICON PersPron_PossPX
 +Dial+PxPl300@U.PossPx.Pl3@@D.LV.ON@:%>нст@U.PossPx.Pl3@@D.LV.ON@ K ;
 +Dial+NoPoss: K ;
 
-LEXICON osh-PersPron_PossPX 
+LEXICON _ОШ-PersPron_PossPX 
 +PxSg1000@U.PossPx.Sg1@@D.LV.ON@:%>О1нЬ2@U.PossPx.Sg1@@D.LV.ON@ K ;
 +Dial+PxSg10@U.PossPx.Sg1@@D.LV.ON@:%>О1м@U.PossPx.Sg1@@D.LV.ON@ K ;
 +PxSg2000@U.PossPx.Sg2@@D.LV.ON@:%>О1тЬ2@U.PossPx.Sg2@@D.LV.ON@ K ;
@@ -197,111 +197,111 @@ LEXICON osh-PersPron_PossPX
 
 
 !!!This is preceded by a pronoun in the "+Gen"
-LEXICON kal-PersPronGen_CX
-@C.TPERS@@C.TNUM@ kal-Tenses1 ;
-+Der/MWN+N: kal-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
+LEXICON _КАЛ-PersPronGen_CX
+@C.TPERS@@C.TNUM@ _КАЛ-Tenses1 ;
++Der/MWN+N: _КАЛ-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
 
-LEXICON lak-PersPronGen_CX
-@C.TPERS@@C.TNUM@ lak-Tenses1 ;
-+Der/MWN+N:  lak-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
+LEXICON _ЛАК-PersPronGen_CX
+@C.TPERS@@C.TNUM@ _ЛАК-Tenses1 ;
++Der/MWN+N:  _ЛАК-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
 
-LEXICON kit-PersPronGen_CX
-@C.TPERS@@C.TNUM@ kit-Tenses1 ;
-+Der/MWN+N:  kit-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
+LEXICON _КИТ-PersPronGen_CX
+@C.TPERS@@C.TNUM@ _КИТ-Tenses1 ;
++Der/MWN+N:  _КИТ-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
 
-LEXICON kudo-PersPronGen_CX
-@C.TPERS@@C.TNUM@ kudo-Tenses1 ;
-+Der/MWN+N: kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
-+Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ kudo-PersPronGen_CX-1A ;
+LEXICON _КУДО-PersPronGen_CX
+@C.TPERS@@C.TNUM@ _КУДО-Tenses1 ;
++Der/MWN+N: _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1нсе00@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
++Der/MWN+N+Gen+InDef+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:%>О1ньсе0@C.DNUM@@C.TPERS@@C.TNUM@ _КУДО-PersPronGen_CX-1A ;
 
 
 
-LEXICON kal-PersPronGen_CX-1A
-          kal-PersPronGen_CX-2 ;
+LEXICON _КАЛ-PersPronGen_CX-1A
+          _КАЛ-PersPronGen_CX-2 ;
  CONSONANT-PersPronGen_CX-1A ;
 
 LEXICON CONSONANT-PersPronGen_CX-1A
-+Sg+Nom+Def0@P.TNUM.SG@@C.TPERS@:%>О1сь@P.TNUM.SG@@C.TPERS@ osh-Tenses1 ;
-+Pl+Nom+Def0@P.TNUM.PL@@C.TPERS@:%>тне@P.TNUM.PL@@C.TPERS@ kudo-Tenses1 ;
-+Pl+Nom+Def0@P.DNUM.PL@:%>тне@P.DNUM.PL@ kudo-PersPronGen_CX-2 ;
++Sg+Nom+Def0@P.TNUM.SG@@C.TPERS@:%>О1сь@P.TNUM.SG@@C.TPERS@ _ОШ-Tenses1 ;
++Pl+Nom+Def0@P.TNUM.PL@@C.TPERS@:%>тне@P.TNUM.PL@@C.TPERS@ _КУДО-Tenses1 ;
++Pl+Nom+Def0@P.DNUM.PL@:%>тне@P.DNUM.PL@ _КУДО-PersPronGen_CX-2 ;
 +Sg+Gen+Def:%>О1нть K ;
 
-LEXICON lak-PersPronGen_CX-1A
-          lak-PersPronGen_CX-2 ;
+LEXICON _ЛАК-PersPronGen_CX-1A
+          _ЛАК-PersPronGen_CX-2 ;
  CONSONANT-PersPronGen_CX-1A ;
 
-LEXICON kit-PersPronGen_CX-1A
-          kit-PersPronGen_CX-2 ;
+LEXICON _КИТ-PersPronGen_CX-1A
+          _КИТ-PersPronGen_CX-2 ;
  CONSONANT-PersPronGen_CX-1A ;
 
-LEXICON kudo-PersPronGen_CX-1A
-+Sg+Nom+Def@P.TNUM.SG@@C.TPERS@:%>сь@P.TNUM.SG@@C.TPERS@ osh-Tenses1 ;
-+Pl+Nom+Def0@P.TNUM.PL@@C.TPERS@:%>тне@P.TNUM.PL@@C.TPERS@ kudo-Tenses1 ;
-+Pl+Nom+Def0@P.DNUM.PL@:%>тне@P.DNUM.PL@ kudo-PersPronGen_CX-2 ;
+LEXICON _КУДО-PersPronGen_CX-1A
++Sg+Nom+Def@P.TNUM.SG@@C.TPERS@:%>сь@P.TNUM.SG@@C.TPERS@ _ОШ-Tenses1 ;
++Pl+Nom+Def0@P.TNUM.PL@@C.TPERS@:%>тне@P.TNUM.PL@@C.TPERS@ _КУДО-Tenses1 ;
++Pl+Nom+Def0@P.DNUM.PL@:%>тне@P.DNUM.PL@ _КУДО-PersPronGen_CX-2 ;
 +Sg+Gen+Def:%>нть K ;
-          kudo-PersPronGen_CX-2 ;
+          _КУДО-PersPronGen_CX-2 ;
 
-LEXICON kal-PersPronGen_CX-2
+LEXICON _КАЛ-PersPronGen_CX-2
  CONSONANT-PersPronGen_CX-2 ;
 
 LEXICON CONSONANT-PersPronGen_CX-2
-+Abe:%>втО1мО1 kudo-PersPronGenCX_DX ;
-+Abl:%>дО1  kudo-PersPronGenCX_DX ;
-+CompCx:%>шка kudo-PersPronGenCX_DX ;
++Abe:%>втО1мО1 _КУДО-PersPronGenCX_DX ;
++Abl:%>дО1  _КУДО-PersPronGenCX_DX ;
++CompCx:%>шка _КУДО-PersPronGenCX_DX ;
 +DatCx:%>нень  PersPronGenCX_DX-1 ;
 +Sg+DatCx+Def0000@U.DNUM.SG@:%>О1тнень@U.DNUM.SG@ K ; 
-+Ela:%>стО1 kudo-PersPronGenCX_DX ;
++Ela:%>стО1 _КУДО-PersPronGenCX_DX ;
 +Gen:%>О1нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
-+Ine:%>сО1 kudo-PersPronGenCX_DX ;
++Ine:%>сО1 _КУДО-PersPronGenCX_DX ;
 +Lat:%>О1в PersPronGenCX_DX-1 ;
-+Prl:Г2а kudo-PersPronGenCX_DX ;
-+Tra:%>О1кс osh-PersPronGenCX_DX ;
++Prl:Г2а _КУДО-PersPronGenCX_DX ;
++Tra:%>О1кс _ОШ-PersPronGenCX_DX ;
 
-LEXICON lak-PersPronGen_CX-2
+LEXICON _ЛАК-PersPronGen_CX-2
  CONSONANT-PersPronGen_CX-2 ;
 
-LEXICON kit-PersPronGen_CX-2
+LEXICON _КИТ-PersPronGen_CX-2
  CONSONANT-PersPronGen_CX-2 ;
 
-LEXICON kudo-PersPronGen_CX-2
-+Abe:%>втО1мО1 kudo-PersPronGenCX_DX ;
-+Abl:%>дО1  kudo-PersPronGenCX_DX ;
-+CompCx:%>шка kudo-PersPronGenCX_DX ;
+LEXICON _КУДО-PersPronGen_CX-2
++Abe:%>втО1мО1 _КУДО-PersPronGenCX_DX ;
++Abl:%>дО1  _КУДО-PersPronGenCX_DX ;
++CompCx:%>шка _КУДО-PersPronGenCX_DX ;
 +DatCx:%>нень  PersPronGenCX_DX-1 ;
 +Sg+DatCx+Def000@U.DNUM.SG@:%>тнень@U.DNUM.SG@ K ; 
-+Ela:%>стО1 kudo-PersPronGenCX_DX ;
++Ela:%>стО1 _КУДО-PersPronGenCX_DX ;
 +Gen:%>нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
-+Ine:%>сО1 kudo-PersPronGenCX_DX ;
++Ine:%>сО1 _КУДО-PersPronGenCX_DX ;
 +Lat:%>в PersPronGenCX_DX-1 ;
-+Prl:%>Г2а kudo-PersPronGenCX_DX ;
-+Tra:%>кс osh-PersPronGenCX_DX ;
++Prl:%>Г2а _КУДО-PersPronGenCX_DX ;
++Tra:%>кс _ОШ-PersPronGenCX_DX ;
 
-LEXICON kal-PersPronGenCX_DX
+LEXICON _КАЛ-PersPronGenCX_DX
 +Sg+Gen+Def00@U.DNUM.SG@:%>О1нть@U.DNUM.SG@ K ;
      PersPronGenCX_DX-1 ;
 
-LEXICON osh-PersPronGenCX_DX
+LEXICON _ОШ-PersPronGenCX_DX
 +Sg+Gen+Def00@U.DNUM.SG@:%>О1нть@U.DNUM.SG@ K ;
      PersPronGenCX_DX-1 ;
 
-LEXICON kudo-PersPronGenCX_DX
+LEXICON _КУДО-PersPronGenCX_DX
 +Sg+Gen+Def0@U.DNUM.SG@:%>нть@U.DNUM.SG@ K ;
      PersPronGenCX_DX-1 ;
 
@@ -337,7 +337,7 @@ LEXICON PossMarker-then-Clt
 +Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ K-lak ;
 +Dial+PxPl30@U.PossPx.Pl3@:нст@U.PossPx.Pl3@ K ;
 
-LEXICON osh-PossPX1
+LEXICON _ОШ-PossPX1
 +PxSg1000@U.PossPx.Sg1@:%>О1нЬ2@U.PossPx.Sg1@  SecondaryDeclination ;
 +Dial+PxSg1@U.PossPx.Sg1@:%>О1м@U.PossPx.Sg1@  SecondaryDeclination ;
 +PxSg2000@U.PossPx.Sg2@:%>О1тЬ2@U.PossPx.Sg2@  SecondaryDeclination ;
@@ -349,14 +349,14 @@ LEXICON osh-PossPX1
 +Dial+PxPl3000@U.PossPx.Pl3@:%>О1нст@U.PossPx.Pl3@  SecondaryDeclination ;
 
 
-LEXICON PronTag
+LEXICON PRON_
 +Pron: K ;
 
 ! This is not the same as indefinite
 LEXICON PronRel-kona
-+Pron+Rel: kudo-N-Def-Declension ;
-+Pron+Rel: kudo-Indef-Declension ;
-+Pron+Rel: kudo-N-Poss-Declension-CX ;
++Pron+Rel: N_КУДО-Def-Declension ;
++Pron+Rel: _КУДО-Indef-Declension ;
++Pron+Rel: N_КУДО-Poss-Declension-CX ;
 
 
 ! These have been introduced with the flag: <"@P.INDEF.PREF@">
@@ -376,7 +376,7 @@ LEXICON  Indef_Pronouns
 
 кие+Pron+Nom+Sg:кие Indef_Pronouns-K ;
 кие+Pron+Nom+Sg:ки Indef_Pronouns-K ;
-кие+Pron:ки kudo-Indef_Pronouns-Cases ;
+кие+Pron:ки _КУДО-Indef_Pronouns-Cases ;
 !ко+Pron:ко Indef_Pronouns-Cases ;
 ков+Pron+Lat:ков Indef_Pronouns-K ;
 косо+Pron+Ine:косо Indef_Pronouns-K ;
@@ -390,11 +390,11 @@ LEXICON  Indef_Pronouns
 кува+Spat+Prl:кува Indef_Pronouns-K ;
 
 кона+Dem+Adn+Nom+Sg:кона Indef_Pronouns-K ;
-кона+Dem+Pron:кона kudo-Indef_Pronouns-Cases ;
+кона+Dem+Pron:кона _КУДО-Indef_Pronouns-Cases ;
 
 зярдо+Pron+Abl+Temp:зярдо Indef_Pronouns-K ;
 зяро+Pron+Nom:зяро Indef_Pronouns-K ;
-зяро+Pron:зяро kudo-Indef_Pronouns-Cases ;
+зяро+Pron:зяро _КУДО-Indef_Pronouns-Cases ;
 !зяродо+Pron+Interr+Abl:зяродо Indef_Pronouns-K ;
 !зяро+Pron+Interr+Ela:зяросто Indef_Pronouns-K ;
 зяро+Pron+Qnt+Iter:зяроксть Indef_Pronouns-K ;
@@ -410,7 +410,7 @@ LEXICON  Indef_Pronouns
 
 !мезе+Adn+Dep+Gen:мень Indef_Pronouns-K-post ; !This one cannot take prefix
 мезе+Pron+Nom+Sg:мезе Indef_Pronouns-K ;
-мезе+Pron:мезь osh-Indef_Pronouns-Cases ;
+мезе+Pron:мезь _ОШ-Indef_Pronouns-Cases ;
 мезе+Pron:мезе PossPX1 ;
 мезе+Pron:мезе PossPX1-NomSg ;
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-K ;
@@ -442,7 +442,7 @@ LEXICON Indef_Pronouns-Cases
 +Abl+Gen:%>дО1%>нь Indef_Pronouns-K ;
 +Ine+Gen:%>сО1%>нь Indef_Pronouns-K ;
 +Gen:%>нь Indef_Pronouns-K ;
-!2009-09-29!+Ine:%>сО1 kudo-Tenses1 ;
+!2009-09-29!+Ine:%>сО1 _КУДО-Tenses1 ;
 +Ill:%>зО1 Indef_Pronouns-K ;
 +Ill:%>зО1нь Indef_Pronouns-K ;
 
@@ -453,7 +453,7 @@ LEXICON Indef_Pronouns-Cases
 +Pl+Def+Gen:%>тне%>нь Indef_Pronouns-K ;
 +Pl+Def+DatCx:%>тне%>нень Indef_Pronouns-K ;
 
-LEXICON osh-Indef_Pronouns-Cases
+LEXICON _ОШ-Indef_Pronouns-Cases
 +Pl+Nom:%>тЬ2 Indef_Pronouns-K ; 
 +Ela:%>О1стО1 Indef_Pronouns-K ;
 +Ine:%>О1сО1 Indef_Pronouns-K ;
@@ -483,7 +483,7 @@ LEXICON osh-Indef_Pronouns-Cases
 +Pl+Def+Abe:%>тне%>втеме Indef_Pronouns-K ;
 +Pl+Def+CompCx:%>тне%>шка Indef_Pronouns-K ;
 
-LEXICON kudo-Indef_Pronouns-Cases
+LEXICON _КУДО-Indef_Pronouns-Cases
 +Pl+InDef+Nom:%>тЬ2 Indef_Pronouns-K ; 
 
 +Ela:%>стО1 Indef_Pronouns-K ;
@@ -496,7 +496,7 @@ LEXICON kudo-Indef_Pronouns-Cases
 +Abl+Gen:%>дО1%>нь Indef_Pronouns-K ;
 +Ine+Gen:%>сО1%>нь Indef_Pronouns-K ;
 +Gen:%>нь Indef_Pronouns-K ;
-!2009-09-29!+Ine:%>сО1 kudo-Tenses1 ;
+!2009-09-29!+Ine:%>сО1 _КУДО-Tenses1 ;
 +Ill:%>зО1 Indef_Pronouns-K ;
 +Ill:%>зО1нь Indef_Pronouns-K ;
 
@@ -611,7 +611,7 @@ LEXICON Misc_Pronouns1
 +Gen: PossPX1 ; !2012-08-09 Removing NomGen
 
 LEXICON te-Dem
-+Pron: kudo-Misc_Pronouns_Sg ;
++Pron: _КУДО-Misc_Pronouns_Sg ;
 +Adn: WORD-END ;
 
 !Formerly ne-Misc_Pronouns1
@@ -622,57 +622,57 @@ LEXICON ne-Dem
 
 LEXICON Misc_Pronouns_Sg
   Misc_Pronouns_Indef ;
-+Sg+Nom+Def:%>сь  osh-Tenses1_Prep-SG ;
++Sg+Nom+Def:%>сь  _ОШ-Tenses1_Prep-SG ;
 +Sg+Gen+Def:%>нть K ;
 +Sg+Def+DatCx:%>нтень K ;
-+Sg+Prl+Def:%>Г2а kudo-SgDet-PossPx ;
-+Sg+Abe+Def:%>втО1мО1 kudo-SgDet-PossPx ;
-+Sg+Abl+Def:%>дО1 kudo-SgDet-PossPx ;
-+Sg+Tra+Def:%>кс osh-SgDet-PossPx ;
-+Sg+Ine+Def:%>сО1 kudo-SgDet-PossPx ;
-+Sg+Ela+Def:%>стО1 kudo-SgDet-PossPx ;
-+Sg+CompCx+Def:%>шка kudo-SgDet-PossPx ;
-+Sg+Tra+Def:%>V1кс osh-SgDet-PossPx ;
++Sg+Prl+Def:%>Г2а _КУДО-SgDet-PossPx ;
++Sg+Abe+Def:%>втО1мО1 _КУДО-SgDet-PossPx ;
++Sg+Abl+Def:%>дО1 _КУДО-SgDet-PossPx ;
++Sg+Tra+Def:%>кс _ОШ-SgDet-PossPx ;
++Sg+Ine+Def:%>сО1 _КУДО-SgDet-PossPx ;
++Sg+Ela+Def:%>стО1 _КУДО-SgDet-PossPx ;
++Sg+CompCx+Def:%>шка _КУДО-SgDet-PossPx ;
++Sg+Tra+Def:%>V1кс _ОШ-SgDet-PossPx ;
 
-LEXICON kudo-Misc_Pronouns_Sg
-  kudo-Misc_Pronouns_Indef ;
-+Sg+Def+Nom:%>сь  osh-Tenses1_Prep-SG ;
+LEXICON _КУДО-Misc_Pronouns_Sg
+  _КУДО-Misc_Pronouns_Indef ;
++Sg+Def+Nom:%>сь  _ОШ-Tenses1_Prep-SG ;
 +Sg+Def+Gen:%>нть K ;
 +Sg+Def+DatCx:%>нтень K ;
-+Sg+Prl+Def:%>Г2а kudo-SgDet-PossPx ;
-+Sg+Abe+Def:%>втО1мО1 kudo-SgDet-PossPx ;
-+Sg+Abl+Def:%>дО1 kudo-SgDet-PossPx ;
-+Sg+Tra+Def:%>кс osh-SgDet-PossPx ;
-+Sg+Ine+Def:%>сО1 kudo-SgDet-PossPx ;
-+Sg+Ela+Def:%>стО1 kudo-SgDet-PossPx ;
-+Sg+CompCx+Def:%>шка kudo-SgDet-PossPx ;
-+Sg+Tra+Def:%>кс osh-SgDet-PossPx ;
++Sg+Prl+Def:%>Г2а _КУДО-SgDet-PossPx ;
++Sg+Abe+Def:%>втО1мО1 _КУДО-SgDet-PossPx ;
++Sg+Abl+Def:%>дО1 _КУДО-SgDet-PossPx ;
++Sg+Tra+Def:%>кс _ОШ-SgDet-PossPx ;
++Sg+Ine+Def:%>сО1 _КУДО-SgDet-PossPx ;
++Sg+Ela+Def:%>стО1 _КУДО-SgDet-PossPx ;
++Sg+CompCx+Def:%>шка _КУДО-SgDet-PossPx ;
++Sg+Tra+Def:%>кс _ОШ-SgDet-PossPx ;
 
 
 LEXICON SgDet-PossPx
  PossPX1 ;
 +Sg+Def:%>нть K ; 
 
-LEXICON osh-SgDet-PossPx
- osh-PossPX1 ;
+LEXICON _ОШ-SgDet-PossPx
+ _ОШ-PossPX1 ;
 +Sg+Def:%>нть K ; 
 
-LEXICON kudo-SgDet-PossPx
-     +PxSg100@U.PossPx.Sg1@:%>нЬ2@U.PossPx.Sg1@  kal-SecondaryDeclination ;
-+Dial+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@    kal-SecondaryDeclination ;
-     +PxSg200@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@  kit-SecondaryDeclination ;
-+Dial+PxSg200@U.PossPx.Sg2@:%>нтЬ2@U.PossPx.Sg2@ kit-SecondaryDeclination ;
-     +PxSg3000@U.PossPx.Sg3@:%>нзО1@U.PossPx.Sg3@ kudo-SecondaryDeclination ;
-     +PxPl1000@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ lak-SecondaryDeclination ;
-     +PxPl200@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@   lak-SecondaryDeclination ;
-     +PxPl300@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@   kit-SecondaryDeclination ;
-+Dial+PxPl300@U.PossPx.Pl3@:%>нст@U.PossPx.Pl3@  kit-SecondaryDeclination ;
+LEXICON _КУДО-SgDet-PossPx
+     +PxSg100@U.PossPx.Sg1@:%>нЬ2@U.PossPx.Sg1@  _КАЛ-SecondaryDeclination ;
++Dial+PxSg1@U.PossPx.Sg1@:%>м@U.PossPx.Sg1@    _КАЛ-SecondaryDeclination ;
+     +PxSg200@U.PossPx.Sg2@:%>тЬ2@U.PossPx.Sg2@  _КИТ-SecondaryDeclination ;
++Dial+PxSg200@U.PossPx.Sg2@:%>нтЬ2@U.PossPx.Sg2@ _КИТ-SecondaryDeclination ;
+     +PxSg3000@U.PossPx.Sg3@:%>нзО1@U.PossPx.Sg3@ _КУДО-SecondaryDeclination ;
+     +PxPl1000@U.PossPx.Pl1@:%>нО1к@U.PossPx.Pl1@ _ЛАК-SecondaryDeclination ;
+     +PxPl200@U.PossPx.Pl2@:%>нк@U.PossPx.Pl2@   _ЛАК-SecondaryDeclination ;
+     +PxPl300@U.PossPx.Pl3@:%>ст@U.PossPx.Pl3@   _КИТ-SecondaryDeclination ;
++Dial+PxPl300@U.PossPx.Pl3@:%>нст@U.PossPx.Pl3@  _КИТ-SecondaryDeclination ;
                   +Sg+Def:%>нть  K ;
 
 LEXICON Misc_Pronouns_Indef
 +Sg+Nom+InDef:0  Tenses1_Prep-SG ;
 +Abl+InDef:%>дО1 K ;
-+Gen+InDef:%>нь kal-Tenses1 ; 
++Gen+InDef:%>нь _КАЛ-Tenses1 ; 
 +DatCx+InDef:%>нень K ;
 +Ill+InDef:%>с K ;
 +Gen+InDef+Abl+InDef:%>нь%>стэ K ;
@@ -688,10 +688,10 @@ LEXICON Misc_Pronouns_Indef
 +CompCx+InDef:%>шка K ; 
 
 
-LEXICON kudo-Misc_Pronouns_Indef
-+Sg+Nom+InDef:0  kudo-Tenses1_Prep-SG ;
+LEXICON _КУДО-Misc_Pronouns_Indef
++Sg+Nom+InDef:0  _КУДО-Tenses1_Prep-SG ;
 +Abl+InDef:%>дО1 K ;
-+Gen+InDef:%>нь kal-Tenses1 ; 
++Gen+InDef:%>нь _КАЛ-Tenses1 ; 
 +DatCx+InDef:%>нень K ;
 +Ill+InDef:%>с K ;
 +Gen+InDef+Abl+InDef:%>нь%>стэ K ;
@@ -723,7 +723,7 @@ LEXICON Misc_Pronouns_Pl
 
 !! DEMONSTRATIVE DERIVATION !!
 LEXICON N2Dem-SE
-+Der/се+Der/MWN+N:се kudo-N2-Def-Declension ;
++Der/се+Der/MWN+N:се _КУДО-N2-Def-Declension ;
 
 ! vim: set ft=xfst-lexc:
 
