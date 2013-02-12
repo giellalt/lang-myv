@@ -12,7 +12,7 @@ LEXICON AdvState-kudo_Sub
 LEXICON AdvState-kudo
 +Adv+State: K ;
 +Adv+State+Der/Pr:%> StateConjugation-kudo ;
-+Adv+State+Der/MWN: N-kudo ;
++Adv+State+Der/MWN: N_КУДО ;
 
 
 ! This is fed by AdvState
@@ -37,17 +37,17 @@ LEXICON StateConjugation-kudo
 !LEXICON ABBR-IS_ADV
 !+ABBR: ADVTAG ;
 
-LEXICON Ad-ATag ! 
+LEXICON Ad-A_ ! 
 +Adv+AdA: WORD-END ;
 
-LEXICON AdvTag ! 
+LEXICON ADV_ ! 
 +Adv: K ;
 
-LEXICON Adv-kudo ! Coping with stem structure
- AdvTag ;
+LEXICON ADV_КУДО ! Coping with stem structure
+ ADV_ ;
 
 ! истяк 
-LEXICON Adv-lak
+LEXICON ADV_ЛАК
 +Adv: K-lak ;
 
 LEXICON Adv_Phrase ! 
@@ -64,12 +64,12 @@ LEXICON Exclusive !
 +Adv+Exclusive: K ;
 
 LEXICON Adv-Ine ! 
-+Ine: AdvTag ;
++Ine: ADV_ ;
 
 LEXICON Adv-Tra ! 
-+Tra: AdvTag ;
++Tra: ADV_ ;
 
-LEXICON MannerTag ! 
+LEXICON MANNER_ ! 
 +Adv+Manner: K ;
 
 LEXICON Manner-Interr ! 
@@ -77,53 +77,53 @@ LEXICON Manner-Interr !
 
 LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 +Pred2: K ;
-+Pred2+Der/MWN: N-kudo ;
++Pred2+Der/MWN: N_КУДО ;
 
 !! spatial adverbs 
 !! dependent and independent case marking 
-LEXICON Spat-NoArg
+LEXICON SPAT-NoArg
 +Adv+Spat: K ;
 
-LEXICON AdvSpat-Ela
+LEXICON AdvSPAT-Ela
 +Adv+Ela: K ;
 
-LEXICON AdvSpat-Ill
+LEXICON AdvSPAT-Ill
 +Adv+Ill: K ;
 
-LEXICON AdvSpat-Ine
+LEXICON AdvSPAT-Ine
 +Adv+Ine: K ;
-+Adv+Ine: kudo-NomSg-Conjugation-only ;
-+Adv+Ine: kudo-NomPl-Conjugation-only-mutual ;
++Adv+Ine: _КУДО-NomSg-Conjugation-only ;
++Adv+Ine: _КУДО-NomPl-Conjugation-only-mutual ;
 
-LEXICON AdvSpat-Lat
+LEXICON AdvSPAT-Lat
 +Adv+Lat: K ;
 
-LEXICON AdvSpat-Prl
+LEXICON AdvSPAT-Prl
 +Adv+Prl: K ;
 
-LEXICON Spat-Interr
+LEXICON SPAT-Interr
 +Interr+Spat: WORD-END ;
 
-LEXICON SpatTag
+LEXICON Spat_
 +Adv+Spat: K ;
 
-LEXICON Spat-Ela
+LEXICON SPAT-Ela
 +Adv+Spat+Ela: K ;
-+Po+Spat+Ela: kudo-Possessive-Before-K ;
++Po+Spat+Ela: _КУДО-Possessive-Before-K ;
 
-LEXICON Spat-Ine
+LEXICON SPAT-Ine
 +Spat+Ine: K ;
-+Po+Spat+Ine: kudo-Possessive-Before-K ;
++Po+Spat+Ine: _КУДО-Possessive-Before-K ;
 
-LEXICON Spat-Lat
+LEXICON SPAT-Lat
 +Spat+Lat: K ;
 
-LEXICON Spat-Prl
+LEXICON SPAT-Prl
 +Spat+Prl: K ;
-+Po+Spat+Prl: kudo-Possessive-Before-K ;
++Po+Spat+Prl: _КУДО-Possessive-Before-K ;
 
 !!Temporal tags with cases
-LEXICON TempTag
+LEXICON TEMP_
 +Adv+Temp: K ;
 
 !! This marking would indicate a word form that may be 
@@ -164,17 +164,17 @@ LEXICON Temp-Prl
 LEXICON Temp-Temp
 +Temp+Adv+Temp: K ;
 
-LEXICON Adv-lak_temp
+LEXICON ADV_ЛАК-TEMP
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N-lak ;
++Adv+Temp+Der/MWN: N_ЛАК ;
 
-LEXICON Adv-kit_temp
+LEXICON ADV_КИТ-TEMP
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N-kit ;
++Adv+Temp+Der/MWN: N_КИТ ;
 
-LEXICON Adv-kudo_temp
+LEXICON ADV_КУДО-TEMP
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N-kudo ;
++Adv+Temp+Der/MWN: N_КУДО ;
 
 LEXICON Temp-1Arg-Ela
 +Po+Ela+Temp: K ; !This will require Possessor Indices
