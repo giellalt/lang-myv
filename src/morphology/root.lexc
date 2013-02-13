@@ -12,8 +12,8 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-!! Morphology
-!! ----------
+!! !!!Morphology
+!  ----------
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF ERZYA.
 
 
@@ -44,7 +44,7 @@ Multichar_Symbols
 
 !! Adverbs
  +Adv-Ideoph !! These are ideophonic descriptors used to modify the verb
-             !! вырк ливтясь '_flit_ and it flew off'
+             !! вырк ливтясь "__flit__ and it flew off"
  +AdA 	     !! Ad-adjective
  +Manner     !! with reference to type of adverb
  +Spat 	     !! spatial
@@ -55,33 +55,33 @@ Multichar_Symbols
 
 !! Nouns
  +Prop	!! proper
- +CollN !! used with paired nouns _collective nouns_
+ +CollN !! used with paired nouns __collective nouns__
 
 !! Postpositions
 ! _+ Spat_, _+ Temp_
 
 !! !!Pronouns
- +Dem	!! demonstrative
- +Indef !! indefinite
- +Dep 	!! dependent word requiring the presence of another, e.g. _мень_
- +Interr !! interrogative
- +Pers 	 !! personal
- +Recipr !! reciprocal
- +Refl 	 !! reflexive
- +Rel 	 !! relative
+ +Dem	 !!≈ ;@CODE@: demonstrative
+ +Indef  !!≈ ;@CODE@: indefinite
+ +Dep 	 !!≈ ;@CODE@: dependent word requiring the presence of another, e.g. __мень__
+ +Interr !!≈ ;@CODE@: interrogative
+ +Pers 	 !!≈ ;@CODE@: personal
+ +Recipr !!≈ ;@CODE@: reciprocal
+ +Refl 	 !!≈ ;@CODE@: reflexive
+ +Rel 	 !!≈ ;@CODE@: relative
 
+!! !!Quantifiers (numerals)
 !! Quantifiers and Numerals are classified under:
-! Quantifiers (numerals)
- +Num !! numeral
- +Appr !! Approximative numeral кавто-колмо, колмошка 'two or three'
-    !! NB! do not confuse with Komi case +Apr
- +AssocColl !! -ne- ; avide-
- +Assoc !! +мезть
- +Card !! cardinal + NCard
- +Coll !! collective
- +Distr !! Distributive
- +Iter !! Iterative form expressing number of times [myv: кавксть] [kpv: кыкысь]
- +Ord !! ordinal + NOrd
+ +Num       !!≈ ;@CODE@: numeral
+ +Appr      !!≈ ;@CODE@: Approximative numeral кавто-колмо, колмошка ''two or three''
+            !!           NB! do not confuse with Komi case +Apr
+ +AssocColl !!≈ ;@CODE@: -ne- ; avide-
+ +Assoc     !!≈ ;@CODE@: +мезть
+ +Card      !!≈ ;@CODE@: cardinal + NCard
+ +Coll      !!≈ ;@CODE@: collective
+ +Distr     !!≈ ;@CODE@: Distributive
+ +Iter      !!≈ ;@CODE@: Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
+ +Ord       !!≈ ;@CODE@: ordinal + NOrd
 
 !! !!Nominals are inflected for Number and Case
 !! !!Number
@@ -106,31 +106,32 @@ Multichar_Symbols
  +Voc !! Vocative
 
 !! !!Possession and other declension types are marked with:
- +PxSg1 !! first person singular
- +PxSg2 !! second person singular
- +PxSg3 !! third person singular
- +PxPl1 !! first person plural
- +PxPl2 !! second person plural
- +PxPl3 !! third person plural
- +Def 	!! Definite
-!!  +InDef moved to +Indef !! Indefinite
+ +PxSg1 !!≈ ;@CODE@: first person singular
+ +PxSg2 !!≈ ;@CODE@: second person singular
+ +PxSg3 !!≈ ;@CODE@: third person singular
+ +PxPl1 !!≈ ;@CODE@: first person plural
+ +PxPl2 !!≈ ;@CODE@: second person plural
+ +PxPl3 !!≈ ;@CODE@: third person plural
+ +Def 	!!≈ ;@CODE@: Definite
+!+InDef moved to +Indef ! Indefinite
 
-!! The comparative forms are:
- +Comp   !! comparative as opposed to superlative
- +Superl !! superlative
- +Attr 	 !! Attribute
+!! !!The comparative forms are:
+ +Comp   !!≈ ;@CODE@: comparative as opposed to superlative
+ +Superl !!≈ ;@CODE@: superlative
+ +Attr 	 !!≈ ;@CODE@: Attribute
 
-!! Verb moods are:
- +Cond !! conditional Ындеря- (Derivational)
- +Conj !! conjunctional "вОль"
- +Des !! desiderative Ыксэль 'was about to; wanted to' 
- +Ind !! indicative
- +Imprt !! imperative
- +Opt !! optative 
-!! infinitive moods
+!! !!Verb moods are:
+ +Cond  !!≈ ;@CODE@: conditional Ындеря- (Derivational)
+ +Conj  !!≈ ;@CODE@: conjunctional "вОль"
+ +Des   !!≈ ;@CODE@: desiderative Ыксэль "was about to; wanted to"
+ +Ind   !!≈ ;@CODE@: indicative
+ +Imprt !!≈ ;@CODE@: imperative
+ +Opt   !!≈ ;@CODE@: optative 
+
+!! !Infinitive moods
  +Oblig !! modality: deontic/directive/obligative
            !!  андомс: андома , якамс: якама
- +Delib !! _+ Sugg modality_: deontic/directive/deliberative
+ +Delib !! __+Sugg modality__: deontic/directive/deliberative
        !! I still need the right word for this андомс: андомсат
 
 !! !!Tenses in the indicative and infrequently in the conditional
@@ -168,7 +169,7 @@ Multichar_Symbols
   +VAbl   !! Verb Ablative "озадо"
   +TelicPrc !! Telic participle ! "саевть" 
 
-!! Is this necessary ?? 2012-08-21
+! Is this necessary ?? 2012-08-21
    +PrfPrc !! 
 
  
@@ -184,9 +185,9 @@ Multichar_Symbols
  +Use/NG    !! Do not generate, for isme-ped.fst and apertium
  +Use/NA     !!
 
- +Use/LexSub !! The lemma is not an Erzya word (Depricating _+Src/F_)
+ +Use/LexSub !! The lemma is not an Erzya word (Depricating __+Src/F__)
 
-!! ==== Dialect tags ====
+!! !!!Dialect tags
  +Dial/SH !! Short forms
  +Dial/L  !! Long forms
  +Dial 	  !! No specification
@@ -198,7 +199,7 @@ Multichar_Symbols
  +Dial/SE !! 4 South-Eastern or Sura
  +Dial/M  !! 5 Mixed or Drakino-Shoksha
 
-!! ==== Orthography tags ====
+!! !!!Orthography tags
   +Orth/PhonDeriv !! Derivation is phonetic
                   !! but declension and conjugation morphologic
   +Orth/PhonInfl  !! Entire inflection is phonetic 1821, 1920-30
@@ -242,7 +243,7 @@ Multichar_Symbols
  +Hum    !! Human
  +NonHum !! Nonhuman
  +Kin !! Kinship term (This is reflected in special PxSg2 forms)
- +Divinity !! -паз, -ава _divinity is God personified_
+ +Divinity !! -паз, -ава __divinity is God personified__
  +Constellation 
 
  +Plant
@@ -299,22 +300,22 @@ Multichar_Symbols
 +Der/Pr !! derivation to predicate head, e.g. nominal conjugation
 
 !Declaring Indefinite Pronoun derivations
-+Der/Гак !! suffix +_Indef in indefinite pronouns
-+Der/кой !! prefix +_Indef in indefinite pronouns
-+Der/та !! prefix +_Indef in indefinite pronouns
-+Der/таго !! prefix +_Indef in indefinite pronouns
-+Der/бути !! suffix +_Indef in indefinite pronouns
-+Der/Ыя !! suffix +_Indef in indefinite pronouns  ковия, зярыя
++Der/Гак  !!≈ ;@CODE@: suffix {{+Indef}} in indefinite pronouns
++Der/кой  !!≈ ;@CODE@: prefix {{+Indef}} in indefinite pronouns
++Der/та   !!≈ ;@CODE@: prefix {{+Indef}} in indefinite pronouns
++Der/таго !!≈ ;@CODE@: prefix {{+Indef}} in indefinite pronouns
++Der/бути !!≈ ;@CODE@: suffix {{+Indef}} in indefinite pronouns
++Der/Ыя   !!≈ ;@CODE@: suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
 
 
 !! !!Declaring Noun derivations
 +Der/чи !! adjective-to-noun
-!! !!the combinatory _Event_ preceding the NP-final noun
+!! !!the combinatory __Event__ preceding the NP-final noun
 +Der/ОмА !! verb-to-noun
 
 !! !!Declaring Deverbal derivations of verbs
 +Der/кшнО !! verb2verb derivation
-+Der/се !! this in verb2verb derivation and also in denominal demonstrative _Der/Dem_
++Der/се !! this in verb2verb derivation and also in denominal demonstrative __Der/Dem__
 +Der/не !! verb2verb derivation
 
 
@@ -322,7 +323,7 @@ Multichar_Symbols
 +Der/ка !! diminutive
 +Der/НЕ !! This is used in ошке, калнэ and кудыне
 +Der/нЕ !! diminutive
-+Der/ке !! diminutive in _ке_
++Der/ке !! diminutive in __ке__
 +Der/Ыне  !! diminutive
 +Der/Ынька  !! diminutive
 +Der/Ынькине  !! diminutive
@@ -330,8 +331,8 @@ Multichar_Symbols
 
 
 
-!! Morphophonology
-!! ---------------
+!! !!!Morphophonology
+!  ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 ! {aä} {oö} {uü}
@@ -369,10 +370,10 @@ Multichar_Symbols
 ! --"--    , + Range/Interr, 
 ! 
 
-!! MISC
+!! !!!MISC
   +Hyph  !! A tag to indicate that a hyphen was used when compounding
 
-  !! !!Different focus particles
+!! !!Different focus particles
   +Foc/Гак !!
 
 !! Development tag
@@ -405,20 +406,21 @@ ZERO
 +Descr !! descriptive words
 !! Focus clitics
 +Clt/Гак
-!! Imperative clitics
-+Clt/Га !! редяка
-+Clt/Гая !! редякая
-+Clt/Гаять !! редякаять
-+Clt/Гаятя !! редякаятя
-+Clt/Гатя !! редякатя
-+Clt/Гака !! редякака ARE these real?
-+Clt/Гакая !! редякакая ARE these real?
-!+Pred !! Marking the predicate
-+Pred2 !! secondary predicate
-       !! Joe came in _with his hat on_.
-       !! Joe came in _Joe had his hat on_.
 
-!! !!FUNCTIONS are all upper-case !!!!
+!! !!Imperative clitics
++Clt/Га    !!≈ ;@CODE@: редяка
++Clt/Гая   !!≈ ;@CODE@: редякая
++Clt/Гаять !!≈ ;@CODE@: редякаять
++Clt/Гаятя !!≈ ;@CODE@: редякаятя
++Clt/Гатя  !!≈ ;@CODE@: редякатя
++Clt/Гака  !!≈ ;@CODE@: редякака ARE these real?
++Clt/Гакая !!≈ ;@CODE@: редякакая ARE these real?
+!+Pred     !            Marking the predicate
++Pred2     !!≈ ;@CODE@: secondary predicate. Examples:
+           !!  "Joe came in __with his hat on__."
+           !!  "Joe came in __Joe had his hat on__."
+
+!! !!FUNCTIONS are all upper-case!!!!
 +ACC +DAT +COM !! This marks a function not a morpheme
 
 +NoPoss !! used with personal pronouns in oblique cases, 
@@ -432,7 +434,7 @@ ZERO
 !! flag diacritics to restrict morhpological combinatorics:
 !@P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
-!!!! Flags used to identify parts of speech
+!! Flags used to identify parts of speech
 @P.POS.PRON@
 @P.POS.N@
 @R.POS.N@
@@ -440,7 +442,7 @@ ZERO
 @R.POS.V@
 @C.POS@
 
-!!!! Flags used with serial verbs
+!! Flags used with serial verbs
 ! INF = Infinitive
 @U.CONJ-INF.YES@
 @U.CONJ-INF.NO@
@@ -612,7 +614,7 @@ ZERO
 @C.HYPH-COMBO@
 
 
-!!Linking vowel for use with Translative
+!! Linking vowel for use with Translative
 ! Present in pron-myv-morph.txt
 @P.LV.ON@ 
 @P.LV.OFF@ 
@@ -635,12 +637,12 @@ ZERO
 @C.KLOSS@
 @C.TLOSS@
 
-!!! FLAGS USED WITH COLLECTIVE NOUNS
-! number
-@U.DECL-NX.SG@
-@U.DECL-NX.PL@
-@R.DECL-NX.PL@
-! case
+!! !!!FLAGS USED WITH COLLECTIVE NOUNS
+!! !!number
+@U.DECL-NX.SG@ !!≈ * @CODE@
+@U.DECL-NX.PL@ !!≈ * @CODE@
+@R.DECL-NX.PL@ !!≈ * @CODE@
+!! !!case
 @U.DECL-CX.NOM@
 @U.DECL-CX.ACC@
 @U.DECL-CX.GEN@
@@ -684,50 +686,50 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 TESTINGTESTING ;
 
- adjectives ;                                     ! 
- adverbs ;                                   ! 
- bahuvrihis ;                             ! 
- conjunctions ;                                  ! 
- demonstratives ;                                   ! 
- interjections ;                                ! 
- noun-deverbal ;                                  ! 
- nouns ;                                     ! 
- propernouns ;
- participles ;
- particles ;
- postpositions ;
- pronouns ;
- quantifiers ;
- verbs ;
+ adjectives     ;
+ adverbs        ;
+ bahuvrihis     ;
+ conjunctions   ;
+ demonstratives ;
+ interjections  ;
+ noun-deverbal  ;
+ nouns          ;
+ propernouns    ;
+ participles    ;
+ particles      ;
+ postpositions  ;
+ pronouns       ;
+ quantifiers    ;
+ verbs          ;
 
-!!
+!
 ! CyrillicFemaleName ;
-!! HUNSPELL Type name derivation
+! HUNSPELL Type name derivation
  RussianMalenamesDerive ; !
 ! RussianSurnamesDerive ; 
  urj-Cyrl-ProperNouns ; !Testing 2012-11-17
 
-PERS ;                                  ! 
-ejs-PO ;                                ! 
+PERS            ;  
+ejs-PO          ;
  Indef_Pronouns ;
  Indef_Pronouns-pref ;			! This will take prefix and Flags
-EXCEPTIONS ;                          ! exceptions.lexc
+EXCEPTIONS      ;                       ! exceptions.lexc
 
 Abbreviation ;                          ! abbr-myv-lex.txt
-Acronym ;                               ! acro-myv-lex.txt
-Punctuation ;                           ! punct-myv-lex.txt
+Acronym      ;                          ! acro-myv-lex.txt
+Punctuation  ;                          ! punct-myv-lex.txt
 
-!ABBR ;                                 ! ../../tmp/out/ABBR_myv-lex.xml           !2012-03-14
-!ACRON ;                                ! ../../tmp/out/ACRON_myv-lex.xml          !2012-03-14
-!IDIOM ;                                ! ../../tmp/out/IDIOM_myv-lex.xml          !2012-03-14
-!N-DV ;                                 ! ../../tmp/out/N-DV_myv-lex.xml           !2012-03-14
-!N-F ;                                  ! ../../tmp/out/N-F_myv-lex.xml            !2012-03-14
+!ABBR ; ../../tmp/out/ABBR_myv-lex.xml           !2012-03-14
+!ACRON ;../../tmp/out/ACRON_myv-lex.xml          !2012-03-14
+!IDIOM ;../../tmp/out/IDIOM_myv-lex.xml          !2012-03-14
+!N-DV ; ../../tmp/out/N-DV_myv-lex.xml           !2012-03-14
+!N-F ;  ../../tmp/out/N-F_myv-lex.xml            !2012-03-14
 !No-e-element-N ;                       ! ../../tmp/out/No-e-element-N_myv-lex.xml !2012-03-14
 !No-e-element-V ;                       ! ../../tmp/out/No-e-element-V_myv-lex.xml !2012-03-14
-!NUM ;                                  ! ../../tmp/out/NUM_myv-lex.xml            !2012-03-14
+!NUM ;  ../../tmp/out/NUM_myv-lex.xml            !2012-03-14
 !NUM-PREFIXES ;                         ! num-myv-morph.txt                        !2012-03-14
 !PART-ONOM ;                            ! ../../tmp/out/PART-ONOM_myv-lex.xml      !2012-03-14
-                                        ! ../../tmp/out/PERS_myv-lex.xml.txt
+!   ../../tmp/out/PERS_myv-lex.xml.txt
 ! Misc_Pronouns ;                                              !2012-04-03
 !PRON-INDEF ;                           ! ../../tmp/out/PRON-INDEF_myv-lex.xml                           !2012-03-14
 !PRON-INTER ;                           ! ../../tmp/out/PRON-INTER_myv-lex.xml                           !2012-03-14
