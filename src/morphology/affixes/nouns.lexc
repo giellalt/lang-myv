@@ -1,10 +1,9 @@
-!! !!Noun inflection
-!! ---------------
+!! !!!Noun inflection
+
 !! Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
 
-!!!!!!!!!!!!!
-!! Kinship !!
-!!!!!!!!!!!!!
+!! Kinship 
+
 LEXICON N_КАЛ_KIN
 +N+Hum+Kin: NMN_КАЛ ;
 :%>О1 N-KIN ;
@@ -44,9 +43,9 @@ LEXICON N-KIN
 +N+Hum+Kin+Sg+Gen+PxSg1:нь _КАЛ-Tenses-Obl ;
 +N+Hum+Kin+Sg+Gen+PxSg2:ть _КИТ-Tenses-Obl ;
 
-!!!!!!!!!!!
-!! Human !!
-!!!!!!!!!!!
+
+!! !!Human 
+
 LEXICON N_КАЛ_HUM
 +N+Hum: NMN_КАЛ ;
 
@@ -841,9 +840,8 @@ LEXICON N_КУДО-Def-Declension
 
 :%> DefPl-Declension ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! DEFINITE SINGULAR TAGS !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! !!DEFINITE SINGULAR TAGS 
 
 LEXICON SG-NOM-DEF
 +Sg+Nom+Def@U.DECL-NX.SG@:сь0@U.DECL-NX.SG@ _ОШ-NomSg-Conjugation ;
@@ -1143,9 +1141,9 @@ LEXICON PL-NOM-INDEF
 
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! POSSESSIVE DECLENSION !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! !!POSSESSIVE DECLENSION 
+
 
 LEXICON N_КАЛ-Poss-Declension-CX
  N_КАЛ-Poss-Declension-CX-Mutual ;
@@ -1283,9 +1281,9 @@ LEXICON N_КУДО-Poss-Declension-CX-Mutual
 :%> TRA-PX ;
 
 
-!!!!!!!!!!!!!!!!!!!!!
-!! CASES BEFORE POSSESSIVE TAGS !!
-!!!!!!!!!!!!!!!!!!!!!
+
+!! !!CASES BEFORE POSSESSIVE TAGS 
+
 LEXICON ABE-PX
 +Abe0000@U.DECL-NX.SG@:втО1мО1@U.DECL-NX.SG@ N_КУДО-Poss-Declension-PossX ;
 
@@ -1403,9 +1401,9 @@ LEXICON PL-NOM-PX
 !LEXICON PL-TRA-PX
 !+Pl+Tra@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.PX@:кс@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.PX@ N_ОШ-Poss-Declension-PossX ;
 
-!!!!!!!!!!!!!!!!!!!!!
-!! POSSESSIVE TAGS !!
-!!!!!!!!!!!!!!!!!!!!!
+
+!! !!POSSESSIVE TAGS 
+
 
 
 LEXICON N_КАЛ-Poss-Declension-PossX
@@ -1442,9 +1440,9 @@ LEXICON N-Poss-Declension-PossX_01
 +Dial+PxPl3@U.PossPx.Pl3@:ск@U.PossPx.Pl3@ NounEnd_K-lak ;
 
 
-!!!!!!!!!!!!!!!!!!!!!
-!! DEFINITE PLURAL !!
-!!!!!!!!!!!!!!!!!!!!! 
+
+!! !!DEFINITE PLURAL
+
 
 LEXICON DefPl-Declension
 +Pl+Nom+Def@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@:тне@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@ _КУДО-NomPl-Conjugation ;
@@ -1523,7 +1521,7 @@ LEXICON _ОШ-SecondaryDeclination_SgDet-PossPx
  K ; 
 
 
-!!!
+
 
 
 
@@ -1595,8 +1593,9 @@ LEXICON Possessive-NomGen
 
 
 
-!!!!!!!!Nouns1S_A
+!! Nouns1S_A
 !HERE
+
 LEXICON Nouns1S_A_ReqVow
  Possessive-NomGen ;
 
@@ -1654,7 +1653,7 @@ Nouns_Pl ;
 
 
 LEXICON istja-Gen-Attributes
- K ; !This means that stem is word final !!!
+ K ; !This means that stem is word final 
 +Abl+Indef:%>дО1 K ;
 +Indef+GenIndef:%>нь _КАЛ-Tenses-Obl ;
 +OrthOld+GenIndef+Der/се:%>н%> N2Dem-SE ;
@@ -1666,7 +1665,7 @@ LEXICON chop-Gen-Attributes
  pek-Gen-Attributes ;
 
 LEXICON pek-Gen-Attributes
- K ; !This means that stem is word final !!!
+ K ; !This means that stem is word final 
 +Abl+Indef:%>дО1 K ;
 +Indef+GenIndef:%>О1нь _КАЛ-Tenses-Obl ;
 +OrthOld+GenIndef+Der/се:%>О1н%> N2Dem-SE ;
@@ -1675,7 +1674,7 @@ LEXICON pek-Gen-Attributes
 
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 
 LEXICON _КУДО-Possessives2-Ill
@@ -1769,8 +1768,8 @@ LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
 :%- PROP_КУДО ;
 :%' PROP_КУДО ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!POSSESSIVE marking followed by clitics!!!
+
+!! !!POSSESSIVE marking followed by clitics
 
 LEXICON _ОШ-Possessive-Before-K-or-K 
  K ;
