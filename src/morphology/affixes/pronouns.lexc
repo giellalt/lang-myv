@@ -1,5 +1,5 @@
-!! Pronoun inflection
-!! ----------------------
+!! !!!Pronoun inflection
+
 !! Erzya pronouns inflect in many the same cases as regular
 !! nouns.
 
@@ -29,7 +29,7 @@ LEXICON PERS
 минь+Pron+Pers+PxPl1@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@:ми00000@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
 тынь+Pron+Pers+PxPl2@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@:ты00000@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
 сынь+Pron+Pers+PxPl3@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:сы00000@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
-!!!!!!
+
 эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
 эсь+Refl+Adn:эсь WORD-END ;
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне K ;
@@ -56,9 +56,9 @@ LEXICON PERS
 мон+Pron+Pers+PxSg1+Pron+Dem:монете _КУДО-PersPronGen_CX ;
 тон+Pron+Pers+PxSg2+Pron+Dem:тонете _КУДО-PersPronGen_CX ;
 
-! Obligatory Possessor Index
-!!!!!!!!
-!!Periferal
+!! Obligatory Possessor Index
+
+!! Periferal
 !
 ськамонзо+Pron+Exclusive+PerifMod:ськамо N_КУДО-Poss-Declension-PossX ;
 ськамнензэ+Pron+Exclusive+PerifMod+Der/не:ськамне N_КУДО-Poss-Declension-PossX ; 
@@ -116,14 +116,14 @@ LEXICON Pers_Pronouns1
 +Ine:%>ньсэ PersPron_Oblique ; 
 +Prl:%>ньга PersPron_Oblique ;
 
-!!!!
+!
 !
 LEXICON PersPron_Minsy
 +Nom: _ОШ-Tenses1 ;
  PersPron_Minsy-Obliq ;
 
 LEXICON PersPron_Minsy-Obliq
-!!!< "@N.TPERS.1@@N.TPERS.2@@N.TPERS.3@@C.TNUM@"> PersPron_Gen ;
+!< "@N.TPERS.1@@N.TPERS.2@@N.TPERS.3@@C.TNUM@"> PersPron_Gen ;
 +DatCx:%>те PersPron_PossPX ;
 +Abl+Abl:%>теде PersPron_PossPX ;
 +Abl:%>О1де PersPron_PossPX ;
@@ -168,7 +168,7 @@ LEXICON PersPron_Oblique
 
 !!Copied from "PossPX1"
 !!These PossPXs are applied after Obl cases
-!!
+
 LEXICON PersPron_PossPX
 +PxSg100@U.PossPx.Sg1@@D.LV.ON@:%>нЬ2@U.PossPx.Sg1@@D.LV.ON@ K ;
 +Dial+PxSg1@U.PossPx.Sg1@@D.LV.ON@:%>м@U.PossPx.Sg1@@D.LV.ON@ K ;
@@ -196,7 +196,7 @@ LEXICON _ОШ-PersPron_PossPX
 
 
 
-!!!This is preceded by a pronoun in the "+Gen"
+! This is preceded by a pronoun in the "+Gen"
 LEXICON _КАЛ-PersPronGen_CX
 @C.TPERS@@C.TNUM@ _КАЛ-Tenses1 ;
 +Der/MWN+N: _КАЛ-PersPronGen_CX-1A ;
@@ -587,7 +587,7 @@ LEXICON Misc_Pronouns
 !неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
 !нете+Dem+Pron:нете Misc_Pronouns1 ;
 
-!!!!
+
 
 
 ! ============================= !
@@ -596,10 +596,6 @@ LEXICON Misc_Pronouns
 
 
 
-!!!!
-!
-!!!!
-!!
 !! Some pronoun continuation have been moved here
 !! Out of TestLexc-noun.txt
 
