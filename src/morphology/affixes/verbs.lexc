@@ -1,11 +1,11 @@
-!! Verb inflection
-!! ---------------
+!! !!!Verb inflection
+
 !! Erzya language verbs inflect for person, subject and object.
 
 
-!!!!!!!!!!!!!!!!!!
-!! OBJECT FLAGS !!
-!!!!!!!!!!!!!!!!!!
+
+!! OBJECT FLAGS 
+
 
 LEXICON V-ledems_ObjAll_sub
 +Use/Sub: V-ledems_ObjAll ;
@@ -108,9 +108,8 @@ LEXICON V-kuzems_ObjAll
 @P.CONJ.ObjAll@ V-kuzems ;
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! VERBS AFTER OBJECT FLAGS !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! !!!VERBS AFTER OBJECT FLAGS 
 
 LEXICON V-ujems
  :й V-kadoms ;
@@ -210,7 +209,7 @@ LEXICON V-kundams
 
 
 LEXICON V-satoms
-!2012-10-27! This still needs work!!!
+!2012-10-27! This still needs work
 +V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all-but-Sc3 ;
 +Use/Sub+V@U.CONJ-INF.NO@:00@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
 +V00@U.CONJ-INF.NO@:%>О1т@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
@@ -260,16 +259,16 @@ LEXICON V-satoms-a
 +Opt@U.CONJ-MX.OPT@:0@U.CONJ-MX.OPT@ Optative-kadoms ;
 
 
-!!!!!!!!!!!!!!!!!!!!!
-!!!! DERIVATION !!!!!
-!!!!!!!!!!!!!!!!!!!!!
+
+!! !!DERIVATION 
+
 LEXICON CondVerbs
 +Der/Ындеря+Cond+V+Conj000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>Ы2ндеря@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ Conjunctive-kundams ;
 !! 2012-05-04 Is this contLex correct??
 +Der/Ындеря+Cond+V0000@U.CONJ-INF.NO@:%>Ы2ндеря@U.CONJ-INF.NO@ Indicative1-noSc3 ;
 +Der/Ындеря+Cond+V0000@U.CONJ-INF.NO@:%>Ы2ндеря@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
-!!! 2012-04-24 rather odd and infrequent
+!! 2012-04-24 rather odd and infrequent
 +Der/Ындеря+Cond+V+Ind000@U.CONJ-INF.NO@:%>Ы2ндеря@U.CONJ-INF.NO@ IND-PRT2-all ;
 
 +Der/Ындеря+Cond+V+Ind+Prs+ScSg300@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@:%>Ы2ндеряй@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3%0@ VerbEnd_K ;
@@ -338,9 +337,8 @@ LEXICON Prc-Telic ! sajevtj
 
 
 
-!!!!!!!!!!!!!!!!!
-!! CONJUGATION !!
-!!!!!!!!!!!!!!!!!
+
+!! !!CONJUGATION 
 
 LEXICON PredIndPrt1Sc3
  IND-PRT1-30 ;
@@ -462,7 +460,8 @@ LEXICON IND-PRT1-Oc
  IND-PRT1-65 ;
  IND-PRT1-66 ;
 
-!!!
+
+
 
 LEXICON IndicativePrt2_kadoms
 !2012-10-27!!:%> IND-PRT2-all ;
@@ -556,10 +555,8 @@ LEXICON IndPrt2_Oc_noArrows
  IND-PRT2-66 ;
 
 
-!!!!!!!!!!!!!!!!
-!! INDICATIVE !!
-!!!!!!!!!!!!!!!!
 
+!! !!INDICATIVE 
 
 !! Indicative NonPast !!
 LEXICON IND-PRS-10
@@ -798,9 +795,8 @@ LEXICON IND-PRT1-65
 LEXICON IND-PRT1-66
 +Ind+Prt1+ScPl3+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.66@:Ы2зь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.66@ VerbEnd_K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! INDICATIVE PRETERITE 2 !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! !!INDICATIVE PRETERITE 2 
 
 LEXICON IND-PRT2-10
 +Ind+Prt2+ScSg10@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1%0@:линь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1%0@  VerbEnd_K ;
@@ -931,11 +927,10 @@ LEXICON IND-PRT2-66
 +Ind+Prt2+ScPl3+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@:лизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@ VerbEnd_K ;
 
 
-!!!!!!!!!!!!!!!!!!
-!! DESIDERATIVE !!
-!!!!!!!!!!!!!!!!!!
 
-!!
+!! !!DESIDERATIVE 
+
+
 LEXICON Desiderative-kadoms
 +Des@U.CONJ-MX.DES@:%>@U.CONJ-MX.DES@ Desiderative-noArrow ;
 +Use/Sub+Dial+Des00@U.CONJ-MX.DES@:%>О1ксы@U.CONJ-MX.DES@  DesPrt2-noArrow-Sc ;
@@ -1132,9 +1127,9 @@ LEXICON DES-PRT2-66
 +Des+Prt2+ScPl3+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@:лизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@ VerbEnd_K ;
 
 
-!!!!!!!!!!!!!!!!!
-!! CONJUNCTIVE !!
-!!!!!!!!!!!!!!!!!
+
+!! !!CONJUNCTIVE 
+
 !! redo conj 2012-11-07 begin
 
 LEXICON CNJ-10
@@ -1469,9 +1464,9 @@ LEXICON Derya_KLoss
 +Pcle+Cond:деря VerbEnd_K ;
  VerbEnd_lak-ImpK ;
 
-!!!!!!!!!!!!!!
-!! OPTATIVE !!
-!!!!!!!!!!!!!!
+
+!! !!OPTATIVE 
+
 
 
 
@@ -1539,9 +1534,9 @@ LEXICON ILYA_Obj
 
 
 
-!!!!!!!!!!!!!!!!
-!! IMPERATIVE !!
-!!!!!!!!!!!!!!!!
+
+!! !!IMPERATIVE 
+
 
 LEXICON IMPRT-20
 +Imprt+ScSg2@U.CONJ-MX.IMP@@U.CONJ-PX.2%0@:К1Ь2@U.CONJ-MX.IMP@@U.CONJ-PX.2%0@ VerbEnd_ImpK ;
@@ -1608,9 +1603,9 @@ LEXICON Imperative_Obj-kundams
 :%> IMPRT-54 ;
 :%> IMPRT-56 ;
 
-!!!!!!!!!!!!!!
-!! OPTATIVE !!
-!!!!!!!!!!!!!!
+
+!! !!OPTATIVE 
+
 
 LEXICON Optative-kadoms
 :%>О1 Optative-noArrow ;
@@ -1839,8 +1834,9 @@ LEXICON Nouns_Pl
 
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!
+
 !! used with infinitives
+
 LEXICON _КУДО-Tenses1-4Inf
  _КУДО-Tenses-NomSg-4Inf ;
  _КУДО-Tenses-NomPl-4Inf ;
@@ -1863,7 +1859,7 @@ LEXICON _КУДО-Tenses-NomPl-4Inf
 +Ind+Prt2+ScPl2:%>лиде VerbEnd_K ;
 +Ind+Prt2+ScPl3:%>льть VerbEnd_K ;
 
-!!!!
+
 
 LEXICON _ОШ-Possessive-Before-K-or-K-4Inf 
  VerbEnd_K ;
@@ -1891,7 +1887,7 @@ LEXICON Possessive-Before-K-noArrow-4Inf
 +PxPl3:ст VerbEnd_K ;
 
 
-!!!!
+
 
 
 !! Used with deverbals
@@ -2059,10 +2055,9 @@ LEXICON _КУДО-Tenses-Obl
 
 
 
-!!!!!!!!!!!!!!!
-!!
+
 ! =========== !
-! Conjugation !
+!! Conjugation 
 ! =========== !
 
 LEXICON sajems-Conjugation-4Inf
@@ -2078,7 +2073,7 @@ LEXICON sajems-Conjugation-4Inf
 +Ind+Prt2+OcPl2+Use/Sub+Dial:%>О1лидизь VerbEnd_K ;
 +Ind+Prt2+OcPl3+Use/Sub+Dial:%>О1лизь VerbEnd_K ;
 
-!!
+
 
 LEXICON _КАЛ-Conjugation-4Inf
  VerbEnd_K ;
@@ -2095,7 +2090,7 @@ LEXICON _КАЛ-Conjugation-4Inf
 +Ind+Prt2+ScPl2:%>О1лиде VerbEnd_K ;
 +Ind+Prt2+ScPl3:%>О1льть VerbEnd_K ;
 
-!!
+
 LEXICON Tenses1_Prep-SG
 @P.NUM.SG@ Tenses1 ;
 
@@ -2156,12 +2151,12 @@ LEXICON VerbEnd_lak-ImpK
 +Use/Sub+Clt/Гатя:%>KLossГ4атя WORD-END ;
 +Use/Sub+Clt/Гак:%>KLossГ4ак WORD-END ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! NON-VERB CONJUGATION !!
-!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! !!!NON-VERB CONJUGATION 
+
 
 ! =========== !
-! Conjugation !
+!! Conjugation 
 ! =========== !
 
 LEXICON _ЛАК-NomSg-Conjugation
