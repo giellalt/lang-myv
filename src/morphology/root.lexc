@@ -142,131 +142,135 @@ Multichar_Symbols
 
 !! !!Verb personal forms are:
 ! Subject conjugation
- +ScSg1 !! subject conjugation first person singular
- +ScSg2 !! subject conjugation second person singular
- +ScSg3 !! subject conjugation third person singular
- +ScPl1 !! subject conjugation first person plural
- +ScPl2 !! subject conjugation second person plural
- +ScPl3 !! subject conjugation third person plural
+ +ScSg1 !! * subject conjugation first person singular
+ +ScSg2 !! * subject conjugation second person singular
+ +ScSg3 !! * subject conjugation third person singular
+ +ScPl1 !! * subject conjugation first person plural
+ +ScPl2 !! * subject conjugation second person plural
+ +ScPl3 !! * subject conjugation third person plural
 !! !!Object conjugation
- +OcSg1 !! objject conjugation first person singular
- +OcSg2 !! objject conjugation second person singular
- +OcSg3 !! objject conjugation third person singular
- +OcPl1 !! objject conjugation first person plural
- +OcPl2 !! objject conjugation second person plural
- +OcPl3 !! objject conjugation third person plural
+ +OcSg1 !! * object conjugation first person singular
+ +OcSg2 !! * object conjugation second person singular
+ +OcSg3 !! * object conjugation third person singular
+ +OcPl1 !! * object conjugation first person plural
+ +OcPl2 !! * object conjugation second person plural
+ +OcPl3 !! * object conjugation third person plural
 
 !! Other verb forms are
-  +ActPrcLong  !! Ы2й (This is dealt with elsewhere as an active present participle)
-  +ActPrcShort !! Ы2  (This is dealt with elsewhere as an active present participle)
-  +ActDemPrc   !! Ы2ця  (This is dealt with elsewhere as an active present participle)
-  +ConNeg !! connegative, main verb complement to Neg, 
-  +Ger !! gerund This is used with Der/Озь and VAbl
-  +Inf    !! infinitive
-  +Neg    !! verb of negation эзь, аволь, иля
-  +Prc !! participle
-  +VGen   !! Verb Genitive, genitive form participle
-  +VAbl   !! Verb Ablative "озадо"
-  +TelicPrc !! Telic participle ! "саевть" 
+  +ActPrcLong  !! * Ы2й (This is dealt with elsewhere as an active present participle)
+  +ActPrcShort !! * Ы2  (This is dealt with elsewhere as an active present participle)
+  +ActDemPrc   !! * Ы2ця  (This is dealt with elsewhere as an active present participle)
+  +ConNeg !! * connegative, main verb complement to Neg, 
+  +Ger !! * gerund This is used with Der/Озь and VAbl
+  +Inf    !! * infinitive
+  +Neg    !! * verb of negation эзь, аволь, иля
+  +Prc !! * participle
+  +VGen   !! * Verb Genitive, genitive form participle
+  +VAbl   !! * Verb Ablative "озадо"
+  +TelicPrc !! * Telic participle ! "саевть" 
 
 ! Is this necessary ?? 2012-08-21
-   +PrfPrc !! 
+   +PrfPrc 
 
  
 
 !! !!The Usage extents are marked using following tags:
- +Use/Sub   !! Substandard
- +Use/Marg  !! Marginal
- +Use/-Spell !! Exclude from speller
- +Use/SpellNoSugg !! recognized but not suggested in speller
- +Use/Circ  !! Circular path
- +Use/CircN !! Circular number path
- +Use/-Ped   !! Remove from pedagogical speller
- +Use/NG    !! Do not generate, for isme-ped.fst and apertium
- +Use/NA     !!
+ +Use/Sub   !! * Substandard
+ +Use/Marg  !! * Marginal
+ +Use/-Spell !! * Exclude from speller
+ +Use/SpellNoSugg !! * recognized but not suggested in speller
+ +Use/Circ  !! * Circular path
+ +Use/CircN !! * Circular number path
+ +Use/-Ped   !! * Remove from pedagogical speller
+ +Use/NG    !! * Do not generate, for isme-ped.fst and apertium
+ +Use/NA     
 
- +Use/LexSub !! The lemma is not an Erzya word (Depricating __+Src/F__)
+ +Use/LexSub !! * The lemma is not an Erzya word (Depricating __+Src/F__)
 
 !! !!!Dialect tags
- +Dial/SH !! Short forms
- +Dial/L  !! Long forms
- +Dial 	  !! No specification
-    !! Specific to some dialects
-    !! Rueter 2010: 8
- +Dial/C  !! 1 Central or Kozlovka-Mokshlei 
- +Dial/W  !! 2 Western or Insar
- +Dial/NW !! 3 North-Western or Alatyr
- +Dial/SE !! 4 South-Eastern or Sura
- +Dial/M  !! 5 Mixed or Drakino-Shoksha
+ +Dial/SH !! * Short forms
+ +Dial/L  !! * Long forms
+ +Dial 	  !! * No specification
+    !! * Specific to some dialects
+    !! * Rueter 2010: 8
+ +Dial/C  !! * 1 Central or Kozlovka-Mokshlei 
+ +Dial/W  !! * 2 Western or Insar
+ +Dial/NW !! * 3 North-Western or Alatyr
+ +Dial/SE !! * 4 South-Eastern or Sura
+ +Dial/M  !! * 5 Mixed or Drakino-Shoksha
 
 !! !!!Orthography tags
-  +Orth/PhonDeriv !! Derivation is phonetic
-                  !! but declension and conjugation morphologic
-  +Orth/PhonInfl  !! Entire inflection is phonetic 1821, 1920-30
+  +Orth/PhonDeriv !! * Derivation is phonetic but declension and conjugation morphologic
+  +Orth/PhonInfl  !! * Entire inflection is phonetic 1821, 1920-30
   +Orth/PhonComb
   +Orth/SH
   +Orth/Colloq !! Colloquial speech reflected in spelling
 
 ! Abbreviated words are classified with:
-  +ABBR !! Abbreviation
-  +ACR  !! Acronym
+  +ABBR !! * Abbreviation
+  +ACR  !! * Acronym
 
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 
 !! The verbs are syntactically split according to transitivity:
- +TV !! transitive verb
- +IV !! intransitive verb
+
+ +TV !! * transitive verb
+ +IV !! * intransitive verb
 
 !! Special multiword units are analysed with:
- +Multi
+ +Multi !!= @CODE@
+
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess !!= @CODE@
 
 !! Question and Focus particles:
- +Qst +Foc
+ +Qst +Foc !!= @CODE@
 
 
-!! !!Semantics are classified with
- +Mal !! Male
- +Fem !! Female
- +Sur !! Surname
- +Patr !! Patronym
- +Plc !! Place name
- +Org !! name of organization
-!! What is this 2012-08-21
- +Obj	!
- +Ani !! name of animal
- +Rvr !! name of river or water way, media of transportation
- +Anim !! Animate
- +Inanim !! Inanimate
- +Hum    !! Human
- +NonHum !! Nonhuman
- +Kin !! Kinship term (This is reflected in special PxSg2 forms)
- +Divinity !! -паз, -ава __divinity is God personified__
- +Constellation 
+!! !!Semantic tags
 
- +Plant
- +Group
- +Time 
- +Txt  !! name of a text
- +Route	 !! name of a route
- +Measr !! measure
- +Wthr	! weather
- +Build !! building
- +Event !! event
- +Edu
- +Veh	! vehicle
- +Clth	! clothing
- +Wpn	! weapon
- +Body
+!! The words are classified with the following tags:
+
+ +Mal !! Male, 
+ +Fem !! Female, 
+ +Sur !! Surname, 
+ +Patr !! Patronym, 
+ +Plc !! Place name, 
+ +Org !! name of organization, 
+ +Obj	!!, 
+ +Ani !! name of animal, 
+ +Rvr !! name of river or water way, media of transportation, 
+ +Anim !! Animate, 
+ +Inanim !! Inanimate, 
+ +Hum    !! Human, 
+ +NonHum !! Nonhuman, 
+ +Kin !! Kinship term (reflected in special PxSg2 forms), 
+ +Divinity !! Divinity (god personified), 
+ +Constellation !! Constellation, 
+ +Plant !! Plant, 
+ +Group !! Group, 
+ +Time  !! Time, 
+ +Txt  !! Name of a text, 
+ +Route	 !! Name of a route, 
+ +Measr !! Measure, 
+ +Wthr	! Weather, 
+ +Build !! Building, 
+ +Event !! Event, 
+ +Edu !! Education, 
+ +Veh	!! vehicle, 
+ +Clth	!! clothing, 
+ +Wpn	!! weapon, 
+ +Body  !! Body.
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
+
  +V→N +V→V +V→A
 
 
-! Der#begin
+!! !!Der begin
+
 +Der/ВтОмО
 +Der/шка
 +Der/Онь !! genitive attribute derivation of non-nouns
@@ -274,21 +278,21 @@ Multichar_Symbols
 +Der/кай !! vocative
  
 !!Then they should have indication of whether they are gerunds or participles!!
-!!
-+Der/Овт !! telic deverbal noun also attr
-+Der/Омс !! infinitive illative
-+Der/ОмО !! infinitive locative/nominative
-+Der/ОмстО !! infinitive elative
-+Der/ОмсО  !! infinitive inessive
-+Der/ОмдО  !! infinitive ablative
-+Der/Омга  !! infinitive prolative
-+Der/Ома   !! modality: deontic/directive/obligative андомс: андома , якамс: якама
-+Der/Омка  !! modality: deontic/directive/obligative андомс: андомка , якамс: якамка
-+Der/Ыця   !! active (demonstrative) present participle
-+Der/Ы	   !! active short present participle
-+Der/Ый	   !! active long present participle
-+Der/Озь !! Gerund 
-+Der/Ындеря !! conditional derivation
+
++Der/Овт !! * telic deverbal noun also attr
++Der/Омс !! * infinitive illative
++Der/ОмО !! * infinitive locative/nominative
++Der/ОмстО !! * infinitive elative
++Der/ОмсО  !! * infinitive inessive
++Der/ОмдО  !! * infinitive ablative
++Der/Омга  !! * infinitive prolative
++Der/Ома   !! * modality: deontic/directive/obligative андомс: андома , якамс: якама
++Der/Омка  !! * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
++Der/Ыця   !! * active (demonstrative) present participle
++Der/Ы	   !! * active short present participle
++Der/Ый	   !! * active long present participle
++Der/Озь !! * Gerund 
++Der/Ындеря !! * conditional derivation
 
 ! Declaring noun derivations
 +Der/пель
@@ -332,13 +336,13 @@ Multichar_Symbols
 
 
 !! !!!Morphophonology
-!  ---------------
+
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
-! {aä} {oö} {uü}
+!! {aä} {oö} {uü}
 
 !! And following triggers to control variation
-! {front} {back}
+!! {front} {back}
 
 ! Triggers for morphophonological rules
 
