@@ -54,7 +54,7 @@ LEXICON Deriv-RUS-В_SURMAL
 :а PROP_КУДО_SURFEM ;
 
 !! Багрий:Багр
-LEXICON Deriv-RUS-IJ_SURMAL
+LEXICON Deriv-RUS-ИЙ_SURMAL
 :ий PROP_КАЛ_SURMAL ;
 :яя PROP_КУДО_SURFEM ;
 
@@ -71,7 +71,7 @@ LEXICON Deriv-RUS-ЫЙ_SURMAL
 :ый PROP_КАЛ_SURMAL ;
 :ая PROP_КУДО_SURFEM ;
 
-LEXICON Deriv-RUS-AN_SURMAL
+LEXICON Deriv-RUS-АН_SURMAL
  Deriv-RUS-В_SURMAL ;
 
 LEXICON Deriv-RUS-ИН_SURMAL
@@ -99,9 +99,6 @@ LEXICON PROP_КАЛ_SUR
 +N+Prop+Sur: _КАЛ-Indef-Declension ;
 +N+Prop+Sur: N_КАЛ-Poss-Declension-CX ;
 
-!! Correct Lat _T_ to Cyr _Т_
-LEXICON CYRL-T_SUR
- CYRL-Т_SUR ;
 
 LEXICON CYRL-Т_SUR
  PROP_КИТ_SUR ;
@@ -162,10 +159,6 @@ LEXICON PROP_ОШ_PLC
 LEXICON PROP_КУДО_PLC
 +N+Prop+Plc:%> LAT-INDEF ;
 +N+Prop+Plc: NMN_КУДО ;
-
-!! Correct
-LEXICON Prop_КУДО_PLC
- PROP_КУДО_PLC ;
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Erzya settlements !!
