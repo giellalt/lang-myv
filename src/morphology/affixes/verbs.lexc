@@ -4,119 +4,190 @@
 
 
 
-!! OBJECT FLAGS 
+!! OBJECT FLAGS AND +V+TV tags
 
 
-LEXICON V_ЛЕДЕМС-ObjAll_sub
-+Use/Sub: V_ЛЕДЕМС-ObjAll ;
-LEXICON V_ЛЕДЕМС-ObjAll
-@P.CONJ.ObjAll@ V_ЛЕДЕМС ;
+LEXICON VT_ЛЕДЕМС-ObjAll_sub
++Use/Sub: VT_ЛЕДЕМС-ObjAll ;
+LEXICON VT_ЛЕДЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_ЛЕДЕМС ;
 
-LEXICON V_КАДОМС-ObjAll_sub
-+Use/Sub: V_КАДОМС-ObjAll ;
+LEXICON VT_КАДОМС-ObjAll_sub
++Use/Sub: VT_КАДОМС-ObjAll ;
 
-LEXICON V_КАДОМС-ObjAll
-@P.CONJ.ObjAll@ V_КАДОМС ;
+LEXICON VT_КАДОМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_КАДОМС ;
 
 ! This should not occur
-!LEXICON V_САЕВЕМС-ObjAll
-! @P.CONJ.ObjAll@ V_САЕВЕМС ;
+!LEXICON VT_САЕВЕМС-ObjAll
+! +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_САЕВЕМС ;
 
 
-LEXICON V_НЕВТЕМС-ObjAll_sub
-+Use/Sub: V_НЕВТЕМС-ObjAll ;
+LEXICON VT_НЕВТЕМС-ObjAll_sub
++Use/Sub: VT_НЕВТЕМС-ObjAll ;
 
-LEXICON V_НЕВТЕМС-ObjAll
-@P.CONJ.ObjAll@ V_НЕВТЕМС ;
+LEXICON VT_НЕВТЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_НЕВТЕМС ;
 
-LEXICON V_САВТОМС-ObjAll_sub
-+Use/Sub: V_САВТОМС-ObjAll ;
+LEXICON VT_САВТОМС-ObjAll_sub
++Use/Sub: VT_САВТОМС-ObjAll ;
 
-LEXICON V_САВТОМС-ObjAll
-@P.CONJ.ObjAll@ V_САВТОМС ;
+LEXICON VT_САВТОМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_САВТОМС ;
 
-LEXICON V_ЧАЧТОМС-ObjAll_sub
-+Use/Sub: V_ЧАЧТОМС-ObjAll ;
+LEXICON VT_ЧАЧТОМС-ObjAll_sub
++Use/Sub: VT_ЧАЧТОМС-ObjAll ;
 
-LEXICON V_ЧАЧТОМС-ObjAll
-@P.CONJ.ObjAll@ V_ЧАЧТОМС ;
+LEXICON VT_ЧАЧТОМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_ЧАЧТОМС ;
 
-!LEXICON V_ЯНГАВОМС-ObjAll
-! @P.CONJ.ObjAll@ V_ЯНГАВОМС ;
+!LEXICON VT_ЯНГАВОМС-ObjAll
+! +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_ЯНГАВОМС ;
 
-LEXICON V_КУНДАМС-ObjAll_sub
-+Use/Sub: V_КУНДАМС-ObjAll ;
+LEXICON VT_КУНДАМС-ObjAll_sub
++Use/Sub: VT_КУНДАМС-ObjAll ;
 
-LEXICON V_КУНДАМС-ObjAll
-@P.CONJ.ObjAll@ V_КУНДАМС ;
+LEXICON VT_КУНДАМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_КУНДАМС ;
 
 ! This actually does exist in a pair verb
 ! таргатомс
-LEXICON V_САТОМС-ObjAll_sub
-+Use/Sub: V_САТОМС-ObjAll ;
+LEXICON VT_САТОМС-ObjAll_sub
++Use/Sub: VT_САТОМС-ObjAll ;
 
-LEXICON V_САТОМС-ObjAll
-@P.CONJ.ObjAll@ V_САТОМС ;
+LEXICON VT_САТОМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_САТОМС ;
 
 ! This should not exist by definition
 ! 
-!LEXICON V_ЛЕТЕМС-ObjAll
-! @P.CONJ.ObjAll@ V_ЛЕТЕМС ;
+!LEXICON VT_ЛЕТЕМС-ObjAll
+! +V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_ЛЕТЕМС ;
 
-LEXICON V_УЕМС-ObjAll_sub
-+Use/Sub: V_УЕМС-ObjAll ;
+LEXICON VT_УЕМС-ObjAll_sub
++Use/Sub: VT_УЕМС-ObjAll ;
 
-LEXICON V_УЕМС-ObjAll
-@P.CONJ.ObjAll@ V_УЕМС ;
+LEXICON VT_УЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_УЕМС ;
 
-LEXICON V_ТУЕМС-ObjAll_sub
-+Use/Sub: V_ТУЕМС-ObjAll ;
+LEXICON VT_ТУЕМС-ObjAll_sub
++Use/Sub: VT_ТУЕМС-ObjAll ;
 
-LEXICON V_ТУЕМС-ObjAll
-+V@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ Indicative_Present_Obj ;
-@P.CONJ.ObjAll@ V_ТУЕМС ;
+LEXICON VT_ТУЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ Indicative_Present_Obj ;
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_ТУЕМС ;
 
-LEXICON V_ТЕЕМС-ObjAll_sub
-+Use/Sub: V_ТЕЕМС-ObjAll ;
+LEXICON VT_ТЕЕМС-ObjAll_sub
++Use/Sub: VT_ТЕЕМС-ObjAll ;
 
-LEXICON V_ТЕЕМС-ObjAll
-@P.CONJ.ObjAll@ V_ТЕЕМС ;
+LEXICON VT_ТЕЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_ТЕЕМС ;
 
-LEXICON V_НЕЕМС-ObjAll_sub
-+Use/Sub: V_НЕЕМС-ObjAll ;
+LEXICON VT_НЕЕМС-ObjAll_sub
++Use/Sub: VT_НЕЕМС-ObjAll ;
 
-LEXICON V_НЕЕМС-ObjAll
-@P.CONJ.ObjAll@ V_НЕЕМС ;
+LEXICON VT_НЕЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_НЕЕМС ;
 
-LEXICON V_МИЕМС-ObjAll_sub
-+Use/Sub: V_МИЕМС-ObjAll ;
+LEXICON VT_МИЕМС-ObjAll_sub
++Use/Sub: VT_МИЕМС-ObjAll ;
 
-LEXICON V_МИЕМС-ObjAll
-@P.CONJ.ObjAll@ V_МИЕМС ;
+LEXICON VT_МИЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_МИЕМС ;
 
-LEXICON V_НЕКШНЕМС-ObjAll_sub
-+Use/Sub: V_НЕКШНЕМС-ObjAll ;
+LEXICON VT_НЕКШНЕМС-ObjAll_sub
++Use/Sub: VT_НЕКШНЕМС-ObjAll ;
 
-LEXICON V_НЕКШНЕМС-ObjAll
-@P.CONJ.ObjAll@ V_НЕКШНЕМС ;
+LEXICON VT_НЕКШНЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_НЕКШНЕМС ;
 !!2012-04-24 the TAG "+ObjOpen":0 has been removed 
 
-LEXICON V_КУЗЕМС-ObjAll_sub
-+Use/Sub: V_КУЗЕМС-ObjAll ;
+LEXICON VT_КУЗЕМС-ObjAll_sub
++Use/Sub: VT_КУЗЕМС-ObjAll ;
 
-LEXICON V_КУЗЕМС-ObjAll
-@P.CONJ.ObjAll@ V_КУЗЕМС ;
+LEXICON VT_КУЗЕМС-ObjAll
++V+TV@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ V_КУЗЕМС ;
+
+!! !!! VERBS WITH INTRANSITIVE TAGS +V+IV
+LEXICON VI_УЕМС
++V+IV: V_УЕМС ;
+
+LEXICON VI_ТУЕМС
++V+IV: V_ТУЕМС ;
+
+LEXICON VI_ТЕЕМС
++V+IV: V_ТЕЕМС ;
+
+LEXICON VI_НЕЕМС
++V+IV: V_НЕЕМС ;
+
+LEXICON VI_МИЕМС
++V+IV: V_МИЕМС ;
+
+LEXICON VI_НЕКШНЕМС_sub
++Use/Sub: VI_НЕКШНЕМС ;
+
+LEXICON VI_НЕКШНЕМС
++V+IV: V_НЕКШНЕМС ;
+
+!касомс:ка
+LEXICON VI_КАСОМС
++V+IV: V_КАСОМС ;
+
+!куземс:ку
+LEXICON VI_КУЗЕМС
++V+IV: V_КУЗЕМС ;
+
+LEXICON VI_ЛЕДЕМС
++V+IV: V_ЛЕДЕМС ;
+
+LEXICON VI_САВТОМС
++V+IV: V_САВТОМС ;
+LEXICON VI_САВТОМС-SG3
++V+IV: V_САВТОМС-SG3 ;
+LEXICON VI_САВТОМС-SG3_SUBJ/ZERO
++V+IV+Subj/Zero: V_САВТОМС-SG3 ;
+
+LEXICON VI_ЧАЧТОМС
++V+IV: V_ЧАЧТОМС ;
+
+LEXICON VI_НЕВТЕМС
++V+IV: V_НЕВТЕМС ;
+
+LEXICON VI_КАДОМС
++V+IV: V_КАДОМС ;
+
+LEXICON VI_САЕВЕМС
++V+IV: V_САЕВЕМС ;
+
+LEXICON VI_ЯНГАВОМС
++V+IV: V_ЯНГАВОМС ;
+
+LEXICON VI_КУНДАМС
++V+IV: V_КУНДАМС ;
+
+LEXICON VI_САТОМС
++V+IV: V_САТОМС ;
+
+LEXICON VI_ЛЕТЕМС
+ VI_САТОМС ;
+
+!! !!!AUXILIARY VERBS
+LEXICON VA_ЯНГАВОМС
++V+VAUX: V_ЯНГАВОМС ;
+
+LEXICON VA_ЯНГАВОМС-SG3
++V+VAUX: V_ЯНГАВОМС-SG3 ;
 
 
 
-!! !!!VERBS AFTER OBJECT FLAGS 
+!! !!!VERBS AFTER TRANSITIVITY Tags OBJECT FLAGS 
 
 LEXICON V_УЕМС
  :й V_КАДОМС ;
 
 LEXICON V_ТУЕМС
                  :й V_КАДОМС ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
  IND-PRS-40 ;
  IND-PRS-50 ;
 
@@ -126,13 +197,13 @@ LEXICON V_ТЕЕМС
 LEXICON V_НЕЕМС
                  :й V_КАДОМС ;
  @R.CONJ.ObjAll@  Indicative_Present_Obj-in-S ; ! 2012-08-07 неса
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 
 LEXICON V_МИЕМС
                  :й V_КАДОМС ;
 @R.CONJ.ObjAll@  Indicative_Present_Obj-in-S ; ! 2012-08-07 миса
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 
 LEXICON V_НЕКШНЕМС_sub
@@ -144,12 +215,12 @@ LEXICON V_НЕКШНЕМС
 !касомс:ка
 LEXICON V_КАСОМС
 :с V_КАДОМС ;
-+V@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+0@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 !куземс:ку
 LEXICON V_КУЗЕМС
 :зь V_ЛЕДЕМС ;
-+V@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+0@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 
 LEXICON V_ЛЕДЕМС
@@ -158,73 +229,110 @@ LEXICON V_ЛЕДЕМС
 LEXICON V_САВТОМС
  V_КАДОМС ;
 
+LEXICON V_САВТОМС-SG3
+ V_КАДОМС-SG3 ;
+
 LEXICON V_ЧАЧТОМС
  V_КАДОМС ;
-+V@U.CONJ-INF.NO@:а@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+0@U.CONJ-INF.NO@:а@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 LEXICON V_НЕВТЕМС
  V_КАДОМС ;
 
 LEXICON V_КАДОМС
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all ;
-+V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ Conjunctive-kadoms ;
+@U.CONJ-INF.NO@ IND-PRT1-all ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
+@U.CONJ-INF.NO@ Conjunctive-kadoms ;
 
 
-+V:  CondVerbs ;
-+V: VerbsPresPrc_1 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V_КАДОМС-a ;
-+V: Deverbals-kadoms ;
+  CondVerbs ;
+ VerbsPresPrc_1 ;
+@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@ V_КАДОМС-a ;
+ Deverbals-kadoms ;
 
-
-
+LEXICON V_КАДОМС-SG3
+0@U.CONJ-INF.NO@:%>@U.CONJ-INF.NO@ IND-PRT1-30 ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-30 ;
+00@U.CONJ-INF.NO@:%>О1@U.CONJ-INF.NO@ CNJ-30 ;
++Der/Ындеря+Cond+V+Conj0000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>Ы2ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
++ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:%>О1К3@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ _КУДО-Tenses1 ;
++Des0000@U.CONJ-INF.NO@@U.CONJ-MX.DES@:%>Ы2ксэ@U.CONJ-INF.NO@@U.CONJ-MX.DES@ DES-PRT2-30 ;
+!! no deverbals
 
 LEXICON V_САЕВЕМС
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all ;
-+V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
-+V0@U.CONJ-INF.NO@:%>WLoss@U.CONJ-INF.NO@ Conjunctive-noArrow ;
-+V+Use/Sub+Dial@U.CONJ-INF.NO@:%>О10@U.CONJ-INF.NO@ Conjunctive-noArrow ;
+@U.CONJ-INF.NO@ IND-PRT1-all ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
+00@U.CONJ-INF.NO@:%>WLoss@U.CONJ-INF.NO@ Conjunctive-noArrow ;
++Use/Sub+Dial@U.CONJ-INF.NO@:%>О1@U.CONJ-INF.NO@ Conjunctive-noArrow ;
 
-+V:  CondVerbs ;
-+V:     VerbsPresPrc_1 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V_КАДОМС-a ;
-+V:  Deverbals-kadoms ;
+  CondVerbs ;
+     VerbsPresPrc_1 ;
+@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@ V_КАДОМС-a ;
+  Deverbals-kadoms ;
+
+LEXICON V_САЕВЕМС-SG3
+@U.CONJ-INF.NO@ IND-PRT1-30 ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-30 ;
+00@U.CONJ-INF.NO@:%>WLoss@U.CONJ-INF.NO@ CNJ-30 ;
++Use/Sub+Dial@U.CONJ-INF.NO@:%>О1@U.CONJ-INF.NO@ CNJ-30 ;
++Der/Ындеря+Cond+V+Conj0000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>Ы2ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
++ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:%>О1К3@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ _КУДО-Tenses1 ;
++Des0000@U.CONJ-INF.NO@@U.CONJ-MX.DES@:%>Ы2ксэ@U.CONJ-INF.NO@@U.CONJ-MX.DES@ DES-PRT2-30 ;
+!! no deverbals
 
 LEXICON V_ЯНГАВОМС
  V_САЕВЕМС ;
+LEXICON V_ЯНГАВОМС-SG3
+ V_САЕВЕМС-SG3 ;
 
 LEXICON V_КУНДАМС
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all ;
-+V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ Conjunctive-kundams ;
+@U.CONJ-INF.NO@ IND-PRT1-all ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
+@U.CONJ-INF.NO@ Conjunctive-kundams ;
 
-+V:  CondVerbs ;
-+V:     VerbsPresPrc_1 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V_КУНДАМС-a ;
-+V:  Deverbals-kundams ; !This denies linking vowel
+  CondVerbs ;
+     VerbsPresPrc_1 ;
+@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@ V_КУНДАМС-a ;
+  Deverbals-kundams ; !This denies linking vowel
 
 
 
 LEXICON V_САТОМС
 !2012-10-27! This still needs work
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-all-but-Sc3 ;
-+Use/Sub+V@U.CONJ-INF.NO@:00@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
-+V00@U.CONJ-INF.NO@:%>О1т@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
+@U.CONJ-INF.NO@ IND-PRT1-all-but-Sc3 ;
++Use/Sub@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
+000@U.CONJ-INF.NO@:%>О1т@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
 
-+V0@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ Conjunctive-kadoms ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-all ;
+@U.CONJ-INF.NO@ Conjunctive-kadoms ;
 
-+V:  CondVerbs ;
-+V:     VerbsPresPrc_1 ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ V_САТОМС-a ;
-+V@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
-+V:  Deverbals-kadoms ; 
+  CondVerbs ;
+     VerbsPresPrc_1 ;
+@U.CONJ-INF.NO@ V_САТОМС-a ;
+@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+  Deverbals-kadoms ; 
+
+LEXICON V_САТОМС-SG3
++Use/Sub@U.CONJ-INF.NO@:%>@U.CONJ-INF.NO@ IND-PRT1-30 ;
+0000@U.CONJ-INF.NO@:%>О1т%>@U.CONJ-INF.NO@ IND-PRT1-30 ;
+00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-30 ;
+00@U.CONJ-INF.NO@:%>О1@U.CONJ-INF.NO@ CNJ-30 ;
++Der/Ындеря+Cond+V+Conj0000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>Ы2ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
++ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:%>О1К3@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ _КУДО-Tenses1 ;
++Des0000@U.CONJ-INF.NO@@U.CONJ-MX.DES@:%>Ы2ксэ@U.CONJ-INF.NO@@U.CONJ-MX.DES@ DES-PRT2-30 ;
+!! no deverbals
 
 LEXICON V_ЛЕТЕМС
  V_САТОМС ;
+LEXICON V_ЛЕТЕМС-SG3
+ V_САТОМС-SG3 ;
+
 
 LEXICON V_КАДОМС-a
 @U.CONJ-MX.IND@ Indicative1 ;
