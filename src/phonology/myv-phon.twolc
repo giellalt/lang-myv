@@ -106,27 +106,45 @@ NoVLoss:0
 
 Sets
 
-Vows = а о у ы э я ё ю и е ;
-verbStemVows = а о э я ё е ;
-verbStemVowStrong = а о э я ё е ;
-noGlideVow = а о у ы э ;
-glideVow = я ё ю и е ;
-BTV = а о у я ё ю ; ! Back Trigger Vowels
-FTV = ы и е э ; ! Front Trigger Vowels
+Vows = а о у ы э я ё ю и е 
+       А О У Ы Э Я Ё Ю И Е ;
+verbStemVows = а о э я ё е 
+	       А О Э Я Ё Е ;
+verbStemVowStrong = а о э я ё е 
+		    А О Э Я Ё Е ;
+noGlideVow = а о у ы э 
+	     А О У Ы Э ;
+glideVow = я ё ю и е 
+	   Я Ё Ю И Е ;
+BTV = а о у я ё ю 
+      А О У Я Ё Ю ; ! Back Trigger Vowels
+FTV = ы и е э 
+      Ы И Е Э ; ! Front Trigger Vowels
 
-Cns = б в г д ж з й к л м н п р с т ф х ц ч ш щ ;
-NPC = б в г д ж з к л м н п р с т ф х ц ч ш щ ; ! Nonpalatal Consonants
-CnsVoiced = б в г д ж з й л м н р ;
-CnsVoicedDent = д з л н р ;
-CnsVoicedNonDent = б в г ж й м ;
-CnsVoiceless = к п с т ф х ц ч ш щ ;
-CnsVoicelessDent = с т ц ;
-CnsVoicelessNonDent = к п ф х ч ш щ ;
-CnsNonDent = б в г ж к м п ф х ч ш щ ;
-CnsDent = д з л н р с т ц  ;
-CnsDentNoL = д з н р с т ц  ;
+Cns = б в г д ж з й к л м н п р с т ф х ц ч ш щ 
+      Б В Г Д Ж З Й К Л М Н П Р С Т Ф Х Ц Ч Ш Щ ;
+NPC = б в г д ж з к л м н п р с т ф х ц ч ш щ 
+      Б В Г Д Ж З К Л М Н П Р С Т Ф Х Ц Ч Ш Щ ; ! Nonpalatal Consonants
+CnsVoiced = б в г д ж з й л м н р 
+	    Б В Г Д Ж З Й Л М Н Р ;
+CnsVoicedDent = д з л н р 
+	      	Д З Л Н Р ;
+CnsVoicedNonDent = б в г ж й м 
+		   Б В Г Ж Й М ;
+CnsVoiceless = к п с т ф х ц ч ш щ 
+	       К П С Т Ф Х Ц Ч Ш Щ ;
+CnsVoicelessDent = с т ц 
+		   С Т Ц ;
+CnsVoicelessNonDent = к п ф х ч ш щ 
+		      К П Ф Х Ч Ш Щ ;
+CnsNonDent = б в г ж к м п ф х ч ш щ 
+	     Б В Г Ж К М П Ф Х Ч Ш Щ ;
+CnsDent = д з л н р с т ц 
+	  Д З Л Н Р С Т Ц  ;
+CnsDentNoL = д з н р с т ц 
+	     Д З Н Р С Т Ц  ;
 
-Letters = Vows Cns ь ъ ;
+Letters = Vows Cns ь ъ Ь Ъ ;
 
 Definitions
 
