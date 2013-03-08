@@ -698,62 +698,40 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 TESTINGTESTING ;
 
- adjectives     ;
- adverbs        ;
- bahuvrihis     ;
+!!2013-03-08!! adjectives     ;
+!!2013-03-08!! adverbs        ;
+!!2013-03-08!! bahuvrihis     ;
  conjunctions   ;
- demonstratives ;
+!!2013-03-08!! demonstratives ;
  interjections  ;
- noun-deverbal  ;
- nouns          ;
- propernouns    ;
- participles    ;
+!!2013-03-08!! noun-deverbal  ;
+!!2013-03-08!! nouns          ;
+!!2013-03-08!! propernouns    ;
+!!2013-03-08!! participles    ;
  particles      ;
- postpositions  ;
- pronouns       ;
- quantifiers    ;
- verbs          ;
+!!2013-03-08!! postpositions  ;
+!!2013-03-08!! pronouns       ;
+!!2013-03-08!! quantifiers    ;
+!!2013-03-08!! verbs          ;
 
 !
-! CyrillicFemaleName ;
-! HUNSPELL Type name derivation
- RussianMalenamesDerive ; !
-! RussianSurnamesDerive ; 
- urj-Cyrl-ProperNouns ; !Testing 2012-11-17
+!! CyrillicFemaleName ;
+!! HUNSPELL Type name derivation
+!!2013-03-08!! RussianMalenamesDerive ; !
+!! RussianSurnamesDerive ; 
+!!2013-03-08!! urj-Cyrl-ProperNouns ; !Testing 2012-11-17
 
-PERS            ;  
-ejs-PO          ;
- Indef_Pronouns ;
- Indef_Pronouns-pref ;			! This will take prefix and Flags
-EXCEPTIONS      ;                       ! exceptions.lexc
+!!2013-03-08!!PERS            ;  
+!!2013-03-08!!ejs-PO          ;
+!!2013-03-08!! Indef_Pronouns ;
+!!2013-03-08!! Indef_Pronouns-pref ;			! This will take prefix and Flags
+!!2013-03-08!!EXCEPTIONS      ;                       ! exceptions.lexc
 
-Abbreviation ;                          ! abbr-myv-lex.txt
-Acronym      ;                          ! acro-myv-lex.txt
-Punctuation  ;                          ! punct-myv-lex.txt
+!!2013-03-08!!Abbreviation ;                          ! abbr-myv-lex.txt
+!!2013-03-08!!Acronym      ;                          ! acro-myv-lex.txt
+!!2013-03-08!!Punctuation  ;                          ! punct-myv-lex.txt
 
-!ABBR ; ../../tmp/out/ABBR_myv-lex.xml           !2012-03-14
-!ACRON ;../../tmp/out/ACRON_myv-lex.xml          !2012-03-14
-!IDIOM ;../../tmp/out/IDIOM_myv-lex.xml          !2012-03-14
-!N-DV ; ../../tmp/out/N-DV_myv-lex.xml           !2012-03-14
-!N-F ;  ../../tmp/out/N-F_myv-lex.xml            !2012-03-14
-!No-e-element-N ;                       ! ../../tmp/out/No-e-element-N_myv-lex.xml !2012-03-14
-!No-e-element-V ;                       ! ../../tmp/out/No-e-element-V_myv-lex.xml !2012-03-14
-!NUM ;  ../../tmp/out/NUM_myv-lex.xml            !2012-03-14
-!NUM-PREFIXES ;                         ! num-myv-morph.txt                        !2012-03-14
-!PART-ONOM ;                            ! ../../tmp/out/PART-ONOM_myv-lex.xml      !2012-03-14
-!   ../../tmp/out/PERS_myv-lex.xml.txt
-! Misc_Pronouns ;                                              !2012-04-03
-!PRON-INDEF ;                           ! ../../tmp/out/PRON-INDEF_myv-lex.xml                           !2012-03-14
-!PRON-INTER ;                           ! ../../tmp/out/PRON-INTER_myv-lex.xml                           !2012-03-14
-!PRON-NEG ;                             ! pron-myv-morph.txt                                             !2012-03-14
-!PRON-QNT ;                             ! ../../tmp/out/PRON-QNT_myv-lex.xml                             !2012-03-14
-!PRON-REFL ;                            ! ../../tmp/out/PRON-REFL_myv-lex.xml                            !2012-03-14
-!PRON-REL ;                             ! pron-myv-morph.txt                                             !2012-03-14
-!PROP-RUSSIAN-TOPONYMS ;                ! ../../tmp/out/PROPRUSSIAN-TOPONYMS_myv-lex.xml                 !2012-03-14
-!PROP-RUSSIAN-MALE-SURNAMES-Derivable ; ! ../../tmp/out/PROP-RUSSIAN-MALE-SURNAMES-Derivable_myv-lex.xml !2012-03-14
-!PROP-CYRILLIC-MALE-SURNAMES ;          ! ../../tmp/out/PROP-CYRILLIC-MALE-SURNAMES_myv-lex.xml          !2012-03-14
 
-!V-N2END ;                              ! ../../tmp/out/V-N2END_myv-lex.xml                              !2012-03-14
 
 
 ! ======================================================= !
@@ -763,7 +741,8 @@ Punctuation  ;                          ! punct-myv-lex.txt
 ! Compounding
 
 LEXICON R
-%- nouns ;
+#;
+!!2013-03-08!!%- nouns ;
 
 LEXICON BAHUV_КАЛ
 +Bahuvrihi: A_КАЛ ;
