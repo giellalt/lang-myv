@@ -20,36 +20,37 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
+			stems/abbr.lexc			\
+			stems/acro.lexc			\
+	    		stems/punct.lexc	           \
 			affixes/clitics.lexc             \
+			stems/exceptions.lexc 	       \
 			stems/urj-Cyrl-propernouns.lexc  \
 			stems/rusMaleNameDer.lexc	     \
-    		affixes/adjectives.lexc          \
+	    		affixes/adjectives.lexc          \
 			affixes/adverbs.lexc             \
-    		affixes/nouns.lexc               \
+    			affixes/nouns.lexc               \
 			affixes/pronouns.lexc            \
 			affixes/propernouns.lexc         \
 			affixes/quantifiers.lexc         \
 			affixes/verbs.lexc
 
-#			stems/abbr.lexc
-#			stems/acro.lexc
-#			stems/exceptions.lexc 	       
-#    		stems/punct.lexc	           
 
 #			stems/rusSurDer.lexc	
 #### GENERATED_LEXC_SRCS=stems/smi-$(GTLANG)-propernouns.lexc
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
+		stems/adjectives.lexc         \
+	    	stems/adverbs.lexc            \
 		stems/conjunctions.lexc       \
 		stems/interjections.lexc      \
         stems/particles.lexc          
 #		stems/nouns.lexc             
 #		stems/verbs.lexc
 
-#    	stems/adverbs.lexc            
 
 
-#		stems/adjectives.lexc         
+
 
 #		stems/bahuvrihis.lexc        
 #		stems/demonstratives.lexc     
@@ -64,16 +65,16 @@ GENERATED_LEXC_SRCS=\
 #			stems/urj-Cyrl-$(GTLANG)-propernouns.lexc        
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
+		stems/adjectives.xml      \
+		stems/adverbs.xml         \
 		stems/conjunctions.xml    \
 		stems/interjections.xml   \
 		stems/particles.xml   
 #		stems/nouns.xml           
 #		stems/verbs.xml
 
-#		stems/adverbs.xml         
 
 
-#		stems/adjectives.xml      
 
 #		stems/bahuvrihis.xml      
 #		stems/demonstratives.xml  
