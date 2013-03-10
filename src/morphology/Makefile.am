@@ -42,48 +42,44 @@ GT_LEXC_SRCS=\
 GENERATED_LEXC_SRCS=\
 		stems/adjectives.lexc         \
 	    	stems/adverbs.lexc            \
+		stems/bahuvrihis.lexc        \
 		stems/conjunctions.lexc       \
+		stems/demonstratives.lexc     \
 		stems/interjections.lexc      \
-        stems/particles.lexc          
-#		stems/nouns.lexc             
-#		stems/verbs.lexc
+		stems/nouns.lexc             \
+		stems/noun-deverbal.lexc      \
+		stems/participles.lexc        \
+	        stems/particles.lexc          \
+		stems/postpositions.lexc      \
+		stems/pronouns.lexc           \
+		stems/propernouns.lexc       \
+		stems/quantifiers.lexc        \
+		stems/verbs.lexc
 
 
-
-
-
-#		stems/bahuvrihis.lexc        
-#		stems/demonstratives.lexc     
-#		stems/noun-deverbal.lexc      
-#		stems/propernouns.lexc       
-		
-#		stems/participles.lexc        
-#		stems/postpositions.lexc      
-#		stems/pronouns.lexc           
-#		stems/quantifiers.lexc        
 
 #			stems/urj-Cyrl-$(GTLANG)-propernouns.lexc        
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/adjectives.xml      \
 		stems/adverbs.xml         \
+		stems/bahuvrihis.xml      
 		stems/conjunctions.xml    \
+		stems/demonstratives.xml  \
 		stems/interjections.xml   \
-		stems/particles.xml   
-#		stems/nouns.xml           
-#		stems/verbs.xml
+		stems/nouns.xml           \
+		stems/noun-deverbal.xml   \
+		stems/participles.xml     \
+		stems/particles.xml   	\
+		stems/postpositions.xml   \
+		stems/propernouns.xml     \
+		stems/pronouns.xml        \
+		stems/quantifiers.xml     \
+		stems/verbs.xml
 
 
 
 
-#		stems/bahuvrihis.xml      
-#		stems/demonstratives.xml  
-#		stems/noun-deverbal.xml   
-#		stems/propernouns.xml     
-#		stems/participles.xml     
-#		stems/postpositions.xml   
-#		stems/pronouns.xml        
-#		stems/quantifiers.xml     
 
 #stems/urj-Cyrl-$(GTLANG)-propernouns.lexc: stems/urj-Cyrl-propernouns.lexc  stems/$(GTLANG)-propernouns.lexc
 #	rm -f $@
