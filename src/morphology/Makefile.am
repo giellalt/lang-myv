@@ -35,6 +35,7 @@ GT_LEXC_SRCS=\
 			affixes/quantifiers.lexc         \
 			affixes/verbs.lexc
 
+#			stems/rusMaleNameDer.lexc	 
 
 #			stems/rusSurDer.lexc	
 #### GENERATED_LEXC_SRCS=stems/smi-$(GTLANG)-propernouns.lexc
