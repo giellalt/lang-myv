@@ -1,6 +1,11 @@
 а (->) a, # Cyrillic letter, accept Latin look-alike
+А (->) A, # Cyrillic letter, accept Latin look-alike
 е (->) e, # Cyrillic letter, accept Latin look-alike
+Е (->) E, # Cyrillic letter, accept Latin look-alike
 о (->) o, # Cyrillic letter, accept Latin look-alike
+О (->) O, # Cyrillic letter, accept Latin look-alike
+е (->) ё, # Sloppy spelling
+Е (->) Ё, # Sloppy spelling
 т т н э (->) т н э, # Typically written with one т in texts 1930-2000
 т т а н (->) т а н, # Ocasionally written with one т in texts 1930-2000
 д т а н (->) т а н, # Ocasionally written with one т in texts 1930-2000
@@ -26,6 +31,7 @@
 # "е" after ш ж where "о" would be expected
 е р т ё ж о (->) е р т ё ж е, # Typically written with one к in texts 1930-2000
 # but morphological presentation would call for two.
+к с т н (->) к с н, #
 г с т (->) к с т, #
 т с (->) ц, #
 д ь с (->) ц, #
