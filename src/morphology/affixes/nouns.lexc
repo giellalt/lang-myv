@@ -238,6 +238,12 @@ LEXICON NMN_ОШ
  _ОШ-Indef-Declension ;
  N_КАЛ-Poss-Declension-CX ;
 
+LEXICON NMN_ОШ-PL !! This needs checking 2013-03-27
+ N_ОШ-Derivation ;
+:%> DefPl-Declension ;
+ _ОШ-Indef-Declension-PL ;
+ N_ОШ-Poss-Declension-CX-PL ;
+
 LEXICON N_ОШ-PL
 +N: N_ОШ-Derivation ;
 +N:%> DefPl-Declension ;
@@ -308,6 +314,12 @@ LEXICON NMN_КУДО
  N_КУДО-Def-Declension ;
  _КУДО-Indef-Declension ;
  N_КУДО-Poss-Declension-CX ;
+
+LEXICON NMN_КУДО-PL !! This needs checking 2013-03-27
+ N_КУДО-Derivation ;
+:%> DefPl-Declension ;
+ _КУДО-Indef-Declension-PL ;
+ N_КУДО-Poss-Declension-CX-PL ;
 
 LEXICON N_КУДО-PL
 +N: N_КУДО-Derivation ;
