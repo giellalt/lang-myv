@@ -1344,7 +1344,7 @@ LEXICON CNJ-66
 
 
 LEXICON Conjunctive-kadoms
-:%>О1 Conjunctive-noArrow ;
+:%>%^О2 Conjunctive-noArrow ;
 
 LEXICON Conjunctive-kundams
 :%> Conjunctive-noArrow ;
@@ -1554,12 +1554,12 @@ LEXICON ILYA
 @R.CONJ.ObjAll@ ILYA_Obj ;
 :%> OPT-10 ;
 :%> OPT-20 ;
-:%> OPT-30 ;
+:%>%^О2 OPT-30 ;
 :%> OPT-40 ;
 :%> OPT-50 ;
 :%> OPT-60 ;
 +Imprt+ScSg2@U.CONJ-MX.IMP@@U.CONJ-PX.2%0@:00@U.CONJ-MX.IMP@@U.CONJ-PX.2%0@ VerbEnd_K ;
-:%> IMPRT-50 ;
+ IMPRT-50 ;
 
 LEXICON ILYA_Obj
 :%> OPT-12 ;
@@ -1572,8 +1572,8 @@ LEXICON ILYA_Obj
 +Opt+ScSg2+OcPl100@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>мизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
 +Opt+ScSg2+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>змизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
 :%> OPT-26 ;
-:%> OPT-31 ;
-:%> OPT-32 ;
+:%>%^О2 OPT-31 ;
+:%>%^О2 OPT-32 ;
 :%> OPT-33 ;
 :%> OPT-34 ;
 +Opt+ScSg3+OcPl100@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>мизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
@@ -1635,7 +1635,7 @@ LEXICON IMPRT-26
 +Use/Sub+Dial+Imprt+ScSg2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.26@:Ы20000@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpK ;
 
 LEXICON IMPRT-50
-+Imprt+ScPl2@U.CONJ-MX.IMP@@U.CONJ-PX.5%0@:дО1@U.CONJ-MX.IMP@@U.CONJ-PX.5%0@ VerbEnd_ImpK ;
++Imprt+ScPl200@U.CONJ-MX.IMP@@U.CONJ-PX.5%0@:%>%^О2дО1@U.CONJ-MX.IMP@@U.CONJ-PX.5%0@ VerbEnd_ImpK ;
 
 LEXICON IMPRT-51
 +Imprt+ScPl2+OcSg100@U.CONJ-MX.IMP@@U.CONJ-PX.51@:змизь@U.CONJ-MX.IMP@@U.CONJ-PX.51@ VerbEnd_ImpK ;
@@ -1654,13 +1654,13 @@ LEXICON IMPRT-56
 LEXICON Imperative-kadoms
 @R.CONJ.ObjAll@  Imperative_Obj-kadoms ;
 :%> IMPRT-20 ;
-:%>О1%> IMPRT-50 ;
+ IMPRT-50 ;
 
 LEXICON Imperative_Obj-kadoms
-:%>О1%> IMPRT-21 ;
+:%>%^О2 IMPRT-21 ;
 +Use/Sub+Dial:%>Ы2%> IMPRT-21 ;
 :%> IMPRT-23 ;
-:%>О1%> IMPRT-24 ;
+:%>%^О2 IMPRT-24 ;
 :%> IMPRT-26 ;
 :%>О1%> IMPRT-51 ;
 :%> IMPRT-53 ;
@@ -1670,12 +1670,12 @@ LEXICON Imperative_Obj-kadoms
 LEXICON Imperative-kundams
 @R.CONJ.ObjAll@  Imperative_Obj-kundams ;
 :%> IMPRT-20 ;
-:%> IMPRT-50 ;
+ IMPRT-50 ;
 
 LEXICON Imperative_Obj-kundams
-:%> IMPRT-21 ;
+:%>%^О2 IMPRT-21 ;
 :%> IMPRT-23 ;
-:%> IMPRT-24 ;
+:%>%^О2 IMPRT-24 ;
 :%> IMPRT-26 ;
 :%> IMPRT-51 ;
 :%> IMPRT-53 ;
@@ -1687,10 +1687,10 @@ LEXICON Imperative_Obj-kundams
 
 
 LEXICON Optative-kadoms
-:%>О1 Optative-noArrow ;
+:%>%^О2 Optative-noArrow ;
 
 LEXICON Optative-kundams
-:%> Optative-noArrow ;
+:%>%^О2 Optative-noArrow ;
 
 !! 2012-11-09
 
@@ -1876,8 +1876,8 @@ LEXICON Optative1_A_Obj
 :%> OPT-23 ;
 :%> OPT-24 ;
 :%> OPT-26 ;
-:%> OPT-31 ;
-:%> OPT-32 ;
+:%>%^О2 OPT-31 ;
+:%>%^О2 OPT-32 ;
 :%> OPT-33 ;
 :%> OPT-34 ;
 :%> OPT-35 ;
