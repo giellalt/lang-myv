@@ -29,7 +29,9 @@ GT_LEXC_SRCS=\
 			stems/rusMaleNameDer.lexc	     \
 	    		affixes/adjectives.lexc          \
 			affixes/adverbs.lexc             \
-    			affixes/nouns.lexc               \
+			affixes/nonverbalConjugation.lexc            \
+			affixes/nouns.lexc               \
+			affixes/possessorindices.lexc            \
 			affixes/pronouns.lexc            \
 			affixes/propernouns.lexc         \
 			affixes/quantifiers.lexc         \
