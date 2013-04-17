@@ -33,6 +33,7 @@ GT_LEXC_SRCS=\
 			affixes/nouns.lexc               \
 			affixes/possessorindices.lexc            \
 			affixes/pronouns.lexc            \
+			affixes/postpositions.lexc            \
 			affixes/propernouns.lexc         \
 			affixes/quantifiers.lexc         \
 			affixes/verbs.lexc
