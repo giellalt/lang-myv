@@ -1,0 +1,101 @@
+!! !!! Postpositions
+
+!! The Erzya language postpositions can be broken into many subgroups
+!! according to morphological and semantic criteria
+
+
+LEXICON PO_ОШ-INE4
++Po+Ine:%>сО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ela:%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ill:%>с K ;
++Po+Ill:%>з OBL-PX4-END-FOC ;
++Po+Prl:%>Г2а PO_POSS-or-END-FOC-DER/PR-SC3 ;
+
+LEXICON PO_POSS-or-END-FOC-DER/PR-SC3
+!! This allows for word end, possessor indices, predication
+ K ;
+ DER/PR4_OBL ; 
+ POSSX4-END-FOC-DER/PR-SC3 ;
+
+LEXICON PO-IS-PRL
+!! postposition that is in prolative case
+!! перька:перька
++Po+Prl: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON Temp-1Arg-Ela
++Po+Ela+Temp: K ; !This will require Possessor Indices
+
+
+LEXICON ejs-PO
+эйсэ+Po+Ill:эйс K ;
+эйсэ+Po+Ine:эйсэ _КУДО-Conjugation ;
+эйсэ+Po+Ela:эйстэ _КУДО-Conjugation ;
+эйсэ+Po+Ill:эйз OBL-PX4-END-FOC ;
+эйсэ+Po+Ine:эйсэ POSSX4-END-FOC-DER/PR-SC3 ;
+эйсэ+Po+Ela:эйстэ POSSX4-END-FOC-DER/PR-SC3 ;
+эйсэ+Po+Ela:эйстэде OBL-PX4-END-FOC ;
+
+LEXICON marto-PO
++Po+COM: K ;
++Po+COM: _КУДО-Possessives2 ; 
++Po+Der/MWN: N_КУДО ;
+
+
+LEXICON PO_КУДО-ILL
++Po+Ill:%>с K ;
++Po+Ill:%>з OBL-PX4-END-FOC ;
+
+LEXICON PO_ОШ-ILL
++Po+Ill:%>с K ;
++Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
+
+LEXICON Postp-karsho
++Po: WORD-END ;
++Po: PossMarker-then-Clt ;
++Po+Ill:%>з OBL-PX4-END-FOC ;
+
+LEXICON vaksso-SPAT
+ malaso-SPAT ;
++Po+Ela:%>О1%>стО1 _КУДО-Conjugation ;
++Po+Ill:%>О1%>с K ;
++Po+Ine:%>О1%>сО1 _КУДО-Conjugation ;
++Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
+
+LEXICON jutkso-SPAT
++Po+Prl:%>О1%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
++Po+Prl:%>О1%>Г2а _КУДО-Conjugation ;
+ langso-SPAT ;
+
+LEXICON langso-SPAT
++Po+Ela:%>стО1 _КУДО-Conjugation ;
++Po+Ill:%>с K ;
++Po+Lat:%>%^О2в K ;
++Po+Ine:%>сО1 _КУДО-Conjugation ;
++Po+Ela:%>стО1 POSSX4-END-FOC-DER/PR-SC3 ;
++Po+Ill:%>О2з OBL-PX4-END-FOC ;
++Po+Ine:%>сО1 POSSX4-END-FOC-DER/PR-SC3 ;
+
+LEXICON PO_КУДО-INE5
+!! malaso:mala
++Po+Ela:%>стО1 POSSX4-END-FOC-DER/PR-SC3 ;
++Po+Ill:%>О2з OBL-PX4-END-FOC ;
++Po+Ine:%>сО1 POSSX4-END-FOC-DER/PR-SC3 ;
++Po+Prl:%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
++Po+Lat:%>в _КУДО-Conjugation ;
+
+
+! This contlex allows for relational word which, otherwise, are open 
+! to extensive declension
+LEXICON POSTP_
++Po: K ;
+
+LEXICON Dat-1Arg
++Po+DAT: K ;
+
+
+
+
+
+
+! vim: set ft=xfst-lexc:
+
