@@ -773,59 +773,6 @@ LEXICON FORMULAIC_
 LEXICON VOCATIVE_
 +Interj+Voc: WORD-END ;
 
-! ============ !
-! Postp lexica !
-! ============ !
-
-LEXICON ejs-PO
-эйсэ+Po+Ill:эйс K ;
-эйсэ+Po+Ine:эйсэ _КУДО-Conjugation ;
-эйсэ+Po+Ela:эйстэ _КУДО-Conjugation ;
-эйсэ+Po+Ill:эйз POSSX4-END-FOC ;
-эйсэ+Po+Ine:эйсэ POSSX4-END-FOC-DER/PR-SC3 ;
-эйсэ+Po+Ela:эйстэ POSSX4-END-FOC-DER/PR-SC3 ;
-эйсэ+Po+Ela:эйстэде POSSX4-END-FOC ;
-
-LEXICON marto-PO
-+Po+COM: K ;
-+Po+COM: _КУДО-Possessives2 ; 
-+Po+Der/MWN: N_КУДО ;
-
-
-LEXICON PO_КУДО-ILL
-+Po+Ill:%>с K ;
-+Po+Ill:%>з POSSX4-END-FOC ;
-
-LEXICON PO_ОШ-ILL
-+Po+Ill:%>с K ;
-+Po+Ill:%>%^О2з POSSX4-END-FOC ;
-
-LEXICON Postp-karsho
-+Po: WORD-END ;
-+Po: PossMarker-then-Clt ;
-+Po+Ill:%>з POSSX4-END-FOC ;
-
-LEXICON vaksso-SPAT
- malaso-SPAT ;
-+Po+Ela:%>О1%>стО1 _КУДО-Conjugation ;
-+Po+Ill:%>О1%>с K ;
-+Po+Ine:%>О1%>сО1 _КУДО-Conjugation ;
-+Po+Ill:%>%^О2з POSSX4-END-FOC ;
-
-LEXICON jutkso-SPAT
-+Po+Prl:%>О1%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Prl:%>О1%>Г2а _КУДО-Conjugation ;
- langso-SPAT ;
-
-LEXICON langso-SPAT
-+Po+Ela:%>стО1 _КУДО-Conjugation ;
-+Po+Ill:%>с K ;
-+Po+Lat:%>%^О2в K ;
-+Po+Ine:%>сО1 _КУДО-Conjugation ;
-+Po+Ela:%>стО1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Ill:%>О2з POSSX4-END-FOC ;
-+Po+Ine:%>сО1 POSSX4-END-FOC-DER/PR-SC3 ;
-
 LEXICON malaso-SPAT
 !! malaso:mala
 +Adv+Ela:%>стО1 _КУДО-Conjugation ;
@@ -833,11 +780,6 @@ LEXICON malaso-SPAT
 +Adv+Ine:%>сО1 _КУДО-Conjugation ;
 +Adv+Prl:%>Г2а _КУДО-Conjugation ;
 +Adv+Lat:%>в _КУДО-Conjugation ;
-+Po+Ela:%>стО1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Ill:%>О2з POSSX4-END-FOC ;
-+Po+Ine:%>сО1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Prl:%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Lat:%>в _КУДО-Conjugation ;
 
 LEXICON ushoso-SPAT
 +Spat+Ela:%>стО1 _КУДО-Conjugation ;
@@ -845,16 +787,6 @@ LEXICON ushoso-SPAT
 +Spat+Ine:%>сО1 _КУДО-Conjugation ;
 +Spat+Prl:%>Г2а _КУДО-Conjugation ;
 
-
-
-
-! This contlex allows for relational word which, otherwise, are open 
-! to extensive declension
-LEXICON POSTP_
-+Po: K ;
-
-LEXICON Dat-1Arg
-+Po+DAT: K ;
 
 
 
