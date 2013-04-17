@@ -3,6 +3,25 @@
 !! In the Erzya language nominals and adverbs also conjugate
 
 
+LEXICON DER/PR4_OBL
+ DER/PR_SG ;
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
+ DER/PR-IND-PRS-PL3 ;
+
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
+
+LEXICON DER/PR4_OBL-SC3
+ DER/PR_SG ;
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
+ DER/PR-IND-PRS-PL3_ZERO ;
+
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
 
 
 !! used with infinitives
@@ -13,21 +32,21 @@ LEXICON _КУДО-Tenses1-4Inf
 
 LEXICON _КУДО-Tenses-NomSg-4Inf
  VerbEnd_K ;
-+Ind+Prs+ScSg1:%>А2н VerbEnd_K ;
-+Ind+Prs+ScSg2:%>А2т VerbEnd_K ;
-+Ind+Prs+ScSg3: VerbEnd_K ;
-+Ind+Prt2+ScSg1:%>линь VerbEnd_K ;
-+Ind+Prt2+ScSg2:%>лить VerbEnd_K ;
-+Ind+Prt2+ScSg3:%>ль VerbEnd_K ;
+ DER/PR-IND-PRS-SG1 ;
+ DER/PR-IND-PRS-SG2 ;
+ DER/PR-IND-PRS-SG3 ;
+ DER/PR-IND-PRT2-SG1 ;
+ DER/PR-IND-PRT2-SG2 ;
+ DER/PR-IND-PRT2-SG3 ;
 
 LEXICON _КУДО-Tenses-NomPl-4Inf
  VerbEnd_K ;
-+Ind+Prs+ScPl1:%>тА2но VerbEnd_K ;
-+Ind+Prs+ScPl2:%>тА2до VerbEnd_K ;
-+Ind+Prs+ScPl3:%>тЬ2 VerbEnd_K ;
-+Ind+Prt2+ScPl1:%>линек VerbEnd_K-lak ;
-+Ind+Prt2+ScPl2:%>лиде VerbEnd_K ;
-+Ind+Prt2+ScPl3:%>льть VerbEnd_K ;
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
+ DER/PR-IND-PRS-PL3 ;
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
 
 
 ! =========== !
@@ -50,19 +69,18 @@ LEXICON sajems-Conjugation-4Inf
 
 
 LEXICON _КАЛ-Conjugation-4Inf
- VerbEnd_K ;
-+Ind+Prs+ScSg1:%>А2н VerbEnd_K ;
-+Ind+Prs+ScSg2:%>А2т VerbEnd_K ;
-+Ind+Prs+ScSg3: VerbEnd_K ;
-+Ind+Prt2+ScSg1:%>%^О2линь VerbEnd_K ;
-+Ind+Prt2+ScSg2:%>%^О2лить VerbEnd_K ;
-+Ind+Prt2+ScSg3:%>%^О2ль VerbEnd_K ;
-+Ind+Prs+ScPl1:%>тА2но VerbEnd_K ;
-+Ind+Prs+ScPl2:%>тА2до VerbEnd_K ;
-+Ind+Prs+ScPl3: VerbEnd_K ;
-+Ind+Prt2+ScPl1:%>%^О2линек VerbEnd_K-lak ;
-+Ind+Prt2+ScPl2:%>%^О2лиде VerbEnd_K ;
-+Ind+Prt2+ScPl3:%>%^О2льть VerbEnd_K ;
+ DER/PR-IND-PRS-SG1 ;
+ DER/PR-IND-PRS-SG2 ;
+ DER/PR-IND-PRS-SG3 ;
+ DER/PR-IND-PRT2-SG1 ;
+ DER/PR-IND-PRT2-SG2 ;
+ DER/PR-IND-PRT2-SG3 ;
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
+ DER/PR-IND-PRS-PL3_ZERO ;
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
 
 
 LEXICON Tenses1_Prep-SG
@@ -151,15 +169,16 @@ LEXICON _КИТ-Conjugation-4Poss
 
 LEXICON _КАЛ-NomSg-Conjugation
  NounEnd_K ;
- _КАЛ-NomSg-Conjugation-only ;
+ DER/PR_SG ;
 
-LEXICON _КАЛ-NomSg-Conjugation-only
-+Der/Pr+Ind+Prs+ScSg1:%>А2н NounEnd_K ;
-+Der/Pr+Ind+Prs+ScSg2:%>А2т NounEnd_K ;
-+Der/Pr+Ind+Prs+ScSg3: NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScSg1:%>%^О2линь NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScSg2:%>%^О2лить NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScSg3:%>%^О2ль NounEnd_K ;
+LEXICON DER/PR_SG
+!! _КАЛ-NomSg-Conjugation-only
+ DER/PR-IND-PRS-SG1 ;
+ DER/PR-IND-PRS-SG2 ;
+ DER/PR-IND-PRS-SG3 ;
+ DER/PR-IND-PRT2-SG1 ;
+ DER/PR-IND-PRT2-SG2 ;
+ DER/PR-IND-PRT2-SG3 ;
 
 LEXICON _КАЛ-NomPl-Conjugation
  NounEnd_K ;
@@ -170,27 +189,22 @@ LEXICON _КАЛ-NomPl-Conjugation-4Poss
  _КАЛ-NomPl-Conjugation-only-4Poss ;
 
 LEXICON _КАЛ-NomPl-Conjugation-only
- _КАЛ-NomPl-Conjugation-only-mutal ;
-+Der/Pr+Ind+Prs+ScPl3:%>тЬ2 NounEnd_K ;
+ DER/PR_PL-MUTUAL ;
+ DER/PR-IND-PRS-PL3 ;
 
 LEXICON _КАЛ-NomPl-Conjugation-only-4Poss
- _КАЛ-NomPl-Conjugation-only-mutal ;
-+Der/Pr+Ind+Prs+ScPl3: NounEnd_K ;
+ DER/PR_PL-MUTUAL ;
+ DER/PR-IND-PRS-PL3_ZERO ;
 
-LEXICON _КАЛ-NomPl-Conjugation-only-mutal
-+Der/Pr+Ind+Prs+ScPl1:%>тА2но NounEnd_K ;
-+Der/Pr+Ind+Prs+ScPl2:%>тА2до NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScPl1:%>%^О2линек NounEnd_K-lak ;
-+Der/Pr+Ind+Prt2+ScPl2:%>%^О2лиде NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScPl3:%>%^О2льть NounEnd_K ;
+
 
 LEXICON _КАЛ-Conjugation
- _КАЛ-NomSg-Conjugation-only ;
+ DER/PR_SG ;
  _КАЛ-NomPl-Conjugation-only ;
- NounEnd_K ;
+ K ;
 
 LEXICON _КАЛ-Conjugation-4Poss
- _КАЛ-NomSg-Conjugation-only ;
+ DER/PR_SG ;
  _КАЛ-NomPl-Conjugation-only-4Poss ;
  NounEnd_K ;
 
@@ -198,7 +212,7 @@ LEXICON _ОШ-NomSg-Conjugation
  _КАЛ-NomSg-Conjugation ;
 
 LEXICON _ОШ-Conjugation
- _КАЛ-NomSg-Conjugation-only ;
+ DER/PR_SG ;
  _КАЛ-NomPl-Conjugation-only ;
  NounEnd_K ;
 
@@ -241,14 +255,9 @@ LEXICON _КУДО-NomSg-Conjugation
  _КУДО-NomSg-Conjugation-only ;
 
 LEXICON _КУДО-NomSg-Conjugation-only
-+Der/Pr+Ind+Prs+ScSg1:%>А2н NounEnd_K ;
 +Der/Pr+Ind+Prs+ScSg1+Dial:%>ян NounEnd_K ;
-+Der/Pr+Ind+Prs+ScSg2:%>А2т NounEnd_K ;
 +Der/Pr+Ind+Prs+ScSg2+Dial:%>ят NounEnd_K ;
-+Der/Pr+Ind+Prs+ScSg3: NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScSg1:%>линь NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScSg2:%>лить NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScSg3:%>ль NounEnd_K ;
+ DER/PR_SG ;
 
 LEXICON _КУДО-NomPl-Conjugation
  NounEnd_K ;
@@ -259,19 +268,20 @@ LEXICON _КУДО-NomPl-Conjugation-4Poss
  _КУДО-NomPl-Conjugation-only-4Poss ;
 
 LEXICON _КУДО-NomPl-Conjugation-only
- _КУДО-NomPl-Conjugation-only-mutual ;
-+Der/Pr+Ind+Prs+ScPl3:%>тЬ2 NounEnd_K ;
+ DER/PR_PL-MUTUAL ;
+ DER/PR-IND-PRS-PL3 ;
 
 LEXICON _КУДО-NomPl-Conjugation-only-4Poss
- _КУДО-NomPl-Conjugation-only-mutual ;
-+Der/Pr+Ind+Prs+ScPl3: NounEnd_K ;
+ DER/PR_PL-MUTUAL ;
+ DER/PR-IND-PRS-PL3_ZERO ;
 
-LEXICON _КУДО-NomPl-Conjugation-only-mutual
-+Der/Pr+Ind+Prs+ScPl1:%>тА2но NounEnd_K ;
-+Der/Pr+Ind+Prs+ScPl2:%>тА2до NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScPl1:%>линек NounEnd_K-lak ;
-+Der/Pr+Ind+Prt2+ScPl2:%>лиде NounEnd_K ;
-+Der/Pr+Ind+Prt2+ScPl3:%>льть NounEnd_K ;
+LEXICON DER/PR_PL-MUTUAL
+!! _КУДО-NomPl-Conjugation-only-mutual
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
 
 LEXICON _КУДО-Conjugation
  _КУДО-NomSg-Conjugation-only ;
@@ -308,6 +318,33 @@ LEXICON Tenses1
 +Der/Pr+Prt2+ScPl3:%>О1льть Ks ;
 
 
+
+LEXICON DER/PR-IND-PRS-SG1 
++Der/Pr+Ind+Prs+ScSg1:%>А2н K ;
+LEXICON DER/PR-IND-PRS-SG2 
++Der/Pr+Ind+Prs+ScSg2:%>А2т K ;
+LEXICON DER/PR-IND-PRS-SG3 
++Der/Pr+Ind+Prs+ScSg3:      K ;
+LEXICON DER/PR-IND-PRS-PL1 
++Der/Pr+Ind+Prs+ScPl1:%>тА2но  K ;
+LEXICON DER/PR-IND-PRS-PL2 
++Der/Pr+Ind+Prs+ScPl2:%>тА2до  K ;
+LEXICON DER/PR-IND-PRS-PL3
++Der/Pr+Ind+Prs+ScPl3:%>тЬ2    K ;
+LEXICON DER/PR-IND-PRS-PL3_ZERO
++Der/Pr+Ind+Prs+ScPl3:         K ;
+LEXICON DER/PR-IND-PRT2-SG1
++Der/Pr+Ind+Prt2+ScSg1:%>%^О2линь K    ;
+LEXICON DER/PR-IND-PRT2-SG2
++Der/Pr+Ind+Prt2+ScSg2:%>%^О2лить K    ;
+LEXICON DER/PR-IND-PRT2-SG3
++Der/Pr+Ind+Prt2+ScSg3:%>%^О2ль   K    ;
+LEXICON DER/PR-IND-PRT2-PL1
++Der/Pr+Ind+Prt2+ScPl1:%>%^О2линек K ;
+LEXICON DER/PR-IND-PRT2-PL2
++Der/Pr+Ind+Prt2+ScPl2:%>%^О2лиде  K ;
+LEXICON DER/PR-IND-PRT2-PL3
++Der/Pr+Ind+Prt2+ScPl3:%>%^О2льть  K ;
 
 
 
