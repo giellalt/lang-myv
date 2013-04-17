@@ -108,20 +108,21 @@ LEXICON SPAT-NoArg
 
 LEXICON AdvSPAT-Ela
 +Adv+Ela: K ;
++Adv+Ela: DER/PR4_OBL ;
 
 LEXICON AdvSPAT-Ill
 +Adv+Ill: K ;
 
 LEXICON AdvSPAT-Ine
 +Adv+Ine: K ;
-+Adv+Ine: _КУДО-NomSg-Conjugation-only ;
-+Adv+Ine: _КУДО-NomPl-Conjugation-only-mutual ;
++Adv+Ine: DER/PR4_OBL ;
 
 LEXICON AdvSPAT-Lat
 +Adv+Lat: K ;
 
 LEXICON AdvSPAT-Prl
 +Adv+Prl: K ;
++Adv+Prl: DER/PR4_OBL ;
 
 LEXICON SPAT-Interr
 +Interr+Spat: WORD-END ;
@@ -131,18 +132,18 @@ LEXICON Spat_
 
 LEXICON SPAT-Ela
 +Adv+Spat+Ela: K ;
-+Po+Spat+Ela: _КУДО-Possessive-Before-K ;
+!+Po+Spat+Ela: _КУДО-Possessive-Before-K ;
 
 LEXICON SPAT-Ine
 +Spat+Ine: K ;
-+Po+Spat+Ine: _КУДО-Possessive-Before-K ;
+!+Po+Spat+Ine: _КУДО-Possessive-Before-K ;
 
 LEXICON SPAT-Lat
 +Spat+Lat: K ;
 
 LEXICON SPAT-Prl
 +Spat+Prl: K ;
-+Po+Spat+Prl: _КУДО-Possessive-Before-K ;
+!+Po+Spat+Prl: _КУДО-Possessive-Before-K ;
 
 !!Temporal tags with cases
 LEXICON TEMP_
@@ -197,9 +198,6 @@ LEXICON ADV_КИТ-TEMP
 LEXICON ADV_КУДО-TEMP
 +Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N_КУДО ;
-
-LEXICON Temp-1Arg-Ela
-+Po+Ela+Temp: K ; !This will require Possessor Indices
 
 
 
