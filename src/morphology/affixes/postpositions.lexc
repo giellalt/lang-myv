@@ -4,11 +4,25 @@
 !! according to morphological and semantic criteria
 
 
-LEXICON PO_ОШ-INE4
+LEXICON PO_ПАНГО-INE3
+!! лангсо:ланг
 +Po+Ine:%>сО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ine:%>О1%>сО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
 +Po+Ela:%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ela:%>О1%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
 +Po+Ill:%>с K ;
-+Po+Ill:%>з OBL-PX4-END-FOC ;
++Po+Ill:%>О1%>с K ;
++Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
+
+LEXICON PO_ОШ-INE4
+!!вакссо:вакс
++Po+Ine:%>сО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ine:%>О1%>сО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ela:%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ela:%>О1%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
++Po+Ill:%>с K ;
++Po+Ill:%>О1%>с K ;
++Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
 +Po+Prl:%>Г2а PO_POSS-or-END-FOC-DER/PR-SC3 ;
 
 LEXICON PO_POSS-or-END-FOC-DER/PR-SC3
@@ -16,6 +30,16 @@ LEXICON PO_POSS-or-END-FOC-DER/PR-SC3
  K ;
  DER/PR4_OBL ; 
  POSSX4-END-FOC-DER/PR-SC3 ;
+
+LEXICON PO-IS-ELA
+!! postposition that is in elative case
+!! потсто:потсто
++Po+Ela: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON PO-IS-INE
+!! postposition that is in inessive case
+!! потсо:потсо
++Po+Ine: PO_POSS-or-END-FOC-DER/PR-SC3;
 
 LEXICON PO-IS-PRL
 !! postposition that is in prolative case
