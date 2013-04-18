@@ -4,11 +4,11 @@
 
 
 LEXICON DER/PR4_OBL
+!! This is where adjectives get their plural T.
  DER/PR_SG ;
  DER/PR-IND-PRS-PL1 ;
  DER/PR-IND-PRS-PL2 ;
  DER/PR-IND-PRS-PL3 ;
-
  DER/PR-IND-PRT2-PL1 ;
  DER/PR-IND-PRT2-PL2 ;
  DER/PR-IND-PRT2-PL3 ;
@@ -94,16 +94,16 @@ LEXICON _КУДО-Tenses1_Prep-SG
 
 
 LEXICON Tenses1_A
-+Prs+ScSg1@U.TPERS.1@@D.TNUM.PL@:А2н@U.TPERS.1@@D.TNUM.PL@ VerbEnd_K ;
-+Prs+ScSg2@U.TPERS.2@@D.TNUM.PL@:А2т@U.TPERS.2@@D.TNUM.PL@ VerbEnd_K ;
-+Prs+ScPl100@U.TPERS.1@@D.TNUM.SG@:тА2но@U.TPERS.1@@D.TNUM.SG@ VerbEnd_K ;
-+Prs+ScPl200@U.TPERS.2@@D.TNUM.SG@:тА2до@U.TPERS.2@@D.TNUM.SG@ VerbEnd_K ;
-+Prt2+ScSg10000@U.TPERS.1@@D.TNUM.PL@:%>%^О2линь@U.TPERS.1@@D.TNUM.PL@ VerbEnd_K ;
-+Prt2+ScSg20000@U.TPERS.2@@D.TNUM.PL@:%>%^О2лить@U.TPERS.2@@D.TNUM.PL@ VerbEnd_K ;
-+Prt2+ScSg300@U.TPERS.3@@D.TNUM.PL@:%>%^О2ль@U.TPERS.3@@D.TNUM.PL@ VerbEnd_K ;
-+Prt2+ScPl100000@U.TPERS.1@@D.TNUM.SG@:%>%^О2линек@U.TPERS.1@@D.TNUM.SG@ VerbEnd_K ;
-+Prt2+ScPl20000@U.TPERS.2@@D.TNUM.SG@:%>%^О2лиде@U.TPERS.2@@D.TNUM.SG@ VerbEnd_K ;
-+Prt2+ScPl30000@U.TPERS.3@@D.TNUM.SG@:%>%^О2льть@U.TPERS.3@@D.TNUM.SG@ VerbEnd_K ;
+ DER/PR-IND-PRS-SG1 ;
+ DER/PR-IND-PRS-SG2 ;
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
+ DER/PR-IND-PRT2-SG1 ;
+ DER/PR-IND-PRT2-SG2 ;
+ DER/PR-IND-PRT2-SG3 ;
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
 
 !! !!!NON-VERB CONJUGATION 
 
@@ -142,23 +142,15 @@ LEXICON _КИТ-NomSg-Conjugation
 
 LEXICON _КИТ-NomPl-Conjugation
  _КАЛ-NomPl-Conjugation ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl1:%>TLossтА2но K ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl2:%>TLossтА2до K ;
 
 LEXICON _КИТ-NomPl-Conjugation-4Poss
  _КАЛ-NomPl-Conjugation-4Poss ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl1:%>TLossтА2но K ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl2:%>TLossтА2до K ;
 
 LEXICON _КИТ-NomPl-Conjugation-only
  _КАЛ-NomPl-Conjugation-only ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl1:%>TLossтА2но K ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl2:%>TLossтА2до K ;
 
 LEXICON _КИТ-NomPl-Conjugation-only-4Poss
  _КАЛ-NomPl-Conjugation-only-4Poss ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl1:%>TLossтА2но K ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl2:%>TLossтА2до K ;
 
 LEXICON _КИТ-Conjugation
  _КАЛ-Conjugation ;
@@ -239,13 +231,9 @@ LEXICON _ПАНГО-NomPl-Conjugation
  _ПАНГО-NomPl-Conjugation-only ;
 
 LEXICON _ПАНГО-NomPl-Conjugation-only
- _КУДО-NomPl-Conjugation-only ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl1:%>TLossтА2но K ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl2:%>TLossтА2до K ;
+ DER/PR_PL ;
 
 LEXICON _ПАНГО-Conjugation
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl1:%>TLossтА2но K ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl+Der/Pr+Ind+Prs+ScPl2:%>TLossтА2до K ;
  _КУДО-Conjugation ;
 
 
@@ -261,13 +249,14 @@ LEXICON _КУДО-NomSg-Conjugation-only
 
 LEXICON _КУДО-NomPl-Conjugation
  K ;
- _КУДО-NomPl-Conjugation-only;
+ DER/PR_PL ;
 
 LEXICON _КУДО-NomPl-Conjugation-4Poss
  K ;
  _КУДО-NomPl-Conjugation-only-4Poss ;
 
-LEXICON _КУДО-NomPl-Conjugation-only
+LEXICON DER/PR_PL
+!! _КУДО-NomPl-Conjugation-only
  DER/PR_PL-MUTUAL ;
  DER/PR-IND-PRS-PL3 ;
 
@@ -285,7 +274,7 @@ LEXICON DER/PR_PL-MUTUAL
 
 LEXICON _КУДО-Conjugation
  _КУДО-NomSg-Conjugation-only ;
- _КУДО-NomPl-Conjugation-only ;
+ DER/PR_PL ;
  K ;
 
 LEXICON _КУДО-Conjugation-4Poss
@@ -296,56 +285,57 @@ LEXICON _КУДО-Conjugation-4Poss
 
 
 LEXICON Tenses1
-+Der/Pr+Prs+ScSg1:%>А2н Ks ;
-+Der/Pr+Prs+ScSg2:%>А2т Ks ;
-+Der/Pr+Prs+ScPl1:%>тА2но Ks ;
-+Der/Pr+Prs+ScPl2:%>тА2до Ks ;
+ DER/PR-IND-PRS-SG1 ;
+ DER/PR-IND-PRS-SG2 ;
+ DER/PR-IND-PRS-PL1 ;
+ DER/PR-IND-PRS-PL2 ;
 
-+Der/Pr+Prt2+ScSg1:%>линь Ks ;
-+Der/Pr+Prt2+ScSg2:%>лить Ks ;
-+Der/Pr+Prt2+ScSg3:%>ль Ks ;
-+Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>линек@P.KLOSS.ON@ Ks ;
-+Der/Pr+Prt2+ScPl2:%>лиде Ks ;
-+Der/Pr+Prt2+ScPl3:%>льть Ks ;
-+Use/Sub+Der/Pr+Prs+ScPl1@R.TLOSS.ON:%>А2но@R.TLOSS.ON@ Ks ;
-+Use/Sub+Der/Pr+Prs+ScPl2@R.TLOSS.ON:%>А2до@R.TLOSS.ON@ Ks ;
-
-+Der/Pr+Prt2+ScSg1:%>О1линь Ks ;
-+Der/Pr+Prt2+ScSg2:%>О1лить Ks ;
-+Der/Pr+Prt2+ScSg3:%>О1ль Ks ;
-+Der/Pr+Prt2+ScPl1@P.KLOSS.ON@:%>О1линек@P.KLOSS.ON@ Ks ;
-+Der/Pr+Prt2+ScPl2:%>О1лиде Ks ;
-+Der/Pr+Prt2+ScPl3:%>О1льть Ks ;
-
+ DER/PR-IND-PRT2-SG1 ;
+ DER/PR-IND-PRT2-SG2 ;
+ DER/PR-IND-PRT2-SG3 ;
+ DER/PR-IND-PRT2-PL1 ;
+ DER/PR-IND-PRT2-PL2 ;
+ DER/PR-IND-PRT2-PL3 ;
 
 
 LEXICON DER/PR-IND-PRS-SG1 
-+Der/Pr+Ind+Prs+ScSg1:%>А2н K ;
-LEXICON DER/PR-IND-PRS-SG2 
-+Der/Pr+Ind+Prs+ScSg2:%>А2т K ;
-LEXICON DER/PR-IND-PRS-SG3 
-+Der/Pr+Ind+Prs+ScSg3:      K ;
-LEXICON DER/PR-IND-PRS-PL1 
-+Der/Pr+Ind+Prs+ScPl1:%>тА2но  K ;
-LEXICON DER/PR-IND-PRS-PL2 
-+Der/Pr+Ind+Prs+ScPl2:%>тА2до  K ;
-LEXICON DER/PR-IND-PRS-PL3
-+Der/Pr+Ind+Prs+ScPl3:%>тЬ2    K ;
-LEXICON DER/PR-IND-PRS-PL3_ZERO
-+Der/Pr+Ind+Prs+ScPl3:         K ;
-LEXICON DER/PR-IND-PRT2-SG1
-+Der/Pr+Ind+Prt2+ScSg1:%>%^О2линь K    ;
-LEXICON DER/PR-IND-PRT2-SG2
-+Der/Pr+Ind+Prt2+ScSg2:%>%^О2лить K    ;
-LEXICON DER/PR-IND-PRT2-SG3
-+Der/Pr+Ind+Prt2+ScSg3:%>%^О2ль   K    ;
-LEXICON DER/PR-IND-PRT2-PL1
-+Der/Pr+Ind+Prt2+ScPl1:%>%^О2линек K ;
-LEXICON DER/PR-IND-PRT2-PL2
-+Der/Pr+Ind+Prt2+ScPl2:%>%^О2лиде  K ;
-LEXICON DER/PR-IND-PRT2-PL3
-+Der/Pr+Ind+Prt2+ScPl3:%>%^О2льть  K ;
++Der/Pr+Ind+Prs+ScSg1@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@:%>А2н0@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@ K ;
 
+LEXICON DER/PR-IND-PRS-SG2 
++Der/Pr+Ind+Prs+ScSg2@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@:%>А2т0@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@ K ;
+
+LEXICON DER/PR-IND-PRS-SG3 
++Der/Pr+Ind+Prs+ScSg3@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@:0000@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@ K ;
+
+LEXICON DER/PR-IND-PRS-PL1 
++Der/Pr+Ind+Prs+ScPl10@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@:%>тА2но@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@ K ;
+
+LEXICON DER/PR-IND-PRS-PL2 
++Der/Pr+Ind+Prs+ScPl20@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@:%>тА2до@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@ K ;
+
+LEXICON DER/PR-IND-PRS-PL3
++Der/Pr+Ind+Prs+ScPl3@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.SG@:%>тЬ20@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.SG@ K ;
+
+LEXICON DER/PR-IND-PRS-PL3_ZERO
++Der/Pr+Ind+Prs+ScPl3@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.SG@:0000@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.SG@ K ;
+
+LEXICON DER/PR-IND-PRT2-SG1
++Der/Pr+Ind+Prt2+ScSg100@U.CONJ-TX.PRT2@@U.TPERS.1@@D.TNUM.PL@:%>%^О2линь@U.CONJ-TX.PRT2@@U.TPERS.1@@D.TNUM.PL@ K ;
+
+LEXICON DER/PR-IND-PRT2-SG2
++Der/Pr+Ind+Prt2+ScSg200@U.CONJ-TX.PRT2@@U.TPERS.2@@D.TNUM.PL@:%>%^О2лить@U.CONJ-TX.PRT2@@U.TPERS.2@@D.TNUM.PL@ K ;
+
+LEXICON DER/PR-IND-PRT2-SG3
++Der/Pr+Ind+Prt2+ScSg3@U.CONJ-TX.PRT2@@U.TPERS.3@@D.TNUM.PL@:%>%^О2ль@U.CONJ-TX.PRT2@@U.TPERS.3@@D.TNUM.PL@ K ;
+
+LEXICON DER/PR-IND-PRT2-PL1
++Der/Pr+Ind+Prt2+ScPl1000@U.CONJ-TX.PRT2@@U.TPERS.1@@D.TNUM.SG@:%>%^О2линек@U.CONJ-TX.PRT2@@U.TPERS.1@@D.TNUM.SG@ K ;
+
+LEXICON DER/PR-IND-PRT2-PL2
++Der/Pr+Ind+Prt2+ScPl200@U.CONJ-TX.PRT2@@U.TPERS.2@@D.TNUM.SG@:%>%^О2лиде@U.CONJ-TX.PRT2@@U.TPERS.2@@D.TNUM.SG@ K ;
+
+LEXICON DER/PR-IND-PRT2-PL3
++Der/Pr+Ind+Prt2+ScPl300@U.CONJ-TX.PRT2@@U.TPERS.3@@D.TNUM.SG@:%>%^О2льть@U.CONJ-TX.PRT2@@U.TPERS.3@@D.TNUM.SG@ K ;
 
 
 
