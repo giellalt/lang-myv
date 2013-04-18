@@ -202,7 +202,7 @@ Rules
 
 ! Deverbal noun in ОмА
 "A1:o"
-А1:о <=>  [ а |я ] %>:  м  _ ;
+А1:о <=>  [ а |я ] %>: %^О2:0  м  _ ;
 
 "Y2:yi"
 Ы2:и <=> [ я:0 | ё:0 | е:0 | ю:0 | ь:0 | й:0 | CnsNonDent (noGlideVow:0)]  %>: _ ;
@@ -333,11 +333,11 @@ Rules
 Г2:г <=> [ CnsVoicedDent ( :ь )| [ CnsVoicedNonDent - г ] ( :ь ) ] %>: _ а ;
 
 "G2:v"! 
-Г2:в <=> [ :Vows (:0) %>: | :Vows ] _ а [ 0* #: | 0* %- |%>: [Г1:0 | ( %^О2: ) SIVV |т | н | м | с | д: | в | к с | л ] ];
+Г2:в <=> [ :Vows (:0) %>: | :Vows ] _ а [ 0* #: | 0* %- |%>: [ Г1:0 |  %^О2:  SIVV |т | н | м | с | д: | в | к с | л ] ];
 
 
 "G2:k"
-Г2:к <=>  [ CnsVoicelessDent ( :ь )| CnsVoicelessNonDent ( :ь )| г ] %>: _ а [ 0* #: | 0* %- |%>: [Г1:0 | SIVV |т | н| с |д: |в |к с| л ] ] ;
+Г2:к <=>  [ CnsVoicelessDent ( :ь )| CnsVoicelessNonDent ( :ь )| г ] %>: _ а [ 0* #: | 0* %- |%>: [ Г1:0 | %^О2: SIVV | т | н | с | д: | в | к с | л ] ] ;
            Vows CnsVoiceless  %>: VLoss:0 _ а ;
 
 ! 2012-08-07
