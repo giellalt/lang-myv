@@ -58,7 +58,8 @@ GENERATED_LEXC_SRCS=\
 		stems/pronouns.lexc           \
 		stems/propernouns.lexc       \
 		stems/quantifiers.lexc        \
-		stems/verbs.lexc
+		stems/verbs-iv.lexc		\
+		stems/verbs-tv.lexc
 
 
 
@@ -79,7 +80,9 @@ GT_XML_SRCS=\
 		stems/propernouns.xml     \
 		stems/pronouns.xml        \
 		stems/quantifiers.xml     \
-		stems/verbs.xml
+		stems/verbs-iv.xml	\
+		stems/verbs-tv.xml
+
 
 
 
