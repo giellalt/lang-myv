@@ -106,8 +106,8 @@ LEXICON Pers_Pronouns1
 +Abl+Gen+Abl:%>нденде PersPron_PossPX ; 
 +DatCx:не PersPron_PossPX ;
 +Ill:ньзэ  PersPron_PossPX ;
-+Tra000@P.LV.ON@:нькс@P.LV.ON@ _ОШ-PersPron_PossPX ; 
-+Tra+Tra00000@P.LV.ON@:ньксэкс@P.LV.ON@ _ОШ-PersPron_PossPX ; 
++Tra000@P.LV.ON@:нькс@P.LV.ON@ PersPron_PossPX ; 
++Tra+Tra00000@P.LV.ON@:ньксэкс@P.LV.ON@ PersPron_PossPX ; 
 
 +Abl:%>нде PersPron_Oblique ; 
 +Abe:%>нтеме PersPron_Oblique ;
@@ -130,7 +130,7 @@ LEXICON PersPron_Minsy-Obliq
 +Prl:%>Г2а PersPron_Oblique ;
 +CompCx:%>%^О2шка PersPron_Oblique ;
 +Abe:%>втО1мО1 PersPron_Oblique ;
-+Tra000@P.LV.ON@:%>%^О2кс@P.LV.ON@ _ОШ-PersPron_PossPX ;
++Tra000@P.LV.ON@:%>%^О2кс@P.LV.ON@ PersPron_PossPX ;
 +Gen+Dial+PxSg1@U.PossPx.Sg1@:%>%^О2м@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
 +Gen+PxSg100@U.PossPx.Sg1@:%>%^О2нь@U.PossPx.Sg1@ _КАЛ-PersPronGen_CX ;
 +Gen+PxSg200@U.PossPx.Sg2@:%>%^О2тЬ2@U.PossPx.Sg2@ _КИТ-PersPronGen_CX ;
@@ -170,18 +170,6 @@ LEXICON PersPron_Oblique
 !!These PossPXs are applied after Obl cases
 
 LEXICON PersPron_PossPX
-+PxSg100@U.PossPx.Sg1@@D.LV.ON@:%>нЬ2@U.PossPx.Sg1@@D.LV.ON@ K ;
-+Dial+PxSg1@U.PossPx.Sg1@@D.LV.ON@:%>м@U.PossPx.Sg1@@D.LV.ON@ K ;
-+PxSg200@U.PossPx.Sg2@@D.LV.ON@:%>тЬ2@U.PossPx.Sg2@@D.LV.ON@ K ;
-+Dial+PxSg200@U.PossPx.Sg2@@D.LV.ON@:%>нтЬ2@U.PossPx.Sg2@@D.LV.ON@ K ;
-+PxSg3000@U.PossPx.Sg3@@D.LV.ON@:%>нзО1@U.PossPx.Sg3@@D.LV.ON@ K ;
-+PxPl1000@U.PossPx.Pl1@@D.LV.ON@:%>нО1к@U.PossPx.Pl1@@D.LV.ON@ K ;
-+PxPl200@U.PossPx.Pl2@@D.LV.ON@:%>нк@U.PossPx.Pl2@@D.LV.ON@ K ;
-+PxPl300@U.PossPx.Pl3@@D.LV.ON@:%>ст@U.PossPx.Pl3@@D.LV.ON@ K ;
-+Dial+PxPl300@U.PossPx.Pl3@@D.LV.ON@:%>нст@U.PossPx.Pl3@@D.LV.ON@ K ;
-+Dial+NoPoss: K ;
-
-LEXICON _ОШ-PersPron_PossPX 
 +PxSg1000@U.PossPx.Sg1@@D.LV.ON@:%>%^О2нЬ2@U.PossPx.Sg1@@D.LV.ON@ K ;
 +Dial+PxSg10@U.PossPx.Sg1@@D.LV.ON@:%>%^О2м@U.PossPx.Sg1@@D.LV.ON@ K ;
 +PxSg2000@U.PossPx.Sg2@@D.LV.ON@:%>%^О2тЬ2@U.PossPx.Sg2@@D.LV.ON@ K ;
@@ -192,6 +180,9 @@ LEXICON _ОШ-PersPron_PossPX
 +PxPl3000@U.PossPx.Pl3@@D.LV.ON@:%>%^О2ст@U.PossPx.Pl3@@D.LV.ON@ K ;
 +Dial+PxPl3000@U.PossPx.Pl3@@D.LV.ON@:%>%^О2нст@U.PossPx.Pl3@@D.LV.ON@ K ;
 +Dial+NoPoss: K ;
+
+!LEXICON _ОШ-PersPron_PossPX 
+! PersPron_PossPX ;
 
 
 
