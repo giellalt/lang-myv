@@ -4,7 +4,7 @@
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e>
+  <e exclude="fst">
     <lg>
       <l pos="Po">алга</l>
 
@@ -33,9 +33,111 @@
       </tg>
 
       <xg>
-        <x>тонь эземс</x>
+        <x>Псакась яки столь алга.</x>
 
-        <xt xml:lang="fin">sinun asemestasi</xt>
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Po">алдо</l>
+
+      <stg>
+        <st Contlex="POSTP_">алдо</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>мезеньгак ало аштицянь саема.</defNative>
+      </m>
+
+      <tg xml:lang="fin">
+        <t>alta</t>
+      </tg>
+
+      <xg>
+        <x>Лазось саемс чочконть алдо. Кискась панемс столенть алдо.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">ало</l>
+
+      <stg>
+        <st Contlex="PO_КАЛ-LOC">ал</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Валмельгакс, кона невти лиятнень коряс масторксонть маласо,
+        масторксонть ёжосо. Мезеньгак алксонь прядовкссо. тарка, кона ашти
+        масторксонтень весемеде маласо, мастор ёжосо.</defNative>
+      </m>
+
+      <xg>
+        <x>Чочко ало лаз. Столь ало киска. Монь ало тёшак.</x>
+
+        <xt/>
+      </xg>
+
+      <xg>
+        <x>Пенгтнень ало тикшесь лепштявсь. Кевенть ало эрить сукст ды
+        унжинеть.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Po">алов</l>
+
+      <stg>
+        <st Contlex="PO_">алов</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Валмельгакс.</defNative>
+      </m>
+
+      <xg>
+        <x>Совамс эзем алов. Путык конёвонть книганть алов. Кудонть алов
+        тейсть кевень алкс.</x>
+
+        <xt/>
+      </xg>
+
+      <xg>
+        <x>Латонть алов вачказь пенгть.</x>
+
+        <xt/>
       </xg>
     </mg>
   </e>
@@ -104,11 +206,13 @@
       <l pos="Po">икеле</l>
 
       <stg>
-        <st Contlex="alo-Spat">икель</st>
+        <st Contlex="PO_КАЛ-LOC">икель</st>
       </stg>
     </lg>
 
-    <pos>POSTP-SPAT</pos>
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
 
     <mg>
       <m>
@@ -119,8 +223,7 @@
       </m>
 
       <xg>
-        <x>Аштемс кудо икеле. Молемс весемеде икеле. Самс весемеде икеле.
-        Эрьва мейсэ улемс икеле.</x>
+        <x>Аштемс кудо икеле.</x>
 
         <xt/>
       </xg>
@@ -759,16 +862,156 @@
     </mg>
   </e>
 
+  <e exclude="fst">
+    <lg>
+      <l pos="Po">удалга</l>
+
+      <stg>
+        <st Contlex="PO_">удалга</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Кутьмере ёнга. Аволь ульця ёнга.</defNative>
+      </m>
+
+      <xg>
+        <x>Мезть якат минек кардаз удалга? Ютамс пире удалга.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Po">удалдо</l>
+
+      <stg>
+        <st Contlex="PO_">удалдо</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Кутьмере ёндо. Кутьмере пельде.</defNative>
+      </m>
+    </mg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Аволь ульця ёндо. Аволь икельде.</defNative>
+      </m>
+
+      <xg>
+        <x>Кардаз удалдо лиссь ломань. Пире удалдо неинек ютыцят. Каштом
+        удалдо лисни чеерь. Таракантнэ лиснить каштом удалдо.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">удало</l>
+
+      <stg>
+        <st Contlex="PO_КАЛ-LOC">удал</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Кутьмере ёно. Кутьмере пеле.</defNative>
+      </m>
+
+      <xg>
+        <x>Монь удало иля аште ─ чалгават. Монь удало марявить тошкицят,
+        улема, кортыть монь ланга.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Аволь ульця ёно. Аволь икеле пеле.</defNative>
+      </m>
+
+      <xg>
+        <x>Кардаз удало касыть кирмалавт. Минек лисьмась пире удало.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e exclude="fst">
+    <lg>
+      <l pos="Po">удалов</l>
+
+      <stg>
+        <st Contlex="PO_">удалов</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Кутьмере ёнов. Аволь икелев. Мезеньгак омбоце ёнов,
+        томбалев.</defNative>
+      </m>
+
+      <xg>
+        <x>Стяк монь удалов. Пиреть удалов путынек баня. Кардаз удалов
+        озавтынек умарина. Стямс кенкш удалов. Эцемс каштом удалов.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Po">ёно</l>
 
       <stg>
-        <st Contlex="alo-Spat">ён</st>
+        <st Contlex="PO_КАЛ-LOC">ён</st>
       </stg>
     </lg>
 
-    <pos>SPAT</pos>
+    <pos>Po</pos>
+
+    <posDescr>Spat</posDescr>
 
     <mg>
       <m>
