@@ -25,6 +25,26 @@ LEXICON PO_ОШ-INE4
 +Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
 +Po+Prl:%>Г2а PO_POSS-or-END-FOC-DER/PR-SC3 ;
 
+LEXICON PO_КАЛ-LOC
+!! ало:ал
+!! alo-SPAT-1Arg
++Po+Spat+Abl:%>дО1 K ;
++Po+Spat+Abl:%>дО1 OBL-PX4-END-FOC ;
++Po+Spat+Loc:%>О1 K ; 
++Po+Spat+Loc:%>О1 OBL-PX4-END-FOC ;
+!+Po+Spat+Lat:%>%^О2в _КУДО-Possessive-Before-K ;
++Po+Spat+Prl:%>Г2а K ;
++Po+Spat+Prl:%>Г2а OBL-PX4-END-FOC ;
++Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
++Po+Spat+Loc+Der/се:%>се _КУДО-N2-Def-Declension ;
++Po+Spat+Der/кс:%>кс N_ОШ ;
++Po+Spat+Lat:%>%^О2в K ;
++Po+Spat+Abl:%>дО1 _КУДО-N2-Def-Declension ;
++Po+Spat+Loc+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
++Po+Spat+Prl+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
+
+
+
 LEXICON PO_POSS-or-END-FOC-DER/PR-SC3
 !! This allows for word end, possessor indices, predication
  K ;
