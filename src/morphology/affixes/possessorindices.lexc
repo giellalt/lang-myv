@@ -269,15 +269,15 @@ LEXICON N_КУДО-Poss-Declension-PossX
  N-Poss-Declension-PossX_01 ;
 
 LEXICON N-Poss-Declension-PossX_01
-+PxSg1000@U.PossPx.Sg1@:%>%^О2нЬ2@U.PossPx.Sg1@ K ;
-+Dial+PxSg10@U.PossPx.Sg1@:%>%^О2м@U.PossPx.Sg1@ K ;
-+PxSg2000@U.PossPx.Sg2@:%>%^О2тЬ2@U.PossPx.Sg2@ K ;
-+Dial+PxSg2000@U.PossPx.Sg2@:%>%^О2нтЬ2@U.PossPx.Sg2@ K ;
-+PxSg30000@U.PossPx.Sg3@:%>%^О2нзО1@U.PossPx.Sg3@ K ;
-+PxPl10000@U.PossPx.Pl1@:%>%^О2нО1к@U.PossPx.Pl1@ NounEnd_K-lak ;
-+PxPl2000@U.PossPx.Pl2@:%>%^О2нк@U.PossPx.Pl2@ NounEnd_K-lak ;
-+PxPl3000@U.PossPx.Pl3@:%>%^О2ст@U.PossPx.Pl3@ K ;
-+Dial+PxPl300@U.PossPx.Pl3@:%>%^О2ск@U.PossPx.Pl3@ NounEnd_K-lak ;
++PxSg1000@U.PossPx.Sg1@:%>%^О2нЬ2@U.PossPx.Sg1@ _КУДО-Tenses1-4Inf ;
++Dial+PxSg10@U.PossPx.Sg1@:%>%^О2м@U.PossPx.Sg1@ _КУДО-Tenses1-4Inf ;
++PxSg2000@U.PossPx.Sg2@:%>%^О2тЬ2@U.PossPx.Sg2@ _КУДО-Tenses1-4Inf ;
++Dial+PxSg2000@U.PossPx.Sg2@:%>%^О2нтЬ2@U.PossPx.Sg2@ _КУДО-Tenses1-4Inf ;
++PxSg30000@U.PossPx.Sg3@:%>%^О2нзО1@U.PossPx.Sg3@ _КУДО-Tenses1-4Inf ;
++PxPl10000@U.PossPx.Pl1@:%>%^О2нО1к@U.PossPx.Pl1@ _КУДО-Tenses1-4Inf ;
++PxPl2000@U.PossPx.Pl2@:%>%^О2нк@U.PossPx.Pl2@ _КУДО-Tenses1-4Inf ;
++PxPl3000@U.PossPx.Pl3@:%>%^О2ст@U.PossPx.Pl3@ _КУДО-Tenses1-4Inf ;
++Dial+PxPl300@U.PossPx.Pl3@:%>%^О2ск@U.PossPx.Pl3@ _КУДО-Tenses1-4Inf ;
 
 
 LEXICON Possessive-NomGen
@@ -338,6 +338,10 @@ LEXICON Possessive-Before-K-noArrow
 +PxPl3:ст K ;
 +Dial+PxPl3:ск K ;
 
+LEXICON OBL-PX4-END-FOC_or_END
+ OBL-PX4-END-FOC ;
+ K ;
+
 LEXICON OBL-PX4-END-FOC
 !! word boundary or focus
 	OBL-PX4-END-FOC_PXSG1	;
@@ -357,7 +361,6 @@ LEXICON OBL-PX4-END-FOC_PXSG2
 
 LEXICON OBL-PX4-END-FOC_PXSG3
 +PxSg30000@U.PossPx.Sg3@:%>%^О2нзО1@U.PossPx.Sg3@ K ;
-+PxSg3+Der/Pr:%>%^О2нзО1 _КУДО-Tenses-Obl ; !2013-04-15!
 
 LEXICON OBL-PX4-END-FOC_PXPL1
 +PxPl10000@U.PossPx.Pl1@:%>%^О2нО1к@U.PossPx.Pl1@ K ;
