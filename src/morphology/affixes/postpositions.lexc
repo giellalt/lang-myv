@@ -51,15 +51,38 @@ LEXICON PO_POSS-or-END-FOC-DER/PR-SC3
  DER/PR4_OBL ; 
  POSSX4-END-FOC-DER/PR-SC3 ;
 
+
+LEXICON PO-IS-ABL
+!! postposition that is in ablative case
+!! алдо:алдо
++Po+Abl: PO_POSS-or-END-FOC-DER/PR-SC3;
+
 LEXICON PO-IS-ELA
 !! postposition that is in elative case
 !! потсто:потсто
 +Po+Ela: PO_POSS-or-END-FOC-DER/PR-SC3;
 
+LEXICON PO-IS-ILL-STEM
+!! postposition that is in illative case
+!! эземс:эзем
++Po+Ill:%>О1з PO_POSS-or-END-FOC-DER/PR-SC3;
++Po+Ill:%>с K ;
+
 LEXICON PO-IS-INE
 !! postposition that is in inessive case
 !! потсо:потсо
 +Po+Ine: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON PO-IS-LAT-STEM
+!! postposition that is in lative case
+!! алов:ало
++Po+Lat: PO_POSS-or-END-FOC-DER/PR-SC3;
++Po+Lat:в K ;
+
+LEXICON PO-IS-LOC
+!! postposition that is in locative case
+!! ало:ало
++Po+Loc: PO_POSS-or-END-FOC-DER/PR-SC3;
 
 LEXICON PO-IS-PRL
 !! postposition that is in prolative case

@@ -86,8 +86,8 @@ LEXICON Num-1c
 
 
 LEXICON Num-1d
-+NOrd:-це WORD-END ;
-+NCrd: WORD-END ;
++Ord:-це WORD-END ;
++Card: WORD-END ;
 
 !!Roman Numerals
 LEXICON Roman-numerals
@@ -99,71 +99,71 @@ LEXICON NUM_КАЛ_SUB
 +Use/Sub: NUM_КАЛ ;
 
 LEXICON NUM_КАЛ
-+Qnt+NCrd: WORD-END ;
-+Qnt+NCrd+Appr:%>шка WORD-END ;
-+Qnt+NCrd+Der/MWN: N_КАЛ ;
++Num+Card: WORD-END ;
++Num+Card+Appr:%>шка WORD-END ;
++Num+Card+Der/MWN: N_КАЛ ;
  NUMORD_КАЛ ;
 
 LEXICON NUMORD_КАЛ
-+Qnt+NOrd:%>це WORD-END ;
-+Qnt+NOrd+Der/MWN:%>це N_КУДО ;
-+Qnt+NOrd:%>О1тькс WORD-END ;
-+Qnt+NOrd+Der/MWN:%>О1тькс N_ОШ ;
++Num+Ord:%>це WORD-END ;
++Num+Ord+Der/MWN:%>це N_КУДО ;
++Num+Ord:%>О1тькс WORD-END ;
++Num+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_ОШ_SUB
 +Use/Sub: NUM_ОШ ;
 
 LEXICON NUM_ОШ
-+Qnt+NCrd: WORD-END ;
-+Qnt+NCrd+Appr:%>О1шка WORD-END ;
-+Qnt+NCrd+Der/MWN: N_ОШ ;
++Num+Card: WORD-END ;
++Num+Card+Appr:%>О1шка WORD-END ;
++Num+Card+Der/MWN: N_ОШ ;
  NUMORD_ОШ ;
 
 LEXICON NUMORD_ОШ
-+Qnt+NOrd:%>О1%>це WORD-END ;
-+Qnt+NOrd+Der/MWN:%>О1%>це N_КУДО ;
-+Qnt+NOrd:%>О1тькс WORD-END ;
-+Qnt+NOrd+Der/MWN:%>О1тькс N_ОШ ;
++Num+Ord:%>О1%>це WORD-END ;
++Num+Ord+Der/MWN:%>О1%>це N_КУДО ;
++Num+Ord:%>О1тькс WORD-END ;
++Num+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_СЯДО_SUB
 +Use/Sub: NUM_СЯДО ;
 
 LEXICON NUM_СЯДО
-+Qnt+NCrd:%>О1 WORD-END ;
-+Qnt+NCrd+Appr:%>О1шка WORD-END ;
-+Qnt+NCrd+Der/MWN: N_ПАНГО ;
++Num+Card:%>О1 WORD-END ;
++Num+Card+Appr:%>О1шка WORD-END ;
++Num+Card+Der/MWN: N_ПАНГО ;
 :О1 NUMORD_СЯДО ;
 
 LEXICON NUMORD_СЯДО
-+Qnt+NOrd:%>це WORD-END ;
-+Qnt+NOrd+Der/MWN:%>це N_КУДО ;
-+Qnt+NOrd:%>тькс WORD-END ;
-+Qnt+NOrd+Der/MWN:%>тькс N_ОШ ;
++Num+Ord:%>це WORD-END ;
++Num+Ord+Der/MWN:%>це N_КУДО ;
++Num+Ord:%>тькс WORD-END ;
++Num+Ord+Der/MWN:%>тькс N_ОШ ;
 
 LEXICON NUM_КУДО_SUB
 +Use/Sub: NUM_КУДО ;
 
 ! More work needed 2012-10-08
 LEXICON NUM_КУДО
-+Qnt+NCrd: WORD-END ;
-+Qnt+NCrd+Appr:%>шка WORD-END ;
-+Qnt+NCrd+Der/MWN: N_КУДО ;
++Num+Card: WORD-END ;
++Num+Card+Appr:%>шка WORD-END ;
++Num+Card+Der/MWN: N_КУДО ;
  NUMORD_КУДО ;
-+Qnt+NCrd+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Qnt+NCrd+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-+Qnt+NCrd+Appr+AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
-+Qnt+NCrd+AssocColl:%>не _КУДО-Possessives2-Ill ;
-+Qnt+NCrd+Appr+AssocColl:%>шкане _КУДО-Possessives2-Ill ;
-+Qnt+NCrd+AssocColl:%>не _КУДО-Possessive-Before-K ;
-+Qnt+NCrd+Iter:%>ксть Ks ;
-+Qnt+NCrd+Appr+Iter:%>шкаксть Ks ;
++Num+Card+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
++Num+Card+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
++Num+Card+Appr+AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
++Num+Card+AssocColl:%>не _КУДО-Possessives2-Ill ;
++Num+Card+Appr+AssocColl:%>шкане _КУДО-Possessives2-Ill ;
++Num+Card+AssocColl:%>не _КУДО-Possessive-Before-K ;
++Num+Card+Iter:%>ксть Ks ;
++Num+Card+Appr+Iter:%>шкаксть Ks ;
 
 LEXICON NUMORD_КУДО
-+Qnt+NOrd:%>це WORD-END ;
-+Qnt+NOrd+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
-+Qnt+NOrd+Der/MWN:%>це N_КУДО ;
-+Qnt+NOrd:%>тькс WORD-END ;
-+Qnt+NOrd+Der/MWN:%>тькс N_ОШ ;
++Num+Ord:%>це WORD-END ;
++Num+Ord+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
++Num+Ord+Der/MWN:%>це N_КУДО ;
++Num+Ord:%>тькс WORD-END ;
++Num+Ord+Der/MWN:%>тькс N_ОШ ;
 
 !!
 LEXICON AssocColl-kavone
@@ -198,10 +198,10 @@ LEXICON ITER-INDEF
 +Qnt+Iter+Indef: K ;
 
 LEXICON ORD_
-+Qnt+Ord: K ;
++Num+Ord: K ;
 
 LEXICON ADV-ORD
-+Qnt+Ord+Adv: K ;
++Num+Ord+Adv: K ;
 !! васняяк 'first of all'
 
 LEXICON QNT_
@@ -251,23 +251,23 @@ LEXICON sjado-NUM-PL
 
 
 LEXICON Cards-kal
-+Qnt+NOrd:%>це Quants3 ;
++Num+Ord:%>це Quants3 ;
  Quants2 ;
-+Qnt+NCrd: WORD-END ;
-+Qnt+NCrd+Der/MWN: N_КАЛ ;
++Num+Card: WORD-END ;
++Num+Card+Der/MWN: N_КАЛ ;
 
 LEXICON CARDS_ОШ
-+Qnt+NOrd:%>О1це Quants3 ;
++Num+Ord:%>О1це Quants3 ;
  Quants2 ;
-+Qnt+NCrd: WORD-END ;
-+Qnt+NCrd+Der/MWN: N_ОШ ;
++Num+Card: WORD-END ;
++Num+Card+Der/MWN: N_ОШ ;
 
 
 LEXICON CARDS_КУДО
-+Qnt+NOrd:%>це Quants3 ;
++Num+Ord:%>це Quants3 ;
  Quants2 ;
-+Qnt+NCrd: WORD-END ;
-+Qnt+NCrd+Der/MWN: N_КУДО ;
++Num+Card: WORD-END ;
++Num+Card+Der/MWN: N_КУДО ;
 
 
 ! 2012-08-09
