@@ -12,7 +12,7 @@ LEXICON PO_ПАНГО-INE3
 +Po+Ela:%>О1%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
 +Po+Ill:%>с K ;
 +Po+Ill:%>О1%>с K ;
-+Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
++Po+Ill:%>%^О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PO_ОШ-INE4
 !!вакссо:вакс
@@ -22,19 +22,19 @@ LEXICON PO_ОШ-INE4
 +Po+Ela:%>О1%>стО1 PO_POSS-or-END-FOC-DER/PR-SC3 ;
 +Po+Ill:%>с K ;
 +Po+Ill:%>О1%>с K ;
-+Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
++Po+Ill:%>%^О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Prl:%>Г2а PO_POSS-or-END-FOC-DER/PR-SC3 ;
 
 LEXICON PO_КАЛ-LOC
 !! ало:ал
 !! alo-SPAT-1Arg
 +Po+Spat+Abl:%>дО1 K ;
-+Po+Spat+Abl:%>дО1 OBL-PX4-END-FOC ;
++Po+Spat+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Spat+Loc:%>О1 K ; 
-+Po+Spat+Loc:%>О1 OBL-PX4-END-FOC ;
++Po+Spat+Loc:%>О1 OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 !+Po+Spat+Lat:%>%^О2в _КУДО-Possessive-Before-K ;
 +Po+Spat+Prl:%>Г2а K ;
-+Po+Spat+Prl:%>Г2а OBL-PX4-END-FOC ;
++Po+Spat+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
 +Po+Spat+Loc+Der/се:%>се _КУДО-N2-Def-Declension ;
 +Po+Spat+Der/кс:%>кс N_ОШ ;
@@ -65,8 +65,16 @@ LEXICON PO-IS-ELA
 LEXICON PO-IS-ILL-STEM
 !! postposition that is in illative case
 !! эземс:эзем
-+Po+Ill:%>О1з PO_POSS-or-END-FOC-DER/PR-SC3;
++Po+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Ill:%>с K ;
+
+LEXICON PO-IS-ILL-STEM_ЭЙС
+!! postposition that is in illative case
+!! эйс:э
++Po+Ill:йз OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Ill:зэз OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Ill:йс K ;
+
 
 LEXICON PO-IS-INE
 !! postposition that is in inessive case
@@ -76,7 +84,7 @@ LEXICON PO-IS-INE
 LEXICON PO-IS-LAT-STEM
 !! postposition that is in lative case
 !! алов:ало
-+Po+Lat: PO_POSS-or-END-FOC-DER/PR-SC3;
++Po+Lat: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Lat:в K ;
 
 LEXICON PO-IS-LOC
@@ -89,6 +97,59 @@ LEXICON PO-IS-PRL
 !! перька:перька
 +Po+Prl: PO_POSS-or-END-FOC-DER/PR-SC3;
 
+!!
+LEXICON PO-SPAT-IS-ABL
+!! postposition that is in ablative case
+!! алдо:алдо
++Po+Spat+Abl: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON PO-SPAT-IS-ELA
+!! postposition that is in elative case
+!! потсто:потсто
++Po+Spat+Ela: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON PO-SPAT-IS-ILL-STEM
+!! postposition that is in illative case
+!! малас:мала
++Po+Spat+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Spat+Ill:%>с K ;
+
+LEXICON PO-SPAT-IS-ILL-STEM_ПОТС
+!! postposition that is in illative case
+!! потс:пот
++Po+Spat+Ill:м%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Spat+Ill:%>с K ;
+
+LEXICON PO-SPAT-IS-ILL-STEM_ЭЙС
+!! postposition that is in illative case
+!! эйс:э
++Po+Spat+Ill:йз OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Spat+Ill:зэз OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Spat+Ill:йс K ;
+
+
+LEXICON PO-SPAT-IS-INE
+!! postposition that is in inessive case
+!! потсо:потсо
++Po+Spat+Ine: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON PO-SPAT-IS-LAT-STEM
+!! postposition that is in lative case
+!! алов:ало
++Po+Spat+Lat: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Po+Spat+Lat:в K ;
+
+LEXICON PO-SPAT-IS-LOC
+!! postposition that is in locative case
+!! ало:ало
++Po+Spat+Loc: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+LEXICON PO-SPAT-IS-PRL
+!! postposition that is in prolative case
+!! перька:перька
++Po+Spat+Prl: PO_POSS-or-END-FOC-DER/PR-SC3;
+
+
 LEXICON Temp-1Arg-Ela
 +Po+Ela+Temp: K ; !This will require Possessor Indices
 
@@ -97,12 +158,12 @@ LEXICON ejs-PO
 эйсэ+Po+Ill:эйс K ;
 эйсэ+Po+Ine:эйсэ _КУДО-Conjugation ;
 эйсэ+Po+Ela:эйстэ _КУДО-Conjugation ;
-эйсэ+Po+Ill:эйз OBL-PX4-END-FOC ;
+эйсэ+Po+Ill:эйз OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 эйсэ+Po+Ine:эйсэ POSSX4-END-FOC-DER/PR-SC3 ;
 эйсэ+Po+Ela:эйстэ POSSX4-END-FOC-DER/PR-SC3 ;
-эйсэ+Po+Ela:эйстэде OBL-PX4-END-FOC ;
+эйсэ+Po+Ela:эйстэде OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
-LEXICON marto-PO
+LEXICON PO_МАРТО
 +Po+COM: K ;
 +Po+COM: _КУДО-Possessives2 ; 
 +Po+Der/MWN: N_КУДО ;
@@ -110,23 +171,23 @@ LEXICON marto-PO
 
 LEXICON PO_КУДО-ILL
 +Po+Ill:%>с K ;
-+Po+Ill:%>з OBL-PX4-END-FOC ;
++Po+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PO_ОШ-ILL
 +Po+Ill:%>с K ;
-+Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
++Po+Ill:%>%^О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON Postp-karsho
 +Po: WORD-END ;
 +Po: PossMarker-then-Clt ;
-+Po+Ill:%>з OBL-PX4-END-FOC ;
++Po+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
 +Po+Ela:%>О1%>стО1 _КУДО-Conjugation ;
 +Po+Ill:%>О1%>с K ;
 +Po+Ine:%>О1%>сО1 _КУДО-Conjugation ;
-+Po+Ill:%>%^О2з OBL-PX4-END-FOC ;
++Po+Ill:%>%^О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON jutkso-SPAT
 +Po+Prl:%>О1%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
@@ -139,13 +200,13 @@ LEXICON langso-SPAT
 +Po+Lat:%>%^О2в K ;
 +Po+Ine:%>сО1 _КУДО-Conjugation ;
 +Po+Ela:%>стО1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Ill:%>О2з OBL-PX4-END-FOC ;
++Po+Ill:%>О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Ine:%>сО1 POSSX4-END-FOC-DER/PR-SC3 ;
 
 LEXICON PO_КУДО-INE5
 !! malaso:mala
 +Po+Ela:%>стО1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Po+Ill:%>О2з OBL-PX4-END-FOC ;
++Po+Ill:%>О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Ine:%>сО1 POSSX4-END-FOC-DER/PR-SC3 ;
 +Po+Prl:%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
 +Po+Lat:%>в _КУДО-Conjugation ;

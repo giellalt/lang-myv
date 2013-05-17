@@ -814,7 +814,6 @@ LEXICON _КИТ-Indef-Declension-MUTUAL
  GEN-INDEF ;
  ILL-INDEF ;
  INE-INDEF ;
- LOC-INDEF ;
  PRL-INDEF ;
  TMP-INDEF ;
  TRA-INDEF ;
@@ -843,7 +842,6 @@ LEXICON _ЛАК-Indef-Declension-MUTUAL
  GEN-INDEF ;
  ILL-INDEF ;
  INE-INDEF ;
- LOC-INDEF ;
  PRL-INDEF ;
  TMP-INDEF ;
  TRA-INDEF ;
@@ -973,38 +971,38 @@ LEXICON _КУДО-Indef-Declension-MUTUAL
 
 !! INDEFINITE TAGS
 LEXICON ABE-INDEF
-+Abe+Indef0000@U.DECL-CX.ABE@:%>втО1мО1@U.DECL-CX.ABE@ _КУДО-Conjugation ;
++SP+Abe+Indef0000@U.DECL-CX.ABE@:%>втО1мО1@U.DECL-CX.ABE@ _КУДО-Conjugation ;
 
 LEXICON ABL-INDEF
-+Abl+Indef0@U.DECL-CX.ABL@:%>дО1@U.DECL-CX.ABL@ _КУДО-Conjugation ;
++SP+Abl+Indef0@U.DECL-CX.ABL@:%>дО1@U.DECL-CX.ABL@ _КУДО-Conjugation ;
 
 LEXICON CMP-INDEF
-+CompCx+Indef00@U.DECL-CX.CMP@:%>шка@U.DECL-CX.CMP@ _КУДО-Conjugation ;
++SP+CompCx+Indef00@U.DECL-CX.CMP@:%>шка@U.DECL-CX.CMP@ _КУДО-Conjugation ;
 
 LEXICON COM-INDEF
-+Com+Indef00@U.DECL-CX.COM@:%>нек@U.DECL-CX.COM@ NounEnd_K-lak ;
-+Com+Indef+Coll:%>нек%-мезнек WORD-END ;
++SP+Com+Indef00@U.DECL-CX.COM@:%>нек@U.DECL-CX.COM@ NounEnd_K-lak ;
++SP+Com+Indef+Coll:%>нек%-мезнек WORD-END ;
 
 LEXICON DAT-INDEF
-+DatCx+Indef0000@U.DECL-CX.DAT@:%>нень@U.DECL-CX.DAT@ K ;
++SP+DatCx+Indef0000@U.DECL-CX.DAT@:%>нень@U.DECL-CX.DAT@ K ;
 
 LEXICON ELA-INDEF
-+Ela+Indef00@U.DECL-CX.ELA@:%>стО1@U.DECL-CX.ELA@ _КУДО-Conjugation ;
++SP+Ela+Indef00@U.DECL-CX.ELA@:%>стО1@U.DECL-CX.ELA@ _КУДО-Conjugation ;
 
 LEXICON GEN-INDEF
-+Gen+Indef00@U.DECL-CX.GEN@:%>%^О2нь@U.DECL-CX.GEN@ _КАЛ-Conjugation ;
++SP+Gen+Indef00@U.DECL-CX.GEN@:%>%^О2нь@U.DECL-CX.GEN@ _КАЛ-Conjugation ;
 
 LEXICON ILL-INDEF
-+Ill+Indef@U.DECL-CX.ILL@:%>с@U.DECL-CX.ILL@ K ;
++SP+Ill+Indef@U.DECL-CX.ILL@:%>с@U.DECL-CX.ILL@ K ;
 
 LEXICON INE-INDEF
-+Ine+Indef0@U.DECL-CX.INE@:%>сО1@U.DECL-CX.INE@ _КУДО-Conjugation ;
++SP+Ine+Indef0@U.DECL-CX.INE@:%>сО1@U.DECL-CX.INE@ _КУДО-Conjugation ;
 
 LEXICON LAT-INDEF
-+Lat+Indef0@U.DECL-CX.LAT@:%>%^О2в@U.DECL-CX.LAT@ K ;
++SP+Lat+Indef0@U.DECL-CX.LAT@:%>%^О2в@U.DECL-CX.LAT@ K ;
 
 LEXICON LOC-INDEF
-+Loc+Indef@U.DECL-CX.LOC@:%>О1@U.DECL-CX.LOC@ K ;
++SP+Loc+Indef@U.DECL-CX.LOC@:%>О1@U.DECL-CX.LOC@ K ;
 
 LEXICON SG-NOM-INDEF_КАЛ
 +Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ K ;
@@ -1029,15 +1027,15 @@ LEXICON SG-NOM-INDEF_КУДО
 +Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ _КУДО-NomSg-Conjugation ;
 
 LEXICON PRL-INDEF
-+Prl+Indef0@U.DECL-CX.PRL@:%>Г2а@U.DECL-CX.PRL@ K ;
-+Prl+Indef0@U.DECL-CX.PRL@:%>Г2а@U.DECL-CX.PRL@ DER/PR4_OBL ;
++SP+Prl+Indef0@U.DECL-CX.PRL@:%>Г2а@U.DECL-CX.PRL@ K ;
++SP+Prl+Indef0@U.DECL-CX.PRL@:%>Г2а@U.DECL-CX.PRL@ DER/PR4_OBL ;
 
 LEXICON TMP-INDEF
-+TempCx+Indef0@U.DECL-CX.TEMP@:%>не@U.DECL-CX.TEMP@ K ;
++SP+TempCx+Indef0@U.DECL-CX.TEMP@:%>не@U.DECL-CX.TEMP@ K ;
 
 LEXICON TRA-INDEF
-+Tra+Indef0@U.DECL-CX.TRA@:%>кс@U.DECL-CX.TRA@ K ;
-+Tra+Indef0@U.DECL-CX.TRA@:%>кс@U.DECL-CX.TRA@ DER/PR4_OBL ;
++SP+Tra+Indef0@U.DECL-CX.TRA@:%>кс@U.DECL-CX.TRA@ K ;
++SP+Tra+Indef0@U.DECL-CX.TRA@:%>кс@U.DECL-CX.TRA@ DER/PR4_OBL ;
 
 
 LEXICON PL-NOM-INDEF
@@ -1185,32 +1183,32 @@ LEXICON N_КУДО-Poss-Declension-CX-Mutual
 !! !!CASES BEFORE POSSESSIVE TAGS 
 
 LEXICON ABE-PX
-+Abe:%>втО1мО1 N_КУДО-Poss-Declension-PossX ;
++SP+Abe:%>втО1мО1 N_КУДО-Poss-Declension-PossX ;
 
 LEXICON ABL-PX
-+Abl:%>дО1 N_КУДО-Poss-Declension-PossX ;
++SP+Abl:%>дО1 N_КУДО-Poss-Declension-PossX ;
 
 LEXICON CMP-PX
-+CompCx:%>шка N_КУДО-Poss-Declension-PossX ;
++SP+CompCx:%>шка N_КУДО-Poss-Declension-PossX ;
 
 LEXICON ELA-PX
-+Ela:%>стО1 N_КУДО-Poss-Declension-PossX ;
++SP+Ela:%>стО1 N_КУДО-Poss-Declension-PossX ;
 
 LEXICON ILL-PX
-+Ill:з OBL-PX4-END-FOC ;
++SP+Ill:з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 
 LEXICON INE-PX
-+Ine:%>сО1 N_КУДО-Poss-Declension-PossX ;
++SP+Ine:%>сО1 N_КУДО-Poss-Declension-PossX ;
 
 LEXICON LOC-PX
-+Loc:%>О1 N_КУДО-Poss-Declension-PossX ;
++SP+Loc:%>О1 N_КУДО-Poss-Declension-PossX ;
 
 LEXICON PRL-PX
-+Prl:%>Г2а N_КУДО-Poss-Declension-PossX ;
++SP+Prl:%>Г2а N_КУДО-Poss-Declension-PossX ;
 
 LEXICON TRA-PX
-+Tra:%>кс OBL-PX4-END-FOC_or_END ;
++SP+Tra:%>кс OBL-PX4-END-FOC_or_END ;
 
 
 
@@ -1381,7 +1379,7 @@ LEXICON Nouns1S_A_NoReqVow
 +Com:%>нек K-lak ;
 +TempCx:%>не K ;
 !!This one would render voiceless "s"
-+Dial+Ill:%>з OBL-PX4-END-FOC ;
++Dial+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Dial+Sg+Nom+PxSg3:%>зО1 K ;
 +Dial+Sg+Nom+PxSg3:%>зО1 DER/PR_SG ;
 Nouns_Pl ;

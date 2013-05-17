@@ -97,6 +97,8 @@ Multichar_Symbols
 !! !!Number
  +Sg !! singular
  +Pl !! plural
+ +SP !! ambiguous for number
+
 !! !!Case
  +Abe !! abessive
  +Abl !! ablative case
@@ -407,17 +409,17 @@ ZERO
 %-
 
 ! tags
-§+Dig1
-+Dig2
-+Dig3
-+Dig4
-+Rom !! Roman numerals
+ +Dig1
+ +Dig2
+ +Dig3
+ +Dig4
+ +Rom !! Roman numerals
 
 
 
 !! !!Tags
 +Emphatic
-+Gr2000
++Gr2xxx
 +Pref !! Prefix
 +Exclusive !! "ансяк"
 +Intensive
@@ -981,14 +983,14 @@ LEXICON _ОШ-Indef--Poss
 LEXICON _КУДО-Indef-DefSg-Poss
  _КУДО--DefSg- ;
  K ; !_КУДО-Indef--Poss ;
- OBL-PX4-END-FOC ;
+ OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON _КУДО--DefSg-
 +Sg+Def:%>%^О2нть K ;
 
 LEXICON _КУДО-Indef--Poss
 +Indef: _КУДО-Tenses-Obl ;
- OBL-PX4-END-FOC ;
+ OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 
 
