@@ -9,7 +9,7 @@
       <l pos="Po">алга</l>
 
       <stg>
-        <st Contlex="PO-IS-PRL_">алга</st>
+        <st Contlex="PO-IS-PRL">алга</st>
       </stg>
     </lg>
 
@@ -29,7 +29,7 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="Po">под</t>
+        <t pos="Pr">под</t>
       </tg>
 
       <xg>
@@ -283,12 +283,12 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
       <l pos="Po">эйсэ</l>
 
       <stg>
-        <st Contlex="Spat_">эйсэ</st>
+        <st Contlex="PO-IS-INE">эйсэ</st>
       </stg>
     </lg>
 
@@ -1042,12 +1042,12 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
       <l pos="Po">эйстэ</l>
 
       <stg>
-        <st Contlex="Spat_">эйстэ</st>
+        <st Contlex="PO-IS-ELA">эйстэ</st>
       </stg>
     </lg>
 
@@ -1251,16 +1251,16 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
       <l pos="Po">эйс</l>
 
       <stg>
-        <st Contlex="Spat_">эйс</st>
+        <st Contlex="PO-IS-ILL-STEM_ЭЙС">эйс</st>
       </stg>
     </lg>
 
-    <pos>POSTP-SPAT</pos>
+    <pos>Po</pos>
 
     <phonet/>
 
@@ -1611,12 +1611,12 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
       <l pos="Po">вакссто</l>
 
       <stg>
-        <st Contlex="Spat_">вакссто</st>
+        <st Contlex="PO-SPAT-IS-ELA">вакссто</st>
       </stg>
     </lg>
 
@@ -1859,12 +1859,158 @@
     </mg>
   </e>
 
+  <e exclude="fst">
+    <lg>
+      <l pos="Adv">малав</l>
+
+      <stg>
+        <st Contlex="Spat_">малав</st>
+      </stg>
+    </lg>
+
+    <pos>Adv</pos>
+
+    <posDescr>Spat</posDescr>
+
+    <etymg>
+      <etym>[1821: <constituent>маламъ</constituent></etym>
+    </etymg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Ёжос. Аволь васов.</defNative>
+      </m>
+
+      <xg>
+        <x>Сак седе малав. Озак монь малав. Пачкодинек веле малав.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">малава</l>
+
+      <stg>
+        <st Contlex="PO-SPAT-IS-PRL">малава</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Аволь васолга. Ёжова. Вакска.</defNative>
+      </m>
+
+      <xg>
+        <x>Веленть малава чуди лей. Монь малава иля яка.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">малас</l>
+
+      <stg>
+        <st Contlex="PO-SPAT-IS-ILL-STEM">мала</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Ёжос. Аволь васов. Ваксс.</defNative>
+      </m>
+
+      <xg>
+        <x>Кудот путык минексенть малас. Леенть сёлтызь, ведесь сась веленть
+        малас. Озак монь малас, ёвтан мезеяк.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">маласо</l>
+
+      <stg>
+        <st Contlex="PO-SPAT-IS-INE">маласо</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Аволь васоло. Вакссо. Ёжосо.</defNative>
+      </m>
+
+      <xg>
+        <x>Леесь веленть маласо. Минек велесь ош маласо. Ошонть маласо сэрей
+        пандо. Аштек монь маласо, кияк а токатанзат.</x>
+
+        <xt/>
+      </xg>
+      <xg>
+        <x>Мадиксэлинь эйстэть башка, нать, матедеван, коли тон тесат,
+        маласомат.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Po">маласто</l>
+
+      <stg>
+        <st Contlex="PO-SPAT-IS-ELA">маласто</st>
+      </stg>
+    </lg>
+
+    <pos>Po</pos>
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Вакссто.</defNative>
+      </m>
+
+      <xg>
+        <x>Сон саизе кудонзо минек маласто,
+        тусь эрямо веле пев. Веленть маласто виренть умок керизь. Тук чувтонть
+        маласто, нейке сявори.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Po">марто</l>
 
       <stg>
-        <st Contlex="marto-PO">марто</st>
+        <st Contlex="PO_МАРТО">марто</st>
       </stg>
     </lg>
 
