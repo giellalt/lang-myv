@@ -62,11 +62,11 @@ LEXICON ADV-TEMP_
 LEXICON Adv_Phrase ! 
 +Adv: WORD-END ;
 
-LEXICON Adv-Ideoph ! 
+LEXICON ADV-IDEOPH ! 
 +Adv-Ideoph: K ;
 ! сорк, кальцк ; twang, thwang, bang
 
-LEXICON Adv-Ideoph-Ine ! 
+LEXICON ADV-IDEOPH-IS-INE ! 
 +Adv-Ideoph+Ine: K ;
 
 LEXICON Exclusive ! 
@@ -187,15 +187,15 @@ LEXICON Temp-Prl
 LEXICON Temp-Temp
 +Temp+Adv+Temp: K ;
 
-LEXICON ADV_ЛАК-TEMP
+LEXICON ADV-TEMP_ЛАК
 +Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N_ЛАК ;
 
-LEXICON ADV_КИТ-TEMP
+LEXICON ADV-TEMP_КИТ
 +Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N_КИТ ;
 
-LEXICON ADV_КУДО-TEMP
+LEXICON ADV-TEMP_КУДО
 +Adv+Temp: K ;
 +Adv+Temp+Der/MWN: N_КУДО ;
 
