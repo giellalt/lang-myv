@@ -2,14 +2,98 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <e exclude="fst">
+  <e>
+    <lg>
+      <l pos="Pron">та-кода</l>
+
+      <stg>
+        <st Contlex="PRON-IS-INDEF-MANNER">та-кода</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Таго кода. А содави кода.</defNative>
+      </m>
+
+      <xg>
+        <x>Кортась та-кода а чарькодевиксстэ. Те ломанесь та-кода а
+        кемеви.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">та-ков</l>
+
+      <stg>
+        <st Contlex="PRON-IS-INDEF-SPAT-LAT">та-ков</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <posDescr>Spat-Indef</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Таго ков. А содави ков.</defNative>
+      </m>
+
+      <xg>
+        <x>Цёрась та-ков тусь.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">та-косо</l>
+
+      <stg>
+        <st Contlex="PRON-IS-INDEF-SPAT-INE">та-косо</st>
+      </stg>
+    </lg>
+
+    <pos>Pron</pos>
+
+    <posDescr>Spat-Indef</posDescr>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Таго косо. А содави косо.</defNative>
+      </m>
+
+      <xg>
+        <x>Тесэ та-косо ульнесь умарина, улема, коськсь. Тесэ та-косо
+        лисьмапря.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+   <e>
       <lg>
          <l pos="Pron">ков</l>
          <stg>
-            <st Contlex="PRON_">ков</st>
+            <st Contlex="PRON-IS-INTERR-SPAT-LAT">ков</st>
          </stg>
       </lg>
-      <pos>Pron-INTERR</pos>
+      <pos>Pron</pos>
       <etymg>
          <etym>кортавкс: <constituent>коŋ</constituent></etym>
       </etymg>
@@ -48,7 +132,7 @@
       <lg>
          <l pos="Pron">тензэ</l>
          <stg>
-            <st Contlex="Dat-Pron">те</st>
+            <st Contlex="PRON-PERS-DAT">те</st>
          </stg>
       </lg>
       <pos>Pron</pos>
@@ -593,11 +677,11 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">минь</l>
          <stg>
-            <st Contlex="Pron-Pers">минь</st>
+            <st Contlex="PRON-PERS-PL1">ми</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -619,11 +703,11 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">мон</l>
          <stg>
-            <st Contlex="Pron-Pers">мон</st>
+            <st Contlex="PRON-PERS-SG1">мо</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -754,11 +838,11 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">сон</l>
          <stg>
-            <st Contlex="Pron-Pers">сон</st>
+            <st Contlex="PRON-PERS-SG3">со</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -854,11 +938,11 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">сынь</l>
          <stg>
-            <st Contlex="Pron-Pers">сынь</st>
+            <st Contlex="PRON-PERS-PL3">сы</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -880,11 +964,11 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">тон</l>
          <stg>
-            <st Contlex="Pron-Pers">тон</st>
+            <st Contlex="PRON-PERS-SG2">то</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -985,7 +1069,7 @@
       <lg>
          <l pos="Pron">тынк</l>
          <stg>
-            <st Contlex="Pron-Pers">тынк</st>
+            <st Contlex="PRON-PERS-PL2">тынк</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -1064,11 +1148,11 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">тынь</l>
          <stg>
-            <st Contlex="Pron-Pers">тынь</st>
+            <st Contlex="PRON-PERS-PL2">ты</st>
          </stg>
       </lg>
       <pos>Pron-PERS</pos>
@@ -1663,11 +1747,11 @@
          </xg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">кияк</l>
          <stg>
-            <st Contlex="PRON_">кияк</st>
+            <st Contlex="PRON-IS-INDEF-PERS-SG-NOM">кияк</st>
          </stg>
       </lg>
       <pos>PERS-INDEF</pos>
@@ -1987,11 +2071,11 @@
          </tg>
       </mg>
    </e>
-   <e exclude="fst">
+   <e>
       <lg>
          <l pos="Pron">ки</l>
          <stg>
-            <st Contlex="Pers-Interr">ки</st>
+            <st Contlex="PRON-IS-INTERR-PERS">ки</st>
          </stg>
       </lg>
       <pos>Q_PERS</pos>
@@ -2003,28 +2087,7 @@
       <mg>
          <m>
             <head/>
-            <defNative>Лем полавты . Кие.</defNative>
-         </m>
-         <tg xml:lang="eng">
-            <t pos="Pron"/>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="Pron"/>
-         </tg>
-      </mg>
-   </e>
-   <e exclude="fst">
-      <lg>
-         <l pos="Pron">кие</l>
-         <stg>
-            <st Contlex="Pers-Interr">кие</st>
-         </stg>
-      </lg>
-      <pos>Q_PERS</pos>
-      <mg>
-         <m>
-            <head/>
-            <defNative>Лем полавты . 1) Кевкстема.</defNative>
+            <defNative>Лем полавты. Кие. Кевкстемасо.</defNative>
          </m>
          <tg xml:lang="eng">
             <t pos="Pron"/>
@@ -2037,10 +2100,19 @@
             <xt/>
          </xg>
       </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Pron">ки</l>
+         <stg>
+            <st Contlex="PRON-IS-REL-PERS">ки</st>
+         </stg>
+      </lg>
+      <pos>Pron</pos>
       <mg>
          <m>
             <head/>
-            <defNative/>
+            <defNative>Лем полавты. </defNative>
          </m>
          <tg xml:lang="eng">
             <t pos="Pron"/>
