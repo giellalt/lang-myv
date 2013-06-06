@@ -9,7 +9,7 @@
 !  Person morphological lexica !
 ! ============================= !
 
-LEXICON Dat-Pron
+LEXICON PRON-PERS-DAT
 +Pers+DAT: POSSX4-END-DAT ;
 
 LEXICON Dat-NoArg
@@ -21,14 +21,22 @@ LEXICON Ill-Pron
 LEXICON Interr-Pers
 +Interr+Pers: WORD-END ; ! кие THIS should be depricated
 
+LEXICON PRON-PERS-SG1 !! мон:мо
++Pron+Pers+Sg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:000@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
+LEXICON PRON-PERS-SG2 !! тон:то
++Pron+Pers+Sg2@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@:000@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
+LEXICON PRON-PERS-SG3 !! сон:со
++Pron+Pers+Sg3@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@:000@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
+LEXICON PRON-PERS-PL1 !! минь:ми
++Pron+Pers+Pl1@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@:000@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
+LEXICON PRON-PERS-PL2 !! тынь:ты
++Pron+Pers+Pl2@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@:000@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
+LEXICON PRON-PERS-PL3 !! сынь:сы
++Pron+Pers+Pl3@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:000@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
+
+
 LEXICON PERS
 
-мон+Pron+Pers+Sg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:мо0000@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
-тон+Pron+Pers+Sg2@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@:то0000@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
-сон+Pron+Pers+Sg3@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@:со0000@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
-минь+Pron+Pers+Pl1@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@:ми00000@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
-тынь+Pron+Pers+Pl2@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@:ты00000@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
-сынь+Pron+Pers+Pl3@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:сы00000@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
 
 эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
 эсь+Refl+Adn:эсь WORD-END ;
@@ -74,8 +82,8 @@ LEXICON PERS
 
 
 LEXICON Pers_Pronouns1
-+Nom@D.TNUM.PL@:н@D.TNUM.PL@ _КАЛ-Tenses1 ;
-+Nom0@D.TNUM.SG@:нь@D.TNUM.SG@ _КАЛ-Tenses1 ;
++Nom@D.TNUM.PL@:н@D.TNUM.PL@ PRON-PERS-SG-CONJ ;
++Nom0@D.TNUM.SG@:нь@D.TNUM.SG@ PRON-PERS-PL-CONJ ;
 +Intensive:нсь PersPron_Minsy ;
 +PxSg1+Gen@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@:нь@U.PossPx.Sg1@@N.TPERS.1@@C.TNUM@ _КАЛ-PersPronGen_CX ;
 +NoPoss+Gen@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@:нь@U.PossPx.Sg2@@N.TPERS.2@@C.TNUM@ _КАЛ-PersPronGen_CX ;
@@ -342,6 +350,58 @@ LEXICON _ОШ-PossPX1
 
 LEXICON PRON_
 +Pron: K ;
+
+LEXICON PRON-IS-INDEF-MANNER !! 
++Pron+Indef+Manner: # ;
+
+LEXICON PRON-IS-INDEF-PERS-SG-NOM
++Pron+Indef+Sg+Nom: # ;
+
+LEXICON PRON-IS-INDEF-PERS-ABL
++Pron+Indef+SP+Abl: # ;
+
+LEXICON PRON-IS-INDEF-SPAT-ELA !! What should be done 
++Pron+Indef+Spat+Ela: # ;
+
+LEXICON PRON-IS-INDEF-SPAT-INE !! What should be done 
++Pron+Indef+Spat+Ine: # ;
+
+LEXICON PRON-IS-INDEF-SPAT-LAT !! What should be done 
++Pron+Indef+Spat+Lat: # ;
+
+LEXICON PRON-IS-INDEF-SPAT-PRL !! What should be done 
++Pron+Indef+Spat+Prl: # ;
+
+
+LEXICON	PRON-IS-INTERR-PERS !! ки:ки
++Pron+Interr+Pers+Sg+Nom:е #  ;
++Pron+Interr+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
+
+LEXICON PRON-IS-INTERR-SPAT-ELA !! What should be done 
++Pron+Interr+Spat+Ela: # ;
+
+LEXICON PRON-IS-INTERR-SPAT-INE !! What should be done 
++Pron+Interr+Spat+Ine: # ;
+
+LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done 
++Pron+Interr+Spat+Lat: # ;
+
+LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done 
++Pron+Interr+Spat+Prl: # ;
+
+LEXICON	PRON-IS-REL-PERS !! ки:ки
++Pron+Rel+Pers+Sg+Nom:е #  ;
++Pron+Rel+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
+
+
+LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
++Sg+Nom: #  ;
++Pl+Nom:%>тЬ2 #  ;
++SP+Gen:%>О1нь #  ;
++SP+Abe:%>втО1мО1 #  ;
++SP+Abl:%>дО1 #  ;
++SP+Tra:%>кс #  ;
++SP+Dat:%>нень #  ;
 
 ! This is not the same as indefinite
 LEXICON PronRel-kona
