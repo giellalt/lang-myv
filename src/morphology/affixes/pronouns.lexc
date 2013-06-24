@@ -396,6 +396,13 @@ LEXICON	PRON-IS-INTERR-PERS !! ки:ки
 +Pron+Interr+Pers+Sg+Nom:е #  ;
 +Pron+Interr+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
 
+LEXICON PRON-IS-INTERR-SEL !! кона:кона
+!! This is not the same as indefinite
+!! PronRel-kona
++Pron+Interr+Sel: NMN_DEF-DECLENSION ;
++Pron+Interr+Sel: _КУДО-Indef-Declension ;
++Pron+Interr+Sel: N_КУДО-Poss-Declension-CX ;
+
 LEXICON PRON-IS-INTERR-SPAT-ELA !! What should be done 
 +Pron+Interr+Spat+Ela: # ;
 
@@ -407,6 +414,8 @@ LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done
 
 LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done 
 +Pron+Interr+Spat+Prl: # ;
+
+
 
 !! Relative pronouns
 LEXICON PRON-IS-REL-ADJ_КОДАМО !! кодамо:кода
@@ -427,11 +436,12 @@ LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
 +SP+Tra:%>кс #  ;
 +SP+Dat:%>нень #  ;
 
-! This is not the same as indefinite
-LEXICON PronRel-kona
-+Pron+Rel: NMN_DEF-DECLENSION ;
-+Pron+Rel: _КУДО-Indef-Declension ;
-+Pron+Rel: N_КУДО-Poss-Declension-CX ;
+LEXICON PRON-IS-REL-SEL
+!! This is not the same as indefinite
+!! PronRel-kona
++Pron+Rel+Sel: NMN_DEF-DECLENSION ;
++Pron+Rel+Sel: _КУДО-Indef-Declension ;
++Pron+Rel+Sel: N_КУДО-Poss-Declension-CX ;
 
 
 ! These have been introduced with the flag: <"@P.INDEF.PREF@">
