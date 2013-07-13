@@ -10,12 +10,12 @@
 if CAN_DOCC
 
 JSP_PAGES=\
-	root-morphology.jspwiki        \
-		  myv-phon-phonology.jspwiki  \
-	adjectives-affixes.jspwiki       \
-	nouns-affixes.jspwiki            \
-	propernouns-affixes.jspwiki      \
-	verbs-affixes.jspwiki
+		  root-morphology.jspwiki        \
+		  adjectives-affixes.jspwiki       \
+		  nouns-affixes.jspwiki            \
+		  propernouns-affixes.jspwiki      \
+		  verbs-affixes.jspwiki \
+		  myv-phon-phonology.jspwiki  
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
