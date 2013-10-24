@@ -6,6 +6,36 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
+      <l pos="A">лия</l>
+
+      <stg>
+        <st Contlex="A_КУДО">лия</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Невтемасо те валось максы чарькодема: аволь невтезесь эли
+        кона ланга кортазь.</defNative>
+      </m>
+
+      <tg xml:lang="fra">
+        <t pos="Qnt">autre</t>
+      </tg>
+
+      <xg>
+        <x>Лия ломань. Лия книга. Монень эряви муемс лия ялга. Молемстэ
+        туевинь лия киява. Совинь лия кудос.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="Qnt">колмоненек</l>
 
       <stg>
@@ -695,14 +725,6 @@
       </stg>
     </lg>
 
-    <pos>N</pos>
-
-    <morphg>
-      <morph type="N">кавтосо</morph>
-
-      <morph type="N">кавтонь;</morph>
-    </morphg>
-
     <mg>
       <m>
         <head/>
@@ -710,6 +732,10 @@
         <defNative>Ловома вал, невти зяро ломатнеде эли лиятне
         мезтне.</defNative>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Num">deux</t>
+      </tg>
 
       <xg>
         <x>Кавто ломанть. Кавто книгат. Эйкакшонтень топодсть кавто иеть.
@@ -729,14 +755,6 @@
       </stg>
     </lg>
 
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">нилесэ</morph>
-
-      <morph type="N">нилень</morph>
-    </morphg>
-
     <etymg>
       <etym xml:lang="fin"><constituent>neljä</constituent></etym>
 
@@ -754,6 +772,10 @@
         <defNative>Ловома вал. Нилесь моли колмонть мельга. Нилесь ашти
         ветенть икеле.</defNative>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Num">quatre</t>
+      </tg>
 
       <xg>
         <x>Ниле чить ютасть, кода сынь ошсто. Ниле умаринат озавтынь пирес.
@@ -1469,6 +1491,51 @@
       <xg>
         <x>Комсь чи керинек вирь. Комсь чис нуинек весе паксянть. Монень
         топодсть комсь иеть.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="DEM">весе</l>
+
+      <stg>
+        <st Contlex="vese-QNT">весе</st>
+      </stg>
+    </lg>
+
+    <pos>QNT</pos>
+
+    <phonet/>
+
+    <morphg>
+      <morph type="N">весемесэ</morph>
+
+      <morph type="N">весень</morph>
+
+      <morph type="N">весемень</morph>
+    </morphg>
+
+    <etymg>
+      <etym langForm="*" xml:lang="myv"><constituent>вæсе</constituent></etym>
+    </etymg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Марсо. Куцясо. Мирём. Вейкень пес.</defNative>
+      </m>
+
+      <tg xml:lang="fra">
+        <t pos="Qnt">tout</t>
+      </tg>
+
+      <xg>
+        <x>Весе тусть вирень керямо. Минь весе мольтяно кинов. Весе книгатнень
+        максынь велень ловнома кудов. Тевтне прядовсть весе.</x>
 
         <xt/>
       </xg>
@@ -2462,14 +2529,6 @@
       </stg>
     </lg>
 
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">колмосо</morph>
-
-      <morph type="N">колмонь</morph>
-    </morphg>
-
     <mg>
       <m>
         <head/>
@@ -2477,6 +2536,10 @@
         <defNative>Ловома вал. Ловомсто моли кавтонть мейле
         (мельга).</defNative>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Num">trois</t>
+      </tg>
 
       <xg>
         <x>Кияванть сыть колмо ломанть. Армиясо служинь колмо иеть.</x>
@@ -2672,18 +2735,6 @@
       </stg>
     </lg>
 
-    <pos>Qnt</pos>
-
-    <morphg>
-      <morph type="N">аламосо</morph>
-
-      <morph type="N">аламонь</morph>
-
-      <morph type="N">аламнэ</morph>
-
-      <morph type="N">аламине</morph>
-    </morphg>
-
     <etymg>
       <etym xml:lang="myv"><constituent>а+ламо</constituent></etym>
     </etymg>
@@ -2696,6 +2747,10 @@
         мезесь лиянь коряс эрси аламо эли ламо. Аламось чарькодеви ансяк
         сестэ, зярдо путови лиянь ваксс.</defNative>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Qnt">peu</t>
+      </tg>
 
       <xg>
         <x>Кото умартне кементнень коряс аламо, колмотнень коряс ламо.</x>
@@ -3475,16 +3530,6 @@
 
     <pos>Num</pos>
 
-    <phonet/>
-
-    <morphg>
-      <morph type="N">вейкесэ</morph>
-
-      <morph type="N">вейкень</morph>
-
-      <morph type="N">вейкине</morph>
-    </morphg>
-
     <etymg>
       <etym>[-æ-е</etym>
     </etymg>
@@ -3496,6 +3541,10 @@
         <defNative>Ловомань ушодкс. Невти мезеяк ськамонзо улиця, аштиця.
         Аравтови карадо-каршо «кавто» валонть марто.</defNative>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Num">un</t>
+      </tg>
 
       <xg>
         <x>Вейке ломань. Вейке чувто. Вейке чи.</x>
@@ -4271,6 +4320,10 @@
         седе ламо, котось ниленть коряс ламо. Ламочись свал чарькодеви ансяк
         лиятнень ваксс путозь.</defNative>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Qnt">beaucoup</t>
+      </tg>
 
       <xg>
         <x>Вирьсэ ламо чувтт. Велесэнть ламо кудот, ошсо кудотне седеяк
@@ -5052,14 +5105,16 @@
       </stg>
     </lg>
 
-    <pos>Num</pos>
-
     <mg>
       <m>
         <head/>
 
         <defNative/>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Num">cinq</t>
+      </tg>
     </mg>
   </e>
 
@@ -6038,6 +6093,10 @@
 
         <defNative/>
       </m>
+
+      <tg xml:lang="fra">
+        <t pos="Qnt">quelques</t>
+      </tg>
 
       <xg>
         <x>Ютась зярыя шка, ды ансяк мейле… Зярыя чинь ютазь Захар вастызе

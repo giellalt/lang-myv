@@ -6,10 +6,10 @@
    xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e exclude="fst">
     <lg>
-      <l>кирдемс испытания </l>
+      <l>кирдемс испытания</l>
 
       <stg>
-        <st Contlex="V_">кирдемс испытания </st>
+        <st Contlex="V_">кирдемс испытания</st>
       </stg>
     </lg>
 
@@ -28,7 +28,7 @@
 
   <e exclude="fst">
     <lg>
-      <l>заёмс вешемс ярмакт </l>
+      <l>заёмс вешемс ярмакт</l>
 
       <stg>
         <st Contlex="V_">заёмс вешемс ярмакт</st>
@@ -4203,16 +4203,32 @@
     </lg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l>озадо аштемс</l>
+      <l pos="V">озадо аштемс</l>
 
-      <s n="v"/>
+      <stg>
+        <st/>
+      </stg>
+    </lg>
+
+    <mg>
+      <semantics>
+        <sem/>
+      </semantics>
+
+      <m>
+        <head/>
+      </m>
 
       <tg xml:lang="fin">
-        <t>istua</t>
+        <t pos="V">istua</t>
       </tg>
-    </lg>
+
+      <tg xml:lang="fra">
+        <t pos="V">être assis (state)</t>
+      </tg>
+    </mg>
   </e>
 
   <e exclude="fst">
