@@ -13,7 +13,7 @@ HUNDREDST ;		! 200000-999999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-тёжа% :1 THOUSAND ;	! 1000-1999
+тёжа:1 THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 30-99
 TEENS ;			! 10-19
@@ -171,12 +171,14 @@ LEXICON THOUSANDS      ! x > 1
 
 
 LEXICON THOUSAND
-UNDERTHOUSAND ;	   ! 1100-1999
-:%0 TENS ;	   ! 1030-1099
-:%0 TEENS ;	   ! 1010-1019
-:%0 TWEENS ;	   ! 1020-1029
-:%0%0 ONES ;	   ! 1001-1009
-
+% : UNDERTHOUSAND ;	   ! 1100-1999
+% :%0 TENS ;	   ! 1030-1099
+% :%0 TEENS ;	   ! 1010-1019
+% :%0 TWEENS ;	   ! 1020-1029
+% :%0%0 ONES ;	   ! 1001-1009
+:%0%0%0 COMMA ;	   !!= @CODE@ 
+це% :%0%0%0%-це COMMA ;	   !!= @CODE@ 
+це+Use/SpellNoSugg% :%0%0%0 COMMA ;	   !!= @CODE@ Sometimes there is no marking
 !===========================
 !Here starts the 999 numbers
 !===========================
@@ -192,9 +194,10 @@ LEXICON HUNDREDS
 ниле:4 CUODI ;
 вете:5   CUODI ;
 кото:6   CUODI ;
-сисем:7   CUODI ;
-сисемзядт+Use/NG% :7 HUNDRED ;
-сисемзядоце+Use/NG:7 CUODAAT ;
+сисемсядт+Use/NG% :7   HUNDRED ;
+сисемсядоце+Use/NG:7   CUODAAT ;
+сисемзядт% :7 HUNDRED ;
+сисемзядоце:7 CUODAAT ;
 кавксо:8 CUODI ;
 вейксэ:9   CUODI ;
 
@@ -211,7 +214,7 @@ LEXICON HUNDRED
 :%0%0 COMMA ;
 
 LEXICON CUODAAT
-:%0%0%.    COMMA ;
+:%0%0%-це    COMMA ;
 
 LEXICON TEENS
  CARDINAL-TEENS ;
@@ -219,7 +222,7 @@ LEXICON TEENS
 
 LEXICON TWEENS
 комсь:2%0 COMMA ;
-комсеце:2%0%. COMMA ;
+комсеце:2%0%-це COMMA ;
 комсь:2 ONES-TW ;
 
 
@@ -241,12 +244,12 @@ LEXICON TENS
 
 LEXICON LUHKIE_3-9
 гемень:%0 COMMA ;
-геменце:%0%. COMMA ;
+геменце:%0%-це COMMA ;
 гемень% : ONES ;
 
 LEXICON LUHKIE_3-9_morph
 кемень+Use/SpellNoSugg:%0 COMMA ;
-кеменце+Use/SpellNoSugg:%0%. COMMA ;
+кеменце+Use/SpellNoSugg:%0%-це COMMA ;
 кемень+Use/SpellNoSugg% : ONES ;
 
 
@@ -263,16 +266,16 @@ LEXICON CARDINAL-TEENS
 кевейксэе:19 COMMA ;
 
 LEXICON ORDINAL-TEENS
-кеменце:1%0%. COMMA ;
-кевейкееце:11%.     COMMA ;
-кемгавтовоце:12%.   COMMA ;
-кемголмовоце:13%.   COMMA ;
-кемнилееце:14%. COMMA ;
-кеветееце:15%.   COMMA ;
-кемготовоце:16%.   COMMA ;
-кемзисемгеце:17%.    COMMA ;
-кемгавксовоце:18%.   COMMA ;
-кевейксэеце:19%.    COMMA ;
+кеменце:1%0%-це COMMA ;
+кевейкееце:11%-це     COMMA ;
+кемгавтовоце:12%-це   COMMA ;
+кемголмовоце:13%-це   COMMA ;
+кемнилееце:14%-це COMMA ;
+кеветееце:15%-це   COMMA ;
+кемготовоце:16%-це   COMMA ;
+кемзисемгеце:17%-це    COMMA ;
+кемгавксовоце:18%-це   COMMA ;
+кевейксэеце:19%-це    COMMA ;
 
 LEXICON ONES-TW
  CARDINAL-TW ;
@@ -290,15 +293,15 @@ LEXICON CARDINAL-TW
 вейксэе:9 COMMA ;
 
 LEXICON ORDINAL-TW
-вейкееце:1%.     COMMA ;
-кавтовоце:2%.   COMMA ;
-колмовоце:3%.   COMMA ;
-нилееце:4%. COMMA ;
-ветееце:5%.   COMMA ;
-котовоце:6%.   COMMA ;
-сисемгеце:7%.    COMMA ;
-кавксовоце:8%.   COMMA ;
-вейксэеце:9%.    COMMA ;
+вейкееце:1%-це     COMMA ;
+кавтовоце:2%-це   COMMA ;
+колмовоце:3%-це   COMMA ;
+нилееце:4%-це COMMA ;
+ветееце:5%-це   COMMA ;
+котовоце:6%-це   COMMA ;
+сисемгеце:7%-це    COMMA ;
+кавксовоце:8%-це   COMMA ;
+вейксэеце:9%-це    COMMA ;
 
 LEXICON ONES
 CARDINAL ;
@@ -316,15 +319,15 @@ LEXICON CARDINAL
 вейксэ:9 COMMA ;
 
 LEXICON ORDINAL
-васенце:1%.     COMMA ;
-омбоце:2%.   COMMA ;
-колмоце:3%.   COMMA ;
-нилеце:4%. COMMA ;
-ветеце:5%.   COMMA ;
-котоце:6%.   COMMA ;
-сисемце:7%.    COMMA ;
-кавксоце:8%.   COMMA ;
-вейксэце:9%.    COMMA ;
+васенце:1%-це     COMMA ;
+омбоце:2%-це   COMMA ;
+колмоце:3%-це   COMMA ;
+нилеце:4%-це COMMA ;
+ветеце:5%-це   COMMA ;
+котоце:6%-це   COMMA ;
+сисемце:7%-це    COMMA ;
+кавксоце:8%-це   COMMA ;
+вейксэце:9%-це    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
