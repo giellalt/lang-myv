@@ -175,7 +175,7 @@ LFCHMore =  [ :FTV | FTC | л ь: ]  %>: [ %^О2: н з | с ( т ) ] ;
 
 
 ! Left Back Context
-LBC =    :BTV ( %>: %^О2:0 ) NPC* ( %>: )  :NPC+   ;
+LBC =   [ :BTV ( %>: %^О2:0 ) NPC* ( %>: )  :NPC+ |BTV л ь [ ф | т | д ] ]  ;
 !BTV л ь [ ф | т | д ] ] 
 
 NoFront = [ %>:  | :BTV | BTV: | :NPC | О1: | %^О2: ]* ;
