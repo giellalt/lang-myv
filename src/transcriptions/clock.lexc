@@ -39,115 +39,105 @@ Multichar_Symbols
 
 LEXICON Root
 
-! Allowing sloppy 2:30 in answer
-@U.TIME.1@:@U.TIME.1@1+Use/NA AFTpunkt ; !01:00 - 01:19
-@U.TIME.2@:@U.TIME.2@1+Use/NA BEFpunkt ; !01:20 - 01:59
-@U.TIME.2@:@U.TIME.2@2+Use/NA AFTpunkt ; !02:00 - 02:19
-@U.TIME.3@:@U.TIME.3@2+Use/NA BEFpunkt ; !02:20 - 02:59
-@U.TIME.3@:@U.TIME.3@3+Use/NA AFTpunkt ; !03:00 - 03:19
-@U.TIME.4@:@U.TIME.4@3+Use/NA BEFpunkt ; !03:20 - 03:59
-@U.TIME.4@:@U.TIME.4@4+Use/NA AFTpunkt ; !04:00 - 04:19
-@U.TIME.5@:@U.TIME.5@4+Use/NA BEFpunkt ; !04:20 - 04:59
-@U.TIME.5@:@U.TIME.5@5+Use/NA AFTpunkt ; !05:00 - 05:19
-@U.TIME.6@:@U.TIME.6@5+Use/NA BEFpunkt ; !05:20 - 05:59
-@U.TIME.6@:@U.TIME.6@6+Use/NA AFTpunkt ; !06:00 - 06:19
-@U.TIME.7@:@U.TIME.7@6+Use/NA BEFpunkt ; !06:20 - 06:59
-@U.TIME.7@:@U.TIME.7@7+Use/NA AFTpunkt ; !07:00 - 07:19
-@U.TIME.8@:@U.TIME.8@7+Use/NA BEFpunkt ; !07:20 - 07:59
-@U.TIME.8@:@U.TIME.8@8+Use/NA AFTpunkt ; !08:00 - 08:19
-@U.TIME.9@:@U.TIME.9@8+Use/NA BEFpunkt ; !08:20 - 08:59
-@U.TIME.9@:@U.TIME.9@9+Use/NA AFTpunkt ; !09:00 - 09:19
-@U.TIME.10@:@U.TIME.10@9+Use/NA BEFpunkt ; !09:20 - 09:59
+BEFORE ; ! 31-59
+!HALF ;
+REST ; ! 1-30
 
-! Correct is 02:30
-@U.TIME.1@:@U.TIME.1@%01 AFTpunkt ; !01:00 - 01:19
-@U.TIME.2@:@U.TIME.2@%01 BEFpunkt ; !01:20 - 01:59
-@U.TIME.2@:@U.TIME.2@%02 AFTpunkt ; !02:00 - 02:19
-@U.TIME.3@:@U.TIME.3@%02 BEFpunkt ; !02:20 - 02:59
-@U.TIME.3@:@U.TIME.3@%03 AFTpunkt ; !03:00 - 03:19
-@U.TIME.4@:@U.TIME.4@%03 BEFpunkt ; !03:20 - 03:59
-@U.TIME.4@:@U.TIME.4@%04 AFTpunkt ; !04:00 - 04:19
-@U.TIME.5@:@U.TIME.5@%04 BEFpunkt ; !04:20 - 04:59
-@U.TIME.5@:@U.TIME.5@%05 AFTpunkt ; !05:00 - 05:19
-@U.TIME.6@:@U.TIME.6@%05 BEFpunkt ; !05:20 - 05:59
-@U.TIME.6@:@U.TIME.6@%06 AFTpunkt ; !06:00 - 06:19
-@U.TIME.7@:@U.TIME.7@%06 BEFpunkt ; !06:20 - 06:59
-@U.TIME.7@:@U.TIME.7@%07 AFTpunkt ; !07:00 - 07:19
-@U.TIME.8@:@U.TIME.8@%07 BEFpunkt ; !07:20 - 07:59
-@U.TIME.8@:@U.TIME.8@%08 AFTpunkt ; !08:00 - 08:19
-@U.TIME.9@:@U.TIME.9@%08 BEFpunkt ; !08:20 - 08:59
-@U.TIME.9@:@U.TIME.9@%09 AFTpunkt ; !09:00 - 09:19
-@U.TIME.10@:@U.TIME.10@%09 BEFpunkt ; !09:20 - 09:59
+LEXICON BEFORE
+:%0 beforesmallhours ;
+:+Use/NA beforesmallhours ;
+beforelargehours ;
+ 
+LEXICON beforesmallhours
+@U.TIME.2@:1@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
+@U.TIME.3@:2@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
+@U.TIME.4@:3@U.TIME.4@ BEFpunkt ; !03:31 - 03:59
+@U.TIME.5@:4@U.TIME.5@ BEFpunkt ; !04:31 - 04:59
+@U.TIME.6@:5@U.TIME.6@ BEFpunkt ; !05:31 - 05:59
+@U.TIME.7@:6@U.TIME.7@ BEFpunkt ; !06:31 - 06:59
+@U.TIME.8@:7@U.TIME.8@ BEFpunkt ; !07:31 - 07:59
+@U.TIME.9@:8@U.TIME.9@ BEFpunkt ; !08:31 - 08:59
+@U.TIME.10@:9@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
 
-@U.TIME.10@:@U.TIME.10@1%0 AFTpunkt ; !10:00 - 10:19
-@U.TIME.11@:@U.TIME.11@1%0 BEFpunkt ; !10:20 - 10:59
-@U.TIME.11@:@U.TIME.11@11 AFTpunkt ; !11:00 - 11:59
-@U.TIME.12@:@U.TIME.12@11 BEFpunkt ; !11:19 - 11:59
-@U.TIME.12@:@U.TIME.12@12 AFTpunkt ; !12:00 - 12:19
-@U.TIME.1@:@U.TIME.1@12 BEFpunkt ; !12:19 - 12:59
-@U.TIME.1@:@U.TIME.1@13 AFTpunkt ; !13:00 - 13:19
-@U.TIME.2@:@U.TIME.2@13 BEFpunkt ; !13:19 - 13:59
-@U.TIME.2@:@U.TIME.2@14 AFTpunkt ; !14:00 - 114:19
-@U.TIME.3@:@U.TIME.3@14 BEFpunkt ; !14:19 - 14:59
-@U.TIME.3@:@U.TIME.3@15 AFTpunkt ; !15:00 - 15:19
-@U.TIME.4@:@U.TIME.4@15 BEFpunkt ; !15:19 - 15:59
-@U.TIME.4@:@U.TIME.4@16 AFTpunkt ; !16:00 - 16:19
-@U.TIME.5@:@U.TIME.5@16 BEFpunkt ; !16:19 - 16:59
-@U.TIME.5@:@U.TIME.5@17 AFTpunkt ; !17:00 - 17:19
-@U.TIME.6@:@U.TIME.6@17 BEFpunkt ; !17:19 - 17:59
-@U.TIME.6@:@U.TIME.6@18 AFTpunkt ; !18:00 - 18:19
-@U.TIME.7@:@U.TIME.7@18 BEFpunkt ; !18:19 - 18:59
-@U.TIME.7@:@U.TIME.7@19 AFTpunkt ; !19:00 - 19:19
-@U.TIME.8@:@U.TIME.8@19 BEFpunkt ; !19:20 - 19:59
-@U.TIME.8@:@U.TIME.8@2%0 AFTpunkt ; !20:00 - 20:19
-@U.TIME.9@:@U.TIME.9@2%0 BEFpunkt ; !20:20 - 20:59
-@U.TIME.9@:@U.TIME.9@21 AFTpunkt ; !21:00 - 21:19
-@U.TIME.10@:@U.TIME.10@21 BEFpunkt ; !21:20 - 21:59
-@U.TIME.10@:@U.TIME.10@22 AFTpunkt ; !22:00 - 22:19
-@U.TIME.11@:@U.TIME.11@22 BEFpunkt ; !22:19 - 22:59
-@U.TIME.11@:@U.TIME.11@23 AFTpunkt ; !23:00 - 23:19
-@U.TIME.12@:@U.TIME.12@23 BEFpunkt ; !23:19 - 23:59
-@U.TIME.12@:@U.TIME.12@%0%0 AFTpunkt ; !00:00 - 00:19
-@U.TIME.1@:@U.TIME.1@%0%0 BEFpunkt ; !00:19 - 00:59
-%0%0:24%  # ; !24:00
+LEXICON beforelargehours
+@U.TIME.11@:1%0@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
+@U.TIME.12@:11@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
+@U.TIME.1@:12@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
+@U.TIME.2@:13@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
+@U.TIME.3@:14@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
+@U.TIME.4@:15@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
+@U.TIME.5@:16@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
+@U.TIME.6@:17@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
+@U.TIME.7@:18@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
+@U.TIME.8@:19@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
+@U.TIME.9@:2%0@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
+@U.TIME.10@:21@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
+@U.TIME.11@:22@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
+@U.TIME.12@:23@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
+@U.TIME.1@:%0%0@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
 
+LEXICON REST
+@U.TIME.1@:%01@U.TIME.1@ AFTpunkt ; !01:00 - 01:29
+@U.TIME.2@:%02@U.TIME.2@ AFTpunkt ; !02:00 - 02:29
+@U.TIME.3@:%03@U.TIME.3@ AFTpunkt ; !03:00 - 03:29
+@U.TIME.4@:%04@U.TIME.4@ AFTpunkt ; !04:00 - 04:29
+@U.TIME.5@:%05@U.TIME.5@ AFTpunkt ; !05:00 - 05:29
+@U.TIME.6@:%06@U.TIME.6@ AFTpunkt ; !06:00 - 06:29
+@U.TIME.7@:%07@U.TIME.7@ AFTpunkt ; !07:00 - 07:29
+@U.TIME.8@:%08@U.TIME.8@ AFTpunkt ; !08:00 - 08:29
+@U.TIME.9@:%09@U.TIME.9@ AFTpunkt ; !09:00 - 09:29
+@U.TIME.10@:1%0@U.TIME.10@ AFTpunkt ; !10:00 - 10:29
+@U.TIME.11@:11@U.TIME.11@ AFTpunkt ; !11:00 - 11:59
+@U.TIME.12@:12@U.TIME.12@ AFTpunkt ; !12:00 - 12:29
+@U.TIME.1@:13@U.TIME.1@ AFTpunkt ; !13:00 - 13:29
+@U.TIME.2@:14@U.TIME.2@ AFTpunkt ; !14:00 - 114:29
+@U.TIME.3@:15@U.TIME.3@ AFTpunkt ; !15:00 - 15:29
+@U.TIME.4@:16@U.TIME.4@ AFTpunkt ; !16:00 - 16:29
+@U.TIME.5@:17@U.TIME.5@ AFTpunkt ; !17:00 - 17:29
+@U.TIME.6@:18@U.TIME.6@ AFTpunkt ; !18:00 - 18:29
+@U.TIME.7@:19@U.TIME.7@ AFTpunkt ; !19:00 - 19:29
+@U.TIME.8@:2%0@U.TIME.8@ AFTpunkt ; !20:00 - 20:29
+@U.TIME.9@:21@U.TIME.9@ AFTpunkt ; !21:00 - 21:29
+@U.TIME.10@:22@U.TIME.10@ AFTpunkt ; !22:00 - 22:29
+@U.TIME.11@:23@U.TIME.11@ AFTpunkt ; !23:00 - 23:29
+@U.TIME.12@:%0%0@U.TIME.12@ AFTpunkt ; !00:00 - 00:29
+:24%:%0%0 # ; !24:00
 
 LEXICON BEFpunkt
 :%:+Use/NA BEF ;
 :%.+Use/NA BEF ;
 
 LEXICON AFTpunkt
-:%:+Use/NA H-MAFT_hours ; ! 2:00 = кавто
-:%:+Use/NA AFT ; ! 2:00 = кавто
-:%.+Use/NA AFT ; ! 2.00 = кавто
-:+Use/NA HOUR ; ! 2 = кавто
+:%:+Use/NA AFT ; ! 2.00 = göökte
+:%.+Use/NA AFT ; ! 2.00 = göökte
+:+Use/NA HOUR ; ! 2 = göökte
 
 !This deals with 1:01 - 1:24 
 LEXICON H-MAFT_hours
-@U.TIME.1@вейке% цяс% :@U.TIME.1@ H-MAFT_minutes ;
-@U.TIME.1@вейке% час% :@U.TIME.1@+Use/NG H-MAFT_minutes ;
-@U.TIME.2@кавто% цяст% :@U.TIME.2@ H-MAFT_minutes ;
-@U.TIME.2@кавто% част% :@U.TIME.2@+Use/NG H-MAFT_minutes ;
-@U.TIME.3@колмо% цяст% :@U.TIME.3@ H-MAFT_minutes ;
-@U.TIME.3@колмо% част% :@U.TIME.3@+Use/NG H-MAFT_minutes ;
-@U.TIME.4@ниле% цяст% :@U.TIME.4@ H-MAFT_minutes ;
-@U.TIME.4@ниле% част% :@U.TIME.4@+Use/NG H-MAFT_minutes ;
-@U.TIME.5@вете% цяст% :@U.TIME.5@ H-MAFT_minutes ;
-@U.TIME.5@вете% част% :@U.TIME.5@+Use/NG H-MAFT_minutes ;
-@U.TIME.6@кото% цяст% :@U.TIME.6@ H-MAFT_minutes ;
-@U.TIME.6@кото% част% :@U.TIME.6@+Use/NG H-MAFT_minutes ;
-@U.TIME.7@сисем% цяст% :@U.TIME.7@ H-MAFT_minutes ;
-@U.TIME.7@сисем% част% :@U.TIME.7@+Use/NG H-MAFT_minutes ;
-@U.TIME.8@кавксо% цяст% :@U.TIME.8@ H-MAFT_minutes ;
-@U.TIME.8@кавксо% част% :@U.TIME.8@+Use/NG H-MAFT_minutes ;
-@U.TIME.9@вейксэ% цяст% :@U.TIME.9@ H-MAFT_minutes ;
-@U.TIME.9@вейксэ% част% :@U.TIME.9@+Use/NG H-MAFT_minutes ;
-@U.TIME.10@кемень% цяст% :@U.TIME.10@ H-MAFT_minutes ;
-@U.TIME.10@кемень% част% :@U.TIME.10@+Use/NG H-MAFT_minutes ;
-@U.TIME.11@кемвейкее% цяст% :@U.TIME.11@ H-MAFT_minutes ;
-@U.TIME.11@кевейкее% част% :@U.TIME.11@+Use/NG H-MAFT_minutes ;
-@U.TIME.12@кемкавтово% цяст% :@U.TIME.12@ H-MAFT_minutes ;
-@U.TIME.12@кемгавтово% част% :@U.TIME.12@+Use/NG H-MAFT_minutes ;
+вейке% цяс% @U.TIME.1@:@U.TIME.1@ H-MAFT_minutes ;
+вейке% час+Use/NG% @U.TIME.1@:@U.TIME.1@ H-MAFT_minutes ;
+кавто% цяст% @U.TIME.2@:@U.TIME.2@ H-MAFT_minutes ;
+кавто% част+Use/NG% @U.TIME.2@:@U.TIME.2@ H-MAFT_minutes ;
+колмо% цяст% @U.TIME.3@:@U.TIME.3@ H-MAFT_minutes ;
+колмо% част+Use/NG% @U.TIME.3@:@U.TIME.3@ H-MAFT_minutes ;
+ниле% цяст% @U.TIME.4@:@U.TIME.4@ H-MAFT_minutes ;
+ниле% част+Use/NG% @U.TIME.4@:@U.TIME.4@ H-MAFT_minutes ;
+вете% цяст% @U.TIME.5@:@U.TIME.5@ H-MAFT_minutes ;
+вете% част+Use/NG% @U.TIME.5@:@U.TIME.5@ H-MAFT_minutes ;
+кото% цяст% @U.TIME.6@:@U.TIME.6@ H-MAFT_minutes ;
+кото% част+Use/NG% @U.TIME.6@:@U.TIME.6@ H-MAFT_minutes ;
+сисем% цяст% @U.TIME.7@:@U.TIME.7@ H-MAFT_minutes ;
+сисем% част+Use/NG% @U.TIME.7@:@U.TIME.7@ H-MAFT_minutes ;
+кавксо% цяст% @U.TIME.8@:@U.TIME.8@ H-MAFT_minutes ;
+кавксо% част+Use/NG% @U.TIME.8@:@U.TIME.8@ H-MAFT_minutes ;
+вейксэ% цяст% @U.TIME.9@:@U.TIME.9@ H-MAFT_minutes ;
+вейксэ% част+Use/NG% @U.TIME.9@:@U.TIME.9@ H-MAFT_minutes ;
+кемень% цяст% @U.TIME.1%0@:@U.TIME.10@ H-MAFT_minutes ;
+кемень% част+Use/NG% @U.TIME.1%0@:@U.TIME.10@ H-MAFT_minutes ;
+кевейкее% част+Use/NG% @U.TIME.11@:@U.TIME.11@ H-MAFT_minutes ;
+кевейкее% цяст% @U.TIME.11@:@U.TIME.11@ H-MAFT_minutes ;
+кемгавтово% част+Use/NG% @U.TIME.12@:@U.TIME.12@ H-MAFT_minutes ;
+кевейкее% цяст% @U.TIME.11@:@U.TIME.11@ H-MAFT_minutes ;
 
 LEXICON H-MAFT_minutes
 :%0%0 # ;
@@ -176,13 +166,13 @@ LEXICON H-MAFT_minutes
 комськолмово% :23 ANDMINUTES ;
 комсьнилее% :24 ANDMINUTES ;
 комсьветее% :25 ANDMINUTES ;
-комськотово% :26+Use/NG ANDMINUTES ;
-комсьсисемге% :27+Use/NG ANDMINUTES ;
-комськавксово% :28+Use/NG ANDMINUTES ;
-комсьвейксэе% :29+Use/NG ANDMINUTES ;
+комськотово+Use/NG% :26 ANDMINUTES ;
+комсьсисемге+Use/NG% :27 ANDMINUTES ;
+комськавксово+Use/NG% :28 ANDMINUTES ;
+комсьвейксэе+Use/NG% :29 ANDMINUTES ;
 
 LEXICON ANDMINUTES
-минут% марто: # ;
+минута% марто: # ;
 
 LEXICON BEF
 вете% :25+Use/NG TOHALF ; 
@@ -253,28 +243,24 @@ LEXICON AFT
 комсьвейксэе% :29+Use/NG ANDMINUTES_first ;
 
 LEXICON ANDMINUTES_first
-минут% марто% :+Use/NG HOUR ;
+минута% марто% :+Use/NG HOUR ;
 
 LEXICON TOHALF
-минуттомо% пель% : HOUR ;
-минутавтомо% пель% :+Use/NG HOUR ;
+минутавтомо% пель% : HOUR ;
 
 LEXICON TO
-минуттомо% : HOUR ;
-минутавтомо% :+Use/NG HOUR ; ! variant
+минутавтомо% : HOUR ; ! variant
 
 LEXICON HOUR
-@U.TIME.1@вейке:@U.TIME.1@ # ;
-@U.TIME.2@кавто:@U.TIME.2@ # ;
-@U.TIME.3@колмо:@U.TIME.3@ # ;
-@U.TIME.4@ниле:@U.TIME.4@ # ;
-@U.TIME.5@вете:@U.TIME.5@ # ;
-@U.TIME.6@кото:@U.TIME.6@ # ;
-@U.TIME.7@сисем:@U.TIME.7@ # ;
-@U.TIME.8@кавксо:@U.TIME.8@ # ;
-@U.TIME.9@вейксэ:@U.TIME.9@ # ;
-@U.TIME.10@кемень:@U.TIME.10@ # ;
-@U.TIME.11@кевейкее:@U.TIME.11@ # ;
-@U.TIME.11@кемвейкее:@U.TIME.11@+Use/NG # ;
-@U.TIME.12@кемгавтово:@U.TIME.12@ # ;
-@U.TIME.12@кемкавтово:@U.TIME.12@+Use/NG # ;
+вейке@U.TIME.1@:@U.TIME.1@ # ;
+кавто@U.TIME.2@:@U.TIME.2@ # ;
+колмо@U.TIME.3@:@U.TIME.3@ # ;
+ниле@U.TIME.4@:@U.TIME.4@ # ;
+вете@U.TIME.5@:@U.TIME.5@ # ;
+кото@U.TIME.6@:@U.TIME.6@ # ;
+сисем@U.TIME.7@:@U.TIME.7@ # ;
+кавксо@U.TIME.8@:@U.TIME.8@ # ;
+вейксэ@U.TIME.9@:@U.TIME.9@ # ;
+кемень@U.TIME.10@:@U.TIME.10@ # ;
+кевейкее@U.TIME.11@:@U.TIME.11@ # ;
+кемгавтово@U.TIME.12@:@U.TIME.12@ # ;
