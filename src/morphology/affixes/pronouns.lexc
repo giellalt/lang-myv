@@ -18,8 +18,21 @@ LEXICON Dat-NoArg
 LEXICON Ill-Pron
 +Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
-LEXICON Interr-Pers
-+Interr+Pers: WORD-END ; ! кие THIS should be depricated
+LEXICON PRON-INTERR-HUM_КИ !!Interr-Pers
++Interr+Pers+Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
++Interr+Pers+Hum+Sg+Nom: WORD-END ; 
++Interr+Pers+Hum+Pl+Nom:%>тЬ2 WORD-END ; 
++Interr+Pers+Hum: PRON-INTERR-HUM_КИ-OBL ;
+
+LEXICON PRON-INTERR-HUM_КИ-OBL
++Abe:%>втО1мО1 WORD-END ;
++Abl:%>дО1 WORD-END ;
++DatCx:%>нень WORD-END ;
++Ela:%>стО1 WORD-END ;
++Gen:%>нь WORD-END ;
++Ill:%>с WORD-END ;
++Ine:%>сО1 WORD-END ;
+
 
 LEXICON PRON-PERS-SG1 !! мон:мо
 +Pron+Pers+Sg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:000@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
@@ -406,7 +419,7 @@ LEXICON PRON-IS-INTERR-SEL !! кона:кона
 LEXICON PRON-IS-INTERR-SPAT-ELA !! What should be done 
 +Pron+Interr+Spat+Ela: # ;
 
-LEXICON PRON-IS-INTERR-SPAT-INE !! What should be done 
+LEXICON PRON-IS-INTERR-SPAT-INE !!= @CODE@ косо 
 +Pron+Interr+Spat+Ine: # ;
 
 LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done 
@@ -462,7 +475,6 @@ LEXICON  Indef_Pronouns
 
 кие+Pron+Nom+Sg:кие Indef_Pronouns-K ;
 кие+Pron+Nom+Sg:ки Indef_Pronouns-K ;
-кие+Pron:ки _КУДО-Indef_Pronouns-Cases ;
 !ко+Pron:ко Indef_Pronouns-Cases ;
 ков+Pron+Lat:ков Indef_Pronouns-K ;
 косо+Pron+Ine:косо Indef_Pronouns-K ;
@@ -570,7 +582,7 @@ LEXICON _ОШ-Indef_Pronouns-Cases
 +Pl+Def+CompCx:%>тне%>шка Indef_Pronouns-K ;
 
 LEXICON _КУДО-Indef_Pronouns-Cases
-+Pl+InDef+Nom:%>тЬ2 Indef_Pronouns-K ; 
++Pl+Nom+Indef:%>тЬ2 Indef_Pronouns-K ; 
 
 +Ela:%>стО1 Indef_Pronouns-K ;
 +Ine:%>сО1 Indef_Pronouns-K ;
