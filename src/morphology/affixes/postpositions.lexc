@@ -43,6 +43,10 @@ LEXICON PO_КАЛ-LOC
 +Po+Spat+Loc+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
 +Po+Spat+Prl+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
 
+LEXICON PO_POSS-or-END-FOC
+!! This allows for possessor indices, word end or focus
+ DER/PR4_OBL ;
+ K ;
 
 
 LEXICON PO_POSS-or-END-FOC-DER/PR-SC3
@@ -150,8 +154,8 @@ LEXICON PO-SPAT-IS-PRL
 +Po+Spat+Prl: PO_POSS-or-END-FOC-DER/PR-SC3;
 
 
-LEXICON Temp-1Arg-Ela
-+Po+Ela+Temp: K ; !This will require Possessor Indices
+LEXICON PO-TEMP-IS-ELA
++Po+Ela+Temp: PO_POSS-or-END-FOC ; !!= @CODE@ пингстэ
 
 
 LEXICON ejs-PO
