@@ -36,8 +36,16 @@ LEXICON PRON-INTERR-HUM_КИ-OBL
 
 LEXICON PRON-PERS-SG1 !! мон:мо
 +Pron+Pers+Sg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:000@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
++Dial+Pron+Pers+Sg1+Abl+NoPoss:нде K ;
++Dial+Pron+Pers+Sg1+Refl+Abe+NoPoss:нстеме K ;
++Pron+Pers+Sg1+Pron+Dem:нете _КУДО-PersPronGen_CX ;
+
 LEXICON PRON-PERS-SG2 !! тон:то
 +Pron+Pers+Sg2@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@:000@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
++Dial+Pron+Pers+Sg2+Abl+NoPoss:нде K ;
++Dial+Pron+Pers+Sg2+Refl+Abe+NoPoss:нстеме K ;
++Pron+Pers+Sg2+Pron+Dem:нете _КУДО-PersPronGen_CX ;
+
 LEXICON PRON-PERS-SG3 !! сон:со
 +Pron+Pers+Sg3@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@:000@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
 LEXICON PRON-PERS-PL1 !! минь:ми
@@ -47,12 +55,17 @@ LEXICON PRON-PERS-PL2 !! тынь:ты
 LEXICON PRON-PERS-PL3 !! сынь:сы
 +Pron+Pers+Pl3@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:000@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
 
+LEXICON PRON-REFL_ЭСЬ !!= @CODE@ !!эсь:эсь
++Pron+Refl: PersPron_Minsy-Obliq ;
++Pron+Refl+Adn: WORD-END ;
++Pron+Refl+Prl:%>ка PossPX1 ; 
++Pron+Refl+Prl+Prl:%>кава PossPX1 ; 
+
+
 
 LEXICON PERS
 
 
-эсь+Refl+Pron:эсь PersPron_Minsy-Obliq ;
-эсь+Refl+Adn:эсь WORD-END ;
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне K ;
 эсь+Use/Sub+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Pl:эсетне _КУДО-PersPronGen_CX-2 ;
 эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсеттне K ;
@@ -63,19 +76,12 @@ LEXICON PERS
 эсь+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсесттнэ K ;
 эсь+Refl+Pron+Gen+PxPl3+Pl:эсесттнэ _КУДО-PersPronGen_CX-2 ;
 !Dealing with short comings! need to be fixed
-эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Sg+Tra+InDef:эсетекс K ;
-эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Tra+InDef:эсетекс K ;
-эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Sg+Nom+Def:эсетесь K ;
-эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Sg+Gen+Def:эсетенть K ;
-эсь+Refl+Pron+DatCx+PxPl1+:эстенек K ;
-мон+Dial+Pron+Pers+Sg1+Abl+NoPoss:монде K ;
-тон+Dial+Pron+Pers+Sg2+Abl+NoPoss:тонде K ;
-
-мон+Dial+Pron+Pers+Sg1+Refl+Abe+NoPoss:монстеме K ;
-тон+Dial+Pron+Pers+Sg2+Refl+Abe+NoPoss:тонстеме K ;
-
-мон+Pron+Pers+Sg1+Pron+Dem:монете _КУДО-PersPronGen_CX ;
-тон+Pron+Pers+Sg2+Pron+Dem:тонете _КУДО-PersPronGen_CX ;
+эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Sg+Tra+InDef:эсетекс K ;
+эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Pl+Tra+InDef:эсетекс K ;
+эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Sg+Nom+Def:эсетесь K ;
+эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Sg+Gen+Def:эсетенть K ;
+эсь+Pron+Refl+DatCx+PxPl1+:эстенек K ;
+эстензэ+Pron+Refl+DatCx:эсте PossPX1 ; 
 
 !! Obligatory Possessor Index
 
@@ -87,9 +93,6 @@ LEXICON PERS
 ськамнинензэ+Pron+Exclusive+PerifMod+Der/не+Der/не:ськамнине N_КУДО-Poss-Declension-PossX ; 
 ! in the PRON_myv-lex.xml file !Dat-Pron ! тензэ+Pron+DAT:те PossPX1 ; 
 
-эстензэ+Refl+Pron+DatCx:эсте PossPX1 ; 
-эськанзо+Refl+Pron+Prl:эська PossPX1 ; 
-эськанзо+Refl+Pron+Prl+Prl:эськава PossPX1 ; 
 
 
 
