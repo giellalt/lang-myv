@@ -19,10 +19,10 @@ LEXICON Ill-Pron
 +Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PRON-INTERR-HUM_КИ !!Interr-Pers
-+Interr+Pers+Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
-+Interr+Pers+Hum+Sg+Nom: WORD-END ; 
-+Interr+Pers+Hum+Pl+Nom:%>тЬ2 WORD-END ; 
-+Interr+Pers+Hum: PRON-INTERR-HUM_КИ-OBL ;
++Pron+Interr+Pers+Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
++Pron+Interr+Pers+Hum+Sg+Nom: WORD-END ; 
++Pron+Interr+Pers+Hum+Pl+Nom:%>тЬ2 WORD-END ; 
++Pron+Interr+Pers+Hum: PRON-INTERR-HUM_КИ-OBL ;
 
 LEXICON PRON-INTERR-HUM_КИ-OBL
 +Abe:%>втО1мО1 WORD-END ;
@@ -32,6 +32,23 @@ LEXICON PRON-INTERR-HUM_КИ-OBL
 +Gen:%>нь WORD-END ;
 +Ill:%>с WORD-END ;
 +Ine:%>сО1 WORD-END ;
+
+LEXICON PRON-INTERR-OBJ_МЕЗЕ
++Pron+Interr+Obj: PossPX1-NomSg ;
++Pron+Interr+Obj: PossPX1 ;
++Pron+Interr+Obj: PRON-INTERR-OBJ_МЕЗЕ-OBL ;
++Pron+Interr+Obj: DER/PR_SG ; !!= @CODE@ singular
+
+LEXICON PRON-INTERR-OBJ_МЕЗЕ-OBL
++Abe:%>втО1мО1 WORD-END ;
++Com:%>шка WORD-END ;
++DatCx:%>нень WORD-END ;
++Ela:%>стО1 WORD-END ;
++Gen:%>нь WORD-END ;
++Ill:%>с WORD-END ;
++Ine:%>сО1 WORD-END ;
++Prl:%>ва WORD-END ;
++Tra:%>кс WORD-END ;
 
 
 LEXICON PRON-PERS-SG1 !! мон:мо
@@ -512,15 +529,12 @@ LEXICON  Indef_Pronouns
 !мезе+Adn+Dep+Gen:мень Indef_Pronouns-K-post ; !This one cannot take prefix
 мезе+Pron+Nom+Sg:мезе Indef_Pronouns-K ;
 мезе+Pron:мезь _ОШ-Indef_Pronouns-Cases ;
-мезе+Pron:мезе PossPX1 ;
-мезе+Pron:мезе PossPX1-NomSg ;
 !мезень+Pron+Interr+Gen:мезень Indef_Pronouns-K ;
 !мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
 мезе+Pron+Nom+Pl:мезть Indef_Pronouns-K ;
 мезе+Pron+Orth/PhonInfl+Nom+Pl:месть Indef_Pronouns-K ;
 мекс+Pron+Tra:мекс Indef_Pronouns-K ;
 !мезе+Pron:мейИ3 Indef_Pronouns-Cases ;
-!мезе+Pron+Tra:мезекс Indef_Pronouns-K ;
 !мезе+Pron+Abl:мезде Indef_Pronouns-K ;
 !мезе+Pron+DatCx:мезнень Indef_Pronouns-K ;
 !мезе+Pron+Abl+Def:мезденть Indef_Pronouns-K ;
