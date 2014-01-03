@@ -16,14 +16,16 @@
     <pos>ORD</pos>
 
     <mg>
-      <m>
-        <head/>
+      <semantics>
+        <sem class="MORFAS"/>
+      </semantics>
 
-        <defNative/>
-      </m>
+      <defNative/>
 
       <tg xml:lang="fin">
-        <t>ensimmäinen, ensi</t>
+        <t pos="A">ensimmäinen</t>
+
+        <t pos="A">ensi</t>
       </tg>
     </mg>
   </e>
@@ -220,30 +222,12 @@
 
   <e>
     <lg>
-      <l pos="DEM">верьсе</l>
-
-      <stg>
-        <st Contlex="DEM_АЛЦЕ">верьсе</st>
-      </stg>
-    </lg>
-
-    <pos>DEM</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+SOD</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="DEM">верце</l>
 
       <stg>
         <st Contlex="DEM_АЛЦЕ">верце</st>
+
+        <st Contlex="DEM_АЛЦЕ">верьсе</st>
       </stg>
     </lg>
 
@@ -423,7 +407,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">ненень</l>
+      <l pos="Pron" type="Dem">ненень</l>
 
       <stg>
         <st Contlex="DEM_">ненень</st>
@@ -449,7 +433,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">нень</l>
+      <l pos="Pron" type="Dem">нень</l>
 
       <stg>
         <st Contlex="ne-Dem">не</st>
@@ -476,7 +460,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">нете</l>
+      <l pos="Pron" type="Dem">нете</l>
 
       <stg>
         <st Contlex="te-Dem">нете</st>
@@ -503,7 +487,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">неть</l>
+      <l pos="Pron" type="Dem">неть</l>
 
       <stg>
         <st Contlex="ne-Dem">не</st>
@@ -543,7 +527,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">нонат</l>
+      <l pos="Pron" type="Dem">нонат</l>
 
       <stg>
         <st Contlex="ne-Dem">нона</st>
@@ -571,7 +555,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">нонатне</l>
+      <l pos="Pron" type="Dem">нонатне</l>
 
       <stg>
         <st Contlex="DEM_">нонатне</st>
@@ -597,7 +581,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">се</l>
+      <l pos="Pron" type="Dem">се</l>
 
       <stg>
         <st Contlex="vese-QNT">се</st>
@@ -637,7 +621,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">секе</l>
+      <l pos="Pron" type="Dem">секе</l>
 
       <stg>
         <st Contlex="vese-QNT">секе</st>
@@ -666,7 +650,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">сете</l>
+      <l pos="Pron" type="Dem">сете</l>
 
       <stg>
         <st Contlex="te-Dem">сете</st>
@@ -692,7 +676,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">сетне</l>
+      <l pos="Pron" type="Dem">сетне</l>
 
       <stg>
         <st Contlex="DEM_">сетне</st>
@@ -718,7 +702,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">сеть</l>
+      <l pos="Pron" type="Dem">сеть</l>
 
       <stg>
         <st Contlex="DEM_">сеть</st>
@@ -744,7 +728,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">те</l>
+      <l pos="Pron" type="Dem">те</l>
 
       <stg>
         <st Contlex="te-Dem">те</st>
@@ -784,7 +768,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">тевате</l>
+      <l pos="Pron" type="Dem">тевате</l>
 
       <stg>
         <st Contlex="te-Dem">тевате</st>
@@ -810,7 +794,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">теде</l>
+      <l pos="Pron" type="Dem">теде</l>
 
       <stg>
         <st Contlex="Dem-Abe">теде</st>
@@ -830,7 +814,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">теке</l>
+      <l pos="Pron" type="Dem">теке</l>
 
       <stg>
         <st Contlex="te-Dem">теке</st>
@@ -857,7 +841,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">текеде</l>
+      <l pos="Pron" type="Dem">текеде</l>
 
       <stg>
         <st Contlex="Dem-Abe">текеде</st>
@@ -884,7 +868,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">текенде</l>
+      <l pos="Pron" type="Dem">текенде</l>
 
       <stg>
         <st Contlex="Dem-Abe">текенде</st>
@@ -910,7 +894,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">тенде</l>
+      <l pos="Pron" type="Dem">тенде</l>
 
       <stg>
         <st Contlex="Dem-Abe">тенде</st>
@@ -936,7 +920,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">теньстэ</l>
+      <l pos="Pron" type="Dem">теньстэ</l>
 
       <stg>
         <st Contlex="Dem-Ela">теньстэ</st>
@@ -962,7 +946,7 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="DEM">теньсэ</l>
+      <l pos="Pron" type="Dem">теньсэ</l>
 
       <stg>
         <st Contlex="Dem-Ine">теньсэ</st>
@@ -989,7 +973,7 @@
 
   <e>
     <lg>
-      <l pos="DEM">тона</l>
+      <l pos="Pron" type="Dem">тона</l>
 
       <stg>
         <st Contlex="Dem-tona">тона</st>
