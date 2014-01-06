@@ -381,9 +381,9 @@ Multichar_Symbols
 ! connegative suffix rendering vowel
 !К3
 
-А1 А2 Г1 Г2 Г4 Ь2 Т1 О1 Ы2 К1 К3 К4 У2 И2 TLoss KLoss VLoss WLoss %>
+А1 А2 Г1 Г2 Г4 Ь2 Т1 О1 Ы2 К1 К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %>
 Н1
-%^О2 !! Suffix-initial archiphoneme
+%{ОЕЭ%0%} !! Suffix-initial archiphoneme
 %^Inf
 %^PATR
 %^FEM
@@ -903,7 +903,7 @@ LEXICON alo-SPAT-NoArg
 +Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
 +Adv+Spat+Loc+Der/се:%>се _КУДО-N2-Def-Declension ;
 +Adv+Spat+Der/кс:%>кс N_ОШ ;
-+Adv+Spat+Lat:%>%^О2в K ;
++Adv+Spat+Lat:%>%{ОЕЭ%0%}в K ;
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
@@ -921,7 +921,7 @@ LEXICON alo-SPAT-PoN
 +N+Loc:%>О1 K ;
 
 LEXICON kovolo-Spat
-+Interr+Spat+Lat+Indef:%>%^О2в K ;
++Interr+Spat+Lat+Indef:%>%{ОЕЭ%0%}в K ;
 +Interr+Spat+Abl+Indef:%>дО1 _КУДО-N2-Def-Declension ;
 +Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
 +Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
@@ -929,7 +929,7 @@ LEXICON kovolo-Spat
 +Interr+Spat+Loc:%>О1 K ; !_КУДО-Indef--Poss ; 
 +Interr+Spat+Prl:%>Г2а K ; !_КУДО-Indef--Poss ;
 
-+Rel+Spat+Lat+Indef:%>%^О2в K ;
++Rel+Spat+Lat+Indef:%>%{ОЕЭ%0%}в K ;
 +Rel+Spat+Abl+Indef:%>дО1 _КУДО-N2-Def-Declension ;
 +Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
 +Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
@@ -954,16 +954,16 @@ LEXICON _ОШ-Indef-DefSg-Poss
  _ОШ-Indef--Poss ;
 
 LEXICON _ОШ--DefSg-
-+Sg+Def:%>%^О2нть K ;
++Sg+Def:%>%{ОЕЭ%0%}нть K ;
 
 LEXICON _ОШ-Indef--Poss
 +Indef: _ОШ-Tenses-Obl ;
-+PxSg1:%>%^О2нЬ2 _КАЛ-Tenses-Obl ;
-+PxSg2:%>%^О2тЬ2 _КИТ-Tenses-Obl ;
-+PxSg3:%>%^О2нзО1 _КУДО-Tenses-Obl ;
-+PxPl1:%>%^О2нО1к _ЛАК-Tenses-Obl ;
-+PxPl2:%>%^О2нк _ЛАК-Tenses-Obl ;
-+PxPl3:%>%^О2ст _КИТ-Tenses-Obl ;
++PxSg1:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Tenses-Obl ;
++PxSg2:%>%{ОЕЭ%0%}тЬ2 _КИТ-Tenses-Obl ;
++PxSg3:%>%{ОЕЭ%0%}нзО1 _КУДО-Tenses-Obl ;
++PxPl1:%>%{ОЕЭ%0%}нО1к _ЛАК-Tenses-Obl ;
++PxPl2:%>%{ОЕЭ%0%}нк _ЛАК-Tenses-Obl ;
++PxPl3:%>%{ОЕЭ%0%}ст _КИТ-Tenses-Obl ;
 
 LEXICON _КУДО-Indef-DefSg-Poss
  _КУДО--DefSg- ;
@@ -971,7 +971,7 @@ LEXICON _КУДО-Indef-DefSg-Poss
  OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON _КУДО--DefSg-
-+Sg+Def:%>%^О2нть K ;
++Sg+Def:%>%{ОЕЭ%0%}нть K ;
 
 LEXICON _КУДО-Indef--Poss
 +Indef: _КУДО-Tenses-Obl ;
