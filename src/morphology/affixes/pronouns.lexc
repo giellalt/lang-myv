@@ -19,10 +19,10 @@ LEXICON Ill-Pron
 +Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PRON-INTERR-HUM_КИ !!Interr-Pers
-+Pron+Interr+Pers+Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
-+Pron+Interr+Pers+Hum+Sg+Nom: WORD-END ; 
-+Pron+Interr+Pers+Hum+Pl+Nom:%>тЬ2 WORD-END ; 
-+Pron+Interr+Pers+Hum: PRON-INTERR-HUM_КИ-OBL ;
++Pron+Interr+Pers+Sem/Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
++Pron+Interr+Pers+Sem/Hum+Sg+Nom: WORD-END ; 
++Pron+Interr+Pers+Sem/Hum+Pl+Nom:%>тЬ2 WORD-END ; 
++Pron+Interr+Pers+Sem/Hum: PRON-INTERR-HUM_КИ-OBL ;
 
 LEXICON PRON-INTERR-HUM_КИ-OBL
 +Abe:%>втО1мО1 WORD-END ;
@@ -34,10 +34,10 @@ LEXICON PRON-INTERR-HUM_КИ-OBL
 +Ine:%>сО1 WORD-END ;
 
 LEXICON PRON-INTERR-OBJ_МЕЗЕ
-+Pron+Interr+Obj: PossPX1-NomSg ;
-+Pron+Interr+Obj: PossPX1 ;
-+Pron+Interr+Obj: PRON-INTERR-OBJ_МЕЗЕ-OBL ;
-+Pron+Interr+Obj: DER/PR_SG ; !!= @CODE@ singular
++Pron+Interr+Sem/Obj: PossPX1-NomSg ;
++Pron+Interr+Sem/Obj: PossPX1 ;
++Pron+Interr+Sem/Obj: PRON-INTERR-OBJ_МЕЗЕ-OBL ;
++Pron+Interr+Sem/Obj: DER/PR_SG ; !!= @CODE@ singular
 
 LEXICON PRON-INTERR-OBJ_МЕЗЕ-OBL
 +Abe:%>втО1мО1 WORD-END ;

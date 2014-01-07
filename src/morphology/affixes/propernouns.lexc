@@ -79,25 +79,25 @@ LEXICON Deriv-RUS-ИН_SURMAL
 
 
 LEXICON PROP_КАЛ_SURMAL
-+N+Prop+Sur+Mal: N_КАЛ-Derivation ;
-+N+Prop+Sur+Mal: N_КАЛ-Def-Declension ;
-+N+Prop+Sur+Mal: _КАЛ-Indef-Declension ;
-+N+Prop+Sur+Mal: N_КАЛ-Poss-Declension-CX ;
++N+Prop+Sem/Sur+Sem/Mal: N_КАЛ-Derivation ;
++N+Prop+Sem/Sur+Sem/Mal: N_КАЛ-Def-Declension ;
++N+Prop+Sem/Sur+Sem/Mal: _КАЛ-Indef-Declension ;
++N+Prop+Sem/Sur+Sem/Mal: N_КАЛ-Poss-Declension-CX ;
 
 LEXICON PROP_КУДО_SURFEM
-+N+Prop+Sur+Fem: N_КУДО-Derivation ;
-+N+Prop+Sur+Fem: NMN_DEF-DECLENSION ;
-+N+Prop+Sur+Fem: _КУДО-Indef-Declension ;
-+N+Prop+Sur+Fem: N_КУДО-Poss-Declension-CX ;
++N+Prop+Sem/Sur+Sem/Fem: N_КУДО-Derivation ;
++N+Prop+Sem/Sur+Sem/Fem: NMN_DEF-DECLENSION ;
++N+Prop+Sem/Sur+Sem/Fem: _КУДО-Indef-Declension ;
++N+Prop+Sem/Sur+Sem/Fem: N_КУДО-Poss-Declension-CX ;
 
 LEXICON CYRL-CONS_SUR
  PROP_КАЛ_SUR ;
 
 LEXICON PROP_КАЛ_SUR
-+N+Prop+Sur: N_КАЛ-Derivation ;
-+N+Prop+Sur: N_КАЛ-Def-Declension ;
-+N+Prop+Sur: _КАЛ-Indef-Declension ;
-+N+Prop+Sur: N_КАЛ-Poss-Declension-CX ;
++N+Prop+Sem/Sur: N_КАЛ-Derivation ;
++N+Prop+Sem/Sur: N_КАЛ-Def-Declension ;
++N+Prop+Sem/Sur: _КАЛ-Indef-Declension ;
++N+Prop+Sem/Sur: N_КАЛ-Poss-Declension-CX ;
 
 
 LEXICON CYRL-Т_SUR
@@ -116,7 +116,7 @@ LEXICON CYRL-SIBILANT_SUR
  PROP_ОШ_SUR ;
 
 LEXICON PROP_ОШ_SUR
-+N+Prop+Sur: NMN_ОШ ;
++N+Prop+Sem/Sur: NMN_ОШ ;
 
 LEXICON CYRL-VOW_SUR
  PROP_КУДО_SUR ;
@@ -125,7 +125,7 @@ LEXICON CYRL-А_SUR
  PROP_КУДО_SUR ;
 
 LEXICON PROP_КУДО_SUR
-+N+Prop+Sur: NMN_КУДО ;
++N+Prop+Sem/Sur: NMN_КУДО ;
 
 
 
@@ -133,103 +133,103 @@ LEXICON PROP_КУДО_SUR
 !! Erzya Homestead names !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_КАЛ_HOMESTEAD
-+N+Prop+Plc: NMN_КАЛ ;
++N+Prop+Sem/Plc: NMN_КАЛ ;
 
 LEXICON PROP_ОШ_HOMESTEAD
-+N+Prop+Plc: NMN_ОШ ;
++N+Prop+Sem/Plc: NMN_ОШ ;
 
 LEXICON PROP_КУДО_HOMESTEAD
-+N+Prop+Plc: NMN_КУДО ;
++N+Prop+Sem/Plc: NMN_КУДО ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! PLACE NAMES FROM TEMPLATES !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_КАЛ_PLC
-+N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: NMN_КАЛ ;
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КАЛ ;
 
 LEXICON PROP_КИТ_PLC
-+N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: NMN_КИТ ;
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КИТ ;
 
 LEXICON PROP_ОШ_PLC
-+N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: NMN_ОШ ;
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_ОШ ;
 
 LEXICON PROP_КУДО_PLC
-+N+Prop+Plc:%> LAT-INDEF ;
-+N+Prop+Plc: NMN_КУДО ;
++N+Prop+Sem/Plc:%> LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КУДО ;
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Erzya settlements !!
 !!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_КАЛ_SETTLEMENT
-+N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: NMN_КАЛ ;
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КАЛ ;
 
 LEXICON PROP_КИТ_SETTLEMENT
-+N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: NMN_КИТ ;
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КИТ ;
 
 LEXICON PROP_ОШ_SETTLEMENT
-+N+Prop+Plc:%>О1 LAT-INDEF ;
-+N+Prop+Plc: NMN_ОШ ;
++N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_ОШ ;
 
 LEXICON PROP_КУДО_SETTLEMENT
-+N+Prop+Plc:%> LAT-INDEF ;
-+N+Prop+Plc: NMN_КУДО ;
++N+Prop+Sem/Plc:%> LAT-INDEF ;
++N+Prop+Sem/Plc: NMN_КУДО ;
 
 !!!!!!!!!!!!!!!!
 !! Divinities !!
 !!!!!!!!!!!!!!!!
 LEXICON PROP_КАЛ_DIVINITY
-+N+Prop+Hum+Divinity: NMN_КАЛ ;
++N+Prop+Sem/Hum+Sem/Divinity: NMN_КАЛ ;
 
 LEXICON PROP_ОШ_DIVINITY
-+N+Prop+Hum+Divinity: NMN_ОШ ;
++N+Prop+Sem/Hum+Sem/Divinity: NMN_ОШ ;
 
 LEXICON PROP_ПАНГО_DIVINITY
-+N+Prop+Hum+Divinity: NMN_ПАНГО ;
++N+Prop+Sem/Hum+Sem/Divinity: NMN_ПАНГО ;
 
 LEXICON PROP_КУДО_DIVINITY
-+N+Prop+Hum+Divinity: NMN_КУДО ;
++N+Prop+Sem/Hum+Sem/Divinity: NMN_КУДО ;
 
 !!!!!!!!!!!!!!!!!!!!
 !! Constellations !!
 !!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_КАЛ_CONSTELLATION
-+N+Prop+Constellation+Plc: NMN_КАЛ ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_КАЛ ;
 
 LEXICON PROP_ОШ_CONSTELLATION
-+N+Prop+Constellation+Plc: NMN_ОШ ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_ОШ ;
 
 LEXICON PROP_ОШ-PL_CONSTELLATION
-+N+Prop+Constellation+Plc+Pl: NMN_ОШ-PL ;
++N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_ОШ-PL ;
 
 LEXICON PROP_ПАНГО_CONSTELLATION
-+N+Prop+Constellation+Plc: NMN_ПАНГО ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_ПАНГО ;
 
 LEXICON PROP_КУДО_CONSTELLATION
-+N+Prop+Constellation+Plc: NMN_КУДО ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_КУДО ;
 
 LEXICON PROP_КУДО-PL_CONSTELLATION
-+N+Prop+Constellation+Plc+Pl: NMN_КУДО-PL ; 
++N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_КУДО-PL ; 
 
 LEXICON PROP_ТЕШТЕ_CONSTELLATION
-+N+Prop+Constellation+Plc: NMN_ТЕШТЕ ;
++N+Prop+Sem/Constellation+Sem/Plc: NMN_ТЕШТЕ ;
 
 
 !!!!!!!!!!!!!!!!
 !! TEXT NAMES !!
 !!!!!!!!!!!!!!!!
 LEXICON PROP_КАЛ_TXT
-+N+Prop+Txt: NMN_КАЛ ;
++N+Prop+Sem/Txt: NMN_КАЛ ;
 
 LEXICON PROP_ОШ_TXT
-+N+Prop+Txt: NMN_ОШ ;
++N+Prop+Sem/Txt: NMN_ОШ ;
 
 LEXICON PROP_КУДО_TXT
-+N+Prop+Txt: NMN_КУДО ;
++N+Prop+Sem/Txt: NMN_КУДО ;
 
 !!!!!!!!!!!!!!
 !! HOLIDAYS !!
@@ -303,17 +303,17 @@ LEXICON PROP_КУДО
 
 
 LEXICON PROP_КАЛ_MAL
-+N+Prop+Mal: NMN_КАЛ ;
++N+Prop+Sem/Mal: NMN_КАЛ ;
 
 LEXICON PROP_ЛАК_MAL
-+N+Prop+Mal: NMN_ЛАК ;
++N+Prop+Sem/Mal: NMN_ЛАК ;
 
 LEXICON PROP_КИТ_MAL
-+N+Prop+Mal: NMN_КИТ ;
++N+Prop+Sem/Mal: NMN_КИТ ;
 +N+Prop+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_ОШ_MAL
-+N+Prop+Mal: NMN_ОШ ;
++N+Prop+Sem/Mal: NMN_ОШ ;
 
 LEXICON PROP_ТЕШТЕ_MAL
  PROP_ПАНГО_MAL ;
@@ -322,23 +322,23 @@ LEXICON PROP_ТИНГЕ_MAL
  PROP_ПАНГО_MAL ;
 
 LEXICON PROP_ПАНГО_MAL
-+N+Prop+Mal: NMN_ПАНГО ;
++N+Prop+Sem/Mal: NMN_ПАНГО ;
 
 LEXICON PROP_КУДО_MAL
-+N+Prop+Mal: NMN_КУДО ;
++N+Prop+Sem/Mal: NMN_КУДО ;
 
 LEXICON PROP_КАЛ_FEM
-+N+Prop+Fem: NMN_КАЛ ;
++N+Prop+Sem/Fem: NMN_КАЛ ;
 
 LEXICON PROP_ЛАК_FEM
-+N+Prop+Fem: NMN_ЛАК ;
++N+Prop+Sem/Fem: NMN_ЛАК ;
 
 LEXICON PROP_КИТ_FEM
-+N+Prop+Fem: NMN_КИТ ;
-+N+Prop+Fem+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++N+Prop+Sem/Fem: NMN_КИТ ;
++N+Prop+Sem/Fem+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_ОШ_FEM
-+N+Prop+Fem: NMN_ОШ ;
++N+Prop+Sem/Fem: NMN_ОШ ;
 
 LEXICON PROP_ТЕШТЕ_FEM
  PROP_ПАНГО_FEM ;
@@ -347,23 +347,23 @@ LEXICON PROP_ТИНГЕ_FEM
  PROP_ПАНГО_FEM ;
 
 LEXICON PROP_ПАНГО_FEM
-+N+Prop+Fem: NMN_ПАНГО ;
++N+Prop+Sem/Fem: NMN_ПАНГО ;
 
 LEXICON PROP_КУДО_FEM
-+N+Prop+Fem: NMN_КУДО ;
++N+Prop+Sem/Fem: NMN_КУДО ;
 
 
 LEXICON PROP_ОШ_PATRMAL
-+N+Prop+Patr+Mal: N_ОШ-Derivation ;
-+N+Prop+Patr+Mal: N_ОШ-Def-Declension ;
-+N+Prop+Patr+Mal: _ОШ-Indef-Declension ;
-+N+Prop+Patr+Mal: N_ОШ-Poss-Declension-CX ;
++N+Prop+Sem/Patr+Sem/Mal: N_ОШ-Derivation ;
++N+Prop+Sem/Patr+Sem/Mal: N_ОШ-Def-Declension ;
++N+Prop+Sem/Patr+Sem/Mal: _ОШ-Indef-Declension ;
++N+Prop+Sem/Patr+Sem/Mal: N_ОШ-Poss-Declension-CX ;
 
 LEXICON PROP_КУДО_PATRFEM
-+N+Prop+Patr+Fem: N_КУДО-Derivation ;
-+N+Prop+Patr+Fem: NMN_DEF-DECLENSION ;
-+N+Prop+Patr+Fem: _КУДО-Indef-Declension ;
-+N+Prop+Patr+Fem: N_КУДО-Poss-Declension-CX ;
++N+Prop+Sem/Patr+Sem/Fem: N_КУДО-Derivation ;
++N+Prop+Sem/Patr+Sem/Fem: NMN_DEF-DECLENSION ;
++N+Prop+Sem/Patr+Sem/Fem: _КУДО-Indef-Declension ;
++N+Prop+Sem/Patr+Sem/Fem: N_КУДО-Poss-Declension-CX ;
 
 !! DECLENSION LIMITATIONS
 
