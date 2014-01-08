@@ -20,23 +20,23 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
-			stems/abbr.lexc			\
-			stems/acro.lexc			\
-	    		stems/punct.lexc	           \
-			affixes/clitics.lexc             \
-			stems/exceptions.lexc 	       \
-			stems/urj-Cyrl-propernouns.lexc  \
-			stems/rusMaleNameDer.lexc	     \
-	    		affixes/adjectives.lexc          \
-			affixes/adverbs.lexc             \
-			affixes/interjections.lexc             \
-			affixes/nonverbalConjugation.lexc            \
-			affixes/nouns.lexc               \
-			affixes/possessorindices.lexc            \
-			affixes/pronouns.lexc            \
-			affixes/postpositions.lexc            \
-			affixes/propernouns.lexc         \
-			affixes/quantifiers.lexc         \
+			stems/abbr.lexc			          \
+			stems/acro.lexc			          \
+			stems/punct.lexc	              \
+			affixes/clitics.lexc              \
+			stems/exceptions.lexc 	          \
+			stems/urj-Cyrl-propernouns.lexc   \
+			stems/rusMaleNameDer.lexc	      \
+			affixes/adjectives.lexc           \
+			affixes/adverbs.lexc              \
+			affixes/interjections.lexc        \
+			affixes/nonverbalConjugation.lexc \
+			affixes/nouns.lexc                \
+			affixes/possessorindices.lexc     \
+			affixes/pronouns.lexc             \
+			affixes/postpositions.lexc        \
+			affixes/propernouns.lexc          \
+			affixes/quantifiers.lexc          \
 			affixes/verbs.lexc
 
 #			stems/rusMaleNameDer.lexc	 
@@ -46,20 +46,20 @@ GT_LEXC_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 		stems/adjectives.lexc         \
-	    	stems/adverbs.lexc            \
-		stems/bahuvrihis.lexc        \
+		stems/adverbs.lexc            \
+		stems/bahuvrihis.lexc         \
 		stems/conjunctions.lexc       \
 		stems/demonstratives.lexc     \
 		stems/interjections.lexc      \
-		stems/nouns.lexc             \
+		stems/nouns.lexc              \
 		stems/noun-deverbal.lexc      \
 		stems/participles.lexc        \
-	        stems/particles.lexc          \
+		stems/particles.lexc          \
 		stems/postpositions.lexc      \
 		stems/pronouns.lexc           \
-		stems/propernouns.lexc       \
+		stems/propernouns.lexc        \
 		stems/quantifiers.lexc        \
-		stems/verbs-iv.lexc		\
+		stems/verbs-iv.lexc		      \
 		stems/verbs-tv.lexc
 
 
@@ -69,19 +69,19 @@ GENERATED_LEXC_SRCS=\
 GT_XML_SRCS=\
 		stems/adjectives.xml      \
 		stems/adverbs.xml         \
-		stems/bahuvrihis.xml      
+		stems/bahuvrihis.xml      \
 		stems/conjunctions.xml    \
 		stems/demonstratives.xml  \
 		stems/interjections.xml   \
 		stems/nouns.xml           \
 		stems/noun-deverbal.xml   \
 		stems/participles.xml     \
-		stems/particles.xml   	\
+		stems/particles.xml   	  \
 		stems/postpositions.xml   \
 		stems/propernouns.xml     \
 		stems/pronouns.xml        \
 		stems/quantifiers.xml     \
-		stems/verbs-iv.xml	\
+		stems/verbs-iv.xml	      \
 		stems/verbs-tv.xml
 
 
