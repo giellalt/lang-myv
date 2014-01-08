@@ -25,7 +25,6 @@ GT_LEXC_SRCS=\
 			stems/punct.lexc	              \
 			affixes/clitics.lexc              \
 			stems/exceptions.lexc 	          \
-			stems/urj-Cyrl-propernouns.lexc   \
 			stems/rusMaleNameDer.lexc	      \
 			affixes/adjectives.lexc           \
 			affixes/adverbs.lexc              \
@@ -40,11 +39,11 @@ GT_LEXC_SRCS=\
 			affixes/verbs.lexc
 
 #			stems/rusMaleNameDer.lexc	 
-
 #			stems/rusSurDer.lexc	
-#### GENERATED_LEXC_SRCS=stems/smi-$(GTLANG)-propernouns.lexc
+
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
+		stems/urj-Cyrl-propernouns.lexc \
 		stems/adjectives.lexc         \
 		stems/adverbs.lexc            \
 		stems/bahuvrihis.lexc         \
@@ -62,9 +61,6 @@ GENERATED_LEXC_SRCS=\
 		stems/verbs-iv.lexc		      \
 		stems/verbs-tv.lexc
 
-
-
-#			stems/urj-Cyrl-$(GTLANG)-propernouns.lexc        
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/adjectives.xml      \
@@ -85,18 +81,15 @@ GT_XML_SRCS=\
 		stems/verbs-tv.xml
 
 
-
-
-
+$(srcdir)/stems/smi-propernouns.lexc: \
+	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
+	$(AM_V_GEN)cp -f $< $@
 
 #stems/urj-Cyrl-$(GTLANG)-propernouns.lexc: stems/urj-Cyrl-propernouns.lexc  stems/$(GTLANG)-propernouns.lexc
 #	rm -f $@
 #	cp -f stems/$(GTLANG)-propernouns.lexc $@
 #	echo "! <--- Dump from URJ-CYRL -->" >> $@
 #	$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl $< >> $@
-
-
-
 
 include $(top_srcdir)/am-shared/lexc-include.am
 
