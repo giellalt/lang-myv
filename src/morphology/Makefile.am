@@ -81,7 +81,7 @@ GT_XML_SRCS=\
 		stems/verbs-tv.xml
 
 
-$(srcdir)/stems/smi-propernouns.lexc: \
+$(srcdir)/stems/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_GEN)cp -f $< $@
 
