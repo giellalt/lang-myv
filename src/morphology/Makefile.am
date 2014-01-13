@@ -47,7 +47,7 @@ GENERATED_LEXC_SRCS=\
 		stems/adjectives.lexc         \
 		stems/adverbs.lexc            \
 		stems/bahuvrihis.lexc         \
-		stems/conjunctions.lexc       \
+		stems/conjunctors.lexc       \
 		stems/demonstratives.lexc     \
 		stems/interjections.lexc      \
 		stems/nouns.lexc              \
@@ -66,7 +66,7 @@ GT_XML_SRCS=\
 		stems/adjectives.xml      \
 		stems/adverbs.xml         \
 		stems/bahuvrihis.xml      \
-		stems/conjunctions.xml    \
+		stems/conjunctors.xml    \
 		stems/demonstratives.xml  \
 		stems/interjections.xml   \
 		stems/nouns.xml           \
