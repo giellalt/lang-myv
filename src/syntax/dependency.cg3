@@ -52,6 +52,7 @@ LIST Recipr = Recipr ;
 LIST Poss = Poss ;
 LIST Interr = Interr ;
 LIST IM = IM ;
+LIST Po = Po ;
 
 LIST Nom = Nom ;
 #LIST Acc = Acc ;
@@ -120,18 +121,17 @@ LIST RIGHT = RIGHT ;
 
 LIST V* = V* ;
  
-SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
+SET WORD = N | V | A | Po | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
 
-LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Acc Gen
+LIST TAG = N V A Adv CC CS Interj Pr Pron Pers Det Refl Recipr Poss Nom Gen
 Dat Msc Fem Neu Sg Pl Def Indef Cmp Sup Prs Prt 1Sg 2Sg 3Sg Inf PrfPrc
 PrsPrc Sup Imp CLB PUNCT LEFT RIGHT ;
 
 
-LIST NAGD = Nom Acc Gen Dat ;
-LIST GENDER = Msc Fem Neu ;
+
 LIST NUMBER = Sg Pl ;
-LIST POS = N V A Adv Pr Pron ;
+LIST POS = N V A Adv Po Pron ;
 
 # Sets
 # ====
@@ -155,10 +155,7 @@ LIST PRENAGR = Det Dem A ;
 
 # Case sets
 
-SET NOTDAT = Nom | Gen | Acc ;
-SET NOTACC = Nom | Gen | Dat ;
-SET NOTACCDAT = Nom | Gen ;
-SET OBL = Acc | Dat | Gen ;
+
 
 #SET NO
 
@@ -369,7 +366,7 @@ LIST KONJ = CS CC ;
 LIST @-FARG = @-FOBJ @-FSUBJ ;
 SET @ARG = @SUBJ OR @OBJ OR @SPRED OR @OPRED OR @ADVL  ; #  OR @ICL-OBJ OR @<PPRED OR @ADVL>SUBJ
 SET @-FARG/ADVL = @-FARG ; # OR @-FADVL ;
-SET @ARG/ADVL = @ARG OR @ADVL - (@ADVL + CC) ;
+SET @ARG/ADVL = @ARG OR @ADVL ; # - (@ADVL + CC) ;
 SET @CLAUSE = @ARG/ADVL OR @-FARG/ADVL OR @V ;
 
 
@@ -441,15 +438,10 @@ SUBSTITUTE:SubV=icl (@IMV)(@<OBJ) TARGET Inf (-1 (@IM))(*-2 <mv>);
 SECTION
 
 
-### IM
-
-SETPARENT:r0 @IM TO (1 Inf);
 
 ### NP rules
 
 SETPARENT:r1 @>N TO (*1 N BARRIER NPNH);
-SETPARENT:r1adj @>N TO (*2 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 A);
-SETPARENT:r1adjcomma @>N TO (*3 Pr OR V OR S-BOUNDARY2 BARRIER NOT-A LINK -1 COMMA LINK -1 A);
 
 SETPARENT:r2 @CVP TO (-1 NOMINALHEAD);
 
@@ -458,24 +450,16 @@ SETPARENT:r3 ("sjálvur") TO (-1 ("seg"));
 SETPARENT:r4 ("sum" @CVP) TO (-1 N OR V);
 SETPARENT:r5 ("sum" @CVP) TO (*-1 N OR V BARRIER WORD);
 
-SETPARENT (A $$NAGD) TO (-1 CC)(-2 (A $$NAGD));  # Look at the cc structure !!
 
 SETPARENT:CCNP (@CNP)(-1 N) TO (*1 N BARRIER NPNH);
 	## Per og Kari
 
-SETPARENT:CCA (@CNP)(-1 $$POS + $$NAGD) TO (1 $$POS + $$NAGD);
-	## oydin og ber.
 
 SETPARENT @N< TO (*-1 N OR Pron BARRIER NPNH);
 	
-### PPs
 
-#SETPARENT:r6 @P< TO (*-1 Pr BARRIER NPNH);
-SETPARENT:r6 @P< TO (*-1 Pr BARRIER V);
 
-# SETPARENT:r6 @P< TO (*-1 Pr); would be an alternative.
 
-#SETPARENT:r6CC @P< TO (*-1 Pr LINK *1 CC);
 
 
 ### ellipse
