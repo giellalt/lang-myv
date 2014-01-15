@@ -16,9 +16,9 @@ POSSX4-DER/PR-SC3 ;
 LEXICON POSSX4-END
 !! _КУДО-Possessive-Word-Final
 +PxSg1:%>%{ОЕЭ%0%}нЬ2 WORD-END ;
-+PxSg1+Dial:%>%{ОЕЭ%0%}м WORD-END ;
++PxSg1+Use/Sub+Dial:%>%{ОЕЭ%0%}м WORD-END ;
 +PxSg2:%>%{ОЕЭ%0%}тЬ2 WORD-END ;
-+PxSg2+Dial:%>%{ОЕЭ%0%}нтЬ2 WORD-END ;
++PxSg2+Use/Sub+Dial:%>%{ОЕЭ%0%}нтЬ2 WORD-END ;
 +PxSg3:%>%{ОЕЭ%0%}нзО1 WORD-END ;
 +PxPl1:%>%{ОЕЭ%0%}нО1к WORD-END ;
 +PxPl2:%>%{ОЕЭ%0%}нк WORD-END ;
@@ -26,9 +26,9 @@ LEXICON POSSX4-END
 
 LEXICON POSSX4-END-DAT
 +PxSg1:%>%{ОЕЭ%0%}нЬ2 WORD-END ;
-+PxSg1+Dial:%>%{ОЕЭ%0%}м WORD-END ;
++PxSg1+Use/Sub+Dial:%>%{ОЕЭ%0%}м WORD-END ;
 +PxSg2:%>%{ОЕЭ%0%}тЬ2 WORD-END ;
-+PxSg2+Dial:%>%{ОЕЭ%0%}нтЬ2 WORD-END ;
++PxSg2+Use/Sub+Dial:%>%{ОЕЭ%0%}нтЬ2 WORD-END ;
 +PxSg3:%>%{ОЕЭ%0%}нзО1 WORD-END ;
 +PxPl1:%>%{ОЕЭ%0%}нО1к WORD-END ;
 +PxPl2:%>%{ОЕЭ%0%}нк WORD-END ;
@@ -39,9 +39,9 @@ LEXICON POSSX4-END-DAT
 LEXICON POSSX4-DER/PR-SC3
 !! Conjugation
 +PxSg1:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Conjugation ;
-+PxSg1+Dial:%>%{ОЕЭ%0%}м _КАЛ-Conjugation ;
++PxSg1+Use/Sub+Dial:%>%{ОЕЭ%0%}м _КАЛ-Conjugation ;
 +PxSg2:%>%{ОЕЭ%0%}тЬ2 _КИТ-Conjugation ;
-+PxSg2+Dial:%>%{ОЕЭ%0%}нтЬ2 _КИТ-Conjugation ;
++PxSg2+Use/Sub+Dial:%>%{ОЕЭ%0%}нтЬ2 _КИТ-Conjugation ;
 +PxSg3:%>%{ОЕЭ%0%}нзО1 DER/PR4_OBL-SC3 ;
 +PxPl1:%>%{ОЕЭ%0%}нО1к _ЛАК-Conjugation ;
 +PxPl2:%>%{ОЕЭ%0%}нк _ЛАК-Conjugation ;
@@ -86,7 +86,7 @@ LEXICON N_КАЛ-Derivation-WITH-POSSX
 +Sg+Gen+PxSg1:%>%{ОЕЭ%0%}нЬ2%> N2Dem-SE ;
 +Sg+Gen+PxSg1:%>%{ОЕЭ%0%}м%> N2Dem-SE ;
 +Sg+Gen+PxSg2:%>%{ОЕЭ%0%}тЬ2%> N2Dem-SE ;
-+Sg+Gen+PxSg2+Dial:%>%{ОЕЭ%0%}нтЬ2%> N2Dem-SE ;
++Sg+Gen+PxSg2+Use/Sub+Dial:%>%{ОЕЭ%0%}нтЬ2%> N2Dem-SE ;
 +Sg+Gen+PxSg3:%>%{ОЕЭ%0%}нзО1%> N2Dem-SE ;
 +Sg+Gen+PxPl1:%>%{ОЕЭ%0%}нО1к%> N2Dem-SE ;
 +Sg+Gen+PxPl2:%>%{ОЕЭ%0%}нк%> N2Dem-SE ;
@@ -95,9 +95,9 @@ LEXICON N_КАЛ-Derivation-WITH-POSSX
 
 LEXICON POSSX-OBL4-N2DEM-SE
 +PxSg1:%{ОЕЭ%0%}нЬ2%> N2Dem-SE ;
-+PxSg1+Dial:%{ОЕЭ%0%}м N2Dem-SE ;
++PxSg1+Use/Sub+Dial:%{ОЕЭ%0%}м N2Dem-SE ;
 +PxSg2:%>%{ОЕЭ%0%}тЬ2%> N2Dem-SE ;
-+Use/-Spell+PxSg2+Dial:%>%{ОЕЭ%0%}нтЬ2 N2Dem-SE ;
++Use/-Spell+PxSg2+Use/Sub+Dial:%>%{ОЕЭ%0%}нтЬ2 N2Dem-SE ;
 +PxSg3:%>%{ОЕЭ%0%}нзО1 N2Dem-SE ;
 +PxPl1:%>%{ОЕЭ%0%}нО1к N2Dem-SE ;
 +PxPl2:%>%{ОЕЭ%0%}нк N2Dem-SE ;
@@ -116,24 +116,24 @@ LEXICON	DAT-PXSG1
 
 LEXICON	DAT-PXSG2
 +DatCx+PxSg2:%>%{ОЕЭ%0%}тень K ;
-+Dial+DatCx+PxSg2:%>%{ОЕЭ%0%}теть K ;
-+Dial+DatCx+PxSg2:%>%{ОЕЭ%0%}те K ;
++Use/Sub+Dial+DatCx+PxSg2:%>%{ОЕЭ%0%}теть K ;
++Use/Sub+Dial+DatCx+PxSg2:%>%{ОЕЭ%0%}те K ;
 
 LEXICON	DAT-PXSG3
 +DatCx+PxSg30000@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нстэнь@U.DECL-NX.SG@ K ;
-+Dial+DatCx+PxSg3:%>%{ОЕЭ%0%}нстО1 K ;
-+Dial+DatCx+PxSg3:%>%{ОЕЭ%0%}нстэнзэ K ;
++Use/Sub+Dial+DatCx+PxSg3:%>%{ОЕЭ%0%}нстО1 K ;
++Use/Sub+Dial+DatCx+PxSg3:%>%{ОЕЭ%0%}нстэнзэ K ;
 
 !!LEXICON	DAT-PXPL1
 
 LEXICON	DAT-PXPL2
-+Dial+DatCx+PxPl2:%>%{ОЕЭ%0%}нстэнк K-lak ;
++Use/Sub+Dial+DatCx+PxPl2:%>%{ОЕЭ%0%}нстэнк K-lak ;
 
 LEXICON	DAT-PXPL3
 +DatCx+PxPl30000@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нстэнь@U.DECL-NX.SG@ K ;
-+Dial+DatCx+PxPl3:%>%{ОЕЭ%0%}нстО1 K ;
-+Dial+DatCx+PxPl3:%>%{ОЕЭ%0%}нстэнст K ;
-+Dial+DatCx+PxPl3:%>%{ОЕЭ%0%}нстэст K ;
++Use/Sub+Dial+DatCx+PxPl3:%>%{ОЕЭ%0%}нстО1 K ;
++Use/Sub+Dial+DatCx+PxPl3:%>%{ОЕЭ%0%}нстэнст K ;
++Use/Sub+Dial+DatCx+PxPl3:%>%{ОЕЭ%0%}нстэст K ;
 
 
 LEXICON SG-GEN-PX
@@ -150,11 +150,11 @@ LEXICON SG-GEN-PXSG1
 
 LEXICON SG-GEN-PXSG2
 +Sg+Gen+PxSg20@U.DECL-NX.SG@:%>%{ОЕЭ%0%}тЬ2@U.DECL-NX.SG@ _КИТ-Conjugation ;
-+Sg+Gen+PxSg2+Dial0@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.SG@ _КИТ-Conjugation ;
++Sg+Gen+PxSg2+Use/Sub+Dial@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.SG@ _КИТ-Conjugation ;
 
 LEXICON SG-GEN-PXSG3
 +Sg+Gen+PxSg300@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нзО1@U.DECL-NX.SG@ _КУДО-Conjugation ;
-+Sg+Gen+PxSg3+Inanim+Dial@U.DECL-NX.SG@:%>%{ОЕЭ%0%}зО10@U.DECL-NX.SG@ _КУДО-Conjugation ;
++Sg+Gen+PxSg3+Inanim+Use/Sub+Dial@U.DECL-NX.SG@:%>%{ОЕЭ%0%}зО1000@U.DECL-NX.SG@ _КУДО-Conjugation ;
 
 LEXICON SG-GEN-PXPL1
 +Sg+Gen+PxPl100@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нО1к@U.DECL-NX.SG@ _ЛАК-Conjugation ;
@@ -185,7 +185,7 @@ LEXICON SG-NOM-PXSG3
 +Sg+Nom+PxSg30@U.DECL-NX.SG@:%>%{ОЕЭ%0%}зО1@U.DECL-NX.SG@ _КУДО-NomSg-Conjugation ;
 LEXICON SG-NOM-PXPL1
 +Sg+Nom+PxPl100@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нО1к@U.DECL-NX.SG@ _ЛАК-NomSg-Conjugation ;
-+Sg+Nom+PxPl1+Dial0@U.DECL-NX.SG@:%>%{ОЕЭ%0%}мО1к@U.DECL-NX.SG@ _ЛАК-NomSg-Conjugation ;
++Sg+Nom+PxPl1+Use/Sub+Dial@U.DECL-NX.SG@:%>%{ОЕЭ%0%}мО1к@U.DECL-NX.SG@ _ЛАК-NomSg-Conjugation ;
 LEXICON SG-NOM-PXPL2
 +Sg+Nom+PxPl20@U.DECL-NX.SG@:%>%{ОЕЭ%0%}нк@U.DECL-NX.SG@ _ЛАК-NomSg-Conjugation ;
 LEXICON SG-NOM-PXPL3
@@ -201,10 +201,10 @@ LEXICON PL-GEN-PX
 
 LEXICON PL-GEN-PXSG1
 +Pl+Gen+PxSg10@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}нЬ2@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@ _КАЛ-Conjugation-4Poss ;
-+Pl+Gen+PxSg1+Dial@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м0@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@ _КАЛ-Conjugation-4Poss ;
++Pl+Gen+PxSg1+Use/Sub+Dial@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м00@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@ _КАЛ-Conjugation-4Poss ;
 LEXICON PL-GEN-PXSG2
 +Pl+Gen+PxSg20@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}тЬ2@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@ _КИТ-Conjugation-4Poss ;
-+Pl+Gen+PxSg2+Dial0@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@ _КИТ-Conjugation-4Poss ;
++Pl+Gen+PxSg2+Use/Sub+Dial@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@ _КИТ-Conjugation-4Poss ;
 LEXICON PL-GEN-PXSG3
 +Pl+Gen+PxSg300@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@:%>%{ОЕЭ%0%}нзО1@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@ _КУДО-Conjugation-4Poss ;
 LEXICON PL-GEN-PXPL1
@@ -228,13 +228,13 @@ LEXICON PL-NOM-PX
 LEXICON PL-NOM-PXSG1
 +Pl+Nom+PxSg10@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}нЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ _КАЛ-NomPl-Conjugation-4Poss ;
 +Pl+Nom+PxSg10@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}нЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ K ;
-+Pl+Nom+PxSg1+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ _КАЛ-NomPl-Conjugation-4Poss ;
++Pl+Nom+PxSg1+Use/Sub+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м00@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@ _КАЛ-NomPl-Conjugation-4Poss ;
 
 LEXICON PL-NOM-PXSG2
 +Pl+Nom+PxSg20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}тЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ _КИТ-NomPl-Conjugation-4Poss ;
 +Pl+Nom+PxSg20@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}тЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ K ;
-+Pl+Nom+PxSg2+Dial0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ _КИТ-NomPl-Conjugation-4Poss ;
-+Pl+Nom+PxSg2+Dial0@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ K ;
++Pl+Nom+PxSg2+Use/Sub+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ _КИТ-NomPl-Conjugation-4Poss ;
++Pl+Nom+PxSg2+Use/Sub+Dial@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@ K ;
 LEXICON PL-NOM-PXSG3
 +Pl+Nom+PxSg300@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@:%>%{ОЕЭ%0%}нзО1@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@ _КУДО-NomPl-Conjugation-4Poss ;
 
@@ -270,22 +270,22 @@ LEXICON N_КУДО-Poss-Declension-PossX
 
 LEXICON N-Poss-Declension-PossX_01
 +PxSg1000@U.PossPx.Sg1@:%>%{ОЕЭ%0%}нЬ2@U.PossPx.Sg1@ _КУДО-Tenses1-4Inf ;
-+Dial+PxSg10@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м@U.PossPx.Sg1@ _КУДО-Tenses1-4Inf ;
++Use/Sub+Dial+PxSg1@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м@U.PossPx.Sg1@ _КУДО-Tenses1-4Inf ;
 +PxSg2000@U.PossPx.Sg2@:%>%{ОЕЭ%0%}тЬ2@U.PossPx.Sg2@ _КУДО-Tenses1-4Inf ;
-+Dial+PxSg2000@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.PossPx.Sg2@ _КУДО-Tenses1-4Inf ;
++Use/Sub+Dial+PxSg200@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.PossPx.Sg2@ _КУДО-Tenses1-4Inf ;
 +PxSg30000@U.PossPx.Sg3@:%>%{ОЕЭ%0%}нзО1@U.PossPx.Sg3@ _КУДО-Tenses1-4Inf ;
 +PxPl10000@U.PossPx.Pl1@:%>%{ОЕЭ%0%}нО1к@U.PossPx.Pl1@ _КУДО-Tenses1-4Inf ;
 +PxPl2000@U.PossPx.Pl2@:%>%{ОЕЭ%0%}нк@U.PossPx.Pl2@ _КУДО-Tenses1-4Inf ;
 +PxPl3000@U.PossPx.Pl3@:%>%{ОЕЭ%0%}ст@U.PossPx.Pl3@ _КУДО-Tenses1-4Inf ;
-+Dial+PxPl300@U.PossPx.Pl3@:%>%{ОЕЭ%0%}ск@U.PossPx.Pl3@ _КУДО-Tenses1-4Inf ;
++Use/Sub+Dial+PxPl30@U.PossPx.Pl3@:%>%{ОЕЭ%0%}ск@U.PossPx.Pl3@ _КУДО-Tenses1-4Inf ;
 
 
 LEXICON Possessive-NomGen
-+Sg+Nom+PxSg1/м:%>%{ОЕЭ%0%}м _КАЛ-Tenses-NomSg ;
-+Dial+Pl+Nom+PxSg1/м:%>%{ОЕЭ%0%}м _КАЛ-Tenses-NomPl ;
-+Gen+PxSg1/м:%>%{ОЕЭ%0%}м _КАЛ-Tenses-Obl ;
-+Pl+Nom+PxSg1/Н:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Tenses-NomPl ;
-+Gen+PxSg1/Н:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Tenses-Obl ;
++Sg+Nom+PxSg1:%>%{ОЕЭ%0%}м _КАЛ-Tenses-NomSg ;
++Use/Sub+Dial+Pl+Nom+PxSg1:%>%{ОЕЭ%0%}м _КАЛ-Tenses-NomPl ;
++Gen+PxSg1:%>%{ОЕЭ%0%}м _КАЛ-Tenses-Obl ;
++Pl+Nom+PxSg1:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Tenses-NomPl ;
++Gen+PxSg1:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Tenses-Obl ;
 +Sg+Nom+PxSg2:%>%{ОЕЭ%0%}тЬ2 _КИТ-Tenses-NomSg ;
 +Pl+Nom+PxSg2:%>%{ОЕЭ%0%}тЬ2 _КИТ-Tenses-NomPl ;
 +Gen+PxSg2:%>%{ОЕЭ%0%}тЬ2 _КИТ-Tenses-Obl ;
@@ -295,7 +295,7 @@ LEXICON Possessive-NomGen
 +Sg+Nom+PxPl1:%>%{ОЕЭ%0%}нО1к _ЛАК-Tenses-NomSg ;
 +Pl+Nom+PxPl1:%>%{ОЕЭ%0%}нО1к _ЛАК-Tenses-NomPl ;
 +Gen+PxPl1:%>%{ОЕЭ%0%}нО1к _ЛАК-Tenses-Obl ;
-+Dial+Sg+Nom+PxPl1:%>%{ОЕЭ%0%}мО1к _ЛАК-Tenses-NomSg ;
++Use/Sub+Dial+Sg+Nom+PxPl1:%>%{ОЕЭ%0%}мО1к _ЛАК-Tenses-NomSg ;
 +Sg+Nom+PxPl2:%>%{ОЕЭ%0%}нк _ЛАК-Tenses-NomSg ;
 +Pl+Nom+PxPl2:%>%{ОЕЭ%0%}нк _ЛАК-Tenses-NomPl ;
 +Gen+PxPl2:%>%{ОЕЭ%0%}нк _ЛАК-Tenses-Obl ;
@@ -304,12 +304,12 @@ LEXICON Possessive-NomGen
 +Gen+PxPl3:%>%{ОЕЭ%0%}ст _КИТ-Tenses-Obl ;
 
 LEXICON Possessives2-PxSg1
-+Dial+PxSg1:%>%{ОЕЭ%0%}м _КАЛ-Determinatives1 ;
++Use/Sub+Dial+PxSg1:%>%{ОЕЭ%0%}м _КАЛ-Determinatives1 ;
 +PxSg1:%>%{ОЕЭ%0%}нЬ2 _КАЛ-Determinatives1 ;
 
 LEXICON Possessives2-PxSg2
 +PxSg2:%>%{ОЕЭ%0%}тЬ2 _КИТ-Determinatives1 ;
-+Dial+PxSg2:%>%{ОЕЭ%0%}нтЬ2 _КИТ-Determinatives1 ;
++Use/Sub+Dial+PxSg2:%>%{ОЕЭ%0%}нтЬ2 _КИТ-Determinatives1 ;
 
 LEXICON Possessives2-PxSg3
 +PxSg3:%>%{ОЕЭ%0%}нзО1 _КУДО-Determinatives1 ;
@@ -324,19 +324,19 @@ LEXICON Possessives2-PxPl2
 
 LEXICON Possessives2-PxPl3
 +PxPl3:%>%{ОЕЭ%0%}ст _КИТ-Determinatives1 ;
-+Dial+PxPl3:%>ск _ЛАК-Determinatives1 ;
-+Dial+PxPl3:%>нст _КИТ-Determinatives1 ;
++Use/Sub+Dial+PxPl3:%>ск _ЛАК-Determinatives1 ;
++Use/Sub+Dial+PxPl3:%>нст _КИТ-Determinatives1 ;
 
 LEXICON Possessive-Before-K-noArrow
 +PxSg1:нЬ2 K ;
-+PxSg1+Dial:м K ;
++PxSg1+Use/Sub+Dial:м K ;
 +PxSg2:тЬ2 K ;
-+PxSg2+Dial:нтЬ2 K ;
++PxSg2+Use/Sub+Dial:нтЬ2 K ;
 +PxSg3:нзО1 K ;
 +PxPl1:нО1к K-lak ;
 +PxPl2:нк K-lak ;
 +PxPl3:ст K ;
-+Dial+PxPl3:ск K ;
++Use/Sub+Dial+PxPl3:ск K ;
 
 LEXICON OBL-PX4-END-FOC_or_END
  OBL-PX-FOLLOWED-BY-END-OR-FOC ;
@@ -353,11 +353,11 @@ LEXICON OBL-PX-FOLLOWED-BY-END-OR-FOC
 
 LEXICON OBL-PX4-END-FOC_PXSG1
 +PxSg1000@U.PossPx.Sg1@:%>%{ОЕЭ%0%}нЬ2@U.PossPx.Sg1@ K ;
-+Dial+PxSg10@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м@U.PossPx.Sg1@ K ;
++Use/Sub+Dial+PxSg1@U.PossPx.Sg1@:%>%{ОЕЭ%0%}м@U.PossPx.Sg1@ K ;
 
 LEXICON OBL-PX4-END-FOC_PXSG2
 +PxSg2000@U.PossPx.Sg2@:%>%{ОЕЭ%0%}тЬ2@U.PossPx.Sg2@		K ;
-+Dial+PxSg2000@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.PossPx.Sg2@ 	K ;
++Use/Sub+Dial+PxSg200@U.PossPx.Sg2@:%>%{ОЕЭ%0%}нтЬ2@U.PossPx.Sg2@ 	K ;
 
 LEXICON OBL-PX4-END-FOC_PXSG3
 +PxSg30000@U.PossPx.Sg3@:%>%{ОЕЭ%0%}нзО1@U.PossPx.Sg3@ K ;
@@ -370,8 +370,8 @@ LEXICON OBL-PX4-END-FOC_PXPL2
 
 LEXICON OBL-PX4-END-FOC_PXPL3
 +PxPl3000@U.PossPx.Pl3@:%>%{ОЕЭ%0%}ст@U.PossPx.Pl3@ K ;
-+Dial+PxPl300@U.PossPx.Pl3@:%>%{ОЕЭ%0%}ск@U.PossPx.Pl3@ K ;
-+Dial+PxPl3000@U.PossPx.Pl3@:%>%{ОЕЭ%0%}нст@U.PossPx.Pl3@ K ;
++Use/Sub+Dial+PxPl30@U.PossPx.Pl3@:%>%{ОЕЭ%0%}ск@U.PossPx.Pl3@ K ;
++Use/Sub+Dial+PxPl300@U.PossPx.Pl3@:%>%{ОЕЭ%0%}нст@U.PossPx.Pl3@ K ;
 
 
 
