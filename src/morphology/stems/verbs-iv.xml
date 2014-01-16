@@ -27621,6 +27621,12 @@
 
     <mg>
       <defNative>Апитнейгадомс.</defNative>
+      <tg xml:lang="fin">
+        <t pos="V">halveta</t>
+
+        <t pos="V">halventua</t>
+      </tg>
+
     </mg>
   </e>
 
@@ -30038,9 +30044,8 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">kuolla (eläimistä, huonosta ihmisestä)</t>
-
-        <t pos="V" val="IV">здравоохранения terveydenhoito</t>
+<tCtn>
+        <t pos="V" val="IV">kuolla</t><re>eläimistä, huonosta ihmisestä</re></tCtn>
       </tg>
 
       <xg>
@@ -31459,7 +31464,7 @@
       <tg xml:lang="fin">
         <t pos="V" val="IV">villiintyä</t>
 
-        <t pos="V" val="IV">кискась идемкстась koira villiintyi</t>
+        <xg><x>кискась идемкстась</x><xt>koira villiintyi</xt></xg>
       </tg>
     </mg>
   </e>
@@ -33049,10 +33054,6 @@
         <t pos="V" val="IV">ahavoitua</t>
 
         <t pos="V" val="IV">karheutua</t>
-
-        <t pos="V" val="IV">иржаня karkea</t>
-
-        <t pos="V" val="IV">karhea</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -33190,10 +33191,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">murista</t>
-
-        <t pos="V" val="IV">иронизировамс ivata</t>
-
-        <t pos="V" val="IV">ivailla</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -33223,6 +33220,11 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">ivata</t>
+
+        <t pos="V" val="IV">ivailla</t>
+      </tg>
     </mg>
   </e>
 
@@ -35146,6 +35148,23 @@
     </mg>
   </e>
 
+  <e exclude="fst">
+    <lg>
+      <l pos="V" val="IV">пря кайсемс</l>
+
+      <stg>
+        <st Contlex="IV_КУНДАМС">пря кайсе</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative></defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V">olla työskentelemättä</t>
+      </tg>
+</mg>
+</e>
   <e>
     <lg>
       <l pos="V" val="IV">кайсекшнэвемс</l>
@@ -38504,6 +38523,11 @@
 
     <mg>
       <defNative>Ушодомс. Кундамс тевс.</defNative>
+      <tg xml:lang="fin">
+        <t pos="V">ruveta</t>
+
+        <t pos="V">alkaa</t>
+      </tg>
 
       <xg>
         <x>Кармамс кочкомо. Кармамс нуеме. Кармамс кудонь чапомо.</x>
@@ -44423,8 +44447,6 @@
         <t pos="V" val="IV">loimuta</t>
 
         <t pos="V" val="IV">liekehtiä</t>
-
-        <t pos="V" val="IV">кирвастемс sytyttää (palamaan)</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -45069,10 +45091,6 @@
         <t pos="V" val="IV">kouristua</t>
 
         <t pos="V" val="IV">käpristyä</t>
-
-        <t pos="V" val="IV">кирнявтнемс hyppiä</t>
-
-        <t pos="V" val="IV">hypellä</t>
       </tg>
 
       <xg>
@@ -45141,6 +45159,25 @@
 
     <mg>
       <defNative/>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="IV">кирнявтнемс</l>
+
+      <stg>
+        <st Contlex="IV_КУНДАМС">кирнявтне</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">hyppiä</t>
+
+        <t pos="V" val="IV">hypellä</t>
+      </tg>
     </mg>
   </e>
 
@@ -45939,25 +45976,22 @@
         <t pos="V" val="IV">iloita</t>
 
         <t pos="V" val="IV">huvitella</t>
-
-        <t pos="V" val="IV">киштинь кудо tanssisali</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="V" val="IV">кишчузювекшнемс</l>
+      <l pos="V" val="IV">киштезевекшнемс</l>
 
       <stg>
-        <st Contlex="IV_НЕКШНЕМС">кишчузювекшн</st>
+        <st Contlex="IV_НЕКШНЕМС">киштезевекшн</st>
       </stg>
     </lg>
 
     <mg>
       <m>
         <head>
-          <tags>+Dial+Verb</tags>
         </head>
       </m>
     </mg>
@@ -47534,22 +47568,11 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">колмонзась</morph>
-
-      <morph type="V">колмонзакшнось</morph>
-
-      <morph type="V">колмонзакшномс</morph>
-    </morphg>
-
     <mg>
       <defNative>Саемс колмоксть.</defNative>
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">kolminkertaistaa</t>
-
-        <t pos="Num">колмонь-колмонь kolmestaan</t>
-
         <t pos="Num">kolmistaan</t>
       </tg>
 
@@ -51988,8 +52011,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">kukkua</t>
-
-        <t pos="V" val="IV">куколокшо (bot.) kielo</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -52198,10 +52219,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">kukkua</t>
-
-        <t pos="V" val="IV">кукорьгадомс vetäytyä kokoon</t>
-
-        <t pos="V" val="IV">käpristyä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -52291,6 +52308,11 @@
       <defNative>Кирмицявомс, мендявомс. Кирмицявозь мадемс. Кельмемс. Валскес
       сави козоньгак кукорьгадомс.</defNative>
 
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">vetäytyä kokoon</t>
+
+        <t pos="V" val="IV">käpristyä</t>
+      </tg>
       <tg xml:lang="rus">
         <t pos="V" val="IV">съёжиться</t>
 
@@ -54793,8 +54815,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">lihoa</t>
-
-        <t pos="V" val="IV">куяр (bot.) kurkku</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -55903,9 +55923,8 @@
         <t pos="V" val="IV">järjestyä</t>
 
         <t pos="V" val="IV">tulla kuntoon</t>
-
-        <t pos="V" val="IV">эрямось ладявсь elämä tuli kuntoon</t>
-      </tg>
+</tg><xg>
+        <x>эрямось ладявсь</x><xt>elämä tuli kuntoon</xt></xg>
     </mg>
   </e>
 
@@ -55971,10 +55990,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">alkaa parkua</t>
-
-        <t pos="V" val="IV">лажакадомс kitkeröityä</t>
-
-        <t pos="V" val="IV">härskiintyä</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -56027,10 +56042,10 @@
     <mg>
       <defNative>Теевемс растемекс. Сэпшкадомс.</defNative>
 
-      <tg xml:lang="rus">
-        <t pos="V" val="IV">зашуметь</t>
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">kitkeröityä</t>
 
-        <t pos="V" val="IV">заволноваться</t>
+        <t pos="V" val="IV">härskiintyä</t>
       </tg>
 
       <xg>
@@ -56062,6 +56077,11 @@
 
     <mg>
       <defNative>Ушодомс лажномо, нолдамс весть лажномавайгель.</defNative>
+      <tg xml:lang="rus">
+        <t pos="V" val="IV">зашуметь</t>
+
+        <t pos="V" val="IV">заволноваться</t>
+      </tg>
     </mg>
   </e>
 
@@ -57042,6 +57062,9 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">makeutua</t>
+      </tg>
     </mg>
   </e>
 
@@ -59228,10 +59251,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">lämmetä</t>
-
-        <t pos="V" val="IV">лембине lämpöinen</t>
-
-        <t pos="V" val="IV">lämmin</t>
       </tg>
 
       <xg>
@@ -61932,8 +61951,6 @@
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">muuttua</t>
-
-        <t pos="V" val="IV">лиялемс jäädä jälkeen</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -61955,6 +61972,9 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">jäädä jälkeen</t>
+      </tg>
     </mg>
   </e>
 
@@ -62684,8 +62704,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">лопнямс syödä (nälkäisenä) nopeasti</t>
-
+<tCtn>
+        <t pos="V" val="IV">syödä</t><re>(nälkäisenä) nopeasti</re>
+</tCtn>
         <t pos="V" val="IV">ahmia</t>
       </tg>
 
@@ -65964,16 +65985,17 @@
     </lg>
 
     <morphg>
-      <morph type="V">мазылгадсь</morph>
-
-      <morph type="V">мазылгадокшнось</morph>
-
       <morph type="V">мазылгалемс</morph>
     </morphg>
 
     <mg>
       <defNative>Теевемс мазыекс.</defNative>
 
+      <tg xml:lang="fin">
+        <t pos="V">kaunistua</t>
+
+        <t pos="V">koristautua</t>
+      </tg>
       <tg xml:lang="rus">
         <t pos="V" val="IV">похорошеть</t>
 
@@ -74783,32 +74805,6 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">нилензамс</l>
-
-      <stg>
-        <st Contlex="IV_КУНДАМС">ниленза</st>
-      </stg>
-    </lg>
-
-    <morphg>
-      <morph type="V">нилензась</morph>
-
-      <morph type="V">нилензакшнось</morph>
-
-      <morph type="V">нилензакшномс</morph>
-    </morphg>
-
-    <mg>
-      <defNative>Лиякс</defNative>
-
-      <tg xml:lang="rus">
-        <t pos="V" val="IV">учетверить</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="IV">нилтякадомс</l>
 
       <stg>
@@ -78301,6 +78297,13 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">nääntyä</t>
+
+        <t pos="V">uupua</t>
+
+        <t pos="V">hiutua</t>
+      </tg>
 
       <tg xml:lang="rus">
         <t pos="V" val="IV">изнуриться</t>
@@ -82214,18 +82217,21 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">отказямс</l>
+      <l pos="V" val="IV">отказамс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">отказя</st>
+        <st Contlex="IV_КУНДАМС">отказа</st>
       </stg>
     </lg>
 
     <mg>
       <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V">kieltäytyä</t>
+      </tg>
     </mg>
   </e>
-
   <e>
     <lg>
       <l pos="V" val="IV">откстомкшномс</l>
@@ -102498,6 +102504,11 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">törmätä</t>
+
+        <t pos="V">iskeytyä</t>
+      </tg>
     </mg>
   </e>
 
@@ -121980,17 +121991,14 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">терьгиясь</morph>
-
-      <morph type="V">терьгиякшнось</morph>
-
-      <morph type="V">терьгиякшномс</morph>
-    </morphg>
-
     <mg>
       <defNative>Тустомомс. Теевемс таргавицякс, нурьгицякс.</defNative>
 
+      <tg xml:lang="fin">
+        <t pos="V">tulla hyytelömäiseksi</t>
+
+        <t pos="V">tahriutua hyytelöön</t>
+      </tg>
       <tg xml:lang="rus">
         <t pos="V" val="IV">стать студенистым</t>
       </tg>
@@ -148601,15 +148609,14 @@
     </lg>
 
     <morphg>
-      <morph type="V">чуролгадсь</morph>
-
-      <morph type="V">чуролгадокшнось</morph>
-
       <morph type="V">чуролгалемс</morph>
     </morphg>
 
     <mg>
       <defNative>Теевемс чурокс.</defNative>
+      <tg xml:lang="fin">
+        <t pos="V">harveta</t>
+      </tg>
 
       <tg xml:lang="rus">
         <t pos="V" val="IV">поредеть</t>
@@ -150052,6 +150059,15 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="V">tuppautua</t>
+
+        <t pos="V">tunkeutua</t>
+
+        <t pos="V">kyllästyttää</t>
+
+        <t pos="V">ikävystyttää</t>
+      </tg>
     </mg>
   </e>
 
