@@ -38,35 +38,35 @@ GT_LEXC_SRCS=\
 			affixes/quantifiers.lexc          \
 			affixes/verbs.lexc
 
-#			stems/rusMaleNameDer.lexc	 
-#			stems/rusSurDer.lexc	
+#			stems/rusMaleNameDer.lexc
+#			stems/rusSurDer.lexc
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		stems/urj-Cyrl-propernouns.lexc \
-		stems/adjectives.lexc         \
-		stems/adverbs.lexc            \
-		stems/bahuvrihis.lexc         \
-		stems/conjunctors.lexc       \
-		stems/demonstratives.lexc     \
-		stems/interjections.lexc      \
-		stems/nouns.lexc              \
-		stems/noun-deverbal.lexc      \
-		stems/participles.lexc        \
-		stems/particles.lexc          \
-		stems/postpositions.lexc      \
-		stems/pronouns.lexc           \
-		stems/propernouns.lexc        \
-		stems/quantifiers.lexc        \
-		stems/verbs-iv.lexc		      \
-		stems/verbs-tv.lexc
+		$(srcdir)/stems/urj-Cyrl-propernouns.lexc \
+		$(srcdir)/stems/adjectives.lexc         \
+		$(srcdir)/stems/adverbs.lexc            \
+		$(srcdir)/stems/bahuvrihis.lexc         \
+		$(srcdir)/stems/conjunctors.lexc        \
+		$(srcdir)/stems/demonstratives.lexc     \
+		$(srcdir)/stems/interjections.lexc      \
+		$(srcdir)/stems/nouns.lexc              \
+		$(srcdir)/stems/noun-deverbal.lexc      \
+		$(srcdir)/stems/participles.lexc        \
+		$(srcdir)/stems/particles.lexc          \
+		$(srcdir)/stems/postpositions.lexc      \
+		$(srcdir)/stems/pronouns.lexc           \
+		$(srcdir)/stems/propernouns.lexc        \
+		$(srcdir)/stems/quantifiers.lexc        \
+		$(srcdir)/stems/verbs-iv.lexc           \
+		$(srcdir)/stems/verbs-tv.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/adjectives.xml      \
 		stems/adverbs.xml         \
 		stems/bahuvrihis.xml      \
-		stems/conjunctors.xml    \
+		stems/conjunctors.xml     \
 		stems/demonstratives.xml  \
 		stems/interjections.xml   \
 		stems/nouns.xml           \
@@ -77,7 +77,7 @@ GT_XML_SRCS=\
 		stems/propernouns.xml     \
 		stems/pronouns.xml        \
 		stems/quantifiers.xml     \
-		stems/verbs-iv.xml	      \
+		stems/verbs-iv.xml        \
 		stems/verbs-tv.xml
 
 
