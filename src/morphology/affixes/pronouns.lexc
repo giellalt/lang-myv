@@ -489,12 +489,17 @@ LEXICON  Indef_Pronouns-pref
 +Der/таго0000@P.INDEF.PREF@:таго%-@P.INDEF.PREF@ Indef_Pronouns ;
 
 
+LEXICON PRON-INDEF-HUM_КИ-БУТИ
++Pron+Indef+Sem/Hum+Sg+Nom:е INDEF-IN-БУТИ ;
++Pron+Indef+Sem/Hum+Sg+Nom: INDEF-IN-БУТИ ;
++Pron+Indef+Sem/Hum+Pl+Nom:ть INDEF-IN-БУТИ ;
++Pron+Indef+Sem/Hum+SP+Gen:нь INDEF-IN-БУТИ ;
++Pron+Indef+Sem/Hum+SP+Abl:де INDEF-IN-БУТИ ;
+
 
 LEXICON  Indef_Pronouns
 
 
-кие+Pron+Nom+Sg:кие Indef_Pronouns-K ;
-кие+Pron+Nom+Sg:ки Indef_Pronouns-K ;
 !ко+Pron:ко Indef_Pronouns-Cases ;
 ков+Pron+Lat:ков Indef_Pronouns-K ;
 косо+Pron+Ine:косо Indef_Pronouns-K ;
@@ -630,6 +635,8 @@ LEXICON _КУДО-Indef_Pronouns-Cases
 +Pl+Nom+PxPl2:%>нк Indef_Pronouns-K ;
 +Pl+Nom+PxPl3:%>ст Indef_Pronouns-K ;
 
+LEXICON INDEF-IN-БУТИ
++Der/бути:%-бути WORD-END ;
 
 LEXICON Indef_Pronouns-K
 @R.INDEF.PREF@ Indef_Pronouns-K-pref ;
