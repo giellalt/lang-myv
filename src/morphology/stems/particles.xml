@@ -32,14 +32,12 @@
 
   <e>
     <lg>
-      <l pos="Pcle">а</l>
+      <l pos="Pcle" type="Qst">а</l>
 
       <stg>
-        <st Contlex="PCLE-NEG">а</st>
+        <st Contlex="PCLE-QST">а</st>
       </stg>
     </lg>
-
-    <pos>PCLE_NEG</pos>
 
     <phonet>a</phonet>
 
@@ -47,12 +45,31 @@
       <m>
         <head/>
 
+        <defNative></defNative>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="Pcle" type="Qst">entä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Pcle" type="Neg">а</l>
+
+      <stg>
+        <st Contlex="PCLE-NEG">а</st>
+      </stg>
+    </lg>
+
+    <phonet>a</phonet>
+
+    <mg>
         <defNative>частица. I 1) Вал пелькскесь ёвтави теема валонь, прявт
         лемень, лем тюсонь ды вал пельксэнь невтиця валонь икеле, зярдо
         кортыцясь снарты ёвтамо сенде, мезе эзь нее эли мезе а теи, эли мезе
         тензэ а максыть. Вал пелькскенть мельга молиця валонть смустезэ
         кардави. Смустезэ малавикс «аволь» валонтень.</defNative>
-      </m>
 
       <tg xml:lang="fin">
         <t>en, et, ei, emme, ette, eivät</t>
