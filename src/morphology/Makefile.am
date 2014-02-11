@@ -91,6 +91,6 @@ $(srcdir)/stems/urj-Cyrl-propernouns.lexc: \
 #	echo "! <--- Dump from URJ-CYRL -->" >> $@
 #	$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl $< >> $@
 
-include $(top_srcdir)/am-shared/lexc-include.am
+include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
 # vim: set ft=automake:
