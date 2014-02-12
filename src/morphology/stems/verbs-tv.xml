@@ -3990,7 +3990,7 @@
       <l pos="V" val="TV">аштемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">аште</st>
+        <st Contlex="TV_КУНДАМС-Obj3">аште</st>
       </stg>
     </lg>
 
@@ -4034,7 +4034,7 @@
       <l pos="V" val="TV">аштнекшнемс</l>
 
       <stg>
-        <st Contlex="TV_НЕКШНЕМС-ObjAll">аштнекшн</st>
+        <st Contlex="TV_НЕКШНЕМС-Obj3">аштнекшн</st>
       </stg>
     </lg>
 
@@ -4048,7 +4048,7 @@
       <l pos="V" val="TV">аштокшномс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">аштокшно</st>
+        <st Contlex="TV_КУНДАМС-Obj3_SUB">аштокшно</st>
       </stg>
     </lg>
 
@@ -4062,7 +4062,7 @@
       <l pos="V" val="TV">аштомс</l>
 
       <stg>
-        <st Contlex="TV_САВТОМС-ObjAll">ашт</st>
+        <st Contlex="TV_САВТОМС-Obj3_SUB">ашт</st>
       </stg>
     </lg>
 
@@ -4163,8 +4163,8 @@
 
       <tg xml:lang="fin">
         <t pos="V">siepata</t>
-
-        <t pos="V">(kuv.) varastaa</t>
+<tCtn>
+        <t pos="V">varastaa</t><re>kuv.</re></tCtn>
       </tg>
     </mg>
   </e>
@@ -72100,14 +72100,14 @@
     </lg>
 
     <mg>
-      <m>
-        <head>
-          <tags>+Caus</tags>
-        </head>
-      </m>
+      <defNative/>
 
+      <tg xml:lang="eng">
+        <tf pos="V">let sleep</tf>
+      </tg>
       <tg xml:lang="fin">
         <t pos="V">nukuttaa</t>
+        <tf pos="V">antaa nukkua</tf>
       </tg>
     </mg>
   </e>
@@ -72117,7 +72117,7 @@
       <l pos="V" val="TV">удомс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">удо</st>
+        <st Contlex="TV_КУНДАМС-Obj3">удо</st>
       </stg>
     </lg>
 
@@ -72150,6 +72150,34 @@
 
   <e>
     <lg>
+      <l pos="V" val="TV">удомс</l>
+
+      <stg>
+        <st Contlex="TV_КУНДАМС-ObjAll">удо</st>
+      </stg>
+    </lg>
+
+    <morphg>
+      <morph type="V">удсемс</morph>
+    </morphg>
+
+    <mg>
+      <defNative>паскомс</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V">naida</t>
+      </tg>
+
+      <xg>
+        <x>Тейтеренть удызе.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">удсевтемс</l>
 
       <stg>
@@ -72158,9 +72186,6 @@
     </lg>
 
     <morphg>
-      <morph type="V">удсевтсь</morph>
-
-      <morph type="V">удсевтекшнесь</morph>
 
       <morph type="V">удсевтнемс</morph>
     </morphg>
@@ -72180,10 +72205,6 @@
     </lg>
 
     <morphg>
-      <morph type="V">удсевтнесь</morph>
-
-      <morph type="V">удсевтнекшнесь</morph>
-
       <morph type="V">удсевтнекшнемс</morph>
     </morphg>
 
@@ -72559,10 +72580,6 @@
       <tg xml:lang="rus">
         <t pos="V">выдолбить</t>
 
-        <t pos="V">выдолбить</t>
-
-        <t pos="V">выковырять</t>
-
         <t pos="V">выковырять</t>
 
         <t pos="V">сверлить</t>
@@ -72708,10 +72725,6 @@
     </lg>
 
     <morphg>
-      <morph type="V">урадсь</morph>
-
-      <morph type="V">урадокшнось</morph>
-
       <morph type="V">уралемс</morph>
     </morphg>
 
@@ -72825,9 +72838,9 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">heittää pois</t>
+        <tf pos="V">heittää pois</tf>
 
-        <t pos="V">viskata pois</t>
+        <tf pos="V">viskata pois</tf>
       </tg>
     </mg>
   </e>
@@ -72895,8 +72908,6 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">жениться</t>
-
         <t pos="V">жениться</t>
 
         <t pos="V">женить</t>
@@ -72979,7 +72990,9 @@
       <tg xml:lang="rus">
         <t pos="V">убирать</t>
 
-        <t pos="V">убрать. Спрятать</t>
+        <t pos="V">убрать</t>
+
+        <t pos="V">спрятать</t>
       </tg>
 
       <xg>
@@ -73082,7 +73095,7 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">Везти. Стащить. Дёрнуть</t>
+        <t pos="V">стащить</t>
 
         <t pos="V">везти</t>
 
@@ -74547,7 +74560,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">схватить. Взяться</t>
+        <t pos="V">схватить</t>
+
+        <t pos="V">взяться</t>
       </tg>
 
       <xg>
@@ -74689,7 +74704,7 @@
       <tg xml:lang="rus">
         <t pos="V">налиться</t>
 
-        <t pos="V">вздуться(половодье)</t>
+        <t pos="V">вздуться (половодье)</t>
       </tg>
     </mg>
   </e>
@@ -74905,7 +74920,9 @@
       </m>
 
       <tg xml:lang="rus">
-        <t pos="V">ударить. Загреметь</t>
+        <t pos="V">ударить</t>
+
+        <t pos="V">загреметь</t>
       </tg>
     </mg>
   </e>
@@ -75023,7 +75040,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">сложить. Сосчитать</t>
+        <t pos="V">сложить</t>
+
+        <t pos="V">сосчитать</t>
       </tg>
 
       <xg>
@@ -75117,7 +75136,9 @@
       аволдазь.</defNative>
 
       <tg xml:lang="rus">
-        <t pos="V">срезать под корень. Хлестнуть</t>
+        <t pos="V">срезать под корень</t>
+
+        <t pos="V">хлестнуть</t>
       </tg>
 
       <xg>
@@ -75903,7 +75924,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">заквасить. Замочить (яблоки)</t>
+        <t pos="V">заквасить</t>
+
+        <t pos="V">замочить (яблоки)</t>
       </tg>
     </mg>
   </e>
@@ -76087,8 +76110,6 @@
         <t pos="V">качать</t>
 
         <t pos="V">клониться</t>
-
-        <t pos="V">качать</t>
 
         <t pos="V">крутить</t>
       </tg>
@@ -77930,7 +77951,9 @@
       <tg xml:lang="rus">
         <t pos="V">замесить</t>
 
-        <t pos="V">взболтнуть. Помять</t>
+        <t pos="V">взболтнуть</t>
+
+        <t pos="V">помять</t>
       </tg>
 
       <xg>
@@ -78044,7 +78067,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">затачивать. Чесать</t>
+        <t pos="V">затачивать</t>
+
+        <t pos="V">чесать</t>
       </tg>
 
       <xg>
@@ -78312,7 +78337,9 @@
       <tg xml:lang="rus">
         <t pos="V">окунуть</t>
 
-        <t pos="V">нырнуть. Утонуть</t>
+        <t pos="V">нырнуть</t>
+
+        <t pos="V">утонуть</t>
       </tg>
     </mg>
   </e>
@@ -78428,7 +78455,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">застегнуть. Вцепиться в волосы</t>
+        <t pos="V">застегнуть</t>
+
+        <t pos="V">вцепиться в волосы</t>
       </tg>
 
       <xg>
@@ -78775,10 +78804,6 @@
       <tg xml:lang="rus">
         <t pos="V">встряхнуть</t>
 
-        <t pos="V">встряхнуть</t>
-
-        <t pos="V">стряхнуть</t>
-
         <t pos="V">стряхнуть</t>
       </tg>
 
@@ -78826,8 +78851,6 @@
 
       <tg xml:lang="rus">
         <t pos="V">вытряхивать</t>
-
-        <t pos="V">вытряхивать. Толочь</t>
 
         <t pos="V">толочь</t>
 
@@ -78983,10 +79006,6 @@
 
       <tg xml:lang="rus">
         <t pos="V">винить</t>
-
-        <t pos="V">винить</t>
-
-        <t pos="V">обвинять</t>
 
         <t pos="V">обвинять</t>
       </tg>
@@ -79681,8 +79700,6 @@
       <tg xml:lang="rus">
         <t pos="V">хвалить</t>
 
-        <t pos="V">хвалить</t>
-
         <t pos="V">рекомендовать</t>
       </tg>
     </mg>
@@ -80333,7 +80350,11 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">греть. Согревать. Привораживал</t>
+        <t pos="V">греть</t>
+
+        <t pos="V">согревать</t>
+
+        <t pos="V">привораживал</t>
       </tg>
 
       <xg>
@@ -80996,7 +81017,7 @@
       <l pos="V" val="TV">эрямс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">эря</st>
+        <st Contlex="TV_КУНДАМС-Obj3">эря</st>
       </stg>
     </lg>
 
@@ -81009,7 +81030,7 @@
     <etymg>
       <etym>[æ-]</etym>
 
-      <etym xml:lang="sme">orrutэрямс косояк</etym>
+      <etym xml:lang="sme">orrut эрямс косояк</etym>
     </etymg>
 
     <mg>
@@ -81098,8 +81119,6 @@
         <t pos="V">поторопить</t>
 
         <t pos="V">приободрить</t>
-
-        <t pos="V">приободрить. Поторопить</t>
       </tg>
     </mg>
   </e>
@@ -81302,7 +81321,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">набивать. Залезать</t>
+        <t pos="V">набивать</t>
+
+        <t pos="V">залезать</t>
 
         <t pos="V">лезть</t>
       </tg>
@@ -81609,7 +81630,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">развязать. Расстегнуть</t>
+        <t pos="V">развязать</t>
+
+        <t pos="V">расстегнуть</t>
       </tg>
 
       <xg>
@@ -81871,8 +81894,6 @@
 
       <tg xml:lang="rus">
         <t pos="V">выполнить</t>
-
-        <t pos="V">выполнить. Потратить. Провести</t>
 
         <t pos="V">потратить</t>
 
@@ -82658,7 +82679,9 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">молоть. Сломать</t>
+        <t pos="V">молоть</t>
+
+        <t pos="V">сломать</t>
 
         <t pos="V">ломать</t>
       </tg>
@@ -83040,7 +83063,7 @@
       <tg xml:lang="fin">
         <t pos="V">kylmetä</t>
 
-        <t pos="V">alkaa pakastaa</t>
+        <tf pos="V">alkaa pakastaa</tf>
       </tg>
 
       <tg xml:lang="rus">
