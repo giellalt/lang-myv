@@ -728,10 +728,10 @@
 
   <e>
     <lg>
-      <l pos="Pron" type="Dem">те</l>
+      <l pos="Det" type="Dem">те</l>
 
       <stg>
-        <st Contlex="te-Dem">те</st>
+        <st Contlex="DET-DEM_ТЕ">те</st>
       </stg>
     </lg>
 
@@ -768,24 +768,20 @@
 
   <e>
     <lg>
-      <l pos="Pron" type="Dem">тевате</l>
+      <l pos="Det" type="Dem">тевате</l>
 
       <stg>
-        <st Contlex="te-Dem">тевате</st>
+        <st Contlex="DET-DEM_ТЕ">тевате</st>
       </stg>
     </lg>
 
     <pos>DEM</pos>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Невтема вал. Вана те.</defNative>
-      </m>
 
       <xg>
-        <x>Тевате ломанесь парс а ветятанзат. Тевате монень а эряви.</x>
+        <x>Тевате ломанесь парс а ветятанзат.</x>
 
         <xt/>
       </xg>
@@ -814,21 +810,20 @@
 
   <e>
     <lg>
-      <l pos="Pron" type="Dem">теке</l>
+      <l pos="Det" type="Dem">теке</l>
 
       <stg>
-        <st Contlex="te-Dem">теке</st>
+        <st Contlex="DET-DEM_ТЕ">теке</st>
       </stg>
     </lg>
 
     <pos>DEM</pos>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Ансяк те. Вейкине. Ськамонзо.</defNative>
-      </m>
+      <tg xml:lang="fin">
+        <tf pos="Pron">juuri tämä</tf>
+      </tg>
 
       <xg>
         <x>Панаром кадовсь теке, лия арась. Эрян теке кудосонть. Ялгам кадовсь
@@ -1043,51 +1038,82 @@
 
   <e>
     <lg>
-      <l pos="DEM">васенце</l>
+      <l pos="Det" type="Dem">васенце</l>
 
       <stg>
-        <st Contlex="DEM_АЛЦЕ">васенце</st>
+        <st Contlex="DET-DEM_АЛЦЕ">васенце</st>
+      </stg>
+    </lg>
+    <mg>
+        <defNative/>
+            <tg xml:lang="fin">
+	      <tf pos="Pron">ensimmäinen</tf>
+      </tg>
+
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num" type="Ord">вететькс</l>
+
+      <stg>
+        <st Contlex="ORD_ОШ">вететькс</st>
       </stg>
     </lg>
 
-    <pos>DEM</pos>
-
-    <morphg>
-      <morph type="N">васенцесэ</morph>
-
-      <morph type="N">васенцень</morph>
-    </morphg>
-
     <mg>
       <m>
-        <head/>
-
-        <defNative/>
+        <head>
+          <tags>+Inanim+Cnt</tags>
+        </head>
       </m>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="DEM">васолце</l>
+      <l pos="Num" type="Ord">ветеце</l>
 
       <stg>
-        <st Contlex="DEM_АЛЦЕ">васолце</st>
+        <st Contlex="ORD_КУДО">ветеце</st>
       </stg>
     </lg>
 
-    <pos>DEM</pos>
+    <mg>
+      <m>
+        <head>
+          <tags>+Inanim+Cnt</tags>
+        </head>
+      </m>
+            <tg xml:lang="fin">
+              <t pos="Num" type="Ord">viides</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Ord">пятый</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Det" type="Dem">васолце</l>
+
+      <stg>
+        <st Contlex="DET-DEM_АЛЦЕ">васолце</st>
+      </stg>
+    </lg>
 
     <etymg>
       <etym etymType="hypotheticalErzya" xml:lang="myv"><constituent>васол+се</constituent></etym>
     </etymg>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative/>
-      </m>
+            <tg xml:lang="fin">
+              <tf pos="Pron">kaukainen</tf>
+      </tg>
     </mg>
   </e>
 </r>
