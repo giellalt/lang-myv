@@ -449,6 +449,9 @@ LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done
 LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done 
 +Pron+Interr+Spat+Prl: # ;
 
+LEXICON PRON-IS-INTERR-ELA !!= @CODE@ мейстэ
++Pron+Interr+Ela: # ;
+
 LEXICON PRON-IS-INTERR-TEMP !!= @CODE@ зярдо
 +Pron+Interr+Temp: # ;
 
@@ -738,6 +741,15 @@ LEXICON Misc_Pronouns1
 +Adn: WORD-END ;
  PossPX1-NomSg ; !2012-08-09 Removing NomGen
 +Gen: PossPX1 ; !2012-08-09 Removing NomGen
+
+LEXICON PRON-DEM_ТЕ
++Pron+Dem: _КУДО-Misc_Pronouns_Sg ;
+
+LEXICON PRON-DEM_ВАСЕНЦЕ
++Pron+Det+Ord: _КУДО-Misc_Pronouns_Sg ;
+
+LEXICON PRON-DEM_КУДО !!= * __@CODE@__ алце
++Pron+Dem: NMN_КУДО ;
 
 LEXICON te-Dem
 +Pron: _КУДО-Misc_Pronouns_Sg ;

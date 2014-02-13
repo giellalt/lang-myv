@@ -352,21 +352,12 @@
 
     <phonet>a vańks</phonet>
 
-    <morphg>
-      <morph type="N">а ванькссо</morph>
-
-      <morph type="N">а ваньксэнь</morph>
-
-      <morph type="N">а ванькске</morph>
-    </morphg>
-
     <mg>
-      <m>
-        <head/>
-
         <defNative>Аволь ванькс. Каргоць. Апак шля. Апак ванськавто. Берянь. А
         маштовиця.</defNative>
-      </m>
+      <tg xml:lang="fin">
+        <t pos="A">likainen</t>
+      </tg>
 
       <xg>
         <x>Ваканось вельть а ванькс, эряви шлямс. Панарось а ванькс, эряви
@@ -1822,20 +1813,6 @@
 
       <stg>
         <st Contlex="A_RU-ОЙ">авантюристической</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">аванькс</l>
-
-      <stg>
-        <st Contlex="A_ОШ">аванькс</st>
       </stg>
     </lg>
 
@@ -4619,6 +4596,10 @@
         Валось невти а улемань чарькодема. Ёвтави сестэ, зярдо эряви невтемс
         мезеньгак аразьчи.</defNative>
       </m>
+      <tg xml:lang="fin">
+        <te pos="A">sellainen, joka puuttuu</te>
+      </tg>
+
 
       <xg>
         <x>Арась кши. Арасть ярмакт. Те ломаненть панарозояк арась, яки
@@ -6737,6 +6718,10 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">erikoinen</t>
+        <t pos="A">erillinen</t>
+      </tg>
     </mg>
   </e>
 
@@ -8192,6 +8177,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">nopea</t>
+      </tg>
     </mg>
   </e>
 
@@ -9710,6 +9698,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">valoisa</t>
+      </tg>
     </mg>
   </e>
 
@@ -9724,6 +9715,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">valoton</t>
+      </tg>
     </mg>
   </e>
 
@@ -9905,16 +9899,18 @@
     </morphg>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Аволь рудазов. Аволь каргоць.</defNative>
-      </m>
 
       <tg xml:lang="fin">
         <t pos="A">puhdas</t><t pos="A">siisti</t><t pos="A">raikas</t>
 
         <t pos="A">vilpitön</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="N">аккуратный</t>
+        <t pos="N">чистый</t>
+        <t pos="N">прозрачный</t>
       </tg>
 
       <xg>
@@ -9923,6 +9919,24 @@
 
         <xt/>
       </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="N">ванькске</l>
+
+      <stg>
+        <st Contlex="N_КУДО">ванькске</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head>
+          <tags>+DimKE+Inanim+Cnt</tags>
+        </head>
+      </m>
     </mg>
   </e>
 
@@ -10139,6 +10153,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">kaukainen</t>
+      </tg>
     </mg>
   </e>
 
@@ -11611,6 +11628,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">kylvävä</t>
+      </tg>
     </mg>
   </e>
 
@@ -11807,6 +11827,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">metsäinen</t>
+      </tg>
     </mg>
   </e>
 
@@ -11975,6 +11998,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">oikea</t>
+      </tg>
 
       <tg xml:lang="fra">
         <t pos="A">droite</t>
@@ -12031,12 +12057,10 @@
       <semantics>
         <sem class="MORFAS"/>
       </semantics>
-
-      <m>
-        <head/>
-
         <defNative>Вишкине.</defNative>
-      </m>
+      <tg xml:lang="fin">
+        <t pos="A">pieni</t>
+      </tg>
     </mg>
   </e>
 
@@ -22407,6 +22431,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">kasvava</t>
+      </tg>
     </mg>
   </e>
 
@@ -23414,12 +23441,30 @@
       </stg>
     </lg>
 
+    <etymg>
+      <etym>[-æ-е-]</etym>
+    </etymg>
     <mg>
-      <m>
-        <head>
-          <tags>+Deverbal</tags>
-        </head>
-      </m>
+      <defNative>Калгодо. Нардев.</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="A">vahva</t>
+        <t pos="A">jykevä</t>
+        <t pos="A">luja</t>
+        <t pos="A">kestävä</t>
+        <t pos="A">luotettava</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="A">твердый</t>
+        <t pos="A">прочный</t>
+        <t pos="A">крепкий</t>
+      </tg>
+      <xg>
+        <x>Чувтось кеме, узерьсэ а лаксеви. Те пиксэсь кеме, а сезеви.</x>
+
+        <xt/>
+      </xg>
     </mg>
   </e>
 
@@ -27343,6 +27388,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">koditon</t>
+      </tg>
     </mg>
   </e>
 
@@ -31132,12 +31180,11 @@
       <semantics>
         <sem class="MORFAS"/>
       </semantics>
-
-      <m>
-        <head/>
-
         <defNative>мазый</defNative>
-      </m>
+      <tg xml:lang="fin">
+        <t pos="A">kaunis</t>
+      </tg>
+
     </mg>
   </e>
 
@@ -42173,6 +42220,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">pilvetön</t>
+      </tg>
     </mg>
   </e>
 
@@ -42995,6 +43045,10 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">keittävä</t>
+        <t pos="A">hitsaava</t>
+      </tg>
     </mg>
   </e>
 
@@ -43444,40 +43498,26 @@
 
   <e>
     <lg>
-      <l pos="A">питнев</l>
+      <l pos="A">питней</l>
 
       <stg>
+        <st Contlex="A_КАЛ">питней</st>
         <st Contlex="A_КАЛ">питнев</st>
       </stg>
     </lg>
 
     <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиякс «питней». Покш питне. Миемстэ мезеньгак кисэ ламо
+        <defNative>Лиякс «питнев». Покш питне. Миемстэ мезеньгак кисэ ламо
         вешема. Рамамсто мезеньгак кисэ ламо пандома.</defNative>
-      </m>
+      <tg xml:lang="fin">
+        <t pos="A">kallis</t>
+      </tg>
 
       <xg>
-        <x>Те иестэ сюрось вельть питнев. Кудось а рамави, вельть питнев.</x>
+        <x>Те иестэ сюрось вельть питней. Кудось а рамави, вельть питней.</x>
 
         <xt/>
       </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">питней</l>
-
-      <stg>
-        <st Contlex="A_КАЛ">питней</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative/>
     </mg>
   </e>
 
@@ -46538,19 +46578,6 @@
     </mg>
   </e>
 
-  <e>
-    <lg>
-      <l pos="A">превев</l>
-
-      <stg>
-        <st Contlex="A_КАЛ">превев</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative/>
-    </mg>
-  </e>
 
   <e>
     <lg>
@@ -46572,6 +46599,7 @@
 
       <stg>
         <st Contlex="A_КАЛ">превей</st>
+        <st Contlex="A_КАЛ">превев</st>
       </stg>
     </lg>
 
@@ -46579,6 +46607,9 @@
       <semantics>
         <sem class="MORFAS"/>
       </semantics>
+      <tg xml:lang="fin">
+        <t pos="A">viisas</t>
+      </tg>
     </mg>
   </e>
 
@@ -46593,6 +46624,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">erittäin viisas</t>
+      </tg>
     </mg>
   </e>
 
@@ -51874,6 +51908,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">suolainen</t>
+      </tg>
     </mg>
   </e>
 
@@ -52165,20 +52202,6 @@
 
       <stg>
         <st Contlex="A_RU-ОЙ">сапёрной</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">саранской</l>
-
-      <stg>
-        <st Contlex="A_RU-ОЙ">саранской</st>
       </stg>
     </lg>
 
@@ -55885,9 +55908,25 @@
       <semantics>
         <sem class="MORFAS"/>
       </semantics>
+      <tg xml:lang="fin">
+        <t pos="A">painava</t>
+        <t pos="A">raskas</t>
+      </tg>
 
       <tg xml:lang="fra">
         <t pos="A">lourd</t>
+      </tg>
+    </mg>
+    <mg>
+      <semantics>
+        <sem class="MORFAS"/>
+      </semantics>
+      <tg xml:lang="fin">
+        <t pos="A">vaikea</t>
+      </tg>
+
+      <tg xml:lang="fra">
+        <t pos="A">difficile</t>
       </tg>
     </mg>
   </e>
@@ -58156,6 +58195,15 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">korkea</t>
+      </tg>
+    </mg>
+    <mg>
+        <defNative>домка</defNative>
+      <tg xml:lang="fin">
+        <t pos="A">syvä</t>
+      </tg>
     </mg>
   </e>
 
@@ -59357,6 +59405,10 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">herkullinen</t>
+        <t pos="A">hyvänmakuinen</t>
+      </tg>
     </mg>
   </e>
 
@@ -59613,6 +59665,10 @@
       <semantics>
         <sem class="THING_A"/>
       </semantics>
+      <tg xml:lang="fin">
+        <t pos="A">vanha</t>
+        <t pos="A">kulunut</t>
+      </tg>
 
       <tg xml:lang="fra">
         <t pos="A">vieux</t>
@@ -59751,6 +59807,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <tf pos="A">ilman asiaa</tf>
+      </tg>
     </mg>
   </e>
 
@@ -64768,6 +64827,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">oppimis-</t>
+      </tg>
     </mg>
   </e>
 
@@ -67421,6 +67483,11 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">miehen</t>
+        <t pos="A">mies-</t>
+        <t pos="A">miesten-</t>
+      </tg>
 
       <xg>
         <x>Цёрань тев. Цёрань панар. Цёрань промкс.</x>
@@ -67710,6 +67777,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">hapan</t>
+      </tg>
     </mg>
   </e>
 
@@ -68660,6 +68730,10 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">vino-</t>
+        <tf pos="A">vinossa oleva</tf>
+      </tg>
     </mg>
   </e>
 
@@ -69047,6 +69121,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">vaahtoisa</t>
+      </tg>
     </mg>
   </e>
 
@@ -69897,6 +69974,9 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">koulu-</t>
+      </tg>
 
       <xg>
         <x>Школань кудо. Школань книга. Школань пире.</x>
@@ -70253,6 +70333,10 @@
       </semantics>
 
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">terve</t>
+        <t pos="A">roteva</t>
+      </tg>
     </mg>
   </e>
 
@@ -70704,6 +70788,33 @@
 
     <mg>
         <defNative/>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="A">перть</l>
+
+      <stg>
+        <st Contlex="A_КИТ">перть</st>
+      </stg>
+    </lg>
+
+    <posDescr>Spat</posDescr>
+
+    <etymg>
+      <etym>[-æ-</etym>
+    </etymg>
+
+    <mg>
+        <defNative>Перька</defNative>
+
+
+      <xg>
+        <x>Ломантне састь ошов перть велетнестэ.</x>
+
+        <xt/>
+      </xg>
     </mg>
   </e>
 
@@ -71416,6 +71527,27 @@
 
   <e>
     <lg>
+      <l pos="A">эрзянь-рузонь</l>
+
+      <stg>
+        <st Contlex="GEN-A">эрзянь-рузонь</st>
+      </stg>
+    </lg>
+
+    <pos>Gen_A</pos>
+
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="A">ersäläis-venäläinen</t>
+      </tg>
+
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="A">эрикс</l>
 
       <stg>
@@ -71583,6 +71715,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">järvekäs</t>
+      </tg>
     </mg>
   </e>
 
@@ -71659,6 +71794,9 @@
           <tags>+Deverbal</tags>
         </head>
       </m>
+      <tg xml:lang="fin">
+        <t pos="A">tärkeä</t>
+      </tg>
     </mg>
   </e>
 
@@ -71923,6 +72061,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">paksu</t>
+      </tg>
 
       <tg xml:lang="fra">
         <t pos="A">épais</t>
@@ -72713,6 +72854,9 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">pakkas-</t>
+      </tg>
     </mg>
   </e>
 
@@ -72755,6 +72899,10 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="fin">
+        <t pos="A">pariton</t>
+        <tf pos="A">ilman ystävää</tf>
+      </tg>
     </mg>
   </e>
 
