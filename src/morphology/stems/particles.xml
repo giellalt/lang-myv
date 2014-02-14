@@ -744,8 +744,10 @@
           <defNative/>
 
       <tg xml:lang="fin">
-        <t>-han, -hän. тонь ведь шкат ули ламо sinullahan on paljon aikaa</t>
-      </tg>
+        <t pos="Pcle" type="Foc">-han, -hän.</t></tg>
+      <xg>
+        <x>тонь эдь шкат ули ламо</x><xt>sinullahan on paljon aikaa</xt>
+      </xg>
     </mg>
   </e>
 
@@ -762,8 +764,10 @@
           <defNative/>
 
       <tg xml:lang="fin">
-        <t>-han, -hän. тонь ведь шкат ули ламо sinullahan on paljon aikaa</t>
-      </tg>
+        <t pos="Pcle" type="Foc">-han, -hän.</t></tg>
+      <xg>
+        <x>тонь ведь шкат ули ламо</x><xt>sinullahan on paljon aikaa</xt>
+      </xg>
     </mg>
   </e>
 
@@ -853,12 +857,11 @@
     </lg>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>лездыця вал, невти кавтолдомань чарькодема. Лиясто
         полавтови «улема» валсонть.</defNative>
-      </m>
+      <tg xml:lang="fin">
+        <t pos="Pcle" type="Epist">ehkä</t>
+      </tg>
 
       <xg>
         <x>Паряк, молян кинов, паряк, а молян. Сы иестэ, паряк, монгак туян
@@ -905,13 +908,15 @@
     <pos>PCLE_COMPAR-STND</pos>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Чарькодемань виевгавтыця вал. Ёвтави сестэ, зярдо эряви
         невтемс лиянь коряс покшолмань эли вадрянь ёнкс. Свал ёвтави се
         валонть икеле, конань эряви виевгавтомс чарькодеманзо.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Pcle">more</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Suff">-mpi</t>
+      </tg>
 
       <xg>
         <x>Те чувтось седе покш. Те тейтересь седе мазый. Те позась седе паро.
@@ -924,42 +929,40 @@
 
   <e>
     <lg>
-      <l pos="Pcle">сех</l>
-
+      <l pos="Pcle" type="Superl">сех</l>
+<l_ref pos="Pcle" type="Superl">весемеде</l_ref>
       <stg>
         <st Contlex="PCLE-SUPERL">сех</st>
       </stg>
     </lg>
-
-    <pos>PCLE_SUPERL</pos>
-
     <mg>
-      <m>
-        <head/>
-
-        <defNative>=</defNative>
-      </m>
+        <defNative></defNative>
+      <tg xml:lang="eng">
+        <t pos="Pcle">most</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Pcle">eniten</t>
+      </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Pcle">сехте</l>
-
+      <l pos="Pcle" type="Superl">сехте</l>
+<l_ref pos="Pcle" type="Superl">весемеде</l_ref>
       <stg>
         <st Contlex="PCLE-SUPERL">сехте</st>
       </stg>
     </lg>
-
-    <pos>PCLE_SUPERL</pos>
-
     <mg>
-      <m>
-        <head/>
-
         <defNative>Неть валтнэ теевсть рузонь «всех» валстонть. Эрзякс
         «весемеде».</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Pcle">most</t>
+      </tg>
+      <tg xml:lang="fin">
+	<t pos="Pcle">eniten</t>
+      </tg>
 
       <xg>
         <x>Сех покш (весемеде покш). Сех ламо (весемеде ламо). Сехте виев
