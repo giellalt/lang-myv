@@ -180,6 +180,9 @@ LEXICON N_KINVOC
 +N+Sem/Kin+Voc@P.POS.N@:000@P.POS.N@ # ;
 
 !! !!Names of months
+LEXICON N-MONTHS_КАЛ_SUB
++N+Sem/Mnth+Use/Sub: NMN_КАЛ ;
+
 LEXICON N-MONTHS_КАЛ
 +N+Sem/Mnth: NMN_КАЛ ;
 
@@ -750,6 +753,10 @@ LEXICON NMN_DEF-SG-DECLENSION
 !! !!DEFINITE SINGULAR TAGS 
 
 LEXICON SG-NOM-DEF
+!!€gt-norm: Noun singular nominative definite
+!!€ калось кал+N+Sg+Nom+Def
+!!€ калоськак кал+N+Sg+Nom+Def+Foc/Гак
+!!$ калосьгак кал+N+Sg+Nom+Def+Foc/Гак
 +Sg+Nom+Def0@U.DECL-NX.SG@:%>%{ОЕЭØ%}сь@U.DECL-NX.SG@ K ;
 +Sg+Nom+Def0@U.DECL-NX.SG@:%>%{ОЕЭØ%}сь@U.DECL-NX.SG@ DER/PR_SG ;
 
@@ -821,7 +828,8 @@ LEXICON _КИТ-Indef-Declension
 
 LEXICON _КИТ-Indef-Declension-SG
 @U.DECL-NX.SG@ _КИТ-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF_КИТ ;
+ SG-NOM-INDEF ;
+! SG-NOM-INDEF_КИТ ;
 
 LEXICON _КИТ-Indef-Declension-PL
 @U.DECL-NX.PL@ _КИТ-Indef-Declension-MUTUAL ;
@@ -849,7 +857,8 @@ LEXICON _ЛАК-Indef-Declension
 
 LEXICON _ЛАК-Indef-Declension-SG
 @U.DECL-NX.SG@ _ЛАК-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF_ЛАК ;
+ SG-NOM-INDEF ;
+! SG-NOM-INDEF_ЛАК ;
 
 LEXICON _ЛАК-Indef-Declension-PL
 @U.DECL-NX.PL@ _ЛАК-Indef-Declension-MUTUAL ;
@@ -877,7 +886,8 @@ LEXICON _КАЛ-Indef-Declension
 
 LEXICON _КАЛ-Indef-Declension-SG
 @U.DECL-NX.SG@ _КАЛ-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF_КАЛ ;
+ SG-NOM-INDEF ;
+! SG-NOM-INDEF_КАЛ ;
 
 LEXICON _КАЛ-Indef-Declension-PL
 @U.DECL-NX.PL@ _КАЛ-Indef-Declension-MUTUAL ;
@@ -909,7 +919,8 @@ LEXICON _ОШ-Indef-Declension
 
 LEXICON _ОШ-Indef-Declension-SG
 @U.DECL-NX.SG@ _ОШ-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF_ОШ ;
+ SG-NOM-INDEF ;
+! SG-NOM-INDEF_ОШ ;
 
 LEXICON _ОШ-Indef-Declension-PL
 @U.DECL-NX.PL@ _ОШ-Indef-Declension-MUTUAL ;
@@ -940,7 +951,8 @@ LEXICON _ПАНГО-Indef-Declension
 
 LEXICON _ПАНГО-Indef-Declension-SG
 @U.DECL-NX.SG@ _ПАНГО-Indef-Declension-MUTUAL ;
-:%>О1 SG-NOM-INDEF_ПАНГО ;
+:%>О1  SG-NOM-INDEF ;
+!SG-NOM-INDEF_ПАНГО ;
 
 LEXICON _ПАНГО-Indef-Declension-PL
 @U.DECL-NX.PL@ _ПАНГО-Indef-Declension-MUTUAL ;
@@ -969,7 +981,8 @@ LEXICON _ПАНГО-Indef-Declension-MUTUAL
 
 LEXICON _КУДО-Indef-Declension
 @U.DECL-NX.SG@ _КУДО-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF_КУДО ;
+ SG-NOM-INDEF ;
+! SG-NOM-INDEF_КУДО ;
  PL-NOM-INDEF ;
 
 ! _КУДО-Indef-Declension-SG ;
@@ -977,7 +990,8 @@ LEXICON _КУДО-Indef-Declension
 
 LEXICON _КУДО-Indef-Declension-SG
 @U.DECL-NX.SG@ _КУДО-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF_КУДО ;
+ SG-NOM-INDEF ;
+! SG-NOM-INDEF_КУДО ;
 
 LEXICON _КУДО-Indef-Declension-PL
 @U.DECL-NX.PL@ _КУДО-Indef-Declension-MUTUAL ;
@@ -1042,6 +1056,18 @@ LEXICON LAT-INDEF
 LEXICON LOC-INDEF
 +SP+Loc+Indef@U.DECL-NX.SG@@U.DECL-CX.LOC@:%>О10@U.DECL-NX.SG@@U.DECL-CX.LOC@ K ;
 +SP+Loc+Indef@U.DECL-NX.PL@@U.DECL-CX.LOC@:%>О10@U.DECL-NX.PL@@U.DECL-CX.LOC@ K ;
+
+LEXICON SG-NOM-INDEF
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ K ;
++Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ DER/PR_SG ;
++Pl+Nom+Indef@U.DECL-NX.PL@:000@U.DECL-NX.PL@ DER/PR-IND-PRS-PL1 ;
++Pl+Nom+Indef@U.DECL-NX.PL@:000@U.DECL-NX.PL@ DER/PR-IND-PRS-PL2 ;
++Pl+Nom+Indef@U.DECL-NX.PL@:000@U.DECL-NX.PL@ DER/PR-IND-PRS-PL3 ;
+
++Pl+Nom+Indef@U.DECL-NX.PL@:000@U.DECL-NX.PL@ DER/PR-IND-PRT2-PL1 ;
++Pl+Nom+Indef@U.DECL-NX.PL@:000@U.DECL-NX.PL@ DER/PR-IND-PRT2-PL2 ;
++Pl+Nom+Indef@U.DECL-NX.PL@:000@U.DECL-NX.PL@ DER/PR-IND-PRT2-PL3 ;
+
 
 LEXICON SG-NOM-INDEF_КАЛ
 +Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ K ;
