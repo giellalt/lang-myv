@@ -139,14 +139,14 @@ LEXICON BEFpunkt
 LEXICON AFTpunkt
 % :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
 % час% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
-% цяс% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
+% цяс% +Use/NG:%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
 :%.+Use/NA AFT ; ! 2.00 = göökte
 :+Use/NA HOUR ; ! 2 = göökte
 @D.TIME.1@ AFTpunkt-PL ;
 
 LEXICON AFTpunkt-PL
 % част% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
-% цяст% :%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
+% цяст% +Use/NG:%:+Use/NA H-MAFT_minutes ; ! 2:00 = göökte
 
 !!This deals with 1:01 - 1:24 
 !LEXICON H-MAFT_hours
