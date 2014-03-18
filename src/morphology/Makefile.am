@@ -58,8 +58,8 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/pronouns.lexc           \
 		$(srcdir)/stems/propernouns.lexc        \
 		$(srcdir)/stems/quantifiers.lexc        \
-		$(srcdir)/stems/verbs-iv.lexc           \
-		$(srcdir)/stems/verbs-tv.lexc
+		$(srcdir)/stems/verbs-A2M.lexc           \
+		$(srcdir)/stems/verbs-N2END.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -77,8 +77,8 @@ GT_XML_SRCS=\
 		stems/propernouns.xml     \
 		stems/pronouns.xml        \
 		stems/quantifiers.xml     \
-		stems/verbs-iv.xml        \
-		stems/verbs-tv.xml
+		stems/verbs-A2M.xml        \
+		stems/verbs-N2END.xml
 
 
 $(srcdir)/stems/urj-Cyrl-propernouns.lexc: \
