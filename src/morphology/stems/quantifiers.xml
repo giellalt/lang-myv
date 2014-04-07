@@ -793,20 +793,26 @@
 
   <e>
     <lg>
-      <l pos="Qnt">кавто</l>
+      <l pos="Num">кавто</l>
 
       <stg>
         <st Contlex="Card-2">кавто</st>
       </stg>
     </lg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловома вал, невти зяро ломатнеде эли лиятне
         мезтне.</defNative>
-      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Num">two</t>
+      </tg>
       <tg xml:lang="fin">
         <t pos="Num">kaksi</t>
       </tg>
@@ -826,7 +832,7 @@
 
   <e>
     <lg>
-      <l pos="Qnt">ниле</l>
+      <l pos="Num">ниле</l>
       <l_cogn pos="Num" xml:lang="fin">neljä</l_cogn>
       <l_cogn pos="Num" xml:lang="hun">négy</l_cogn>
       <l_cogn pos="Num" xml:lang="kpv">нёль</l_cogn>
@@ -836,15 +842,23 @@
         <st Contlex="NUM_КУДО">ниле</st>
       </stg>
     </lg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловома вал. Нилесь моли колмонть мельга. Нилесь ашти
         ветенть икеле.</defNative>
-      </m>
 
+      <tg xml:lang="eng">
+        <t pos="Num">four</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">neljä</t>
+      </tg>
       <tg xml:lang="fra">
         <t pos="Num">quatre</t>
       </tg>
@@ -1518,12 +1532,21 @@
       <etym langForm="*" xml:lang="myv"><constituent>вæсе</constituent></etym>
     </etymg>
 
+     <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <m>
         <head/>
 
         <defNative>Марсо. Куцясо. Мирём. Вейкень пес.</defNative>
       </m>
+<tg xml:lang="eng">
+            <t pos="Qnt">all</t>
+         </tg>
+<tg xml:lang="fin">
+            <t pos="Qnt">kaikki</t>
+         </tg>
 
       <tg xml:lang="fra">
         <t pos="Qnt">tout</t>
@@ -1693,15 +1716,28 @@
       <morph type="N">сисемецине</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
 
         <defNative/>
+      <tg xml:lang="eng">
+        <t pos="Num">seventh</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">seitsemäs</t>
+      </tg>
+
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="Qnt">сисем</l>
+      <l pos="Num">сисем</l>
       <l_cogn pos="Num" xml:lang="fin">seitsemän</l_cogn>
       <l_cogn pos="Num" xml:lang="kpv">сизем</l_cogn>
 
@@ -1712,13 +1748,21 @@
 
     <pos>Num</pos>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловома вал. Моли котонть мельга.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">seven</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">seitsemän</t>
+      </tg>
 
       <xg>
         <x>Цёрынентень топодсть сисем иеть, те сёксня моли тонавтнеме.
@@ -1745,14 +1789,22 @@
 
       <morph type="N">котоцень</morph>
     </morphg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
         <defNative>Мельга-мельцекень ловома.</defNative>
-      </m>
 
+      <tg xml:lang="eng">
+        <t pos="Num">sixth</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kuudes</t>
+      </tg>
       <xg>
         <x>Котоце чись субута.</x>
 
@@ -1790,7 +1842,7 @@
 
   <e>
     <lg>
-      <l pos="Qnt">кото</l>
+      <l pos="Num">кото</l>
 
       <stg>
         <st Contlex="NUM_КУДО">кото</st>
@@ -1799,18 +1851,21 @@
 
     <pos>Num</pos>
 
-    <morphg>
-      <morph type="N">котосо</morph>
-
-      <morph type="N">котонь</morph>
-    </morphg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловома вал. Кавтось колмоксть.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">six</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kuusi</t>
+      </tg>
 
       <xg>
         <x>Ютасть кото иеть. Кото чить керинек вирь. Кото умарть. Кото
@@ -1868,9 +1923,21 @@
       <morph type="N">кавксоцень</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
         <defNative/>
+      <tg xml:lang="eng">
+        <t pos="Num">eighth</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kahdeksas</t>
+      </tg>
+
     </mg>
   </e>
 
@@ -1942,7 +2009,7 @@
 
   <e>
     <lg>
-      <l pos="Qnt">кавксо</l>
+      <l pos="Num">кавксо</l>
 
       <stg>
         <st Contlex="NUM_КУДО">кавксо</st>
@@ -1950,19 +2017,21 @@
     </lg>
 
     <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кавксосо</morph>
-
-      <morph type="N">кавксонь</morph>
-    </morphg>
-
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловомавал. Кавксть ниле.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">eight</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kahdeksan</t>
+      </tg>
+
     </mg>
   </e>
 
@@ -2058,7 +2127,7 @@
       <m>
         <head/>
 
-        <defNative>Ловома вал. Сисемь кементь. Сисемесь
+        <defNative>Ловома вал. Сисем кементь. Сисемесь
         кеменьксть.</defNative>
       </m>
 
@@ -2113,18 +2182,20 @@
 
     <pos>Num-ORD</pos>
 
-    <morphg>
-      <morph type="N">нилецесэ</morph>
-
-      <morph type="N">нилецеень</morph>
-    </morphg>
-
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
         <defNative>Мельга ёвтамо вал.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">fourth</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">neljäs</t>
+      </tg>
 
       <xg>
         <x>Нилеце цёрась сась весемеде мейле. Мельга сыця нилецесь ульнесь
@@ -2293,33 +2364,31 @@
 
   <e>
     <lg>
-      <l pos="Qnt">кемень</l>
+      <l pos="Num">кемень</l>
 
       <stg>
         <st Contlex="NUM_КАЛ">кемень</st>
       </stg>
     </lg>
 
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кеменьсэ</morph>
-
-      <morph type="N">кеменень</morph>
-
-      <morph type="N">кеменне</morph>
-    </morphg>
-
     <etymg>
       <etym>[-æ-е-]</etym>
     </etymg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловома вал.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">ten</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kymmenen</t>
+      </tg>
 
       <xg>
         <x>Кавто кедьсэ кемень сурт. Кемень иеть ютасть се шкастонть, кода
@@ -2341,18 +2410,20 @@
 
     <pos>Num-ORD</pos>
 
-    <morphg>
-      <morph type="N">кеменцесэ</morph>
-
-      <morph type="N">кеменцень</morph>
-    </morphg>
-
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
         <defNative>Мельга-мельцек лововиця.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">tenth</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kymmenes</t>
+      </tg>
 
       <xg>
         <x>Чирестэ кеменце кудось минек.</x>
@@ -2373,18 +2444,20 @@
 
     <pos>Num-ORD</pos>
 
-    <morphg>
-      <morph type="N">колмоцесэ</morph>
-
-      <morph type="N">колмоцень</morph>
-    </morphg>
-
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
         <defNative>Мельга-мельцек ловома.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">third</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">kolmas</t>
+      </tg>
 
       <xg>
         <x>Сыцятнень эйстэ колмоцесь ульнесь аваломань. Колмоце чи арасян
@@ -2452,21 +2525,26 @@
 
   <e>
     <lg>
-      <l pos="Qnt">колмо</l>
+      <l pos="Num">колмо</l>
 
       <stg>
         <st Contlex="NUM_КУДО">колмо</st>
       </stg>
     </lg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловома вал. Ловомсто моли кавтонть мейле
         (мельга).</defNative>
-      </m>
 
+      <tg xml:lang="eng">
+        <t pos="Num">three</t>
+      </tg>
       <tg xml:lang="fin">
 	<t pos="Num">kolme</t>
       </tg>
@@ -3319,7 +3397,7 @@
 
   <e>
     <lg>
-      <l pos="Qnt">вейксэ</l>
+      <l pos="Num">вейксэ</l>
 
       <stg>
         <st Contlex="NUM_КУДО">вейксэ</st>
@@ -3328,18 +3406,20 @@
 
     <pos>Num</pos>
 
-    <morphg>
-      <morph type="N">вейксэсэ</morph>
-
-      <morph type="N">вейксэнь</morph>
-    </morphg>
-
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловомавал. Колмоксть колмо.</defNative>
-      </m>
+      <tg xml:lang="eng">
+        <t pos="Num">nine</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="Num">yhdeksän</t>
+      </tg>
     </mg>
   </e>
 
@@ -3385,26 +3465,26 @@
 
   <e>
     <lg>
-      <l pos="Qnt">вейке</l>
+      <l pos="Num">вейке</l>
 
       <stg>
         <st Contlex="Cards-1-2">вейке</st>
       </stg>
     </lg>
 
-    <pos>Num</pos>
-
     <etymg>
       <etym>[-æ-е</etym>
     </etymg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
-      <m>
-        <head/>
-
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
         <defNative>Ловомань ушодкс. Невти мезеяк ськамонзо улиця, аштиця.
         Аравтови карадо-каршо «кавто» валонть марто.</defNative>
-      </m>
 
       <tg xml:lang="eng">
         <t pos="Num">one</t>
@@ -4845,18 +4925,27 @@
 
   <e>
     <lg>
-      <l pos="Qnt">вете</l>
+      <l pos="Num">вете</l>
 
       <stg>
         <st Contlex="NUM_КУДО">вете</st>
       </stg>
     </lg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
+         <semantics>
+            <sem class="mCARD_SMALL"/>
+         </semantics>
 
         <defNative/>
+      <tg xml:lang="eng">
+        <t pos="Num">five</t>
+      </tg>
       <tg xml:lang="fin">
-        <t pos="Qnt">viisi</t>
+        <t pos="Num">viisi</t>
       </tg>
 
       <tg xml:lang="fra">
@@ -4875,10 +4964,19 @@
     </lg>
 
     <pos>ORD</pos>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
 
         <defNative/>
+      <tg xml:lang="eng">
+        <t pos="Num">ninth</t>
+      </tg>
       <tg xml:lang="fin">
         <t pos="Qnt">yhdeksäs</t>
       </tg>
@@ -4910,6 +5008,50 @@
     </mg>
   </e>
 
+  <e>
+    <lg>
+      <l pos="Det" type="Dem">васенце</l>
+
+      <stg>
+        <st Contlex="DET-DEM_АЛЦЕ">васенце</st>
+      </stg>
+    </lg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
+    <mg>
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
+        <defNative/>
+         <tg xml:lang="eng">
+            <t pos="Num">first</t>
+         </tg>
+            <tg xml:lang="fin">
+	      <tf pos="Num">ensimmäinen</tf>
+      </tg>
+
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num" type="Ord">вететькс</l>
+
+      <stg>
+        <st Contlex="ORD_ОШ">вететькс</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head>
+          <tags>+Inanim+Cnt</tags>
+        </head>
+      </m>
+    </mg>
+  </e>
+
   <e exclude="fst">
     <lg>
       <l pos="Qnt">ветеце</l>
@@ -4921,15 +5063,79 @@
 
     <pos>ORD</pos>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
 
         <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">viides</t>
+      <tg xml:lang="eng">
+        <t pos="Num">fifth</t>
+      </tg>
+            <tg xml:lang="fin">
+              <t pos="Num" type="Ord">viides</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="Ord">пятый</t>
       </tg>
     </mg>
   </e>
 
+   <e>
+      <lg>
+         <l pos="A">омботькс</l>
+         <stg>
+            <st Contlex="A_ОШ">омботькс</st>
+         </stg>
+      </lg>
+      <mg>
+         <semantics>
+            <sem class="HUMAN_A"/>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="N">toinen</t>
+            <t pos="N">toisena</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N">второй</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">омбоце</l>
+         <stg>
+            <st Contlex="ORD_КУДО">омбоце</st>
+         </stg>
+      </lg>
+
+    <sources>
+      <book name="Olga01"/>
+    </sources>
+      <mg>
+         <semantics>
+            <sem class="mORD_SMALL"/>
+         </semantics>
+         <defNative>Васенценть мельга молиця.</defNative>
+         <tg xml:lang="eng">
+            <t pos="N">second</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">toinen</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N">второй</t>
+         </tg>
+         <xg>
+            <x>Омбоце кудос сован, кияк мезеяк а ёвты. Омбоце чи эрян велесэ. Омбоце чи сакшнан тевтеме.</x>
+            <xt/>
+         </xg>
+      </mg>
+   </e>
   <e exclude="fst">
     <lg>
       <l pos="Qnt">ветецеде</l>

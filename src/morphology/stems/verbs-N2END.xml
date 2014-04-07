@@ -43425,6 +43425,9 @@
         <st Contlex="TV_САВТОМС-ObjAll">пут</st>
       </stg>
     </lg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
       <defNative/>
@@ -76901,6 +76904,9 @@
       <morph type="V">тейнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Прядомс. Топавтомс.</defNative>
 
@@ -106041,6 +106047,9 @@
       <etym xml:lang="kpv"><constituent>чужны</constituent></etym>
     </etymg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Теевемс улезекс. Вельмемс. 1)</defNative>
 
@@ -125120,8 +125129,11 @@
         <st Contlex="TV_САВТОМС-ObjAll">ютавт</st>
       </stg>
     </lg>
+     <sources>
+      <book mgs="mg_2" name="Olga01"/>
+    </sources>
 
-    <mg>
+    <mg id="mg_1">
       <m>
         <head>
           <tags>+Caus</tags>
@@ -125134,8 +125146,6 @@
         <t pos="V">käyttää</t>
 
         <t pos="V">viettää</t>
-
-        <t pos="V">kääntää (kielestä toiseen)</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -125144,6 +125154,21 @@
         <t pos="V">потратить</t>
 
         <t pos="V">провести</t>
+      </tg>
+    </mg>
+    <mg id="mg_2">
+      <m>
+        <head>
+          <tags>+Caus</tags>
+        </head>
+      </m>
+
+      <tg xml:lang="fin">
+        <t pos="V">kääntää (kielestä toiseen)</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">перевести</t>
       </tg>
     </mg>
   </e>
