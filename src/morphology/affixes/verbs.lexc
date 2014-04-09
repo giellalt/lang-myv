@@ -672,14 +672,14 @@ LEXICON V_КАДОМС-a
  Desiderative-kadoms ;
 
  Imperative-kadoms ;
-  +Opt@U.CONJ-MX.OPT@:0@U.CONJ-MX.OPT@ Optative-noArrow ;
+  @U.CONJ-MX.OPT@ Optative-noArrow ;
 
 LEXICON V_КУНДАМС-a
            @U.CONJ-MX.IND@         Indicative1 ;
 +ConNeg0@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ _КУДО-Tenses1 ;
  Desiderative-kundams ;
  Imperative-kundams ;
-  +Opt@U.CONJ-MX.OPT@:0@U.CONJ-MX.OPT@ Optative-noArrow ;
+  @U.CONJ-MX.OPT@ Optative-noArrow ;
 
 
 
@@ -696,7 +696,7 @@ LEXICON V_САТОМС-a
  Desiderative-kadoms ;
 
  Imperative-kundams ;
-+Opt@U.CONJ-MX.OPT@:0@U.CONJ-MX.OPT@ Optative-noArrow ;
+@U.CONJ-MX.OPT@ Optative-noArrow ;
 
 
 
@@ -751,7 +751,7 @@ LEXICON Deverbals_mutual
 +Der/Омга+Inf+Prl00@U.CX.PRL@:%>%{ОЕЭØ%}мга@U.CX.PRL@ _КУДО-Possessive-Before-K-or-K-4Inf ;
 +Der/ОмдО+Inf+Abl00@U.CX.ABL@:%>%{ОЕЭØ%}мдО1@U.CX.ABL@ _КУДО-Possessive-Before-K-or-K-4Inf ;
 +Der/ОмО+Inf+Abl0000@U.CX.ABL@:%>%{ОЕЭØ%}мО1%>дО1@U.CX.ABL@ _КУДО-Possessive-Before-K-or-K-4Inf ;
-+Der/ОмО+Inf+Ill000@U.CX.ILL@:%>%{ОЕЭØ%}мО1%>з@U.CX.ILL@ _ОШ-Possessive-Before-K-or-K-4Inf ;
++Der/ОмО+Inf+Ill000@U.CX.ILL@:%>%{ОЕЭØ%}мО1%>з@U.CX.ILL@ N-Poss-Declension-PossX_01 ;
 
 +Der/Овт+TelicN000@C.CONJ-INF@:%>%{ОЕЭØ%}втЬ2@C.CONJ-INF@ N_КИТ ; !!
 +Der/Озь+Ger00@C.CONJ-INF@:%>%{ОЕЭØ%}зь@C.CONJ-INF@ sajezj-PRC ; !!
@@ -1188,7 +1188,7 @@ LEXICON IND-PRT1-36
 +Ind+Prt1+ScSg3+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.36@:Ы2нзе@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.36@ VerbEnd_K ;
 
 LEXICON IND-PRT1-40
-+ScPl1000@U.CONJ-PX.4Ø@:Ы2нек@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
++Ind+Prt1+ScPl10@U.CONJ-PX.4Ø@:Ы2нек@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
 +Use/Sub+Dial+ScPl10@U.CONJ-PX.4Ø@:Ы2ник@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
 
 LEXICON IND-PRT1-42
@@ -2282,6 +2282,7 @@ LEXICON OPT-33
 
 LEXICON OPT-34
 +Opt+ScSg3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
++Opt+ScSg3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
 +Opt+ScSg3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>Ы2змизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
 +Opt+ScSg3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>Ы2мизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
 
@@ -2348,6 +2349,7 @@ LEXICON OPT-60
 
 LEXICON OPT-61
 +Opt+ScPl3+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
++Opt+ScPl3+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
 +Opt+ScPl3+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>Ы2змизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
 +Opt+ScPl3+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>Ы2мизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
 
@@ -2363,6 +2365,7 @@ LEXICON OPT-63
 
 LEXICON OPT-64
 +Opt+ScPl3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
++Opt+ScPl3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
 +Opt+ScPl3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>Ы2змизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
 +Opt+ScPl3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>Ы2мизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
 
