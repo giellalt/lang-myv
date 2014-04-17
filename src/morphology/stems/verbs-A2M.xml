@@ -14911,15 +14911,11 @@
   <e>
     <lg>
       <l pos="V" val="IV">бредямс</l>
-
+<l_cogn pos="V" xml:lang="rus">бредить</l_cogn>
       <stg>
         <st Contlex="IV_КУНДАМС">бредя</st>
       </stg>
     </lg>
-
-    <etymg>
-      <etym xml:lang="rus"><constituent>бредить</constituent></etym>
-    </etymg>
 
     <mg>
       <defNative>Неемс он.</defNative>
@@ -20210,7 +20206,7 @@
   <e>
     <lg>
       <l pos="V" val="TV">валомс</l>
-
+<l_cogn pos="V" xml:lang="fin">valaa</l_cogn>
       <stg>
         <st Contlex="TV_КАДОМС-ObjAll">вал</st>
       </stg>
@@ -20223,10 +20219,6 @@
 
       <morph type="V">валокшнось</morph>
     </morphg>
-
-    <etymg>
-      <etym xml:lang="fin">valaa</etym>
-    </etymg>
 
     <mg>
       <defNative>Ёртомс ведь, ловцо. Валомс апак фатя.</defNative>
@@ -20721,7 +20713,7 @@
   <e>
     <lg>
       <l pos="V" val="TV">валямс</l>
-
+<l_cogn pos="V" xml:lang="rus">валить</l_cogn>
       <stg>
         <st Contlex="TV_КУНДАМС-ObjAll">валя</st>
       </stg>
@@ -20734,10 +20726,6 @@
 
       <morph type="V">вальсемс</morph>
     </morphg>
-
-    <etymg>
-      <etym xml:lang="rus">валить</etym>
-    </etymg>
 
     <mg>
       <defNative>Мезеяк вельтямс модасо. Кайсемс мода мезе лангскак. Валямс
@@ -20812,23 +20800,12 @@
   <e>
     <lg>
       <l pos="V" val="IV">валяямс</l>
+<l_cogn pos="V" xml:lang="rus">валять</l_cogn>
 
       <stg>
         <st Contlex="IV_КУНДАМС">валяя</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">валяясь</morph>
-
-      <morph type="V">валяякшнось</morph>
-
-      <morph type="V">валяякшномс</morph>
-    </morphg>
-
-    <etymg>
-      <etym xml:lang="rus">валять</etym>
-    </etymg>
 
     <mg>
       <defNative/>
@@ -24692,7 +24669,8 @@
   <e>
     <lg>
       <l pos="V" val="IV">ваямс</l>
-
+<l_cogn pos="V" xml:lang="fin">vajota</l_cogn>
+<l_cogn pos="V" xml:lang="sme">vuodjut</l_cogn>
       <stg>
         <st Contlex="IV_КУНДАМС">вая</st>
       </stg>
@@ -24705,12 +24683,6 @@
 
       <morph type="V">ваякшнось</morph>
     </morphg>
-
-    <etymg>
-      <etym xml:lang="fin"><constituent>vajota</constituent></etym>
-
-      <etym xml:lang="sme"><constituent>vuodjut</constituent></etym>
-    </etymg>
 
     <mg>
       <defNative>Прамс ведьс. Туемс ведьпотмаксов. Куломс ваямодо.</defNative>
@@ -73193,6 +73165,8 @@
     <lg>
       <l pos="V" val="TV">кодамс</l>
 
+      <l_cogn pos="V" xml:lang="fin">kutoa</l_cogn>
+      <l_cogn pos="V" xml:lang="kpv">кыны</l_cogn>
       <l_cogn pos="V" xml:lang="mrj">коаш</l_cogn>
 
       <stg>
@@ -73200,19 +73174,6 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">кодась</morph>
-
-      <morph type="V">кодакшнось</morph>
-
-      <morph type="V">кодакшномс</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[фни.: <constituent>kutoa</constituent></etym>
-
-      <etym xml:lang="kpv"><constituent>кыны</constituent></etym>
-    </etymg>
 
     <mg>
       <defNative>Мезеяк теемс сурестэ кодазь.</defNative>
@@ -97572,28 +97533,29 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">ловномс</l>
-
+      <l pos="V" val="IV">ловномс</l>
+<l_cogn pos="V" xml:lang="fin">lukea</l_cogn>
+<l_cogn pos="V" xml:lang="hun">olvas</l_cogn>
+<l_cogn pos="V" xml:lang="sme">lohkat</l_cogn>
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">ловно</st>
+        <st Contlex="IV_КУНДАМС">ловно</st>
       </stg>
     </lg>
-
-    <etymg>
-      <etym xml:lang="hun"><constituent>olvas</constituent></etym>
-
-      <etym xml:lang="fin"><constituent>lukea</constituent></etym>
-    </etymg>
 
     <sources>
       <book name="Olga01"/>
     </sources>
     <mg>
       <semantics>
+        <sem class="HUMAN_V"/>
 	<sem class="mACTIVITY"/>
       </semantics>
       <defNative>Чарькодемс, мезе печатазь книгантень, газетэнтень, мезе
       сёрмадозь конёвонтень. Ловнозь ютавтомс шка.</defNative>
+
+      <tg xml:lang="eng">
+        <t pos="V">read</t>
+      </tg>
 
       <tg xml:lang="fin">
         <t pos="V">lukea</t>
@@ -97602,6 +97564,48 @@
       <tg xml:lang="rus">
         <t pos="V">читать</t>
 
+      </tg>
+
+      <xg>
+        <x>Ловномс</x>
+
+        <xt/>
+      </xg>
+    </mg>
+
+    <mg>
+      <defNative>Теде башка, ловнома мерить ламоксть ловомантень.</defNative>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">ловномс</l>
+<l_cogn pos="V" xml:lang="fin">lukea</l_cogn>
+<l_cogn pos="V" xml:lang="hun">olvas</l_cogn>
+<l_cogn pos="V" xml:lang="sme">lohkat</l_cogn>
+
+      <stg>
+        <st Contlex="TV_КУНДАМС-ObjAll">ловно</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <semantics>
+        <sem class="HUMAN_V"/>
+      </semantics>
+      <defNative>Чарькодемс, мезе печатазь книгантень, газетэнтень, мезе
+      сёрмадозь конёвонтень. Ловнозь ютавтомс шка.</defNative>
+
+      <tg xml:lang="eng">
+        <t pos="V">read</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="V">lukea</t>
+      </tg>
+
+      <tg xml:lang="rus">
         <t pos="V">читать</t>
 
         <t pos="V">прочитать</t>
