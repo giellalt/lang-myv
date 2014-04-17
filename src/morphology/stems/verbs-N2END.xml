@@ -1202,16 +1202,24 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">налксемс</l>
+      <l pos="V" val="IV">налксемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">налксе</st>
+        <st Contlex="IV_КУНДАМС">налксе</st>
       </stg>
     </lg>
 
     <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="mACTIVITY"/>
+         </semantics>
       <defNative>Мейсэяк ютавтомс шка. Налксемс шахматсо, картасо. Налксемс
       польдяйкасо (шашкасо).</defNative>
+
+      <tg xml:lang="eng">
+        <t pos="V">play</t>
+      </tg>
 
       <tg xml:lang="fin">
         <t pos="V">leikkiä</t>
@@ -1232,6 +1240,43 @@
       <defNative>Налксемс кончкесэ (эйкакштнэнень). Налксемс
       одирьвинесэ.</defNative>
     </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" val="TV">налксемс</l>
+
+      <stg>
+        <st Contlex="TV_КУНДАМС-ObjAll">налксе</st>
+      </stg>
+    </lg>
+
+    <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+         </semantics>
+      <defNative></defNative>
+
+      <tg xml:lang="eng">
+        <t pos="V">play</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="V">näytellä</t>
+      </tg>
+
+      <tg xml:lang="fra">
+        <t pos="V">jouer</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">играть</t>
+      </tg>
+<xg><x>налксемс роль</x>
+<xt xml:lang="eng">play a role</xt>
+</xg>
+    </mg>
+
   </e>
 
   <e>
@@ -19855,6 +19900,10 @@
     </etymg>
 
     <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="FOODDRINK_V"/>
+         </semantics>
       <defNative>Мезеяк теемс. Мезеяк пидемс. Панемс кши. Панемс поза. Панемс
       прякат. Мезеяк пидема. Панема кшить. Панема поза.</defNative>
     </mg>
@@ -27418,6 +27467,43 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">пидемс</l>
+
+      <stg>
+        <st Contlex="IV_КУНДАМС">пиде</st>
+      </stg>
+    </lg>
+
+    <morphg>
+      <morph type="V">пидсемс</morph>
+    </morphg>
+
+    <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="FOODDRINK_V"/>
+            <sem class="mACTIVITY"/>
+         </semantics>
+      <defNative>Теемс пидезекс. Верекенть теемс пидезекс.</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V">keittää</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">варить</t>
+      </tg>
+
+      <xg>
+        <x>Пидемс</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">пидемс</l>
 
       <stg>
@@ -27430,6 +27516,11 @@
     </morphg>
 
     <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="FOODDRINK_V"/>
+            <sem class="mACTIVITY"/>
+         </semantics>
       <defNative>Теемс пидезекс. Верекенть теемс пидезекс.</defNative>
 
       <tg xml:lang="fin">
@@ -55701,6 +55792,11 @@
     </lg>
 
     <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="FOODDRINK_V"/>
+            <sem class="mACTIVITY"/>
+         </semantics>
       <defNative/>
 
       <tg xml:lang="fin">
@@ -61914,6 +62010,45 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">стамс</l>
+
+      <stg>
+        <st Contlex="IV_КУНДАМС">ста</st>
+      </stg>
+    </lg>
+
+    <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="mACTIVITY"/>
+         </semantics>
+      <defNative>Лиякс «сустамс». Салмукссо суре вельде вейсэндямс коцт эли
+      лия-мезе.</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V">ommella</t>
+
+        <t pos="V">neuloa</t>
+      </tg>
+
+      <tg xml:lang="fra">
+        <t pos="V">coudre</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">сшить</t>
+      </tg>
+
+      <xg>
+        <x>Стамс</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">стамс</l>
 
       <stg>
@@ -61922,6 +62057,10 @@
     </lg>
 
     <mg>
+         <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="mACTIVITY"/>
+         </semantics>
       <defNative>Лиякс «сустамс». Салмукссо суре вельде вейсэндямс коцт эли
       лия-мезе.</defNative>
 
@@ -80766,6 +80905,48 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">тонавтнемс</l>
+
+      <stg>
+        <st Contlex="IV_КУНДАМС">тонавтне</st>
+      </stg>
+    </lg>
+
+    <morphg>
+      <morph type="V">тонавтомс</morph>
+    </morphg>
+
+    <mg>
+      <semantics>
+            <sem class="HUMAN_V"/>
+        <sem class="mACTIVITY"/>
+      </semantics>
+
+      <defNative>Саемс превс. Пурнамс превс.</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V">oppia</t>
+
+        <t pos="V">opetella</t>
+
+        <t pos="V">opiskella</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">учиться</t>
+      </tg>
+
+      <xg>
+        <x>Тонавтнемс институтсо. Тонавтнемс эрямсто-аштемстэ. Тонавтнемс
+        тевень тееме. Тонавтнемс эрьва мезес.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">тонавтнемс</l>
 
       <stg>
@@ -80774,16 +80955,12 @@
     </lg>
 
     <morphg>
-      <morph type="V">тонавтнесь</morph>
-
-      <morph type="V">тонавтнекшнесь; весть:</morph>
-
       <morph type="V">тонавтомс</morph>
     </morphg>
 
     <mg>
       <semantics>
-        <sem class="mACTIVITY"/>
+        <sem class="HUMAN_V"/>
       </semantics>
 
       <defNative>Саемс превс. Пурнамс превс.</defNative>
@@ -80803,8 +80980,7 @@
       </tg>
 
       <xg>
-        <x>Тонавтнемс институтсо. Тонавтнемс эрямсто-аштемстэ. Тонавтнемс
-        тевень тееме. Тонавтнемс эрьва мезес.</x>
+        <x>Тонавтнемс эрзянь кель</x>
 
         <xt/>
       </xg>
@@ -88913,6 +89089,42 @@
 
   <e>
     <lg>
+      <l pos="V" val="IV">удомс</l>
+
+      <stg>
+        <st Contlex="IV_КУНДАМС">удо</st>
+      </stg>
+    </lg>
+
+    <morphg>
+      <morph type="V">удсемс</morph>
+    </morphg>
+
+    <mg>
+      <defNative>Шка ютавтомс удозь.</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V">nukkua</t>
+      </tg>
+
+      <tg xml:lang="fra">
+        <t pos="V">dormir</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V">ночевать</t>
+      </tg>
+
+      <xg>
+        <x>цёрынькась удось кудосо</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
       <l pos="V" val="TV">удомс</l>
 
       <stg>
@@ -88940,7 +89152,7 @@
       </tg>
 
       <xg>
-        <x>Васень вензэ удызе.</x>
+        <x>Васень вензэ удызе</x>
 
         <xt/>
       </xg>
@@ -90271,6 +90483,7 @@
 
     <mg>
       <semantics>
+        <sem class="HUMAN_V"/>
         <sem class="mACTIVITY"/>
       </semantics>
 
@@ -128334,6 +128547,8 @@
 
     <mg>
       <semantics>
+            <sem class="HUMAN_V"/>
+            <sem class="FOODDRINK_V"/>
         <sem class="mACTIVITY"/>
       </semantics>
 
