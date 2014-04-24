@@ -34,6 +34,7 @@ LEXICON A_ВЕЙКЕТЬ-PL
 
 LEXICON A_КИТ
 +A: K ;
++A+Sg: K ;
 +A: DER/PR4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _КИТ-NomPl-Conjugation-only ;
@@ -43,6 +44,7 @@ LEXICON A_КИТ
 
 LEXICON A_ЛАК
 +A: K ;
++A+Sg: K ;
 +A: DER/PR4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _ЛАК-NomPl-Conjugation-only ;
@@ -55,6 +57,7 @@ LEXICON A_КАЛ_Sub
 
 LEXICON A_КАЛ
 +A: K ;
++A+Sg: K ;
 +A: DER/PR4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 +A+Pl: _КАЛ-NomPl-Conjugation-only ;
@@ -64,6 +67,7 @@ LEXICON A_КАЛ
 
 LEXICON A_ОШ
 +A: K ;
++A+Sg: K ;
 +A: DER/PR4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _КАЛ-NomPl-Conjugation-only ;
@@ -93,6 +97,7 @@ LEXICON A_ПАНГО
 
 LEXICON Adj-pango-tinge
 +A: K ;
++A+Sg: K ;
 +A: _ПАНГО-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 +A+Pl: _ПАНГО-NomPl-Conjugation-only ;
@@ -105,6 +110,9 @@ LEXICON A_КУДО_SUB
 +Use/Sub: A_КУДО	;
 
 LEXICON A_КУДО
++A: K ;
++A+Sg: K ;
++A+Pl:%>тЬ2 K ;
 +A: A_КУДО_01 ;
 +A:%> N2Dem-SE ;
 
