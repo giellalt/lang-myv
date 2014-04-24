@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="myv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="myv">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
       <l pos="Interj">а</l>
@@ -16,11 +16,13 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="fin">
         <t pos="Interj">ahaa</t>
+
         <t pos="Interj">häh</t>
+
         <t pos="Interj">hoi</t>
       </tg>
     </mg>
@@ -43,7 +45,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -64,7 +65,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -83,6 +83,7 @@
           <tags>+Inanim+Cnt</tags>
         </head>
       </m>
+
       <tg xml:lang="fin">
         <t pos="Interj">poikaseni</t>
       </tg>
@@ -103,14 +104,14 @@
     <posDescr>N-VOCATIVE</posDescr>
 
     <mg>
+      <defNative>Истя эйкакштнэ мерить эсь аваст туртов.</defNative>
 
-        <defNative>Истя эйкакштнэ мерить эсь аваст туртов.</defNative>
       <tg xml:lang="fin">
         <tf>äiti hei</tf>
       </tg>
 
       <tg xml:lang="rus">
-        <t>мама (обращение)</t>
+        <t pos="Interj">мама (обращение)</t>
       </tg>
 
       <xg>
@@ -171,7 +172,7 @@
 
   <e>
     <lg>
-      <l>авакай-корькай</l>
+      <l pos="Interj">авакай-корькай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">авакай-корькай</st>
@@ -181,17 +182,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>родная мама</t>
+        <t pos="Interj">родная мама</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>авакай-тирькай</l>
+      <l pos="Interj">авакай-тирькай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">авакай-тирькай</st>
@@ -201,10 +202,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>любимая мама</t>
+        <t pos="Interj">любимая мама</t>
       </tg>
     </mg>
   </e>
@@ -228,7 +229,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>ahaa; kyllä</t>
+        <t pos="Interj">ahaa</t>
+
+        <t pos="Interj">kyllä</t>
       </tg>
 
       <xg>
@@ -462,7 +465,7 @@
 
   <e>
     <lg>
-      <l>аляй</l>
+      <l pos="Interj">аляй</l>
 
       <stg>
         <st Contlex="VOCATIVE_">аляй</st>
@@ -472,10 +475,12 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>мужчина, юноша</t>
+        <t pos="Interj">мужчина</t>
+
+        <t pos="Interj">юноша</t>
       </tg>
     </mg>
   </e>
@@ -488,15 +493,17 @@
         <st Contlex="INTERJ-NEG">арась</st>
       </stg>
     </lg>
+
     <mg>
-<defNative/>
+      <defNative/>
+
       <tg xml:lang="fin">
         <t pos="Interj">ei</t>
       </tg>
+
       <tg xml:lang="fra">
         <t pos="Interj">non</t>
       </tg>
-
     </mg>
   </e>
 
@@ -517,7 +524,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -588,7 +594,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -643,7 +648,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>бабушка</t>
+        <t pos="Interj">бабушка</t>
       </tg>
 
       <xg>
@@ -699,7 +704,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>päkä-päkä (lampaan kutsuhuuto)</t>
+        <t pos="Interj">päkä-päkä (lampaan kutsuhuuto)</t>
       </tg>
     </mg>
   </e>
@@ -743,7 +748,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>-han/-hän.</t>
+        <t pos="Interj">-han/-hän</t>
       </tg>
 
       <xg>
@@ -756,7 +761,7 @@
 
   <e>
     <lg>
-      <l>бодяй</l>
+      <l pos="Interj">бодяй</l>
 
       <stg>
         <st Contlex="VOCATIVE_">бодяй</st>
@@ -766,10 +771,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>дедушка</t>
+        <t pos="Interj">дедушка</t>
       </tg>
     </mg>
   </e>
@@ -868,7 +873,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>voi, oi</t>
+        <t pos="Interj">voi</t>
+
+        <t pos="Interj">oi</t>
       </tg>
 
       <xg>
@@ -926,13 +933,12 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>вастай</l>
+      <l pos="Interj">вастай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">вастай</st>
@@ -942,10 +948,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>жена, супруга</t>
+        <t pos="Interj">жена, супруга</t>
       </tg>
     </mg>
   </e>
@@ -1034,7 +1040,7 @@
 
   <e>
     <lg>
-      <l>вежавай</l>
+      <l pos="Interj">вежавай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">вежавай</st>
@@ -1044,10 +1050,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>младшая сноха</t>
+        <t pos="Interj">младшая сноха</t>
       </tg>
     </mg>
   </e>
@@ -1071,7 +1077,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>(lampaan kutsuhuuto)</t>
+        <te pos="Interj">lampaan kutsuhuuto</te>
       </tg>
     </mg>
   </e>
@@ -1113,7 +1119,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -1195,7 +1200,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>(imperatiivi-interj mon. 1. pers.).</t>
+        <te pos="Interj">(imperatiivi-interj mon. 1. pers.)</te>
       </tg>
 
       <xg>
@@ -1253,19 +1258,15 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>братец</t>
+        <t pos="Interj">братец</t>
 
-        <t>братец, сестрица</t>
+        <t pos="Interj">сестрица</t>
 
-        <t>младший брат</t>
+        <t pos="Interj">младший брат</t>
 
-        <t>подруга</t>
+        <t pos="Interj">подруга</t>
 
-        <t>подруга,сестра,мл.брат</t>
-
-        <t>сестра</t>
-
-        <t>сестрица</t>
+        <t pos="Interj">сестра</t>
       </tg>
 
       <xg>
@@ -1372,17 +1373,23 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="fin">
-        <t>kah, kas, kappas, katsos</t>
+        <t pos="Interj">kah</t>
+
+        <t pos="Interj">kas</t>
+
+        <t pos="Interj">kappas</t>
+
+        <t pos="Interj">katsos</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>какай</l>
+      <l pos="Interj">какай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">какай</st>
@@ -1392,17 +1399,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>дитятко</t>
+        <t pos="Interj">дитятко</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>корьмай-авай</l>
+      <l pos="Interj">корьмай-авай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">корьмай-авай</st>
@@ -1412,17 +1419,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>родимая матушка</t>
+        <t pos="Interj">родимая матушка</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>корьмакай</l>
+      <l pos="Interj">корьмакай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">корьмакай</st>
@@ -1432,10 +1439,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>кормилец (родитель)</t>
+        <t pos="Interj">кормилец (родитель)</t>
       </tg>
     </mg>
   </e>
@@ -1488,7 +1495,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>hus</t>
+        <t pos="Interj">hus</t>
       </tg>
 
       <xg>
@@ -1546,9 +1553,9 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>дядя, старший брат( обращ-е)</t>
+        <t pos="Interj">дядя</t>
 
-        <t>дядя, старший брат( обращен)</t>
+        <t pos="Interj">старший брат</t>
       </tg>
 
       <xg>
@@ -1562,7 +1569,7 @@
 
   <e>
     <lg>
-      <l>лелякай</l>
+      <l pos="Interj">лелякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">лелякай</st>
@@ -1572,19 +1579,19 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>дядя, старший брат( обращ-е)</t>
+        <t pos="Interj">дядя</t>
 
-        <t>дядя, старший брат( обращен)</t>
+        <t pos="Interj">старший брат</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>лелякай-тирякай</l>
+      <l pos="Interj">лелякай-тирякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">лелякай-тирякай</st>
@@ -1594,10 +1601,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>любимый старший брат</t>
+        <t pos="Interj">любимый старший брат</t>
       </tg>
     </mg>
   </e>
@@ -1646,7 +1653,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -1759,7 +1765,7 @@
 
   <e>
     <lg>
-      <l>нумолкай</l>
+      <l pos="Interj">нумолкай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">нумолкай</st>
@@ -1769,10 +1775,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>зайчишка, зайчонок</t>
+        <t pos="Interj">зайчишка, зайчонок</t>
       </tg>
     </mg>
   </e>
@@ -1820,13 +1826,12 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>оинекай</l>
+      <l pos="Interj">оинекай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">оинекай</st>
@@ -1836,17 +1841,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>дружок</t>
+        <t pos="Interj">дружок</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>оинем</l>
+      <l pos="Interj">оинем</l>
 
       <stg>
         <st Contlex="VOCATIVE_">оинем</st>
@@ -1856,17 +1861,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>мой дружок</t>
+        <t pos="Interj">мой дружок</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>ойминезень</l>
+      <l pos="Interj">ойминезень</l>
 
       <stg>
         <st Contlex="INTERJ_">ойминезень</st>
@@ -1876,17 +1881,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>ей Богу</t>
+        <t pos="Interj">ей Богу</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>ойминем</l>
+      <l pos="Interj">ойминем</l>
 
       <stg>
         <st Contlex="VOCATIVE_">ойминем</st>
@@ -1896,10 +1901,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>моя душа</t>
+        <t pos="Interj">моя душа</t>
       </tg>
     </mg>
   </e>
@@ -1923,7 +1928,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>kas (tuo) tuolla</t>
+        <t pos="Interj">kas tuolla</t>
+
+        <t pos="Interj">kas tuo tuolla</t>
       </tg>
 
       <xg>
@@ -1952,13 +1959,12 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>оякай</l>
+      <l pos="Interj">оякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">оякай</st>
@@ -1968,10 +1974,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>подруженька, дружок</t>
+        <t pos="Interj">подруженька, дружок</t>
       </tg>
     </mg>
   </e>
@@ -1996,7 +2002,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>riittää!</t>
+        <t pos="Interj">riittää!</t>
       </tg>
     </mg>
   </e>
@@ -2023,7 +2029,7 @@
 
   <e>
     <lg>
-      <l>парыям</l>
+      <l pos="Interj">парыям</l>
 
       <stg>
         <st Contlex="VOCATIVE_">парыям</st>
@@ -2033,10 +2039,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>золовушка</t>
+        <t pos="Interj">золовушка</t>
       </tg>
     </mg>
   </e>
@@ -2063,7 +2069,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>обращение к патя</t>
+        <t pos="Interj">обращение к патя</t>
       </tg>
 
       <xg>
@@ -2076,7 +2082,7 @@
 
   <e>
     <lg>
-      <l>превейнем</l>
+      <l pos="Interj">превейнем</l>
 
       <stg>
         <st Contlex="VOCATIVE_">превейнем</st>
@@ -2086,10 +2092,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>умница моя</t>
+        <t pos="Interj">умница моя</t>
       </tg>
     </mg>
   </e>
@@ -2106,10 +2112,16 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="fin">
-        <t>riittää!, hyvä on!, lopeta!, on jo tarpeeksi!</t>
+        <t pos="Interj">riittää!</t>
+
+        <t pos="Interj">hyvä on!</t>
+
+        <t pos="Interj">lopeta!</t>
+
+        <t pos="Interj">on jo tarpeeksi!</t>
       </tg>
     </mg>
   </e>
@@ -2145,7 +2157,7 @@
 
   <e>
     <lg>
-      <l>сырнеликай</l>
+      <l pos="Interj">сырнеликай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">сырнеликай</st>
@@ -2155,43 +2167,51 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>золотце</t>
+        <t pos="Interj">золотце</t>
       </tg>
     </mg>
   </e>
 
-   <e>
-      <lg>
-         <l pos="Interj">сюкпря</l>
-         <stg>
-            <st Contlex="FORMULAIC_">сюк#пря</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-            <defNative>Лиясо «пасиба».</defNative>
-         </m>
-         <tg xml:lang="eng">
-            <t>thank you</t>
-         </tg>
-         <tg xml:lang="fin">
-            <t>kiitos</t>
-         </tg>
+  <e>
+    <lg>
+      <l pos="Interj">сюкпря</l>
+
+      <stg>
+        <st Contlex="FORMULAIC_">сюк#пря</st>
+      </stg>
+    </lg>
+
+    <mg>
+      <m>
+        <head/>
+
+        <defNative>Лиясо «пасиба».</defNative>
+      </m>
+
+      <tg xml:lang="eng">
+        <t pos="Interj">thank you</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Interj">kiitos</t>
+      </tg>
+
       <tg xml:lang="fra">
         <t pos="Interj">merci</t>
       </tg>
-         <tg xml:lang="rus">
-            <t>спасибо</t>
-         </tg>
-      </mg>
-   </e>
+
+      <tg xml:lang="rus">
+        <t pos="Interj">спасибо</t>
+      </tg>
+    </mg>
+  </e>
+
   <e>
     <lg>
-      <l>тейтерем</l>
+      <l pos="Interj">тейтерем</l>
 
       <stg>
         <st Contlex="VOCATIVE_">тейтерем</st>
@@ -2201,17 +2221,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>доченька</t>
+        <t pos="Interj">доченька</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>тейтерькам</l>
+      <l pos="Interj">тейтерькам</l>
 
       <stg>
         <st Contlex="VOCATIVE_">тейтерькам</st>
@@ -2221,10 +2241,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>доченька</t>
+        <t pos="Interj">доченька</t>
       </tg>
     </mg>
   </e>
@@ -2252,7 +2272,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>папа, батя</t>
+        <t pos="Interj">папа, батя</t>
       </tg>
 
       <xg>
@@ -2271,7 +2291,7 @@
 
   <e>
     <lg>
-      <l>тетяка</l>
+      <l pos="Interj">тетяка</l>
 
       <stg>
         <st Contlex="VOCATIVE_">тетяка</st>
@@ -2281,17 +2301,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>батюшка</t>
+        <t pos="Interj">батюшка</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>тетякай</l>
+      <l pos="Interj">тетякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">тетякай</st>
@@ -2301,17 +2321,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>папочка</t>
+        <t pos="Interj">папочка</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>тетякай-тирякай</l>
+      <l pos="Interj">тетякай-тирякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">тетякай-тирякай</st>
@@ -2321,10 +2341,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>родной отец</t>
+        <t pos="Interj">родной отец</t>
       </tg>
     </mg>
   </e>
@@ -2350,7 +2370,7 @@
       </m>
 
       <tg xml:lang="rus">
-        <t>родной</t>
+        <t pos="Interj">родной</t>
       </tg>
 
       <xg>
@@ -2409,7 +2429,7 @@
 
   <e>
     <lg>
-      <l>тякай</l>
+      <l pos="Interj">тякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">тякай</st>
@@ -2419,10 +2439,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>дитятко</t>
+        <t pos="Interj">дитятко</t>
       </tg>
     </mg>
   </e>
@@ -2439,7 +2459,7 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
     </mg>
   </e>
 
@@ -2461,14 +2481,14 @@
         <defNative>I лоткавтомань вал пелькс. Сеедьстэ ёвтави лия валонь
         икеле, зярдо эряви невтемс кармавтомань чарькодема.</defNative>
       </m>
+
       <tg xml:lang="fin">
-	<t>älä hosu</t>
+        <t pos="Interj">älä hosu</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t>подожди</t>
+        <t pos="Interj">подожди</t>
       </tg>
-
 
       <xg>
         <x>Ужо учомак. Ужо аштек. Ужо тук тестэ. Ужо нолдамак.</x>
@@ -2547,7 +2567,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -2563,10 +2582,12 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="fin">
-        <t>voi, huh</t>
+        <t pos="Interj">voi</t>
+
+        <t pos="Interj">huh</t>
       </tg>
     </mg>
   </e>
@@ -2588,7 +2609,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -2638,7 +2658,7 @@
 
   <e>
     <lg>
-      <l>цёрам</l>
+      <l pos="Interj">цёрам</l>
 
       <stg>
         <st Contlex="VOCATIVE_">цёрам</st>
@@ -2648,17 +2668,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>сынок. Сыночек</t>
+        <t pos="Interj">сынок. Сыночек</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>цёркам</l>
+      <l pos="Interj">цёркам</l>
 
       <stg>
         <st Contlex="VOCATIVE_">цёркам</st>
@@ -2668,17 +2688,17 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>мальчик мой</t>
+        <t pos="Interj">мальчик мой</t>
       </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>цёрынем</l>
+      <l pos="Interj">цёрынем</l>
 
       <stg>
         <st Contlex="VOCATIVE_">цёрынем</st>
@@ -2688,10 +2708,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>сыночек мой</t>
+        <t pos="Interj">сыночек мой</t>
       </tg>
     </mg>
   </e>
@@ -2734,7 +2754,7 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
     </mg>
   </e>
 
@@ -2755,7 +2775,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -2776,13 +2795,12 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
   <e>
     <lg>
-      <l>эзналякай</l>
+      <l pos="Interj">эзналякай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">эзналякай</st>
@@ -2792,10 +2810,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>обращение к эзналя</t>
+        <t pos="Interj">обращение к эзналя</t>
       </tg>
     </mg>
   </e>
@@ -2817,7 +2835,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -2838,7 +2855,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -2888,7 +2904,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>no</t>
+        <t pos="Interj">no</t>
       </tg>
 
       <xg>
@@ -2919,7 +2935,9 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>no, kas niin</t>
+        <t pos="Interj">no</t>
+
+        <t pos="Interj">kas niin</t>
       </tg>
 
       <xg>
@@ -2949,7 +2967,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>no</t>
+        <t pos="Interj">no</t>
       </tg>
 
       <xg>
@@ -2979,7 +2997,7 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
     </mg>
   </e>
 
@@ -3000,7 +3018,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -3021,7 +3038,6 @@
           <tags/>
         </head>
       </m>
-
     </mg>
   </e>
 
@@ -3033,6 +3049,7 @@
         <st Contlex="VOCATIVE_">юрт#авай</st>
       </stg>
     </lg>
+
     <mg>
       <tg xml:lang="eng">
         <t pos="N">XX</t>
@@ -3056,12 +3073,14 @@
         <st Contlex="INTERJ_">да</st>
       </stg>
     </lg>
+
     <sources>
       <book name="Olga01"/>
     </sources>
 
     <mg>
-        <defNative>истя</defNative>
+      <defNative>истя</defNative>
+
       <tg xml:lang="fin">
         <t pos="Interj">kyllä</t>
       </tg>
@@ -3069,8 +3088,9 @@
       <tg xml:lang="rus">
         <t pos="Interj">да</t>
       </tg>
-</mg>
-</e>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Interj">виде</l>
@@ -3079,12 +3099,14 @@
         <st Contlex="INTERJ_">виде</st>
       </stg>
     </lg>
+
     <sources>
       <book name="Olga01"/>
     </sources>
 
     <mg>
-        <defNative>истя</defNative>
+      <defNative>истя</defNative>
+
       <tg xml:lang="fin">
         <t pos="Interj">kyllä</t>
       </tg>
@@ -3092,8 +3114,9 @@
       <tg xml:lang="rus">
         <t pos="Interj">да</t>
       </tg>
-</mg>
-</e>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Interj">шумбрачи</l>
@@ -3102,12 +3125,14 @@
         <st Contlex="FORMULAIC_">шумбрачи</st>
       </stg>
     </lg>
+
     <sources>
       <book name="Olga01"/>
     </sources>
 
     <mg>
-        <defNative>истя</defNative>
+      <defNative>истя</defNative>
+
       <tg xml:lang="fin">
         <t pos="Interj">terve</t>
       </tg>
@@ -3115,8 +3140,9 @@
       <tg xml:lang="rus">
         <t pos="Interj">здраствуй</t>
       </tg>
-</mg>
-</e>
+    </mg>
+  </e>
+
   <e>
     <lg>
       <l pos="Interj">я</l>
@@ -3140,16 +3166,22 @@
 
       <tg xml:lang="fin">
         <t pos="Interj">katsos</t>
-	<t pos="Interj">kas</t>
-	<t pos="Interj">no</t>
-	<t pos="Interj">ai</t>
+
+        <t pos="Interj">kas</t>
+
+        <t pos="Interj">no</t>
+
+        <t pos="Interj">ai</t>
       </tg>
 
       <tg xml:lang="rus">
         <t pos="Interj">да</t>
+
         <t pos="Interj">ну</t>
+
         <t pos="Interj">ой</t>
       </tg>
+
       <xg>
         <x>я, тонгак тесат</x>
 
@@ -3162,14 +3194,12 @@
 
         <xt/>
       </xg>
-
     </mg>
   </e>
 
-
   <e>
     <lg>
-      <l>ялгай</l>
+      <l pos="Interj">ялгай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">ялгай</st>
@@ -3179,10 +3209,10 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
-        <t>дружище, друг</t>
+        <t pos="Interj">дружище, друг</t>
       </tg>
     </mg>
   </e>
@@ -3205,7 +3235,7 @@
 
   <e>
     <lg>
-      <l>ялгинекай</l>
+      <l pos="Interj">ялгинекай</l>
 
       <stg>
         <st Contlex="VOCATIVE_">ялгинекай</st>
@@ -3215,7 +3245,7 @@
     <pos>Interj</pos>
 
     <mg>
-        <defNative/>
+      <defNative/>
 
       <tg xml:lang="rus">
         <tf>мой дружок</tf>
@@ -3244,7 +3274,7 @@
       </m>
 
       <tg xml:lang="fin">
-        <t>no</t>
+        <t pos="Interj">no</t>
       </tg>
 
       <xg>
