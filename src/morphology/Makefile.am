@@ -27,13 +27,13 @@ GT_LEXC_SRCS=\
 			stems/exceptions.lexc 	          \
 			stems/rusMaleNameDer.lexc	      \
 			affixes/adjectives.lexc           \
+			affixes/adpositions.lexc        \
 			affixes/adverbs.lexc              \
 			affixes/interjections.lexc        \
 			affixes/nonverbalConjugation.lexc \
 			affixes/nouns.lexc                \
 			affixes/possessorindices.lexc     \
 			affixes/pronouns.lexc             \
-			affixes/postpositions.lexc        \
 			affixes/propernouns.lexc          \
 			affixes/quantifiers.lexc          \
 			affixes/verbs.lexc
@@ -45,6 +45,7 @@ GT_LEXC_SRCS=\
 GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/urj-Cyrl-propernouns.lexc \
 		$(srcdir)/stems/adjectives.lexc         \
+		$(srcdir)/stems/adpositions.lexc      \
 		$(srcdir)/stems/adverbs.lexc            \
 		$(srcdir)/stems/bahuvrihis.lexc         \
 		$(srcdir)/stems/conjunctors.lexc        \
@@ -54,7 +55,6 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/noun-deverbal.lexc      \
 		$(srcdir)/stems/participles.lexc        \
 		$(srcdir)/stems/particles.lexc          \
-		$(srcdir)/stems/postpositions.lexc      \
 		$(srcdir)/stems/pronouns.lexc           \
 		$(srcdir)/stems/propernouns.lexc        \
 		$(srcdir)/stems/quantifiers.lexc        \
@@ -64,6 +64,7 @@ GENERATED_LEXC_SRCS=\
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/adjectives.xml      \
+		stems/adpositions.xml   \
 		stems/adverbs.xml         \
 		stems/bahuvrihis.xml      \
 		stems/conjunctors.xml     \
@@ -73,7 +74,6 @@ GT_XML_SRCS=\
 		stems/noun-deverbal.xml   \
 		stems/participles.xml     \
 		stems/particles.xml   	  \
-		stems/postpositions.xml   \
 		stems/propernouns.xml     \
 		stems/pronouns.xml        \
 		stems/quantifiers.xml     \
