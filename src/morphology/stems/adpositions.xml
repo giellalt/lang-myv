@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xml:lang="myv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="myv">
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
   <e>
     <lg>
       <l pos="Po">келес</l>
@@ -383,8 +383,6 @@
       </stg>
     </lg>
 
-    <pos>SPAT</pos>
-
     <mg>
       <m>
         <head/>
@@ -427,8 +425,6 @@
       </stg>
     </lg>
 
-    <pos>SPAT</pos>
-
     <mg>
       <m>
         <head/>
@@ -468,8 +464,6 @@
       </stg>
     </lg>
 
-    <pos>SPAT</pos>
-
     <mg>
       <m>
         <head/>
@@ -508,7 +502,11 @@
       </m>
 
       <tg xml:lang="fin">
-        <t pos="Po">pitkin</t><t pos="Po">päällä</t><t pos="Po">vasten</t>
+        <t pos="Po">pitkin</t>
+
+        <t pos="Po">päällä</t>
+
+        <t pos="Po">vasten</t>
       </tg>
 
       <xg>
@@ -745,8 +743,6 @@
       </stg>
     </lg>
 
-    <pos>POSTP-SPAT</pos>
-
     <mg>
       <m>
         <head/>
@@ -764,8 +760,6 @@
         <st Contlex="Spat_">юткова</st>
       </stg>
     </lg>
-
-    <pos>POSTP-SPAT</pos>
 
     <mg>
       <m>
@@ -846,8 +840,6 @@
       </stg>
     </lg>
 
-    <pos>SPAT</pos>
-
     <mg>
       <m>
         <head/>
@@ -865,8 +857,6 @@
         <st Contlex="Spat_">ёндо</st>
       </stg>
     </lg>
-
-    <pos>SPAT</pos>
 
     <mg>
       <m>
@@ -962,7 +952,8 @@
     <posDescr>Spat</posDescr>
 
     <mg>
-        <defNative>Кутьмере ёно. Кутьмере пеле.</defNative>
+      <defNative>Кутьмере ёно. Кутьмере пеле.</defNative>
+
       <tg xml:lang="fin">
         <t pos="Po">takana</t>
       </tg>
@@ -1004,10 +995,12 @@
     <posDescr>Spat</posDescr>
 
     <mg>
-        <defNative>Кутьмере ёнов. Аволь икелев. Мезеньгак омбоце ёнов,
-        томбалев.</defNative>
+      <defNative>Кутьмере ёнов. Аволь икелев. Мезеньгак омбоце ёнов,
+      томбалев.</defNative>
+
       <tg xml:lang="fin">
         <t pos="Po">taakse</t>
+
         <t pos="Po">taa</t>
       </tg>
 
@@ -1050,8 +1043,6 @@
         <st Contlex="Spat_">ёнов</st>
       </stg>
     </lg>
-
-    <pos>SPAT</pos>
 
     <mg>
       <m>
@@ -1268,9 +1259,11 @@
 
         <defNative>1)потмова ве чирестэ омбоце чирес.</defNative>
       </m>
+
       <tg xml:lang="eng">
         <t pos="Pr">through</t>
       </tg>
+
       <tg xml:lang="fin">
         <t pos="Po">läpi</t>
       </tg>
@@ -1626,7 +1619,11 @@
 
         <t pos="Pr">около</t>
 
-        <t pos="Pr">от</t><t pos="Pr">с</t><t pos="Pr">рядом</t>
+        <t pos="Pr">от</t>
+
+        <t pos="Pr">с</t>
+
+        <t pos="Pr">рядом</t>
       </tg>
 
       <xg>
@@ -1663,9 +1660,10 @@
     <posDescr>Spat</posDescr>
 
     <mg>
-        <defNative/>
+      <defNative/>
+
       <tg xml:lang="fin">
-	<t pos="Po">vieressä</t>
+        <t pos="Po">vieressä</t>
       </tg>
 
       <xg>
@@ -1760,7 +1758,11 @@
       <tg xml:lang="rus">
         <t pos="Pr">вдоль</t>
 
-        <t pos="Pr">по</t><t pos="Pr">вдоль</t><t pos="Pr">из-за</t>
+        <t pos="Pr">по</t>
+
+        <t pos="Pr">вдоль</t>
+
+        <t pos="Pr">из-за</t>
       </tg>
 
       <xg>
@@ -1907,19 +1909,21 @@
         <st Contlex="PO-TEMP_">перть</st>
       </stg>
     </lg>
+
     <etymg>
       <etym>[-æ-</etym>
     </etymg>
 
     <mg>
-
-        <defNative>Вал мельгакс, невти шкань ютко.</defNative>
+      <defNative>Вал мельгакс, невти шкань ютко.</defNative>
 
       <tg xml:lang="fin">
-	<t pos="Pr">läpi</t>
-	<t pos="A">koko</t>
+        <t pos="Pr">läpi</t>
+
+        <t pos="A">koko</t>
       </tg>
-<xg>
+
+      <xg>
         <x>Чинь перть учинь ялгань самонть, эзь учово. Недлянь перть яксинь
         нуеме. Ковонь перть. Иень перть эрян велесэ.</x>
 
@@ -1983,8 +1987,7 @@
 
       <xg>
         <x>Цёранть перька сюлмазь кшнань каркс. Аванть перька сюлмазь
-        икельгапаця. Велявтомс эсеть
-        перька.</x>
+        икельгапаця. Велявтомс эсеть перька.</x>
 
         <xt/>
       </xg>
@@ -2149,9 +2152,11 @@
         <st Contlex="PO_МАРТО">марто</st>
       </stg>
     </lg>
-     <sources>
+
+    <sources>
       <book name="Olga01"/>
     </sources>
+
     <mg>
       <semantics>
         <sem class="MORFAS"/>
@@ -2337,8 +2342,6 @@
         <st Contlex="Dat-1Arg">туртов</st>
       </stg>
     </lg>
-
-    <pos>DAT-1ARG</pos>
 
     <mg>
       <m>
