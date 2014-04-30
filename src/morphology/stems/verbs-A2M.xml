@@ -99438,6 +99438,9 @@
       <morph type="V">лоткавтомс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Мернемс аштеме. Кармавтнемс аштеме.</defNative>
 
@@ -103397,6 +103400,9 @@
       </stg>
     </lg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Сяворемс таркас, прамс удомо.</defNative>
 
@@ -103602,13 +103608,12 @@
     </lg>
 
     <morphg>
-      <morph type="V">мадстсь</morph>
-
-      <morph type="V">мадстекшнесь</morph>
-
       <morph type="V">мадстнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Меремс мадеме. Каямс лавсьс (эйдесь). Кармавтомс
       удомо.</defNative>
@@ -104382,6 +104387,9 @@
       <morph type="V">макснемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Киньгак туртов мезеяк явомс эсеть пельде. Максомc ялганень
       ловномс книга. Тетрадень рамамс цёрынентень максома ярмак. Максомс
@@ -105047,6 +105055,9 @@
       <morph type="V">манямс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Теемс а видестэ. Кортамс а видестэ. Ёвтнемс сенде, мезесь
       арасель.</defNative>
@@ -105597,13 +105608,9 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">марявсь</morph>
-
-      <morph type="V">марявкшнось</morph>
-
-      <morph type="V">марявкшномс</morph>
-    </morphg>
+    <sources>
+      <book name="Olga01"/>
+    </sources>
 
     <mg>
       <defNative>Вайгелень пачкодема. Пилес кортавксонь пачкодема. Пачтемс
@@ -105726,6 +105733,9 @@
       <morph type="V">марсемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>1)</defNative>
 
@@ -106643,22 +106653,15 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">маштовсь</morph>
-
-      <morph type="V">маштовкшнось</morph>
-
-      <morph type="V">маштовкшномс</morph>
-    </morphg>
-
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Мезекскак эрявома. Козоньгак ладявомс, путовомс. Лазнэнь
       маштовомс сэдявксокс. Чочконтень маштовомс пенгекс.</defNative>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">menehtyä</t>
-
-        <t pos="V" val="IV">kaatua (sodassa)</t>
+        <t pos="V" val="IV">sopia</t>
       </tg>
 
       <tg xml:lang="rus">
@@ -106676,18 +106679,15 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">маштовсь</morph>
-
-      <morph type="V">маштовкшнось</morph>
-
-      <morph type="V">маштовкшномс</morph>
-    </morphg>
-
     <mg>
       <defNative>Чавовомс. Ледевемс. Чавовомс вирень керямсто. Маштовомс
       шахтасо.</defNative>
 
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">menehtyä</t>
+
+        <t pos="V" val="IV">kaatua (sodassa)</t>
+      </tg>
       <xg>
         <x>Маштовомс тюремстэ. Маштовомс апак фатя. Маштовома вирень керямсто.
         Маштовома войнасо.</x>
@@ -106746,7 +106746,11 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V">tappaa</t>
+        <t pos="V" val="TV">tappaa</t>
+        <t pos="V" val="TV">tuhota</t>
+      </tg>
+      <tg xml:lang="rus">
+        <t pos="V" val="TV">убить</t>
       </tg>
     </mg>
   </e>
@@ -106756,7 +106760,7 @@
       <l pos="V" val="IV">маштомс</l>
 
       <stg>
-        <st Contlex="IV_САТОМС">машт</st>
+        <st Contlex="IV_САВТОМС">машт</st>
       </stg>
     </lg>
 
@@ -106764,15 +106768,41 @@
       <defNative/>
 
       <tg xml:lang="fin">
-        <t pos="V" val="IV">tappaa</t>
+        <t pos="V" val="IV">loppua</t>
+        <t pos="V" val="IV">päättyä</t>
 
-        <t pos="V" val="IV">tuhota</t>
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V" val="IV">убить. Завершить</t>
+        <t pos="V" val="IV">завершить</t>
 
         <t pos="V" val="IV">кончиться</t>
+      </tg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="V" type="VA">маштомс</l>
+
+      <stg>
+        <st Contlex="VA_САВТОМС">машт</st>
+      </stg>
+    </lg>
+
+    <sources>
+      <book name="Olga01"/>
+    </sources>
+    <mg>
+      <defNative/>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="IV">osata</t>
+
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V" val="IV">уметь</t>
       </tg>
     </mg>
   </e>
@@ -107293,6 +107323,9 @@
       </stg>
     </lg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <m>
         <head>
@@ -108327,6 +108360,9 @@
       <morph type="V">мернемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Кармавтомс. Меремс рамамс кши. Меремс а токшемс
       ружиянть.</defNative>
@@ -109006,6 +109042,9 @@
       <etym xml:lang="fin">myydä</etym>
     </etymg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Максомс ярмакто эли лиядо мезде. Максомсто саемс
       ярмак.</defNative>
@@ -109185,6 +109224,9 @@
       <morph type="V">мизолкшномс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Пейдемс ансяк турвасо, вайгелень апак нолда.</defNative>
 
@@ -109323,6 +109365,9 @@
       <morph type="V">микшнекшнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Улемс микшнема тевсэ.</defNative>
 
@@ -110120,6 +110165,7 @@
 
 </mg>
 </e>
+
   <e>
     <lg>
       <l pos="V" val="IV">молемс</l>
@@ -110137,6 +110183,9 @@
       <morph type="V">молькшнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Икелев айгемс, шаштомс эскелязь.</defNative>
 
@@ -110155,8 +110204,6 @@
       </tg>
 
       <tg xml:lang="rus">
-        <t pos="V">идти</t>
-
         <t pos="V">идти</t>
 
         <t pos="V">приближаться</t>
@@ -110521,6 +110568,9 @@
       <morph type="V">моразевкшнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative/>
 
@@ -110595,6 +110645,9 @@
       <morph type="V">морсемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <semantics>
         <sem class="mACTIVITY"/>
@@ -111466,6 +111519,9 @@
       <morph type="V">муевкшнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Муевемс ёмазентень.</defNative>
 
@@ -111568,6 +111624,9 @@
       <morph type="V">муйнемс</morph>
     </morphg>
 
+    <sources>
+      <book name="Olga01"/>
+    </sources>
     <mg>
       <defNative>Мезеяк костояк муемс. Кепедемс ки лангсто. Муемс правтозь
       сюлмо. Муемс ёмавтозь ярмак.</defNative>
