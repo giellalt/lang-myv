@@ -192,12 +192,6 @@ LEXICON N_КАЛ
 +N@P.POS.N@:0@P.POS.N@ NMN_КАЛ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_КУДО ;
 
-LEXICON NMN_КАЛ
- N_КАЛ-Derivation ;
- N_КАЛ-Def-Declension ;
- _КАЛ-Indef-Declension ;
- N_КАЛ-Poss-Declension-CX ;
-
 LEXICON N_КАЛ_SUB
 +Use/Sub: N_КАЛ ;
 
@@ -218,22 +212,9 @@ LEXICON N_ЛАК-PL
 +N@P.POS.N@:0@P.POS.N@ _КАЛ-Indef-Declension-PL ;
 +N@P.POS.N@:0@P.POS.N@ N_КАЛ-Poss-Declension-CX-PL ;
 
-LEXICON NMN_ЛАК
- N_ЛАК-Derivation ;
- N_ЛАК-Def-Declension ;
- _ЛАК-Indef-Declension ;
- N_КАЛ-Poss-Declension-CX ;
-
 LEXICON N_КИТ
 +N@P.POS.N@:0@P.POS.N@ NMN_КИТ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_КУДО ;
-
-LEXICON NMN_КИТ
- N_КИТ-Derivation ;
-!2013-03-15!+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
- N_КИТ-Def-Declension ;
- _КИТ-Indef-Declension ;
- N_КАЛ-Poss-Declension-CX ;
 
 LEXICON N_КИТ-PL
 !2013-03-15!+Use/Sub+Orth/PhonInfl+N:%>TLoss NMN_DEF-PL-DECLENSION ;
@@ -244,30 +225,12 @@ LEXICON N_КЛАСС
 +N@P.POS.N@:0@P.POS.N@ NMN_КЛАСС ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_КУДО ;
 
-LEXICON NMN_КЛАСС
- N_КЛАСС-Derivation ;
- N_ОШ-Def-Declension ;
- _ОШ-Indef-Declension ;
- N_КАЛ-Poss-Declension-CX ;
-
 LEXICON N_ОШ_SUB
 +Use/Sub: N_ОШ ;
 
 LEXICON N_ОШ
 +N@P.POS.N@:0@P.POS.N@ NMN_ОШ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_КУДО ;
-
-LEXICON NMN_ОШ
- N_ОШ-Derivation ;
- N_ОШ-Def-Declension ;
- _ОШ-Indef-Declension ;
- N_КАЛ-Poss-Declension-CX ;
-
-LEXICON NMN_ОШ-PL !! This needs checking 2013-03-27
- N_ОШ-Derivation ;
- NMN_DEF-PL-DECLENSION ;
- _ОШ-Indef-Declension-PL ;
- N_ОШ-Poss-Declension-CX-PL ;
 
 LEXICON N_ОШ-PL
 +N@P.POS.N@:0@P.POS.N@ N_ОШ-Derivation ;
@@ -283,15 +246,9 @@ LEXICON N_ТЕШТЕ
 +N@P.POS.N@:0@P.POS.N@ NMN_ТЕШТЕ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>ке0@P.POS.N@ NMN_КУДО ;
 
-LEXICON NMN_ТЕШТЕ
- NMN_ПАНГО ;
-
 LEXICON N_ТИНГЕ
 +N@P.POS.N@:0@P.POS.N@ NMN_ТИНГЕ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Ы2не@P.POS.N@ NMN_КУДО ;
-
-LEXICON NMN_ТИНГЕ
- NMN_ПАНГО ;
 
 LEXICON N_ТИНГЕ-PL
 +N@P.POS.N@:0@P.POS.N@ NMN_DEF-PL-DECLENSION ;
@@ -307,12 +264,6 @@ LEXICON N_ПАНГО
 +N@P.POS.N@:0@P.POS.N@ NMN_ПАНГО ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Ы2не@P.POS.N@ NMN_КУДО ;
 
-LEXICON NMN_ПАНГО
- N_ПАНГО-Derivation ;
- N_ПАНГО-Def-Declension ;
- _ПАНГО-Indef-Declension ;
- N_ПАНГО-Poss-Declension-CX ;
-
 LEXICON DV-N_
 +V+Der/ОмА: N_КУДО ;
 
@@ -321,18 +272,78 @@ LEXICON N_КИ
 +N@P.POS.N@:0@P.POS.N@ NMN_КИ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Ы2не@P.POS.N@ NMN_КУДО ;
 
-LEXICON NMN_КИ
- NMN_КУДО ;
-:я PRL-INDEF ;
-:я SG-PRL-DEF ;
-+Sg+Prl:ява PossPX1 ;
-
 LEXICON N_КУДО_SUB
 +Use/Sub: N_КУДО ;
 
 LEXICON N_КУДО
 +N@P.POS.N@:0@P.POS.N@ NMN_КУДО ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Ы2не@P.POS.N@ NMN_КУДО ;
+
+LEXICON N_КУДО-PL
++N@P.POS.N@:0@P.POS.N@ N_КУДО-Derivation ;
++N@P.POS.N@:0@P.POS.N@ NMN_DEF-PL-DECLENSION ;
++N@P.POS.N@:0@P.POS.N@ _КУДО-Indef-Declension-PL ;
++N@P.POS.N@:0@P.POS.N@ N_КУДО-Poss-Declension-CX-PL ;
+
+!Does this need a diminutive?
+LEXICON N_АВИДЕМ
++N+AssocColl@P.POS.N@:00@P.POS.N@ N_КУДО-Poss-Declension-CX ;
+
+!! NMN
+LEXICON NMN_КАЛ
+ N_КАЛ-Derivation ;
+ N_КАЛ-Def-Declension ;
+ _КАЛ-Indef-Declension ;
+ N_КАЛ-Poss-Declension-CX ;
+
+LEXICON NMN_ЛАК
+ N_ЛАК-Derivation ;
+ N_ЛАК-Def-Declension ;
+ _ЛАК-Indef-Declension ;
+ N_КАЛ-Poss-Declension-CX ;
+
+LEXICON NMN_КИТ
+ N_КИТ-Derivation ;
+!2013-03-15!+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+ N_КИТ-Def-Declension ;
+ _КИТ-Indef-Declension ;
+ N_КАЛ-Poss-Declension-CX ;
+
+LEXICON NMN_КЛАСС
+ N_КЛАСС-Derivation ;
+ N_ОШ-Def-Declension ;
+ _ОШ-Indef-Declension ;
+ N_КАЛ-Poss-Declension-CX ;
+
+LEXICON NMN_ОШ
+ N_ОШ-Derivation ;
+ N_ОШ-Def-Declension ;
+ _ОШ-Indef-Declension ;
+ N_КАЛ-Poss-Declension-CX ;
+
+LEXICON NMN_ОШ-PL !! This needs checking 2013-03-27
+ N_ОШ-Derivation ;
+ NMN_DEF-PL-DECLENSION ;
+ _ОШ-Indef-Declension-PL ;
+ N_ОШ-Poss-Declension-CX-PL ;
+
+LEXICON NMN_ТЕШТЕ
+ NMN_ПАНГО ;
+
+LEXICON NMN_ТИНГЕ
+ NMN_ПАНГО ;
+
+LEXICON NMN_ПАНГО
+ N_ПАНГО-Derivation ;
+ N_ПАНГО-Def-Declension ;
+ _ПАНГО-Indef-Declension ;
+ N_ПАНГО-Poss-Declension-CX ;
+
+LEXICON NMN_КИ
+ NMN_КУДО ;
+:я PRL-INDEF ;
+:я SG-PRL-DEF ;
++Sg+Prl:ява PossPX1 ;
 
 LEXICON NMN_КУДО
  N_КУДО-Derivation ;
@@ -345,16 +356,6 @@ LEXICON NMN_КУДО-PL !! This needs checking 2013-03-27
  NMN_DEF-PL-DECLENSION ;
  _КУДО-Indef-Declension-PL ;
  N_КУДО-Poss-Declension-CX-PL ;
-
-LEXICON N_КУДО-PL
-+N@P.POS.N@:0@P.POS.N@ N_КУДО-Derivation ;
-+N@P.POS.N@:0@P.POS.N@ NMN_DEF-PL-DECLENSION ;
-+N@P.POS.N@:0@P.POS.N@ _КУДО-Indef-Declension-PL ;
-+N@P.POS.N@:0@P.POS.N@ N_КУДО-Poss-Declension-CX-PL ;
-
-!Does this need a diminutive?
-LEXICON N_АВИДЕМ
-+N+AssocColl@P.POS.N@:00@P.POS.N@ N_КУДО-Poss-Declension-CX ;
 
 
 ! ========== !
@@ -826,107 +827,90 @@ LEXICON SG-TRA-DEF_Dial-NW
 !! INDEFINITE DECLENSION
 
 LEXICON _КИТ-Indef-Declension
- _КИТ-Indef-Declension-SG ;
- _КИТ-Indef-Declension-PL ;
+! _КИТ-Indef-Declension-SG ;
+! _КИТ-Indef-Declension-PL ;
+ SG-NOM-INDEF ;
+ PL-NOM-INDEF ;
+ _КИТ-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _КИТ-Indef-Declension-SG
-@U.DECL-NX.SG@ _КИТ-Indef-Declension-MUTUAL ;
+ _КИТ-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
  SG-NOM-INDEF ;
 ! SG-NOM-INDEF_КИТ ;
 
 LEXICON _КИТ-Indef-Declension-PL
-@U.DECL-NX.PL@ _КИТ-Indef-Declension-MUTUAL ;
+ _КИТ-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
  PL-NOM-INDEF ;
 
 LEXICON _КИТ-Indef-Declension-MUTUAL
- ABE-INDEF ;
- ABL-INDEF ;
- CMP-INDEF ;
 :%>О1 CMP-INDEF ;
- COM-INDEF ;
- DAT-INDEF ;
- ELA-INDEF ;
- GEN-INDEF ;
- ILL-INDEF ;
- INE-INDEF ;
- PRL-INDEF ;
- TMP-INDEF ;
- TRA-INDEF ;
 :%>О1 TRA-INDEF ;
 
 LEXICON _ЛАК-Indef-Declension
- _ЛАК-Indef-Declension-SG ;
- _ЛАК-Indef-Declension-PL ;
+! _ЛАК-Indef-Declension-SG ;
+! _ЛАК-Indef-Declension-PL ;
+ SG-NOM-INDEF ;
+ PL-NOM-INDEF ;
+ _ЛАК-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _ЛАК-Indef-Declension-SG
-@U.DECL-NX.SG@ _ЛАК-Indef-Declension-MUTUAL ;
+ _ЛАК-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
  SG-NOM-INDEF ;
 ! SG-NOM-INDEF_ЛАК ;
 
 LEXICON _ЛАК-Indef-Declension-PL
-@U.DECL-NX.PL@ _ЛАК-Indef-Declension-MUTUAL ;
+ _ЛАК-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
  PL-NOM-INDEF ;
 
 LEXICON _ЛАК-Indef-Declension-MUTUAL
- ABE-INDEF ;
- ABL-INDEF ;
- CMP-INDEF ;
 :%>О1 CMP-INDEF ;
- COM-INDEF ;
- DAT-INDEF ;
- ELA-INDEF ;
- GEN-INDEF ;
- ILL-INDEF ;
- INE-INDEF ;
- PRL-INDEF ;
- TMP-INDEF ;
- TRA-INDEF ;
 :%>О1 TRA-INDEF ;
 
 LEXICON _КАЛ-Indef-Declension
- _КАЛ-Indef-Declension-SG ;
- _КАЛ-Indef-Declension-PL ;
+! _КАЛ-Indef-Declension-SG ;
+! _КАЛ-Indef-Declension-PL ;
+ SG-NOM-INDEF ;
+ PL-NOM-INDEF ;
+ _КАЛ-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _КАЛ-Indef-Declension-SG
-@U.DECL-NX.SG@ _КАЛ-Indef-Declension-MUTUAL ;
+ _КАЛ-Indef-Declension-MUTUAL ;
  SG-NOM-INDEF ;
 ! SG-NOM-INDEF_КАЛ ;
+ _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _КАЛ-Indef-Declension-PL
-@U.DECL-NX.PL@ _КАЛ-Indef-Declension-MUTUAL ;
+ _КАЛ-Indef-Declension-MUTUAL ;
  PL-NOM-INDEF ;
+ _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _КАЛ-Indef-Declension-MUTUAL
- ABE-INDEF ;
- ABL-INDEF ;
- CMP-INDEF ;
 :%>О1 CMP-INDEF ;
- COM-INDEF ;
- DAT-INDEF ;
- ELA-INDEF ;
- GEN-INDEF ;
- ILL-INDEF ;
- INE-INDEF ;
- LOC-INDEF ;
- PRL-INDEF ;
- TMP-INDEF ;
- TRA-INDEF ;
 :%>О1 TRA-INDEF ;
 
 
 
 LEXICON _ОШ-Indef-Declension
- _ОШ-Indef-Declension-SG ;
- _ОШ-Indef-Declension-PL ;
-
+! _ОШ-Indef-Declension-SG ;
+! _ОШ-Indef-Declension-PL ;
+ SG-NOM-INDEF ;
+ PL-NOM-INDEF ;
+ _ОШ-Indef-Declension-MUTUAL ;
 
 LEXICON _ОШ-Indef-Declension-SG
-@U.DECL-NX.SG@ _ОШ-Indef-Declension-MUTUAL ;
+ _ОШ-Indef-Declension-MUTUAL ;
  SG-NOM-INDEF ;
 ! SG-NOM-INDEF_ОШ ;
 
 LEXICON _ОШ-Indef-Declension-PL
-@U.DECL-NX.PL@ _ОШ-Indef-Declension-MUTUAL ;
+ _ОШ-Indef-Declension-MUTUAL ;
  PL-NOM-INDEF ;
 
 LEXICON _ОШ-Indef-Declension-MUTUAL
@@ -949,58 +933,51 @@ LEXICON _ОШ-Indef-Declension-MUTUAL
 
 
 LEXICON _ПАНГО-Indef-Declension
- _ПАНГО-Indef-Declension-SG ;
- _ПАНГО-Indef-Declension-PL ;
+! _ПАНГО-Indef-Declension-SG ;
+! _ПАНГО-Indef-Declension-PL ;
+:%>О1  SG-NOM-INDEF ;
+:%>О1 PL-NOM-INDEF ;
+ PL-NOM-INDEF ;
+ _ПАНГО-Indef-Declension-MUTUAL ;
+:%>О1 _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _ПАНГО-Indef-Declension-SG
-@U.DECL-NX.SG@ _ПАНГО-Indef-Declension-MUTUAL ;
+ _ПАНГО-Indef-Declension-MUTUAL ;
+:%>О1 _MUTUAL-Indef-Declension-SP ;
 :%>О1  SG-NOM-INDEF ;
 !SG-NOM-INDEF_ПАНГО ;
 
 LEXICON _ПАНГО-Indef-Declension-PL
-@U.DECL-NX.PL@ _ПАНГО-Indef-Declension-MUTUAL ;
+ _ПАНГО-Indef-Declension-MUTUAL ;
+:%>О1 _MUTUAL-Indef-Declension-SP ;
 :%>О1 PL-NOM-INDEF ;
  PL-NOM-INDEF ;
 
 LEXICON _ПАНГО-Indef-Declension-MUTUAL
 +Use/Sub:%> ABE-INDEF ;
-:%>О1 ABE-INDEF ;
-:%>О1 ABL-INDEF ;
 +Use/Sub: ABL-INDEF ;
-:%>О1 CMP-INDEF ;
-:%>О1 COM-INDEF ;
-:%>О1 DAT-INDEF ;
-:%>О1 ELA-INDEF ;
  ELA-INDEF ;
-:%>О1 GEN-INDEF ;
-:%>О1 ILL-INDEF ;
  ILL-INDEF ;
-:%>О1 INE-INDEF ;
  INE-INDEF ;
-:%>О1 PRL-INDEF ;
-:%>О1 TMP-INDEF ;
-:%>О1 TRA-INDEF ;
-
 
 LEXICON _КУДО-Indef-Declension
-@U.DECL-NX.SG@ _КУДО-Indef-Declension-MUTUAL ;
- SG-NOM-INDEF ;
-! SG-NOM-INDEF_КУДО ;
- PL-NOM-INDEF ;
-
 ! _КУДО-Indef-Declension-SG ;
 ! _КУДО-Indef-Declension-PL ;
+ SG-NOM-INDEF ;
+ PL-NOM-INDEF ;
+ _MUTUAL-Indef-Declension-SP ;
+
 
 LEXICON _КУДО-Indef-Declension-SG
-@U.DECL-NX.SG@ _КУДО-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
  SG-NOM-INDEF ;
 ! SG-NOM-INDEF_КУДО ;
 
 LEXICON _КУДО-Indef-Declension-PL
-@U.DECL-NX.PL@ _КУДО-Indef-Declension-MUTUAL ;
+ _MUTUAL-Indef-Declension-SP ;
  PL-NOM-INDEF ;
 
-LEXICON _КУДО-Indef-Declension-MUTUAL
+LEXICON _MUTUAL-Indef-Declension-SP
  ABE-INDEF ;
  ABL-INDEF ;
  CMP-INDEF ;
@@ -1014,54 +991,44 @@ LEXICON _КУДО-Indef-Declension-MUTUAL
  TMP-INDEF ; !! Check this
  TRA-INDEF ;
 
+
 !! INDEFINITE TAGS
 LEXICON ABE-INDEF
-+SP+Abe+Indef000@U.DECL-NX.SG@@U.DECL-CX.ABE@:%>втО1мО1@U.DECL-NX.SG@@U.DECL-CX.ABE@ _КУДО-Conjugation ;
-+SP+Abe+Indef000@U.DECL-NX.PL@@U.DECL-CX.ABE@:%>втО1мО1@U.DECL-NX.PL@@U.DECL-CX.ABE@ _КУДО-Conjugation ;
++SP+Abe+Indef000@U.DECL-NX.SP@@U.DECL-CX.ABE@:%>втО1мО1@U.DECL-NX.SP@@U.DECL-CX.ABE@ _КУДО-Conjugation ;
 
 LEXICON ABL-INDEF
 !!€gt-norm: Noun singular nominative definite
 !!€ калдо кал+N+SP+Abl+Indef
 !!€ калдояк кал+N+SP+Abl+Indef+Foc/Гак
-+SP+Abl+Indef@U.DECL-NX.SG@@U.DECL-CX.ABL@:%>дО1@U.DECL-NX.SG@@U.DECL-CX.ABL@ _КУДО-Conjugation ;
-+SP+Abl+Indef@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>дО1@U.DECL-NX.PL@@U.DECL-CX.ABL@ _КУДО-Conjugation ;
++SP+Abl+Indef@U.DECL-NX.SP@@U.DECL-CX.ABL@:%>дО1@U.DECL-NX.SP@@U.DECL-CX.ABL@ _КУДО-Conjugation ;
 
 LEXICON CMP-INDEF
-+SP+CompCx+Indef0@U.DECL-NX.SG@@U.DECL-CX.CMP@:%>шка@U.DECL-NX.SG@@U.DECL-CX.CMP@ _КУДО-Conjugation ;
-+SP+CompCx+Indef0@U.DECL-NX.PL@@U.DECL-CX.CMP@:%>шка@U.DECL-NX.PL@@U.DECL-CX.CMP@ _КУДО-Conjugation ;
++SP+CompCx+Indef0@U.DECL-NX.SP@@U.DECL-CX.CMP@:%>шка@U.DECL-NX.SP@@U.DECL-CX.CMP@ _КУДО-Conjugation ;
 
 LEXICON COM-INDEF
-+SP+Com+Indef0@U.DECL-NX.SG@@U.DECL-CX.COM@:%>нек@U.DECL-NX.SG@@U.DECL-CX.COM@ NounEnd_K-lak ;
-+SP+Com+Indef0@U.DECL-NX.PL@@U.DECL-CX.COM@:%>нек@U.DECL-NX.PL@@U.DECL-CX.COM@ NounEnd_K-lak ;
++SP+Com+Indef0@U.DECL-NX.SP@@U.DECL-CX.COM@:%>нек@U.DECL-NX.SP@@U.DECL-CX.COM@ NounEnd_K-lak ;
 +SP+Com+Indef+Coll:%>нек%-мезнек WORD-END ;
 
 LEXICON DAT-INDEF
-+SP+DatCx+Indef00@U.DECL-NX.SG@@U.DECL-CX.DAT@:%>нень@U.DECL-NX.SG@@U.DECL-CX.DAT@ K ;
-+SP+DatCx+Indef00@U.DECL-NX.PL@@U.DECL-CX.DAT@:%>нень@U.DECL-NX.PL@@U.DECL-CX.DAT@ K ;
++SP+DatCx+Indef00@U.DECL-NX.SP@@U.DECL-CX.DAT@:%>нень@U.DECL-NX.SP@@U.DECL-CX.DAT@ K ;
 
 LEXICON ELA-INDEF
-+SP+Ela+Indef0@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>стО1@U.DECL-NX.SG@@U.DECL-CX.ELA@ _КУДО-Conjugation ;
-+SP+Ela+Indef0@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>стО1@U.DECL-NX.PL@@U.DECL-CX.ELA@ _КУДО-Conjugation ;
++SP+Ela+Indef0@U.DECL-NX.SP@@U.DECL-CX.ELA@:%>стО1@U.DECL-NX.SP@@U.DECL-CX.ELA@ _КУДО-Conjugation ;
 
 LEXICON GEN-INDEF
-+SP+Gen+Indef0@U.DECL-NX.SG@@U.DECL-CX.GEN@:%>%{ОЕЭØ%}нь@U.DECL-NX.SG@@U.DECL-CX.GEN@ _КАЛ-Conjugation ;
-+SP+Gen+Indef0@U.DECL-NX.PL@@U.DECL-CX.GEN@:%>%{ОЕЭØ%}нь@U.DECL-NX.PL@@U.DECL-CX.GEN@ _КАЛ-Conjugation ;
++SP+Gen+Indef0@U.DECL-NX.SP@@U.DECL-CX.GEN@:%>%{ОЕЭØ%}нь@U.DECL-NX.SP@@U.DECL-CX.GEN@ _КАЛ-Conjugation ;
 
 LEXICON ILL-INDEF
-+SP+Ill+Indef@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>с0@U.DECL-NX.SG@@U.DECL-CX.ILL@ K ;
-+SP+Ill+Indef@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>с0@U.DECL-NX.PL@@U.DECL-CX.ILL@ K ;
++SP+Ill+Indef@U.DECL-NX.SP@@U.DECL-CX.ILL@:%>с0@U.DECL-NX.SP@@U.DECL-CX.ILL@ K ;
 
 LEXICON INE-INDEF
-+SP+Ine+Indef@U.DECL-NX.SG@@U.DECL-CX.INE@:%>сО1@U.DECL-NX.SG@@U.DECL-CX.INE@ _КУДО-Conjugation ;
-+SP+Ine+Indef@U.DECL-NX.PL@@U.DECL-CX.INE@:%>сО1@U.DECL-NX.PL@@U.DECL-CX.INE@ _КУДО-Conjugation ;
++SP+Ine+Indef@U.DECL-NX.SP@@U.DECL-CX.INE@:%>сО1@U.DECL-NX.SP@@U.DECL-CX.INE@ _КУДО-Conjugation ;
 
 LEXICON LAT-INDEF
-+SP+Lat+Indef@U.DECL-NX.SG@@U.DECL-CX.LAT@:%>%{ОЕЭØ%}в@U.DECL-NX.SG@@U.DECL-CX.LAT@ K ;
-+SP+Lat+Indef@U.DECL-NX.PL@@U.DECL-CX.LAT@:%>%{ОЕЭØ%}в@U.DECL-NX.PL@@U.DECL-CX.LAT@ K ;
++SP+Lat+Indef@U.DECL-NX.SP@@U.DECL-CX.LAT@:%>%{ОЕЭØ%}в@U.DECL-NX.SP@@U.DECL-CX.LAT@ K ;
 
 LEXICON LOC-INDEF
-+SP+Loc+Indef@U.DECL-NX.SG@@U.DECL-CX.LOC@:%>О10@U.DECL-NX.SG@@U.DECL-CX.LOC@ K ;
-+SP+Loc+Indef@U.DECL-NX.PL@@U.DECL-CX.LOC@:%>О10@U.DECL-NX.PL@@U.DECL-CX.LOC@ K ;
++SP+Loc+Indef@U.DECL-NX.SP@@U.DECL-CX.LOC@:%>О10@U.DECL-NX.SP@@U.DECL-CX.LOC@ K ;
 
 LEXICON SG-NOM-INDEF
 +Sg+Nom+Indef@U.DECL-NX.SG@:000@U.DECL-NX.SG@ K ;
