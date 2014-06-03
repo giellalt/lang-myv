@@ -270,7 +270,7 @@ LEXICON PROP_ЛАК
 
 LEXICON PROP_КИТ
 +N+Prop: N_КИТ-Derivation ;
-+N+Prop+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++N+Prop+Err/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 +N+Prop: N_КИТ-Def-Declension ;
 +N+Prop: _КИТ-Indef-Declension ;
 +N+Prop: N_КАЛ-Poss-Declension-CX ;
@@ -308,7 +308,7 @@ LEXICON PROP_ЛАК_MAL
 
 LEXICON PROP_КИТ_MAL
 +N+Prop+Sem/Mal: NMN_КИТ ;
-+N+Prop+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++N+Prop+Err/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_ОШ_MAL
 +N+Prop+Sem/Mal: NMN_ОШ ;
@@ -333,7 +333,7 @@ LEXICON PROP_ЛАК_FEM
 
 LEXICON PROP_КИТ_FEM
 +N+Prop+Sem/Fem: NMN_КИТ ;
-+N+Prop+Sem/Fem+Use/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++N+Prop+Sem/Fem+Err/Sub+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_ОШ_FEM
 +N+Prop+Sem/Fem: NMN_ОШ ;
@@ -371,7 +371,7 @@ LEXICON PROP_КУДО-PL
 +N+Prop: N_КУДО-Poss-Declension-CX-PL ;
 
 LEXICON PROP_КУДО_SUB
-+Use/Sub: PROP_КУДО ;
++Err/Sub: PROP_КУДО ;
 
 LEXICON PROP_КУДО_SH
 +Use/Short: PROP_КУДО ;

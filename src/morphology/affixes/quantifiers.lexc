@@ -96,7 +96,7 @@ LEXICON Roman-numerals
 
 !! !Now regular
 LEXICON NUM_КАЛ_SUB
-+Use/Sub: NUM_КАЛ ;
++Err/Sub: NUM_КАЛ ;
 
 LEXICON NUM_КАЛ
 +Num+Card: WORD-END ;
@@ -111,7 +111,7 @@ LEXICON NUMORD_КАЛ
 +Num+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_ОШ_SUB
-+Use/Sub: NUM_ОШ ;
++Err/Sub: NUM_ОШ ;
 
 LEXICON NUM_ОШ
 +Num+Card: WORD-END ;
@@ -126,7 +126,7 @@ LEXICON NUMORD_ОШ
 +Num+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_СЯДО_SUB
-+Use/Sub: NUM_СЯДО ;
++Err/Sub: NUM_СЯДО ;
 
 LEXICON NUM_СЯДО
 +Num+Card:%>О1 WORD-END ;
@@ -141,7 +141,7 @@ LEXICON NUMORD_СЯДО
 +Num+Ord+Der/MWN:%>тькс N_ОШ ;
 
 LEXICON NUM_КУДО_SUB
-+Use/Sub: NUM_КУДО ;
++Err/Sub: NUM_КУДО ;
 
 ! More work needed 2012-10-08
 LEXICON NUM_КУДО
@@ -168,7 +168,7 @@ LEXICON NUMORD_КУДО
 !!
 LEXICON AssocColl-kavone
 +Qnt+Num+AssocColl: PossPX1 ;
-+Use/Sub+Qnt+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
++Err/Sub+Qnt+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
@@ -188,7 +188,7 @@ LEXICON Assoc-Coll
 +Qnt+AssocColl: N_КУДО-Poss-Declension-PossX ;
 
 LEXICON ITER__SUB
-+Use/Sub: ITER_ ;
++Err/Sub: ITER_ ;
 
 LEXICON ITER_
 +Qnt+Iter: K ;
@@ -435,7 +435,7 @@ LEXICON Quants3
 +Pl+Ine+Def:%>тнЕ3%>сэ _КУДО-Attributes2 ; 
 +Pl+Ela+Def:%>тнЕ3%>стэ _КУДО-Attributes2 ;
 +Pl+CompCx+Def:%>тнЕ3%>шка _КУДО-Attributes2 ; 
-+Use/Sub@R.TLOSS.ON@:@R.TLOSS.ON@ Quants3_TLOSS ;
++Err/Sub@R.TLOSS.ON@:@R.TLOSS.ON@ Quants3_TLOSS ;
 
 LEXICON Quants3_TLOSS
 +Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ _КУДО-Tenses1 ;
