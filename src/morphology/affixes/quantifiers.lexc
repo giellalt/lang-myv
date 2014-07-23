@@ -102,6 +102,7 @@ LEXICON NUM_КАЛ
 +Num+Card: WORD-END ;
 +Num+Card+Appr:%>шка WORD-END ;
 +Num+Card+Der/MWN: N_КАЛ ;
++Num+Card+Lat:%>О1в Ks ;
  NUMORD_КАЛ ;
 
 LEXICON NUMORD_КАЛ
@@ -117,6 +118,7 @@ LEXICON NUM_ОШ
 +Num+Card: WORD-END ;
 +Num+Card+Appr:%>О1шка WORD-END ;
 +Num+Card+Der/MWN: N_ОШ ;
++Num+Card+Lat:%>О1в Ks ;
  NUMORD_ОШ ;
 
 LEXICON NUMORD_ОШ
@@ -132,6 +134,7 @@ LEXICON NUM_СЯДО
 +Num+Card:%>О1 WORD-END ;
 +Num+Card+Appr:%>О1шка WORD-END ;
 +Num+Card+Der/MWN: N_ПАНГО ;
++Num+Card+Lat:%>О1в Ks ;
 :О1 NUMORD_СЯДО ;
 
 LEXICON NUMORD_СЯДО
@@ -157,6 +160,7 @@ LEXICON NUM_КУДО
 +Num+Card+AssocColl:%>не _КУДО-Possessive-Before-K ;
 +Num+Card+Iter:%>ксть Ks ;
 +Num+Card+Appr+Iter:%>шкаксть Ks ;
++Num+Card+Lat:%>в Ks ;
 
 LEXICON NUMORD_КУДО
 +Num+Ord:%>це WORD-END ;
@@ -202,6 +206,7 @@ LEXICON ORD_
 
 LEXICON ORD_КУДО
 +Num+Ord: K ;
++Num+Ord+Der/MWN: N_КУДО ;
 
 LEXICON ORD_ОШ
 +Num+Ord: K ;
