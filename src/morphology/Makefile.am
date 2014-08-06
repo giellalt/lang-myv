@@ -86,7 +86,7 @@ GT_XML_SRCS=\
 
 generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
-	$(AM_V_at)$(MKDIR_L) generated_files
+	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
 
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
