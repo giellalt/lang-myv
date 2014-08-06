@@ -25,12 +25,12 @@ GT_LEXC_SRCS=\
 			stems/punct.lexc	              \
 			affixes/clitics.lexc              \
 			stems/exceptions.lexc 	          \
-			stems/adjectives-russian-like_newwords.lexc      \
-			stems/nouns_newwords.lexc 	          \
-			stems/verbs_newwords.lexc 	          \
+			stems/adjectives-russian-like_newwords.lexc \
+			stems/nouns_newwords.lexc 	      \
+			stems/verbs_newwords.lexc 	      \
 			stems/rusMaleNameDer.lexc	      \
 			affixes/adjectives.lexc           \
-			affixes/adpositions.lexc        \
+			affixes/adpositions.lexc          \
 			affixes/adverbs.lexc              \
 			affixes/interjections.lexc        \
 			affixes/nonverbalConjugation.lexc \
@@ -46,9 +46,9 @@ GT_LEXC_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		$(srcdir)/stems/urj-Cyrl-propernouns.lexc \
+		$(srcdir)/generated_files/urj-Cyrl-propernouns.lexc \
 		$(srcdir)/stems/adjectives.lexc         \
-		$(srcdir)/stems/adpositions.lexc      \
+		$(srcdir)/stems/adpositions.lexc        \
 		$(srcdir)/stems/adverbs.lexc            \
 		$(srcdir)/stems/bahuvrihis.lexc         \
 		$(srcdir)/stems/conjunctors.lexc        \
@@ -61,13 +61,13 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/pronouns.lexc           \
 		$(srcdir)/stems/propernouns.lexc        \
 		$(srcdir)/stems/quantifiers.lexc        \
-		$(srcdir)/stems/verbs-A2M.lexc           \
+		$(srcdir)/stems/verbs-A2M.lexc          \
 		$(srcdir)/stems/verbs-N2END.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/adjectives.xml      \
-		stems/adpositions.xml   \
+		stems/adpositions.xml     \
 		stems/adverbs.xml         \
 		stems/bahuvrihis.xml      \
 		stems/conjunctors.xml     \
@@ -80,19 +80,13 @@ GT_XML_SRCS=\
 		stems/propernouns.xml     \
 		stems/pronouns.xml        \
 		stems/quantifiers.xml     \
-		stems/verbs-A2M.xml        \
+		stems/verbs-A2M.xml       \
 		stems/verbs-N2END.xml
 
 
-$(srcdir)/stems/urj-Cyrl-propernouns.lexc: \
+$(srcdir)/generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_GEN)cp -f $< $@
-
-#stems/urj-Cyrl-$(GTLANG)-propernouns.lexc: stems/urj-Cyrl-propernouns.lexc  stems/$(GTLANG)-propernouns.lexc
-#	rm -f $@
-#	cp -f stems/$(GTLANG)-propernouns.lexc $@
-#	echo "! <--- Dump from URJ-CYRL -->" >> $@
-#	$(top_srcdir)/src/scripts/urj-Cyrl-$(GTLANG)-conversion.pl $< >> $@
 
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
