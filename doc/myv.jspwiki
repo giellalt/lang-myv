@@ -19,207 +19,212 @@ Analysis symbols
 The morphological analyses of wordforms of ERZYA are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
-WORK HAS TO BE DONE
+ * _+TYÄ_ WORK HAS TO BE DONE
 
 !!The parts-of-speech are:
-adjective
-Adposition
-adverb
-subordinating conjunction
-coordinating conjunction
-interjection
-noun
-particle
-postposition
-pronoun
-Quantifier
-verb
+ * _+A 	_ adjective
+ * _+Adp 	_ Adposition
+ * _+Adv 	_ adverb
+ * _+CS 	_ subordinating conjunction
+ * _+CC 	_ coordinating conjunction
+ * _+Interj_ interjection
+ * _+N 	_ noun
+ * _+Pcle 	_ particle
+ * _+Po 	_ postposition
+ * _+Pron 	_ pronoun
+ * _+Qnt 	_ Quantifier
+ * _+V 	_ verb
 
 !!Parts of speech are further split up into:
 Adjectives
+ * _+Adn	_ Adnominal (modifier) !! This is not an NP head like +Pron
 This is not an NP head like +Pron
-This is a nominative-case NP used as an adjective
+ * _+Bahuvrihi_ This is a nominative-case NP used as an adjective
 
 Adverbs
-These are ideophonic descriptors used to modify the verb
-вырк ливтясь "__flit__ and it flew off"
-Ad-adjective
-with reference to type of adverb
-parenthetic
-spatial
-temporal
+ * _+Adv-Ideoph_ These are ideophonic descriptors used to modify the verb
+ вырк ливтясь "__flit__ and it flew off"
+ * _+AdA 	_ Ad-adjective
+ * _+Manner_ with reference to type of adverb
+ * _+Parenthetic_ parenthetic
+ * _+Spat 	_ spatial
+ * _+Temp 	_ temporal
 
 
 Interjections
+ * _+Formulaic_ 
 
 Nouns
-proper
-used with paired nouns __collective nouns__
+ * _+Prop	_ proper
+ * _+CollN_ used with paired nouns __collective nouns__
 
 Particles
- ;+Epist	: epistemic modality marker
+ * _+Epist	_ epistemic modality marker
 
 Postpositions
 
 !!Pronouns
- ;+Dem	: demonstrative
- ;+Indef: indefinite
- ;+Dep 	: dependent word requiring the presence of another, e.g. __мень__
- ;+Interr: interrogative
- ;+Pers 	: personal
- ;+Recipr: reciprocal
- ;+Refl 	: reflexive
- ;+Rel 	: relative
- ;+Sel 	: selective, when selecting from a set of definites
+ * _+Dem	_ demonstrative
+ * _+Indef_ indefinite
+ * _+Dep 	_ dependent word requiring the presence of another, e.g. __мень__
+ * _+Interr_ interrogative
+ * _+Pers 	_ personal
+ * _+Recipr_ reciprocal
+ * _+Refl 	_ reflexive
+ * _+Rel 	_ relative
+ * _+Sel 	_ selective, when selecting from a set of definites
 
- ;+Sg1: first person singular
- ;+Sg2: second person singular
- ;+Sg3: third person singular
- ;+Pl1: first person plural
- ;+Pl2: second person plural
- ;+Pl3: third person plural
+ * _+Sg1_ first person singular
+ * _+Sg2_ second person singular
+ * _+Sg3_ third person singular
+ * _+Pl1_ first person plural
+ * _+Pl2_ second person plural
+ * _+Pl3_ third person plural
 
 
 !!Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
- ;+Num: numeral
- ;+Appr: Approximative numeral кавто-колмо, колмошка ''two or three''
-          NB! do not confuse with Komi case +Apr
- ;+AssocColl: -ne- ; avide-
- ;+Assoc: +мезть
- ;+Card: cardinal + NCard
- ;+Coll: collective
- ;+Distr: Distributive
- ;+Iter: Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
- ;+Ord: ordinal + NOrd
+ * _+Num_ numeral
+ * _+Appr_ Approximative numeral кавто-колмо, колмошка ''two or three''
+         NB! do not confuse with Komi case +Apr
+ * _+AssocColl_ -ne- ; avide-
+ * _+Assoc_ +мезть
+ * _+Card_ cardinal + NCard
+ * _+Coll_ collective
+ * _+Distr_ Distributive
+ * _+Iter_ Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
+ * _+Ord_ ordinal + NOrd
 
 !!Nominals are inflected for Number and Case
 !!Number
-singular
-plural
-ambiguous for number
+ * _+Sg_ singular
+ * _+Pl_ plural
+ * _+SP_ ambiguous for number
 
 !!Case
-abessive
-ablative case
-Comitative "-нек/-нэк"
-Comparative case form -шка
-dative case
-elative
-genitive case
-illative
-inessive
-lative
-Locative "вить ён : вить ёно"
-nominative case
-prolative "га/ка/ва"
-translative
-Temporalis case form "-не/-нэ"
-Vocative
+ * _+Abe_ abessive
+ * _+Abl_ ablative case
+ * _+Com_ Comitative "-нек/-нэк"
+ * _+CompCx_ Comparative case form -шка
+ * _+DatCx_ dative case
+ * _+Ela_ elative
+ * _+Gen_ genitive case
+ * _+Ill_ illative
+ * _+Ine_ inessive
+ * _+Lat_ lative
+ * _+Loc_ Locative "вить ён : вить ёно"
+ * _+Nom_ nominative case
+ * _+Prl_ prolative "га/ка/ва"
+ * _+Tra_ translative: used in similative and depictive constructions
+to mark what would be a secondary subject: 
+_вармакс оргодсь тосто_
+ * _+TempCx_ Temporalis case form "-не/-нэ"
+ * _+Voc_ Vocative
 
 !!Possession and other declension types are marked with:
- ;+PxSg1: first person singular
- ;+PxSg2: second person singular
- ;+PxSg3: third person singular
- ;+PxPl1: first person plural
- ;+PxPl2: second person plural
- ;+PxPl3: third person plural
- ;+Def 	: Definite
+ * _+PxSg1_ first person singular
+ * _+PxSg2_ second person singular
+ * _+PxSg3_ third person singular
+ * _+PxPl1_ first person plural
+ * _+PxPl2_ second person plural
+ * _+PxPl3_ third person plural
+ * _+Def 	_ Definite
 
 !!The comparative forms are:
- ;+Comp: comparative as opposed to superlative
- ;+Superl: superlative
- ;+Attr 	: Attribute
+ * _+Comp_ comparative as opposed to superlative
+ * _+Superl_ superlative
+ * _+Attr 	_ Attribute
 
 !!Verb moods are:
- ;+Cond: conditional Ындеря- (Derivational)
- ;+Conj: conjunctional "вОль"
- ;+Des: desiderative Ыксэль "was about to; wanted to"
- ;+Ind: indicative
- ;+Imprt: imperative
- ;+Opt: optative
+ * _+Cond_ conditional Ындеря- (Derivational)
+ * _+Conj_ conjunctional "вОль"
+ * _+Des_ desiderative Ыксэль "was about to; wanted to"
+ * _+Ind_ indicative
+ * _+Imprt_ imperative
+ * _+Opt_ optative
 
 !Infinitive moods
-modality: deontic/directive/obligative
+ * _+Oblig_ modality: deontic/directive/obligative
  андомс: андома , якамс: якама
-__+Sugg modality__: deontic/directive/deliberative
+ * _+Delib_ __+Sugg modality__: deontic/directive/deliberative
 I still need the right word for this андомс: андомсат
 
 !!Tenses in the indicative and infrequently in the conditional
-In Erzya There is no morphological distinction
+ * _+Prs_ In Erzya There is no morphological distinction
 between present and future
-Preterite 1
-Preterite 2 (This is also used in predicate forms not involving a finite verb.)
+ * _+Prt1_ Preterite 1
+ * _+Prt2_ Preterite 2 (This is also used in predicate forms not involving a finite verb.)
 
 !!Verb personal forms are:
-* subject conjugation first person singular
-* subject conjugation second person singular
-* subject conjugation third person singular
-* subject conjugation first person plural
-* subject conjugation second person plural
-* subject conjugation third person plural
+ * _+ScSg1_ * subject conjugation first person singular
+ * _+ScSg2_ * subject conjugation second person singular
+ * _+ScSg3_ * subject conjugation third person singular
+ * _+ScPl1_ * subject conjugation first person plural
+ * _+ScPl2_ * subject conjugation second person plural
+ * _+ScPl3_ * subject conjugation third person plural
 !!Object conjugation
-* object conjugation first person singular
-* object conjugation second person singular
-* object conjugation third person singular
-* object conjugation first person plural
-* object conjugation second person plural
-* object conjugation third person plural
+ * _+OcSg1_ * object conjugation first person singular
+ * _+OcSg2_ * object conjugation second person singular
+ * _+OcSg3_ * object conjugation third person singular
+ * _+OcPl1_ * object conjugation first person plural
+ * _+OcPl2_ * object conjugation second person plural
+ * _+OcPl3_ * object conjugation third person plural
 
 Other verb forms are
-* Ы2й (This is dealt with elsewhere as an active present participle)
-* Ы2  (This is dealt with elsewhere as an active present participle)
-* Ы2ця  (This is dealt with elsewhere as an active present participle)
-* connegative, main verb complement to Neg,
-* gerund This is used with Der/Озь and VAbl
-* infinitive
-* verb of negation эзь, аволь, иля
-* participle
-* Verb Genitive, genitive form participle
-* Verb Ablative "озадо"
-* Telic participle ! "саевть"
+ * _+ActPrcLong_ * Ы2й (This is dealt with elsewhere as an active present participle)
+ * _+ActPrcShort_ * Ы2  (This is dealt with elsewhere as an active present participle)
+ * _+ActDemPrc_ * Ы2ця  (This is dealt with elsewhere as an active present participle)
+ * _+ConNeg_ * connegative, main verb complement to Neg,
+ * _+Ger_ * gerund This is used with Der/Озь and VAbl
+ * _+Inf_ * infinitive
+ * _+Neg_ * verb of negation эзь, аволь, иля
+ * _+Prc_ * participle
+ * _+VGen_ * Verb Genitive, genitive form participle
+ * _+VAbl_ * Verb Ablative "озадо"
+ * _+TelicPrc_ * Telic participle ! "саевть"
 
+ * _+PrfPrc_ 
 
 
 
 !!The Usage extents are marked using following tags:
-* Substandard
-* Marginal
-* Exclude from speller
-* recognized but not suggested in speller
-* Circular path
-* Circular number path
-* Remove from pedagogical speller
-* Do not generate, for isme-ped.fst and apertium
+ * _+Err/Sub_ * Substandard
+ * _+Use/Marg_ * Marginal
+ * _+Use/-Spell_ * Exclude from speller
+ * _+Use/SpellNoSugg_ * recognized but not suggested in speller
+ * _+Use/Circ_ * Circular path
+ * _+Use/CircN_ * Circular number path
+ * _+Use/-Ped_ * Remove from pedagogical speller
+ * _+Use/NG_ * Do not generate, for isme-ped.fst and apertium
 
-* The lemma is not an Erzya word (Depricating __+Src/F__)
+ * _+Use/LexSub_ * The lemma is not an Erzya word (Depricating __+Src/F__)
 
 !!!Dialect tags
-* Short forms
-* Long forms
-* No specification
-* Specific to some dialects
-* Rueter 2010: 8
-* 1 Central or Kozlovka-Mokshlei
-* 2 Western or Insar
-* 3 North-Western or Alatyr
-* 4 South-Eastern or Sura
-* 5 Mixed or Drakino-Shoksha
+ * _+Dial/SH_ * Short forms
+ * _+Dial/L_ * Long forms
+ * _+Dial 	_ * No specification
+Specific to some dialects
+Rueter 2010: 8
+ * _+Dial/C_ * 1 Central or Kozlovka-Mokshlei
+ * _+Dial/W_ * 2 Western or Insar
+ * _+Dial/NW_ * 3 North-Western or Alatyr
+ * _+Dial/SE_ * 4 South-Eastern or Sura
+ * _+Dial/M_ * 5 Mixed or Drakino-Shoksha
 
 !!!Orthography tags
-* Derivation is phonetic but declension and conjugation morphologic
-* Entire inflection is phonetic 1821, 1920-30
-Colloquial speech reflected in spelling
+ * _+Orth/PhonDeriv_ * Derivation is phonetic but declension and conjugation morphologic
+ * _+Orth/PhonInfl_ * Entire inflection is phonetic 1821, 1920-30
+ * _+Orth/Colloq_ Colloquial speech reflected in spelling
 
-* Abbreviation
-* Acronym
+ * _+ABBR_ * Abbreviation
+ * _+ACR_ * Acronym
 
 Special symbols are classified with:
 
 The verbs are syntactically split according to transitivity:
 
-* transitive verb
-* intransitive verb
+ * _+TV_ * transitive verb
+ * _+IV_ * intransitive verb
 
 Auxiliary verbs
 
@@ -237,60 +242,60 @@ Question and Focus particles:
 
 The words are classified with the following tags:
 
- *  +Sem/Mal      Male,
- *  +Sem/Fem      Female,
- *  +Sem/Sur      Surname,
- *  +Sem/Patr     Patronym,
- *  +Sem/Plc      Place name,
- *  +Sem/Org      name of organization,
- *  +Sem/Obj    
- *  +Sem/Ani      name of animal,
- *  +Sem/Rvr      name of river or water way, media of transportation,
- *  +Sem/Anim     Animate,
- *  +Sem/Inanim   Inanimate,
- *  +Sem/Hum      Human,
- *  +Sem/NonHum   Nonhuman,
- *  +Sem/Kin      Kinship term (reflected in special PxSg2 forms),
- *  +Sem/Divinity   Divinity (god personified),
- *  +Sem/Constellation   Constellation,
- *  +Sem/Plant 	      Plant,
- *  +Sem/Group 	      Group,
- *  +Sem/Body  	     Body.
- *  +Sem/Build 	      Building,
- *  +Sem/Clth	      clothing,
- *  +Sem/Edu 	      Education,
- *  +Sem/Event 	      Event,
- *  +Sem/Measr 	      Measure,
- *  +Sem/Route	      Name of a route,
- *  +Sem/Time  	      Time,
- *  +Sem/Mnth  	      Month
- *  +Sem/Txt  	      Name of a text,
- *  +Sem/Veh	      vehicle,
- *  +Sem/Wpn	      weapon,
- *  +Sem/Wthr	     Weather,
- *  +Sem/Cnt            countable
+ * _+Sem/Mal_   Male,
+ * _+Sem/Fem_   Female,
+ * _+Sem/Sur_   Surname,
+ * _+Sem/Patr_   Patronym,
+ * _+Sem/Plc_   Place name,
+ * _+Sem/Org_   name of organization,
+ * _+Sem/Obj_ 
+ * _+Sem/Ani_   name of animal,
+ * _+Sem/Rvr_   name of river or water way, media of transportation,
+ * _+Sem/Anim_   Animate,
+ * _+Sem/Inanim_   Inanimate,
+ * _+Sem/Hum_   Human,
+ * _+Sem/NonHum_   Nonhuman,
+ * _+Sem/Kin_   Kinship term (reflected in special PxSg2 forms),
+ * _+Sem/Divinity_   Divinity (god personified),
+ * _+Sem/Constellation_   Constellation,
+ * _+Sem/Plant 	_   Plant,
+ * _+Sem/Group 	_   Group,
+ * _+Sem/Body 	_  Body.
+ * _+Sem/Build 	_   Building,
+ * _+Sem/Clth	_   clothing,
+ * _+Sem/Edu 	_   Education,
+ * _+Sem/Event 	_   Event,
+ * _+Sem/Measr 	_   Measure,
+ * _+Sem/Route	_   Name of a route,
+ * _+Sem/Time 	_   Time,
+ * _+Sem/Mnth 	_   Month
+ * _+Sem/Txt 	_   Name of a text,
+ * _+Sem/Veh	_   vehicle,
+ * _+Sem/Wpn	_   weapon,
+ * _+Sem/Wthr	_  Weather,
+ * _+Sem/Cnt_  countable
 
 Semantic Fields
- +Field/Agr	 agriculatural
- +Field/Anat 	 anatomical
- +Field/Bio 	 biological
- +Field/Bot 	 botanical
- +Field/Chem 	 chemical
- +Field/Geol 	 geological
- +Field/Gram 	 grammatical
- +Field/Hist 	 historical
- +Field/Law 	 law
- +Field/Mar 	 maritime
- +Field/Math 	 mathematical
- +Field/Med 	 medical
- +Field/Mus 	 musical
- +Field/Relig 	 church
- +Field/Tech 	 technical
- +Field/Zool 	 zoological
+ * _+Field/Agr	_ agriculatural
+ * _+Field/Anat 	_ anatomical
+ * _+Field/Bio 	_ biological
+ * _+Field/Bot 	_ botanical
+ * _+Field/Chem 	_ chemical
+ * _+Field/Geol 	_ geological
+ * _+Field/Gram 	_ grammatical
+ * _+Field/Hist 	_ historical
+ * _+Field/Law 	_ law
+ * _+Field/Mar 	_ maritime
+ * _+Field/Math 	_ mathematical
+ * _+Field/Med 	_ medical
+ * _+Field/Mus 	_ musical
+ * _+Field/Relig 	_ church
+ * _+Field/Tech 	_ technical
+ * _+Field/Zool 	_ zoological
 
 
 Verbal arguments
-This is used to mark verbs without a semantic subject
+ * _+Subj/Zero_ This is used to mark verbs without a semantic subject
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -300,57 +305,57 @@ source and target part-of-speech.
 
 !!Der begin
 
-genitive attribute derivation of non-nouns
-vocative
-vocative
+ * _+Der/Онь_ genitive attribute derivation of non-nouns
+ * _+Der/ай_ vocative
+ * _+Der/кай_ vocative
 
 
-* telic deverbal noun also attr
-* infinitive illative
-* infinitive locative/nominative
-* infinitive elative
-* infinitive inessive
-* infinitive ablative
-* infinitive prolative
-* modality: deontic/directive/obligative андомс: андома , якамс: якама
-* modality: deontic/directive/obligative андомс: андомка , якамс: якамка
-* active (demonstrative) present participle
-* active short present participle
-* active long present participle
-* Gerund
-* conditional derivation
+ * _+Der/Овт_ * telic deverbal noun also attr
+ * _+Der/Омс_ * infinitive illative
+ * _+Der/ОмО_ * infinitive locative/nominative
+ * _+Der/ОмстО_ * infinitive elative
+ * _+Der/ОмсО_ * infinitive inessive
+ * _+Der/ОмдО_ * infinitive ablative
+ * _+Der/Омга_ * infinitive prolative
+ * _+Der/Ома_ * modality: deontic/directive/obligative андомс: андома , якамс: якама
+ * _+Der/Омка_ * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
+ * _+Der/Ыця_ * active (demonstrative) present participle
+ * _+Der/Ы	_ * active short present participle
+ * _+Der/Ый	_ * active long present participle
+ * _+Der/Озь_ * Gerund
+ * _+Der/Ындеря_ * conditional derivation
 
 
-Modifier without Noun
-Speaker-Oriented Demonstrative
+ * _+Der/MWN_ Modifier without Noun
+ * _+Der/Dem_ Speaker-Oriented Demonstrative
 !!Conjugation of words other than finite verbs
-derivation to predicate head, e.g. nominal conjugation
+ * _+Der/Pr_ derivation to predicate head, e.g. nominal conjugation
 
- ;+Der/Гак: suffix {{+Indef}} in indefinite pronouns
- ;+Der/кой: prefix {{+Indef}} in indefinite pronouns
- ;+Der/та: prefix {{+Indef}} in indefinite pronouns
- ;+Der/таго: prefix {{+Indef}} in indefinite pronouns
- ;+Der/бути: suffix {{+Indef}} in indefinite pronouns
- ;+Der/Ыя: suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
+ * _+Der/Гак_ suffix {{+Indef}} in indefinite pronouns
+ * _+Der/кой_ prefix {{+Indef}} in indefinite pronouns
+ * _+Der/та_ prefix {{+Indef}} in indefinite pronouns
+ * _+Der/таго_ prefix {{+Indef}} in indefinite pronouns
+ * _+Der/бути_ suffix {{+Indef}} in indefinite pronouns
+ * _+Der/Ыя_ suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
 
 
 !!Declaring Noun derivations
- ;+Der/чи:  adjective-to-noun
+ * _+Der/чи_  adjective-to-noun
 !!the combinatory __Event__ preceding the NP-final noun
- ;+Der/ОмА:  verb-to-noun
+ * _+Der/ОмА_  verb-to-noun
 !!Declaring Deverbal derivations of verbs
- ;+Der/кшнО:  verb2verb derivation
- ;+Der/се:  this in verb2verb derivation and also in denominal demonstrative __Der/Dem__
- ;+Der/не:  verb2verb derivation
+ * _+Der/кшнО_  verb2verb derivation
+ * _+Der/се_  this in verb2verb derivation and also in denominal demonstrative __Der/Dem__
+ * _+Der/не_  verb2verb derivation
 
 
- ;+Der/ка:  diminutive
- ;+Der/НЕ:  This is used in ошке, калнэ and кудыне
- ;+Der/нЕ:  diminutive
- ;+Der/ке:  diminutive in __ке__
- ;+Der/Ыне:  diminutive
- ;+Der/Ынька:  diminutive
- ;+Der/Ынькине:  diminutive
+ * _+Der/ка_  diminutive
+ * _+Der/НЕ_  This is used in ошке, калнэ and кудыне
+ * _+Der/нЕ_  diminutive
+ * _+Der/ке_  diminutive in __ке__
+ * _+Der/Ыне_  diminutive
+ * _+Der/Ынька_  diminutive
+ * _+Der/Ынькине_  diminutive
 
 
 
@@ -361,57 +366,57 @@ To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
 And following triggers to control variation
-testing тне тнэ
+ * _Е3_ testing тне тнэ
 
 
 
 
 
 
-Suffix-initial archiphoneme
+ * _%{ОЕЭØ%}_ Suffix-initial archiphoneme
 
 
 
 !!!MISC
-A tag to indicate that a hyphen was used when compounding
+ * _+Hyph_ A tag to indicate that a hyphen was used when compounding
 
 
 Development tag
 
 
 
-Roman numerals
+ * _+Rom_ Roman numerals
 
 Compounding
 
 !!Tags
-Prefix
-"ансяк"
-уш
+ * _+Pref_ Prefix
+ * _+Exclusive_ "ансяк"
+ * _+Intensifier_ уш
 
 
-onomapoetic words
-descriptive words
+ * _+Onom_ onomapoetic words
+ * _+Descr_ descriptive words
 !!Different focus particles
 Focus clitics
 
 
 !!Imperative clitics
- ;+Clt/Га: редяка
- ;+Clt/Гая: редякая
- ;+Clt/Гаять: редякаять
- ;+Clt/Гаятя: редякаятя
- ;+Clt/Гатя: редякатя
- ;+Clt/Гака: редякака ARE these real?
- ;+Clt/Гакая: редякакая ARE these real?
- ;+Pred2: secondary predicate. Examples:
+ * _+Clt/Га_ редяка
+ * _+Clt/Гая_ редякая
+ * _+Clt/Гаять_ редякаять
+ * _+Clt/Гаятя_ редякаятя
+ * _+Clt/Гатя_ редякатя
+ * _+Clt/Гака_ редякака ARE these real?
+ * _+Clt/Гакая_ редякакая ARE these real?
+ * _+Pred2_ secondary predicate. Examples:
  "Joe came in __with his hat on__."
  "Joe came in __Joe had his hat on__."
 
 !!FUNCTIONS are all upper-case!!!!
-This marks a function not a morpheme
+ * _+ACC +DAT +COM_ This marks a function not a morpheme
 
-used with personal pronouns in oblique cases,
+ * _+NoPoss_ used with personal pronouns in oblique cases,
 where a possessor index is expected
 
 
