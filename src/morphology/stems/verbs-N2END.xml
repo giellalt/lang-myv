@@ -1013,7 +1013,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">наксафтлемс</l>
+      <l pos="V" val="IV">наксавтнемс</l>
 
       <stg>
         <st Contlex="IV_КУНДАМС">наксафтле</st>
@@ -1063,10 +1063,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">налкафтомс</l>
+      <l pos="V" val="IV">налкавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">налкафт</st>
+        <st Contlex="IV_САВТОМС_SUB">налкафт</st>
       </stg>
     </lg>
 
@@ -3432,10 +3432,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">невельдяфтомс</l>
+      <l pos="V" val="TV">невельдявтомс</l>
 
       <stg>
-        <st Contlex="TV_САВТОМС-ObjAll">невельдяфт</st>
+        <st Contlex="TV_САВТОМС-ObjAll_SUB">невельдяфт</st>
       </stg>
     </lg>
 
@@ -5871,10 +5871,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">низильгафтнемс</l>
+      <l pos="V" val="IV">низельгавтнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">низильгафтне</st>
+        <st Contlex="IV_КУНДАМС_SUB">низильгафтне</st>
       </stg>
     </lg>
 
@@ -10619,10 +10619,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">нулнофтомс</l>
+      <l pos="V" val="IV">нулновтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">нулнофт</st>
+        <st Contlex="IV_САВТОМС_SUB">нулнофт</st>
       </stg>
     </lg>
 
@@ -13106,10 +13106,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">одашкафтомс</l>
+      <l pos="V" val="IV">одашкавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">одашкафт</st>
+        <st Contlex="IV_САВТОМС_SUB">одашкафт</st>
       </stg>
     </lg>
 
@@ -17515,10 +17515,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">оршнефтемс</l>
+      <l pos="V" val="TV">оршневтемс</l>
 
       <stg>
-        <st Contlex="TV_НЕВТЕМС-ObjAll">оршнефть</st>
+        <st Contlex="TV_НЕВТЕМС-ObjAll_SUB">оршнефть</st>
       </stg>
     </lg>
 
@@ -19690,41 +19690,20 @@
       <l pos="V" val="TV">пандтнемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">пандтле</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Dial+Verb</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">пандтнемс</l>
-
-      <stg>
         <st Contlex="TV_КУНДАМС-ObjAll">пандтне</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">пандтле</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">пантне</st>
       </stg>
     </lg>
 
     <phonet>I</phonet>
-
-    <morphg>
-      <morph type="V">пандтнесь</morph>
-
-      <morph type="V">пандтнекшнесь</morph>
-
-      <morph type="V">пандтнекшнемс</morph>
-    </morphg>
 
     <mg>
       <defNative>Макснемс икелень саевкст. Пандтнемс сайнезь ярмак. Ярмаксо
       пандтнемс сайнезь сюро.</defNative>
+      <tg xml:lang="rus">
+        <t pos="V">платить</t>
+      </tg>
     </mg>
   </e>
 
@@ -19734,62 +19713,16 @@
 
       <stg>
         <st Contlex="TV_КУНДАМС-ObjAll">пандтне</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">пандтле</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">пантне</st>
       </stg>
     </lg>
 
     <phonet>I</phonet>
 
-    <morphg>
-      <morph type="V">пандтнесь</morph>
-
-      <morph type="V">пандтнекшнесь</morph>
-
-      <morph type="V">пандтнекшнемс</morph>
-    </morphg>
-
     <mg>
       <defNative>Стакшномс оршамосо каладозь таркат. Пандтнемс панар.
       Пандтнемс понкст.</defNative>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">пандтнемс</l>
-
-      <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">пантле</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Dial+Verb</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">пандтнемс</l>
-
-      <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">пантне</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Orth/Phon</tags>
-        </head>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="V">платить</t>
-      </tg>
     </mg>
   </e>
 
@@ -19801,16 +19734,6 @@
         <st Contlex="IV_САЕВЕМС">панев</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">паневсь</morph>
-
-      <morph type="V">паневекшнесь</morph>
-
-      <morph type="V">паневкшнесь</morph>
-
-      <morph type="V">паневкшнемс</morph>
-    </morphg>
 
     <mg>
       <defNative/>
@@ -19844,14 +19767,6 @@
       </stg>
     </lg>
 
-    <morphg>
-      <morph type="V">паневтсь</morph>
-
-      <morph type="V">паневтекшнесь</morph>
-
-      <morph type="V">паневтнемс</morph>
-    </morphg>
-
     <mg>
       <defNative>Киньгак кармавтомс киньгак панеме. Паневтемс кудосто киска.
       Паневтемс пирестэ саразт.</defNative>
@@ -19866,14 +19781,6 @@
         <st Contlex="TV_НЕВТЕМС-ObjAll">паневть</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">паневтсь</morph>
-
-      <morph type="V">паневтекшнесь</morph>
-
-      <morph type="V">паневтнемс</morph>
-    </morphg>
 
     <mg>
       <defNative>Пидевтемс. Кияк кармавтомс мезеньгак панеме ─ кшинь, позань.
@@ -20013,16 +19920,6 @@
         <st Contlex="IV_ЯНГАВОМС">панжов</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">панжовсь</morph>
-
-      <morph type="V">панжовокшнось</morph>
-
-      <morph type="V">панжовкшнось</morph>
-
-      <morph type="V">панжовкшномс</morph>
-    </morphg>
 
     <mg>
       <defNative>Нолдамс панжовкс.</defNative>
@@ -20783,10 +20680,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">парафтомс</l>
+      <l pos="V" val="IV">паравтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">парафт</st>
+        <st Contlex="IV_САВТОМС_SUB">парафт</st>
       </stg>
     </lg>
 
@@ -22424,10 +22321,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">пегойгафтомс</l>
+      <l pos="V" val="IV">пегойгавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">пегойгафт</st>
+        <st Contlex="IV_САВТОМС_SUB">пегойгафт</st>
       </stg>
     </lg>
 
@@ -25709,10 +25606,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">перьгафтокшномс</l>
+      <l pos="V" val="TV">перьгавтокшномс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">перьгафтокшно</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">перьгафтокшно</st>
       </stg>
     </lg>
 
@@ -26768,10 +26665,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">печкефтнемс</l>
+      <l pos="V" val="TV">печкевтнемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">печкефтне</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">печкефтне</st>
       </stg>
     </lg>
 
@@ -29176,10 +29073,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">пилюшкафтомс</l>
+      <l pos="V" val="IV">пилюшкавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">пилюшкафт</st>
+        <st Contlex="IV_САВТОМС_SUB">пилюшкафт</st>
       </stg>
     </lg>
 
@@ -30027,10 +29924,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">пифтнемс</l>
+      <l pos="V" val="TV">пивтнемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">пифтне</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">пифтне</st>
       </stg>
     </lg>
 
@@ -37210,10 +37107,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">почоргафтомс</l>
+      <l pos="V" val="IV">почоргавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">почоргафт</st>
+        <st Contlex="IV_САВТОМС_SUB">почоргафт</st>
       </stg>
     </lg>
 
@@ -37975,10 +37872,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">превияфтомс</l>
+      <l pos="V" val="IV">превиявтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">превияфт</st>
+        <st Contlex="IV_САВТОМС_SUB">превияфт</st>
       </stg>
     </lg>
 
@@ -38213,10 +38110,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">преяфлемс</l>
+      <l pos="V" val="IV">преявтнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">преяфле</st>
+        <st Contlex="IV_КУНДАМС_SUB">преяфле</st>
       </stg>
     </lg>
 
@@ -40866,10 +40763,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">пужофтомс</l>
+      <l pos="V" val="IV">пужовтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">пужофт</st>
+        <st Contlex="IV_САВТОМС_SUB">пужофт</st>
       </stg>
     </lg>
 
@@ -41132,10 +41029,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">пукштурдафтумс</l>
+      <l pos="V" val="IV">пукштордавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">пукштурдафт</st>
+        <st Contlex="IV_САВТОМС_SUB">пукштурдафт</st>
       </stg>
     </lg>
 
@@ -44794,20 +44691,6 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">радиофицировамс</l>
-
-      <stg>
-        <st Contlex="IV_КУНДАМС">радиофицирова</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
       <l pos="V" val="IV">радиямс</l>
 
       <stg>
@@ -46091,10 +45974,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">рапундяфтомс</l>
+      <l pos="V" val="IV">рапондявтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">рапундяфт</st>
+        <st Contlex="IV_САВТОМС_SUB">рапундяфт</st>
       </stg>
     </lg>
 
@@ -46153,10 +46036,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">раськафтомс</l>
+      <l pos="V" val="IV">раськавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">раськафт</st>
+        <st Contlex="IV_САВТОМС_SUB">раськафт</st>
       </stg>
     </lg>
 
@@ -46593,10 +46476,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">рацякалефтемс</l>
+      <l pos="V" val="IV">рацякалевтемс</l>
 
       <stg>
-        <st Contlex="IV_НЕВТЕМС">рацякалефть</st>
+        <st Contlex="IV_НЕВТЕМС_SUB">рацякалефть</st>
       </stg>
     </lg>
 
@@ -49363,10 +49246,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">риськофтомс</l>
+      <l pos="V" val="IV">риськовтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">риськофт</st>
+        <st Contlex="IV_САВТОМС_SUB">риськофт</st>
       </stg>
     </lg>
 
@@ -53799,10 +53682,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">сееделгафтомс</l>
+      <l pos="V" val="IV">сееделгавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">сееделгафт</st>
+        <st Contlex="IV_САВТОМС_SUB">сееделгафт</st>
       </stg>
     </lg>
 
@@ -62157,10 +62040,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">сряпаяфтомс</l>
+      <l pos="V" val="IV">сряпаявтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">сряпаяфт</st>
+        <st Contlex="IV_САВТОМС_SUB">сряпаяфт</st>
       </stg>
     </lg>
 
@@ -62927,21 +62810,6 @@
 
     <mg>
       <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">стенографнровамс</l>
-
-      <stg>
-        <st Contlex="V_КУНДАМС">стенографнрова</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
       <tg xml:lang="fin">
         <t pos="V" val="IV">pikakirjoittaa</t>
 
@@ -64286,10 +64154,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">стяфтофтомс</l>
+      <l pos="V" val="IV">стявтовтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">стяфтофт</st>
+        <st Contlex="IV_САВТОМС_SUB">стяфтофт</st>
       </stg>
     </lg>
 
@@ -66303,10 +66171,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">суфлемс</l>
+      <l pos="V" val="IV">сувтнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">суфле</st>
+        <st Contlex="IV_КУНДАМС_SUB">суфле</st>
       </stg>
     </lg>
 
@@ -69854,10 +69722,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">сэфлемс</l>
+      <l pos="V" val="IV">сэвтнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">сэфле</st>
+        <st Contlex="IV_КУНДАМС_SUB">сэфле</st>
       </stg>
     </lg>
 
@@ -71958,10 +71826,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">сялгафтомс</l>
+      <l pos="V" val="TV">сялгавтомс</l>
 
       <stg>
-        <st Contlex="TV_САВТОМС-ObjAll">сялгафт</st>
+        <st Contlex="TV_САВТОМС-ObjAll_SUB">сялгафт</st>
       </stg>
     </lg>
 
@@ -83118,10 +82986,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">торнофтомс</l>
+      <l pos="V" val="IV">торновтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">торнофт</st>
+        <st Contlex="IV_САВТОМС_SUB">торнофт</st>
       </stg>
     </lg>
 
@@ -83314,10 +83182,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">торозефтемс</l>
+      <l pos="V" val="IV">торозевтемс</l>
 
       <stg>
-        <st Contlex="IV_НЕВТЕМС">торозефть</st>
+        <st Contlex="IV_НЕВТЕМС_SUB">торозефть</st>
       </stg>
     </lg>
 
@@ -84357,10 +84225,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">тошкофтомс</l>
+      <l pos="V" val="IV">тошковтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">тошкофт</st>
+        <st Contlex="IV_САВТОМС_SUB">тошкофт</st>
       </stg>
     </lg>
 
@@ -87461,10 +87329,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">тырдаскафтомс</l>
+      <l pos="V" val="IV">тырдаскавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">тырдаскафт</st>
+        <st Contlex="IV_САВТОМС_SUB">тырдаскафт</st>
       </stg>
     </lg>
 
@@ -87649,10 +87517,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">тыцкофтомс</l>
+      <l pos="V" val="IV">тыцковтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">тыцкофт</st>
+        <st Contlex="IV_САВТОМС_SUB">тыцкофт</st>
       </stg>
     </lg>
 
@@ -88334,10 +88202,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">тюрцькофтомс</l>
+      <l pos="V" val="IV">тюрцьковтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">тюрцькофт</st>
+        <st Contlex="IV_САВТОМС_SUB">тюрцькофт</st>
       </stg>
     </lg>
 
@@ -94242,10 +94110,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">уфлемс</l>
+      <l pos="V" val="IV">увтнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">уфле</st>
+        <st Contlex="IV_КУНДАМС_SUB">уфле</st>
       </stg>
     </lg>
 
@@ -95169,10 +95037,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">уштофтомс</l>
+      <l pos="V" val="TV">уштовтомс</l>
 
       <stg>
-        <st Contlex="TV_САВТОМС-ObjAll">уштофт</st>
+        <st Contlex="TV_САВТОМС-ObjAll_SUB">уштофт</st>
       </stg>
     </lg>
 
@@ -95401,14 +95269,6 @@
         <st Contlex="IV_КУНДАМС">фатя</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">фатясь</morph>
-
-      <morph type="V">фатякшнось</morph>
-
-      <morph type="V">фатякшномс</morph>
-    </morphg>
 
     <mg>
       <defNative>Чарькодемс. Кармамс содамо.</defNative>
@@ -95811,7 +95671,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">фуркадимс</l>
+      <l pos="V" val="IV">фуркадемс</l>
 
       <stg>
         <st Contlex="IV_ЛЕДЕМС">фуркадь</st>
@@ -101873,10 +101733,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">цямкафтомс</l>
+      <l pos="V" val="IV">цямкавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">цямкафт</st>
+        <st Contlex="IV_САВТОМС_SUB">цямкафт</st>
       </stg>
     </lg>
 
@@ -104123,10 +103983,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">чаволгафтомс</l>
+      <l pos="V" val="TV">чаволгавтомс</l>
 
       <stg>
-        <st Contlex="TV_САВТОМС-ObjAll">чаволгафт</st>
+        <st Contlex="TV_САВТОМС-ObjAll_SUB">чаволгафт</st>
       </stg>
     </lg>
 
@@ -109259,7 +109119,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">чефтямс</l>
+      <l pos="V" val="IV">чевтямс</l>
 
       <stg>
         <st Contlex="IV_КУНДАМС">чефтя</st>
@@ -113042,10 +112902,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">чопафлемс</l>
+      <l pos="V" val="IV">чопавтнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">чопафле</st>
+        <st Contlex="IV_КУНДАМС_SUB">чопафле</st>
       </stg>
     </lg>
 
@@ -117261,10 +117121,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">шишкафтомс</l>
+      <l pos="V" val="IV">шишкавтомс</l>
 
       <stg>
-        <st Contlex="IV_САВТОМС">шишкафт</st>
+        <st Contlex="IV_САВТОМС_SUB">шишкафт</st>
       </stg>
     </lg>
 
@@ -126174,10 +126034,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">юрнофлемс</l>
+      <l pos="V" val="TV">юрновтнемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">юрнофле</st>
+        <st Contlex="TV_КУНДАМС-ObjAll_SUB">юрнофле</st>
       </stg>
     </lg>
 
