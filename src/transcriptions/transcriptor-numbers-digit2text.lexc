@@ -9,18 +9,18 @@ Multichar_Symbols
 
 LEXICON Root
 HUNDREDSM ;		! 200M
-сядо:1 HUNDREDM ;	! 100M
+1:сядо HUNDREDM ;	! 100M
 TENSM ;			! 30-99M
 TWEENSM ;		! 20-19M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
 HUNDREDST ;		! 200000-999999
-сядо:1 HUNDREDT ;	! 100000-100999
+1:сядо HUNDREDT ;	! 100000-100999
 TENST ;			! 30000-99999,10000-10999
 TWEENST ;		! 20000-29999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-тёжа:1 THOUSAND ;	! 1000-1999
+1:тёжа THOUSAND ;	! 1000-1999
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 30-99
 TWEENS ;		! 20-29 ! not just Hobbits
@@ -28,14 +28,14 @@ TEENS ;			! 10-19
 ONES ;			! 1-9
 
 LEXICON HUNDREDSM
-кавто:2  CUODIM ;
-колмо:3 CUODIM ;
-ниле:4 CUODIM ; ! Google: 459
-вете:5 CUODIM ;
-кото:6 CUODIM ;
-сисем:7 CUODIM ;
-кавксо:8 CUODIM ;
-вейксэ:9 CUODIM ;
+2:кавто CUODIM ;
+3:колмо CUODIM ;
+4:ниле CUODIM ; ! Google: 459
+5:вете CUODIM ;
+6:кото CUODIM ;
+7:сисем CUODIM ;
+8:кавксо CUODIM ;
+9:вейксэ CUODIM ;
 
 LEXICON CUODIM
 сядт% : HUNDREDM ;
@@ -44,68 +44,68 @@ LEXICON HUNDREDM
       TENSM ;
       TWEENSM ;
       TEENSM ;
-:%0   ONESM ;
-:%0%0 MILJON ;
+%0:   ONESM ;
+%0%0: MILJON ;
 
 LEXICON TWEENSM
-комсь:2 TWEENM ;
+2:комсь TWEENM ;
 
 LEXICON TWEENM
-вейкее% :1     LOHKAIM ;
-кавтово% :2   LOHKAIM ;
-колмово% :3    LOHKAIM ;
-нилее% :4 LOHKAIM ;
-ветее% :5   LOHKAIM ;
-котово% :6   LOHKAIM ;
-сисемге% :7 LOHKAIM ;
-кавксово% :8 LOHKAIM ;
-вейксэе% :9   LOHKAIM ;
+1:вейкее%      LOHKAIM ;
+2:кавтово%    LOHKAIM ;
+3:колмово%     LOHKAIM ;
+4:нилее%  LOHKAIM ;
+5:ветее%    LOHKAIM ;
+6:котово%    LOHKAIM ;
+7:сисемге%  LOHKAIM ;
+8:кавксово%  LOHKAIM ;
+9:вейксэе%    LOHKAIM ;
 
 LEXICON TEENSM
-ке:1 TEENM ;
+1:ке TEENM ;
 
 LEXICON TEENM
-вейкее% :1     LOHKAIM ;
-мгавтово% :2   LOHKAIM ;
-мголмово% :3    LOHKAIM ;
-мнилее% :4 LOHKAIM ;
-ветее% :5   LOHKAIM ;
-мготово% :6   LOHKAIM ;
-мзисемге% :7 LOHKAIM ;
-мгавксово% :8 LOHKAIM ;
-вейксэе% :9   LOHKAIM ;
+1:вейкее%      LOHKAIM ;
+2:мгавтово%    LOHKAIM ;
+3:мголмово%     LOHKAIM ;
+4:мнилее%  LOHKAIM ;
+5:ветее%    LOHKAIM ;
+6:мготово%    LOHKAIM ;
+7:мзисемге%  LOHKAIM ;
+8:мгавксово%  LOHKAIM ;
+9:вейксэе%    LOHKAIM ;
 
 LEXICON LOHKAIM
 MILJON ;
 
 LEXICON TENSM
-кемень% :1%0 MILJON ;
-комсь% :2%0 MILJON ;
-колонь:3    LUHKIEM ;
-нилень:4 LUHKIEM ;
-ведь:5   LUHKIEM ;
-код:6   LUHKIEM ;
-сизь:7 LUHKIEM ;
-кавксонь:8 LUHKIEM ;
-вейксэнь:9   LUHKIEM ;
+1%0:кемень%  MILJON ;
+2%0:комсь%  MILJON ;
+3:колонь    LUHKIEM ;
+4:нилень LUHKIEM ;
+5:ведь   LUHKIEM ;
+6:код   LUHKIEM ;
+7:сизь LUHKIEM ;
+8:кавксонь LUHKIEM ;
+9:вейксэнь   LUHKIEM ;
 
 LEXICON LUHKIEM
-гемень% :%0 MILJON ;
-гемень% :   ONESM ;
+%0:гемень%  MILJON ;
+:гемень%    ONESM ;
 
 LEXICON ONESM
-вейке% миллион% :1 OVERTHOUSANDS ;
-кавто:2         MILJON ;
-колмо:3          MILJON ;
-ниле:4       MILJON ;
-вете:5         MILJON ;
-кото:6         MILJON ;
-сисем:7       MILJON ;
-кавксо:8       MILJON ;
-вейксэ:9         MILJON ; 
+1:вейке% миллион%  OVERTHOUSANDS ;
+2:кавто         MILJON ;
+3:колмо          MILJON ;
+4:ниле       MILJON ;
+5:вете         MILJON ;
+6:кото         MILJON ;
+7:сисем       MILJON ;
+8:кавксо       MILJON ;
+9:вейксэ         MILJON ; 
 
 LEXICON MILJON
-% миллион% : OVERTHOUSANDS ;
+:% миллион%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -113,246 +113,246 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-сядо% :1 HUNDREDT ;	! 100.000.000
-:%0 TENST ;		!  30.000.000
-:%0 TWEENST ;		!  20.000.000
-:%0 TEENST ;		!  10.000.000
-:%0%0 ONEST ;		!   2.000.000
-тёжа:%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-:%0%0%0%0 TWEENS ;
-:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 COMMA ;	!  x000000
+1:сядо%  HUNDREDT ;	! 100.000.000
+%0: TENST ;		!  30.000.000
+%0: TWEENST ;		!  20.000.000
+%0: TEENST ;		!  10.000.000
+%0%0: ONEST ;		!   2.000.000
+%0%01:тёжа THOUSAND ;	!   1.000.000
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+%0%0%0%0: TWEENS ;
+%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: COMMA ;	!  x000000
 
 LEXICON HUNDREDST
-кавто:2   CUODIT ;	! 200000-299999
-колмо:3    CUODIT ;	! 300000-399999
-ниле:4 CUODIT ;	! 400000-499999
-вете:5   CUODIT ;	! 500000-599999
-кото:6   CUODIT ;	! 600000-699999
-сисем:7 CUODIT ;	! 700000-799999
-кавксо:8 CUODIT ;	! 800000-899999
-вейксэ:9   CUODIT ;	! 900000-999999
+2:кавто   CUODIT ;	! 200000-299999
+3:колмо    CUODIT ;	! 300000-399999
+4:ниле CUODIT ;	! 400000-499999
+5:вете   CUODIT ;	! 500000-599999
+6:кото   CUODIT ;	! 600000-699999
+7:сисем CUODIT ;	! 700000-799999
+8:кавксо CUODIT ;	! 800000-899999
+9:вейксэ   CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-сядт% : HUNDREDT ;	! 100000-199999
+:сядт%  HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
 TENST ;			! X2XYYY, X10YYY
 TWEENST ;		! X1XYYY
 TEENST ;		! X1XYYY
-вейке:%01 THOUSANDS ;
-:%0 ONEST ;		! XX0YYY
-:%0%0 THOUSANDS ;	! X00YYY
+%01:вейке THOUSANDS ;
+%0: ONEST ;		! XX0YYY
+%0%0: THOUSANDS ;	! X00YYY
 
 LEXICON TWEENST
-комсь:2   TWEENT ;
-комсь:2%0 THOUSANDS ;
+2:комсь   TWEENT ;
+2%0:комсь THOUSANDS ;
 
 LEXICON TWEENT
-вейкее% :1     LOHKAIT ;
-кавтово% :2   LOHKAIT ;
-колмово% :3    LOHKAIT ;
-нилее% :4 LOHKAIT ;
-ветее% :5   LOHKAIT ;
-котово% :6   LOHKAIT ;
-сисемге% :7 LOHKAIT ;
-кавксово% :8 LOHKAIT ;
-вейксэе% :9   LOHKAIT ;
+1:вейкее%      LOHKAIT ;
+2:кавтово%    LOHKAIT ;
+3:колмово%     LOHKAIT ;
+4:нилее%  LOHKAIT ;
+5:ветее%    LOHKAIT ;
+6:котово%    LOHKAIT ;
+7:сисемге%  LOHKAIT ;
+8:кавксово%  LOHKAIT ;
+9:вейксэе%    LOHKAIT ;
 
 LEXICON TEENST
-ке:1   TEENT ;
-кемень:1%0 THOUSANDS ;
+1:ке   TEENT ;
+1%0:кемень THOUSANDS ;
 
 LEXICON TEENT
-вейкее% :1     LOHKAIT ;
-мгавтово% :2   LOHKAIT ;
-мголмово% :3    LOHKAIT ;
-мнилее% :4 LOHKAIT ;
-ветее% :5   LOHKAIT ;
-мготово% :6   LOHKAIT ;
-мзисемге% :7 LOHKAIT ;
-мгавксово% :8 LOHKAIT ;
-вейксэе% :9   LOHKAIT ;
+1:вейкее%      LOHKAIT ;
+2:мгавтово%    LOHKAIT ;
+3:мголмово%     LOHKAIT ;
+4:мнилее%  LOHKAIT ;
+5:ветее%    LOHKAIT ;
+6:мготово%    LOHKAIT ;
+7:мзисемге%  LOHKAIT ;
+8:мгавксово%  LOHKAIT ;
+9:вейксэе%    LOHKAIT ;
 
 LEXICON LOHKAIT
 THOUSANDS ;
 
 LEXICON TENST
-колоньгемень:3    LUHKIET ;
-ниленьгемень:4 LUHKIET ;
-ведьгемень:5   LUHKIET ;
-кодгемень:6   LUHKIET ;
-сизьгемень:7 LUHKIET ;
-кавксоньгемень:8 LUHKIET ;
-вейксэньгемень:9   LUHKIET ;
+3:колоньгемень    LUHKIET ;
+4:ниленьгемень LUHKIET ;
+5:ведьгемень   LUHKIET ;
+6:кодгемень   LUHKIET ;
+7:сизьгемень LUHKIET ;
+8:кавксоньгемень LUHKIET ;
+9:вейксэньгемень   LUHKIET ;
 
 LEXICON LUHKIET
-:%0 THOUSANDS ;
-% вейке:1 THOUSANDS ;
-% : ONEST ;
+%0: THOUSANDS ;
+1:% вейке THOUSANDS ;
+:% ONEST ;
 
 LEXICON ONEST
-кавто:2 THOUSANDS ;
-колмо:3 THOUSANDS ;
-ниле:4 THOUSANDS ;
-вете:5 THOUSANDS ;
-кото:6 THOUSANDS ;
-сисем:7 THOUSANDS ;
-кавксо:8 THOUSANDS ;
-вейксэ:9 THOUSANDS ;
+2:кавто THOUSANDS ;
+3:колмо THOUSANDS ;
+4:ниле THOUSANDS ;
+5:вете THOUSANDS ;
+6:кото THOUSANDS ;
+7:сисем THOUSANDS ;
+8:кавксо THOUSANDS ;
+9:вейксэ THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-% тёжа: THOUSAND ;
-% тёжа:%0%0%0 COMMA ;	   ! 1000
+:% тёжа THOUSAND ;
+%0%0%0:% тёжа COMMA ;	   ! 1000
 
 
 LEXICON THOUSAND
 % : UNDERTHOUSAND ;	   ! 1100-1999
-% :%0 TENS ;	   ! 1030-1099
-% :%0 TEENS ;	   ! 1010-1019
-% :%0 TWEENS ;	   ! 1020-1029
-% :%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 COMMA ;	   !!= @CODE@ 
-це% :%0%0%0%. COMMA ;	   !!= @CODE@ 
-це+Use/SpellNoSugg% :%0%0%0 COMMA ;	   !!= @CODE@ Sometimes there is no marking
+%0:%  TENS ;	   ! 1030-1099
+%0:%  TEENS ;	   ! 1010-1019
+%0:%  TWEENS ;	   ! 1020-1029
+%0%0:%  ONES ;	   ! 1001-1009
+%0%0%0: COMMA ;	   !!= @CODE@ 
+%0%0%0%.:це%  COMMA ;	   !!= @CODE@ 
+%0%0%0:це+Use/SpellNoSugg% COMMA ;	   !!= @CODE@ Sometimes there is no marking
 !===========================
 !Here starts the 999 numbers
 !===========================
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-сядо% :1 HUNDRED ;
-сядоце:1  CUODAAT ;
+1:сядо% : HUNDRED ;
+1:сядоце:  CUODAAT ;
 
 LEXICON HUNDREDS
-кавто:2   CUODI ;
-колмо:3    CUODI ;
-ниле:4 CUODI ;
-вете:5   CUODI ;
-кото:6   CUODI ;
-сисемсядт+Use/NG% :7   HUNDRED ;
-сисемсядоце+Use/NG:7   CUODAAT ;
-сисемзядт% :7 HUNDRED ;
-сисемзядоце:7 CUODAAT ;
-кавксо:8 CUODI ;
-вейксэ:9   CUODI ;
+2:кавто   CUODI ;
+3:колмо    CUODI ;
+4:ниле CUODI ;
+5:вете   CUODI ;
+6:кото   CUODI ;
+7:сисем% сядт%    HUNDRED ;
+7:сисем% сядоце   CUODAAT ;
+7:сисемзядт+Use/NG%  HUNDRED ;
+7:сисемзядоце+Use/NG CUODAAT ;
+8:кавксо CUODI ;
+9:вейксэ   CUODI ;
 
 LEXICON CUODI
-сядт% :   HUNDRED ;
-сядоце:  CUODAAT ;
+:сядт%    HUNDRED ;
+:сядоце  CUODAAT ;
 
 
 LEXICON HUNDRED
       TENS ;
       TEENS ;
       TWEENS ;
-:%0   ONES ;
-:%0%0 COMMA ;
+%0:   ONES ;
+%0%0: COMMA ;
 
 LEXICON CUODAAT
-:%0%0%.    COMMA ;
+%0%0%.:    COMMA ;
 
 LEXICON TEENS
  CARDINAL-TEENS ;
  ORDINAL-TEENS ;
 
 LEXICON TWEENS
-комсь:2%0 COMMA ;
-комсеце:2%0%. COMMA ;
-комсь:2 CARDINAL-TWEENS ;
-комсь:2 ORDINAL-TWEENS ;
+2%0:комсь COMMA ;
+2%0%.:комсеце COMMA ;
+2:комсь CARDINAL-TWEENS ;
+2:комсь ORDINAL-TWEENS ;
 
 
 LEXICON TENS
-колонь:3 LUHKIE_3-9 ;
-нилень:4 LUHKIE_3-9 ;
-ведь:5 LUHKIE_3-9 ;
-код:6 LUHKIE_3-9 ;
-сизь:7 LUHKIE_3-9 ;
-кавксонь:8 LUHKIE_3-9 ;
-вейксэнь:9 LUHKIE_3-9 ;
+3:колонь LUHKIE_3-9 ;
+4:нилень LUHKIE_3-9 ;
+5:ведь LUHKIE_3-9 ;
+6:код LUHKIE_3-9 ;
+7:сизь LUHKIE_3-9 ;
+8:кавксонь LUHKIE_3-9 ;
+9:вейксэнь LUHKIE_3-9 ;
 
 LEXICON LUHKIE_3-9
-гемень:%0 COMMA ;
-геменце:%0%. COMMA ;
-гемень% : ONES ;
+%0:гемень COMMA ;
+%0%.:геменце COMMA ;
+:гемень% ONES ;
 
 
 LEXICON CARDINAL-TEENS
-кемень:1%0 COMMA ;
-кевейкее:11 COMMA ;
-кемгавтово:12 COMMA ;
-кемголмово:13 COMMA ;
-кемнилее:14 COMMA ;
-кеветее:15 COMMA ;
-кемготово:16 COMMA ;
-кемзисемге:17 COMMA ;
-кемгавксово:18 COMMA ;
-кевейксэе:19 COMMA ;
+1%0:кемень COMMA ;
+11:кевейкее COMMA ;
+12:кемгавтово COMMA ;
+13:кемголмово COMMA ;
+14:кемнилее COMMA ;
+15:кеветее COMMA ;
+16:кемготово COMMA ;
+17:кемзисемге COMMA ;
+18:кемгавксово COMMA ;
+19:кевейксэе COMMA ;
 
 LEXICON ORDINAL-TEENS
-кеменце:1%0%. COMMA ;
-кевейкееце:11%.     COMMA ;
-кемгавтовоце:12%.   COMMA ;
-кемголмовоце:13%.   COMMA ;
-кемнилееце:14%. COMMA ;
-кеветееце:15%.   COMMA ;
-кемготовоце:16%.   COMMA ;
-кемзисемгеце:17%.    COMMA ;
-кемгавксовоце:18%.   COMMA ;
-кевейксэеце:19%.    COMMA ;
+1%0%.:кеменце COMMA ;
+11%.:кевейкееце     COMMA ;
+12%.:кемгавтовоце   COMMA ;
+13%.:кемголмовоце   COMMA ;
+14%.:кемнилееце COMMA ;
+15%.:кеветееце   COMMA ;
+16%.:кемготовоце   COMMA ;
+17%.:кемзисемгеце    COMMA ;
+18%.:кемгавксовоце   COMMA ;
+19%.:кевейксэеце    COMMA ;
 
 
 LEXICON CARDINAL-TWEENS
-вейкее:1 COMMA ;
-кавтово:2 COMMA ;
-колмово:3 COMMA ;
-нилее:4 COMMA ;
-ветее:5 COMMA ;
-котово:6 COMMA ;
-сисемге:7 COMMA ;
-кавксово:8 COMMA ;
-вейксэе:9 COMMA ;
+1:вейкее COMMA ;
+2:кавтово COMMA ;
+3:колмово COMMA ;
+4:нилее COMMA ;
+5:ветее COMMA ;
+6:котово COMMA ;
+7:сисемге COMMA ;
+8:кавксово COMMA ;
+9:вейксэе COMMA ;
 
 LEXICON ORDINAL-TWEENS
-вейкееце:1%.     COMMA ;
-кавтовоце:2%.   COMMA ;
-колмовоце:3%.   COMMA ;
-нилееце:4%. COMMA ;
-ветееце:5%.   COMMA ;
-котовоце:6%.   COMMA ;
-сисемгеце:7%.    COMMA ;
-кавксовоце:8%.   COMMA ;
-вейксэеце:9%.    COMMA ;
+1%.:вейкееце     COMMA ;
+2%.:кавтовоце   COMMA ;
+3%.:колмовоце   COMMA ;
+4%.:нилееце COMMA ;
+5%.:ветееце   COMMA ;
+6%.:котовоце   COMMA ;
+7%.:сисемгеце    COMMA ;
+8%.:кавксовоце   COMMA ;
+9%.:вейксэеце    COMMA ;
 
 LEXICON ONES
 CARDINAL ;
 ORDINAL ;
 
 LEXICON CARDINAL
-вейке:1 COMMA ;
-кавто:2 COMMA ;
-колмо:3 COMMA ;
-ниле:4 COMMA ;
-вете:5 COMMA ;
-кото:6 COMMA ;
-сисем:7 COMMA ;
-кавксо:8 COMMA ;
-вейксэ:9 COMMA ;
+1:вейке COMMA ;
+2:кавто COMMA ;
+3:колмо COMMA ;
+4:ниле COMMA ;
+5:вете COMMA ;
+6:кото COMMA ;
+7:сисем COMMA ;
+8:кавксо COMMA ;
+9:вейксэ COMMA ;
 
 LEXICON ORDINAL
-васенце:1%.     COMMA ;
-омбоце:2%.   COMMA ;
-колмоце:3%.   COMMA ;
-нилеце:4%.  COMMA ;
-ветеце:5%.   COMMA ;
-котоце:6%.   COMMA ;
-сисемеце:7%.    COMMA ;
-кавксоце:8%.   COMMA ;
-вейксэце:9%.    COMMA ;
+1%.:васенце     COMMA ;
+2%.:омбоце   COMMA ;
+3%.:колмоце   COMMA ;
+4%.:нилеце  COMMA ;
+5%.:ветеце   COMMA ;
+6%.:котоце   COMMA ;
+7%.:сисемеце    COMMA ;
+8%.:кавксоце   COMMA ;
+9%.:вейксэце    COMMA ;
 
 LEXICON COMMA
  ENDLEX ;
