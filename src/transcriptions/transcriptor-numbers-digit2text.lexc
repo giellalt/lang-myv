@@ -10,7 +10,7 @@ Multichar_Symbols
 
 LEXICON Root
 HUNDREDSM ;		! 200M
-1:сядо HUNDREDM ;	! 100M
+1:сядо  HUNDREDM ;	! 100M
 TENSM ;			! 30-99M
 TWEENSM ;		! 20-19M
 TEENSM ;		! 10-19M
@@ -196,22 +196,22 @@ LEXICON LUHKIET
 :%  ONEST ;
 
 LEXICON ONEST
-2:кавто THOUSANDS ;
-3:колмо THOUSANDS ;
-4:ниле THOUSANDS ;
-5:вете THOUSANDS ;
-6:кото THOUSANDS ;
-7:сисем THOUSANDS ;
-8:кавксо THOUSANDS ;
-9:вейксэ THOUSANDS ;
+2:кавто%  THOUSANDS ;
+3:колмо%  THOUSANDS ;
+4:ниле%  THOUSANDS ;
+5:вете%  THOUSANDS ;
+6:кото%  THOUSANDS ;
+7:сисем%  THOUSANDS ;
+8:кавксо%  THOUSANDS ;
+9:вейксэ%  THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-:% тёжа THOUSAND ;
+:тёжа THOUSAND ;
 %0%0%0:% тёжа COMMA ;	   ! 1000
 
 
 LEXICON THOUSAND
-% : UNDERTHOUSAND ;	   ! 1100-1999
+:%  UNDERTHOUSAND ;	   ! 1100-1999
 %0:%  TENS ;	   ! 1030-1099
 %0:%  TEENS ;	   ! 1010-1019
 %0:%  TWEENS ;	   ! 1020-1029
