@@ -1,5 +1,6 @@
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
+! Iterations are marked with the Cyrillic _х_
 
 Multichar_Symbols
 
@@ -38,7 +39,7 @@ LEXICON HUNDREDSM
 9:вейксэ CUODIM ;
 
 LEXICON CUODIM
-сядт% : HUNDREDM ;
+:сядт%  HUNDREDM ;
 
 LEXICON HUNDREDM
       TENSM ;
@@ -192,7 +193,7 @@ LEXICON TENST
 LEXICON LUHKIET
 %0: THOUSANDS ;
 1:% вейке THOUSANDS ;
-:% ONEST ;
+:%  ONEST ;
 
 LEXICON ONEST
 2:кавто THOUSANDS ;
@@ -216,33 +217,36 @@ LEXICON THOUSAND
 %0:%  TWEENS ;	   ! 1020-1029
 %0%0:%  ONES ;	   ! 1001-1009
 %0%0%0: COMMA ;	   !!= @CODE@ 
+%0%0%0х:ксть%  COMMA ;	   !!= @CODE@ 
 %0%0%0%.:це%  COMMA ;	   !!= @CODE@ 
-%0%0%0:це+Use/SpellNoSugg% COMMA ;	   !!= @CODE@ Sometimes there is no marking
+%0%0%0:це+Use/SpellNoSugg%  COMMA ;	   !!= @CODE@ Sometimes there is no marking
 !===========================
 !Here starts the 999 numbers
 !===========================
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-1:сядо% : HUNDRED ;
-1:сядоце:  CUODAAT ;
+1:сядо%  HUNDRED ;
+1%0%0%.:сядоце  COMMA ;
+1%0%0х:сядоксть  COMMA ;
 
 LEXICON HUNDREDS
-2:кавто   CUODI ;
-3:колмо    CUODI ;
-4:ниле CUODI ;
-5:вете   CUODI ;
-6:кото   CUODI ;
+2:кавто%   CUODI ;
+3:колмо%    CUODI ;
+4:ниле%  CUODI ;
+5:вете%   CUODI ;
+6:кото%   CUODI ;
 7:сисем% сядт%    HUNDRED ;
 7:сисем% сядоце   CUODAAT ;
 7:сисемзядт+Use/NG%  HUNDRED ;
 7:сисемзядоце+Use/NG CUODAAT ;
-8:кавксо CUODI ;
-9:вейксэ   CUODI ;
+8:кавксо%  CUODI ;
+9:вейксэ%   CUODI ;
 
 LEXICON CUODI
 :сядт%    HUNDRED ;
-:сядоце  CUODAAT ;
+%0%0%.:сядоце  CUODAAT ;
+%0%0х:сядоксть  CUODAAT ;
 
 
 LEXICON HUNDRED
@@ -262,6 +266,7 @@ LEXICON TEENS
 LEXICON TWEENS
 2%0:комсь COMMA ;
 2%0%.:комсеце COMMA ;
+2%0х:комсексть COMMA ;
 2:комсь CARDINAL-TWEENS ;
 2:комсь ORDINAL-TWEENS ;
 
@@ -278,7 +283,8 @@ LEXICON TENS
 LEXICON LUHKIE_3-9
 %0:гемень COMMA ;
 %0%.:геменце COMMA ;
-:гемень% ONES ;
+%0х:геменксть COMMA ;
+:гемень%  ONES ;
 
 
 LEXICON CARDINAL-TEENS
@@ -305,6 +311,17 @@ LEXICON ORDINAL-TEENS
 18%.:кемгавксовоце   COMMA ;
 19%.:кевейксэеце    COMMA ;
 
+1%0х:кеменьксть COMMA ;
+11х:кевейкеексть     COMMA ;
+12х:кемгавтовоксть   COMMA ;
+13х:кемголмовоксть   COMMA ;
+14х:кемнилеексть COMMA ;
+15х:кеветеексть   COMMA ;
+16х:кемготовоксть   COMMA ;
+17х:кемзисемгексть    COMMA ;
+18х:кемгавксовоксть   COMMA ;
+19х:кевейксэексть    COMMA ;
+
 
 LEXICON CARDINAL-TWEENS
 1:вейкее COMMA ;
@@ -327,6 +344,16 @@ LEXICON ORDINAL-TWEENS
 7%.:сисемгеце    COMMA ;
 8%.:кавксовоце   COMMA ;
 9%.:вейксэеце    COMMA ;
+
+1х:вейкеексть     COMMA ;
+2х:кавтовоксть   COMMA ;
+3х:колмовоксть   COMMA ;
+4х:нилеексть COMMA ;
+5х:ветеексть   COMMA ;
+6х:котовоксть   COMMA ;
+7х:сисемгексть    COMMA ;
+8х:кавксовоксть   COMMA ;
+9х:вейксэексть    COMMA ;
 
 LEXICON ONES
 CARDINAL ;
@@ -351,8 +378,20 @@ LEXICON ORDINAL
 5%.:ветеце   COMMA ;
 6%.:котоце   COMMA ;
 7%.:сисемеце    COMMA ;
+7%.:сисемце+Use/NG    COMMA ;
 8%.:кавксоце   COMMA ;
 9%.:вейксэце    COMMA ;
+
+1х:весть     COMMA ;
+2х:кавксть   COMMA ;
+3х:колмоксть   COMMA ;
+4х:нилексть  COMMA ;
+5х:ветексть   COMMA ;
+6х:котоксть   COMMA ;
+7х:сисемксть    COMMA ;
+8х:кавксоксть   COMMA ;
+9х:вейксэксть    COMMA ;
+
 
 LEXICON COMMA
  ENDLEX ;
