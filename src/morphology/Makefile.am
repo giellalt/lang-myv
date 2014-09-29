@@ -98,11 +98,18 @@ GT_XML_SRCS=\
 		stems/verbs-A2M.xml       \
 		stems/verbs-N2END.xml
 
+# Define any additional sources here (compiled on their own, or just included
+# in the distro):
+GT_LOCAL_SRCS=
+
+### BEGIN: Local processing: ###
 
 generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GTCORE)/gtdshared/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
+
+### END: Local processing: ###
 
 include $(top_srcdir)/am-shared/src-morphology-dir-include.am
 
