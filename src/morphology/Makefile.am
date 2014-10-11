@@ -25,6 +25,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/punct.lexc	              \
 			affixes/clitics.lexc              \
 			stems/exceptions.lexc 	          \
+			stems/adjectives_newwords.lexc 	      \
 			stems/adjectives-russian-like_newwords.lexc \
 			stems/nouns_newwords.lexc 	      \
 			stems/verbs_newwords.lexc 	      \
