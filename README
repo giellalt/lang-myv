@@ -26,7 +26,7 @@ you need:
 
 * Xerox Finite-State Morphology tools, or
 
-* Helsinki Finite-State Technology library and tools, version 3.3.2 or newer
+* Helsinki Finite-State Technology library and tools, version 3.8 or newer
 
 Optionally:
 
@@ -83,15 +83,6 @@ procedure:
 
 This will keep all the generated files within the build/ dir, and keep the src/
 dir (mostly) free of generated files.
-
-WARNING!!! Presently there is a bug in Xerox LexC that limits the size of the
-input argument to 1064 chars. As VPATH builds tend to increase the character
-count in the input string (all filenames are prefixed with a relative path from
-the VPATH build dir to the source dir), it is easy to break this limit. If you
-follow the simple example above, you should be fine (it has been tested), but
-if you try to build from a more distant location you will be out of luck (this
-is also tested and confirmed). A bug report will be sent to the Xerox tools'
-authors.
 
 For further installation instruction refer to file ``INSTALL``, which contains
 the standard installation instructions for GNU autoconf based software.
