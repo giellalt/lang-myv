@@ -100,7 +100,7 @@ Quantifiers and Numerals are classified under:
 !!Number
  * _+Sg_ singular
  * _+Pl_ plural
- * _+SP_ ambiguous for number
+ * _+SP_ ambiguous for number, general number
 
 !!Case
  * _+Abe_ abessive
@@ -340,11 +340,16 @@ source and target part-of-speech.
  * _+Der/Ыя_ suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
 
 
-!!Declaring Noun derivations
+!!DECLARING NOUN DERIVATIONS
  * _+Der/чи_  adjective-to-noun
 !!the combinatory --Event-- preceding the NP-final noun
  * _+Der/ОмА_  verb-to-noun
-!!Declaring Deverbal derivations of verbs
+
+!!DECLARING NUMERAL DERIVATIONS
+ * _+Der/це_  +A+Ord
+ * _+Der/тькс_  +A+Ord (non-contrastive)
+
+!!DECLARING DEVERBAL DERIVATIONS OF VERBS
  * _+Der/кшнО_  verb2verb derivation
  * _+Der/се_  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
  * _+Der/не_  verb2verb derivation
@@ -689,6 +694,10 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 панго:панг
 
 
+
+Front vowel, non-palatal consonant before vowel
+
+Front vowel, non-palatal consonant before vowel
 
 
 
@@ -1782,3 +1791,177 @@ Used with deverbals
 
 
 
+!!!The Erzya morphophonological/twolc rules file 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__verbStemVowStrong:0__  
+
+
+
+
+__A1:o__  
+
+__Y2:yi__  
+
+
+
+ * __        LFCS  %> _ [ #: | %> [ Г1: | :Cns | %{ОЕЭØ%}:0 ] ] ; __ вере, икеле
+Пильге
+
+
+__O1:e__  
+move to O2:e
+
+
+__O1:o__  
+ало
+пандо
+
+
+__O1:0__  
+
+
+__O2:e__  
+
+__O2:o__  
+
+__O2:0__  
+
+
+
+
+__A2:a__  
+
+
+
+__j:0__  
+
+__Е3:э always __ %> т н _ 2013-02-23
+
+__Е3:э sometimes __ %> т н _ 2013-02-23
+
+__ye:e always __  
+
+
+
+
+__Н1:н__  
+
+__Н1:к__  
+
+__a:ya__  
+
+
+__v:0__  
+
+__G1:0__  
+
+__G1:g__  
+
+__G1:k__  
+
+
+__G2:g__  
+
+
+
+__G2:k__  
+
+
+
+__G4:0__  
+
+__G4:k__  
+
+
+
+
+
+imperative suffix
+__K1:t__  
+
+
+
+__U4:y__  
+
+
+
+__s:0__  
+
+
+
+__d:t__  
+
+
+__y:0__  
+
+
+
+
+
+
+
+__Disallow TLoss after non-t__  
+
+__Disallow KLoss after non-k__  
+
+__Disallow SLoss after non-s__  
+
+__Disallow %^WLoss after non-v__  
+
+__Disallow Н1:н after Letters__  
