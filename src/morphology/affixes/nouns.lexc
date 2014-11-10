@@ -33,6 +33,13 @@ LEXICON N-KIN_ТИНГЕ
 +N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_ТИНГЕ ;
  N-KIN ;
 
+LEXICON N-KIN_ВЕЛЕ
++N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_КУДО ;
+ N-KIN ;
+LEXICON N-KIN_ПИЗЭ
++N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_КУДО ;
+ N-KIN ;
+
 LEXICON N-KIN_КУДО
 +N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_КУДО ;
  N-KIN ;
@@ -64,6 +71,10 @@ LEXICON N-HUM_ТИНГЕ
 LEXICON N-HUM_ТЕШТЕ
 +N+Sem/Hum@P.POS.N@:00@P.POS.N@ NMN_ТЕШТЕ ;
 
+LEXICON N-HUM_ВЕЛЕ
++N+Sem/Hum@P.POS.N@:00@P.POS.N@ NMN_КУДО ;
+LEXICON N-HUM_ПИЗЭ
++N+Sem/Hum@P.POS.N@:00@P.POS.N@ NMN_КУДО ;
 LEXICON N-HUM_КУДО
 +N+Sem/Hum@P.POS.N@:00@P.POS.N@ NMN_КУДО ;
 
@@ -119,6 +130,18 @@ LEXICON N-PLC_КИ
 +N+Sem/Plc@P.POS.N@:00@P.POS.N@ NMN_КИ ;
 +N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
+LEXICON N_ВЕЛЕ_PLC
+N-PLC_ВЕЛЕ ;
+LEXICON N-PLC_ВЕЛЕ
++N+Sem/Plc@P.POS.N@:00@P.POS.N@ NMN_КУДО ;
++N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+
+LEXICON N_ПИЗЭ_PLC
+N-PLC_ПИЗЭ ;
+LEXICON N-PLC_ПИЗЭ
++N+Sem/Plc@P.POS.N@:00@P.POS.N@ NMN_КУДО ;
++N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+
 LEXICON N_КУДО_PLC
 N-PLC_КУДО ;
 LEXICON N-PLC_КУДО
@@ -160,6 +183,12 @@ LEXICON N_КИ-LAT
  N_КИ ;
 +N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
+LEXICON N_ВЕЛЕ-LAT
+ N_ВЕЛЕ ;
++N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+LEXICON N_ПИЗЭ-LAT
+ N_ПИЗЭ ;
++N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 LEXICON N_КУДО-LAT
  N_КУДО ;
 +N+Sem/Plc@P.POS.N@@U.DECL-NX.SP@:00@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
@@ -243,7 +272,7 @@ LEXICON N_ОШ-PL
 +N@P.POS.N@:0@P.POS.N@ N_ОШ-Poss-Declension-CX-PL ;
 
 LEXICON N_ИЕ
-:е N_КУДО ;
+:е N_ВЕЛЕ ;
 +Err/Sub:й N_КАЛ ;
 
 LEXICON N_ТЕШТЕ
