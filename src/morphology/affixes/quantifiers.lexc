@@ -103,13 +103,23 @@ LEXICON NUM_КАЛ
 +Num+Card+Appr:%>шка WORD-END ;
 +Num+Card+Der/MWN: N_КАЛ ;
 +Num+Card+Lat:%>О1в Ks ;
- NUMORD_КАЛ ;
++Num: NUMORD_КАЛ ;
++Num+Card+Coll:%>нст WORD-END ;
++Num+Card+Coll@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
++Num+Card+AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
++Num+Card+Appr+AssocColl00@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
++Num+Card+AssocColl:%>не _КУДО-Possessives2-Ill ;
++Num+Card+Appr+AssocColl:%>шкане _КУДО-Possessives2-Ill ;
++Num+Card+AssocColl:%>не _КУДО-Possessive-Before-K ;
++Num+Card+Iter:%>ксть Ks ;
++Num+Card+Appr+Iter:%>шкаксть Ks ;
+
 
 LEXICON NUMORD_КАЛ
-+Num+Ord:%>це WORD-END ;
-+Num+Ord+Der/MWN:%>це N_КУДО ;
-+Num+Ord:%>О1тькс WORD-END ;
-+Num+Ord+Der/MWN:%>О1тькс N_ОШ ;
++Der/це+A+Ord:%>це WORD-END ;
++Der/це+A+Ord+Der/MWN:%>це N_КУДО ;
++Der/тькс+A+Ord:%>О1тькс WORD-END ;
++Der/тькс+A+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_ОШ_SUB
 +Err/Sub: NUM_ОШ ;
@@ -119,13 +129,22 @@ LEXICON NUM_ОШ
 +Num+Card+Appr:%>О1шка WORD-END ;
 +Num+Card+Der/MWN: N_ОШ ;
 +Num+Card+Lat:%>О1в Ks ;
- NUMORD_ОШ ;
++Num: NUMORD_ОШ ;
++Num+Card+Coll:%>нст WORD-END ;
++Num+Card+Coll@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
++Num+Card+AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
++Num+Card+Appr+AssocColl00@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
++Num+Card+AssocColl:%>не _КУДО-Possessives2-Ill ;
++Num+Card+Appr+AssocColl:%>шкане _КУДО-Possessives2-Ill ;
++Num+Card+AssocColl:%>не _КУДО-Possessive-Before-K ;
++Num+Card+Iter:%>ксть Ks ;
++Num+Card+Appr+Iter:%>шкаксть Ks ;
 
 LEXICON NUMORD_ОШ
-+Num+Ord:%>О1%>це WORD-END ;
-+Num+Ord+Der/MWN:%>О1%>це N_КУДО ;
-+Num+Ord:%>О1тькс WORD-END ;
-+Num+Ord+Der/MWN:%>О1тькс N_ОШ ;
++Der/це+A+Ord:%>О1%>це WORD-END ;
++Der/це+A+Ord+Der/MWN:%>О1%>це N_КУДО ;
++Der/тькс+A+Ord:%>О1тькс WORD-END ;
++Der/тькс+A+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_СЯДО_SUB
 +Err/Sub: NUM_СЯДО ;
@@ -135,13 +154,22 @@ LEXICON NUM_СЯДО
 +Num+Card+Appr:%>О1шка WORD-END ;
 +Num+Card+Der/MWN: N_ПАНГО ;
 +Num+Card+Lat:%>О1в Ks ;
-:О1 NUMORD_СЯДО ;
++Num:О1 NUMORD_СЯДО ;
++Num+Card+Coll:О1%>нст WORD-END ;
++Num+Card+Coll@P.TLOSS.ON@:О1%>нст@P.TLOSS.ON@  Quants3 ;
++Num+Card+AssocColl@P.KLOSS.ON@:О1%>нек@P.KLOSS.ON@ Ks ;
++Num+Card+Appr+AssocColl00@P.KLOSS.ON@:О1%>шканек@P.KLOSS.ON@ Ks ;
++Num+Card+AssocColl:О1%>не _КУДО-Possessives2-Ill ;
++Num+Card+Appr+AssocColl:О1%>шкане _КУДО-Possessives2-Ill ;
++Num+Card+AssocColl:О1%>не _КУДО-Possessive-Before-K ;
++Num+Card+Iter:О1%>ксть Ks ;
++Num+Card+Appr+Iter:О1%>шкаксть Ks ;
 
 LEXICON NUMORD_СЯДО
-+Num+Ord:%>це WORD-END ;
-+Num+Ord+Der/MWN:%>це N_КУДО ;
-+Num+Ord:%>тькс WORD-END ;
-+Num+Ord+Der/MWN:%>тькс N_ОШ ;
++Der/це+A+Ord:%>це WORD-END ;
++Der/це+A+Ord+Der/MWN:%>це N_КУДО ;
++Der/тькс+A+Ord:%>тькс WORD-END ;
++Der/тькс+A+Ord+Der/MWN:%>тькс N_ОШ ;
 
 LEXICON NUM_КУДО_SUB
 +Err/Sub: NUM_КУДО ;
@@ -151,10 +179,11 @@ LEXICON NUM_КУДО
 +Num+Card: WORD-END ;
 +Num+Card+Appr:%>шка WORD-END ;
 +Num+Card+Der/MWN: N_КУДО ;
- NUMORD_КУДО ;
-+Num+Card+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Num+Card+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-+Num+Card+Appr+AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
++Num: NUMORD_КУДО ;
++Num+Card+Coll:%>нст WORD-END ;
++Num+Card+Coll@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
++Num+Card+AssocColl@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
++Num+Card+Appr+AssocColl00@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
 +Num+Card+AssocColl:%>не _КУДО-Possessives2-Ill ;
 +Num+Card+Appr+AssocColl:%>шкане _КУДО-Possessives2-Ill ;
 +Num+Card+AssocColl:%>не _КУДО-Possessive-Before-K ;
@@ -163,35 +192,49 @@ LEXICON NUM_КУДО
 +Num+Card+Lat:%>в Ks ;
 
 LEXICON NUMORD_КУДО
-+Num+Ord:%>це WORD-END ;
-+Num+Ord+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
-+Num+Ord+Der/MWN:%>це N_КУДО ;
-+Num+Ord:%>тькс WORD-END ;
-+Num+Ord+Der/MWN:%>тькс N_ОШ ;
++Der/це+A+Ord:%>це WORD-END ;
++Der/це+A+Ord+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;
++Der/це+A+Ord+Der/MWN:%>це N_КУДО ;
++Der/тькс+A+Ord:%>тькс WORD-END ;
++Der/тькс+A+Ord+Der/MWN:%>тькс N_ОШ ;
 
 !!
-LEXICON AssocColl-kavone
-+Qnt+Num+AssocColl: PossPX1 ;
-+Err/Sub+Qnt+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
+LEXICON IS-NUM-CARD-COLL
+!! кавонст
++Num+Card+Coll: WORD-END ;
+
+LEXICON IS-NUM-ORD-COLL
+!! омбонст
++Num+Ord+Coll:	WORD-END ;
+
+LEXICON IS-NUM-CARD-ASSOCCOLL_КАВОНЕ
++Num+AssocColl: PossPX1 ;
++Err/Sub+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
-+Qnt+Num+Appr: WORD-END ;
++Num+Appr: WORD-END ;
 
 LEXICON Card-2
- Cards-1-2 ;
-+Qnt+Num+Lat:%>в K ;
++Num: Cards-1-2 ;
++Num+Card+Lat:%>в K ;
 !!
 LEXICON Cards-1-2
-+Qnt+Num: WORD-END ;
-+Qnt+Num+Appr:%>шка WORD-END ;
-+Qnt+Num+Der/MWN: N_КУДО ;
++Card: WORD-END ;
++Card+Appr:%>шка WORD-END ;
++Card+Der/MWN: N_КУДО ;
 
 
 LEXICON Assoc-Coll
 +Qnt+AssocColl: N_КУДО-Poss-Declension-PossX ;
 
-LEXICON ITER__SUB
+LEXICON IS-NUM-CARD-ITER
++Num+Card+Iter: K ;
+
+LEXICON IS-QNT-ITER
++Qnt+Iter: K ;
+
+LEXICON ITER_SUB
 +Err/Sub: ITER_ ;
 
 LEXICON ITER_

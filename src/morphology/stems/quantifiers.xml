@@ -3040,10 +3040,10 @@
 
   <e>
     <lg>
-      <l pos="Qnt">веенст</l>
+      <l pos="Num">веенст</l>
 
       <stg>
-        <st Contlex="QNT_">веенст</st>
+        <st Contlex="IS-NUM-CARD-COLL">веенст</st>
       </stg>
     </lg>
 
@@ -3782,7 +3782,7 @@
       <l pos="Qnt">кавонест</l>
 
       <stg>
-        <st Contlex="AssocColl-kavone">кавоне</st>
+        <st Contlex="IS-NUM-CARD-ASSOCCOLL_КАВОНЕ">кавоне</st>
       </stg>
     </lg>
 
@@ -4088,10 +4088,10 @@
 
   <e>
     <lg>
-      <l pos="Qnt">колмонст</l>
+      <l pos="Num">колмонст</l>
 
       <stg>
-        <st Contlex="QNT_">колмонст</st>
+        <st Contlex="IS-NUM-CARD-COLL">колмонст</st>
       </stg>
     </lg>
 
@@ -4103,6 +4103,27 @@
 
       <xg>
         <x>Колмонст понкст. Колмонст котат.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Num">кавонст</l>
+
+      <stg>
+        <st Contlex="IS-NUM-CARD-COLL">кавонст</st>
+      </stg>
+    </lg>
+
+    <mg>
+
+        <defNative/>
+
+      <xg>
+        <x>Кавонст понкст. Кавонст котат.</x>
 
         <xt/>
       </xg>
@@ -4428,10 +4449,10 @@
 
   <e>
     <lg>
-      <l pos="Qnt">омбонст</l>
+      <l pos="A">омбонст</l>
 
       <stg>
-        <st Contlex="QNT_">омбонст</st>
+        <st Contlex="IS-NUM-ORD-COLL">омбонст</st>
       </stg>
     </lg>
 
@@ -5261,14 +5282,12 @@
 
   <e>
     <lg>
-      <l pos="Qnt">весть</l>
+      <l pos="Num">весть</l>
 
       <stg>
-        <st Contlex="ITER_">весть</st>
+        <st Contlex="IS-NUM-CARD-ITER">весть</st>
       </stg>
     </lg>
-
-    <pos>ITER</pos>
 
     <etymg>
       <etym>[-æ-]</etym>
@@ -5289,21 +5308,15 @@
 
   <e>
     <lg>
-      <l pos="Qnt">весть-кавксть</l>
+      <l pos="Num">весть-кавксть</l>
 
       <stg>
-        <st Contlex="ITER_">весть-кавксть</st>
+        <st Contlex="IS-NUM-CARD-ITER">весть-кавксть</st>
       </stg>
     </lg>
-
-    <pos>ITER</pos>
-
     <mg>
-      <m>
-        <head/>
-
         <defNative>Аволь ламоксть.</defNative>
-      </m>
+
       <tg xml:lang="fin">
         <t pos="Qnt">pari kertaa</t>
       </tg>
@@ -5695,11 +5708,9 @@
       <stg>
         <st Contlex="ITER_">сеедьстэ</st>
 
-        <st Contlex="ITER__SUB">сеетьстэ</st>
+        <st Contlex="ITER_SUB">сеетьстэ</st>
       </stg>
     </lg>
-
-    <pos>ITER</pos>
 
     <mg>
       <m>
@@ -6123,14 +6134,12 @@
 
   <e>
     <lg>
-      <l pos="Qnt">кавксть</l>
+      <l pos="Num">кавксть</l>
 
       <stg>
-        <st Contlex="ITER_">кавксть</st>
+        <st Contlex="IS-NUM-CARD-ITER">кавксть</st>
       </stg>
     </lg>
-
-    <pos>Qnt</pos>
 
     <mg>
         <defNative>Кавтоксть. Невти зняроксть теезь мезеськак.</defNative>

@@ -4,6 +4,35 @@
 !! by a number of morpheme types
 
 
+LEXICON PossPX1
+:%> PossMarker-then-Clt ;
+
+! PossMarker-followed-by-K-possibility
+LEXICON PossMarker-then-Clt
++PxSg10@U.PossPx.Sg1@:%{ОЕЭØ%}нЬ2@U.PossPx.Sg1@ K ;
++Err/Sub+Dial+PxSg1@U.PossPx.Sg1@:%{ОЕЭØ%}м00@U.PossPx.Sg1@ K ;
++PxSg20@U.PossPx.Sg2@:%{ОЕЭØ%}тЬ2@U.PossPx.Sg2@ K ;
++Err/Sub+Dial+PxSg2@U.PossPx.Sg2@:%{ОЕЭØ%}нтЬ2@U.PossPx.Sg2@ K ;
++PxSg300@U.PossPx.Sg3@:%{ОЕЭØ%}нзО1@U.PossPx.Sg3@ K ;
++PxPl100@U.PossPx.Pl1@:%{ОЕЭØ%}нО1к@U.PossPx.Pl1@ K-lak ;
++PxPl20@U.PossPx.Pl2@:%{ОЕЭØ%}нк@U.PossPx.Pl2@ K-lak ;
++PxPl30@U.PossPx.Pl3@:%{ОЕЭØ%}ст@U.PossPx.Pl3@ K ;
++Err/Sub+Dial+PxPl3@U.PossPx.Pl3@:%{ОЕЭØ%}ск0@U.PossPx.Pl3@ K-lak ;
++Err/Sub+Dial+PxPl3@U.PossPx.Pl3@:%{ОЕЭØ%}нст@U.PossPx.Pl3@ K ;
+
+LEXICON _ОШ-PossPX1
++PxSg1000@U.PossPx.Sg1@:%>%{ОЕЭØ%}нЬ2@U.PossPx.Sg1@  SecondaryDeclination ;
++Err/Sub+Dial+PxSg1@U.PossPx.Sg1@:%>%{ОЕЭØ%}м@U.PossPx.Sg1@  SecondaryDeclination ;
++PxSg2000@U.PossPx.Sg2@:%>%{ОЕЭØ%}тЬ2@U.PossPx.Sg2@  SecondaryDeclination ;
++Err/Sub+Dial+PxSg200@U.PossPx.Sg2@:%>%{ОЕЭØ%}нтЬ2@U.PossPx.Sg2@  SecondaryDeclination ;
++PxSg30000@U.PossPx.Sg3@:%>%{ОЕЭØ%}нзО1@U.PossPx.Sg3@  SecondaryDeclination ;
++PxPl10000@U.PossPx.Pl1@:%>%{ОЕЭØ%}нО1к@U.PossPx.Pl1@  SecondaryDeclination ;
++PxPl2000@U.PossPx.Pl2@:%>%{ОЕЭØ%}нк@U.PossPx.Pl2@  SecondaryDeclination ;
++PxPl3000@U.PossPx.Pl3@:%>%{ОЕЭØ%}ст@U.PossPx.Pl3@  SecondaryDeclination ;
++Err/Sub+Dial+PxPl300@U.PossPx.Pl3@:%>%{ОЕЭØ%}нст@U.PossPx.Pl3@  SecondaryDeclination ;
+
+
+
 LEXICON POSSX4-END-FOC-DER/PR-SC3
 !! These are possessor indices that can be followed by predicate marking
 !! in the present there is no destinction between ScSg3 and ScPl3
