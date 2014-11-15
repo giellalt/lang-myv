@@ -32,10 +32,15 @@ LEXICON N-KIN_ПАНГО
 LEXICON N-KIN_ТИНГЕ
 +N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_ТИНГЕ ;
  N-KIN ;
-
+LEXICON N-KIN_ВЕЛЕ_IS-КЕ-DIM
++N+Sem/Kin+Der/ке+Dimin+N@P.POS.N@:0000@P.POS.N@ N-KIN_ВЕЛЕ ;
+LEXICON N-KIN_ВЕЛЕ_IS-НЕ-DIM
++N+Sem/Kin+Der/НЕ+Dimin+N@P.POS.N@:0000@P.POS.N@ N-KIN_ВЕЛЕ ;
 LEXICON N-KIN_ВЕЛЕ
 +N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_КУДО ;
  N-KIN ;
+LEXICON N-KIN_ПИЗЭ_IS-НЕ-DIM
++N+Sem/Kin+Der/НЕ+Dimin+N@P.POS.N@:0000@P.POS.N@ N-KIN_ПИЗЭ ;
 LEXICON N-KIN_ПИЗЭ
 +N+Sem/Kin@P.POS.N@:000@P.POS.N@ NMN_КУДО ;
  N-KIN ;
@@ -305,11 +310,20 @@ LEXICON N_КИ
 +N@P.POS.N@:0@P.POS.N@ NMN_КИ ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Ы2не@P.POS.N@ NMN_КУДО ;
 
+LEXICON N_ВЕЛЕ_IS-КЕ-DIM
+!! Front vowel, non-palatal consonant before vowel
++N@P.POS.N@:0@P.POS.N@ NMN_КУДО ;
+LEXICON N_ВЕЛЕ_IS-НЕ-DIM
+!! Front vowel, non-palatal consonant before vowel
++N@P.POS.N@:0@P.POS.N@ NMN_КУДО ;
 LEXICON N_ВЕЛЕ
 !! Front vowel, non-palatal consonant before vowel
 +N@P.POS.N@:0@P.POS.N@ NMN_КУДО ;
 +N+Der/НЕ+Dimin+N@P.POS.N@:%>Ы2не@P.POS.N@ NMN_КУДО ;
 
+LEXICON N_ПИЗЭ_IS-НЕ-DIM
+!! Front vowel, non-palatal consonant before vowel
++N@P.POS.N@:0@P.POS.N@ NMN_КУДО ;
 LEXICON N_ПИЗЭ
 !! Front vowel, non-palatal consonant before vowel
 +N@P.POS.N@:0@P.POS.N@ NMN_КУДО ;

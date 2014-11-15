@@ -50,6 +50,11 @@ LEXICON PRON-INTERR-OBJ_МЕЗЕ-OBL
 +Prl:%>ва WORD-END ;
 +Tra:%>кс WORD-END ;
 
+LEXICON PRON-INTERR-OBJ_МЕЗЕ_IS-SG-NOM-DEF
++Pron+Interr+Sg+Nom+Def: WORD-END ;
+
+LEXICON PRON-INTERR-OBJ_МЕЗЕ_IS-TRA
++Pron+Interr+Tra:%>кс WORD-END ;
 
 LEXICON PRON-PERS-SG1 !! мон:мо
 +Pron+Pers+Sg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:000@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
@@ -79,7 +84,8 @@ LEXICON PRON-REFL_ЭСЬ !!= @CODE@ !!эсь:эсь
 +Pron+Refl+Prl:%>ка PossPX1 ; 
 +Pron+Refl+Prl+Prl:%>кава PossPX1 ; 
 
-
+LEXICON PRON-PERS-PL2_IS-INTENSIVE
++Pron+Pers+Pl2+Refl+Nom: WORD-END ;
 
 LEXICON PERS
 
