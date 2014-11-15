@@ -12,15 +12,13 @@ LEXICON K-lak
  K ;
 
 LEXICON K
-            WORD-END ; 
-+Foc/Гак:%>Г1ак WORD-END ;
+ FOC-PCLE-OR-NOT ;
 @R.POS.N@  NounEnd ; !2013-04-18
 @R.POS.V@  VerbEnd ; !2013-04-18
 
 LEXICON Ks
 +Err/Sub@R.KLOSS.ON@:%>ак@R.KLOSS.ON@ WORD-END ;
-+Foc/Гак:%>Г1ак WORD-END ;
-   WORD-END ; ! No clitics
+ FOC-PCLE-OR-NOT ;
 
 
 
@@ -49,6 +47,10 @@ LEXICON VerbEnd_K-lak
 LEXICON VerbEnd
  WORD-END ;
 +SerialVerb:%- verbs ;
+
+LEXICON FOC-PCLE-OR-NOT
+            WORD-END ; 
++Foc/Гак:%>Г1ак WORD-END ;
 
 
 

@@ -1109,17 +1109,14 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
       <l pos="Pron">мезекс</l>
 
       <stg>
-        <st Contlex="PRON_">мезекс</st>
+        <st Contlex="PRON-INTERR-OBJ_МЕЗЕ_IS-TRA">мезекс</st>
       </stg>
     </lg>
-
-    <pos>Pron_ADV</pos>
-
     <mg>
       <m>
         <head/>
@@ -1129,13 +1126,14 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Pron">how come</t>
+        <t pos="Pron">what for</t>
+        <t pos="Pron">for what purpose</t>
       </tg>
 
       <tg xml:lang="fin">
         <t pos="Pron">mihin tarkoitukseen</t>
 
-        <t pos="Pron">miksi</t>
+        <t pos="Pron">mitä varten</t>
       </tg>
 
       <xg>
@@ -1418,15 +1416,9 @@
       <l pos="Pron">мекс</l>
 
       <stg>
-        <st Contlex="PRON_">мекс</st>
+        <st Contlex="PRON-INTERR-OBJ_МЕЗЕ_IS-TRA">мӒ4кс</st>
       </stg>
     </lg>
-
-    <pos>Pron</pos>
-
-    <morphg>
-      <morph>.</morph>
-    </morphg>
 
     <etymg>
       <etym>-æ-</etym>
@@ -2326,11 +2318,14 @@
       </m>
 
       <tg xml:lang="eng">
-        <t pos="Pron"/>
+        <t pos="Pron">his</t>
+        <t pos="Pron">her</t>
+        <t pos="Pron">its</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron"/>
+        <t pos="Pron">hänen</t>
+        <t pos="Pron">sen</t>
       </tg>
 
     </mg>
@@ -2339,11 +2334,14 @@
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Pron"/>
+        <t pos="Pron">him</t>
+        <t pos="Pron">her</t>
+        <t pos="Pron">it</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron"/>
+        <t pos="Pron">hänet</t>
+        <t pos="Pron">sen</t>
       </tg>
 
     </mg>
@@ -2413,26 +2411,27 @@
     </mg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
       <l pos="Pron">тынсь</l>
 
       <stg>
-        <st Contlex="Pron-Pers">тынсь</st>
+        <st Contlex="PRON-PERS-PL2_IS-INTENSIVE">тынсь</st>
       </stg>
     </lg>
-
-    <pos>Pron-PERS-INTENSIVE</pos>
 
     <mg>
         <defNative/>
 
       <tg xml:lang="eng">
-        <t pos="Pron"/>
+        <t pos="Pron">you yourselves</t>
       </tg>
 
       <tg xml:lang="fin">
-        <t pos="Pron"/>
+        <t pos="Pron">te itse</t>
+      </tg>
+      <tg xml:lang="rus">
+        <t pos="Pron">вы самы</t>
       </tg>
     </mg>
   </e>
@@ -2507,6 +2506,35 @@
 
       <xg>
         <x>эсензэкс, эсензэсь.</x>
+
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l pos="Pron">мейсь</l>
+
+      <stg>
+        <st Contlex="PRON-INTERR-OBJ_МЕЗЕ_IS-SG-NOM-DEF">мӒ4йсь</st>
+      </stg>
+    </lg>
+
+    <mg>
+        <defNative>Кодамо тувтал?</defNative>
+
+      <tg xml:lang="eng">
+        <t pos="Pron">why</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="Pron">mistä syystä</t>
+        <t pos="Pron">miksi</t>
+      </tg>
+
+      <xg>
+        <x>Эзь чаркоде Маря, мейсь покордавсь авазо.</x>
 
         <xt/>
       </xg>
