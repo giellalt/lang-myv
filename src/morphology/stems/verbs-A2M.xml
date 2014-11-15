@@ -6966,15 +6966,11 @@
   <e>
     <lg>
       <l pos="V" val="IV">арамс</l>
-
+      <l_drv pos="V">арсемс</l_drv>
       <stg>
         <st Contlex="IV_КУНДАМС">ара</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">арсесь</morph>
-    </morphg>
 
     <sources>
       <book name="Olga01"/>
@@ -7818,10 +7814,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">арсемс</l>
+      <l hid="Hom1" pos="V" val="TV">арсемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">арсе</st>
+        <st Contlex="TV_КУНДАМС-ObjAll" hid="Hom1">арЬ3се</st>
       </stg>
     </lg>
 
@@ -7872,7 +7868,7 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">арсемс</l>
+      <l hid="Hom1" pos="V" val="IV">арсемс</l>
 
       <stg>
         <st Contlex="IV_КУНДАМС">арсе</st>
@@ -7934,6 +7930,33 @@
         <xt xml:lang="fin">mitä ajattelette?</xt>
       </xg>
     </mg>
+  </e>
+
+  <e>
+    <lg>
+      <l hid="Hom2" pos="V" val="IV">арсемс</l>
+      <l_drv pos="V">арамс</l_drv>
+      <stg>
+        <st Contlex="IV_КУНДАМС">арсе</st>
+      </stg>
+    </lg>
+
+    <sources>
+      <book name="Olga01"/>
+    </sources>
+
+    <mg>
+      <defNative>Аракшномс.</defNative>
+
+      <tg xml:lang="eng">
+        <t pos="V">move around</t>
+      </tg>
+
+      <tg xml:lang="fin">
+        <t pos="V">ajatella, miettiä</t>
+      </tg>
+    </mg>
+
   </e>
 
   <e>
@@ -60170,7 +60193,7 @@
       <l pos="V" val="TV">карсемс</l>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">карсе</st>
+        <st Contlex="TV_КУНДАМС-ObjAll">карЬ3се</st>
       </stg>
     </lg>
 
@@ -106219,19 +106242,11 @@
   <e>
     <lg>
       <l pos="V" val="IV">марсевемс</l>
-
+      <l_drv stem="марЬ3се" type="V">марсемс</l_drv>
       <stg>
-        <st Contlex="IV_САЕВЕМС">марсев</st>
+        <st Contlex="IV_САЕВЕМС">марЬ3сев</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">марсевсь</morph>
-
-      <morph type="V">марсевкшнесь</morph>
-
-      <morph type="V">марсевкшнемс</morph>
-    </morphg>
 
     <mg>
       <defNative>Улемс марязекс.</defNative>
@@ -106255,7 +106270,7 @@
       <l pos="V" val="IV">марсевкшнемс</l>
 
       <stg>
-        <st Contlex="IV_НЕКШНЕМС">марсевкшн</st>
+        <st Contlex="IV_НЕКШНЕМС">марЬ3севкшн</st>
       </stg>
     </lg>
 
@@ -106267,9 +106282,9 @@
   <e>
     <lg>
       <l pos="V" val="TV">марсекшнемс</l>
-
+      <l_drv stem="марЬ3се" type="V">марсемс</l_drv>
       <stg>
-        <st Contlex="TV_НЕКШНЕМС-ObjAll">марсекшн</st>
+        <st Contlex="TV_НЕКШНЕМС-ObjAll">марЬ3секшн</st>
       </stg>
     </lg>
 
@@ -106293,18 +106308,15 @@
   <e>
     <lg>
       <l pos="V" val="TV">марсемс</l>
+      <l_drv pos="V">марямс</l_drv>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">марсе</st>
+        <st Contlex="TV_КУНДАМС-ObjAll">марЬ3се</st>
       </stg>
     </lg>
 
     <morphg>
-      <morph type="V">марсесь</morph>
-
       <morph type="V">марсекшнесь; весть:</morph>
-
-      <morph type="V">марямс</morph>
     </morphg>
 
     <mg>
@@ -106323,7 +106335,7 @@
   <e>
     <lg>
       <l pos="V" val="TV">марчиявтомс</l>
-
+      <l_drv type="V">марчиямс</l_drv>
       <stg>
         <st Contlex="TV_САВТОМС-ObjAll">марчиявт</st>
       </stg>
@@ -106337,7 +106349,7 @@
   <e>
     <lg>
       <l pos="V" val="IV">марчиякшномс</l>
-
+      <l_drv type="V">марчиямс</l_drv>
       <stg>
         <st Contlex="IV_КУНДАМС">марчиякшно</st>
       </stg>
@@ -106351,7 +106363,7 @@
   <e>
     <lg>
       <l pos="V" val="IV">марчиямс</l>
-
+      <l_drv type="N">марч</l_drv>
       <stg>
         <st Contlex="IV_КУНДАМС">марчия</st>
       </stg>
@@ -106389,18 +106401,14 @@
   <e>
     <lg>
       <l pos="V" val="IV">марявкшномс</l>
-
+      <l_drv type="V">марявомс</l_drv>
       <stg>
         <st Contlex="IV_КУНДАМС">марявкшно</st>
       </stg>
     </lg>
 
     <morphg>
-      <morph type="V">марявкшнось</morph>
-
       <morph type="V">марявкшнось; весть:</morph>
-
-      <morph type="V">марявомс</morph>
     </morphg>
 
     <mg>
@@ -106412,7 +106420,7 @@
   <e>
     <lg>
       <l pos="V" val="IV">марявомс</l>
-
+      <l_drv type="V">марямс</l_drv>
       <stg>
         <st Contlex="IV_ЯНГАВОМС">маряв</st>
       </stg>
@@ -106631,6 +106639,7 @@
   <e>
     <lg>
       <l pos="V" val="IV">марямс</l>
+      <l_drv pos="V">марсемс</l_drv>
 
       <stg>
         <st Contlex="IV_КУНДАМС">маря</st>
@@ -111817,7 +111826,7 @@
       <l_drv pos="V">морямс</l_drv>
 
       <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">морьсе</st>
+        <st Contlex="TV_КУНДАМС-ObjAll">морЬ3се</st>
       </stg>
     </lg>
 
@@ -111828,10 +111837,10 @@
 
   <e>
     <lg>
-      <l pos="V" val="TV">морьсекшнемс</l>
+      <l pos="V" val="TV">морсекшнемс</l>
 
       <stg>
-        <st Contlex="TV_НЕКШНЕМС-ObjAll">морьсекшн</st>
+        <st Contlex="TV_НЕКШНЕМС-ObjAll">морЬ3секшн</st>
       </stg>
     </lg>
 
