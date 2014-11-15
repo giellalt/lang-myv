@@ -191,7 +191,7 @@
       <l pos="V">андомс-симдемс</l>
 
       <stg>
-        <st Contlex="V_">андомс-симдемс</st>
+        <st Contlex="V__PAIRS">андомс-симдемс</st>
       </stg>
     </lg>
 
@@ -7723,10 +7723,10 @@
 
   <e exclude="fst">
     <lg>
-      <l pos="Phrase_V">трямс-андомс</l>
+      <l pos="V">трямс-андомс</l>
 
       <stg>
-        <st Contlex="V_">трямс-андомс</st>
+        <st Contlex="V_PAIRS">трямс-андомс</st>
       </stg>
     </lg>
 
@@ -7734,6 +7734,12 @@
 
     <mg>
         <defNative/>
+      <tg xml:lang="eng">
+        <t pos="V">raise</t>
+      </tg>
+      <tg xml:lang="fin">
+        <t pos="V">kasvattaa</t>
+      </tg>
 
       <tg xml:lang="rus">
         <t pos="V">выкармливать</t>
@@ -9192,16 +9198,14 @@
     </lg>
   </e>
 
-  <e exclude="fst">
+  <e>
     <lg>
-      <l pos="V" val="IV">ярсамс-сидемс</l>
+      <l pos="V" val="IV">ярсамс-симемс</l>
 
       <stg>
-        <st Contlex="v">ярсамс-сидемсFIX</st>
+        <st Contlex="V_PAIRS">ярсамс-симемс</st>
       </stg>
     </lg>
-
-    <pos>V</pos>
 
     <mg>
         <defNative/>
