@@ -55754,6 +55754,7 @@
 
       <stg>
         <st Contlex="IV_САЕВЕМС">симдев</st>
+        <st Contlex="IV_ЯНГАВОМС" status="Err/Sub">симдяв</st>
       </stg>
     </lg>
 
@@ -55798,16 +55799,9 @@
 
       <stg>
         <st Contlex="TV_НЕКШНЕМС-ObjAll">симдекшн</st>
+        <st Contlex="TV_КУНДАМС-ObjAll" status="Err/Sub">симдякшно</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">симдекшнесь</morph>
-
-      <morph type="V">симдекшнекшнесь</morph>
-
-      <morph type="V">симдекшнекшнемс</morph>
-    </morphg>
 
     <mg>
       <defNative>Макснемс симнемс.</defNative>
@@ -55830,16 +55824,9 @@
 
       <stg>
         <st Contlex="TV_ЛЕДЕМС-ObjAll">симдь</st>
+        <st Contlex="TV_КУНДАМС-ObjAll" status="Err/Sub">симдя</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="V">симдсь</morph>
-
-      <morph type="V">симдекшнесь</morph>
-
-      <morph type="V">симдекшнемс</morph>
-    </morphg>
 
     <sources>
       <book name="Olga01"/>
@@ -55865,12 +55852,12 @@
     </mg>
   </e>
 
-  <e>
+  <e exclude="fst">
     <lg>
-      <l pos="V" val="IV">симдемс-андомс</l>
+      <l pos="V" val="TV">симдемс-андомс</l>
 
       <stg>
-        <st Contlex="V_КАДОМС">симдемс-анд</st>
+        <st Contlex="TV_КАДОМС-ObjAll">симдемс-анд</st>
       </stg>
     </lg>
 
@@ -55907,69 +55894,16 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">симдявкшномс</l>
+      <l pos="V" val="IV">симдевкшнемс</l>
 
       <stg>
-        <st Contlex="IV_КУНДАМС">симдявкшно</st>
+        <st Contlex="IV_НЕКШНЕМС">симдевкшне</st>
+        <st Contlex="IV_КУНДАМС" status="Err/Sub">симдявкшно</st>
       </stg>
     </lg>
 
     <mg>
       <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="IV">симдявомс</l>
-
-      <stg>
-        <st Contlex="IV_ЯНГАВОМС">симдяв</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Telic</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">симдякшномс</l>
-
-      <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">симдякшно</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Dial+Verb</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="V" val="TV">симдямс</l>
-
-      <stg>
-        <st Contlex="TV_КУНДАМС-ObjAll">симдя</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Dial+Verb</tags>
-        </head>
-      </m>
     </mg>
   </e>
 
