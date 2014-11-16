@@ -461,6 +461,12 @@ ZERO
 !! Compounding
 +Cmp !!≈ * _@CODE@_ Dynamic compound - this tag should always be part of a dynamic compound.
      !! It is important for Apertium, and useful in other cases as well.
++Hyph/Coll !!≈ * _@CODE@_ with nouns
++Hyph/Redup !!≈ * _@CODE@_ with verbs
++Hyph/Synonym !!≈ * _@CODE@_ with verbs
++Hyph/Serial !!≈ * _@CODE@_ with verbs
++Hyph/теемс !!≈ * _@CODE@_ with verbs
+
 
 !! !!Tags
 +Emphatic
@@ -518,6 +524,9 @@ ZERO
 @U.PRED.YES@
 @C.PRED@
 
+!! Flags used with transitivity
+@U.TRANS.TV@
+@U.TRANS.IV@
 !! Flags used with serial verbs
 ! INF = Infinitive
 @U.CONJ-INF.YES@
@@ -800,6 +809,9 @@ TESTINGTESTING ;
  quantifiers    ;
  verbs-A2M          ;
  verbs-N2END          ;
+
+Hyphenated-nouns ; !!≈ * _@CODE@_ entire serial nouns
+Hyphenated-verbs ; !!≈ * _@CODE@_ entire serial verbs
 
 A_NEWWORDS ;
 A-Russian-like_NEWWORDS ;

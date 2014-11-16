@@ -397,6 +397,12 @@ Development tag
 Compounding
  * _+Cmp_ Dynamic compound - this tag should always be part of a dynamic compound.
 It is important for Apertium, and useful in other cases as well.
+ * _+Hyph/Coll_ with nouns
+ * _+Hyph/Redup_ with verbs
+ * _+Hyph/Synonym_ with verbs
+ * _+Hyph/Serial_ with verbs
+ * _+Hyph/теемс_ with verbs
+
 
 !!Tags
  * _+Pref_ Prefix
@@ -437,6 +443,7 @@ Flags used to identify parts of speech
 
 Flags used with +Der/Pr nonverbal predication
 
+Flags used with transitivity
 Flags used with serial verbs
 
 
@@ -498,6 +505,9 @@ Removal
 The word forms in ERZYA start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
+
+ * _Hyphenated-nouns ;_ entire serial nouns
+ * _Hyphenated-verbs ;_ entire serial verbs
 
 
 CyrillicFemaleName ;
