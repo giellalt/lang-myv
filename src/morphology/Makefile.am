@@ -23,6 +23,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/abbr.lexc			          \
 			stems/acro.lexc			          \
 			stems/punct.lexc	              \
+			compounding.lexc              \
 			affixes/clitics.lexc              \
 			stems/exceptions.lexc 	          \
 			stems/adjectives_newwords.lexc 	      \
