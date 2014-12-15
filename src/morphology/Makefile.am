@@ -32,6 +32,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/adjectives-russian-like_newwords.lexc \
 			stems/adverbs_newwords.lexc 	      \
 			stems/nouns_newwords.lexc 	      \
+			stems/propernouns_newwords.lexc 	      \
 			stems/verbs_newwords.lexc 	      \
 			stems/rusMaleNameDer.lexc	      \
 			affixes/adjectives.lexc           \
