@@ -13,12 +13,12 @@ LEXICON V_PAIRS
 LEXICON V-AUX-NEG-CONJ !! аволь:а 
 +V+Aux+Neg@P.CONJ.ObjAll@:%>%{ОЕЭØ%}00@P.CONJ.ObjAll@  ConjPers-withO-all ;
 
-LEXICON V-AUX-NEG-PRT1 !!= @CODE@ эзь:эзь
+LEXICON V-AUX-NEG-PRT1 !!= __@CODE@__ эзь:эзь
 +V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
 +V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-30_ZERO ;
 +V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-60_Т ;
 
-LEXICON TV_ЛЕДЕМС-ObjAll_SUB
+LEXICON TV_ЛЕДЕМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_ЛЕДЕМС-ObjAll ;
 LEXICON TV_ЛЕДЕМС-ObjAll
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_ЛЕДЕМС ;
@@ -26,21 +26,21 @@ LEXICON TV_ЛЕДЕМС-ObjAll
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕВТЕМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_САЕВЕМС ;
 
-LEXICON TV_КАДОМС-ObjAll_SUB
+LEXICON TV_КАДОМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_КАДОМС-ObjAll ;
 
-LEXICON TV_КАДОМС-ObjAll
+LEXICON TV_КАДОМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_КАДОМС ;
 +V+TV+Der/ОкшнОмс+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_КУНДАМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_ЯНГАВОМС ;
 
 ! This should not occur
-!LEXICON TV_САЕВЕМС-ObjAll
+!LEXICON TV_САЕВЕМС-ObjAll 
 ! +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_САЕВЕМС ;
 
 
-LEXICON TV_НЕВТЕМС-ObjAll_SUB
+LEXICON TV_НЕВТЕМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_НЕВТЕМС-ObjAll ;
 
 LEXICON TV_НЕВТЕМС-ObjAll  !!≈ * _@CODE@_  невтемс:невть
@@ -49,35 +49,35 @@ LEXICON TV_НЕВТЕМС-ObjAll  !!≈ * _@CODE@_  невтемс:невть
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕВТЕМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_САЕВЕМС ;
 
-LEXICON TV_САВТОМС-ObjAll_SUB
+LEXICON TV_САВТОМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_САВТОМС-ObjAll ;
 
-LEXICON TV_САВТОМС-ObjAll
+LEXICON TV_САВТОМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
 +V+TV+Der/ОкшнОмс+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_КУНДАМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_ЯНГАВОМС ;
 
-LEXICON TV_САВТОМС-SG3_SUBJ/ZERO
+LEXICON TV_САВТОМС-SG3_SUBJ/ZERO !!= __@CODE@__ 
 +V+TV+Subj/Zero@P.CONJ.ObjAll@@U.TRANS.TV@:000@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС-SG3 ;
 
 
-LEXICON TV_ЧАЧТОМС-ObjAll_SUB
+LEXICON TV_ЧАЧТОМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_ЧАЧТОМС-ObjAll ;
 
-LEXICON TV_ЧАЧТОМС-ObjAll
+LEXICON TV_ЧАЧТОМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_ЧАЧТОМС ;
 +V+TV+Der/ОкшнОмс000@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_КУНДАМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_ЯНГАВОМС ;
 
-!LEXICON TV_ЯНГАВОМС-ObjAll
+!LEXICON TV_ЯНГАВОМС-ObjAll !!= __@CODE@__ 
 ! +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_ЯНГАВОМС ;
 
-LEXICON TV_КУНДАМС-ObjAll_SUB
+LEXICON TV_КУНДАМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_КУНДАМС-ObjAll ;
 
-LEXICON TV_КУНДАМС-ObjAll
+LEXICON TV_КУНДАМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_КУНДАМС ;
 +V+TV+Der/ОкшнОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:кшно0@P.CONJ.ObjAll@@U.TRANS.TV@ V_КУНДАМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
@@ -95,10 +95,10 @@ LEXICON TV_КУНДАКШНОМС-ObjAll
 
 ! This actually does exist in a pair verb
 ! таргатомс
-LEXICON TV_САТОМС-ObjAll_SUB
+LEXICON TV_САТОМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_САТОМС-ObjAll ;
 
-LEXICON TV_САТОМС-ObjAll
+LEXICON TV_САТОМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_САТОМС ;
 
 ! This should not exist by definition
@@ -106,29 +106,29 @@ LEXICON TV_САТОМС-ObjAll
 !LEXICON TV_ЛЕТЕМС-ObjAll
 ! +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_ЛЕТЕМС ;
 
-LEXICON TV_УЕМС-ObjAll_SUB
+LEXICON TV_УЕМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_УЕМС-ObjAll ;
 
-LEXICON TV_УЕМС-ObjAll
+LEXICON TV_УЕМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_УЕМС ;
 +V+TV+Der/ОкшнОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕКШНЕМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕВТЕМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_САЕВЕМС ;
 
-LEXICON TV_ТУЕМС-ObjAll_SUB
+LEXICON TV_ТУЕМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_ТУЕМС-ObjAll ;
 
-LEXICON TV_ТУЕМС-ObjAll
+LEXICON TV_ТУЕМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ Indicative_Present_Obj ;
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_ТУЕМС ;
 +V+TV+Der/ОкшнОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕКШНЕМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕВТЕМС ;
 +V+TV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_САЕВЕМС ;
 
-LEXICON TV_ТЕЕМС-ObjAll_SUB
+LEXICON TV_ТЕЕМС-ObjAll_SUB !!= __@CODE@__ 
 +Err/Sub: TV_ТЕЕМС-ObjAll ;
 
-LEXICON TV_ТЕЕМС-ObjAll
+LEXICON TV_ТЕЕМС-ObjAll !!= __@CODE@__ 
 +V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:00@P.CONJ.ObjAll@@U.TRANS.TV@ V_ТЕЕМС ;
 +V+TV+Der/ОкшнОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕКШНЕМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕВТЕМС ;
