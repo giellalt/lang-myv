@@ -23,6 +23,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/abbr.lexc			          \
 			stems/acro.lexc			          \
 			stems/punct.lexc	              \
+			stems/numerals.lexc	              \
 			compounding.lexc              \
 			affixes/clitics.lexc              \
 			stems/exceptions.lexc 	          \
@@ -33,6 +34,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/adverbs_newwords.lexc 	      \
 			stems/nouns_newwords.lexc 	      \
 			stems/propernouns_newwords.lexc 	      \
+			stems/punct.lexc      \
 			stems/verbs_newwords.lexc 	      \
 			stems/rusMaleNameDer.lexc	      \
 			affixes/adjectives.lexc           \
