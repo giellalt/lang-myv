@@ -96,7 +96,7 @@ LEXICON Roman-numerals
 
 !! !Now regular
 LEXICON NUM_КАЛ_SUB
-+Err/Sub: NUM_КАЛ ;
++Err/Orth: NUM_КАЛ ;
 
 LEXICON NUM_КАЛ
 +Num+Card: WORD-END ;
@@ -122,7 +122,7 @@ LEXICON NUMORD_КАЛ
 +Der/тькс+A+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_ОШ_SUB
-+Err/Sub: NUM_ОШ ;
++Err/Orth: NUM_ОШ ;
 
 LEXICON NUM_ОШ
 +Num+Card: WORD-END ;
@@ -147,7 +147,7 @@ LEXICON NUMORD_ОШ
 +Der/тькс+A+Ord+Der/MWN:%>О1тькс N_ОШ ;
 
 LEXICON NUM_СЯДО_SUB
-+Err/Sub: NUM_СЯДО ;
++Err/Orth: NUM_СЯДО ;
 
 LEXICON NUM_СЯДО
 +Num+Card:%>О1 WORD-END ;
@@ -172,7 +172,7 @@ LEXICON NUMORD_СЯДО
 +Der/тькс+A+Ord+Der/MWN:%>тькс N_ОШ ;
 
 LEXICON NUM_КУДО_SUB
-+Err/Sub: NUM_КУДО ;
++Err/Orth: NUM_КУДО ;
 
 ! More work needed 2012-10-08
 LEXICON NUM_КУДО
@@ -209,7 +209,7 @@ LEXICON IS-NUM-ORD-COLL
 
 LEXICON IS-NUM-CARD-ASSOCCOLL_КАВОНЕ
 +Num+AssocColl: PossPX1 ;
-+Err/Sub+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
++Err/Orth+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
@@ -235,7 +235,7 @@ LEXICON IS-QNT-ITER
 +Qnt+Iter: K ;
 
 LEXICON ITER_SUB
-+Err/Sub: ITER_ ;
++Err/Orth: ITER_ ;
 
 LEXICON ITER_
 +Qnt+Iter: K ;
@@ -483,7 +483,7 @@ LEXICON Quants3
 +Pl+Ine+Def:%>тнЕ3%>сэ _КУДО-Attributes2 ; 
 +Pl+Ela+Def:%>тнЕ3%>стэ _КУДО-Attributes2 ;
 +Pl+CompCx+Def:%>тнЕ3%>шка _КУДО-Attributes2 ; 
-+Err/Sub@R.TLOSS.ON@:@R.TLOSS.ON@ Quants3_TLOSS ;
++Err/Orth@R.TLOSS.ON@:@R.TLOSS.ON@ Quants3_TLOSS ;
 
 LEXICON Quants3_TLOSS
 +Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ _КУДО-Tenses1 ;
