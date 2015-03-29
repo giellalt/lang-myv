@@ -71,10 +71,10 @@ LEXICON ARABICLOOP   !!= * __@CODE@__
  % %/+Use/Circ:% %/ ARABIC ; ! 24 /12
 
  ,%-+Num+Use/Circ:,%- # ; ! 10,-
- ,%-+Num+Err/Sub+Use/Circ:.%- # ; ! 10.- It is wrong, but written.
+ ,%-+Num+Err/Orth+Use/Circ:.%- # ; ! 10.- It is wrong, but written.
 
-  % %-+Err/Sub+Use/Circ:% %- ARABICDELIMITER; ! 1 - multipart numbers - "1 -:s"?
-  % %-%-+Err/Sub+Use/Circ:% %-%- ARABICDELIMITER; ! 1 -- multipart numbers
+  % %-+Err/Orth+Use/Circ:% %- ARABICDELIMITER; ! 1 - multipart numbers - "1 -:s"?
+  % %-%-+Err/Orth+Use/Circ:% %-%- ARABICDELIMITER; ! 1 -- multipart numbers
   %%+Use/Circ:%%  ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
   % %%+Use/Circ:% %%  ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
   ARABICDELIMITER ; ! list of number-case delimiters
