@@ -19,6 +19,8 @@ Alphabet
 Ӓ3:э  !!= * __@CODE@__ эрямс:Ӓ3ря 
 Ӓ4:е  !!= * __@CODE@__ пелемс:пӒ4ль
 
+%^Ь2ZERO:0  !!= * __@CODE@__ removes stem-final soft sign
+
 !Suffix final variant vowel for hard vs soft
 !Ь2:ь !
 Ь2:0 !
@@ -464,7 +466,11 @@ Rules
 
 "y:0"
 !! __@RULENAME@__  
-ь:0 <=>    CnsDent  _  %> [ А2:я | Ы2: | %{ОЕЭØ%}:е | О1:е ];
+ь:0 <=> Cns _ %^Ь2ZERO: ;
+!!кель+N+Sg+Gen+Def: __language__
+!€# кель%^Ь2ZERO%>енть
+!€0 кел000енть
+     CnsDent  _  %> [ А2:я | Ы2: | %{ОЕЭØ%}:е | О1:е ];
               CnsDentNoL _ %> [в:0 т О1:е м [О1:е|О1:0] | К1: | Н1:н | н | д: | ц е: [ #: | %- | %> ] | т | с (т) [ ь: | е: ]] ;
 
 
