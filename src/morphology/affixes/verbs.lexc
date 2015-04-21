@@ -561,10 +561,17 @@ LEXICON IV_САЕВЕМС_SUB
 LEXICON IV_САЕВЕМС
 +V+IV@U.TRANS.IV@:00@U.TRANS.IV@ V_САЕВЕМС ;
 +V+IV+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_НЕКШНЕМС ;
++V+IV+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>кшн0@U.TRANS.IV@ V_НЕКШНЕМС ;
+
+LEXICON IV_ПОТАЗЕВЕМС
++V+IV@U.TRANS.IV@:00@U.TRANS.IV@ V_САЕВЕМС ;
++V+IV+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>кшн0@U.TRANS.IV@ V_НЕКШНЕМС ;
++V+IV+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_НЕКШНЕМС ;
 
 LEXICON IV_ЯНГАВОМС
 +V+IV@U.TRANS.IV@:00@U.TRANS.IV@ V_ЯНГАВОМС ;
 +V+IV+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
++V+IV+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>кшно@U.TRANS.IV@ V_КУНДАМС ;
 
 LEXICON IV_КУНДАМС_SUB
 +Err/Orth: IV_КУНДАМС ;
@@ -627,6 +634,7 @@ LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_FRONT
 +Der/ОвтОмс+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_НЕВТЕМС ;
 +Der/ОвтОмс+Der/немс+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:втне@P.CONJ.ObjAll@@P.TRANS.TV@ V_ПИДЕМС ;
 +Der/ОвОмс+V+IV@P.TRANS.IV@:в00@P.TRANS.IV@ V_САЕВЕМС ;
++Der/ОвОмс+Der/ОкшнОмс+V+IV@P.TRANS.IV@:вкшн@P.TRANS.IV@ V_НЕКШНЕМС ;
 +Der/Озевемс+V+IV@P.TRANS.IV@:зев00@P.TRANS.IV@ V_САЕВЕМС ;
 +Der/Озевемс+Der/ОкшнОмс+V+IV@P.TRANS.IV@:зевкшн@P.TRANS.IV@ V_НЕКШНЕМС ;
 +Der/Озевемс+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевть@P.CONJ.ObjAll@@P.TRANS.TV@ V_НЕВТЕМС ;
@@ -638,9 +646,10 @@ LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_BACK
 +Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
 +Der/ОвтОмс+Der/немс+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:втне@P.CONJ.ObjAll@@P.TRANS.TV@ V_ПИДЕМС ;
 +Der/ОвОмс+V+IV@P.TRANS.IV@:в00@P.TRANS.IV@ V_ЯНГАВОМС ;
-+Der/Озевемс+V+IV@P.TRANS.IV@:зев00@P.TRANS.IV@ V_САЕВЕМС ;
-+Der/Озевемс+Der/ОкшнОмс+V+IV@P.TRANS.IV@:зевкшн@P.TRANS.IV@ V_НЕКШНЕМС ;
-+Der/Озевемс+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевть@P.CONJ.ObjAll@@P.TRANS.TV@ V_НЕВТЕМС ;
++Der/ОвОмс+Der/ОкшнОмс+V+IV0@P.TRANS.IV@:вкшно@P.TRANS.IV@ V_КУНДАМС ;
++Der/Озевемс+V+IV@P.TRANS.IV@:зев@P.TRANS.IV@ V_САЕВЕМС ;
++Der/Озевемс+Der/ОкшнОмс+V+IV00@P.TRANS.IV@:зевкшн@P.TRANS.IV@ V_НЕКШНЕМС ;
++Der/Озевемс+Der/ОвтОмс+V+TV0@P.CONJ.ObjAll@@P.TRANS.TV@:зевть@P.CONJ.ObjAll@@P.TRANS.TV@ V_НЕВТЕМС ;
 +Der/Озевемс+Der/ОвтОмс+Der/немс+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевтне@P.CONJ.ObjAll@@P.TRANS.TV@ V_ПИДЕМС ;
 
 !LEXICON DERIVE-V2V-WITHOUT-ONSET-VOWEL
