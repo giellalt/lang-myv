@@ -20,23 +20,23 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-			stems/abbr.lexc			          \
-			stems/acro.lexc			          \
-			stems/punct.lexc	              \
-			stems/numerals.lexc	              \
-			compounding.lexc              \
+			stems/abbreviations.lexc          \
+			stems/acronyms.lexc               \
+			stems/punctuation.lexc            \
+			stems/numerals.lexc               \
+			compounding.lexc                  \
 			affixes/clitics.lexc              \
-			stems/exceptions.lexc 	          \
-			stems/hyphenated-nouns.lexc 	          \
-			stems/hyphenated-verbs.lexc 	          \
-			stems/adjectives_newwords.lexc 	      \
+			stems/exceptions.lexc             \
+			stems/hyphenated-nouns.lexc       \
+			stems/hyphenated-verbs.lexc       \
+			stems/adjectives_newwords.lexc    \
 			stems/adjectives-russian-like_newwords.lexc \
-			stems/adverbs_newwords.lexc 	      \
-			stems/nouns_newwords.lexc 	      \
-			stems/propernouns_newwords.lexc 	      \
-			stems/punct.lexc      \
-			stems/verbs_newwords.lexc 	      \
-			stems/rusMaleNameDer.lexc	      \
+			stems/adverbs_newwords.lexc       \
+			stems/nouns_newwords.lexc         \
+			stems/propernouns_newwords.lexc   \
+			stems/punct.lexc                  \
+			stems/verbs_newwords.lexc         \
+			stems/rusMaleNameDer.lexc         \
 			affixes/adjectives.lexc           \
 			affixes/adpositions.lexc          \
 			affixes/adverbs.lexc              \
