@@ -69,38 +69,40 @@ GT_LEXC_L2_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 		generated_files/urj-Cyrl-propernouns.lexc \
-		$(srcdir)/stems/adjectives.lexc         \
-		$(srcdir)/stems/adpositions.lexc        \
-		$(srcdir)/stems/adverbs.lexc            \
+		$(srcdir)/stems/A_myv2x.lexc         \
+		$(srcdir)/stems/Adp_myv2x.lexc        \
+		$(srcdir)/stems/Adv_myv2x.lexc            \
 		$(srcdir)/stems/bahuvrihis.lexc         \
 		$(srcdir)/stems/conjunctors.lexc        \
-		$(srcdir)/stems/demonstratives.lexc     \
-		$(srcdir)/stems/interjections.lexc      \
-		$(srcdir)/stems/nouns.lexc              \
+		$(srcdir)/stems/Descr_myv2x.lexc     \
+		$(srcdir)/stems/Det_myv2x.lexc     \
+		$(srcdir)/stems/Interj_myv2x.lexc      \
+		$(srcdir)/stems/N_myv2x.lexc              \
 		$(srcdir)/stems/noun-deverbal.lexc      \
-		$(srcdir)/stems/participles.lexc        \
-		$(srcdir)/stems/particles.lexc          \
-		$(srcdir)/stems/pronouns.lexc           \
-		$(srcdir)/stems/propernouns.lexc        \
+		$(srcdir)/stems/Prc_myv2x.lexc        \
+		$(srcdir)/stems/Pcle_myv2x.lexc          \
+		$(srcdir)/stems/Pron_myv2x.lexc           \
+		$(srcdir)/stems/N_Prop_myv2x.lexc        \
 		$(srcdir)/stems/quantifiers.lexc        \
 		$(srcdir)/stems/verbs-A2M.lexc          \
 		$(srcdir)/stems/verbs-N2END.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		stems/adjectives.xml      \
-		stems/adpositions.xml     \
-		stems/adverbs.xml         \
+		stems/A_myv2x.xml      \
+		stems/Adp_myv2x.xml     \
+		stems/Adv_myv2x.xml         \
 		stems/bahuvrihis.xml      \
 		stems/conjunctors.xml     \
-		stems/demonstratives.xml  \
-		stems/interjections.xml   \
-		stems/nouns.xml           \
+		stems/Descr_myv2x.xml  \
+		stems/Det_myv2x.xml  \
+		stems/Interj_myv2x.xml   \
+		stems/N_myv2x.xml           \
 		stems/noun-deverbal.xml   \
-		stems/participles.xml     \
-		stems/particles.xml   	  \
-		stems/propernouns.xml     \
-		stems/pronouns.xml        \
+		stems/Prc_myv2x.xml     \
+		stems/Pcle_myv2x.xml   	  \
+		stems/N_Prop_myv2x.xml     \
+		stems/Pron_myv2x.xml        \
 		stems/quantifiers.xml     \
 		stems/verbs-A2M.xml       \
 		stems/verbs-N2END.xml
