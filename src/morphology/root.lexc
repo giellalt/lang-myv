@@ -34,6 +34,7 @@ Multichar_Symbols
  +Adv 	 !!≈ * _@CODE@_ adverb
  +CS 	 !!≈ * _@CODE@_ subordinating conjunction
  +CC 	 !!≈ * _@CODE@_ coordinating conjunction
+ +Descr  !!≈ * _@CODE@_ descriptive
  +Interj !!≈ * _@CODE@_ interjection
  +N 	 !!≈ * _@CODE@_ noun
  +Pcle 	 !!≈ * _@CODE@_ particle
@@ -1026,21 +1027,23 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 TESTINGTESTING ;
 
- adjectives     ;
- adpositions  ;
- adverbs        ;
+
+ A_myv2x     ;
+ Adp_myv2x  ;
+ Adv_myv2x        ;
  bahuvrihis     ;
  conjunctors   ;
- demonstratives ;
- interjections  ;
+ Descr_myv2x    ;
+ Det_myv2x ;
+ Interj_myv2x  ;
  noun-deverbal  ;
- nouns          ;
+ N_myv2x          ;
  numerals       ;
  Punctuation    ;
- propernouns    ;
- participles    ;
- particles      ;
- pronouns       ;
+ N_Prop_myv2x    ;
+ Prc_myv2x    ;
+ Pcle_myv2x      ;
+ Pron_myv2x       ;
  quantifiers    ;
  verbs-A2M          ;
  verbs-N2END          ;
@@ -1087,7 +1090,7 @@ LEXICON verbs
 
 LEXICON R
 #;
-%- nouns ;
+%- N_myv2x ;
 
 LEXICON BAHUV_КАЛ
 +Bahuvrihi: A_КАЛ ;
@@ -1214,6 +1217,10 @@ LEXICON TESTCOMP
 
 +CmpTest: WORD-END ;
 
+
+LEXICON DESCR_
+!! увол-авол
++Descr: # ;
 
 !!!
 !formerly Spatials_4cx
