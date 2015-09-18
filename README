@@ -11,10 +11,11 @@ AUTHORS file are available to grant other licencing choices.
 Installation and compilation, and a short note on usage, is documented in the
 file INSTALL.
 
-Documentation is scattered around on giellateknos pages, e.g.:
+Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
 
 * http://giellatekno.uit.no/myvdoc/index.html
 * http://giellatekno.uit.no/doc/tools/docu-myv-manual.html
+* http://divvun.no/doc/index.html
 
 This is a test
 
@@ -25,8 +26,8 @@ In order to compile and use Erzya language morphology and dictionaries,
 you need:
 
 * Xerox Finite-State Morphology tools, or
-
-* Helsinki Finite-State Technology library and tools, version 3.8 or newer
+* Helsinki Finite-State Technology library and tools, version 3.8 or newer, or
+* Foma finite-state tool
 
 Optionally:
 
@@ -35,7 +36,7 @@ Optionally:
 Downloading
 -----------
 
-The Erzya language sources can be acquired using `giellatekno SVN
+The Erzya language sources can be acquired using `giella SVN
 repository <http://divvun.no/doc/infra/anonymous-svn.html>`_, from the
 language specific directory, after the core has been downloaded and initial
 setup has been performed.
@@ -61,9 +62,10 @@ If you would rather install in e.g. your home directory
         ./configure --prefix=$HOME
 
 If you are checking out the development versions from SVN you must first create
-and install the necessary autotools files from the host system:
+and install the necessary autotools files from the host system, and check that
+your environment is correctly set up. This is done by doing:
 
-  autoreconf -i
+  ./autogen.sh
 
 It is common practice to keep `generated files out of version control
 <http://www.gnu.org/software/automake/manual/automake.html#CVS>`_.
@@ -82,7 +84,9 @@ procedure:
 	(as root) make install
 
 This will keep all the generated files within the build/ dir, and keep the src/
-dir (mostly) free of generated files.
+dir (mostly) free of generated files. If you are building from the development
+version in SVN, you must run the ./autogen.sh script BEFORE you take the steps
+above.
 
 For further installation instruction refer to file ``INSTALL``, which contains
 the standard installation instructions for GNU autoconf based software.
