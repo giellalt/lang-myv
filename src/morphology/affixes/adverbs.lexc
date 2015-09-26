@@ -71,6 +71,19 @@ LEXICON ADV-SPAT_ !!= @CODE@ пачк
 LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
 +Adv+Spat+Prl: K ;
 
+LEXICON ADV/PO/PRON-SPAT_АЛО !!= @CODE@ ало:ал
+ ADV-SPAT_АЛО ;
++Po+Spat+Abl:%>дО1 K ;
++Po+Spat+Loc:%>О1 K ;
++Po+Spat+Prl:%>Г2а K ;
++Po+Spat+Lat:%>%{ОЕЭØ%}в K ;
++Pron+Spat+Abl:%>дО1 POSSX4-END-FOC-DER/PR-SC3 ;
++Pron+Spat+Loc:%>О1 POSSX4-END-FOC-DER/PR-SC3 ;
++Pron+Spat+Prl:%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
++Pron+Spat+Lat:%>О1 POSSX4-END-FOC-DER/PR-SC3 ;
+
+
+
 LEXICON ADV-SPAT_АЛО !!= @CODE@ ало:ал
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
@@ -78,6 +91,19 @@ LEXICON ADV-SPAT_АЛО !!= @CODE@ ало:ал
 +Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
 +Adv+Spat+Der/кс:%>кс N_ОШ ;
 +Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
+
+
+LEXICON ADV/PO/PRON-SPAT_
+!! relative space __мельга__
++Adv+Spat: K ;
++Po+Spat: K ;
++Pron+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
+
+LEXICON PO/PRON-SPAT_
+!! relative space __мельга__
++Po+Spat: K ;
++Pron+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
+
 
 
 LEXICON Adv_Phrase ! 

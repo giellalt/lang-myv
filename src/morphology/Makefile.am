@@ -73,6 +73,7 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/Adv_myv2x.lexc            \
 		$(srcdir)/stems/Adv_Ideoph_myv2x.lexc     \
+		$(srcdir)/stems/Adv_Spat_myv2x.lexc     \
 		$(srcdir)/stems/bahuvrihis.lexc         \
 		$(srcdir)/stems/conjunctors.lexc        \
 		$(srcdir)/stems/Det_myv2x.lexc     \
@@ -93,6 +94,7 @@ GT_XML_SRCS=\
 		stems/Adp_myv2x.xml     \
 		stems/Adv_myv2x.xml         \
 		stems/Adv_Ideoph_myv2x.xml  \
+		stems/Adv_Spat_myv2x.xml  \
 		stems/bahuvrihis.xml      \
 		stems/conjunctors.xml     \
 		stems/Det_myv2x.xml  \
