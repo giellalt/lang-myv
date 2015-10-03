@@ -646,7 +646,7 @@ Multichar_Symbols
 !
 
 !! !!!MISC
-  +Hyph  !!≈ * _@CODE@_ A tag to indicate that a hyphen was used when compounding
+  +Cmp/Hyph  !!≈ * _@CODE@_ A tag to indicate that a hyphen was used when compounding
 
 
 !! Development tag
@@ -669,11 +669,11 @@ ZERO
 !! Compounding
 +Cmp !!≈ * _@CODE@_ Dynamic compound - this tag should always be part of a dynamic compound.
      !! It is important for Apertium, and useful in other cases as well.
-+Hyph/Coll !!≈ * _@CODE@_ with nouns
-+Hyph/Redup !!≈ * _@CODE@_ with verbs
-+Hyph/Synonym !!≈ * _@CODE@_ with verbs
-+Hyph/Serial !!≈ * _@CODE@_ with verbs
-+Hyph/теемс !!≈ * _@CODE@_ with verbs
++Cmp/Hyph/Coll !!≈ * _@CODE@_ with nouns
++Cmp/Hyph/Redup !!≈ * _@CODE@_ with verbs
++Cmp/Hyph/Synonym !!≈ * _@CODE@_ with verbs
++Cmp/Hyph/Serial !!≈ * _@CODE@_ with verbs
++Cmp/Hyph/теемс !!≈ * _@CODE@_ with verbs
 
 
 !! !!Tags
