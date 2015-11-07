@@ -74,6 +74,14 @@ LIST EOS = (<<<) (</s>);
 # Tags declared as single-membered LISTs 
 # ======================================
 
+#!! Upper and lower case
+LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
+LIST Lower = "<[а-яё]+>"r ;
+
+# We can define sets for common tag clusters
+LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Noun Plural
+
+
 #!! * Sets for parts of speech
 # ---------------
 
@@ -127,9 +135,13 @@ LIST NomAg = NomAg ;
 LIST G3 = G3 ;
 LIST Prop = Prop ;
 
+LIST SCONJ = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
+LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
+
 #!! * Sets for Semantic tags
 # -------------
 
+LIST Ant = Ant ;
 LIST Ani = Ani ;
 LIST Fem = Fem ;
 LIST Mal = Mal ;
@@ -177,6 +189,9 @@ LIST SgNomCmp = SgNomCmp ;
 LIST SgGenCmp = SgGenCmp ;
 
 LIST ShCmp = ShCmp ;
+
+LIST Def = Def ;
+LIST Indef = Indef ;
 
 LIST PxSg1 = PxSg1 ;
 LIST PxSg2 = PxSg2 ;
@@ -282,6 +297,8 @@ LIST Der/Pr = Der/Pr ;
 
 LIST <vdic> = <vdic> ;
 
+LIST MARTO = "марто" ;
+
 #2013-05-22
 
 
@@ -312,4 +329,27 @@ SECTION
 
 REMOVE Der/MWN ; # If any other reading is possible.
 
+# If there is a singular noun to the right, I cannot be a verb or noun.
+REMOVE N OR V IF (1 N + Sg) ;
+
+# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
+SELECT $$Case IF (1 CC LINK 1C $$Case) ;
+
+REMOVE IV IF (0 OCONJ) ;
+
+#REMOVE Gen IF (0 Nom OR Gen) ; # argh fix!
+SELECT Gen IF (1 Po) ;
+
+SELECT Interj IF (0 Upper) (1 COMMA) ;
+
+# Select the proper noun reading if the current word can be
+# a proper noun or a noun, and if it is in upper case, 
+# and the previous word is only in lower case
+SELECT Prop IF (0 Prop OR N) (0 Upper) (-1 Lower) ;
+
+# Ваня марто Марят has a correlating conjunction марто
+SELECT CC IF (0 CC) (-1 Ant + Sg + Nom ) (1 Ant + Pl + Nom ) ;
+
+# Select the postposition марто when it is preceded by genitive definite 
+SELECT Po IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
 
