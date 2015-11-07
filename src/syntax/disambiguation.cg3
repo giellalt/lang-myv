@@ -113,6 +113,7 @@ SET PUNCT = PPUNCT - QMARK ;
 
 LIST COMMA = "," ;
 LIST ¶ = ¶;
+LIST HYPHEN = "-" ;
 
 #LIST V* = V* ;
 
@@ -329,11 +330,14 @@ SECTION
 
 REMOVE Der/MWN ; # If any other reading is possible.
 
-# If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE N OR V IF (1 N + Sg) ;
-
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 CC LINK 1C $$Case) ;
+
+#Ваня марто Марят 
+SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;
+
+#Ванят-Марят 
+SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ;
 
 REMOVE IV IF (0 OCONJ) ;
 
@@ -348,7 +352,7 @@ SELECT Interj IF (0 Upper) (1 COMMA) ;
 # Select the proper noun reading if the current word can be
 # a proper noun or a noun, and if it is in upper case, 
 # and the previous word is only in lower case
-SELECT Prop IF (0 Prop OR N OR V) (0 Upper) (-1 Lower) ;
+SELECT Prop IF (0 Prop) (0 Upper) (-1 Lower OR COMMA) ;
 
 # Ваня марто Марят has a correlating conjunction марто
 SELECT CC IF (0 CC) (-1 Ant + Sg + Nom ) (1 Ant + Pl + Nom ) ;
