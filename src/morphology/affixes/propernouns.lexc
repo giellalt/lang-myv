@@ -79,16 +79,16 @@ LEXICON Deriv-RUS-ИН_SURMAL
 
 
 LEXICON PROP_КАЛ_SURMAL
-+N+Prop+Sem/Sur+Sem/Mal: N_КАЛ-Derivation ;
-+N+Prop+Sem/Sur+Sem/Mal: N_КАЛ-Def-Declension ;
-+N+Prop+Sem/Sur+Sem/Mal: _КАЛ-Indef-Declension ;
-+N+Prop+Sem/Sur+Sem/Mal: N_КАЛ-Poss-Declension-CX ;
++Sem/Sur_Mal+N+Prop: N_КАЛ-Derivation ;
++Sem/Sur_Mal+N+Prop: N_КАЛ-Def-Declension ;
++Sem/Sur_Mal+N+Prop: _КАЛ-Indef-Declension ;
++Sem/Sur_Mal+N+Prop: N_КАЛ-Poss-Declension-CX ;
 
 LEXICON PROP_КУДО_SURFEM
-+N+Prop+Sem/Sur+Sem/Fem: N_КУДО-Derivation ;
-+N+Prop+Sem/Sur+Sem/Fem: NMN_DEF-DECLENSION ;
-+N+Prop+Sem/Sur+Sem/Fem: _КУДО-Indef-Declension ;
-+N+Prop+Sem/Sur+Sem/Fem: N_КУДО-Poss-Declension-CX ;
++Sem/Sur_Fem+N+Prop: N_КУДО-Derivation ;
++Sem/Sur_Fem+N+Prop: NMN_DEF-DECLENSION ;
++Sem/Sur_Fem+N+Prop: _КУДО-Indef-Declension ;
++Sem/Sur_Fem+N+Prop: N_КУДО-Poss-Declension-CX ;
 
 LEXICON CYRL-CONS_SUR
  PROP_КАЛ_SUR ;
@@ -316,17 +316,17 @@ LEXICON PROP_КУДО
 
 
 LEXICON PROP_КАЛ_MAL
-+N+Prop+Sem/Mal: NMN_КАЛ ;
++Sem/Ant_Mal+N+Prop: NMN_КАЛ ;
 
 LEXICON PROP_ЛАК_MAL
-+N+Prop+Sem/Mal: NMN_ЛАК ;
++Sem/Ant_Mal+N+Prop: NMN_ЛАК ;
 
 LEXICON PROP_КИТ_MAL
-+N+Prop+Sem/Mal: NMN_КИТ ;
++Sem/Ant_Mal+N+Prop: NMN_КИТ ;
 +N+Prop+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_ОШ_MAL
-+N+Prop+Sem/Mal: NMN_ОШ ;
++Sem/Ant_Mal+N+Prop: NMN_ОШ ;
 
 LEXICON PROP_ТЕШТЕ_MAL
  PROP_ПАНГО_MAL ;
@@ -335,23 +335,23 @@ LEXICON PROP_ТИНГЕ_MAL
  PROP_ПАНГО_MAL ;
 
 LEXICON PROP_ПАНГО_MAL
-+N+Prop+Sem/Mal: NMN_ПАНГО ;
++Sem/Ant_Mal+N+Prop: NMN_ПАНГО ;
 
 LEXICON PROP_КУДО_MAL
-+N+Prop+Sem/Mal: NMN_КУДО ;
++Sem/Ant_Mal+N+Prop: NMN_КУДО ;
 
 LEXICON PROP_КАЛ_FEM
-+N+Prop+Sem/Fem: NMN_КАЛ ;
++Sem/Ant_Fem+N+Prop: NMN_КАЛ ;
 
 LEXICON PROP_ЛАК_FEM
-+N+Prop+Sem/Fem: NMN_ЛАК ;
++Sem/Ant_Fem+N+Prop: NMN_ЛАК ;
 
 LEXICON PROP_КИТ_FEM
-+N+Prop+Sem/Fem: NMN_КИТ ;
-+N+Prop+Sem/Fem+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Sem/Ant_Fem+N+Prop: NMN_КИТ ;
++Sem/Ant_Fem+N+Prop+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_ОШ_FEM
-+N+Prop+Sem/Fem: NMN_ОШ ;
++Sem/Ant_Fem+N+Prop: NMN_ОШ ;
 
 LEXICON PROP_ТЕШТЕ_FEM
  PROP_ПАНГО_FEM ;
@@ -360,23 +360,23 @@ LEXICON PROP_ТИНГЕ_FEM
  PROP_ПАНГО_FEM ;
 
 LEXICON PROP_ПАНГО_FEM
-+N+Prop+Sem/Fem: NMN_ПАНГО ;
++Sem/Ant_Fem+N+Prop: NMN_ПАНГО ;
 
 LEXICON PROP_КУДО_FEM
-+N+Prop+Sem/Fem: NMN_КУДО ;
++Sem/Ant_Fem+N+Prop: NMN_КУДО ;
 
 
 LEXICON PROP_ОШ_PATRMAL
-+N+Prop+Sem/Patr+Sem/Mal: N_ОШ-Derivation ;
-+N+Prop+Sem/Patr+Sem/Mal: N_ОШ-Def-Declension ;
-+N+Prop+Sem/Patr+Sem/Mal: _ОШ-Indef-Declension ;
-+N+Prop+Sem/Patr+Sem/Mal: N_ОШ-Poss-Declension-CX ;
++Sem/Patr_Mal+N+Prop: N_ОШ-Derivation ;
++Sem/Patr_Mal+N+Prop: N_ОШ-Def-Declension ;
++Sem/Patr_Mal+N+Prop: _ОШ-Indef-Declension ;
++Sem/Patr_Mal+N+Prop: N_ОШ-Poss-Declension-CX ;
 
 LEXICON PROP_КУДО_PATRFEM
-+N+Prop+Sem/Patr+Sem/Fem: N_КУДО-Derivation ;
-+N+Prop+Sem/Patr+Sem/Fem: NMN_DEF-DECLENSION ;
-+N+Prop+Sem/Patr+Sem/Fem: _КУДО-Indef-Declension ;
-+N+Prop+Sem/Patr+Sem/Fem: N_КУДО-Poss-Declension-CX ;
++Sem/Patr_Fem+N+Prop: N_КУДО-Derivation ;
++Sem/Patr_Fem+N+Prop: NMN_DEF-DECLENSION ;
++Sem/Patr_Fem+N+Prop: _КУДО-Indef-Declension ;
++Sem/Patr_Fem+N+Prop: N_КУДО-Poss-Declension-CX ;
 
 !! DECLENSION LIMITATIONS
 
