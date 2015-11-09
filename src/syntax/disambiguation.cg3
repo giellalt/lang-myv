@@ -78,6 +78,8 @@ LIST EOS = (<<<) (</s>);
 LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
 LIST Lower = "<[а-яё]+>"r ;
 
+LIST Dial = Dial ;
+
 # We can define sets for common tag clusters
 LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Noun Plural
 
@@ -329,6 +331,7 @@ SECTION
 
 
 REMOVE Der/MWN ; # If any other reading is possible.
+#REMOVE Dial ; # If any other reading is possible.
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 CC LINK 1C $$Case) ;
