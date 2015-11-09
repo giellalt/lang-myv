@@ -10,13 +10,13 @@
 ! ============================= !
 
 LEXICON PRON-PERS-DAT
-+Pers+DAT: POSSX4-END-DAT ;
++Pron+Pers+Dat: POSSX4-END-DAT ;
 
 LEXICON Dat-NoArg
-+Pers+DAT: POSSX4-END-DAT ;
+Pron+Pers+Dat: POSSX4-END-DAT ;
 
 LEXICON Ill-Pron
-+Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Pron+Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PRON-INTERR-HUM_КИ !!Interr-Pers
 +Pron+Interr+Pers+Sem/Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
@@ -56,8 +56,8 @@ LEXICON PRON-INTERR-OBJ_МЕЗЕ_IS-PL-NOM-INDEF
 LEXICON PRON-INTERR-OBJ_МЕЗЕ_IS-SG-NOM-DEF
 +Pron+Interr+Sg+Nom+Def: WORD-END ;
 
-LEXICON PRON-INTERR-OBJ_МЕЗЕ_IS-TRA
-+Pron+Interr+Tra:%>кс WORD-END ;
+LEXICON ADV-INTERR-OBJ_МЕЗЕ_IS-TRA
++Adv+Interr+Tra:%>кс WORD-END ;
 
 LEXICON PRON-PERS-SG1 !! мон:мо
 +Pron+Pers+Sg1@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:000@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;

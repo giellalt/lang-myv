@@ -355,7 +355,12 @@ SELECT Interj IF (0 Upper) (1 Comma) ;
 # Select the proper noun reading if the current word can be
 # a proper noun or a noun, and if it is in upper case, 
 # and the previous word is only in lower case
-SELECT Prop IF (0 Prop) (0 Upper) (-1 Lower OR Comma) ;
+SELECT Prop IF (0 Prop) (0 Upper) (-1 Lower) ;
+SELECT Prop IF (0 Prop) (0 Upper) (-1 Comma) ;
+
+# Истя Марянь..
+SELECT Prop IF (0 Prop + Upper) (-1C Adv) ;
+
 
 # Ваня марто Марят has a correlating conjunction марто
 SELECT CC IF (0 CC) (-1 Sem/Ant + Sg + Nom ) (1 Sem/Ant + Pl + Nom ) ;
