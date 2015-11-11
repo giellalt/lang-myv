@@ -432,14 +432,6 @@ LEXICON PRON-IS-INDEF-SPAT-LAT !! What should be done
 LEXICON PRON-IS-INDEF-SPAT-PRL !! What should be done 
 +Pron+Indef+Spat+Prl: # ;
 
-LEXICON PRON-IS-INTERR-ADJ_КОДАМО !! кодамо:кода
-+Pron+Interr+Dep:мо # ;
-+Po+Interr+Der/MWN:м N_ПАНГО-Def-Declension ;
-+Po+Interr+Der/MWN:м _ПАНГО-Indef-Declension ;
-+Po+Interr+Der/MWN:мо N_ПАНГО-Poss-Declension-CX ;
-+Po+Interr+Der/MWN: NMN_DEF-PL-DECLENSION-ТНЭ ;
-
-
 LEXICON	PRON-IS-INTERR-MANNER !! кода:кода
 +Pron+Interr+Manner: #  ;
 
@@ -447,12 +439,12 @@ LEXICON	PRON-IS-INTERR-PERS !! ки:ки
 +Pron+Interr+Pers+Sg+Nom:е #  ;
 +Pron+Interr+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
 
-LEXICON PRON-IS-INTERR-SEL !! кона:кона
+LEXICON DET-INTERR !! кона:кона
 !! This is not the same as indefinite
 !! PronRel-kona
-+Pron+Interr+Sel: NMN_DEF-DECLENSION ;
-+Pron+Interr+Sel: _КУДО-Indef-Declension ;
-+Pron+Interr+Sel: N_КУДО-Poss-Declension-CX ;
++Det+Interr: NMN_DEF-DECLENSION ;
++Det+Interr: _КУДО-Indef-Declension ;
++Det+Interr: N_КУДО-Poss-Declension-CX ;
 
 LEXICON PRON-IS-INTERR-SPAT-ELA !! What should be done 
 +Pron+Interr+Spat+Ela: # ;
