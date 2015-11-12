@@ -166,10 +166,10 @@ LEXICON NUM_СЯДО
 +Num+Card+Appr+Iter:О1%>шкаксть Ks ;
 
 LEXICON NUMORD_СЯДО
-+Der/це+A+Ord:%>це WORD-END ;
-+Der/це+A+Ord+Der/MWN:%>це N_КУДО ;
-+Der/тькс+A+Ord:%>тькс WORD-END ;
-+Der/тькс+A+Ord+Der/MWN:%>тькс N_ОШ ;
++Der/це+Det+Ord:%>це WORD-END ;
++Der/це+Det+Ord+Der/MWN:%>це N_КУДО ;
++Der/тькс+Det+Ord:%>тькс WORD-END ;
++Der/тькс+Det+Ord+Der/MWN:%>тькс N_ОШ ;
 
 LEXICON NUM_КУДО_SUB
 +Err/Orth: NUM_КУДО ;
@@ -259,38 +259,38 @@ LEXICON ADV-ORD
 !! васняяк 'first of all'
 
 LEXICON QNT_
-+Qnt: K ;
++Det+Qnt: K ;
 
 LEXICON QNT_ЛАМО
-+Qnt+AssocColl:%>не _КУДО-Possessive-Before-K ;
++Det+Qnt+AssocColl:%>не _КУДО-Possessive-Before-K ;
  QNT_КУДО ;
 
 LEXICON QNT_КУДО
-+Qnt: K ;
-+Qnt+Der/MWN: N_КУДО ;
-+Qnt: DER/PR4_OBL-SC3 ; ! ламольть
++Det+Qnt: K ;
++Det+Qnt+Der/MWN: N_КУДО ;
++Det+Qnt: DER/PR4_OBL-SC3 ; ! ламольть
 
 LEXICON QNT-ADN
-+Qnt+Adn: WORD-END ;
++Det+Qnt+Adn: WORD-END ;
 
 LEXICON QNT-DISTR
-+Qnt+Distr: K ;
++Det+Qnt+Distr: K ;
 
 LEXICON QNT-INDEF
-+Qnt+Indef: K ;
++Det+Qnt+Indef: K ;
 
 LEXICON QNT_ВЕСЕМЕ
-+Qnt+Adn: WORD-END ;
-+Qnt+Pron@P.POS.PRON@:00@P.POS.PRON@ _КУДО-Indef-Declension-SG ;
++Det+Qnt+Adn: WORD-END ;
++Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ _КУДО-Indef-Declension-SG ;
 
-+Qnt+Pron@P.POS.PRON@:00@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
++Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
 
-+Qnt+Pron@P.POS.PRON@:00@P.POS.PRON@ SG-NOM-PX ;
-+Qnt+Pron@P.POS.PRON@:00@P.POS.PRON@ SG-GEN-PX ;
++Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ SG-NOM-PX ;
++Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ SG-GEN-PX ;
 
-+Qnt+Pron+Sg+Abl+PxPl2:%>дО1%>нк K ;
-+Qnt+Pron+Sg+Abl+PxPl3:%>дО1%>ст K ;
-+Qnt+Pron+Sg+Ela+PxPl3:%>стО1%>ст K ;
++Pron+Qnt+Sg+Abl+PxPl2:%>дО1%>нк K ;
++Pron+Qnt+Sg+Abl+PxPl3:%>дО1%>ст K ;
++Pron+Qnt+Sg+Ela+PxPl3:%>стО1%>ст K ;
 
 
 LEXICON _КУДО-NUM
@@ -306,20 +306,20 @@ LEXICON sjado-NUM-PL
 
 
 LEXICON Cards-kal
-+Num+Ord:%>це Quants3 ;
++Det+Ord:%>це Quants3 ;
  Quants2 ;
 +Num+Card: WORD-END ;
 +Num+Card+Der/MWN: N_КАЛ ;
 
 LEXICON CARDS_ОШ
-+Num+Ord:%>О1це Quants3 ;
++Det+Ord:%>О1це Quants3 ;
  Quants2 ;
 +Num+Card: WORD-END ;
 +Num+Card+Der/MWN: N_ОШ ;
 
 
 LEXICON CARDS_КУДО
-+Num+Ord:%>це Quants3 ;
++Det+Ord:%>це Quants3 ;
  Quants2 ;
 +Num+Card: WORD-END ;
 +Num+Card+Der/MWN: N_КУДО ;
