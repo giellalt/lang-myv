@@ -117024,6 +117024,7 @@
       <l pos="V" val="IV">шишкавтомс</l>
 
       <stg>
+        <st Contlex="TV_САВТОМС-ObjAll">шишкавт</st>
         <st Contlex="TV_САВТОМС-ObjAll" status="Err/Orth">шишкафт</st>
       </stg>
     </lg>
@@ -118966,7 +118967,7 @@
     <mg>
       <defNative>Мушкосто эли лиясто-мезестэ пельдемс суре. Штердемась свал
       ютавтови штере эли пряха вельде. Штердемс штересэ. Штердемс пряхасо.
-      Штердемс пона суре, мушко, лияназ. «Пряха» валось рузонь.</defNative>
+      «Пряха» валось рузонь.</defNative>
 
       <tg xml:lang="fin">
         <t pos="V" val="IV">kehrätä</t>
@@ -118980,33 +118981,48 @@
 
   <e>
     <lg>
-      <l pos="V" val="IV">штердтнемс</l>
+      <l pos="V" val="TV">штердемс</l>
 
       <stg>
-        <st Contlex="IV_ЭЖНЕМС">штердтне</st>
+        <st Contlex="TV_ЛЕДЕМС-ObjAll">штердь</st>
       </stg>
     </lg>
 
+    <morphg>
+      <morph type="V">штердсь</morph>
+
+      <morph type="V">штердекшнесь</morph>
+
+      <morph type="V">штердекшнемс</morph>
+    </morphg>
+
     <mg>
-      <defNative/>
+      <defNative>Мушкосто эли лиясто-мезестэ пельдемс суре. Штердемась свал
+      ютавтови штере эли пряха вельде.
+      Штердемс пона суре, мушко, лияназ. «Пряха» валось рузонь.</defNative>
+
+      <tg xml:lang="fin">
+        <t pos="V" val="TV">kehrätä</t>
+      </tg>
+
+      <tg xml:lang="rus">
+        <t pos="V" val="TV">прясть</t>
+      </tg>
     </mg>
   </e>
 
   <e>
     <lg>
-      <l pos="V" val="IV">штертнемс</l>
+      <l pos="V" val="IV">штердтнемс</l>
 
       <stg>
-        <st Contlex="IV_ЭЖНЕМС">штертне</st>
+        <st Contlex="IV_ЭЖНЕМС">штердтне</st>
+        <st Contlex="IV_ЭЖНЕМС" status="Err/Orth">штертне</st>
       </stg>
     </lg>
 
     <mg>
-      <m>
-        <head>
-          <tags>+Orth/Phon</tags>
-        </head>
-      </m>
+      <defNative/>
     </mg>
   </e>
 

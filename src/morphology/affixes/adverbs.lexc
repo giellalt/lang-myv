@@ -93,12 +93,24 @@ LEXICON ADV-SPAT_АЛО !!= @CODE@ ало:ал
 +Adv+Spat+Der/кс:%>кс N_ОШ ;
 +Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
 
+LEXICON ADV-SPAT_каршо
++Adv+Spat: K ;
++Adv+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
++Adv+Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+
+LEXICON ADV_КИСЭ
++Adv+Ine: POSSX4-END-FOC-DER/PR-SC3 ;
+
+LEXICON PO-SPAT_каршо
++Po+Spat: K ;
+
 
 LEXICON ADV/PO/PRON-SPAT_
 !! relative space __мельга__
 +Adv+Spat: K ;
 +Po+Spat: K ;
-+Pron+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
++Adv+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
+
 
 LEXICON PO/PRON-SPAT_
 !! relative space __мельга__
