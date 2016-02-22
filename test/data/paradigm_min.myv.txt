@@ -9,15 +9,15 @@
 # $Id: paradigm_min.sme.txt 42879 2011-05-25 19:59:08Z trond $
 #
 	
-N+Sg+Nom
-N+Sg+Gen
-N+Sg+Ill
+N+Sg+Nom+Definiteness
+N+Sg+Gen+Definiteness
+N+Sg+Abl
 N+Pl+Gen
 N+ACR+Number?+Case?
 A+Attr+Number?+Case?
 A+Sg+Nom
 A+Sg+Gen
-A+Sg+Ill
+A+Sg+Abl
 A+Pl+Gen
 A+Ord+Number?+Case?
 V+Inf
@@ -33,7 +33,7 @@ V+Neg+Ind+Pl3
 Adv+Grade?
 Num+Sg+Nom
 Num+Sg+Gen
-Num+Sg+Ill
+Num+Sg+Abl
 Num+Pl+Gen
 Num+Attr
 Pron+Indef+Attr?
@@ -47,7 +47,7 @@ Pron+Subclass?+Pl+Acc
 Pron+Refl+Nom+PxSg1
 Pron+Refl+Gen+PxSg1
 Pron+Refl+Acc+PxSg1
-Pron+Refl+Ill+PxSg1
+Pron+Refl+Abl+PxSg1
 Pron+Subclass?+Number?+Person-Number+Nom
 Pron+Subclass?+Number?+Person-Number+Gen
 Pron+Subclass?+Number?+Person-Number+Acc
