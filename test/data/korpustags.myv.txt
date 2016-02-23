@@ -1,6 +1,6 @@
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 %                                                                              %
-%    List of morphological and syntactic tags used in the South Sámi corpus    %
+%    List of morphological and syntactic tags used in the Erzya corpus    %
 %                                                                              %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
 
@@ -41,19 +41,19 @@
 % The name of these boxes are now legible, rather than the tags (tags in parentheses?)
 % Noun: N
 % Subtype: -|Prop|Prop Attr|Actio|Actor|ACR|ABBR
-% Derivation: -|Der/Dimin|Der/amoš|Der/eaddji|Der/eamoš|Der/eapmi|Der/easti|Der/muš|Der/n|Der/supmi|Der/upmi|Der/vuohta
-% Number: Sg|Pl
-% Case: Nom|Gen|Acc|Ill|Ine|Ela|Com|Ess
-% Possessive: -|PxSg1|PxSg2|PxSg3|PxDu1|PxDu2|PxDu3|PxPl1|PxPl2|PxPl3
+% Derivation: -|Der/Dimin|Der/MWN|Der/amoš|Der/eaddji|Der/eamoš|Der/eapmi|Der/easti|Der/muš|Der/n|Der/supmi|Der/upmi|Der/vuohta
+% Number: Sg|Pl|SP
+% Case: Nom|Gen|Acc|Abl|Abe|CompCx|DatCx|Ill|Ine|Ela|Lat|Loc|Prl|Tra|Com|Temp
+% Possessive: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
 % Semantic: Ani|Fem|Mal|Obj|Org|Plc|Sur|Tit
 % Clitic: -|Qst|Foc
 % Function:
 
 % Adjective: A
 % Subtype: -|Attr
-% Number: Sg|Pl
+% Number: Sg|Pl|SP
 % Case: Nom|Gen|Acc|Ill|Loc|Com|Ess
-% Possessive: -|PxSg1|PxSg2|PxSg3|PxDu1|PxDu2|PxDu3|PxPl1|PxPl2|PxPl3
+% Possessive: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
 % Clitic: -|Qst|Foc
 % Function:
 
@@ -61,31 +61,32 @@
 % Transitivity: TV|IV
 % Type: -|ConNeg|Neg
 % Derivation: -|Actio|Der/Pass|Der/adda|Der/ahtti|Der/alla|Der/asti|Der/d|Der/goahti|Der/h|Der/halla|Der/huhtti|Der/huvva|Der/j|Der/l|Der/st|Der/stuvva
-% Case: -|Nom|Gen|Acc|Ill|Loc|Com|Ess
+% Case: -|Nom|Gen|Acc|Ill|Ela|Ine|Loc|Prl|Tra
 % Infinite: Inf|PrfPrc|PrsPrc|Ger|Sup|VGen|VAbess|Actio
-% Finite mood: Ind|Pot|Cond|Imprt|ImprtII
-% PersonNumber: Sg1|Sg2|Sg3|Du1|Du2|Du3|Pl1|Pl2|Pl3
+% Finite mood: Ind|Cond|Conj|Des|Imprt|Opt
+% PersonNumber: Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
 % Clitic: -|Qst|Foc
 % Function:
 
 % Adverb: Adv
-% Number: Sg|Pl
+% Number: Sg|Pl|SP
 % Case: Nom|Gen|Acc|Ill|Loc|Com|Ess
+% PX: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
 % Clitic: -|Qst|Foc
 % Function:
 
 % Pronoun: Pron
 % Subtype: Pers|Dem|Interr|Refl|Recipr|Rel|Indef|Logo
 % Subtype: -|Attr
-% Number: Sg|Du|Pl
-% PersonNumber: Sg1|Sg2|Sg3|Du1|Du2|Du3|Pl1|Pl2|Pl3
+% Number: Sg|Pl
+% PersonNumber: Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
 % Case: Nom|Gen|Acc|Ill|Ine|Ela|Com|Ess
-% PX: -|PxSg1|PxSg2|PxSg3|PxDu1|PxDu2|PxDu3|PxPl1|PxPl2|PxPl3
+% PX: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
 % Clitic: -|Qst|Foc
 % Function:
 
 % Postposition: Po
-% Possessive: -|PxSg1|PxSg2|PxSg3|PxDu1|PxDu2|PxDu3|PxPl1|PxPl2|PxPl3
+% Possessive: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
 % Clitic: -|Qst|Foc
 % Function:
 
@@ -142,7 +143,7 @@ Ord	Ordinal
 
 Sg	Singular
 Pl	Plural
-Du	Dual
+SP	Singular or Plural
 #Number
 
 Nom	Nominative
@@ -187,14 +188,16 @@ PlGenCmp
 #Compound
 
 Prs	Present Tense
-Prt	Preterite Tense
+PrtI	First Preterite Tense
+PrtII	Second Preterite Tense
 #Tense
 
 Cond	Conditional
-Opt	Optative
+Conj	Conjunctional
 Des	Desiderative
 Imprt	Imperative
 Ind	Indicative
+Opt	Optative
 #Mood
 
 +ScSg1	1. Person Singular
@@ -306,44 +309,58 @@ Range Range
 #Syntax
 
 +Der/Dimin	+Der/Dimin
-+Der/Pass	+Der/Pass
-+Der/adda	+Der/adda
-+Der/ahkes	+Der/ahkes
-+Der/ahtes	+Der/ahtes
-+Der/ahtes	+Der/ahtes
-+Der/ahtte	+Der/ahtte
-+Der/alla	+Der/alla
-+Der/asste	+Der/asste
-+Der/d	+Der/d
-+Der/dahka	+Der/dahka
-+Der/dahtte	+Der/dahtte
-+Der/dalla	+Der/dalla
-+Der/dasste	+Der/dasste
-+Der/dibme	+Der/dibme
-+Der/duhtte	+Der/duhtte
-+Der/duvva	+Der/duvva
-+Der/gielak	+Der/gielak
-+Der/goahte	+Der/goahte
-+Der/ibme	+Der/ibme
-+Der/k	+Der/k
-+Der/l	+Der/l
-+Der/ladda	+Der/ladda
-+Der/lahtte	+Der/lahtte
-+Der/lasj	+Der/lasj
-+Der/lasste	+Der/lasste
-+Der/lis	+Der/lis
-+Der/lágán	+Der/lágán
-+Der/lágásj	+Der/lágásj
-+Der/m	+Der/m
-+Der/mus	+Der/mus
-+Der/r	+Der/r
-+Der/st	+Der/st
-+Der/stahtte	+Der/stahtte
-+Der/stalla	+Der/stalla
-+Der/stasste	+Der/stasste
-+Der/u/a/åd	+Der/u/a/åd
-+Der/vuohta	+Der/vuohta
-+Der/vuohta	+Der/vuohta
++Der/A	+Der/A
++Der/N2A	+Der/N2A
++Der/V2A	+Der/V2A
++Der/ВтОмО	+Der/ВтОмО
++Der/шка	+Der/шка
++Der/Онь	+Der/Онь
++Der/ай		+Der/ай
++Der/кай	+Der/кай
++Der/Овт	+Der/Овт
++Der/Омс	+Der/Омс
++Der/ОмО	+Der/ОмО
++Der/ОмстО	+Der/ОмстО
++Der/ОмсО	+Der/ОмсО
++Der/ОмдО	+Der/ОмдО
++Der/Омга	+Der/Омга
++Der/Ома	+Der/Ома
++Der/Омка	+Der/Омка
++Der/Ыця	+Der/Ыця
++Der/Ы		+Der/Ы
++Der/Ый		+Der/Ый
++Der/Озь	+Der/Озь
++Der/Ындеря	+Der/Ындеря
++Der/пель	+Der/пель
++Der/MWN	+Der/MWN
++Der/Cop	+Der/Cop
++Der/Гак	+Der/Гак
++Der/кой	+Der/кой
++Der/та		+Der/та
++Der/таго	+Der/таго
++Der/бути	+Der/бути
++Der/Ыя		+Der/Ыя
++Der/чи		+Der/чи
++Der/ОмА	+Der/ОмА
++Der/це		+Der/це
++Der/тькс	+Der/тькс
++Der/кшнО	+Der/кшнО
++Der/ОкшнОмс	+Der/ОкшнОмс
++Der/ОвОмс	+Der/ОвОмс
++Der/ОвтОмс	+Der/ОвтОмс
++Der/Озевемс	+Der/Озевемс
++Der/се		+Der/се
++Der/не		+Der/не
++Der/немс	+Der/немс
++Der/ка		+Der/ка
++Der/НЕ		+Der/НЕ
++Der/нЕ		+Der/нЕ
++Der/Ыне	+Der/Ыне
++Der/Ынька	+Der/Ынька
++Der/Ынькине	+Der/Ынькине
++Der/ке		+Der/ке
++Der/кине	+Der/кине
++Dimin		+Dimin
 #Derivation
 
 
