@@ -933,10 +933,31 @@ LEXICON CondVerbs
 +Der/Ындеря+Cond+V:%>Ы2ндеря   Deverbals-kundams ;
 
 LEXICON VerbsPresPrc_1
-+Der/Ыця+ActDemPrc:%>Ы2ця A_КУДО ;
-+Der/Ый+ActPrcLong:%>Ы2й A_КАЛ ;
-+Der/Ы+ActPrcShort:%>Ы2 A_КУДО ;
-+Der/Ы+ActPrcShort+Der/кс:%>Ы2кс A_ОШ ;
++Der/Ыця+Act+DemPrc:%>Ы2ця K ;
++Der/Ыця+Act+DemPrc+Sg:%>Ы2ця K ;
++Der/Ыця+Act+DemPrc+Pl:%>Ы2ця%>тЬ2 K ;
++Der/Ыця+Act+DemPrc+Der/MWN:%>Ы2ця N_КУДО ;
+
++Der/Ый+Act+PrsPrc:%>Ы2й K ;
++Der/Ый+Act+PrsPrc+Sg:%>Ы2й K ;
++Der/Ый+Act+PrsPrc+Pl:%>Ы2й%>тЬ2 K ;
++Der/Ый+Act+PrsPrc+Der/MWN:%>Ы2й N_КАЛ ;
++Der/Ый+Act+PrsPrc:%>Ы2й N2Dem-SE ;
+
++Der/Ы+Act+PrsPrc:%>Ы2 K ;
++Der/Ы+Act+PrsPrc+Sg:%>Ы2 K ;
++Der/Ы+Act+PrsPrc+Pl:%>Ы2%>тЬ2 K ;
++Der/Ы+Act+PrsPrc+Der/MWN:%>Ы2 N_КУДО ;
++Der/Ы+Act+PrsPrc:%>Ы2 N2Dem-SE ;
+
++Der/Ы+Act+PrsPrc+Der/кс:%>Ы2кс K ;
++Der/Ы+Act+PrsPrc+Der/кс+Sg:%>Ы2кс K ;
++Der/Ы+Act+PrsPrc+Der/кс+Pl:%>Ы2кс%>тЬ2 K ;
++Der/Ы+Act+PrsPrc+Der/кс+Der/MWN:%>Ы2кс N_ОШ ;
++Der/Ы+Act+PrsPrc+Der/кс:%>Ы2кс N2Dem-SE ;
++Der/Ы+Act+PrsPrc+Der/кс:%>Ы2ксэ N2Dem-SE ;
+
+
 
 LEXICON Deverbals-kadoms ! kadoms
 @U.CONJ-INF.YES@ Deverbals_mutual ;
@@ -975,7 +996,13 @@ LEXICON Deverbals_mutual
 
 
 LEXICON ActDemPrc
-+ActDemPrc+Der/V2A: NMN_КУДО ;
+!! This is fed by actors and participles in N_myv, A_myv and Prc_myv
++Act+DemPrc+Der/V2A: NMN_КУДО ;
+!+Der/Ыця+Act+DemPrc:%>Ы2ця K ;
+!+Der/Ыця+Act+DemPrc+Sg:%>Ы2ця K ;
+!+Der/Ыця+Act+DemPrc+Pl:%>Ы2ця%>тЬ2 K ;
+!+Der/Ыця+Act+DemPrc+Der/MWN:%>Ы2ця N_КУДО ;
+
 
 LEXICON sajezj-PRC
  A_ОШ ;
