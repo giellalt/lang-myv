@@ -29,7 +29,7 @@ LEXICON V_АРАСЬ_01
 
 !! OBJECT FLAGS AND +V+TV tags
 LEXICON V-AUX-NEG-CONJ !! аволь:а 
-+V+Aux+Neg@P.CONJ.ObjAll@:%>%{ОЕЭØ%}00@P.CONJ.ObjAll@  ConjPers-withO-all ;
++V+Aux+Neg0@P.CONJ.ObjAll@:%>%{ОЕЭØ%}00@P.CONJ.ObjAll@  ConjPers-withO-all ;
 
 LEXICON V-AUX-NEG-PRT1 !!= __@CODE@__ эзь:эзь
 +V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
@@ -545,7 +545,7 @@ LEXICON IV_САВТОМС_SUB
 LEXICON IV_САВТОМС
 +V+IV@U.TRANS.IV@:00@U.TRANS.IV@ V_САВТОМС ;
 +V+IV+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
-+V+IV+Der/немс+V+IV0@U.TRANS.IV@:%>не00@U.TRANS.IV@ V_ПИДЕМС ;
++V+IV+Der/немс+V+IV0@U.TRANS.IV@:%>не000@U.TRANS.IV@ V_ПИДЕМС ;
 +V+IV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_ЯНГАВОМС ;
 
 LEXICON IV_САВТОМС-SG3
@@ -595,7 +595,7 @@ LEXICON IV_КУНДАМС_SUB
 +Err/Orth: IV_КУНДАМС ;
 LEXICON IV_КУНДАМС
 +V+IV@U.TRANS.IV@:00@U.TRANS.IV@ V_КУНДАМС ;
-+V+IV+Der/ОкшнОмс@U.TRANS.IV@:кшно@U.TRANS.IV@ IV_КУНДАКШНОМС ;
++V+IV+Der/ОкшнОмс0@U.TRANS.IV@:кшно@U.TRANS.IV@ IV_КУНДАКШНОМС ;
 +V+TV+Der/ОвтОмс+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_САВТОМС ;
 +V+IV+Der/ОвОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_ЯНГАВОМС ;
 
@@ -625,25 +625,25 @@ LEXICON IV_ЛЕТЕМС
 !! !!!AUXILIARY VERBS
 LEXICON VA_САВТОМС
 +V+Aux: V_САВТОМС ;
-+V+Aud+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
++V+Aux+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
 
 LEXICON VA_ЯНГАВОМС
 +V+Aux: V_ЯНГАВОМС ;
-+V+Aud+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
++V+Aux+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
 
 LEXICON VA_ЯНГАВОМС-SG3
 +V+Aux: V_ЯНГАВОМС-SG3 ;
 
 LEXICON VA_ЛЕТЕМС
 +V+Aux: V_САТОМС ;
-+V+Aud+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_НЕКШНЕМС ;
++V+Aux+Der/ОкшнОмс+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_НЕКШНЕМС ;
 
 LEXICON VA_ЛЕТЕМС-SG3
 +V+Aux: V_САТОМС-SG3 ;
 
 LEXICON VA_КУНДАМС
 +V+Aux: V_КУНДАМС ;
-+V+Aud+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
++V+Aux+Der/ОкшнОмс+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_КУНДАМС ;
 
 
 !! !!!DERIVATION
@@ -846,7 +846,7 @@ LEXICON V_КАДОМС-SG3
 LEXICON V_САЕВЕМС
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
 00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-ALL ;
-00@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
+0@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 +Err/Orth+Dial@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 
   CondVerbs ;
@@ -858,7 +858,7 @@ LEXICON V_САЕВЕМС
 LEXICON V_САЕВЕМС-SG3
 @U.CONJ-INF.NO@ IND-PRT1-30 ;
 00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-30 ;
-00@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CNJ-30 ;
+0@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CNJ-30 ;
 +Err/Orth+Dial@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CNJ-30 ;
 +Der/Ындеря+Cond+V+Conj0000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>Ы2ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
 @U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
@@ -869,7 +869,7 @@ LEXICON V_САЕВЕМС-SG3
 LEXICON V_ЯНГАВОМС
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
 00@U.CONJ-INF.NO@:%>Ы2@U.CONJ-INF.NO@ IND-PRT2-ALL ;
-00@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
+0@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 +Err/Orth+Dial@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 
   CondVerbs ;
@@ -970,7 +970,7 @@ LEXICON V_САТОМС-a
 +ConNeg0@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}@U.CONJ-CONNEG.YES@ _КУДО-Tenses1 ;
 +ConNeg000@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}тЬ2@U.CONJ-CONNEG.YES@ _КУДО-Tenses1 ;
 +V+Ind+Prt1+ScSg30@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}тсь@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3Ø@ VerbEnd_K ;
-+V+Ind+Prt1+ScPl300@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@:%>%{ОЕЭØ%}тсть@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ VerbEnd_K ;
++V+Ind+Prt1+ScPl300@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@:%>%{ОЕЭØ%}тсть@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@ VerbEnd_K ;
  Desiderative-kadoms ;
 
  Imperative-kundams ;
@@ -1058,7 +1058,7 @@ LEXICON Deverbals_mutual
 +Inf+Abl00000@U.CX.ABL@:%>%{ОЕЭØ%}мО1%>дО1@U.CX.ABL@ _КУДО-Possessive-Before-K-or-K-4Inf ;
 +Inf+Ill0000@U.CX.ILL@:%>%{ОЕЭØ%}мО1%>з@U.CX.ILL@ N-Poss-Declension-PossX_01 ;
 
-+Der/Овт+TelicN000@C.CONJ-INF@:%>%{ОЕЭØ%}втЬ2@C.CONJ-INF@ N_КИТ ; !!
++Der/Овт+Prc/Telic000@C.CONJ-INF@:%>%{ОЕЭØ%}втЬ2@C.CONJ-INF@ N_КИТ ; !!
 +Der/Озь+Ger00@C.CONJ-INF@:%>%{ОЕЭØ%}зь@C.CONJ-INF@ sajezj-PRC ; !!
 +Der/Озь+Ger+Ind+Prs+ScPl300@C.CONJ-INF@:%>%{ОЕЭØ%}зь%>тЬ2@C.CONJ-INF@ VerbEnd_K ; !!
 +Der/Онь+VGen00@C.CONJ-INF@:%>%{ОЕЭØ%}нь@C.CONJ-INF@ _КАЛ-Tenses1 ;
@@ -1075,8 +1075,8 @@ LEXICON sajezj-PRC
  DER/PR4_OBL ;
  VerbEnd_K ;
 
-LEXICON Prc-Telic ! sajevtj
-+TelicPrc: N_КИТ ;
+LEXICON PRC-TELIC ! sajevtj
++Prc/Telic: N_КИТ ;
 
 
 
@@ -1936,7 +1936,7 @@ LEXICON CNJ-12_VOL
 
 LEXICON CNJ-13
 +Conj+ScSg1+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влия@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
-+Err/Orth+Dial+Conj+ScSg1+OcSg3@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влие000@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
++Err/Orth+Dial+Conj+ScSg1+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влие@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
 +Err/Orth+Dial/SE+Conj+ScSg1+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влиять@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
 
 LEXICON CNJ-13_VOL
@@ -1951,7 +1951,7 @@ LEXICON CNJ-15_VOL
 
 LEXICON CNJ-16
 +Conj+ScSg1+OcPl30000@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}влинь@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
-+Err/Orth+Dial+Conj+ScSg1+OcPl3@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}влень@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
++Err/Orth+Dial+Conj+ScSg1+OcPl300@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}влень@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
 
 LEXICON CNJ-16_VOL
 +Conj+ScSg1+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}вО1линь@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
@@ -2203,100 +2203,100 @@ LEXICON Conjunctive-Obj
 
 !! begin
 LEXICON CNJ-withO-10
-+ScSg1@U.CONJ-PX.1Ø@:вО1линь@U.CONJ-PX.1Ø@  Derya ;
++ScSg100000@U.CONJ-PX.1Ø@:вО1линь@U.CONJ-PX.1Ø@  Derya ;
 
 LEXICON CNJ-withO-12
-+ScSg1+OcSg2@U.CONJ-PX.12@:вО1литинь@U.CONJ-PX.12@ Derya ;
++ScSg1+OcSg2000000@U.CONJ-PX.12@:вО1литинь@U.CONJ-PX.12@ Derya ;
 
 LEXICON CNJ-withO-13
-+ScSg1+OcSg3@U.CONJ-PX.13@:вО1лия@U.CONJ-PX.13@ Derya ;
++ScSg1+OcSg3000@U.CONJ-PX.13@:вО1лия@U.CONJ-PX.13@ Derya ;
 
 LEXICON CNJ-withO-15
-+ScSg1+OcPl2@U.CONJ-PX.15@:вО1лидизь@U.CONJ-PX.15@ Derya ;
++ScSg1+OcPl2000000@U.CONJ-PX.15@:вО1лидизь@U.CONJ-PX.15@ Derya ;
 
 LEXICON CNJ-withO-16
-+ScSg1+OcPl3@U.CONJ-PX.16@:вО1линь@U.CONJ-PX.16@ Derya ;
++ScSg1+OcPl30000@U.CONJ-PX.16@:вО1линь@U.CONJ-PX.16@ Derya ;
 
 LEXICON CNJ-withO-20
-+ScSg2@U.CONJ-PX.2Ø@:вО1лить@U.CONJ-PX.2Ø@ Derya ;
++ScSg200000@U.CONJ-PX.2Ø@:вО1лить@U.CONJ-PX.2Ø@ Derya ;
 
 LEXICON CNJ-withO-21
-+ScSg2+OcSg1@U.CONJ-PX.21@:вО1лимик@U.CONJ-PX.21@ Derya_KLoss ;
++ScSg2+OcSg100000@U.CONJ-PX.21@:вО1лимик@U.CONJ-PX.21@ Derya_KLoss ;
 
 LEXICON CNJ-withO-23
-+ScSg2+OcSg3@U.CONJ-PX.23@:вО1лик@U.CONJ-PX.23@ Derya_KLoss ;
++ScSg2+OcSg3000@U.CONJ-PX.23@:вО1лик@U.CONJ-PX.23@ Derya_KLoss ;
 
 LEXICON CNJ-withO-24
-+ScSg2+OcPl1@U.CONJ-PX.24@:вО1лимизь@U.CONJ-PX.24@ Derya ;
++ScSg2+OcPl1000000@U.CONJ-PX.24@:вО1лимизь@U.CONJ-PX.24@ Derya ;
 
 LEXICON CNJ-withO-26
-+ScSg2+OcPl3@U.CONJ-PX.26@:вО1лить@U.CONJ-PX.26@ Derya ;
++ScSg2+OcPl30000@U.CONJ-PX.26@:вО1лить@U.CONJ-PX.26@ Derya ;
 
 LEXICON CNJ-withO-31
-+ScSg3+OcSg1@U.CONJ-PX.31@:вО1лимим@U.CONJ-PX.31@ Derya ;
++ScSg3+OcSg100000@U.CONJ-PX.31@:вО1лимим@U.CONJ-PX.31@ Derya ;
 
 LEXICON CNJ-withO-32
-+ScSg3+OcSg2@U.CONJ-PX.32@:вО1линзеть@U.CONJ-PX.32@ Derya ;
++ScSg3+OcSg20000000@U.CONJ-PX.32@:вО1линзеть@U.CONJ-PX.32@ Derya ;
 
 LEXICON CNJ-withO-33
-+ScSg3+OcSg3@U.CONJ-PX.33@:вО1лизе@U.CONJ-PX.33@ Derya ;
++ScSg3+OcSg30000@U.CONJ-PX.33@:вО1лизе@U.CONJ-PX.33@ Derya ;
 
 LEXICON CNJ-withO-34
-+ScSg3+OcPl1@U.CONJ-PX.34@:вО1лимизь@U.CONJ-PX.34@ Derya ;
++ScSg3+OcPl1000000@U.CONJ-PX.34@:вО1лимизь@U.CONJ-PX.34@ Derya ;
 
 LEXICON CNJ-withO-35
-+ScSg3+OcPl2@U.CONJ-PX.35@:вО1лидизь@U.CONJ-PX.35@ Derya ;
++ScSg3+OcPl2000000@U.CONJ-PX.35@:вО1лидизь@U.CONJ-PX.35@ Derya ;
 
 LEXICON CNJ-withO-36
-+ScSg3+OcPl3@U.CONJ-PX.36@:вО1линзе@U.CONJ-PX.36@ Derya ;
++ScSg3+OcPl300000@U.CONJ-PX.36@:вО1линзе@U.CONJ-PX.36@ Derya ;
 
 LEXICON CNJ-withO-40
-+ScPl1@U.CONJ-PX.4Ø@:вО1линек@U.CONJ-PX.4Ø@ Derya_KLoss ;
++ScPl1000000@U.CONJ-PX.4Ø@:вО1линек@U.CONJ-PX.4Ø@ Derya_KLoss ;
 
 LEXICON CNJ-withO-42
-+ScPl1+OcSg2@U.CONJ-PX.42@:вО1лидизь@U.CONJ-PX.42@ Derya ;
++ScPl1+OcSg2000000@U.CONJ-PX.42@:вО1лидизь@U.CONJ-PX.42@ Derya ;
 
 LEXICON CNJ-withO-43
-+ScPl1+OcSg3@U.CONJ-PX.43@:вО1линек@U.CONJ-PX.43@ Derya_KLoss ;
++ScPl1+OcSg300000@U.CONJ-PX.43@:вО1линек@U.CONJ-PX.43@ Derya_KLoss ;
 
 LEXICON CNJ-withO-45
-+ScPl1+OcPl2@U.CONJ-PX.45@:вО1лидизь@U.CONJ-PX.45@ Derya ;
++ScPl1+OcPl2000000@U.CONJ-PX.45@:вО1лидизь@U.CONJ-PX.45@ Derya ;
 
 LEXICON CNJ-withO-46
-+ScPl1+OcPl3@U.CONJ-PX.46@:вО1линек@U.CONJ-PX.46@ Derya_KLoss ;
++ScPl1+OcPl300000@U.CONJ-PX.46@:вО1линек@U.CONJ-PX.46@ Derya_KLoss ;
 
 LEXICON CNJ-withO-50
-+ScPl2@U.CONJ-PX.5Ø@:вО1лиде@U.CONJ-PX.5Ø@ Derya ;
++ScPl200000@U.CONJ-PX.5Ø@:вО1лиде@U.CONJ-PX.5Ø@ Derya ;
 
 LEXICON CNJ-withO-51
-+ScPl2+OcSg1@U.CONJ-PX.51@:вО1лимизь@U.CONJ-PX.51@ Derya ;
++ScPl2+OcSg1000000@U.CONJ-PX.51@:вО1лимизь@U.CONJ-PX.51@ Derya ;
 
 LEXICON CNJ-withO-53
-+ScPl2+OcSg3@U.CONJ-PX.53@:вО1линк@U.CONJ-PX.53@ Derya_KLoss ;
++ScPl2+OcSg30000@U.CONJ-PX.53@:вО1линк@U.CONJ-PX.53@ Derya_KLoss ;
 
 LEXICON CNJ-withO-54
-+ScPl2+OcPl1@U.CONJ-PX.54@:вО1лимизь@U.CONJ-PX.54@ Derya ;
++ScPl2+OcPl1000000@U.CONJ-PX.54@:вО1лимизь@U.CONJ-PX.54@ Derya ;
 
 LEXICON CNJ-withO-56
-+ScPl2+OcPl3@U.CONJ-PX.56@:вО1линк@U.CONJ-PX.56@ Derya_KLoss ;
++ScPl2+OcPl30000@U.CONJ-PX.56@:вО1линк@U.CONJ-PX.56@ Derya_KLoss ;
 
 LEXICON CNJ-withO-61
-+ScPl3+OcSg1@U.CONJ-PX.61@:вО1лимизь@U.CONJ-PX.61@ Derya ;
++ScPl3+OcSg1000000@U.CONJ-PX.61@:вО1лимизь@U.CONJ-PX.61@ Derya ;
 
 LEXICON CNJ-withO-62
-+ScPl3+OcSg2@U.CONJ-PX.62@:вО1лидизь@U.CONJ-PX.62@ Derya ;
++ScPl3+OcSg2000000@U.CONJ-PX.62@:вО1лидизь@U.CONJ-PX.62@ Derya ;
 
 LEXICON CNJ-withO-63
-+ScPl3+OcSg3@U.CONJ-PX.63@:вО1лизь@U.CONJ-PX.63@ Derya ;
++ScPl3+OcSg30000@U.CONJ-PX.63@:вО1лизь@U.CONJ-PX.63@ Derya ;
 
 LEXICON CNJ-withO-64
-+ScPl3+OcPl1@U.CONJ-PX.64@:вО1лимизь@U.CONJ-PX.64@ Derya ;
++ScPl3+OcPl1000000@U.CONJ-PX.64@:вО1лимизь@U.CONJ-PX.64@ Derya ;
 
 LEXICON CNJ-withO-65
-+ScPl3+OcPl2@U.CONJ-PX.65@:вО1лидизь@U.CONJ-PX.65@ Derya ;
++ScPl3+OcPl2000000@U.CONJ-PX.65@:вО1лидизь@U.CONJ-PX.65@ Derya ;
 
 LEXICON CNJ-withO-66
-+ScPl3+OcPl3@U.CONJ-PX.66@:вО1лизь@U.CONJ-PX.66@ Derya ;
++ScPl3+OcPl30000@U.CONJ-PX.66@:вО1лизь@U.CONJ-PX.66@ Derya ;
 
 
 
@@ -2681,7 +2681,7 @@ LEXICON OPT-64
 
 LEXICON OPT-65
 +Opt+ScPl3+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>Ы2дизь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl200@U.CONJ-MX.OPT@@U.CONJ-PX.65@@U.CONJ-PX.65@:%>дызь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
++Opt+ScPl3+OcPl200@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>дызь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
 +Err/Orth+Dial+Opt+ScPl3+OcPl20@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>Ы2дезь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
 
 LEXICON OPT-66
