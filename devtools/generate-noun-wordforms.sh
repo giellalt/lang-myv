@@ -5,10 +5,10 @@
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+N+Sg+Nom \
-            +N+Sg+Gen \
-            +N+Sg+Ill \
-            +N+Sg+Com \
+morf_codes="+N+Sg+Nom+Indef \
+            +N+SP+Gen+Indef  \
+            +N+SP+Ill+Indef  \
+            +N+SP+Ine+Indef  \
             +N+Pl+Nom \
             +N+Pl+Com \
             +N+Ess"
