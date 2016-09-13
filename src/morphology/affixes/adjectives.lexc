@@ -59,6 +59,7 @@ LEXICON A_КАЛ_Sub
 +Err/Orth: A_КАЛ ;
 
 LEXICON A_КАЛ
+ ADJ-TO-ADV ;
 +A: K ;
 +A+Sg: K ;
 +A: DER/PR4_OBL ;
@@ -69,6 +70,7 @@ LEXICON A_КАЛ
 +A:%> N2Dem-SE ;
 
 LEXICON A_ОШ
+ ADJ-TO-ADV ;
 +A: K ;
 +A+Sg: K ;
 +A: DER/PR4_OBL ;
@@ -79,21 +81,29 @@ LEXICON A_ОШ
 +A:%> N2Dem-SE ;
 
 LEXICON A_ТЕШТЕ
+:О1 ADJ-TO-ADV ;
+ ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
 +A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON A_ЧУВТО
+:О1 ADJ-TO-ADV ;
+ ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
 +A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON A_ТИНГЕ
+:О1 ADJ-TO-ADV ;
+ ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
 +A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON A_ПАНГО
+:О1 ADJ-TO-ADV ;
+ ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
 +A+Der/MWN: N_ПАНГО ;
 +A:О1%> N2Dem-SE ;
@@ -119,6 +129,7 @@ LEXICON A_КУДО_SUB
 +Err/Orth: A_КУДО	;
 
 LEXICON A_КУДО
+ ADJ-TO-ADV ;
 +A: K ;
 +A+Sg: K ;
 +A+Pl:%>тЬ2 K ;
@@ -163,6 +174,9 @@ LEXICON Adj-Dem ! истямо
 
 LEXICON Adj-Po ! кондямо
 +Po: A_ПАНГО ;
+
+LEXICON ADJ-TO-ADV
++A+Der/стО+Adv:%>стО1 K ;
 
 ! vim: set ft=xfst-lexc:
 
