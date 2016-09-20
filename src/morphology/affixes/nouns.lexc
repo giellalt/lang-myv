@@ -779,7 +779,7 @@ LEXICON _ОШ-N2-Def-Declension
 +Abl+Indef:%>дО1 _КУДО-Conjugation ;
 
 LEXICON _КУДО-N2-Def-Declension
- NMN_DEF-SG-DECLENSION ;
+ NMN_DEF-DECLENSION ;
 +Tra+Indef:%>кс K ;
 +Abl+Indef:%>дО1 _КУДО-Conjugation ;
 
@@ -1246,7 +1246,7 @@ LEXICON _MUTUAL-Indef-Declension-SP
  PRL-INDEF ;
  TMP-INDEF ; !!= * __@CODE@__ Check this
  TRA-INDEF ;
-
+GEN-INDEF-LIKE-DERIVATION ;
 
 !! !!INDEFINITE TAGS
 LEXICON ABE-INDEF
@@ -1699,10 +1699,10 @@ Nouns_Pl ;
 LEXICON istja-Gen-Attributes
  K ; !!= * __@CODE@__ This means that stem is word final 
 +Abl+Indef:%>дО1 K ;
-+Indef+GenIndef:%>нь _КАЛ-Tenses-Obl ;
-+OrthOld+GenIndef+Der/се:%>н%> N2Dem-SE ;
-+OrthMorph+GenIndef+Der/се:%>нь N2Dem-SE ; ! _ь_ retension
-+OrthPhon+GenIndef+Der/се:%>нце _КУДО-N2-Def-Declension ;
++Der/Онь:%>нь _КАЛ-Tenses-Obl ;
++Der/Онь:%>н%> N2Dem-SE ;
++Orth/Morph+Der/Онь:%>нь N2Dem-SE ; ! _ь_ retension
++Orth/PhonInfl+Der/Онце:%>нце _КУДО-N2-Def-Declension ;
 
 
 LEXICON chop-Gen-Attributes
@@ -1711,10 +1711,13 @@ LEXICON chop-Gen-Attributes
 LEXICON pek-Gen-Attributes
  K ; !!= * __@CODE@__ This means that stem is word final 
 +Abl+Indef:%>дО1 K ;
-+Indef+GenIndef:%>%{ОЕЭØ%}нь _КАЛ-Tenses-Obl ;
-+OrthOld+GenIndef+Der/се:%>%{ОЕЭØ%}н%> N2Dem-SE ;
-+OrthMorph+GenIndef+Der/се:%>%{ОЕЭØ%}нь N2Dem-SE ; ! _ь_ retension
-+OrthPhon+GenIndef+Der/се:%>%{ОЕЭØ%}нце _КУДО-N2-Def-Declension ;
+ GEN-INDEF-LIKE-DERIVATION ;
+
+LEXICON GEN-INDEF-LIKE-DERIVATION
++Der/Онь:%>%{ОЕЭØ%}нь _КАЛ-Tenses-Obl ;
++Der/Онь:%>%{ОЕЭØ%}н%> N2Dem-SE ;
++Orth/Morph+Der/Онь:%>%{ОЕЭØ%}нь N2Dem-SE ; ! _ь_ retension
++Orth/PhonInfl+Der/Онце:%>%{ОЕЭØ%}нце _КУДО-N2-Def-Declension ;
 
 
 
@@ -1752,12 +1755,12 @@ LEXICON _КУДО-Possessives2
  Possessives2-PxPl3 ;
 
 LEXICON _КАЛ-Determinatives1
-+Der/се:%> N2Dem-SE ;
+:%> N2Dem-SE ;
 +OrthPhon+Der/се:%>це _КУДО-N2-Def-Declension ;
  _КАЛ-Tenses-Obl ;
 
 LEXICON _КИТ-Determinatives1
-+Der/се:%> N2Dem-SE ;
+:%> N2Dem-SE ;
 +OrthPhon+Der/се:%>це _КУДО-N2-Def-Declension ;
  _КИТ-Tenses-Obl ;
 
