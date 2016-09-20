@@ -45,6 +45,11 @@ Alphabet
 О1:о !
 О1:0 !
 
+! derivational suffix protovowel  аволь аволинь
+%{ОЕ%}:е
+%{ОЕ%}:о
+
+
 ! derivation suffix-initial archivowel 
 %{ОЕЭØ%}:е
 %{ОЕЭØ%}:э
@@ -285,6 +290,14 @@ Rules
          :Vows :0* в: _ л  и ;
 !          # Cns* Vows Letters* :Vows в %^WLoss:0  %> %{ОЕЭØ%}: в: _ л  и ;
 !:BTV в %^WLoss:0  %> _ в: ( О1: ) л ;
+
+"%{ОЕ%}:e"
+!! __@RULENAME@__
+%{ОЕ%}:e <=> FT _ ;
+
+"%{ОЕ%}:о"
+!! __@RULENAME@__
+%{ОЕ%}:о <=> LBC _ ;
 
 "O2:ye"
 %{ОЕЭØ%}:е <=>  [ LFCS | й:0 ] %> _ [ SIVV | к ш н | # | %> Г1: ] ;
