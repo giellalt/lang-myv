@@ -190,9 +190,9 @@ Multichar_Symbols
  +Act	 !!≈ * _@CODE@_ * active voice (exo-tradition)
  +PrsPrc !!≈ * _@CODE@_ * present participle (only non-contrastive usage)
  +DemPrc !!≈ * _@CODE@_ * present participle (both contrastive and non-contrastive)
-  +ActPrcLong  !!≈ * _@CODE@_ * Ы2й (This is dealt with elsewhere as an active present participle)
-  +ActPrcShort !!≈ * _@CODE@_ * Ы2  (This is dealt with elsewhere as an active present participle)
-  +ActDemPrc   !!≈ * _@CODE@_ * Ы2ця  (This is dealt with elsewhere as an active present participle)
+  +ActPrcLong  !!≈ * _@CODE@_ * %{иы%}й (This is dealt with elsewhere as an active present participle)
+  +ActPrcShort !!≈ * _@CODE@_ * %{иы%}  (This is dealt with elsewhere as an active present participle)
+  +ActDemPrc   !!≈ * _@CODE@_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
   +ConNeg !!≈ * _@CODE@_ * connegative, main verb complement to Neg,
   +Ger !!≈ * _@CODE@_ * gerund This is used with Der/Озь and VAbl
   +Inf    !!≈ * _@CODE@_ * infinitive
@@ -654,10 +654,11 @@ Multichar_Symbols
 ! connegative suffix rendering vowel
 !К3
 
-А1 А2 Г1 Г2 Г4 Ь2 Т1 О1 Ы2 К1 К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %>
+А1 А2 Г1 Г2 Г4 Ь2 Т1 О1 %{иы%} К1 К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %>
 Н1
 %{ОЕ%}   !!≈ * _@CODE@_ inflectional suffix protovowel  аволь аволинь
 %{ОЕЭØ%} !!≈ * _@CODE@_ Suffix-initial archiphoneme
+%{оэØ%}	 !!≈ * _@CODE@_ inessive, elative; this is the hard/broad s
 %^Inf
 %^PATR
 %^FEM
@@ -1130,16 +1131,16 @@ LEXICON BAHUV_КУДО
 
 LEXICON malaso-SPAT
 !! malaso:mala
-+Adv+Ela:%>стО1 _КУДО-Conjugation ;
++Adv+Ela:%>ст%{оэØ%} _КУДО-Conjugation ;
 +Adv+Ill:%>с K ;
-+Adv+Ine:%>сО1 _КУДО-Conjugation ;
++Adv+Ine:%>с%{оэØ%} _КУДО-Conjugation ;
 +Adv+Prl:%>Г2а _КУДО-Conjugation ;
 +Adv+Lat:%>в _КУДО-Conjugation ;
 
 LEXICON ushoso-SPAT
-+Spat+Ela:%>стО1 _КУДО-Conjugation ;
++Spat+Ela:%>ст%{оэØ%} _КУДО-Conjugation ;
 +Spat+Ill:%>с K ;
-+Spat+Ine:%>сО1 _КУДО-Conjugation ;
++Spat+Ine:%>с%{оэØ%} _КУДО-Conjugation ;
 +Spat+Prl:%>Г2а _КУДО-Conjugation ;
 
 
@@ -1316,7 +1317,7 @@ LEXICON _ОШ-Indef--Poss
 +Indef: _ОШ-Tenses-Obl ;
 +PxSg1:%>%{ОЕЭØ%}нЬ2 _КАЛ-Tenses-Obl ;
 +PxSg2:%>%{ОЕЭØ%}тЬ2 _КИТ-Tenses-Obl ;
-+PxSg3:%>%{ОЕЭØ%}нзО1 _КУДО-Tenses-Obl ;
++PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _КУДО-Tenses-Obl ;
 +PxPl1:%>%{ОЕЭØ%}нО1к _ЛАК-Tenses-Obl ;
 +PxPl2:%>%{ОЕЭØ%}нк _ЛАК-Tenses-Obl ;
 +PxPl3:%>%{ОЕЭØ%}ст _КИТ-Tenses-Obl ;
