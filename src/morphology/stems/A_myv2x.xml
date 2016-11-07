@@ -57820,6 +57820,13 @@
 
     <mg>
       <defNative/>
+     <tg xml:lang="eng">
+       <t pos="A">fragile</t>
+    </tg>
+     <tg xml:lang="rus">
+       <t pos="A">дряхлый</t>
+       <t pos="A">немощный</t>
+    </tg>
     </mg>
   </e>
 
@@ -57840,47 +57847,67 @@
       </m>
     </mg>
   </e>
-
-  <e>
-    <lg>
-      <l pos="A">сэрей</l>
-
-      <stg>
-        <st Contlex="A_КАЛ">сэрей</st>
-      </stg>
-    </lg>
-
-    <mg>
+<e>
+   <lg>
+     <l pos="A">сэрей</l>
+     <stg>
+       <st Contlex="A_КАЛ">сэрей</st>
+     </stg>
+   </lg> <morphg> <morph type="N">сэрейсэ</morph> <morph type="N">сэреень</morph> <morph type="N">сэрейне</morph> </morphg>
+   <mg>
       <semantics>
         <sem class="HUMAN_A"/>
       </semantics>
-
-      <defNative/>
-
+      <defNative>Вельть касозь. Кувака рунго. Кувака сэрьс. Венстявозь верев.</defNative>
       <tg xml:lang="eng">
         <t pos="A">tall</t>
       </tg>
-
-      <tg xml:lang="fin">
-        <t pos="A">pitkä</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="A">korkea</t>
-      </tg>
-    </mg>
-
-    <mg>
-      <defNative>домка</defNative>
-
+     <tg xml:lang="fin">
+       <t pos="N">korkea</t>
+       <t pos="N">pitkä</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="N">высокий</t>
+     </tg>
+     <xg> <x>сэрей ломань</x>
+       <xt xml:lang="eng">tall person</xt>
+       <xt xml:lang="fin">pitkä ihminen</xt>
+     </xg>
+   </mg>
+   <mg>
+     <xg> <x>сэрей чувто</x>
+       <xt xml:lang="eng">tall tree</xt>
+       <xt xml:lang="fin">korkea puu</xt>
+     </xg>
+     <xg> <x>сэрей кудо</x>
+       <xt xml:lang="eng">tall building</xt>
+       <xt xml:lang="fin">korkea talo</xt>
+       </xg>
+     <xg> <x>сэрей палмань</x>
+       <xt xml:lang="eng">tall pole</xt>
+       <xt xml:lang="fin">korkea pylväs</xt>
+       </xg>
+     <xg> <x>сэрей пандо.</x>
+       <xt xml:lang="eng">high hill</xt>
+       <xt xml:lang="fin">korkea mäki</xt>
+     </xg>
+   </mg>
+   <mg> <defNative>Домка.</defNative>
+     <tg xml:lang="rus">
+       <t pos="N">глубокий</t>
+     </tg>
+      <tg xml:lang="eng">
+        <t pos="A">deep</t>
+   </tg>
       <tg xml:lang="fin">
         <t pos="A">syvä</t>
-      </tg>
-    </mg>
+   </tg>
+     <xg> <x>сэрей лисьма</x>
+       <xt xml:lang="eng">deep well</xt>
+       <xt xml:lang="fin">syvä kaivo</xt>
+     </xg>
+
+   </mg>
   </e>
 
   <e>
