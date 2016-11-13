@@ -38127,21 +38127,27 @@
 </e>
 <e>
    <lg>
-     <l pos="V" val="IV">сормамс</l>
+     <l pos="V" val="TV">сормамс</l>
      <stg>
-       <st Contlex="IV_КУНДАМС">сорма</st>
+       <st Contlex="TV_КУНДАМС">сорма</st>
      </stg>
    </lg> <morphg> <morph type="V">сормась</morph> <morph type="V">сормакшнось</morph> <morph type="V">сормсемс</morph> </morphg>
    <mg> <defNative>Теемс сормазекс. Сюворямс. Менчемс.</defNative>
+     <tg xml:lang="eng">
+       <t pos="V" val="TV">wrinkle</t>
+     </tg>
      <tg xml:lang="fin">
-       <t pos="V" val="IV">rypyttää</t>
-       <t pos="V" val="IV">rypistää</t>
+       <t pos="V" val="TV">rypyttää</t>
+       <t pos="V" val="TV">rypistää</t>
      </tg>
      <tg xml:lang="rus">
-       <t pos="V" val="IV">сморщить</t>
+       <t pos="V" val="TV">сморщить</t>
      </tg>
-     <xg> <x>Сормамс коня. Сормамс конёв.</x>
-       <xt/>
+     <xg> <x>сормамс коня</x>
+       <xt xml:lang="eng">wrinkle oneʼs forehead</xt>
+     </xg>
+     <xg> <x>сормамс конёв</x>
+       <xt xml:lang="eng">wrinkle paper</xt>
      </xg>
    </mg>
 </e>
@@ -38189,7 +38195,11 @@
      <stg>
        <st Contlex="TV_ПИДЕМС-ObjAll">сормсе</st>
      </stg>
-   </lg> <morphg> <morph type="V">сормсесь</morph> <morph type="V">сормсекшнесь; весть:</morph> <morph type="V">сормамс</morph> </morphg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сормамс</comp>
+       <comp ord="E2" pos="Suf" type="Der/семс" drv="V»V"/>
+   </compg>
+   </lg> <morphg> <morph type="V">сормсекшнесь; весть:</morph> <morph type="V">сормамс</morph> </morphg>
      <sources>
        <book name="Olga01"/>
      </sources>
@@ -41059,6 +41069,20 @@
 </e>
 <e>
    <lg>
+     <l pos="V" val="TV">сурсемс</l>
+     <stg>
+       <st Contlex="TV_ПИДЕМС-ObjAll">сурсе</st>
+     </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">судрямс</comp>
+       <comp ord="E2" pos="Suf" type="Der/семс" drv="V»V"/>
+   </compg>
+   </lg>
+   <mg> <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
      <l pos="V" val="TV">судрямс</l>
        <l_cogn pos="V" src="Bereczki:2013" xml:lang="mhr">шерам</l_cogn>
        <l_cogn pos="V" src="Bereczki:2013" xml:lang="mrj">шерам</l_cogn>
@@ -42200,7 +42224,12 @@
      <l pos="V" val="IV">сыргсемс</l>
      <stg>
        <st Contlex="IV_ПИДЕМС">сыргсе</st>
+       <st Contlex="IV_ПИДЕМС" status="Err/Orth">сырксе</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сыргамс</comp>
+       <comp ord="E2" pos="Suf" type="Der/семс" drv="V»V"/>
+   </compg>
    </lg> <morphg> <morph type="V">сыргсесь</morph> <morph type="V">сыргсекшнесь; весть:</morph> <morph type="V">сыргамс</morph> </morphg>
    <mg> <defNative>Ушолемс, кармсемс, снартнемс сыргамо.</defNative>
      <xg> <x>Сыргсемс молеме вирев. Сыргсемс лисеме ушов.</x>
@@ -42499,16 +42528,6 @@
      <l pos="V" val="IV">сырк-сарк-меремс</l>
      <stg>
        <st Contlex="IV_ЛЕДЕМС">сырк-сарк-мерь</st>
-     </stg>
-   </lg>
-   <mg> <defNative/>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V" val="IV">сырксемс</l>
-     <stg>
-       <st Contlex="IV_ПИДЕМС">сырксе</st>
      </stg>
    </lg>
    <mg> <defNative/>
@@ -44711,6 +44730,10 @@
      <stg>
        <st Contlex="TV_ПИДЕМС-ObjAll">сюлмсе</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сюлмамс</comp>
+       <comp ord="E2" pos="Suf" type="Der/семс" drv="V»V"/>
+       </compg>
    </lg> <morphg> <morph type="V">сюлмсесь</morph> <morph type="V">сюлмсекшнесь; весть:</morph> <morph type="V">сюлмамс</morph> </morphg>
    <mg> <defNative>Тапарямс пикссэ эли лиясо мейсэ, килькшнемс.</defNative>
      <tg xml:lang="fin">
@@ -45767,6 +45790,10 @@
      <stg>
        <st Contlex="IV_ПИДЕМС">сярксе</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сяркомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/семс" drv="V»V"/>
+   </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46205,6 +46232,10 @@
      <stg>
        <st Contlex="TV_ЭЖНЕМС-ObjAll">сёлгоне</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёлгомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/немс" drv="V»V"/>
+       </compg>
    </lg> <morphg> <morph type="V">сёлгонесь</morph> <morph type="V">сёлгонекшнесь</morph> <morph type="V">сёлгонекшнемс</morph> </morphg>
    <mg> <defNative>=</defNative>
    </mg>
@@ -46214,7 +46245,12 @@
      <l pos="V" val="TV">сёлгсемс</l>
      <stg>
        <st Contlex="TV_ПИДЕМС-ObjAll">сёлгсе</st>
+       <st Contlex="TV_ПИДЕМС-ObjAll" status="Err/Orth">сёлксе</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёлгомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/семс" drv="V»V"/>
+       </compg>
    </lg> <morphg> <morph type="V">сёлгсесь</morph> <morph type="V">сёлгсекшнесь; весть:</morph> <morph type="V">сёлгомс</morph> </morphg>
    <mg> <defNative>Пекстнемс.</defNative>
      <xg> <x>Сёлгсемс весе панжтнезь вальматнень. Сёлгсемс кенкштнень.</x>
@@ -46224,24 +46260,14 @@
 </e>
 <e>
    <lg>
-     <l pos="V" val="TV">сёлксемс</l>
-     <stg>
-       <st Contlex="TV_ПИДЕМС-ObjAll">сёлксе</st>
-     </stg>
-   </lg>
-   <mg>
-     <m>
-       <head> <tags>+Orth/Phon</tags>
-       </head>
-     </m>
-   </mg>
-</e>
-<e>
-   <lg>
      <l pos="V" val="IV">сёлтавомс</l>
      <stg>
        <st Contlex="IV_ЯНГАВОМС">сёлтав</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёлтамс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвОмс" drv="V»V"/>
+     </compg>
    </lg> <morphg> <morph type="V">сёлтавсь</morph> <morph type="V">сёлтавокшнось</morph> <morph type="V">сёлтавкшномс</morph> </morphg>
    <mg> <defNative/>
      <tg xml:lang="rus">
@@ -46255,6 +46281,10 @@
      <stg>
        <st Contlex="TV_САВТОМС-ObjAll">сёлтавт</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёлтамс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвтОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46265,6 +46295,10 @@
      <stg>
        <st Contlex="TV_КУНДАКШНОМС-ObjAll">сёлтакшно</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёлтамс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОкшнОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46436,7 +46470,11 @@
      <stg>
        <st Contlex="IV_ЯНГАВОМС">сёрмадов</st>
      </stg>
-   </lg> <morphg> <morph type="V">сёрмадовсь</morph> <morph type="V">сёрмадовокшнось</morph> <morph type="V">сёрмадовкшномс</morph> </morphg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмадомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвОмс" drv="V»V"/>
+     </compg>
+   </lg> <morphg> <morph type="V">сёрмадовокшнось</morph> <morph type="V">сёрмадовкшномс</morph> </morphg>
    <mg> <defNative/>
    </mg>
 </e>
@@ -46446,6 +46484,10 @@
      <stg>
        <st Contlex="TV_САВТОМС-ObjAll">сёрмадовт</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмадомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвтОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg>
      <m>
@@ -46460,6 +46502,10 @@
      <stg>
        <st Contlex="TV_КУНДАКШНОМС-ObjAll">сёрмадокшно</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмадомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОкшнОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46501,6 +46547,10 @@
        <st Contlex="TV_ЭЖНЕМС-ObjAll">сёрмадстне</st>
        <st Contlex="TV_КУНДАМС-ObjAll" status="Err/Orth">сёрмадсне</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмадстомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/немс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46511,6 +46561,10 @@
      <stg>
        <st Contlex="IV_ЯНГАВОМС">сёрмадстов</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмадстомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46521,6 +46575,10 @@
      <stg>
        <st Contlex="TV_САВТОМС-ObjAll">сёрмадстовт</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмадстомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвтОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg>
      <m>
@@ -46559,6 +46617,10 @@
      <stg>
        <st Contlex="IV_ЯНГАВОМС">сёрмалгадов</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмалгадомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
@@ -46569,6 +46631,10 @@
      <stg>
        <st Contlex="TV_САВТОМС-ObjAll">сёрмалгадовт</st>
      </stg>
+     <compg type="drv" drv="V:Suf»V">
+       <comp ord="E1" pos="V" ms="Inf_Stem">сёрмалгадомс</comp>
+       <comp ord="E2" pos="Suf" type="Der/ОвтОмс" drv="V»V"/>
+     </compg>
    </lg>
    <mg> <defNative/>
    </mg>
