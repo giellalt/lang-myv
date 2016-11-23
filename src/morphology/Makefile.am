@@ -83,13 +83,12 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/Interj_myv2x.lexc      \
 		$(srcdir)/stems/N_myv2x.lexc              \
 		$(srcdir)/stems/noun-deverbal.lexc      \
+		$(srcdir)/stems/N_Prop_myv2x.lexc        \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
 		$(srcdir)/stems/Pcle_myv2x.lexc          \
 		$(srcdir)/stems/Pron_myv2x.lexc           \
-		$(srcdir)/stems/N_Prop_myv2x.lexc        \
 		$(srcdir)/stems/quantifiers.lexc        \
-		$(srcdir)/stems/verbs-A2M.lexc          \
-		$(srcdir)/stems/verbs-N2END.lexc
+		$(srcdir)/stems/V_myv2x.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
@@ -109,8 +108,7 @@ GT_XML_SRCS=\
 		stems/N_Prop_myv2x.xml     \
 		stems/Pron_myv2x.xml        \
 		stems/quantifiers.xml     \
-		stems/verbs-A2M.xml       \
-		stems/verbs-N2END.xml
+		stems/V_myv2x.xml
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=
