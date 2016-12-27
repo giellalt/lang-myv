@@ -436,11 +436,11 @@ LEXICON Quants3
 +Sg+Tra+Def:%>кс%>О1нть Ks ;
 +Sg+Ine+Def:%>с%{оэØ%}%>нть Ks ;
 +Sg+Ela+Def:%>ст%{оэØ%}%>нть Ks ;
-+Sg+CompCx+Def:%>шка%>нть Ks ;
++Sg+Cmpr+Def:%>шка%>нть Ks ;
 +Sg+Tra+Def:%>О1кс%>О1нть Ks ;
 +Sg+Ine+Def:%>О1%>с%{оэØ%}%>нть Ks ;
 +Sg+Ela+Def:%>О1%>ст%{оэØ%}%>нть Ks ;
-+Sg+CompCx+Def:%>О1шка%>нть Ks ;
++Sg+Cmpr+Def:%>О1шка%>нть Ks ;
 +Pl+Abl+Def:%>тнЕ3%>де Ks ;
 +Pl+Gen+Def:%>тнЕ3%>нь Ks ;
 +Pl+DatCx+Def:%>тнЕ3%>нень Ks ;
@@ -451,20 +451,20 @@ LEXICON Quants3
 +Tra:%>кс _ОШ-Possessive-Before-K ;
 +Ine:%>с%{оэØ%} _КУДО-Possessive-Before-K ;
 +Ela:%>ст%{оэØ%} _КУДО-Possessive-Before-K ;
-+CompCx:%>шка _КУДО-Possessive-Before-K ;
-+CompCx+Com:%>шкане _КУДО-Possessive-Before-K ;
++Cmpr:%>шка _КУДО-Possessive-Before-K ;
++Cmpr+Com:%>шкане _КУДО-Possessive-Before-K ;
 +Tra:%>О1кс _ОШ-Possessive-Before-K ;
 +Ine:%>О1с%{оэØ%} _КУДО-Possessive-Before-K ;
 +Ela:%>О1ст%{оэØ%} _КУДО-Possessive-Before-K ;
-+CompCx:%>О1шка _КУДО-Possessive-Before-K ;
-+CompCx+Com:%>О1шкане _КУДО-Possessive-Before-K ;
++Cmpr:%>О1шка _КУДО-Possessive-Before-K ;
++Cmpr+Com:%>О1шкане _КУДО-Possessive-Before-K ;
 
 +Pl+Prl+Def:%>тнЕ3%>ва _КУДО-Tenses1 ;
 +Pl+Abe+Def:%>тнЕ3%>втеме _КУДО-Tenses1 ;
 +Pl+Tra+Def:%>тнЕ3%>кс Ks ;
 +Pl+Ine+Def:%>тнЕ3%>сэ _КУДО-Tenses1 ;
 +Pl+Ela+Def:%>тнЕ3%>стэ _КУДО-Tenses1 ;
-+Pl+CompCx+Def:%>тнЕ3%>шка _КУДО-Tenses1 ;
++Pl+Cmpr+Def:%>тнЕ3%>шка _КУДО-Tenses1 ;
 
 !Attributes
 +Prl:%>Г2а _КУДО-Attributes2 ; 
@@ -472,17 +472,17 @@ LEXICON Quants3
 +Tra:%>кс _ОШ-Attributes2 ;
 +Ine:%>с%{оэØ%} _КУДО-Attributes2 ;  
 +Ela:%>ст%{оэØ%} _КУДО-Attributes2 ;  
-+CompCx:%>шка _КУДО-Attributes2 ;  
++Cmpr:%>шка _КУДО-Attributes2 ;  
 +Tra:%>О1кс _ОШ-Attributes2 ;
 +Ine:%>О1с%{оэØ%} _КУДО-Attributes2 ; 
 +Ela:%>О1ст%{оэØ%} _КУДО-Attributes2 ;
-+CompCx:%>О1шка _КУДО-Attributes2 ;
++Cmpr:%>О1шка _КУДО-Attributes2 ;
 +Pl+Prl+Def:%>тнЕ3%>ва _КУДО-Attributes2 ; 
 +Pl+Abe+Def:%>тнЕ3%>втеме _КУДО-Attributes2 ; 
 +Pl+Tra+Def:%>тнЕ3%>кс _ОШ-Attributes2 ; 
 +Pl+Ine+Def:%>тнЕ3%>сэ _КУДО-Attributes2 ; 
 +Pl+Ela+Def:%>тнЕ3%>стэ _КУДО-Attributes2 ;
-+Pl+CompCx+Def:%>тнЕ3%>шка _КУДО-Attributes2 ; 
++Pl+Cmpr+Def:%>тнЕ3%>шка _КУДО-Attributes2 ; 
 +Err/Orth@R.TLOSS.ON@:0@R.TLOSS.ON@ Quants3_TLOSS ;
 
 LEXICON Quants3_TLOSS
@@ -497,13 +497,13 @@ LEXICON Quants3_TLOSS
 +Pl+Tra+Def00@C.TLOSS@:%>некс@C.TLOSS@ Ks ;
 +Pl+Ine+Def00@C.TLOSS@:%>несэ@C.TLOSS@ _КУДО-Tenses1 ;
 +Pl+Ela+Def000@C.TLOSS@:%>нестэ@C.TLOSS@ _КУДО-Tenses1 ;
-+Pl+CompCx+Def000@C.TLOSS@:%>нешка@C.TLOSS@ _КУДО-Tenses1 ;
++Pl+Cmpr+Def000@C.TLOSS@:%>нешка@C.TLOSS@ _КУДО-Tenses1 ;
 +Pl+Prl+Def00@C.TLOSS@:%>нева@C.TLOSS@ _КУДО-Attributes2 ;
 +Pl+Abe+Def00000@C.TLOSS@:%>невтеме@C.TLOSS@ _КУДО-Attributes2 ;
 +Pl+Tra+Def00@C.TLOSS@:%>некс@C.TLOSS@ _ОШ-Attributes2 ;
 +Pl+Ine+Def00@C.TLOSS@:%>несэ@C.TLOSS@ _КУДО-Attributes2 ;
 +Pl+Ela+Def000@C.TLOSS@:%>нестэ@C.TLOSS@ _КУДО-Attributes2 ;
-+Pl+CompCx+Def000@C.TLOSS@:%>нешка@C.TLOSS@ _КУДО-Attributes2 ;
++Pl+Cmpr+Def000@C.TLOSS@:%>нешка@C.TLOSS@ _КУДО-Attributes2 ;
 
 !! 2012-08-09
 !LEXICON Attributes1
@@ -529,7 +529,7 @@ LEXICON _КУДО-Attributes2
 +Der/MWN+N+Sg+Tra+Def:%>кс%>О1нть Ks ;
 +Der/MWN+N+Sg+Ine+Def:%>с%{оэØ%}%>нть Ks ;
 +Der/MWN+N+Sg+Ela+Def:%>ст%{оэØ%}%>нть Ks ;
-+Der/MWN+N+Sg+CompCx+Def:%>шка%>нть Ks ;
++Der/MWN+N+Sg+Cmpr+Def:%>шка%>нть Ks ;
  Attributes2_PL ;
 
 LEXICON _ОШ-Attributes2
@@ -540,7 +540,7 @@ LEXICON _ОШ-Attributes2
 +Der/MWN+N+Sg+Tra+Def:%>О1кс%>О1нть Ks ;
 +Der/MWN+N+Sg+Ine+Def:%>О1с%{оэØ%}%>нть Ks ;
 +Der/MWN+N+Sg+Ela+Def:%>О1ст%{оэØ%}%>нть Ks ;
-+Der/MWN+N+Sg+CompCx+Def:%>О1шка%>нть Ks ;
++Der/MWN+N+Sg+Cmpr+Def:%>О1шка%>нть Ks ;
  Attributes2_PL ;
 
 LEXICON Attributes2_PL
@@ -553,7 +553,7 @@ LEXICON Attributes2_PL
 +Der/MWN+N+Pl+Tra+Def:%>тнЕ3%>кс Ks ;
 +Der/MWN+N+Pl+Ine+Def:%>тнЕ3%>сэ _КУДО-Tenses1 ;
 +Der/MWN+N+Pl+Ela+Def:%>тнЕ3%>стэ _КУДО-Tenses1 ;
-+Der/MWN+N+Pl+CompCx+Def:%>тнЕ3%>шка _КУДО-Tenses1 ;
++Der/MWN+N+Pl+Cmpr+Def:%>тнЕ3%>шка _КУДО-Tenses1 ;
 
 
 
