@@ -277,11 +277,7 @@
     <pos>Ger</pos>
 
     <mg>
-      <m>
-        <head/>
-
-        <defNative>&gt;</defNative>
-      </m>
+       <defNative></defNative>
 
       <tg xml:lang="eng">
         <t pos="Adv">XX</t>
@@ -1564,11 +1560,7 @@
     </lg>
 
     <mg>
-      <m>
-        <head/>
-
-        <defNative>&gt;</defNative>
-      </m>
+       <defNative></defNative>
     </mg>
   </e>
 
@@ -1757,16 +1749,15 @@
     </lg>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Истя жо, весень ладсо. Мезеяк теемс вейке омбоце ёнов
         молицякс.</defNative>
-      </m>
-
       <xg>
-        <x>Цёрынетне ловныть вейкетьстэ. Эрьванень чиемс вейкетьстэ. Умартне
-        явомсто весенень сатозт вейкетьстэ.</x>
+        <x>Цёрынетне ловныть вейкетьстэ.</x>
+        <xt/>
+	</xg>
+	<xg>
+          <x>Эрьванень чиемс вейкетьстэ. Умартне
+          явомсто весенень сатозт вейкетьстэ.</x>
 
         <xt/>
       </xg>
@@ -1808,12 +1799,18 @@
     </lg>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Марсо. Ве куцясо. Аволь вейте-вейте. Аволь ськамот. Вирень
         керямо мольтяно вейсэ. Вейсэ тевесь прядови седе курок.</defNative>
-      </m>
+     <tg xml:lang="eng">
+       <t pos="Adv">together</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Adv">yhdessä</t>
+     </tg>
+<xg><x>Вирень керямо мольтяно вейсэ.</x>
+<xt/></xg>
+<xg><x>Вейсэ тевесь прядови седе курок.</x>
+<xt/></xg>
     </mg>
   </e>
 
@@ -1827,12 +1824,8 @@
     </lg>
 
     <mg>
-      <m>
-        <head/>
-
         <defNative>Теемс эрьва мезесь седей-мелень путозь. Кортамс ломантнень
         марто вечкевксстэ.</defNative>
-      </m>
     </mg>
   </e>
 
@@ -1847,6 +1840,10 @@
 
     <mg>
         <defNative>Апак манче. Кортамс се, мезе ульнесь.</defNative>
+      <tg xml:lang="eng">
+        <t pos="Adv">frankly</t>
+        <t pos="Adv">ernestly</t>
+      </tg>
       <tg xml:lang="fin">
         <t pos="Adv">oikeasti</t>
       </tg>
@@ -9890,6 +9887,7 @@
       </xg>
     </mg>
   </e>
+
 
   <e exclude="fst">
     <lg>
