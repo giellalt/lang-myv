@@ -141,28 +141,28 @@ LEXICON DAT-PX
 	DAT-PXPL3 ;
 
 LEXICON	DAT-PXSG1
-+SP+DatCx+PxSg1:%>нень K ;
++SP+Dat+PxSg1:%>нень K ;
 
 LEXICON	DAT-PXSG2
-+SP+DatCx+PxSg2:%>%{ОЕЭØ%}тень K ;
-+Err/Orth+Dial/NW+DatCx+PxSg2:%>%{ОЕЭØ%}теть K ;
-+Err/Orth+Dial/SE+DatCx+PxSg2:%>%{ОЕЭØ%}те K ;
++SP+Dat+PxSg2:%>%{ОЕЭØ%}тень K ;
++Err/Orth+Dial/NW+Dat+PxSg2:%>%{ОЕЭØ%}теть K ;
++Err/Orth+Dial/SE+Dat+PxSg2:%>%{ОЕЭØ%}те K ;
 
 LEXICON	DAT-PXSG3
-+SP+DatCx+PxSg300000@U.DECL-NX.SG@:%>%{ОЕЭØ%}нстэнь@U.DECL-NX.SG@ K ;
-+Err/Orth+Dial/SE+DatCx+PxSg3:%>%{ОЕЭØ%}нст%{оэØ%} K ;
-+Err/Orth+Dial/W+DatCx+PxSg3:%>%{ОЕЭØ%}нстэнзэ K ;
++SP+Dat+PxSg300000@U.DECL-NX.SG@:%>%{ОЕЭØ%}нстэнь@U.DECL-NX.SG@ K ;
++Err/Orth+Dial/SE+Dat+PxSg3:%>%{ОЕЭØ%}нст%{оэØ%} K ;
++Err/Orth+Dial/W+Dat+PxSg3:%>%{ОЕЭØ%}нстэнзэ K ;
 
 !!LEXICON	DAT-PXPL1
 
 LEXICON	DAT-PXPL2
-+Err/Orth+Dial/W+SP+DatCx+PxPl2:%>%{ОЕЭØ%}нстэнк K-lak ;
++Err/Orth+Dial/W+SP+Dat+PxPl2:%>%{ОЕЭØ%}нстэнк K-lak ;
 
 LEXICON	DAT-PXPL3
-+SP+DatCx+PxPl300000@U.DECL-NX.SG@:%>%{ОЕЭØ%}нстэнь@U.DECL-NX.SG@ K ;
-+Err/Orth+Dial/SE+DatCx+PxPl3:%>%{ОЕЭØ%}нст%{оэØ%} K ;
-+Err/Orth+Dial/W+DatCx+PxPl3:%>%{ОЕЭØ%}нстэнст K ;
-+Err/Orth+Dial/W+DatCx+PxPl3:%>%{ОЕЭØ%}нстэст K ;
++SP+Dat+PxPl300000@U.DECL-NX.SG@:%>%{ОЕЭØ%}нстэнь@U.DECL-NX.SG@ K ;
++Err/Orth+Dial/SE+Dat+PxPl3:%>%{ОЕЭØ%}нст%{оэØ%} K ;
++Err/Orth+Dial/W+Dat+PxPl3:%>%{ОЕЭØ%}нстэнст K ;
++Err/Orth+Dial/W+Dat+PxPl3:%>%{ОЕЭØ%}нстэст K ;
 
 
 LEXICON SG-GEN-PX
@@ -367,9 +367,9 @@ LEXICON Possessive-Before-K-noArrow
 +PxPl3:ст K ;
 +Err/Orth+Dial/NW+PxPl3:ск K ;
 
-LEXICON OBL-PX4-END-FOC_or_END
+LEXICON OBL-PX4-END-FOC
  OBL-PX-FOLLOWED-BY-END-OR-FOC ;
- K ;
+! K ;
 
 LEXICON OBL-PX-FOLLOWED-BY-END-OR-FOC
 !! word boundary or focus
