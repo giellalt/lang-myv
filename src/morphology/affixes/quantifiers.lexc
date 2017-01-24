@@ -412,9 +412,9 @@ LEXICON Quants3
 +Sg+Nom+Def:%>сь _ОШ-Tenses1 ;
 +Sg+Nom+Def:%>%{ОЕЭØ%}сь _ОШ-Tenses1 ;
 +Sg+Gen+Def:%>%{ОЕЭØ%}нть Ks ;
-+Sg+DatCx+Def:%>%{ОЕЭØ%}нтень Ks ;
++Sg+Dat+Def:%>%{ОЕЭØ%}нтень Ks ;
 +Sg+Gen+Def:%>%{ОЕЭØ%}нть Ks ;
-+Sg+DatCx+Def:%>%{ОЕЭØ%}нтень Ks ;
++Sg+Dat+Def:%>%{ОЕЭØ%}нтень Ks ;
 +Ill:%>з _ОШ-Possessive-Before-K ;
 +Ill:%>%{ОЕЭØ%}з _ОШ-Possessive-Before-K ;
 
@@ -425,7 +425,7 @@ LEXICON Quants3
 +Abl:%>дО1 _КУДО-Possessive-Before-K ;
 +Abl:%>О1дО1 _КУДО-Possessive-Before-K ;
 +Gen:%>%{ОЕЭØ%}нь _КАЛ-Tenses1 ;
-+DatCx:%>%{ОЕЭØ%}нень Ks ;
++Dat:%>%{ОЕЭØ%}нень Ks ;
 +Ill:%>с Ks ;
 +Gen:%>%{ОЕЭØ%}нь _КАЛ-Tenses1 ;
 +Ill:%>О1%>с Ks ;
@@ -443,7 +443,7 @@ LEXICON Quants3
 +Sg+Cmpr+Def:%>О1шка%>нть Ks ;
 +Pl+Abl+Def:%>тнЕ3%>де Ks ;
 +Pl+Gen+Def:%>тнЕ3%>нь Ks ;
-+Pl+DatCx+Def:%>тнЕ3%>нень Ks ;
++Pl+Dat+Def:%>тнЕ3%>нень Ks ;
 +Pl+Ill+Def:%>тнЕ3%>с Ks ;
 
 +Prl:%>Г2а _КУДО-Possessive-Before-K ;
@@ -489,7 +489,7 @@ LEXICON Quants3_TLOSS
 +Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ _КУДО-Tenses1 ;
 +Pl+Abl+Def00@C.TLOSS@:%>неде@C.TLOSS@ Ks ;
 +Pl+Gen+Def00@C.TLOSS@:%>нень@C.TLOSS@ Ks ;
-+Pl+DatCx+Def0000@C.TLOSS@:%>ненень@C.TLOSS@ Ks ;
++Pl+Dat+Def0000@C.TLOSS@:%>ненень@C.TLOSS@ Ks ;
 +Pl+Ill+Def0@C.TLOSS@:%>нес@C.TLOSS@ Ks ;
 
 +Pl+Prl+Def00@C.TLOSS@:%>нева@C.TLOSS@ _КУДО-Tenses1 ;
@@ -519,7 +519,7 @@ LEXICON Quants3_TLOSS
 LEXICON _КУДО-Attributes2
 +Der/MWN+N+Sg+Nom+Def:%>сь _ОШ-Tenses1 ;
 +Der/MWN+N+Sg+Gen+Def:%>нть Ks ;
-+Der/MWN+N+Sg+DatCx+Def:%>нтень Ks ;
++Der/MWN+N+Sg+Dat+Def:%>нтень Ks ;
 +Der/MWN+N+Pl+Nom+Indef:%>тЬ2 _КИТ-Tenses1 ;
 +Der/MWN+N+Pl+Nom+Def:%>тнЕ3 _КУДО-Tenses1 ;
 +Der/MWN+N+Gen+Indef:%>нь _КАЛ-Tenses1 ;
@@ -535,7 +535,7 @@ LEXICON _КУДО-Attributes2
 LEXICON _ОШ-Attributes2
 +Der/MWN+N+Sg+Nom+Def:%>О1сь _ОШ-Tenses1 ;
 +Der/MWN+N+Sg+Gen+Def:%>О1нть Ks ;
-+Der/MWN+N+Sg+DatCx+Def:%>О1нтень Ks ;
++Der/MWN+N+Sg+Dat+Def:%>О1нтень Ks ;
 +Der/MWN+N+Gen+Indef:%>О1нь _КАЛ-Tenses1 ;
 +Der/MWN+N+Sg+Tra+Def:%>О1кс%>О1нть Ks ;
 +Der/MWN+N+Sg+Ine+Def:%>О1с%{оэØ%}%>нть Ks ;
@@ -546,7 +546,7 @@ LEXICON _ОШ-Attributes2
 LEXICON Attributes2_PL
 +Der/MWN+N+Pl+Abl+Def:%>тнЕ3%>де Ks ;
 +Der/MWN+N+Pl+Gen+Def:%>тнЕ3%>нь Ks ;
-+Der/MWN+N+Pl+DatCx+Def:%>тнЕ3%>нень Ks ;
++Der/MWN+N+Pl+Dat+Def:%>тнЕ3%>нень Ks ;
 +Der/MWN+N+Pl+Ill+Def:%>тнЕ3%>с Ks ;
 +Der/MWN+N+Pl+Prl+Def:%>тнЕ3%>ва _КУДО-Tenses1 ;
 +Der/MWN+N+Pl+Abe+Def:%>тнЕ3%>втеме _КУДО-Tenses1 ;
