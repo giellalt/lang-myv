@@ -2,24 +2,24 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>myv</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Erzya</title>
-    <description>This is an fst-based speller for Erzya. It is based
-    on the normative subset of the morphological analyser for Erzya.
+    <title>Erzya speller</title>
+    <description>Erzya speller, based on HFST and Divvun/Giellatekno resources.
     The source code can be found at:
-    https://victorio.uit.no/langtech/trunk/langs/myv/
+    https://gtsvn.uit.no/langtech/trunk/langs/myv/
     License: GPL3+.</description>
     <version vcsrev="GT_REVISION">GT_VERSION</version>
     <date>DATE</date>
-    <producer>Giellatekno/Divvun/UiT contributors</producer>
-    <contact email="feedback@divvun.no" website="http://divvun.no"/>
+    <producer>Univ. Helsinki &amp; Divvun contributors</producer>
+    <contact email="rueter.jack@gmail.com" website="http://divvun.no"/>
   </info>
   <acceptor type="general" id="acceptor.default.hfst">
-    <title>Giellatekno/Divvun/UiT dictionary Erzya</title>
-    <description>Giellatekno/Divvun/UiT dictionary for
-    Erzya compiled for HFST.</description>
+    <title>Fullscale Erzya morphological lexicon</title>
+    <description>
+        Complete Erzya dictionary, with no morphological restrictions.
+    </description>
   </acceptor>
   <errmodel id="errmodel.default.hfst">
-    <title>Levenshtein edit distance transducer</title>
+    <title>Levenstein 2 transducer</title>
     <description>Correction model for keyboard misstrokes, at most 2 per
     word.</description>
         <type type="default"/>
