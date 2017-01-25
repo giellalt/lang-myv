@@ -1,0 +1,267 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+%                                                                              %
+%       List of morphological and syntactic tags used in the Erzya corpus       %
+%                                                                              %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+
+%     Table of contents
+%  0. A short explanation
+%  1. Structure of the different POS (the details of sect. 1 are just the sme ones)
+%  2. List of the tags, and their internal distribution (these lists are the smj ones)
+
+
+
+% The Document has two parts. 
+% The first part outlines the internal structure of
+% the complex POS, these should be built as boxes or panes.
+% The last part is a list over the different morphosyntactic categories.
+
+% The tags are in complementary distribution within each tag column.
+
+
+
+% 1. Structure of the different POS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ...
+
+% 2.  List of the tags, and their internal distribution
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Initial star = not yet found in smj file
+N	Noun
+A	Adjective
+V	Verb
+Adv	Adverb
+Pron	Pronoun
+CS	Subjunction
+CC	Conjunction
+Po	Postposition
+Qnt	Quantifier
+Interj	Interjection
+Pcle	Particle
+Num	Numeral
+#Wordclass
+
+Prop	Propernoun
+Pers	Personal
+Refl	Reflexive
+Recipr	Reciprocal
+Card	Cardinal
+Ord	Ordinal
+Spat	Spatial 
+Temp	Temporal
+Interr	Interrogative
+Rel	Relative
+#Subclass
+
+Sg	Singular
+Pl	Plural
+#Number
+
+Nom	Nominative
+Gen	Genitive
+#Acc	Accusative
+Abl	Ablative
+Dat	Dative
+Comp	Comparative
+Com	Comitative
+Ill	Illative
+Ine Inessive
+Ela Elative
+Lat Lative
+Loc Locative
+TempCx	Temporalis
+Tra	Translative	
+Prl	Prolative
+Abe	Abessive
+#Case
+
+Attr	Attribute
+Pred	Predicative
+#Attributive
+
+Compar	Comparative
+Superl	Superlative
+#Grade
+
+Px1Sg	Possessive 1st Person Singular
+Px2Sg	Possessive 2nd Person Singular
+Px3Sg	Possessive 3rd Person Singular
+Px1Pl	Possessive 1st Person Plural
+Px2Pl	Possessive 2nd Person Plural
+Px3Pl	Possessive 3rd Person Plural
+Indef
+Def
+#Declension Possessive index
+
+NonPast	Nonpast Tense
+Prt1	Preterite 1 Tense
+Prt2	Preterite 2 Tense
+#Tense
+
+Cond	Conditional
+Conj	Conjunctional
+Imprt	Imperative
+Opt	Optative
+Ind	Indicative
+Des	Desiderative
+#Mood
+
+Sc1Sg	Subject Conjugation 1st Person Singular
+Sc2Sg	Subject Conjugation 2nd Person Singular
+Sc3Sg	Subject Conjugation 3rd Person Singular
+Sc1Pl	Subject Conjugation 1st Person Plural
+Sc2Pl	Subject Conjugation 2nd Person Plural
+Sc3Pl	Subject Conjugation 3rd Person Plural
+#Subject conjugation
+
+Oc1Sg	Object Conjugation 1st Person Singular
+Oc2Sg	Object Conjugation 2nd Person Singular
+Oc3Sg	Object Conjugation 3rd Person Singular
+Oc1Pl	Object Conjugation 1st Person Plural
+Oc2Pl	Object Conjugation 2nd Person Plural
+Oc3Pl	Object Conjugation 3rd Person Plural
+#Object conjugation
+
+ConNeg	Negative form of the verb
+#Person-Number
+
+TV	Transitive verb
+IV	Intransitive verb
+#Transitivity
+
+Neg	Negative verb
+#Polarity
+
+Inf	Infinitive
+PrfPrc	Perfect Participle
+PrsPrc	Present Participle
+ActDemPtc	Active Demonstrative Participle
+Sup	Supine
+VGen	Verb Genitive
+VAbess	Verb Abessive
+Ger	Gerund
+GerII	Second Gerund
+Act	Actio
+#Infinite
+
+Qst	Question Particle
+Foc	Focus Particle
+#Clitic
+
+ABBR	Abbreviation
+ACR	Acronym
+CLB	Clause boundary
+PUNCT	Punctuation mark
+LEFT	Left 
+RIGHT	Right
+#Punctuation
+
+Ani	Animal
+Fem	Female
+Mal	Male
+Obj	Object
+Org	Organisation
+Plc	Place
+Sur	Surname
+Tit	Title
+#Nametype
+
+Date  Date
+Range Range
+#Numeraltype
+
+@+FAUXV	Finite auxiliary verb
+@+FMAINV	Finite main verb
+@-FAUXV	Infinite auxiliary verb
+@-FMAINV	Infinite main verb
+@-FSUBJ	Subject of finite verb
+@ADV-A	Adverb modifying an adjective
+@ADV-ADV	Adverb modifying an adverb
+@ADVL	Adverbial
+@AN>	Prenominal adjective modifier
+@APP	Postnominal apposition
+@ActioN>	Actio Nominative
+@CC-NP	Phrase conjuction
+@CC-VP	Sentential conjuction
+@CMPND	Syntactic parallel of morfoloCompound
+@CS	Subjunction
+@CS-COMPL	Complement of subjunction
+@CS-NP	Phrase subjuction
+@CS-VP	Sentential subjunction
+@DN>	Prenominal determiner
+@GA>	Preadijectival genitive modifier
+@GN>	Prenominal genitive modifier
+@GP<	Genitive complement of postposition
+@GP>	Genitive complement of preposition
+@HNOUN	Stray noun in sentence fragments
+@INTERJ	Interjection
+@NNum>	Nominal attributes of numerals
+@NPron<	Noun modifying pronouns to the left
+@NQ<	Noun modifying quantifier to the left
+@NUM-PRON	Numerals modifying pronouns to the left
+@NUMBER	Stray numeral
+@NumN<	Nominal attributes of numerals
+@NumQ<	Nominal attributes of quantifiers
+@OBJ	Direct object
+@OPRED	Object predicative
+@PCLE	Particle
+@PROP>	Proper noun attributes
+@PrcN>	Present participle modifying noun to the right
+@PronN<	Pronoun modifying a noun to the left
+@PronN>Pronoun modifying a noun to the right
+@QN<	Postnominal quantifier
+@QN>	Quantifier modifying noun to the right
+@SPRED	Subject predicative
+@SUBJ	Subject
+@SUBJ-QH	Subject with a quantifier head
+@X	No tag
+#Syntax
+
++Der/Dimin	+Der/Dimin
++Der/Pass	+Der/Pass
++Der/adda	+Der/adda
++Der/ahkes	+Der/ahkes
++Der/ahtes	+Der/ahtes
++Der/ahtes	+Der/ahtes
++Der/ahtte	+Der/ahtte
++Der/alla	+Der/alla
++Der/asste	+Der/asste
++Der/d	+Der/d
++Der/dahka	+Der/dahka
++Der/dahtte	+Der/dahtte
++Der/dalla	+Der/dalla
++Der/dasste	+Der/dasste
++Der/dibme	+Der/dibme
++Der/duhtte	+Der/duhtte
++Der/duvva	+Der/duvva
++Der/gielak	+Der/gielak
++Der/goahte	+Der/goahte
++Der/ibme	+Der/ibme
++Der/k	+Der/k
++Der/l	+Der/l
++Der/ladda	+Der/ladda
++Der/lahtte	+Der/lahtte
++Der/lasj	+Der/lasj
++Der/lasste	+Der/lasste
++Der/lis	+Der/lis
++Der/lágán	+Der/lágán
++Der/lágásj	+Der/lágásj
++Der/m	+Der/m
++Der/mus	+Der/mus
++Der/r	+Der/r
++Der/st	+Der/st
++Der/stahtte	+Der/stahtte
++Der/stalla	+Der/stalla
++Der/stasste	+Der/stasste
++Der/u/a/åd	+Der/u/a/åd
++Der/vuohta	+Der/vuohta
++Der/vuohta	+Der/vuohta
+#Derivation
+
+
+V*	Verb stem
+N*	Noun stem
+A*	Adjective stem
+#DerivedRoot
