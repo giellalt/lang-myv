@@ -157,6 +157,7 @@ LIST Org = Org ;
 LIST Plc = Plc ;
 
 LIST Sur = Sur ;
+LIST Sem/Sur = Sem/Sur ;
 
 LIST Time = Time ;
 LIST Hum = Hum ;
@@ -185,6 +186,7 @@ LIST Voc = Voc ;
 
 LIST Sg = Sg ;
 LIST Pl = Pl ;
+LIST SP = SP ;
 
 LIST RCmpnd = RCmpnd ;
 
@@ -305,12 +307,18 @@ LIST Der/Ы = Der/Ы ;
 LIST Der/MWN = Der/MWN ;
 LIST Der/Dem = Der/Dem ;
 LIST Der/Pr = Der/Pr ;
+LIST Der/Cop = Der/Cop ;
 
 LIST <vdic> = <vdic> ;
 
 LIST MARTO = "марто" ;
 
 #2013-05-22
+
+# Phrasal groups
+# --------------
+
+LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt ; 
 
 
 
@@ -349,6 +357,16 @@ SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef)
 
 #Ванят-Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ;
+
+#а неиль
+SELECT Pcle + Neg (1 Prs OR Prt2) ;
+
+#Микол ульнесь
+REMOVE Der/Cop (1 VFIN) ;
+REMOVE Der/Cop (-1 VFIN) ;
+
+#Дёбаень Микол
+SELECT Prop + SP + Gen (1C ANT) ;
 
 #REMOVE IV IF (0 OCONJ) ;
 
