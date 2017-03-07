@@ -38,6 +38,7 @@ Multichar_Symbols
  +Descr  !!≈ * _@CODE@_ descriptive
  +Interj !!≈ * _@CODE@_ interjection
  +N 	 !!≈ * _@CODE@_ noun
+ +Num 	 !!≈ * _@CODE@_ numerals
  +Pcle 	 !!≈ * _@CODE@_ particle
  +Po 	 !!≈ * _@CODE@_ postposition
  +Pron 	 !!≈ * _@CODE@_ pronoun
@@ -98,7 +99,6 @@ Multichar_Symbols
 
 !! !!Quantifiers (numerals)
 !! Quantifiers and Numerals are classified under:
- +Num       !!≈ * _@CODE@_ numeral
  +Appr      !!≈ * _@CODE@_ Approximative numeral кавто-колмо, колмошка ''two or three''
             !!          NB! do not confuse with Komi case +Apr
  +AssocColl !!≈ * _@CODE@_ -ne- ; avide-
@@ -119,7 +119,6 @@ Multichar_Symbols
  +Abl !!≈ * _@CODE@_ ablative case
  +Com !!≈ * _@CODE@_ Comitative "-нек/-нэк"
  +Cmpr !!≈ * _@CODE@_ Comparative case form -шка
- +DatCx !!≈ * _@CODE@_ dative case
  +Dat !!≈ * _@CODE@_ dative
  +Ela !!≈ * _@CODE@_ elative case
  +Gen !!≈ * _@CODE@_ genitive case
@@ -193,7 +192,8 @@ Multichar_Symbols
   +ActPrcLong  !!≈ * _@CODE@_ * %{иы%}й (This is dealt with elsewhere as an active present participle)
   +ActPrcShort !!≈ * _@CODE@_ * %{иы%}  (This is dealt with elsewhere as an active present participle)
   +ActDemPrc   !!≈ * _@CODE@_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
-  +ConNeg !!≈ * _@CODE@_ * connegative, main verb complement to Neg,
+  +ConNeg !!≈ * _@CODE@_ * connegative, main verb complement to Neg, vow-stem
+  +ConNegII !!≈ * _@CODE@_ * connegative, main verb complement to Neg, cons-stem
   +Ger !!≈ * _@CODE@_ * gerund This is used with Der/Озь and VAbl
   +Inf    !!≈ * _@CODE@_ * infinitive
   +Neg    !!≈ * _@CODE@_ * verb of negation эзь, аволь, иля
@@ -1061,18 +1061,19 @@ TESTINGTESTING ;
  Adv_Ideoph_myv2x    ;
  Adv_Spat_myv2x	     ;
  bahuvrihis     ;
- conjunctors   ;
+ CC_myv2x   ;
+ CS_myv2x   ;
  Det_myv2x ;
  Interj_myv2x  ;
  noun-deverbal  ;
  N_myv2x          ;
  numerals       ;
- Punctuation    ;
+ Num_myv2x    ;
  N_Prop_myv2x    ;
  Prc_myv2x    ;
  Pcle_myv2x      ;
  Pron_myv2x       ;
- quantifiers    ;
+ Punctuation    ;
  V_myv2x          ;
 
 

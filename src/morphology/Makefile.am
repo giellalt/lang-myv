@@ -78,16 +78,17 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/Adv_Ideoph_myv2x.lexc     \
 		$(srcdir)/stems/Adv_Spat_myv2x.lexc     \
 		$(srcdir)/stems/bahuvrihis.lexc         \
-		$(srcdir)/stems/conjunctors.lexc        \
+		$(srcdir)/stems/CC_myv2x.lexc        \
+		$(srcdir)/stems/CS_myv2x.lexc        \
 		$(srcdir)/stems/Det_myv2x.lexc     \
 		$(srcdir)/stems/Interj_myv2x.lexc      \
 		$(srcdir)/stems/N_myv2x.lexc              \
 		$(srcdir)/stems/noun-deverbal.lexc      \
 		$(srcdir)/stems/N_Prop_myv2x.lexc        \
+		$(srcdir)/stems/Num_myv2x.lexc        \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
 		$(srcdir)/stems/Pcle_myv2x.lexc          \
 		$(srcdir)/stems/Pron_myv2x.lexc           \
-		$(srcdir)/stems/quantifiers.lexc        \
 		$(srcdir)/stems/V_myv2x.lexc
 
 # Set this to the names of all source xml files, if any
@@ -98,16 +99,17 @@ GT_XML_SRCS=\
 		stems/Adv_Ideoph_myv2x.xml  \
 		stems/Adv_Spat_myv2x.xml  \
 		stems/bahuvrihis.xml      \
-		stems/conjunctors.xml     \
+		stems/CC_myv2x.xml     \
+		stems/CS_myv2x.xml     \
 		stems/Det_myv2x.xml  \
 		stems/Interj_myv2x.xml   \
 		stems/N_myv2x.xml           \
 		stems/noun-deverbal.xml   \
+		stems/N_Prop_myv2x.xml     \
+		stems/Num_myv2x.xml     \
 		stems/Prc_myv2x.xml     \
 		stems/Pcle_myv2x.xml   	  \
-		stems/N_Prop_myv2x.xml     \
 		stems/Pron_myv2x.xml        \
-		stems/quantifiers.xml     \
 		stems/V_myv2x.xml
 
 # Define any additional lexc sources here (compiled on their own):
