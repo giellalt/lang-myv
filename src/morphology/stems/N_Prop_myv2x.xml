@@ -5156,22 +5156,65 @@
     </mg>
   </e>
 
+<e>
+   <lg>
+     <l sem_type="Divinity" pos="N">Везорго</l>
+     <stg>
+       <st Contlex="PROP_ПАНГО">Везорг</st>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+        <sem class="DEITY"/>
+        <sem class="MYTH_BEING"/>
+     </semantics>
+     <tg xml:lang="rus">
+       <t pos="N"></t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l sem_type="Divinity" pos="N">Кастарго</l>
+     <stg>
+       <st Contlex="PROP_ПАНГО">Кастарг</st>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+        <sem class="DEITY"/>
+        <sem class="MYTH_BEING"/>
+     </semantics>
+     <tg xml:lang="rus">
+       <t pos="N"></t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l sem_type="Divinity" pos="N">Пурьгине</l>
+     <stg>
+       <st Contlex="PROP_КУДО">Пурьгине</st>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+        <sem class="DEITY"/>
+        <sem class="MYTH_BEING"/>
+     </semantics>
+     <tg xml:lang="rus">
+       <t pos="N"></t>
+     </tg>
+   </mg>
+</e>
   <e>
     <lg>
-      <l pos="N" type="Prop">Инешкай</l>
+      <l pos="N" type="Prop">Нишке</l>
 
       <stg>
-        <st Contlex="PROP_КАЛ_DIVINITY">Инешкай</st>
+        <st Contlex="PROP_КУДО_DIVINITY">Нишке</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="N">Инешкайсэ</morph>
-
-      <morph type="N">Инешкаень</morph>
-
-      <morph type="N">Инешкайне</morph>
-    </morphg>
 
     <mg>
       <semantics>
@@ -5180,13 +5223,9 @@
         <sem class="MYTH_BEING"/>
       </semantics>
 
-      <m>
-        <head/>
-
         <semRel lemmaID="Инешкипаз" semRelType="seeNative"/>
 
         <defNative/>
-      </m>
     </mg>
   </e>
 
@@ -5198,16 +5237,9 @@
         <st Contlex="PROP_КУДО_DIVINITY">Инешки</st>
 
         <st Contlex="PROP_КУДО_DIVINITY">Инешке</st>
+        <st Contlex="PROP_КАЛ_DIVINITY">Инешкай</st>
       </stg>
     </lg>
-
-    <morphg>
-      <morph type="N">Инешкесэ</morph>
-
-      <morph type="N">Инешкень</morph>
-
-      <morph type="N">Инешкине</morph>
-    </morphg>
 
     <mg>
       <semantics>
@@ -5215,13 +5247,10 @@
 
         <sem class="MYTH_BEING"/>
       </semantics>
-
-      <m>
-        <head/>
-
+        <semRel lemmaID="Инешкипаз" semRelType="seeNative"/>
         <defNative>Кезэрьпингень пазтнэнь лангсо покш. Шкамс валстонть, конань
         смустезэ теемс. Шкамс мастортнэнь-менельтнень.</defNative>
-      </m>
+
     </mg>
   </e>
 
