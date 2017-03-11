@@ -496,10 +496,10 @@ LEXICON PRON-IS-REL-SEL
 ! Only the counterpart is available for post-clitic -Гак
 ! Or relative pronoun/interrogative pronoun
 !
-LEXICON  Indef_Pronouns-pref
-+Der/кой000@P.INDEF.PREF@:кой%-@P.INDEF.PREF@ Indef_Pronouns ;
-+Der/та00@P.INDEF.PREF@:та%-@P.INDEF.PREF@ Indef_Pronouns ;
-+Der/таго0000@P.INDEF.PREF@:таго%-@P.INDEF.PREF@ Indef_Pronouns ;
+LEXICON Indef_Pronouns-pref
++Der/кой:кой%- Indef_Pronouns ;
++Der/та:та%- Indef_Pronouns ;
++Der/таго:таго%- Indef_Pronouns ;
 
 
 LEXICON PRON-INDEF-HUM_КИ-БУТИ
@@ -512,53 +512,56 @@ LEXICON PRON-INDEF-HUM_КИ-БУТИ
 LEXICON PRON-INDEF-ELA
 +Pron+Indef+Ela: # ;
 
-LEXICON  Indef_Pronouns
+LEXICON Indef_Pronouns
 
 
 !ко+Pron:ко Indef_Pronouns-Cases ;
-ков+Pron+Lat:ков Indef_Pronouns-K ;
-косо+Pron+Ine:косо Indef_Pronouns-K ;
-косто+Pron+Ela:косто Indef_Pronouns-K ;
-кода+Pron+Manner:кода Indef_Pronouns-K ;
-кодамо+Adn+Nom+Sg:кодамо Indef_Pronouns-K ;
-кодамо+Adn+Nom+Pl:кодат Indef_Pronouns-K ;
-кодамо+Pron+Pl+Nom+Def:кодатнэ Indef_Pronouns-K ;
-кодамо+Pron+Pl:кодатнэ Indef_Pronouns-Cases ;
-!кодамо+Adn:кодам Indef_Pronouns-Cases ;
-кува+Spat+Prl:кува Indef_Pronouns-K ;
-
-кона+Dem+Adn+Nom+Sg:кона Indef_Pronouns-K ;
-кона+Dem+Pron:кона _КУДО-Indef_Pronouns-Cases ;
-
-зярдо+Pron+Abl+Temp:зярдо Indef_Pronouns-K ;
-зяро+Pron+Nom:зяро Indef_Pronouns-K ;
-зяро+Pron:зяро _КУДО-Indef_Pronouns-Cases ;
 !зяродо+Pron+Interr+Abl:зяродо Indef_Pronouns-K ;
 !зяро+Pron+Interr+Ela:зяросто Indef_Pronouns-K ;
-зяро+Pron+Qnt+Iter:зяроксть Indef_Pronouns-K ;
-зяро+Pron+Ill+Temp:зярс Indef_Pronouns-K ;
-зярдо+Pron+Abl+Temp+Gen:зярдонь Indef_Pronouns-K ;
+ков+Adv+Indef+Lat:ков Indef_Pronouns-K ;
+косо+Adv+Indef+Ine:косо Indef_Pronouns-K ;
+косто+Adv+Indef+Ela:косто Indef_Pronouns-K ;
+кода+Adv+Indef+Manner:кода Indef_Pronouns-K ;
+кува+Adv+Indef+Spat+Prl:кува Indef_Pronouns-K ;
+зярдо+Adv+Indef+Abl+Temp:зярдо Indef_Pronouns-K ;
+зяро+Adv+Indef+Nom:зяро Indef_Pronouns-K ;
+зяро+Adv+Indef+Qnt+Iter:зяроксть Indef_Pronouns-K ;
+зяро+Adv+Indef+Ill+Temp:зярс Indef_Pronouns-K ;
 
-знярдо+Pron+Abl:знярдо Indef_Pronouns-K ;
-зняро+Pron+Nom:зняро Indef_Pronouns-K ;
+зярдо+Adv+Indef+Abl+Temp+Gen:зярдонь Indef_Pronouns-K ;
+знярдо+Adv+Indef+Abl:знярдо Indef_Pronouns-K ;
+зняро+Adv:зняро Indef_Pronouns-K ;
+
+!зняро+Adv+Indef+Ela:зняросто Indef_Pronouns-K ;
+зняро+Adv+Indef+Ill:знярс Indef_Pronouns-K ;
+знярдо+Adv+Indef+Abl+Gen:знярдонь Indef_Pronouns-K ;
+кодамо+A+Indef+Nom+Sg:кодамо Indef_Pronouns-K ;
+кодамо+A+Indef+Nom+Pl:кодат Indef_Pronouns-K ;
+кодамо+A+Indef+Pl+Nom+Def:кодатнэ Indef_Pronouns-K ;
+кона+Det+Indef+Nom+Sg:кона Indef_Pronouns-K ;
+мезе+Pron+Indef+Nom+Sg:мезе Indef_Pronouns-K ;
+!мезень+Pron+Indef+Interr+Gen:мезень Indef_Pronouns-K ;
+мезе+Pron+Indef+Nom+Pl:мезть Indef_Pronouns-K ;
+мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:месть Indef_Pronouns-K ;
+мекс+Pron+Indef+Tra:мекс Indef_Pronouns-K ;
+!мезе+Pron+Indef+Abl:мезде Indef_Pronouns-K ;
+!мезе+Pron+Indef+Dat:мезнень Indef_Pronouns-K ;
+!мезе+Pron+Indef+Abl+Def:мезденть Indef_Pronouns-K ;
+!мезе+Pron+Indef+Ine:мейсэ Indef_Pronouns-K ;
+
 зняро+Pron:зняро Indef_Pronouns-Cases ;
-!зняро+Pron+Ela:зняросто Indef_Pronouns-K ;
-зняро+Pron+Ill:знярс Indef_Pronouns-K ;
-знярдо+Pron+Abl+Gen:знярдонь Indef_Pronouns-K ;
+
+кодамо+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:кодам Indef_Pronouns-Cases ;
+
+кона+Det:кона _КУДО-Indef_Pronouns-Cases ;
+
+зяро+Adv:зяро _КУДО-Indef_Pronouns-Cases ;
 
 !мезе+Adn+Dep+Gen:мень Indef_Pronouns-K-post ; !This one cannot take prefix
-мезе+Pron+Nom+Sg:мезе Indef_Pronouns-K ;
 мезе+Pron:мезь _ОШ-Indef_Pronouns-Cases ;
-!мезень+Pron+Interr+Gen:мезень Indef_Pronouns-K ;
 !мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
-мезе+Pron+Nom+Pl:мезть Indef_Pronouns-K ;
-мезе+Pron+Orth/PhonInfl+Nom+Pl:месть Indef_Pronouns-K ;
-мекс+Pron+Tra:мекс Indef_Pronouns-K ;
 !мезе+Pron:мейИ3 Indef_Pronouns-Cases ;
-!мезе+Pron+Abl:мезде Indef_Pronouns-K ;
-!мезе+Pron+Dat:мезнень Indef_Pronouns-K ;
-!мезе+Pron+Abl+Def:мезденть Indef_Pronouns-K ;
-!мезе+Pron+Ine:мейсэ Indef_Pronouns-K ;
 !мезе+Pron+Com:мезнек WORD-END ;
 
 
@@ -659,14 +662,16 @@ LEXICON Indef_Pronouns-K
 
 LEXICON Indef_Pronouns-K-pref
 ! Removing +Clt tag, this is a derivation
-+Pref+Indef: WORD-END ;
+: WORD-END ;
 
 LEXICON Indef_Pronouns-K-post
 ! Removing +Clt tag, these derivations
-+Der/бути+Indef:%-бути WORD-END ;
-+Der/Гак+Indef:%>Г1ак WORD-END ;
-+Rel:  WORD-END ;
-+Interr:  WORD-END ;
++Der/бути:%-бути WORD-END ;
++Der/Гак:%>Г1ак WORD-END ;
+!+Rel:  WORD-END ; 2017-03-11
+!+Interr:  WORD-END ; 2017-03-11
+
+
 
 LEXICON Dem-tona
 +Dem+Adn: WORD-END ;
@@ -718,7 +723,7 @@ LEXICON Misc_Pronouns
 тона+Dem+Pron:тона Misc_Pronouns1 ;
 тоната+Dem+Pron:тоната Misc_Pronouns1 ;
 ! мезе+Pron:мезИ2 Misc_Pronouns1 ;
-! мезе+Pron+Indef+Gen:мень K ;
+! мезе+Pron+Rel+Gen:мень K ;
 ! ки+Pron+Interr:ки Misc_Pronouns1 ;
 !не+Dem:не ne-Misc_Pronouns1 ;
 !неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
@@ -879,6 +884,169 @@ LEXICON Misc_Pronouns_Pl
 !! DEMONSTRATIVE DERIVATION !!
 LEXICON N2Dem-SE
 +Der/се+Der/MWN+N:се _КУДО-N2-Def-Declension ;
+
+LEXICON REL/INTERR_PRONOUNS
+!ко+Pron+Rel:ко Indef_Pronouns-Cases ;
+!зяродо+Adv+Rel+Abl:зяродо WORD-END ;
+!зяро+Adv+Rel+Ela:зяросто WORD-END ;
+ков+Adv+Rel+Lat:ков WORD-END ;
+косо+Adv+Rel+Ine:косо WORD-END ;
+косто+Adv+Rel+Ela:косто WORD-END ;
+кода+Adv+Rel+Manner:кода WORD-END ;
+кува+Adv+Rel+Spat+Prl:кува WORD-END ;
+зярдо+Adv+Rel+Abl+Temp:зярдо WORD-END ;
+
+зяро+Adv+Rel:зяро WORD-END ;
+зяроксть+Adv+Rel+Qnt+Iter:зяроксть WORD-END ;
+зярс+Adv+Rel+Ill+Temp:зярс WORD-END ;
+
+зярдонь+A+Rel+Abl+Temp+Gen:зярдонь WORD-END ;
+знярдонь+A+Rel+Abl+Gen:знярдонь WORD-END ;
+знярдо+Adv+Rel+Temp+Abl:знярдо WORD-END ;
+зняро+Adv+Rel:зняро WORD-END ;
+
+зняросто+Adv+Rel+Temp+Ela:зняросто WORD-END ;
+знярс+Adv+Rel+Ill:знярс WORD-END ;
+зняро+Adv+Rel:зняро Indef_Pronouns-Cases ;
+зяро+Adv+Rel:зяро _КУДО-Indef_Pronouns-Cases ;
+
+кодамо+A+Rel+Nom+Sg:кодамо WORD-END ;
+кодамо+A+Rel+Nom+Pl:кодат WORD-END ;
+кодамо+A+Rel+Pl+Nom+Def:кодатнэ WORD-END ;
+кона+Det+Rel+Nom+Sg:кона WORD-END ;
+мезе+Pron+Rel+Nom+Sg:мезе WORD-END ;
+!мезень+Pron+Rel+Gen:мезень WORD-END ;
+мезе+Pron+Rel+Nom+Pl:мезть WORD-END ;
+мезе+Pron+Rel+Orth/PhonInfl+Nom+Pl:месть WORD-END ;
+мекс+Adv+Rel+Tra:мекс WORD-END ;
+!мезе+Pron+Rel+Abl:мезде WORD-END ;
+!мезе+Pron+Rel+Dat:мезнень WORD-END ;
+!мезе+Pron+Rel+Abl+Def:мезденть WORD-END ;
+!мезе+Pron+Rel+Ine:мейсэ WORD-END ;
+
+!мезе+Adn+Dep+Gen:мень WORD-END ; !This one cannot take prefix
+мезе+Pron+Rel+Com:мезнек WORD-END ;
+
+мезе+Pron+Rel:мезь REL/INTERR-PRON-CASES_ОШ ;
+
+!кодамо+A+Rel+Pl:кодатнэ Indef_Pronouns-Cases ;
+!кодамо+A+Rel:кодам Indef_Pronouns-Cases ;
+
+кона+Det+Rel:кона REL/INTERR-PRON-CASES ;
+
+!ко+Pron+Interr:ко Indef_Pronouns-Cases ;
+!зяродо+Adv+Interr+Abl:зяродо WORD-END ;
+!зяро+Adv+Interr+Ela:зяросто WORD-END ;
+ков+Adv+Interr+Lat:ков WORD-END ;
+косо+Adv+Interr+Ine:косо WORD-END ;
+косто+Adv+Interr+Ela:косто WORD-END ;
+кода+Adv+Interr+Manner:кода WORD-END ;
+кува+Adv+Interr+Spat+Prl:кува WORD-END ;
+зярдо+Adv+Interr+Abl+Temp:зярдо WORD-END ;
+
+зяро+Adv+Interr:зяро WORD-END ;
+зяроксть+Adv+Interr+Qnt+Iter:зяроксть WORD-END ;
+зярс+Adv+Interr+Ill+Temp:зярс WORD-END ;
+
+зярдонь+A+Interr+Abl+Temp+Gen:зярдонь WORD-END ;
+знярдонь+A+Interr+Abl+Gen:знярдонь WORD-END ;
+знярдо+Adv+Interr+Temp+Abl:знярдо WORD-END ;
+зняро+Adv+Interr:зняро WORD-END ;
+
+зняросто+Adv+Interr+Temp+Ela:зняросто WORD-END ;
+знярс+Adv+Interr+Ill:знярс WORD-END ;
+зняро+Adv+Interr:зняро WORD-END ;
+зяро+Adv+Interr:зяро WORD-END ;
+
+кодамо+A+Interr+Nom+Sg:кодамо WORD-END ;
+кодамо+A+Interr+Nom+Pl:кодат WORD-END ;
+кодамо+A+Interr+Pl+Nom+Def:кодатнэ WORD-END ;
+кона+Det+Interr+Nom+Sg:кона WORD-END ;
+мезе+Pron+Interr+Nom+Sg:мезе WORD-END ;
+!мезень+Pron+Interr+Gen:мезень WORD-END ;
+мезе+Pron+Interr+Nom+Pl:мезть WORD-END ;
+мезе+Pron+Interr+Orth/PhonInfl+Nom+Pl:месть WORD-END ;
+мекс+Adv+Interr+Tra:мекс WORD-END ;
+!мезе+Pron+Interr+Abl:мезде WORD-END ;
+!мезе+Pron+Interr+Dat:мезнень WORD-END ;
+!мезе+Pron+Interr+Abl+Def:мезденть WORD-END ;
+!мезе+Pron+Interr+Ine:мейсэ WORD-END ;
+
+!мезе+Adn+Dep+Gen:мень WORD-END ; !This one cannot take prefix
+мезе+Pron+Interr+Com:мезнек WORD-END ;
+
+мезе+Pron+Interr:мезь REL/INTERR-PRON-CASES_ОШ ;
+
+!кодамо+Pron+Interr+Pl:кодатнэ Indef_Pronouns-Cases ;
+!кодамо+A+Interr:кодам Indef_Pronouns-Cases ;
+
+кона+Det+Interr:кона REL/INTERR-PRON-CASES ;
+
+
+LEXICON REL/INTERR-PRON-CASES
++Pl+Nom+Indef:%>тЬ2 WORD-END ; 
+
++SP+Ela:%>ст%{оэØ%} WORD-END ;
++SP+Ine:%>с%{оэØ%} WORD-END ;
++SP+Ill:%>с WORD-END ;
++SP+Dat:%>нень WORD-END ;
++SP+Abe:%>втО1мО1 WORD-END ;
++SP+Abl:%>дО1 WORD-END ;
++Ela+Gen:%>ст%{оэØ%}%>нь WORD-END ;
++Abl+Gen:%>дО1%>нь WORD-END ;
++Ine+Gen:%>с%{оэØ%}%>нь WORD-END ;
++SP+Gen:%>нь WORD-END ;
+!2009-09-29!+SP+Ine:%>с%{оэØ%} _КУДО-Tenses1 ;
++Ill:%>з%{оэØ%} WORD-END ;
++Ill:%>з%{оэØ%}нь WORD-END ;
+
++Sg+Nom+Def:%>сь WORD-END ;
++Sg+Gen+Def:%>нть WORD-END ;
++Sg+Dat+Def:%>нтень WORD-END ;
++Pl+Nom+Def:%>тне WORD-END ;
++Pl+Gen+Def:%>тне%>нь WORD-END ;
++Pl+Abl+Def:%>тне%>дО1 WORD-END ;
++Pl+Dat+Def:%>тне%>нень WORD-END ;
++Pl+Ine+Def:%>тне%>с%{оэØ%} WORD-END ;
++Pl+Ela+Def:%>тне%>ст%{оэØ%} WORD-END ;
++Pl+Ill+Def:%>тне%>с WORD-END ;
+
++Pl+Nom+PxPl1:%>нО1к WORD-END ;
++Pl+Nom+PxPl2:%>нк WORD-END ;
++Pl+Nom+PxPl3:%>ст WORD-END ;
+
+LEXICON REL/INTERR-PRON-CASES_ОШ
++Pl+Nom+Indef:%>тЬ2 WORD-END ; 
++SP+Ela+Indef:%>%{ОЕЭØ%}ст%{оэØ%} WORD-END ;
++SP+Ine+Indef:%>%{ОЕЭØ%}с%{оэØ%} WORD-END ;
++SP+Ill+Indef:%>%{ОЕЭØ%}с WORD-END ;
++SP+Tra+Indef:%>%{ОЕЭØ%}кс WORD-END ;
++SP+Dat+Indef:%>нень WORD-END ;
++SP+Abe+Indef:%>втО1мО1 WORD-END ;
++SP+Abl+Indef:%>дО1 WORD-END ;
++SP+Gen+Indef:%>%{ОЕЭØ%}нь WORD-END ;
++SP+Com+Indef:%>нек WORD-END ;
++Ela+Gen:%>%{ОЕЭØ%}ст%{оэØ%}%>нь WORD-END ;
++Abl+Gen:%>дО1%>нь WORD-END ;
++Ine+Gen:%>%{ОЕЭØ%}с%{оэØ%}%>нь WORD-END ;
+
+
++Sg+Nom+Def:%>%{ОЕЭØ%}сь WORD-END ;
++Sg+Gen+Def:%>%{ОЕЭØ%}нть WORD-END ;
++Sg+Dat+Def:%>%{ОЕЭØ%}нтень WORD-END ;
+
++Pl+Nom+Def:%>тне WORD-END ;
++Pl+Gen+Def:%>тне%>нь WORD-END ;
++Pl+Dat+Def:%>тне%>нень WORD-END ;
++Pl+Abl+Def:%>тне%>де WORD-END ;
++Pl+Ela+Def:%>тне%>стэ WORD-END ;
++Pl+Ine+Def:%>тне%>сэ WORD-END ;
++Pl+Ill+Def:%>тне%>с WORD-END ;
++Pl+Lat+Def:%>тне%>в WORD-END ;
++Pl+Tra+Def:%>тне%>кс WORD-END ;
++Pl+Abe+Def:%>тне%>втеме WORD-END ;
++Pl+Cmpr+Def:%>тне%>шка WORD-END ;
+
 
 
 ! vim: set ft=xfst-lexc:
