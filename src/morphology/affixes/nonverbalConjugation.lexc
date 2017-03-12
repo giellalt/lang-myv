@@ -3,9 +3,9 @@
 !! In the Erzya language nominals and adverbs also conjugate
 
 
-LEXICON DER/PR4_OBL
+LEXICON DER/COP4_OBL
 !! This is where adjectives get their plural T.
- DER/PR_SG ;
+ DER/COP_SG ;
  DER/COP-PRS-PL1 ;
  DER/COP-PRS-PL2 ;
  DER/COP-PRS-PL3 ;
@@ -13,8 +13,8 @@ LEXICON DER/PR4_OBL
  DER/COP-PRT2-PL2 ;
  DER/COP-PRT2-PL3 ;
 
-LEXICON DER/PR4_OBL-SC3
- DER/PR_SG ;
+LEXICON DER/COP4_OBL-SC3
+ DER/COP_SG ;
  DER/COP-PRS-PL1 ;
  DER/COP-PRS-PL2 ;
  DER/COP-PRS-PL3_ZERO ;
@@ -180,9 +180,9 @@ LEXICON _КИТ-Conjugation-4Poss
 
 LEXICON _КАЛ-NomSg-Conjugation
  K ;
- DER/PR_SG ;
+ DER/COP_SG ;
 
-LEXICON DER/PR_SG
+LEXICON DER/COP_SG
 !! _КАЛ-NomSg-Conjugation-only
  DER/COP-PRS-SG1 ;
  DER/COP-PRS-SG2 ;
@@ -200,28 +200,28 @@ LEXICON _КАЛ-NomPl-Conjugation-4Poss
  _КАЛ-NomPl-Conjugation-only-4Poss ;
 
 LEXICON _КАЛ-NomPl-Conjugation-only
- DER/PR_PL-MUTUAL ;
+ DER/COP_PL-MUTUAL ;
  DER/COP-PRS-PL3 ;
 
 LEXICON _КАЛ-NomPl-Conjugation-only-4Poss
- DER/PR_PL-MUTUAL ;
+ DER/COP_PL-MUTUAL ;
  DER/COP-PRS-PL3_ZERO ;
 
 
 
 LEXICON GEN-INDEF-4-Conjugation
- DER/PR_SG ;
- DER/PR_PL-MUTUAL ;
+ DER/COP_SG ;
+ DER/COP_PL-MUTUAL ;
  DER/COP-PRS-PL3_ZERO ;
  K ;
 
 LEXICON _КАЛ-Conjugation
- DER/PR_SG ;
+ DER/COP_SG ;
  _КАЛ-NomPl-Conjugation-only ;
  K ;
 
 LEXICON _КАЛ-Conjugation-4Poss
- DER/PR_SG ;
+ DER/COP_SG ;
  _КАЛ-NomPl-Conjugation-only-4Poss ;
  K ;
 
@@ -229,7 +229,7 @@ LEXICON _ОШ-NomSg-Conjugation
  _КАЛ-NomSg-Conjugation ;
 
 LEXICON _ОШ-Conjugation
- DER/PR_SG ;
+ DER/COP_SG ;
  _КАЛ-NomPl-Conjugation-only ;
  K ;
 
@@ -256,7 +256,7 @@ LEXICON _ПАНГО-NomPl-Conjugation
  _ПАНГО-NomPl-Conjugation-only ;
 
 LEXICON _ПАНГО-NomPl-Conjugation-only
- DER/PR_PL ;
+ DER/COP_PL ;
 
 LEXICON _ПАНГО-Conjugation
  _КУДО-Conjugation ;
@@ -270,26 +270,26 @@ LEXICON _КУДО-NomSg-Conjugation
 LEXICON _КУДО-NomSg-Conjugation-only
 +Der/Cop+Prs+ScSg1+Err/Orth+Dial:%>ян FOC-PCLE-OR-NOT ;
 +Der/Cop+Prs+ScSg2+Err/Orth+Dial:%>ят FOC-PCLE-OR-NOT ;
- DER/PR_SG ;
+ DER/COP_SG ;
 
 LEXICON _КУДО-NomPl-Conjugation
  K ;
- DER/PR_PL ;
+ DER/COP_PL ;
 
 LEXICON _КУДО-NomPl-Conjugation-4Poss
  K ;
  _КУДО-NomPl-Conjugation-only-4Poss ;
 
-LEXICON DER/PR_PL
+LEXICON DER/COP_PL
 !! _КУДО-NomPl-Conjugation-only
- DER/PR_PL-MUTUAL ;
+ DER/COP_PL-MUTUAL ;
  DER/COP-PRS-PL3 ;
 
 LEXICON _КУДО-NomPl-Conjugation-only-4Poss
- DER/PR_PL-MUTUAL ;
+ DER/COP_PL-MUTUAL ;
  DER/COP-PRS-PL3_ZERO ;
 
-LEXICON DER/PR_PL-MUTUAL
+LEXICON DER/COP_PL-MUTUAL
 !! _КУДО-NomPl-Conjugation-only-mutual
  DER/COP-PRS-PL1 ;
  DER/COP-PRS-PL2 ;
@@ -299,19 +299,19 @@ LEXICON DER/PR_PL-MUTUAL
 
 LEXICON _КУДО-Conjugation
  _КУДО-NomSg-Conjugation-only ;
- DER/PR_PL ;
+ DER/COP_PL ;
  K ;
 
 LEXICON _КУДО-Conjugation_FRONT
 ! harmony: front
  _КУДО-NomSg-Conjugation-only ;
- DER/PR_PL ;
+ DER/COP_PL ;
  K ;
 
 LEXICON _КУДО-Conjugation_BACK
 ! harmony: back
  _КУДО-NomSg-Conjugation-only ;
- DER/PR_PL ;
+ DER/COP_PL ;
  K ;
 
 LEXICON _КУДО-Conjugation-4Poss
