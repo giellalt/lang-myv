@@ -29,7 +29,7 @@ LEXICON ABE-ADJ
 LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 ! was GEN-A
 +Der/Онь: K ;
-+Der/Онь: DER/PR4_OBL-SC3 ; ! These need checking 2012-04-17
++Der/Онь: DER/COP4_OBL-SC3 ; ! These need checking 2012-04-17
 
 
 LEXICON A_ВЕЙКЕТЬ-PL
@@ -38,7 +38,7 @@ LEXICON A_ВЕЙКЕТЬ-PL
 LEXICON A_КИТ
 +A: K ;
 +A+Sg: K ;
-+A: DER/PR4_OBL ;
++A: DER/COP4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _КИТ-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -48,7 +48,7 @@ LEXICON A_КИТ
 LEXICON A_ЛАК
 +A: K ;
 +A+Sg: K ;
-+A: DER/PR4_OBL ;
++A: DER/COP4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _ЛАК-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -62,7 +62,7 @@ LEXICON A_КАЛ
  ADJ-TO-ADV ;
 +A: K ;
 +A+Sg: K ;
-+A: DER/PR4_OBL ;
++A: DER/COP4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 +A+Pl: _КАЛ-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -73,7 +73,7 @@ LEXICON A_ОШ
  ADJ-TO-ADV ;
 +A: K ;
 +A+Sg: K ;
-+A: DER/PR4_OBL ;
++A: DER/COP4_OBL ;
 +A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _КАЛ-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -138,7 +138,7 @@ LEXICON A_КУДО
 
 LEXICON A_КУДО_01
  K ;
- DER/PR4_OBL ; !! 2013-04-17
+ DER/COP4_OBL ; !! 2013-04-17
 +Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
 !2013-03-15!+Pl: _КУДО-NomPl-Conjugation-only ;
 +Pl:%>тЬ2 K ;

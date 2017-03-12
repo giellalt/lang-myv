@@ -268,7 +268,7 @@ LEXICON QNT_ЛАМО
 LEXICON QNT_КУДО
 +Det+Qnt: K ;
 +Det+Qnt+Der/MWN: N_КУДО ;
-+Det+Qnt: DER/PR4_OBL-SC3 ; ! ламольть
++Det+Qnt: DER/COP4_OBL-SC3 ; ! ламольть
 
 LEXICON QNT-ADN
 +Det+Qnt+Adn: WORD-END ;
@@ -347,7 +347,7 @@ LEXICON Quants2
 LEXICON Quants3
 !Cx PossPx Tx PredPx K
 !Cases1 Possessives1 Tenses1 PredPersons1 Ks
-+Indet+Sg+Nom: DER/PR_SG ;
++Indet+Sg+Nom: DER/COP_SG ;
 +Sg+Nom+PxSg3:%>%{ОЕЭØ%}з%{оэØ%} _КУДО-Tenses1 ;
 +Sg+Nom+PxSg3:%>з%{оэØ%} _КУДО-Tenses1 ;
 +Indet+Lat:%>%{ОЕЭØ%}в Ks ;
