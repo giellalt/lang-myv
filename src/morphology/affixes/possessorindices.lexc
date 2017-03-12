@@ -33,14 +33,14 @@ LEXICON _ОШ-PossPX1
 
 
 
-LEXICON POSSX4-END-FOC-DER/PR-SC3
+LEXICON POSSX4-END-FOC-DER/COP-SC3
 !! These are possessor indices that can be followed by predicate marking
 !! in the present there is no destinction between ScSg3 and ScPl3
 !! Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
 !!
 !POSSX4-END ; 2016-02-16
 OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-POSSX4-DER/PR-SC3 ;
+POSSX4-DER/COP-SC3 ;
 
 LEXICON POSSX4-END !!= * __@CODE@__ Word final possessor index, no subsequent clitic
 !! _КУДО-Possessive-Word-Final
@@ -65,13 +65,13 @@ LEXICON POSSX4-END-DAT
 +PxPl3:%>%{ОЕЭØ%}нст WORD-END ;
 !! Used with words like тензэ
 
-LEXICON POSSX4-DER/PR-SC3
+LEXICON POSSX4-DER/COP-SC3
 !! Conjugation
 +PxSg1:%>%{ОЕЭØ%}нЬ2 _КАЛ-Conjugation ;
 +PxSg1+Err/Orth+Dial/SE:%>%{ОЕЭØ%}м _КАЛ-Conjugation ;
 +PxSg2:%>%{ОЕЭØ%}тЬ2 _КИТ-Conjugation ;
 +PxSg2+Err/Orth+Dial/W:%>%{ОЕЭØ%}нтЬ2 _КИТ-Conjugation ;
-+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} DER/PR4_OBL-SC3 ;
++PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} DER/COP4_OBL-SC3 ;
 +PxPl1:%>%{ОЕЭØ%}нО1к _ЛАК-Conjugation ;
 +PxPl2:%>%{ОЕЭØ%}нк _ЛАК-Conjugation ;
 +PxPl3:%>%{ОЕЭØ%}ст _КИТ-Conjugation ;

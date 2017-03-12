@@ -78,10 +78,10 @@ LEXICON ADV/PO/PRON-SPAT_АЛО !!= @CODE@ ало:ал
 +Po+Spat+Loc:%>О1 K ;
 +Po+Spat+Prl:%>Г2а K ;
 +Po+Spat+Lat:%>%{ОЕЭØ%}в K ;
-+Pron+Spat+Abl:%>дО1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Pron+Spat+Loc:%>О1 POSSX4-END-FOC-DER/PR-SC3 ;
-+Pron+Spat+Prl:%>Г2а POSSX4-END-FOC-DER/PR-SC3 ;
-+Pron+Spat+Lat:%>О1 POSSX4-END-FOC-DER/PR-SC3 ;
++Pron+Spat+Abl:%>дО1 POSSX4-END-FOC-DER/COP-SC3 ;
++Pron+Spat+Loc:%>О1 POSSX4-END-FOC-DER/COP-SC3 ;
++Pron+Spat+Prl:%>Г2а POSSX4-END-FOC-DER/COP-SC3 ;
++Pron+Spat+Lat:%>О1 POSSX4-END-FOC-DER/COP-SC3 ;
 
 
 
@@ -95,11 +95,11 @@ LEXICON ADV-SPAT_АЛО !!= @CODE@ ало:ал
 
 LEXICON ADV-SPAT_каршо
 +Adv+Spat: K ;
-+Adv+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
++Adv+Spat: POSSX4-END-FOC-DER/COP-SC3 ;
 +Adv+Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON ADV-INE_КИСЭ
-+Adv+Ine: POSSX4-END-FOC-DER/PR-SC3 ;
++Adv+Ine: POSSX4-END-FOC-DER/COP-SC3 ;
 
 LEXICON PO-SPAT_каршо
 +Po+Spat: K ;
@@ -109,13 +109,13 @@ LEXICON ADV/PO/PRON-SPAT_
 !! relative space __мельга__
 +Adv+Spat: K ;
 +Po+Spat: K ;
-+Adv+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
++Adv+Spat: POSSX4-END-FOC-DER/COP-SC3 ;
 
 
 LEXICON PO/PRON-SPAT_
 !! relative space __мельга__
 +Po+Spat: K ;
-+Pron+Spat: POSSX4-END-FOC-DER/PR-SC3 ;
++Pron+Spat: POSSX4-END-FOC-DER/COP-SC3 ;
 
 
 
@@ -196,28 +196,28 @@ LEXICON SPAT-NoArg
 
 LEXICON ADV-IS-SPAT-ELA
 +Adv+Ela: K ;
-+Adv+Ela: DER/PR4_OBL ;
++Adv+Ela: DER/COP4_OBL ;
 
 LEXICON ADV-IS-SPAT-ILL
 +Adv+Ill: K ;
 
 LEXICON ADV-IS-SPAT-INE
 +Adv+Ine: K ;
-+Adv+Ine: DER/PR4_OBL ;
++Adv+Ine: DER/COP4_OBL ;
 
 LEXICON ADV-IS-SPAT-LAT
 +Adv+Lat: K ;
 
 LEXICON ADV-IS-SPAT-PRL
 +Adv+Prl: K ;
-+Adv+Prl: DER/PR4_OBL ;
++Adv+Prl: DER/COP4_OBL ;
 
 LEXICON SPAT-Interr
 +Interr+Spat: WORD-END ;
 
 LEXICON ADV-INTERR-IS-SPAT-INE
 +Adv+Interr+Ine: K ;
-+Adv+Interr+Ine: DER/PR4_OBL ;
++Adv+Interr+Ine: DER/COP4_OBL ;
 
 LEXICON ADV-INTERR-IS-SPAT-ELA
 +Adv+Interr+Ela: K ;
