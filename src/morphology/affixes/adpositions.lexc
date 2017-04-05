@@ -14,7 +14,7 @@ LEXICON PO_ПАНГО-INE3
 +Po+Ill:%>О1%>с K ;
 +Po+Ill:%>%{ОЕЭØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
-LEXICON PO_ОШ-INE4
+LEXICON PO_OSH-INE4
 !!вакссо:вакс
 +Po+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-DER/COP-SC3 ;
 +Po+Ine:%>О1%>с%{оэØ%} PO_POSS-or-END-FOC-DER/COP-SC3 ;
@@ -25,23 +25,23 @@ LEXICON PO_ОШ-INE4
 +Po+Ill:%>%{ОЕЭØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Prl:%>Г2а PO_POSS-or-END-FOC-DER/COP-SC3 ;
 
-LEXICON PO_КАЛ-LOC
+LEXICON PO_KAL-LOC
 !! ало:ал
 !! alo-SPAT-1Arg
 +Po+Spat+Abl:%>дО1 K ;
 +Po+Spat+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Spat+Loc:%>О1 K ; 
 +Po+Spat+Loc:%>О1 OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Po+Spat+Lat:%>%{ОЕЭØ%}в _КУДО-Possessive-Before-K ;
+!+Po+Spat+Lat:%>%{ОЕЭØ%}в _KUDO-Possessive-Before-K ;
 +Po+Spat+Prl:%>Г2а K ;
 +Po+Spat+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-+Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _КУДО-N2-Def-Declension ;
-+Po+Spat+Loc+Der/се:%>се _КУДО-N2-Def-Declension ;
-+Po+Spat+Der/кс:%>кс N_ОШ ;
++Po+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _KUDO-N2-Def-Declension ;
++Po+Spat+Loc+Der/се:%>се _KUDO-N2-Def-Declension ;
++Po+Spat+Der/кс:%>кс N_OSH ;
 +Po+Spat+Lat:%>%{ОЕЭØ%}в K ;
-+Po+Spat+Abl:%>дО1 _КУДО-N2-Def-Declension ;
-+Po+Spat+Loc+Der/MWN+N:%>О1 _КУДО-N2-Def-Declension ; 
-+Po+Spat+Prl+Der/MWN+N:%>Г2а _КУДО-N2-Def-Declension ;
++Po+Spat+Abl:%>дО1 _KUDO-N2-Def-Declension ;
++Po+Spat+Loc+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ; 
++Po+Spat+Prl+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
 
 LEXICON PO_POSS-or-END-FOC
 !! This allows for possessor indices, word end or focus
@@ -167,8 +167,8 @@ LEXICON PO-TEMP-IS-ELA
 
 LEXICON ejs-PO
 эйсэ+Po+Ill:эйс K ;
-эйсэ+Po+Ine:эйсэ _КУДО-Conjugation ;
-эйсэ+Po+Ela:эйстэ _КУДО-Conjugation ;
+эйсэ+Po+Ine:эйсэ _KUDO-Conjugation ;
+эйсэ+Po+Ela:эйстэ _KUDO-Conjugation ;
 эйсэ+Po+Ill:эйз OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 эйсэ+Po+Ine:эйсэ POSSX4-END-FOC-DER/COP-SC3 ;
 эйсэ+Po+Ela:эйстэ POSSX4-END-FOC-DER/COP-SC3 ;
@@ -176,8 +176,8 @@ LEXICON ejs-PO
 
 LEXICON PO_МАРТО
 +Po+COM: K ;
-+Po+COM: _КУДО-Possessives2 ; 
-+Po+Der/MWN: N_КУДО ;
++Po+COM: _KUDO-Possessives2 ; 
++Po+Der/MWN: N_KUDO ;
 
 !! Postpositions attr
 LEXICON POSTP-IS-ATTR_КОНДЯМО !! кондямо:кондя
@@ -188,11 +188,11 @@ LEXICON POSTP-IS-ATTR_КОНДЯМО !! кондямо:кондя
 +Po+Attr+Der/MWN: NMN_DEF-PL-DECLENSION-ТНЭ ;
 
 
-LEXICON PO_КУДО-ILL
+LEXICON PO_KUDO-ILL
 +Po+Ill:%>с K ;
 +Po+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
-LEXICON PO_ОШ-ILL
+LEXICON PO_OSH-ILL
 +Po+Ill:%>с K ;
 +Po+Ill:%>%{ОЕЭØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
@@ -203,32 +203,32 @@ LEXICON Postp-karsho
 
 LEXICON vaksso-SPAT
  malaso-SPAT ;
-+Po+Ela:%>О1%>ст%{оэØ%} _КУДО-Conjugation ;
++Po+Ela:%>О1%>ст%{оэØ%} _KUDO-Conjugation ;
 +Po+Ill:%>О1%>с K ;
-+Po+Ine:%>О1%>с%{оэØ%} _КУДО-Conjugation ;
++Po+Ine:%>О1%>с%{оэØ%} _KUDO-Conjugation ;
 +Po+Ill:%>%{ОЕЭØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON jutkso-SPAT
 +Po+Prl:%>О1%>Г2а POSSX4-END-FOC-DER/COP-SC3 ;
-+Po+Prl:%>О1%>Г2а _КУДО-Conjugation ;
++Po+Prl:%>О1%>Г2а _KUDO-Conjugation ;
  langso-SPAT ;
 
 LEXICON langso-SPAT
-+Po+Ela:%>ст%{оэØ%} _КУДО-Conjugation ;
++Po+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
 +Po+Ill:%>с K ;
 +Po+Lat:%>%{ОЕЭØ%}в K ;
-+Po+Ine:%>с%{оэØ%} _КУДО-Conjugation ;
++Po+Ine:%>с%{оэØ%} _KUDO-Conjugation ;
 +Po+Ela:%>ст%{оэØ%} POSSX4-END-FOC-DER/COP-SC3 ;
 +Po+Ill:%>О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Ine:%>с%{оэØ%} POSSX4-END-FOC-DER/COP-SC3 ;
 
-LEXICON PO_КУДО-INE5
+LEXICON PO_KUDO-INE5
 !! malaso:mala
 +Po+Ela:%>ст%{оэØ%} POSSX4-END-FOC-DER/COP-SC3 ;
 +Po+Ill:%>О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Po+Ine:%>с%{оэØ%} POSSX4-END-FOC-DER/COP-SC3 ;
 +Po+Prl:%>Г2а POSSX4-END-FOC-DER/COP-SC3 ;
-+Po+Lat:%>в _КУДО-Conjugation ;
++Po+Lat:%>в _KUDO-Conjugation ;
 
 
 ! This contlex allows for relational word which, otherwise, are open 
