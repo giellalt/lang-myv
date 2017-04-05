@@ -14,17 +14,17 @@ LEXICON DET-DEM_АЛЦЕ
 +Det: WORD-END ;
 
 LEXICON A_RU-ОЙ
-+Use/SpellNoSugg:ой A_КАЛ ;
++Use/SpellNoSugg:ой A_KAL ;
 
 LEXICON A_INT-ОЙ
-+Use/SpellNoSugg:ой A_КАЛ ;
++Use/SpellNoSugg:ой A_KAL ;
 
 LEXICON ABE-ADJ
-+Der/ВтОмО: A_КУДО ;
++Der/ВтОмО: A_KUDO ;
 
 ! 2012-04-03 These do not exist in present dictionary
 !LEXICON COMP-A
-!+Der/шка: A_КУДО ;
+!+Der/шка: A_KUDO ;
 
 LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 ! was GEN-A
@@ -33,51 +33,51 @@ LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 
 
 LEXICON A_ВЕЙКЕТЬ-PL
- A_КИТ ;
+ A_KIT ;
 
-LEXICON A_КИТ
+LEXICON A_KIT
 +A+Attr: K ;
 +A+Sg: K ;
 +A: DER/COP4_OBL ;
-+A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
-!2013-03-15!+A+Pl: _КИТ-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+A+Pl: _KIT-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_КИТ ;
++A+Der/MWN: N_KIT ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_ЛАК
 +A+Attr: K ;
 +A+Sg: K ;
 +A: DER/COP4_OBL ;
-+A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _ЛАК-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
 +A+Der/MWN: N_ЛАК ;
 +A:%> N2Dem-SE ;
 
-LEXICON A_КАЛ_Sub
-+Err/Orth: A_КАЛ ;
+LEXICON A_KAL_Sub
++Err/Orth: A_KAL ;
 
-LEXICON A_КАЛ
+LEXICON A_KAL
  ADJ-TO-ADV ;
 +A+Attr: K ;
 +A+Sg: K ;
 +A: DER/COP4_OBL ;
-+A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
-+A+Pl: _КАЛ-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++A+Pl: _KAL-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_КАЛ ;
++A+Der/MWN: N_KAL ;
 +A:%> N2Dem-SE ;
 
-LEXICON A_ОШ
+LEXICON A_OSH
  ADJ-TO-ADV ;
 +A+Attr: K ;
 +A+Sg: K ;
 +A: DER/COP4_OBL ;
-+A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
-!2013-03-15!+A+Pl: _КАЛ-NomPl-Conjugation-only ;
++A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+A+Pl: _KAL-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_ОШ ;
++A+Der/MWN: N_OSH ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_ТЕШТЕ
@@ -112,7 +112,7 @@ LEXICON Adj-pango-tinge
 +A+Attr: K ;
 +A+Sg: K ;
 +A: _ПАНГО-NomSg-Conjugation ;
-+A+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
++A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 +A+Pl: _ПАНГО-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
 
@@ -120,29 +120,29 @@ LEXICON ActDemPrc-A
 +Der/Ыця+Act+DemPrc:%>%{иы%}ця K ;
 +Der/Ыця+Act+DemPrc+Sg:%>%{иы%}ця K ;
 +Der/Ыця+Act+DemPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
-+Der/Ыця+Act+DemPrc+Der/MWN:%>%{иы%}ця N_КУДО ;
++Der/Ыця+Act+DemPrc+Der/MWN:%>%{иы%}ця N_KUDO ;
 
 
 LEXICON A_ВЕЛЕ
- A_КУДО        ;
-LEXICON A_КУДО_SUB
-+Err/Orth: A_КУДО	;
+ A_KUDO        ;
+LEXICON A_KUDO_SUB
++Err/Orth: A_KUDO	;
 
-LEXICON A_КУДО
+LEXICON A_KUDO
  ADJ-TO-ADV ;
 +A+Attr: K ;
 +A+Sg: K ;
 +A+Pl:%>тЬ2 K ;
-+A: A_КУДО_01 ;
++A: A_KUDO_01 ;
 +A:%> N2Dem-SE ;
 
-LEXICON A_КУДО_01
+LEXICON A_KUDO_01
  K ;
  DER/COP4_OBL ; !! 2013-04-17
-+Pl:%>тЬ2 _КИТ-NomPl-Conjugation ;
-!2013-03-15!+Pl: _КУДО-NomPl-Conjugation-only ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KUDO-NomPl-Conjugation-only ;
 +Pl:%>тЬ2 K ;
-+Der/MWN: N_КУДО ;
++Der/MWN: N_KUDO ;
 
 
 LEXICON Adj-InterrRel ! кодамо
@@ -160,18 +160,18 @@ LEXICON ADJ_КОДАМО !! кодамо:кода
 +Der/MWN: NMN_DEF-PL-DECLENSION-ТНЭ ;
 
 
-LEXICON DET_КУДО
+LEXICON DET_KUDO
 +Det: K ;
 +Det+Sg: K ;
 +Det+Pl:%>тЬ2 K ;
-+Det+Der/MWN: N_КУДО ;
++Det+Der/MWN: N_KUDO ;
 
 
-LEXICON DET_ОШ
+LEXICON DET_OSH
 +Det+Attr: K ;
 +Det+Sg: K ;
 +Det+Pl:%>тЬ2 K ;
-+Det+Der/MWN: N_ОШ ;
++Det+Der/MWN: N_OSH ;
 
 
 LEXICON Adj-Dem ! истямо
