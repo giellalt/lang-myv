@@ -5,9 +5,13 @@
   [ %<clb%> -> %<elip%> || %… _ ] .o.
   [ %<clb%> -> %<sent%> || %. _ ] .o.
   [ %<clb%> -> %<sent%> || %? _ ] .o.
-  [ %<der%_pr%> %<v%> -> %+e%<cop%> ] .o.
+  [ %<cc%> -> %<cnjcoo%> ] .o.
+  [ %<cs%> -> %<cnjsub%> ] .o.
+  [ %<der%_mwn%> %<n%> -> %<subst%> ] .o.
+  [ %<der%_cop%> %<v%> -> %+э%<cop%> ] .o.
   [ %<n%> %<prop%> -> %<np%> ] .o.
   [ %<n%> %<sem%_mal%> %<prop%> -> %<np%> %<ant%> %<m%> ] .o.
   [ %+naj%<pcle%> %<qst%> -> %<qst%> %+naj%<pcle%> ] .o.
+  [ %<punct%> -> %<quot%> || %" _ ] .o.
   [ %- -> %<guio%>                                 || [ %<cmp%> ] _ ]
 ];
