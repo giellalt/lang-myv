@@ -1,17 +1,100 @@
 [
-  [ %<clb%> -> %<cm%> || %, _ ] .o.
-  [ %^excl %<clb%> -> %! %<sent%> ] .o.
-  [ %<clb%> -> %<elip%> || %.%.%. _ ] .o.
-  [ %<clb%> -> %<elip%> || %… _ ] .o.
-  [ %<clb%> -> %<sent%> || %. _ ] .o.
-  [ %<clb%> -> %<sent%> || %? _ ] .o.
+  [ "<n>" "<prop>" "<sem_plc>" -> "<np>" "<top>" ] .o.
+  [ %<n%> %<prop%> -> %<np%> ]
+  [ %<sem%_fem%> -> %<ant%> %<f%>  ] .o.
+  [ %<sem%_mal%> -> %<ant%> %<m%>  ] .o.
+  [ %<sem%_sur%> -> %<cog%>  ] .o.
+  [ "<scsg1>" "<ocsg2>" -> "<a_sg1>" "<o_sg2>" ] .o.
+  [ "<scsg1>" "<ocsg3>" -> "<a_sg1>" "<o_sg3>" ] .o.
+  [ "<scsg1>" "<ocpl2>" -> "<a_sg1>" "<o_pl2>" ] .o.
+  [ "<scsg1>" "<ocpl3>" -> "<a_sg1>" "<o_pl3>" ] .o.
+  [ "<scsg2>" "<ocsg1>" -> "<a_sg2>" "<o_sg1>" ] .o.
+  [ "<scsg2>" "<ocsg3>" -> "<a_sg2>" "<o_sg3>" ] .o.
+  [ "<scsg2>" "<ocpl1>" -> "<a_sg2>" "<o_pl1>" ] .o.
+  [ "<scsg2>" "<ocpl3>" -> "<a_sg2>" "<o_pl3>" ] .o.
+  [ "<scsg3>" "<ocsg1>" -> "<a_sg3>" "<o_sg1>" ] .o.
+  [ "<scsg3>" "<ocsg2>" -> "<a_sg3>" "<o_sg2>" ] .o.
+  [ "<scsg3>" "<ocsg3>" -> "<a_sg3>" "<o_sg3>" ] .o.
+  [ "<scsg3>" "<ocpl1>" -> "<a_sg3>" "<o_pl1>" ] .o.
+  [ "<scsg3>" "<ocpl2>" -> "<a_sg3>" "<o_pl2>" ] .o.
+  [ "<scsg3>" "<ocpl3>" -> "<a_sg3>" "<o_pl3>" ] .o.
+  [ "<scpl1>" "<ocsg2>" -> "<a_pl1>" "<o_sg2>" ] .o.
+  [ "<scpl1>" "<ocsg3>" -> "<a_pl1>" "<o_sg3>" ] .o.
+  [ "<scpl1>" "<ocpl2>" -> "<a_pl1>" "<o_pl2>" ] .o.
+  [ "<scpl1>" "<ocpl3>" -> "<a_pl1>" "<o_pl3>" ] .o.
+  [ "<scpl2>" "<ocsg1>" -> "<a_pl2>" "<o_sg1>" ] .o.
+  [ "<scpl2>" "<ocsg3>" -> "<a_pl2>" "<o_sg3>" ] .o.
+  [ "<scpl2>" "<ocpl1>" -> "<a_pl2>" "<o_pl1>" ] .o.
+  [ "<scpl2>" "<ocpl3>" -> "<a_pl2>" "<o_pl3>" ] .o.
+  [ "<scpl3>" "<ocsg1>" -> "<a_pl3>" "<o_sg1>" ] .o.
+  [ "<scpl3>" "<ocsg2>" -> "<a_pl3>" "<o_sg2>" ] .o.
+  [ "<scpl3>" "<ocsg3>" -> "<a_pl3>" "<o_sg3>" ] .o.
+  [ "<scpl3>" "<ocpl1>" -> "<a_pl3>" "<o_pl1>" ] .o.
+  [ "<scpl3>" "<ocpl2>" -> "<a_pl3>" "<o_pl2>" ] .o.
+  [ "<scpl3>" "<ocpl3>" -> "<a_pl3>" "<o_pl3>" ] .o.
+  [ "<scsg1>"        -> "<s_sg1>" ] .o.
+  [ "<scsg2>"        -> "<s_sg2>" ] .o.
+  [ "<scsg3>"        -> "<s_sg3>" ] .o.
+  [ "<scpl1>"        -> "<s_pl1>" ] .o.
+  [ "<scpl2>"        -> "<s_pl2>" ] .o.
+  [ "<scpl3>"        -> "<s_pl3>" ] .o.
+  [ "<po>"         -> "<post>" ] .o.
+  [ "<pxsg1>"      -> "<px1sg>" ] .o.
+  [ "<pxsg2>"      -> "<px2sg>" ] .o.
+  [ "<pxsg3>"      -> "<px3sg>" ] .o.
+  [ "<pxpl1>"      -> "<px1pl>" ] .o.
+  [ "<pxpl2>"      -> "<px2pl>" ] .o.
+  [ "<pxpl3>"      -> "<px3pl>" ] .o.
+  [ "#"            ->	"+" ] .o.
   [ %<cc%> -> %<cnjcoo%> ] .o.
   [ %<cs%> -> %<cnjsub%> ] .o.
+  [ "<hom1>"      ->	"¹" ,
+    "<hom2>"      ->	"²" ,
+    "<hom3>"      ->	"³" ,
+    "<hom4>"      ->	"⁴" ,
+    "<hom5>"      ->	"⁵" ,
+    "<hom6>"      ->	"⁶" ,
+    "<hom7>"      ->	"⁷" ,
+    "<hom8>"      ->	"⁸" ,
+    "<hom9>"      ->	"⁹" ,
+    "<pron>"      ->	"<prn>" ,
+    "<superl>"    ->	"<sup>" ,
+    "<v>"         ->	"<vblex>" ,
+    "<interr>"    ->	"<itg>" ,
+    "<prs>"       ->	"<pres>" ,
+    "<imprt>"     ->	"<imp>" ,
+    "<prt1>"       ->	"<pret1>" ,
+    "<prt2>"       ->	"<pret2>" ,
+    "<a>"         ->	"<adj>" ,
+    "<refl>"      ->	"<ref>" ,
+    "<interj>"    ->	"<ij>" ,
+    "<indef>"     ->	"<ind>" ,
+    "<ind>"       ->	"<indic>" ,
+    "<inan>"      ->	"<nn>" ,
+    "<comma>"     ->	"<cm>" ,
+    "<cmpnd>"     ->	"<cmp>" ,
+    "<cmpar>"     ->	"<comp>" ,
+    "<recipr>"    ->	"<res>" ] .o.
+  [ %<der%_cop%> %<vblex%> -> %+э%<cop%> ] .o.
+  [ %<foc%_Гак%> -> %+как%<adv%> ] .o.
   [ %<der%_mwn%> %<n%> -> %<subst%> ] .o.
-  [ %<der%_cop%> %<v%> -> %+э%<cop%> ] .o.
-  [ %<n%> %<prop%> -> %<np%> ] .o.
-  [ %<n%> %<sem%_mal%> %<prop%> -> %<np%> %<ant%> %<m%> ] .o.
-  [ %+naj%<pcle%> %<qst%> -> %<qst%> %+naj%<pcle%> ] .o.
-  [ %<punct%> -> %<quot%> || %" _ ] .o.
-  [ %- -> %<guio%>                                 || [ %<cmp%> ] _ ]
-];
+  [ "^"          ->		0 ] .o.
+  [ {excl} "<clb>" -> "!" "<sent>" ] .o.
+  [ {pipe} "<clb>" -> "|" "<sent>" ] .o.
+  [ "<clb>"   -> "<cm>"   || "," _ ] .o.
+  [ "<clb>"   -> "<sent>" || "." _ ] .o.
+  [ "<clb>"   -> "<sent>" || "…" _ ] .o.
+  [ "<clb>"   -> "<sent>" || {..} _ ] .o.
+  [ "<clb>"   -> "<sent>" || {...} _ ] .o.
+  [ "<clb>"   -> "<sent>" || "¿" _ ] .o.
+  [ "<clb>"   -> "<sent>" || "¶" _ ] .o.
+  [ "<clb>"   -> "<sent>" || "?" _ ] .o.
+  [ "<clb>"   -> "<sent>" || ":" _ ] .o.
+  [ "<clb>"   -> "<sent>" || ";" _ ] .o.
+  [ "<punct>" -> "<guio>" || "-" _ ] .o.
+  [ "-"       -> "<guio>" || [ "<cmp>" ] _ ] .o.
+  [ "<punct>" "<left>"  -> "<lquot>"  ]
+  [ "<punct>" "<right>" -> "<rquot>" ]
+  [ "<punct>" -> "<quot>" || %" _ ]
+] ;
+
