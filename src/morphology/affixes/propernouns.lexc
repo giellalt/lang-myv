@@ -155,9 +155,9 @@ LEXICON PROP-PLC_KIT
 +N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_KIT ;
 
-LEXICON PROP-PLC_OSH
-+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_OSH ;
+!LEXICON PROP-PLC_OSH
+!+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
+!+N+Prop+Sem/Plc: NMN_OSH ;
 
 LEXICON PROP-PLC_KUDO
 +N+Prop+Sem/Plc:%> LAT-INDEF ;
@@ -230,11 +230,11 @@ LEXICON PROP_ТЕШТЕ_CONSTELLATION
 !!!!!!!!!!!!!!!!
 !! TEXT NAMES !!
 !!!!!!!!!!!!!!!!
-LEXICON PROP_KAL_TXT
-+N+Prop+Sem/Txt: NMN_KAL ;
+!LEXICON PROP_KAL_TXT
+!+N+Prop+Sem/Txt: NMN_KAL ;
 
-LEXICON PROP_OSH_TXT
-+N+Prop+Sem/Txt: NMN_OSH ;
+!LEXICON PROP_OSH_TXT
+!+N+Prop+Sem/Txt: NMN_OSH ;
 
 LEXICON PROP_KUDO_TXT
 +N+Prop+Sem/Txt: NMN_KUDO ;
@@ -242,8 +242,8 @@ LEXICON PROP_KUDO_TXT
 !!!!!!!!!!!!!!
 !! HOLIDAYS !!
 !!!!!!!!!!!!!!
-LEXICON PROP_KAL_HOLIDAY
-+N+Prop+Event: NMN_KAL ;
+!LEXICON PROP_KAL_HOLIDAY
+!+N+Prop+Event: NMN_KAL ;
 
 LEXICON PROP_OSH_HOLIDAY
 +N+Prop+Event: NMN_OSH ;
@@ -258,8 +258,8 @@ LEXICON PROP_KUDO_HOLIDAY
 LEXICON PROP_KAL_RIVERS
 +N+Prop+Rvr: NMN_KAL ;
 
-LEXICON PROP_OSH_RIVERS
-+N+Prop+Rvr: NMN_OSH ;
+!LEXICON PROP_OSH_RIVERS
+!+N+Prop+Rvr: NMN_OSH ;
 
 LEXICON PROP_KUDO_RIVERS
 +N+Prop+Rvr: NMN_KUDO ;
@@ -287,8 +287,8 @@ LEXICON PROP_OSH
 LEXICON PROP_ТЕШТЕ
  N_ПАНГО ;
 
-LEXICON PROP_ТИНГЕ
- N_ПАНГО ;
+!LEXICON PROP_ТИНГЕ
+! N_ПАНГО ;
 
 LEXICON PROP_ПАНГО
 +N+Prop: N_ПАНГО-Derivation ;
@@ -328,14 +328,14 @@ LEXICON PROP_KIT_MAL
 LEXICON PROP_OSH_MAL
 +Sem/Ant_Mal+N+Prop: NMN_OSH ;
 
-LEXICON PROP_ТЕШТЕ_MAL
- PROP_ПАНГО_MAL ;
+!LEXICON PROP_ТЕШТЕ_MAL
+! PROP_ПАНГО_MAL ;
 
-LEXICON PROP_ТИНГЕ_MAL
- PROP_ПАНГО_MAL ;
+!LEXICON PROP_ТИНГЕ_MAL
+! PROP_ПАНГО_MAL ;
 
-LEXICON PROP_ПАНГО_MAL
-+Sem/Ant_Mal+N+Prop: NMN_ПАНГО ;
+!LEXICON PROP_ПАНГО_MAL
+!+Sem/Ant_Mal+N+Prop: NMN_ПАНГО ;
 
 LEXICON PROP_KUDO_MAL
 +Sem/Ant_Mal+N+Prop: NMN_KUDO ;
@@ -343,8 +343,8 @@ LEXICON PROP_KUDO_MAL
 LEXICON PROP_KAL_FEM
 +Sem/Ant_Fem+N+Prop: NMN_KAL ;
 
-LEXICON PROP_ЛАК_FEM
-+Sem/Ant_Fem+N+Prop: NMN_ЛАК ;
+!LEXICON PROP_ЛАК_FEM
+!+Sem/Ant_Fem+N+Prop: NMN_ЛАК ;
 
 LEXICON PROP_KIT_FEM
 +Sem/Ant_Fem+N+Prop: NMN_KIT ;
@@ -353,14 +353,14 @@ LEXICON PROP_KIT_FEM
 LEXICON PROP_OSH_FEM
 +Sem/Ant_Fem+N+Prop: NMN_OSH ;
 
-LEXICON PROP_ТЕШТЕ_FEM
- PROP_ПАНГО_FEM ;
+!LEXICON PROP_ТЕШТЕ_FEM
+! PROP_ПАНГО_FEM ;
 
-LEXICON PROP_ТИНГЕ_FEM
- PROP_ПАНГО_FEM ;
+!LEXICON PROP_ТИНГЕ_FEM
+! PROP_ПАНГО_FEM ;
 
-LEXICON PROP_ПАНГО_FEM
-+Sem/Ant_Fem+N+Prop: NMN_ПАНГО ;
+!LEXICON PROP_ПАНГО_FEM
+!+Sem/Ant_Fem+N+Prop: NMN_ПАНГО ;
 
 LEXICON PROP_KUDO_FEM
 +Sem/Ant_Fem+N+Prop: NMN_KUDO ;
@@ -385,11 +385,11 @@ LEXICON PROP_KUDO-PL
 +N+Prop: _KUDO-Indef-Declension ;
 +N+Prop: N_KUDO-Poss-Declension-CX-PL ;
 
-LEXICON PROP_KUDO_SUB
-+Err/Orth: PROP_KUDO ;
+!LEXICON PROP_KUDO_SUB
+!+Err/Orth: PROP_KUDO ;
 
-LEXICON PROP_KUDO_SH
-+Use/Short: PROP_KUDO ;
+!LEXICON PROP_KUDO_SH
+!+Use/Short: PROP_KUDO ;
 
 
 ! vim: set ft=xfst-lexc:

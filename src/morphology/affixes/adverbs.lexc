@@ -6,8 +6,8 @@
 ! These _states_ can conjugate,
 ! a distinctive feature
 !
-LEXICON AdvState-kudo_Sub
-+Err/Orth: AdvState-kudo ; 
+!LEXICON AdvState-kudo_Sub
+!+Err/Orth: AdvState-kudo ; 
 
 LEXICON AdvState-kudo
 +Adv+State: K ;
@@ -105,11 +105,11 @@ LEXICON PO-SPAT_каршо
 +Po+Spat: K ;
 
 
-LEXICON ADV/PO/PRON-SPAT_
-!! relative space __мельга__
-+Adv+Spat: K ;
-+Po+Spat: K ;
-+Adv+Spat: POSSX4-END-FOC-DER/COP-SC3 ;
+!LEXICON ADV/PO/PRON-SPAT_
+!!! relative space __мельга__
+!+Adv+Spat: K ;
+!+Po+Spat: K ;
+!+Adv+Spat: POSSX4-END-FOC-DER/COP-SC3 ;
 
 
 LEXICON PO/PRON-SPAT_
@@ -138,14 +138,14 @@ LEXICON Exclusive !
 LEXICON ADV-PARENTHETIC_ ! 
 +Adv+Parenthetic: K ;
 
-LEXICON ADV_-ELA ! 
-+Adv+Ela: K ;
+!LEXICON ADV_-ELA ! 
+!+Adv+Ela: K ;
 
 LEXICON Adv-Ine ! 
 +Adv+Ine: K ;
 
-LEXICON Adv-Tra ! 
-+Adv+Tra: K ;
+!LEXICON Adv-Tra ! 
+!+Adv+Tra: K ;
 
 LEXICON ADV_-TRA ! 
 +Adv+Tra: K ;
@@ -168,22 +168,23 @@ LEXICON ADV-IS-INTERR-MANNER
 !LEXICON Manner-Interr ! 
 ! ADV-IS-INTERR-MANNER ;
 
-LEXICON	PRED2-OBJ_KUDO !! "апак прядо"
-+Pred2: K ;
-+Pred2+Der/MWN: N_KUDO ;
+!LEXICON	PRED2-OBJ_KUDO !! "апак прядо"
+!+Pred2: K ;
+!+Pred2+Der/MWN: N_KUDO ;
 
-LEXICON	PRED2-OBJ_OSH
-+Pred2: K ;
-+Pred2+Der/MWN: N_OSH ;
+!LEXICON	PRED2-OBJ_OSH
+!+Pred2: K ;
+!+Pred2+Der/MWN: N_OSH ;
 
 LEXICON PRED2-SUBJ_KUDO_Sub !!
 +Err/Orth: PRED2-SUBJ_KUDO ;
 LEXICON PRED2-SUBJ_KUDO !! "стядо"
 +Pred2: K ;
 +Pred2+Der/MWN: N_KUDO ;
-LEXICON PRED2-SUBJ_OSH
-+Pred2: K ;
-+Pred2+Der/MWN: N_OSH ;
+
+!LEXICON PRED2-SUBJ_OSH
+!+Pred2: K ;
+!+Pred2+Der/MWN: N_OSH ;
 
 LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 +Pred2: K ;
@@ -212,8 +213,8 @@ LEXICON ADV-IS-SPAT-PRL
 +Adv+Prl: K ;
 +Adv+Prl: DER/COP4_OBL ;
 
-LEXICON SPAT-Interr
-+Interr+Spat: WORD-END ;
+!LEXICON SPAT-Interr
+!+Interr+Spat: WORD-END ;
 
 LEXICON ADV-INTERR-IS-SPAT-INE
 +Adv+Interr+Ine: K ;
@@ -249,8 +250,8 @@ LEXICON TEMP_
 
 !! This marking would indicate a word form that may be 
 !  construed as an adv as well as a adposition.
-LEXICON Temp-NoArg
-+Adv+Temp: K ;
+!LEXICON Temp-NoArg
+!+Adv+Temp: K ;
 
 LEXICON Temp-Coll
 +Coll+Adv+Temp: K ;
