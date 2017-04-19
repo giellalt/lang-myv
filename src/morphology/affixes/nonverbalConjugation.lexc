@@ -102,8 +102,8 @@ LEXICON _KAL-Conjugation-4Inf
  DER/COP-PRT2-PL3 ;
 
 
-LEXICON Tenses1_Prep-SG
-@P.NUM.SG@ Tenses1 ;
+!LEXICON Tenses1_Prep-SG
+!@P.NUM.SG@ Tenses1 ;
 
 LEXICON _OSH-Tenses1_Prep-SG
 @P.NUM.SG@ _OSH-Tenses1 ;
@@ -112,17 +112,17 @@ LEXICON _KUDO-Tenses1_Prep-SG
 @P.NUM.SG@ _KUDO-Tenses1 ;
 
 
-LEXICON Tenses1_A
- DER/COP-PRS-SG1 ;
- DER/COP-PRS-SG2 ;
- DER/COP-PRS-PL1 ;
- DER/COP-PRS-PL2 ;
- DER/COP-PRT2-SG1 ;
- DER/COP-PRT2-SG2 ;
- DER/COP-PRT2-SG3 ;
- DER/COP-PRT2-PL1 ;
- DER/COP-PRT2-PL2 ;
- DER/COP-PRT2-PL3 ;
+!LEXICON Tenses1_A
+! DER/COP-PRS-SG1 ;
+! DER/COP-PRS-SG2 ;
+! DER/COP-PRS-PL1 ;
+! DER/COP-PRS-PL2 ;
+! DER/COP-PRT2-SG1 ;
+! DER/COP-PRT2-SG2 ;
+! DER/COP-PRT2-SG3 ;
+! DER/COP-PRT2-PL1 ;
+! DER/COP-PRT2-PL2 ;
+! DER/COP-PRT2-PL3 ;
 
 !! !!!NON-VERB CONJUGATION 
 
@@ -136,13 +136,13 @@ LEXICON _ЛАК-NomSg-Conjugation
  NounEnd_K-lak  ;
 +Der/Cop+Prs+ScSg3: NounEnd_K-lak ;
 
-LEXICON _ЛАК-NomPl-Conjugation
- _KAL-NomPl-Conjugation ;
- NounEnd_K-lak  ;
+!LEXICON _ЛАК-NomPl-Conjugation
+! _KAL-NomPl-Conjugation ;
+! NounEnd_K-lak  ;
 
-LEXICON _ЛАК-NomPl-Conjugation-only
- _KAL-NomPl-Conjugation-only ;
- NounEnd_K-lak  ;
+!LEXICON _ЛАК-NomPl-Conjugation-only
+! _KAL-NomPl-Conjugation-only ;
+! NounEnd_K-lak  ;
 
 LEXICON _ЛАК-NomPl-Conjugation-only-4Poss
  _KAL-NomPl-Conjugation-only-4Poss ;
@@ -165,8 +165,8 @@ LEXICON _KIT-NomPl-Conjugation
 LEXICON _KIT-NomPl-Conjugation-4Poss
  _KAL-NomPl-Conjugation-4Poss ;
 
-LEXICON _KIT-NomPl-Conjugation-only
- _KAL-NomPl-Conjugation-only ;
+!LEXICON _KIT-NomPl-Conjugation-only
+! _KAL-NomPl-Conjugation-only ;
 
 LEXICON _KIT-NomPl-Conjugation-only-4Poss
  _KAL-NomPl-Conjugation-only-4Poss ;
@@ -225,41 +225,41 @@ LEXICON _KAL-Conjugation-4Poss
  _KAL-NomPl-Conjugation-only-4Poss ;
  K ;
 
-LEXICON _OSH-NomSg-Conjugation
- _KAL-NomSg-Conjugation ;
+!LEXICON _OSH-NomSg-Conjugation
+! _KAL-NomSg-Conjugation ;
 
 LEXICON _OSH-Conjugation
  DER/COP_SG ;
  _KAL-NomPl-Conjugation-only ;
  K ;
 
-LEXICON sajems-Conjugation
- _KAL-Conjugation ;
-+Der/Cop+Prs+OcSg1+Err/Orth+Dial:%>самизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prs+OcSg2+Err/Orth+Dial:%>тА2дызь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prt2+OcSg1+Err/Orth+Dial:%>%{ОЕЭØ%}лимизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prt2+OcSg2+Err/Orth+Dial:%>%{ОЕЭØ%}лидизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prt2+OcSg3+Err/Orth+Dial:%>%{ОЕЭØ%}лизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prs+OcPl1+Err/Orth+Dial:%>самизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prs+OcPl2+Err/Orth+Dial:%>тА2дызь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prt2+OcPl1+Err/Orth+Dial:%>%{ОЕЭØ%}лимизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prt2+OcPl2+Err/Orth+Dial:%>%{ОЕЭØ%}лидизь FOC-PCLE-OR-NOT ;
-+Der/Cop+Prt2+OcPl3+Err/Orth+Dial:%>%{ОЕЭØ%}лизь FOC-PCLE-OR-NOT ;
+!LEXICON sajems-Conjugation
+! _KAL-Conjugation ;
+!+Der/Cop+Prs+OcSg1+Err/Orth+Dial:%>самизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prs+OcSg2+Err/Orth+Dial:%>тА2дызь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prt2+OcSg1+Err/Orth+Dial:%>%{ОЕЭØ%}лимизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prt2+OcSg2+Err/Orth+Dial:%>%{ОЕЭØ%}лидизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prt2+OcSg3+Err/Orth+Dial:%>%{ОЕЭØ%}лизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prs+OcPl1+Err/Orth+Dial:%>самизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prs+OcPl2+Err/Orth+Dial:%>тА2дызь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prt2+OcPl1+Err/Orth+Dial:%>%{ОЕЭØ%}лимизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prt2+OcPl2+Err/Orth+Dial:%>%{ОЕЭØ%}лидизь FOC-PCLE-OR-NOT ;
+!+Der/Cop+Prt2+OcPl3+Err/Orth+Dial:%>%{ОЕЭØ%}лизь FOC-PCLE-OR-NOT ;
 
 
 
 LEXICON _ПАНГО-NomSg-Conjugation
  _KUDO-NomSg-Conjugation ;
 
-LEXICON _ПАНГО-NomPl-Conjugation
- K ;
- _ПАНГО-NomPl-Conjugation-only ;
+!LEXICON _ПАНГО-NomPl-Conjugation
+! K ;
+! _ПАНГО-NomPl-Conjugation-only ;
 
 LEXICON _ПАНГО-NomPl-Conjugation-only
  DER/COP_PL ;
 
-LEXICON _ПАНГО-Conjugation
- _KUDO-Conjugation ;
+!LEXICON _ПАНГО-Conjugation
+! _KUDO-Conjugation ;
 
 
 !
@@ -341,15 +341,15 @@ LEXICON _KUDO-Tenses-NomPl
 +Der/Cop+Prt2+ScPl2:%>%{ОЕЭØ%}лиде VerbEnd_K ;
 +Der/Cop+Prt2+ScPl3:%>%{ОЕЭØ%}льть VerbEnd_K ;
 
-LEXICON _KUDO-Tenses-Abs
-+Der/Cop+Prt2+ScPl1:%>%{ОЕЭØ%}линек VerbEnd_K-lak ;
-+Der/Cop+Prt2+ScPl2:%>%{ОЕЭØ%}лиде VerbEnd_K ;
-+Der/Cop+Prt2+ScPl3:%>%{ОЕЭØ%}льть VerbEnd_K ;
- _KUDO-Tenses-Abs-1 ;
+!LEXICON _KUDO-Tenses-Abs
+!+Der/Cop+Prt2+ScPl1:%>%{ОЕЭØ%}линек VerbEnd_K-lak ;
+!+Der/Cop+Prt2+ScPl2:%>%{ОЕЭØ%}лиде VerbEnd_K ;
+!+Der/Cop+Prt2+ScPl3:%>%{ОЕЭØ%}льть VerbEnd_K ;
+! _KUDO-Tenses-Abs-1 ;
 
-LEXICON _KUDO-Tenses-Abs-1
-+Der/Cop+Prs+ScPl1:%>тА2но VerbEnd_K ;
-+Der/Cop+Prs+ScPl2:%>тА2до VerbEnd_K ;
+!LEXICON _KUDO-Tenses-Abs-1
+!+Der/Cop+Prs+ScPl1:%>тА2но VerbEnd_K ;
+!+Der/Cop+Prs+ScPl2:%>тА2до VerbEnd_K ;
 
 LEXICON _KUDO-Tenses-Obl
 !2013-14-15! VerbEnd_K ;
@@ -370,18 +370,18 @@ LEXICON _KUDO-Tenses-Obl
 
 !!
 
-LEXICON Tenses1
- DER/COP-PRS-SG1 ;
- DER/COP-PRS-SG2 ;
- DER/COP-PRS-PL1 ;
- DER/COP-PRS-PL2 ;
+!LEXICON Tenses1
+! DER/COP-PRS-SG1 ;
+! DER/COP-PRS-SG2 ;
+! DER/COP-PRS-PL1 ;
+! DER/COP-PRS-PL2 ;
 
- DER/COP-PRT2-SG1 ;
- DER/COP-PRT2-SG2 ;
- DER/COP-PRT2-SG3 ;
- DER/COP-PRT2-PL1 ;
- DER/COP-PRT2-PL2 ;
- DER/COP-PRT2-PL3 ;
+! DER/COP-PRT2-SG1 ;
+! DER/COP-PRT2-SG2 ;
+! DER/COP-PRT2-SG3 ;
+! DER/COP-PRT2-PL1 ;
+! DER/COP-PRT2-PL2 ;
+! DER/COP-PRT2-PL3 ;
 
 
 LEXICON DER/COP-PRS-SG1 
