@@ -7,16 +7,16 @@
 ! This is for Russian source adjectives
 ! that might be used in a template
 
-LEXICON DET-DEM_ТЕ
+LEXICON DET-DEM_TE
 +Det: WORD-END ;
 
-LEXICON DET-DEM_АЛЦЕ
+LEXICON DET-DEM_ALCE
 +Det: WORD-END ;
 
-LEXICON A_RU-ОЙ
+LEXICON A_RU-OJ
 +Use/SpellNoSugg:ой A_KAL ;
 
-LEXICON A_INT-ОЙ
+LEXICON A_INT-OJ
 +Use/SpellNoSugg:ой A_KAL ;
 
 LEXICON ABE-ADJ
@@ -32,7 +32,7 @@ LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 +Der/GenAttr+A: DER/COP4_OBL-SC3 ; ! These need checking 2012-04-17
 
 
-LEXICON A_ВЕЙКЕТЬ-PL
+LEXICON A_VEJKET1-PL
  A_KIT ;
 
 LEXICON A_KIT
@@ -45,14 +45,14 @@ LEXICON A_KIT
 +A+Der/MWN: N_KIT ;
 +A:%> N2Dem-SE ;
 
-LEXICON A_ЛАК
+LEXICON A_LAK
 +A+Attr: K ;
 +A+Sg: K ;
 +A: DER/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
-!2013-03-15!+A+Pl: _ЛАК-NomPl-Conjugation-only ;
+!2013-03-15!+A+Pl: _LAK-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_ЛАК ;
++A+Der/MWN: N_LAK ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_KAL_Sub
@@ -80,40 +80,40 @@ LEXICON A_OSH
 +A+Der/MWN: N_OSH ;
 +A:%> N2Dem-SE ;
 
-LEXICON A_ТЕШТЕ
+LEXICON A_TESHTE
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_ПАНГО ;
++A+Der/MWN: N_PANGO ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON A_ЧУВТО
+LEXICON A_CHUVTO
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_ПАНГО ;
++A+Der/MWN: N_PANGO ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON A_ТИНГЕ
+LEXICON A_TINGE
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_ПАНГО ;
++A+Der/MWN: N_PANGO ;
 +A:О1%> N2Dem-SE ;
 
-LEXICON A_ПАНГО
+LEXICON A_PANGO
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_ПАНГО ;
++A+Der/MWN: N_PANGO ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON Adj-pango-tinge
 +A+Attr: K ;
 +A+Sg: K ;
-+A: _ПАНГО-NomSg-Conjugation ;
++A: _PANGO-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
-+A+Pl: _ПАНГО-NomPl-Conjugation-only ;
++A+Pl: _PANGO-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
 
 LEXICON ActDemPrc-A
@@ -123,7 +123,7 @@ LEXICON ActDemPrc-A
 +Der/Ыця+Act+DemPrc+Der/MWN:%>%{иы%}ця N_KUDO ;
 
 
-LEXICON A_ВЕЛЕ
+LEXICON A_VELE
  A_KUDO        ;
 !LEXICON A_KUDO_SUB
 !+Err/Orth: A_KUDO	;
@@ -146,18 +146,18 @@ LEXICON A_KUDO_01
 
 
 !LEXICON Adj-InterrRel ! кодамо
-!+Interr: A_ПАНГО ;
-!+Rel: A_ПАНГО ;
+!+Interr: A_PANGO ;
+!+Rel: A_PANGO ;
 
-LEXICON A-IS-INTERR/REL-ADJ_КОДАМО !! кодамо:кода
-+A+Interr: ADJ_КОДАМО ;
-+A+Rel: ADJ_КОДАМО ;
-LEXICON ADJ_КОДАМО !! кодамо:кода
+LEXICON A-IS-INTERR/REL-ADJ_KODAMO !! кодамо:кода
++A+Interr: ADJ_KODAMO ;
++A+Rel: ADJ_KODAMO ;
+LEXICON ADJ_KODAMO !! кодамо:кода
 :мо # ;
-+Der/MWN:м N_ПАНГО-Def-Declension ;
-+Der/MWN:м _ПАНГО-Indef-Declension ;
-+Der/MWN:мо N_ПАНГО-Poss-Declension-CX ;
-+Der/MWN: NMN_DEF-PL-DECLENSION-ТНЭ ;
++Der/MWN:м N_PANGO-Def-Declension ;
++Der/MWN:м _PANGO-Indef-Declension ;
++Der/MWN:мо N_PANGO-Poss-Declension-CX ;
++Der/MWN: NMN_DEF-PL-DECLENSION-TNE2 ;
 
 
 LEXICON DET_KUDO
@@ -175,10 +175,10 @@ LEXICON DET_OSH
 
 
 !LEXICON Adj-Dem ! истямо
-!+Dem: A_ПАНГО ;
+!+Dem: A_PANGO ;
 
 !LEXICON Adj-Po ! кондямо
-!+Po: A_ПАНГО ;
+!+Po: A_PANGO ;
 
 LEXICON ADJ-TO-ADV
 +A+Der/стО+Adv:%>ст%{оэØ%} K ;

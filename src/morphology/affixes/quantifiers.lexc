@@ -146,15 +146,15 @@ LEXICON NUMORD_OSH
 +Der/тькс+A+Ord:%>О1тькс WORD-END ;
 +Der/тькс+A+Ord+Der/MWN:%>О1тькс N_OSH ;
 
-!LEXICON NUM_СЯДО_SUB
-!+Err/Orth: NUM_СЯДО ;
+!LEXICON NUM_SJADO_SUB
+!+Err/Orth: NUM_SJADO ;
 
-LEXICON NUM_СЯДО
+LEXICON NUM_SJADO
 +Num+Card:%>О1 WORD-END ;
 +Num+Card+Appr:%>О1шка WORD-END ;
-+Num+Card+Der/MWN: N_ПАНГО ;
++Num+Card+Der/MWN: N_PANGO ;
 +Num+Card+Lat:%>О1в Ks ;
-+Num:О1 NUMORD_СЯДО ;
++Num:О1 NUMORD_SJADO ;
 +Num+Card+Coll:О1%>нст WORD-END ;
 +Num+Card+Coll00@P.TLOSS.ON@:О1%>нст@P.TLOSS.ON@  Quants3 ;
 +Num+Card+AssocColl00@P.KLOSS.ON@:О1%>нек@P.KLOSS.ON@ Ks ;
@@ -165,7 +165,7 @@ LEXICON NUM_СЯДО
 +Num+Card+Iter:О1%>ксть Ks ;
 +Num+Card+Appr+Iter:О1%>шкаксть Ks ;
 
-LEXICON NUMORD_СЯДО
+LEXICON NUMORD_SJADO
 +Der/це+Det+Ord:%>це WORD-END ;
 +Der/це+Det+Ord+Der/MWN:%>це N_KUDO ;
 +Der/тькс+Det+Ord:%>тькс WORD-END ;
@@ -207,7 +207,7 @@ LEXICON IS-NUM-ORD-COLL
 !! омбонст
 +Num+Ord+Coll:	WORD-END ;
 
-LEXICON IS-NUM-CARD-ASSOCCOLL_КАВОНЕ
+LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
 +Num+AssocColl: PossPX1 ;
 +Err/Orth+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
 
@@ -261,7 +261,7 @@ LEXICON ADV-ORD
 LEXICON QNT_
 +Det+Qnt: K ;
 
-LEXICON QNT_ЛАМО
+LEXICON QNT_LAMO
 +Det+Qnt+AssocColl:%>не _KUDO-Possessive-Before-K ;
  QNT_KUDO ;
 
@@ -279,7 +279,7 @@ LEXICON QNT-DISTR
 LEXICON QNT-INDEF
 +Det+Qnt+Indef: K ;
 
-LEXICON QNT_ВЕСЕМЕ
+LEXICON QNT_VESEME
 +Det+Qnt+Adn: WORD-END ;
 +Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ _KUDO-Indef-Declension-SG ;
 
@@ -301,8 +301,8 @@ LEXICON QNT_ВЕСЕМЕ
 !LEXICON sjado-NUM-PL
 !+Qnt+Num+Der/MWN+N:%> NMN_DEF-PL-DECLENSION ;
 !+Qnt+Num+Der/MWN+N:%>О1 NMN_DEF-PL-DECLENSION ;
-!+Qnt+Num+Der/MWN+N: _ПАНГО-Indef-Declension ;
-!+Qnt+Num+Der/MWN+N: N_ПАНГО-Poss-Declension-CX-PL ;
+!+Qnt+Num+Der/MWN+N: _PANGO-Indef-Declension ;
+!+Qnt+Num+Der/MWN+N: N_PANGO-Poss-Declension-CX-PL ;
 
 
 !LEXICON Cards-kal
@@ -354,13 +354,13 @@ LEXICON Quants3
 
 +Sg+Nom+PxSg1:%>м _KAL-Tenses1 ;
 +Sg+Nom+PxSg2:%>тЬ2 _KIT-Tenses1 ;
-+Sg+Nom+PxPl10@P.KLOSS.ON@:%>нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Sg+Nom+PxPl2@P.KLOSS.ON@:%>нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Sg+Nom+PxPl10@P.KLOSS.ON@:%>нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Sg+Nom+PxPl2@P.KLOSS.ON@:%>нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Sg+Nom+PxPl3@P.TLOSS.ON@:%>ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 +Sg+Nom+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Sg+Nom+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Sg+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Sg+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Sg+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Sg+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Sg+Nom+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 
 +Pl+Nom+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
@@ -369,13 +369,13 @@ LEXICON Quants3
 +Pl+Nom+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Nom+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Nom+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Pl+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Pl+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Pl+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Pl+Nom+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 +Pl+Nom+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Nom+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Pl+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Pl+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Pl+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Pl+Nom+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Sg+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
@@ -383,13 +383,13 @@ LEXICON Quants3
 +Sg+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Sg+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Sg+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Sg+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Sg+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Sg+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Sg+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Sg+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Sg+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Sg+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Sg+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Sg+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Sg+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Pl+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
@@ -397,13 +397,13 @@ LEXICON Quants3
 +Pl+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Pl+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Pl+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Pl+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Pl+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _ЛАК-Tenses1 ;
-+Pl+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _ЛАК-Tenses1 ;
++Pl+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
++Pl+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
 +Pl+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
 
 
