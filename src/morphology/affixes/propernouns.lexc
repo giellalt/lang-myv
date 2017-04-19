@@ -110,9 +110,9 @@ LEXICON CYRL-L_SUR
  PROP_KAL_SUR ;
 
 LEXICON CYRL-K_SUR
- PROP_ЛАК_SUR ;
+ PROP_LAK_SUR ;
 
-LEXICON PROP_ЛАК_SUR
+LEXICON PROP_LAK_SUR
  PROP_KAL_SUR ;
 
 LEXICON CYRL-SIBILANT_SUR
@@ -179,9 +179,9 @@ LEXICON PROP-SETTLEMENT_OSH
 +N+Prop+Sem/Plc@U.DECL-NX.SP@:000@U.DECL-NX.SP@ LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_OSH ;
 
-LEXICON PROP-SETTLEMENT_ПАНГО
+LEXICON PROP-SETTLEMENT_PANGO
 +N+Prop+Sem/Plc@U.DECL-NX.SP@:000@U.DECL-NX.SP@ LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_ПАНГО ;
++N+Prop+Sem/Plc: NMN_PANGO ;
 
 LEXICON PROP-SETTLEMENT_KUDO
 +N+Prop+Sem/Plc@U.DECL-NX.SP@:000@U.DECL-NX.SP@ LAT-INDEF ;
@@ -196,8 +196,8 @@ LEXICON PROP_KAL_DIVINITY
 LEXICON PROP_OSH_DIVINITY
 +N+Prop+Sem/Hum+Sem/Divinity: NMN_OSH ;
 
-LEXICON PROP_ПАНГО_DIVINITY
-+N+Prop+Sem/Hum+Sem/Divinity: NMN_ПАНГО ;
+LEXICON PROP_PANGO_DIVINITY
++N+Prop+Sem/Hum+Sem/Divinity: NMN_PANGO ;
 
 LEXICON PROP_KUDO_DIVINITY
 +N+Prop+Sem/Hum+Sem/Divinity: NMN_KUDO ;
@@ -214,8 +214,8 @@ LEXICON PROP_OSH_CONSTELLATION
 LEXICON PROP_OSH-PL_CONSTELLATION
 +N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_OSH-PL ;
 
-LEXICON PROP_ПАНГО_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_ПАНГО ;
+LEXICON PROP_PANGO_CONSTELLATION
++N+Prop+Sem/Constellation+Sem/Plc: NMN_PANGO ;
 
 LEXICON PROP_KUDO_CONSTELLATION
 +N+Prop+Sem/Constellation+Sem/Plc: NMN_KUDO ;
@@ -223,8 +223,8 @@ LEXICON PROP_KUDO_CONSTELLATION
 LEXICON PROP_KUDO-PL_CONSTELLATION
 +N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_KUDO-PL ; 
 
-LEXICON PROP_ТЕШТЕ_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_ТЕШТЕ ;
+LEXICON PROP_TESHTE_CONSTELLATION
++N+Prop+Sem/Constellation+Sem/Plc: NMN_TESHTE ;
 
 
 !!!!!!!!!!!!!!!!
@@ -268,8 +268,8 @@ LEXICON PROP_KUDO_RIVERS
 LEXICON PROP_KAL
 +N+Prop: NMN_KAL ;
 
-LEXICON PROP_ЛАК
-+N+Prop: NMN_ЛАК ;
+LEXICON PROP_LAK
++N+Prop: NMN_LAK ;
 
 LEXICON PROP_KIT
 +N+Prop: N_KIT-Derivation ;
@@ -284,24 +284,24 @@ LEXICON PROP_OSH
 +N+Prop: _OSH-Indef-Declension ;
 +N+Prop: N_OSH-Poss-Declension-CX ;
 
-LEXICON PROP_ТЕШТЕ
- N_ПАНГО ;
+LEXICON PROP_TESHTE
+ N_PANGO ;
 
-!LEXICON PROP_ТИНГЕ
-! N_ПАНГО ;
+!LEXICON PROP_TINGE
+! N_PANGO ;
 
-LEXICON PROP_ПАНГО
-+N+Prop: N_ПАНГО-Derivation ;
-+N+Prop: N_ПАНГО-Def-Declension ;
-+N+Prop: _ПАНГО-Indef-Declension ;
-+N+Prop: N_ПАНГО-Poss-Declension-CX ;
+LEXICON PROP_PANGO
++N+Prop: N_PANGO-Derivation ;
++N+Prop: N_PANGO-Def-Declension ;
++N+Prop: _PANGO-Indef-Declension ;
++N+Prop: N_PANGO-Poss-Declension-CX ;
 
-LEXICON PROP_ВЕЛЕ_IS-НЕ-DIM
+LEXICON PROP_VELE_IS-NE-DIM
 +N+Prop+Der/НЕ+Dimin+N+Prop: NMN_DEF-DECLENSION ;
 +N+Prop+Der/НЕ+Dimin+N+Prop: _KUDO-Indef-Declension ;
 +N+Prop+Der/НЕ+Dimin+N+Prop: N_KUDO-Poss-Declension-CX ;
  
-LEXICON PROP_ВЕЛЕ
+LEXICON PROP_VELE
 !! Front-vowel stem
 +N+Prop: N_KUDO-Derivation ;
 +N+Prop: NMN_DEF-DECLENSION ;
@@ -319,7 +319,7 @@ LEXICON PROP_KAL_MAL
 +Sem/Ant_Mal+N+Prop: NMN_KAL ;
 
 LEXICON PROP_LAK_MAL
-+Sem/Ant_Mal+N+Prop: NMN_ЛАК ;
++Sem/Ant_Mal+N+Prop: NMN_LAK ;
 
 LEXICON PROP_KIT_MAL
 +Sem/Ant_Mal+N+Prop: NMN_KIT ;
@@ -328,14 +328,14 @@ LEXICON PROP_KIT_MAL
 LEXICON PROP_OSH_MAL
 +Sem/Ant_Mal+N+Prop: NMN_OSH ;
 
-!LEXICON PROP_ТЕШТЕ_MAL
-! PROP_ПАНГО_MAL ;
+!LEXICON PROP_TESHTE_MAL
+! PROP_PANGO_MAL ;
 
-!LEXICON PROP_ТИНГЕ_MAL
-! PROP_ПАНГО_MAL ;
+!LEXICON PROP_TINGE_MAL
+! PROP_PANGO_MAL ;
 
-!LEXICON PROP_ПАНГО_MAL
-!+Sem/Ant_Mal+N+Prop: NMN_ПАНГО ;
+!LEXICON PROP_PANGO_MAL
+!+Sem/Ant_Mal+N+Prop: NMN_PANGO ;
 
 LEXICON PROP_KUDO_MAL
 +Sem/Ant_Mal+N+Prop: NMN_KUDO ;
@@ -343,8 +343,8 @@ LEXICON PROP_KUDO_MAL
 LEXICON PROP_KAL_FEM
 +Sem/Ant_Fem+N+Prop: NMN_KAL ;
 
-!LEXICON PROP_ЛАК_FEM
-!+Sem/Ant_Fem+N+Prop: NMN_ЛАК ;
+!LEXICON PROP_LAK_FEM
+!+Sem/Ant_Fem+N+Prop: NMN_LAK ;
 
 LEXICON PROP_KIT_FEM
 +Sem/Ant_Fem+N+Prop: NMN_KIT ;
@@ -353,14 +353,14 @@ LEXICON PROP_KIT_FEM
 LEXICON PROP_OSH_FEM
 +Sem/Ant_Fem+N+Prop: NMN_OSH ;
 
-!LEXICON PROP_ТЕШТЕ_FEM
-! PROP_ПАНГО_FEM ;
+!LEXICON PROP_TESHTE_FEM
+! PROP_PANGO_FEM ;
 
-!LEXICON PROP_ТИНГЕ_FEM
-! PROP_ПАНГО_FEM ;
+!LEXICON PROP_TINGE_FEM
+! PROP_PANGO_FEM ;
 
-!LEXICON PROP_ПАНГО_FEM
-!+Sem/Ant_Fem+N+Prop: NMN_ПАНГО ;
+!LEXICON PROP_PANGO_FEM
+!+Sem/Ant_Fem+N+Prop: NMN_PANGO ;
 
 LEXICON PROP_KUDO_FEM
 +Sem/Ant_Fem+N+Prop: NMN_KUDO ;

@@ -48,7 +48,7 @@ LEXICON ADV_KUDO ! Coping with stem structure
  ADV_ ;
 
 ! истяк 
-LEXICON ADV_ЛАК
+LEXICON ADV_LAK
 +Adv: K-lak ;
 
 LEXICON ADV_OSH
@@ -72,8 +72,8 @@ LEXICON ADV-SPAT_ !!= @CODE@ пачк
 LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
 +Adv+Spat+Prl: K ;
 
-LEXICON ADV/PO/PRON-SPAT_АЛО !!= @CODE@ ало:ал
- ADV-SPAT_АЛО ;
+LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
+ ADV-SPAT_ALO ;
 +Po+Spat+Abl:%>дО1 K ;
 +Po+Spat+Loc:%>О1 K ;
 +Po+Spat+Prl:%>Г2а K ;
@@ -85,7 +85,7 @@ LEXICON ADV/PO/PRON-SPAT_АЛО !!= @CODE@ ало:ал
 
 
 
-LEXICON ADV-SPAT_АЛО !!= @CODE@ ало:ал
+LEXICON ADV-SPAT_ALO !!= @CODE@ ало:ал
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
@@ -93,15 +93,15 @@ LEXICON ADV-SPAT_АЛО !!= @CODE@ ало:ал
 +Adv+Spat+Der/кс:%>кс N_OSH ;
 +Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
 
-LEXICON ADV-SPAT_каршо
+LEXICON ADV-SPAT_karsho
 +Adv+Spat: K ;
 +Adv+Spat: POSSX4-END-FOC-DER/COP-SC3 ;
 +Adv+Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
-LEXICON ADV-INE_КИСЭ
+LEXICON ADV-INE_KISE2
 +Adv+Ine: POSSX4-END-FOC-DER/COP-SC3 ;
 
-LEXICON PO-SPAT_каршо
+LEXICON PO-SPAT_karsho
 +Po+Spat: K ;
 
 
@@ -283,9 +283,9 @@ LEXICON Temp-Pl
 LEXICON Temp-Prl
 +Prl+Adv+Temp: K ;
 
-LEXICON ADV-TEMP_ЛАК
+LEXICON ADV-TEMP_LAK
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N_ЛАК ;
++Adv+Temp+Der/MWN: N_LAK ;
 
 LEXICON ADV-TEMP_KIT
 +Adv+Temp: K ;
