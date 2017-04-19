@@ -5,98 +5,98 @@
 
 
 !Dealing with numerals up to 4 digits long
-LEXICON Numerals
-№+Symbl:№ WORD-END ;
-I Roman-numerals ; !
-II Roman-numerals ;
-III Roman-numerals ;
-IV Roman-numerals ;
-V Roman-numerals ;
-VI Roman-numerals ;
-VII Roman-numerals ;
-VIII Roman-numerals ;
-IX Roman-numerals ;
-X Roman-numerals ;
-XI Roman-numerals ;
-XII Roman-numerals ;
-XIII Roman-numerals ;
-XIV Roman-numerals ;
-XV Roman-numerals ;
-XVI Roman-numerals ;
-XVII Roman-numerals ;
-XVIII Roman-numerals ;
-XIX Roman-numerals ;
-XX Roman-numerals ;
-D Roman-numerals ;
-C Roman-numerals ;
-L Roman-numerals ;
-M Roman-numerals ;
+!LEXICON Numerals
+!№+Symbl:№ WORD-END ;
+!I Roman-numerals ; !
+!II Roman-numerals ;
+!III Roman-numerals ;
+!IV Roman-numerals ;
+!V Roman-numerals ;
+!VI Roman-numerals ;
+!VII Roman-numerals ;
+!VIII Roman-numerals ;
+!IX Roman-numerals ;
+!X Roman-numerals ;
+!XI Roman-numerals ;
+!XII Roman-numerals ;
+!XIII Roman-numerals ;
+!XIV Roman-numerals ;
+!XV Roman-numerals ;
+!XVI Roman-numerals ;
+!XVII Roman-numerals ;
+!XVIII Roman-numerals ;
+!XIX Roman-numerals ;
+!XX Roman-numerals ;
+!D Roman-numerals ;
+!C Roman-numerals ;
+!L Roman-numerals ;
+!M Roman-numerals ;
+!
+!1 Num-1a ;
+!2 Num-1a ;
+!3 Num-1a ;
+!4 Num-1a ;
+!5 Num-1a ;
+!6 Num-1a ;
+!7 Num-1a ;
+!8 Num-1a ;
+!9 Num-1a ;
 
-1 Num-1a ;
-2 Num-1a ;
-3 Num-1a ;
-4 Num-1a ;
-5 Num-1a ;
-6 Num-1a ;
-7 Num-1a ;
-8 Num-1a ;
-9 Num-1a ;
+!LEXICON Num-1a
+!+Dig1: Num-1d ;
 
-LEXICON Num-1a
-+Dig1: Num-1d ;
-
-1 Num-1b ;
-2 Num-1b ;
-3 Num-1b ;
-4 Num-1b ;
-5 Num-1b ;
-6 Num-1b ;
-7 Num-1b ;
-8 Num-1b ;
-9 Num-1b ;
-ZERO Num-1b ;
-
-
-LEXICON Num-1b
-+Dig2: Num-1d ;
-1 Num-1c ;
-2 Num-1c ;
-3 Num-1c ;
-4 Num-1c ;
-5 Num-1c ;
-6 Num-1c ;
-7 Num-1c ;
-8 Num-1c ;
-9 Num-1c ;
-ZERO Num-1c ;
+!1 Num-1b ;
+!2 Num-1b ;
+!3 Num-1b ;
+!4 Num-1b ;
+!5 Num-1b ;
+!6 Num-1b ;
+!7 Num-1b ;
+!8 Num-1b ;
+!9 Num-1b ;
+!ZERO Num-1b ;
 
 
-LEXICON Num-1c
-+Dig3: Num-1d ;
-+Dig4:1 Num-1d ;
-+Dig4:2 Num-1d ;
-+Dig4:3 Num-1d ;
-+Dig4:4 Num-1d ;
-+Dig4:5 Num-1d ;
-+Dig4:6 Num-1d ;
-+Dig4:7 Num-1d ;
-+Dig4:8 Num-1d ;
-+Dig4:9 Num-1d ;
-+Dig4:ZERO Num-1d ;
+!LEXICON Num-1b
+!+Dig2: Num-1d ;
+!1 Num-1c ;
+!2 Num-1c ;
+!3 Num-1c ;
+!4 Num-1c ;
+!5 Num-1c ;
+!6 Num-1c ;
+!7 Num-1c ;
+!8 Num-1c ;
+!9 Num-1c ;
+!ZERO Num-1c ;
 
 
-LEXICON Num-1d
-+Ord:-це WORD-END ;
-+Card: WORD-END ;
+!LEXICON Num-1c
+!+Dig3: Num-1d ;
+!+Dig4:1 Num-1d ;
+!+Dig4:2 Num-1d ;
+!+Dig4:3 Num-1d ;
+!+Dig4:4 Num-1d ;
+!+Dig4:5 Num-1d ;
+!+Dig4:6 Num-1d ;
+!+Dig4:7 Num-1d ;
+!+Dig4:8 Num-1d ;
+!+Dig4:9 Num-1d ;
+!+Dig4:ZERO Num-1d ;
+
+
+!LEXICON Num-1d
+!+Ord:-це WORD-END ;
+!+Card: WORD-END ;
 
 !!Roman Numerals
-LEXICON Roman-numerals
-+Rom: WORD-END ; 
+!LEXICON Roman-numerals
+!+Rom: WORD-END ; 
 
 
 !! !Now regular
-LEXICON NUM_KAL_SUB
-+Err/Orth: NUM_KAL ;
+!LEXICON NUM_KAL_SUB
+!+Err/Orth: NUM_KAL ;
 
 LEXICON NUM_KAL
 +Num+Card: WORD-END ;
@@ -121,8 +121,8 @@ LEXICON NUMORD_KAL
 +Der/тькс+A+Ord:%>О1тькс WORD-END ;
 +Der/тькс+A+Ord+Der/MWN:%>О1тькс N_OSH ;
 
-LEXICON NUM_OSH_SUB
-+Err/Orth: NUM_OSH ;
+!LEXICON NUM_OSH_SUB
+!+Err/Orth: NUM_OSH ;
 
 LEXICON NUM_OSH
 +Num+Card: WORD-END ;
@@ -146,8 +146,8 @@ LEXICON NUMORD_OSH
 +Der/тькс+A+Ord:%>О1тькс WORD-END ;
 +Der/тькс+A+Ord+Der/MWN:%>О1тькс N_OSH ;
 
-LEXICON NUM_СЯДО_SUB
-+Err/Orth: NUM_СЯДО ;
+!LEXICON NUM_СЯДО_SUB
+!+Err/Orth: NUM_СЯДО ;
 
 LEXICON NUM_СЯДО
 +Num+Card:%>О1 WORD-END ;
@@ -171,8 +171,8 @@ LEXICON NUMORD_СЯДО
 +Der/тькс+Det+Ord:%>тькс WORD-END ;
 +Der/тькс+Det+Ord+Der/MWN:%>тькс N_OSH ;
 
-LEXICON NUM_KUDO_SUB
-+Err/Orth: NUM_KUDO ;
+!LEXICON NUM_KUDO_SUB
+!+Err/Orth: NUM_KUDO ;
 
 ! More work needed 2012-10-08
 LEXICON NUM_KUDO
@@ -231,11 +231,11 @@ LEXICON Assoc-Coll
 LEXICON IS-NUM-CARD-ITER
 +Num+Card+Iter: K ;
 
-LEXICON IS-QNT-ITER
-+Qnt+Iter: K ;
+!LEXICON IS-QNT-ITER
+!+Qnt+Iter: K ;
 
-LEXICON ITER_SUB
-+Err/Orth: ITER_ ;
+!LEXICON ITER_SUB
+!+Err/Orth: ITER_ ;
 
 LEXICON ITER_
 +Qnt+Iter: K ;
@@ -293,37 +293,35 @@ LEXICON QNT_ВЕСЕМЕ
 +Pron+Qnt+Sg+Ela+PxPl3:%>ст%{оэØ%}%>ст K ;
 
 
-LEXICON _KUDO-NUM
-+Qnt+Num: NMN_DEF-DECLENSION ;
-+Qnt+Num: _KUDO-Indef-Declension ;
-+Qnt+Num: N_KUDO-Poss-Declension-CX ;
+!LEXICON _KUDO-NUM
+!+Qnt+Num: NMN_DEF-DECLENSION ;
+!+Qnt+Num: _KUDO-Indef-Declension ;
+!+Qnt+Num: N_KUDO-Poss-Declension-CX ;
 
-LEXICON sjado-NUM-PL
-+Qnt+Num+Der/MWN+N:%> NMN_DEF-PL-DECLENSION ;
-+Qnt+Num+Der/MWN+N:%>О1 NMN_DEF-PL-DECLENSION ;
-+Qnt+Num+Der/MWN+N: _ПАНГО-Indef-Declension ;
-+Qnt+Num+Der/MWN+N: N_ПАНГО-Poss-Declension-CX-PL ;
-
-
-LEXICON Cards-kal
-+Det+Ord:%>це Quants3 ;
- Quants2 ;
-+Num+Card: WORD-END ;
-+Num+Card+Der/MWN: N_KAL ;
-
-LEXICON CARDS_OSH
-+Det+Ord:%>О1це Quants3 ;
- Quants2 ;
-+Num+Card: WORD-END ;
-+Num+Card+Der/MWN: N_OSH ;
+!LEXICON sjado-NUM-PL
+!+Qnt+Num+Der/MWN+N:%> NMN_DEF-PL-DECLENSION ;
+!+Qnt+Num+Der/MWN+N:%>О1 NMN_DEF-PL-DECLENSION ;
+!+Qnt+Num+Der/MWN+N: _ПАНГО-Indef-Declension ;
+!+Qnt+Num+Der/MWN+N: N_ПАНГО-Poss-Declension-CX-PL ;
 
 
-LEXICON CARDS_KUDO
-+Det+Ord:%>це Quants3 ;
- Quants2 ;
-+Num+Card: WORD-END ;
-+Num+Card+Der/MWN: N_KUDO ;
+!LEXICON Cards-kal
+!+Det+Ord:%>це Quants3 ;
+! Quants2 ;
+!+Num+Card: WORD-END ;
+!+Num+Card+Der/MWN: N_KAL ;
 
+!LEXICON CARDS_OSH
+!+Det+Ord:%>О1це Quants3 ;
+! Quants2 ;
+!+Num+Card: WORD-END ;
+!+Num+Card+Der/MWN: N_OSH ;
+
+!LEXICON CARDS_KUDO
+!+Det+Ord:%>це Quants3 ;
+! Quants2 ;
+!+Num+Card: WORD-END ;
+!+Num+Card+Der/MWN: N_KUDO ;
 
 ! 2012-08-09
 !LEXICON Quants1
@@ -331,18 +329,18 @@ LEXICON CARDS_KUDO
 ! +Ord:%>це Quants3 ;
 ! +Ord:%>О1це Quants3 ;
 
-LEXICON Quants2
- Quants3 ;
-+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+AssocColl00@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-+Appr+AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
-+AssocColl:%>не _KUDO-Possessives2-Ill ;
-+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
-+AssocColl:%>не _KUDO-Possessive-Before-K ;
-+Iter:%>ксть Ks ;
-+Iter:%>%{ОЕЭØ%}ксть Ks ;
-+Appr+Iter:%>шкаксть Ks ;
-+Appr+Iter:%>%{ОЕЭØ%}шкаксть Ks ;
+!LEXICON Quants2
+! Quants3 ;
+!+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
+!+AssocColl00@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
+!+Appr+AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
+!+AssocColl:%>не _KUDO-Possessives2-Ill ;
+!+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
+!+AssocColl:%>не _KUDO-Possessive-Before-K ;
+!+Iter:%>ксть Ks ;
+!+Iter:%>%{ОЕЭØ%}ксть Ks ;
+!+Appr+Iter:%>шкаксть Ks ;
+!+Appr+Iter:%>%{ОЕЭØ%}шкаксть Ks ;
 
 LEXICON Quants3
 !Cx PossPx Tx PredPx K

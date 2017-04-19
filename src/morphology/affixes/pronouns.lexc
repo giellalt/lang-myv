@@ -12,8 +12,8 @@
 LEXICON PRON-PERS-DAT
 +Pron+Pers+Dat: POSSX4-END-DAT ;
 
-LEXICON Dat-NoArg
-Pron+Pers+Dat: POSSX4-END-DAT ;
+!LEXICON Dat-NoArg
+!Pron+Pers+Dat: POSSX4-END-DAT ;
 
 LEXICON Ill-Pron
 +Pron+Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
@@ -370,9 +370,9 @@ LEXICON _KUDO-PersPronGen_CX-2
 +Prl:%>Г2а _KUDO-PersPronGenCX_DX ;
 +Tra:%>кс _OSH-PersPronGenCX_DX ;
 
-LEXICON _KAL-PersPronGenCX_DX
-+Sg+Gen+Def00@U.DNUM.SG@:%>%{ОЕЭØ%}нть@U.DNUM.SG@ K ;
-     PersPronGenCX_DX-1 ;
+!LEXICON _KAL-PersPronGenCX_DX
+!+Sg+Gen+Def00@U.DNUM.SG@:%>%{ОЕЭØ%}нть@U.DNUM.SG@ K ;
+!     PersPronGenCX_DX-1 ;
 
 LEXICON _OSH-PersPronGenCX_DX
 +Sg+Gen+Def00@U.DNUM.SG@:%>%{ОЕЭØ%}нть@U.DNUM.SG@ K ;
@@ -417,11 +417,11 @@ LEXICON PRON-IS-INDEF-MANNER !!
 LEXICON PRON-IS-INDEF-PERS-SG-NOM
 +Pron+Indef+Sg+Nom: # ;
 
-LEXICON PRON-IS-INDEF-PERS-ABL
-+Pron+Indef+SP+Abl: # ;
+!LEXICON PRON-IS-INDEF-PERS-ABL
+!+Pron+Indef+SP+Abl: # ;
 
-LEXICON PRON-IS-INDEF-SPAT-ELA !! What should be done 
-+Pron+Indef+Spat+Ela: # ;
+!LEXICON PRON-IS-INDEF-SPAT-ELA !! What should be done 
+!+Pron+Indef+Spat+Ela: # ;
 
 LEXICON PRON-IS-INDEF-SPAT-INE !! What should be done 
 +Pron+Indef+Spat+Ine: # ;
@@ -429,11 +429,11 @@ LEXICON PRON-IS-INDEF-SPAT-INE !! What should be done
 LEXICON PRON-IS-INDEF-SPAT-LAT !! What should be done 
 +Pron+Indef+Spat+Lat: # ;
 
-LEXICON PRON-IS-INDEF-SPAT-PRL !! What should be done 
-+Pron+Indef+Spat+Prl: # ;
+!LEXICON PRON-IS-INDEF-SPAT-PRL !! What should be done 
+!+Pron+Indef+Spat+Prl: # ;
 
-LEXICON	PRON-IS-INTERR-MANNER !! кода:кода
-+Pron+Interr+Manner: #  ;
+!LEXICON	PRON-IS-INTERR-MANNER !! кода:кода
+!+Pron+Interr+Manner: #  ;
 
 LEXICON	PRON-IS-INTERR-PERS !! ки:ки
 +Pron+Interr+Pers+Sg+Nom:е #  ;
@@ -465,8 +465,8 @@ LEXICON PRON-IS-INTERR-TEMP !!= @CODE@ зярдо
 +Pron+Interr+Temp: # ;
 
 !! Relative pronouns
-LEXICON PRON-IS-REL-ADJ_КОДАМО !! кодамо:кода
-+Pron+Rel+Dep:мо # ;
+!LEXICON PRON-IS-REL-ADJ_КОДАМО !! кодамо:кода
+!+Pron+Rel+Dep:мо # ;
 
 LEXICON	PRON-IS-REL-PERS !! ки:ки
 +Pron+Rel+Pers+Sg+Nom:е #  ;
@@ -703,31 +703,31 @@ LEXICON Pron-Pl
 +Pron+Pl+Abl+Def:%>тне%>дО1 K ;
 +Pron+Pl+Ill+Def:%>тне%>с K ;
 
-LEXICON Misc_Pronouns
-!се+Dem:се vese-QNT ;
-!секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
-!сете+Dem+Pron:сете te-Dem ;
-!те+Dem:те te-Dem ;
-!тевате+Dem:тевате te-Dem ;
+!LEXICON Misc_Pronouns
+!!се+Dem:се vese-QNT ;
+!!секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
+!!сете+Dem+Pron:сете te-Dem ;
+!!те+Dem:те te-Dem ;
+!!тевате+Dem:тевате te-Dem ;
 
-севате+Dem+Pron:севате te-Dem ;
-тете+Dem:тете te-Dem ;
+!севате+Dem+Pron:севате te-Dem ;
+!тете+Dem:тете te-Dem ;
 !
-те+Dem+Pron+Gen+Abl:тенде K ;
-те+Dem+Pron+Gen+Abe+Err/Orth+Dial:тенстеме K ;
+!те+Dem+Pron+Gen+Abl:тенде K ;
+!те+Dem+Pron+Gen+Abe+Err/Orth+Dial:тенстеме K ;
 !
-!истямо+Adn:истям Misc_Pronouns1 ;
-кона+Pron:кона Misc_Pronouns1 ;
-коната+Pron:коната Misc_Pronouns1 ;
-нона+Dem+Pron:нона Misc_Pronouns_Pl ;
-тона+Dem+Pron:тона Misc_Pronouns1 ;
-тоната+Dem+Pron:тоната Misc_Pronouns1 ;
-! мезе+Pron:мезИ2 Misc_Pronouns1 ;
-! мезе+Pron+Rel+Gen:мень K ;
-! ки+Pron+Interr:ки Misc_Pronouns1 ;
-!не+Dem:не ne-Misc_Pronouns1 ;
-!неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
-!нете+Dem+Pron:нете Misc_Pronouns1 ;
+!!истямо+Adn:истям Misc_Pronouns1 ;
+!кона+Pron:кона Misc_Pronouns1 ;
+!коната+Pron:коната Misc_Pronouns1 ;
+!нона+Dem+Pron:нона Misc_Pronouns_Pl ;
+!тона+Dem+Pron:тона Misc_Pronouns1 ;
+!тоната+Dem+Pron:тоната Misc_Pronouns1 ;
+!! мезе+Pron:мезИ2 Misc_Pronouns1 ;
+!! мезе+Pron+Rel+Gen:мень K ;
+!! ки+Pron+Interr:ки Misc_Pronouns1 ;
+!!не+Dem:не ne-Misc_Pronouns1 ;
+!!неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
+!!нете+Dem+Pron:нете Misc_Pronouns1 ;
 
 LEXICON PRON-SPAT-ELA_4-PX !!= * __@CODE@__ эйстэ-
 +Pron+Spat+Ela: POSSX4-END ;
@@ -751,12 +751,12 @@ LEXICON PRON-SPAT-PRL_4-PX !!= * __@CODE@__ эзга-
 !! Some pronoun continuation have been moved here
 !! Out of TestLexc-noun.txt
 
-LEXICON Misc_Pronouns1
- Misc_Pronouns_Sg ;
- Misc_Pronouns_Pl ;
-+Adn: WORD-END ;
- PossPX1-NomSg ; !2012-08-09 Removing NomGen
-+Gen: PossPX1 ; !2012-08-09 Removing NomGen
+!LEXICON Misc_Pronouns1
+! Misc_Pronouns_Sg ;
+! Misc_Pronouns_Pl ;
+!+Adn: WORD-END ;
+! PossPX1-NomSg ; !2012-08-09 Removing NomGen
+!+Gen: PossPX1 ; !2012-08-09 Removing NomGen
 
 LEXICON PRON-DEM_ТЕ
 +Pron+Dem: _KUDO-Misc_Pronouns_Sg ;
@@ -764,8 +764,8 @@ LEXICON PRON-DEM_ТЕ
 LEXICON PRON-DEM_ВАСЕНЦЕ
 +Pron+Det+Ord: _KUDO-Misc_Pronouns_Sg ;
 
-LEXICON PRON-DEM_KUDO !!= * __@CODE@__ алце
-+Pron+Dem: NMN_KUDO ;
+!LEXICON PRON-DEM_KUDO !!= * __@CODE@__ алце
+!+Pron+Dem: NMN_KUDO ;
 
 
 LEXICON te-Dem
@@ -780,19 +780,19 @@ LEXICON ne-Dem
 LEXICON PRON_KUDO
 +Pron+Qnt: NMN_KUDO ;
 
-LEXICON Misc_Pronouns_Sg
-  Misc_Pronouns_Indef ;
-+Sg+Nom+Def:%>сь  _OSH-Tenses1_Prep-SG ;
-+Sg+Gen+Def:%>нть K ;
-+Sg+Def+Dat:%>нтень K ;
-+Sg+Prl+Def:%>Г2а _KUDO-SgDet-PossPx ;
-+Sg+Abe+Def:%>втО1мО1 _KUDO-SgDet-PossPx ;
-+Sg+Abl+Def:%>дО1 _KUDO-SgDet-PossPx ;
-+Sg+Tra+Def:%>кс _OSH-SgDet-PossPx ;
-+Sg+Ine+Def:%>с%{оэØ%} _KUDO-SgDet-PossPx ;
-+Sg+Ela+Def:%>ст%{оэØ%} _KUDO-SgDet-PossPx ;
-+Sg+Cmpr+Def:%>шка _KUDO-SgDet-PossPx ;
-+Sg+Tra+Def:%>V1кс _OSH-SgDet-PossPx ;
+!LEXICON Misc_Pronouns_Sg
+!  Misc_Pronouns_Indef ;
+!+Sg+Nom+Def:%>сь  _OSH-Tenses1_Prep-SG ;
+!+Sg+Gen+Def:%>нть K ;
+!+Sg+Def+Dat:%>нтень K ;
+!+Sg+Prl+Def:%>Г2а _KUDO-SgDet-PossPx ;
+!+Sg+Abe+Def:%>втО1мО1 _KUDO-SgDet-PossPx ;
+!+Sg+Abl+Def:%>дО1 _KUDO-SgDet-PossPx ;
+!+Sg+Tra+Def:%>кс _OSH-SgDet-PossPx ;
+!+Sg+Ine+Def:%>с%{оэØ%} _KUDO-SgDet-PossPx ;
+!+Sg+Ela+Def:%>ст%{оэØ%} _KUDO-SgDet-PossPx ;
+!+Sg+Cmpr+Def:%>шка _KUDO-SgDet-PossPx ;
+!+Sg+Tra+Def:%>V1кс _OSH-SgDet-PossPx ;
 
 LEXICON _KUDO-Misc_Pronouns_Sg
   _KUDO-Misc_Pronouns_Indef ;
@@ -809,9 +809,9 @@ LEXICON _KUDO-Misc_Pronouns_Sg
 +Sg+Tra+Def:%>кс _OSH-SgDet-PossPx ;
 
 
-LEXICON SgDet-PossPx
- PossPX1 ;
-+Sg+Def:%>нть K ; 
+!LEXICON SgDet-PossPx
+! PossPX1 ;
+!+Sg+Def:%>нть K ; 
 
 LEXICON _OSH-SgDet-PossPx
  _OSH-PossPX1 ;
@@ -829,23 +829,23 @@ LEXICON _KUDO-SgDet-PossPx
 +Err/Orth+Dial+PxPl30@U.PossPx.Pl3@:%>нст@U.PossPx.Pl3@  _KIT-SecondaryDeclination ;
                   +Sg+Def:%>нть  K ;
 
-LEXICON Misc_Pronouns_Indef
-+Sg+Nom+Indef:  Tenses1_Prep-SG ;
-+Abl+Indef:%>дО1 K ;
-+Gen+Indef:%>нь _KAL-Tenses1 ; 
-+Dat+Indef:%>нень K ;
-+Ill+Indef:%>с K ;
-+Gen+Indef+Abl+Indef:%>нь%>стэ K ;
-+Gen+Indef+Ela+Indef:%>нь%>стэ K ;
-+Gen+Indef+Ine+Indef:%>нь%>сэ K ;
-+Gen+Indef+Ill+Indef:%>нь%>с K ; 
-+Gen+Indef+Abe+Indef:%>нь%>втО1мО1 K ;
-+Ine+Indef:%>с%{оэØ%} K ; 
-+Ela+Indef:%>ст%{оэØ%} K ;
-+Prl+Indef:%>Г2а K ;
-+Abe+Indef:%>втО1мО1 K ;
-+Tra+Indef:%>ксЬ2 K ;
-+Cmpr+Indef:%>шка K ; 
+!LEXICON Misc_Pronouns_Indef
+!+Sg+Nom+Indef:  Tenses1_Prep-SG ;
+!+Abl+Indef:%>дО1 K ;
+!+Gen+Indef:%>нь _KAL-Tenses1 ; 
+!+Dat+Indef:%>нень K ;
+!+Ill+Indef:%>с K ;
+!+Gen+Indef+Abl+Indef:%>нь%>стэ K ;
+!+Gen+Indef+Ela+Indef:%>нь%>стэ K ;
+!+Gen+Indef+Ine+Indef:%>нь%>сэ K ;
+!+Gen+Indef+Ill+Indef:%>нь%>с K ; 
+!+Gen+Indef+Abe+Indef:%>нь%>втО1мО1 K ;
+!+Ine+Indef:%>с%{оэØ%} K ; 
+!+Ela+Indef:%>ст%{оэØ%} K ;
+!+Prl+Indef:%>Г2а K ;
+!+Abe+Indef:%>втО1мО1 K ;
+!+Tra+Indef:%>ксЬ2 K ;
+!+Cmpr+Indef:%>шка K ; 
 
 
 LEXICON _KUDO-Misc_Pronouns_Indef

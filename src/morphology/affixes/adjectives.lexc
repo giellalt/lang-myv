@@ -125,8 +125,8 @@ LEXICON ActDemPrc-A
 
 LEXICON A_ВЕЛЕ
  A_KUDO        ;
-LEXICON A_KUDO_SUB
-+Err/Orth: A_KUDO	;
+!LEXICON A_KUDO_SUB
+!+Err/Orth: A_KUDO	;
 
 LEXICON A_KUDO
  ADJ-TO-ADV ;
@@ -145,9 +145,9 @@ LEXICON A_KUDO_01
 +Der/MWN: N_KUDO ;
 
 
-LEXICON Adj-InterrRel ! кодамо
-+Interr: A_ПАНГО ;
-+Rel: A_ПАНГО ;
+!LEXICON Adj-InterrRel ! кодамо
+!+Interr: A_ПАНГО ;
+!+Rel: A_ПАНГО ;
 
 LEXICON A-IS-INTERR/REL-ADJ_КОДАМО !! кодамо:кода
 +A+Interr: ADJ_КОДАМО ;
@@ -174,11 +174,11 @@ LEXICON DET_OSH
 +Det+Der/MWN: N_OSH ;
 
 
-LEXICON Adj-Dem ! истямо
-+Dem: A_ПАНГО ;
+!LEXICON Adj-Dem ! истямо
+!+Dem: A_ПАНГО ;
 
-LEXICON Adj-Po ! кондямо
-+Po: A_ПАНГО ;
+!LEXICON Adj-Po ! кондямо
+!+Po: A_ПАНГО ;
 
 LEXICON ADJ-TO-ADV
 +A+Der/стО+Adv:%>ст%{оэØ%} K ;
