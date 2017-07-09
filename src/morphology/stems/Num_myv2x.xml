@@ -1,5764 +1,3509 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="myv">
-  <e>
-    <lg>
-      <l pos="Qnt">колмоненек</l>
-
-      <stg>
-        <st Contlex="QNT_">колмоненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Num+Coll+1Pl</tags>
-        </head>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="N">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кевейкее</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кевейкее</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <phonet/>
-
-    <morphg>
-      <morph type="N">кевейкеесэ</morph>
-
-      <morph type="N">кевейкеень</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-æ-ее</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кемень ды вейке. Моли кемененть
-        мельга.</defNative>
-      </m>
-      <tg xml:lang="eng">
-        <t pos="Num">eleven</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">yksitoista</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">onze</t>
-      </tg>
-
-      <xg>
-        <x>Кевейкее чить ульнинь ки лангсо. Кевейкее ве эзинь удо паро
-        ладсо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавто-колмо</l>
-
-      <stg>
-        <st Contlex="NUMAPPROX_">кавто-колмо</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <phonet/>
-
-    <mg>
-
-        <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Qnt">two or three</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">pari kolme</t>
-      </tg>
-
-      <xg>
-        <x/>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кевейксэе</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кевейксэе</st>
-      </stg>
-    </lg>
-
-    <pos>N</pos>
-
-    <phonet/>
-
-    <morphg>
-      <morph type="N">кевейксэесэ</morph>
-
-      <morph type="N">кевейксэень</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-æ-эе</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал, моли кемгавксовонть мельга.</defNative>
-      </m>
-
-      <xg>
-        <x>Цёрантень топодсть кевейксэе иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кеветее</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кеветее</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym>[-æ-æ-ее</etym>
-    </etymg>
-
-    <mg>
-        <defNative>Ловома вал. Кемень ды вете. Моли кемнилеенть
-        мельга.</defNative>
-
-      <tg xml:lang="eng">
-        <t pos="Num">fifteen</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">viisitoista</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">quinze</t>
-      </tg>
-      <xg>
-        <x>Кеветее чить араселинь кудосо. Цёрантень топодсть кеветее иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кеветеешка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кеветеешка</st>
-      </stg>
-    </lg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кемгавксово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемгавксово</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym>[-æ-]</etym>
-    </etymg>
-
-    <mg>
-        <defNative>Ловома вал. Кемень ды кавксо.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeksantoista</t>
-      </tg>
-
-      <xg>
-        <x>Тейтерентень топодсть кемгавксово иеть, снартни лисеме мирденень.
-        Кемгавксово чить эринек ошсо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">миллион</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">миллион</st>
-        <st Contlex="NUM_KAL" status="Err/Sub">муллион</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym xml:lang="fra"/>
-    </etymg>
-
-    <mg>
-      <defNative>Покш числа, тёжа тёжат. Котоце эскельксэв кемень. Сёрмадови
-      истямо ладсо: 1000000.</defNative>
-      <tg xml:lang="fin">
-
-        <t pos="Num">miljoona</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кемгавтово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемгавтово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кемгавтовосо</morph>
-
-      <morph type="N">кемгавтовонь</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-]</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кемень ды кавто.</defNative>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Num">twelve</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksitoista</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">douze</t>
-      </tg>
-      <xg>
-        <x>Кудосо арасилинь кемгавтово чить.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кемголмово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемголмово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кемголмовосо</morph>
-
-      <morph type="N">кемголмовонь</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-]</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кемень ды колмо.</defNative>
-      </m>
-      <tg xml:lang="eng">
-        <t pos="Num">thirteen</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">kolmetoista</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">treize</t>
-      </tg>
-
-      <xg>
-        <x>Цёрынентень топодсть кемголмово иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-
-  <e>
-    <lg>
-      <l pos="Qnt">кемготово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемготово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кемготовосо</morph>
-
-      <morph type="N">кемготовонь</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-]</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кемень ды кото.</defNative>
-      </m>
-      <tg xml:lang="eng">
-        <t pos="Num">sixteen</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">kuusitoista</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">seize</t>
-      </tg>
-
-      <xg>
-        <x>Пирес озавтынь кемготово умаринат.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-
-  <e>
-    <lg>
-      <l pos="Qnt">кемнилее</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемнилее</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <phonet/>
-
-    <morphg>
-      <morph type="N">кемнилеесэ</morph>
-
-      <morph type="N">кемнилеень</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-ее</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кемень ды ниле.</defNative>
-      </m>
-      <tg xml:lang="eng">
-	<t pos="Num">fourteen</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Num">neljätoista</t>
-      </tg>
-      <tg xml:lang="fra">
-	<t pos="Num">quatorze</t>
-      </tg>
-
-      <xg>
-        <x>Кемнилее иесэ цёрынесь тонавтни баянсо седямо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кеменьксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">кеменьксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Num+Iter</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кавто</l>
-
-      <stg>
-        <st Contlex="Card-2">кавто</st>
-        <st Contlex="IS-NUM-CARD-ITER">кавксть</st>
-        <st Contlex="IS-NUM-CARD-COLL">кавонст</st>
-        <st Contlex="IS-NUM-CARD-ASSOCCOLL_KAVONE">кавоне</st>
-        <st Contlex="IS-NUM-CARD-ASSOCCOLL_KAVONE" status="Err/Sub">кавтоне</st>
-      </stg>
-    </lg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловома вал, невти зяро ломатнеде эли лиятне
-        мезтне.</defNative>
-
-      <tg xml:lang="eng">
-        <t pos="Num">two</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksi</t>
-      </tg>
-
-      <tg xml:lang="fra">
-        <t pos="Num">deux</t>
-      </tg>
-
-      <xg>
-        <x>Кавто ломанть. Кавто книгат. Эйкакшонтень топодсть кавто иеть.
-        Авась стась кавто панарт.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">ниле</l>
-      <l_cogn pos="Num" xml:lang="fin">neljä</l_cogn>
-      <l_cogn pos="Num" xml:lang="hun">négy</l_cogn>
-      <l_cogn pos="Num" xml:lang="kpv">нёль</l_cogn>
-      <l_cogn pos="Num" xml:lang="sme">njeallji</l_cogn>
-
-      <stg>
-        <st Contlex="NUM_KUDO">ниле</st>
-      </stg>
-    </lg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловома вал. Нилесь моли колмонть мельга. Нилесь ашти
-        ветенть икеле.</defNative>
-
-      <tg xml:lang="eng">
-        <t pos="Num">four</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">neljä</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">quatre</t>
-      </tg>
-
-      <xg>
-        <x>Ниле чить ютасть, кода сынь ошсто. Ниле умаринат озавтынь пирес.
-        Ниле цёрат кастынь эрямозон.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сизьгеменьшка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">сизьгеменьшка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сизьгеменце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">сизьгеменце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ведьгеменце</l>
-
-      <stg>
-        <st Contlex="IS_NUMORD_KUDO">ведьгеменце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комсьветее</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьветее</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комсьветеесэ</morph>
-
-      <morph type="N">комсьветеень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсетькс</l>
-
-      <stg>
-        <st Contlex="osh-N-WORK">комсетькс</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьсисемгешка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьсисемгешка</st>
-
-        <st Contlex="NUM_KUDO" status="Err/Sub">комсьсисемшка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комсьсисемшкасо</morph>
-
-      <morph type="N">комсьсисемшкань</morph>
-
-      <morph type="N">комсьсисемшкине</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьсисемгеце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьсисемгеце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комсьсисемгецесэ</morph>
-
-      <morph type="N">комсьсисемгецень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комсьсисемге</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьсисемге</st>
-
-        <st Contlex="NUM_KAL" status="Err/Sub">комсьсисем</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комсьсисемгесэ</morph>
-
-      <morph type="N">комсьсисемгеень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьнилееце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьнилееце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комсьнилеецесэ</morph>
-
-      <morph type="N">комсьнилеецень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга-мельцень ловома.</defNative>
-      </m>
-
-      <xg>
-        <x>Комсьнилееце чи моли, кода туинек кудосто.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комсьнилее</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьнилее</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комсьнилеесэ</morph>
-
-      <morph type="N">комсьнилеень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Комсь ды ниле.</defNative>
-      </m>
-
-      <xg>
-        <x>Патянень топодсть комсьнилее иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комськотовошка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськотовошка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комськотовошкасо</morph>
-
-      <morph type="N">комськотовошкань</morph>
-
-      <morph type="N">комськотовошкине</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комськотовоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськотовоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комськотовоцесэ</morph>
-
-      <morph type="N">комськотовоцень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комськотово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськотово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комськотовосо</morph>
-
-      <morph type="N">комськотовонь</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комськолмовоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськолмовоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комськолмовоцесэ</morph>
-
-      <morph type="N">комськолмовоцень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комськолмово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськолмово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комськолмовосо</morph>
-
-      <morph type="N">комськолмовонь</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комськавтовоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськавтовоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комськавтовоцесэ</morph>
-
-      <morph type="N">комськавтовоцень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeskymmenestoinen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комськавтово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськавтово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комськавтовосо</morph>
-
-      <morph type="N">комськавтовонь</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksikymmentäkaksi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комськавксовоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськавксовоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комськавксовоцесэ</morph>
-
-      <morph type="N">комськавксовоцень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комськавксово</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комськавксово</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комськавксовосо</morph>
-
-      <morph type="N">комськавксовонь</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksikymmentäkahdeksan</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьветеешка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьветеешка</st>
-
-        <st Contlex="NUM_KUDO" status="Err/Sub">комсьветешка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьветееце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьветееце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeskymmenesviides</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комсьвейкее</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьвейкее</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksikymmentäyksi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьвейкееце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьвейкееце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeskymmenesensimmäinen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комсьвейксэе</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьвейксэе</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksikymmentäyhdeksän</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсьвейксэеце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсьвейксэеце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeskymmenesyhdeksäs</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсешка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсешка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">комсешкасо</morph>
-
-      <morph type="N">комсешкань</morph>
-
-      <morph type="N">комсешкине</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">комсь</l>
-
-      <stg>
-        <st Contlex="NUM_OSH">комсь</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кеменесь кавксть.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Num">kaksikymmentä</t>
-      </tg>
-
-      <xg>
-        <x>Комсь чи керинек вирь. Комсь чис нуинек весе паксянть. Монень
-        топодсть комсь иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Dem">весе</l>
-
-      <stg>
-        <st Contlex="vese-QNT">весе</st>
-      </stg>
-    </lg>
-
-    <pos>QNT</pos>
-
-    <phonet/>
-
-    <morphg>
-      <morph type="N">весемесэ</morph>
-
-      <morph type="N">весень</morph>
-
-      <morph type="N">весемень</morph>
-    </morphg>
-
-    <etymg>
-      <etym langForm="*" xml:lang="myv"><constituent>вæсе</constituent></etym>
-    </etymg>
-
+<?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="myv">
+<e>
+   <lg>
+     <l pos="Qnt">колмоненек</l>
+     <stg>
+       <st Contlex="QNT_">колмоненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <m>
+       <head> <tags>+Num+Coll+1Pl</tags>
+       </head>
+     </m>
+     <tg xml:lang="eng">
+       <t pos="N">XX</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="N">XX</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="N">XX</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кевейкее</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кевейкее</st>
+     </stg>
+   </lg> <pos>N</pos> <phonet/> <morphg> <morph type="N">кевейкеесэ</morph> <morph type="N">кевейкеень</morph> </morphg>
+     <etymology> <etym>[-æ-æ-ее</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кемень ды вейке. Моли кемененть мельга.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">eleven</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">yksitoista</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">onze</t>
+     </tg>
+     <xg>
+       <x>Кевейкее чить ульнинь ки лангсо. Кевейкее ве эзинь удо паро ладсо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавто-колмо</l>
+     <stg>
+       <st Contlex="NUMAPPROX_">кавто-колмо</st>
+     </stg>
+   </lg> <pos>Qnt</pos> <phonet/>
+   <mg>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Qnt">two or three</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Qnt">pari kolme</t>
+     </tg>
+     <xg> <x/>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кевейксэе</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кевейксэе</st>
+     </stg>
+   </lg> <pos>N</pos> <phonet/> <morphg> <morph type="N">кевейксэесэ</morph> <morph type="N">кевейксэень</morph> </morphg>
+     <etymology> <etym>[-æ-æ-эе</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал, моли кемгавксовонть мельга.</defNative>
+     <xg>
+       <x>Цёрантень топодсть кевейксэе иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кеветее</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кеветее</st>
+     </stg>
+     <etymology> <etym>[-æ-æ-ее</etym>
+     </etymology>
+   </lg>
+   <mg>
+     <defNative>Ловома вал. Кемень ды вете. Моли кемнилеенть мельга.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">fifteen</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">viisitoista</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">quinze</t>
+     </tg>
+     <xg>
+       <x>Кеветее чить араселинь кудосо. Цёрантень топодсть кеветее иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кеветеешка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кеветеешка</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кемгавксово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемгавксово</st>
+     </stg>
+     <etymology> <etym>[-æ-]</etym>
+     </etymology>
+   </lg>
+   <mg>
+     <defNative>Ловома вал. Кемень ды кавксо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeksantoista</t>
+     </tg>
+     <xg>
+       <x>Тейтерентень топодсть кемгавксово иеть, снартни лисеме мирденень. Кемгавксово чить эринек ошсо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">миллион</l>
+     <stg>
+       <st Contlex="NUM_KAL">миллион</st>
+       <st Contlex="NUM_KAL" status="Err/Sub">муллион</st>
+     </stg>
+     <etymology> <etym xml:lang="fra"/>
+     </etymology>
+   </lg>
+   <mg>
+     <defNative>Покш числа, тёжа тёжат. Котоце эскельксэв кемень. Сёрмадови истямо ладсо: 1000000.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">miljoona</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кемгавтово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемгавтово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кемгавтовосо</morph> <morph type="N">кемгавтовонь</morph> </morphg>
+     <etymology> <etym>[-æ-]</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кемень ды кавто.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">twelve</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksitoista</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">douze</t>
+     </tg>
+     <xg>
+       <x>Кудосо арасилинь кемгавтово чить.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кемголмово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемголмово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кемголмовосо</morph> <morph type="N">кемголмовонь</morph> </morphg>
+     <etymology> <etym>[-æ-]</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кемень ды колмо.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">thirteen</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kolmetoista</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">treize</t>
+     </tg>
+     <xg>
+       <x>Цёрынентень топодсть кемголмово иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кемготово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемготово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кемготовосо</morph> <morph type="N">кемготовонь</morph> </morphg>
+     <etymology> <etym>[-æ-]</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кемень ды кото.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">sixteen</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kuusitoista</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">seize</t>
+     </tg>
+     <xg>
+       <x>Пирес озавтынь кемготово умаринат.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кемнилее</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемнилее</st>
+     </stg>
+   </lg> <pos>Num</pos> <phonet/> <morphg> <morph type="N">кемнилеесэ</morph> <morph type="N">кемнилеень</morph> </morphg>
+     <etymology> <etym>[-æ-ее</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кемень ды ниле.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">fourteen</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">neljätoista</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">quatorze</t>
+     </tg>
+     <xg>
+       <x>Кемнилее иесэ цёрынесь тонавтни баянсо седямо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кеменьксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">кеменьксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <m>
+       <head> <tags>+Num+Iter</tags>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кавто</l>
+     <stg>
+       <st Contlex="Card-2">кавто</st>
+       <st Contlex="IS-NUM-CARD-ITER">кавксть</st>
+       <st Contlex="IS-NUM-CARD-COLL">кавонст</st>
+       <st Contlex="IS-NUM-CARD-ASSOCCOLL_KAVONE">кавоне</st>
+       <st Contlex="IS-NUM-CARD-ASSOCCOLL_KAVONE" status="Err/Sub">кавтоне</st>
+     </stg>
+   </lg>
      <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Марсо. Куцясо. Мирём. Вейкень пес.</defNative>
-      </m>
-<tg xml:lang="eng">
-            <t pos="Qnt">all</t>
-         </tg>
-<tg xml:lang="fin">
-            <t pos="Qnt">kaikki</t>
-         </tg>
-
-      <tg xml:lang="fra">
-        <t pos="Qnt">tout</t>
-      </tg>
-
-      <xg>
-        <x>Весе тусть вирень керямо. Минь весе мольтяно кинов. Весе книгатнень
-        максынь велень ловнома кудов. Тевтне прядовсть весе.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсеце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">комсеце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">комсецесэ</morph>
-
-      <morph type="N">комсецень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга-мельцень ловома.</defNative>
-      </m>
-
-      <xg>
-        <x>Иневедьганть уйтяно комсеце чи.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сядоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">сядоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">сядоцесэ</morph>
-
-      <morph type="N">сядоцень</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">сядо</l>
-      <l_cogn pos="Num" xml:lang="fin">sata</l_cogn>
-      <l_cogn pos="Num" xml:lang="hun">száz</l_cogn>
-      <l_cogn pos="Num" xml:lang="sme">čuohti</l_cogn>
-
-      <stg>
-        <st Contlex="NUM_SJADO">сяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-        <defNative>Ловома вал. Кеменесь кеменксть. Кеменесь
-        кеменьгирда.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Num">sata</t>
-      </tg>
-
-      <xg>
-        <x>Сядо иетнестэ ─ пинге. Сядо чить. Минек велесэнть сядо кудот.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сисемшка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">сисемшка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">сисемшкасо</morph>
-
-      <morph type="N">сисемшкань</morph>
-
-      <morph type="N">сисемшкине</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">сисемсядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">сисемсяд</st>
-
-        <st Contlex="NUM_SJADO">сисемзяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-        <defNative>Ловома вал. Сядось сисемексть.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Num">seitsemänsataa</t>
-      </tg>
-
-      <xg>
-        <x>Минек велесэ ульнесть сисемсядт кудот, ней кадовсть сядо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сисемеце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">сисемеце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">сисемецесэ</morph>
-
-      <morph type="N">сисемецень</morph>
-
-      <morph type="N">сисемецине</morph>
-    </morphg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-
-        <defNative/>
-      <tg xml:lang="eng">
-        <t pos="Num">seventh</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">seitsemäs</t>
-      </tg>
-
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">сисем</l>
-      <l_cogn pos="Num" xml:lang="fin">seitsemän</l_cogn>
-      <l_cogn pos="Num" xml:lang="kpv">сизем</l_cogn>
-
-      <stg>
-        <st Contlex="NUM_KAL">сисем</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловома вал. Моли котонть мельга.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">seven</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">seitsemän</t>
-      </tg>
-
-      <xg>
-        <x>Цёрынентень топодсть сисем иеть, те сёксня моли тонавтнеме.
-        Недлясонть сисем чить.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">котоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">котоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">котоцесэ</morph>
-
-      <morph type="N">котоцень</morph>
-    </morphg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-        <defNative>Мельга-мельцекень ловома.</defNative>
-
-      <tg xml:lang="eng">
-        <t pos="Num">sixth</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kuudes</t>
-      </tg>
-      <xg>
-        <x>Котоце чись субута.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">котосядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">котосяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-        <defNative>Ловома вал. Сядось котоксть. Лиясто мерить
-        котосядт.</defNative>
-
-      <tg xml:lang="fin">
-        <t pos="Num">kuusisataa</t>
-      </tg>
-
-      <xg>
-        <x>Минек велесэ эрить котосядт ломань.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кото</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кото</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловома вал. Кавтось колмоксть.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">six</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kuusi</t>
-      </tg>
-
-      <xg>
-        <x>Ютасть кото иеть. Кото чить керинек вирь. Кото умарть. Кото
-        целковойть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавтосядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">кавтосяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиякс «кавто сядот». Ловомань вал. Кавто сядт ─ кавто
-        пингеть.</defNative>
-      </m>
-      <tg xml:lang="fin">
-	<t pos="Num">kaksisataa</t>
-      </tg>
-
-      <xg>
-        <x>Велесэнть кавтосядт кудот.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавксоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кавксоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">кавксоцесэ</morph>
-
-      <morph type="N">кавксоцень</morph>
-    </morphg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-        <defNative/>
-      <tg xml:lang="eng">
-        <t pos="Num">eighth</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeksas</t>
-      </tg>
-
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавксосядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">кавксосяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кавксосядосо</morph>
-
-      <morph type="N">кавксосядонь</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кавксось саезь сядоксть.</defNative>
-      </m>
-
-      <xg>
-        <x>Кавксосядт иетнесэ кавксо пингеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавксоньгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">кавксоньгемень</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кавксоньгеменьсэ</morph>
-
-      <morph type="N">кавксоньгеменень</morph>
-
-      <morph type="N">кавксоньгеменне</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кавксось саезь кеменьксть.</defNative>
-      </m>
-
-      <xg>
-        <x>Покштям эрясь кавксоньгемень иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кавксо</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кавксо</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловомавал. Кавксть ниле.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">eight</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdeksan</t>
-      </tg>
-
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавксоньгеменце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кавксоньгеменце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">кавксоньгеменцесэ</morph>
-
-      <morph type="N">кавксоньгеменцень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга молиця лововкс.</defNative>
-      </m>
-
-      <xg>
-        <x>Ютась кавксоньгеменце ломань.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ведьгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">ведьгемень</st>
-
-        <st Contlex="NUM_KAL">ветенькемень</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">ведьгеменьсэ</morph>
-
-      <morph type="N">ведьгеменень</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-æ-е-]</etym>
-
-      <etym>[*ветень#кемень</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал, невти вете кементь. Кеменесь саезь ветексть.
-        Лиякс пель сядо.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">сизьгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">сизьгемень</st>
-
-        <st Contlex="NUM_KAL">сисьменькемень</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">сизьгеменьсэ</morph>
-
-      <morph type="N">сизьгеменень</morph>
-
-      <morph type="N">сизьгеменне</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Сисем кементь. Сисемесь
-        кеменьксть.</defNative>
-      </m>
-
-      <xg>
-        <x>Минек велентень кадовсть сизьгемень кудот. Минек покштянтень
-        топодсть сизьгемень иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">нилешка</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">нилешка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">нилешкасо</morph>
-
-      <morph type="N">нилешкань</morph>
-
-      <morph type="N">нилешкине</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Нилешка ие эринь ошсо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">нилеце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">нилеце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-        <defNative>Мельга ёвтамо вал.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">fourth</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">neljäs</t>
-      </tg>
-
-      <xg>
-        <x>Нилеце цёрась сась весемеде мейле. Мельга сыця нилецесь ульнесь
-        аваломань.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">нилесядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">нилесяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ниле сядот. Ловома вал.</defNative>
-      </m>
-
-      <xg>
-        <x>Велесэнть нилесядт кудот.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ниленьгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">ниленьгемень</st>
-
-        <st Contlex="NUM_KAL">ниленькемень</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">ниленьгеменьсэ</morph>
-
-      <morph type="N">ниленьгеменень</morph>
-    </morphg>
-
-    <etymg>
-      <etym xml:lang="fin">neljäkymmentä</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кеменесь нилексть, 40.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кемзисемгеце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемзисемгеце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">кемзисемгецесэ</morph>
-
-      <morph type="N">кемзисемгецень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга-мельцек лововиця.</defNative>
-      </m>
-
-      <xg>
-        <x>Ковонь кемзисемгеце чистэ минек велев сыть артистт.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кемзисемге</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемзисемге</st>
-
-        <st Contlex="NUM_KUDO">кемсисемге</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <phonet/>
-
-    <morphg>
-      <morph type="N">кемзисемгесэ</morph>
-
-      <morph type="N">кемзисемгень</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-е-е</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кемень ды сисем.</defNative>
-      </m>
-
-      <xg>
-        <x>Кемзисемге иесэ тейтересь умарина панжовксонь кондямо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кемень кирда</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кемень кирда</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кемень кирдасо</morph>
-
-      <morph type="N">кемень кирдань</morph>
-
-      <morph type="N">кемень кирдыне</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">кемень</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym>[-æ-е-]</etym>
-    </etymg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловома вал.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">ten</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kymmenen</t>
-      </tg>
-
-      <xg>
-        <x>Кавто кедьсэ кемень сурт. Кемень иеть ютасть се шкастонть, кода
-        прядыя тонавтнеманть. Тонавтнинь кемень иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кеменце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кеменце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-        <defNative>Мельга-мельцек лововиця.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">tenth</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kymmenes</t>
-      </tg>
-
-      <xg>
-        <x>Чирестэ кеменце кудось минек.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмоце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">колмоце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-        <defNative>Мельга-мельцек ловома.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">third</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">kolmas</t>
-      </tg>
-
-      <xg>
-        <x>Сыцятнень эйстэ колмоцесь ульнесь аваломань. Колмоце чи арасян
-        кудосо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">колмосядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">колмосяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Сядось колмоксть.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Num">kolmesataa</t>
-      </tg>
-
-      <xg>
-        <x>Колмосядт иеть Романовонь раськесь ульнекшнесь инязорокс. Минек
-        ошонтень колмосядо иеде ламо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">колмоньгирда</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">колмоньгирда</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">колмоньгирдасо</morph>
-
-      <morph type="N">колмоньгирдань</morph>
-
-      <morph type="N">колмоньгирдыне</morph>
-    </morphg>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">колмо</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">колмо</st>
-      </stg>
-    </lg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловома вал. Ловомсто моли кавтонть мейле
-        (мельга).</defNative>
-
-      <tg xml:lang="eng">
-        <t pos="Num">three</t>
-      </tg>
-      <tg xml:lang="fin">
-	<t pos="Num">kolme</t>
-      </tg>
-<tg xml:lang="fra">
-        <t pos="Num">trois</t>
-      </tg>
-
-      <xg>
-        <x>Кияванть сыть колмо ломанть. Армиясо служинь колмо иеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">колмоньгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">колмоньгемень</st>
-
-        <st Contlex="NUM_KAL">колоньгемень</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">колмоньгеменьсэ</morph>
-
-      <morph type="N">колмоньгеменень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиясто кортыть колоньгемень. Ловома вал. Колмо кементь.
-        Кеменесь колмоксть.</defNative>
-      </m>
-
-      <xg>
-        <x>Чадыковсонть колмоньгемень чить.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колоньгеменце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">колоньгеменце</st>
-
-        <st Contlex="NUM_KUDO">колмонькеменце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">колмоньгеменцесэ</morph>
-
-      <morph type="N">колмоньгеменцень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга-мельцек ёвтамо.</defNative>
-      </m>
-
-      <xg>
-        <x>Колмоньгеменце ие эль юты, кода эрян ошсо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кодгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">кодгемень</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <morphg>
-      <morph type="N">кодгеменьсэ</morph>
-
-      <morph type="N">кодгеменень</morph>
-
-      <morph type="N">кодгеменне</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Котось кеменьксть.</defNative>
-      </m>
-
-      <xg>
-        <x>Покштянень топодсть кодгемень иеть. Кодгемень чить араселинь
-        кудосо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кодгеменце</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">кодгеменце</st>
-      </stg>
-    </lg>
-
-    <pos>Num-ORD</pos>
-
-    <morphg>
-      <morph type="N">кодгеменцесэ</morph>
-
-      <morph type="N">кодгеменцень</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга-мельцень ловома.</defNative>
-      </m>
-
-      <xg>
-        <x>Кодгеменце чи эрятано вирьсэ. Кодгеменце чи юты, кода араселинь
-        кудосо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">аламнэнзэ</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">аламнэ</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">аламнэст</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">аламнэст</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">аламо</l>
-
-      <stg>
-        <st Contlex="QNT_LAMO">аламо</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym xml:lang="myv"><constituent>а+ламо</constituent></etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аволь ламо. Те валонть чарькодемазо вельть келей. Эрьва
-        мезесь лиянь коряс эрси аламо эли ламо. Аламось чарькодеви ансяк
-        сестэ, зярдо путови лиянь ваксс.</defNative>
-      </m>
-
-      <tg xml:lang="fra">
-        <t pos="Qnt">peu</t>
-      </tg>
-
-      <xg>
-        <x>Кото умартне кементнень коряс аламо, колмотнень коряс ламо.</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x>Видметнеде аламо, уманть видемс а сатыть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Adv">аламонь-аламонь</l>
-
-      <stg>
-        <st Contlex="QNT_LAMO">аламонь-аламонь</st>
-      </stg>
-    </lg>
-
-    <mg>
-
-        <defNative/>
-
-      <tg xml:lang="eng">
-        <t pos="Qnt">little by little</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">vähitellen</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">аламоненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">аламоненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">аламоненк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">аламоненк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">аламонест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">аламоне</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">аламонь-аламонь</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">аламонь-аламонь</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">аламос</l>
-
-      <stg>
-        <st Contlex="QNT_">аламос</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">байтяк</l>
-
-      <stg>
-        <st Contlex="QNT_">байтяк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ламо. Сатышка.</defNative>
-      </m>
-
-      <xg>
-        <x>Умартне исень базарсо ульнесть байтяк. Ярмактнэнь таштынь байтяк,
-        сатыть кудо рамамс.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">валом</l>
-
-      <stg>
-        <st Contlex="QNT_">валом</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аламонь-аламонь. Апак капша, апак лотксе.</defNative>
-      </m>
-
-      <xg>
-        <x>Молемс валом. Кортамс валом. Сыре бодясь а капши, весементь теи
-        валом.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ве</l>
-
-      <stg>
-        <st Contlex="QNT-ADN">ве</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <phonet/>
-
-    <etymg>
-      <etym etymType="hypotheticalErzya" xml:lang="myv"><constituent>вæ</constituent></etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>I 1) Вейке. Явови смустень коряс «вейке» валонть эйстэ ─ а
-        аравтови карадо-каршо «кавто» валонть марто.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">yksi</t>
-      </tg>
-
-      <xg>
-        <x>Ве ломанесь мезеяк а теи, эряви весенень вейсэ. Ве чис те книгась а
-        ловнови.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ськамон, ськамот, ськамонзо…</defNative>
-      </m>
-      <tg xml:lang="eng">
-	<t pos="Qnt">alone</t>
-      </tg>
-      <tg xml:lang="fin">
-	<t pos="Qnt">vain</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Qnt">только</t>
-
-        <t pos="Qnt">издалека</t>
-      </tg>
-
-
-      <xg>
-        <x>Вазонть ваномо якан ве мон.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ведьгеменнест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ведьгеменне</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">веенст</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-COLL">веенст</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">веень кирда</l>
-
-      <stg>
-        <st Contlex="QNT_">веень кирда</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейке-вейке</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">вейке-вейке</st>
-
-        <st Contlex="QNT-DISTR">вейте-вейте</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <etymg>
-      <etym>[-æ-е-æ-е</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аволь вейсэ, башка.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейкень-вейкень</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">вейкень-вейкень</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">вейксэненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">вейксэненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">вейксэненк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">вейксэненк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейксэнест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">вейксэне</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейксэньгемень</l>
-
-      <stg>
-        <st Contlex="NUM_KAL">вейксэньгемень</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейте</l>
-
-      <stg>
-        <st Contlex="QNT_">вейте</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="вейке" semRelType="see"/>
-
-        <defNative/>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">вейте-вейте</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">вейте-вейте</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <etymg>
-      <etym>[-æ-е-æ-е-]</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Теке жо.</defNative>
-      </m>
-
-      <xg>
-        <x src="содамоёвкс: крандазчарот">Кудостонть цёратне лиснесть
-        вейтень-вейтень, ськамонь-ськамонь. Ломантне кияванть молить
-        вейте-вейте. Ниленест чиить мельга-мельцек, вейкест-вейкест а
-        сасыть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">вейтень-ськамонь</l>
-
-      <stg>
-        <st Contlex="QNT_">вейтень-ськамонь</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">весеме</l>
-
-      <stg>
-        <st Contlex="QNT_VESEME">весеме</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <phonet/>
-
-    <etymg>
-      <etym>[-æ-е-е</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Эрьва. Лиясто весе.</defNative>
-      </m>
-
-      <xg>
-        <x>Весеменень явшесть кинов билетт.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">весемезэ</l>
-
-      <stg>
-        <st Contlex="QNT_">весемезэ</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">весенде</l>
-
-      <stg>
-        <st Contlex="QNT_">весенде</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Нуеме эряви лисемс весенень.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вестешка</l>
-
-      <stg>
-        <st Contlex="QNT_">вестешка</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">вестешкаксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">вестешкаксть</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ветененек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ветененек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ветененк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ветененк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">вейксэ</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">вейксэ</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловомавал. Колмоксть колмо.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Num">nine</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">yhdeksän</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейкине</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">вейкине</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <phonet/>
-
-    <morphg>
-      <morph type="N">вейкинесэ</morph>
-
-      <morph type="N">вейкинень</morph>
-
-      <morph type="N">вейкинька</morph>
-    </morphg>
-
-    <etymg>
-      <etym>[-æ-е</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ськамонзо.</defNative>
-      </m>
-
-      <xg>
-        <x>Вейкине ава. Вейкине цёра. Паксянть куншкасо вейкине чувто.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">вейке</l>
-
-      <stg>
-        <st Contlex="Cards-1-2">вейке</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym>[-æ-е</etym>
-    </etymg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-        <defNative>Ловомань ушодкс. Невти мезеяк ськамонзо улиця, аштиця.
-        Аравтови карадо-каршо «кавто» валонть марто.</defNative>
-
-      <tg xml:lang="eng">
-        <t pos="Num">one</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">yksi</t>
-      </tg>
-      <tg xml:lang="fra">
-        <t pos="Num">un</t>
-      </tg>
-
-      <xg>
-        <x>Вейке ломань. Вейке чувто. Вейке чи.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ветесядт</l>
-
-      <lsub>ветесядот</lsub>
-
-      <stg>
-        <st Contlex="NUM_SJADO">ветесяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ветенест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ветене</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ветешка</l>
-
-      <stg>
-        <st Contlex="QNT_">ветешка</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ветешканест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ветешканест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">пель</l>
-      <l_cogn pos="Num" xml:lang="mdf">пяль</l_cogn>
-
-      <stg>
-        <st Contlex="QNT_">пель</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <phonet>II</phonet>
-
-    <mg>
-        <defNative>Кавтов явозень пелькс. Кавтов керязень пелькс.</defNative>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">puoli, puolikas</t>
-      </tg>
-
-      <xg>
-        <x>Пель кши, пель умарь, пель литра, пель пондо, пель часошка, пель
-        чи. Молинь пель чи, мейле лоткинь оймсеме.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">доволь</l>
-      <l_cogn pos="Qnt" xml:lang="rus">вдоволь</l_cogn>
-      <l_ref pos="Qnt">байтяк</l_ref>
-
-      <stg>
-        <st Contlex="QNT_">доволь</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-        <defNative>Вал пелькс. Пештевемемс. Доволь ярсынь умарде. Эйкакштнэ
-        доволь ярсасть кашадо.</defNative>
-
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавксоненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">кавксоненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавксонест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">кавксонест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавозонк</l>
-
-      <stg>
-        <st Contlex="QNT_">кавозонк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Улема, истя мерсь кавозонк.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавозонок</l>
-
-      <stg>
-        <st Contlex="QNT_">кавозонок</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Саинек кавоненек. Кавозонок улезэяк. –</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавозост</l>
-
-      <stg>
-        <st Contlex="QNT_">кавозост</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Феликсэнь арасельть ярмаконзо, отпусконсетне кавозост а сатыть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавоненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">кавоненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кавонек, кавтонек. Минек эйстэ кавто.</defNative>
-      </m>
-
-      <xg>
-        <x>Кинов якинек ялгань марто кавоненек.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавоненк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">кавоненк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Тынь якиде лелянть марто кавоненк.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавонест</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ASSOCCOLL_KAVONE">кавоне</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Сынст эйстэ кавто. ─</defNative>
-      </m>
-
-      <xg>
-        <x>Сынь якасть патят-сазорт кавонест.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">кавто-колмо</l>
-
-      <stg>
-        <st Contlex="QNT_">кавто-колмо</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Истя кортыть, зярдо эряви ёвтамс кодамояк а содавикс
-        счёт.</defNative>
-      </m>
-
-      <xg>
-        <x>Сайсь кавто-колмо умарь. Кияванть молить кавто-колмо ломань.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавтозонк</l>
-
-      <stg>
-        <st Contlex="QNT_">кавтозонк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиякс «кавозонк». Кавоненк туртов.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавтозонок</l>
-
-      <stg>
-        <st Contlex="QNT_">кавтозонок</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиякс «кавозонок». Кавоненек туртов.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавтозост</l>
-
-      <stg>
-        <st Contlex="QNT_">кавтозост</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиякс «кавозост». Кавонест туртов. Неть валтнэ невтить,
-        зняронь туртов мезеньгак явомсто зняро сатотсть.</defNative>
-      </m>
-
-      <xg>
-        <x>Явинек куярт, кавозонок сатотсть ве пондо. Явиде умарть, кавозонк
-        сатотсть кавто пондот. Явсть модамарть, кавозост сатотсть кемень
-        пондот.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавтонь-кавтонь</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">кавтонь-кавтонь</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Невти кодамо ладсо молить ламо ломантне. Солдаттнэ молить
-        стройсэ кавтонь-кавтонь. Эйкакштнэ молить кавтонь-кавтонь кедте кедьс
-        кундазь. Истя эрси эрьва ловома валонть марто ─ колмонь-колмонь,
-        нилень-нилень ды истя товгак. Теде башка, неть валтнэ невтить, кодамо
-        ладсо теезь мезеньгак явомась ды зняронь-зняронь сатотсь
-        эрьванень.</defNative>
-      </m>
-
-      <xg>
-        <x>Умартнень явизь, эрьванень сатотсть кавтонь-кавтонь. Куяртнэнь
-        явомсто эрьванень сатотсть колмонь-колмонь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">колмонь-колмонь</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">колмонь-колмонь</st>
-      </stg>
-    </lg>
-    <mg>
-      <tg xml:lang="fin">
-
-        <t pos="Num">kolmestaan</t>
-
-        <t pos="Num">kolmistaan</t>
-      </tg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="Qnt">кавтоньгирда</l>
-
-      <lsub>кавоньгирда</lsub>
-
-      <stg>
-        <st Contlex="QNT_">кавтоньгирда</st>
-
-        <st Contlex="QNT_">кавоньгирда</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кавксть. Кавтоксть. Теезь кавксть. Ламокстазь кавксть.
-        1)</defNative>
-      </m>
-
-      <xg>
-        <x>Модась изазь кавоньгирда.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Пиксэсь поназь кавоньгирда. Суресь пельдезь кавоньгирда.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кирда</l>
-
-      <stg>
-        <st Contlex="QNT_">кирда</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс, свал ёвтави ловома вал мельга ды невти
-        ламокстамонь чарькодема. Кавтоньгирда, колмоньгирда ди истя седе
-        тов.</defNative>
-      </m>
-
-      <xg>
-        <x>Пиксэсь поназь кавтоньгирда. Суресь пельдезь колмоньгирда.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмонек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">колмонек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмоненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">колмоненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмоненк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">колмоненк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмонест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">колмонест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">колмонст</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-COLL">колмонст</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Колмонст понкст. Колмонст котат.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кавонст</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-COLL">кавонст</st>
-      </stg>
-    </lg>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Кавонст понкст. Кавонст котат.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмошканенк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">колмошканенк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">колмошканест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">колмошканест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">комсенест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">комсенест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">котошканест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">котошканест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ламо</l>
-
-      <stg>
-        <st Contlex="QNT_LAMO">ламо</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аволь вейке. Вейкеде седе ламо. Нилесь кавтотнень коряс
-        седе ламо, котось ниленть коряс ламо. Ламочись свал чарькодеви ансяк
-        лиятнень ваксс путозь.</defNative>
-      </m>
-
-      <tg xml:lang="fra">
-        <t pos="Qnt">beaucoup</t>
-      </tg>
-
-      <xg>
-        <x>Вирьсэ ламо чувтт. Велесэнть ламо кудот, ошсо кудотне седеяк
-        ламо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ламоненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ламоненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ламоненк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ламоненк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ламонест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ламонест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ламонь-ламонь</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">ламонь-ламонь</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Сайнемс ламосо. Путнемс ламосо. Явомс ламосо. Каинек
-        вейсэнь тевс ярмаконть.</defNative>
-      </m>
-
-      <xg>
-        <x>Кандтнемстэ олгтнэнь сайнинек ламонь-ламонь. Эрьвась кандтнесь
-        ламонь-ламонь. Умартнень явомсто эрьванень сатотсть ламонь-ламонь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ламоньгирда</l>
-
-      <stg>
-        <st Contlex="QNT_">ламоньгирда</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мезеськак саезь ламоксть. Путнезь ламоксть.</defNative>
-      </m>
-    </mg>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Пиксэсь поназь ламоньгирда. Суресь пельдезь ламоньгирда. Коцтось
-        ацазь ламоньгирда.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">лиятне</l>
-
-      <stg>
-        <st Contlex="QNT_">лиятне</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аволь нетне.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ниленест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">ниленест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">нилешканенек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">нилешканенек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">нилешканест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">нилешканест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Кучик Иванов Мишань, кадык нилешканест салавине молить
-        велентень.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">омбо</l>
-
-      <stg>
-        <st Contlex="QNT_">омбо</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-ADN</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>(а полавтневи) Лия, омбоце, тона.</defNative>
-      </m>
-
-      <xg>
-        <x>Омбо мастор. Омбо велень ломань. Туевинь омбо киява. Паксянь омбо
-        песэ.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="A">омбонст</l>
-
-      <stg>
-        <st Contlex="IS-NUM-ORD-COLL">омбонст</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-COLL</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Веенст чемениить курок, омбонстнэ жо зярдояк а вельтявить
-        аржосо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">омбоньгирда</l>
-
-      <stg>
-        <st Contlex="QNT_">омбоньгирда</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кавтоньгирда.</defNative>
-      </m>
-
-      <xg>
-        <x>Пельдемс суре омбоньгирда. Ютамс велесь омбоньгирда, ялатеке мезеяк
-        а муемс. Сокамс омбоньгирда. Изамс омбоньгирда. Коцт песь мендямс
-        омбоньгирда. Стамс омбоньгирда.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">палонь пал</l>
-
-      <stg>
-        <st Contlex="QNT_">палонь пал</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мезеяк керсезь палсо. Калбазось керсезь палонь пал. Умаресь
-        керсезь палонь пал.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">сатышка</l>
-
-      <stg>
-        <st Contlex="QNT_">сатышка</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Зняро, зняро эряви.</defNative>
-      </m>
-
-      <xg>
-        <x>Рамамс сатышка кши. Кодамс сатышка коцт. Керямс уштомс сатышка
-        пенгть. Станцияв молемс шкась сатышка, пачкодтяно шкастонзо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сизьгеменьшка</l>
-
-      <stg>
-        <st Contlex="QNT_">сизьгеменьшка</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сисемненек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">сисемненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сисемненк</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">сисемненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сисемнест</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">сисемнест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">сисемшканенек</l>
-
-      <stg>
-        <st Contlex="Assoc-Coll">сисемшканенек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">тёжашка</l>
-
-      <stg>
-        <st Contlex="QNT_">тёжашка</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">тёжа</l>
-      <l_cogn pos="Num" xml:lang="fin">tuhat</l_cogn>
-      <l_cogn pos="Num" xml:lang="rus">тысяча</l_cogn>
-
-      <stg>
-        <st Contlex="QNT_KUDO">тёжа</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ловома вал. Кеменьксть сядо. Тёжа иеть эрзятне эрить
-        рузтнэнь маласо. Эрзякс седе сеедьстэ мерить «тисьця».</defNative>
-      </m>
-      <tg xml:lang="fin">
-	<t pos="Qnt">tuhat</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Qnt">тысяча</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">тёжаце</l>
-
-      <stg>
-        <st Contlex="ORD_KUDO">тёжаце</st>
-      </stg>
-    </lg>
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">tuhannes</t>
-      </tg>
-      <tg xml:lang="rus">
-        <t pos="Qnt">тысячный</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">целанек</l>
-
-      <stg>
-        <st Contlex="QNT_">целанек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-        <defNative>Весе. Апак ушодо.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Qnt">kokonaan</t>
-      </tg>
-
-      <xg>
-        <x>Умаренть нилизе целасто. Сюкоронть эцизе кургозонзо целанек. Кшинть
-        кадызе целасто.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">цють-цють</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">цють-цють</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Вельть аламошка. Вельть аламо.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Qnt">vähäsen</t>
-      </tg>
-
-      <xg>
-        <x>Ведесь кольги цють-цють. Лишмесь цють-цють эзимим пстиде. Молемсэ
-        нолажтынь ды цють-цють эзинь пра.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">цютькеть</l>
-
-      <stg>
-        <st Contlex="QNT_">цютькеть</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-        <defNative>Аламошка.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Qnt">vähän</t>
-      </tg>
-
-      <xg>
-        <x>Нуртяк цютькеть ловцо. Макст цютькеть ярмак. Паренть пештямс
-        цютькеть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">цяк</l>
-
-      <stg>
-        <st Contlex="QNT_">цяк</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative>Аламодо. Аламошкадо. Ансяк, цють.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Qnt">juuri ja juuri</t>
-      </tg>
-
-      <xg>
-        <x>Ярмакон цяк сатотсть кшинь рамамс. Цяк кенеринь поездэнтень. Цяк
-        савинь шкастонзо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">чульть-чальть</l>
-
-      <stg>
-        <st Contlex="QNT-DISTR">чульть-чальть</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-        <defNative>Аламодо. Тия-тува.</defNative>
-
-
-      <xg>
-        <x>Чульть-чальть маринь, келя, мирдеть курок сы кудов. Чульть-чальть
-        марсеви цёранк курок урьваксты.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">чуросто</l>
-
-      <stg>
-        <st Contlex="ITER_">чуросто</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-        <defNative>Аволь сеедьстэ. Покш ютконь каднозь.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Qnt">seldom</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Qnt">harvoin</t>
-      </tg>
-
-      <xg>
-        <x>Чуросто видемс мушко. Чуросто видемс репст. Чуросто озавтнемс
-        чувтт. Чуросто путнемс кудот. Чуросто яксемс кинов. Чуросто вастнемс
-        ялга марто.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Adv">эль</l>
-
-      <stg>
-        <st Contlex="ADV_">эль</st>
-      </stg>
-    </lg>
-
-    <pos>Adv</pos>
-
-    <etymg>
-      <etym>[æ-]</etym>
-    </etymg>
-
-    <mg>
-        <defNative>Аламодо. Цють-цють.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Qnt">juuri</t>
-      </tg>
-
-      <xg>
-        <x>Улавось эль пачкоди велентень. Ломанесь эль сови кудонтень.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Вана нейке.</defNative>
-      </m>
-
-      <xg>
-        <x>Сон эль сы. Эль сти таркасто. Эль туи.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">вейксэньгеменьшка</l>
-
-      <stg>
-        <st Contlex="NUM">вейксэньгеменьшка</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">yhdeksisenkymmentä</t>
-      </tg>
-
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">вейксэсядт</l>
-
-      <stg>
-        <st Contlex="NUM_SJADO">вейксэсяд</st>
-      </stg>
-    </lg>
-
-    <pos>Num</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">вете</l>
-
-      <stg>
-        <st Contlex="NUM_KUDO">вете</st>
-      </stg>
-    </lg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mCARD_SMALL"/>
-         </semantics>
-
-        <defNative/>
-      <tg xml:lang="eng">
-        <t pos="Num">five</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Num">viisi</t>
-      </tg>
-
-      <tg xml:lang="fra">
-        <t pos="Num">cinq</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">вейксэце</l>
-
-      <stg>
-        <st Contlex="ORD">вейксэце</st>
-      </stg>
-    </lg>
-
-    <pos>ORD</pos>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-
-        <defNative/>
-      <tg xml:lang="eng">
-        <t pos="Num">ninth</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Qnt">yhdeksäs</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">васняяк</l>
-
-      <stg>
-        <st Contlex="ADV-ORD">васняяк</st>
-      </stg>
-    </lg>
-
-    <pos>ORD</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="васень" semRelType="confer"/>
-
-        <defNative/>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Qnt">ensinnäkin</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Det" type="Dem">васенце</l>
-
-      <stg>
-        <st Contlex="DET-DEM_ALCE">васенце</st>
-      </stg>
-    </lg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-        <defNative/>
-         <tg xml:lang="eng">
-            <t pos="Num">first</t>
-         </tg>
-            <tg xml:lang="fin">
-	      <tf pos="Num">ensimmäinen</tf>
-      </tg>
-
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num" type="Ord">вететькс</l>
-
-      <stg>
-        <st Contlex="ORD_OSH">вететькс</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ветеце</l>
-
-      <stg>
-        <st Contlex="ORD">ветеце</st>
-      </stg>
-    </lg>
-
-    <pos>ORD</pos>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-    <mg>
-         <semantics>
-            <sem class="mORD_SMALL"/>
-         </semantics>
-
-        <defNative/>
-      <tg xml:lang="eng">
-        <t pos="Num">fifth</t>
-      </tg>
-            <tg xml:lang="fin">
-              <t pos="Num" type="Ord">viides</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Ord">пятый</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ветецеде</l>
-
-      <stg>
-        <st Contlex="ORD">ветецеде</st>
-      </stg>
-    </lg>
-
-    <pos>ORD-ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">viidettä kertaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зняроце</l>
-
-      <stg>
-        <st Contlex="ORD">зняроце</st>
-      </stg>
-    </lg>
-
-    <pos>ORD</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">monesko</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">кавтоце</l>
-
-      <stg>
-        <st Contlex="ORD_">кавтоце</st>
-      </stg>
-    </lg>
-
-    <pos>ORD</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Омбоце. Мельга-мельцек ловома.</defNative>
-      </m>
-
-      <xg>
-        <x>Лелям течи тусь, омбоце чистэ сась. Минек кудось чирестэ
-        кавтоце.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">ниленьгеменце</l>
-
-      <stg>
-        <st Contlex="ORD">ниленьгеменце</st>
-      </stg>
-    </lg>
-
-    <pos>ORD</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мельга молиця ёвтамо.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Qnt">neljäskymmenes</t>
-      </tg>
-
-      <xg>
-        <x>Кудонок икельга юты ниленгеменце ломань, весе молить промксов.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">омбоцеде</l>
-
-      <stg>
-        <st Contlex="ORD">омбоцеде</st>
-      </stg>
-    </lg>
-
-    <pos>ORD-ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">toista kertaa</t>
-      </tg>
-
-      <xg>
-        <x>Течи ярсан омбоцеде. Омбоцеде а сан, вастымизь беряньстэ. Омбоцеде
-        видян сюро, таго-мекс а лиси.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">весть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">весть</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym>[-æ-]</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мезеяк теемс вейкексть. Весть молемс кинов. Книгась ловномс
-        весть. Ильведевемс паро весть, аволь кеменьксть.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Qnt">kerran</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">весть-кавксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">весть-кавксть</st>
-      </stg>
-    </lg>
-    <mg>
-        <defNative>Аволь ламоксть.</defNative>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">pari kertaa</t>
-      </tg>
-
-      <xg>
-        <x>Молят весть-кавксть сеяк саты. Варштама весть-кавксть ды а
-        стувтома. Ловноса стихотворениянть весть-кавксть ды помняса.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">ветексть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">ветексть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">viisi kertaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">ветешкаксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">ветешкаксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">viitisen kertaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">зняроксть</l>
-
-      <stg>
-        <st Contlex="ITER_">зняроксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ламоксть эли аволь ламоксть.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Qnt">monettako kertaa</t>
-      </tg>
-
-      <xg>
-        <x>Зняроксть ловнык те книганть? Зняроксть совсить ялганть тердеме?
-        Зняроксть якить магазинэв?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кавтошкаксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">кавтошкаксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-      <tf pos="Num">pari kertaa</tf>
-      </tg>
-</mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кеветеексть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">кеветеексть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-      <tf pos="Num">viisitoista kertaa</tf>
-      </tg>
-</mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кеменьксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">кеменьксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">kymmenen kertaa</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">колмоксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">колмоксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Невти зняроксть ульнесь те эли тона тевесь.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Qnt">kolme kertaa</t>
-      </tg>
-      <xg>
-        <x>Колмоксть якинь тикше ледеме.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">ламоксть</l>
-
-      <stg>
-        <st Contlex="ITER_">ламоксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аволь весть.</defNative>
-      </m>
-      <tg xml:lang="fin">
-        <t pos="Qnt">monta kertaa</t>
-      </tg>
-
-      <xg>
-        <x>Ламоксть якинь ошов. Ламоксть яксинь ялго. Ламоксть кортынь
-        ялгатненень, илязт сакшно тей экшелямо. Ламоксть тейнинь
-        ильведевкст.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">нилексть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">нилексть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <t pos="Qnt">neljä kertaa</t>
-      </tg>
-
-      <xg>
-        <x>Мезеяк теемс нилексть. Мезеяк саемс нилексть. Нилексть серьгедемс.
-        Недлянтень нилексть молемс кинов. Чинь перть ярсамс нилексть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">нилешкаксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">нилешкаксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Ламо а ламо, тевесь перькаст ялатеке саты, чизэнзэ нилешкаксть
-        эряви лисемс кардазов.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">нинге</l>
-
-      <stg>
-        <st Contlex="ITER_">нинге</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Таго. Те валось вастневи сеть эрзятнень кельсэ, кить эрить
-        мокшонь велетнень маласо.</defNative>
-      </m>
-
-      <xg>
-        <x>Ванды нинге васттано. Ванды нинге сан.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">одов</l>
-
-      <stg>
-        <st Contlex="ITER_">одов</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Мекев, таго.</defNative>
-      </m>
-
-      <xg>
-        <x>Туемадо мейле одов самс кудов. Одов туемс ошов. Одов ушодомс суронь
-        кочкомо. Одов стамс беряньстэ стазь панарось. Одов теемс каладозь
-        столесь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">одс</l>
-
-      <stg>
-        <st Contlex="ITER_">одс</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Таго, мекев.</defNative>
-      </m>
-
-      <xg>
-        <x>Одс ловнык книганть, седе чарькодьсак. Одс теик эзементь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиякс.</defNative>
-      </m>
-
-      <xg>
-        <x>Одс сюлмик пацянть, илязт неяво череть. Одс кодык черьпулот. Одс
-        вачкить книгатнень, неят, лавсястонть эль пракшныть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Од шкас. Од сюрос.</defNative>
-      </m>
-
-      <xg>
-        <x>Ташто пингева сюронк эзь сатно одс. Сюрось одс саты, ды паро.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">оштё</l>
-
-      <stg>
-        <st Contlex="ITER_">оштё</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>шкань невтиця вал. Нейгак. Седе тов. Таго.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">сеедьстэ</l>
-
-      <stg>
-        <st Contlex="ITER_">сеедьстэ</st>
-
-        <st Contlex="ITER_" status="Err/Sub">сеетьстэ</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аволь чуросто. Ламоксть. Сеедьстэ яксян инжекс. Сеедьстэ
-        ульнян киносо.</defNative>
-      </m>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Тустосто. Сеедьстэ озавтозь чувтт. Сеедьстэ путозь чурькат.
-        Сеедьстэ видезь розь.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">сисемексть</l>
-
-      <lsub>сисемксть</lsub>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">сисемексть</st>
-
-        <st Contlex="IS-NUM-CARD-ITER">сисемксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">сядоксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">сядоксть</st>
-      </stg>
-    </lg>
-
-    <pos>ITER</pos>
-
-    <mg>
-
-        <defNative/>
-      <tg xml:lang="fin">
-        <tf pos="Num">sata kertaa</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Adv">таго</l>
-
-      <stg>
-        <st Contlex="ADV-TEMP-ITER">таго</st>
-      </stg>
-    </lg>
-    <mg>
-        <defNative>Аволь васенцеде. Невти мезеньгак омбоньгирдань
-        теема.</defNative>
-      <tg xml:lang="eng">
-        <t pos="Adv">again</t>
-      </tg>
-      <tg xml:lang="fin">
-        <t pos="Adv">taas</t>
-        <t pos="Adv">uudelleen</t>
-      </tg>
-      <tg xml:lang="rus">
-        <t pos="Adv">вновь</t>
-      </tg>
-
-      <xg>
-        <x>Таго самс кудов. Таго туемс ошов. Таго кортамс текеде жо. Таго
-        аштемс вачодо. Таго ярсамс модамарде.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">зняро</l>
-
-      <stg>
-        <st Contlex="Indef_Pronouns-K">зняро</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кевкстема ─ ламо эли аволь ламо.</defNative>
-      </m>
-
-      <xg>
-        <x>Зняро цёранть иензэ? Зняро зепсэть ярмактнеде? Зняро чить араселить
-        кудосо? Зняро иеть ульнить армиясо?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зняродо</l>
-
-      <stg>
-        <st>зняродо</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кевкстема ─ ламодо эли аволь ламодо.</defNative>
-      </m>
-
-      <xg>
-        <x>Зняродо рамик книганть? Зняродо седе покш тонь цёрынесь? Зняродо
-        сивидить важодеме?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зняроненек</l>
-
-      <stg>
-        <st>зняроненек</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Иля янга прят, Барятинской а соды, зняроненек тесэ, секс кучськак
-        аламо ды ялгот.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зняроненк</l>
-
-      <stg>
-        <st>зняроненк</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зняронень</l>
-
-      <stg>
-        <st>зняронень</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ламонень эли аволь ламонень.</defNative>
-      </m>
-
-      <xg>
-        <x>Зняронень совсить промксов ёвтамо? Зняронень максник книганть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зняронест</l>
-
-      <stg>
-        <st>зняронест</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-UNIV</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">знярос</l>
-
-      <stg>
-        <st>знярос</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ламос эли аволь ламос.</defNative>
-      </m>
-
-      <xg>
-        <x>Знярос нолдыдизь тонавтнемстэ? Знярос пачколить те шканть
-        перть?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">знярошка</l>
-
-      <stg>
-        <st Contlex="QNT_">знярошка</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кодашка. Ламошка эли аволь ламошка.</defNative>
-      </m>
-
-      <xg>
-        <x>Знярошка эряви пандомс гостиницасо удоманть кисэ? Знярошка кассь
-        цёрат? Знярошка питнезэ лишменть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">знярыя</l>
-
-      <stg>
-        <st Contlex="QNT-INDEF">знярыя</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-INDEF</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <xg>
-        <x>Сэдявкссо ацазь лей чиресэнть неявсть знярыя стрелецт бердыш
-        марто.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Qnt">зяро</l>
-
-      <stg>
-        <st Contlex="QNT_ЗЯРО">зяро</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Шкань кевкстема.</defNative>
-      </m>
-
-      <xg>
-        <x>Зяро шкас пачкодемс велентень? Зяро шка юты тевенть прядомс? Зяро
-        шка эряви теть книганть ловномс? Зяро шкась (зняро част)?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">зярыя</l>
-
-      <stg>
-        <st Contlex="QNT-INDEF">зярыя</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-INDEF</pos>
-
-    <mg>
-
-        <defNative/>
-
-      <tg xml:lang="fra">
-        <t pos="Qnt">quelques</t>
-      </tg>
-
-      <xg>
-        <x>Ютась зярыя шка, ды ансяк мейле… Зярыя чинь ютазь Захар вастызе
-        Миколень, кортазевсь…</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">зярыяксть</l>
-
-      <stg>
-        <st Contlex="ITER-INDEF">зярыяксть</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt-ITER</pos>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">а весть</l>
-
-      <stg>
-        <st Contlex="ITER_">а весть</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Зярыяксть.</defNative>
-      </m>
-
-      <xg>
-        <x>Велесэ эрязь, сонензэ а весть савкшнось важодемс паксянь тевсэ.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Qnt">аламоксть</l>
-
-      <stg>
-        <st Contlex="ITER_">аламоксть</st>
-      </stg>
-    </lg>
-
-    <pos>Qnt</pos>
-
-    <mg>
-
-        <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Num">кавксть</l>
-
-      <stg>
-        <st Contlex="IS-NUM-CARD-ITER">кавксть</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative>Кавтоксть. Невти зняроксть теезь мезеськак.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Num">kahdesti</t>
-        <tf pos="Num">kaksi kertaa</tf>
-      </tg>
-
-      <xg>
-        <x>Кавксть якинь тов. Те книганть ловныя кавксть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-</r>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловома вал, невти зяро ломатнеде эли лиятне мезтне.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">two</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksi</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">deux</t>
+     </tg>
+     <xg>
+       <x>Кавто ломанть. Кавто книгат. Эйкакшонтень топодсть кавто иеть. Авась стась кавто панарт.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">ниле</l>
+       <l_cogn pos="Num" xml:lang="fin">neljä</l_cogn>
+       <l_cogn pos="Num" xml:lang="hun">négy</l_cogn>
+       <l_cogn pos="Num" xml:lang="kpv">нёль</l_cogn>
+       <l_cogn pos="Num" xml:lang="sme">njeallji</l_cogn>
+     <stg>
+       <st Contlex="NUM_KUDO">ниле</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловома вал. Нилесь моли колмонть мельга. Нилесь ашти ветенть икеле.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">four</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">neljä</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">quatre</t>
+     </tg>
+     <xg>
+       <x>Ниле чить ютасть, кода сынь ошсто. Ниле умаринат озавтынь пирес. Ниле цёрат кастынь эрямозон.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сизьгеменьшка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">сизьгеменьшка</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сизьгеменце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">сизьгеменце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ведьгеменце</l>
+     <stg>
+       <st Contlex="IS_NUMORD_KUDO">ведьгеменце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комсьветее</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьветее</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комсьветеесэ</morph> <morph type="N">комсьветеень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсетькс</l>
+     <stg>
+       <st Contlex="osh-N-WORK">комсетькс</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьсисемгешка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьсисемгешка</st>
+       <st Contlex="NUM_KUDO" status="Err/Sub">комсьсисемшка</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комсьсисемшкасо</morph> <morph type="N">комсьсисемшкань</morph> <morph type="N">комсьсисемшкине</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьсисемгеце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьсисемгеце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комсьсисемгецесэ</morph> <morph type="N">комсьсисемгецень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комсьсисемге</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьсисемге</st>
+       <st Contlex="NUM_KAL" status="Err/Sub">комсьсисем</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комсьсисемгесэ</morph> <morph type="N">комсьсисемгеень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьнилееце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьнилееце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комсьнилеецесэ</morph> <morph type="N">комсьнилеецень</morph> </morphg>
+   <mg>
+     <defNative>Мельга-мельцень ловома.</defNative>
+     <xg>
+       <x>Комсьнилееце чи моли, кода туинек кудосто.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комсьнилее</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьнилее</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комсьнилеесэ</morph> <morph type="N">комсьнилеень</morph> </morphg>
+   <mg>
+     <defNative>Ловома вал. Комсь ды ниле.</defNative>
+     <xg>
+       <x>Патянень топодсть комсьнилее иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комськотовошка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськотовошка</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комськотовошкасо</morph> <morph type="N">комськотовошкань</morph> <morph type="N">комськотовошкине</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комськотовоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськотовоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комськотовоцесэ</morph> <morph type="N">комськотовоцень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комськотово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськотово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комськотовосо</morph> <morph type="N">комськотовонь</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комськолмовоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськолмовоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комськолмовоцесэ</morph> <morph type="N">комськолмовоцень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комськолмово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськолмово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комськолмовосо</morph> <morph type="N">комськолмовонь</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комськавтовоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськавтовоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комськавтовоцесэ</morph> <morph type="N">комськавтовоцень</morph> </morphg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeskymmenestoinen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комськавтово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськавтово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комськавтовосо</morph> <morph type="N">комськавтовонь</morph> </morphg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksikymmentäkaksi</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комськавксовоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськавксовоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комськавксовоцесэ</morph> <morph type="N">комськавксовоцень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комськавксово</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комськавксово</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комськавксовосо</morph> <morph type="N">комськавксовонь</morph> </morphg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksikymmentäkahdeksan</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьветеешка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьветеешка</st>
+       <st Contlex="NUM_KUDO" status="Err/Sub">комсьветешка</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьветееце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьветееце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeskymmenesviides</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комсьвейкее</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьвейкее</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksikymmentäyksi</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьвейкееце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьвейкееце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeskymmenesensimmäinen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комсьвейксэе</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьвейксэе</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksikymmentäyhdeksän</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсьвейксэеце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсьвейксэеце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeskymmenesyhdeksäs</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсешка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсешка</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">комсешкасо</morph> <morph type="N">комсешкань</morph> <morph type="N">комсешкине</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">комсь</l>
+     <stg>
+       <st Contlex="NUM_OSH">комсь</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Ловома вал. Кеменесь кавксть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksikymmentä</t>
+     </tg>
+     <xg>
+       <x>Комсь чи керинек вирь. Комсь чис нуинек весе паксянть. Монень топодсть комсь иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Dem">весе</l>
+     <stg>
+       <st Contlex="vese-QNT">весе</st>
+     </stg>
+   </lg> <pos>QNT</pos> <phonet/> <morphg> <morph type="N">весемесэ</morph> <morph type="N">весень</morph> <morph type="N">весемень</morph> </morphg>
+     <etymology> <etym langForm="*" xml:lang="myv"><constituent>вæсе</constituent></etym>
+     </etymology>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <defNative>Марсо. Куцясо. Мирём. Вейкень пес.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Qnt">all</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Qnt">kaikki</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Qnt">tout</t>
+     </tg>
+     <xg>
+       <x>Весе тусть вирень керямо. Минь весе мольтяно кинов. Весе книгатнень максынь велень ловнома кудов. Тевтне прядовсть весе.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсеце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">комсеце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">комсецесэ</morph> <morph type="N">комсецень</morph> </morphg>
+   <mg>
+     <defNative>Мельга-мельцень ловома.</defNative>
+     <xg>
+       <x>Иневедьганть уйтяно комсеце чи.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сядоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">сядоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">сядоцесэ</morph> <morph type="N">сядоцень</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">сядо</l>
+       <l_cogn pos="Num" xml:lang="fin">sata</l_cogn>
+       <l_cogn pos="Num" xml:lang="hun">száz</l_cogn>
+       <l_cogn pos="Num" xml:lang="sme">čuohti</l_cogn>
+     <stg>
+       <st Contlex="NUM_SJADO">сяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Ловома вал. Кеменесь кеменксть. Кеменесь кеменьгирда.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">sata</t>
+     </tg>
+     <xg>
+       <x>Сядо иетнестэ ─ пинге. Сядо чить. Минек велесэнть сядо кудот.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сисемшка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">сисемшка</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">сисемшкасо</morph> <morph type="N">сисемшкань</morph> <morph type="N">сисемшкине</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">сисемсядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">сисемсяд</st>
+       <st Contlex="NUM_SJADO">сисемзяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Ловома вал. Сядось сисемексть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">seitsemänsataa</t>
+     </tg>
+     <xg>
+       <x>Минек велесэ ульнесть сисемсядт кудот, ней кадовсть сядо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сисемеце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">сисемеце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">сисемецесэ</morph> <morph type="N">сисемецень</morph> <morph type="N">сисемецине</morph> </morphg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Num">seventh</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">seitsemäs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">сисем</l>
+       <l_cogn pos="Num" xml:lang="fin">seitsemän</l_cogn>
+       <l_cogn pos="Num" xml:lang="kpv">сизем</l_cogn>
+     <stg>
+       <st Contlex="NUM_KAL">сисем</st>
+     </stg>
+   </lg> <pos>Num</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловома вал. Моли котонть мельга.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">seven</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">seitsemän</t>
+     </tg>
+     <xg>
+       <x>Цёрынентень топодсть сисем иеть, те сёксня моли тонавтнеме. Недлясонть сисем чить.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">котоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">котоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">котоцесэ</morph> <morph type="N">котоцень</morph> </morphg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative>Мельга-мельцекень ловома.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">sixth</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kuudes</t>
+     </tg>
+     <xg>
+       <x>Котоце чись субута.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">котосядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">котосяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Ловома вал. Сядось котоксть. Лиясто мерить котосядт.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">kuusisataa</t>
+     </tg>
+     <xg>
+       <x>Минек велесэ эрить котосядт ломань.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кото</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кото</st>
+     </stg>
+   </lg> <pos>Num</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловома вал. Кавтось колмоксть.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">six</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kuusi</t>
+     </tg>
+     <xg>
+       <x>Ютасть кото иеть. Кото чить керинек вирь. Кото умарть. Кото целковойть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтосядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">кавтосяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Лиякс «кавто сядот». Ловомань вал. Кавто сядт ─ кавто пингеть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">kaksisataa</t>
+     </tg>
+     <xg>
+       <x>Велесэнть кавтосядт кудот.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавксоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кавксоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">кавксоцесэ</morph> <morph type="N">кавксоцень</morph> </morphg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Num">eighth</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeksas</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавксосядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">кавксосяд</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кавксосядосо</morph> <morph type="N">кавксосядонь</morph> </morphg>
+   <mg>
+     <defNative>Ловома вал. Кавксось саезь сядоксть.</defNative>
+     <xg>
+       <x>Кавксосядт иетнесэ кавксо пингеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавксоньгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">кавксоньгемень</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кавксоньгеменьсэ</morph> <morph type="N">кавксоньгеменень</morph> <morph type="N">кавксоньгеменне</morph> </morphg>
+   <mg>
+     <defNative>Ловома вал. Кавксось саезь кеменьксть.</defNative>
+     <xg>
+       <x>Покштям эрясь кавксоньгемень иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кавксо</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кавксо</st>
+     </stg>
+   </lg> <pos>Num</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловомавал. Кавксть ниле.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">eight</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdeksan</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавксоньгеменце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кавксоньгеменце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">кавксоньгеменцесэ</morph> <morph type="N">кавксоньгеменцень</morph> </morphg>
+   <mg>
+     <defNative>Мельга молиця лововкс.</defNative>
+     <xg>
+       <x>Ютась кавксоньгеменце ломань.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ведьгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">ведьгемень</st>
+       <st Contlex="NUM_KAL">ветенькемень</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">ведьгеменьсэ</morph> <morph type="N">ведьгеменень</morph> </morphg>
+     <etymology> <etym>[-æ-æ-е-]</etym> <etym>[*ветень#кемень</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал, невти вете кементь. Кеменесь саезь ветексть. Лиякс пель сядо.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">сизьгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">сизьгемень</st>
+       <st Contlex="NUM_KAL">сисьменькемень</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">сизьгеменьсэ</morph> <morph type="N">сизьгеменень</morph> <morph type="N">сизьгеменне</morph> </morphg>
+   <mg>
+     <defNative>Ловома вал. Сисем кементь. Сисемесь кеменьксть.</defNative>
+     <xg>
+       <x>Минек велентень кадовсть сизьгемень кудот. Минек покштянтень топодсть сизьгемень иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">нилешка</l>
+     <stg>
+       <st Contlex="NUM_KUDO">нилешка</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">нилешкасо</morph> <morph type="N">нилешкань</morph> <morph type="N">нилешкине</morph> </morphg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Нилешка ие эринь ошсо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">нилеце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">нилеце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative>Мельга ёвтамо вал.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">fourth</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">neljäs</t>
+     </tg>
+     <xg>
+       <x>Нилеце цёрась сась весемеде мейле. Мельга сыця нилецесь ульнесь аваломань.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">нилесядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">нилесяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Ниле сядот. Ловома вал.</defNative>
+     <xg>
+       <x>Велесэнть нилесядт кудот.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ниленьгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">ниленьгемень</st>
+       <st Contlex="NUM_KAL">ниленькемень</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">ниленьгеменьсэ</morph> <morph type="N">ниленьгеменень</morph> </morphg>
+     <etymology> <etym xml:lang="fin">neljäkymmentä</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кеменесь нилексть, 40.</defNative>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кемзисемгеце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемзисемгеце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">кемзисемгецесэ</morph> <morph type="N">кемзисемгецень</morph> </morphg>
+   <mg>
+     <defNative>Мельга-мельцек лововиця.</defNative>
+     <xg>
+       <x>Ковонь кемзисемгеце чистэ минек велев сыть артистт.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кемзисемге</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемзисемге</st>
+       <st Contlex="NUM_KUDO">кемсисемге</st>
+     </stg>
+   </lg> <pos>Num</pos> <phonet/> <morphg> <morph type="N">кемзисемгесэ</morph> <morph type="N">кемзисемгень</morph> </morphg>
+     <etymology> <etym>[-æ-е-е</etym>
+     </etymology>
+   <mg>
+     <defNative>Ловома вал. Кемень ды сисем.</defNative>
+     <xg>
+       <x>Кемзисемге иесэ тейтересь умарина панжовксонь кондямо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кемень кирда</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кемень кирда</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кемень кирдасо</morph> <morph type="N">кемень кирдань</morph> <morph type="N">кемень кирдыне</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">кемень</st>
+     </stg>
+     <etymology> <etym>[-æ-е-]</etym>
+     </etymology>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловома вал.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">ten</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kymmenen</t>
+     </tg>
+     <xg>
+       <x>Кавто кедьсэ кемень сурт. Кемень иеть ютасть се шкастонть, кода прядыя тонавтнеманть. Тонавтнинь кемень иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кеменце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кеменце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative>Мельга-мельцек лововиця.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">tenth</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kymmenes</t>
+     </tg>
+     <xg>
+       <x>Чирестэ кеменце кудось минек.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмоце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">колмоце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative>Мельга-мельцек ловома.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">third</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kolmas</t>
+     </tg>
+     <xg>
+       <x>Сыцятнень эйстэ колмоцесь ульнесь аваломань. Колмоце чи арасян кудосо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">колмосядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">колмосяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative>Сядось колмоксть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">kolmesataa</t>
+     </tg>
+     <xg>
+       <x>Колмосядт иеть Романовонь раськесь ульнекшнесь инязорокс. Минек ошонтень колмосядо иеде ламо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">колмоньгирда</l>
+     <stg>
+       <st Contlex="NUM_KUDO">колмоньгирда</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">колмоньгирдасо</morph> <morph type="N">колмоньгирдань</morph> <morph type="N">колмоньгирдыне</morph> </morphg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">колмо</l>
+     <stg>
+       <st Contlex="NUM_KUDO">колмо</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловома вал. Ловомсто моли кавтонть мейле (мельга).</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">three</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">kolme</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">trois</t>
+     </tg>
+     <xg>
+       <x>Кияванть сыть колмо ломанть. Армиясо служинь колмо иеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">колмоньгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">колмоньгемень</st>
+       <st Contlex="NUM_KAL">колоньгемень</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">колмоньгеменьсэ</morph> <morph type="N">колмоньгеменень</morph> </morphg>
+   <mg>
+     <defNative>Лиясто кортыть колоньгемень. Ловома вал. Колмо кементь. Кеменесь колмоксть.</defNative>
+     <xg>
+       <x>Чадыковсонть колмоньгемень чить.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колоньгеменце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">колоньгеменце</st>
+       <st Contlex="NUM_KUDO">колмонькеменце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">колмоньгеменцесэ</morph> <morph type="N">колмоньгеменцень</morph> </morphg>
+   <mg>
+     <defNative>Мельга-мельцек ёвтамо.</defNative>
+     <xg>
+       <x>Колмоньгеменце ие эль юты, кода эрян ошсо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кодгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">кодгемень</st>
+     </stg>
+   </lg> <pos>Num</pos> <morphg> <morph type="N">кодгеменьсэ</morph> <morph type="N">кодгеменень</morph> <morph type="N">кодгеменне</morph> </morphg>
+   <mg>
+     <defNative>Ловома вал. Котось кеменьксть.</defNative>
+     <xg>
+       <x>Покштянень топодсть кодгемень иеть. Кодгемень чить араселинь кудосо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кодгеменце</l>
+     <stg>
+       <st Contlex="NUM_KUDO">кодгеменце</st>
+     </stg>
+   </lg> <pos>Num-ORD</pos> <morphg> <morph type="N">кодгеменцесэ</morph> <morph type="N">кодгеменцень</morph> </morphg>
+   <mg>
+     <defNative>Мельга-мельцень ловома.</defNative>
+     <xg>
+       <x>Кодгеменце чи эрятано вирьсэ. Кодгеменце чи юты, кода араселинь кудосо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">аламнэнзэ</l>
+     <stg>
+       <st Contlex="Assoc-Coll">аламнэ</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">аламнэст</l>
+     <stg>
+       <st Contlex="Assoc-Coll">аламнэст</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">аламо</l>
+     <stg>
+       <st Contlex="QNT_LAMO">аламо</st>
+     </stg>
+     <etymology> <etym xml:lang="myv"><constituent>а+ламо</constituent></etym>
+     </etymology>
+   </lg>
+   <mg>
+     <defNative>Аволь ламо. Те валонть чарькодемазо вельть келей. Эрьва мезесь лиянь коряс эрси аламо эли ламо. Аламось чарькодеви ансяк сестэ, зярдо путови лиянь ваксс.</defNative>
+     <tg xml:lang="fra">
+       <t pos="Qnt">peu</t>
+     </tg>
+     <xg>
+       <x>Кото умартне кементнень коряс аламо, колмотнень коряс ламо.</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x>Видметнеде аламо, уманть видемс а сатыть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">аламонь-аламонь</l>
+     <stg>
+       <st Contlex="QNT_LAMO">аламонь-аламонь</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Qnt">little by little</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Qnt">vähitellen</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">аламоненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">аламоненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">аламоненк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">аламоненк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">аламонест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">аламоне</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">аламонь-аламонь</l>
+     <stg>
+       <st Contlex="QNT-DISTR">аламонь-аламонь</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">аламос</l>
+     <stg>
+       <st Contlex="QNT_">аламос</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">байтяк</l>
+     <stg>
+       <st Contlex="QNT_">байтяк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Ламо. Сатышка.</defNative>
+     <xg>
+       <x>Умартне исень базарсо ульнесть байтяк. Ярмактнэнь таштынь байтяк, сатыть кудо рамамс.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">валом</l>
+     <stg>
+       <st Contlex="QNT_">валом</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Аламонь-аламонь. Апак капша, апак лотксе.</defNative>
+     <xg>
+       <x>Молемс валом. Кортамс валом. Сыре бодясь а капши, весементь теи валом.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ве</l>
+     <stg>
+       <st Contlex="QNT-ADN">ве</st>
+     </stg>
+   </lg> <pos>Qnt</pos> <phonet/>
+     <etymology> <etym etymType="hypotheticalErzya" xml:lang="myv"><constituent>вæ</constituent></etym>
+     </etymology>
+   <mg>
+     <defNative>I 1) Вейке. Явови смустень коряс «вейке» валонть эйстэ ─ а аравтови карадо-каршо «кавто» валонть марто.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">yksi</t>
+     </tg>
+     <xg>
+       <x>Ве ломанесь мезеяк а теи, эряви весенень вейсэ. Ве чис те книгась а ловнови.</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Ськамон, ськамот, ськамонзо…</defNative>
+     <tg xml:lang="eng">
+       <t pos="Qnt">alone</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Qnt">vain</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Qnt">только</t>
+       <t pos="Qnt">издалека</t>
+     </tg>
+     <xg>
+       <x>Вазонть ваномо якан ве мон.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ведьгеменнест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ведьгеменне</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">веенст</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-COLL">веенст</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">веень кирда</l>
+     <stg>
+       <st Contlex="QNT_">веень кирда</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейке-вейке</l>
+     <stg>
+       <st Contlex="QNT-DISTR">вейке-вейке</st>
+       <st Contlex="QNT-DISTR">вейте-вейте</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+     <etymology> <etym>[-æ-е-æ-е</etym>
+     </etymology>
+   <mg>
+     <defNative>Аволь вейсэ, башка.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейкень-вейкень</l>
+     <stg>
+       <st Contlex="QNT-DISTR">вейкень-вейкень</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">вейксэненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">вейксэненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">вейксэненк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">вейксэненк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейксэнест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">вейксэне</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейксэньгемень</l>
+     <stg>
+       <st Contlex="NUM_KAL">вейксэньгемень</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейте</l>
+     <stg>
+       <st Contlex="QNT_">вейте</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+       <semRel lemmaID="вейке" semRelType="see"/>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">вейте-вейте</l>
+     <stg>
+       <st Contlex="QNT-DISTR">вейте-вейте</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+     <etymology> <etym>[-æ-е-æ-е-]</etym>
+     </etymology>
+   <mg>
+     <defNative>Теке жо.</defNative>
+     <xg>
+       <x src="содамоёвкс: крандазчарот">Кудостонть цёратне лиснесть вейтень-вейтень, ськамонь-ськамонь. Ломантне кияванть молить вейте-вейте. Ниленест чиить мельга-мельцек, вейкест-вейкест а сасыть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">вейтень-ськамонь</l>
+     <stg>
+       <st Contlex="QNT_">вейтень-ськамонь</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">весеме</l>
+     <stg>
+       <st Contlex="QNT_VESEME">весеме</st>
+     </stg>
+   </lg> <pos>Qnt</pos> <phonet/>
+     <etymology> <etym>[-æ-е-е</etym>
+     </etymology>
+   <mg>
+     <defNative>Эрьва. Лиясто весе.</defNative>
+     <xg>
+       <x>Весеменень явшесть кинов билетт.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">весемезэ</l>
+     <stg>
+       <st Contlex="QNT_">весемезэ</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">весенде</l>
+     <stg>
+       <st Contlex="QNT_">весенде</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Нуеме эряви лисемс весенень.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вестешка</l>
+     <stg>
+       <st Contlex="QNT_">вестешка</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">вестешкаксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">вестешкаксть</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ветененек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ветененек</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ветененк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ветененк</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">вейксэ</l>
+     <stg>
+       <st Contlex="NUM_KUDO">вейксэ</st>
+     </stg>
+   </lg> <pos>Num</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловомавал. Колмоксть колмо.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">nine</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">yhdeksän</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейкине</l>
+     <stg>
+       <st Contlex="NUM_KUDO">вейкине</st>
+     </stg>
+   </lg> <pos>Num</pos> <phonet/> <morphg> <morph type="N">вейкинесэ</morph> <morph type="N">вейкинень</morph> <morph type="N">вейкинька</morph> </morphg>
+     <etymology> <etym>[-æ-е</etym>
+     </etymology>
+   <mg>
+     <defNative>Ськамонзо.</defNative>
+     <xg>
+       <x>Вейкине ава. Вейкине цёра. Паксянть куншкасо вейкине чувто.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">вейке</l>
+     <stg>
+       <st Contlex="Cards-1-2">вейке</st>
+     </stg>
+     <etymology> <etym>[-æ-е</etym>
+     </etymology>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative>Ловомань ушодкс. Невти мезеяк ськамонзо улиця, аштиця. Аравтови карадо-каршо «кавто» валонть марто.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Num">one</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">yksi</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">un</t>
+     </tg>
+     <xg>
+       <x>Вейке ломань. Вейке чувто. Вейке чи.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ветесядт</l> <lsub>ветесядот</lsub>
+     <stg>
+       <st Contlex="NUM_SJADO">ветесяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ветенест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ветене</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ветешка</l>
+     <stg>
+       <st Contlex="QNT_">ветешка</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ветешканест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ветешканест</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">пель</l>
+       <l_cogn pos="Num" xml:lang="mdf">пяль</l_cogn>
+     <stg>
+       <st Contlex="QNT_">пель</st>
+     </stg>
+   </lg> <pos>Qnt</pos> <phonet>II</phonet>
+   <mg>
+     <defNative>Кавтов явозень пелькс. Кавтов керязень пелькс.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">puoli, puolikas</t>
+     </tg>
+     <xg>
+       <x>Пель кши, пель умарь, пель литра, пель пондо, пель часошка, пель чи. Молинь пель чи, мейле лоткинь оймсеме.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">доволь</l>
+       <l_cogn pos="Qnt" xml:lang="rus">вдоволь</l_cogn>
+       <l_ref pos="Qnt">байтяк</l_ref>
+     <stg>
+       <st Contlex="QNT_">доволь</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Вал пелькс. Пештевемемс. Доволь ярсынь умарде. Эйкакштнэ доволь ярсасть кашадо.</defNative>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавксоненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">кавксоненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавксонест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">кавксонест</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавозонк</l>
+     <stg>
+       <st Contlex="QNT_">кавозонк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Улема, истя мерсь кавозонк.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавозонок</l>
+     <stg>
+       <st Contlex="QNT_">кавозонок</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Саинек кавоненек. Кавозонок улезэяк. –</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавозост</l>
+     <stg>
+       <st Contlex="QNT_">кавозост</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Феликсэнь арасельть ярмаконзо, отпусконсетне кавозост а сатыть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавоненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">кавоненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Кавонек, кавтонек. Минек эйстэ кавто.</defNative>
+     <xg>
+       <x>Кинов якинек ялгань марто кавоненек.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавоненк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">кавоненк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Тынь якиде лелянть марто кавоненк.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавонест</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ASSOCCOLL_KAVONE">кавоне</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Сынст эйстэ кавто. ─</defNative>
+     <xg>
+       <x>Сынь якасть патят-сазорт кавонест.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">кавто-колмо</l>
+     <stg>
+       <st Contlex="QNT_">кавто-колмо</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Истя кортыть, зярдо эряви ёвтамс кодамояк а содавикс счёт.</defNative>
+     <xg>
+       <x>Сайсь кавто-колмо умарь. Кияванть молить кавто-колмо ломань.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтозонк</l>
+     <stg>
+       <st Contlex="QNT_">кавтозонк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Лиякс «кавозонк». Кавоненк туртов.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтозонок</l>
+     <stg>
+       <st Contlex="QNT_">кавтозонок</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Лиякс «кавозонок». Кавоненек туртов.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтозост</l>
+     <stg>
+       <st Contlex="QNT_">кавтозост</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Лиякс «кавозост». Кавонест туртов. Неть валтнэ невтить, зняронь туртов мезеньгак явомсто зняро сатотсть.</defNative>
+     <xg>
+       <x>Явинек куярт, кавозонок сатотсть ве пондо. Явиде умарть, кавозонк сатотсть кавто пондот. Явсть модамарть, кавозост сатотсть кемень пондот.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтонь-кавтонь</l>
+     <stg>
+       <st Contlex="QNT-DISTR">кавтонь-кавтонь</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Невти кодамо ладсо молить ламо ломантне. Солдаттнэ молить стройсэ кавтонь-кавтонь. Эйкакштнэ молить кавтонь-кавтонь кедте кедьс кундазь. Истя эрси эрьва ловома валонть марто ─ колмонь-колмонь, нилень-нилень ды истя товгак. Теде башка, неть валтнэ невтить, кодамо ладсо теезь мезеньгак явомась ды зняронь-зняронь сатотсь эрьванень.</defNative>
+     <xg>
+       <x>Умартнень явизь, эрьванень сатотсть кавтонь-кавтонь. Куяртнэнь явомсто эрьванень сатотсть колмонь-колмонь.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">колмонь-колмонь</l>
+     <stg>
+       <st Contlex="QNT-DISTR">колмонь-колмонь</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="Num">kolmestaan</t>
+       <t pos="Num">kolmistaan</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтоньгирда</l> <lsub>кавоньгирда</lsub>
+     <stg>
+       <st Contlex="QNT_">кавтоньгирда</st>
+       <st Contlex="QNT_">кавоньгирда</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Кавксть. Кавтоксть. Теезь кавксть. Ламокстазь кавксть. 1)</defNative>
+     <xg>
+       <x>Модась изазь кавоньгирда.</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Пиксэсь поназь кавоньгирда. Суресь пельдезь кавоньгирда.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кирда</l>
+     <stg>
+       <st Contlex="QNT_">кирда</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>вал пелькс, свал ёвтави ловома вал мельга ды невти ламокстамонь чарькодема. Кавтоньгирда, колмоньгирда ди истя седе тов.</defNative>
+     <xg>
+       <x>Пиксэсь поназь кавтоньгирда. Суресь пельдезь колмоньгирда.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмонек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">колмонек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмоненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">колмоненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмоненк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">колмоненк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмонест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">колмонест</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">колмонст</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-COLL">колмонст</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Колмонст понкст. Колмонст котат.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кавонст</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-COLL">кавонст</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Кавонст понкст. Кавонст котат.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмошканенк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">колмошканенк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">колмошканест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">колмошканест</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">комсенест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">комсенест</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">котошканест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">котошканест</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ламо</l>
+     <stg>
+       <st Contlex="QNT_LAMO">ламо</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Аволь вейке. Вейкеде седе ламо. Нилесь кавтотнень коряс седе ламо, котось ниленть коряс ламо. Ламочись свал чарькодеви ансяк лиятнень ваксс путозь.</defNative>
+     <tg xml:lang="fra">
+       <t pos="Qnt">beaucoup</t>
+     </tg>
+     <xg>
+       <x>Вирьсэ ламо чувтт. Велесэнть ламо кудот, ошсо кудотне седеяк ламо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ламоненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ламоненек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ламоненк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ламоненк</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ламонест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ламонест</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ламонь-ламонь</l>
+     <stg>
+       <st Contlex="QNT-DISTR">ламонь-ламонь</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Сайнемс ламосо. Путнемс ламосо. Явомс ламосо. Каинек вейсэнь тевс ярмаконть.</defNative>
+     <xg>
+       <x>Кандтнемстэ олгтнэнь сайнинек ламонь-ламонь. Эрьвась кандтнесь ламонь-ламонь. Умартнень явомсто эрьванень сатотсть ламонь-ламонь.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ламоньгирда</l>
+     <stg>
+       <st Contlex="QNT_">ламоньгирда</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Мезеськак саезь ламоксть. Путнезь ламоксть.</defNative>
+   </mg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Пиксэсь поназь ламоньгирда. Суресь пельдезь ламоньгирда. Коцтось ацазь ламоньгирда.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">лиятне</l>
+     <stg>
+       <st Contlex="QNT_">лиятне</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Аволь нетне.</defNative>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ниленест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">ниленест</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">нилешканенек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">нилешканенек</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">нилешканест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">нилешканест</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Кучик Иванов Мишань, кадык нилешканест салавине молить велентень.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">омбо</l>
+     <stg>
+       <st Contlex="QNT_">омбо</st>
+     </stg>
+   </lg> <pos>Qnt-ADN</pos>
+   <mg>
+     <defNative>(а полавтневи) Лия, омбоце, тона.</defNative>
+     <xg>
+       <x>Омбо мастор. Омбо велень ломань. Туевинь омбо киява. Паксянь омбо песэ.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">омбонст</l>
+     <stg>
+       <st Contlex="IS-NUM-ORD-COLL">омбонст</st>
+     </stg>
+   </lg> <pos>Qnt-COLL</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Веенст чемениить курок, омбонстнэ жо зярдояк а вельтявить аржосо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">омбоньгирда</l>
+     <stg>
+       <st Contlex="QNT_">омбоньгирда</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Кавтоньгирда.</defNative>
+     <xg>
+       <x>Пельдемс суре омбоньгирда. Ютамс велесь омбоньгирда, ялатеке мезеяк а муемс. Сокамс омбоньгирда. Изамс омбоньгирда. Коцт песь мендямс омбоньгирда. Стамс омбоньгирда.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">палонь пал</l>
+     <stg>
+       <st Contlex="QNT_">палонь пал</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Мезеяк керсезь палсо. Калбазось керсезь палонь пал. Умаресь керсезь палонь пал.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">сатышка</l>
+     <stg>
+       <st Contlex="QNT_">сатышка</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Зняро, зняро эряви.</defNative>
+     <xg>
+       <x>Рамамс сатышка кши. Кодамс сатышка коцт. Керямс уштомс сатышка пенгть. Станцияв молемс шкась сатышка, пачкодтяно шкастонзо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сизьгеменьшка</l>
+     <stg>
+       <st Contlex="QNT_">сизьгеменьшка</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сисемненек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">сисемненек</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сисемненк</l>
+     <stg>
+       <st Contlex="Assoc-Coll">сисемненек</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сисемнест</l>
+     <stg>
+       <st Contlex="Assoc-Coll">сисемнест</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">сисемшканенек</l>
+     <stg>
+       <st Contlex="Assoc-Coll">сисемшканенек</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">тёжашка</l>
+     <stg>
+       <st Contlex="QNT_">тёжашка</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">тёжа</l>
+       <l_cogn pos="Num" xml:lang="fin">tuhat</l_cogn>
+       <l_cogn pos="Num" xml:lang="rus">тысяча</l_cogn>
+     <stg>
+       <st Contlex="QNT_KUDO">тёжа</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Ловома вал. Кеменьксть сядо. Тёжа иеть эрзятне эрить рузтнэнь маласо. Эрзякс седе сеедьстэ мерить «тисьця».</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">tuhat</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Qnt">тысяча</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">тёжаце</l>
+     <stg>
+       <st Contlex="ORD_KUDO">тёжаце</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+     <tg xml:lang="fin">
+       <t pos="Qnt">tuhannes</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Qnt">тысячный</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">целанек</l>
+     <stg>
+       <st Contlex="QNT_">целанек</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Весе. Апак ушодо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">kokonaan</t>
+     </tg>
+     <xg>
+       <x>Умаренть нилизе целасто. Сюкоронть эцизе кургозонзо целанек. Кшинть кадызе целасто.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">цють-цють</l>
+     <stg>
+       <st Contlex="QNT-DISTR">цють-цють</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Вельть аламошка. Вельть аламо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">vähäsen</t>
+     </tg>
+     <xg>
+       <x>Ведесь кольги цють-цють. Лишмесь цють-цють эзимим пстиде. Молемсэ нолажтынь ды цють-цють эзинь пра.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">цютькеть</l>
+     <stg>
+       <st Contlex="QNT_">цютькеть</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Аламошка.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">vähän</t>
+     </tg>
+     <xg>
+       <x>Нуртяк цютькеть ловцо. Макст цютькеть ярмак. Паренть пештямс цютькеть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">цяк</l>
+     <stg>
+       <st Contlex="QNT_">цяк</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Аламодо. Аламошкадо. Ансяк, цють.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">juuri ja juuri</t>
+     </tg>
+     <xg>
+       <x>Ярмакон цяк сатотсть кшинь рамамс. Цяк кенеринь поездэнтень. Цяк савинь шкастонзо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">чульть-чальть</l>
+     <stg>
+       <st Contlex="QNT-DISTR">чульть-чальть</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Аламодо. Тия-тува.</defNative>
+     <xg>
+       <x>Чульть-чальть маринь, келя, мирдеть курок сы кудов. Чульть-чальть марсеви цёранк курок урьваксты.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">чуросто</l>
+     <stg>
+       <st Contlex="ITER_">чуросто</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Аволь сеедьстэ. Покш ютконь каднозь.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Qnt">seldom</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Qnt">harvoin</t>
+     </tg>
+     <xg>
+       <x>Чуросто видемс мушко. Чуросто видемс репст. Чуросто озавтнемс чувтт. Чуросто путнемс кудот. Чуросто яксемс кинов. Чуросто вастнемс ялга марто.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">эль</l>
+     <stg>
+       <st Contlex="ADV_">эль</st>
+     </stg>
+   </lg> <pos>Adv</pos>
+     <etymology> <etym>[æ-]</etym>
+     </etymology>
+   <mg>
+     <defNative>Аламодо. Цють-цють.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">juuri</t>
+     </tg>
+     <xg>
+       <x>Улавось эль пачкоди велентень. Ломанесь эль сови кудонтень.</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Вана нейке.</defNative>
+     <xg>
+       <x>Сон эль сы. Эль сти таркасто. Эль туи.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">вейксэньгеменьшка</l>
+     <stg>
+       <st Contlex="NUM">вейксэньгеменьшка</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">yhdeksisenkymmentä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">вейксэсядт</l>
+     <stg>
+       <st Contlex="NUM_SJADO">вейксэсяд</st>
+     </stg>
+   </lg> <pos>Num</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">вете</l>
+     <stg>
+       <st Contlex="NUM_KUDO">вете</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mCARD_SMALL"/>
+     </semantics>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Num">five</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num">viisi</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Num">cinq</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">вейксэце</l>
+     <stg>
+       <st Contlex="ORD">вейксэце</st>
+     </stg>
+   </lg> <pos>ORD</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Num">ninth</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Qnt">yhdeksäs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">васняяк</l>
+     <stg>
+       <st Contlex="ADV-ORD">васняяк</st>
+     </stg>
+   </lg> <pos>ORD</pos>
+   <mg>
+       <semRel lemmaID="васень" semRelType="confer"/>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">ensinnäkin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det" type="Dem">васенце</l>
+     <stg>
+       <st Contlex="DET-DEM_ALCE">васенце</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Num">first</t>
+     </tg>
+     <tg xml:lang="fin"> <tf pos="Num">ensimmäinen</tf>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num" type="Ord">вететькс</l>
+     <stg>
+       <st Contlex="ORD_OSH">вететькс</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ветеце</l>
+     <stg>
+       <st Contlex="ORD">ветеце</st>
+     </stg>
+   </lg> <pos>ORD</pos>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <semantics>
+       <sem class="mORD_SMALL"/>
+     </semantics>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="Num">fifth</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Num" type="Ord">viides</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Ord">пятый</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ветецеде</l>
+     <stg>
+       <st Contlex="ORD">ветецеде</st>
+     </stg>
+   </lg> <pos>ORD-ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">viidettä kertaa</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зняроце</l>
+     <stg>
+       <st Contlex="ORD">зняроце</st>
+     </stg>
+   </lg> <pos>ORD</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">monesko</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">кавтоце</l>
+     <stg>
+       <st Contlex="ORD_">кавтоце</st>
+     </stg>
+   </lg> <pos>ORD</pos>
+   <mg>
+     <defNative>Омбоце. Мельга-мельцек ловома.</defNative>
+     <xg>
+       <x>Лелям течи тусь, омбоце чистэ сась. Минек кудось чирестэ кавтоце.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">ниленьгеменце</l>
+     <stg>
+       <st Contlex="ORD">ниленьгеменце</st>
+     </stg>
+   </lg> <pos>ORD</pos>
+   <mg>
+     <defNative>Мельга молиця ёвтамо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">neljäskymmenes</t>
+     </tg>
+     <xg>
+       <x>Кудонок икельга юты ниленгеменце ломань, весе молить промксов.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">омбоцеде</l>
+     <stg>
+       <st Contlex="ORD">омбоцеде</st>
+     </stg>
+   </lg> <pos>ORD-ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">toista kertaa</t>
+     </tg>
+     <xg>
+       <x>Течи ярсан омбоцеде. Омбоцеде а сан, вастымизь беряньстэ. Омбоцеде видян сюро, таго-мекс а лиси.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">весть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">весть</st>
+     </stg>
+     <etymology> <etym>[-æ-]</etym>
+     </etymology>
+   </lg>
+   <mg>
+     <defNative>Мезеяк теемс вейкексть. Весть молемс кинов. Книгась ловномс весть. Ильведевемс паро весть, аволь кеменьксть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">kerran</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">весть-кавксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">весть-кавксть</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Аволь ламоксть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">pari kertaa</t>
+     </tg>
+     <xg>
+       <x>Молят весть-кавксть сеяк саты. Варштама весть-кавксть ды а стувтома. Ловноса стихотворениянть весть-кавксть ды помняса.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">ветексть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">ветексть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">viisi kertaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">ветешкаксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">ветешкаксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">viitisen kertaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">зняроксть</l>
+     <stg>
+       <st Contlex="ITER_">зняроксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>Ламоксть эли аволь ламоксть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">monettako kertaa</t>
+     </tg>
+     <xg>
+       <x>Зняроксть ловнык те книганть? Зняроксть совсить ялганть тердеме? Зняроксть якить магазинэв?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кавтошкаксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">кавтошкаксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin"> <tf pos="Num">pari kertaa</tf>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кеветеексть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">кеветеексть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin"> <tf pos="Num">viisitoista kertaa</tf>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кеменьксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">кеменьксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">kymmenen kertaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">колмоксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">колмоксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>Невти зняроксть ульнесь те эли тона тевесь.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">kolme kertaa</t>
+     </tg>
+     <xg>
+       <x>Колмоксть якинь тикше ледеме.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">ламоксть</l>
+     <stg>
+       <st Contlex="ITER_">ламоксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>Аволь весть.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Qnt">monta kertaa</t>
+     </tg>
+     <xg>
+       <x>Ламоксть якинь ошов. Ламоксть яксинь ялго. Ламоксть кортынь ялгатненень, илязт сакшно тей экшелямо. Ламоксть тейнинь ильведевкст.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">нилексть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">нилексть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Qnt">neljä kertaa</t>
+     </tg>
+     <xg>
+       <x>Мезеяк теемс нилексть. Мезеяк саемс нилексть. Нилексть серьгедемс. Недлянтень нилексть молемс кинов. Чинь перть ярсамс нилексть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">нилешкаксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">нилешкаксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Ламо а ламо, тевесь перькаст ялатеке саты, чизэнзэ нилешкаксть эряви лисемс кардазов.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">нинге</l>
+     <stg>
+       <st Contlex="ITER_">нинге</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>Таго. Те валось вастневи сеть эрзятнень кельсэ, кить эрить мокшонь велетнень маласо.</defNative>
+     <xg>
+       <x>Ванды нинге васттано. Ванды нинге сан.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">одов</l>
+     <stg>
+       <st Contlex="ITER_">одов</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>Мекев, таго.</defNative>
+     <xg>
+       <x>Туемадо мейле одов самс кудов. Одов туемс ошов. Одов ушодомс суронь кочкомо. Одов стамс беряньстэ стазь панарось. Одов теемс каладозь столесь.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">одс</l>
+     <stg>
+       <st Contlex="ITER_">одс</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>Таго, мекев.</defNative>
+     <xg>
+       <x>Одс ловнык книганть, седе чарькодьсак. Одс теик эзементь.</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Лиякс.</defNative>
+     <xg>
+       <x>Одс сюлмик пацянть, илязт неяво череть. Одс кодык черьпулот. Одс вачкить книгатнень, неят, лавсястонть эль пракшныть.</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Од шкас. Од сюрос.</defNative>
+     <xg>
+       <x>Ташто пингева сюронк эзь сатно одс. Сюрось одс саты, ды паро.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">оштё</l>
+     <stg>
+       <st Contlex="ITER_">оштё</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative>шкань невтиця вал. Нейгак. Седе тов. Таго.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">сеедьстэ</l>
+     <stg>
+       <st Contlex="ITER_">сеедьстэ</st>
+       <st Contlex="ITER_" status="Err/Sub">сеетьстэ</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Аволь чуросто. Ламоксть. Сеедьстэ яксян инжекс. Сеедьстэ ульнян киносо.</defNative>
+   </mg>
+   <mg>
+     <defNative>Тустосто. Сеедьстэ озавтозь чувтт. Сеедьстэ путозь чурькат. Сеедьстэ видезь розь.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">сисемексть</l> <lsub>сисемксть</lsub>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">сисемексть</st>
+       <st Contlex="IS-NUM-CARD-ITER">сисемксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">сядоксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">сядоксть</st>
+     </stg>
+   </lg> <pos>ITER</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin"> <tf pos="Num">sata kertaa</tf>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">таго</l>
+     <stg>
+       <st Contlex="ADV-TEMP-ITER">таго</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Аволь васенцеде. Невти мезеньгак омбоньгирдань теема.</defNative>
+     <tg xml:lang="eng">
+       <t pos="Adv">again</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Adv">taas</t>
+       <t pos="Adv">uudelleen</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Adv">вновь</t>
+     </tg>
+     <xg>
+       <x>Таго самс кудов. Таго туемс ошов. Таго кортамс текеде жо. Таго аштемс вачодо. Таго ярсамс модамарде.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">зняро</l>
+     <stg>
+       <st Contlex="Indef_Pronouns-K">зняро</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Кевкстема ─ ламо эли аволь ламо.</defNative>
+     <xg>
+       <x>Зняро цёранть иензэ? Зняро зепсэть ярмактнеде? Зняро чить араселить кудосо? Зняро иеть ульнить армиясо?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зняродо</l>
+     <stg>
+       <st>зняродо</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Кевкстема ─ ламодо эли аволь ламодо.</defNative>
+     <xg>
+       <x>Зняродо рамик книганть? Зняродо седе покш тонь цёрынесь? Зняродо сивидить важодеме?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зняроненек</l>
+     <stg>
+       <st>зняроненек</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Иля янга прят, Барятинской а соды, зняроненек тесэ, секс кучськак аламо ды ялгот.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зняроненк</l>
+     <stg>
+       <st>зняроненк</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зняронень</l>
+     <stg>
+       <st>зняронень</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Ламонень эли аволь ламонень.</defNative>
+     <xg>
+       <x>Зняронень совсить промксов ёвтамо? Зняронень максник книганть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зняронест</l>
+     <stg>
+       <st>зняронест</st>
+     </stg>
+   </lg> <pos>Qnt-UNIV</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">знярос</l>
+     <stg>
+       <st>знярос</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Ламос эли аволь ламос.</defNative>
+     <xg>
+       <x>Знярос нолдыдизь тонавтнемстэ? Знярос пачколить те шканть перть?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">знярошка</l>
+     <stg>
+       <st Contlex="QNT_">знярошка</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Кодашка. Ламошка эли аволь ламошка.</defNative>
+     <xg>
+       <x>Знярошка эряви пандомс гостиницасо удоманть кисэ? Знярошка кассь цёрат? Знярошка питнезэ лишменть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">знярыя</l>
+     <stg>
+       <st Contlex="QNT-INDEF">знярыя</st>
+     </stg>
+   </lg> <pos>Qnt-INDEF</pos>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Сэдявкссо ацазь лей чиресэнть неявсть знярыя стрелецт бердыш марто.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Qnt">зяро</l>
+     <stg>
+       <st Contlex="QNT_ЗЯРО">зяро</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Шкань кевкстема.</defNative>
+     <xg>
+       <x>Зяро шкас пачкодемс велентень? Зяро шка юты тевенть прядомс? Зяро шка эряви теть книганть ловномс? Зяро шкась (зняро част)?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">зярыя</l>
+     <stg>
+       <st Contlex="QNT-INDEF">зярыя</st>
+     </stg>
+   </lg> <pos>Qnt-INDEF</pos>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fra">
+       <t pos="Qnt">quelques</t>
+     </tg>
+     <xg>
+       <x>Ютась зярыя шка, ды ансяк мейле… Зярыя чинь ютазь Захар вастызе Миколень, кортазевсь…</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">зярыяксть</l>
+     <stg>
+       <st Contlex="ITER-INDEF">зярыяксть</st>
+     </stg>
+   </lg> <pos>Qnt-ITER</pos>
+   <mg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">а весть</l>
+     <stg>
+       <st Contlex="ITER_">а весть</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative>Зярыяксть.</defNative>
+     <xg>
+       <x>Велесэ эрязь, сонензэ а весть савкшнось важодемс паксянь тевсэ.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Qnt">аламоксть</l>
+     <stg>
+       <st Contlex="ITER_">аламоксть</st>
+     </stg>
+   </lg> <pos>Qnt</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Num">кавксть</l>
+     <stg>
+       <st Contlex="IS-NUM-CARD-ITER">кавксть</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Кавтоксть. Невти зняроксть теезь мезеськак.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Num">kahdesti</t> <tf pos="Num">kaksi kertaa</tf>
+     </tg>
+     <xg>
+       <x>Кавксть якинь тов. Те книганть ловныя кавксть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+</r> 
