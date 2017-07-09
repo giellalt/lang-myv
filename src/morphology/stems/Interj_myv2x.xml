@@ -1,3028 +1,2015 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd"
-   xml:lang="myv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e>
-    <lg>
-      <l pos="Interj">а</l>
-
-      <stg>
-        <st Contlex="INTERJ_">а</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">ahaa</t>
-
-        <t pos="Interj">häh</t>
-
-        <t pos="Interj">hoi</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">а-а</l>
-
-      <stg>
-        <st Contlex="INTERJ_">а-а</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">а-а-а</l>
-
-      <stg>
-        <st Contlex="INTERJ_">а-а-а</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">цёр</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">цёр</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Inanim+Cnt</tags>
-        </head>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">poikaseni</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">авай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">авай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative>Истя эйкакштнэ мерить эсь аваст туртов.</defNative>
-
-      <tg xml:lang="fin">
-        <tf>äiti hei</tf>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">мама (обращение)</t>
-      </tg>
-
-      <xg>
-        <x>Авай, пекем вачсь, андомак. Авай, панть тантей сюкорот. Минек авам
-        якась инзеень кочкамо, кандсь пешксе кептере. Эсь авадо малавикс кияк
-        арась. Аванть туртов эйкакштнэ, зярдо касытькак, мелявкс.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">авакай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">авакай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="авинем" semRelType="synonym"/>
-
-        <semRel lemmaID="авушам" semRelType="synonym"/>
-
-        <semRel lemmaID="авушинем" semRelType="synonym"/>
-
-        <semRel lemmaID="авкай" semRelType="synonym"/>
-
-        <semRel lemmaID="авкинем" semRelType="synonym"/>
-
-        <defNative>Вечкезь лемть аванть туртов эйкакштнэнь пельде.</defNative>
-      </m>
-
-      <xg>
-        <x src="Моросто">Тиринь авам авинем свал монь кисэ мелявты. Авушам
-        пурнымем ки лангов. Арсян теть, авушинем, паро шумбрачи. "Авкай, молян
-        мон вирев, авкай, тарган куконька."</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x>Иля ризнэ, авкинем, карман сакшномо содавтомот.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">авакай-корькай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">авакай-корькай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">родная мама</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">авакай-тирькай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">авакай-тирькай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">любимая мама</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ага</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ага</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">ahaa</t>
-
-        <t pos="Interj">kyllä</t>
-      </tg>
-
-      <xg>
-        <x>мон истя кортынь? -- ага.</x>
-
-        <xt xml:lang="fin">puhuinko minä niin? -- kyllä</xt>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">адя</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">адя</st>
-      </stg>
-    </lg>
-
-    <morphg>
-      <morph>адяка</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Тердема вал. Теньсэ тердят вейке ломань эсеть
-        марто.</defNative>
-      </m>
-
-      <xg>
-        <x>Ну, коли а тееви монтемень, сестэ адя, тейсынек. Адяка озатано
-        автовусс, ялго кувать а пачкодтяно.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">адядо</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">адядо</st>
-      </stg>
-    </lg>
-
-    <morphg>
-      <morph>адядоя</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Адядо, несынк, кода минек колхозось аноксты нуемантень.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">азё</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">азё</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кучома вал.</defNative>
-      </m>
-
-      <xg>
-        <x>Азё ветик лишменть кардазов. Азё тонавтнеме.</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x src="Валмеревкс">Азё тей, азё тов, азё совак аксялов.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">азёдо</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">азёдо</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Азёдо ванынк кинонть, вельть паро.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">азёдоя</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">азёдоя</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">азёка</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">азёка</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кармавтозь кучома.</defNative>
-      </m>
-
-      <xg>
-        <x>Азёка тестэ!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">алилуя</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">алилуя</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Чапамовтомонть алилуясь а серьгедеви, ─ поладсь Пахом.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">алло</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">алло</st>
-      </stg>
-    </lg>
-
-    <posDescr>FORMULAIC</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Пшкадема.</defNative>
-      </m>
-
-      <xg>
-        <x>Алло, Феликс, окойники, тон! ─ марязевсь трубкасонть, зярдо цёрась
-        макссь каршо вал.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">аляй</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">аляй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">мужчина</t>
-
-        <t pos="Interj">юноша</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">арась</l>
-
-      <stg>
-        <st Contlex="INTERJ-NEG">арась</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">ei</t>
-      </tg>
-
-      <tg xml:lang="fra">
-        <t pos="Interj">non</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ах</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ах</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">аштека</l>
-
-      <stg>
-        <st Contlex="INTERJ_">аштека</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ужока. Учока. Лоткака.</defNative>
-      </m>
-
-      <xg>
-        <x>Аштека, мезе теть ёвтан. Ужо аштека, ялгай, учомак.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аштемс мездеяк.</defNative>
-      </m>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Аштемс мезестэяк.</defNative>
-      </m>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>А удомс.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ба</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ба</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">бабазо</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">бабазо</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Веле юткова ютамсто вастат бабине, истя пшкадят
-        тензэ.</defNative>
-      </m>
-
-      <xg>
-        <x>Бабазо, тон васов?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">бабай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">бабай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Истя мерить сыре авантень цёрань эли тейтерень эйкакшт,
-        нуцькат.</defNative>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">бабушка</t>
-      </tg>
-
-      <xg>
-        <x>Бабай, пекем вачомсь, андомак.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">балю</l>
-
-      <stg>
-        <st Contlex="INTERJ_">балю</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Вал пелькс.</defNative>
-      </m>
-
-      <xg>
-        <x>Мон тесэ карман уцеме! Авам мери: утю-балю.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">барь-барь</l>
-
-      <stg>
-        <st Contlex="INTERJ_">барь-барь</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ревень тердема. Кардазов ревень манямо.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">päkä-päkä (lampaan kutsuhuuto)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">баря-баря</l>
-
-      <stg>
-        <st Contlex="INTERJ_">баря-баря</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ревень тердема. Ревень манямо.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">биш</l>
-
-      <stg>
-        <st Contlex="INTERJ_">биш</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">-han/-hän</t>
-      </tg>
-
-      <xg>
-        <x>мезе биш теиксэлинь?</x>
-
-        <xt xml:lang="fin">mitäköhän olen tehnyt?</xt>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">бодяй</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">бодяй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дедушка</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ва</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">ва</st>
-      </stg>
-    </lg>
-
-    <posDescr>INTERJ-IMP</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кармавтомань вал пелькске. 1) Ёвтнесызь сестэ, зярдо
-        кармавтомась эряви виевгавтомс.</defNative>
-      </m>
-
-      <xg>
-        <x>Ва тестэ! Ва путык книганть. Ва иляк токше велосипедэнть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">вадо</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">вадо</st>
-      </stg>
-    </lg>
-
-    <morphg>
-      <morph>вадоя, вадояк</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Ламонень мерема. Вадо азёдо тестэ. Вадоя илинк токше книганть.
-        Вадояк лиседе кудостонть!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Теке марто эрси невтемань вал пельксэкс.</defNative>
-      </m>
-
-      <xg>
-        <x>Ва тезэнь путык книганть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">вай</l>
-
-      <stg>
-        <st Contlex="INTERJ_">вай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Нурькине вал пелькске. Серьгедеви тандадомадо, апак
-        фатямонь тувталдо.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">voi</t>
-
-        <t pos="Interj">oi</t>
-      </tg>
-
-      <xg>
-        <x>Вай, кода тандавтымик. Вай, мейс вачкодимик?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ёвтави тюнгольдемадо (дивамодо).</defNative>
-      </m>
-
-      <xg>
-        <x>Вай, знярошка касыть! Вай, тапизь весе пандятнень!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ёвтави чарькодеманть виевгавтомга, седе сеедьстэ
-        моросо.</defNative>
-      </m>
-
-      <xg>
-        <x>Вай, верьга, верьга ливтить яксяргот... Вай, авинем тиринем... Вай,
-        дугай, илямак токше.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ванок</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ванок</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">вастай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">вастай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">жена, супруга</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ват</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ват</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Вал пелькс. Ёвтневи чарькодемань виевгавтоманть кисэ.
-        Лиясто ёвтневи «вант» валонть таркас.</defNative>
-      </m>
-
-      <xg>
-        <x>Ват молян невтьса теть, кода совсемс ломань пирес. Ват, тов иля
-        яка, тува а ютават. Минь ват кузинек пандонть.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">ве паз соды</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">ве паз соды</st>
-      </stg>
-    </lg>
-
-    <posDescr>FORMULAIC</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Prop">Ведьавакай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">Ведь#авакай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags>+Anim+Cnt</tags>
-        </head>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="N">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">вежавай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">вежавай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">младшая сноха</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">вець-вець</l>
-
-      <stg>
-        <st Contlex="INTERJ_">вець-вець</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ревень тердема. Кардазов ревень манямо.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <te pos="Interj">lampaan kutsuhuuto</te>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">выых</l>
-
-      <stg>
-        <st Contlex="INTERJ_">выых</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">гм</l>
-
-      <stg>
-        <st Contlex="INTERJ_">гм</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">гы</l>
-
-      <stg>
-        <st Contlex="INTERJ_">гы</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Гы-гы-гы, ─ пейдезевсь бюронь секретаресь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">да-беш</l>
-
-      <stg>
-        <st Contlex="INTERJ_">да-беш</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ёвтави стувтома мелень ледстямсто.</defNative>
-      </m>
-
-      <xg>
-        <x>Да-беш, якинь ды стувтыя ёвтамс. Да-беш, ёвтыка, ков молят ─ кинов
-        эли киштема таркав?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">давай</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">давай</st>
-      </stg>
-    </lg>
-
-    <morphg>
-      <morph>давайка</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="эрь" semRelType="seeNative"/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <te pos="Interj">(imperatiivi-interj mon. 1. pers.)</te>
-      </tg>
-
-      <xg>
-        <x>давай теевтяно содавиксэкс</x>
-
-        <xt xml:lang="fin">tutustutaanpa</xt>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">дай</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">дай</st>
-      </stg>
-    </lg>
-
-    <morphg>
-      <morph>дайка</morph>
-    </morphg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="эрь" semRelType="seeNative"/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">дугай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">дугай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ялгинем, оинем, вечкемнем.</defNative>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">братец</t>
-
-        <t pos="Interj">сестрица</t>
-
-        <t pos="Interj">младший брат</t>
-
-        <t pos="Interj">подруга</t>
-
-        <t pos="Interj">сестра</t>
-      </tg>
-
-      <xg>
-        <x src="Моросто">Тон, дугай, сакшнок миненек эрьва чистэ. "Ужо, дугай,
-        учомак, ужо, дугай, саемак..."</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">дугинем</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">дугинем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Чевтестэ мерема оянень.</defNative>
-      </m>
-
-      <xg>
-        <x src="Моросто">"Вай, дугинем, молевлинь, вай, дугинем,
-        пачтявлинь..."</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">здоров</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">здоров</st>
-      </stg>
-    </lg>
-
-    <posDescr>FORMULAIC</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="шумбрачи" semRelType="see"/>
-
-        <defNative/>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">инеськеть</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">инеськеть</st>
-      </stg>
-    </lg>
-
-    <posDescr>FORMULAIC</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Энялдома вал. Чевтестэ мерема, ёвтави мезеньгак вешемадо
-        икеле.</defNative>
-      </m>
-
-      <xg>
-        <x>Инеськеть, макст тень ярмак. Инеськеть, максык ловномс книганть.
-        Инеськеть, лездак тень.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ишь</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ишь</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">kah</t>
-
-        <t pos="Interj">kas</t>
-
-        <t pos="Interj">kappas</t>
-
-        <t pos="Interj">katsos</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">какай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">какай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дитятко</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">корьмай-авай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">корьмай-авай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">родимая матушка</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">корьмакай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">корьмакай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">кормилец (родитель)</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">кши-сал</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">кши-сал</st>
-      </stg>
-    </lg>
-
-    <posDescr>FORMULAIC</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Паро мелень ёвтамо. Киньгак кудов совамсто ломанесь васняяк
-        мери:</defNative>
-      </m>
-
-      <xg>
-        <x>кши-сал тенк.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">кшу</l>
-
-      <stg>
-        <st Contlex="INTERJ_">кшу</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">hus</t>
-      </tg>
-
-      <xg>
-        <x/>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">кыхым</l>
-
-      <stg>
-        <st Contlex="INTERJ_">кыхым</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <xg>
-        <x>Сонензэ мерть: лишмине, сон ─ кыхым-кыхым.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">леляй</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">леляй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Седе сыре цёранень мерема.</defNative>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дядя</t>
-
-        <t pos="Interj">старший брат</t>
-      </tg>
-
-      <xg>
-        <x>Леляй, саимак мартот вирев. Иван леляй, кучик тынк Петянь
-        ульцяв.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">лелякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">лелякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дядя</t>
-
-        <t pos="Interj">старший брат</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">лелякай-тирякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">лелякай-тирякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">любимый старший брат</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">марш</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">марш</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <xg>
-        <x>Мадезь аштемстэ шкась моли састо, аволь истя, кода бойсэ или
-        маршсо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">мх</l>
-
-      <stg>
-        <st Contlex="INTERJ_">мх</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">на</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">на</st>
-      </stg>
-    </lg>
-
-    <posDescr>INTERJ-IMP</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Максомань мерема. Максомань пшкадема. Саик.</defNative>
-      </m>
-
-      <xg>
-        <x>На теть книга. На теть кши. На ярмак, рамак эстеть панар.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">нака</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">нака</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Нака симика.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ну</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ну</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <xg>
-        <x>Ну эно мезе, шумбрачи, племянник, ─ пшкадсь сон теке марто. Кортак
-        "нувтомо", "эновтомо"...</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">нука</l>
-
-      <stg>
-        <st Contlex="INTERJ_">нука</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <xg>
-        <x>Нука ёвтыка.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">нумолкай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">нумолкай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">зайчишка, зайчонок</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ням</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ням</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькске.</defNative>
-      </m>
-
-      <xg>
-        <x>Хролка сэвсы ням-ням!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ого</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ого</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">оинекай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">оинекай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дружок</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">оинем</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">оинем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">мой дружок</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ойминезень</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ойминезень</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">ей Богу</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ойминем</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">ойминем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">моя душа</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">оно</l>
-
-      <stg>
-        <st Contlex="INTERJ_">оно</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">kas tuolla</t>
-
-        <t pos="Interj">kas tuo tuolla</t>
-      </tg>
-
-      <xg>
-        <x>Таркатне оно чавот, максан теть простыня, мутано прялкс, вельтят
-        плащсэ. Саинк оно Марюшань, те тевсэнть сон лезды мондень ламо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ох</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ох</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">оякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">оякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">подруженька, дружок</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">пандя</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">пандя</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>лоткавтомань вал. Саты. Лоткак. Паро. «Пандя» чийнемс.
-        Пандя лавгамс, кияк эйсэть а кунсолы.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">riittää!</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">пандядо</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">пандядо</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ёвтазь ламонень.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">парыям</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">парыям</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">золовушка</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">патяй</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">патяй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Эрьва аванень эли тейтернень одонь пельде
-        пшкадема.</defNative>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">обращение к патя</t>
-      </tg>
-
-      <xg>
-        <x>Лиза патяй, ков молят? Патяй, тонь веленть кода лемезэ?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">превейнем</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">превейнем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">умница моя</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">саты</l>
-
-      <stg>
-        <st Contlex="INTERJ_">саты</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">riittää!</t>
-
-        <t pos="Interj">hyvä on!</t>
-
-        <t pos="Interj">lopeta!</t>
-
-        <t pos="Interj">on jo tarpeeksi!</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">секень вант</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">секень вант</st>
-      </stg>
-    </lg>
-
-    <posDescr>FORMULAIC</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Тейтересь косояк арасель. "Секень вант, сонгак тусь аванзо
-        марто"…</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">сырнеликай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">сырнеликай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">золотце</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">сюкпря</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">сюк#пря</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Лиясо «пасиба».</defNative>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="Interj">thank you</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">kiitos</t>
-      </tg>
-
-      <tg xml:lang="fra">
-        <t pos="Interj">merci</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">спасибо</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тейтерем</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тейтерем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">доченька</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тейтерькам</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тейтерькам</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">доченька</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тетяй</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тетяй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Тетяй, рамак книга. Тетяй, саимак мартот вирев. Тетяй,
-        нолдамак кинов. Тетянень вечкезь ды чевтестэ мерема. Энялдозь
-        мерема.</defNative>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">папа, батя</t>
-      </tg>
-
-      <xg>
-        <x>Тетякай, илямак мурне чумонь тееманть кисэ.</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x>Тетякай-корьмакай, илямак кадо ськамом.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тетяка</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тетяка</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">батюшка</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тетякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тетякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">папочка</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тетякай-тирякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тетякай-тирякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">родной отец</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тиринем</l>
-
-      <stg>
-        <st Contlex="N-Voc-Px1Sg">тиринем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">родной</t>
-      </tg>
-
-      <xg>
-        <x>Тетяй, тиринем!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тпру</l>
-
-      <stg>
-        <st Contlex="INTERJ_">тпру</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тпруга</l>
-
-      <stg>
-        <st Contlex="INTERJ_">тпруга</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Тпруга тестэ! ─ серьгедсь Миколь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">тякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">тякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дитятко</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">угу</l>
-
-      <stg>
-        <st Contlex="INTERJ_">угу</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ужо</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">ужо</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>I лоткавтомань вал пелькс. Сеедьстэ ёвтави лия валонь
-        икеле, зярдо эряви невтемс кармавтомань чарькодема.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">älä hosu</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">подожди</t>
-      </tg>
-
-      <xg>
-        <x>Ужо учомак. Ужо аштек. Ужо тук тестэ. Ужо нолдамак.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">ужодо</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">ужодо</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Ламонень мерема.</defNative>
-      </m>
-
-      <xg>
-        <x>Ужодо тестэ. Ужодо аштеде аламос.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">ужока</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">ужока</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кунсоломо кармавтома.</defNative>
-      </m>
-
-      <xg>
-        <x>Ужока, мезе ёвтан теть. Ужока, аштека, од куля ёвтан.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ура</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ура</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ух</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ух</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">voi</t>
-
-        <t pos="Interj">huh</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ха</l>
-
-      <stg>
-        <st Contlex="INTERJ_">ха</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">цюр</l>
-
-      <stg>
-        <st Contlex="INTERJ_">цюр</st>
-      </stg>
-    </lg>
-
-    <etymg>
-      <etym xml:lang="rus">чур</etym>
-    </etymg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Серьгедема, невти мезесэяк икельдема.</defNative>
-      </m>
-
-      <xg>
-        <x>Цюр, те умаресь монь! Цюр, мон чиинь весемеде икелев!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Чарькодемань виевгавтомсто ёвтавкс, меревкс.</defNative>
-      </m>
-
-      <xg>
-        <x>Цюр, мезе неинь тосто! Цюр, идемак истямо апародо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">цёрам</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">цёрам</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">сынок. Сыночек</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">цёркам</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">цёркам</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">мальчик мой</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">цёрынем</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">цёрынем</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">сыночек мой</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">чирёлт</l>
-
-      <stg>
-        <st Contlex="INTERJ_">чирёлт</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative/>
-      </m>
-
-      <xg>
-        <x>Чирёлт, чирёлт якицят! Чирь каштазонь кандыцят!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">э-хе-е</l>
-
-      <stg>
-        <st Contlex="INTERJ_">э-хе-е</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эг-эгэ</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эг-эгэ</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эге</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эге</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эзналякай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">эзналякай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">обращение к эзналя</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эй</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эй</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эй-бох</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эй-бох</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эка</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эка</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс.</defNative>
-      </m>
-
-      <xg>
-        <x>Эка муевсь неень шкань ломанесь, ─ пшкадсь сон мельсапаросо.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">эрде</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">эрде</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>кармавтома вал, ёвтави ламонень (ламонь
-        кармавтомсто).</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">no</t>
-      </tg>
-
-      <xg>
-        <x>Эрде ярсамо. Эрде азёдо нуеме. Эрде каштмоледе. Эрде мольтяно
-        базаров.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эрь</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">эрь</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>кармавтома вал.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">no</t>
-
-        <t pos="Interj">kas niin</t>
-      </tg>
-
-      <xg>
-        <x>Эрь стяк эземстэнть. Эрь, озак ярсамо. Эрь, азё кандт ведь.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="Interj">эрьга</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">эрьга</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Кармавтома вал. Сыргавтома вал.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">no</t>
-      </tg>
-
-      <xg>
-        <x>Эрьга тестэ. Эрьга ванса, кода викшнят. Эрьга ёвтыка, ков
-        ёмсить.</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x>эрьга, ванса</x>
-
-        <xt xml:lang="fin">no, katsonpas sitä</xt>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эх</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эх</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эх-ма</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эх-ма</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">эхе</l>
-
-      <stg>
-        <st Contlex="INTERJ_">эхе</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head>
-          <tags/>
-        </head>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj" type="Voc">юртавай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">юрт#авай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <tg xml:lang="eng">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="N">XX</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="N">XX</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">да</l>
-
-      <stg>
-        <st Contlex="INTERJ_">да</st>
-      </stg>
-    </lg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-      <defNative>истя</defNative>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">kyllä</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">да</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">виде</l>
-
-      <stg>
-        <st Contlex="INTERJ_">виде</st>
-      </stg>
-    </lg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-      <defNative>истя</defNative>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">kyllä</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">да</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">шумбрачи</l>
-
-      <stg>
-        <st Contlex="FORMULAIC_">шумбрачи</st>
-      </stg>
-    </lg>
-
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-      <defNative>истя</defNative>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">terve</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">здраствуй</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">я</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">я</st>
-      </stg>
-    </lg>
-
-    <posDescr>INTERJ-IMP</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Тюнгольдемань (дивамонь) невтема. Тюнгольдемань
-        ёвтамо.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">katsos</t>
-
-        <t pos="Interj">kas</t>
-
-        <t pos="Interj">no</t>
-
-        <t pos="Interj">ai</t>
-      </tg>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">да</t>
-
-        <t pos="Interj">ну</t>
-
-        <t pos="Interj">ой</t>
-      </tg>
-
-      <xg>
-        <x>я, тонгак тесат</x>
-
-        <xt xml:lang="fin">ai, sinäkin olet täällä</xt>
-      </xg>
-
-      <xg>
-        <x>Я, ашолгадсь! Я, мезе тесэ! Я, кодамо паро валскесь! Я, ванта, кода
-        чии, киненьгак а сасави. Я, окойники пачкодинек кудов!</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ялгай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">ялгай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <t pos="Interj">дружище, друг</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="N">ялгакай</l>
-
-      <stg>
-        <st Contlex="N_KAJ_KINVOC">ялгакай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <semantics>
-        <sem class="PEOPLE"/>
-      </semantics>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ялгинекай</l>
-
-      <stg>
-        <st Contlex="VOCATIVE_">ялгинекай</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <defNative/>
-
-      <tg xml:lang="rus">
-        <tf>мой дружок</tf>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="Interj">ярь</l>
-
-      <stg>
-        <st Contlex="INTERJ-IMP">ярь</st>
-      </stg>
-    </lg>
-
-    <posDescr>INTERJ-IMP</posDescr>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Тюнгольдемань (дивамонь) невтиця вал.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="Interj">no</t>
-      </tg>
-
-      <xg>
-        <x>Ярь, тевтне беряньгадсть. Ярь, молинек кувать, пачкодинек чаво
-        паксяс.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-</r>
+<?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="myv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e>
+   <lg>
+     <l pos="Interj">а</l>
+     <stg>
+       <st Contlex="INTERJ_">а</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">ahaa</t>
+       <t pos="Interj">häh</t>
+       <t pos="Interj">hoi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">а-а</l>
+     <stg>
+       <st Contlex="INTERJ_">а-а</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">а-а-а</l>
+     <stg>
+       <st Contlex="INTERJ_">а-а-а</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">цёр</l>
+     <stg>
+       <st Contlex="VOCATIVE_">цёр</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags>+Inanim+Cnt</tags>
+       </head>
+     </m>
+     <tg xml:lang="fin">
+       <t pos="Interj">poikaseni</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">авай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">авай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Истя эйкакштнэ мерить эсь аваст туртов.</defNative>
+     <tg xml:lang="fin"> <tf>äiti hei</tf>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">мама (обращение)</t>
+     </tg>
+     <xg>
+       <x>Авай, пекем вачсь, андомак. Авай, панть тантей сюкорот. Минек авам якась инзеень кочкамо, кандсь пешксе кептере. Эсь авадо малавикс кияк арась. Аванть туртов эйкакштнэ, зярдо касытькак, мелявкс.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">авакай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">авакай</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head/>
+       <semRel lemmaID="авинем" semRelType="synonym"/>
+       <semRel lemmaID="авушам" semRelType="synonym"/>
+     </m>
+       <semRel lemmaID="авушинем" semRelType="synonym"/>
+       <semRel lemmaID="авкай" semRelType="synonym"/>
+       <semRel lemmaID="авкинем" semRelType="synonym"/>
+     <defNative>Вечкезь лемть аванть туртов эйкакштнэнь пельде.</defNative>
+     <xg>
+       <x src="Моросто">Тиринь авам авинем свал монь кисэ мелявты. Авушам пурнымем ки лангов. Арсян теть, авушинем, паро шумбрачи. "Авкай, молян мон вирев, авкай, тарган куконька."</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x>Иля ризнэ, авкинем, карман сакшномо содавтомот.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">авакай-корькай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">авакай-корькай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">родная мама</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">авакай-тирькай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">авакай-тирькай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">любимая мама</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ага</l>
+     <stg>
+       <st Contlex="INTERJ_">ага</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">ahaa</t>
+       <t pos="Interj">kyllä</t>
+     </tg>
+     <xg>
+       <x>мон истя кортынь? -- ага.</x>
+       <xt xml:lang="fin">puhuinko minä niin? -- kyllä</xt>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">адя</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">адя</st>
+     </stg>
+   </lg> <morphg> <morph>адяка</morph> </morphg>
+   <mg>
+     <defNative>Тердема вал. Теньсэ тердят вейке ломань эсеть марто.</defNative>
+     <xg>
+       <x>Ну, коли а тееви монтемень, сестэ адя, тейсынек. Адяка озатано автовусс, ялго кувать а пачкодтяно.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">адядо</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">адядо</st>
+     </stg>
+   </lg> <morphg> <morph>адядоя</morph> </morphg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Адядо, несынк, кода минек колхозось аноксты нуемантень.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">азё</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">азё</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Кучома вал.</defNative>
+     <xg>
+       <x>Азё ветик лишменть кардазов. Азё тонавтнеме.</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x src="Валмеревкс">Азё тей, азё тов, азё совак аксялов.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">азёдо</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">азёдо</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Азёдо ванынк кинонть, вельть паро.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">азёдоя</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">азёдоя</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">азёка</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">азёка</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Кармавтозь кучома.</defNative>
+     <xg>
+       <x>Азёка тестэ!</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">алилуя</l>
+     <stg>
+       <st Contlex="FORMULAIC_">алилуя</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Чапамовтомонть алилуясь а серьгедеви, ─ поладсь Пахом.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">алло</l>
+     <stg>
+       <st Contlex="FORMULAIC_">алло</st>
+     </stg>
+   </lg> <posDescr>FORMULAIC</posDescr>
+   <mg>
+     <defNative>Пшкадема.</defNative>
+     <xg>
+       <x>Алло, Феликс, окойники, тон! ─ марязевсь трубкасонть, зярдо цёрась макссь каршо вал.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">аляй</l>
+     <stg>
+       <st Contlex="VOCATIVE_">аляй</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">мужчина</t>
+       <t pos="Interj">юноша</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">арась</l>
+     <stg>
+       <st Contlex="INTERJ-NEG">арась</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">ei</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Interj">non</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ах</l>
+     <stg>
+       <st Contlex="INTERJ_">ах</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">аштека</l>
+     <stg>
+       <st Contlex="INTERJ_">аштека</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ужока. Учока. Лоткака.</defNative>
+     <xg>
+       <x>Аштека, мезе теть ёвтан. Ужо аштека, ялгай, учомак.</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Аштемс мездеяк.</defNative>
+   </mg>
+   <mg>
+     <defNative>Аштемс мезестэяк.</defNative>
+   </mg>
+   <mg>
+     <defNative>А удомс.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ба</l>
+     <stg>
+       <st Contlex="INTERJ_">ба</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">бабазо</l>
+     <stg>
+       <st Contlex="VOCATIVE_">бабазо</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Веле юткова ютамсто вастат бабине, истя пшкадят тензэ.</defNative>
+     <xg>
+       <x>Бабазо, тон васов?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">бабай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">бабай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Истя мерить сыре авантень цёрань эли тейтерень эйкакшт, нуцькат.</defNative>
+     <tg xml:lang="rus">
+       <t pos="Interj">бабушка</t>
+     </tg>
+     <xg>
+       <x>Бабай, пекем вачомсь, андомак.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">балю</l>
+     <stg>
+       <st Contlex="INTERJ_">балю</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Вал пелькс.</defNative>
+     <xg>
+       <x>Мон тесэ карман уцеме! Авам мери: утю-балю.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">барь-барь</l>
+     <stg>
+       <st Contlex="INTERJ_">барь-барь</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ревень тердема. Кардазов ревень манямо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">päkä-päkä (lampaan kutsuhuuto)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">баря-баря</l>
+     <stg>
+       <st Contlex="INTERJ_">баря-баря</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ревень тердема. Ревень манямо.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">биш</l>
+     <stg>
+       <st Contlex="INTERJ_">биш</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">-han/-hän</t>
+     </tg>
+     <xg>
+       <x>мезе биш теиксэлинь?</x>
+       <xt xml:lang="fin">mitäköhän olen tehnyt?</xt>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">бодяй</l>
+     <stg>
+       <st Contlex="VOCATIVE_">бодяй</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">дедушка</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ва</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">ва</st>
+     </stg>
+   </lg> <posDescr>INTERJ-IMP</posDescr>
+   <mg>
+     <defNative>Кармавтомань вал пелькске. 1) Ёвтнесызь сестэ, зярдо кармавтомась эряви виевгавтомс.</defNative>
+     <xg>
+       <x>Ва тестэ! Ва путык книганть. Ва иляк токше велосипедэнть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">вадо</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">вадо</st>
+     </stg>
+   </lg> <morphg> <morph>вадоя, вадояк</morph> </morphg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Ламонень мерема. Вадо азёдо тестэ. Вадоя илинк токше книганть. Вадояк лиседе кудостонть!</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Теке марто эрси невтемань вал пельксэкс.</defNative>
+     <xg>
+       <x>Ва тезэнь путык книганть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">вай</l>
+     <stg>
+       <st Contlex="INTERJ_">вай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Нурькине вал пелькске. Серьгедеви тандадомадо, апак фатямонь тувталдо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">voi</t>
+       <t pos="Interj">oi</t>
+     </tg>
+     <xg>
+       <x>Вай, кода тандавтымик. Вай, мейс вачкодимик?</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Ёвтави тюнгольдемадо (дивамодо).</defNative>
+     <xg>
+       <x>Вай, знярошка касыть! Вай, тапизь весе пандятнень!</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Ёвтави чарькодеманть виевгавтомга, седе сеедьстэ моросо.</defNative>
+     <xg>
+       <x>Вай, верьга, верьга ливтить яксяргот... Вай, авинем тиринем... Вай, дугай, илямак токше.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ванок</l>
+     <stg>
+       <st Contlex="INTERJ_">ванок</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">вастай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">вастай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">жена, супруга</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ват</l>
+     <stg>
+       <st Contlex="INTERJ_">ват</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Вал пелькс. Ёвтневи чарькодемань виевгавтоманть кисэ. Лиясто ёвтневи «вант» валонть таркас.</defNative>
+     <xg>
+       <x>Ват молян невтьса теть, кода совсемс ломань пирес. Ват, тов иля яка, тува а ютават. Минь ват кузинек пандонть.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">ве паз соды</l>
+     <stg>
+       <st Contlex="FORMULAIC_">ве паз соды</st>
+     </stg>
+   </lg> <posDescr>FORMULAIC</posDescr>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Prop">Ведьавакай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">Ведь#авакай</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags>+Anim+Cnt</tags>
+       </head>
+     </m>
+     <tg xml:lang="eng">
+       <t pos="N">XX</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="N">XX</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="N">XX</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">вежавай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">вежавай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">младшая сноха</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">вець-вець</l>
+     <stg>
+       <st Contlex="INTERJ_">вець-вець</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ревень тердема. Кардазов ревень манямо.</defNative>
+     <tg xml:lang="fin"> <te pos="Interj">lampaan kutsuhuuto</te>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">выых</l>
+     <stg>
+       <st Contlex="INTERJ_">выых</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">гм</l>
+     <stg>
+       <st Contlex="INTERJ_">гм</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">гы</l>
+     <stg>
+       <st Contlex="INTERJ_">гы</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Гы-гы-гы, ─ пейдезевсь бюронь секретаресь.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">да-беш</l>
+     <stg>
+       <st Contlex="INTERJ_">да-беш</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ёвтави стувтома мелень ледстямсто.</defNative>
+     <xg>
+       <x>Да-беш, якинь ды стувтыя ёвтамс. Да-беш, ёвтыка, ков молят ─ кинов эли киштема таркав?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">давай</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">давай</st>
+     </stg>
+   </lg> <morphg> <morph>давайка</morph> </morphg>
+   <mg>
+       <semRel lemmaID="эрь" semRelType="seeNative"/>
+     <defNative>вал пелькс.</defNative>
+     <tg xml:lang="fin"> <te pos="Interj">(imperatiivi-interj mon. 1. pers.)</te>
+     </tg>
+     <xg>
+       <x>давай теевтяно содавиксэкс</x>
+       <xt xml:lang="fin">tutustutaanpa</xt>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">дай</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">дай</st>
+     </stg>
+   </lg> <morphg> <morph>дайка</morph> </morphg>
+   <mg>
+       <semRel lemmaID="эрь" semRelType="seeNative"/>
+     <defNative>вал пелькс.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">дугай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">дугай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ялгинем, оинем, вечкемнем.</defNative>
+     <tg xml:lang="rus">
+       <t pos="Interj">братец</t>
+       <t pos="Interj">сестрица</t>
+       <t pos="Interj">младший брат</t>
+       <t pos="Interj">подруга</t>
+       <t pos="Interj">сестра</t>
+     </tg>
+     <xg>
+       <x src="Моросто">Тон, дугай, сакшнок миненек эрьва чистэ. "Ужо, дугай, учомак, ужо, дугай, саемак..."</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">дугинем</l>
+     <stg>
+       <st Contlex="VOCATIVE_">дугинем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Чевтестэ мерема оянень.</defNative>
+     <xg>
+       <x src="Моросто">"Вай, дугинем, молевлинь, вай, дугинем, пачтявлинь..."</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">здоров</l>
+     <stg>
+       <st Contlex="FORMULAIC_">здоров</st>
+     </stg>
+   </lg> <posDescr>FORMULAIC</posDescr>
+   <mg>
+       <semRel lemmaID="шумбрачи" semRelType="see"/>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">инеськеть</l>
+     <stg>
+       <st Contlex="FORMULAIC_">инеськеть</st>
+     </stg>
+   </lg> <posDescr>FORMULAIC</posDescr>
+   <mg>
+     <defNative>Энялдома вал. Чевтестэ мерема, ёвтави мезеньгак вешемадо икеле.</defNative>
+     <xg>
+       <x>Инеськеть, макст тень ярмак. Инеськеть, максык ловномс книганть. Инеськеть, лездак тень.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ишь</l>
+     <stg>
+       <st Contlex="INTERJ_">ишь</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">kah</t>
+       <t pos="Interj">kas</t>
+       <t pos="Interj">kappas</t>
+       <t pos="Interj">katsos</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">какай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">какай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">дитятко</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">корьмай-авай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">корьмай-авай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">родимая матушка</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">корьмакай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">корьмакай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">кормилец (родитель)</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">кши-сал</l>
+     <stg>
+       <st Contlex="FORMULAIC_">кши-сал</st>
+     </stg>
+   </lg> <posDescr>FORMULAIC</posDescr>
+   <mg>
+     <defNative>Паро мелень ёвтамо. Киньгак кудов совамсто ломанесь васняяк мери:</defNative>
+     <xg>
+       <x>кши-сал тенк.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">кшу</l>
+     <stg>
+       <st Contlex="INTERJ_">кшу</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">hus</t>
+     </tg>
+     <xg> <x/>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">кыхым</l>
+     <stg>
+       <st Contlex="INTERJ_">кыхым</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <xg>
+       <x>Сонензэ мерть: лишмине, сон ─ кыхым-кыхым.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">леляй</l>
+     <stg>
+       <st Contlex="VOCATIVE_">леляй</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Седе сыре цёранень мерема.</defNative>
+     <tg xml:lang="rus">
+       <t pos="Interj">дядя</t>
+       <t pos="Interj">старший брат</t>
+     </tg>
+     <xg>
+       <x>Леляй, саимак мартот вирев. Иван леляй, кучик тынк Петянь ульцяв.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">лелякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">лелякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">дядя</t>
+       <t pos="Interj">старший брат</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">лелякай-тирякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">лелякай-тирякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">любимый старший брат</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">марш</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">марш</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <xg>
+       <x>Мадезь аштемстэ шкась моли састо, аволь истя, кода бойсэ или маршсо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">мх</l>
+     <stg>
+       <st Contlex="INTERJ_">мх</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">на</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">на</st>
+     </stg>
+   </lg> <posDescr>INTERJ-IMP</posDescr>
+   <mg>
+     <defNative>Максомань мерема. Максомань пшкадема. Саик.</defNative>
+     <xg>
+       <x>На теть книга. На теть кши. На ярмак, рамак эстеть панар.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">нака</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">нака</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Нака симика.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ну</l>
+     <stg>
+       <st Contlex="INTERJ_">ну</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <xg>
+       <x>Ну эно мезе, шумбрачи, племянник, ─ пшкадсь сон теке марто. Кортак "нувтомо", "эновтомо"...</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">нука</l>
+     <stg>
+       <st Contlex="INTERJ_">нука</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <xg>
+       <x>Нука ёвтыка.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">нумолкай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">нумолкай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">зайчишка, зайчонок</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ням</l>
+     <stg>
+       <st Contlex="INTERJ_">ням</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькске.</defNative>
+     <xg>
+       <x>Хролка сэвсы ням-ням!</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ого</l>
+     <stg>
+       <st Contlex="INTERJ_">ого</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">оинекай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">оинекай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">дружок</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">оинем</l>
+     <stg>
+       <st Contlex="VOCATIVE_">оинем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">мой дружок</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ойминезень</l>
+     <stg>
+       <st Contlex="INTERJ_">ойминезень</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">ей Богу</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ойминем</l>
+     <stg>
+       <st Contlex="VOCATIVE_">ойминем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">моя душа</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">оно</l>
+     <stg>
+       <st Contlex="INTERJ_">оно</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">kas tuolla</t>
+       <t pos="Interj">kas tuo tuolla</t>
+     </tg>
+     <xg>
+       <x>Таркатне оно чавот, максан теть простыня, мутано прялкс, вельтят плащсэ. Саинк оно Марюшань, те тевсэнть сон лезды мондень ламо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ох</l>
+     <stg>
+       <st Contlex="INTERJ_">ох</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">оякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">оякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">подруженька, дружок</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">пандя</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">пандя</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>лоткавтомань вал. Саты. Лоткак. Паро. «Пандя» чийнемс. Пандя лавгамс, кияк эйсэть а кунсолы.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">riittää!</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">пандядо</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">пандядо</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ёвтазь ламонень.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">парыям</l>
+     <stg>
+       <st Contlex="VOCATIVE_">парыям</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">золовушка</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">патяй</l>
+     <stg>
+       <st Contlex="VOCATIVE_">патяй</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Эрьва аванень эли тейтернень одонь пельде пшкадема.</defNative>
+     <tg xml:lang="rus">
+       <t pos="Interj">обращение к патя</t>
+     </tg>
+     <xg>
+       <x>Лиза патяй, ков молят? Патяй, тонь веленть кода лемезэ?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">превейнем</l>
+     <stg>
+       <st Contlex="VOCATIVE_">превейнем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">умница моя</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">саты</l>
+     <stg>
+       <st Contlex="INTERJ_">саты</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">riittää!</t>
+       <t pos="Interj">hyvä on!</t>
+       <t pos="Interj">lopeta!</t>
+       <t pos="Interj">on jo tarpeeksi!</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">секень вант</l>
+     <stg>
+       <st Contlex="FORMULAIC_">секень вант</st>
+     </stg>
+   </lg> <posDescr>FORMULAIC</posDescr>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Тейтересь косояк арасель. "Секень вант, сонгак тусь аванзо марто"…</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">сырнеликай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">сырнеликай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">золотце</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">сюкпря</l>
+     <stg>
+       <st Contlex="FORMULAIC_">сюк#пря</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Лиясо «пасиба».</defNative>
+     <tg xml:lang="eng">
+       <t pos="Interj">thank you</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Interj">kiitos</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Interj">merci</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">спасибо</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тейтерем</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тейтерем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">доченька</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тейтерькам</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тейтерькам</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">доченька</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тетяй</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тетяй</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Тетяй, рамак книга. Тетяй, саимак мартот вирев. Тетяй, нолдамак кинов. Тетянень вечкезь ды чевтестэ мерема. Энялдозь мерема.</defNative>
+     <tg xml:lang="rus">
+       <t pos="Interj">папа, батя</t>
+     </tg>
+     <xg>
+       <x>Тетякай, илямак мурне чумонь тееманть кисэ.</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x>Тетякай-корьмакай, илямак кадо ськамом.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тетяка</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тетяка</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">батюшка</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тетякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тетякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">папочка</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тетякай-тирякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тетякай-тирякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">родной отец</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тиринем</l>
+     <stg>
+       <st Contlex="N-Voc-Px1Sg">тиринем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">родной</t>
+     </tg>
+     <xg>
+       <x>Тетяй, тиринем!</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тпру</l>
+     <stg>
+       <st Contlex="INTERJ_">тпру</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тпруга</l>
+     <stg>
+       <st Contlex="INTERJ_">тпруга</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Тпруга тестэ! ─ серьгедсь Миколь.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">тякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">тякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">дитятко</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">угу</l>
+     <stg>
+       <st Contlex="INTERJ_">угу</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ужо</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">ужо</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>I лоткавтомань вал пелькс. Сеедьстэ ёвтави лия валонь икеле, зярдо эряви невтемс кармавтомань чарькодема.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">älä hosu</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">подожди</t>
+     </tg>
+     <xg>
+       <x>Ужо учомак. Ужо аштек. Ужо тук тестэ. Ужо нолдамак.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">ужодо</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">ужодо</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Ламонень мерема.</defNative>
+     <xg>
+       <x>Ужодо тестэ. Ужодо аштеде аламос.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">ужока</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">ужока</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Кунсоломо кармавтома.</defNative>
+     <xg>
+       <x>Ужока, мезе ёвтан теть. Ужока, аштека, од куля ёвтан.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ура</l>
+     <stg>
+       <st Contlex="INTERJ_">ура</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ух</l>
+     <stg>
+       <st Contlex="INTERJ_">ух</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="Interj">voi</t>
+       <t pos="Interj">huh</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ха</l>
+     <stg>
+       <st Contlex="INTERJ_">ха</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">цюр</l>
+     <stg>
+       <st Contlex="INTERJ_">цюр</st>
+     </stg>
+     <etymology> <etym xml:lang="rus">чур</etym>
+     </etymology>
+   </lg>
+   <mg>
+     <defNative>Серьгедема, невти мезесэяк икельдема.</defNative>
+     <xg>
+       <x>Цюр, те умаресь монь! Цюр, мон чиинь весемеде икелев!</x>
+       <xt/>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Чарькодемань виевгавтомсто ёвтавкс, меревкс.</defNative>
+     <xg>
+       <x>Цюр, мезе неинь тосто! Цюр, идемак истямо апародо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">цёрам</l>
+     <stg>
+       <st Contlex="VOCATIVE_">цёрам</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">сынок. Сыночек</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">цёркам</l>
+     <stg>
+       <st Contlex="VOCATIVE_">цёркам</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">мальчик мой</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">цёрынем</l>
+     <stg>
+       <st Contlex="VOCATIVE_">цёрынем</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">сыночек мой</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">чирёлт</l>
+     <stg>
+       <st Contlex="INTERJ_">чирёлт</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <xg>
+       <x>Чирёлт, чирёлт якицят! Чирь каштазонь кандыцят!</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">э-хе-е</l>
+     <stg>
+       <st Contlex="INTERJ_">э-хе-е</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эг-эгэ</l>
+     <stg>
+       <st Contlex="INTERJ_">эг-эгэ</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эге</l>
+     <stg>
+       <st Contlex="INTERJ_">эге</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эзналякай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">эзналякай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">обращение к эзналя</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эй</l>
+     <stg>
+       <st Contlex="INTERJ_">эй</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эй-бох</l>
+     <stg>
+       <st Contlex="INTERJ_">эй-бох</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эка</l>
+     <stg>
+       <st Contlex="INTERJ_">эка</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс.</defNative>
+     <xg>
+       <x>Эка муевсь неень шкань ломанесь, ─ пшкадсь сон мельсапаросо.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">эрде</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">эрде</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>кармавтома вал, ёвтави ламонень (ламонь кармавтомсто).</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">no</t>
+     </tg>
+     <xg>
+       <x>Эрде ярсамо. Эрде азёдо нуеме. Эрде каштмоледе. Эрде мольтяно базаров.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эрь</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">эрь</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>кармавтома вал.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">no</t>
+       <t pos="Interj">kas niin</t>
+     </tg>
+     <xg>
+       <x>Эрь стяк эземстэнть. Эрь, озак ярсамо. Эрь, азё кандт ведь.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Interj">эрьга</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">эрьга</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Кармавтома вал. Сыргавтома вал.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">no</t>
+     </tg>
+     <xg>
+       <x>Эрьга тестэ. Эрьга ванса, кода викшнят. Эрьга ёвтыка, ков ёмсить.</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x>эрьга, ванса</x>
+       <xt xml:lang="fin">no, katsonpas sitä</xt>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эх</l>
+     <stg>
+       <st Contlex="INTERJ_">эх</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эх-ма</l>
+     <stg>
+       <st Contlex="INTERJ_">эх-ма</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">эхе</l>
+     <stg>
+       <st Contlex="INTERJ_">эхе</st>
+     </stg>
+   </lg>
+   <mg>
+     <m>
+       <head> <tags/>
+       </head>
+     </m>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj" type="Voc">юртавай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">юрт#авай</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="N">XX</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="N">XX</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="N">XX</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">да</l>
+     <stg>
+       <st Contlex="INTERJ_">да</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <defNative>истя</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">kyllä</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">да</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">виде</l>
+     <stg>
+       <st Contlex="INTERJ_">виде</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <defNative>истя</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">kyllä</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">да</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">шумбрачи</l>
+     <stg>
+       <st Contlex="FORMULAIC_">шумбрачи</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <defNative>истя</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">terve</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">здраствуй</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">я</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">я</st>
+     </stg>
+   </lg> <posDescr>INTERJ-IMP</posDescr>
+   <mg>
+     <defNative>Тюнгольдемань (дивамонь) невтема. Тюнгольдемань ёвтамо.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">katsos</t>
+       <t pos="Interj">kas</t>
+       <t pos="Interj">no</t>
+       <t pos="Interj">ai</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Interj">да</t>
+       <t pos="Interj">ну</t>
+       <t pos="Interj">ой</t>
+     </tg>
+     <xg>
+       <x>я, тонгак тесат</x>
+       <xt xml:lang="fin">ai, sinäkin olet täällä</xt>
+     </xg>
+     <xg>
+       <x>Я, ашолгадсь! Я, мезе тесэ! Я, кодамо паро валскесь! Я, ванта, кода чии, киненьгак а сасави. Я, окойники пачкодинек кудов!</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ялгай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">ялгай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="Interj">дружище, друг</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="N">ялгакай</l>
+     <stg>
+       <st Contlex="N_KAJ_KINVOC">ялгакай</st>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="PEOPLE"/>
+     </semantics>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ялгинекай</l>
+     <stg>
+       <st Contlex="VOCATIVE_">ялгинекай</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus"> <tf>мой дружок</tf>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ярь</l>
+     <stg>
+       <st Contlex="INTERJ-IMP">ярь</st>
+     </stg>
+   </lg> <posDescr>INTERJ-IMP</posDescr>
+   <mg>
+     <defNative>Тюнгольдемань (дивамонь) невтиця вал.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Interj">no</t>
+     </tg>
+     <xg>
+       <x>Ярь, тевтне беряньгадсть. Ярь, молинек кувать, пачкодинек чаво паксяс.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+</r> 

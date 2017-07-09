@@ -1,258 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd"
-   xml:lang="myv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
-   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e>
-    <lg>
-      <l pos="CC">али</l>
-
-      <stg>
-        <st Contlex="CC">али</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="эли" semRelType="see"/>
-
-        <defNative/>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="CC">да</l>
-
-      <stg>
-        <st Contlex="CC">да</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>вал пелькс. Ды.</defNative>
-      </m>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="CC">ды</l>
-
-      <stg>
-        <st Contlex="CC">ды</st>
-      </stg>
-    </lg>
-    <sources>
-      <book name="Olga01"/>
-    </sources>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Сюлмиця вал пелькске, вейсэнди кавто эли седе ламо
-        тевть-арсемат.</defNative>
-      </m>
-
-      <tg xml:lang="eng">
-        <t pos="CC">and</t>
-      </tg>
-
-      <tg xml:lang="fin">
-        <t pos="CC">ja</t>
-      </tg>
-
-      <tg xml:lang="fra">
-        <t pos="CC">et</t>
-      </tg>
-
-      <xg>
-        <x>Мон ды тон ─ кавоненек. Симинь ды ярсынь пешкедемезэнь.</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x>минек садсо касыть умарть ды инзейть</x>
-
-        <xt xml:lang="fin">puutarhassamme kasvaa omenia ja vadelmia</xt>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Вал пелькске, ёвтави каршо чарькодемань
-        сюлмицякс.</defNative>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="CC">mutta</t>
-      </tg>
-
-      <xg>
-        <x>Рамавлинь книга, ды арасть ярмакон. Молевлинь ульцяв, ды
-        пиземе.</x>
-
-        <xt/>
-      </xg>
-
-      <xg>
-        <x>молевлинь бу театрав, ды шкам арасель</x>
-
-        <xt xml:lang="fin">olisin mennyt teatteriin, mutta minulla ei ollut
-        aikaa</xt>
-      </xg>
-    </mg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <defNative>Вал пелькске, ёвтави чарькодемань виевгавтомань кисэ, зярдо
-        эряви кияк мездеяк лоткавтомс.</defNative>
-      </m>
-
-      <xg>
-        <x>Ды оймадо, апарось саидизь! Ды азё эно седе курок! Ды иляк стувто
-        саемс книганть. Ды мольть седе састо, а кенерян мельгат.</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="CC">или</l>
-
-      <stg>
-        <st Contlex="CC">или</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-
-        <semRel lemmaID="эли" semRelType="seeNative"/>
-
-        <semRel lemmaID="эль" semRelType="seeNative"/>
-
-        <defNative/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="CC">vai</t>
-
-        <t pos="CC">tai</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e exclude="fst">
-    <lg>
-      <l pos="CC" type="CORRELATIVE">эли ... эли</l>
-
-      <stg>
-        <st>эли ... эли</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="CC">joko ... tai</t>
-      </tg>
-
-      <xg>
-        <x/>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-  <e>
-    <lg>
-      <l pos="CC">но</l>
-
-      <stg>
-        <st Contlex="CC">но</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="CC">mutta</t>
-      </tg>
-    </mg>
-  </e>
-
-  <e>
-    <lg>
-      <l pos="CC">а</l>
-
-      <stg>
-        <st Contlex="CC">а</st>
-      </stg>
-    </lg>
-
-    <mg>
-      <m>
-        <head/>
-      </m>
-
-      <tg xml:lang="fin">
-        <t pos="CC">mutta</t>
-        <t pos="CC">vaan</t>
-        <t pos="CC">ja</t>
-      </tg>
-
-      <xg>
-        <x>мон туян, а тон кадоват</x>
-
-        <xt xml:lang="fin">minä lähden, mutta sinä jäät.</xt>
-      </xg>
-    </mg>
-  </e>
-
-
-  <e>
-    <lg>
-      <l pos="CC">эли</l>
-
-      <stg>
-        <st Contlex="CC">эли</st>
-      </stg>
-    </lg>
-
-    <mg>
-        <defNative>сюлмивал.</defNative>
-      <tg xml:lang="fin">
-        <t pos="Adv">tai</t>
-      </tg>
-
-      <xg>
-        <x>Нешке пиресь тонсеть эли киненьгак сиведить ванстомо?</x>
-
-        <xt/>
-      </xg>
-    </mg>
-  </e>
-</r>
+<?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="myv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e>
+   <lg>
+     <l pos="CC">али</l>
+     <stg>
+       <st Contlex="CC">али</st>
+     </stg>
+   </lg>
+   <mg>
+       <semRel lemmaID="эли" semRelType="see"/>
+     <defNative/>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">да</l>
+     <stg>
+       <st Contlex="CC">да</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>вал пелькс. Ды.</defNative>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">ды</l>
+     <stg>
+       <st Contlex="CC">ды</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg>
+     <defNative>Сюлмиця вал пелькске, вейсэнди кавто эли седе ламо тевть-арсемат.</defNative>
+     <tg xml:lang="eng">
+       <t pos="CC">and</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="CC">ja</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="CC">et</t>
+     </tg>
+     <xg>
+       <x>Мон ды тон ─ кавоненек. Симинь ды ярсынь пешкедемезэнь.</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x>минек садсо касыть умарть ды инзейть</x>
+       <xt xml:lang="fin">puutarhassamme kasvaa omenia ja vadelmia</xt>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Вал пелькске, ёвтави каршо чарькодемань сюлмицякс.</defNative>
+     <tg xml:lang="fin">
+       <t pos="CC">mutta</t>
+     </tg>
+     <xg>
+       <x>Рамавлинь книга, ды арасть ярмакон. Молевлинь ульцяв, ды пиземе.</x>
+       <xt/>
+     </xg>
+     <xg>
+       <x>молевлинь бу театрав, ды шкам арасель</x>
+       <xt xml:lang="fin">olisin mennyt teatteriin, mutta minulla ei ollut aikaa</xt>
+     </xg>
+   </mg>
+   <mg>
+     <defNative>Вал пелькске, ёвтави чарькодемань виевгавтомань кисэ, зярдо эряви кияк мездеяк лоткавтомс.</defNative>
+     <xg>
+       <x>Ды оймадо, апарось саидизь! Ды азё эно седе курок! Ды иляк стувто саемс книганть. Ды мольть седе састо, а кенерян мельгат.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">или</l>
+     <stg>
+       <st Contlex="CC">или</st>
+     </stg>
+   </lg>
+   <mg>
+       <semRel lemmaID="эли" semRelType="seeNative"/>
+       <semRel lemmaID="эль" semRelType="seeNative"/>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="CC">vai</t>
+       <t pos="CC">tai</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="CC" type="CORRELATIVE">эли ... эли</l>
+     <stg>
+       <st>эли ... эли</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="CC">joko ... tai</t>
+     </tg>
+     <xg> <x/>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">но</l>
+     <stg>
+       <st Contlex="CC">но</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="CC">mutta</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">а</l>
+     <stg>
+       <st Contlex="CC">а</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="CC">mutta</t>
+       <t pos="CC">vaan</t>
+       <t pos="CC">ja</t>
+     </tg>
+     <xg>
+       <x>мон туян, а тон кадоват</x>
+       <xt xml:lang="fin">minä lähden, mutta sinä jäät.</xt>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">эли</l>
+     <stg>
+       <st Contlex="CC">эли</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>сюлмивал.</defNative>
+     <tg xml:lang="fin">
+       <t pos="Adv">tai</t>
+     </tg>
+     <xg>
+       <x>Нешке пиресь тонсеть эли киненьгак сиведить ванстомо?</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+</r> 
