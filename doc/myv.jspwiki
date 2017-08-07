@@ -33,6 +33,7 @@ in this system in terms of following symbols.
  * _+Descr_ descriptive
  * _+Interj_ interjection
  * _+N 	_ noun
+ * _+Num 	_ numerals
  * _+Pcle 	_ particle
  * _+Po 	_ postposition
  * _+Pron 	_ pronoun
@@ -93,7 +94,6 @@ __+ Spat__, __+ Temp__
 
 !!Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
- * _+Num_ numeral
  * _+Appr_ Approximative numeral кавто-колмо, колмошка ''two or three''
          NB! do not confuse with Komi case +Apr
  * _+AssocColl_ -ne- ; avide-
@@ -114,7 +114,6 @@ Quantifiers and Numerals are classified under:
  * _+Abl_ ablative case
  * _+Com_ Comitative "-нек/-нэк"
  * _+Cmpr_ Comparative case form -шка
- * _+DatCx_ dative case
  * _+Dat_ dative
  * _+Ela_ elative case
  * _+Gen_ genitive case
@@ -186,7 +185,8 @@ Other verb forms are
  * _+ActPrcLong_ * %{иы%}й (This is dealt with elsewhere as an active present participle)
  * _+ActPrcShort_ * %{иы%}  (This is dealt with elsewhere as an active present participle)
  * _+ActDemPrc_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
- * _+ConNeg_ * connegative, main verb complement to Neg,
+ * _+ConNeg_ * connegative, main verb complement to Neg, vow-stem
+ * _+ConNegII_ * connegative, main verb complement to Neg, cons-stem
  * _+Ger_ * gerund This is used with Der/Озь and VAbl
  * _+Inf_ * infinitive
  * _+Neg_ * verb of negation эзь, аволь, иля
@@ -398,7 +398,7 @@ source and target part-of-speech.
 !!Der begin
 
  * _+Der/стО_ Deriving adverbs from adjectives A2Adv
- * _+Der/Онь_ genitive attribute derivation of non-nouns
+ * _+Der/GenAttr +Der/Онь_ genitive attribute derivation of non-nouns
  * _+Der/ай_ vocative
  * _+Der/кай_ vocative
 
@@ -416,7 +416,7 @@ source and target part-of-speech.
  * _+Der/Ы	_ * active short present participle
  * _+Der/Ый	_ * active long present participle
  * _+Der/Озь_ * Gerund
- * _+Der/Ындеря_ * conditional derivation
+ * _+Der/Cond_ * conditional derivation +Der/Ындеря
 
 
  * _+Der/MWN_ Modifier without Noun
@@ -662,7 +662,6 @@ RussianSurnamesDerive ;
 
 
 
-
 malaso:mala
 
 
@@ -710,6 +709,7 @@ malaso:mala
 
 
 
+alo-SPAT-1Arg ; >PO_KAL-LOC
 
 
 
@@ -842,7 +842,7 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 !!COMMON NOUNS 
 
 
- * LEXICON N_КЕЛЬ  кель:кель %^Ь2ZERO
+ * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
 
 
@@ -880,20 +880,20 @@ Does this need a diminutive?
 
 NMN
 
- * LEXICON NMN_КЕЛЬ  кель:кель %^Ь2ZERO
+ * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
 
 
 
 
 
- * __LEXICON NMN_ОШ-PL __ This needs checking 2013-03-27
+ * __LEXICON NMN_OSH-PL __ This needs checking 2013-03-27
 
 
 
 
 
 
- * __LEXICON NMN_КУДО-PL __ This needs checking 2013-03-27
+ * __LEXICON NMN_KUDO-PL __ This needs checking 2013-03-27
 
 
 
@@ -997,15 +997,15 @@ pango:pang
 
 
 
-N_КУДО-Def-Declension
+N_KUDO-Def-Declension
 
 
 
-N_КУДО-Def-Declension
+N_KUDO-Def-Declension
 
 
 
-N_КУДО-Def-Declension
+N_KUDO-Def-Declension
 
 
 
@@ -1051,16 +1051,18 @@ __Noun singular genitive definite examples:__
 
 
 
+SG-NOM-INDEF_LAK ;
+
+
+
+SG-NOM-INDEF_KAL ;
 
 
 
 
 
 
-
-
-
-
+SG-NOM-INDEF_OSH ;
 
 
 
@@ -1200,12 +1202,6 @@ Nouns1S_A
 
 
 
-
- * __ K ; __ This means that stem is word final 
-
-
-
- * __ K ; __ This means that stem is word final 
 
 
 
@@ -1381,47 +1377,49 @@ OBJECT FLAGS AND +V+TV tags
 
 
 
- __LEXICON TV_КАДОМС-ObjAll __ 
+ __LEXICON TV_KADOMS-ObjAll __ 
 
 
 
 
- __LEXICON TV_НЕВТЕМС-ObjAll_SUB __ 
+ __LEXICON TV_NEVTEMS-ObjAll_SUB __ 
 
- * _LEXICON TV_НЕВТЕМС-ObjAll_  невтемс:невть
+ * _LEXICON TV_NEVTEMS-ObjAll_  невтемс:невть
 
- __LEXICON TV_САВТОМС-ObjAll_SUB __ 
+ __LEXICON TV_SAVTOMS-ObjAll_SUB __ 
 
- __LEXICON TV_САВТОМС-ObjAll __ 
+ __LEXICON TV_SAVTOMS-ObjAll __ 
 
- __LEXICON TV_САВТОМС-SG3_SUBJ/ZERO __ 
+ __LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO __ 
 
- __LEXICON TV_ЧАЧТОМС-ObjAll __ 
-
-
- __LEXICON TV_КУНДАМС-ObjAll_SUB __ 
-
- __LEXICON TV_КУНДАМС-ObjAll __ 
+ __LEXICON TV_CHACHTOMS-ObjAll __ 
 
 
+ __LEXICON TV_KUNDAMS-ObjAll_SUB __ 
+
+ __LEXICON TV_KUNDAMS-ObjAll __ 
 
 
 
- __LEXICON TV_САТОМС-ObjAll __ 
 
 
- __LEXICON TV_УЕМС-ObjAll __ 
-
- __LEXICON TV_ТУЕМС-ObjAll __ 
-
- __LEXICON TV_ТЕЕМС-ObjAll __ 
+ __LEXICON TV_SATOMS-ObjAll __ 
 
 
+ __LEXICON TV_UEMS-ObjAll __ 
 
- * _LEXICON TV_НЕКШНЕМС-ObjAll_  некшнемс:некшн
+ __LEXICON TV_TUEMS-ObjAll __ 
+
+ __LEXICON TV_TEEMS-ObjAll __ 
+
+
+
+ * _LEXICON TV_NEKSHNEMS-ObjAll_  некшнемс:некшн
 
 
 VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
+
+
 
 
 
@@ -1527,11 +1525,14 @@ VERBS WITH INTRANSITIVE TAGS +V+IV
 
 
 
-no deverbals
-
-
 
 no deverbals
+
+
+
+
+no deverbals
+
 
 
 
@@ -1580,7 +1581,7 @@ no deverbals
 
 
 
-__LEXICON TV_НЕКШНЕМС-ObjAll__ Alternates with TRA
+__LEXICON TV_NEKSHNEMS-ObjAll__ Alternates with TRA
 
 
 
