@@ -22,6 +22,7 @@ in this system in terms of following symbols.
  * _+Descr_ descriptive
  * _+Interj_ interjection
  * _+N 	_ noun
+ * _+Num 	_ numerals
  * _+Pcle 	_ particle
  * _+Po 	_ postposition
  * _+Pron 	_ pronoun
@@ -82,7 +83,6 @@ __+ Spat__, __+ Temp__
 
 !!Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
- * _+Num_ numeral
  * _+Appr_ Approximative numeral кавто-колмо, колмошка ''two or three''
          NB! do not confuse with Komi case +Apr
  * _+AssocColl_ -ne- ; avide-
@@ -103,7 +103,6 @@ Quantifiers and Numerals are classified under:
  * _+Abl_ ablative case
  * _+Com_ Comitative "-нек/-нэк"
  * _+Cmpr_ Comparative case form -шка
- * _+DatCx_ dative case
  * _+Dat_ dative
  * _+Ela_ elative case
  * _+Gen_ genitive case
@@ -175,7 +174,8 @@ Other verb forms are
  * _+ActPrcLong_ * %{иы%}й (This is dealt with elsewhere as an active present participle)
  * _+ActPrcShort_ * %{иы%}  (This is dealt with elsewhere as an active present participle)
  * _+ActDemPrc_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
- * _+ConNeg_ * connegative, main verb complement to Neg,
+ * _+ConNeg_ * connegative, main verb complement to Neg, vow-stem
+ * _+ConNegII_ * connegative, main verb complement to Neg, cons-stem
  * _+Ger_ * gerund This is used with Der/Озь and VAbl
  * _+Inf_ * infinitive
  * _+Neg_ * verb of negation эзь, аволь, иля
@@ -387,7 +387,7 @@ source and target part-of-speech.
 !!Der begin
 
  * _+Der/стО_ Deriving adverbs from adjectives A2Adv
- * _+Der/Онь_ genitive attribute derivation of non-nouns
+ * _+Der/GenAttr +Der/Онь_ genitive attribute derivation of non-nouns
  * _+Der/ай_ vocative
  * _+Der/кай_ vocative
 
@@ -405,7 +405,7 @@ source and target part-of-speech.
  * _+Der/Ы	_ * active short present participle
  * _+Der/Ый	_ * active long present participle
  * _+Der/Озь_ * Gerund
- * _+Der/Ындеря_ * conditional derivation
+ * _+Der/Cond_ * conditional derivation +Der/Ындеря
 
 
  * _+Der/MWN_ Modifier without Noun
@@ -651,7 +651,6 @@ RussianSurnamesDerive ;
 
 
 
-
 malaso:mala
 
 
@@ -699,6 +698,7 @@ malaso:mala
 
 
 
+alo-SPAT-1Arg ; >PO_KAL-LOC
 
 
 
