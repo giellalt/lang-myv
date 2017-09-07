@@ -1,129 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xml:lang="myv">
-<e exclude="fst">
-   <lg>
-     <l pos="V">кирдемс испытания</l>
-       <l_drv pos="V">кирдемс_V</l_drv>
-       <l_drv pos="N">испытания_N</l_drv>
-     <stg>
-       <st Contlex="V_">кирдемс испытания</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">kestää koetus</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">заёмс вешемс ярмакт</l>
-     <stg>
-       <st Contlex="V_">заёмс вешемс ярмакт</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">pyytää rahaa lainaksi</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">заёмс сёрмадомс</l>
-     <stg>
-       <st Contlex="V_">заёмс сёрмадомс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">merkitä lainaa</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">максомс зачёт</l>
-     <stg>
-       <st Contlex="V_">максомс зачёт</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">suorittaa tutkinto</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">аварькс теемс</l>
-     <stg>
-       <st Contlex="V_">аварькс теемс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="rus">
-       <t pos="V">причинить горе</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">алкукс меремс</l>
-     <stg>
-       <st Contlex="V_">алкукс меремс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="rus">
-       <t pos="V">по правде говоря</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">а меремс</l>
-     <stg>
-       <st Contlex="V_">а меремс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">kieltää</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">альксэс вачкодемс</l>
-     <stg>
-       <st Contlex="V_">альксэс вачкодемс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="rus">
-       <t pos="V">ударить в пах</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">андомс пря</l>
-     <stg>
-       <st Contlex="Phrase_V">андомс пря</st>
-     </stg>
-   </lg> <pos>PHRASE_V</pos>
-   <mg>
-     <defNative/>
-   </mg>
-</e>
+<?xml version="1.0" encoding="UTF-8"?> <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="myv">
 <e>
    <lg>
      <l pos="V">андомс-симдемс</l>
@@ -162,58 +37,15 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">арсемс-кортамс</l>
-     <stg>
-       <st Contlex="V_">арсемс-кортамс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="rus">
-       <t pos="V">беседовать</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V" val="IV">арсемс-теемс</l>
-     <stg>
-       <st Contlex="v">арсемс-теемсFIX</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V" val="IV">ajatella</t>
-       <t pos="V">miettiä</t>
-     </tg>
-   </mg>
-</e>
 <e>
    <lg>
-     <l pos="V">ашолк: ашолк молемс</l>
+     <l pos="V">ашолк молемс</l>
      <stg><s n="v"/>
      </stg>
    </lg>
    <mg>
      <tg xml:lang="fin">
        <t pos="V">vivahtaa valkealle</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">аштемс-пиштемс</l>
-     <stg>
-       <st Contlex="V_">аштемс-пиштемс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="rus">
-       <t pos="V">суетиться</t>
      </tg>
    </mg>
 </e>
@@ -232,20 +64,6 @@
        <t pos="V">erottaa</t>
      </tg>
    </lg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">берёмас саемс</l>
-     <stg>
-       <st Contlex="V_">берёмас саемс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="rus">
-       <t pos="V">взять на руки</t>
-     </tg>
-   </mg>
 </e>
 <e>
    <lg>
@@ -297,6 +115,1638 @@
      <tg xml:lang="fin">
        <t pos="V">lausua mielipiteensä</t>
        <t pos="V">käyttää puheenvuoroa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">вачо пеке кирдемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kärsiä nälkää</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ве мельс прамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">tulla samaan johtopäätökseen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">верде верьс тюремс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tapella verissä päin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">вирь ваномс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">hoitaa metsää</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">гайсэ морамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">laulaa soinnukkaasti</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">гостекс молемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">mennä vieraisille</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">грехс ветямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">johdattaa kiusaukseen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">грехс совамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">joutua kiusaukseen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">губол-габол ютамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">löntystää</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">даця каямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">(vanh.) maksaa veroa, палкасо каямс lyödä kepillä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">дерьсэ молемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kulkea vapisten</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">доминосо налксемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">pelata dominoa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">жеребейсэ каямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">heittää arpaa,</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">жольсэ чудемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">solista</t>
+       <t pos="V">lorista</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">заём саемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ottaa lainaksi</t>
+       <t pos="V">lainata</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">инжекс совсемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">käydä vierailulla, совхоз sovhoosi</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">калдорсо ардомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">ajaa kolisten</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">капканс понгомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">joutua ansaan</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">каршо вал ёвтамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">puhua (jtak) vastaan</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">каршо молемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">vastustaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">каштомс кши каямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">panna leipä uuniin, стога каямс panna heiniä kekoon</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедь алдо лисемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">päästä jkn vallasta</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедь ало кирдемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">pitää jkn vallan alaisena</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедь алов саемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">alistaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедь кирдемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tukea</t>
+       <t pos="V">auttaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедь максомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">antaa kättä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедь педе саемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ottaa kädestä</t>
+       <t pos="V">tarttua käteen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кедьстэ-рядсто лисемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">joutua huonoille teille</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кежолдо варштамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">katsoa vihaisena</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кежть савтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">herättää vihaa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">комнатанть вентилировамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">tuulettaa huone</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кудо лангсто сяворемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">pudota katolta</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">кшни солавтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">sulattaa rautaa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">лаки ведьсэ кедь пидемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">polttaa kätensä kiehuvalla vedellä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">либорсо ливтямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">lentää siivet havisten</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">лишме поводемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">sitoa hevonen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">луп-лап ютамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">kulkea heiluen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">люйсэ авардемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">itkeä kovasti</t>
+       <t pos="V">parkua</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мелем ули ловномс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">haluan lukea</t>
+       <t pos="V">mieleni tekee lukea</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель ванномс</l> <s n="V_KUNDAMS"/>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kunnioittaa</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">olla mieliksi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель ваномс</l>
+     <stg> <s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kunnioittaa</t>
+       <t pos="V">pitää arvossa</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">yrittää olla mieliksi</t>
+       <t pos="V">liehakoida</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель витемс</l>
+     <stg> <s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tyydyttää</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">tyytyä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель каямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">esittää toivomuksensa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель кепедемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kohottaa mieltä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель кирдемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">vaalia</t>
+       <t pos="V">helliä</t>
+       <t pos="V">elättää (toivetta, ajatusta)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель кольстемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">pahoittaa mieli, мель кастомс kohottaa mieltä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель максомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">toivoa, макшиямс lahota, mädäntyä; kuivettua, kovettua</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель молемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kyllästyä</t>
+       <t pos="V">ikävystyä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель мольстемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kyllästyttää</t>
+       <t pos="V">ikävystyttää</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель путомс</l>
+     <stg> <s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">kiinnittää huomiota</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">päättää</t>
+       <t pos="V">säätää</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мель топавтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">olla mieliksi</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельга молемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <defNative>Молемс киньгак удало.</defNative>
+     <tg xml:lang="fin">
+       <t pos="V">seurata</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельга якамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">hoitaa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельс ледемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">muistaa</t>
+       <t pos="V">tulla mieleen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельс ледстямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">muistuttaa</t>
+       <t pos="V">palauttaa mieleen, мелсь кундамс ajatella, miettiä, suunnitella; tulla järkiinsä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельс путомс</l>
+     <stg> <s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">neuvoa</t>
+       <t pos="V">opastaa</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">painaa mieleen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельс савтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">olla mieliksi</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельс самс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">muistaa</t>
+       <t pos="V">juolahtaa mieleen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельсапарос каявомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">murehtua</t>
+       <t pos="V">tulla huonolle tuulelle</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельсапаросо аштемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">murehtia</t>
+       <t pos="V">olla huonolla tuulella</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мельспаросо аштемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">olla hyvällä tuulella</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">мерка саемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ottaa mitat</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">минеть-сюнот кортамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">puhua joutavia</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">монень савсь велявтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">minun piti palata</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ногодсо кайсемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">povata (heittämällä jtak 40 kappaletta) нозордамс raapia, kynsiä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">нолшт-памшт ярсамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">syödä hiukan</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">нолшт теемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">nuolaista</t>
+       <t pos="V">lipaista</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ноцк теемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">nykiä, суром ноцк теи sormeani nykii</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ожолт меремс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">vivahtaa keltaiseen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ойме максомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">innoittaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ойме таргамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">huokaista</t>
+       <t pos="V">hengähtää</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ойме таргсемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">hengittää</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">општ меремс</l>
+     <stg> 
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tyyntyä</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">hiljetä</t>
+       <t pos="V">vaieta</t>
+     </tg>
+     <xg><x>ульцясонть општ мери</x>
+     <xt xml:lang="fin">ulkona ilma tyyntyy</xt>
+     </xg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">отчёт максомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tehdä tili</t>
+       <t pos="V">tehdä toimintakertomus</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пакша ваномс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">olla lapsenvahtina</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пачк кельмемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">paleltua läpikotaisin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пачк неемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">nähdä läpi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пей кирдемс</l> <s n="V_LEDEMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">olla jtkn hampaankolossa jtkn vastaan, пейть поремс hioa hampaitaan jkn varalle</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пеке каярдомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">syödä pahimpaan nälkäänsä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">петерь-петерь ютамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">lampsia</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пиже-ожо вайгельсэ рангстамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">huutaa suureen ääneen</t>
+       <t pos="V">täyttä kurkkua</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пильге лангс стявтомс</l>
+     <stg> <s n="V_SAVTOMS"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">nostaa jaloille</t>
+       <t pos="V">nostaa jalkeille</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">palauttaa (entiselleen), арась оймавкс не пильгтненень</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">поцорсо ютамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">kulkea reippaasti, пиземесь кармась поцорсо ютамо alkoi sataa suuria pisaroita</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">превс путомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">neuvoa</t>
+       <t pos="V">opastaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">предложения теемс</l>
+     <stg> <s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tarjota</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">ehdottaa</t>
+       <t pos="V">esittää</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">kehottaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря кандомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">ylpeillä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря каямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">tähkiä</t>
+       <t pos="V">tehdä tähkää</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря кепедемс</l>
+     <stg> <s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">nostaa päätä</t>
+     </tg>
+   </mg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">nostattaa kapina</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря максомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">antautua</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря невтемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">näyttäytyä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря повамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">hirttäytyä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря путомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">antaa elämänsä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря сиведемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">palkkautua</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря сялдомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">arvostella itseään</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря чавомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">olla menehtymäisillään</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">пря шнамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">kerskua</t>
+       <t pos="V">kehua itseään</t>
+       <t pos="V">kerskailla</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">резолюция теемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tehdä päätös</t>
+       <t pos="V">päättää</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">рядс аравтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">asettaa riviin</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">седей марямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">osoittaa myötätuntoa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">седей петямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">keventää mieltään</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельгень прамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">silmänräpäyksessä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельме веляскавтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">katsoa kieroon</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельме икельде туемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">häipyä silmien edestä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельме полашкавтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">tuijottaa, сельмс кортамс puhua totta</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмень кончтамс-теемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tehdä yhdessä silmänräpäyksessä, сельме-чама a неят on pilkkopimeää</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмс эцемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">pistää silmään</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмсэ сэвемс</l> <s n="V_LEDEMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">ahmia silmillään</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмть кончтнемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">räpyttää silmiä</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмть лоткавтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">lumota</t>
+       <t pos="V">tenhota</t>
+       <t pos="V">hurmata</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмть нолдамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">painaa katseensa alas</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмть пезнавтомс</l> <s n="V_SAVTOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">katsoa itsepintaisesti</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сельмть таргамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">puhkaista silmät</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">стада ваномс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">paimentaa karjaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">стенас поводемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ripustaa seinälle</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сюкпря максомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tervehtiä</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сяторсо паломс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">palaa rätisten</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">сётор сивемс</l> <s n="V_LEDEMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">särkyä risahtaen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">тантейстэ кортамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">(kuv.) puhua makeilevasti</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">тарцк теемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">hätkähtää</t>
+       <t pos="V">säpsähtää</t>
+       <t pos="V">horjahtaa</t>
+       <t pos="V">vavahtaa (odottamatta)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">тевс кундамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">ryhtyä työhön</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">тевс таргавомс</l> <s n="V_KADOMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">perehtyä asiaan</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">трокс вал каямс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">sanoa vastaan</t>
+       <t pos="V">vastustaa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">тюрьсэ чудемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">valua virtanaan</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ций-буй меремс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">soida</t>
+       <t pos="V">humista (korvissa)</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">цяболонь каязь чиемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">juosta minkä kintuista pääsee</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">чиемс оймень пиемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">hengästyä juoksusta</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">эздасо налксемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">pelata piippua</t>
+       <t pos="V">kirppaa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">эсь мельсэ теемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">tehdä omalla tavallaan</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">эсь потмова арсемс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">ajatella mielessään</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ювсо молемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">sujua hyvin, тевтне ювсо молить työt sujuvat hyvin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">юр путомс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">perustaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ям пидемс</l>
+     <stg><s n="v"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">keittää keittoa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V" val="IV">ярсамс-симемс</l>
+     <stg>
+       <st Contlex="V_PAIRS">ярсамс-симемс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V" val="IV">pitää kekkerit</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ёжос самс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">tulla tajuihinsa</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ёзмолсс ютамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">kulkea ryömien</t>
+       <t pos="V">madellen</t>
+     </tg>
+   </lg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ёмболк варштамс</l> <s n="V_KUNDAMS"/>
+     <tg xml:lang="fin">
+       <t pos="V">(katse) harhailla</t>
+     </tg>
+   </lg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">а меремс</l>
+     <stg>
+       <st Contlex="V_">а меремс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">kieltää</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">аварькс теемс</l>
+     <stg>
+       <st Contlex="V_">аварькс теемс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="V">причинить горе</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">алкукс меремс</l>
+     <stg>
+       <st Contlex="V_">алкукс меремс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="V">по правде говоря</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">альксэс вачкодемс</l>
+     <stg>
+       <st Contlex="V_">альксэс вачкодемс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="V">ударить в пах</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">андомс пря</l>
+     <stg>
+       <st Contlex="Phrase_V">андомс пря</st>
+     </stg>
+   </lg> <pos>PHRASE_V</pos>
+   <mg>
+     <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">арсемс-кортамс</l>
+     <stg>
+       <st Contlex="V_">арсемс-кортамс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="V">беседовать</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V" val="IV">арсемс-теемс</l>
+     <stg>
+       <st Contlex="v">арсемс-теемсFIX</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V" val="IV">ajatella</t>
+       <t pos="V">miettiä</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">аштемс мадезь</l>
+     <stg>
+       <st Contlex="V_">аштемс мадезь</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="V">lie</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">maata</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="V">être étendu (state)</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">аштемс озадо</l>
+     <stg>
+       <st Contlex="V_">аштемс озадо</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="eng">
+       <t pos="V">stand</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">seisoa</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="V">se tenir debout (state)</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">аштемс-пиштемс</l>
+     <stg>
+       <st Contlex="V_">аштемс-пиштемс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="V">суетиться</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">берёмас саемс</l>
+     <stg>
+       <st Contlex="V_">берёмас саемс</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="rus">
+       <t pos="V">взять на руки</t>
      </tg>
    </mg>
 </e>
@@ -392,26 +1842,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">вачо пеке кирдемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kärsiä nälkää</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ве мельс прамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">tulla samaan johtopäätökseen</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">вельска ярсавомс</l>
@@ -423,18 +1853,6 @@
      <defNative/>
      <tg xml:lang="rus">
        <t pos="V">объесться</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">верде верьс тюремс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tapella verissä päin</t>
      </tg>
    </mg>
 </e>
@@ -499,18 +1917,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">вирь ваномс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">hoitaa metsää</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">витемс пря</l>
@@ -520,6 +1926,21 @@
    </lg> <pos>PHRASE_V</pos>
    <mg>
      <defNative/>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">витемс-петемс</l>
+     <stg>
+       <st Contlex="V-nevtems">вить-петь</st>
+     </stg>
+   </lg> <morphg> <morph type="V">витсь-петсь</morph> <morph type="V">витнесь-петнесь</morph> </morphg>
+   <mg>
+     <defNative>Теке жо. Мезеяк ладямс эсь таркас, теемс седе тов маштовицякс.</defNative>
+     <xg>
+       <x>Крандазось витемс-петемс аламодо ды таго карми яксеме. Каштомось ташто, эряви витемс-петемс. Кенкшесь чикорды, сави витемс-петемс.</x>
+       <xt/>
+     </xg>
    </mg>
 </e>
 <e exclude="fst">
@@ -544,21 +1965,6 @@
 </e>
 <e exclude="fst">
    <lg>
-     <l pos="V">витемс-петемс</l>
-     <stg>
-       <st Contlex="V-nevtems">вить-петь</st>
-     </stg>
-   </lg> <morphg> <morph type="V">витсь-петсь</morph> <morph type="V">витнесь-петнесь</morph> </morphg>
-   <mg>
-     <defNative>Теке жо. Мезеяк ладямс эсь таркас, теемс седе тов маштовицякс.</defNative>
-     <xg>
-       <x>Крандазось витемс-петемс аламодо ды таго карми яксеме. Каштомось ташто, эряви витемс-петемс. Кенкшесь чикорды, сави витемс-петемс.</x>
-       <xt/>
-     </xg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
      <l pos="V" val="IV">витемс-теемс</l>
      <stg>
        <st Contlex="v">витемс-теемсFIX</st>
@@ -570,78 +1976,6 @@
        <t pos="V" val="IV">korjata</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">гайсэ морамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">laulaa soinnukkaasti</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">гостекс молемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">mennä vieraisille</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">грехс ветямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">johdattaa kiusaukseen</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">грехс совамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">joutua kiusaukseen</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">губол-габол: губол-габол ютамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">löntystää</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">даця каямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">(vanh.) maksaa veroa, палкасо каямс lyödä kepillä</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">дерьсэ: дерьсэ молемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kulkea vapisten</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">доминосо налксемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">pelata dominoa</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -657,37 +1991,31 @@
      </tg>
    </mg>
 </e>
-<e>
+<e exclude="fst">
    <lg>
-     <l pos="V">жеребейсэ каямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">heittää arpaa,</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">жольсэ: жольсэ чудемс</l>
-     <stg><s n="v"/>
+     <l pos="V">заёмс вешемс ярмакт</l>
+     <stg>
+       <st Contlex="V_">заёмс вешемс ярмакт</st>
      </stg>
    </lg>
    <mg>
+     <defNative/>
      <tg xml:lang="fin">
-       <t pos="V">solista</t>
-       <t pos="V">lorista</t>
+       <t pos="V">pyytää rahaa lainaksi</t>
      </tg>
    </mg>
 </e>
-<e>
+<e exclude="fst">
    <lg>
-     <l pos="V">заём саемс</l>
-     <stg><s n="v"/>
+     <l pos="V">заёмс сёрмадомс</l>
+     <stg>
+       <st Contlex="V_">заёмс сёрмадомс</st>
      </stg>
    </lg>
    <mg>
+     <defNative/>
      <tg xml:lang="fin">
-       <t pos="V">ottaa lainaksi</t>
-       <t pos="V">lainata</t>
+       <t pos="V">merkitä lainaa</t>
      </tg>
    </mg>
 </e>
@@ -734,14 +2062,6 @@
        <t pos="V">встречать</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">инжекс совсемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">käydä vierailulla, совхоз sovhoosi</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -800,14 +2120,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">калдорсо: калдорсо ардомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">ajaa kolisten</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">кандомс пизэ</l>
@@ -832,18 +2144,6 @@
    </lg> <pos>PHRASE_V</pos>
    <mg>
      <defNative/>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">капканс понгомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">joutua ansaan</t>
-     </tg>
    </mg>
 </e>
 <e exclude="fst">
@@ -885,26 +2185,6 @@
      <defNative/>
      <tg xml:lang="rus">
        <t pos="V">обуться и одеться</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">каршо вал ёвтамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">puhua (jtak) vastaan</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">каршо молемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">vastustaa</t>
      </tg>
    </mg>
 </e>
@@ -1034,14 +2314,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">каштомс кши каямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">panna leipä uuniin, стога каямс panna heiniä kekoon</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">каямс вановт</l>
@@ -1078,94 +2350,16 @@
      <defNative/>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">кедь алдо лисемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">päästä jkn vallasta</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кедь ало кирдемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">pitää jkn vallan alaisena</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кедь алов саемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">alistaa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кедь кирдемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tukea</t>
-       <t pos="V">auttaa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кедь максомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">antaa kättä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кедь педе саемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">ottaa kädestä</t>
-       <t pos="V">tarttua käteen</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">кедьстэ лисемс</l>
      <stg>
-       <st Contlex="V-ledems">кедьстэ лись</st>
+       <st Contlex="V-ledems">кедьстэ лиссь</st>
      </stg>
    </lg>
    <mg>
      <defNative>Туемс ланга, покшкавтнемс.</defNative>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кедьстэ-рядсто: кедьстэ-рядсто лисемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">joutua huonoille teille</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -1188,22 +2382,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кежолдо: кежолдо варштамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">katsoa vihaisena</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кежть савтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">herättää vihaa</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -1235,7 +2413,7 @@
 </e>
 <e exclude="fst">
    <lg>
-     <l pos="V">кельмесэ вачкодемс, чавомс</l>
+     <l pos="V">кельмесэ вачкодемс</l>
      <stg>
        <st Contlex="V_">кельмесэ вачкодемс, чавомс</st>
      </stg>
@@ -1342,6 +2520,22 @@
 </e>
 <e exclude="fst">
    <lg>
+     <l pos="V">кирдемс испытания</l>
+       <l_drv pos="V">кирдемс_V</l_drv>
+       <l_drv pos="N">испытания_N</l_drv>
+     <stg>
+       <st Contlex="V_">кирдемс испытания</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">kestää koetus</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
      <l pos="V">кирдемс киньгак ёнкс</l>
      <stg>
        <st Contlex="Phrase_V">кирдемс киньгак ёнкс</st>
@@ -1405,6 +2599,17 @@
    <lg>
      <l pos="V">колемс-каладомс</l>
      <stg>
+       <st Contlex="V-kadoms">коль-калад</st>
+     </stg>
+   </lg> <morphg> <morph type="V">кольсь-каладсь</morph> <morph type="V">колекшнесь-каладокшнось</morph> </morphg>
+   <mg>
+     <defNative>Теевемс вийтемекс, ковгак амаштовиксэкс. Ёмавтомс вийть, шумбрачить.</defNative>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">колемс-каладомс</l>
+     <stg>
        <st Contlex="V_">колемс-каладомс</st>
      </stg>
    </lg>
@@ -1413,17 +2618,6 @@
      <tg xml:lang="rus">
        <t pos="V">разлаживаться</t>
      </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">колемс-каладомс</l>
-     <stg>
-       <st Contlex="V-kadoms">коль-калад</st>
-     </stg>
-   </lg> <morphg> <morph type="V">кольсь-каладсь</morph> <morph type="V">колекшнесь-каладокшнось</morph> </morphg>
-   <mg>
-     <defNative>Теевемс вийтемекс, ковгак амаштовиксэкс. Ёмавтомс вийть, шумбрачить.</defNative>
    </mg>
 </e>
 <e exclude="fst">
@@ -1453,14 +2647,6 @@
        <t pos="V">игривое журчанье воды</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">комнатанть вентилировамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">tuulettaa huone</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -1675,18 +2861,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">кудо лангсто сяворемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">pudota katolta</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">кулдордомс-калдордомс</l>
@@ -1726,14 +2900,6 @@
        <t pos="V">обняться и поцеловаться</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">кшни солавтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">sulattaa rautaa</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -1815,18 +2981,6 @@
      <defNative/>
      <tg xml:lang="rus">
        <t pos="V">кипеть и вариться</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">лаки ведьсэ кедь пидемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">polttaa kätensä kiehuvalla vedellä</t>
      </tg>
    </mg>
 </e>
@@ -1929,14 +3083,6 @@
        <t pos="V">затухать</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">либорсо: либорсо ливтямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">lentää siivet havisten</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -2042,18 +3188,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">лишме поводемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">sitoa hevonen</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">лоск теемс</l>
@@ -2068,14 +3202,6 @@
        <xt/>
      </xg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">луп-лап: луп-лап ютамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">kulkea heiluen</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -2120,19 +3246,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">люйсэ: люйсэ авардемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">itkeä kovasti</t>
-       <t pos="V">parkua</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">максомс вал</l>
@@ -2146,6 +3259,20 @@
        <x>Сон а ёвты, ─ бути Елена максы вал а симемс.</x>
        <xt/>
      </xg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">максомс зачёт</l>
+     <stg>
+       <st Contlex="V_">максомс зачёт</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="V">suorittaa tutkinto</t>
+     </tg>
    </mg>
 </e>
 <e exclude="fst">
@@ -2188,172 +3315,6 @@
      <defNative/>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">мелем ули ловномс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">haluan lukea</t>
-       <t pos="V">mieleni tekee lukea</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель ванномс</l> <s n="V_KUNDAMS"/>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kunnioittaa</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">olla mieliksi</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель ваномс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kunnioittaa</t>
-       <t pos="V">pitää arvossa</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">yrittää olla mieliksi</t>
-       <t pos="V">liehakoida</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель витемс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tyydyttää</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">tyytyä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель каямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">esittää toivomuksensa</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель кепедемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kohottaa mieltä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель кирдемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">vaalia</t>
-       <t pos="V">helliä</t>
-       <t pos="V">elättää (toivetta, ajatusta)</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель кольстемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">pahoittaa mieli, мель кастомс kohottaa mieltä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель максомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">toivoa, макшиямс lahota, mädäntyä; kuivettua, kovettua</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель молемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kyllästyä</t>
-       <t pos="V">ikävystyä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель мольстемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kyllästyttää</t>
-       <t pos="V">ikävystyttää</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мель путомс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">kiinnittää huomiota</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">päättää</t>
-       <t pos="V">säätää</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">мель саемс</l>
@@ -2369,14 +3330,6 @@
      </xg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">мель топавтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">olla mieliksi</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">мель явомс</l>
@@ -2386,40 +3339,6 @@
    </lg>
    <mg>
      <defNative>Киненьгак мейсэяк лездамс. Киненьгак теемс паро. Ёвтамс чевте вал. Алтамс щумбрачи. &gt;</defNative>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельга молемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <defNative>Молемс киньгак удало.</defNative>
-     <tg xml:lang="fin">
-       <t pos="V">seurata</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельга якамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">hoitaa</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельс ледемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">muistaa</t>
-       <t pos="V">tulla mieleen</t>
-     </tg>
    </mg>
 </e>
 <e exclude="fst">
@@ -2437,51 +3356,6 @@
      </xg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">мельс ледстямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">muistuttaa</t>
-       <t pos="V">palauttaa mieleen, мелсь кундамс ajatella, miettiä, suunnitella; tulla järkiinsä</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельс путомс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">neuvoa</t>
-       <t pos="V">opastaa</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">painaa mieleen</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельс савтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">olla mieliksi</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельс самс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">muistaa</t>
-       <t pos="V">juolahtaa mieleen</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">мельс туемс</l>
@@ -2492,100 +3366,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">аштемс мадезь</l>
-     <stg>
-       <st Contlex="V_">аштемс мадезь</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="eng">
-       <t pos="V">lie</t>
-     </tg>
-     <tg xml:lang="fin">
-       <t pos="V">maata</t>
-     </tg>
-     <tg xml:lang="fra">
-       <t pos="V">être étendu (state)</t>
-     </tg>
-   </mg>
-</e>
-<e exclude="fst">
-   <lg>
-     <l pos="V">аштемс озадо</l>
-     <stg>
-       <st Contlex="V_">аштемс озадо</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="eng">
-       <t pos="V">stand</t>
-     </tg>
-     <tg xml:lang="fin">
-       <t pos="V">seisoa</t>
-     </tg>
-     <tg xml:lang="fra">
-       <t pos="V">se tenir debout (state)</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельсапарос каявомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">murehtua</t>
-       <t pos="V">tulla huonolle tuulelle</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельсапаросо аштемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">murehtia</t>
-       <t pos="V">olla huonolla tuulella</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мельспаросо аштемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">olla hyvällä tuulella</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">мерка саемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">ottaa mitat</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">минеть-сюнот кортамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">puhua joutavia</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -2611,14 +3391,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">монень савсь велявтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">minun piti palata</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -2691,14 +3463,6 @@
      <defNative/>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">ногод: ногодсо кайсемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">povata (heittämällä jtak 40 kappaletta) нозордамс raapia, kynsiä</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">ногодсо кайсемс</l>
@@ -2761,39 +3525,6 @@
    </lg> <pos>PHRASE_V</pos>
    <mg>
      <defNative/>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">нолшт-памшт: нолшт-памшт ярсамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">syödä hiukan</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">нолшт: нолшт теемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">nuolaista</t>
-       <t pos="V">lipaista</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ноцк: ноцк теемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">nykiä, суром ноцк теи sormeani nykii</t>
-     </tg>
    </mg>
 </e>
 <e exclude="fst">
@@ -2869,18 +3600,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">ожолт: ожолт меремс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">vivahtaa keltaiseen</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">озадо аштемс</l>
@@ -2909,35 +3628,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ойме максомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">innoittaa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ойме таргамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">huokaista</t>
-       <t pos="V">hengähtää</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ойме таргсемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">hengittää</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -3049,50 +3739,6 @@
        <x>Перть пельксэсь општ моли. Клубось општ моли, весе кунсолыть лекция.</x>
        <xt/>
      </xg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">општ: општ меремс, општ теемс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tyyntyä</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">hiljetä</t>
-       <t pos="V">vaieta, ульцясонть општ мери ulkona ilma tyyntyy</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">отчёт максомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tehdä tili</t>
-       <t pos="V">tehdä toimintakertomus</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пакша ваномс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">olla lapsenvahtina</t>
-     </tg>
    </mg>
 </e>
 <e exclude="fst">
@@ -3215,46 +3861,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">пачк кельмемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">paleltua läpikotaisin</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пачк неемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">nähdä läpi</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пей кирдемс</l> <s n="V_LEDEMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">olla jtkn hampaankolossa jtkn vastaan, пейть поремс hioa hampaitaan jkn varalle</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пеке каярдомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">syödä pahimpaan nälkäänsä</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">пес панемс</l>
@@ -3265,14 +3871,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">петерь-петерь ютамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">lampsia</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -3342,15 +3940,6 @@
        <t pos="V">kitua</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пиже-ожо: пиже-ожо вайгельсэ рангстамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">huutaa suureen ääneen</t>
-       <t pos="V">täyttä kurkkua</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -3481,25 +4070,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">пильге лангс стявтомс</l>
-     <stg> <s n="V_SAVTOMS"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">nostaa jaloille</t>
-       <t pos="V">nostaa jalkeille</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">palauttaa (entiselleen), арась оймавкс не пильгтненень</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">пильге путомс</l>
@@ -3574,14 +4144,6 @@
        <t pos="V">глубоко страдать</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">поцорсо: поцорсо ютамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">kulkea reippaasti, пиземесь кармась поцорсо ютамо alkoi sataa suuria pisaroita</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -3682,161 +4244,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">превс путомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">neuvoa</t>
-       <t pos="V">opastaa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">предложения теемс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tarjota</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">ehdottaa</t>
-       <t pos="V">esittää</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">kehottaa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря кандомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">ylpeillä</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря каямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">tähkiä</t>
-       <t pos="V">tehdä tähkää</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря кепедемс</l>
-     <stg> <s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">nostaa päätä</t>
-     </tg>
-   </mg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V">nostattaa kapina</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря максомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">antautua</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря невтемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">näyttäytyä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря повамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">hirttäytyä</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря путомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">antaa elämänsä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря сиведемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">palkkautua</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря сялдомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">arvostella itseään</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря чавомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">olla menehtymäisillään</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">пря шнамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">kerskua</t>
-       <t pos="V">kehua itseään</t>
-       <t pos="V">kerskailla</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -4100,19 +4507,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">резолюция теемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tehdä päätös</t>
-       <t pos="V">päättää</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V" val="IV">резэмс-паломс</l>
@@ -4184,7 +4578,7 @@
 </e>
 <e exclude="fst">
    <lg>
-     <l pos="V">рунгонзо саизе (кельме, лембе, шожда) ёжо</l>
+     <l pos="V">рунгонзо саизе ёжо</l>
      <stg>
        <st Contlex="Phrase_V">рунгонзо саизе (кельме, лембе, шожда) ёжо</st>
      </stg>
@@ -4192,14 +4586,6 @@
    <mg>
      <defNative/>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">рядс аравтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">asettaa riviin</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -4214,7 +4600,7 @@
 </e>
 <e exclude="fst">
    <lg>
-     <l pos="V">саемс вановт, варштавкс мезень лангстояк</l>
+     <l pos="V">саемс вановт мезень лангстояк</l>
      <stg>
        <st Contlex="Phrase_V">саемс вановт, варштавкс мезень лангстояк</st>
      </stg>
@@ -4321,22 +4707,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">седей марямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">osoittaa myötätuntoa</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">седей петямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">keventää mieltään</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">сезевемс-колавомс</l>
@@ -4375,116 +4745,6 @@
        <t pos="V">рвать и бросать</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельгень прамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">silmänräpäyksessä</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельме веляскавтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">katsoa kieroon</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельме икельде туемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">häipyä silmien edestä</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельме полашкавтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">tuijottaa, сельмс кортамс puhua totta</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмень кончтамс-теемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tehdä yhdessä silmänräpäyksessä, сельме-чама a неят on pilkkopimeää</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмс эцемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">pistää silmään</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмсэ сэвемс</l> <s n="V_LEDEMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">ahmia silmillään</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмть кончтнемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">räpyttää silmiä</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмть лоткавтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">lumota</t>
-       <t pos="V">tenhota</t>
-       <t pos="V">hurmata</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмть нолдамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">painaa katseensa alas</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмть пезнавтомс</l> <s n="V_SAVTOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">katsoa itsepintaisesti</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сельмть таргамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">puhkaista silmät</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -4724,30 +4984,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">стада ваномс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">paimentaa karjaa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">стенас поводемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">ripustaa seinälle</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">стувтомс пря</l>
@@ -4852,18 +5088,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">сюкпря максомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tervehtiä</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">сюлмамс авалем</l>
@@ -4906,26 +5130,6 @@
        <t pos="V">охаять</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сяторсо: сяторсо паломс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">palaa rätisten</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">сётор сивемс</l> <s n="V_LEDEMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">särkyä risahtaen</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -4997,14 +5201,6 @@
        <t pos="V">заметаться</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">тантейстэ кортамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">(kuv.) puhua makeilevasti</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -5160,37 +5356,6 @@
        <xt/>
      </xg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">тарцк: тарцк теемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">hätkähtää</t>
-       <t pos="V">säpsähtää</t>
-       <t pos="V">horjahtaa</t>
-       <t pos="V">vavahtaa (odottamatta)</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">тевс кундамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">ryhtyä työhön</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">тевс таргавомс</l> <s n="V_KADOMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">perehtyä asiaan</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
@@ -5366,15 +5531,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">трокс вал каямс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">sanoa vastaan</t>
-       <t pos="V">vastustaa</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">трямс пря</l>
@@ -5505,18 +5661,6 @@
        <x>Комавтызе тюжт мериця чаманзо.</x>
        <xt/>
      </xg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">тюрьсэ: тюрьсэ чудемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">valua virtanaan</t>
-     </tg>
    </mg>
 </e>
 <e exclude="fst">
@@ -5748,19 +5892,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">ций-буй меремс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">soida</t>
-       <t pos="V">humista (korvissa)</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">цильнемс-тейнемс</l>
@@ -5832,18 +5963,6 @@
      <defNative/>
      <tg xml:lang="rus">
        <t pos="V">предохраняться</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">цяболонь каязь чиемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">juosta minkä kintuista pääsee</t>
      </tg>
    </mg>
 </e>
@@ -5941,18 +6060,6 @@
      <tg xml:lang="rus">
        <t pos="V">крестится</t>
        <t pos="V">молиться</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">чиемс оймень пиемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">hengästyä juoksusta</t>
      </tg>
    </mg>
 </e>
@@ -6067,15 +6174,6 @@
      </xg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">эздасо налксемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">pelata piippua</t>
-       <t pos="V">kirppaa</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">эльнемс-элякалемс</l>
@@ -6163,26 +6261,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">эсь мельсэ теемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">tehdä omalla tavallaan</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">эсь потмова арсемс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">ajatella mielessään</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">юводемс-почодомс</l>
@@ -6194,18 +6272,6 @@
      <defNative/>
      <tg xml:lang="rus">
        <t pos="V">просеивать. Сводничать</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ювсо молемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">sujua hyvin, тевтне ювсо молить työt sujuvat hyvin</t>
      </tg>
    </mg>
 </e>
@@ -6221,18 +6287,6 @@
      <tg xml:lang="rus">
        <t pos="V">развязывать</t>
        <t pos="V">расставлять</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">юр путомс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">perustaa</t>
      </tg>
    </mg>
 </e>
@@ -6399,32 +6453,6 @@
      <defNative>Якшамнэ, экше.</defNative>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">ям пидемс</l>
-     <stg><s n="v"/>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="V">keittää keittoa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V" val="IV">ярсамс-симемс</l>
-     <stg>
-       <st Contlex="V_PAIRS">ярсамс-симемс</st>
-     </stg>
-   </lg>
-   <mg>
-     <defNative/>
-     <tg xml:lang="fin">
-       <t pos="V" val="IV">pitää kekkerit</t>
-     </tg>
-   </mg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">ярсамс-теемс</l>
@@ -6453,23 +6481,6 @@
      </tg>
    </mg>
 </e>
-<e>
-   <lg>
-     <l pos="V">ёжос самс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">tulla tajuihinsa</t>
-     </tg>
-   </lg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ёзмолсо: ёзмолсс ютамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">kulkea ryömien</t>
-       <t pos="V">madellen</t>
-     </tg>
-   </lg>
-</e>
 <e exclude="fst">
    <lg>
      <l pos="V">ёмавтомс пря</l>
@@ -6495,14 +6506,6 @@
        <t pos="V">пропадать</t>
      </tg>
    </mg>
-</e>
-<e>
-   <lg>
-     <l pos="V">ёмболк: ёмболк варштамс</l> <s n="V_KUNDAMS"/>
-     <tg xml:lang="fin">
-       <t pos="V">(katse) harhailla</t>
-     </tg>
-   </lg>
 </e>
 <e exclude="fst">
    <lg>
