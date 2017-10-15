@@ -2,6 +2,11 @@
 
 !! Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
 
+!Problems
+LEXICON N-COLL_
++N+Coll+Pl+Nom+Indef: #;
+LEXICON N-COM_
++N+SP+Com+Indef: #;
 
 
 !! !!KINSHIP 
@@ -34,14 +39,14 @@ LEXICON N-KIN_LAK
 !+N+Sem/Kin@P.POS.N@:00@P.POS.N@ NMN_TINGE ;
 ! N-KIN ;
 !LEXICON N-KIN_VELE_IS-KE-DIM
-!+N+Sem/Kin+Der/ке+Dimin+N@P.POS.N@:00000@P.POS.N@ N-KIN_VELE ;
+!+N+Sem/Kin+Der/ке+Der/Dimin+N@P.POS.N@:00000@P.POS.N@ N-KIN_VELE ;
 LEXICON N-KIN_VELE_IS-NE-DIM
-+N+Sem/Kin+Der/НЕ+Dimin+N@P.POS.N@:00000@P.POS.N@ N-KIN_VELE ;
++N+Sem/Kin+Der/НЕ+Der/Dimin+N@P.POS.N@:00000@P.POS.N@ N-KIN_VELE ;
 LEXICON N-KIN_VELE
 +N+Sem/Kin@P.POS.N@:00@P.POS.N@ NMN_KUDO ;
  N-KIN ;
 !LEXICON N-KIN_PIZE2_IS-NE-DIM
-!+N+Sem/Kin+Der/НЕ+Dimin+N@P.POS.N@:00000@P.POS.N@ N-KIN_PIZE2 ;
+!+N+Sem/Kin+Der/НЕ+Der/Dimin+N@P.POS.N@:00000@P.POS.N@ N-KIN_PIZE2 ;
 !LEXICON N-KIN_PIZE2
 !+N+Sem/Kin@P.POS.N@:00@P.POS.N@ NMN_KUDO ;
 ! N-KIN ;
@@ -229,19 +234,19 @@ LEXICON N-MONTHS_KAL
 
 LEXICON N_KAL
 +N@P.POS.N@:0@P.POS.N@ NMN_KAL ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 +N@P.POS.N@:0@P.POS.N@ NMN_KEL1 ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>не0@P.POS.N@ NMN_VELE ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>не0@P.POS.N@ NMN_VELE ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TYL
 ! harmony: front
 +N@P.POS.N@:0@P.POS.N@ NMN_KAL ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 !LEXICON N_KAL_SUB
@@ -257,7 +262,7 @@ LEXICON N_KAL-PL
 
 LEXICON N_LAK
 +N@P.POS.N@:0@P.POS.N@ NMN_LAK ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_LAK-PL
@@ -267,7 +272,7 @@ LEXICON N_LAK-PL
 
 LEXICON N_KIT
 +N@P.POS.N@:0@P.POS.N@ NMN_KIT ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KIT-PL
@@ -277,7 +282,7 @@ LEXICON N_KIT-PL
 
 LEXICON N_KLASS
 +N@P.POS.N@:0@P.POS.N@ NMN_KLASS ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 !LEXICON N_OSH_SUB
@@ -285,7 +290,7 @@ LEXICON N_KLASS
 
 LEXICON N_OSH
 +N@P.POS.N@:0@P.POS.N@ NMN_OSH ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N+Use/SpellNoSugg@P.POS.N@:00@P.POS.N@ CMP-INDEF ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
@@ -298,7 +303,7 @@ LEXICON N_OSH-PL
 LEXICON N_LEVKS
 ! harmony: front
 +N@P.POS.N@:0@P.POS.N@ NMN_OSH ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>Н1е0@P.POS.N@ NMN_KUDO ;
 +N+Use/SpellNoSugg@P.POS.N@:00@P.POS.N@ CMP-INDEF ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
@@ -310,12 +315,12 @@ LEXICON N_IE
 
 LEXICON N_TESHTE
 +N@P.POS.N@:0@P.POS.N@ NMN_TESHTE ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>ке0@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>ке0@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TINGE
 +N@P.POS.N@:0@P.POS.N@ NMN_TINGE ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TINGE-PL
@@ -330,7 +335,7 @@ LEXICON N_TINGE-PL
 LEXICON N_PANGO
 !! панго:панг
 +N@P.POS.N@:0@P.POS.N@ NMN_PANGO ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON DV-N_
@@ -339,7 +344,7 @@ LEXICON DV-N_
 ! This might be moved to exceptions 2012-11-21
 LEXICON N_KI
 +N@P.POS.N@:0@P.POS.N@ NMN_KI ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_VELE_IS-KE-DIM
@@ -351,7 +356,7 @@ LEXICON N_VELE_IS-NE-DIM
 LEXICON N_VELE
 !! Front vowel, non-palatal consonant before vowel
 +N@P.POS.N@:0@P.POS.N@ NMN_KUDO ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_PIZE2_IS-NE-DIM
@@ -360,7 +365,7 @@ LEXICON N_PIZE2_IS-NE-DIM
 LEXICON N_PIZE2
 !! Front vowel, non-palatal consonant before vowel
 +N@P.POS.N@:0@P.POS.N@ NMN_KUDO ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 !LEXICON N_KUDO_SUB
@@ -368,7 +373,7 @@ LEXICON N_PIZE2
 
 LEXICON N_KUDO
 +N@P.POS.N@:0@P.POS.N@ NMN_KUDO ;
-+N+Der/НЕ+Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
++N+Der/НЕ+Der/Dimin+N@P.POS.N@:%>%{иы%}не@P.POS.N@ NMN_KUDO ;
 +N@P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KUDO-PL
@@ -380,6 +385,7 @@ LEXICON N_KUDO-PL
 LEXICON N_AVIDEM
 !! Does this need a diminutive?
 +N+AssocColl@P.POS.N@:00@P.POS.N@ N_KUDO-Poss-Declension-CX ;
+
 
 !! NMN
 LEXICON NMN_KAL
