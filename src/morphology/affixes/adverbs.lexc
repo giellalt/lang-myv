@@ -3,6 +3,17 @@
 !! The Erzya language adjectives do not compare.
 
 
+LEXICON adverbs
+!!
+ков+Adv+Interr+Lat:ков K ;
+коволга+Adv+Interr+Prl:коволга K ;
+коволдо+Adv+Interr+Abl:коволдо K ;
+коволо+Adv+Interr+Loc:коволо K ;
+коволов+Adv+Interr+Lat:коволов K ;
+!
+кодаяк+Adv+Indef+Manner:кодаяк # ;
+
+
 ! These _states_ can conjugate,
 ! a distinctive feature
 !
@@ -43,6 +54,10 @@ LEXICON Ad-A_ !
 
 LEXICON ADV_ ! 
 +Adv: K ;
+
+LEXICON GER_
++Ger: K ;
++Ger+Der+Der/MWN: N_OSH ;
 
 LEXICON ADV_KUDO ! Coping with stem structure
  ADV_ ;
@@ -182,9 +197,9 @@ LEXICON PRED2-SUBJ_KUDO !! "стядо"
 +Pred2: K ;
 +Pred2+Der/MWN: N_KUDO ;
 
-!LEXICON PRED2-SUBJ_OSH
-!+Pred2: K ;
-!+Pred2+Der/MWN: N_OSH ;
+LEXICON PRED2-SUBJ_OSH
++Pred2: K ;
++Pred2+Der/MWN: N_OSH ;
 
 LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 +Pred2: K ;
@@ -206,6 +221,9 @@ LEXICON ADV-IS-SPAT-INE
 +Adv+Ine: K ;
 +Adv+Ine: DER/COP4_OBL ;
 
+LEXICON ADV-IS-SPAT-ABL
++Adv+Abl: K ;
+
 LEXICON ADV-IS-SPAT-LAT
 +Adv+Lat: K ;
 
@@ -213,6 +231,9 @@ LEXICON ADV-IS-SPAT-PRL
 +Adv+Prl: K ;
 +Adv+Prl: DER/COP4_OBL ;
 
+
+LEXICON ADV-INTERR-IS-LAT
++Adv+Interr+Lat: K ;
 !LEXICON SPAT-Interr
 !+Interr+Spat: WORD-END ;
 
