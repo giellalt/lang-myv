@@ -8,7 +8,7 @@
 ! that might be used in a template
 
 LEXICON DET-DEM_TE
-+Det: WORD-END ;
++Det+Dem+Sg: WORD-END ;
 
 LEXICON DET-DEM_ALCE
 +Det: WORD-END ;
@@ -26,7 +26,7 @@ LEXICON A_INT-OJ
 LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 ! was GEN-A
 +Der/GenAttr+A+Sg: K ;
-+Der/GenAttr+A: DER/COP4_OBL-SC3 ; ! These need checking 2012-04-17
++Der/GenAttr+A: CLT/COP4_OBL-SC3 ; ! These need checking 2012-04-17
 
 LEXICON A-IS-INE ! The inessive is used as an attribute and predicate modifier
 +A+Sg: K ;
@@ -38,7 +38,7 @@ LEXICON A_VEJKET1-PL
 LEXICON A_KIT
 +A+Attr: K ;
 +A+Sg: K ;
-+A: DER/COP4_OBL ;
++A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _KIT-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -48,7 +48,7 @@ LEXICON A_KIT
 LEXICON A_LAK
 +A+Attr: K ;
 +A+Sg: K ;
-+A: DER/COP4_OBL ;
++A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _LAK-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -62,7 +62,7 @@ LEXICON A_KAL
  ADJ-TO-ADV ;
 +A+Attr: K ;
 +A+Sg: K ;
-+A: DER/COP4_OBL ;
++A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 +A+Pl: _KAL-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -73,7 +73,7 @@ LEXICON A_OSH
  ADJ-TO-ADV ;
 +A+Attr: K ;
 +A+Sg: K ;
-+A: DER/COP4_OBL ;
++A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _KAL-NomPl-Conjugation-only ;
 +A+Pl:%>тЬ2 K ;
@@ -138,7 +138,7 @@ LEXICON A_KUDO
 
 LEXICON A_KUDO_01
 ! K ;
- DER/COP4_OBL ; !! 2013-04-17
+ CLT/COP4_OBL ; !! 2013-04-17
 +Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+Pl: _KUDO-NomPl-Conjugation-only ;
 +Pl:%>тЬ2 K ;
@@ -153,7 +153,7 @@ LEXICON A-IS-INTERR/REL-ADJ_KODAMO !! кодамо:кода
 +A+Interr: ADJ_KODAMO ;
 +A+Rel: ADJ_KODAMO ;
 LEXICON ADJ_KODAMO !! кодамо:кода
-:мо # ;
++Sg+Nom+Indef:мо # ;
 +Der/MWN:м N_PANGO-Def-Declension ;
 +Der/MWN:м _PANGO-Indef-Declension ;
 +Der/MWN:мо N_PANGO-Poss-Declension-CX ;
