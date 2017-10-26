@@ -111,14 +111,14 @@ LEXICON NUM_KAL
 +Num+Card+AssocColl:%>не _KUDO-Possessives2-Ill ;
 +Num+Card+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 +Num+Card+AssocColl:%>не _KUDO-Possessive-Before-K ;
-+Num+Card+Iter:%>ксть Ks ;
-+Num+Card+Appr+Iter:%>шкаксть Ks ;
++Num+Mult:%>ксть Ks ;
++Num+Appr+Mult:%>шкаксть Ks ;
 
 
 LEXICON NUMORD_KAL
-+Der/це+A+Ord:%>це WORD-END ;
+!+Der/це+A+Ord:%>це WORD-END ;
 +Der/це+A+Ord+Der/MWN:%>це N_KUDO ;
-+Der/тькс+A+Ord:%>О1тькс WORD-END ;
+!+Der/тькс+A+Ord:%>О1тькс WORD-END ;
 +Der/тькс+A+Ord+Der/MWN:%>О1тькс N_OSH ;
 
 !LEXICON NUM_OSH_SUB
@@ -137,8 +137,8 @@ LEXICON NUM_OSH
 +Num+Card+AssocColl:%>не _KUDO-Possessives2-Ill ;
 +Num+Card+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 +Num+Card+AssocColl:%>не _KUDO-Possessive-Before-K ;
-+Num+Card+Iter:%>ксть Ks ;
-+Num+Card+Appr+Iter:%>шкаксть Ks ;
++Num+Mult:%>ксть Ks ;
++Num+Appr+Mult:%>шкаксть Ks ;
 
 LEXICON NUMORD_OSH
 +Der/це+A+Ord:%>О1%>це WORD-END ;
@@ -162,8 +162,8 @@ LEXICON NUM_SJADO
 +Num+Card+AssocColl:О1%>не _KUDO-Possessives2-Ill ;
 +Num+Card+Appr+AssocColl:О1%>шкане _KUDO-Possessives2-Ill ;
 +Num+Card+AssocColl:О1%>не _KUDO-Possessive-Before-K ;
-+Num+Card+Iter:О1%>ксть Ks ;
-+Num+Card+Appr+Iter:О1%>шкаксть Ks ;
++Num+Card+Mult:О1%>ксть Ks ;
++Num+Card+Appr+Mult:О1%>шкаксть Ks ;
 
 LEXICON NUMORD_SJADO
 +Der/це+Det+Ord:%>це WORD-END ;
@@ -187,8 +187,8 @@ LEXICON NUM_KUDO
 +Num+Card+AssocColl:%>не _KUDO-Possessives2-Ill ;
 +Num+Card+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 +Num+Card+AssocColl:%>не _KUDO-Possessive-Before-K ;
-+Num+Card+Iter:%>ксть Ks ;
-+Num+Card+Appr+Iter:%>шкаксть Ks ;
++Num+Card+Mult:%>ксть Ks ;
++Num+Card+Appr+Mult:%>шкаксть Ks ;
 +Num+Card+Lat:%>в Ks ;
 
 LEXICON NUMORD_KUDO
@@ -228,24 +228,29 @@ LEXICON Cards-1-2
 LEXICON Assoc-Coll
 +Qnt+AssocColl: N_KUDO-Poss-Declension-PossX ;
 
-LEXICON IS-NUM-CARD-ITER
-+Num+Card+Iter: K ;
+LEXICON IS-ADV-MULT
++Adv+Mult: K ;
 
 !LEXICON IS-QNT-ITER
-!+Qnt+Iter: K ;
+!+Qnt+Mult: K ;
 
 !LEXICON ITER_SUB
 !+Err/Orth: ITER_ ;
 
 LEXICON ITER_
-+Qnt+Iter: K ;
++Qnt+Mult: K ;
 !! once, twice; весть, кавксть, аламоксть
 
 LEXICON ITER-INDEF
-+Qnt+Iter+Indef: K ;
++Qnt+Mult+Indef: K ;
+
 
 LEXICON ORD_
 +Num+Ord: K ;
+
+LEXICON ORD-IMPRF_
++Adv+Ord+Temp+Abl: K ;
+! васенцеде advmod:multimprf > advmod:ordimprf
 
 LEXICON ORD_KUDO
 +Num+Ord: K ;
@@ -268,7 +273,7 @@ LEXICON QNT_LAMO
 LEXICON QNT_KUDO
 +Det+Qnt: K ;
 +Det+Qnt+Der/MWN: N_KUDO ;
-+Det+Qnt: DER/COP4_OBL-SC3 ; ! ламольть
++Det+Qnt: CLT/COP4_OBL-SC3 ; ! ламольть
 
 LEXICON QNT-ADN
 +Det+Qnt+Adn: WORD-END ;
@@ -337,19 +342,19 @@ LEXICON QNT_VESEME
 !+AssocColl:%>не _KUDO-Possessives2-Ill ;
 !+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 !+AssocColl:%>не _KUDO-Possessive-Before-K ;
-!+Iter:%>ксть Ks ;
-!+Iter:%>%{ОЕЭØ%}ксть Ks ;
-!+Appr+Iter:%>шкаксть Ks ;
-!+Appr+Iter:%>%{ОЕЭØ%}шкаксть Ks ;
+!+Mult:%>ксть Ks ;
+!+Mult:%>%{ОЕЭØ%}ксть Ks ;
+!+Appr+Mult:%>шкаксть Ks ;
+!+Appr+Mult:%>%{ОЕЭØ%}шкаксть Ks ;
 
 LEXICON Quants3
 !Cx PossPx Tx PredPx K
 !Cases1 Possessives1 Tenses1 PredPersons1 Ks
-+Indet+Sg+Nom: DER/COP_SG ;
++Indef+Sg+Nom: CLT/COP_SG ;
 +Sg+Nom+PxSg3:%>%{ОЕЭØ%}з%{оэØ%} _KUDO-Tenses1 ;
 +Sg+Nom+PxSg3:%>з%{оэØ%} _KUDO-Tenses1 ;
-+Indet+Lat:%>%{ОЕЭØ%}в Ks ;
-!+Indet+Lat:%>в Ks ;
++Indef+Lat:%>%{ОЕЭØ%}в Ks ;
+!+Indef+Lat:%>в Ks ;
 
 
 +Sg+Nom+PxSg1:%>м _KAL-Tenses1 ;

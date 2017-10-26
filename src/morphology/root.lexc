@@ -61,7 +61,8 @@ Multichar_Symbols
  +Parenthetic !!≈ * _@CODE@_ parenthetic
  +Spat 	     !!≈ * _@CODE@_ spatial
  +Temp 	     !!≈ * _@CODE@_ temporal
- +Iter      !!≈ * _@CODE@_ Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
+ +Iter      !!≈ * _@CODE@_ Iterative This will be replaced by +Mult
+ +Mult      !!≈ * _@CODE@_ Multiplicative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
  +AdA 	     !!≈ * _@CODE@_ Ad-adjective This is degree
  +Epist	!!≈ * _@CODE@_ epistemic modality marker speaker's evaluation/judgment of, degree of confidence in
 
@@ -579,7 +580,8 @@ Multichar_Symbols
 +Der/Dem !!≈ * _@CODE@_ Speaker-Oriented Demonstrative
 !! !!Conjugation of words other than finite verbs
 +Der/Pr !!≈ * _@CODE@_ derivation to predicate head, e.g. nominal conjugation
-+Der/Cop    !!≈ * _@CODE@_ This will replace the nominal conjugation Der/Pr+V
++Der/Cop    !!≈ * _@CODE@_ This is not a derivation
++Clt/Cop    !!≈ * _@CODE@_ This will replace the nominal conjugation Der/Pr+V
 
 !Declaring Indefinite Pronoun derivations
 +Der/Гак  !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns
@@ -782,7 +784,7 @@ ZERO
 @R.POS.V@
 @C.POS@
 
-!! Flags used with +Der/Pr nonverbal predication
+!! Flags used with +Clt/Cop nonverbal predication
 @U.PRED.NO@
 @U.PRED.YES@
 @C.PRED@
@@ -1102,7 +1104,7 @@ Hyphenated-verbs ; !!≈ * __@CODE@__ entire serial verbs
  PERS            ;
  ejs-PO          ;
  REL/INTERR_PRONOUNS ;
- Indef_Pronouns ;
+ INDEF_PRONOUNS-WITH-SUF ;	! These have suffixes and reduplication
 @P.INDEF.PREF@  Indef_Pronouns-pref ;			! This will take prefix and Flags
  adverbs ;
 

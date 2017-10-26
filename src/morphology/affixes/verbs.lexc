@@ -962,7 +962,8 @@ LEXICON V_KADOMS-a
 
 LEXICON V_KUNDAMS-a
            @U.CONJ-MX.IND@         Indicative1 ;
-+ConNegII0@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
++ConNeg0@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
+!2017-10-26+ConNegII0@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
  Desiderative-kundams ;
  Imperative-kundams ;
   @U.CONJ-MX.OPT@ Optative-noArrow ;
@@ -1008,11 +1009,13 @@ LEXICON CondVerbs
 +Der/Cond+V:%>%{иы%}ндеря   Deverbals-kundams ;
 
 LEXICON VerbsPresPrc_1
-+Der/Ыця+Act+PrsPrc:%>%{иы%}ця K ;
-+Der/Ыця+Act+PrsPrc+Sg:%>%{иы%}ця K ;
-+Der/Ыця+Act+PrsPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
+!2017-10-26+Act+PrsPrc:%>%{иы%}ця K ;
+!2017-10-26+Act+PrsPrc+Sg:%>%{иы%}ця K ;
+!2017-10-26+Act+PrsPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
++Act+PrsPrc+A:%>%{иы%}ця NMN_KUDO ;
 !+Der/Ыця+Act+PrsPrc+Der/MWN:%>%{иы%}ця N_KUDO ;
-+Der/Ыця+Der/NomAg:%>%{иы%}ця N_KUDO ;
++Der/NomAg:%>%{иы%}ця N_KUDO ;
+
 
 +Der/Ый+Act+PrsPrc:%>%{иы%}й K ;
 +Der/Ый+Act+PrsPrc+Sg:%>%{иы%}й K ;
@@ -1050,9 +1053,10 @@ LEXICON Deverbals-kundams ! kundams
 
 
 LEXICON Deverbals_mutual
-+Der/ОмА+N+Der/NomAct+N@C.CONJ-INF@:%>%{ОЕЭØ%}мА1@C.CONJ-INF@ NMN_KUDO ;
+!2017-10-26+Der/ОмА+N+Der/NomAct+N@C.CONJ-INF@:%>%{ОЕЭØ%}мА1@C.CONJ-INF@ NMN_KUDO ;
++Der/NomAct+N00@C.CONJ-INF@:%>%{ОЕЭØ%}мА1@C.CONJ-INF@ NMN_KUDO ;
 +Der/Омка+N+Der/NomAct+N0@C.CONJ-INF@:%>%{ОЕЭØ%}мка@C.CONJ-INF@ NMN_KUDO ;
-+Der/Ома+Oblig00@U.CX.NOM@:%>%{ОЕЭØ%}ма@U.CX.NOM@ _KUDO-Tenses1-4Inf ;
++Oblig000@U.CX.NOM@:%>%{ОЕЭØ%}ма@U.CX.NOM@ _KUDO-Tenses1-4Inf ;
 +Der/Омка+Oblig000@U.CX.NOM@:%>%{ОЕЭØ%}мка@U.CX.NOM@ _KUDO-Tenses1-4Inf ;
 
 +Inf+Loc000@U.CX.LOC@:%>%{ОЕЭØ%}мО10@U.CX.LOC@ _KUDO-Possessive-Before-K-or-K-4Inf ;
@@ -1064,6 +1068,9 @@ LEXICON Deverbals_mutual
 +Ger+Prl000@U.CX.PRL@:%>%{ОЕЭØ%}мга@U.CX.PRL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
 +Inf+Abl000@U.CX.ABL@:%>%{ОЕЭØ%}мдО1@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
 +Inf+Abl00000@U.CX.ABL@:%>%{ОЕЭØ%}мО1%>дО1@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
+! кавтолдомодо
++Inf+Abl00000@U.CX.ABL@:%>%{ОЕЭØ%}мА1%>дО1@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
+! кавтолдомадо
 +Ger+Ill0000@U.CX.ILL@:%>%{ОЕЭØ%}мО1%>з@U.CX.ILL@ N-Poss-Declension-PossX_01 ;
 
 +Der/Овт+Prc/Telic000@C.CONJ-INF@:%>%{ОЕЭØ%}втЬ2@C.CONJ-INF@ N_KIT ; !!
@@ -1080,7 +1087,7 @@ LEXICON ActDemPrc
 
 LEXICON sajezj-PRC
  A_OSH ;
- DER/COP4_OBL ;
+ CLT/COP4_OBL ;
  VerbEnd_K ;
 
 LEXICON PRC-TELIC ! sajevtj
@@ -2805,8 +2812,8 @@ LEXICON _KAL-Tenses1
 
 LEXICON _KAL-Tenses-NomSg
  VerbEnd_K ;
-+Der/Cop+Prs+ScSg3: VerbEnd_K ;
-+Der/Cop: _KAL-Tenses-NomSg-noClt ;
++Clt/Cop+Prs+ScSg3: VerbEnd_K ;
++Clt/Cop: _KAL-Tenses-NomSg-noClt ;
 
 LEXICON _KAL-Tenses-NomSg-noClt
 +Prs+ScSg1:%>А2н VerbEnd_K ;
@@ -2817,7 +2824,7 @@ LEXICON _KAL-Tenses-NomSg-noClt
 
 LEXICON _KAL-Tenses-NomPl
  VerbEnd_K ;
-+Der/Cop: _KAL-Tenses-NomPl-noClt ;
++Clt/Cop: _KAL-Tenses-NomPl-noClt ;
 
 LEXICON _KAL-Tenses-NomPl-noClt
 +Prs+ScPl1:%>тА2но VerbEnd_K ;

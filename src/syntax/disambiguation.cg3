@@ -99,7 +99,7 @@ LIST CS = CS ;
 LIST CCC = CC ;
 SET CC = CCC - ("sihke") ;
 SET CC-CS = CC OR CS ;
-LIST Po = Po ;
+#LIST Po = Po ;
 LIST Pr = Pr ;
 LIST Pcle = Pcle ;
 LIST Num = Num ;
@@ -133,7 +133,7 @@ LIST Recipr = Recipr ;
 LIST Refl = Refl ;
 LIST Rel = Rel ;
  
-#LIST Adp = Adp ;
+LIST Adp = Adp ;
 
 LIST Coll = Coll ;
 LIST NomAg = NomAg ;
@@ -160,6 +160,7 @@ LIST Sur = Sur ;
 LIST Sem/Sur = Sem/Sur ;
 
 LIST Time = Time ;
+LIST Temp = Temp ;
 LIST Hum = Hum ;
 LIST Date = Date ;
 
@@ -208,6 +209,8 @@ LIST PxSg3 = PxSg3 ;
 LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
+
+LIST PXPERSON = PxSg1 PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ; 
 
 LIST Comp = Comp ;
 LIST Superl = Superl ;
@@ -274,6 +277,7 @@ LIST Pl3 = Pl3 ;
 
 LIST Inf = Inf ;
 LIST ConNeg = ConNeg ;
+LIST ConNegII = ConNegII ;
 LIST Neg = Neg ;
 LIST Comp = Comp ;
 
@@ -303,11 +307,14 @@ LIST Der/Онь = Der/Онь ;
 LIST Der/ай = Der/ай ;
 LIST Der/кай = Der/кай ;
 LIST Der/Ы = Der/Ы ;
+LIST Der/стО = Der/стО ;
+LIST Der/ОвОмс = Der/ОвОмс ;
+LIST Der/ОвтОмс = Der/ОвтОмс ;
 
 LIST Der/MWN = Der/MWN ;
 LIST Der/Dem = Der/Dem ;
 LIST Der/Pr = Der/Pr ;
-LIST Der/Cop = Der/Cop ;
+LIST Clt/Cop = Clt/Cop ;
 
 LIST <vdic> = <vdic> ;
 
@@ -318,7 +325,7 @@ LIST MARTO = "марто" ;
 # Phrasal groups
 # --------------
 
-LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt ; 
+LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ; 
 
 
 
@@ -346,11 +353,28 @@ SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 SECTION
 
 
-REMOVE Der/MWN ; # If any other reading is possible.
 REMOVE Err/Orth ; # If any other reading is possible.
+
+#Ракасть кавто мирде мартонть лангсо,... the one with two husbands
+REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
+REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
+
+## Adjectives
+# ковгак
+REMOVE:NotAdvInterrIfAdvIndef Adv + Interr IF (0 Adv + Indef ) ;
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 CC LINK 1C $$Case) ;
+
+# Verbs
+# Кудонть потс кадовсть ансяк
+REMOVE Der/ОвОмс IF (0 V + IV) ;
+
+# невтемстэ
+REMOVE Der/ОвтОмс IF (0 V + TV) ;
+
+#согласясь мартонзо
+REMOVE N IF (0 MARTO) (0 PXPERSON) ;
 
 #Ваня марто Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;
@@ -361,9 +385,12 @@ SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef
 #а неиль
 SELECT Pcle + Neg (1 Prs OR Prt2) ;
 
+# мазыйстэ
+REMOVE Der/стО IF (0 Adv) ;
+
 #Микол ульнесь
-REMOVE Der/Cop (1 VFIN) ;
-REMOVE Der/Cop (-1 VFIN) ;
+REMOVE Clt/Cop (1 VFIN) ;
+REMOVE Clt/Cop (-1 VFIN) ;
 
 #Дёбаень Микол
 SELECT Prop + SP + Gen (1C ANT) ;
@@ -371,7 +398,7 @@ SELECT Prop + SP + Gen (1C ANT) ;
 #REMOVE IV IF (0 OCONJ) ;
 
 #REMOVE Gen IF (0 Nom OR Gen) ; # argh fix!
-SELECT Gen IF (1 Po) ;
+SELECT Gen IF (1 Adp) ;
 
 #<псаказояк> remove n sg gen pxsg3 if Ani and n sg nom pxsg3
 REMOVE Gen IF (0 Ani + Sg + Nom + PxSg3) ;
@@ -392,7 +419,7 @@ SELECT Prop IF (0 Prop + Upper) (-1C Adv) ;
 SELECT CC IF (0 CC) (-1 ANT + Sg + Nom ) (1 ANT + Pl + Nom ) ;
 
 # Select the postposition марто when it is preceded by genitive definite 
-SELECT Po IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
+SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
 
 # Remove der_pr vblex ind prs scsg3 reading if following word is finite verb Careful
 # шказо сась
