@@ -595,8 +595,8 @@ LEXICON Indef_Pronouns
 кодамо+A+Indef+Nom+Sg:кодамо Indef_Pronouns-K ;
 кодамо+A+Indef+Nom+Pl:кодат Indef_Pronouns-K ;
 кодамо+A+Indef+Pl+Nom+Def:кодатнэ Indef_Pronouns-K ;
-кона+Det+Indef+Nom+Sg:кона Indef_Pronouns-K ;
-мезе+Pron+Indef+Nom+Sg:мезе Indef_Pronouns-K ;
+!2017-11-05кона+Det+Indef+Nom+Sg:кона Indef_Pronouns-K ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:мезе Indef_Pronouns-K ;
 !мезень+Pron+Indef+Interr+Gen:мезень Indef_Pronouns-K ;
 мезе+Pron+Indef+Nom+Pl:мезть Indef_Pronouns-K ;
 мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:месть Indef_Pronouns-K ;
@@ -1082,13 +1082,13 @@ LEXICON DET_VASENCE
 
 
 LEXICON te-Dem
-+Pron: _KUDO-Misc_Pronouns_Sg ;
-+Adn: WORD-END ;
++Pron+Dem: _KUDO-Misc_Pronouns_Sg ;
++Det+Dem+Attr: WORD-END ;
 
 !Formerly ne-Misc_Pronouns1
 LEXICON ne-Dem
-+Dem+Pron: Misc_Pronouns_Pl ;
-+Dem+Adn: WORD-END ;
++Pron+Dem: Misc_Pronouns_Pl ;
++Det+Dem+Attr: WORD-END ;
 
 LEXICON PRON_KUDO
 +Pron+Qnt: NMN_KUDO ;
@@ -1226,8 +1226,8 @@ LEXICON REL/INTERR_PRONOUNS
 кодамо+A+Rel+Nom+Sg:кодамо WORD-END ;
 кодамо+A+Rel+Nom+Pl:кодат WORD-END ;
 кодамо+A+Rel+Pl+Nom+Def:кодатнэ WORD-END ;
-кона+Det+Rel+Nom+Sg:кона WORD-END ;
-мезе+Pron+Rel+Nom+Sg:мезе WORD-END ;
+!2017-11-05кона+Det+Rel+Nom+Sg:кона WORD-END ;
+мезе+Pron+Rel+Sg+Nom+Indef:мезе WORD-END ;
 !мезень+Pron+Rel+Gen:мезень WORD-END ;
 мезе+Pron+Rel+Nom+Pl:мезть WORD-END ;
 мезе+Pron+Rel+Orth/PhonInfl+Nom+Pl:месть WORD-END ;
@@ -1274,8 +1274,8 @@ LEXICON REL/INTERR_PRONOUNS
 кодамо+A+Interr+Nom+Sg:кодамо WORD-END ;
 кодамо+A+Interr+Nom+Pl:кодат WORD-END ;
 кодамо+A+Interr+Pl+Nom+Def:кодатнэ WORD-END ;
-кона+Det+Interr+Nom+Sg:кона WORD-END ;
-мезе+Pron+Interr+Nom+Sg:мезе WORD-END ;
+!2017-11-05кона+Det+Interr+Nom+Sg:кона WORD-END ;
+мезе+Pron+Interr+Sg+Nom+Indef:мезе WORD-END ;
 !мезень+Pron+Interr+Gen:мезень WORD-END ;
 мезе+Pron+Interr+Nom+Pl:мезть WORD-END ;
 мезе+Pron+Interr+Orth/PhonInfl+Nom+Pl:месть WORD-END ;
