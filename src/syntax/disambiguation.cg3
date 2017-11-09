@@ -118,6 +118,7 @@ SET PUNCT = PPUNCT - QMARK ;
 LIST Comma = "," ;
 LIST ¶ = ¶;
 LIST HYPHEN = "-" ;
+LIST QUEST = "?" ;
 
 #LIST V* = V* ;
 
@@ -148,6 +149,7 @@ LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
 
 LIST Sem/Ant = Sem/Ant ;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
+LIST SUR = Sem/Sur_Mal Sem/Sur_Fem ;
 LIST Ani = Ani Sem/Kin Hum Fem Mal Sur ;
 LIST Fem = Fem ;
 LIST Mal = Mal ;
@@ -171,8 +173,8 @@ LIST Date = Date ;
 LIST Abe = Abe ;
 LIST Abl = Abl ;
 LIST Com = Com ;
-LIST CompCx = CompCx ;
-LIST DatCx = DatCx ;
+LIST Cmpr = Cmpr ;
+LIST Dat = Dat ;
 LIST Ela = Ela ;
 LIST Gen = Gen ;
 LIST Ill = Ill ;
@@ -185,9 +187,14 @@ LIST TempCx = TempCx ;
 LIST Tra = Tra ;
 LIST Voc = Voc ;
 
+LIST CASE = Nom Gen Abl Dat Com Ine Ill Ela Tra Abe Prl Loc Lat Cmpr ;
+SET OBLCASE = CASE - Nom ;
+
 LIST Sg = Sg ;
 LIST Pl = Pl ;
 LIST SP = SP ;
+
+LIST NUM = Sg Pl SP ;
 
 LIST RCmpnd = RCmpnd ;
 
@@ -259,6 +266,8 @@ LIST ScPl3 = ScPl3 ;
 
 LIST SCPERSON = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
 
+LIST SCPERSON12 = ScSg1 ScSg2 ScPl1 ScPl2 ;
+
 LIST OcSg1 = OcSg1 ;
 LIST OcSg2 = OcSg2 ;
 LIST OcSg3 = OcSg3 ;
@@ -279,6 +288,7 @@ LIST Inf = Inf ;
 LIST ConNeg = ConNeg ;
 LIST ConNegII = ConNegII ;
 LIST Neg = Neg ;
+LIST Aux = Aux ;
 LIST Comp = Comp ;
 
 LIST PrfPrc = PrfPrc ;
@@ -310,6 +320,7 @@ LIST Der/Ы = Der/Ы ;
 LIST Der/стО = Der/стО ;
 LIST Der/ОвОмс = Der/ОвОмс ;
 LIST Der/ОвтОмс = Der/ОвтОмс ;
+LIST Der/Dimin = Der/Dimin ;
 
 LIST Der/MWN = Der/MWN ;
 LIST Der/Dem = Der/Dem ;
@@ -318,7 +329,13 @@ LIST Clt/Cop = Clt/Cop ;
 
 LIST <vdic> = <vdic> ;
 
+LIST PESHKSE = "пешксе" ;
 LIST MARTO = "марто" ;
+LIST JAKAMS = "молемс" "якамс" ;
+LIST NONCOUNT = "кекше" "сод" "сода"  ;
+LIST NONSENSESURANT = "Ней" ;
+
+LIST APAK = "апак" ;
 
 #2013-05-22
 
@@ -334,6 +351,12 @@ LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ;
 
 SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
+#!! !Derivation tags
+LIST 2VDerTag = Der/немс ; #!! 2VDerTag
+LIST 2NDerTag = Der/кс ; #!! 2NDerTag
+LIST DerGenAttr = Der/GenAttr ;
+
+LIST DerTag = Der/MWN Der/немс Der/Ы ; #!! DerTag
 
 # Noun sets
 
@@ -355,23 +378,75 @@ SECTION
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
+REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
+
+# пельнеть
+REMOVE Der/Dimin (0C N ) ;
+
+# short participles should be written with the following noun? new orthographic practice 1993
+REMOVE:RemoveShortPrc Der/Ы (0 VFIN) ;
+
 #Ракасть кавто мирде мартонть лангсо,... the one with two husbands
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
 REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
+
+#Лиясто кевкстнить эйсэнь.
+REMOVE 2VDerTag (0C V) ; #2017-11-05
+
+#ёнкссонть
+REMOVE 2NDerTag (0C N) ; #2017-11-05
+
+#Кода пангт эли нормальть?
+REMOVE ConNeg (-1 BOS) ;
+
+#Лездасть тень сёрмадомо аволь ансяк умонь читне.
+REMOVE Aux + Neg + Conj IF (0 Pcle + Neg) (NOT 1 ConNeg) ;
+
+# Пургине паздонть апак пеле
+SELECT ConNeg (-1 APAK) ;
+
+#Кува?
+REMOVE Rel IF (1 QUEST) ;
+#«Ков сыргить?»
+REMOVE Rel IF (0 Upper) (NOT 0 Prop) ;
+
+#Эйкакшонь масторга.
+REMOVE DerGenAttr IF (0 N + SP + Gen) ;
+
+#Ды те истя улияк.
+
+## Nouns
+REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
+
+#валдодо пешксе
+REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
 
 ## Adjectives
 # ковгак
 REMOVE:NotAdvInterrIfAdvIndef Adv + Interr IF (0 Adv + Indef ) ;
 
+#Цёрась сон а берянь.
+REMOVE:NotAttrAtEOS Attr (1 EOS) ;
+
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 CC LINK 1C $$Case) ;
+
+# hmm, this needs some work
+# умаринась ды атямаресь
+# NOT WORKING 2017-11-08REMOVE:NotPcleWhenLeftAndRightSameForm Pcle IF (-1 N + $$CASE) (0 ("ды")) (1 N + $$CASE);
 
 # Verbs
 # Кудонть потс кадовсть ансяк
 REMOVE Der/ОвОмс IF (0 V + IV) ;
 
+# содан = V not N for 1st and 2nd person
+REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
+
 # невтемстэ
 REMOVE Der/ОвтОмс IF (0 V + TV) ;
+
+#молить V TV Der/Ы Der/NomAg N Pl Gen PxSg2
+REMOVE Der/Ы + Der/NomAg IF (0 PXPERSON) ;
 
 #согласясь мартонзо
 REMOVE N IF (0 MARTO) (0 PXPERSON) ;
