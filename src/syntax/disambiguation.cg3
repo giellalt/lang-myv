@@ -334,6 +334,7 @@ LIST MARTO = "марто" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
 LIST NONSENSESURANT = "Ней" ;
+LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; # This will be expanded for homonymy at first
 
 LIST APAK = "апак" ;
 
@@ -418,6 +419,9 @@ REMOVE DerGenAttr IF (0 N + SP + Gen) ;
 ## Nouns
 REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
 
+#Молян верев.
+REMOVE NONLATIVENOUN (0  N + SP + Lat) ;
+
 #валдодо пешксе
 REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
 
@@ -438,6 +442,18 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # Verbs
 # Кудонть потс кадовсть ансяк
 REMOVE Der/ОвОмс IF (0 V + IV) ;
+
+# эзинь прядо
+SELECT ConNeg IF (-1 Aux + Neg ) ;
+
+# Минь пурнатано вий.
+REMOVE ConNeg IF (NOT -1 Aux + Neg) ;
+
+# якамонзо якизе
+#REMOVE TV IF (0 JAKAMS) ((NOT *-1) OR (NOT *1  )) ;
+
+#Кода понгсь минь сынст ней а виднесынек.
+REMOVE Clt/Cop ((*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN)) ;
 
 # содан = V not N for 1st and 2nd person
 REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
@@ -473,7 +489,7 @@ SELECT Prop + SP + Gen (1C ANT) ;
 #REMOVE IV IF (0 OCONJ) ;
 
 #REMOVE Gen IF (0 Nom OR Gen) ; # argh fix!
-SELECT Gen IF (1 Adp) ;
+SELECT Gen IF (1C Adp) ;
 
 #<псаказояк> remove n sg gen pxsg3 if Ani and n sg nom pxsg3
 REMOVE Gen IF (0 Ani + Sg + Nom + PxSg3) ;
