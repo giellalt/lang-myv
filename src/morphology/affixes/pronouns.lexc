@@ -23,6 +23,12 @@ LEXICON PRON-INTERR-HUM_KI !!Interr-Pers
 +Pron+Interr+Sem/Hum+Sg+Nom: WORD-END ; 
 +Pron+Interr+Sem/Hum+Pl+Nom:%>тЬ2 WORD-END ; 
 +Pron+Interr+Sem/Hum: PRON-INTERR-HUM_KI-OBL ;
++Pron+Interr+Sem/Hum+Clt/Cop+Prs+ScSg1:%>ян K ;
++Pron+Interr+Sem/Hum+Clt/Cop+Prs+ScSg2:%>ят K ;
++Pron+Interr+Sem/Hum+Clt/Cop+Prs+ScSg3:е K ;
++Pron+Interr+Sem/Hum+Clt/Cop+Prs+ScPl1:%>тяно K ;
++Pron+Interr+Sem/Hum+Clt/Cop+Prs+ScPl2:%>тядо K ;
++Pron+Interr+Sem/Hum+Clt/Cop+Prs+ScPl3:%>ть K ;
 
 LEXICON PRON-INTERR-HUM_KI-OBL
 +Abe:%>втО1мО1 WORD-END ;
@@ -92,75 +98,79 @@ LEXICON PRON-PERS-PL2_IS-INTENSIVE
 
 LEXICON PERS
 мон+Pron+Pres+Sg1+Dat+Short:тень K ;
-минь+Pron+Pers+Pl1+Dat+Short:тенек K ;
+мон+Pron+Pers+Pl1+Dat+Short:тенек K ;
 тон+Pron+Pers+Sg2+Dat+Short:теть K ;
 тон+Pron+Pers+Sg2+Dat+Short:тенть K ;
-тынь+Pron+Pers+Pl2+Dat+Short:тенк K ;
+тон+Pron+Pers+Pl2+Dat+Short:тенк K ;
 сон+Pron+Pers+Sg3+Dat+Short:тензэ K ;
-сынь+Pron+Pers+Pl3+Dat+Short:тест K ;
-сынь+Pron+Pers+Pl3+Dat+Short:тенст K ;
-сынь+Pron+Pers+Pl3+Dat+Long:сыненст K ;
+сон+Pron+Pers+Pl3+Dat+Short:тест K ;
+сон+Pron+Pers+Pl3+Dat+Short:тенст K ;
+сон+Pron+Pers+Pl3+Dat+Long:сыненст K ;
+
+мон:ми PRON-PERS-PL1 ;
+тон:ты PRON-PERS-PL2 ;
+сон:сы PRON-PERS-PL3 ;
+
 
 монсь+Pron+Refl+Sg1+Abl+Long:монстемень K ;
-минсь+Pron+Refl+Pl1+Abl+Long:минстеменек K ;
+монсь+Pron+Refl+Pl1+Abl+Long:минстеменек K ;
 тонсь+Pron+Refl+Sg2+Abl+Long:тонстеметь K ;
-тынсь+Pron+Refl+Pl2+Abl+Long:тынстеменк K ;
+тонсь+Pron+Refl+Pl2+Abl+Long:тынстеменк K ;
 сонсь+Pron+Refl+Sg3+Abl+Long:сонстемензэ K ;
-сынсь+Pron+Refl+Pl3+Abl+Long:сынстемест K ;
+сонсь+Pron+Refl+Pl3+Abl+Long:сынстемест K ;
 
 монсь+Pron+Refl+Sg1+Dat+Long:монстень K ;
-минсь+Pron+Refl+Pl1+Dat+Long:минстенек K ;
+монсь+Pron+Refl+Pl1+Dat+Long:минстенек K ;
 тонсь+Pron+Refl+Sg2+Dat+Long:тонстеть K ;
-тынсь+Pron+Refl+Pl2+Dat+Long:тынстенк K ;
+тонсь+Pron+Refl+Pl2+Dat+Long:тынстенк K ;
 сонсь+Pron+Refl+Sg3+Dat+Long:сонстензэ K ;
-сынсь+Pron+Refl+Pl3+Dat+Long:сынстест K ;
+сонсь+Pron+Refl+Pl3+Dat+Long:сынстест K ;
 
 монсь+Pron+Refl+Sg1+Dat+Short:эстень K ;
-минсь+Pron+Refl+Pl1+Dat+Short:эстенек K ;
+монсь+Pron+Refl+Pl1+Dat+Short:эстенек K ;
 тонсь+Pron+Refl+Sg2+Dat+Short:эстеть K ;
-тынсь+Pron+Refl+Pl2+Dat+Short:эстенк K ;
+тонсь+Pron+Refl+Pl2+Dat+Short:эстенк K ;
 сонсь+Pron+Refl+Sg3+Dat+Short:эстензэ K ;
-сынсь+Pron+Refl+Pl3+Dat+Short:эстест K ;
+сонсь+Pron+Refl+Pl3+Dat+Short:эстест K ;
 
-монсь+Pron+Refl+Sg1+Gen+Long:монстень K ;
-минсь+Pron+Refl+Pl1+Gen+Long:минстенек K ;
-тонсь+Pron+Refl+Sg2+Gen+Long:тонстеть K ;
-тынсь+Pron+Refl+Pl2+Gen+Long:тынстенк K ;
-сонсь+Pron+Refl+Sg3+Gen+Long:сонстензэ K ;
-сынсь+Pron+Refl+Pl3+Gen+Long:сынстест K ;
+монсь+Pron+Refl+Sg1+Gen+Long:монсень K ;
+монсь+Pron+Refl+Pl1+Gen+Long:минсенек K ;
+тонсь+Pron+Refl+Sg2+Gen+Long:тонсеть K ;
+тонсь+Pron+Refl+Pl2+Gen+Long:тынсенк K ;
+сонсь+Pron+Refl+Sg3+Gen+Long:сонсензэ K ;
+сонсь+Pron+Refl+Pl3+Gen+Long:сынсест K ;
 
 монсь+Pron+Refl+Sg1+Gen+Short:эсень K ;
-минсь+Pron+Refl+Pl1+Gen+Short:эсенек K ;
+монсь+Pron+Refl+Pl1+Gen+Short:эсенек K ;
 тонсь+Pron+Refl+Sg2+Gen+Short:эсеть K ;
-тынсь+Pron+Refl+Pl2+Gen+Short:эсенк K ;
+тонсь+Pron+Refl+Pl2+Gen+Short:эсенк K ;
 сонсь+Pron+Refl+Sg3+Gen+Short:эсензэ K ;
-сынсь+Pron+Refl+Pl3+Gen+Short:эсест K ;
+сонсь+Pron+Refl+Pl3+Gen+Short:эсест K ;
 
 монсь+Pron+Refl+Sg1+Nom:монсь K ;
-минсь+Pron+Refl+Pl1+Nom:минсь K ;
+монсь+Pron+Refl+Pl1+Nom:минсь K ;
 тонсь+Pron+Refl+Sg2+Nom:тонсь K ;
-тынсь+Pron+Refl+Pl2+Nom:тынсь K ;
+тонсь+Pron+Refl+Pl2+Nom:тынсь K ;
 сонсь+Pron+Refl+Sg3+Nom:сонсь K ;
-сынсь+Pron+Refl+Pl3+Nom:сынсь K ;
+сонсь+Pron+Refl+Pl3+Nom:сынсь K ;
 
 
 
-эсь+Err/Orth+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсетне K ;
-эсь+Err/Orth+Orth/PhonInfl+Refl+Pron+Gen+PxSg2+Pl:эсетне _KUDO-PersPronGen_CX-2 ;
-эсь+Refl+Pron+Gen+PxSg2+Der/MWN+N+Pl+Nom+Def:эсеттне K ;
-эсь+Refl+Pron+Gen+PxSg2+Pl:эсеттне _KUDO-PersPronGen_CX-2 ;
+тонсь+Err/Orth+Pron+Refl+Sg2+Gen+Short+Der/MWN+N+Pl+Nom+Def:эсетне K ;
+тонсь+Err/Orth+Pron+Refl+Sg2+Gen+Short+Der/MWN+N+Pl+Pl:эсетне _KUDO-PersPronGen_CX-2 ;
+тонсь+Pron+Refl+Sg2+Gen+Short+Der/MWN+N+Pl+Nom+Def:эсеттне K ;
+тонсь+Pron+Refl+Sg2+Gen+Short+Der/MWN+N+Pl:эсеттне _KUDO-PersPronGen_CX-2 ;
 
-эсь+Err/Orth+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсестнэ K ;
-эсь+Err/Orth+Orth/PhonInfl+Refl+Pron+Gen+PxPl3+Pl:эсестнэ _KUDO-PersPronGen_CX-2 ;
-эсь+Refl+Pron+Gen+PxPl3+Der/MWN+N+Pl+Nom+Def:эсесттнэ K ;
-эсь+Refl+Pron+Gen+PxPl3+Pl:эсесттнэ _KUDO-PersPronGen_CX-2 ;
+сонсь+Err/Orth+Pron+Refl+Pl3+Gen+Short+Der/MWN+N+Pl+Nom+Def:эсестнэ K ;
+сонсь+Err/Orth+Pron+Refl+Pl3+Gen+Short+Der/MWN+N+Pl:эсестнэ _KUDO-PersPronGen_CX-2 ;
+сонсь+Pron+Refl+Pl3+Gen+Short+Der/MWN+N+Pl+Nom+Def:эсесттнэ K ;
+сонсь+Pron+Refl+Pl3+Gen+Short+Der/MWN+N+Pl:эсесттнэ _KUDO-PersPronGen_CX-2 ;
 !Dealing with short comings! need to be fixed
-эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Sg+Tra+Indef:эсетекс K ;
-эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Pl+Tra+Indef:эсетекс K ;
-эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Sg+Nom+Def:эсетесь K ;
-эсь+Pron+Refl+Gen+PxSg2+Der/MWN+N+Sg+Gen+Def:эсетенть K ;
-эсь+Pron+Refl+Dat+PxPl1+:эстенек K ;
-эстензэ+Pron+Refl+Dat:эсте PossPX1 ; 
+тонсь+Pron+Refl+Sg2+Gen+Der/MWN+N+Sg+Tra+Indef:эсетекс K ;
+тонсь+Pron+Refl+Sg2+Gen+Der/MWN+N+Pl+Tra+Indef:эсетекс K ;
+тонсь+Pron+Refl+Sg2+Gen+Der/MWN+N+Sg+Nom+Def:эсетесь K ;
+тонсь+Pron+Refl+Sg2+Gen+Der/MWN+N+Sg+Gen+Def:эсетенть K ;
+!2017-11-12эстензэ+Pron+Refl+Dat:эсте PossPX1 ; 
 
 !! Obligatory Possessor Index
 
@@ -212,7 +222,8 @@ LEXICON Pers_Pronouns1
 +Refl+Cmpr:%>нсешка PossPX1 ;
 +Refl+Dat:%>нсте PossPX1 ;
 
-+Gen+PxSg20@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@ _KAL-Tenses1 ;
+!2017-11-13+Gen+PxSg20@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@ OBL-WITH-COP_KAL ;
++Gen00@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@:%>нь@U.PossPx.Sg2@@C.TNUM@@N.TPERS.2@ OBL-WITH-COP_KAL ;
 +Err/Orth+Dial+PxSg3+Gen@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@:%>нзо@U.PossPx.Sg3@@C.TNUM@@N.TPERS.3@ _KUDO-Tenses1 ;
 
 +Abl:%>нде PersPron_PossPX ; 
@@ -328,7 +339,7 @@ LEXICON PersPron_PossPX
 
 ! This is preceded by a pronoun in the "+Gen"
 LEXICON _KAL-PersPronGen_CX
-@C.TPERS@@C.TNUM@ _KAL-Tenses1 ;
+@C.TPERS@@C.TNUM@ OBL-WITH-COP_KAL ;
 +Der/MWN+N: _KAL-PersPronGen_CX-1A ;
 +Der/MWN+N+Der/се+Pron+Dem@C.DNUM@@C.TPERS@@C.TNUM@:ьсе00@C.DNUM@@C.TPERS@@C.TNUM@ _KUDO-PersPronGen_CX-1A ;
 +Der/MWN+N+Der/се@C.DNUM@@C.TPERS@@C.TNUM@:%>се@C.DNUM@@C.TPERS@@C.TNUM@ _KUDO-PersPronGen_CX-1A ;
@@ -1067,6 +1078,7 @@ LEXICON PRON-DEM_TE
 +Pron+Dem+Sg+Ine+Indef:%>ньсэ K ;
 +Pron+Dem+Sg+Ill+Indef:%>ньс K ;
 +Pron+Dem+Sg+Ela+Indef:%>ньстэ K ;
++Pron+Dem+Sg+Abe+Indef:%>нтеме K ;
 
 LEXICON PRON-DEM_TEKE
 +Pron+Dem: _KUDO-Misc_Pronouns_Sg ;
@@ -1089,6 +1101,11 @@ LEXICON te-Dem
 LEXICON ne-Dem
 +Pron+Dem: Misc_Pronouns_Pl ;
 +Det+Dem+Attr: WORD-END ;
++Pron+Dem+Pl+Gen:%>нь K ;
++Pron+Dem+Pl+Dat:%>нень K ;
++Pron+Dem+Pl+Abl:%>дО1 K ;
++Pron+Dem+Pl+Ill:%>с K ;
+
 
 LEXICON PRON_KUDO
 +Pron+Qnt: NMN_KUDO ;
@@ -1109,9 +1126,9 @@ LEXICON PRON_KUDO
 
 LEXICON _KUDO-Misc_Pronouns_Sg
   _KUDO-Misc_Pronouns_Indef ;
-+Sg+Def+Nom:%>сь  _OSH-Tenses1_Prep-SG ;
-+Sg+Def+Gen:%>нть K ;
-+Sg+Def+Dat:%>нтень K ;
++Sg+Nom+Def:%>сь  _OSH-Tenses1_Prep-SG ;
++Sg+Gen+Def:%>нть K ;
++Sg+Dat+Def:%>нтень K ;
 +Sg+Prl+Def:%>Г2а _KUDO-SgDet-PossPx ;
 +Sg+Abe+Def:%>втО1мО1 _KUDO-SgDet-PossPx ;
 +Sg+Abl+Def:%>дО1 _KUDO-SgDet-PossPx ;
@@ -1145,7 +1162,7 @@ LEXICON _KUDO-SgDet-PossPx
 !LEXICON Misc_Pronouns_Indef
 !+Sg+Nom+Indef:  Tenses1_Prep-SG ;
 !+Abl+Indef:%>дО1 K ;
-!+Gen+Indef:%>нь _KAL-Tenses1 ; 
+!+Gen+Indef:%>нь OBL-WITH-COP_KAL ; 
 !+Dat+Indef:%>нень K ;
 !+Ill+Indef:%>с K ;
 !+Gen+Indef+Abl+Indef:%>нь%>стэ K ;
@@ -1164,7 +1181,7 @@ LEXICON _KUDO-SgDet-PossPx
 LEXICON _KUDO-Misc_Pronouns_Indef
 +Sg+Nom+Indef:0  _KUDO-Tenses1_Prep-SG ;
 +Abl+Indef:%>дО1 K ;
-+Gen+Indef:%>нь _KAL-Tenses1 ; 
++Gen+Indef:%>нь OBL-WITH-COP_KAL ; 
 +Dat+Indef:%>нень K ;
 +Ill+Indef:%>с K ;
 +Gen+Indef+Abl+Indef:%>нь%>стэ K ;
