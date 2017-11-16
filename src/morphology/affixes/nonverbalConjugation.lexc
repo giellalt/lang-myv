@@ -3,6 +3,42 @@
 !! In the Erzya language nominals and adverbs also conjugate
 
 
+!! Used with deverbals
+
+!testingbegin
+!used with genitive
+LEXICON OBL-WITH-COP_KAL
+ OBL-WITH-COP_KAL-Sg ;
+ OBL-WITH-COP_KAL-Pl ;
+
+LEXICON OBL-WITH-COP_KAL-Sg
+K ;
++Clt/Cop+Prs+ScSg3: K ;
++Clt/Cop: OBL-WITH-COP_KAL-Sg-noClt ;
+
+LEXICON OBL-WITH-COP_KAL-Sg-noClt
++Prs+ScSg1:%>А2н K ;
++Prs+ScSg2:%>А2т K ;
++Prt2+ScSg1:%>%{ОЕЭØ%}линь K ;
++Prt2+ScSg2:%>%{ОЕЭØ%}лить K ;
++Prt2+ScSg3:%>%{ОЕЭØ%}ль K ;
+
+LEXICON OBL-WITH-COP_KAL-Pl
++Clt/Cop: OBL-WITH-COP_KAL-Pl-noClt ;
+
+LEXICON OBL-WITH-COP_KAL-Pl-noClt
++Prs+ScPl1:%>тА2но K ;
++Prs+ScPl2:%>тА2до K ;
++Prs+ScPl3: K ;
++Prt2+ScPl1:%>%{ОЕЭØ%}линек K-lak ;
++Prt2+ScPl2:%>%{ОЕЭØ%}лиде K ;
++Prt2+ScPl3:%>%{ОЕЭØ%}льть K ;
+
+
+!testngend
+
+
+
 LEXICON CLT/COP4_OBL
 !! This is where adjectives get their plural T.
  CLT/COP_SG ;
