@@ -284,6 +284,8 @@ LIST Pl1 = Pl1 ;
 LIST Pl2 = Pl2 ;
 LIST Pl3 = Pl3 ;
 
+LIST PERSON = Sg1 Sg2 Sg3 Pl1 Pl2 Pl3 ;
+
 LIST Inf = Inf ;
 LIST ConNeg = ConNeg ;
 LIST ConNegII = ConNegII ;
@@ -331,10 +333,21 @@ LIST <vdic> = <vdic> ;
 
 LIST PESHKSE = "пешксе" ;
 LIST MARTO = "марто" ;
+LIST JALGA = "ялга" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
 LIST NONSENSESURANT = "Ней" ;
-LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; # This will be expanded for homonymy at first
+LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; #!! This will be expanded for homonymy at first
+
+LIST TEMPORALNOUN = "буря" "валдо" "валске" "варма" "ве" "давол" "ёндол" "ие" "истямо" "кизэ" "ков" "минута" "пиземе" "пизем" "пинге" "погода" "пора" "пси" "раз" "рудаз" "сув" "тундо" "чадыведь" "чи" "чопода" "шка" "якшам" "якшамо" ; #!! This will be expanded for homonymy at first, i.e., diminutives
+SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
+
+LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо" "лов" "максо" "ниле" "пандо" "пона" "ранг" "сал" ; #!!This will be expanded for homonymy at first. This is not a final solution 
+
+LIST KINTERM = "ава" "тетя" ;
+
+SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
+
 
 LIST APAK = "апак" ;
 
@@ -417,10 +430,21 @@ REMOVE DerGenAttr IF (0 N + SP + Gen) ;
 #Ды те истя улияк.
 
 ## Nouns
-REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
+
+#Vocative
+SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
+
+#REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
+REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT-KINTERM) ;
 
 #Молян верев.
-REMOVE NONLATIVENOUN (0  N + SP + Lat) ;
+REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
+
+#
+REMOVE:NotTemp TempCx (0 N + Sg + Nom + Indef OR N + Pl + Nom + Def) (0 NOT-TEMPORALNOUN) ;
+
+#Ранган
+REMOVE:NotCop12Pers NOTFIRSTSECONDCOPULA (0 Ind + Prs + SCPERSON12 OR Ind + Prt2 + SCPERSON12 ) ;
 
 #валдодо пешксе
 REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
@@ -442,6 +466,9 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # Verbs
 # Кудонть потс кадовсть ансяк
 REMOVE Der/ОвОмс IF (0 V + IV) ;
+
+# тынь эзимизь кадо
+SELECT ScPl2 IF (-1 Pron + Pers + Pl2 + Nom) (0 V) ;
 
 # эзинь прядо
 SELECT ConNeg IF (-1 Aux + Neg ) ;
@@ -526,3 +553,14 @@ REMOVE ConNeg IF (1C V + SCPERSON ) ;
 
 # actprcshort
 REMOVE Der/Ы IF (0 SCPERSON) (1 Adv) ;
+
+## Adpositions
+
+# тыньгак каршо а ультядо
+REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;
+
+# сюконякшнось партизантнэнь каршо
+SELECT Adp (-1 N + Pl + Gen OR N + Sg + Gen OR N + Sg + Nom + Indef OR N + SP + Gen ) ;
+
+# васттано тынк марто
+REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
