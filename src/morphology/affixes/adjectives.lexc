@@ -36,23 +36,23 @@ LEXICON A_VEJKET1-PL
  A_KIT ;
 
 LEXICON A_KIT
-+A+Attr: K ;
+!+A+Attr: K ;
 +A+Clt/Cop+Prs+ScSg3: K ;
 +A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _KIT-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_KIT ;
+!+A+Pl:%>тЬ2 K ;
++A: NMN_KIT ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_LAK
-+A+Attr: K ;
+!+A+Attr: K ;
 +A+Clt/Cop+Prs+ScSg3: K ;
 +A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _LAK-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_LAK ;
+!+A+Pl:%>тЬ2 K ;
++A: NMN_LAK ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_KAL_Sub
@@ -60,67 +60,67 @@ LEXICON A_KAL_Sub
 
 LEXICON A_KAL
  ADJ-TO-ADV ;
-+A+Attr: K ;
+!+A+Attr: K ;
 +A+Clt/Cop+Prs+ScSg3: K ;
 +A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 +A+Pl: _KAL-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_KAL ;
+!+A+Pl:%>тЬ2 K ;
++A: NMN_KAL ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_OSH
  ADJ-TO-ADV ;
-+A+Attr: K ;
+!+A+Attr: K ;
 +A+Clt/Cop+Prs+ScSg3: K ;
 +A: CLT/COP4_OBL ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+A+Pl: _KAL-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 K ;
-+A+Der/MWN: N_OSH ;
+!+A+Pl:%>тЬ2 K ;
++A: NMN_OSH ;
 +A:%> N2Dem-SE ;
 
 LEXICON A_TESHTE
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_PANGO ;
++A: NMN_PANGO ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON A_CHUVTO
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_PANGO ;
++A: NMN_PANGO ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON A_TINGE
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_PANGO ;
++A: NMN_PANGO ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON A_PANGO
 :О1 ADJ-TO-ADV ;
  ADJ-TO-ADV ;
 :О1 Adj-pango-tinge ;
-+A+Der/MWN: N_PANGO ;
++A: NMN_PANGO ;
 +A:О1%> N2Dem-SE ;
 
 LEXICON Adj-pango-tinge
-+A+Attr: K ;
+!+A+Attr: K ;
 +A+Clt/Cop+Prs+ScSg3: K ;
 +A: _PANGO-NomSg-Conjugation ;
 +A+Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 +A+Pl: _PANGO-NomPl-Conjugation-only ;
-+A+Pl:%>тЬ2 K ;
+!+A+Pl:%>тЬ2 K ;
 
 LEXICON ActDemPrc-A
 +Der/Ыця+Act+DemPrc:%>%{иы%}ця K ;
-+Der/Ыця+Act+DemPrc+Sg:%>%{иы%}ця K ;
-+Der/Ыця+Act+DemPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
-+Der/Ыця+Act+DemPrc+Der/MWN:%>%{иы%}ця N_KUDO ;
+!+Der/Ыця+Act+DemPrc+Sg:%>%{иы%}ця K ;
+!+Der/Ыця+Act+DemPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
++Der/Ыця+Act+DemPrc:%>%{иы%}ця NMN_KUDO ;
 
 
 LEXICON A_VELE
@@ -130,7 +130,7 @@ LEXICON A_VELE
 
 LEXICON A_KUDO
  ADJ-TO-ADV ;
-+A+Attr: K ;
+!+A+Attr: K ;
 +A+Clt/Cop+Prs+ScSg3: K ;
 !+A+Pl:%>тЬ2 K ;
 +A: A_KUDO_01 ;
@@ -141,8 +141,8 @@ LEXICON A_KUDO_01
  CLT/COP4_OBL ; !! 2013-04-17
 +Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
 !2013-03-15!+Pl: _KUDO-NomPl-Conjugation-only ;
-+Pl:%>тЬ2 K ;
-+Der/MWN: N_KUDO ;
+!+Pl:%>тЬ2 K ;
+: NMN_KUDO ;
 
 
 !LEXICON Adj-InterrRel ! кодамо
@@ -154,24 +154,24 @@ LEXICON A-IS-INTERR/REL-ADJ_KODAMO !! кодамо:кода
 +A+Rel: ADJ_KODAMO ;
 LEXICON ADJ_KODAMO !! кодамо:кода
 +Sg+Nom+Indef:мо # ;
-+Der/MWN:м N_PANGO-Def-Declension ;
-+Der/MWN:м _PANGO-Indef-Declension ;
-+Der/MWN:мо N_PANGO-Poss-Declension-CX ;
-+Der/MWN: NMN_DEF-PL-DECLENSION-TNE2 ;
+:м N_PANGO-Def-Declension ;
+:м _PANGO-Indef-Declension ;
+:мо N_PANGO-Poss-Declension-CX ;
+: NMN_DEF-PL-DECLENSION-TNE2 ;
 
 
 LEXICON DET_KUDO
-+Det: K ;
-+Det+Sg: K ;
-+Det+Pl:%>тЬ2 K ;
-+Det+Der/MWN: N_KUDO ;
+!+Det: K ;
+!+Det+Sg: K ;
+!+Det+Pl:%>тЬ2 K ;
++Det: NMN_KUDO ;
 
 
 LEXICON DET_OSH
-+Det+Attr: K ;
-+Det+Sg: K ;
-+Det+Pl:%>тЬ2 K ;
-+Det+Der/MWN: N_OSH ;
+!+Det+Attr: K ;
+!+Det+Sg: K ;
+!+Det+Pl:%>тЬ2 K ;
++Det: NMN_OSH ;
 
 
 !LEXICON Adj-Dem ! истямо
