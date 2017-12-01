@@ -56,21 +56,21 @@ LEXICON PO_POSS-or-END-FOC-CLT/COP-SC3
  POSSX4-END-FOC-CLT/COP-SC3 ;
 
 
-LEXICON PO-IS-ABL
+!LEXICON PO-IS-ABL
 !! postposition that is in ablative case
 !! алдо:алдо
-+Adp+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Adp+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-LEXICON PO-IS-ELA
+!LEXICON PO-IS-ELA
 !! postposition that is in elative case
 !! потсто:потсто
-+Adp+Ela: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Adp+Ela: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-LEXICON PO-IS-ILL-STEM
+!LEXICON PO-IS-ILL-STEM
 !! postposition that is in illative case
 !! эземс:эзем
-+Adp+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-+Adp+Ill:%>с K ;
+!+Adp+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Adp+Ill:%>с K ;
 
 LEXICON PO-IS-ILL-STEM_E2JS
 !! postposition that is in illative case
@@ -82,34 +82,33 @@ LEXICON PO-IS-ILL-STEM_E2JS
 
 LEXICON PO-IS-INE
 !! postposition that is in inessive case
-!! потсо:потсо
+!! эйсэ:эйсэ
 +Adp+Ine: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-LEXICON PO-IS-LAT-STEM
+LEXICON PO-SPAT-IS-LAT
 !! postposition that is in lative case
-!! алов:ало
-+Adp+Lat: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-+Adp+Lat:в K ;
+!! ютков:ютков
++Adp+Spat+Lat: K ;
 
-LEXICON PO-IS-LOC
+!LEXICON PO-IS-LOC
 !! postposition that is in locative case
 !! ало:ало
-+Adp+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Adp+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-LEXICON PO-IS-PRL
+!LEXICON PO-IS-PRL
 !! postposition that is in prolative case
 !! перька:перька
-+Adp+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Adp+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
 !!
 LEXICON PO-SPAT_
 !! postposition that has no continuation пачк
 +Adp+Spat: K ;
 
-!LEXICON PO-SPAT-IS-ABL
+LEXICON PO-SPAT-IS-ABL
 !! postposition that is in ablative case
 !! алдо:алдо
-!+Adp+Spat+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Adp+Spat+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
 LEXICON PO-SPAT-IS-ELA
 !! postposition that is in elative case
@@ -121,6 +120,13 @@ LEXICON PO-SPAT-IS-ILL-STEM
 !! малас:мала
 +Adp+Spat+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Adp+Spat+Ill:%>с K ;
+
+LEXICON PO-SPAT-IS-ILL-STEM_E2KSHS
+!! postposition that is in illative case
+!! малас:мала
++Adp+Spat+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Adp+Spat+Ill:%>с K ;
++Adp+Spat+Ill:%>О1с K ;
 
 !LEXICON PO-SPAT-IS-ILL-STEM_POTS
 !! postposition that is in illative case
@@ -141,16 +147,16 @@ LEXICON PO-SPAT-IS-INE
 !! потсо:потсо
 +Adp+Spat+Ine: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-!LEXICON PO-SPAT-IS-LAT-STEM
+LEXICON PO-SPAT-IS-LAT-STEM
 !! postposition that is in lative case
 !! алов:ало
-!+Adp+Spat+Lat: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Adp+Spat+Lat:в K ;
++Adp+Spat+Lat: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Adp+Spat+Lat:в K ;
 
-!LEXICON PO-SPAT-IS-LOC
+LEXICON PO-SPAT-IS-LOC
 !! postposition that is in locative case
 !! ало:ало
-!+Adp+Spat+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Adp+Spat+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
 LEXICON PO-SPAT-IS-PRL
 !! postposition that is in prolative case

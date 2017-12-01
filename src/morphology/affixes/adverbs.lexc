@@ -56,6 +56,9 @@ LEXICON Ad-A_ !
 LEXICON ADV_ ! 
 +Adv: K ;
 
+LEXICON ADV-EVID-NFH_ !келя 
++Adv+EvidNfh: K ;
+
 LEXICON GER_
 +Ger: K ;
 +Ger+Der+Der/MWN: N_OSH ;
@@ -77,13 +80,22 @@ LEXICON ADV-TEMP_IS-TEMP
 +Adv+Temp: K ;
 
 LEXICON ADV-TEMP-ITER
-+Adv+Temp+Mult: K ;
++Adv+Temp+Iter: K ;
 
 LEXICON ADV-TEMP_
 +Adv+Temp: K ;
 
 LEXICON ADV-SPAT_ !!= @CODE@ пачк
 +Adv+Spat: K ;
+
+LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
++Adv+Spat+Abl: K ;
+
+LEXICON ADV-SPAT-IS-LAT !!= @CODE@ алов
++Adv+Spat+Lat: K ;
+
+LEXICON ADV-SPAT-IS-LOC !!= @CODE@ ало
++Adv+Spat+Loc: K ;
 
 LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
 +Adv+Spat+Prl: K ;
@@ -139,11 +151,11 @@ LEXICON Adv_Phrase !
 +Adv: WORD-END ;
 
 LEXICON ADV-IDEOPH ! 
-+Adv-Ideoph: K ;
++Adv+Ideoph: K ;
 ! сорк, кальцк ; twang, thwang, bang
 
 LEXICON ADV-IDEOPH-IS-INE ! 
-+Adv-Ideoph+Ine: K ;
++Adv+Ideoph+Ine: K ;
 
 LEXICON ADV-INDEF_
 +Adv+Indef: K ;
@@ -256,14 +268,14 @@ LEXICON SPAT-Ela
 !+Adp+Spat+Ela: _KUDO-Possessive-Before-K ;
 
 LEXICON SPAT-Ine
-+Spat+Ine: K ;
++Adv+Spat+Ine: K ;
 !+Adp+Spat+Ine: _KUDO-Possessive-Before-K ;
 
 LEXICON SPAT-Lat
-+Spat+Lat: K ;
++Adv+Spat+Lat: K ;
 
 LEXICON SPAT-Prl
-+Spat+Prl: K ;
++Adv+Spat+Prl: K ;
 !+Adp+Spat+Prl: _KUDO-Possessive-Before-K ;
 
 !!Temporal tags with cases
@@ -282,10 +294,10 @@ LEXICON Temp-Distr
 +Adv+Temp+Distr: K ;
 
 LEXICON Temp-Ela
-+Ela+Adv+Temp: K ;
++Adv+Temp+Ela: K ;
 
 LEXICON Temp-Ill
-+Ill+Adv+Temp: K ;
++Adv+Temp+Ill: K ;
 
 LEXICON Temp-Indef
 +Adv+Temp+Indef: K ;
@@ -297,13 +309,13 @@ LEXICON Temp-Lat
 +Adv+Temp+Lat: K ;
 
 LEXICON Temp-ms
-+Der/мс+Adv+Temp+Ill: K ;
++Adv+Der/мс+Temp+Ill: K ;
 
 LEXICON Temp-Pl
-+Pl+Adv+Temp: K ;
++Adv+Temp+Pl: K ;
 
 LEXICON Temp-Prl
-+Prl+Adv+Temp: K ;
++Adv+Temp+Prl: K ;
 
 LEXICON ADV-TEMP_LAK
 +Adv+Temp: K ;
