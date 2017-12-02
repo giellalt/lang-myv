@@ -61,16 +61,16 @@ LEXICON PO_POSS-or-END-FOC-CLT/COP-SC3
 !! алдо:алдо
 !+Adp+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-!LEXICON PO-IS-ELA
+LEXICON PO-IS-ELA
 !! postposition that is in elative case
 !! потсто:потсто
-!+Adp+Ela: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Adp+Ela: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-!LEXICON PO-IS-ILL-STEM
+LEXICON PO-IS-ILL-STEM
 !! postposition that is in illative case
 !! эземс:эзем
-!+Adp+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Adp+Ill:%>с K ;
++Adp+Ill:%>О1з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Adp+Ill:%>с K ;
 
 LEXICON PO-IS-ILL-STEM_E2JS
 !! postposition that is in illative case
@@ -90,15 +90,20 @@ LEXICON PO-SPAT-IS-LAT
 !! ютков:ютков
 +Adp+Spat+Lat: K ;
 
+LEXICON PO-IS-LAT-STEM
+!! postposition that is in lative case
+!! ютков:ютков
++Adp+Lat:%>в K ;
+
 !LEXICON PO-IS-LOC
 !! postposition that is in locative case
 !! ало:ало
 !+Adp+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
-!LEXICON PO-IS-PRL
+LEXICON PO-IS-PRL
 !! postposition that is in prolative case
 !! перька:перька
-!+Adp+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Adp+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
 !!
 LEXICON PO-SPAT_

@@ -102,6 +102,13 @@ Alphabet
 Н1:к
 Н1:н
 
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+
 ! Some verbs need a marker for vowel placement
 !Used before Conjuntive ending
 !V1:е !
@@ -117,10 +124,13 @@ VLoss:0
 %^WLoss:0
 NoVLoss:0
 
+— ! emdash
 %- !Hyphen with constructions like "-buti"
 %>
+%<
 #
 « »
+
 ;
 
 
