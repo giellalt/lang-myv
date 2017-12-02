@@ -333,6 +333,10 @@ LIST <vdic> = <vdic> ;
 
 LIST PESHKSE = "пешксе" ;
 LIST MARTO = "марто" ;
+LIST PERSPRONSG = "мон" "тон" "сон" "монсь" "тонсь" "сонсь" ;
+LIST PERSPRONPL = "минь" "тынь" "сынь" "минсь" "тынсь" "сынсь" ;
+LIST ULEMS = "улемс" ;
+LIST ULYNEMS = "ульнемс" ;
 LIST JALGA = "ялга" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
@@ -467,6 +471,12 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # Кудонть потс кадовсть ансяк
 REMOVE Der/ОвОмс IF (0 V + IV) ;
 
+# улить
+REMOVE Prt1 IF (0 ULEMS) ; 
+
+# ульнить
+REMOVE Prs IF (0 ULYNEMS) ; 
+
 # тынь эзимизь кадо
 SELECT ScPl2 IF (-1 Pron + Pers + Pl2 + Nom) (0 V) ;
 
@@ -553,6 +563,11 @@ REMOVE ConNeg IF (1C V + SCPERSON ) ;
 
 # actprcshort
 REMOVE Der/Ы IF (0 SCPERSON) (1 Adv) ;
+
+## Pronouns
+
+# remove plural stems
+REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 
 ## Adpositions
 

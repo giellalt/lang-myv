@@ -203,6 +203,14 @@ LEXICON IS-NUM-CARD-COLL
 !! кавонст
 +Num+Card+Coll: WORD-END ;
 
+LEXICON IS-NUMORD_KUDO
+!!-це
++Num+Ord: NMN_KUDO ;
+
+LEXICON IS-NUMORD_OSH
+!!-тькс
++Num+Ord: NMN_OSH ;
+
 LEXICON IS-NUM-ORD-COLL
 !! омбонст
 +Num+Ord+Coll:	WORD-END ;
@@ -254,8 +262,8 @@ LEXICON ORD-IMPRF_
 ! васенцеде advmod:multimprf > advmod:ordimprf
 
 LEXICON ORD_KUDO
-+Num+Ord: K ;
-+Num+Ord+Der/MWN: N_KUDO ;
+!+Num+Ord: K ;
++Num+Ord: NMN_KUDO ;
 
 LEXICON ORD_OSH
 +Num+Ord: K ;

@@ -54,7 +54,7 @@ LEXICON Punctuation
 
 
         %"+PUNCT:%"      # ;
-   «+PUNCT+RIGHT:«7      # ;
+   «+PUNCT+LEFT:«7      # ;
    »+PUNCT+RIGHT:»7      # ;
    %“+PUNCT+LEFT:%“      # ;
   %”+PUNCT+RIGHT:%”      # ;
@@ -69,5 +69,5 @@ LEXICON Punctuation
    %{+PUNCT+LEFT:%{      # ;
   %}+PUNCT+RIGHT:%}      # ;
    %<+PUNCT+LEFT:%[%<%]  # ;
-   %>+PUNCT+LEFT:%[%>%]  # ;
+   %>+PUNCT+RIGHT:%[%>%]  # ;
 

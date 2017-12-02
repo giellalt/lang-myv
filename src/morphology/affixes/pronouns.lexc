@@ -9,6 +9,12 @@
 !  Person morphological lexica !
 ! ============================= !
 
+LEXICON PRON-PERS_
++Pron+Pers: K ;
+LEXICON	PRON-REFL_
++Pron+Refl: K ;
+
+
 LEXICON PRON-PERS-DAT
 +Pron+Pers+Dat: POSSX4-END-DAT ;
 
@@ -55,6 +61,9 @@ LEXICON PRON-INTERR-OBJ_MEZE-OBL
 +Ine:%>с%{оэØ%} WORD-END ;
 +Prl:%>ва WORD-END ;
 +Tra:%>кс WORD-END ;
+
+LEXICON PRON-INDEF_
++Pron+Indef: K ;
 
 LEXICON PRON-INTERR-OBJ_MEZE_IS-PL-NOM-INDEF
 +Pron+Interr+Pl+Nom+Indef: WORD-END ;
@@ -1076,6 +1085,23 @@ LEXICON PRON-SPAT-PRL_4-PX !!= * __@CODE@__ эзга-
 !+Adn: WORD-END ;
 ! PossPX1-NomSg ; !2012-08-09 Removing NomGen
 !+Gen: PossPX1 ; !2012-08-09 Removing NomGen
+
+LEXICON IS-PRON-DEM-SG-ABL-INDEF
++Pron+Dem+Sg+Abl+Indef: K ;
+LEXICON IS-PRON-DEM-SG-ELA-INDEF
++Pron+Dem+Sg+Ela+Indef: K ;
+LEXICON IS-PRON-DEM-SG-INE-INDEF
++Pron+Dem+Sg+Ine+Indef: K ;
+
+LEXICON IS-PRON-DEM-PL-DAT-INDEF
++Pron+Dem+Pl+Dat+Indef: K ;
+
+LEXICON IS-PRON-DEM-PL-NOM-INDEF
++Pron+Dem+Pl+Nom+Indef: K ;
+
+LEXICON IS-PRON-DEM-PL-NOM-DEF
++Pron+Dem+Pl+Nom+Def: K ;
+
 
 LEXICON PRON-DEM_TE
 +Pron+Dem+Sg+Nom+Indef: K ;
