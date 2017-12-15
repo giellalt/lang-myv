@@ -136,6 +136,7 @@ LIST Rel = Rel ;
  
 LIST Adp = Adp ;
 
+LIST AssocColl = AssocColl;
 LIST Coll = Coll ;
 LIST NomAg = NomAg ;
 LIST G3 = G3 ;
@@ -331,8 +332,11 @@ LIST Clt/Cop = Clt/Cop ;
 
 LIST <vdic> = <vdic> ;
 
-LIST PESHKSE = "пешксе" ;
+LIST KUROK = "курок" ;
 LIST MARTO = "марто" ;
+LIST PESHKSE = "пешксе" ;
+LIST SEDE = "седе" ;
+LIST CARDNUM = "вейке" "кавто" "колмо" "ниле" "вете" "кото" ;
 LIST PERSPRONSG = "мон" "тон" "сон" "монсь" "тонсь" "сонсь" ;
 LIST PERSPRONPL = "минь" "тынь" "сынь" "минсь" "тынсь" "сынсь" ;
 LIST ULEMS = "улемс" ;
@@ -341,12 +345,16 @@ LIST JALGA = "ялга" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
 LIST NONSENSESURANT = "Ней" ;
-LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; #!! This will be expanded for homonymy at first
+LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; #!! This will be expanded for homonymy at first
 
 LIST TEMPORALNOUN = "буря" "валдо" "валске" "варма" "ве" "давол" "ёндол" "ие" "истямо" "кизэ" "ков" "минута" "пиземе" "пизем" "пинге" "погода" "пора" "пси" "раз" "рудаз" "сув" "тундо" "чадыведь" "чи" "чопода" "шка" "якшам" "якшамо" ; #!! This will be expanded for homonymy at first, i.e., diminutives
 SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
 LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо" "лов" "максо" "ниле" "пандо" "пона" "ранг" "сал" ; #!!This will be expanded for homonymy at first. This is not a final solution 
+
+LIST VERBWITHMO = "арсемс" "кармамс" "мадемс" "озамс" ; #!!озамс ярсамо
+
+LIST VERBWITHMODS = "озавтомс" ; #!!озавтомс ярсамо
 
 LIST KINTERM = "ава" "тетя" ;
 
@@ -441,6 +449,13 @@ SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
 #REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
 REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT-KINTERM) ;
 
+#Genitive readings
+
+#Микол таргизе кисетэнзэ.
+#REMOVE Nom (*-1C Nom) (0 Gen) ; too powerful
+
+
+
 #Молян верев.
 REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
 
@@ -453,9 +468,18 @@ REMOVE:NotCop12Pers NOTFIRSTSECONDCOPULA (0 Ind + Prs + SCPERSON12 OR Ind + Prt2
 #валдодо пешксе
 REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
 
+## Numerals
+
+# "кавто" Num AssocColl PxPl3
+REMOVE CARDNUM (0 AssocColl ) ;
+
+
 ## Adjectives
 # ковгак
 REMOVE:NotAdvInterrIfAdvIndef Adv + Interr IF (0 Adv + Indef ) ;
+
+# седе мазы, седе мазыстэ
+REMOVE:NotCompN N (-1 SEDE ) ;
 
 #Цёрась сон а берянь.
 REMOVE:NotAttrAtEOS Attr (1 EOS) ;
@@ -498,8 +522,15 @@ REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
 # невтемстэ
 REMOVE Der/ОвтОмс IF (0 V + TV) ;
 
+# озась ярсамо
+SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN)) ;
+
+
 #молить V TV Der/Ы Der/NomAg N Pl Gen PxSg2
 REMOVE Der/Ы + Der/NomAg IF (0 PXPERSON) ;
+
+# седе курок
+REMOVE N IF (0 KUROK) (-1 SEDE) ;
 
 #согласясь мартонзо
 REMOVE N IF (0 MARTO) (0 PXPERSON) ;

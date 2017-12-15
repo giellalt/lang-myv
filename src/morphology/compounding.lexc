@@ -14,15 +14,22 @@ LEXICON NounEnd_K-lak
  NounEnd ;
 
 LEXICON NounEnd
-+CollN+Use/Circ+Cmp%-#@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@:000%-#@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@ N_myv2x ;
-+CollN+Use/Circ+Cmp%-#@R.DECL-NX.SP@@D.HYPH-COMBO.ACRO@:000%-#@R.DECL-NX.SP@@D.HYPH-COMBO.ACRO@ N_myv2x ;
++CollN+Use/Circ+Cmp/Hyph#@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@:000%-@R.DECL-NX.PL@@D.HYPH-COMBO.ACRO@ N_myv2x ;
++CollN+Use/Circ+Cmp/Hyph#@R.DECL-NX.SP@@D.HYPH-COMBO.ACRO@:000%-@R.DECL-NX.SP@@D.HYPH-COMBO.ACRO@ N_myv2x ;
 !+Use/Circ+Cmp%-#@D.HYPH-COMBO.ACRO@:%-#@D.HYPH-COMBO.ACRO@ N_myv2x ;
 
 !!
+LEXICON VerbEnd_deraj
++Clt/Cond:%>деряй K ; !CHECKME 2017-12-13 а лисятдеряй
+VerbEnd_K ;
+
 LEXICON VerbEnd_K
  K ;
  VerbEnd ;
 
+LEXICON VerbEnd_deraj-lak
++Clt/Cond:%>деряй K	; !CHECKME 2017-12-13 а лисятдеряй
+VerbEnd_K-lak ;
 LEXICON VerbEnd_K-lak
  K-lak ;
  VerbEnd ;
@@ -30,5 +37,5 @@ LEXICON VerbEnd_K-lak
 LEXICON VerbEnd
  WORD-END ;
 !+SerialVerb+Use/Circ+Cmp%-#:%-# verbs ;
-+SerialVerb+Use/Circ+Cmp%-@D.HYPH-COMBO.ACRO@:00%-#@D.HYPH-COMBO.ACRO@ verbs ;
++SerialVerb+Use/Circ+Cmp/Hyph#@D.HYPH-COMBO.ACRO@:000%-@D.HYPH-COMBO.ACRO@ verbs ;
 
