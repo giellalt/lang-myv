@@ -216,8 +216,10 @@ LEXICON IS-NUM-ORD-COLL
 +Num+Ord+Coll:	WORD-END ;
 
 LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
-+Num+AssocColl: PossPX1 ;
-+Err/Orth+Num+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
+!! кавонест is a pronoun like the Finnish molemmat
+!! This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
++Pron+AssocColl: PossPX1 ;
++Err/Orth+Pron+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
@@ -235,7 +237,8 @@ LEXICON Cards-1-2
 
 
 LEXICON Assoc-Coll
-+Qnt+AssocColl: N_KUDO-Poss-Declension-PossX ;
+!! кавксоненек
++Pron+AssocColl: N_KUDO-Poss-Declension-PossX ;
 
 LEXICON IS-ADV-ITER !!аламоксть
 +Adv+Iter: K ;
@@ -284,8 +287,8 @@ LEXICON QNT_KUDO
 +Det+Qnt: NMN_KUDO ;
 +Det+Qnt: CLT/COP4_OBL-SC3 ; ! ламольть
 
-LEXICON QNT-ADN
-+Det+Qnt+Adn: WORD-END ;
+LEXICON NUM-ADN
++Num+Adn: WORD-END ; !! Numeral with a range limitation to adnominal phrase
 
 LEXICON QNT-DISTR
 +Det+Qnt+Distr: K ;

@@ -116,6 +116,9 @@ LEXICON Adj-pango-tinge
 +A+Pl: _PANGO-NomPl-Conjugation-only ;
 !+A+Pl:%>тЬ2 K ;
 
+LEXICON A-ADN
++A+Adn: WORD-END ;
+
 LEXICON ActDemPrc-A
 +Der/Ыця+Act+DemPrc:%>%{иы%}ця K ;
 !+Der/Ыця+Act+DemPrc+Sg:%>%{иы%}ця K ;
@@ -154,11 +157,12 @@ LEXICON A-IS-INTERR/REL-ADJ_KODAMO !! кодамо:кода
 +A+Rel: ADJ_KODAMO ;
 LEXICON ADJ_KODAMO !! кодамо:кода
 +Sg+Nom+Indef:мо # ;
++Pl+Nom+Indef:т # ;
 :м N_PANGO-Def-Declension ;
 :м _PANGO-Indef-Declension ;
 :мо N_PANGO-Poss-Declension-CX ;
-: NMN_DEF-PL-DECLENSION-TNE2 ;
-
+: NMN_DEF-PL-DECLENSION-TNE2 ; !! кодатнэ
+NMN_DEF-PL-DECLENSION ; !! кодатне 
 
 LEXICON DET_KUDO
 !+Det: K ;
