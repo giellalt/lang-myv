@@ -106,7 +106,7 @@ LEXICON PRON-PERS-PL2_IS-INTENSIVE
 +Pron+Pers+Pl2+Refl+Nom: WORD-END ;
 
 LEXICON PERS
-мон+Pron+Pres+Sg1+Dat+Short:тень K ;
+мон+Pron+Pers+Sg1+Dat+Short:тень K ;
 мон+Pron+Pers+Pl1+Dat+Short:тенек K ;
 тон+Pron+Pers+Sg2+Dat+Short:теть K ;
 тон+Pron+Pers+Sg2+Dat+Short:тенть K ;
@@ -879,9 +879,7 @@ LEXICON INDEF_PRONOUNS-WITH-SUF
 
 
 
-мезеяк+Pron:мезь _OSH-Indef_Pronouns-Cases ;
-!мезеяк+Pron:мезИ3 Indef_Pronouns-Cases ;
-!мезеяк+Pron:мейИ3 Indef_Pronouns-Cases ;
+!мезеяк+Pron:мезь _OSH-Indef_Pronouns-Cases ;
 !мезеяк+Pron+Com:мезнек WORD-END ;
 
 кияк+Pron+Indef+Sg+Nom:кие INDEF-IN-GAK ; 
@@ -1273,9 +1271,7 @@ LEXICON REL/INTERR_PRONOUNS
 зняро+Adv+Rel:зняро Indef_Pronouns-Cases ;
 зяро+Adv+Rel:зяро _KUDO-Indef_Pronouns-Cases ;
 
-кодамо+A+Rel+Nom+Sg:кодамо WORD-END ;
-кодамо+A+Rel+Nom+Pl:кодат WORD-END ;
-кодамо+A+Rel+Pl+Nom+Def:кодатнэ WORD-END ;
+!кодамо+A+Rel+Pl+Nom+Def:кодатнэ WORD-END ;
 !2017-11-05кона+Det+Rel+Nom+Sg:кона WORD-END ;
 мезе+Pron+Rel+Sg+Nom+Indef:мезе WORD-END ;
 !мезень+Pron+Rel+Gen:мезень WORD-END ;
@@ -1292,8 +1288,6 @@ LEXICON REL/INTERR_PRONOUNS
 
 мезе+Pron+Rel:мезь REL/INTERR-PRON-CASES_OSH ;
 
-!кодамо+A+Rel+Pl:кодатнэ Indef_Pronouns-Cases ;
-!кодамо+A+Rel:кодам Indef_Pronouns-Cases ;
 
 кона+Det+Rel:кона REL/INTERR-PRON-CASES ;
 
@@ -1321,9 +1315,6 @@ LEXICON REL/INTERR_PRONOUNS
 зняро+Adv+Interr:зняро WORD-END ;
 зяро+Adv+Interr:зяро WORD-END ;
 
-кодамо+A+Interr+Nom+Sg:кодамо WORD-END ;
-кодамо+A+Interr+Nom+Pl:кодат WORD-END ;
-кодамо+A+Interr+Pl+Nom+Def:кодатнэ WORD-END ;
 !2017-11-05кона+Det+Interr+Nom+Sg:кона WORD-END ;
 мезе+Pron+Interr+Sg+Nom+Indef:мезе WORD-END ;
 !мезень+Pron+Interr+Gen:мезень WORD-END ;
@@ -1339,9 +1330,6 @@ LEXICON REL/INTERR_PRONOUNS
 мезе+Pron+Interr+Com:мезнек WORD-END ;
 
 мезе+Pron+Interr:мезь REL/INTERR-PRON-CASES_OSH ;
-
-!кодамо+Pron+Interr+Pl:кодатнэ Indef_Pronouns-Cases ;
-!кодамо+A+Interr:кодам Indef_Pronouns-Cases ;
 
 кона+Det+Interr:кона REL/INTERR-PRON-CASES ;
 
