@@ -75,6 +75,8 @@ __+ Spat__, __+ Temp__
  * _+Refl 	_ reflexive
  * _+Rel 	_ relative
  * _+Sel 	_ selective, when selecting from a set of definites
+ * _+Short	_ тень, теть; эстень
+ * _+Long	_ монень, тонеть; монстень
 
  * _+Sg1_ first person singular
  * _+Sg2_ second person singular
@@ -237,8 +239,9 @@ Special symbols are classified with:
 
 The verbs are syntactically split according to transitivity:
 
- * _+TV_ * transitive verb
- * _+IV_ * intransitive verb
+ * _+TV 	_ * transitive verb
+ * _+IV 	_ * intransitive verb
+ * __+NomAg__ Actor Noun From Verb - Nomen Agentis
 
 Auxiliary verbs
 
@@ -422,6 +425,7 @@ source and target part-of-speech.
  * _+Der/Pr_ derivation to predicate head, e.g. nominal conjugation
  * _+Der/Cop_ This is not a derivation
  * _+Clt/Cop_ This will replace the nominal conjugation Der/Pr+V
+ * _+Clt/Cond_ 
 
  * _+Der/Гак_ suffix {{+Indef}} in indefinite pronouns
  * _+Der/кой_ prefix {{+Indef}} in indefinite pronouns
@@ -544,6 +548,13 @@ Focus clitics
  * _+NoPoss_ used with personal pronouns in oblique cases,
 where a possessor index is expected
 
+
+!Symbols that need to be escaped on the lower side (towards twolc):
+
+* »
+* «
+* > (written with square brackets, see the root.lexc file)
+* < (written with square brackets, see the root.lexc file)
 
 
 !!Flag diacritics
