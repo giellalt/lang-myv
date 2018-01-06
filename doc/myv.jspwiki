@@ -86,6 +86,8 @@ __+ Spat__, __+ Temp__
  * _+Refl 	_ reflexive
  * _+Rel 	_ relative
  * _+Sel 	_ selective, when selecting from a set of definites
+ * _+Short	_ тень, теть; эстень
+ * _+Long	_ монень, тонеть; монстень
 
  * _+Sg1_ first person singular
  * _+Sg2_ second person singular
@@ -248,8 +250,9 @@ Special symbols are classified with:
 
 The verbs are syntactically split according to transitivity:
 
- * _+TV_ * transitive verb
- * _+IV_ * intransitive verb
+ * _+TV 	_ * transitive verb
+ * _+IV 	_ * intransitive verb
+ * __+NomAg__ Actor Noun From Verb - Nomen Agentis
 
 Auxiliary verbs
 
@@ -433,6 +436,7 @@ source and target part-of-speech.
  * _+Der/Pr_ derivation to predicate head, e.g. nominal conjugation
  * _+Der/Cop_ This is not a derivation
  * _+Clt/Cop_ This will replace the nominal conjugation Der/Pr+V
+ * _+Clt/Cond_ 
 
  * _+Der/Гак_ suffix {{+Indef}} in indefinite pronouns
  * _+Der/кой_ prefix {{+Indef}} in indefinite pronouns
@@ -555,6 +559,13 @@ Focus clitics
  * _+NoPoss_ used with personal pronouns in oblique cases,
 where a possessor index is expected
 
+
+!Symbols that need to be escaped on the lower side (towards twolc):
+
+* »
+* «
+* > (written with square brackets, see the root.lexc file)
+* < (written with square brackets, see the root.lexc file)
 
 
 !!Flag diacritics
@@ -779,13 +790,15 @@ either a particle or ablative case marking on the standard of comparison
 
 
 
+
 2013-04-17
 
 
 
 кодамо:кода
 кодамо:кода
-
+кодатнэ
+кодатне 
 
 
 
@@ -1399,44 +1412,45 @@ OBJECT FLAGS AND +V+TV tags
 
 
 
- __LEXICON TV_KADOMS-ObjAll __ 
+
+ __LEXICON TV_KADOMS __ 
 
 
 
 
- __LEXICON TV_NEVTEMS-ObjAll_SUB __ 
+ __LEXICON TV_NEVTEMS_SUB __ 
 
- * _LEXICON TV_NEVTEMS-ObjAll_  невтемс:невть
+ * _LEXICON TV_NEVTEMS_  невтемс:невть
 
- __LEXICON TV_SAVTOMS-ObjAll_SUB __ 
+ __LEXICON TV_SAVTOMS_SUB __ 
 
- __LEXICON TV_SAVTOMS-ObjAll __ 
+ __LEXICON TV_SAVTOMS __ 
 
  __LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO __ 
 
- __LEXICON TV_CHACHTOMS-ObjAll __ 
+ __LEXICON TV_CHACHTOMS __ 
 
 
- __LEXICON TV_KUNDAMS-ObjAll_SUB __ 
+ __LEXICON TV_KUNDAMS_SUB __ 
 
- __LEXICON TV_KUNDAMS-ObjAll __ 
-
-
-
-
-
- __LEXICON TV_SATOMS-ObjAll __ 
-
-
- __LEXICON TV_UEMS-ObjAll __ 
-
- __LEXICON TV_TUEMS-ObjAll __ 
-
- __LEXICON TV_TEEMS-ObjAll __ 
+ __LEXICON TV_KUNDAMS __ 
 
 
 
- * _LEXICON TV_NEKSHNEMS-ObjAll_  некшнемс:некшн
+
+
+ __LEXICON TV_SATOMS __ 
+
+
+ __LEXICON TV_UEMS __ 
+
+ __LEXICON TV_TUEMS __ 
+
+ __LEXICON TV_TEEMS __ 
+
+
+
+ * _LEXICON TV_NEKSHNEMS_  некшнемс:некшн
 
 
 VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
@@ -1604,10 +1618,11 @@ no deverbals
 
 
 
-__LEXICON TV_NEKSHNEMS-ObjAll__ Alternates with TRA
+__LEXICON TV_NEKSHNEMS__ Alternates with TRA
 
 
 
+This is fed by actors and participles in N_myv, A_myv and Prc_myv
 This is fed by actors and participles in N_myv, A_myv and Prc_myv
 
 
@@ -2070,7 +2085,9 @@ Used with deverbals
 
 
 
-
+ваномс+V+TV+Imprt+ScPl2+Clt/Га: __look/katsoa__
+* __ван%>%{ОЕЭØ%}дО1%>Г4а __
+* __ван%>одо%>0я __
 
 
 
@@ -2256,7 +2273,9 @@ __G4:k__
 imperative suffix
 __K1:t__  
 
-
+ливтемс+V+TV+Imprt+ScSg2+Clt/Га: __set out/laittaa esille__
+* __ливтьК1Ь2%>Г4а __
+* __ливтьк0%>0а __
 
 __U4:y__  
 
