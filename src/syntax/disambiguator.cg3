@@ -99,8 +99,8 @@ LIST CS = CS ;
 LIST CCC = CC ;
 SET CC = CCC - ("sihke") ;
 SET CC-CS = CC OR CS ;
-#LIST Po = Po ;
-LIST Pr = Pr ;
+LIST Po = Po ;
+#LIST Pr = Pr ;
 LIST Pcle = Pcle ;
 LIST Num = Num ;
 LIST Interj = Interj ;
@@ -375,7 +375,7 @@ LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ;
 # Sets
 # ====
 
-SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
+SET WORD = N | V | A | Po | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
 #!! !Derivation tags
 LIST 2VDerTag = Der/немс ; #!! 2VDerTag
@@ -523,17 +523,26 @@ REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
 REMOVE Der/ОвтОмс IF (0 V + TV) ;
 
 # озась ярсамо
-SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN)) ;
+SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN));
+
+#Сторужось лиссь алтарьстэнть, попось кармась обеднянь служамо.
+SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 
 
 #молить V TV Der/Ы Der/NomAg N Pl Gen PxSg2
 REMOVE Der/Ы + Der/NomAg IF (0 PXPERSON) ;
 
+
+#Der/MWN N Sg Gen Def
+REMOVE:mwnSgGenDef Der/MWN + N + Sg + Gen + Def IF (0 N + Sg + Ela + Def) ;
 # седе курок
 REMOVE N IF (0 KUROK) (-1 SEDE) ;
 
 #согласясь мартонзо
 REMOVE N IF (0 MARTO) (0 PXPERSON) ;
+
+# марто
+REMOVE N + Sg + Nom + Indef IF (0 MARTO) ;
 
 #Ваня марто Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;

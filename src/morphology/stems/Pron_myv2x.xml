@@ -43,6 +43,76 @@
      <defNative/>
    </mg>
 </e>
+<e>
+   <map/>
+   <lg>
+     <l pos="Pron">весе</l>
+     <etymology>
+     </etymology>
+     <stg>
+       <st Contlex="vese-QNT">весе</st>
+     </stg> <compg> </compg>
+   </lg>
+     <sources>
+       <book name="Olga01"/>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <tg xml:lang="eng">
+       <t pos="Pron">all</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Pron">kaikki</t>
+     </tg>
+     <tg xml:lang="fra">
+       <t pos="Pron">tout</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Pron">все</t>
+     </tg>
+     <xg>
+       <x>Весе тусть вирень керямо. Минь весе мольтяно кинов. </x>
+       <xt/>
+     </xg>
+     <defNative>Марсо. Куцясо. Мирём. Вейкень пес.</defNative>
+   </mg>
+   <mg relId="1">
+     <semantics>
+     </semantics>
+     <xg>
+       <x src="">Весе книгатнень максынь велень ловнома кудов. </x>
+       <xt xml:lang=""/>
+     </xg>
+   </mg>
+   <mg relId="2">
+     <semantics>
+     </semantics>
+     <xg>
+       <x src="">Тевтне прядовсть весе.</x>
+       <xt xml:lang=""/>
+     </xg>
+   </mg>
+</e>
+<e id="None" meta="">
+   <lg>
+     <l pos="Pron">весеме</l>
+     <stg>
+       <st Contlex="QNT_VESEME">весеме</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <defNative>Эрьва. Лиясто весе.</defNative>
+     <xg>
+       <x>Весеменень явшесть кинов билетт.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
 <e id="None" meta="">
    <lg>
      <l pos="Pron">зярдо</l>
@@ -70,7 +140,7 @@
    <lg>
      <l pos="Pron">истямо</l>
      <stg>
-       <st Contlex="DET-IS-DEM_ISTJAMO">истя</st>
+       <st Contlex="PRON-IS-DEM_ISTJAMO">истя</st>
      </stg>
    </lg>
      <sources>
@@ -195,33 +265,6 @@
 </e>
 <e id="None" meta="">
    <lg>
-     <l pos="Pron">ков</l>
-     <stg>
-       <st Contlex="PRON-IS-INTERR-SPAT-LAT">ков</st>
-     </stg>
-   </lg>
-     <sources>
-     </sources>
-   <mg relId="0">
-     <semantics>
-     </semantics>
-     <tg xml:lang="eng">
-       <t pos="Pron">where</t>
-       <t pos="Pron">to where</t>
-       <t pos="Pron">whither</t>
-     </tg>
-     <tg xml:lang="fin">
-       <t pos="Pron">minne</t>
-       <t pos="Pron">mihin</t>
-     </tg>
-     <tg xml:lang="rus">
-       <t pos="Pron">куда</t>
-     </tg>
-     <defNative/>
-   </mg>
-</e>
-<e id="None" meta="">
-   <lg>
      <l pos="Pron">козо</l>
      <stg>
        <st Contlex="PRON_">козо</st>
@@ -281,6 +324,24 @@
      <tg xml:lang="fin">
        <t pos="Pron">jonnekin</t>
        <t pos="Pron">johonkin</t>
+     </tg>
+     <defNative/>
+   </mg>
+</e>
+<e id="None" meta="">
+   <lg>
+     <l pos="Pron" type="Indef">кой-мезть</l>
+     <stg>
+       <st Contlex="PRON-INDEF_">кой-мезть</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <tg xml:lang="rus">
+       <t>кое-что</t>
      </tg>
      <defNative/>
    </mg>
@@ -417,6 +478,24 @@
 </e>
 <e id="None" meta="">
    <lg>
+     <l pos="Pron">лият-кить</l>
+     <stg>
+       <st Contlex="PRON_">лият-кить</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <tg xml:lang="rus">
+       <t>другие</t>
+     </tg>
+     <defNative/>
+   </mg>
+</e>
+<e id="None" meta="">
+   <lg>
      <l pos="Pron">мезде</l>
      <stg>
        <st Contlex="PRON_">мезде</st>
@@ -540,6 +619,9 @@
 <e id="None" meta="">
    <lg>
      <l pos="Pron">мезе</l>
+<etymology>
+  <etymon ilmentyma_id="289232" algu_lekseemi_id="97653" xml_lang="myv">мезе</etymon>
+</etymology>
      <stg>
        <st Contlex="PRON-INTERR-OBJ_MEZE">мезе</st>
      </stg>
@@ -565,6 +647,42 @@
        <x>Мезе теть эряви?</x>
        <xt/>
      </xg>
+   </mg>
+</e>
+<e id="None" meta="">
+   <lg>
+     <l pos="Pron">мезе а мезе</l>
+     <stg>
+       <st Contlex="PRON_">мезе а мезе</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <tg xml:lang="rus">
+       <t>что нибудь</t>
+     </tg>
+     <defNative/>
+   </mg>
+</e>
+<e id="None" meta="">
+   <lg>
+     <l pos="Pron">мезе бути</l>
+     <stg>
+       <st Contlex="PRON_">мезе бути</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <tg xml:lang="rus">
+       <t>что нибудь</t>
+     </tg>
+     <defNative/>
    </mg>
 </e>
 <e id="None" meta="">
@@ -680,7 +798,7 @@
      <defNative>Мезень эйсэ.</defNative>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">мезеяк</l>
      <stg>
@@ -994,6 +1112,9 @@
 <e id="None" meta="">
    <lg>
      <l pos="Pron">минь</l>
+<etymology>
+  <etymon ilmentyma_id="289130" algu_lekseemi_id="78375" xml_lang="myv">минь</etymon>
+</etymology>
      <stg>
        <st Contlex="PRON-PERS-PL1">ми</st>
      </stg>
@@ -1028,6 +1149,7 @@
    <lg>
      <l pos="Pron" type="Pers">мон</l>
      <etymology>
+  <etymon ilmentyma_id="289129" algu_lekseemi_id="78365" xml_lang="myv">мон</etymon>
      </etymology>
      <stg>
        <st Contlex="PRON-PERS-SG1">мо</st>
@@ -1325,6 +1447,7 @@
    <lg>
      <l pos="Pron" type="Dem">се</l>
      <etymology>
+  <etymon ilmentyma_id="289234" algu_lekseemi_id="97788" xml_lang="myv">се</etymon>
      </etymology>
      <stg>
        <st Contlex="DET-DEM_TE">се</st>
@@ -1431,6 +1554,9 @@
 <e id="None" meta="">
    <lg>
      <l pos="Pron">сон</l>
+<etymology>
+  <etymon ilmentyma_id="289196" algu_lekseemi_id="81578" xml_lang="myv">сон</etymon>
+</etymology>
      <stg>
        <st Contlex="PRON-PERS-SG3">со</st>
      </stg>
@@ -1464,6 +1590,24 @@
        <x>Сон а моли минек марто. Сон яки сяворькшнезь, улема, иредезь.</x>
        <xt/>
      </xg>
+   </mg>
+</e>
+<e id="None" meta="">
+   <lg>
+     <l pos="Pron">сон сонсь</l>
+     <stg>
+       <st Contlex="PRON_">сон сонсь</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <tg xml:lang="rus">
+       <t>само собой</t>
+     </tg>
+     <defNative/>
    </mg>
 </e>
 <e id="None" meta="">
@@ -1854,6 +1998,9 @@
 <e id="None" meta="">
    <lg>
      <l pos="Pron" type="Dem">те</l>
+<etymology>
+  <etymon ilmentyma_id="289219" algu_lekseemi_id="95207" xml_lang="myv">те</etymon>
+</etymology>
      <stg>
        <st Contlex="PRON-DEM_TE">те</st>
      </stg>
@@ -1988,7 +2135,7 @@
      </xg>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">тензэ</l>
      <stg>
@@ -2093,6 +2240,7 @@
    <lg>
      <l pos="Pron">тон</l>
      <etymology>
+  <etymon ilmentyma_id="289065" algu_lekseemi_id="72164" xml_lang="myv">тон</etymon>
      </etymology>
      <stg>
        <st Contlex="PRON-PERS-SG2">то</st>
@@ -2173,7 +2321,7 @@
      </xg>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">тонсь</l>
      <stg>
@@ -2232,7 +2380,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">тынк</l>
      <stg>
@@ -2294,7 +2442,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">тынсь</l>
      <stg>
@@ -2318,9 +2466,12 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">тынь</l>
+     <etymology>
+  <etymon ilmentyma_id="289066" algu_lekseemi_id="72172" xml_lang="myv">тынь</etymon>
+</etymology>
      <stg>
        <st Contlex="PRON-PERS-PL2">ты</st>
      </stg>
@@ -2399,7 +2550,7 @@
      </xg>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эрьва кодат</l>
      <stg>
@@ -2417,7 +2568,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эрьва мезе</l>
      <stg>
@@ -2522,7 +2673,7 @@
      </xg>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эсеть</l>
      <stg>
@@ -2673,7 +2824,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эстенек</l>
      <stg>
@@ -2694,7 +2845,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эстензэ</l>
      <stg>
@@ -2721,7 +2872,7 @@
      </xg>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эстенк</l>
      <stg>
@@ -2742,7 +2893,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эстень</l>
      <etymology> <etym>[æ-е-]</etym>
@@ -2769,7 +2920,7 @@
      </xg>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эстест</l>
      <stg>
@@ -2790,7 +2941,7 @@
      <defNative/>
    </mg>
 </e>
-<e exclude="fst" id="None" meta="">
+<e id="None" meta="">
    <lg>
      <l pos="Pron">эстеть</l>
      <stg>
@@ -2818,6 +2969,9 @@
 <e id="None" meta="">
    <lg>
      <l pos="Pron">эсь</l>
+<etymology>
+  <etymon ilmentyma_id="289111" algu_lekseemi_id="76560" xml_lang="myv">эсь</etymon>
+</etymology>
      <stg>
        <st Contlex="PRON-REFL_E2S1">эсь</st>
      </stg>
@@ -3001,6 +3155,25 @@
      <defNative>Эсеть потмова.</defNative>
      <xg>
        <x>Эськат арсят эрьва мезде.</x>
+       <xt/>
+     </xg>
+   </mg>
+</e>
+<e exclude="fst" id="None" meta="">
+   <lg>
+     <l pos="Pron">весенень</l>
+     <stg>
+       <st Contlex="PRON_">весенень</st>
+     </stg>
+   </lg>
+     <sources>
+     </sources>
+   <mg relId="0">
+     <semantics>
+     </semantics>
+     <defNative/>
+     <xg>
+       <x>Нуеме эряви лисемс весенень.</x>
        <xt/>
      </xg>
    </mg>

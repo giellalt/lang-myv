@@ -202,6 +202,7 @@ LEXICON NUMORD_KUDO
 LEXICON IS-NUM-CARD-COLL
 !! кавонст
 +Num+Card+Coll: WORD-END ;
++Num+Card+Coll: KOLMONST-ELLIPSIS-TYPE ;
 
 LEXICON IS-NUMORD_KUDO
 !!-це
@@ -214,6 +215,7 @@ LEXICON IS-NUMORD_OSH
 LEXICON IS-NUM-ORD-COLL
 !! омбонст
 +Num+Ord+Coll:	WORD-END ;
++Num+Ord+Coll: KOLMONST-ELLIPSIS-TYPE ;
 
 LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
 !! кавонест is a pronoun like the Finnish molemmat
@@ -223,7 +225,10 @@ LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
-+Num+Appr: WORD-END ;
++Num+Card+Appr+Sg+Nom+Indef: WORD-END ;
+!!весть-кавксть
+LEXICON ITERAPPROX_
++Num+Iter+Appr: WORD-END ;
 
 LEXICON Card-2
 !+Num+Card+Lat:%>в K ;
@@ -433,9 +438,6 @@ LEXICON Quants3
 +Ill:%>з _OSH-Possessive-Before-K ;
 +Ill:%>%{ОЕЭØ%}з _OSH-Possessive-Before-K ;
 
-+Pl+Nom+Indef:%>VLossтЬ2 _KIT-Tenses1 ;
-+Pl+Nom+Indef:%>NoVLossтЬ2 _KIT-Tenses1 ;
-+Pl+Nom+Def:%>тнЕ3 _KUDO-Tenses1 ;
 
 +SP+Abl:%>дО1 _KUDO-Possessive-Before-K ;
 +SP+Abl:%>О1дО1 _KUDO-Possessive-Before-K ;
@@ -456,10 +458,6 @@ LEXICON Quants3
 +Sg+Ine+Def:%>О1%>с%{оэØ%}%>нть Ks ;
 +Sg+Ela+Def:%>О1%>ст%{оэØ%}%>нть Ks ;
 +Sg+Cmpr+Def:%>О1шка%>нть Ks ;
-+Pl+Abl+Def:%>тнЕ3%>де Ks ;
-+Pl+Gen+Def:%>тнЕ3%>нь Ks ;
-+Pl+Dat+Def:%>тнЕ3%>нень Ks ;
-+Pl+Ill+Def:%>тнЕ3%>с Ks ;
 
 +SP+Prl:%>Г2а _KUDO-Possessive-Before-K ;
 +SP+Abe:%>втО1мО1 _KUDO-Possessive-Before-K ;
@@ -474,12 +472,9 @@ LEXICON Quants3
 +SP+Cmpr:%>О1шка _KUDO-Possessive-Before-K ;
 +SP+Cmpr+Com:%>О1шкане _KUDO-Possessive-Before-K ;
 
-+Pl+Prl+Def:%>тнЕ3%>ва _KUDO-Tenses1 ;
-+Pl+Abe+Def:%>тнЕ3%>втеме _KUDO-Tenses1 ;
-+Pl+Tra+Def:%>тнЕ3%>кс Ks ;
-+Pl+Ine+Def:%>тнЕ3%>сэ _KUDO-Tenses1 ;
-+Pl+Ela+Def:%>тнЕ3%>стэ _KUDO-Tenses1 ;
-+Pl+Cmpr+Def:%>тнЕ3%>шка _KUDO-Tenses1 ;
++Pl+Nom+Indef:%>VLossтЬ2 _KIT-Tenses1 ;
++Pl+Nom+Indef:%>NoVLossтЬ2 _KIT-Tenses1 ;
+ KOLMONST-ELLIPSIS-TYPE ;
 
 !Attributes
 +SP+Prl:%>Г2а _KUDO-Attributes2 ; 
@@ -499,6 +494,19 @@ LEXICON Quants3
 +Pl+Ela+Def:%>тнЕ3%>стэ _KUDO-Attributes2 ;
 +Pl+Cmpr+Def:%>тнЕ3%>шка _KUDO-Attributes2 ; 
 +Err/Orth@R.TLOSS.ON@:0@R.TLOSS.ON@ Quants3_TLOSS ;
+
+LEXICON KOLMONST-ELLIPSIS-TYPE
++Pl+Nom+Def:%>тнЕ3 _KUDO-Tenses1 ;
++Pl+Abl+Def:%>тнЕ3%>де Ks ;
++Pl+Gen+Def:%>тнЕ3%>нь Ks ;
++Pl+Dat+Def:%>тнЕ3%>нень Ks ;
++Pl+Ill+Def:%>тнЕ3%>с Ks ;
++Pl+Prl+Def:%>тнЕ3%>ва _KUDO-Tenses1 ;
++Pl+Abe+Def:%>тнЕ3%>втеме _KUDO-Tenses1 ;
++Pl+Tra+Def:%>тнЕ3%>кс Ks ;
++Pl+Ine+Def:%>тнЕ3%>сэ _KUDO-Tenses1 ;
++Pl+Ela+Def:%>тнЕ3%>стэ _KUDO-Tenses1 ;
++Pl+Cmpr+Def:%>тнЕ3%>шка _KUDO-Tenses1 ;
 
 LEXICON Quants3_TLOSS
 +Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ _KUDO-Tenses1 ;
