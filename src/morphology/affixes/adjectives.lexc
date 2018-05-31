@@ -21,12 +21,12 @@ LEXICON A_INT-OJ
 
 ! 2012-04-03 These do not exist in present dictionary
 !LEXICON COMP-A
-!+Der/шка: A_KUDO ;
+!+Der/shka: A_KUDO ;
 
 LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 ! was GEN-A
-+Der/GenAttr+A+Sg: K ;
-+Der/GenAttr+A: CLT/COP4_OBL-SC3 ; ! These need checking 2012-04-17
++Der+Der/GenAttr+A+Sg: K ;
++Der+Der/GenAttr+A: CLT/COP4_OBL-SC3 ; ! These need checking 2012-04-17
 
 LEXICON A-IS-INE ! The inessive is used as an attribute and predicate modifier
 +A+Clt/Cop+Prs+ScSg3: K ;
@@ -123,10 +123,10 @@ LEXICON DET-ADN
 +Det+Adn: WORD-END ;
 
 LEXICON ActDemPrc-A
-+Der/Ыця+Act+DemPrc:%>%{иы%}ця K ;
-!+Der/Ыця+Act+DemPrc+Sg:%>%{иы%}ця K ;
-!+Der/Ыця+Act+DemPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
-+Der/Ыця+Act+DemPrc:%>%{иы%}ця NMN_KUDO ;
++Der+Der/Ycja+Act+DemPrc:%>%{иы%}ця K ;
+!+Der/Ycja+Act+DemPrc+Sg:%>%{иы%}ця K ;
+!+Der/Ycja+Act+DemPrc+Pl:%>%{иы%}ця%>тЬ2 K ;
++Der+Der/Ycja+Act+DemPrc:%>%{иы%}ця NMN_KUDO ;
 
 
 LEXICON A_VELE
@@ -193,7 +193,7 @@ LEXICON IS-DET-SG-NOM-DEF
 !+Po: A_PANGO ;
 
 LEXICON ADJ-TO-ADV
-+A+Der/стО+Adv:%>ст%{оэØ%} K ;
++A+Der+Der/stO+Adv:%>ст%{оэØ%} K ;
 
 ! vim: set ft=xfst-lexc:
 

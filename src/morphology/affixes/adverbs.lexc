@@ -24,7 +24,7 @@ LEXICON adverbs
 LEXICON AdvState-kudo
 +Adv+State: K ;
 +Adv+State+Clt/Cop:%> StateConjugation-kudo ;
-+Adv+State+Der/MWN: N_KUDO ;
++Adv+State+Der+Der/MWN: N_KUDO ;
 
 
 
@@ -61,7 +61,7 @@ LEXICON ADV-EVID-NFH_ !келя
 
 LEXICON GER_
 +Ger: K ;
-+Ger+Der+Der/MWN: N_OSH ;
++Ger+Der+Der+Der/MWN: N_OSH ;
 
 LEXICON ADV_KUDO ! Coping with stem structure
  ADV_ ;
@@ -81,6 +81,14 @@ LEXICON ADV-TEMP_IS-TEMP
 
 LEXICON ADV-TEMP-ITER
 +Adv+Temp+Iter: K ;
+
+LEXICON ADV-ITER
+!! кавксть
++Adv+Iter: K ;
+
+LEXICON ADV-INTERR-ITER
+!! зяроксть
++Adv+Interr+Iter: K ;
 
 LEXICON ADV-TEMP_
 +Adv+Temp: K ;
@@ -117,8 +125,8 @@ LEXICON ADV-SPAT_ALO !!= @CODE@ ало:ал
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
-+Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _KUDO-N2-Def-Declension ;
-+Adv+Spat+Der/кс:%>кс N_OSH ;
++Adv+Spat+Orth/PhonDeriv+Loc+Der+Der/cje:%>це _KUDO-N2-Def-Declension ;
++Adv+Spat+Der+Der/ks:%>кс N_OSH ;
 +Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
 
 LEXICON ADV-SPAT_karsho
@@ -200,25 +208,25 @@ LEXICON ADV-IS-INTERR-MANNER
 
 !LEXICON	PRED2-OBJ_KUDO !! "апак прядо"
 !+Adv+Pred2: K ;
-!+Adv+Pred2+Der/MWN: N_KUDO ;
+!+Adv+Pred2+Der+Der/MWN: N_KUDO ;
 
 !LEXICON	PRED2-OBJ_OSH
 !+Adv+Pred2: K ;
-!+Adv+Pred2+Der/MWN: N_OSH ;
+!+Adv+Pred2+Der+Der/MWN: N_OSH ;
 
 LEXICON PRED2-SUBJ_KUDO_Sub !!
 +Err/Orth: PRED2-SUBJ_KUDO ;
 LEXICON PRED2-SUBJ_KUDO !! "стядо"
 +Adv+Pred2: K ;
-+Adv+Pred2+Der/MWN: N_KUDO ;
++Adv+Pred2+Der+Der/MWN: N_KUDO ;
 
 LEXICON PRED2-SUBJ_OSH
 +Adv+Pred2: K ;
-+Adv+Pred2+Der/MWN: N_OSH ;
++Adv+Pred2+Der+Der/MWN: N_OSH ;
 
 LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 +Adv+Pred2: K ;
-+Adv+Pred2+Der/MWN: N_KUDO ;
++Adv+Pred2+Der+Der/MWN: N_KUDO ;
 
 !! spatial adverbs 
 !! dependent and independent case marking 
@@ -317,7 +325,7 @@ LEXICON Temp-Lat
 +Adv+Temp+Lat: K ;
 
 LEXICON Temp-ms
-+Adv+Der/мс+Temp+Ill: K ;
++Adv+Der+Der/ms+Temp+Ill: K ;
 
 LEXICON Temp-Pl
 +Adv+Temp+Pl: K ;
@@ -327,15 +335,15 @@ LEXICON Temp-Prl
 
 LEXICON ADV-TEMP_LAK
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N_LAK ;
++Adv+Temp+Der+Der/MWN: N_LAK ;
 
 LEXICON ADV-TEMP_KIT
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N_KIT ;
++Adv+Temp+Der+Der/MWN: N_KIT ;
 
 LEXICON ADV-TEMP_KUDO
 +Adv+Temp: K ;
-+Adv+Temp+Der/MWN: N_KUDO ;
++Adv+Temp+Der+Der/MWN: N_KUDO ;
 
 
 
