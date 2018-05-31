@@ -30,7 +30,7 @@ Multichar_Symbols
 
 !! !!The parts-of-speech are:
  +A 	 !!≈ * _@CODE@_ adjective
- +Adp 	 !!≈ * _@CODE@_ Adposition
+ +Adp 	 !!≈ * _@CODE@_ adposition
  +Adv 	 !!≈ * _@CODE@_ adverb
  +CS 	 !!≈ * _@CODE@_ subordinating conjunction
  +CC 	 !!≈ * _@CODE@_ coordinating conjunction
@@ -42,7 +42,7 @@ Multichar_Symbols
  +Pcle 	 !!≈ * _@CODE@_ particle
  +Po 	 !!≈ * _@CODE@_ postposition
  +Pron 	 !!≈ * _@CODE@_ pronoun
- +Qnt 	 !!≈ * _@CODE@_ Quantifier
+ +Qnt 	 !!≈ * _@CODE@_ quantifier
  +V 	 !!≈ * _@CODE@_ verb
 
 !! !!Parts of speech are further split up into:
@@ -202,7 +202,7 @@ Multichar_Symbols
   +ActDemPrc   !!≈ * _@CODE@_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
   +ConNeg !!≈ * _@CODE@_ * connegative, main verb complement to Neg, vow-stem
   +ConNegII !!≈ * _@CODE@_ * connegative, main verb complement to Neg, cons-stem
-  +Ger !!≈ * _@CODE@_ * gerund This is used with Der/Озь and VAbl
+  +Ger !!≈ * _@CODE@_ * gerund This is used with Der/Ozj and VAbl
   +Inf    !!≈ * _@CODE@_ * infinitive
   +Neg    !!≈ * _@CODE@_ * verb of negation эзь, аволь, иля
   +Prc !!≈ * _@CODE@_ * participle
@@ -553,35 +553,36 @@ Multichar_Symbols
 
 
 !! !!Der begin
-
-+Der/ВтОмО
-+Der/стО !!≈ * _@CODE@_ Deriving adverbs from adjectives A2Adv
-+Der/шка
-+Der/GenAttr +Der/Онь !!≈ * _@CODE@_ genitive attribute derivation of non-nouns
-+Der/ай !!≈ * _@CODE@_ vocative
-+Der/кай !!≈ * _@CODE@_ vocative
++Der    !!≈ * __@CODE@__  In front of every derivation to make it
+        !!  possible to target derivations as a class e.g. in regular expressions etc
++Der/VtOmO
++Der/stO !!≈ * _@CODE@_ Deriving adverbs from adjectives A2Adv
++Der/shka
++Der/GenAttr +Der/Onj !!≈ * _@CODE@_ genitive attribute derivation of non-nouns
++Der/aj !!≈ * _@CODE@_ vocative
++Der/kaj !!≈ * _@CODE@_ vocative
 
 !!Then they should have indication of whether they are gerunds or participles!!
 
-+Der/Овт !!≈ * _@CODE@_ * telic deverbal noun also attr
-+Der/Омс !!≈ * _@CODE@_ * infinitive illative
-+Der/ОмО !!≈ * _@CODE@_ * infinitive locative/nominative
-+Der/ОмстО !!≈ * _@CODE@_ * infinitive elative
-+Der/ОмсО  !!≈ * _@CODE@_ * infinitive inessive
-+Der/ОмдО  !!≈ * _@CODE@_ * infinitive ablative
-+Der/Омга  !!≈ * _@CODE@_ * infinitive prolative
-+Der/Ома   !!≈ * _@CODE@_ * modality: deontic/directive/obligative андомс: андома , якамс: якама
-+Der/Омка  !!≈ * _@CODE@_ * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
-+Der/Ыця   !!≈ * _@CODE@_ * active (demonstrative) present participle
-+Der/Ы	   !!≈ * _@CODE@_ * active short present participle
-+Der/Ый	   !!≈ * _@CODE@_ * active long present participle
-+Der/Озь !!≈ * _@CODE@_ * Gerund
-+Der/Cond !!≈ * _@CODE@_ * conditional derivation +Der/Ындеря
++Der/Ovt !!≈ * _@CODE@_ * telic deverbal noun also attr
++Der/Oms !!≈ * _@CODE@_ * infinitive illative
++Der/OmO !!≈ * _@CODE@_ * infinitive locative/nominative
++Der/OmstO !!≈ * _@CODE@_ * infinitive elative
++Der/OmsO  !!≈ * _@CODE@_ * infinitive inessive
++Der/OmdO  !!≈ * _@CODE@_ * infinitive ablative
++Der/Omga  !!≈ * _@CODE@_ * infinitive prolative
++Der/Oma   !!≈ * _@CODE@_ * modality: deontic/directive/obligative андомс: андома , якамс: якама
++Der/Omka  !!≈ * _@CODE@_ * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
++Der/Ycja   !!≈ * _@CODE@_ * active (demonstrative) present participle
++Der/Y	   !!≈ * _@CODE@_ * active short present participle
++Der/Yj	   !!≈ * _@CODE@_ * active long present participle
++Der/Ozj !!≈ * _@CODE@_ * Gerund
++Der/Cond !!≈ * _@CODE@_ * conditional derivation +Der/Ynderja
 +Der/NomAg
 +Der/NomAct
 
 ! Declaring noun derivations
-+Der/пель
++Der/pelj
 
 ! Modifier without noun
 +Der/MWN !!≈ * _@CODE@_ Modifier without Noun
@@ -593,45 +594,45 @@ Multichar_Symbols
  +Clt/Cond  !!≈ * _@CODE@_ 
 
 !Declaring Indefinite Pronoun derivations
-+Der/Гак  !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns
-+Der/кой  !!≈ * _@CODE@_ prefix {{+Indef}} in indefinite pronouns
-+Der/та   !!≈ * _@CODE@_ prefix {{+Indef}} in indefinite pronouns
-+Der/таго !!≈ * _@CODE@_ prefix {{+Indef}} in indefinite pronouns
-+Der/бути !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns
-+Der/Ыя   !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
++Der/koj  !!≈ * _@CODE@_ prefix {{+Indef}} in indefinite pronouns
++Der/ta   !!≈ * _@CODE@_ prefix {{+Indef}} in indefinite pronouns
++Der/tago !!≈ * _@CODE@_ prefix {{+Indef}} in indefinite pronouns
++Der/Gak  !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns
++Der/buti !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns
++Der/Yja   !!≈ * _@CODE@_ suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
 
 
 !! !!DECLARING NOUN DERIVATIONS
-+Der/чи !!≈ * _@CODE@_  adjective-to-noun
++Der/chi !!≈ * _@CODE@_  adjective-to-noun
 !! !!the combinatory --Event-- preceding the NP-final noun
-+Der/ОмА !!≈ * _@CODE@_  verb-to-noun
++Der/OmA !!≈ * _@CODE@_  verb-to-noun
 
 !! !!DECLARING NUMERAL DERIVATIONS
-+Der/це !!≈ * _@CODE@_  +A+Ord
-+Der/тькс !!≈ * _@CODE@_  +A+Ord (non-contrastive)
++Der/cje !!≈ * _@CODE@_  +A+Ord
++Der/tjks !!≈ * _@CODE@_  +A+Ord (non-contrastive)
 
 !--+Der-/-Омка--
 !! !!DECLARING DEVERBAL DERIVATIONS OF VERBS
-+Der/кшнО !!≈ * _@CODE@_  verb2verb derivation
-+Der/ОкшнОмс !!≈ * _@CODE@_  verb2verb derivation
-+Der/ОвОмс !!≈ * _@CODE@_  verb2verb derivation
-+Der/ОвтОмс !!≈ * _@CODE@_  verb2verb derivation
-+Der/Озевемс !!≈ * _@CODE@_  verb2verb derivation
-+Der/се !!≈ * _@CODE@_  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
-+Der/не !!≈ * _@CODE@_  verb2verb derivation
-+Der/немс !!≈ * _@CODE@_  verb2verb derivation
++Der/kshnO !!≈ * _@CODE@_  verb2verb derivation
++Der/OkshnOms !!≈ * _@CODE@_  verb2verb derivation
++Der/OvOms !!≈ * _@CODE@_  verb2verb derivation
++Der/OvtOms !!≈ * _@CODE@_  verb2verb derivation
++Der/Ozevems !!≈ * _@CODE@_  verb2verb derivation
++Der/sje !!≈ * _@CODE@_  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
++Der/nje !!≈ * _@CODE@_  verb2verb derivation
++Der/njems !!≈ * _@CODE@_  verb2verb derivation
 
-+Der/Онце !!≈ * _@CODE@_ old orth кудонцесь
++Der/Oncje !!≈ * _@CODE@_ old orth кудонцесь
 
 +Der/Dimin  !!≈ * _@CODE@_ 
-+Der/ка !!≈ * _@CODE@_  diminutive
-+Der/НЕ !!≈ * _@CODE@_  This is used in ошке, калнэ and кудыне
-+Der/нЕ !!≈ * _@CODE@_  diminutive
-+Der/Ыне  !!≈ * _@CODE@_  diminutive
-+Der/Ынька  !!≈ * _@CODE@_  diminutive
-+Der/Ынькине  !!≈ * _@CODE@_  diminutive
-+Der/ке !!≈ * _@CODE@_  diminutive in --ке--
-+Der/кине  !!≈ * _@CODE@_  diminutive
++Der/ka !!≈ * _@CODE@_  diminutive
++Der/NJE !!≈ * _@CODE@_  This is used in ошке, калнэ and кудыне
++Der/nJE !!≈ * _@CODE@_  diminutive
++Der/Ynje  !!≈ * _@CODE@_  diminutive
++Der/Ynjka  !!≈ * _@CODE@_  diminutive
++Der/Ynjkinje  !!≈ * _@CODE@_  diminutive
++Der/ke !!≈ * _@CODE@_  diminutive in --ке--
++Der/kinje  !!≈ * _@CODE@_  diminutive
 
 
 
@@ -731,7 +732,7 @@ ZERO
 +Descr !!≈ * _@CODE@_ descriptive words
 !! !!Different focus particles
 !! Focus clitics
-  +Foc/Гак !!
+  +Clt/Gak !!
 
 
 !! !!Imperative clitics
@@ -1198,7 +1199,7 @@ LEXICON CS-TEMP_
 !уш+Pcle+Intensifier:уш WORD-END ;
 
 LEXICON PCLE-COMPAR-STND !! Not a real particle; it can take a clitic седеяк
-+Pcle+Comp: K ;
++Adv+Comp: K ;
 
 LEXICON PCLE-EPIST
 +Pcle+Epist: WORD-END ;
@@ -1282,15 +1283,15 @@ LEXICON alo-Spat
 ! alo-SPAT-1Arg ; >PO_KAL-LOC
 
 LEXICON alo-SPAT-NoArg
-+Adv+Spat+Orth/PhonDeriv+Loc+Der/це:%>це _KUDO-N2-Def-Declension ;
-+Adv+Spat+Loc+Der/се:%>се _KUDO-N2-Def-Declension ;
-+Adv+Spat+Der/кс:%>кс N_OSH ;
++Adv+Spat+Orth/PhonDeriv+Loc+Der+Der/cje:%>це _KUDO-N2-Def-Declension ;
++Adv+Spat+Loc+Der+Der/sje:%>се _KUDO-N2-Def-Declension ;
++Adv+Spat+Der+Der/ks:%>кс N_OSH ;
 +Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
-+Adv+Spat+Loc+Indef+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
-+Adv+Spat+Prl+Indef+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
++Adv+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
++Adv+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
 
 LEXICON alo-SPAT-AdvN
  alo-SPAT-NoArg ;
@@ -1305,16 +1306,16 @@ LEXICON alo-SPAT-AdvN
 LEXICON kovolo-Spat
 +Interr+Spat+Lat+Indef:%>%{ОЕЭØ%}в K ;
 +Interr+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
-+Interr+Spat+Loc+Indef+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
-+Interr+Spat+Prl+Indef+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
++Interr+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
++Interr+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
 +Interr+Spat+Abl:%>дО1 K ; !_KUDO-Indef--Poss ;
 +Interr+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
 +Interr+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
 
 +Rel+Spat+Lat+Indef:%>%{ОЕЭØ%}в K ;
 +Rel+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
-+Rel+Spat+Loc+Indef+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
-+Rel+Spat+Prl+Indef+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
++Rel+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
++Rel+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
 +Rel+Spat+Abl:%>дО1 K ; !_KUDO-Indef--Poss ;
 +Rel+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
 +Rel+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
