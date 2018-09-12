@@ -25,7 +25,6 @@ GT_LEXC_ROOT=$(srcdir)/root.lexc
 GT_LEXC_SRCS_L1_L2=\
 			stems/abbreviations.lexc          \
 			stems/acronyms.lexc               \
-			stems/punctuation.lexc            \
 			stems/numerals.lexc               \
 			compounding.lexc                  \
 			affixes/clitics.lexc              \
@@ -72,6 +71,7 @@ GT_LEXC_L2_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 		generated_files/urj-Cyrl-propernouns.lexc \
+		generated_files/punctuation.lexc \
 		$(srcdir)/stems/A_myv2x.lexc         \
 		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/Adv_myv2x.lexc            \
