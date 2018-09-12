@@ -25,7 +25,7 @@ in this system in terms of following symbols.
 
 !!The parts-of-speech are:
  * _+A 	_ adjective
- * _+Adp 	_ Adposition
+ * _+Adp 	_ adposition
  * _+Adv 	_ adverb
  * _+CS 	_ subordinating conjunction
  * _+CC 	_ coordinating conjunction
@@ -37,7 +37,7 @@ in this system in terms of following symbols.
  * _+Pcle 	_ particle
  * _+Po 	_ postposition
  * _+Pron 	_ pronoun
- * _+Qnt 	_ Quantifier
+ * _+Qnt 	_ quantifier
  * _+V 	_ verb
 
 !!Parts of speech are further split up into:
@@ -195,7 +195,7 @@ Other verb forms are
  * _+ActDemPrc_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
  * _+ConNeg_ * connegative, main verb complement to Neg, vow-stem
  * _+ConNegII_ * connegative, main verb complement to Neg, cons-stem
- * _+Ger_ * gerund This is used with Der/Озь and VAbl
+ * _+Ger_ * gerund This is used with Der/Ozj and VAbl
  * _+Inf_ * infinitive
  * _+Neg_ * verb of negation эзь, аволь, иля
  * _+Prc_ * participle
@@ -407,27 +407,28 @@ source and target part-of-speech.
 
 
 !!Der begin
+ * __+Der__  In front of every derivation to make it
+ possible to target derivations as a class e.g. in regular expressions etc
+ * _+Der/stO_ Deriving adverbs from adjectives A2Adv
+ * _+Der/GenAttr +Der/Onj_ genitive attribute derivation of non-nouns
+ * _+Der/aj_ vocative
+ * _+Der/kaj_ vocative
 
- * _+Der/стО_ Deriving adverbs from adjectives A2Adv
- * _+Der/GenAttr +Der/Онь_ genitive attribute derivation of non-nouns
- * _+Der/ай_ vocative
- * _+Der/кай_ vocative
 
-
- * _+Der/Овт_ * telic deverbal noun also attr
- * _+Der/Омс_ * infinitive illative
- * _+Der/ОмО_ * infinitive locative/nominative
- * _+Der/ОмстО_ * infinitive elative
- * _+Der/ОмсО_ * infinitive inessive
- * _+Der/ОмдО_ * infinitive ablative
- * _+Der/Омга_ * infinitive prolative
- * _+Der/Ома_ * modality: deontic/directive/obligative андомс: андома , якамс: якама
- * _+Der/Омка_ * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
- * _+Der/Ыця_ * active (demonstrative) present participle
- * _+Der/Ы	_ * active short present participle
- * _+Der/Ый	_ * active long present participle
- * _+Der/Озь_ * Gerund
- * _+Der/Cond_ * conditional derivation +Der/Ындеря
+ * _+Der/Ovt_ * telic deverbal noun also attr
+ * _+Der/Oms_ * infinitive illative
+ * _+Der/OmO_ * infinitive locative/nominative
+ * _+Der/OmstO_ * infinitive elative
+ * _+Der/OmsO_ * infinitive inessive
+ * _+Der/OmdO_ * infinitive ablative
+ * _+Der/Omga_ * infinitive prolative
+ * _+Der/Oma_ * modality: deontic/directive/obligative андомс: андома , якамс: якама
+ * _+Der/Omka_ * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
+ * _+Der/Ycja_ * active (demonstrative) present participle
+ * _+Der/Y	_ * active short present participle
+ * _+Der/Yj	_ * active long present participle
+ * _+Der/Ozj_ * Gerund
+ * _+Der/Cond_ * conditional derivation +Der/Ynderja
 
 
  * _+Der/MWN_ Modifier without Noun
@@ -438,44 +439,44 @@ source and target part-of-speech.
  * _+Clt/Cop_ This will replace the nominal conjugation Der/Pr+V
  * _+Clt/Cond_ 
 
- * _+Der/Гак_ suffix {{+Indef}} in indefinite pronouns
- * _+Der/кой_ prefix {{+Indef}} in indefinite pronouns
- * _+Der/та_ prefix {{+Indef}} in indefinite pronouns
- * _+Der/таго_ prefix {{+Indef}} in indefinite pronouns
- * _+Der/бути_ suffix {{+Indef}} in indefinite pronouns
- * _+Der/Ыя_ suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
+ * _+Der/koj_ prefix {{+Indef}} in indefinite pronouns
+ * _+Der/ta_ prefix {{+Indef}} in indefinite pronouns
+ * _+Der/tago_ prefix {{+Indef}} in indefinite pronouns
+ * _+Der/Gak_ suffix {{+Indef}} in indefinite pronouns
+ * _+Der/buti_ suffix {{+Indef}} in indefinite pronouns
+ * _+Der/Yja_ suffix {{+Indef}} in indefinite pronouns  ковия, зярыя
 
 
 !!DECLARING NOUN DERIVATIONS
- * _+Der/чи_  adjective-to-noun
+ * _+Der/chi_  adjective-to-noun
 !!the combinatory --Event-- preceding the NP-final noun
- * _+Der/ОмА_  verb-to-noun
+ * _+Der/OmA_  verb-to-noun
 
 !!DECLARING NUMERAL DERIVATIONS
- * _+Der/це_  +A+Ord
- * _+Der/тькс_  +A+Ord (non-contrastive)
+ * _+Der/cje_  +A+Ord
+ * _+Der/tjks_  +A+Ord (non-contrastive)
 
 !!DECLARING DEVERBAL DERIVATIONS OF VERBS
- * _+Der/кшнО_  verb2verb derivation
- * _+Der/ОкшнОмс_  verb2verb derivation
- * _+Der/ОвОмс_  verb2verb derivation
- * _+Der/ОвтОмс_  verb2verb derivation
- * _+Der/Озевемс_  verb2verb derivation
- * _+Der/се_  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
- * _+Der/не_  verb2verb derivation
- * _+Der/немс_  verb2verb derivation
+ * _+Der/kshnO_  verb2verb derivation
+ * _+Der/OkshnOms_  verb2verb derivation
+ * _+Der/OvOms_  verb2verb derivation
+ * _+Der/OvtOms_  verb2verb derivation
+ * _+Der/Ozevems_  verb2verb derivation
+ * _+Der/sje_  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
+ * _+Der/nje_  verb2verb derivation
+ * _+Der/njems_  verb2verb derivation
 
- * _+Der/Онце_ old orth кудонцесь
+ * _+Der/Oncje_ old orth кудонцесь
 
  * _+Der/Dimin_ 
- * _+Der/ка_  diminutive
- * _+Der/НЕ_  This is used in ошке, калнэ and кудыне
- * _+Der/нЕ_  diminutive
- * _+Der/Ыне_  diminutive
- * _+Der/Ынька_  diminutive
- * _+Der/Ынькине_  diminutive
- * _+Der/ке_  diminutive in --ке--
- * _+Der/кине_  diminutive
+ * _+Der/ka_  diminutive
+ * _+Der/NJE_  This is used in ошке, калнэ and кудыне
+ * _+Der/nJE_  diminutive
+ * _+Der/Ynje_  diminutive
+ * _+Der/Ynjka_  diminutive
+ * _+Der/Ynjkinje_  diminutive
+ * _+Der/ke_  diminutive in --ке--
+ * _+Der/kinje_  diminutive
 
 
 
@@ -764,6 +765,7 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 Adjectives and other parts of speech in ERZYA are compared by means of 
 either a particle or ablative case marking on the standard of comparison
+
 
 
 
