@@ -363,6 +363,8 @@ SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
 
 LIST APAK = "апак" ;
 
+LIST EZJ = "эзь" ;
+
 #2013-05-22
 
 # Phrasal groups
@@ -514,7 +516,9 @@ REMOVE ConNeg IF (NOT -1 Aux + Neg) ;
 #REMOVE TV IF (0 JAKAMS) ((NOT *-1) OR (NOT *1  )) ;
 
 #Кода понгсь минь сынст ней а виднесынек.
+# — Кияк эзь учне тень.
 REMOVE Clt/Cop ((*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN)) ;
+#REMOVE Clt/Cop IF (0 ConNeg) (-1 VFIN) ;
 
 # содан = V not N for 1st and 2nd person
 REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
