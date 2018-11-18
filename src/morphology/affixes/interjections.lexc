@@ -8,20 +8,20 @@
 ! ============ !
 
 LEXICON INTERJ_
-+Interj: K ;
+: K ;
 
 LEXICON V-DEFECTIVE-IMPRT
 +V+Imprt+ScSg2: ImpK ;
 +V+Imprt+ScPl2:%>дО1 ImpK ;
 
 LEXICON FORMULAIC_
-+Interj+Formulaic: WORD-END ;
++Formulaic: WORD-END ;
 
 LEXICON VOCATIVE_
-+Interj+Voc: WORD-END ;
++Voc: WORD-END ;
 
 LEXICON INTERJ-NEG
-+Interj+Neg: # ;
++Neg: # ;
 
 
 ! vim: set ft=xfst-lexc:
