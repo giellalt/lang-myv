@@ -22,9 +22,9 @@ LEXICON adverbs
 !+Err/Orth: AdvState-kudo ; 
 
 LEXICON AdvState-kudo
-+Adv+State: K ;
-+Adv+State+Clt/Cop:%> StateConjugation-kudo ;
-+Adv+State+Der+Der/MWN: N_KUDO ;
++State: K ;
++State+Clt/Cop:%> StateConjugation-kudo ;
++State+Der+Der/MWN+N: N_KUDO ;
 
 
 
@@ -51,62 +51,62 @@ LEXICON StateConjugation-kudo
 !+ABBR: ADVTAG ;
 
 LEXICON Ad-A_ ! 
-+Adv+AdA: WORD-END ;
++AdA: WORD-END ;
 
 LEXICON ADV_ ! 
-+Adv: K ;
+: K ;
 
 LEXICON ADV-EVID-NFH_ !келя 
-+Adv+EvidNfh: K ;
++EvidNfh: K ;
 
 LEXICON GER_
 +Ger: K ;
-+Ger+Der+Der+Der/MWN: N_OSH ;
++Ger+Der+Der+Der/MWN+N: N_OSH ;
 
 LEXICON ADV_KUDO ! Coping with stem structure
  ADV_ ;
 
 ! истяк 
 LEXICON ADV_LAK
-+Adv: K-lak ;
+: K-lak ;
 
 LEXICON ADV_OSH
-+Adv: K ;
+: K ;
 
 LEXICON ADV_KAL
-+Adv: K ;
+: K ;
 
 LEXICON ADV-TEMP_IS-TEMP
-+Adv+Temp: K ;
++Temp: K ;
 
 LEXICON ADV-TEMP-ITER
-+Adv+Temp+Iter: K ;
++Temp+Iter: K ;
 
 LEXICON ADV-ITER
 !! кавксть
-+Adv+Iter: K ;
++Iter: K ;
 
 LEXICON ADV-INTERR-ITER
 !! зяроксть
-+Adv+Interr+Iter: K ;
++Interr+Iter: K ;
 
 LEXICON ADV-TEMP_
-+Adv+Temp: K ;
++Temp: K ;
 
 LEXICON ADV-SPAT_ !!= @CODE@ пачк
-+Adv+Spat: K ;
++Spat: K ;
 
 LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
-+Adv+Spat+Abl: K ;
++Spat+Abl: K ;
 
 LEXICON ADV-SPAT-IS-LAT !!= @CODE@ алов
-+Adv+Spat+Lat: K ;
++Spat+Lat: K ;
 
 LEXICON ADV-SPAT-IS-LOC !!= @CODE@ ало
-+Adv+Spat+Loc: K ;
++Spat+Loc: K ;
 
 LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
-+Adv+Spat+Prl: K ;
++Spat+Prl: K ;
 
 LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
  ADV-SPAT_ALO ;
@@ -122,20 +122,20 @@ LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
 
 
 LEXICON ADV-SPAT_ALO !!= @CODE@ ало:ал
-+Adv+Spat+Abl:%>дО1 K ;
-+Adv+Spat+Loc:%>О1 K ;
-+Adv+Spat+Prl:%>Г2а K ;
-+Adv+Spat+Orth/PhonDeriv+Loc+Der+Der/cje:%>це _KUDO-N2-Def-Declension ;
-+Adv+Spat+Der+Der/ks:%>кс N_OSH ;
-+Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
++Spat+Abl:%>дО1 K ;
++Spat+Loc:%>О1 K ;
++Spat+Prl:%>Г2а K ;
++Spat+Orth/PhonDeriv+Loc+Der+Der/cje:%>це _KUDO-N2-Def-Declension ;
++Spat+Der+Der/ks:%>кс N_OSH ;
++Spat+Lat:%>%{ОЕЭØ%}в K ;
 
 LEXICON ADV-SPAT_karsho
-+Adv+Spat: K ;
-+Adv+Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
-+Adv+Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Spat: K ;
++Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
++Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON ADV-INE_KISE2
-+Adv+Ine: POSSX4-END-FOC-CLT/COP-SC3 ;
++Ine: POSSX4-END-FOC-CLT/COP-SC3 ;
 
 LEXICON PO-SPAT_karsho
 +Adp+Spat: K ;
@@ -143,9 +143,9 @@ LEXICON PO-SPAT_karsho
 
 !LEXICON ADV/PO/PRON-SPAT_
 !!! relative space __мельга__
-!+Adv+Spat: K ;
+!+Spat: K ;
 !+Adp+Spat: K ;
-!+Adv+Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
+!+Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
 
 
 LEXICON PO/PRON-SPAT_
@@ -156,194 +156,194 @@ LEXICON PO/PRON-SPAT_
 
 
 LEXICON Adv_Phrase ! 
-+Adv: WORD-END ;
+: WORD-END ;
 
 LEXICON ADV-IDEOPH ! 
-+Adv+Ideoph: K ;
++Ideoph: K ;
 ! сорк, кальцк ; twang, thwang, bang
 
 LEXICON ADV-IDEOPH-IS-INE ! 
-+Adv+Ideoph+Ine: K ;
++Ideoph+Ine: K ;
 
 LEXICON ADV-INDEF_
-+Adv+Indef: K ;
++Indef: K ;
 LEXICON ADV-INDEF-TEMP_
-+Adv+Indef: K ;
++Indef: K ;
 
 LEXICON Exclusive ! 
-+Adv+Exclusive: K ;
++Exclusive: K ;
 
 LEXICON ADV-PARENTHETIC_ ! 
-+Adv+Parenthetic: K ;
++Parenthetic: K ;
 
 !LEXICON ADV_-ELA ! 
-!+Adv+Ela: K ;
+!+Ela: K ;
 
 LEXICON Adv-Ine ! 
-+Adv+Ine: K ;
++Ine: K ;
 
 !LEXICON Adv-Tra ! 
-!+Adv+Tra: K ;
+!+Tra: K ;
 
 LEXICON ADV_-TRA ! 
-+Adv+Tra: K ;
++Tra: K ;
 
 LEXICON MANNER_ ! 
-+Adv+Manner: K ;
++Manner: K ;
 
 LEXICON MANNER_-ELA ! 
 A-DER/ELA-ADV-MANNER ;
 
 LEXICON A-DER/ELA-ADV-MANNER ! 
-+Adv+Manner+Ela: K ;
++Manner+Ela: K ;
 
 LEXICON MANNER_-TRA ! 
-+Adv+Manner+Tra: K ;
++Manner+Tra: K ;
 
 LEXICON ADV-IS-INTERR-MANNER
-+Adv+Interr+Manner: K ;
++Interr+Manner: K ;
 
 !LEXICON Manner-Interr ! 
 ! ADV-IS-INTERR-MANNER ;
 
 !LEXICON	PRED2-OBJ_KUDO !! "апак прядо"
-!+Adv+Pred2: K ;
-!+Adv+Pred2+Der+Der/MWN: N_KUDO ;
+!+Pred2: K ;
+!+Pred2+Der+Der/MWN+N: N_KUDO ;
 
 !LEXICON	PRED2-OBJ_OSH
-!+Adv+Pred2: K ;
-!+Adv+Pred2+Der+Der/MWN: N_OSH ;
+!+Pred2: K ;
+!+Pred2+Der+Der/MWN+N: N_OSH ;
 
 LEXICON PRED2-SUBJ_KUDO_Sub !!
 +Err/Orth: PRED2-SUBJ_KUDO ;
 LEXICON PRED2-SUBJ_KUDO !! "стядо"
-+Adv+Pred2: K ;
-+Adv+Pred2+Der+Der/MWN: N_KUDO ;
++Pred2: K ;
++Pred2+Der+Der/MWN+N: N_KUDO ;
 
 LEXICON PRED2-SUBJ_OSH
-+Adv+Pred2: K ;
-+Adv+Pred2+Der+Der/MWN: N_OSH ;
++Pred2: K ;
++Pred2+Der+Der/MWN+N: N_OSH ;
 
 LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
-+Adv+Pred2: K ;
-+Adv+Pred2+Der+Der/MWN: N_KUDO ;
++Pred2: K ;
++Pred2+Der+Der/MWN+N: N_KUDO ;
 
 !! spatial adverbs 
 !! dependent and independent case marking 
 LEXICON SPAT-NoArg
-+Adv+Spat: K ;
++Spat: K ;
 
 LEXICON ADV-IS-SPAT-ELA
-+Adv+Ela: K ;
-+Adv+Ela: CLT/COP4_OBL ;
++Ela: K ;
++Ela: CLT/COP4_OBL ;
 
 LEXICON ADV-IS-SPAT-ILL
-+Adv+Ill: K ;
++Ill: K ;
 
 LEXICON ADV-IS-SPAT-INE
-+Adv+Ine: K ;
-+Adv+Ine: CLT/COP4_OBL ;
++Ine: K ;
++Ine: CLT/COP4_OBL ;
 
 LEXICON ADV-IS-SPAT-ABL
-+Adv+Abl: K ;
++Abl: K ;
 
 LEXICON ADV-IS-SPAT-LAT
-+Adv+Lat: K ;
++Lat: K ;
 
 LEXICON ADV-IS-SPAT-PRL
-+Adv+Prl: K ;
-+Adv+Prl: CLT/COP4_OBL ;
++Prl: K ;
++Prl: CLT/COP4_OBL ;
 
 
 LEXICON ADV-INTERR-IS-LAT
-+Adv+Interr+Lat: K ;
++Interr+Lat: K ;
 !LEXICON SPAT-Interr
 !+Interr+Spat: WORD-END ;
 
 LEXICON ADV-INTERR-IS-SPAT-ABL
-+Adv+Interr+Abl: K ;
++Interr+Abl: K ;
 
 LEXICON ADV-INTERR-IS-SPAT-INE
-+Adv+Interr+Ine: K ;
-+Adv+Interr+Ine: CLT/COP4_OBL ;
++Interr+Ine: K ;
++Interr+Ine: CLT/COP4_OBL ;
 
 LEXICON ADV-INTERR-IS-SPAT-ELA
-+Adv+Interr+Ela: K ;
++Interr+Ela: K ;
 
 LEXICON ADV-INTERR-IS-SPAT-LAT
-+Adv+Interr+Lat: K ;
++Interr+Lat: K ;
 
 LEXICON ADV-INTERR-IS-SPAT-PRL
-+Adv+Interr+Prl: K ;
++Interr+Prl: K ;
 
 LEXICON Spat_
-+Adv+Spat: K ;
++Spat: K ;
 
 LEXICON SPAT-Ela
-+Adv+Spat+Ela: K ;
++Spat+Ela: K ;
 !+Adp+Spat+Ela: _KUDO-Possessive-Before-K ;
 
 LEXICON SPAT-Ine
-+Adv+Spat+Ine: K ;
++Spat+Ine: K ;
 !+Adp+Spat+Ine: _KUDO-Possessive-Before-K ;
 
 LEXICON SPAT-Lat
-+Adv+Spat+Lat: K ;
++Spat+Lat: K ;
 
 LEXICON SPAT-Prl
-+Adv+Spat+Prl: K ;
++Spat+Prl: K ;
 !+Adp+Spat+Prl: _KUDO-Possessive-Before-K ;
 
 !!Temporal tags with cases
 LEXICON TEMP_
-+Adv+Temp: K ;
++Temp: K ;
 
 !! This marking would indicate a word form that may be 
 !  construed as an adv as well as a adposition.
 !LEXICON Temp-NoArg
-!+Adv+Temp: K ;
+!+Temp: K ;
 
 LEXICON Temp-Coll
-+Adv+Temp+Coll: K ;
++Temp+Coll: K ;
 
 LEXICON Temp-Distr
-+Adv+Temp+Distr: K ;
++Temp+Distr: K ;
 
 LEXICON Temp-Ela
-+Adv+Temp+Ela: K ;
++Temp+Ela: K ;
 
 LEXICON Temp-Ill
-+Adv+Temp+Ill: K ;
++Temp+Ill: K ;
 
 LEXICON Temp-Indef
-+Adv+Temp+Indef: K ;
++Temp+Indef: K ;
 
 LEXICON Temp-Interr
-+Adv+Interr+Temp: K ;
++Interr+Temp: K ;
 
 LEXICON Temp-Lat
-+Adv+Temp+Lat: K ;
++Temp+Lat: K ;
 
 LEXICON Temp-ms
-+Adv+Der+Der/ms+Temp+Ill: K ;
++Der+Der/ms+Temp+Ill: K ;
 
 LEXICON Temp-Pl
-+Adv+Temp+Pl: K ;
++Temp+Pl: K ;
 
 LEXICON Temp-Prl
-+Adv+Temp+Prl: K ;
++Temp+Prl: K ;
 
 LEXICON ADV-TEMP_LAK
-+Adv+Temp: K ;
-+Adv+Temp+Der+Der/MWN: N_LAK ;
++Temp: K ;
++Temp+Der+Der/MWN+N: N_LAK ;
 
 LEXICON ADV-TEMP_KIT
-+Adv+Temp: K ;
-+Adv+Temp+Der+Der/MWN: N_KIT ;
++Temp: K ;
++Temp+Der+Der/MWN+N: N_KIT ;
 
 LEXICON ADV-TEMP_KUDO
-+Adv+Temp: K ;
-+Adv+Temp+Der+Der/MWN: N_KUDO ;
++Temp: K ;
++Temp+Der+Der/MWN+N: N_KUDO ;
 
 
 
