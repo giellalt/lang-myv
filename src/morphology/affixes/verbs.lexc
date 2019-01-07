@@ -36,15 +36,15 @@ LEXICON V_ARAS1_01
 
 !! OBJECT FLAGS AND +V+TV tags
 LEXICON V-AUX-NEG-CONJ !! аволь:а 
-+V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@  ConjPers-withO-all ;
+@P.CONJ.ObjAll@+V+Aux+Neg:@P.CONJ.ObjAll@  ConjPers-withO-all ;
 
 
 
 
 LEXICON V-AUX-NEG-PRT1 !!= __@CODE@__ эзь:эзь
-+V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
-+V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-30_ZERO ;
-+V+Aux+Neg@P.CONJ.ObjAll@:000@P.CONJ.ObjAll@ IND-PRT1-60_T ;
+@P.CONJ.ObjAll@+V+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
+@P.CONJ.ObjAll@+V+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-30_ZERO ;
+@P.CONJ.ObjAll@+V+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-60_T ;
 
 LEXICON BV_LEDEMS
  IV_LEDEMS ;
@@ -100,21 +100,21 @@ LEXICON BV_KUZEMS
 
 LEXICON TV_LEDEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_LEDEMS ;
-00@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}@P.CONJ.ObjAll@@U.TRANS.TV@ DERIVE-V2V-WITH-ONSET-VOWEL_FRONT ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%} DERIVE-V2V-WITH-ONSET-VOWEL_FRONT ;
 
-!+V+TV+Der/OkshnOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-!+V+TV+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-!+V+TV+Der/OvtOms+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-!+V+TV+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_SAEVEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+!@U.TRANS.IV@!+V+TV+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_KADOMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_KADOMS ;
-00@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}@P.CONJ.ObjAll@@U.TRANS.TV@ DERIVE-V2V-WITH-ONSET-VOWEL_BACK ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%} DERIVE-V2V-WITH-ONSET-VOWEL_BACK ;
 
-!+V+TV+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
-!+V+TV+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-!+V+TV+Der/OvtOms+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-!+V+TV+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в00@U.TRANS.IV@ V_JANGAVOMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+!@U.TRANS.IV@!+V+TV+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 ! This should not occur
 !LEXICON TV_SAEVEMS 
@@ -126,34 +126,34 @@ LEXICON TV_NEVTEMS_SUB !!= __@CODE@__
 
 LEXICON TV_NEVTEMS  !!≈ * _@CODE@_  невтемс:невть
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>не0@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_SAVTOMS_SUB !!= __@CODE@__ 
 +Err/Orth: TV_SAVTOMS ;
 
 LEXICON TV_SAVTOMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OkshnOms+V+TV00@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
-+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>не0@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO !!= __@CODE@__ 
-+Subj/Zero@P.CONJ.ObjAll@@U.TRANS.TV@:0@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS-SG3 ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Subj/Zero:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS-SG3 ;
 +Subj/Zero:  Deverbals-kadoms ;
 
 LEXICON TV_CHACHTOMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_CHACHTOMS ;
-+Der+Der/OkshnOms0000@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
-+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>не0@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 !LEXICON TV_JANGAVOMS !!= __@CODE@__ 
 ! @P.CONJ.ObjAll@@U.TRANS.TV@ V_JANGAVOMS ;
@@ -163,24 +163,24 @@ LEXICON TV_KUNDAMS_SUB !!= __@CODE@__
 
 LEXICON TV_KUNDAMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>кшно@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 LEXICON TV_PIDEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OkshnOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>втне000@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>в00@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_SAEVEMS ;
 
 LEXICON TV_E2ZHNEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OkshnOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>втне000@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>в00@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_SAEVEMS ;
 
 LEXICON TV_KUNDAKSHNOMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
@@ -198,50 +198,50 @@ LEXICON TV_SATOMS !!= __@CODE@__
 
 LEXICON TV_UEMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_UEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_TUEMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ Indicative_Present_Obj ;
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_TUEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_TEEMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_TEEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_NEEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_NEEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_MIEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_MIEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON TV_NEKSHNEMS  !!≈ * _@CODE@_  некшнемс:некшн
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-!!2012-04-24 the TAG "+Sem/ObjOpen":0 has been removed 
+!!2012-04-24 the TAG "+Sem/ObjOpen": has been removed 
 
 LEXICON TV_KUZEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_KUZEMS ;
-+Der+Der/OkshnOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}кшн@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 !! !!! VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
 
@@ -350,7 +350,7 @@ LEXICON TV_PIDEMS-Obj3
 @P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
 
 !LEXICON TV_E2ZHNEMS-Obj3
-!@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
 
 LEXICON TV_KUNDAKSHNOMS-Obj3
 @P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
@@ -539,38 +539,38 @@ LEXICON TV_NEKSHNEMS-Obj3
 !! !!! VERBS WITH INTRANSITIVE TAGS +V+IV
 LEXICON IV_UEMS
 @U.TRANS.IV@ V_UEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне00@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_TUEMS
 @U.TRANS.IV@ V_TUEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне00@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_TEEMS
 @U.TRANS.IV@ V_TEEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне00@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_NEEMS
 @U.TRANS.IV@ V_NEEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне00@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_MIEMS
 @U.TRANS.IV@ V_MIEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне00@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_NEKSHNEMS_SUB
 +Err/Orth: IV_NEKSHNEMS ;
@@ -581,25 +581,25 @@ LEXICON IV_NEKSHNEMS
 !касомс:ка
 LEXICON IV_KASOMS
 @U.TRANS.IV@ V_KASOMS ;
-+Der+Der/OkshnOms+V+IV000@U.TRANS.IV@:с%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_KUNDAMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:с%>т0@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:с%>тне000@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:с%>%{ОЕЭØ%}в@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@с%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@с%>т V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@с%>тне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@с%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 !куземс:ку
 LEXICON IV_KUZEMS
 @U.TRANS.IV@ V_KUZEMS ;
-+Der+Der/OkshnOms+V+IV000@U.TRANS.IV@:зь%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV00@P.CONJ.ObjAll@@U.TRANS.TV@:%>зевть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>зевтне0@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@зь%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>зевтне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_LEDEMS
 @U.TRANS.IV@ V_LEDEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV0@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне00@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 !LEXICON IV_LEDEMS-SG3
 !@U.TRANS.IV@ V_LEDEMS-SG3 ;
@@ -608,9 +608,9 @@ LEXICON IV_SAVTOMS_SUB
 +Err/Orth: IV_SAVTOMS ;
 LEXICON IV_SAVTOMS
 @U.TRANS.IV@ V_SAVTOMS ;
-+Der+Der/OkshnOms+V+IV00@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_KUNDAMS ;
-+Der+Der/njems+V+IV@U.TRANS.IV@:%>не0@U.TRANS.IV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/njems+V+IV:@U.TRANS.IV@%>не V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 !LEXICON IV_SAVTOMS-SG3
 !@U.TRANS.IV@ V_SAVTOMS-SG3 ;
@@ -620,119 +620,119 @@ LEXICON IV_SAVTOMS
 
 LEXICON IV_CHACHTOMS
 @U.TRANS.IV@ V_CHACHTOMS ;
-+Der+Der/OkshnOms+V+IV00@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_KUNDAMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}втне@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 LEXICON IV_NEVTEMS_SUB
 +Err/Orth: IV_NEVTEMS ;
 LEXICON IV_NEVTEMS
 @U.TRANS.IV@ V_NEVTEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_SAEVEMS ;
 
 LEXICON IV_KADOMS
 @U.TRANS.IV@ V_KADOMS ;
-+Der+Der/OkshnOms0000@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ IV_KUNDAKSHNOMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms:@U.TRANS.IV@%>%{ОЕЭØ%}кшно IV_KUNDAKSHNOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 LEXICON IV_SAEVEMS_SUB
 +Err/Orth: IV_SAEVEMS ;
 LEXICON IV_SAEVEMS
 @U.TRANS.IV@ V_SAEVEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:%>кшн@U.TRANS.IV@ V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>кшн V_NEKSHNEMS ;
 
 LEXICON IV_POTAZEVEMS
 @U.TRANS.IV@ V_SAEVEMS ;
-+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:%>кшн@U.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
 
 LEXICON IV_JANGAVOMS
 @U.TRANS.IV@ V_JANGAVOMS ;
-+Der+Der/OkshnOms+V+IV00@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_KUNDAMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>кшно@U.TRANS.IV@ V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>кшно V_KUNDAMS ;
 
 LEXICON IV_KUNDAMS_SUB
 +Err/Orth: IV_KUNDAMS ;
 LEXICON IV_KUNDAMS
 @U.TRANS.IV@ V_KUNDAMS ;
-+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:кшно@U.TRANS.IV@ IV_KUNDAKSHNOMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>%{ОЕЭØ%}вт@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}в0@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@кшно IV_KUNDAKSHNOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{ОЕЭØ%}вт V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}в V_JANGAVOMS ;
 
 LEXICON IV_PIDEMS
 @U.TRANS.IV@ V_PIDEMS ;
-+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:кшн0@U.TRANS.IV@ IV_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>в00@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@кшн IV_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_JANGAVOMS ;
 
 LEXICON IV_E2ZHNEMS
 @U.TRANS.IV@ V_PIDEMS ;
-+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:кшн0@U.TRANS.IV@ IV_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvOms+V+IV@U.TRANS.IV@:%>в00@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@кшн IV_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_JANGAVOMS ;
 
 LEXICON IV_KUNDAKSHNOMS
 @U.TRANS.IV@ V_KUNDAMS ;
 
 LEXICON IV_SATOMS
 @U.TRANS.IV@ V_SATOMS ;
-+Der+Der/OkshnOms+V+IV00@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
 
 LEXICON IV_LETEMS
  IV_SATOMS ;
-+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшн@U.TRANS.IV@ V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
 
 !! !!!AUXILIARY VERBS
 LEXICON VA_SAVTOMS
 +V+Aux: V_SAVTOMS ;
-+V+Aux+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно0@U.TRANS.IV@ V_KUNDAMS ;
+@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
 
 !LEXICON VA_JANGAVOMS
 !+V+Aux: V_JANGAVOMS ;
-!+V+Aux+Der+Der/OkshnOms+V+IV0@U.TRANS.IV@:%>%{ОЕЭØ%}кшно0@U.TRANS.IV@ V_KUNDAMS ;
+!@U.TRANS.IV@!+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
 
 !LEXICON VA_JANGAVOMS-SG3
 !+V+Aux: V_JANGAVOMS-SG3 ;
 
 !LEXICON VA_LETEMS
 !+V+Aux: V_SATOMS ;
-!+V+Aux+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}кшн0@U.TRANS.IV@ V_NEKSHNEMS ;
+!@U.TRANS.IV@!+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшн V_NEKSHNEMS ;
 
 !LEXICON VA_LETEMS-SG3
 !+V+Aux: V_SATOMS-SG3 ;
 
 LEXICON VA_KUNDAMS
 +V+Aux: V_KUNDAMS ;
-+V+Aux+Der+Der/OkshnOms+V+IV@U.TRANS.IV@:%>%{ОЕЭØ%}кшно@U.TRANS.IV@ V_KUNDAMS ;
+@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{ОЕЭØ%}кшно V_KUNDAMS ;
 
 
 !! !!!DERIVATION
 LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_FRONT
 +Der+Der/OkshnOms+V:кшн V_NEKSHNEMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вть@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:втне00@P.CONJ.ObjAll@@P.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@P.TRANS.IV@:в000@P.TRANS.IV@ V_SAEVEMS ;
-+Der+Der/OvOms+Der+Der/OkshnOms+V+IV@P.TRANS.IV@:вкшн00@P.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/Ozevems+V+IV@P.TRANS.IV@:зев0@P.TRANS.IV@ V_SAEVEMS ;
-+Der+Der/Ozevems+Der+Der/OkshnOms+V+IV@P.TRANS.IV@:зевкшн@P.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/Ozevems+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевть0@P.CONJ.ObjAll@@P.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/Ozevems+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевтне00@P.CONJ.ObjAll@@P.TRANS.TV@ V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@втне V_PIDEMS ;
+@P.TRANS.IV@+Der+Der/OvOms+V+IV:@P.TRANS.IV@в V_SAEVEMS ;
+@P.TRANS.IV@+Der+Der/OvOms+Der+Der/OkshnOms+V+IV:@P.TRANS.IV@вкшн V_NEKSHNEMS ;
+@P.TRANS.IV@+Der+Der/Ozevems+V+IV:@P.TRANS.IV@зев V_SAEVEMS ;
+@P.TRANS.IV@+Der+Der/Ozevems+Der+Der/OkshnOms+V+IV:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevems+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevems+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
 
 
 LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_BACK
 +Der+Der/OkshnOms+V:кшно V_KUNDAMS ;
-+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@U.TRANS.TV@:%>вт0@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:втне00@P.CONJ.ObjAll@@P.TRANS.TV@ V_PIDEMS ;
-+Der+Der/OvOms+V+IV@P.TRANS.IV@:в000@P.TRANS.IV@ V_JANGAVOMS ;
-+Der+Der/OvOms+Der+Der/OkshnOms+V+IV@P.TRANS.IV@:вкшно0@P.TRANS.IV@ V_KUNDAMS ;
-+Der+Der/Ozevems+V+IV@P.TRANS.IV@:зев0@P.TRANS.IV@ V_SAEVEMS ;
-+Der+Der/Ozevems+Der+Der/OkshnOms+V+IV@P.TRANS.IV@:зевкшн@P.TRANS.IV@ V_NEKSHNEMS ;
-+Der+Der/Ozevems+Der+Der/OvtOms+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевть0@P.CONJ.ObjAll@@P.TRANS.TV@ V_NEVTEMS ;
-+Der+Der/Ozevems+Der+Der/OvtOms+Der+Der/njems+V+TV@P.CONJ.ObjAll@@P.TRANS.TV@:зевтне0@P.CONJ.ObjAll@@P.TRANS.TV@ V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@втне V_PIDEMS ;
+@P.TRANS.IV@+Der+Der/OvOms+V+IV:@P.TRANS.IV@в V_JANGAVOMS ;
+@P.TRANS.IV@+Der+Der/OvOms+Der+Der/OkshnOms+V+IV:@P.TRANS.IV@вкшно V_KUNDAMS ;
+@P.TRANS.IV@+Der+Der/Ozevems+V+IV:@P.TRANS.IV@зев V_SAEVEMS ;
+@P.TRANS.IV@+Der+Der/Ozevems+Der+Der/OkshnOms+V+IV:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevems+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevems+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
 
 !LEXICON DERIVE-V2V-WITHOUT-ONSET-VOWEL
 
@@ -843,15 +843,15 @@ LEXICON V_NEKSHNEMS-CONJUGATION
 !касомс:ка
 LEXICON V_KASOMS
 :с V_KADOMS ;
-0@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@й PredIndPrt1Sc3 ;
 
 !куземс:ку
 LEXICON V_KUZEMS
 :зь V_LEDEMS ;
-0@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@й PredIndPrt1Sc3 ;
 !LEXICON V_KUZEMS-CONJUGATION
 !:зь V_LEDEMS-CONJUGATION ;
-!0@U.CONJ-INF.NO@:й@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@й PredIndPrt1Sc3 ;
 
 
 LEXICON V_LEDEMS
@@ -873,7 +873,7 @@ LEXICON V_SAVTOMS-SG3
 
 LEXICON V_CHACHTOMS
  V_KADOMS ;
-0@U.CONJ-INF.NO@:а@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@а PredIndPrt1Sc3 ;
 
 !LEXICON V_CHACHTOMS-CONJUGATION
 ! V_KADOMS-CONJUGATION ;
@@ -890,7 +890,7 @@ LEXICON V_KADOMS
 
 LEXICON V_KADOMS-CONJUGATION
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 
 
@@ -899,20 +899,20 @@ LEXICON V_KADOMS-CONJUGATION
 @U.CONJ-INF.NO@ V_KADOMS-a ;
 
 LEXICON V_KADOMS-SG3
-0@U.CONJ-INF.NO@:%>@U.CONJ-INF.NO@ IND-PRT1-30 ;
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-30 ;
-00@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CNJ-30 ;
-+Der+Der/Cond+V+Conj000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>%{иы%}ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%> IND-PRT1-30 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-30 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{ОЕЭØ%} CNJ-30 ;
+@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@+Der+Der/Cond+V+Conj:@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@%>%{иы%}ндеря%> CNJ-30 ;
 @U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
-+ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}К3@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-+Des0000@U.CONJ-INF.NO@@U.CONJ-MX.DES@:%>%{иы%}ксэ@U.CONJ-INF.NO@@U.CONJ-MX.DES@ DES-PRT2-30 ;
+@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@%>%{ОЕЭØ%}К3 _KUDO-Tenses1 ;
+@U.CONJ-INF.NO@@U.CONJ-MX.DES@+Des:@U.CONJ-INF.NO@@U.CONJ-MX.DES@%>%{иы%}ксэ DES-PRT2-30 ;
 !! no deverbals
 
 LEXICON V_SAEVEMS
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-ALL ;
-0@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
-+Err/Orth+Dial@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%^WLoss CONJUNCTIVE-ALL ;
+@U.CONJ-INF.NO@+Err/Orth+Dial:@U.CONJ-INF.NO@%>%{ОЕЭØ%} CONJUNCTIVE-ALL ;
 
   CondVerbs ;
      VerbsPresPrc_1 ;
@@ -922,21 +922,21 @@ LEXICON V_SAEVEMS
 
 !LEXICON V_SAEVEMS-SG3
 !@U.CONJ-INF.NO@ IND-PRT1-30 ;
-!00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-30 ;
-!0@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CNJ-30 ;
-!+Err/Orth+Dial@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CNJ-30 ;
-!+Der+Der/Cond+V+Conj000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>%{иы%}ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
-!@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
-!+ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}К3@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-!+Des0000@U.CONJ-INF.NO@@U.CONJ-MX.DES@:%>%{иы%}ксэ@U.CONJ-INF.NO@@U.CONJ-MX.DES@ DES-PRT2-30 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-30 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%^WLoss CNJ-30 ;
+!@U.CONJ-INF.NO@!+Err/Orth+Dial:@U.CONJ-INF.NO@%>%{ОЕЭØ%} CNJ-30 ;
+!@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@!+Der+Der/Cond+V+Conj:@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@%>%{иы%}ндеря%> CNJ-30 ;
+!@U.CONJ-INF.NO@@U.CONJ-MX.IND@!:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
+!@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@!+ConNeg:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@%>%{ОЕЭØ%}К3 _KUDO-Tenses1 ;
+!@U.CONJ-INF.NO@@U.CONJ-MX.DES@!+Des:@U.CONJ-INF.NO@@U.CONJ-MX.DES@%>%{иы%}ксэ DES-PRT2-30 ;
 
 !! no deverbals
 
 LEXICON V_JANGAVOMS
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-ALL ;
-0@U.CONJ-INF.NO@:%^WLoss@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
-+Err/Orth+Dial@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%^WLoss CONJUNCTIVE-ALL ;
+@U.CONJ-INF.NO@+Err/Orth+Dial:@U.CONJ-INF.NO@%>%{ОЕЭØ%} CONJUNCTIVE-ALL ;
 
   CondVerbs ;
      VerbsPresPrc_1 ;
@@ -953,7 +953,7 @@ LEXICON V_KUNDAMS
  V_KUNDAMS-CONJUGATION ;
 LEXICON V_KUNDAMS-CONJUGATION
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 
   CondVerbs ;
@@ -963,7 +963,7 @@ LEXICON V_KUNDAMS-CONJUGATION
 
 LEXICON V_PIDEMS
 @U.CONJ-INF.NO@ IND-PRT1-ALL ;
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 
   CondVerbs ;
@@ -983,10 +983,10 @@ LEXICON V_SATOMS-CONJUGATION
 
 !2012-10-27! This still needs work
 @U.CONJ-INF.NO@ IND-PRT1-ALL-BUT-Sc3 ;
-+Err/Orth@U.CONJ-INF.NO@:0@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
-000@U.CONJ-INF.NO@:%>%{ОЕЭØ%}т@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
+@U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{ОЕЭØ%}т IND-PRT1-Sc3 ;
 
-00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
 
   CondVerbs ;
@@ -994,14 +994,14 @@ LEXICON V_SATOMS-CONJUGATION
 @U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 !LEXICON V_SATOMS-SG3
-!+Err/Orth@U.CONJ-INF.NO@:%>@U.CONJ-INF.NO@ IND-PRT1-30 ;
-!0000@U.CONJ-INF.NO@:%>%{ОЕЭØ%}т%>@U.CONJ-INF.NO@ IND-PRT1-30 ;
-!00@U.CONJ-INF.NO@:%>%{иы%}@U.CONJ-INF.NO@ IND-PRT2-30 ;
-!00@U.CONJ-INF.NO@:%>%{ОЕЭØ%}@U.CONJ-INF.NO@ CNJ-30 ;
-!+Der+Der/Cond+V+Conj000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>%{иы%}ндеря%>@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CNJ-30 ;
-!@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
-!+ConNeg00@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}К3@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-!+Des0000@U.CONJ-INF.NO@@U.CONJ-MX.DES@:%>%{иы%}ксэ@U.CONJ-INF.NO@@U.CONJ-MX.DES@ DES-PRT2-30 ;
+!@U.CONJ-INF.NO@!+Err/Orth:@U.CONJ-INF.NO@%> IND-PRT1-30 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{ОЕЭØ%}т%> IND-PRT1-30 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-30 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{ОЕЭØ%} CNJ-30 ;
+!@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@!+Der+Der/Cond+V+Conj:@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@%>%{иы%}ндеря%> CNJ-30 ;
+!@U.CONJ-INF.NO@@U.CONJ-MX.IND@!:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND-PRS-30 ;
+!@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@!+ConNeg:@U.CONJ-INF.NO@@U.CONJ-CONNEG.YES@%>%{ОЕЭØ%}К3 _KUDO-Tenses1 ;
+!@U.CONJ-INF.NO@@U.CONJ-MX.DES@!+Des:@U.CONJ-INF.NO@@U.CONJ-MX.DES@%>%{иы%}ксэ DES-PRT2-30 ;
 
 !! no deverbals
 
@@ -1013,7 +1013,7 @@ LEXICON V_SATOMS-CONJUGATION
 
 LEXICON V_KADOMS-a
 @U.CONJ-MX.IND@ Indicative1 ;
-+ConNeg00@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}К3@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
+@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-CONNEG.YES@%>%{ОЕЭØ%}К3 _KUDO-Tenses1 ;
  Desiderative-kadoms ;
 
  Imperative-kadoms ;
@@ -1021,8 +1021,8 @@ LEXICON V_KADOMS-a
 
 LEXICON V_KUNDAMS-a
            @U.CONJ-MX.IND@         Indicative1 ;
-+ConNeg0@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-!2017-10-26+ConNegII0@U.CONJ-CONNEG.YES@:%>К3@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
+@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-CONNEG.YES@%>К3 _KUDO-Tenses1 ;
+!@U.CONJ-CONNEG.YES@!2017-10-26+ConNegII:@U.CONJ-CONNEG.YES@%>К3 _KUDO-Tenses1 ;
  Desiderative-kundams ;
  Imperative-kundams ;
   @U.CONJ-MX.OPT@ Optative-noArrow ;
@@ -1034,11 +1034,11 @@ LEXICON V_SATOMS-a
  CondVerbs ;
 @U.CONJ-MX.IND@ Indicative1 ;
 +Err/Orth+Dial: PredIndPrt1Sc3 ; !2012-05-05 What's this for
-+Err/Orth+Dial+ConNegII@U.CONJ-CONNEG.YES@:%>К30@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-+ConNeg0@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-+ConNeg000@U.CONJ-CONNEG.YES@:%>%{ОЕЭØ%}тЬ2@U.CONJ-CONNEG.YES@ _KUDO-Tenses1 ;
-+Ind+Prt1+ScSg300@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}тсь@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3Ø@ VerbEnd_K ;
-+Ind+Prt1+ScPl3000@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@:%>%{ОЕЭØ%}тсть@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@ VerbEnd_K ;
+@U.CONJ-CONNEG.YES@+Err/Orth+Dial+ConNegII:@U.CONJ-CONNEG.YES@%>К3 _KUDO-Tenses1 ;
+@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-CONNEG.YES@%>%{ОЕЭØ%} _KUDO-Tenses1 ;
+@U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-CONNEG.YES@%>%{ОЕЭØ%}тЬ2 _KUDO-Tenses1 ;
+@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3Ø@+Ind+Prt1+ScSg3:@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.3Ø@%>%{ОЕЭØ%}тсь VerbEnd_K ;
+@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@+Ind+Prt1+ScPl3:@U.CONJ-INF.NO@@U.CONJ-CONNEG.NO@@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@@U.CONJ-PX.6Ø@%>%{ОЕЭØ%}тсть VerbEnd_K ;
  Desiderative-kadoms ;
 
  Imperative-kundams ;
@@ -1049,20 +1049,20 @@ LEXICON V_SATOMS-a
 !! !!DERIVATION 
 
 LEXICON CondVerbs
-+Der+Der/Cond+V000@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@:%>%{иы%}ндеря@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@ CONJUNCTIVE-ALL ;
+@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@+Der+Der/Cond+V:@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@%>%{иы%}ндеря CONJUNCTIVE-ALL ;
 ! 2012-05-04 Is this contLex correct??
-+Der+Der/Cond+V000@U.CONJ-INF.NO@:%>%{иы%}ндеря@U.CONJ-INF.NO@ Indicative1-noSc3 ;
-+Der+Der/Cond+V000@U.CONJ-INF.NO@:%>%{иы%}ндеря@U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
+@U.CONJ-INF.NO@+Der+Der/Cond+V:@U.CONJ-INF.NO@%>%{иы%}ндеря Indicative1-noSc3 ;
+@U.CONJ-INF.NO@+Der+Der/Cond+V:@U.CONJ-INF.NO@%>%{иы%}ндеря PredIndPrt1Sc3 ;
 
 ! 2012-04-24 rather odd and infrequent
-+Der+Der/Cond+V0000@U.CONJ-INF.NO@:%>%{иы%}ндеря@U.CONJ-INF.NO@ IND-PRT1-ALL ;
+@U.CONJ-INF.NO@+Der+Der/Cond+V:@U.CONJ-INF.NO@%>%{иы%}ндеря IND-PRT1-ALL ;
 
-+Der+Der/Cond+V+Ind000@U.CONJ-INF.NO@:%>%{иы%}ндеря@U.CONJ-INF.NO@ IND-PRT2-ALL ;
+@U.CONJ-INF.NO@+Der+Der/Cond+V+Ind:@U.CONJ-INF.NO@%>%{иы%}ндеря IND-PRT2-ALL ;
 
-+Der+Der/Cond+V+Ind+Prs+ScSg300@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@:%>%{иы%}ндеряй@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@ VerbEnd_K ;
-+Der+Der/Cond+V+Ind+Prs+ScPl30000@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@:%>%{иы%}ндеряйть@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@ VerbEnd_K ;
-+Der+Der/Cond+V+Err/Orth+Ind+Prs+ScSg3@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@:%>%{иы%}ндери@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@ VerbEnd_K ;
-+Der+Der/Cond+V+Err/Orth+Ind+Prs+ScPl300@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@:%>%{иы%}ндерить@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@ VerbEnd_K ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@+Der+Der/Cond+V+Ind+Prs+ScSg3:@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@%>%{иы%}ндеряй VerbEnd_K ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@+Der+Der/Cond+V+Ind+Prs+ScPl3:@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@%>%{иы%}ндеряйть VerbEnd_K ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@+Der+Der/Cond+V+Err/Orth+Ind+Prs+ScSg3:@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@%>%{иы%}ндери VerbEnd_K ;
+@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@+Der+Der/Cond+V+Err/Orth+Ind+Prs+ScPl3:@U.CONJ-INF.NO@@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@%>%{иы%}ндерить VerbEnd_K ;
 
 +Der+Der/Cond+V:%>%{иы%}ндеря   VerbsPresPrc_1 ;
 +Der+Der/Cond+V:%>%{иы%}ндеря   Deverbals-kundams ;
@@ -1073,21 +1073,21 @@ LEXICON VerbsPresPrc_1
 !2017-10-26+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}ця%>тЬ2 K ;
 +Act+PrsPrc+A:%>%{иы%}ця NMN_KUDO ;
 !+Der+Der/Ycja+Act+PrsPrc+Der+Der/MWN:%>%{иы%}ця N_KUDO ;
-+Der+Der/NomAg:%>%{иы%}ця N_KUDO ;
++Der+Der/NomAg+N:%>%{иы%}ця N_KUDO ;
 
 
 +Der+Der/Yj+Act+PrsPrc:%>%{иы%}й K ;
 +Der+Der/Yj+Act+PrsPrc+Clt/Cop+Prs+ScSg3:%>%{иы%}й K ;
 +Der+Der/Yj+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}й%>тЬ2 K ;
 !+Der+Der/Yj+Act+PrsPrc+Der+Der/MWN:%>%{иы%}й N_KAL ;
-+Der+Der/Yj+Der+Der/NomAg:%>%{иы%}й N_KAL ;
++Der+Der/Yj+Der+Der/NomAg+N:%>%{иы%}й N_KAL ;
 +Der+Der/Yj+Act+PrsPrc:%>%{иы%}й N2Dem-SE ;
 
 +Der+Der/Y+Act+PrsPrc:%>%{иы%} K ;
 +Der+Der/Y+Act+PrsPrc+Clt/Cop+Prs+ScSg3:%>%{иы%} K ;
 +Der+Der/Y+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}%>тЬ2 K ;
 !+Der+Der/Y+Act+PrsPrc+Der+Der/MWN:%>%{иы%} N_KUDO ;
-+Der+Der/Y+Der+Der/NomAg:%>%{иы%} N_KUDO ;
++Der+Der/Y+Der+Der/NomAg+N:%>%{иы%} N_KUDO ;
 +Der+Der/Y+Act+PrsPrc:%>%{иы%} N2Dem-SE ;
 
 +Der+Der/Y+Act+PrsPrc+Der+Der/ks+A:%>%{иы%}кс K ;
@@ -1102,41 +1102,41 @@ LEXICON VerbsPresPrc_1
 LEXICON Deverbals-kadoms ! kadoms
 @U.CONJ-INF.YES@ Deverbals_mutual ;
 
-+Err/Orth+Dial/SH+Inf+Loc@U.CONJ-INF.YES@@U.CX.LOC@:%>мО10@U.CONJ-INF.YES@@U.CX.LOC@ _KUDO-Possessive-Before-K-or-K ;
-+Err/Orth+Dial/NW+Inf+Tra00@U.CONJ-INF.YES@@U.CX.TRA@:%>мО1%>кс@U.CONJ-INF.YES@@U.CX.TRA@ _OSH-Tenses1 ;
-+Err/Orth+Dial+Inf+Abl00@U.CONJ-INF.YES@@U.CX.ABL@:%>мО1%>дО1@U.CONJ-INF.YES@@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K ;
-+Err/Orth+Dial/NW+Ger+Ill0@U.CONJ-INF.YES@@U.CX.ILL@:%>мО1%>з@U.CONJ-INF.YES@@U.CX.ILL@ _OSH-Possessive-Before-K ;
+@U.CONJ-INF.YES@@U.CX.LOC@+Err/Orth+Dial/SH+Inf+Loc:@U.CONJ-INF.YES@@U.CX.LOC@%>мО1 _KUDO-Possessive-Before-K-or-K ;
+@U.CONJ-INF.YES@@U.CX.TRA@+Err/Orth+Dial/NW+Inf+Tra:@U.CONJ-INF.YES@@U.CX.TRA@%>мО1%>кс _OSH-Tenses1 ;
+@U.CONJ-INF.YES@@U.CX.ABL@+Err/Orth+Dial+Inf+Abl:@U.CONJ-INF.YES@@U.CX.ABL@%>мО1%>дО1 _KUDO-Possessive-Before-K-or-K ;
+@U.CONJ-INF.YES@@U.CX.ILL@+Err/Orth+Dial/NW+Ger+Ill:@U.CONJ-INF.YES@@U.CX.ILL@%>мО1%>з _OSH-Possessive-Before-K ;
 
 LEXICON Deverbals-kundams ! kundams
 @U.CONJ-INF.YES@ Deverbals_mutual ;
 
 
 LEXICON Deverbals_mutual
-!2017-10-26+Der+Der/OmA+N+Der+Der/NomAct+N@C.CONJ-INF@:%>%{ОЕЭØ%}мА10@C.CONJ-INF@ NMN_KUDO ;
-+Der+Der/NomAct+N0@C.CONJ-INF@:%>%{ОЕЭØ%}мА1@C.CONJ-INF@ NMN_KUDO ;
-+Der+Der/Omka+N+Der+Der/NomAct+N@C.CONJ-INF@:%>%{ОЕЭØ%}мка@C.CONJ-INF@ NMN_KUDO ;
-+Oblig000@U.CX.NOM@:%>%{ОЕЭØ%}ма@U.CX.NOM@ _KUDO-Tenses1-4Inf ;
-+Der+Der/Omka+Oblig00@U.CX.NOM@:%>%{ОЕЭØ%}мка@U.CX.NOM@ _KUDO-Tenses1-4Inf ;
+!@C.CONJ-INF@!2017-10-26+Der+Der/OmA+N+Der+Der/NomAct+N:@C.CONJ-INF@%>%{ОЕЭØ%}мА1 NMN_KUDO ;
+@C.CONJ-INF@+Der+Der/NomAct+N:@C.CONJ-INF@%>%{ОЕЭØ%}мА1 NMN_KUDO ;
+@C.CONJ-INF@+Der+Der/Omka+N+Der+Der/NomAct+N:@C.CONJ-INF@%>%{ОЕЭØ%}мка NMN_KUDO ;
+@U.CX.NOM@+Oblig:@U.CX.NOM@%>%{ОЕЭØ%}ма _KUDO-Tenses1-4Inf ;
+@U.CX.NOM@+Der+Der/Omka+Oblig:@U.CX.NOM@%>%{ОЕЭØ%}мка _KUDO-Tenses1-4Inf ;
 
-+Inf+Loc000@U.CX.LOC@:%>%{ОЕЭØ%}мО10@U.CX.LOC@ _KUDO-Possessive-Before-K-or-K-4Inf ;
-+Inf000@U.CX.ILL@:%>%{ОЕЭØ%}мс@U.CX.ILL@ sajems-Conjugation-4Inf ; !!		   __@CODE@__ Alternates with TRA
-+Inf000@U.CX.ILL@:%>%{ОЕЭØ%}мс@U.CX.ILL@ VerbEnd_K ; !! __@CODE@__ Alternates with TRA
-+Ger+Ill00@U.CX.ILL@:%>%{ОЕЭØ%}мс@U.CX.ILL@ VerbEnd_K ;
-+Ger+Ela0000@U.CX.ELA@:%>%{ОЕЭØ%}мст%{оэØ%}@U.CX.ELA@ _KUDO-Possessive-Before-K-or-K-4Inf ;
-+Inf+Ine000@U.CX.INE@:%>%{ОЕЭØ%}мс%{оэØ%}@U.CX.INE@ _KUDO-Possessive-Before-K-or-K-4Inf ;
-+Ger+Prl000@U.CX.PRL@:%>%{ОЕЭØ%}мга@U.CX.PRL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
-+Inf+Abl000@U.CX.ABL@:%>%{ОЕЭØ%}мдО1@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
-+Inf+Abl00000@U.CX.ABL@:%>%{ОЕЭØ%}мО1%>дО1@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.LOC@+Inf+Loc:@U.CX.LOC@%>%{ОЕЭØ%}мО1 _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.ILL@+Inf:@U.CX.ILL@%>%{ОЕЭØ%}мс sajems-Conjugation-4Inf ; !!		   __@CODE@__ Alternates with TRA
+@U.CX.ILL@+Inf:@U.CX.ILL@%>%{ОЕЭØ%}мс VerbEnd_K ; !! __@CODE@__ Alternates with TRA
+@U.CX.ILL@+Ger+Ill:@U.CX.ILL@%>%{ОЕЭØ%}мс VerbEnd_K ;
+@U.CX.ELA@+Ger+Ela:@U.CX.ELA@%>%{ОЕЭØ%}мст%{оэØ%} _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.INE@+Inf+Ine:@U.CX.INE@%>%{ОЕЭØ%}мс%{оэØ%} _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.PRL@+Ger+Prl:@U.CX.PRL@%>%{ОЕЭØ%}мга _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.ABL@+Inf+Abl:@U.CX.ABL@%>%{ОЕЭØ%}мдО1 _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.ABL@+Inf+Abl:@U.CX.ABL@%>%{ОЕЭØ%}мО1%>дО1 _KUDO-Possessive-Before-K-or-K-4Inf ;
 ! кавтолдомодо
-+Inf+Abl00000@U.CX.ABL@:%>%{ОЕЭØ%}мА1%>дО1@U.CX.ABL@ _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.ABL@+Inf+Abl:@U.CX.ABL@%>%{ОЕЭØ%}мА1%>дО1 _KUDO-Possessive-Before-K-or-K-4Inf ;
 ! кавтолдомадо
-+Ger+Ill0000@U.CX.ILL@:%>%{ОЕЭØ%}мО1%>з@U.CX.ILL@ N-Poss-Declension-PossX_01 ;
+@U.CX.ILL@+Ger+Ill:@U.CX.ILL@%>%{ОЕЭØ%}мО1%>з N-Poss-Declension-PossX_01 ;
 
-+Der+Der/Ovt+Prc/Telic00@C.CONJ-INF@:%>%{ОЕЭØ%}втЬ2@C.CONJ-INF@ N_KIT ; !!
-+Der+Der/Ozj+Ger0@C.CONJ-INF@:%>%{ОЕЭØ%}зь@C.CONJ-INF@ sajezj-PRC ; !!
-+Der+Der/Ozj+Ger+Ind+Prs+ScPl30@C.CONJ-INF@:%>%{ОЕЭØ%}зь%>тЬ2@C.CONJ-INF@ VerbEnd_K ; !!
-+Der+Der/GenAttr+A0@C.CONJ-INF@:%>%{ОЕЭØ%}нь@C.CONJ-INF@ _KAL-Tenses1 ;
-+Der+Der/GenAttr+A0@C.CONJ-INF@:%>%{ОЕЭØ%}нь@C.CONJ-INF@ N2Dem-SE ;
+@C.CONJ-INF@+Der+Der/Ovt+Prc/Telic:@C.CONJ-INF@%>%{ОЕЭØ%}втЬ2 N_KIT ; !!
+@C.CONJ-INF@+Der+Der/Ozj+Ger:@C.CONJ-INF@%>%{ОЕЭØ%}зь sajezj-PRC ; !!
+@C.CONJ-INF@+Der+Der/Ozj+Ger+Ind+Prs+ScPl3:@C.CONJ-INF@%>%{ОЕЭØ%}зь%>тЬ2 VerbEnd_K ; !!
+@C.CONJ-INF@+Der+Der/GenAttr+A:@C.CONJ-INF@%>%{ОЕЭØ%}нь _KAL-Tenses1 ;
+@C.CONJ-INF@+Der+Der/GenAttr+A:@C.CONJ-INF@%>%{ОЕЭØ%}нь N2Dem-SE ;
 
 
 LEXICON ActDemPrc
@@ -1172,7 +1172,7 @@ LEXICON Indicative1
 
 
 LEXICON Indicative1-noSc3
-+Ind+Prt1@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:00@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
 !Indicative Non-past
  IND-PRS-10 ;
  IND-PRS-20 ;
@@ -1244,23 +1244,23 @@ LEXICON IND-PRT1-ALL-BUT-Sc3
 :%> IND-PRT1-20 ;
 :%> IND-PRT1-40 ;
 :%> IND-PRT1-50 ;
-0@R.CONJ.ObjAll@:%>@R.CONJ.ObjAll@ IND-PRT1-Oc ;
-0@R.CONJ-PX.13@:%>@R.CONJ-PX.13@ IND-PRT1-Oc ;
-0@R.CONJ-PX.16@:%>@R.CONJ-PX.16@ IND-PRT1-Oc ;
-0@R.CONJ-PX.23@:%>@R.CONJ-PX.23@ IND-PRT1-Oc ;
-0@R.CONJ-PX.26@:%>@R.CONJ-PX.26@ IND-PRT1-Oc ;
-0@R.CONJ-PX.43@:%>@R.CONJ-PX.43@ IND-PRT1-Oc ;
-0@R.CONJ-PX.46@:%>@R.CONJ-PX.46@ IND-PRT1-Oc ;
-0@R.CONJ-PX.53@:%>@R.CONJ-PX.53@ IND-PRT1-Oc ;
-0@R.CONJ-PX.56@:%>@R.CONJ-PX.56@ IND-PRT1-Oc ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%> IND-PRT1-Oc ;
+@R.CONJ-PX.13@:@R.CONJ-PX.13@%> IND-PRT1-Oc ;
+@R.CONJ-PX.16@:@R.CONJ-PX.16@%> IND-PRT1-Oc ;
+@R.CONJ-PX.23@:@R.CONJ-PX.23@%> IND-PRT1-Oc ;
+@R.CONJ-PX.26@:@R.CONJ-PX.26@%> IND-PRT1-Oc ;
+@R.CONJ-PX.43@:@R.CONJ-PX.43@%> IND-PRT1-Oc ;
+@R.CONJ-PX.46@:@R.CONJ-PX.46@%> IND-PRT1-Oc ;
+@R.CONJ-PX.53@:@R.CONJ-PX.53@%> IND-PRT1-Oc ;
+@R.CONJ-PX.56@:@R.CONJ-PX.56@%> IND-PRT1-Oc ;
 
 LEXICON IND-PRT1-Sc3
 :%> IND-PRT1-30 ;
 :%> IND-PRT1-60 ;
-0@R.CONJ-PX.33@:%>@R.CONJ-PX.33@ Indicative_PretI_Obj ;
-0@R.CONJ-PX.36@:%>@R.CONJ-PX.36@ Indicative_PretI_Obj ;
-0@R.CONJ-PX.63@:%>@R.CONJ-PX.63@ IND-PRT1-Oc ;
-0@R.CONJ-PX.66@:%>@R.CONJ-PX.66@ IND-PRT1-Oc ;
+@R.CONJ-PX.33@:@R.CONJ-PX.33@%> Indicative_PretI_Obj ;
+@R.CONJ-PX.36@:@R.CONJ-PX.36@%> Indicative_PretI_Obj ;
+@R.CONJ-PX.63@:@R.CONJ-PX.63@%> IND-PRT1-Oc ;
+@R.CONJ-PX.66@:@R.CONJ-PX.66@%> IND-PRT1-Oc ;
 
 
 LEXICON IndicativePretI-plus
@@ -1324,7 +1324,7 @@ LEXICON IND-PRT1-Oc
 !2012-10-27!:%> IND-PRT2-ALL ;
 !+Err/Orth+Dial:%>О1 IndPrt2-noArrow-Sc ;
 
-!+Err/Orth+Dial@R.CONJ.ObjAll@:%>О1@R.CONJ.ObjAll@ IndPrt2_Oc_noArrows ;
+!@R.CONJ.ObjAll@!+Err/Orth+Dial:@R.CONJ.ObjAll@%>О1 IndPrt2_Oc_noArrows ;
 
 !LEXICON IndicativePrt2_noArrow
 !:%{иы%} Prt2-noArrow ;
@@ -1394,378 +1394,378 @@ LEXICON IndPrt2_Oc_noArrows
 
 !! Indicative NonPast 
 LEXICON IND-PRS-10
-+Ind+Prs+ScSg1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@:%>А2н@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@  VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@+Ind+Prs+ScSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@%>А2н  VerbEnd_deraj ;
 
 LEXICON IND-PRS-12
-+Ind+Prs+ScSg1+OcSg2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@:тА2н0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@+Ind+Prs+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@тА2н VerbEnd_deraj ;
 
 LEXICON IND-PRS-13
-+Ind+Prs+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>са0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_deraj ;
-+Err/Orth+Dial+Ind+Prs+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сан00@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_deraj ;
-+Err/Orth+Dial/SE+Ind+Prs+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@:%>сать0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@+Ind+Prs+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@%>са VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@+Err/Orth+Dial+Ind+Prs+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@%>сан VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@+Err/Orth+Dial/SE+Ind+Prs+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@%>сать VerbEnd_deraj ;
 
 LEXICON IND-PRS-15
-+Ind+Prs+ScSg1+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@:тА2дызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@+Ind+Prs+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@тА2дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-16
-+Ind+Prs+ScSg1+OcPl30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@:%>сынь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@+Ind+Prs+ScSg1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@%>сынь VerbEnd_deraj ;
 
 LEXICON IND-PRS-20
-+Ind+Prs+ScSg2@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@:%>А2т@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@+Ind+Prs+ScSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@%>А2т VerbEnd_deraj ;
 
 LEXICON IND-PRS-21
-+Ind+Prs+ScSg2+OcSg100@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@:%>самак@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@+Ind+Prs+ScSg2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@%>самак VerbEnd_deraj ;
 
 LEXICON IND-PRS-23
-+Ind+Prs+ScSg2+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@:%>сак@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@+Ind+Prs+ScSg2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.23@%>сак VerbEnd_deraj ;
 
 LEXICON IND-PRS-24
-+Ind+Prs+ScSg2+OcPl1000@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@:%>самизь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@+Ind+Prs+ScSg2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.24@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-26
-+Ind+Prs+ScSg2+OcPl30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@:%>сыть@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@+Ind+Prs+ScSg2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.26@%>сыть VerbEnd_deraj ;
 
 LEXICON IND-PRS-30
-+Ind+Prs+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@:%>%{иы%}0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@+Ind+Prs+ScSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.3Ø@%>%{иы%} VerbEnd_deraj ;
 
 LEXICON IND-PRS-31
-+Ind+Prs+ScSg3+OcSg100@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@:%>самам@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@+Ind+Prs+ScSg3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@%>самам VerbEnd_deraj ;
 
 LEXICON IND-PRS-32
-+Ind+Prs+ScSg3+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@:тА2нзат@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@+Ind+Prs+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@тА2нзат VerbEnd_deraj ;
 
 LEXICON IND-PRS-33
-+Ind+Prs+ScSg3+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@:%>сы0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@ VerbEnd_deraj ;
-+Err/Orth+Dial/NW+Ind+Prs+ScSg3+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@:%>сазо0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@+Ind+Prs+ScSg3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@%>сы VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@+Err/Orth+Dial/NW+Ind+Prs+ScSg3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@%>сазо VerbEnd_deraj ;
 
 LEXICON IND-PRS-34
-+Ind+Prs+ScSg3+OcPl1000@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@:%>самизь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@+Ind+Prs+ScSg3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-35
-+Ind+Prs+ScSg3+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@:тА2дызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@+Ind+Prs+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@тА2дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-36
-+Ind+Prs+ScSg3+OcPl300@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@:%>сынзе@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@+Ind+Prs+ScSg3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@%>сынзе VerbEnd_deraj ;
 
 LEXICON IND-PRS-40
-+Ind+Prs+ScPl100@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@:%>тА2но@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@ VerbEnd_deraj ;
-+Err/Orth+Dial/W+Ind+Prs+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@:%>тА2м0@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@ VerbEnd_deraj ;
-+Err/Orth+Dial/NW+Ind+Prs+ScPl10@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@:%>тА2нок@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@ VerbEnd_deraj-lak ;
-!2013-03-15!+Err/Orth+Ind+Prs+ScPl100@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@:%>TLossтА2но@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@ VerbEnd_deraj ;
-!2013-03-15!+Err/Orth+Dial/W+Ind+Prs+ScPl1@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@:%>TLossтА2м@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@ VerbEnd_deraj ;
-!2013-03-15!+Err/Orth+Dial/NW+Ind+Prs+ScPl100@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@:%>TLossтА2нок@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@ VerbEnd_deraj-lak ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>тА2но VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Err/Orth+Dial/W+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>тА2м VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Err/Orth+Dial/NW+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>тА2нок VerbEnd_deraj-lak ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Err/Orth+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossтА2но VerbEnd_deraj ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Err/Orth+Dial/W+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossтА2м VerbEnd_deraj ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Err/Orth+Dial/NW+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossтА2нок VerbEnd_deraj-lak ;
 
 LEXICON IND-PRS-42
-+Ind+Prs+ScPl1+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@:тА2дызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@+Ind+Prs+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@тА2дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-43
-+Ind+Prs+ScPl1+OcSg300@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@:%>сынек@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@+Ind+Prs+ScPl1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@%>сынек VerbEnd_deraj ;
 
 LEXICON IND-PRS-45
-+Ind+Prs+ScPl1+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@:тА2дызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@+Ind+Prs+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@тА2дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-46
-+Ind+Prs+ScPl1+OcPl300@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@:%>сынек@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@+Ind+Prs+ScPl1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@%>сынек VerbEnd_deraj ;
 
 LEXICON IND-PRS-50
-+Ind+Prs+ScPl200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@:%>тА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@ VerbEnd_deraj ;
-!2013-03-15!+Err/Orth+Dial+Ind+Prs+ScPl20@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@:%>TLossтА2до@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@+Ind+Prs+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@%>тА2до VerbEnd_deraj ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@!2013-03-15!+Err/Orth+Dial+Ind+Prs+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@%>TLossтА2до VerbEnd_deraj ;
 
 LEXICON IND-PRS-51
-+Ind+Prs+ScPl2+OcSg1000@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@:%>самизь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@+Ind+Prs+ScPl2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-53
-+Ind+Prs+ScPl2+OcSg30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@:%>сынк@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@+Ind+Prs+ScPl2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.53@%>сынк VerbEnd_deraj ;
 
 LEXICON IND-PRS-54
-+Ind+Prs+ScPl2+OcPl1000@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@:%>самизь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@+Ind+Prs+ScPl2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.54@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-56
-+Ind+Prs+ScPl2+OcPl30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@:%>сынк@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@+Ind+Prs+ScPl2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.56@%>сынк VerbEnd_deraj ;
 
 LEXICON IND-PRS-60
-+Ind+Prs+ScPl30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@:%>%{иы%}ть@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@+Ind+Prs+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.6Ø@%>%{иы%}ть VerbEnd_deraj ;
 
 LEXICON IND-PRS-61
-+Ind+Prs+ScPl3+OcSg1000@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@:%>самизь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@+Ind+Prs+ScPl3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-62
-+Ind+Prs+ScPl3+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@:тА2дызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@+Ind+Prs+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@тА2дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-63
-+Ind+Prs+ScPl3+OcSg30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@:%>сызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@+Ind+Prs+ScPl3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@%>сызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-64
-+Ind+Prs+ScPl3+OcPl1000@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@:%>самизь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@+Ind+Prs+ScPl3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-65
-+Ind+Prs+ScPl3+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@:тА2дызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@+Ind+Prs+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@тА2дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-66
-+Ind+Prs+ScPl3+OcPl30@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@:%>сызь@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@ VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@+Ind+Prs+ScPl3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@%>сызь VerbEnd_deraj ;
 
 
 LEXICON IND-PRT1-10
-+Ind+Prt1+ScSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.1Ø@:%{иы%}нь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.1Ø@  VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.1Ø@+Ind+Prt1+ScSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.1Ø@%{иы%}нь  VerbEnd_K ;
 
 LEXICON IND-PRT1-12
-+Ind+Prt1+ScSg1+OcSg20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@:%{иы%}тинь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg1+OcSg2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@:%{иы%}тень0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@+Ind+Prt1+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@%{иы%}тинь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@+Err/Orth+Dial+Ind+Prt1+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.12@%{иы%}тень VerbEnd_K ;
 
 LEXICON IND-PRT1-13
-+Ind+Prt1+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@:%{иы%}я00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@:%{иы%}е0000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@ VerbEnd_K ;
-+Err/Orth+Dial/SE+Ind+Prt1+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@:%{иы%}ять00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@+Ind+Prt1+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@%{иы%}я VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@+Err/Orth+Dial+Ind+Prt1+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@%{иы%}е VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@+Err/Orth+Dial/SE+Ind+Prt1+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.13@%{иы%}ять VerbEnd_K ;
 
 LEXICON IND-PRT1-15
-+Ind+Prt1+ScSg1+OcPl20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@:%{иы%}дизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg1+OcPl2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@:%{иы%}дезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@+Ind+Prt1+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@%{иы%}дизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@+Err/Orth+Dial+Ind+Prt1+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.15@%{иы%}дезь VerbEnd_K ;
 
 LEXICON IND-PRT1-16
-+Ind+Prt1+ScSg1+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.16@:%{иы%}нь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.16@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.16@+Ind+Prt1+ScSg1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.16@%{иы%}нь VerbEnd_K ;
 
 LEXICON IND-PRT1-20
-+Ind+Prt1+ScSg2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.2Ø@:%{иы%}ть@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.2Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.2Ø@+Ind+Prt1+ScSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.2Ø@%{иы%}ть VerbEnd_K ;
 
 LEXICON IND-PRT1-21
-+Ind+Prt1+ScSg2+OcSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@:%{иы%}мик@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg2+OcSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@:%{иы%}мек00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@+Ind+Prt1+ScSg2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@%{иы%}мик VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@+Err/Orth+Dial+Ind+Prt1+ScSg2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.21@%{иы%}мек VerbEnd_K ;
 
 LEXICON IND-PRT1-23
-+Ind+Prt1+ScSg2+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.23@:%{иы%}к00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.23@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.23@+Ind+Prt1+ScSg2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.23@%{иы%}к VerbEnd_K ;
 
 LEXICON IND-PRT1-24
-+Ind+Prt1+ScSg2+OcPl10@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@:%{иы%}мизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg2+OcPl1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@:%{иы%}мезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@+Ind+Prt1+ScSg2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@%{иы%}мизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@+Err/Orth+Dial+Ind+Prt1+ScSg2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.24@%{иы%}мезь VerbEnd_K ;
 
 LEXICON IND-PRT1-26
-+Ind+Prt1+ScSg2+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@:%{иы%}ть0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@ VerbEnd_K ;
-+Err/Orth+Dial/NW+Ind+Prt1+ScSg2+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@:%{иы%}00000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@+Ind+Prt1+ScSg2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@%{иы%}ть VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@+Err/Orth+Dial/NW+Ind+Prt1+ScSg2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.26@%{иы%} VerbEnd_K ;
 
 LEXICON IND-PRT1-30
-+Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@:сь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@+Ind+Prt1+ScSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@сь VerbEnd_K ;
 
 LEXICON IND-PRT1-30_ZERO
-+Ind+Prt1+ScSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@:000@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@+Ind+Prt1+ScSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3Ø@ VerbEnd_K ;
 
 
 LEXICON IND-PRT1-31
-+Ind+Prt1+ScSg3+OcSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@:%{иы%}мим@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg3+OcSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@:%{иы%}мем00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@+Ind+Prt1+ScSg3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@%{иы%}мим VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@+Err/Orth+Dial+Ind+Prt1+ScSg3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.31@%{иы%}мем VerbEnd_K ;
 
 LEXICON IND-PRT1-32
-+Ind+Prt1+ScSg3+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@:%{иы%}нзеть@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg3+OcSg2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@:%{иы%}нзить@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@+Ind+Prt1+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@%{иы%}нзеть VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@+Err/Orth+Dial+Ind+Prt1+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.32@%{иы%}нзить VerbEnd_K ;
 
 LEXICON IND-PRT1-33
-+Ind+Prt1+ScSg3+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.33@:%{иы%}зе0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.33@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.33@+Ind+Prt1+ScSg3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.33@%{иы%}зе VerbEnd_K ;
 
 LEXICON IND-PRT1-34
-+Ind+Prt1+ScSg3+OcPl10@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@:%{иы%}мизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg3+OcPl1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@:%{иы%}мезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@+Ind+Prt1+ScSg3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@%{иы%}мизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@+Err/Orth+Dial+Ind+Prt1+ScSg3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.34@%{иы%}мезь VerbEnd_K ;
 
 LEXICON IND-PRT1-35
-+Ind+Prt1+ScSg3+OcPl20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@:%{иы%}дизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScSg3+OcPl2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@:%{иы%}дезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@+Ind+Prt1+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@%{иы%}дизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@+Err/Orth+Dial+Ind+Prt1+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.35@%{иы%}дезь VerbEnd_K ;
 
 LEXICON IND-PRT1-36
-+Ind+Prt1+ScSg3+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.36@:%{иы%}нзе@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.36@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.36@+Ind+Prt1+ScSg3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.36@%{иы%}нзе VerbEnd_K ;
 
 LEXICON IND-PRT1-40
-+Ind+Prt1+ScPl10@U.CONJ-PX.4Ø@:%{иы%}нек@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
-+Err/Orth+Dial+ScPl10@U.CONJ-PX.4Ø@:%{иы%}ник@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
+@U.CONJ-PX.4Ø@+Ind+Prt1+ScPl1:@U.CONJ-PX.4Ø@%{иы%}нек VerbEnd_K-lak ;
+@U.CONJ-PX.4Ø@+Err/Orth+Dial+ScPl1:@U.CONJ-PX.4Ø@%{иы%}ник VerbEnd_K-lak ;
 
 LEXICON IND-PRT1-42
-+Ind+Prt1+ScPl1+OcSg20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@:%{иы%}дизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl1+OcSg2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@:%{иы%}дезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@+Ind+Prt1+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@%{иы%}дизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@+Err/Orth+Dial+Ind+Prt1+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.42@%{иы%}дезь VerbEnd_K ;
 
 LEXICON IND-PRT1-43
-+Ind+Prt1+ScPl1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@:%{иы%}нек@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@:%{иы%}ник00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@+Ind+Prt1+ScPl1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@%{иы%}нек VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@+Err/Orth+Dial+Ind+Prt1+ScPl1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.43@%{иы%}ник VerbEnd_K ;
 
 LEXICON IND-PRT1-45
-+Ind+Prt1+ScPl1+OcPl20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@:%{иы%}дизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl1+OcPl2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@:%{иы%}дезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@+Ind+Prt1+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@%{иы%}дизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@+Err/Orth+Dial+Ind+Prt1+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.45@%{иы%}дезь VerbEnd_K ;
 
 LEXICON IND-PRT1-46
-+Ind+Prt1+ScPl1+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@:%{иы%}нек@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl1+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@:%{иы%}ник00@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@+Ind+Prt1+ScPl1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@%{иы%}нек VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@+Err/Orth+Dial+Ind+Prt1+ScPl1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.46@%{иы%}ник VerbEnd_K ;
 
 LEXICON IND-PRT1-50
-+Ind+Prt1+ScPl2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.5Ø@:%{иы%}де@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.5Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.5Ø@+Ind+Prt1+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.5Ø@%{иы%}де VerbEnd_K ;
 
 LEXICON IND-PRT1-51
-+Ind+Prt1+ScPl2+OcSg10@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@:%{иы%}мизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl2+OcSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@:%{иы%}мезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@+Ind+Prt1+ScPl2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@%{иы%}мизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@+Err/Orth+Dial+Ind+Prt1+ScPl2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.51@%{иы%}мезь VerbEnd_K ;
 
 LEXICON IND-PRT1-53
-+Ind+Prt1+ScPl2+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.53@:%{иы%}нк0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.53@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.53@+Ind+Prt1+ScPl2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.53@%{иы%}нк VerbEnd_K ;
 
 LEXICON IND-PRT1-54
-+Ind+Prt1+ScPl2+OcPl10@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@:%{иы%}мизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl2+OcPl1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@:%{иы%}мезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@+Ind+Prt1+ScPl2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@%{иы%}мизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@+Err/Orth+Dial+Ind+Prt1+ScPl2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.54@%{иы%}мезь VerbEnd_K ;
 
 LEXICON IND-PRT1-56
-+Ind+Prt1+ScPl2+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.56@:%{иы%}нк0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.56@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.56@+Ind+Prt1+ScPl2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.56@%{иы%}нк VerbEnd_K ;
 
 LEXICON IND-PRT1-60
-+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@:сть@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@+Ind+Prt1+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@сть VerbEnd_K ;
 
 LEXICON IND-PRT1-60_T
-+Ind+Prt1+ScPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@:%>тЬ2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@+Ind+Prt1+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6Ø@%>тЬ2 VerbEnd_K ;
 
 LEXICON IND-PRT1-61
-+Ind+Prt1+ScPl3+OcSg10@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@:%{иы%}мизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl3+OcSg1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@:%{иы%}мезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@+Ind+Prt1+ScPl3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@%{иы%}мизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@+Err/Orth+Dial+Ind+Prt1+ScPl3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.61@%{иы%}мезь VerbEnd_K ;
 
 LEXICON IND-PRT1-62
-+Ind+Prt1+ScPl3+OcSg20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@:%{иы%}дизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl3+OcSg2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@:%{иы%}дезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@+Ind+Prt1+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@%{иы%}дизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@+Err/Orth+Dial+Ind+Prt1+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.62@%{иы%}дезь VerbEnd_K ;
 
 LEXICON IND-PRT1-63
-+Ind+Prt1+ScPl3+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.63@:%{иы%}зь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.63@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.63@+Ind+Prt1+ScPl3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.63@%{иы%}зь VerbEnd_K ;
 
 LEXICON IND-PRT1-64
-+Ind+Prt1+ScPl3+OcPl10@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@:%{иы%}мизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl3+OcPl1@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@:%{иы%}мезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@+Ind+Prt1+ScPl3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@%{иы%}мизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@+Err/Orth+Dial+Ind+Prt1+ScPl3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.64@%{иы%}мезь VerbEnd_K ;
 
 LEXICON IND-PRT1-65
-+Ind+Prt1+ScPl3+OcPl20@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@:%{иы%}дизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt1+ScPl3+OcPl2@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@:%{иы%}дезь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@+Ind+Prt1+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@%{иы%}дизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@+Err/Orth+Dial+Ind+Prt1+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.65@%{иы%}дезь VerbEnd_K ;
 
 LEXICON IND-PRT1-66
-+Ind+Prt1+ScPl3+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.66@:%{иы%}зь0@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.66@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.66@+Ind+Prt1+ScPl3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.66@%{иы%}зь VerbEnd_K ;
 
 
 !! !!INDICATIVE PRETERITE 2 
 
 LEXICON IND-PRT2-10
-+Ind+Prt2+ScSg1000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@:%>%{ОЕЭØ%}линь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@  VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg10@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@:%>%{ОЕЭØ%}лень@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@  VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@+Ind+Prt2+ScSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@%>%{ОЕЭØ%}линь  VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@+Err/Orth+Dial+Ind+Prt2+ScSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@%>%{ОЕЭØ%}лень  VerbEnd_K ;
 
 LEXICON IND-PRT2-12
-+Ind+Prt2+ScSg1+OcSg20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@:%>%{ОЕЭØ%}литинь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg1+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@:%>%{ОЕЭØ%}литень@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@+Ind+Prt2+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@%>%{ОЕЭØ%}литинь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@+Err/Orth+Dial+Ind+Prt2+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@%>%{ОЕЭØ%}литень VerbEnd_K ;
 
 LEXICON IND-PRT2-13
-+Ind+Prt2+ScSg1+OcSg30@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@:%>%{ОЕЭØ%}лия@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg1+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@:%>%{ОЕЭØ%}лие0@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@ VerbEnd_K ;
-+Err/Orth+Dial/SE+Ind+Prt2+ScSg1+OcSg30@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@:%>%{ОЕЭØ%}лиять@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@+Ind+Prt2+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@%>%{ОЕЭØ%}лия VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@+Err/Orth+Dial+Ind+Prt2+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@%>%{ОЕЭØ%}лие VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@+Err/Orth+Dial/SE+Ind+Prt2+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@%>%{ОЕЭØ%}лиять VerbEnd_K ;
 
 LEXICON IND-PRT2-15
-+Ind+Prt2+ScSg1+OcPl20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@:%>%{ОЕЭØ%}лидизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg1+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@:%>%{ОЕЭØ%}лидезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@+Ind+Prt2+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@%>%{ОЕЭØ%}лидизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@+Err/Orth+Dial+Ind+Prt2+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@%>%{ОЕЭØ%}лидезь VerbEnd_K ;
 
 LEXICON IND-PRT2-16
-+Ind+Prt2+ScSg1+OcPl300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@:%>%{ОЕЭØ%}линь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg1+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@:%>%{ОЕЭØ%}лень@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@+Ind+Prt2+ScSg1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@%>%{ОЕЭØ%}линь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@+Err/Orth+Dial+Ind+Prt2+ScSg1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@%>%{ОЕЭØ%}лень VerbEnd_K ;
 
 LEXICON IND-PRT2-20
-+Ind+Prt2+ScSg2000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@:%>%{ОЕЭØ%}лить@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg20@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@:%>%{ОЕЭØ%}леть@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@+Ind+Prt2+ScSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@%>%{ОЕЭØ%}лить VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@+Err/Orth+Dial+Ind+Prt2+ScSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@%>%{ОЕЭØ%}леть VerbEnd_K ;
 
 LEXICON IND-PRT2-21
-+Ind+Prt2+ScSg2+OcSg1000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@:%>%{ОЕЭØ%}лимик@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg2+OcSg10@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@:%>%{ОЕЭØ%}лимек@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@+Ind+Prt2+ScSg2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@%>%{ОЕЭØ%}лимик VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@+Err/Orth+Dial+Ind+Prt2+ScSg2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@%>%{ОЕЭØ%}лимек VerbEnd_K ;
 
 LEXICON IND-PRT2-23
-+Ind+Prt2+ScSg2+OcSg30@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@:%>%{ОЕЭØ%}лик@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg2+OcSg3@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@:%>%{ОЕЭØ%}лек0@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@+Ind+Prt2+ScSg2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@%>%{ОЕЭØ%}лик VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@+Err/Orth+Dial+Ind+Prt2+ScSg2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@%>%{ОЕЭØ%}лек VerbEnd_K ;
 
 LEXICON IND-PRT2-24
-+Ind+Prt2+ScSg2+OcPl10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@:%>%{ОЕЭØ%}лимизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg2+OcPl100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@:%>%{ОЕЭØ%}лимезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@+Ind+Prt2+ScSg2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@%>%{ОЕЭØ%}лимизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@+Err/Orth+Dial+Ind+Prt2+ScSg2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@%>%{ОЕЭØ%}лимезь VerbEnd_K ;
 
 LEXICON IND-PRT2-26
-+Ind+Prt2+ScSg2+OcPl300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@:%>%{ОЕЭØ%}лить@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@ VerbEnd_K ;
-+Err/Orth+Dial/NW+Ind+Prt2+ScSg2+OcPl3@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@:%>%{ОЕЭØ%}ли00@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@+Ind+Prt2+ScSg2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@%>%{ОЕЭØ%}лить VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@+Err/Orth+Dial/NW+Ind+Prt2+ScSg2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@%>%{ОЕЭØ%}ли VerbEnd_K ;
 
 LEXICON IND-PRT2-30
-+Ind+Prt2+ScSg30@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}ль@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@+Ind+Prt2+ScSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@%>%{ОЕЭØ%}ль VerbEnd_K ;
 
 LEXICON IND-PRT2-31
-+Ind+Prt2+ScSg3+OcSg1000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@:%>%{ОЕЭØ%}лимим@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg3+OcSg10@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@:%>%{ОЕЭØ%}лимем@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@+Ind+Prt2+ScSg3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@%>%{ОЕЭØ%}лимим VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@+Err/Orth+Dial+Ind+Prt2+ScSg3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@%>%{ОЕЭØ%}лимем VerbEnd_K ;
 
 LEXICON IND-PRT2-32
-+Ind+Prt2+ScSg3+OcSg200000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@:%>%{ОЕЭØ%}линзеть@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg3+OcSg2000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@:%>%{ОЕЭØ%}линзить@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@+Ind+Prt2+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@%>%{ОЕЭØ%}линзеть VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@+Err/Orth+Dial+Ind+Prt2+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@%>%{ОЕЭØ%}линзить VerbEnd_K ;
 
 LEXICON IND-PRT2-33
-+Ind+Prt2+ScSg3+OcSg300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@:%>%{ОЕЭØ%}лизе@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@+Ind+Prt2+ScSg3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@%>%{ОЕЭØ%}лизе VerbEnd_K ;
 
 LEXICON IND-PRT2-34
-+Ind+Prt2+ScSg3+OcPl10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@:%>%{ОЕЭØ%}лимизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg3+OcPl100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@:%>%{ОЕЭØ%}лимезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@+Ind+Prt2+ScSg3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@%>%{ОЕЭØ%}лимизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@+Err/Orth+Dial+Ind+Prt2+ScSg3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@%>%{ОЕЭØ%}лимезь VerbEnd_K ;
 
 LEXICON IND-PRT2-35
-+Ind+Prt2+ScSg3+OcPl20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@:%>%{ОЕЭØ%}лидизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScSg3+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@:%>%{ОЕЭØ%}лидезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@+Ind+Prt2+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@%>%{ОЕЭØ%}лидизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@+Err/Orth+Dial+Ind+Prt2+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@%>%{ОЕЭØ%}лидезь VerbEnd_K ;
 
 LEXICON IND-PRT2-36
-+Ind+Prt2+ScSg3+OcPl3000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@:%>%{ОЕЭØ%}линзе@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@+Ind+Prt2+ScSg3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@%>%{ОЕЭØ%}линзе VerbEnd_K ;
 
 LEXICON IND-PRT2-40
-+Ind+Prt2+ScPl10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}линек@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
-+Err/Orth+Dial+Ind+Prt2+ScPl100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}линик@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@+Ind+Prt2+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}линек VerbEnd_K-lak ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@+Err/Orth+Dial+Ind+Prt2+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}линик VerbEnd_K-lak ;
 
 LEXICON IND-PRT2-42
-+Ind+Prt2+ScPl1+OcSg20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@:%>%{ОЕЭØ%}лидизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl1+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@:%>%{ОЕЭØ%}лидезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@+Ind+Prt2+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@%>%{ОЕЭØ%}лидизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@+Err/Orth+Dial+Ind+Prt2+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@%>%{ОЕЭØ%}лидезь VerbEnd_K ;
 
 LEXICON IND-PRT2-43
-+Ind+Prt2+ScPl1+OcSg3000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@:%>%{ОЕЭØ%}линек@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl1+OcSg300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@:%>%{ОЕЭØ%}линик0@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@+Ind+Prt2+ScPl1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@%>%{ОЕЭØ%}линек VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@+Err/Orth+Dial+Ind+Prt2+ScPl1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@%>%{ОЕЭØ%}линик VerbEnd_K ;
 
 LEXICON IND-PRT2-45
-+Ind+Prt2+ScPl1+OcPl20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@:%>%{ОЕЭØ%}лидизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl1+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@:%>%{ОЕЭØ%}лидезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@+Ind+Prt2+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@%>%{ОЕЭØ%}лидизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@+Err/Orth+Dial+Ind+Prt2+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@%>%{ОЕЭØ%}лидезь VerbEnd_K ;
 
 LEXICON IND-PRT2-46
-+Ind+Prt2+ScPl1+OcPl3000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@:%>%{ОЕЭØ%}линек@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl1+OcPl30@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@:%>%{ОЕЭØ%}линик@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@+Ind+Prt2+ScPl1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@%>%{ОЕЭØ%}линек VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@+Err/Orth+Dial+Ind+Prt2+ScPl1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@%>%{ОЕЭØ%}линик VerbEnd_K ;
 
 LEXICON IND-PRT2-50
-+Ind+Prt2+ScPl2000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}лиде@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@+Ind+Prt2+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}лиде VerbEnd_K ;
 
 LEXICON IND-PRT2-51
-+Ind+Prt2+ScPl2+OcSg10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@:%>%{ОЕЭØ%}лимизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl2+OcSg100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@:%>%{ОЕЭØ%}лимезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@+Ind+Prt2+ScPl2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@%>%{ОЕЭØ%}лимизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@+Err/Orth+Dial+Ind+Prt2+ScPl2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@%>%{ОЕЭØ%}лимезь VerbEnd_K ;
 
 LEXICON IND-PRT2-53
-+Ind+Prt2+ScPl2+OcSg300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@:%>%{ОЕЭØ%}линк@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@+Ind+Prt2+ScPl2+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@%>%{ОЕЭØ%}линк VerbEnd_K ;
 
 LEXICON IND-PRT2-54
-+Ind+Prt2+ScPl2+OcPl10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@:%>%{ОЕЭØ%}лимизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl2+OcPl100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@:%>%{ОЕЭØ%}лимезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@+Ind+Prt2+ScPl2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@%>%{ОЕЭØ%}лимизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@+Err/Orth+Dial+Ind+Prt2+ScPl2+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@%>%{ОЕЭØ%}лимезь VerbEnd_K ;
 
 LEXICON IND-PRT2-56
-+Ind+Prt2+ScPl2+OcPl300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@:%>%{ОЕЭØ%}линк@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@+Ind+Prt2+ScPl2+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@%>%{ОЕЭØ%}линк VerbEnd_K ;
 
 LEXICON IND-PRT2-60
-+Ind+Prt2+ScPl3000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}льть@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@+Ind+Prt2+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@%>%{ОЕЭØ%}льть VerbEnd_K ;
 
 LEXICON IND-PRT2-61
-+Ind+Prt2+ScPl3+OcSg10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@:%>%{ОЕЭØ%}лимизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl3+OcSg100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@:%>%{ОЕЭØ%}лимезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@+Ind+Prt2+ScPl3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@%>%{ОЕЭØ%}лимизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@+Err/Orth+Dial+Ind+Prt2+ScPl3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@%>%{ОЕЭØ%}лимезь VerbEnd_K ;
 
 LEXICON IND-PRT2-62
-+Ind+Prt2+ScPl3+OcSg20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@:%>%{ОЕЭØ%}лидизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl3+OcSg200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@:%>%{ОЕЭØ%}лидезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@+Ind+Prt2+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@%>%{ОЕЭØ%}лидизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@+Err/Orth+Dial+Ind+Prt2+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@%>%{ОЕЭØ%}лидезь VerbEnd_K ;
 
 LEXICON IND-PRT2-63
-+Ind+Prt2+ScPl3+OcSg300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@:%>%{ОЕЭØ%}лизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@+Ind+Prt2+ScPl3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@%>%{ОЕЭØ%}лизь VerbEnd_K ;
 
 LEXICON IND-PRT2-64
-+Ind+Prt2+ScPl3+OcPl10000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@:%>%{ОЕЭØ%}лимизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl3+OcPl100@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@:%>%{ОЕЭØ%}лимезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@+Ind+Prt2+ScPl3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@%>%{ОЕЭØ%}лимизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@+Err/Orth+Dial+Ind+Prt2+ScPl3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@%>%{ОЕЭØ%}лимезь VerbEnd_K ;
 
 LEXICON IND-PRT2-65
-+Ind+Prt2+ScPl3+OcPl20000@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@:%>%{ОЕЭØ%}лидизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@ VerbEnd_K ;
-+Err/Orth+Dial+Ind+Prt2+ScPl3+OcPl200@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@:%>%{ОЕЭØ%}лидезь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@+Ind+Prt2+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@%>%{ОЕЭØ%}лидизь VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@+Err/Orth+Dial+Ind+Prt2+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@%>%{ОЕЭØ%}лидезь VerbEnd_K ;
 
 LEXICON IND-PRT2-66
-+Ind+Prt2+ScPl3+OcPl300@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@:%>%{ОЕЭØ%}лизь@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@ VerbEnd_K ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@+Ind+Prt2+ScPl3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@%>%{ОЕЭØ%}лизь VerbEnd_K ;
 
 
 
@@ -1773,12 +1773,12 @@ LEXICON IND-PRT2-66
 
 
 LEXICON Desiderative-kadoms
-0@U.CONJ-MX.DES@:%>@U.CONJ-MX.DES@ Desiderative-noArrow ;
-+Err/Orth+Dial000@U.CONJ-MX.DES@:%>%{ОЕЭØ%}ксы@U.CONJ-MX.DES@  DesPrt2-noArrow-Sc ;
+@U.CONJ-MX.DES@:@U.CONJ-MX.DES@%> Desiderative-noArrow ;
+@U.CONJ-MX.DES@+Err/Orth+Dial:@U.CONJ-MX.DES@%>%{ОЕЭØ%}ксы  DesPrt2-noArrow-Sc ;
 
 LEXICON Desiderative-kundams
-0@U.CONJ-MX.DES@:%>@U.CONJ-MX.DES@ Desiderative-noArrow ;
-+Err/Orth+Dial00@U.CONJ-MX.DES@:%>ксы@U.CONJ-MX.DES@  DesPrt2-noArrow-Sc ;
+@U.CONJ-MX.DES@:@U.CONJ-MX.DES@%> Desiderative-noArrow ;
+@U.CONJ-MX.DES@+Err/Orth+Dial:@U.CONJ-MX.DES@%>ксы  DesPrt2-noArrow-Sc ;
 
 LEXICON Desiderative-noArrow
 :%{иы%}ксэ DesPrt2-noArrow ;
@@ -1799,9 +1799,9 @@ LEXICON Desiderative-noArrow
  @R.CONJ-PX.66@ Desiderative1_Obj ;
 
 LEXICON Desiderative1_Obj
-+Err/Orth+Dial+Prt2+ScSg3+OcSg3000@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:%{иы%}ксэльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_K ;
-+Err/Orth+Dial+Prt2+ScSg3+OcSg30000@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:%{иы%}кскельсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_K ;
-+Err/Orth+Dial+Prt2+ScSg3+OcSg3000@U.CONJ-TX.PRET2@@U.CONJ-PX.33@:%{иы%}ксыльсе@U.CONJ-TX.PRET2@@U.CONJ-PX.33@ VerbEnd_K ;
+@U.CONJ-TX.PRET2@@U.CONJ-PX.33@+Err/Orth+Dial+Prt2+ScSg3+OcSg3:@U.CONJ-TX.PRET2@@U.CONJ-PX.33@%{иы%}ксэльсе VerbEnd_K ;
+@U.CONJ-TX.PRET2@@U.CONJ-PX.33@+Err/Orth+Dial+Prt2+ScSg3+OcSg3:@U.CONJ-TX.PRET2@@U.CONJ-PX.33@%{иы%}кскельсе VerbEnd_K ;
+@U.CONJ-TX.PRET2@@U.CONJ-PX.33@+Err/Orth+Dial+Prt2+ScSg3+OcSg3:@U.CONJ-TX.PRET2@@U.CONJ-PX.33@%{иы%}ксыльсе VerbEnd_K ;
 
 
 
@@ -1864,132 +1864,132 @@ LEXICON DesPrt2_Obj_noArrows
  DES-PRT2-66 ;
 
 LEXICON DES-PRT2-10
-+Des+Prt2+ScSg10@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@:линь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@  VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@:лень0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@  VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@+Des+Prt2+ScSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@линь  VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@+Err/Orth+Dial+Des+Prt2+ScSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.1Ø@лень  VerbEnd_K ;
 
 LEXICON DES-PRT2-12
-+Des+Prt2+ScSg1+OcSg200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@:литинь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg1+OcSg2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@:литень@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@+Des+Prt2+ScSg1+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@литинь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@+Err/Orth+Dial+Des+Prt2+ScSg1+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.12@литень VerbEnd_K ;
 
 LEXICON DES-PRT2-13
-+Des+Prt2+ScSg1+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@:лия0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg1+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@:лие000@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@ VerbEnd_K ;
-+Err/Orth+Dial/SE+Des+Prt2+ScSg1+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@:лиять0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@+Des+Prt2+ScSg1+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@лия VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@+Err/Orth+Dial+Des+Prt2+ScSg1+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@лие VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@+Err/Orth+Dial/SE+Des+Prt2+ScSg1+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.13@лиять VerbEnd_K ;
 
 LEXICON DES-PRT2-15
-+Des+Prt2+ScSg1+OcPl200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@:лидизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg1+OcPl2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@:лидезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@+Des+Prt2+ScSg1+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@лидизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@+Err/Orth+Dial+Des+Prt2+ScSg1+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.15@лидезь VerbEnd_K ;
 
 LEXICON DES-PRT2-16
-+Des+Prt2+ScSg1+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@:линь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg1+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@:лень00@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@+Des+Prt2+ScSg1+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@линь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@+Err/Orth+Dial+Des+Prt2+ScSg1+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.16@лень VerbEnd_K ;
 
 LEXICON DES-PRT2-20
-+Des+Prt2+ScSg20@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@:лить@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg2@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@:леть0@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@+Des+Prt2+ScSg2:@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@лить VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@+Err/Orth+Dial+Des+Prt2+ScSg2:@U.CONJ-MX.DES@@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.2Ø@леть VerbEnd_K ;
 
 LEXICON DES-PRT2-21
-+Des+Prt2+ScSg2+OcSg10@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@:лимик@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg2+OcSg1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@:лимек0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@+Des+Prt2+ScSg2+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@лимик VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@+Err/Orth+Dial+Des+Prt2+ScSg2+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.21@лимек VerbEnd_K ;
 
 LEXICON DES-PRT2-23
-+Des+Prt2+ScSg2+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@:лик0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg2+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@:лек000@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@+Des+Prt2+ScSg2+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@лик VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@+Err/Orth+Dial+Des+Prt2+ScSg2+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.23@лек VerbEnd_K ;
 
 LEXICON DES-PRT2-24
-+Des+Prt2+ScSg2+OcPl100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@:лимизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg2+OcPl1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@:лимезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@+Des+Prt2+ScSg2+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@лимизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@+Err/Orth+Dial+Des+Prt2+ScSg2+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.24@лимезь VerbEnd_K ;
 
 LEXICON DES-PRT2-26
-+Des+Prt2+ScSg2+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@:лить@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@ VerbEnd_K ;
-+Err/Orth+Dial/NW+Des+Prt2+ScSg2+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@:ли0000@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@+Des+Prt2+ScSg2+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@лить VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@+Err/Orth+Dial/NW+Des+Prt2+ScSg2+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.26@ли VerbEnd_K ;
 
 LEXICON DES-PRT2-30
-+Des+Prt2+ScSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@:ль0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@+Des+Prt2+ScSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@ль VerbEnd_K ;
 
 LEXICON DES-PRT2-31
-+Des+Prt2+ScSg3+OcSg10@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@:лимим@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg3+OcSg1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@:лимем0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@+Des+Prt2+ScSg3+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@лимим VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@+Err/Orth+Dial+Des+Prt2+ScSg3+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.31@лимем VerbEnd_K ;
 
 LEXICON DES-PRT2-32
-+Des+Prt2+ScSg3+OcSg2000@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@:линзеть@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg3+OcSg20@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@:линзить@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@+Des+Prt2+ScSg3+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@линзеть VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@+Err/Orth+Dial+Des+Prt2+ScSg3+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.32@линзить VerbEnd_K ;
 
 LEXICON DES-PRT2-33
-+Des+Prt2+ScSg3+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@:лизе@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@+Des+Prt2+ScSg3+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.33@лизе VerbEnd_K ;
 
 LEXICON DES-PRT2-34
-+Des+Prt2+ScSg3+OcPl100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@:лимизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg3+OcPl1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@:лимезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@+Des+Prt2+ScSg3+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@лимизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@+Err/Orth+Dial+Des+Prt2+ScSg3+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.34@лимезь VerbEnd_K ;
 
 LEXICON DES-PRT2-35
-+Des+Prt2+ScSg3+OcPl200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@:лидизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScSg3+OcPl2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@:лидезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@+Des+Prt2+ScSg3+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@лидизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@+Err/Orth+Dial+Des+Prt2+ScSg3+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.35@лидезь VerbEnd_K ;
 
 LEXICON DES-PRT2-36
-+Des+Prt2+ScSg3+OcPl30@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@:линзе@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@+Des+Prt2+ScSg3+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.36@линзе VerbEnd_K ;
 
 LEXICON DES-PRT2-40
-+Des+Prt2+ScPl100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@:линек@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
-+Err/Orth+Dial+Des+Prt2+ScPl1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@:линик@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@+Des+Prt2+ScPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@линек VerbEnd_K-lak ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@+Err/Orth+Dial+Des+Prt2+ScPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.4Ø@линик VerbEnd_K-lak ;
 
 LEXICON DES-PRT2-42
-+Des+Prt2+ScPl1+OcSg200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@:лидизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl1+OcSg2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@:лидезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@+Des+Prt2+ScPl1+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@лидизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@+Err/Orth+Dial+Des+Prt2+ScPl1+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.42@лидезь VerbEnd_K ;
 
 LEXICON DES-PRT2-43
-+Des+Prt2+ScPl1+OcSg30@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@:линек@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl1+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@:линик0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@+Des+Prt2+ScPl1+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@линек VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@+Err/Orth+Dial+Des+Prt2+ScPl1+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.43@линик VerbEnd_K ;
 
 LEXICON DES-PRT2-45
-+Des+Prt2+ScPl1+OcPl200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@:лидизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl1+OcPl2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@:лидезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@+Des+Prt2+ScPl1+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@лидизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@+Err/Orth+Dial+Des+Prt2+ScPl1+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.45@лидезь VerbEnd_K ;
 
 LEXICON DES-PRT2-46
-+Des+Prt2+ScPl1+OcPl30@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@:линек@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl1+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@:линик0@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@+Des+Prt2+ScPl1+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@линек VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@+Err/Orth+Dial+Des+Prt2+ScPl1+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.46@линик VerbEnd_K ;
 
 LEXICON DES-PRT2-50
-+Des+Prt2+ScPl20@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@:лиде@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@+Des+Prt2+ScPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.5Ø@лиде VerbEnd_K ;
 
 LEXICON DES-PRT2-51
-+Des+Prt2+ScPl2+OcSg100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@:лимизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl2+OcSg1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@:лимезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@+Des+Prt2+ScPl2+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@лимизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@+Err/Orth+Dial+Des+Prt2+ScPl2+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.51@лимезь VerbEnd_K ;
 
 LEXICON DES-PRT2-53
-+Des+Prt2+ScPl2+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@:линк@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@+Des+Prt2+ScPl2+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.53@линк VerbEnd_K ;
 
 LEXICON DES-PRT2-54
-+Des+Prt2+ScPl2+OcPl100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@:лимизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl2+OcPl1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@:лимезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@+Des+Prt2+ScPl2+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@лимизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@+Err/Orth+Dial+Des+Prt2+ScPl2+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.54@лимезь VerbEnd_K ;
 
 LEXICON DES-PRT2-56
-+Des+Prt2+ScPl2+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@:линк@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@+Des+Prt2+ScPl2+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.56@линк VerbEnd_K ;
 
 LEXICON DES-PRT2-60
-+Des+Prt2+ScPl30@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@:льть@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@+Des+Prt2+ScPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.3Ø@льть VerbEnd_K ;
 
 LEXICON DES-PRT2-61
-+Des+Prt2+ScPl3+OcSg100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@:лимизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl3+OcSg1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@:лимезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@+Des+Prt2+ScPl3+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@лимизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@+Err/Orth+Dial+Des+Prt2+ScPl3+OcSg1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.61@лимезь VerbEnd_K ;
 
 LEXICON DES-PRT2-62
-+Des+Prt2+ScPl3+OcSg200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@:лидизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl3+OcSg2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@:лидезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@+Des+Prt2+ScPl3+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@лидизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@+Err/Orth+Dial+Des+Prt2+ScPl3+OcSg2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.62@лидезь VerbEnd_K ;
 
 LEXICON DES-PRT2-63
-+Des+Prt2+ScPl3+OcSg3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@:лизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@+Des+Prt2+ScPl3+OcSg3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.63@лизь VerbEnd_K ;
 
 LEXICON DES-PRT2-64
-+Des+Prt2+ScPl3+OcPl100@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@:лимизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl3+OcPl1@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@:лимезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@+Des+Prt2+ScPl3+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@лимизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@+Err/Orth+Dial+Des+Prt2+ScPl3+OcPl1:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.64@лимезь VerbEnd_K ;
 
 LEXICON DES-PRT2-65
-+Des+Prt2+ScPl3+OcPl200@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@:лидизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@ VerbEnd_K ;
-+Err/Orth+Dial+Des+Prt2+ScPl3+OcPl2@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@:лидезь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@+Des+Prt2+ScPl3+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@лидизь VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@+Err/Orth+Dial+Des+Prt2+ScPl3+OcPl2:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.65@лидезь VerbEnd_K ;
 
 LEXICON DES-PRT2-66
-+Des+Prt2+ScPl3+OcPl3@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@:лизь@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@ VerbEnd_K ;
+@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@+Des+Prt2+ScPl3+OcPl3:@U.CONJ-MX.DES@@U.CONJ-TX.PRT2@@U.CONJ-PX.66@лизь VerbEnd_K ;
 
 
 
@@ -1998,228 +1998,228 @@ LEXICON DES-PRT2-66
 !! redo conj 2012-11-07 begin
 
 LEXICON CNJ-10
-+Conj+ScSg100000@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@:%>%{ОЕЭØ%}влинь@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@  Derya ;
-+Err/Orth+Dial+Conj+ScSg1000@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@:%>%{ОЕЭØ%}влень@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@  Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@+Conj+ScSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@%>%{ОЕЭØ%}влинь  Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@+Err/Orth+Dial+Conj+ScSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@%>%{ОЕЭØ%}влень  Derya ;
 
 LEXICON CNJ-10_VOL
-+Conj+ScSg1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@:%>%{ОЕЭØ%}в%{ОЕ%}линь@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@  Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@+Conj+ScSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.1Ø@%>%{ОЕЭØ%}в%{ОЕ%}линь  Derya ;
 
 LEXICON CNJ-12
-+Conj+ScSg1+OcSg2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.12@:%>%{ОЕЭØ%}влитинь@U.CONJ-MX.CONJ@@U.CONJ-PX.12@ Derya ;
-+Err/Orth+Dial+Conj+ScSg1+OcSg20000@U.CONJ-MX.CONJ@@U.CONJ-PX.12@:%>%{ОЕЭØ%}влитень@U.CONJ-MX.CONJ@@U.CONJ-PX.12@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.12@+Conj+ScSg1+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.12@%>%{ОЕЭØ%}влитинь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.12@+Err/Orth+Dial+Conj+ScSg1+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.12@%>%{ОЕЭØ%}влитень Derya ;
 
 LEXICON CNJ-12_VOL
-+Conj+ScSg1+OcSg20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.12@:%>%{ОЕЭØ%}в%{ОЕ%}литинь@U.CONJ-MX.CONJ@@U.CONJ-PX.12@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.12@+Conj+ScSg1+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.12@%>%{ОЕЭØ%}в%{ОЕ%}литинь Derya ;
 
 LEXICON CNJ-13
-+Conj+ScSg1+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влия@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
-+Err/Orth+Dial+Conj+ScSg1+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влие@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
-+Err/Orth+Dial/SE+Conj+ScSg1+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}влиять@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.13@+Conj+ScSg1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.13@%>%{ОЕЭØ%}влия Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.13@+Err/Orth+Dial+Conj+ScSg1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.13@%>%{ОЕЭØ%}влие Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.13@+Err/Orth+Dial/SE+Conj+ScSg1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.13@%>%{ОЕЭØ%}влиять Derya ;
 
 LEXICON CNJ-13_VOL
-+Conj+ScSg1+OcSg30000@U.CONJ-MX.CONJ@@U.CONJ-PX.13@:%>%{ОЕЭØ%}в%{ОЕ%}лия@U.CONJ-MX.CONJ@@U.CONJ-PX.13@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.13@+Conj+ScSg1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.13@%>%{ОЕЭØ%}в%{ОЕ%}лия Derya ;
 
 LEXICON CNJ-15
-+Conj+ScSg1+OcPl2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.15@:%>%{ОЕЭØ%}влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.15@ Derya ;
-+Err/Orth+Dial+Conj+ScSg1+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.15@:%>%{ОЕЭØ%}влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.15@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.15@+Conj+ScSg1+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.15@%>%{ОЕЭØ%}влидизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.15@+Err/Orth+Dial+Conj+ScSg1+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.15@%>%{ОЕЭØ%}влидезь Derya ;
 
 LEXICON CNJ-15_VOL
-+Conj+ScSg1+OcPl20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.15@:%>%{ОЕЭØ%}в%{ОЕ%}лидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.15@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.15@+Conj+ScSg1+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.15@%>%{ОЕЭØ%}в%{ОЕ%}лидизь Derya ;
 
 LEXICON CNJ-16
-+Conj+ScSg1+OcPl30000@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}влинь@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
-+Err/Orth+Dial+Conj+ScSg1+OcPl300@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}влень@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.16@+Conj+ScSg1+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.16@%>%{ОЕЭØ%}влинь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.16@+Err/Orth+Dial+Conj+ScSg1+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.16@%>%{ОЕЭØ%}влень Derya ;
 
 LEXICON CNJ-16_VOL
-+Conj+ScSg1+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.16@:%>%{ОЕЭØ%}в%{ОЕ%}линь@U.CONJ-MX.CONJ@@U.CONJ-PX.16@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.16@+Conj+ScSg1+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.16@%>%{ОЕЭØ%}в%{ОЕ%}линь Derya ;
 
 LEXICON CNJ-20
-+Conj+ScSg200000@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@:%>%{ОЕЭØ%}влить@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@ Derya ;
-+Err/Orth+Dial+Conj+ScSg2000@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@:%>%{ОЕЭØ%}влеть@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@+Conj+ScSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@%>%{ОЕЭØ%}влить Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@+Err/Orth+Dial+Conj+ScSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@%>%{ОЕЭØ%}влеть Derya ;
 
 LEXICON CNJ-20_VOL
-+Conj+ScSg2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@:%>%{ОЕЭØ%}в%{ОЕ%}лить@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@+Conj+ScSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.2Ø@%>%{ОЕЭØ%}в%{ОЕ%}лить Derya ;
 
 LEXICON CNJ-21
-+Conj+ScSg2+OcSg100000@U.CONJ-MX.CONJ@@U.CONJ-PX.21@:%>%{ОЕЭØ%}влимик@U.CONJ-MX.CONJ@@U.CONJ-PX.21@ Derya_KLoss ;
-+Err/Orth+Dial+Conj+ScSg2+OcSg1000@U.CONJ-MX.CONJ@@U.CONJ-PX.21@:%>%{ОЕЭØ%}влимек@U.CONJ-MX.CONJ@@U.CONJ-PX.21@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.21@+Conj+ScSg2+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.21@%>%{ОЕЭØ%}влимик Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.21@+Err/Orth+Dial+Conj+ScSg2+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.21@%>%{ОЕЭØ%}влимек Derya_KLoss ;
 
 LEXICON CNJ-21_VOL
-+Conj+ScSg2+OcSg1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.21@:%>%{ОЕЭØ%}в%{ОЕ%}лимик@U.CONJ-MX.CONJ@@U.CONJ-PX.21@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.21@+Conj+ScSg2+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.21@%>%{ОЕЭØ%}в%{ОЕ%}лимик Derya_KLoss ;
 
 LEXICON CNJ-23
-+Conj+ScSg2+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.23@:%>%{ОЕЭØ%}влик@U.CONJ-MX.CONJ@@U.CONJ-PX.23@ Derya_KLoss ;
-+Err/Orth+Dial+Conj+ScSg2+OcSg30@U.CONJ-MX.CONJ@@U.CONJ-PX.23@:%>%{ОЕЭØ%}влек@U.CONJ-MX.CONJ@@U.CONJ-PX.23@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.23@+Conj+ScSg2+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.23@%>%{ОЕЭØ%}влик Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.23@+Err/Orth+Dial+Conj+ScSg2+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.23@%>%{ОЕЭØ%}влек Derya_KLoss ;
 
 LEXICON CNJ-23_VOL
-+Conj+ScSg2+OcSg30000@U.CONJ-MX.CONJ@@U.CONJ-PX.23@:%>%{ОЕЭØ%}в%{ОЕ%}лик@U.CONJ-MX.CONJ@@U.CONJ-PX.23@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.23@+Conj+ScSg2+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.23@%>%{ОЕЭØ%}в%{ОЕ%}лик Derya_KLoss ;
 
 LEXICON CNJ-24
-+Conj+ScSg2+OcPl1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.24@:%>%{ОЕЭØ%}влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.24@ Derya ;
-+Err/Orth+Dial+Conj+ScSg2+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.24@:%>%{ОЕЭØ%}влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.24@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.24@+Conj+ScSg2+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.24@%>%{ОЕЭØ%}влимизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.24@+Err/Orth+Dial+Conj+ScSg2+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.24@%>%{ОЕЭØ%}влимезь Derya ;
 
 LEXICON CNJ-24_VOL
-+Conj+ScSg2+OcPl10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.24@:%>%{ОЕЭØ%}в%{ОЕ%}лимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.24@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.24@+Conj+ScSg2+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.24@%>%{ОЕЭØ%}в%{ОЕ%}лимизь Derya ;
 
 LEXICON CNJ-26
-+Conj+ScSg2+OcPl30000@U.CONJ-MX.CONJ@@U.CONJ-PX.26@:%>%{ОЕЭØ%}влить@U.CONJ-MX.CONJ@@U.CONJ-PX.26@ Derya ;
-+Err/Orth+Dial/NW+Conj+ScSg2+OcPl3@U.CONJ-MX.CONJ@@U.CONJ-PX.26@:%>%{ОЕЭØ%}вли@U.CONJ-MX.CONJ@@U.CONJ-PX.26@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.26@+Conj+ScSg2+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.26@%>%{ОЕЭØ%}влить Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.26@+Err/Orth+Dial/NW+Conj+ScSg2+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.26@%>%{ОЕЭØ%}вли Derya ;
 
 LEXICON CNJ-26_VOL
-+Conj+ScSg2+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.26@:%>%{ОЕЭØ%}в%{ОЕ%}лить@U.CONJ-MX.CONJ@@U.CONJ-PX.26@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.26@+Conj+ScSg2+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.26@%>%{ОЕЭØ%}в%{ОЕ%}лить Derya ;
 
 LEXICON CNJ-30
-+Conj+ScSg30000@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}вО1ль@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@+Conj+ScSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@%>%{ОЕЭØ%}вО1ль Derya ;
 
 LEXICON CNJ-31
-+Conj+ScSg3+OcSg100000@U.CONJ-MX.CONJ@@U.CONJ-PX.31@:%>%{ОЕЭØ%}влимим@U.CONJ-MX.CONJ@@U.CONJ-PX.31@ Derya ;
-+Err/Orth+Dial+Conj+ScSg3+OcSg1000@U.CONJ-MX.CONJ@@U.CONJ-PX.31@:%>%{ОЕЭØ%}влимем@U.CONJ-MX.CONJ@@U.CONJ-PX.31@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.31@+Conj+ScSg3+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.31@%>%{ОЕЭØ%}влимим Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.31@+Err/Orth+Dial+Conj+ScSg3+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.31@%>%{ОЕЭØ%}влимем Derya ;
 
 LEXICON CNJ-31_VOL
-+Conj+ScSg3+OcSg1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.31@:%>%{ОЕЭØ%}в%{ОЕ%}лимим@U.CONJ-MX.CONJ@@U.CONJ-PX.31@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.31@+Conj+ScSg3+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.31@%>%{ОЕЭØ%}в%{ОЕ%}лимим Derya ;
 
 LEXICON CNJ-32
-+Conj+ScSg3+OcSg20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.32@:%>%{ОЕЭØ%}влинзеть@U.CONJ-MX.CONJ@@U.CONJ-PX.32@ Derya ;
-+Err/Orth+Dial+Conj+ScSg3+OcSg200000@U.CONJ-MX.CONJ@@U.CONJ-PX.32@:%>%{ОЕЭØ%}влинзить@U.CONJ-MX.CONJ@@U.CONJ-PX.32@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.32@+Conj+ScSg3+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.32@%>%{ОЕЭØ%}влинзеть Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.32@+Err/Orth+Dial+Conj+ScSg3+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.32@%>%{ОЕЭØ%}влинзить Derya ;
 
 LEXICON CNJ-32_VOL
-+Conj+ScSg3+OcSg200000000@U.CONJ-MX.CONJ@@U.CONJ-PX.32@:%>%{ОЕЭØ%}в%{ОЕ%}линзеть@U.CONJ-MX.CONJ@@U.CONJ-PX.32@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.32@+Conj+ScSg3+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.32@%>%{ОЕЭØ%}в%{ОЕ%}линзеть Derya ;
 
 LEXICON CNJ-33
-+Conj+ScSg3+OcSg30000@U.CONJ-MX.CONJ@@U.CONJ-PX.33@:%>%{ОЕЭØ%}влизе@U.CONJ-MX.CONJ@@U.CONJ-PX.33@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.33@+Conj+ScSg3+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.33@%>%{ОЕЭØ%}влизе Derya ;
 
 LEXICON CNJ-33_VOL
-+Conj+ScSg3+OcSg300000@U.CONJ-MX.CONJ@@U.CONJ-PX.33@:%>%{ОЕЭØ%}в%{ОЕ%}лизе@U.CONJ-MX.CONJ@@U.CONJ-PX.33@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.33@+Conj+ScSg3+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.33@%>%{ОЕЭØ%}в%{ОЕ%}лизе Derya ;
 
 LEXICON CNJ-34
-+Conj+ScSg3+OcPl1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.34@:%>%{ОЕЭØ%}влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.34@ Derya ;
-+Err/Orth+Dial+Conj+ScSg3+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.34@:%>%{ОЕЭØ%}влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.34@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.34@+Conj+ScSg3+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.34@%>%{ОЕЭØ%}влимизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.34@+Err/Orth+Dial+Conj+ScSg3+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.34@%>%{ОЕЭØ%}влимезь Derya ;
 
 LEXICON CNJ-34_VOL
-+Conj+ScSg3+OcPl10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.34@:%>%{ОЕЭØ%}в%{ОЕ%}лимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.34@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.34@+Conj+ScSg3+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.34@%>%{ОЕЭØ%}в%{ОЕ%}лимизь Derya ;
 
 LEXICON CNJ-35
-+Conj+ScSg3+OcPl2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.35@:%>%{ОЕЭØ%}влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.35@ Derya ;
-+Err/Orth+Dial+Conj+ScSg3+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.35@:%>%{ОЕЭØ%}влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.35@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.35@+Conj+ScSg3+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.35@%>%{ОЕЭØ%}влидизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.35@+Err/Orth+Dial+Conj+ScSg3+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.35@%>%{ОЕЭØ%}влидезь Derya ;
 
 LEXICON CNJ-35_VOL
-+Conj+ScSg3+OcPl20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.35@:%>%{ОЕЭØ%}в%{ОЕ%}лидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.35@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.35@+Conj+ScSg3+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.35@%>%{ОЕЭØ%}в%{ОЕ%}лидизь Derya ;
 
 LEXICON CNJ-36
-+Conj+ScSg3+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.36@:%>%{ОЕЭØ%}влинзе@U.CONJ-MX.CONJ@@U.CONJ-PX.36@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.36@+Conj+ScSg3+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.36@%>%{ОЕЭØ%}влинзе Derya ;
 
 LEXICON CNJ-36_VOL
-+Conj+ScSg3+OcPl3000000@U.CONJ-MX.CONJ@@U.CONJ-PX.36@:%>%{ОЕЭØ%}в%{ОЕ%}линзе@U.CONJ-MX.CONJ@@U.CONJ-PX.36@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.36@+Conj+ScSg3+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.36@%>%{ОЕЭØ%}в%{ОЕ%}линзе Derya ;
 
 LEXICON CNJ-40
-+Conj+ScPl1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}влинек@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@ Derya_KLoss ;
-+Err/Orth+Dial+Conj+ScPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}влиник@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@+Conj+ScPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}влинек Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@+Err/Orth+Dial+Conj+ScPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}влиник Derya_KLoss ;
 
 LEXICON CNJ-40_VOL
-+Conj+ScPl10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}в%{ОЕ%}линек@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@+Conj+ScPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}в%{ОЕ%}линек Derya_KLoss ;
 
 LEXICON CNJ-42
-+Conj+ScPl1+OcSg2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.42@:%>%{ОЕЭØ%}влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.42@ Derya ;
-+Err/Orth+Dial+Conj+ScPl1+OcSg20000@U.CONJ-MX.CONJ@@U.CONJ-PX.42@:%>%{ОЕЭØ%}влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.42@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.42@+Conj+ScPl1+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.42@%>%{ОЕЭØ%}влидизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.42@+Err/Orth+Dial+Conj+ScPl1+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.42@%>%{ОЕЭØ%}влидезь Derya ;
 
 LEXICON CNJ-42_VOL
-+Conj+ScPl1+OcSg20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.42@:%>%{ОЕЭØ%}в%{ОЕ%}лидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.42@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.42@+Conj+ScPl1+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.42@%>%{ОЕЭØ%}в%{ОЕ%}лидизь Derya ;
 
 LEXICON CNJ-43
-+Conj+ScPl1+OcSg300000@U.CONJ-MX.CONJ@@U.CONJ-PX.43@:%>%{ОЕЭØ%}влинек@U.CONJ-MX.CONJ@@U.CONJ-PX.43@ Derya_KLoss ;
-+Err/Orth+Dial+Conj+ScPl1+OcSg3000@U.CONJ-MX.CONJ@@U.CONJ-PX.43@:%>%{ОЕЭØ%}влиник@U.CONJ-MX.CONJ@@U.CONJ-PX.43@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.43@+Conj+ScPl1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.43@%>%{ОЕЭØ%}влинек Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.43@+Err/Orth+Dial+Conj+ScPl1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.43@%>%{ОЕЭØ%}влиник Derya_KLoss ;
 
 LEXICON CNJ-43_VOL
-+Conj+ScPl1+OcSg3000000@U.CONJ-MX.CONJ@@U.CONJ-PX.43@:%>%{ОЕЭØ%}в%{ОЕ%}линек@U.CONJ-MX.CONJ@@U.CONJ-PX.43@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.43@+Conj+ScPl1+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.43@%>%{ОЕЭØ%}в%{ОЕ%}линек Derya_KLoss ;
 
 LEXICON CNJ-45
-+Conj+ScPl1+OcPl2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.45@:%>%{ОЕЭØ%}влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.45@ Derya ;
-+Err/Orth+Dial+Conj+ScPl1+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.45@:%>%{ОЕЭØ%}влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.45@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.45@+Conj+ScPl1+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.45@%>%{ОЕЭØ%}влидизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.45@+Err/Orth+Dial+Conj+ScPl1+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.45@%>%{ОЕЭØ%}влидезь Derya ;
 
 LEXICON CNJ-45_VOL
-+Conj+ScPl1+OcPl20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.45@:%>%{ОЕЭØ%}в%{ОЕ%}лидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.45@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.45@+Conj+ScPl1+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.45@%>%{ОЕЭØ%}в%{ОЕ%}лидизь Derya ;
 
 LEXICON CNJ-46
-+Conj+ScPl1+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.46@:%>%{ОЕЭØ%}влинек@U.CONJ-MX.CONJ@@U.CONJ-PX.46@ Derya_KLoss ;
-+Err/Orth+Dial+Conj+ScPl1+OcPl3000@U.CONJ-MX.CONJ@@U.CONJ-PX.46@:%>%{ОЕЭØ%}влиник@U.CONJ-MX.CONJ@@U.CONJ-PX.46@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.46@+Conj+ScPl1+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.46@%>%{ОЕЭØ%}влинек Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.46@+Err/Orth+Dial+Conj+ScPl1+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.46@%>%{ОЕЭØ%}влиник Derya_KLoss ;
 
 LEXICON CNJ-46_VOL
-+Conj+ScPl1+OcPl3000000@U.CONJ-MX.CONJ@@U.CONJ-PX.46@:%>%{ОЕЭØ%}в%{ОЕ%}линек@U.CONJ-MX.CONJ@@U.CONJ-PX.46@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.46@+Conj+ScPl1+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.46@%>%{ОЕЭØ%}в%{ОЕ%}линек Derya_KLoss ;
 
 LEXICON CNJ-50
-+Conj+ScPl200000@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}влиде@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@+Conj+ScPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}влиде Derya ;
 
 LEXICON CNJ-50_VOL
-+Conj+ScPl2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}в%{ОЕ%}лиде@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@+Conj+ScPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}в%{ОЕ%}лиде Derya ;
 
 LEXICON CNJ-51
-+Conj+ScPl2+OcSg1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.51@:%>%{ОЕЭØ%}влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.51@ Derya ;
-+Err/Orth+Dial+Conj+ScPl2+OcSg10000@U.CONJ-MX.CONJ@@U.CONJ-PX.51@:%>%{ОЕЭØ%}влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.51@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.51@+Conj+ScPl2+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.51@%>%{ОЕЭØ%}влимизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.51@+Err/Orth+Dial+Conj+ScPl2+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.51@%>%{ОЕЭØ%}влимезь Derya ;
 
 LEXICON CNJ-51_VOL
-+Conj+ScPl2+OcSg10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.51@:%>%{ОЕЭØ%}в%{ОЕ%}лимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.51@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.51@+Conj+ScPl2+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.51@%>%{ОЕЭØ%}в%{ОЕ%}лимизь Derya ;
 
 LEXICON CNJ-53
-+Conj+ScPl2+OcSg30000@U.CONJ-MX.CONJ@@U.CONJ-PX.53@:%>%{ОЕЭØ%}влинк@U.CONJ-MX.CONJ@@U.CONJ-PX.53@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.53@+Conj+ScPl2+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.53@%>%{ОЕЭØ%}влинк Derya_KLoss ;
 
 LEXICON CNJ-53_VOL
-+Conj+ScPl2+OcSg300000@U.CONJ-MX.CONJ@@U.CONJ-PX.53@:%>%{ОЕЭØ%}в%{ОЕ%}линк@U.CONJ-MX.CONJ@@U.CONJ-PX.53@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.53@+Conj+ScPl2+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.53@%>%{ОЕЭØ%}в%{ОЕ%}линк Derya_KLoss ;
 
 LEXICON CNJ-54
-+Conj+ScPl2+OcPl1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.54@:%>%{ОЕЭØ%}влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.54@ Derya ;
-+Err/Orth+Dial+Conj+ScPl2+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.54@:%>%{ОЕЭØ%}влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.54@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.54@+Conj+ScPl2+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.54@%>%{ОЕЭØ%}влимизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.54@+Err/Orth+Dial+Conj+ScPl2+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.54@%>%{ОЕЭØ%}влимезь Derya ;
 
 LEXICON CNJ-54_VOL
-+Conj+ScPl2+OcPl10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.54@:%>%{ОЕЭØ%}в%{ОЕ%}лимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.54@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.54@+Conj+ScPl2+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.54@%>%{ОЕЭØ%}в%{ОЕ%}лимизь Derya ;
 
 LEXICON CNJ-56
-+Conj+ScPl2+OcPl30000@U.CONJ-MX.CONJ@@U.CONJ-PX.56@:%>%{ОЕЭØ%}влинк@U.CONJ-MX.CONJ@@U.CONJ-PX.56@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.56@+Conj+ScPl2+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.56@%>%{ОЕЭØ%}влинк Derya_KLoss ;
 
 LEXICON CNJ-56_VOL
-+Conj+ScPl2+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.56@:%>%{ОЕЭØ%}в%{ОЕ%}линк@U.CONJ-MX.CONJ@@U.CONJ-PX.56@ Derya_KLoss ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.56@+Conj+ScPl2+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.56@%>%{ОЕЭØ%}в%{ОЕ%}линк Derya_KLoss ;
 
 LEXICON CNJ-60
-+Conj+ScPl3000000@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}вО1льть@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@+Conj+ScPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.3Ø@%>%{ОЕЭØ%}вО1льть Derya ;
 
 LEXICON CNJ-61
-+Conj+ScPl3+OcSg1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.61@:%>%{ОЕЭØ%}влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.61@ Derya ;
-+Err/Orth+Dial+Conj+ScPl3+OcSg10000@U.CONJ-MX.CONJ@@U.CONJ-PX.61@:%>%{ОЕЭØ%}влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.61@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.61@+Conj+ScPl3+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.61@%>%{ОЕЭØ%}влимизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.61@+Err/Orth+Dial+Conj+ScPl3+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.61@%>%{ОЕЭØ%}влимезь Derya ;
 
 LEXICON CNJ-61_VOL
-+Conj+ScPl3+OcSg10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.61@:%>%{ОЕЭØ%}в%{ОЕ%}лимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.61@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.61@+Conj+ScPl3+OcSg1:@U.CONJ-MX.CONJ@@U.CONJ-PX.61@%>%{ОЕЭØ%}в%{ОЕ%}лимизь Derya ;
 
 LEXICON CNJ-62
-+Conj+ScPl3+OcSg2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.62@:%>%{ОЕЭØ%}влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.62@ Derya ;
-+Err/Orth+Dial+Conj+ScPl3+OcSg20000@U.CONJ-MX.CONJ@@U.CONJ-PX.62@:%>%{ОЕЭØ%}влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.62@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.62@+Conj+ScPl3+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.62@%>%{ОЕЭØ%}влидизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.62@+Err/Orth+Dial+Conj+ScPl3+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.62@%>%{ОЕЭØ%}влидезь Derya ;
 
 LEXICON CNJ-62_VOL
-+Conj+ScPl3+OcSg20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.62@:%>%{ОЕЭØ%}в%{ОЕ%}лидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.62@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.62@+Conj+ScPl3+OcSg2:@U.CONJ-MX.CONJ@@U.CONJ-PX.62@%>%{ОЕЭØ%}в%{ОЕ%}лидизь Derya ;
 
 LEXICON CNJ-63
-+Conj+ScPl3+OcSg30000@U.CONJ-MX.CONJ@@U.CONJ-PX.63@:%>%{ОЕЭØ%}влизь@U.CONJ-MX.CONJ@@U.CONJ-PX.63@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.63@+Conj+ScPl3+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.63@%>%{ОЕЭØ%}влизь Derya ;
 
 LEXICON CNJ-63_VOL
-+Conj+ScPl3+OcSg300000@U.CONJ-MX.CONJ@@U.CONJ-PX.63@:%>%{ОЕЭØ%}в%{ОЕ%}лизь@U.CONJ-MX.CONJ@@U.CONJ-PX.63@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.63@+Conj+ScPl3+OcSg3:@U.CONJ-MX.CONJ@@U.CONJ-PX.63@%>%{ОЕЭØ%}в%{ОЕ%}лизь Derya ;
 
 LEXICON CNJ-64
-+Conj+ScPl3+OcPl1000000@U.CONJ-MX.CONJ@@U.CONJ-PX.64@:%>%{ОЕЭØ%}влимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.64@ Derya ;
-+Err/Orth+Dial+Conj+ScPl3+OcPl10000@U.CONJ-MX.CONJ@@U.CONJ-PX.64@:%>%{ОЕЭØ%}влимезь@U.CONJ-MX.CONJ@@U.CONJ-PX.64@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.64@+Conj+ScPl3+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.64@%>%{ОЕЭØ%}влимизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.64@+Err/Orth+Dial+Conj+ScPl3+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.64@%>%{ОЕЭØ%}влимезь Derya ;
 
 LEXICON CNJ-64_VOL
-+Conj+ScPl3+OcPl10000000@U.CONJ-MX.CONJ@@U.CONJ-PX.64@:%>%{ОЕЭØ%}в%{ОЕ%}лимизь@U.CONJ-MX.CONJ@@U.CONJ-PX.64@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.64@+Conj+ScPl3+OcPl1:@U.CONJ-MX.CONJ@@U.CONJ-PX.64@%>%{ОЕЭØ%}в%{ОЕ%}лимизь Derya ;
 
 LEXICON CNJ-65
-+Conj+ScPl3+OcPl2000000@U.CONJ-MX.CONJ@@U.CONJ-PX.65@:%>%{ОЕЭØ%}влидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.65@ Derya ;
-+Err/Orth+Dial+Conj+ScPl3+OcPl20000@U.CONJ-MX.CONJ@@U.CONJ-PX.65@:%>%{ОЕЭØ%}влидезь@U.CONJ-MX.CONJ@@U.CONJ-PX.65@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.65@+Conj+ScPl3+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.65@%>%{ОЕЭØ%}влидизь Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.65@+Err/Orth+Dial+Conj+ScPl3+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.65@%>%{ОЕЭØ%}влидезь Derya ;
 
 LEXICON CNJ-65_VOL
-+Conj+ScPl3+OcPl20000000@U.CONJ-MX.CONJ@@U.CONJ-PX.65@:%>%{ОЕЭØ%}в%{ОЕ%}лидизь@U.CONJ-MX.CONJ@@U.CONJ-PX.65@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.65@+Conj+ScPl3+OcPl2:@U.CONJ-MX.CONJ@@U.CONJ-PX.65@%>%{ОЕЭØ%}в%{ОЕ%}лидизь Derya ;
 
 LEXICON CNJ-66
-+Conj+ScPl3+OcPl30000@U.CONJ-MX.CONJ@@U.CONJ-PX.66@:%>%{ОЕЭØ%}влизь@U.CONJ-MX.CONJ@@U.CONJ-PX.66@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.66@+Conj+ScPl3+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.66@%>%{ОЕЭØ%}влизь Derya ;
 
 LEXICON CNJ-66_VOL
-+Conj+ScPl3+OcPl300000@U.CONJ-MX.CONJ@@U.CONJ-PX.66@:%>%{ОЕЭØ%}в%{ОЕ%}лизь@U.CONJ-MX.CONJ@@U.CONJ-PX.66@ Derya ;
+@U.CONJ-MX.CONJ@@U.CONJ-PX.66@+Conj+ScPl3+OcPl3:@U.CONJ-MX.CONJ@@U.CONJ-PX.66@%>%{ОЕЭØ%}в%{ОЕ%}лизь Derya ;
 
 
 !! redo conj 2012-11-07 end
@@ -2280,100 +2280,100 @@ LEXICON Conjunctive-Obj
 
 !! begin
 LEXICON CNJ-withO-10
-+ScSg100000@U.CONJ-PX.1Ø@:в%{ОЕ%}линь@U.CONJ-PX.1Ø@  Derya ;
+@U.CONJ-PX.1Ø@+ScSg1:@U.CONJ-PX.1Ø@в%{ОЕ%}линь  Derya ;
 
 LEXICON CNJ-withO-12
-+ScSg1+OcSg2000000@U.CONJ-PX.12@:в%{ОЕ%}литинь@U.CONJ-PX.12@ Derya ;
+@U.CONJ-PX.12@+ScSg1+OcSg2:@U.CONJ-PX.12@в%{ОЕ%}литинь Derya ;
 
 !LEXICON CNJ-withO-13
-!+ScSg1+OcSg3000@U.CONJ-PX.13@:в%{ОЕ%}лия@U.CONJ-PX.13@ Derya ;
+!@U.CONJ-PX.13@!+ScSg1+OcSg3:@U.CONJ-PX.13@в%{ОЕ%}лия Derya ;
 
 !LEXICON CNJ-withO-15
-!+ScSg1+OcPl2000000@U.CONJ-PX.15@:вО1лидизь@U.CONJ-PX.15@ Derya ;
+!@U.CONJ-PX.15@!+ScSg1+OcPl2:@U.CONJ-PX.15@вО1лидизь Derya ;
 
 !LEXICON CNJ-withO-16
-!+ScSg1+OcPl30000@U.CONJ-PX.16@:вО1линь@U.CONJ-PX.16@ Derya ;
+!@U.CONJ-PX.16@!+ScSg1+OcPl3:@U.CONJ-PX.16@вО1линь Derya ;
 
 !LEXICON CNJ-withO-20
-!+ScSg200000@U.CONJ-PX.2Ø@:вО1лить@U.CONJ-PX.2Ø@ Derya ;
+!@U.CONJ-PX.2Ø@!+ScSg2:@U.CONJ-PX.2Ø@вО1лить Derya ;
 
 !LEXICON CNJ-withO-21
-!+ScSg2+OcSg100000@U.CONJ-PX.21@:вО1лимик@U.CONJ-PX.21@ Derya_KLoss ;
+!@U.CONJ-PX.21@!+ScSg2+OcSg1:@U.CONJ-PX.21@вО1лимик Derya_KLoss ;
 
 !LEXICON CNJ-withO-23
-!+ScSg2+OcSg3000@U.CONJ-PX.23@:вО1лик@U.CONJ-PX.23@ Derya_KLoss ;
+!@U.CONJ-PX.23@!+ScSg2+OcSg3:@U.CONJ-PX.23@вО1лик Derya_KLoss ;
 
 !LEXICON CNJ-withO-24
-!+ScSg2+OcPl1000000@U.CONJ-PX.24@:вО1лимизь@U.CONJ-PX.24@ Derya ;
+!@U.CONJ-PX.24@!+ScSg2+OcPl1:@U.CONJ-PX.24@вО1лимизь Derya ;
 
 !LEXICON CNJ-withO-26
-!+ScSg2+OcPl30000@U.CONJ-PX.26@:вО1лить@U.CONJ-PX.26@ Derya ;
+!@U.CONJ-PX.26@!+ScSg2+OcPl3:@U.CONJ-PX.26@вО1лить Derya ;
 
 !LEXICON CNJ-withO-31
-!+ScSg3+OcSg100000@U.CONJ-PX.31@:вО1лимим@U.CONJ-PX.31@ Derya ;
+!@U.CONJ-PX.31@!+ScSg3+OcSg1:@U.CONJ-PX.31@вО1лимим Derya ;
 
 !LEXICON CNJ-withO-32
-!+ScSg3+OcSg20000000@U.CONJ-PX.32@:вО1линзеть@U.CONJ-PX.32@ Derya ;
+!@U.CONJ-PX.32@!+ScSg3+OcSg2:@U.CONJ-PX.32@вО1линзеть Derya ;
 
 !LEXICON CNJ-withO-33
-!+ScSg3+OcSg30000@U.CONJ-PX.33@:вО1лизе@U.CONJ-PX.33@ Derya ;
+!@U.CONJ-PX.33@!+ScSg3+OcSg3:@U.CONJ-PX.33@вО1лизе Derya ;
 
 !LEXICON CNJ-withO-34
-!+ScSg3+OcPl1000000@U.CONJ-PX.34@:вО1лимизь@U.CONJ-PX.34@ Derya ;
+!@U.CONJ-PX.34@!+ScSg3+OcPl1:@U.CONJ-PX.34@вО1лимизь Derya ;
 
 !LEXICON CNJ-withO-35
-!+ScSg3+OcPl2000000@U.CONJ-PX.35@:вО1лидизь@U.CONJ-PX.35@ Derya ;
+!@U.CONJ-PX.35@!+ScSg3+OcPl2:@U.CONJ-PX.35@вО1лидизь Derya ;
 
 !LEXICON CNJ-withO-36
-!+ScSg3+OcPl300000@U.CONJ-PX.36@:вО1линзе@U.CONJ-PX.36@ Derya ;
+!@U.CONJ-PX.36@!+ScSg3+OcPl3:@U.CONJ-PX.36@вО1линзе Derya ;
 
 !LEXICON CNJ-withO-40
-!+ScPl1000000@U.CONJ-PX.4Ø@:вО1линек@U.CONJ-PX.4Ø@ Derya_KLoss ;
+!@U.CONJ-PX.4Ø@!+ScPl1:@U.CONJ-PX.4Ø@вО1линек Derya_KLoss ;
 
 !LEXICON CNJ-withO-42
-!+ScPl1+OcSg2000000@U.CONJ-PX.42@:вО1лидизь@U.CONJ-PX.42@ Derya ;
+!@U.CONJ-PX.42@!+ScPl1+OcSg2:@U.CONJ-PX.42@вО1лидизь Derya ;
 
 !LEXICON CNJ-withO-43
-!+ScPl1+OcSg300000@U.CONJ-PX.43@:вО1линек@U.CONJ-PX.43@ Derya_KLoss ;
+!@U.CONJ-PX.43@!+ScPl1+OcSg3:@U.CONJ-PX.43@вО1линек Derya_KLoss ;
 
 !LEXICON CNJ-withO-45
-!+ScPl1+OcPl2000000@U.CONJ-PX.45@:вО1лидизь@U.CONJ-PX.45@ Derya ;
+!@U.CONJ-PX.45@!+ScPl1+OcPl2:@U.CONJ-PX.45@вО1лидизь Derya ;
 
 !LEXICON CNJ-withO-46
-!+ScPl1+OcPl300000@U.CONJ-PX.46@:вО1линек@U.CONJ-PX.46@ Derya_KLoss ;
+!@U.CONJ-PX.46@!+ScPl1+OcPl3:@U.CONJ-PX.46@вО1линек Derya_KLoss ;
 
 !LEXICON CNJ-withO-50
-!+ScPl200000@U.CONJ-PX.5Ø@:вО1лиде@U.CONJ-PX.5Ø@ Derya ;
+!@U.CONJ-PX.5Ø@!+ScPl2:@U.CONJ-PX.5Ø@вО1лиде Derya ;
 
 !LEXICON CNJ-withO-51
-!+ScPl2+OcSg1000000@U.CONJ-PX.51@:вО1лимизь@U.CONJ-PX.51@ Derya ;
+!@U.CONJ-PX.51@!+ScPl2+OcSg1:@U.CONJ-PX.51@вО1лимизь Derya ;
 
 !LEXICON CNJ-withO-53
-!+ScPl2+OcSg30000@U.CONJ-PX.53@:вО1линк@U.CONJ-PX.53@ Derya_KLoss ;
+!@U.CONJ-PX.53@!+ScPl2+OcSg3:@U.CONJ-PX.53@вО1линк Derya_KLoss ;
 
 !LEXICON CNJ-withO-54
-!+ScPl2+OcPl1000000@U.CONJ-PX.54@:вО1лимизь@U.CONJ-PX.54@ Derya ;
+!@U.CONJ-PX.54@!+ScPl2+OcPl1:@U.CONJ-PX.54@вО1лимизь Derya ;
 
 !LEXICON CNJ-withO-56
-!+ScPl2+OcPl30000@U.CONJ-PX.56@:вО1линк@U.CONJ-PX.56@ Derya_KLoss ;
+!@U.CONJ-PX.56@!+ScPl2+OcPl3:@U.CONJ-PX.56@вО1линк Derya_KLoss ;
 
 !LEXICON CNJ-withO-61
-!+ScPl3+OcSg1000000@U.CONJ-PX.61@:вО1лимизь@U.CONJ-PX.61@ Derya ;
+!@U.CONJ-PX.61@!+ScPl3+OcSg1:@U.CONJ-PX.61@вО1лимизь Derya ;
 
 !LEXICON CNJ-withO-62
-!+ScPl3+OcSg2000000@U.CONJ-PX.62@:вО1лидизь@U.CONJ-PX.62@ Derya ;
+!@U.CONJ-PX.62@!+ScPl3+OcSg2:@U.CONJ-PX.62@вО1лидизь Derya ;
 
 !LEXICON CNJ-withO-63
-!+ScPl3+OcSg30000@U.CONJ-PX.63@:вО1лизь@U.CONJ-PX.63@ Derya ;
+!@U.CONJ-PX.63@!+ScPl3+OcSg3:@U.CONJ-PX.63@вО1лизь Derya ;
 
 !LEXICON CNJ-withO-64
-!+ScPl3+OcPl1000000@U.CONJ-PX.64@:вО1лимизь@U.CONJ-PX.64@ Derya ;
+!@U.CONJ-PX.64@!+ScPl3+OcPl1:@U.CONJ-PX.64@вО1лимизь Derya ;
 
 !LEXICON CNJ-withO-65
-!+ScPl3+OcPl2000000@U.CONJ-PX.65@:вО1лидизь@U.CONJ-PX.65@ Derya ;
+!@U.CONJ-PX.65@!+ScPl3+OcPl2:@U.CONJ-PX.65@вО1лидизь Derya ;
 
 !LEXICON CNJ-withO-66
-!+ScPl3+OcPl30000@U.CONJ-PX.66@:вО1лизь@U.CONJ-PX.66@ Derya ;
+!@U.CONJ-PX.66@!+ScPl3+OcPl3:@U.CONJ-PX.66@вО1лизь Derya ;
 
 
 
@@ -2453,9 +2453,9 @@ LEXICON Derya_KLoss
 
 
 LEXICON VA_ILJA
-+V+Aux: VA_ILJA_01 ;
++Aux: VA_ILJA_01 ;
 LEXICON VA_ILJA_01
-+Neg@P.CONJ.ObjAll@:0@P.CONJ.ObjAll@ Optative-noArrow ;
+@P.CONJ.ObjAll@+Neg:@P.CONJ.ObjAll@ Optative-noArrow ;
  ILYA_Obj ; !CHECKME 2017-11-16
 +Neg: OPT-10 ;
 +Neg: OPT-20 ;
@@ -2463,18 +2463,18 @@ LEXICON VA_ILJA_01
 +Neg: OPT-40 ;
 +Neg: OPT-50 ;
 +Neg: OPT-60 ;
-+Proh+ScSg2@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@:00@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@ VerbEnd_K ;
-+Proh+ScSg2+OcSg100@U.CONJ-MX.IMP@@U.CONJ-PX.21@:%>%{ОЕЭØ%}мак@U.CONJ-MX.IMP@@U.CONJ-PX.21@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@+Proh+ScSg2:@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@ VerbEnd_K ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.21@+Proh+ScSg2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.21@%>%{ОЕЭØ%}мак VerbEnd_ImpK ;
 
-+Proh+ScSg2+OcSg3@U.CONJ-MX.IMP@@U.CONJ-PX.23@:%>к0@U.CONJ-MX.IMP@@U.CONJ-PX.23@ VerbEnd_ImpK ;
-+Proh+ScSg2+OcPl1000@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpK ;
-+Proh+ScSg2+OcPl30@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>%{иы%}ть@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpK ;
-+Err/Orth+Dial/NW+Proh+ScSg2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>%{иы%}000@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpK ;
-+Proh+ScPl200@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}дО1@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@ VerbEnd_ImpK ;
-+Proh+ScPl2+OcSg1000@U.CONJ-MX.IMP@@U.CONJ-PX.51@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.IMP@@U.CONJ-PX.51@ VerbEnd_ImpK ;
-+Proh+ScPl2+OcSg30@U.CONJ-MX.IMP@@U.CONJ-PX.53@:%>%{иы%}нк@U.CONJ-MX.IMP@@U.CONJ-PX.53@ VerbEnd_ImpK ;
-+Proh+ScPl2+OcPl1000@U.CONJ-MX.IMP@@U.CONJ-PX.54@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.IMP@@U.CONJ-PX.54@ VerbEnd_ImpK ;
-+Proh+ScPl2+OcPl30@U.CONJ-MX.IMP@@U.CONJ-PX.56@:%>%{иы%}нк@U.CONJ-MX.IMP@@U.CONJ-PX.56@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.23@+Proh+ScSg2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.23@%>к VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.24@+Proh+ScSg2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.24@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Proh+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%}ть VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Err/Orth+Dial/NW+Proh+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%} VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@+Proh+ScPl2:@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}дО1 VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.51@+Proh+ScPl2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.51@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.53@+Proh+ScPl2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.53@%>%{иы%}нк VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.54@+Proh+ScPl2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.54@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.56@+Proh+ScPl2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.56@%>%{иы%}нк VerbEnd_ImpK ;
 
 
 LEXICON ILYA_Obj
@@ -2485,15 +2485,15 @@ LEXICON ILYA_Obj
  OPT-21 ;
  OPT-23 ;
  OPT-24 ;
-+Opt+ScSg2+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.24@+Opt+ScSg2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.24@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.24@+Opt+ScSg2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.24@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
  OPT-26 ;
  OPT-31 ;
  OPT-32 ;
  OPT-33 ;
  OPT-34 ;
-+Opt+ScSg3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.34@+Opt+ScSg3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.34@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.34@+Opt+ScSg3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.34@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
  OPT-35 ;
  OPT-36 ;
  OPT-42 ;
@@ -2503,26 +2503,26 @@ LEXICON ILYA_Obj
  OPT-51 ;
  OPT-53 ;
  OPT-54 ;
-+Opt+ScPl2+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.54@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.54@ VerbEnd_ImpK ;
-+Opt+ScPl2+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.54@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.54@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.54@+Opt+ScPl2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.54@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.54@+Opt+ScPl2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.54@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
  OPT-56 ;
  OPT-61 ;
-+Opt+ScPl3+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.61@+Opt+ScPl3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.61@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.61@+Opt+ScPl3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.61@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
  OPT-62 ;
  OPT-63 ;
  OPT-64 ;
-+Opt+ScPl3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.64@+Opt+ScPl3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.64@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.64@+Opt+ScPl3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.64@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
  OPT-65 ;
  OPT-66 ;
-+Opt+ScPl3+OcSg30@U.CONJ-MX.OPT@@U.CONJ-PX.63@:%>%{иы%}зь@U.CONJ-MX.OPT@@U.CONJ-PX.63@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg30@U.CONJ-MX.OPT@@U.CONJ-PX.63@:%>%{ОЕЭØ%}зь@U.CONJ-MX.OPT@@U.CONJ-PX.63@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.63@+Opt+ScPl3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.63@%>%{иы%}зь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.63@+Opt+ScPl3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.63@%>%{ОЕЭØ%}зь VerbEnd_ImpK ;
 
-+Opt+ScPl2+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.54@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.54@ VerbEnd_ImpK ;
-+Opt+ScPl2+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.54@:%>%{иы%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.54@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl30@U.CONJ-MX.OPT@@U.CONJ-PX.66@:%>%{иы%}зь@U.CONJ-MX.OPT@@U.CONJ-PX.66@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl30@U.CONJ-MX.OPT@@U.CONJ-PX.66@:%>%{ОЕЭØ%}зь@U.CONJ-MX.OPT@@U.CONJ-PX.66@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.54@+Opt+ScPl2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.54@%>%{иы%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.54@+Opt+ScPl2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.54@%>%{иы%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.66@+Opt+ScPl3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.66@%>%{иы%}зь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.66@+Opt+ScPl3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.66@%>%{ОЕЭØ%}зь VerbEnd_ImpK ;
 
 
 
@@ -2532,39 +2532,39 @@ LEXICON ILYA_Obj
 
 
 LEXICON IMPRT-20
-+Imprt+ScSg20@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@:%>К1Ь2@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@ VerbEnd_ImpK ;
-+Dial+ConNeg0@U.CONJ-CONNEG.YES@:%>К1Ь2@U.CONJ-CONNEG.YES@ VerbEnd_deraj ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@+Imprt+ScSg2:@U.CONJ-MX.IMP@@U.CONJ-PX.2Ø@%>К1Ь2 VerbEnd_ImpK ;
+@U.CONJ-CONNEG.YES@+Dial+ConNeg:@U.CONJ-CONNEG.YES@%>К1Ь2 VerbEnd_deraj ;
 
 LEXICON IMPRT-21
-+Imprt+ScSg2+OcSg100@U.CONJ-MX.IMP@@U.CONJ-PX.21@:%>%{ОЕЭØ%}мак@U.CONJ-MX.IMP@@U.CONJ-PX.21@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.21@+Imprt+ScSg2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.21@%>%{ОЕЭØ%}мак VerbEnd_ImpK ;
 
 LEXICON IMPRT-23
-+Imprt+ScSg2+OcSg3@U.CONJ-MX.IMP@@U.CONJ-PX.23@:%>%{иы%}к@U.CONJ-MX.IMP@@U.CONJ-PX.23@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.23@+Imprt+ScSg2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.23@%>%{иы%}к VerbEnd_ImpK ;
 
 LEXICON IMPRT-24
-+Imprt+ScSg2+OcPl10000@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpK ;
-+Imprt+ScSg2+OcPl1000@U.CONJ-MX.IMP@@U.CONJ-PX.24@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.IMP@@U.CONJ-PX.24@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.24@+Imprt+ScSg2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.24@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.24@+Imprt+ScSg2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.24@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
 
 LEXICON IMPRT-26
-+Imprt+ScSg2+OcPl30@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>%{иы%}ть@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpK ;
-+Err/Orth+Dial/NW+Imprt+ScSg2+OcPl3@U.CONJ-MX.IMP@@U.CONJ-PX.26@:%>%{иы%}000@U.CONJ-MX.IMP@@U.CONJ-PX.26@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Imprt+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%}ть VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Err/Orth+Dial/NW+Imprt+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%} VerbEnd_ImpK ;
 
 LEXICON IMPRT-50
-+Imprt+ScPl200@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}дО1@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@+Imprt+ScPl2:@U.CONJ-MX.IMP@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}дО1 VerbEnd_ImpK ;
 
 LEXICON IMPRT-51
-+Imprt+ScPl2+OcSg10000@U.CONJ-MX.IMP@@U.CONJ-PX.51@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.IMP@@U.CONJ-PX.51@ VerbEnd_ImpK ;
-+Imprt+ScPl2+OcSg1000@U.CONJ-MX.IMP@@U.CONJ-PX.51@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.IMP@@U.CONJ-PX.51@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.51@+Imprt+ScPl2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.51@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.51@+Imprt+ScPl2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.51@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
 
 LEXICON IMPRT-53
-+Imprt+ScPl2+OcSg30@U.CONJ-MX.IMP@@U.CONJ-PX.53@:%>%{иы%}нк@U.CONJ-MX.IMP@@U.CONJ-PX.53@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.53@+Imprt+ScPl2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.53@%>%{иы%}нк VerbEnd_ImpK ;
 
 LEXICON IMPRT-54
-+Imprt+ScPl2+OcPl10000@U.CONJ-MX.IMP@@U.CONJ-PX.54@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.IMP@@U.CONJ-PX.54@ VerbEnd_ImpK ;
-+Imprt+ScPl2+OcPl1000@U.CONJ-MX.IMP@@U.CONJ-PX.54@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.IMP@@U.CONJ-PX.54@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.54@+Imprt+ScPl2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.54@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.54@+Imprt+ScPl2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.54@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
 
 LEXICON IMPRT-56
-+Imprt+ScPl2+OcPl30@U.CONJ-MX.IMP@@U.CONJ-PX.56@:%>%{иы%}нк@U.CONJ-MX.IMP@@U.CONJ-PX.56@ VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.56@+Imprt+ScPl2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.56@%>%{иы%}нк VerbEnd_ImpK ;
 
 LEXICON Imperative-kadoms
 @R.CONJ.ObjAll@  Imperative_Obj-kadoms ;
@@ -2614,172 +2614,172 @@ LEXICON Imperative_Obj-kundams
 !! 2012-11-09
 
 LEXICON OPT-10
-+Opt+ScSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.1Ø@:%>%{ОЕЭØ%}зан@U.CONJ-MX.OPT@@U.CONJ-PX.1Ø@  VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.1Ø@+Opt+ScSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.1Ø@%>%{ОЕЭØ%}зан  VerbEnd_K ;
 
 LEXICON OPT-12
-+Opt+ScSg1+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.12@:%>%{ОЕЭØ%}стан@U.CONJ-MX.OPT@@U.CONJ-PX.12@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.12@:%>%{ОЕЭØ%}здан@U.CONJ-MX.OPT@@U.CONJ-PX.12@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcSg20000@U.CONJ-MX.OPT@@U.CONJ-PX.12@:%>%{ОЕЭØ%}затан@U.CONJ-MX.OPT@@U.CONJ-PX.12@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.12@:%>%{ОЕЭØ%}зтан@U.CONJ-MX.OPT@@U.CONJ-PX.12@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.12@+Opt+ScSg1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.12@%>%{ОЕЭØ%}стан VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.12@+Opt+ScSg1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.12@%>%{ОЕЭØ%}здан VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.12@+Opt+ScSg1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.12@%>%{ОЕЭØ%}затан VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.12@+Opt+ScSg1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.12@%>%{ОЕЭØ%}зтан VerbEnd_ImpK ;
 
 LEXICON OPT-13
-+Opt+ScSg1+OcSg30@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>%{ОЕЭØ%}са@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>%{ОЕЭØ%}сса@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScSg1+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>%{ОЕЭØ%}сан@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScSg1+OcSg30@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>%{ОЕЭØ%}ссан@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.13@:%>%{ОЕЭØ%}зса@U.CONJ-MX.OPT@@U.CONJ-PX.13@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.13@+Opt+ScSg1+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.13@%>%{ОЕЭØ%}са VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.13@+Opt+ScSg1+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.13@%>%{ОЕЭØ%}сса VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.13@+Err/Orth+Dial+Opt+ScSg1+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.13@%>%{ОЕЭØ%}сан VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.13@+Err/Orth+Dial+Opt+ScSg1+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.13@%>%{ОЕЭØ%}ссан VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.13@+Opt+ScSg1+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.13@%>%{ОЕЭØ%}зса VerbEnd_ImpK ;
 
 LEXICON OPT-15
-+Opt+ScSg1+OcPl2000000@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%>%{ОЕЭØ%}зтадызь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcPl2000000@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%>%{ОЕЭØ%}стадызь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%>%{ОЕЭØ%}дызь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpK ;
-!+Opt+ScSg1+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%{иы%}дизь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpK ;
-!+Err/Orth+Dial+Opt+ScSg1+OcPl20@U.CONJ-MX.OPT@@U.CONJ-PX.15@:%{иы%}дезь@U.CONJ-MX.OPT@@U.CONJ-PX.15@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.15@+Opt+ScSg1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.15@%>%{ОЕЭØ%}зтадызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.15@+Opt+ScSg1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.15@%>%{ОЕЭØ%}стадызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.15@+Opt+ScSg1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.15@%>%{ОЕЭØ%}дызь VerbEnd_ImpK ;
+!@U.CONJ-MX.OPT@@U.CONJ-PX.15@!+Opt+ScSg1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.15@%{иы%}дизь VerbEnd_ImpK ;
+!@U.CONJ-MX.OPT@@U.CONJ-PX.15@!+Err/Orth+Dial+Opt+ScSg1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.15@%{иы%}дезь VerbEnd_ImpK ;
 
 LEXICON OPT-16
-+Opt+ScSg1+OcPl3000@U.CONJ-MX.OPT@@U.CONJ-PX.16@:%>%{ОЕЭØ%}сынь@U.CONJ-MX.OPT@@U.CONJ-PX.16@ VerbEnd_ImpK ;
-+Opt+ScSg1+OcPl30000@U.CONJ-MX.OPT@@U.CONJ-PX.16@:%>%{ОЕЭØ%}зсынь@U.CONJ-MX.OPT@@U.CONJ-PX.16@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.16@+Opt+ScSg1+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.16@%>%{ОЕЭØ%}сынь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.16@+Opt+ScSg1+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.16@%>%{ОЕЭØ%}зсынь VerbEnd_ImpK ;
 
 LEXICON OPT-20
-+Opt+ScSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.2Ø@:%>%{ОЕЭØ%}зат@U.CONJ-MX.OPT@@U.CONJ-PX.2Ø@ VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.2Ø@+Opt+ScSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.2Ø@%>%{ОЕЭØ%}зат VerbEnd_K ;
 
 LEXICON OPT-21
-+Opt+ScSg2+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.21@:%>%{ОЕЭØ%}змак@U.CONJ-MX.OPT@@U.CONJ-PX.21@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcSg100@U.CONJ-MX.OPT@@U.CONJ-PX.21@:%>%{ОЕЭØ%}мак@U.CONJ-MX.OPT@@U.CONJ-PX.21@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.21@+Opt+ScSg2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.21@%>%{ОЕЭØ%}змак VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.21@+Opt+ScSg2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.21@%>%{ОЕЭØ%}мак VerbEnd_ImpK ;
 
 LEXICON OPT-23
-+Opt+ScSg2+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.23@:%>%{ОЕЭØ%}сак@U.CONJ-MX.OPT@@U.CONJ-PX.23@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.23@:%>%{ОЕЭØ%}зак@U.CONJ-MX.OPT@@U.CONJ-PX.23@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcSg3000@U.CONJ-MX.OPT@@U.CONJ-PX.23@:%>%{ОЕЭØ%}зсак@U.CONJ-MX.OPT@@U.CONJ-PX.23@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.23@+Opt+ScSg2+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.23@%>%{ОЕЭØ%}сак VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.23@+Opt+ScSg2+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.23@%>%{ОЕЭØ%}зак VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.23@+Opt+ScSg2+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.23@%>%{ОЕЭØ%}зсак VerbEnd_ImpK ;
 
 LEXICON OPT-24
-+Opt+ScSg2+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.24@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.24@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.24@+Opt+ScSg2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.24@%>%{иы%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.24@+Opt+ScSg2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.24@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.24@+Opt+ScSg2+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.24@%>%{иы%}мизь VerbEnd_ImpK ;
 
 LEXICON OPT-26
-+Opt+ScSg2+OcPl3000@U.CONJ-MX.OPT@@U.CONJ-PX.26@:%>%{ОЕЭØ%}сыть@U.CONJ-MX.OPT@@U.CONJ-PX.26@ VerbEnd_ImpK ;
-+Opt+ScSg2+OcPl30000@U.CONJ-MX.OPT@@U.CONJ-PX.26@:%>%{ОЕЭØ%}зсыть@U.CONJ-MX.OPT@@U.CONJ-PX.26@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.26@+Opt+ScSg2+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.26@%>%{ОЕЭØ%}сыть VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.26@+Opt+ScSg2+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.26@%>%{ОЕЭØ%}зсыть VerbEnd_ImpK ;
 
 LEXICON OPT-30
-+Opt+ScSg300@U.CONJ-MX.OPT@@U.CONJ-PX.3Ø@:%>%{ОЕЭØ%}з%{оэØ%}@U.CONJ-MX.OPT@@U.CONJ-PX.3Ø@ VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.3Ø@+Opt+ScSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.3Ø@%>%{ОЕЭØ%}з%{оэØ%} VerbEnd_K ;
 
 LEXICON OPT-31
-+Opt+ScSg3+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>%{ОЕЭØ%}самам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>%{ОЕЭØ%}змам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcSg100@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>%{ОЕЭØ%}мам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcSg100@U.CONJ-MX.OPT@@U.CONJ-PX.31@:%>%{иы%}мам@U.CONJ-MX.OPT@@U.CONJ-PX.31@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.31@+Opt+ScSg3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.31@%>%{ОЕЭØ%}самам VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.31@+Opt+ScSg3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.31@%>%{ОЕЭØ%}змам VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.31@+Opt+ScSg3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.31@%>%{ОЕЭØ%}мам VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.31@+Opt+ScSg3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.31@%>%{иы%}мам VerbEnd_ImpK ;
 
 LEXICON OPT-32
-+Opt+ScSg3+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.32@:%>%{ОЕЭØ%}нзат@U.CONJ-MX.OPT@@U.CONJ-PX.32@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.32@+Opt+ScSg3+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.32@%>%{ОЕЭØ%}нзат VerbEnd_ImpK ;
 
 LEXICON OPT-33
-+Opt+ScSg3+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>%{ОЕЭØ%}сс%{оэØ%}@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>%{ОЕЭØ%}зс%{оэØ%}@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcSg300@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>%{ОЕЭØ%}зсы@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScSg3+OcSg3@U.CONJ-MX.OPT@@U.CONJ-PX.33@:%>%{ОЕЭØ%}з%{оэØ%}0@U.CONJ-MX.OPT@@U.CONJ-PX.33@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.33@+Opt+ScSg3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.33@%>%{ОЕЭØ%}сс%{оэØ%} VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.33@+Opt+ScSg3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.33@%>%{ОЕЭØ%}зс%{оэØ%} VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.33@+Opt+ScSg3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.33@%>%{ОЕЭØ%}зсы VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.33@+Err/Orth+Dial+Opt+ScSg3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.33@%>%{ОЕЭØ%}з%{оэØ%} VerbEnd_ImpK ;
 
 LEXICON OPT-34
-+Opt+ScSg3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{иы%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.34@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.34@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.34@+Opt+ScSg3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.34@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.34@+Opt+ScSg3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.34@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.34@+Opt+ScSg3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.34@%>%{иы%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.34@+Opt+ScSg3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.34@%>%{иы%}мизь VerbEnd_ImpK ;
 
 LEXICON OPT-35
-+Opt+ScSg3+OcPl2000000@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>%{ОЕЭØ%}зтадызь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl2000000@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>%{ОЕЭØ%}стадызь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.35@+Opt+ScSg3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.35@%>%{ОЕЭØ%}зтадызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.35@+Opt+ScSg3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.35@%>%{ОЕЭØ%}стадызь VerbEnd_ImpK ;
 
-+Err/Orth+Dial+Opt+ScSg3+OcPl20@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>%{иы%}дезь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>%{иы%}дизь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.35@:%>%{ОЕЭØ%}дызь@U.CONJ-MX.OPT@@U.CONJ-PX.35@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.35@+Err/Orth+Dial+Opt+ScSg3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.35@%>%{иы%}дезь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.35@+Opt+ScSg3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.35@%>%{иы%}дизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.35@+Opt+ScSg3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.35@%>%{ОЕЭØ%}дызь VerbEnd_ImpK ;
 
 LEXICON OPT-36
-+Opt+ScSg3+OcPl300@U.CONJ-MX.OPT@@U.CONJ-PX.36@:%>ынзе@U.CONJ-MX.OPT@@U.CONJ-PX.36@ VerbEnd_ImpK ;
-+Opt+ScSg3+OcPl300000@U.CONJ-MX.OPT@@U.CONJ-PX.36@:%>%{ОЕЭØ%}зсынзе@U.CONJ-MX.OPT@@U.CONJ-PX.36@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.36@+Opt+ScSg3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.36@%>ынзе VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.36@+Opt+ScSg3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.36@%>%{ОЕЭØ%}зсынзе VerbEnd_ImpK ;
 
 LEXICON OPT-40
-+Opt+ScPl100000@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}стано@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
-+Opt+ScPl100000@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@:%>%{ОЕЭØ%}зтано@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@ VerbEnd_K-lak ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@+Opt+ScPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}стано VerbEnd_K-lak ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@+Opt+ScPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.4Ø@%>%{ОЕЭØ%}зтано VerbEnd_K-lak ;
 
 LEXICON OPT-42
-+Opt+ScPl1+OcSg2000000@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>%{ОЕЭØ%}зтадызь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpK ;
-+Opt+ScPl1+OcSg2000000@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>%{ОЕЭØ%}стадызь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.42@+Opt+ScPl1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.42@%>%{ОЕЭØ%}зтадызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.42@+Opt+ScPl1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.42@%>%{ОЕЭØ%}стадызь VerbEnd_ImpK ;
 
-+Opt+ScPl1+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>%{ОЕЭØ%}дызь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpK ;
-+Opt+ScPl1+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>%{иы%}дизь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScPl1+OcSg20@U.CONJ-MX.OPT@@U.CONJ-PX.42@:%>%{иы%}дезь@U.CONJ-MX.OPT@@U.CONJ-PX.42@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.42@+Opt+ScPl1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.42@%>%{ОЕЭØ%}дызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.42@+Opt+ScPl1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.42@%>%{иы%}дизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.42@+Err/Orth+Dial+Opt+ScPl1+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.42@%>%{иы%}дезь VerbEnd_ImpK ;
 
 
 LEXICON OPT-43
-+Opt+ScPl1+OcSg300000@U.CONJ-MX.OPT@@U.CONJ-PX.43@:%>%{ОЕЭØ%}зсынек@U.CONJ-MX.OPT@@U.CONJ-PX.43@ VerbEnd_lak-ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.43@+Opt+ScPl1+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.43@%>%{ОЕЭØ%}зсынек VerbEnd_lak-ImpK ;
 
 LEXICON OPT-45
-+Opt+ScPl1+OcPl2000000@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>%{ОЕЭØ%}зтадызь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpK ;
-+Opt+ScPl1+OcPl2000000@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>%{ОЕЭØ%}стадызь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.45@+Opt+ScPl1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.45@%>%{ОЕЭØ%}зтадызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.45@+Opt+ScPl1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.45@%>%{ОЕЭØ%}стадызь VerbEnd_ImpK ;
 
-+Opt+ScPl1+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>%{ОЕЭØ%}дызь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpK ;
-+Opt+ScPl1+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>%{иы%}дизь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScPl1+OcPl20@U.CONJ-MX.OPT@@U.CONJ-PX.45@:%>%{иы%}дезь@U.CONJ-MX.OPT@@U.CONJ-PX.45@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.45@+Opt+ScPl1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.45@%>%{ОЕЭØ%}дызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.45@+Opt+ScPl1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.45@%>%{иы%}дизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.45@+Err/Orth+Dial+Opt+ScPl1+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.45@%>%{иы%}дезь VerbEnd_ImpK ;
 
 
 LEXICON OPT-46
-+Opt+ScPl1+OcPl300000@U.CONJ-MX.OPT@@U.CONJ-PX.46@:%>%{ОЕЭØ%}зсынек@U.CONJ-MX.OPT@@U.CONJ-PX.46@ VerbEnd_lak-ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.46@+Opt+ScPl1+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.46@%>%{ОЕЭØ%}зсынек VerbEnd_lak-ImpK ;
 
 LEXICON OPT-50
-+Opt+ScPl200000@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}стадо@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@ VerbEnd_K ;
-+Opt+ScPl200000@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@:%>%{ОЕЭØ%}зтадо@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@ VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@+Opt+ScPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}стадо VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@+Opt+ScPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.5Ø@%>%{ОЕЭØ%}зтадо VerbEnd_K ;
 
 LEXICON OPT-51
-+Opt+ScPl2+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.51@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.51@ VerbEnd_ImpK ;
-+Opt+ScPl2+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.51@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.51@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.51@+Opt+ScPl2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.51@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.51@+Opt+ScPl2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.51@%>%{иы%}мизь VerbEnd_ImpK ;
 
 LEXICON OPT-53
-+Opt+ScPl2+OcSg30000@U.CONJ-MX.OPT@@U.CONJ-PX.53@:%>%{ОЕЭØ%}зсынк@U.CONJ-MX.OPT@@U.CONJ-PX.53@ VerbEnd_lak-ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.53@+Opt+ScPl2+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.53@%>%{ОЕЭØ%}зсынк VerbEnd_lak-ImpK ;
 
 LEXICON OPT-54
-+Opt+ScPl2+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.54@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.54@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.54@+Opt+ScPl2+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.54@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
 
 LEXICON OPT-56
-+Opt+ScPl2+OcPl30000@U.CONJ-MX.OPT@@U.CONJ-PX.56@:%>%{ОЕЭØ%}зсынк@U.CONJ-MX.OPT@@U.CONJ-PX.56@ VerbEnd_lak-ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.56@+Opt+ScPl2+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.56@%>%{ОЕЭØ%}зсынк VerbEnd_lak-ImpK ;
 
 LEXICON OPT-60
-+Opt+ScPl300@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@:%>%{ОЕЭØ%}ст@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@ VerbEnd_K ;
-+Opt+ScPl300@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@:%>%{ОЕЭØ%}зт@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@ VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@+Opt+ScPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@%>%{ОЕЭØ%}ст VerbEnd_K ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@+Opt+ScPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.6Ø@%>%{ОЕЭØ%}зт VerbEnd_K ;
 
 LEXICON OPT-61
-+Opt+ScPl3+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg10000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{иы%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg1000@U.CONJ-MX.OPT@@U.CONJ-PX.61@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.61@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.61@+Opt+ScPl3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.61@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.61@+Opt+ScPl3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.61@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.61@+Opt+ScPl3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.61@%>%{иы%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.61@+Opt+ScPl3+OcSg1:@U.CONJ-MX.OPT@@U.CONJ-PX.61@%>%{иы%}мизь VerbEnd_ImpK ;
 
 LEXICON OPT-62
-+Opt+ScPl3+OcSg2000000@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>%{ОЕЭØ%}зтадызь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg2000000@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>%{ОЕЭØ%}стадызь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.62@+Opt+ScPl3+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.62@%>%{ОЕЭØ%}зтадызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.62@+Opt+ScPl3+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.62@%>%{ОЕЭØ%}стадызь VerbEnd_ImpK ;
 
-+Opt+ScPl3+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>%{ОЕЭØ%}дызь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg2000@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>%{иы%}дизь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScPl3+OcSg20@U.CONJ-MX.OPT@@U.CONJ-PX.62@:%>%{иы%}дезь@U.CONJ-MX.OPT@@U.CONJ-PX.62@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.62@+Opt+ScPl3+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.62@%>%{ОЕЭØ%}дызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.62@+Opt+ScPl3+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.62@%>%{иы%}дизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.62@+Err/Orth+Dial+Opt+ScPl3+OcSg2:@U.CONJ-MX.OPT@@U.CONJ-PX.62@%>%{иы%}дезь VerbEnd_ImpK ;
 
 LEXICON OPT-63
-+Opt+ScPl3+OcSg3000@U.CONJ-MX.OPT@@U.CONJ-PX.63@:%>%{ОЕЭØ%}сызь@U.CONJ-MX.OPT@@U.CONJ-PX.63@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg30000@U.CONJ-MX.OPT@@U.CONJ-PX.63@:%>%{ОЕЭØ%}зсызь@U.CONJ-MX.OPT@@U.CONJ-PX.63@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcSg30000@U.CONJ-MX.OPT@@U.CONJ-PX.63@:%>%{ОЕЭØ%}ссызь@U.CONJ-MX.OPT@@U.CONJ-PX.63@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.63@+Opt+ScPl3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.63@%>%{ОЕЭØ%}сызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.63@+Opt+ScPl3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.63@%>%{ОЕЭØ%}зсызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.63@+Opt+ScPl3+OcSg3:@U.CONJ-MX.OPT@@U.CONJ-PX.63@%>%{ОЕЭØ%}ссызь VerbEnd_ImpK ;
 
 LEXICON OPT-64
-+Opt+ScPl3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{ОЕЭØ%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{ОЕЭØ%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl10000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{иы%}змизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl1000@U.CONJ-MX.OPT@@U.CONJ-PX.64@:%>%{иы%}мизь@U.CONJ-MX.OPT@@U.CONJ-PX.64@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.64@+Opt+ScPl3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.64@%>%{ОЕЭØ%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.64@+Opt+ScPl3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.64@%>%{ОЕЭØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.64@+Opt+ScPl3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.64@%>%{иы%}змизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.64@+Opt+ScPl3+OcPl1:@U.CONJ-MX.OPT@@U.CONJ-PX.64@%>%{иы%}мизь VerbEnd_ImpK ;
 
 LEXICON OPT-65
-+Opt+ScPl3+OcPl2000@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>%{иы%}дизь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl200@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>дызь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
-+Err/Orth+Dial+Opt+ScPl3+OcPl20@U.CONJ-MX.OPT@@U.CONJ-PX.65@:%>%{иы%}дезь@U.CONJ-MX.OPT@@U.CONJ-PX.65@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.65@+Opt+ScPl3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.65@%>%{иы%}дизь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.65@+Opt+ScPl3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.65@%>дызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.65@+Err/Orth+Dial+Opt+ScPl3+OcPl2:@U.CONJ-MX.OPT@@U.CONJ-PX.65@%>%{иы%}дезь VerbEnd_ImpK ;
 
 LEXICON OPT-66
-+Opt+ScPl3+OcPl3000@U.CONJ-MX.OPT@@U.CONJ-PX.66@:%>%{ОЕЭØ%}сызь@U.CONJ-MX.OPT@@U.CONJ-PX.66@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl30000@U.CONJ-MX.OPT@@U.CONJ-PX.66@:%>%{ОЕЭØ%}зсызь@U.CONJ-MX.OPT@@U.CONJ-PX.66@ VerbEnd_ImpK ;
-+Opt+ScPl3+OcPl30000@U.CONJ-MX.OPT@@U.CONJ-PX.66@:%>%{ОЕЭØ%}ссызь@U.CONJ-MX.OPT@@U.CONJ-PX.66@ VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.66@+Opt+ScPl3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.66@%>%{ОЕЭØ%}сызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.66@+Opt+ScPl3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.66@%>%{ОЕЭØ%}зсызь VerbEnd_ImpK ;
+@U.CONJ-MX.OPT@@U.CONJ-PX.66@+Opt+ScPl3+OcPl3:@U.CONJ-MX.OPT@@U.CONJ-PX.66@%>%{ОЕЭØ%}ссызь VerbEnd_ImpK ;
 
 
 

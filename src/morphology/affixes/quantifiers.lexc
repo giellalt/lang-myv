@@ -105,9 +105,9 @@ LEXICON NUM_KAL
 !+Num+Card+Lat:%>О1в Ks ;
 +A: NUMORD_KAL ;
 +Num+Card+Coll:%>нст WORD-END ;
-+Num+Card+Coll@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Num+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-+Num+Appr+AssocColl000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
+@P.TLOSS.ON@+Num+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
+@P.KLOSS.ON@+Num+AssocColl:@P.KLOSS.ON@нек Ks ;
+@P.KLOSS.ON@+Num+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
 +Num+AssocColl:%>не _KUDO-Possessives2-Ill ;
 +Num+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 +Num+AssocColl:%>не _KUDO-Possessive-Before-K ;
@@ -131,9 +131,9 @@ LEXICON NUM_OSH
 !+Num+Card+Lat:%>О1в Ks ;
 +A: NUMORD_OSH ;
 +Num+Card+Coll:%>нст WORD-END ;
-+Num+Card+Coll@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Num+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-+Num+Appr+AssocColl000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
+@P.TLOSS.ON@+Num+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
+@P.KLOSS.ON@+Num+AssocColl:@P.KLOSS.ON@нек Ks ;
+@P.KLOSS.ON@+Num+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
 +Num+AssocColl:%>не _KUDO-Possessives2-Ill ;
 +Num+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 +Num+AssocColl:%>не _KUDO-Possessive-Before-K ;
@@ -156,9 +156,9 @@ LEXICON NUM_SJADO
 !+Num+Card+Lat:%>О1в Ks ;
 +A:О1 NUMORD_SJADO ;
 +Num+Card+Coll:О1%>нст WORD-END ;
-+Num+Card+Coll00@P.TLOSS.ON@:О1%>нст@P.TLOSS.ON@  Quants3 ;
-+Num+AssocColl000@P.KLOSS.ON@:О1%>нек@P.KLOSS.ON@ Ks ;
-+Num+Appr+AssocColl00000@P.KLOSS.ON@:О1%>шканек@P.KLOSS.ON@ Ks ;
+@P.TLOSS.ON@+Num+Card+Coll:@P.TLOSS.ON@О1%>нст  Quants3 ;
+@P.KLOSS.ON@+Num+AssocColl:@P.KLOSS.ON@О1%>нек Ks ;
+@P.KLOSS.ON@+Num+Appr+AssocColl:@P.KLOSS.ON@О1%>шканек Ks ;
 +Num+AssocColl:О1%>не _KUDO-Possessives2-Ill ;
 +Num+Appr+AssocColl:О1%>шкане _KUDO-Possessives2-Ill ;
 +Num+AssocColl:О1%>не _KUDO-Possessive-Before-K ;
@@ -182,9 +182,9 @@ LEXICON NUM_KUDO
 +A: NUMORD_KUDO ;
 
 !2017-11-21+Num+Card+Coll:%>нст WORD-END ;
-+Num+Card+Coll@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-+Num+AssocColl0@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-+Num+Appr+AssocColl000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
+@P.TLOSS.ON@+Num+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
+@P.KLOSS.ON@+Num+AssocColl:@P.KLOSS.ON@нек Ks ;
+@P.KLOSS.ON@+Num+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
 +Num+AssocColl:%>не _KUDO-Possessives2-Ill ;
 +Num+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 +Num+AssocColl:%>не _KUDO-Possessive-Before-K ;
@@ -194,7 +194,7 @@ LEXICON NUM_KUDO
 
 LEXICON NUMORD_KUDO
 !2017-11-21+Der/cje+Ord:%>це WORD-END ;
-+Der+Der/cje+Ord+Coll+Attr@P.TLOSS.ON@:ценст@P.TLOSS.ON@  Quants3 ;!CHECKME 2017-11-21
+@P.TLOSS.ON@+Der+Der/cje+Ord+Coll+Attr:@P.TLOSS.ON@ценст  Quants3 ;!CHECKME 2017-11-21
 +Der+Der/cje+Ord:%>це NMN_KUDO ;
 +Der+Der/tjks+Ord:%>тькс NMN_OSH ;
 
@@ -303,12 +303,12 @@ LEXICON QNT-INDEF
 
 LEXICON QNT_VESEME
 +Det+Qnt+Adn: WORD-END ;
-+Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ _KUDO-Indef-Declension-SG ;
+@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ _KUDO-Indef-Declension-SG ;
 
-+Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
+@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
 
-+Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ SG-NOM-PX ;
-+Pron+Qnt@P.POS.PRON@:00@P.POS.PRON@ SG-GEN-PX ;
+@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ SG-NOM-PX ;
+@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ SG-GEN-PX ;
 
 +Pron+Qnt+Sg+Abl+PxPl2:%>дО1%>нк K ;
 +Pron+Qnt+Sg+Abl+PxPl3:%>дО1%>ст K ;
@@ -353,9 +353,9 @@ LEXICON QNT_VESEME
 
 !LEXICON Quants2
 ! Quants3 ;
-!+Coll+Attr0@P.TLOSS.ON@:нст@P.TLOSS.ON@  Quants3 ;
-!+AssocColl00@P.KLOSS.ON@:нек@P.KLOSS.ON@ Ks ;
-!+Appr+AssocColl0000@P.KLOSS.ON@:шканек@P.KLOSS.ON@ Ks ;
+!@P.TLOSS.ON@!+Coll+Attr:@P.TLOSS.ON@нст  Quants3 ;
+!@P.KLOSS.ON@!+AssocColl:@P.KLOSS.ON@нек Ks ;
+!@P.KLOSS.ON@!+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
 !+AssocColl:%>не _KUDO-Possessives2-Ill ;
 !+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
 !+AssocColl:%>не _KUDO-Possessive-Before-K ;
@@ -376,14 +376,14 @@ LEXICON Quants3
 
 +Sg+Nom+PxSg1:%>м _KAL-Tenses1 ;
 +Sg+Nom+PxSg2:%>тЬ2 _KIT-Tenses1 ;
-+Sg+Nom+PxPl10@P.KLOSS.ON@:%>нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Nom+PxPl2@P.KLOSS.ON@:%>нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Nom+PxPl3@P.TLOSS.ON@:%>ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Sg+Nom+PxPl1:@P.KLOSS.ON@%>нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Sg+Nom+PxPl2:@P.KLOSS.ON@%>нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Sg+Nom+PxPl3:@P.TLOSS.ON@%>ст _KIT-Tenses1 ;
 +Sg+Nom+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Sg+Nom+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Sg+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Nom+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Sg+Nom+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Sg+Nom+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Sg+Nom+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 
 +Pl+Nom+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Pl+Nom+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
@@ -391,42 +391,42 @@ LEXICON Quants3
 +Pl+Nom+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Nom+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Nom+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Nom+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Pl+Nom+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Pl+Nom+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Pl+Nom+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 +Pl+Nom+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Nom+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Nom+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Nom+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Nom+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Pl+Nom+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Pl+Nom+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Pl+Nom+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Sg+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Sg+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Sg+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Sg+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Sg+Gen+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Sg+Gen+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Sg+Gen+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Sg+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Sg+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Sg+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Sg+Gen+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Sg+Gen+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Sg+Gen+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Pl+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses1 ;
 +Pl+Gen+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Pl+Gen+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Pl+Gen+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Pl+Gen+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{ОЕЭØ%}м _KAL-Tenses1 ;
 +Pl+Gen+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses1 ;
-+Pl+Gen+PxPl100@P.KLOSS.ON@:%>%{ОЕЭØ%}нО1к@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Gen+PxPl20@P.KLOSS.ON@:%>%{ОЕЭØ%}нк@P.KLOSS.ON@ _LAK-Tenses1 ;
-+Pl+Gen+PxPl30@P.TLOSS.ON@:%>%{ОЕЭØ%}ст@P.TLOSS.ON@ _KIT-Tenses1 ;
+@P.KLOSS.ON@+Pl+Gen+PxPl1:@P.KLOSS.ON@%>%{ОЕЭØ%}нО1к _LAK-Tenses1 ;
+@P.KLOSS.ON@+Pl+Gen+PxPl2:@P.KLOSS.ON@%>%{ОЕЭØ%}нк _LAK-Tenses1 ;
+@P.TLOSS.ON@+Pl+Gen+PxPl3:@P.TLOSS.ON@%>%{ОЕЭØ%}ст _KIT-Tenses1 ;
 
 
 +Sg+Nom+Def:%>сь _OSH-Tenses1 ;
@@ -493,7 +493,7 @@ LEXICON Quants3
 +Pl+Ine+Def:%>тнЕ3%>сэ _KUDO-Attributes2 ; 
 +Pl+Ela+Def:%>тнЕ3%>стэ _KUDO-Attributes2 ;
 +Pl+Cmpr+Def:%>тнЕ3%>шка _KUDO-Attributes2 ; 
-+Err/Orth@R.TLOSS.ON@:0@R.TLOSS.ON@ Quants3_TLOSS ;
+@R.TLOSS.ON@+Err/Orth:@R.TLOSS.ON@ Quants3_TLOSS ;
 
 LEXICON KOLMONST-ELLIPSIS-TYPE
 +Pl+Nom+Def:%>тнЕ3 _KUDO-Tenses1 ;
@@ -509,24 +509,24 @@ LEXICON KOLMONST-ELLIPSIS-TYPE
 +Pl+Cmpr+Def:%>тнЕ3%>шка _KUDO-Tenses1 ;
 
 LEXICON Quants3_TLOSS
-+Pl+Nom+Def@C.TLOSS@:%>не@C.TLOSS@ _KUDO-Tenses1 ;
-+Pl+Abl+Def00@C.TLOSS@:%>неде@C.TLOSS@ Ks ;
-+Pl+Gen+Def00@C.TLOSS@:%>нень@C.TLOSS@ Ks ;
-+Pl+Dat+Def0000@C.TLOSS@:%>ненень@C.TLOSS@ Ks ;
-+Pl+Ill+Def0@C.TLOSS@:%>нес@C.TLOSS@ Ks ;
+@C.TLOSS@+Pl+Nom+Def:@C.TLOSS@%>не _KUDO-Tenses1 ;
+@C.TLOSS@+Pl+Abl+Def:@C.TLOSS@%>неде Ks ;
+@C.TLOSS@+Pl+Gen+Def:@C.TLOSS@%>нень Ks ;
+@C.TLOSS@+Pl+Dat+Def:@C.TLOSS@%>ненень Ks ;
+@C.TLOSS@+Pl+Ill+Def:@C.TLOSS@%>нес Ks ;
 
-+Pl+Prl+Def00@C.TLOSS@:%>нева@C.TLOSS@ _KUDO-Tenses1 ;
-+Pl+Abe+Def00000@C.TLOSS@:%>невтеме@C.TLOSS@ _KUDO-Tenses1 ;
-+Pl+Tra+Def00@C.TLOSS@:%>некс@C.TLOSS@ Ks ;
-+Pl+Ine+Def00@C.TLOSS@:%>несэ@C.TLOSS@ _KUDO-Tenses1 ;
-+Pl+Ela+Def000@C.TLOSS@:%>нестэ@C.TLOSS@ _KUDO-Tenses1 ;
-+Pl+Cmpr+Def000@C.TLOSS@:%>нешка@C.TLOSS@ _KUDO-Tenses1 ;
-+Pl+Prl+Def00@C.TLOSS@:%>нева@C.TLOSS@ _KUDO-Attributes2 ;
-+Pl+Abe+Def00000@C.TLOSS@:%>невтеме@C.TLOSS@ _KUDO-Attributes2 ;
-+Pl+Tra+Def00@C.TLOSS@:%>некс@C.TLOSS@ _OSH-Attributes2 ;
-+Pl+Ine+Def00@C.TLOSS@:%>несэ@C.TLOSS@ _KUDO-Attributes2 ;
-+Pl+Ela+Def000@C.TLOSS@:%>нестэ@C.TLOSS@ _KUDO-Attributes2 ;
-+Pl+Cmpr+Def000@C.TLOSS@:%>нешка@C.TLOSS@ _KUDO-Attributes2 ;
+@C.TLOSS@+Pl+Prl+Def:@C.TLOSS@%>нева _KUDO-Tenses1 ;
+@C.TLOSS@+Pl+Abe+Def:@C.TLOSS@%>невтеме _KUDO-Tenses1 ;
+@C.TLOSS@+Pl+Tra+Def:@C.TLOSS@%>некс Ks ;
+@C.TLOSS@+Pl+Ine+Def:@C.TLOSS@%>несэ _KUDO-Tenses1 ;
+@C.TLOSS@+Pl+Ela+Def:@C.TLOSS@%>нестэ _KUDO-Tenses1 ;
+@C.TLOSS@+Pl+Cmpr+Def:@C.TLOSS@%>нешка _KUDO-Tenses1 ;
+@C.TLOSS@+Pl+Prl+Def:@C.TLOSS@%>нева _KUDO-Attributes2 ;
+@C.TLOSS@+Pl+Abe+Def:@C.TLOSS@%>невтеме _KUDO-Attributes2 ;
+@C.TLOSS@+Pl+Tra+Def:@C.TLOSS@%>некс _OSH-Attributes2 ;
+@C.TLOSS@+Pl+Ine+Def:@C.TLOSS@%>несэ _KUDO-Attributes2 ;
+@C.TLOSS@+Pl+Ela+Def:@C.TLOSS@%>нестэ _KUDO-Attributes2 ;
+@C.TLOSS@+Pl+Cmpr+Def:@C.TLOSS@%>нешка _KUDO-Attributes2 ;
 
 !! 2012-08-09
 !LEXICON Attributes1
