@@ -500,6 +500,7 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
+
 And following triggers to control variation
  * _Е3_ testing тне тнэ
 
@@ -518,6 +519,9 @@ And following triggers to control variation
  * _%{ОЕ%}_ inflectional suffix protovowel  аволь аволинь
  * _%{ОЕЭØ%}_ Suffix-initial archiphoneme
  * _%{оэØ%}	_ inessive, elative; this is the hard/broad s
+ * _%{ОØ%}_ Stem-final archiphoneme панго
+ * _%{ЕØ%}_ Stem-final archiphoneme тинге
+
 
 
 
@@ -955,6 +959,7 @@ DERIVATION
 
 
 
+
  * __+SP+Gen+Indef:%>%{ОЕЭØ%}нь%> N2Dem-SE ; __ _ь_ retension through double %>%>
 
 
@@ -1008,6 +1013,7 @@ DERIVATION
  * __+Sg+Ine+Def:%>О1%>с%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Sg+Ela+Def+Err/Orth+Dial/NW:%>О1%>ст%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Sg+Ine+Def+Err/Orth+Dial/NW:%>О1%>с%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+
 
 
 
@@ -2143,6 +2149,11 @@ Used with deverbals
 
 
 
+ * _%{ОØ%}:0_ Stem-final archiphoneme панго
+ * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
+ * _%{ЕØ%}:0_ Stem-final archiphoneme тинге
+
+
 
 
 
@@ -2245,12 +2256,22 @@ __%{ОЕ%}:e__
 __%{ОЕ%}:о__
 
 
+
 __O2:e__  
+
+веле+N+SP+Tra+PxSg2
+* __веле%>%{ОЕЭØ%}кс%>%{ОЕЭØ%}тЬ2 __
+* __веле%>0кс%>эть __
+
+
 
 __O2:o__  
 псака+N+SP+Abe+PxSg2+Clt/Cop+Prt2+ScPl3+Clt/Gak
 * __псака%>втО1мО1%>%{ОЕЭØ%}тЬ2%>%{ОЕЭØ%}линек%>Г1ак __
 * __псака%>втомо%>0т0%>олинек%>как __
+ош+N+SP+Ill+PxSg2
+* __ош%>%{ОЕЭØ%}з%>%{ОЕЭØ%}тЬ2 __
+* __ош%>оз%>от0 __
 * __эряв%>^WLoss%>{ОЕЭØ}вО1ль __
 * __эряв%>0%>00оль __
 
@@ -2260,11 +2281,18 @@ __O2:0__
 * __псака%>втО1мО1%>%{ОЕЭØ%}нз%{оэØ%}%>кс __
 * __псака%>втомо%>0нзо%>кс __
 
+веле+N+SP+Tra+PxSg2+Clt/Cop+Prt2+ScPl3: __village/kylä__
+* __веле%>%{ОЕЭØ%}кс%>%{ОЕЭØ%}тЬ2%>%{ОЕЭØ%}льть __
+* __веле%>0кс%>эт0%>ельть __
+
+
 
 
 __A2:a__  
 
+__%{ЕØ%}:ь__
 
+__%{ЕØ%}:0__
 
 __j:0__  
 * __сай%>О1%>дО1 __
@@ -2280,10 +2308,34 @@ __ye:e always __
 
 
 __Н1:н__  
-
 __Н1:к__  
 
+__а: и Dimin__
+
+__о: ы Dimin__
+
+__у: и Dimin__
+
+
+__э: и Dimin__
+
+__а: и Dimin__
+
+__о: и Dimin__
+
+
+__у: и Dimin__
+
+__я: и Dimin__
+
+__ё: и Dimin__
+
+__ю: и Dimin__
+
+__е: и Dimin__
+
 __a:ya__  
+
 
 
 __v:0__  
@@ -2352,3 +2404,12 @@ __Disallow SLoss after non-s__
 __Disallow %^WLoss after non-v__  
 
 __Disallow Н1:н after Letters__  
+
+__Disallow %{ОØ%} where not T, sO, stO, s__
+
+__Disallow %{ЕØ%}:0 where not T, sO, stO, s__
+
+__Disallow %{ОØ%}:ь where not T, sO, stO, s__
+
+__Disallow з where not following l, n or r__
+
