@@ -54,7 +54,7 @@ LEXICON CLT/COP4_OBL-SC3
  CLT/COP_SG ;
  CLT/COP-PRS-PL1 ;
  CLT/COP-PRS-PL2 ;
-!2017-10-24 CLT/COP-PRS-PL3_ZERO ;
+ CLT/COP-PRS-PL3_ZERO ; !Reintroduce 2019-01-30
 
  CLT/COP-PRT2-PL1 ;
  CLT/COP-PRT2-PL2 ;
@@ -181,17 +181,17 @@ LEXICON _LAK-NomSg-Conjugation
 ! _KAL-NomPl-Conjugation-only ;
 ! NounEnd_K-lak  ;
 
-LEXICON _LAK-NomPl-Conjugation-only-4Poss
- _KAL-NomPl-Conjugation-only-4Poss ;
- NounEnd_K-lak  ;
+!2019-01-30 LEXICON _LAK-NomPl-Conjugation-only-4Poss
+!2019-01-30  _KAL-NomPl-Conjugation-only-4Poss ;
+!2019-01-30  NounEnd_K-lak  ;
 
 LEXICON _LAK-Conjugation
  _KAL-Conjugation ;
  NounEnd_K-lak  ;
 
-LEXICON _LAK-Conjugation-4Poss
- _KAL-Conjugation-4Poss ;
- NounEnd_K-lak  ;
+!2019-01-30 LEXICON _LAK-Conjugation-4Poss
+!2019-01-30  _KAL-Conjugation-4Poss ;
+!2019-01-30  NounEnd_K-lak  ;
 
 LEXICON _KIT-NomSg-Conjugation
  _KAL-NomSg-Conjugation ;
@@ -205,14 +205,14 @@ LEXICON _KIT-NomPl-Conjugation-4Poss
 !LEXICON _KIT-NomPl-Conjugation-only
 ! _KAL-NomPl-Conjugation-only ;
 
-LEXICON _KIT-NomPl-Conjugation-only-4Poss
- _KAL-NomPl-Conjugation-only-4Poss ;
+!2019-01-30 LEXICON _KIT-NomPl-Conjugation-only-4Poss
+!2019-01-30  _KAL-NomPl-Conjugation-only-4Poss ;
 
 LEXICON _KIT-Conjugation
  _KAL-Conjugation ;
 
-LEXICON _KIT-Conjugation-4Poss
- _KAL-Conjugation-4Poss ;
+!2019-01-30 LEXICON _KIT-Conjugation-4Poss
+!2019-01-30  _KAL-Conjugation-4Poss ;
 
 
 LEXICON _KAL-NomSg-Conjugation
@@ -223,7 +223,7 @@ LEXICON CLT/COP_SG
 !! _KAL-NomSg-Conjugation-only
  CLT/COP-PRS-SG1 ;
  CLT/COP-PRS-SG2 ;
-!2017-10-24 CLT/COP-PRS-SG3 ;
+ CLT/COP-PRS-SG3 ;
  CLT/COP-PRT2-SG1 ;
  CLT/COP-PRT2-SG2 ;
  CLT/COP-PRT2-SG3 ;
@@ -242,14 +242,14 @@ LEXICON _KAL-NomPl-Conjugation-only
 
 LEXICON _KAL-NomPl-Conjugation-only-4Poss
  CLT/COP_PL-MUTUAL ;
-!2017-10-24 CLT/COP-PRS-PL3_ZERO ;
+!2017-10-26  CLT/COP-PRS-PL3_ZERO ;
 
 
 
 LEXICON GEN-INDEF-4-Conjugation
  CLT/COP_SG ;
  CLT/COP_PL-MUTUAL ;
-!2017-10-26 CLT/COP-PRS-PL3_ZERO ;
+ CLT/COP-PRS-PL3_ZERO ;!reintroduced 2019-01-30
  K ;
 
 LEXICON _KAL-Conjugation
@@ -257,10 +257,10 @@ LEXICON _KAL-Conjugation
  _KAL-NomPl-Conjugation-only ;
  K ;
 
-LEXICON _KAL-Conjugation-4Poss
- CLT/COP_SG ;
- _KAL-NomPl-Conjugation-only-4Poss ;
- K ;
+!2019-01-30 LEXICON _KAL-Conjugation-4Poss
+!2019-01-30  CLT/COP_SG ;
+!2019-01-30  _KAL-NomPl-Conjugation-only-4Poss ;
+!2019-01-30  K ;
 
 LEXICON CLT/COP4_OBL-SC3_OR_K
 ! This allows Clt/Cop+Prs Sg1|Sg2|Pl1|Pl2 
@@ -320,6 +320,11 @@ LEXICON _KUDO-NomPl-Conjugation
  K ;
  CLT/COP_PL ;
 
+LEXICON MUTUAL-OBL-CONJUGATION
+ K ;
+ CLT/COP_PL ;
+ CLT/COP_SG ;
+
 LEXICON _KUDO-NomPl-Conjugation-4Poss
  K ;
  _KUDO-NomPl-Conjugation-only-4Poss ;
@@ -331,7 +336,7 @@ LEXICON CLT/COP_PL
 
 LEXICON _KUDO-NomPl-Conjugation-only-4Poss
  CLT/COP_PL-MUTUAL ;
-!2017-10-26 CLT/COP-PRS-PL3_ZERO ;
+ CLT/COP-PRS-PL3_ZERO ;!reintroduced 2019-01-30
 
 LEXICON CLT/COP_PL-MUTUAL
 !! _KUDO-NomPl-Conjugation-only-mutual
@@ -358,10 +363,10 @@ LEXICON _KUDO-Conjugation_BACK
  CLT/COP_PL ;
  K ;
 
-LEXICON _KUDO-Conjugation-4Poss
- _KUDO-NomSg-Conjugation-only ;
- _KUDO-NomPl-Conjugation-only-4Poss ;
- K ;
+!2019-01-30 LEXICON _KUDO-Conjugation-4Poss
+!2019-01-30  _KUDO-NomSg-Conjugation-only ;
+!2019-01-30  _KUDO-NomPl-Conjugation-only-4Poss ;
+!2019-01-30  K ;
 
 !!
 LEXICON _KUDO-Tenses1
