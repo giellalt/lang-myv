@@ -40,10 +40,10 @@
 
 % The name of these boxes are now legible, rather than the tags (tags in parentheses?)
 % Noun: N
-% Subtype: -|Prop|Prop Attr|Actio|Actor|ACR|ABBR
+% Subtype: -|Prop|Prop Attr|Actio|NomAg|ACR|ABBR
 % Derivation: -|Der/Dimin|Der/MWN|Der/amoš|Der/eaddji|Der/eamoš|Der/eapmi|Der/easti|Der/muš|Der/n|Der/supmi|Der/upmi|Der/vuohta
 % Number: Sg|Pl|SP
-% Case: Nom|Gen|Acc|Abl|Abe|CompCx|DatCx|Ill|Ine|Ela|Lat|Loc|Prl|Tra|Com|Temp
+% Case: Nom|Gen|Abl|Abe|Cmpr|Dat|Ill|Ine|Ela|Lat|Loc|Prl|Tra|Com|Temp
 % Possessive: -|PxSg1|PxSg2|PxSg3|PxPl1|PxPl2|PxPl3
 % Semantic: Ani|Fem|Mal|Obj|Org|Plc|Sur|Tit
 % Clitic: -|Qst|Foc
@@ -64,7 +64,7 @@
 % Case: -|Nom|Gen|Acc|Ill|Ela|Ine|Loc|Prl|Tra
 % Infinite: Inf|PrfPrc|PrsPrc|Ger|Sup|VGen|VAbess|Actio
 % Finite mood: Ind|Cond|Conj|Des|Imprt|Opt
-% PersonNumber: Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
+% PersonNumber: ScSg1|ScSg2|ScSg3|ScPl1|ScPl2|ScPl3|OcSg1|OcSg2|OcSg3|OcPl1|OcPl2|OcPl3
 % Clitic: -|Qst|Foc
 % Function:
 
@@ -129,7 +129,7 @@ Num	Numeral
 
 Prop	Propernoun
 Actio	Actio
-Actor	Actor
+NomAg	NomAg
 Pers	Personal
 Dem	Demonstrative
 Interr	Interrogative
@@ -157,8 +157,10 @@ Lat Lative
 Loc Locative
 Prl Prolative
 Tra Translative
+Cmpr	Comparative
 Com	Comitative
 Abe	Abessive
+Temp	Temporalis
 #Case
 
 Def	Definite
@@ -200,18 +202,18 @@ Ind	Indicative
 Opt	Optative
 #Mood
 
-+ScSg1	1. Person Singular
-+ScSg2	2. Person Singular
-+ScSg3	3. Person Singular
-+ScPl1	1. Person Plural
-+ScPl2	2. Person Plural
-+ScPl3	3. Person Plural
-+OcSg1	1. Person Singular
-+OcSg2	2. Person Singular
-+OcSg3	3. Person Singular
-+OcPl1	1. Person Plural
-+OcPl2	2. Person Plural
-+OcPl3	3. Person Plural
++ScSg1	1. Person Singular Subject Conjugation
++ScSg2	2. Person Singular Subject Conjugation
++ScSg3	3. Person Singular Subject Conjugation
++ScPl1	1. Person Plural Subject Conjugation
++ScPl2	2. Person Plural Subject Conjugation
++ScPl3	3. Person Plural Subject Conjugation
++OcSg1	1. Person Singular Object Conjugation
++OcSg2	2. Person Singular Object Conjugation
++OcSg3	3. Person Singular Object Conjugation
++OcPl1	1. Person Plural Object Conjugation
++OcPl2	2. Person Plural Object Conjugation
++OcPl3	3. Person Plural Object Conjugation
 ConNeg	Negative form of the verb
 #Person-Number
 
@@ -299,7 +301,7 @@ Range Range
 @PROP>	Proper noun attributes
 @PrcN>	Present participle modifying noun to the right
 @PronN<	Pronoun modifying a noun to the left
-@PronN>Pronoun modifying a noun to the right
+@PronN>	Pronoun modifying a noun to the right
 @QN<	Postnominal quantifier
 @QN>	Quantifier modifying noun to the right
 @SPRED	Subject predicative
