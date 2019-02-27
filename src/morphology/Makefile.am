@@ -48,6 +48,7 @@ GT_LEXC_SRCS_L1_L2=\
 			affixes/pronouns.lexc             \
 			affixes/propernouns.lexc          \
 			affixes/quantifiers.lexc          \
+			affixes/symbols.lexc              \
 			affixes/verbs.lexc
 
 #			stems/rusMaleNameDer.lexc
@@ -72,6 +73,7 @@ GT_LEXC_L2_SRCS=\
 GENERATED_LEXC_SRCS=\
 		generated_files/urj-Cyrl-propernouns.lexc \
 		generated_files/punctuation.lexc \
+		generated_files/symbols.lexc \
 		$(srcdir)/stems/A_myv2x.lexc         \
 		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/Adv_myv2x.lexc            \
