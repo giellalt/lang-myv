@@ -492,6 +492,11 @@ symbols in the lexicon files:
 
 
 And following triggers to control variation
+  %{frontHard%}    — front harmony hard
+  %{frontSoft%}    — front harmony soft
+  %{back%}    — back harmony
+  %{backHard%}    — back harmony
+
  * _Е3_ testing тне тнэ
 
 
@@ -506,8 +511,10 @@ And following triggers to control variation
 
 
 
- * _%{ОЕ%}_ inflectional suffix protovowel  аволь аволинь
- * _%{ОЕЭØ%}_ Suffix-initial archiphoneme
+ * _%{ое%}_ inflectional suffix protovowel  аволь аволинь
+ * _%{оеэØ%}_ Suffix-initial archiphoneme
+
+вт%{оеэ%}мО1 suffix-internal archivowel
  * _%{оэØ%}	_ inessive, elative; this is the hard/broad s
  * _%{ОØ%}_ Stem-final archiphoneme панго
  * _%{ЕØ%}_ Stem-final archiphoneme тинге
@@ -561,6 +568,32 @@ Focus clitics
  * _+Pred2_ secondary predicate. Examples:
  "Joe came in __with his hat on__."
  "Joe came in __Joe had his hat on__."
+
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
 
 !!FUNCTIONS are all upper-case!!!!
  * _+ACC +DAT +COM_ This marks a function not a morpheme
@@ -682,6 +715,10 @@ word classes, or optionally from prefixes:
 CyrillicFemaleName ;
 HUNSPELL Type name derivation
 RussianSurnamesDerive ;
+
+
+
+
 
 
 

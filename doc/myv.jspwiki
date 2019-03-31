@@ -503,6 +503,11 @@ symbols in the lexicon files:
 
 
 And following triggers to control variation
+  %{frontHard%}    — front harmony hard
+  %{frontSoft%}    — front harmony soft
+  %{back%}    — back harmony
+  %{backHard%}    — back harmony
+
  * _Е3_ testing тне тнэ
 
 
@@ -517,8 +522,10 @@ And following triggers to control variation
 
 
 
- * _%{ОЕ%}_ inflectional suffix protovowel  аволь аволинь
- * _%{ОЕЭØ%}_ Suffix-initial archiphoneme
+ * _%{ое%}_ inflectional suffix protovowel  аволь аволинь
+ * _%{оеэØ%}_ Suffix-initial archiphoneme
+
+вт%{оеэ%}мО1 suffix-internal archivowel
  * _%{оэØ%}	_ inessive, elative; this is the hard/broad s
  * _%{ОØ%}_ Stem-final archiphoneme панго
  * _%{ЕØ%}_ Stem-final archiphoneme тинге
@@ -572,6 +579,32 @@ Focus clitics
  * _+Pred2_ secondary predicate. Examples:
  "Joe came in __with his hat on__."
  "Joe came in __Joe had his hat on__."
+
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
 
 !!FUNCTIONS are all upper-case!!!!
  * _+ACC +DAT +COM_ This marks a function not a morpheme
@@ -707,6 +740,10 @@ RussianSurnamesDerive ;
 
 
 
+
+
+
+
 malaso:mala
 
 
@@ -813,6 +850,16 @@ either a particle or ablative case marking on the standard of comparison
 
 
 
+
+
+
+
+
+
+
+
+
+
 2013-04-17
 
 
@@ -848,7 +895,16 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
+
 !!HUMAN 
+
+
+
+
+
+
+
+
 
 
 
@@ -871,7 +927,17 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
+
+
+
+
+
+
+
 !!LATIVE 
+
+
+
 
 
 
@@ -894,6 +960,8 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 !!COMMON NOUNS 
 
 
+
+
  * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
 
@@ -903,6 +971,22 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+кардаз:карда
 
 
 
@@ -946,8 +1030,14 @@ NMN
 
 
 
+
+
+
+
+
  * __LEXICON NMN_KUDO-PL __ This needs checking 2013-03-27
 
+harmony: front
 
 
 DERIVATION 
@@ -962,21 +1052,21 @@ DERIVATION
 
 
 
- * __+SP+Gen+Indef:%>%{ОЕЭØ%}нь%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; __ _ь_ retension through double %>%>
 
 
- * __+Sg+Gen+Def:%>%{ОЕЭØ%}нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Sg+Cmpr+Def:%>%{ОЕЭØ%}шка%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Sg+Abe+Def:%>втО1мО1%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Use/-Spell+Sg+Gen+Def+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Use/-Spell+Sg+Ela+Def+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Use/-Spell+Sg+Ine+Def+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Use/-Spell+Sg+Prl+Def+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Use/-Spell+Sg+Cmpr+Def+Err/Orth+Dial/NW:%>%{ОЕЭØ%}шка%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Use/-Spell+Sg+Abe+Def+Err/Orth+Dial/NW:%>втО1мО1%>%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Use/-Spell+Sg+Cmpr+Def+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Use/-Spell+Sg+Abe+Def+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
  * __+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; __ _ь_ retension through double %>%>
 
 
@@ -1011,10 +1101,10 @@ DERIVATION
 
 
 
- * __+Sg+Ela+Def:%>О1%>ст%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Sg+Ine+Def:%>О1%>с%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Sg+Ela+Def+Err/Orth+Dial/NW:%>О1%>ст%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
- * __+Sg+Ine+Def+Err/Orth+Dial/NW:%>О1%>с%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Ela+Def+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+Sg+Ine+Def+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; __ _ь_ retension through double %>%>
 
 
 
@@ -1022,7 +1112,7 @@ DERIVATION
 
 
 
- * __+SP+Gen+Indef:%>%{ОЕЭØ%}нь%> N2Dem-SE ; __ _ь_ retension through double %>%>
+ * __+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; __ _ь_ retension through double %>%>
 
 
 
@@ -1175,11 +1265,6 @@ __Noun singular nominative definite examples:__
 
 
 !!POSSESSIVE DECLENSION 
-
-
-
-
-
 
 
 
@@ -1617,7 +1702,6 @@ no deverbals
 
 
 
-
 no deverbals
 
 
@@ -2015,10 +2099,6 @@ end
 
 
 
-
-
-
-
 !!OPTATIVE 
 
 
@@ -2119,7 +2199,7 @@ Used with deverbals
 
 
 ваномс+V+TV+Imprt+ScPl2+Clt/Га: __look/katsoa__
-* __ван%>%{ОЕЭØ%}дО1%>Г4а __
+* __ван%>%{оеэØ%}дО1%>Г4а __
 * __ван%>одо%>0я __
 
 
@@ -2150,6 +2230,8 @@ Used with deverbals
 
 
 
+вт%{оеэ%}мО1
+
 
  * _%{ОØ%}:0_ Stem-final archiphoneme панго
  * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
@@ -2166,6 +2248,14 @@ Used with deverbals
 
 
 
+
+
+
+
+  %{frontHard%}:0    — front harmony hard
+  %{frontSoft%}:0    — front harmony soft
+  %{back%}:0    — back harmony
+  %{backHard%}:0    — back harmony
 
 
 
@@ -2212,27 +2302,44 @@ __verbStemVowStrong:0__
 
 
 __A1:o__  
-* __яка%>%{ОЕЭØ%}мА1 __
+* __яка%>%{оеэØ%}мА1 __
 * __яка%>0мо __
-* __*яка%>%{ОЕЭØ%}мА1 __ (is not standard language)
+* __*яка%>%{оеэØ%}мА1 __ (is not standard language)
 * __*яка%>0ма __ (is not standard language)
 
 __Y2:yi__  
 
 
+__%{оеэ%}:е__
+
+__%{оеэ%}:о__
+псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: __cat/kissa__
+* __псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс __
+* __псака%>втомо%>0нзо%>кс __
 
 
-* __сай%>О1%>дО1 __
-* __са0%>е%>де __
+__%{оеэ%}:э__
 
+
+__%{оеэØ%}:0__
+
+__%{оеэØ%}:е__
+
+__%{оеэØ%}:э__
+
+__%{оеэØ%}:о__
+
+
+
+
+
+* __сай%{frontSoft%}%>О1%>дО1 __
+* __са00%>е%>де __
 
 __O1:e__  
 
 
 __O1:o__  
-псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: __cat/kissa__
-* __псака%>втО1мО1%>%{ОЕЭØ%}нз%{оэØ%}%>кс __
-* __псака%>втомо%>0нзо%>кс __
 
 
 __%{оэØ%}:e__  
@@ -2242,10 +2349,10 @@ __%{оэØ%}:e__
 __%{оэØ%}:o__  
 
 псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: __cat/kissa__
-* __псака%>втО1мО1%>%{ОЕЭØ%}нз%{оэØ%}%>кс __
+* __псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс __
 * __псака%>втомо%>0нзо%>кс __
 псака+N+SP+Gen+PxSg3+Der+Der/MWN+N+Sg+Gen+Def
-* __псака%>%{ОЕЭØ%}нз%{оэØ%}%>%{ОЕЭØ%}нть __
+* __псака%>%{оеэØ%}нз%{оэØ%}%>%{оеэØ%}нть __
 * __псака%>0нзо%>0нть __
 
 __%{оэØ%}:0__
@@ -2253,48 +2360,14 @@ __%{оэØ%}:0__
 
 __O1:0__  
 
-__%{ОЕ%}:e__
-
-__%{ОЕ%}:о__
+__%{ое%}:e__
 
 
-
-__O2:e__  
-
-веле+N+SP+Tra+PxSg2
-* __веле%>%{ОЕЭØ%}кс%>%{ОЕЭØ%}тЬ2 __
-* __веле%>0кс%>эть __
-
-
-
-__O2:o__  
-псака+N+SP+Abe+PxSg2+Clt/Cop+Prt2+ScPl3+Clt/Gak
-* __псака%>втО1мО1%>%{ОЕЭØ%}тЬ2%>%{ОЕЭØ%}линек%>Г1ак __
-* __псака%>втомо%>0т0%>олинек%>как __
-ош+N+SP+Ill+PxSg2
-* __ош%>%{ОЕЭØ%}з%>%{ОЕЭØ%}тЬ2 __
-* __ош%>оз%>от0 __
-* __эряв%>^WLoss%>{ОЕЭØ}вО1ль __
-* __эряв%>0%>00оль __
-
-__O2:0__  
-
-псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: __cat/kissa__
-* __псака%>втО1мО1%>%{ОЕЭØ%}нз%{оэØ%}%>кс __
-* __псака%>втомо%>0нзо%>кс __
-
-веле+N+SP+Tra+PxSg2+Clt/Cop+Prt2+ScPl3: __village/kylä__
-* __веле%>%{ОЕЭØ%}кс%>%{ОЕЭØ%}тЬ2%>%{ОЕЭØ%}льть __
-* __веле%>0кс%>эт0%>ельть __
-
+__%{ое%}:о__
 
 
 
 __A2:a__  
-
-__%{ЕØ%}:ь__
-
-__%{ЕØ%}:0__
 
 __j:0__  
 * __сай%>О1%>дО1 __
@@ -2369,10 +2442,31 @@ imperative suffix
 __K1:t__  
 
 ливтемс+V+TV+Imprt+ScSg2+Clt/Га: __set out/laittaa esille__
-* __ливтьК1Ь2%>Г4а __
-* __ливтьк0%>0а __
+* __ливть%>К1Ь2%>Г4а __
+* __ливть%>к0%>0а __
+
+__K1:к__  
+
+
 
 __U4:y__  
+
+пильге+N+Pl+Nom+Indef __leg; foot/jalka__
+* __пильг%{frontSoft%}%>тЬ2 __
+* __пильг0%>ть __
+валдо+N+Pl+Nom+Indef __light/valo__
+* __*валд%{backHard%}%>тЬ2 __ (is not standard language)
+* __*валд0%>ть __ (is not standard language)
+
+__U4:0__  
+
+
+
+
+валдо+N+Pl+Nom+Indef __light/valo__
+* __валд%{backHard%}%>тЬ2 __
+* __валд0%>т0 __
+
 
 
 
@@ -2407,11 +2501,35 @@ __Disallow %^WLoss after non-v__
 
 __Disallow Н1:н after Letters__  
 
-__Disallow %{ОØ%} where not T, sO, stO, s__
+__Disallow з where not following l, n or r__
 
-__Disallow %{ЕØ%}:0 where not T, sO, stO, s__
 
-__Disallow %{ОØ%}:ь where not T, sO, stO, s__
 
 __Disallow з where not following l, n or r__
+чувто+N+Pl+Nom+Def: __tree/puu__
+* __чувт%{ОØ%}%>тнЕ3 __
+* __чувт0%>тнэ __
+
+
+
+веле+N+SP+Tra+PxSg2
+* __веле%>%{оеэØ%}кс%>%{оеэØ%}тЬ2 __
+* __веле%>0кс%>эть __
+
+псака+N+SP+Abe+PxSg2+Clt/Cop+Prt2+ScPl3+Clt/Gak
+* __псака%>втО1мО1%>%{оеэØ%}тЬ2%>%{оеэØ%}линек%>Г1ак __
+* __псака%>втомо%>0т0%>олинек%>как __
+ош+N+SP+Ill+PxSg2
+* __ош%>%{оеэØ%}з%>%{оеэØ%}тЬ2 __
+* __ош%>оз%>от0 __
+* __эряв%>^WLoss%>{ОЕЭØ}вО1ль __
+* __эряв%>0%>00оль __
+
+псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: __cat/kissa__
+* __псака%>вт%{оеэ%}мО1%>%{оеэØ%}нз%{оэØ%}%>кс __
+* __псака%>втомо%>0нзо%>кс __
+
+веле+N+SP+Tra+PxSg2+Clt/Cop+Prt2+ScPl3: __village/kylä__
+* __веле%>%{оеэØ%}кс%>%{оеэØ%}тЬ2%>%{оеэØ%}льть __
+* __веле%>0кс%>эт0%>ельть __
 
