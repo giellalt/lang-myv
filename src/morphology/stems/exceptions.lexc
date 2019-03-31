@@ -33,13 +33,18 @@ LEXICON EXCEPTIONS
 манендямс+V:манендя IV_KUNDAMS ;
 чентямс+V:чентя TV_KUNDAMS ;
 
-!! Some of the nouns have archaic consonat stem forms left:
+
+!! Some of the nouns have archaic consonant stem forms left:
 !! € ийть
 
 ие+N:ий%>     PL-NOM-INDEF ;
 
 ломань+N+Pl+Nom+Indef+Err/Orth:ломать K ;
 ломань+N+Err/Orth:лома NMN_DEF-PL-DECLENSION ;
+
+!! Some of the nouns have special forms for Gen PxSg1 and PxSg2:
+ялга+N+Sg+Gen+PxSg1:ялгань K ;
+ялга+N+Sg+Gen+PxSg2:ялгать K ;
 
 !! Reciprocal pronouns
 !! These might be done with flags
@@ -228,3 +233,8 @@ LEXICON EXCEPTIONS
 важодевкс:важодевкс N_OSH "" ;
 вейсэнь-паро:вейсэнь-паро A_KUDO "" ;
 
+!! Problems with synchronization
+!! missing lemmas
+пильге+N:пильг N_TINGE ;
+чакш+N:чакш N_OSH ;
+эрьге+N:эрьг N_TINGE ;

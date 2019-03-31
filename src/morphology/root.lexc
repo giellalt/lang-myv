@@ -663,7 +663,11 @@ Multichar_Symbols
 
 
 !! And following triggers to control variation
-! {front} {back}
+ %{frontHard%}   !!= @CODE@ — front harmony hard
+ %{frontSoft%}   !!= @CODE@ — front harmony soft
+ %{back%}   !!= @CODE@ — back harmony
+ %{backHard%}   !!= @CODE@ — back harmony
+
 Е3 !!≈ * _@CODE@_ testing тне тнэ
 ! Triggers for morphophonological rules
 
@@ -689,8 +693,10 @@ Multichar_Symbols
 
 А1 А2 Г1 Г2 Г4 Ь2 Т1 О1 %{иы%} К1 К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %>
 Н1
-%{ОЕ%}   !!≈ * _@CODE@_ inflectional suffix protovowel  аволь аволинь
-%{ОЕЭØ%} !!≈ * _@CODE@_ Suffix-initial archiphoneme
+%{ое%}   !!≈ * _@CODE@_ inflectional suffix protovowel  аволь аволинь
+%{оеэØ%} !!≈ * _@CODE@_ Suffix-initial archiphoneme
+
+%{оеэ%}	  !! вт%{оеэ%}мО1 suffix-internal archivowel
 %{оэØ%}	 !!≈ * _@CODE@_ inessive, elative; this is the hard/broad s
 %{ОØ%} !!≈ * _@CODE@_ Stem-final archiphoneme панго
 %{ЕØ%} !!≈ * _@CODE@_ Stem-final archiphoneme тинге
@@ -769,6 +775,32 @@ ZERO
 +Pred2     !!≈ * _@CODE@_ secondary predicate. Examples:
            !!  "Joe came in __with his hat on__."
            !!  "Joe came in __Joe had his hat on__."
+
+!! !Tags distinguishing different versions of the same lemma (before POS)
++v1   !!≈ * @CODE@
++v2   !!≈ * @CODE@
++v3   !!≈ * @CODE@
++v4   !!≈ * @CODE@
++v5   !!≈ * @CODE@
++v6   !!≈ * @CODE@
++v7   !!≈ * @CODE@
++v8   !!≈ * @CODE@
++v9   !!≈ * @CODE@
++v10  !!≈ * @CODE@
++v11  !!≈ * @CODE@
++v12  !!≈ * @CODE@
++v13  !!≈ * @CODE@
++v14  !!≈ * @CODE@
++v15  !!≈ * @CODE@
++v16  !!≈ * @CODE@
++v17  !!≈ * @CODE@
++v18  !!≈ * @CODE@
++v19  !!≈ * @CODE@
++v20  !!≈ * @CODE@
++v21  !!≈ * @CODE@
++v22  !!≈ * @CODE@
++v23  !!≈ * @CODE@
++v24  !!≈ * @CODE@
 
 !! !!FUNCTIONS are all upper-case!!!!
 +ACC +DAT +COM !!≈ * _@CODE@_ This marks a function not a morpheme
@@ -1169,8 +1201,20 @@ LEXICON verbs
 LEXICON BAHUV_KAL
 +Bahuvrihi: A_KAL ;
 
+LEXICON BAHUV_KEL1
++Bahuvrihi: A_KEL1 ;
+
+LEXICON BAHUV_LAV
++Bahuvrihi: A_LAV ;
+
+LEXICON BAHUV_TEV
++Bahuvrihi: A_TEV ;
+
 LEXICON BAHUV_PANGO
 +Bahuvrihi: A_PANGO ;
+
+LEXICON BAHUV_TINGE
++Bahuvrihi: A_TINGE ;
 
 LEXICON BAHUV_KUDO
 +Bahuvrihi: A_KUDO ;
@@ -1309,7 +1353,7 @@ LEXICON alo-SPAT-NoArg
 +Adv+Spat+Orth/PhonDeriv+Loc+Der+Der/cje:%>це _KUDO-N2-Def-Declension ;
 +Adv+Spat+Loc+Der+Der/sje:%>се _KUDO-N2-Def-Declension ;
 +Adv+Spat+Der+Der/ks:%>кс N_OSH ;
-+Adv+Spat+Lat:%>%{ОЕЭØ%}в K ;
++Adv+Spat+Lat:%>%{оеэØ%}в K ;
 +Adv+Spat+Abl:%>дО1 K ;
 +Adv+Spat+Loc:%>О1 K ;
 +Adv+Spat+Prl:%>Г2а K ;
@@ -1327,7 +1371,7 @@ LEXICON alo-SPAT-AdvN
 !+N+Loc:%>О1 K ;
 
 LEXICON kovolo-Spat
-+Interr+Spat+Lat+Indef:%>%{ОЕЭØ%}в K ;
++Interr+Spat+Lat+Indef:%>%{оеэØ%}в K ;
 +Interr+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
 +Interr+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
 +Interr+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
@@ -1335,7 +1379,7 @@ LEXICON kovolo-Spat
 +Interr+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
 +Interr+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
 
-+Rel+Spat+Lat+Indef:%>%{ОЕЭØ%}в K ;
++Rel+Spat+Lat+Indef:%>%{оеэØ%}в K ;
 +Rel+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
 +Rel+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
 +Rel+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
@@ -1360,16 +1404,16 @@ LEXICON kovolo-Spat
 ! _OSH-Indef--Poss ;
 
 !LEXICON _OSH--DefSg-
-!+Sg+Def:%>%{ОЕЭØ%}нть K ;
+!+Sg+Def:%>%{оеэØ%}нть K ;
 
 !LEXICON _OSH-Indef--Poss
 !+Indef: _OSH-Tenses-Obl ;
-!+PxSg1:%>%{ОЕЭØ%}нЬ2 _KAL-Tenses-Obl ;
-!+PxSg2:%>%{ОЕЭØ%}тЬ2 _KIT-Tenses-Obl ;
-!+PxSg3:%>%{ОЕЭØ%}нз%{оэØ%} _KUDO-Tenses-Obl ;
-!+PxPl1:%>%{ОЕЭØ%}нО1к _LAK-Tenses-Obl ;
-!+PxPl2:%>%{ОЕЭØ%}нк _LAK-Tenses-Obl ;
-!+PxPl3:%>%{ОЕЭØ%}ст _KIT-Tenses-Obl ;
+!+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses-Obl ;
+!+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses-Obl ;
+!+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses-Obl ;
+!+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses-Obl ;
+!+PxPl2:%>%{оеэØ%}нк _LAK-Tenses-Obl ;
+!+PxPl3:%>%{оеэØ%}ст _KIT-Tenses-Obl ;
 
 !LEXICON _KUDO-Indef-DefSg-Poss
 ! _KUDO--DefSg- ;
@@ -1377,7 +1421,7 @@ LEXICON kovolo-Spat
 ! OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON _KUDO--DefSg-
-!+Sg+Def:%>%{ОЕЭØ%}нть K ;
+!+Sg+Def:%>%{оеэØ%}нть K ;
 
 !LEXICON _KUDO-Indef--Poss
 !+Indef: _KUDO-Tenses-Obl ;

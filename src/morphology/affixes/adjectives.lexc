@@ -69,6 +69,39 @@ LEXICON A_KAL
 : NMN_KAL ;
 : N2Dem-SE ;
 
+LEXICON A_LAV
+ ADJ-TO-ADV ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_LAV ;
+: N2Dem-SE ;
+
+LEXICON A_TEV
+ ADJ-TO-ADV ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_TEV ;
+: N2Dem-SE ;
+
+LEXICON A_KEL1
+ ADJ-TO-ADV ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+:%{frontSoft%} CLT/COP4_OBL ;
++Pl:%{frontSoft%}%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl:%{frontSoft%} _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+:%{frontSoft%} NMN_KEL1 ;
+:%{frontSoft%} N2Dem-SE ;
+
 LEXICON A_OSH
  ADJ-TO-ADV ;
 !+Attr: K ;
@@ -80,33 +113,92 @@ LEXICON A_OSH
 : NMN_OSH ;
 : N2Dem-SE ;
 
-LEXICON A_TESHTE
-:О1 ADJ-TO-ADV ;
+LEXICON A_KENKSH
  ADJ-TO-ADV ;
-:О1 Adj-pango-tinge ;
-: NMN_PANGO ;
-:О1 N2Dem-SE ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_KENKSH ;
+: N2Dem-SE ;
+
+LEXICON A_OZKS
+ ADJ-TO-ADV ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_OZKS ;
+: N2Dem-SE ;
+
+LEXICON A_LEVKS
+ ADJ-TO-ADV ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_LEVKS ;
+: N2Dem-SE ;
+
+LEXICON A_ROZ1
+ ADJ-TO-ADV ;
+!+Attr: K ;
++Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_ROZ1 ;
+: N2Dem-SE ;
+
+LEXICON A_TESHTE
+:%^Ь2ZEROе%{frontSoft%} ADJ-TO-ADV ;
+:%{frontSoft%} ADJ-TO-ADV ;
+
+:%^Ь2ZEROе Adj-pango-tinge ;
+:%^Ь2ZEROе%{frontSoft%} NMN_PANGO ;
+:%^Ь2ZEROе N2Dem-SE ;
 
 LEXICON A_CHUVTO
-:О1 ADJ-TO-ADV ;
- ADJ-TO-ADV ;
-:О1 Adj-pango-tinge ;
-: NMN_PANGO ;
-:О1 N2Dem-SE ;
+:о%{backHard%} ADJ-TO-ADV ;
+:%{backHard%} ADJ-TO-ADV ;
+:о%{backHard%} Adj-pango-tinge ;
+:о%{backHard%} NMN_PANGO ;
+:о%{backHard%} N2Dem-SE ;
+
+LEXICON A_EKSHE
+:е%{frontHard%} ADJ-TO-ADV ;
+:%{frontHard%} ADJ-TO-ADV ;
+:е%{frontHard%} Adj-pango-tinge ;
+:е%{frontHard%} NMN_EKSHE ;
+:е%{frontHard%} N2Dem-SE ;
+
+LEXICON A_LAVSHO
+:о%{backHard%} ADJ-TO-ADV ;
+:%{backHard%} ADJ-TO-ADV ;
+:о%{backHard%} Adj-pango-tinge ;
+:о%{backHard%} NMN_LAVSHO ;
+:о%{backHard%} N2Dem-SE ;
 
 LEXICON A_TINGE
-:О1 ADJ-TO-ADV ;
- ADJ-TO-ADV ;
-:О1 Adj-pango-tinge ;
-: NMN_PANGO ;
-:О1 N2Dem-SE ;
+:е%{frontSoft%} ADJ-TO-ADV ;
+:%{frontSoft%} ADJ-TO-ADV ;
+:е%{frontSoft%} Adj-pango-tinge ;
+:е%{frontSoft%} NMN_PANGO ;
+:е%{frontSoft%} N2Dem-SE ;
 
 LEXICON A_PANGO
-:О1 ADJ-TO-ADV ;
- ADJ-TO-ADV ;
-:О1 Adj-pango-tinge ;
-: NMN_PANGO ;
-:О1 N2Dem-SE ;
+:о%{backHard%} ADJ-TO-ADV ;
+:%{backHard%} ADJ-TO-ADV ;
+:о%{backHard%} Adj-pango-tinge ;
+:о%{backHard%} NMN_PANGO ;
+:о%{backHard%} N2Dem-SE ;
 
 LEXICON Adj-pango-tinge
 !+Attr: K ;
@@ -167,7 +259,7 @@ LEXICON ADJ_KODAMO !! кодамо:кода
 +Pl+Nom+Indef:т # ;
 :м N_PANGO-Def-Declension ;
 :м _PANGO-Indef-Declension ;
-:мо N_PANGO-Poss-Declension-CX ;
+:мо N_KUDO-Poss-Declension-CX ;
 : NMN_DEF-PL-DECLENSION-TNE2 ; !! кодатнэ
 NMN_DEF-PL-DECLENSION ; !! кодатне 
 

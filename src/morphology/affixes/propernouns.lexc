@@ -148,15 +148,15 @@ LEXICON PROP_KUDO_HOMESTEAD
 !! PLACE NAMES FROM TEMPLATES !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PLC_KAL
-+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_KAL ;
 
 LEXICON PROP-PLC_KIT
-+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
++N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_KIT ;
 
 !LEXICON PROP-PLC_OSH
-!+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
+!+N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
 !+N+Prop+Sem/Plc: NMN_OSH ;
 
 LEXICON PROP-PLC_KUDO
@@ -167,24 +167,24 @@ LEXICON PROP-PLC_KUDO
 !! Erzya settlements !!
 !!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-SETTLEMENT_KAL
-@U.DECL-NX.SP@+N+Prop+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-!+N+Prop+Sem/Plc:%>О1 LAT-INDEF ;
+@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+!+N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_KAL ;
 
 LEXICON PROP-SETTLEMENT_KIT
-@U.DECL-NX.SP@+N+Prop+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_KIT ;
 
 LEXICON PROP-SETTLEMENT_OSH
-@U.DECL-NX.SP@+N+Prop+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_OSH ;
 
 LEXICON PROP-SETTLEMENT_PANGO
-@U.DECL-NX.SP@+N+Prop+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_PANGO ;
 
 LEXICON PROP-SETTLEMENT_KUDO
-@U.DECL-NX.SP@+N+Prop+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
 +N+Prop+Sem/Plc: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!
@@ -294,7 +294,7 @@ LEXICON PROP_PANGO
 +N+Prop: N_PANGO-Derivation ;
 +N+Prop: N_PANGO-Def-Declension ;
 +N+Prop: _PANGO-Indef-Declension ;
-+N+Prop: N_PANGO-Poss-Declension-CX ;
++N+Prop: N_KUDO-Poss-Declension-CX ;
 
 LEXICON PROP_VELE_IS-NE-DIM
 +N+Prop+Der+Der/NJE+Dimin+N+Prop: NMN_DEF-DECLENSION ;
