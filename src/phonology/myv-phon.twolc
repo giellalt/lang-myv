@@ -206,13 +206,13 @@ Definitions
 FTC = [ й: | д ь: | з ь: | н ь: | р ь: | с ь: | т ь: | ц ь: ] ;
 
 ! All Consonants
-AC = [ FTC | л ь: | NPC ] ;
+AC = [ FTC | л ь: | NPC | щ ] ;
 
 ! Left Front Context Soft
-LFCS = [ :FTV [ %> | :0 | AC ]* CnsNonDent | :FTV [ %> | :0 | AC ]* FTC |  BTV FTC AC* CnsNonDent  | FTC | й: | л ь: ] ;
+LFCS = [ :FTV [ %> | :0 | AC ]* CnsNonDent | :FTV [ %> | :0 | AC ]* FTC |  BTV FTC AC* CnsNonDent  | FTC | л ь: ] ;
 
 ! Left Front Context Hard
-LFCH = [ :FTV AC* CnsDent | BTV FTC  AC* CnsDent+ | [ BTV л ь [ к с ] ] ] ;
+LFCH = [ :FTV AC* CnsDent | [LFCS ( %{frontHard%}: | %{frontSoft%}: ) | :FTV AC* ( %{frontHard%}: | %{frontSoft%}: )] %> з | BTV FTC  AC* CnsDent+ | [ BTV л ь [ к с ] ] ] ;
 
 ! Front Trigger
 FT = [ LFCS | LFCH | л ь: | :FTV ] ; 
@@ -223,15 +223,18 @@ LFCHMore =  [ :FTV | FTC | л ь: ]  %> [ %{оеэØ%}: н з | с ( т ) ] ;
 !
 
 
+! LEFT BACK TRIGGER CONTEXT
+BackTriggerContextCns = [ :BTV [ %> | %{back%}: | %{backHard%}: | :NPC | %{оеэØ%}:0 ]* NPC ] ;
+![ :BTV [ %> | :NPC | %{оеэØ%}:0 ]* NPC ] ;
 
 ! Left Back Context
-LBC = [# [Cns: (ь) ]* :BTV NPC* | :BTV \[ # | :FTV | FTV: | ь: | й: ]* |BTV л ь [ ф | т | д ] ]  ;
+LBC = [# [Cns: (ь) ]* :BTV NPC* | :BTV \[ # | :FTV | FTV: | ь: | й: ]* |:BTV л ь [ ф | т | д ] ]  ;
 !   [ :BTV ( %> %{оеэØ%}:0 ) NPC* ( %> )  :NPC+ |BTV л ь [ ф | т | д ] ]  ;
 
 
 NoFront = [ %>  | :BTV | BTV: | :NPC | О1: | %{оеэØ%}: ]* ;
 
-LBCCns = [ :BTV [ \[ # | :FTV | FTV: | ь: | й: | :Vows ]* NPC+ |  л ь [ ф | т | д ] ]]  ;
+LBCCns = [ :BTV [ \[ # | :FTV | FTV: | ь: | й: | :Vows ]* :NPC |:BTV %> CnsDent |  л ь [ ф | т | д ] ]]  ;
 !LBCCns = LBC \[ # | FT | :FTV | FTC | л ь: | ь: | й: ]* :NPC+ ;
 
 PossX = [ м | н Ь2: | т Ь2: | н т Ь2: | ( н ) з %{оэØ%}: | н %{оеэ%}: к | м О1: к | н к | ( н ) с т | с к ] ;
@@ -287,8 +290,11 @@ Rules
 !! __@RULENAME@__
 %{оеэ%}:е <=> 
          [ LFCS | FTC | л ь: | :FTV ] (%{frontSoft%}:) %> [в:0 | в ] т _ м О1: ;
-         [  LFCS | :FTV ] (%{frontSoft%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:е | %{оеэØ%}:э )  н  _ к  ;
+         :FTV (%{frontSoft%}: ) %> %{оеэØ%}:0  н  _ к  ;
          [ %{оеэØ%}:е | %{оеэØ%}:э ]  н  _ к  ;
+!! неемс+V+TV+Ger+Ill+PxPl1: --see/nähdä--
+!!€ ней%>%{оеэØ%}мО1%>%{оеэØ%}з%>%{оеэØ%}н%{оеэ%}к
+!!€ не0%>еме%>0з%>энек
 
 "%{оеэ%}:о"
 !! __@RULENAME@__
@@ -309,19 +315,38 @@ Rules
 
 "%{оеэØ%}:0"
 !! __@RULENAME@__
-%{оеэØ%}:0 <=> :Vows (HarmDummies:) %> _ Cns ;
-
+%{оеэØ%}:0 <=> :Vows (HarmDummies:) %> _  ;
+               в (HarmDummies:) %>  %^WLoss: %> _ в:0 ( %{ое%}: ) л ;
 "%{оеэØ%}:е"
 !! __@RULENAME@__
-%{оеэØ%}:е <=> LFCS ( %{frontSoft%}: ) %> _ ;
+%{оеэØ%}:е <=> LFCS ( %{frontSoft%}: ) %> _  ;
+!! панемс+V+TV+Ind+ConNeg: __drive/ajaa__
+!!€ пань%>%{оеэØ%}К3
+!!€ пан0%>е0
 
 "%{оеэØ%}:э"
 !! __@RULENAME@__
 %{оеэØ%}:э <=> LFCH ( %{frontHard%}: ) %> _ ;
+               LFCS (%{frontSoft%}:) %> з %> _ ;
+!! кев+N+SP+Ill+PxSg2: __rock/kivi__
+!!€ кӒ4в%{frontSoft%}%>з%>%{оеэØ%}тЬ2
+!!€ кев0%>з%>эть
+!!€ кӒ4в%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}тЬ2
+!!€ кев0%>ез%>эть
+
+!   LFCH (%{frontHard%}:) %> [ с ( т ) | [ %{оеэØ%}:э |  %{оеэØ%}:0 ] з | %{оеэØ%}:э н   з | %{оеэØ%}:э м [ с | с т ] ] _ [  # |  %- | %> [ Г1: | %{оеэØ%}:0 | :Cns ] ]  ;
+!  [LFCS  (%{frontSoft%}:) %>  с ( т ) |[ :FTV %> %{оеэØ%}:0 | %{оеэØ%}:э | %{оеэØ%}:е ] [ (н)   з | м [ с | с т ] ]] _ [  # |  %- | %> [ Г1: | %{оеэØ%}:0 | :Cns ] ]  ;
 
 "%{оеэØ%}:о"
 !! __@RULENAME@__
-%{оеэØ%}:о <=>  LBCCns ( %{back%}: | %{backHard%}: )  %> _ ;
+%{оеэØ%}:о <=> BackTriggerContextCns ( %{back%}: | %{backHard%}: )  %> _  ;
+!  LBCCns ( %{back%}: | %{backHard%}: )  %> _ [в|з|к|л|м|н|с|т|ш] ;
+      [:BTV|LBC] (%>) з %> _ [в|з|к|л|м|н|с|т|ш] ;
+!! ков+N+SP+Ill+PxSg2: __moon/kuu__
+!!€ ков%{back%}%>з%>%{оеэØ%}тЬ2
+!!€ ков0%>з%>от
+!!€ ков%{back%}%>%{оеэØ%}з%>%{оеэØ%}тЬ2
+!!€ ков0%>оз%>от
 
 
 
@@ -381,22 +406,21 @@ Rules
 "O1:0"
 !! __@RULENAME@__  
 О1:0 <=>   _  %> [А2:а|А2:я] ;
-         :Vows :0* в: _ л  и ;
-!          # Cns* Vows Letters* :Vows в %^WLoss:0  %> %{оеэØ%}: в: _ л  и ;
-!:BTV в %^WLoss:0  %> _ в: ( О1: ) л ;
 
-"%{ое%}:e"
+
+"%{ое%}:е"
 !! __@RULENAME@__
-%{ое%}:e <=> FT _ ;
-         FT (%{frontSoft%}:|%{frontHard%}:) %>  [%{оеэØ%}:0 | %{оеэØ%}:е | %{оеэØ%}:э ] [в:0 | в ] _ л ь ;
+%{ое%}:е <=> FT _ ;
+         :FTV в (%{frontSoft%}:|%{frontHard%}:) %>  %^WLoss: %> %{оеэØ%}:0 в:  _ л  ;
+         [ :FTV ( (%{frontSoft%}:|%{frontHard%}:) %>  %{оеэØ%}:0 ) ] в _ л  ;
          FT (%{frontSoft%}:|%{frontHard%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:е | %{оеэØ%}:э )  м  _ к  ;
 
 
 "%{ое%}:о"
 !! __@RULENAME@__
 %{ое%}:о <=> LBC _ ;
-         [ LBC  | :BTV ] %> [%{оеэØ%}:0 |%{оеэØ%}:о] в _ л ь ;
-          :BTV в %> %^WLoss: %> %{оеэØ%}:0 в:0 _ л ь ;
+          :BTV в ( %{back%}: ) %> %^WLoss: %> %{оеэØ%}:0 в: _ л  ;
+          :BTV ( ( %{back%}: | %{backHard%}: ) %> ( %{оеэØ%}:0 ) )  в _ л  ;
 !         [ LBC - [ :* в ]  | :BTV ] %> [%{оеэØ%}:0 |%{оеэØ%}:о] в _ л ь ;
          LBC (%{back%}:|%{backHard%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:о )  м  _ к  ;
 
@@ -416,9 +440,9 @@ Rules
 
 "j:0"
 !! __@RULENAME@__  
-й:0 <=> Vows _ %> [  %{иы%}: | А2:я | %{оеэØ%}:е | %{оеэØ%}:0 | О1:е |О1:0 ] ;
-! [  %> %{иы%}:и | %> [ А2:я | %{оеэØ%}:е [ %> д | :Cns | К3:0 ]] ] ;
-!!€ сай%>О1%>дО1
+й:0 <=> :Vows _  ( %{frontSoft%}: ) %> [  %{иы%}: | А2:я | %{оеэØ%}:е ] ;
+! Vows _ %> [  %{иы%}: | А2:я | %{оеэØ%}:е | %{оеэØ%}:0 | О1:е |О1:0 ] ;
+!!€ сай%>%{оеэØ%}%>дО1
 !!€ са0%>е%>де
 
 !
@@ -513,7 +537,7 @@ Rules
 "v:0"
 !! __@RULENAME@__  
 в:0 <=> [ :Cns  ( ь: | :0) ] %> _ т [%{оеэ%}:о|%{оеэ%}:е|%{оеэ%}:э] м [О1:о|О1:е|О1:0] ;
-        # Cns* Vows Letters* :Vows в %> %^WLoss:0 %> %{оеэØ%}: _ ( О1: ) л  ;
+    в %> %^WLoss: %> %{оеэØ%}: _ %{ое%}: л  ;
 
 !Depricated due to 
 !ERROR: Label not found in 'EQV_LABELS' (114) **
@@ -590,7 +614,7 @@ Rules
 Ь2:ь <=>
  [ FTC | л ь: ] ( %{frontSoft%}: ) %>  К1:т  _  [ # | %- | %>  Г1: ] ;
 [ LFCS | :FTV | ь: ]  ( %{frontSoft%}: ) %>  т  _  [ # | %- | %>  Г1: ] ;
-  [ LFCS |  :FTV | ь: ]  ( %{frontSoft%}: ) %>  [%{оеэØ%}: [ н | ( н | в ) т ] ]  _  [ # | %- | %>  Г1: ] ;
+  [  :FTV ( %{frontSoft%}: )  %>  %{оеэØ%}:0 | %>  [ %{оеэØ%}:е | %{оеэØ%}:э ]] [ н | ( н | в ) т ]  _  [ # | %- | %>  Г1: ] ;
 
 !#  [ [ [ LFCS   %> | :FTV  %> ( %{оеэØ%}:0 ) | ь:  %> ] | %{оеэØ%}:е | %{оеэØ%}:э | О1:е | О1:э ] [ н | ( н | в ) т ] |  [ LFCS | ь: | :FTV ] %> К1:т ]  _  [ # | %- | %>  Г1: ] ;
 !! пильге+N+Pl+Nom+Indef __leg; foot/jalka__
@@ -608,7 +632,7 @@ Rules
 
 #  [  LFCH | :BTV ] (%{frontHard%}: | %{back%}: | %{backHard%}: ) %> [ %{оеэØ%}:0 | %{оеэØ%}:о ] [ н | ( н | в ) т ] _  [ # | %- | %>  Г1: ] ;
 
- LBC (%{backHard%}: | %{back%}: ) %> %{оеэØ%}: [ н | ( н | в ) т ]  _  [ # | %- | %>  Г1: ] ;
+ LBC (%{backHard%}: | %{back%}: ) %> [ %{оеэØ%}:0 |%{оеэØ%}:о ] [ н | ( н | в ) т ]  _  [ # | %- | %>  Г1: ] ;
  
 
 !! валдо+N+Pl+Nom+Indef __light/valo__
@@ -676,7 +700,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow %^WLoss after non-v"
 !! __@RULENAME@__  
-%^WLoss:0 /<= [[ :* Letters ] - [ :* :в ] ] %> _ ;
+%^WLoss:0 /<= [ [ Letters ] - [ в ] ] %> _ %> %{оеэØ%}: в: ;
 !%^WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %> _ ;
 
 "Disallow Н1:н after Letters"
@@ -686,6 +710,8 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 "Disallow з where not following l, n or r"
 !! __@RULENAME@__
  з:з /<=  \[л | р | н ] (ь:) %> _ %> %{оеэØ%}:  ;
+
+
 
 
 !!OLD
