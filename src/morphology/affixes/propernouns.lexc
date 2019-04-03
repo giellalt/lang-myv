@@ -79,25 +79,25 @@ LEXICON Deriv-RUS-IN_SURMAL
 
 
 LEXICON PROP_KAL_SURMAL
-+Sem/Sur_Mal+N+Prop: N_KAL-Derivation ;
-+Sem/Sur_Mal+N+Prop: N_KAL-Def-Declension ;
-+Sem/Sur_Mal+N+Prop: _KAL-Indef-Declension ;
-+Sem/Sur_Mal+N+Prop: N_KAL-Poss-Declension-CX ;
++Sem/Sur_Mal: N_KAL-Derivation ;
++Sem/Sur_Mal: N_KAL-Def-Declension ;
++Sem/Sur_Mal: _KAL-Indef-Declension ;
++Sem/Sur_Mal: N_KAL-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO_SURFEM
-+Sem/Sur_Fem+N+Prop: N_KUDO-Derivation ;
-+Sem/Sur_Fem+N+Prop: NMN_DEF-DECLENSION ;
-+Sem/Sur_Fem+N+Prop: _KUDO-Indef-Declension ;
-+Sem/Sur_Fem+N+Prop: N_KUDO-Poss-Declension-CX ;
++Sem/Sur_Fem: N_KUDO-Derivation ;
++Sem/Sur_Fem: NMN_DEF-DECLENSION ;
++Sem/Sur_Fem: _KUDO-Indef-Declension ;
++Sem/Sur_Fem: N_KUDO-Poss-Declension-CX ;
 
 LEXICON CYRL-CONS_SUR
  PROP_KAL_SUR ;
 
 LEXICON PROP_KAL_SUR
-+N+Prop+Sem/Sur: N_KAL-Derivation ;
-+N+Prop+Sem/Sur: N_KAL-Def-Declension ;
-+N+Prop+Sem/Sur: _KAL-Indef-Declension ;
-+N+Prop+Sem/Sur: N_KAL-Poss-Declension-CX ;
++Sem/Sur: N_KAL-Derivation ;
++Sem/Sur: N_KAL-Def-Declension ;
++Sem/Sur: _KAL-Indef-Declension ;
++Sem/Sur: N_KAL-Poss-Declension-CX ;
 
 
 LEXICON CYRL-T_SUR
@@ -119,7 +119,7 @@ LEXICON CYRL-SIBILANT_SUR
  PROP_OSH_SUR ;
 
 LEXICON PROP_OSH_SUR
-+N+Prop+Sem/Sur: NMN_OSH ;
++Sem/Sur: NMN_OSH ;
 
 LEXICON CYRL-VOW_SUR
  PROP_KUDO_SUR ;
@@ -128,7 +128,7 @@ LEXICON CYRL-A_SUR
  PROP_KUDO_SUR ;
 
 LEXICON PROP_KUDO_SUR
-+N+Prop+Sem/Sur: NMN_KUDO ;
++Sem/Sur: NMN_KUDO ;
 
 
 
@@ -136,153 +136,153 @@ LEXICON PROP_KUDO_SUR
 !! Erzya Homestead names !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_HOMESTEAD
-+N+Prop+Sem/Plc: NMN_KAL ;
++Sem/Plc: NMN_KAL ;
 
 LEXICON PROP_OSH_HOMESTEAD
-+N+Prop+Sem/Plc: NMN_OSH ;
++Sem/Plc: NMN_OSH ;
 
 LEXICON PROP_KUDO_HOMESTEAD
-+N+Prop+Sem/Plc: NMN_KUDO ;
++Sem/Plc: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! PLACE NAMES FROM TEMPLATES !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PLC_KAL
-+N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_KAL ;
++Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
++Sem/Plc: NMN_KAL ;
 
 LEXICON PROP-PLC_KIT
-+N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_KIT ;
++Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
++Sem/Plc: NMN_KIT ;
 
 !LEXICON PROP-PLC_OSH
-!+N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
-!+N+Prop+Sem/Plc: NMN_OSH ;
+!+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
+!+Sem/Plc: NMN_OSH ;
 
 LEXICON PROP-PLC_KUDO
-+N+Prop+Sem/Plc:%> LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_KUDO ;
++Sem/Plc:%> LAT-INDEF ;
++Sem/Plc: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Erzya settlements !!
 !!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-SETTLEMENT_KAL
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-!+N+Prop+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_KAL ;
+!+Sem/Plc:%>%{оеэØ%} LAT-INDEF ;
++Sem/Plc: NMN_KAL ;
 
 LEXICON PROP-SETTLEMENT_KIT
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_KIT ;
++Sem/Plc: NMN_KIT ;
 
 LEXICON PROP-SETTLEMENT_OSH
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_OSH ;
++Sem/Plc: NMN_OSH ;
 
 LEXICON PROP-SETTLEMENT_PANGO
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_PANGO ;
++Sem/Plc: NMN_PANGO ;
 
 LEXICON PROP-SETTLEMENT_KUDO
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+N+Prop+Sem/Plc: NMN_KUDO ;
++Sem/Plc: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!
 !! Divinities !!
 !!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_DIVINITY
-+N+Prop+Sem/Hum+Sem/Divinity: NMN_KAL ;
++Sem/Hum+Sem/Divinity: NMN_KAL ;
 
 LEXICON PROP_OSH_DIVINITY
-+N+Prop+Sem/Hum+Sem/Divinity: NMN_OSH ;
++Sem/Hum+Sem/Divinity: NMN_OSH ;
 
 LEXICON PROP_PANGO_DIVINITY
-+N+Prop+Sem/Hum+Sem/Divinity: NMN_PANGO ;
++Sem/Hum+Sem/Divinity: NMN_PANGO ;
 
 LEXICON PROP_KUDO_DIVINITY
-+N+Prop+Sem/Hum+Sem/Divinity: NMN_KUDO ;
++Sem/Hum+Sem/Divinity: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!!!!!
 !! Constellations !!
 !!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_KAL ;
++Sem/Constellation+Sem/Plc: NMN_KAL ;
 
 LEXICON PROP_OSH_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_OSH ;
++Sem/Constellation+Sem/Plc: NMN_OSH ;
 
 LEXICON PROP_OSH-PL_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_OSH-PL ;
++Sem/Constellation+Sem/Plc+Pl: NMN_OSH-PL ;
 
 LEXICON PROP_PANGO_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_PANGO ;
++Sem/Constellation+Sem/Plc: NMN_PANGO ;
 
 LEXICON PROP_KUDO_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_KUDO ;
++Sem/Constellation+Sem/Plc: NMN_KUDO ;
 
 LEXICON PROP_KUDO-PL_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc+Pl: NMN_KUDO-PL ; 
++Sem/Constellation+Sem/Plc+Pl: NMN_KUDO-PL ; 
 
 LEXICON PROP_TESHTE_CONSTELLATION
-+N+Prop+Sem/Constellation+Sem/Plc: NMN_TESHTE ;
++Sem/Constellation+Sem/Plc: NMN_TESHTE ;
 
 
 !!!!!!!!!!!!!!!!
 !! TEXT NAMES !!
 !!!!!!!!!!!!!!!!
 !LEXICON PROP_KAL_TXT
-!+N+Prop+Sem/Txt: NMN_KAL ;
+!+Sem/Txt: NMN_KAL ;
 
 !LEXICON PROP_OSH_TXT
-!+N+Prop+Sem/Txt: NMN_OSH ;
+!+Sem/Txt: NMN_OSH ;
 
 LEXICON PROP_KUDO_TXT
-+N+Prop+Sem/Txt: NMN_KUDO ;
++Sem/Txt: NMN_KUDO ;
 
 !!!!!!!!!!!!!!
 !! HOLIDAYS !!
 !!!!!!!!!!!!!!
 !LEXICON PROP_KAL_HOLIDAY
-!+N+Prop+Event: NMN_KAL ;
+!+Event: NMN_KAL ;
 
 LEXICON PROP_OSH_HOLIDAY
-+N+Prop+Event: NMN_OSH ;
++Event: NMN_OSH ;
 
 LEXICON PROP_KUDO_HOLIDAY
-+N+Prop+Event: NMN_KUDO ;
++Event: NMN_KUDO ;
 
 
 !!!!!!!!!!!!!!!!!
 !! RIVER NAMES !!
 !!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_RIVERS
-+N+Prop+Rvr: NMN_KAL ;
++Rvr: NMN_KAL ;
 
 !LEXICON PROP_OSH_RIVERS
-!+N+Prop+Rvr: NMN_OSH ;
+!+Rvr: NMN_OSH ;
 
 LEXICON PROP_KUDO_RIVERS
-+N+Prop+Rvr: NMN_KUDO ;
++Rvr: NMN_KUDO ;
 
 
 LEXICON PROP_KAL
-+N+Prop: NMN_KAL ;
+: NMN_KAL ;
 
 LEXICON PROP_LAK
-+N+Prop: NMN_LAK ;
+: NMN_LAK ;
 
 LEXICON PROP_KIT
-+N+Prop: N_KIT-Derivation ;
-+N+Prop+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
-+N+Prop: N_KIT-Def-Declension ;
-+N+Prop: _KIT-Indef-Declension ;
-+N+Prop: N_KAL-Poss-Declension-CX ;
+: N_KIT-Derivation ;
++Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+: N_KIT-Def-Declension ;
+: _KIT-Indef-Declension ;
+: N_KAL-Poss-Declension-CX ;
 
 LEXICON PROP_OSH
-+N+Prop: N_OSH-Derivation ;
-+N+Prop: N_OSH-Def-Declension ;
-+N+Prop: _OSH-Indef-Declension ;
-+N+Prop: N_OSH-Poss-Declension-CX ;
+: N_OSH-Derivation ;
+: N_OSH-Def-Declension ;
+: _OSH-Indef-Declension ;
+: N_OSH-Poss-Declension-CX ;
 
 LEXICON PROP_TESHTE
  N_PANGO ;
@@ -291,42 +291,42 @@ LEXICON PROP_TESHTE
 ! N_PANGO ;
 
 LEXICON PROP_PANGO
-+N+Prop: N_PANGO-Derivation ;
-+N+Prop: N_PANGO-Def-Declension ;
-+N+Prop: _PANGO-Indef-Declension ;
-+N+Prop: N_KUDO-Poss-Declension-CX ;
+: N_PANGO-Derivation ;
+: N_PANGO-Def-Declension ;
+: _PANGO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
 
 LEXICON PROP_VELE_IS-NE-DIM
-+N+Prop+Der+Der/NJE+Dimin+N+Prop: NMN_DEF-DECLENSION ;
-+N+Prop+Der+Der/NJE+Dimin+N+Prop: _KUDO-Indef-Declension ;
-+N+Prop+Der+Der/NJE+Dimin+N+Prop: N_KUDO-Poss-Declension-CX ;
++Der+Der/NJE+Dimin+N+Prop: NMN_DEF-DECLENSION ;
++Der+Der/NJE+Dimin+N+Prop: _KUDO-Indef-Declension ;
++Der+Der/NJE+Dimin+N+Prop: N_KUDO-Poss-Declension-CX ;
  
 LEXICON PROP_VELE
 !! Front-vowel stem
-+N+Prop: N_KUDO-Derivation ;
-+N+Prop: NMN_DEF-DECLENSION ;
-+N+Prop: _KUDO-Indef-Declension ;
-+N+Prop: N_KUDO-Poss-Declension-CX ;
+: N_KUDO-Derivation ;
+: NMN_DEF-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO
-+N+Prop: N_KUDO-Derivation ;
-+N+Prop: NMN_DEF-DECLENSION ;
-+N+Prop: _KUDO-Indef-Declension ;
-+N+Prop: N_KUDO-Poss-Declension-CX ;
+: N_KUDO-Derivation ;
+: NMN_DEF-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
 
 
 LEXICON PROP_KAL_MAL
-+Sem/Ant_Mal+N+Prop: NMN_KAL ;
++Sem/Ant_Mal: NMN_KAL ;
 
 LEXICON PROP_LAK_MAL
-+Sem/Ant_Mal+N+Prop: NMN_LAK ;
++Sem/Ant_Mal: NMN_LAK ;
 
 LEXICON PROP_KIT_MAL
-+Sem/Ant_Mal+N+Prop: NMN_KIT ;
-+N+Prop+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Sem/Ant_Mal: NMN_KIT ;
++Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_OSH_MAL
-+Sem/Ant_Mal+N+Prop: NMN_OSH ;
++Sem/Ant_Mal: NMN_OSH ;
 
 !LEXICON PROP_TESHTE_MAL
 ! PROP_PANGO_MAL ;
@@ -335,23 +335,23 @@ LEXICON PROP_OSH_MAL
 ! PROP_PANGO_MAL ;
 
 !LEXICON PROP_PANGO_MAL
-!+Sem/Ant_Mal+N+Prop: NMN_PANGO ;
+!+Sem/Ant_Mal: NMN_PANGO ;
 
 LEXICON PROP_KUDO_MAL
-+Sem/Ant_Mal+N+Prop: NMN_KUDO ;
++Sem/Ant_Mal: NMN_KUDO ;
 
 LEXICON PROP_KAL_FEM
-+Sem/Ant_Fem+N+Prop: NMN_KAL ;
++Sem/Ant_Fem: NMN_KAL ;
 
 !LEXICON PROP_LAK_FEM
-!+Sem/Ant_Fem+N+Prop: NMN_LAK ;
+!+Sem/Ant_Fem: NMN_LAK ;
 
 LEXICON PROP_KIT_FEM
-+Sem/Ant_Fem+N+Prop: NMN_KIT ;
-+Sem/Ant_Fem+N+Prop+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Sem/Ant_Fem: NMN_KIT ;
++Sem/Ant_Fem+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_OSH_FEM
-+Sem/Ant_Fem+N+Prop: NMN_OSH ;
++Sem/Ant_Fem: NMN_OSH ;
 
 !LEXICON PROP_TESHTE_FEM
 ! PROP_PANGO_FEM ;
@@ -360,38 +360,38 @@ LEXICON PROP_OSH_FEM
 ! PROP_PANGO_FEM ;
 
 !LEXICON PROP_PANGO_FEM
-!+Sem/Ant_Fem+N+Prop: NMN_PANGO ;
+!+Sem/Ant_Fem: NMN_PANGO ;
 
 LEXICON PROP_KUDO_FEM
-+Sem/Ant_Fem+N+Prop: NMN_KUDO ;
++Sem/Ant_Fem: NMN_KUDO ;
 
 
 LEXICON PROP_OSH_PATRMAL
-+Sem/Patr_Mal+N+Prop: N_OSH-Derivation ;
-+Sem/Patr_Mal+N+Prop: N_OSH-Def-Declension ;
-+Sem/Patr_Mal+N+Prop: _OSH-Indef-Declension ;
-+Sem/Patr_Mal+N+Prop: N_OSH-Poss-Declension-CX ;
++Sem/Patr_Mal: N_OSH-Derivation ;
++Sem/Patr_Mal: N_OSH-Def-Declension ;
++Sem/Patr_Mal: _OSH-Indef-Declension ;
++Sem/Patr_Mal: N_OSH-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO_PATRFEM
-+Sem/Patr_Fem+N+Prop: N_KUDO-Derivation ;
-+Sem/Patr_Fem+N+Prop: NMN_DEF-DECLENSION ;
-+Sem/Patr_Fem+N+Prop: _KUDO-Indef-Declension ;
-+Sem/Patr_Fem+N+Prop: N_KUDO-Poss-Declension-CX ;
++Sem/Patr_Fem: N_KUDO-Derivation ;
++Sem/Patr_Fem: NMN_DEF-DECLENSION ;
++Sem/Patr_Fem: _KUDO-Indef-Declension ;
++Sem/Patr_Fem: N_KUDO-Poss-Declension-CX ;
 
 LEXICON PROP_NIZE
-+N+Prop+Sg+Nom+PxSg3:%>зэ K ;
-+N+Prop+Sg+Gen+PxSg3:%>нзэ K ;
-+N+Prop+Sg+Dat+PxSg3:%>нстэнь K ;
-+N+Prop+Sg+Nom+Def:%>сь K ;
-+N+Prop+Sg+Gen+Def:%>нть K ;
-+N+Prop+Sg+Dat+Def:%>нтень K ;
++Sg+Nom+PxSg3:%>зэ K ;
++Sg+Gen+PxSg3:%>нзэ K ;
++Sg+Dat+PxSg3:%>нстэнь K ;
++Sg+Nom+Def:%>сь K ;
++Sg+Gen+Def:%>нть K ;
++Sg+Dat+Def:%>нтень K ;
 
 !! DECLENSION LIMITATIONS
 
 LEXICON PROP_KUDO-PL
-+N+Prop: NMN_DEF-PL-DECLENSION ;
-+N+Prop: _KUDO-Indef-Declension ;
-+N+Prop: N_KUDO-Poss-Declension-CX-PL ;
+: NMN_DEF-PL-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX-PL ;
 
 !LEXICON PROP_KUDO_SUB
 !+Err/Orth: PROP_KUDO ;
