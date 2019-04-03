@@ -1242,17 +1242,17 @@ LEXICON ushoso-SPAT
 
 
 LEXICON CC_
-+CC: WORD-END ;
+: WORD-END ;
 
 LEXICON CS_
-+CS: WORD-END ;
+: WORD-END ;
 
 LEXICON CS-TEMP_
-+CS+Temp: WORD-END ;
++Temp: WORD-END ;
 
 
 !LEXICON EndConj
-!+CC: WORD-END ;
+!: WORD-END ;
 
 !!Let's remember that Particle is merely an expression of form
 !LEXICON PCLE
@@ -1269,26 +1269,26 @@ LEXICON PCLE-COMPAR-STND !! Not a real particle; it can take a clitic седея
 +Adv+Comp: K ;
 
 LEXICON PCLE-EPIST
-+Pcle+Epist: WORD-END ;
++Epist: WORD-END ;
 
 LEXICON PCLE-NEG-CONTRAST
-+Pcle+Neg+Emphatic: WORD-END ;
++Neg+Emphatic: WORD-END ;
 
 LEXICON PCLE-NEG
-+Pcle+Neg: WORD-END ;
++Neg: WORD-END ;
 
 LEXICON PCLE-QST
-+Pcle+Qst: WORD-END ;
++Qst: WORD-END ;
 
 LEXICON PCLE-SUPERL
-+Pcle+Superl: WORD-END ;
++Superl: WORD-END ;
 
 LEXICON PCLE_
-+Pcle: WORD-END ;
+: WORD-END ;
 
 
 !LEXICON EndPart
-!+Pcle: WORD-END ;
+!: WORD-END ;
 
 !LEXICON EndInterj
 !+Interj: WORD-END ;
@@ -1300,7 +1300,7 @@ LEXICON N-Voc-Px1Sg
 +N+PxSg1+Interj+Voc: WORD-END ;
 
 !LEXICON EndNeg
-!+CC+Neg: WORD-END ; ! ни
+!+Neg: WORD-END ; ! ни
 
 !LEXICON EndQST
 !+Qst: WORD-END ;

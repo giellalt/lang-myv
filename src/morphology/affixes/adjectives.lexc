@@ -11,7 +11,7 @@ LEXICON DET-DEM_TE
 +Sg: WORD-END ;
 
 LEXICON DET-DEM_ALCE
-+Det: WORD-END ;
+: WORD-END ;
 
 LEXICON A_RU-OJ
 +Use/SpellNoSugg+OLang/RUS:ой A_KAL ;
@@ -212,7 +212,7 @@ LEXICON A-ADN
 +Adn: WORD-END ;
 
 LEXICON DET-ADN
-+Det+Adn: WORD-END ;
++Adn: WORD-END ;
 
 LEXICON ActDemPrc-A
 +Der+Der/Ycja+Act+DemPrc: K ;
@@ -264,23 +264,23 @@ LEXICON ADJ_KODAMO !! кодамо:кода
 NMN_DEF-PL-DECLENSION ; !! кодатне 
 
 LEXICON DET_KUDO
-!+Det: K ;
-!+Det+Sg: K ;
-!+Det+Pl:%>тЬ2 K ;
-+Det: NMN_KUDO ;
+!: K ;
+!+Sg: K ;
+!+Pl:%>тЬ2 K ;
+: NMN_KUDO ;
 
 
 LEXICON DET_OSH
-!+Det+Attr: K ;
-!+Det+Sg: K ;
-!+Det+Pl:%>тЬ2 K ;
-+Det: NMN_OSH ;
+!+Attr: K ;
+!+Sg: K ;
+!+Pl:%>тЬ2 K ;
+: NMN_OSH ;
 
 LEXICON IS-DET-SG-GEN-DEF
-+Det+Sg+Gen+Def: K ;
++Sg+Gen+Def: K ;
 
 LEXICON IS-DET-SG-NOM-DEF
-+Det+Sg+Nom+Def: K ;
++Sg+Nom+Def: K ;
 
 !LEXICON Adj-Dem ! истямо
 !+Dem: A_PANGO ;

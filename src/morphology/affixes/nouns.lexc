@@ -1498,15 +1498,18 @@ LEXICON DAT-INDEF
 
 LEXICON ELA-INDEF
 @U.DECL-NX.SP@@U.DECL-CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.DECL-CX.ELA@%>ст%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.DECL-CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.DECL-CX.ELA@%>%{оеэØ%}ст%{оэØ%} _KUDO-Conjugation ;
 
 LEXICON GEN-INDEF
 @U.DECL-NX.SP@@U.DECL-CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.DECL-CX.GEN@%>%{оеэØ%}нь GEN-INDEF-4-Conjugation ;
 
 LEXICON ILL-INDEF
 @U.DECL-NX.SP@@U.DECL-CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.DECL-CX.ILL@%>с K ;
+@U.DECL-NX.SP@@U.DECL-CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.DECL-CX.ILL@%>%{оеэØ%}с K ;
 
 LEXICON INE-INDEF
 @U.DECL-NX.SP@@U.DECL-CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.DECL-CX.INE@%>с%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.DECL-CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.DECL-CX.INE@%>%{оеэØ%}с%{оэØ%} _KUDO-Conjugation ;
 
 LEXICON LAT-INDEF
 @U.DECL-NX.SP@@U.DECL-CX.LAT@+SP+Lat+Indef:@U.DECL-NX.SP@@U.DECL-CX.LAT@%>%{оеэØ%}в K ;
@@ -1558,6 +1561,8 @@ LEXICON TMP-INDEF
 LEXICON TRA-INDEF
 @U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>кс K ;
 @U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>кс CLT/COP4_OBL ;
+@U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>%{оеэØ%}кс K ;
+@U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>%{оеэØ%}кс CLT/COP4_OBL ;
 
 LEXICON PL-NOM-INDEF
 @U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 _KIT-NomPl-Conjugation ;
@@ -1594,8 +1599,7 @@ LEXICON N_KAL-Poss-Declension-CX-Mutual
 :%>%{оеэØ%} CMP-PX ;
  DAT-PX ;
  ELA-PX ;
-:%> ILL-PX ;
-:%>%{оеэØ%} ILL-PX ;
+ ILL-PX ;
  INE-PX ;
  PRL-PX ;
  TRA-PX ;
@@ -1630,8 +1634,7 @@ LEXICON N_OSH-Poss-Declension-CX-Mutual
  DAT-PX ;
  ELA-PX ;
 :%>%{оеэØ%} ELA-PX ;
-:%> ILL-PX ;
-:%>%{оеэØ%} ILL-PX ;
+ ILL-PX ;
  INE-PX ;
 :%>%{оеэØ%} INE-PX ;
  PRL-PX ;
