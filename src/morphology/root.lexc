@@ -516,15 +516,16 @@ Multichar_Symbols
 
 
 !! Semantics are classified with
-! +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified),
-! +Sem/Constellation !!≈ * __@CODE@__  Constellation,
+ +Sem/Divinity !!≈ * __@CODE@__  Divinity (god personified),
+ +Sem/Constellation !!≈ * __@CODE@__  Constellation,
  +Sem/Ant   	  !!≈ * __@CODE@__  Anthroponym
  +Sem/Ant_Fem   	  !!≈ * __@CODE@__  Anthroponym female
  +Sem/Ant_Mal   	  !!≈ * __@CODE@__  Anthroponym male
  +Sem/Patr   	  !!≈ * __@CODE@__  Patronym
  +Sem/Patr_Fem   	  !!≈ * __@CODE@__  Patronym female
  +Sem/Patr_Mal   	  !!≈ * __@CODE@__  Patronym male
-! +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,
+ +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,
+ +Sem/Mnth   !!≈ * __@CODE@__  name of month
  +Sem/Inanim !!≈ * __@CODE@__  Inanimate,
 ! +Sem/NonHum !!≈ * __@CODE@__  Nonhuman,
 
@@ -555,6 +556,12 @@ Multichar_Symbols
 !! source and target part-of-speech.
 
  +V→N +V→V +V→A
+
+!! !Homonymy
++Hom1
++Hom2
++Hom3
++Hom4
 
 
 !! !!Der begin
@@ -740,11 +747,11 @@ ZERO
 !! Compounding
 +Cmp !!≈ * _@CODE@_ Dynamic compound - this tag should always be part of a dynamic compound.
      !! It is important for Apertium, and useful in other cases as well.
-+Cmp/Hyph/Coll !!≈ * _@CODE@_ with nouns
-+Cmp/Hyph/Redup !!≈ * _@CODE@_ with verbs
-+Cmp/Hyph/Synonym !!≈ * _@CODE@_ with verbs
-+Cmp/Hyph/Serial !!≈ * _@CODE@_ with verbs
-+Cmp/Hyph/теемс !!≈ * _@CODE@_ with verbs
++Cmp/Hyph-Coll !!≈ * _@CODE@_ with nouns
++Cmp/Hyph-Redup !!≈ * _@CODE@_ with verbs
++Cmp/Hyph-Synonym !!≈ * _@CODE@_ with verbs
++Cmp/Hyph-Serial !!≈ * _@CODE@_ with verbs
++Cmp/Hyph-tejems !!≈ * _@CODE@_ with verbs
 
 
 !! !!Tags
@@ -1277,8 +1284,8 @@ LEXICON PCLE-NEG-CONTRAST
 LEXICON PCLE-NEG
 +Neg: WORD-END ;
 
-LEXICON PCLE-QST
-+Qst: WORD-END ;
+!LEXICON PCLE-QST
+!+Qst: WORD-END ;
 
 LEXICON PCLE-SUPERL
 +Superl: WORD-END ;
@@ -1391,7 +1398,7 @@ LEXICON kovolo-Spat
 
 !LEXICON Mezty
 !+Assoc+Pl+Nom:%>мезть K ;
-!+Assoc+DatCx:%>мезнень K ;
+!+Assoc+Dat:%>мезнень K ;
 !+Assoc+Gen:%>мезень K ;
 !+Assoc+Abl:%>мезде K ;
 !+Assoc+Abe:%>мезевтеме K ;
