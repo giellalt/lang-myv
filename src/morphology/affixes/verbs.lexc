@@ -196,12 +196,12 @@ LEXICON TV_SATOMS !!= __@CODE@__
 !LEXICON TV_LETEMS
 ! @P.CONJ.ObjAll@@U.TRANS.TV@ V_LETEMS ;
 
-LEXICON TV_UEMS !!= __@CODE@__ 
-@P.CONJ.ObjAll@@U.TRANS.TV@ V_UEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+!LEXICON TV_UEMS !!= __@CODE@__ 
+!@P.CONJ.ObjAll@@U.TRANS.TV@ V_UEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_TUEMS !!= __@CODE@__ 
 @P.CONJ.ObjAll@@U.TRANS.TV@ Indicative_Present_Obj ;
@@ -236,12 +236,12 @@ LEXICON TV_NEKSHNEMS  !!≈ * _@CODE@_  некшнемс:некшн
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
 !!2012-04-24 the TAG "+Sem/ObjOpen": has been removed 
 
-LEXICON TV_KUZEMS
-@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUZEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+!LEXICON TV_KUZEMS
+!@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUZEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 !! !!! VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
 
@@ -346,8 +346,8 @@ LEXICON TV_SAVTOMS-Obj3
 LEXICON TV_KUNDAMS-Obj3_SUB
 +Err/Orth: TV_KUNDAMS-Obj3 ;
 
-LEXICON TV_PIDEMS-Obj3
-@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
+!LEXICON TV_PIDEMS-Obj3
+!@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
 
 !LEXICON TV_E2ZHNEMS-Obj3
 !@P.CONJ.ObjAll@@U.TRANS.TV@!:@P.CONJ.ObjAll@@U.TRANS.TV@ TV_KUNDAMS-Obj3 ;
@@ -537,12 +537,12 @@ LEXICON TV_NEKSHNEMS-Obj3
 
 
 !! !!! VERBS WITH INTRANSITIVE TAGS +V+IV
-LEXICON IV_UEMS
-@U.TRANS.IV@ V_UEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+!LEXICON IV_UEMS
+!@U.TRANS.IV@ V_UEMS ;
+!@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_TUEMS
 @U.TRANS.IV@ V_TUEMS ;
@@ -558,12 +558,12 @@ LEXICON IV_TEEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
 @U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
-LEXICON IV_NEEMS
-@U.TRANS.IV@ V_NEEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+!LEXICON IV_NEEMS
+!@U.TRANS.IV@ V_NEEMS ;
+!@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_MIEMS
 @U.TRANS.IV@ V_MIEMS ;
@@ -687,9 +687,9 @@ LEXICON IV_LETEMS
 @U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
 
 !! !!!AUXILIARY VERBS
-LEXICON VA_SAVTOMS
-+V+Aux: V_SAVTOMS ;
-@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+!LEXICON VA_SAVTOMS
+!+V+Aux: V_SAVTOMS ;
+!@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
 
 !LEXICON VA_JANGAVOMS
 !+V+Aux: V_JANGAVOMS ;
@@ -2976,13 +2976,13 @@ LEXICON ImpK
  WORD-END ;
 
 +Clt/Га:%>Г4а WORD-END ;
-+Clt/Гака:%>Г4ака WORD-END ;
-+Clt/Гакая:%>Г4акая WORD-END ;
++Clt/Gaka:%>Г4ака WORD-END ;
++Clt/Gakaja:%>Г4акая WORD-END ;
 +Clt/Гая:%>Г4ая WORD-END ;
 +Clt/Гаять:%>Г4аять WORD-END ;
 +Clt/Гаятя:%>Г4аятя WORD-END ;
 +Clt/Гатя:%>Г4атя WORD-END ;
-!2014-01-21!+Clt/Гак:%>Г4ак WORD-END ;
+!2014-01-21!+Clt/Gak:%>Г4ак WORD-END ;
 
 
 LEXICON VerbEnd_ImpK
@@ -2992,12 +2992,12 @@ LEXICON VerbEnd_ImpK
 !!€ ван%>%{оеэØ%}дО1%>Г4а
 !!€ ван%>одо%>0я
 +Clt/Га:%>Г4а WORD-END ;
-+Clt/Гака:%>Г4ака WORD-END ;
-+Clt/Гакая:%>Г4акая WORD-END ;
++Clt/Gaka:%>Г4ака WORD-END ;
++Clt/Gakaja:%>Г4акая WORD-END ;
 +Clt/Гая:%>Г4ая WORD-END ;
 +Clt/Гаять:%>Г4аять WORD-END ;
 +Clt/Гаятя:%>Г4аятя WORD-END ;
-+Clt/Гак:%>Г4ак WORD-END ;
++Clt/Gak:%>Г4ак WORD-END ;
 
 LEXICON VerbEnd_lak-ImpK
  VerbEnd_ImpK ;
@@ -3009,7 +3009,7 @@ LEXICON VerbEnd_lak-ImpK
 +Err/Orth+Clt/Гаять:%>KLossГ4аять WORD-END ;
 +Err/Orth+Clt/Гаятя:%>KLossГ4аятя WORD-END ;
 +Err/Orth+Clt/Гатя:%>KLossГ4атя WORD-END ;
-+Err/Orth+Clt/Гак:%>KLossГ4ак WORD-END ;
++Err/Orth+Clt/Gak:%>KLossГ4ак WORD-END ;
 
 
 LEXICON Phrase_V
