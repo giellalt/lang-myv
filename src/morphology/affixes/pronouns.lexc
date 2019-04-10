@@ -15,8 +15,8 @@ LEXICON	PRON-REFL_
 +Refl: K ;
 
 
-LEXICON PRON-PERS-DAT
-+Pers+Dat: POSSX4-END-DAT ;
+!LEXICON PRON-PERS-DAT
+!+Pers+Dat: POSSX4-END-DAT ;
 
 !LEXICON Dat-NoArg
 !Pron+Pers+Dat: POSSX4-END-DAT ;
@@ -261,9 +261,9 @@ LEXICON Pers_Pronouns1
 
 !
 !
-LEXICON PersPron_Minsy
-+Nom: _OSH-Tenses1 ;
- PersPron_Minsy-Obliq ;
+!LEXICON PersPron_Minsy
+!+Nom: _OSH-Tenses1 ;
+! PersPron_Minsy-Obliq ;
 
 LEXICON PersPron_Minsy-Obliq
 !< "@N.TPERS.1@@N.TPERS.2@@N.TPERS.3@@C.TNUM@"> PersPron_Gen ;
@@ -524,9 +524,9 @@ LEXICON PRON-IS-INDEF-SPAT-LAT !! What should be done
 !LEXICON	PRON-IS-INTERR-MANNER !! кода:кода
 !+Interr+Manner: #  ;
 
-LEXICON	PRON-IS-INTERR-PERS !! ки:ки
-+Interr+Pers+Sg+Nom:е #  ;
-+Interr+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
+!LEXICON	PRON-IS-INTERR-PERS !! ки:ки
+!+Interr+Pers+Sg+Nom:е #  ;
+!+Interr+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
 
 LEXICON DET-INTERR !! кона:кона
 !! This is not the same as indefinite
@@ -541,8 +541,8 @@ LEXICON PRON-IS-INTERR-SPAT-ELA !! What should be done
 LEXICON PRON-IS-INTERR-SPAT-INE !!= @CODE@ косо 
 +Interr+Spat+Ine: # ;
 
-LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done 
-+Interr+Spat+Lat: # ;
+!LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done 
+!+Interr+Spat+Lat: # ;
 
 LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done 
 +Interr+Spat+Prl: # ;
@@ -1070,8 +1070,8 @@ LEXICON PRON-SPAT-ELA_4-PX !!= * __@CODE@__ эйстэ-
 LEXICON PRON-SPAT-ILL_4-PX !!= * __@CODE@__ эйзэ-
 +Spat+Ill: POSSX4-END ;
 
-LEXICON PRON-SPAT-INE_4-PX !!= * __@CODE@__ эйсэ-
-+Spat+Ine: POSSX4-END ;
+!LEXICON PRON-SPAT-INE_4-PX !!= * __@CODE@__ эйсэ-
+!+Spat+Ine: POSSX4-END ;
 
 LEXICON PRON-SPAT-PRL_4-PX !!= * __@CODE@__ эзга-
 +Spat+Prl: POSSX4-END ;
@@ -1120,14 +1120,14 @@ LEXICON PRON-DEM_TE
 +Sg+Ela+Indef:%>ньстэ K ;
 +Sg+Abe+Indef:%>нтеме K ;
 
-LEXICON PRON-DEM_TEKE
-+Dem: _KUDO-Misc_Pronouns_Sg ;
+!LEXICON PRON-DEM_TEKE
+!+Dem: _KUDO-Misc_Pronouns_Sg ;
 
 LEXICON PRON-DEM_VASENCE
 +Ord: _KUDO-Misc_Pronouns_Sg ;
 
-LEXICON DET_VASENCE
-+Det+Ord: _KUDO-Misc_Pronouns_Sg ;
+!LEXICON DET_VASENCE
+!+Det+Ord: _KUDO-Misc_Pronouns_Sg ;
 
 !LEXICON PRON-DEM_KUDO !!= * __@CODE@__ алце
 !+Dem: NMN_KUDO ;
