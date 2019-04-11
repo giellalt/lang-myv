@@ -372,12 +372,16 @@ Question and Focus particles:
 
 
 Semantics are classified with
+ * __+Sem/Divinity__  Divinity (god personified),
+ * __+Sem/Constellation__  Constellation,
  * __+Sem/Ant 	__  Anthroponym
  * __+Sem/Ant_Fem 	__  Anthroponym female
  * __+Sem/Ant_Mal 	__  Anthroponym male
  * __+Sem/Patr 	__  Patronym
  * __+Sem/Patr_Fem 	__  Patronym female
  * __+Sem/Patr_Mal 	__  Patronym male
+ * __+Sem/Rvr__  name of river or water way, media of transportation,
+ * __+Sem/Mnth__  name of month
  * __+Sem/Inanim__  Inanimate,
 
 Semantic Fields
@@ -406,6 +410,8 @@ Verbal arguments
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
+
+!Homonymy
 
 
 !!Der begin
@@ -553,7 +559,7 @@ It is important for Apertium, and useful in other cases as well.
  * _+Cmp/Hyph-Redup_ with verbs
  * _+Cmp/Hyph-Synonym_ with verbs
  * _+Cmp/Hyph-Serial_ with verbs
- * _+Cmp/Hyph/tejems_ with verbs
+ * _+Cmp/Hyph-tejems_ with verbs
 
 
 !!Tags
@@ -650,49 +656,209 @@ given the proper use of these flags.
  | @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 Flags used to identify parts of speech
+ * @P.POS.PRON@ 
+ * @P.POS.N@ 
+ * @R.POS.N@ 
+ * @P.POS.V@ 
+ * @R.POS.V@ 
+ * @C.POS@ 
 
 Flags used with +Clt/Cop nonverbal predication
+ * @U.PRED.NO@ 
+ * @U.PRED.YES@ 
+ * @C.PRED@ 
 
 Flags used with transitivity
+ * @U.TRANS.TV@ 
+ * @U.TRANS.IV@ 
+ * @P.TRANS.TV@ 
+ * @P.TRANS.IV@ 
 Flags used with serial verbs
+ * @U.CONJ-INF.YES@ 
+ * @U.CONJ-INF.NO@ 
 
+ * @U.CONJ-TX.NONPAST@ 
+ * @U.CONJ-TX.PRT1@ 
+ * @U.CONJ-TX.PRT2@ 
 
+ * @U.CONJ-MX.IND@ 
  * _@D.CONJ-MX.IND@_  2012-11-04 should this be --D-- or --N--
+ * @U.CONJ-MX.IMP@ 
+ * @U.CONJ-MX.OPT@ 
+ * @U.CONJ-MX.DES@ 
+ * @U.CONJ-MX.CONJ@ 
+ * @U.CONJ-MX.COND@ 
+
+ * @U.CONJ-CONNEG.YES@ 
+ * @U.CONJ-CONNEG.NO@ 
+
+ * @U.CONJ-NX.PL@ 
+ * @U.CONJ-NX.SG@ 
+
+ * @U.CONJ-POSS.1@ 
+ * @U.CONJ-POSS.2@ 
+ * @U.CONJ-POSS.3@ 
+ * @U.CONJ-POSS.2ACC@ 
+ * @U.CONJ-POSS.3ACC@ 
+
+ * @U.CONJ-PX.1Ø@ 
+ * @U.CONJ-PX.12@ 
+ * @U.CONJ-PX.13@ 
+ * @U.CONJ-PX.15@ 
+ * @U.CONJ-PX.16@ 
+ * @U.CONJ-PX.2Ø@ 
+ * @U.CONJ-PX.21@ 
+ * @U.CONJ-PX.23@ 
+ * @U.CONJ-PX.24@ 
+ * @U.CONJ-PX.26@ 
+ * @U.CONJ-PX.3Ø@ 
+ * @U.CONJ-PX.31@ 
+ * @U.CONJ-PX.32@ 
+ * @U.CONJ-PX.33@ 
+ * @U.CONJ-PX.34@ 
+ * @U.CONJ-PX.35@ 
+ * @U.CONJ-PX.36@ 
+
+ * @U.CONJ-PX.4Ø@ 
+ * @U.CONJ-PX.42@ 
+ * @U.CONJ-PX.43@ 
+ * @U.CONJ-PX.45@ 
+ * @U.CONJ-PX.46@ 
+
+ * @U.CONJ-PX.5Ø@ 
+ * @U.CONJ-PX.51@ 
+ * @U.CONJ-PX.53@ 
+ * @U.CONJ-PX.54@ 
+ * @U.CONJ-PX.56@ 
+
+ * @U.CONJ-PX.6Ø@ 
+ * @U.CONJ-PX.61@ 
+ * @U.CONJ-PX.62@ 
+ * @U.CONJ-PX.63@ 
+ * @U.CONJ-PX.64@ 
+ * @U.CONJ-PX.65@ 
+ * @U.CONJ-PX.66@ 
+
+
+ * @R.CONJ-PX.13@ 
+ * @R.CONJ-PX.16@ 
+ * @R.CONJ-PX.23@ 
+ * @R.CONJ-PX.26@ 
+ * @R.CONJ-PX.33@ 
+ * @R.CONJ-PX.36@ 
+
+ * @R.CONJ-PX.43@ 
+ * @R.CONJ-PX.46@ 
+
+ * @R.CONJ-PX.53@ 
+ * @R.CONJ-PX.56@ 
+
+ * @R.CONJ-PX.63@ 
+ * @R.CONJ-PX.66@ 
+
+
+ * @P.CONJ.ObjAll@ 
+ * @R.CONJ.ObjAll@ 
+ * @C.CONJ@ 
+ * @P.TLOSS.ON@ 
+ * @R.TLOSS.ON@ 
+
+ * @P.PossPx.Sg1@ 
+ * @P.PossPx.Sg2@ 
+ * @P.PossPx.Sg3@ 
+ * @P.PossPx.Pl1@ 
+ * @P.PossPx.Pl2@ 
+ * @P.PossPx.Pl3@ 
+
+ * @U.PossPx.S3@ 
+
+ * @U.PossPx.Sg1@ 
+ * @U.PossPx.Sg2@ 
+ * @U.PossPx.Sg3@ 
+ * @U.PossPx.Pl1@ 
+ * @U.PossPx.Pl2@ 
+ * @U.PossPx.Pl3@ 
+
+ * @D.PossPx@ 
+ * @C.PossPx@ 
+ * @P.TNUM.SG@ 
+ * @P.TNUM.PL@ 
+ * @D.TNUM.SG@ 
+ * @D.TNUM.PL@ 
+ * @C.TNUM@ 
+
+ * @P.TPERS.1@ 
+ * @P.TPERS.2@ 
+ * @P.TPERS.3@ 
+ * @N.TPERS.1@ 
+ * @N.TPERS.2@ 
+ * @N.TPERS.3@ 
+ * @U.TPERS.1@ 
+ * @U.TPERS.2@ 
+ * @U.TPERS.3@ 
+ * @C.TPERS@ 
+
+ * @N.CX.ILL@ 
+ * @N.CX.ELA@ 
+ * @N.CX.INE@ 
+ * @N.CX.LAT@ 
+ * @U.CX.ABL@ 
+ * @U.CX.ELA@ 
+ * @U.CX.ILL@ 
+ * @U.CX.INE@ 
+ * @U.CX.LAT@ 
+ * @U.CX.LOC@ 
+ * @U.CX.NOM@ 
+ * @U.CX.PRL@ 
+ * @U.CX.TRA@ 
+ * @C.CX@ 
+
+ * @P.DNUM.PL@ 
+ * @P.DNUM.SG@ 
+ * @U.DNUM.PL@ 
+ * @U.DNUM.SG@ 
+ * @C.DNUM@ 
 
 
 
+ * @P.NUM.SG@ 
+ * @P.NUM.PL@ 
+ * @D.NUM.SG@ 
+ * @D.NUM.PL@ 
+ * @C.NUM@ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ * @P.INDEF.PREF@ 
+ * @D.INDEF.PREF@ 
+ * @R.INDEF.PREF@ 
+ * @C.INDEF@ 
 
 This allows or disallows combining with hyphen through loop
 especially for acronyms 2012-11-04
+ * @U.HYPH-COMBO.ACRO@ 
+ * @D.HYPH-COMBO.ACRO@ 
+ * @C.HYPH-COMBO@ 
 
 
 Linking vowel for use with Translative
+ * @P.LV.ON@ 
+ * @P.LV.OFF@ 
+ * @R.LV.ON@ 
+ * @U.LV.ON@ 
+ * @D.LV.ON@ 
+ * @C.LV@ 
 
 
 
+ * @C.CONJ-INF@ 
+ * @C.CONJ-TX@ 
+ * @C.CONJ-MX@ 
+ * @C.CONJ-CONNEG@ 
+ * @C.CONJ-NX@ 
+ * @C.CONJ-PX@ 
+ * @C.CONJ-POSS@ 
 
+ * @C.KLOSS@ 
+ * @C.TLOSS@ 
 
 !!!FLAGS USED WITH COLLECTIVE NOUNS
 !!number
@@ -703,10 +869,32 @@ Linking vowel for use with Translative
  * @R.DECL-NX.SP@
  * @R.DECL-NX.PL@
 !!case
+ * @U.DECL-CX.NOM@ 
+ * @U.DECL-CX.ACC@ 
+ * @U.DECL-CX.GEN@ 
+ * @U.DECL-CX.DAT@ 
+ * @U.DECL-CX.ABL@ 
+ * @U.DECL-CX.ILL@ 
+ * @U.DECL-CX.INE@ 
+ * @U.DECL-CX.ELA@ 
+ * @U.DECL-CX.LAT@ 
+ * @U.DECL-CX.LOC@ 
+ * @U.DECL-CX.TRA@ 
+ * @U.DECL-CX.PRL@ 
+ * @U.DECL-CX.COM@ 
+ * @U.DECL-CX.TEMP@ 
+ * @U.DECL-CX.ABE@ 
+ * @U.DECL-CX.CMP@ 
 
+ * @U.DECL-DX.DEF@ 
+ * @U.DECL-DX.INDEF@ 
+ * @U.DECL-DX.PX@ 
 
 
 Removal
+ * @C.DECL-NX@ 
+ * @C.DECL-DX@ 
+ * @C.DECL-CX@ 
 
 
 
@@ -1734,6 +1922,7 @@ no deverbals
 
 
 
+    __LEXICON TV_NEKSHNEMS__ Alternates with TRA
 __LEXICON TV_NEKSHNEMS__ Alternates with TRA
 
 
