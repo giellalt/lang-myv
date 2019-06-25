@@ -166,7 +166,7 @@ Multichar_Symbols
  +Imprt !!≈ * _@CODE@_ imperative
  +Opt   !!≈ * _@CODE@_ optative
  +Proh	!!≈ * _@CODE@_ prohibitive is distinct from the negation of imperative
- !! Иля аварде! `Don't cry!' (Proh);
+ !! Иля аварде! `Don't cry' (Proh);
  !! Аволь мелявтт, кецяк! `Don't worry, be happy!' (Neg + Imprt)
 
 !! !Infinitive moods
@@ -201,9 +201,9 @@ Multichar_Symbols
  +Act	 !!≈ * _@CODE@_ * active voice (exo-tradition)
  +PrsPrc !!≈ * _@CODE@_ * present participle (only non-contrastive usage)
  +DemPrc !!≈ * _@CODE@_ * present participle (both contrastive and non-contrastive)
-  +ActPrcLong  !!≈ * _@CODE@_ * %{иы%}й (This is dealt with elsewhere as an active present participle)
-  +ActPrcShort !!≈ * _@CODE@_ * %{иы%}  (This is dealt with elsewhere as an active present participle)
-  +ActDemPrc   !!≈ * _@CODE@_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
+  +ActPrcLong  !!≈ * _@CODE@_  %{иы%}й (This is dealt with elsewhere as an active present participle)
+  +ActPrcShort !!≈ * _@CODE@_  %{иы%}  (This is dealt with elsewhere as an active present participle)
+  +ActDemPrc   !!≈ * _@CODE@_  %{иы%}ця  (This is dealt with elsewhere as an active present participle)
   +ConNeg !!≈ * _@CODE@_ * connegative, main verb complement to Neg, vow-stem
   +ConNegII !!≈ * _@CODE@_ * connegative, main verb complement to Neg, cons-stem
   +Ger !!≈ * _@CODE@_ * gerund This is used with Der/Ozj and VAbl
@@ -212,7 +212,7 @@ Multichar_Symbols
   +Prc !!≈ * _@CODE@_ * participle
   +VGen   !!≈ * _@CODE@_ * Verb Genitive, genitive form participle
   +VAbl   !!≈ * _@CODE@_ * Verb Ablative "озадо"
-  +Prc/Telic !!≈ * _@CODE@_ * Telic participle ! "саевть"
+  +Prc/Telic !!≈ * _@CODE@_ * Telic participle  "саевть"
   +Der/Abe   !!≈ * _@CODE@_ * ВтОмО
   +Der/Cmpr  !!≈ * _@CODE@_ * шка
   +Der/A    !!≈ * _@CODE@_ * adjective derived from N or V
@@ -287,8 +287,9 @@ Multichar_Symbols
 
 
 
-! Semantic tags to help disambiguation & synt. analysis: (before POS)
-! Borrowed from main/langs/sme/src/morphology/root.lexc
+!! Semantic tags to help disambiguation & synt. analysis: (before POS)
+!! Borrowed from main/langs/sme/src/morphology/root.lexc
+
  +Sem/Act         !!≈ * __@CODE@__ Activity
  +Sem/Amount      !!≈ * __@CODE@__ Amount
  +Sem/Ani         !!≈ * __@CODE@__ Animate
@@ -389,7 +390,7 @@ Multichar_Symbols
 
 
 
-! Multiple Semantic tags:
+!! Multiple Semantic tags:
 +Sem/Act_Group
 +Sem/Act_Plc
 +Sem/Act_Route
@@ -527,7 +528,7 @@ Multichar_Symbols
  +Sem/Rvr    !!≈ * __@CODE@__  name of river or water way, media of transportation,
  +Sem/Mnth   !!≈ * __@CODE@__  name of month
  +Sem/Inanim !!≈ * __@CODE@__  Inanimate,
-! +Sem/NonHum !!≈ * __@CODE@__  Nonhuman,
+! +Sem/NonHum   Nonhuman,
 
 !! Semantic Fields
 +Field/Agr	!!≈ * _@CODE@_ agriculatural
@@ -1031,19 +1032,7 @@ ZERO
  @C.DNUM@ !!≈ * @CODE@ 
 
 
-!!!!What are these?
-!@P.PERS.1@ !!≈ * @CODE@ 
-!@P.PERS.2@ !!≈ * @CODE@ 
-!@P.PERS.3@ !!≈ * @CODE@ 
-!@D.PERS.1@ !!≈ * @CODE@ 
-!@D.PERS.2@ !!≈ * @CODE@ 
-!@D.PERS.3@ !!≈ * @CODE@ 
-!@N.PERS.1@ !!≈ * @CODE@ 
-!@N.PERS.2@ !!≈ * @CODE@ 
-!@N.PERS.3@ !!≈ * @CODE@ 
-!@C.PERS@ !!≈ * @CODE@ 
 
-!!
  @P.NUM.SG@ !!≈ * @CODE@ 
  @P.NUM.PL@ !!≈ * @CODE@ 
  @D.NUM.SG@ !!≈ * @CODE@ 
@@ -1118,8 +1107,8 @@ ZERO
  @U.DECL-DX.PX@ !!≈ * @CODE@ 
 
 ! predicate
-!@U.DECL-PR.1@ !!≈ * @CODE@ 
-!@C.DECL-PR@ !!≈ * @CODE@ 
+!@U.DECL-PR.1@
+!@C.DECL-PR@ 
 
 !! Removal
  @C.DECL-NX@ !!≈ * @CODE@ 
