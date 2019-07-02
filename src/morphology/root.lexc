@@ -227,6 +227,8 @@ Multichar_Symbols
 
 !! !!The Usage extents are marked using following tags:
  +Err/Orth   !!≈ * _@CODE@_ * Substandard
+ +Err/Orth-no-linking-vowel    !!≈ * __@CODE@__ linking vowel is missing
+
  +Use/Marg  !!≈ * _@CODE@_ * Marginal
  +Use/-Spell !!≈ * _@CODE@_ * Exclude from speller
  +Use/SpellNoSugg !!≈ * _@CODE@_ * recognized but not suggested in speller
@@ -708,6 +710,9 @@ Multichar_Symbols
 %{оэØ%}	 !!≈ * _@CODE@_ inessive, elative; this is the hard/broad s
 %{ОØ%} !!≈ * _@CODE@_ Stem-final archiphoneme панго
 %{ЕØ%} !!≈ * _@CODE@_ Stem-final archiphoneme тинге
+
+%^NoLinkVow !!= @CODE@ — No linking vowel is used only after consonants for error
+
 
 %^Inf
 %^PATR

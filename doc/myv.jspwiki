@@ -157,7 +157,7 @@ to mark what would be a secondary subject:
  * _+Imprt_ imperative
  * _+Opt_ optative
  * _+Proh	_ prohibitive is distinct from the negation of imperative
-Иля аварде! `Don't cry!' (Proh);
+Иля аварде! `Don't cry' (Proh);
 Аволь мелявтт, кецяк! `Don't worry, be happy!' (Neg + Imprt)
 
 !Infinitive moods
@@ -191,9 +191,9 @@ Other verb forms are
  * _+Act	_ * active voice (exo-tradition)
  * _+PrsPrc_ * present participle (only non-contrastive usage)
  * _+DemPrc_ * present participle (both contrastive and non-contrastive)
- * _+ActPrcLong_ * %{иы%}й (This is dealt with elsewhere as an active present participle)
- * _+ActPrcShort_ * %{иы%}  (This is dealt with elsewhere as an active present participle)
- * _+ActDemPrc_ * %{иы%}ця  (This is dealt with elsewhere as an active present participle)
+ * _+ActPrcLong_  %{иы%}й (This is dealt with elsewhere as an active present participle)
+ * _+ActPrcShort_  %{иы%}  (This is dealt with elsewhere as an active present participle)
+ * _+ActDemPrc_  %{иы%}ця  (This is dealt with elsewhere as an active present participle)
  * _+ConNeg_ * connegative, main verb complement to Neg, vow-stem
  * _+ConNegII_ * connegative, main verb complement to Neg, cons-stem
  * _+Ger_ * gerund This is used with Der/Ozj and VAbl
@@ -202,7 +202,7 @@ Other verb forms are
  * _+Prc_ * participle
  * _+VGen_ * Verb Genitive, genitive form participle
  * _+VAbl_ * Verb Ablative "озадо"
- * _+Prc/Telic_ * Telic participle ! "саевть"
+ * _+Prc/Telic_ * Telic participle  "саевть"
  * _+Der/Abe_ * ВтОмО
  * _+Der/Cmpr_ * шка
  * _+Der/A_ * adjective derived from N or V
@@ -216,6 +216,8 @@ Other verb forms are
 
 !!The Usage extents are marked using following tags:
  * _+Err/Orth_ * Substandard
+ * __+Err/Orth-no-linking-vowel__ linking vowel is missing
+
  * _+Use/Marg_ * Marginal
  * _+Use/-Spell_ * Exclude from speller
  * _+Use/SpellNoSugg_ * recognized but not suggested in speller
@@ -268,6 +270,9 @@ Question and Focus particles:
   +Qst +Foc 
 
 
+
+Semantic tags to help disambiguation & synt. analysis: (before POS)
+Borrowed from main/langs/sme/src/morphology/root.lexc
 
  * __+Sem/Act__ Activity
  * __+Sem/Amount__ Amount
@@ -369,6 +374,7 @@ Question and Focus particles:
 
 
 
+Multiple Semantic tags:
 
 
 Semantics are classified with
@@ -535,6 +541,9 @@ And following triggers to control variation
  * _%{оэØ%}	_ inessive, elative; this is the hard/broad s
  * _%{ОØ%}_ Stem-final archiphoneme панго
  * _%{ЕØ%}_ Stem-final archiphoneme тинге
+
+ %^NoLinkVow  — No linking vowel is used only after consonants for error
+
 
 
 
@@ -1359,6 +1368,7 @@ __Noun singular nominative definite examples:__
 * __калось: __ {{кал+N+Sg+Nom+Def }}
 * __калоськак: __ {{кал+N+Sg+Nom+Def+Foc/Гак }}
 * __*калосьгак: __ {{кал+N+Sg+Nom+Def+Foc/Гак }} (is not standard language)
+
 
 
 __Noun singular genitive definite examples:__
@@ -2450,6 +2460,8 @@ Used with deverbals
 
 
 
+ %^NoLinkVow:0  — No linking vowel is used only after consonants for error
+
 
 
 
@@ -2740,3 +2752,4 @@ __Disallow з where not following l, n or r__
 * __веле%>%{оеэØ%}кс%>%{оеэØ%}тЬ2%>%{оеэØ%}льть __
 * __веле%>0кс%>эт0%>ельть __
 
+__ Disallow %^NoLinkVow after vowel __                                                                                                                                                                           
