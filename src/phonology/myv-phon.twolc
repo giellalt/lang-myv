@@ -143,6 +143,8 @@ VLoss:0
 %^WLoss:0
 NoVLoss:0
 
+%^NoLinkVow:0 !!= @CODE@ — No linking vowel is used only after consonants for error
+
 — ! emdash
 %- !Hyphen with constructions like "-buti"
 %>
@@ -316,6 +318,7 @@ Rules
 "%{оеэØ%}:0"
 !! __@RULENAME@__
 %{оеэØ%}:0 <=> :Vows (HarmDummies:) %> _  ;
+               :Cns (HarmDummies:) %> %^NoLinkVow: _  ;
                в (HarmDummies:) %>  %^WLoss: %> _ в:0 ( %{ое%}: ) л ;
 "%{оеэØ%}:е"
 !! __@RULENAME@__
@@ -753,3 +756,6 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 !!€ веле%>%{оеэØ%}кс%>%{оеэØ%}тЬ2%>%{оеэØ%}льть
 !!€ веле%>0кс%>эт0%>ельть
 
+"Disallow %^NoLinkVow after vowel"
+!! __ @RULENAME@ __                                                                                                                                                                           
+%^NoLinkVow:0 /<= :Vows  (HarmDummies:) %> _ ;
