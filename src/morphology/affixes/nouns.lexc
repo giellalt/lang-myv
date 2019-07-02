@@ -1050,7 +1050,7 @@ LEXICON N_KIT-Def-Declension
  SG-PRL-DEF ;
  SG-ABE-DEF ;
 :%>%{оеэØ%} SG-TRA-DEF ;
-+Err/Orth+Dial/NW: SG-NOM-DEF_Dial-NW ;
+!+Err/Orth+Dial/NW: SG-NOM-DEF_Dial-NW ;
 +Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
 +Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
 +Err/Orth+Dial/NW:%>%{оеэØ%} SG-CMP-DEF_Dial-NW ;
@@ -1079,7 +1079,7 @@ LEXICON N_KAL-Def-Declension
  SG-PRL-DEF ;
  SG-ABE-DEF ;
  SG-TRA-DEF ;
-+Err/Orth+Dial/NW: SG-NOM-DEF_Dial-NW ;
+!+Err/Orth+Dial/NW: SG-NOM-DEF_Dial-NW ;
 +Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
 +Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
 +Err/Orth+Dial/NW:%>%{оеэØ%} SG-CMP-DEF_Dial-NW ;
@@ -1244,6 +1244,9 @@ LEXICON SG-NOM-DEF
 !!$ калосьгак: кал+N+Sg+Nom+Def+Foc/Гак
 @U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%{оеэØ%}сь K ;
 @U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%{оеэØ%}сь CLT/COP_SG ;
+@U.DECL-NX.SG@@U.DECL-CX.NOM@+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%^NoLinkVowсь K ;
+@U.DECL-NX.SG@@U.DECL-CX.NOM@+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
+
 
 LEXICON SG-GEN-DEF
 !!€gt-norm: Noun singular genitive definite
@@ -1276,8 +1279,8 @@ LEXICON SG-ABE-DEF
 LEXICON SG-TRA-DEF
 @U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra+Def:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%{оеэØ%}кс%>%{оеэØ%}нть K ;
 
-LEXICON SG-NOM-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>сь K ;
+!LEXICON SG-NOM-DEF_Dial-NW
+!@U.DECL-NX.SG@@U.DECL-CX.NOM@+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%^NoLinkVowсь K ;
 
 LEXICON SG-GEN-DEF_Dial-NW
 @U.DECL-NX.SG@@U.DECL-CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>сть K ;
