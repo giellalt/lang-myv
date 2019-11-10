@@ -1,7 +1,10 @@
 
 LEXICON Num_myv2x
 
+аламнэст+Num:аламнэст Assoc-Coll  "" ;
+аламонест+Num:аламоне Assoc-Coll  "" ;
 ве+Num:ве NUM-ADN  "yksi" ;
+ведьгеменнест+Num:ведьгеменне Assoc-Coll  "" ;
 ведьгеменце+Num+Ord:ведьгеменце IS-NUMORD_KUDO  "" ;
 ведьгемень+Num:ведьгемень NUM_KAL  "viisikymmentä" ;
 ведьгемень+Num:ветенькемень NUM_KAL  "viisikymmentä" ;
@@ -11,6 +14,7 @@ LEXICON Num_myv2x
 вейке-вейке+Num:вейте-вейте QNT-DISTR  "" ;
 вейкине+Num:вейкине NUM_KUDO  "" ;
 вейксэ+Num:вейксэ NUM_KUDO  "yhdeksän" ;
+вейксэненек+Num:вейксэненек Assoc-Coll  "" ;
 вейксэньгемень+Num:вейксэньгемень NUM_KAL  "" ;
 вейксэньгеменьшка+Num:вейксэньгеменьшка NUM_KUDO  "yhdeksisenkymmentä" ;
 вейксэсядт+Num:вейксэсяд NUM_SJADO  "yhdeksänsataa" ;
@@ -20,6 +24,8 @@ LEXICON Num_myv2x
 весть-кавксть+Num:весть-кавксть ITERAPPROX_  "pari kertaa" ;
 вете+Num:вете NUM_KUDO  "viisi" ;
 ветексть+Num:ветексть ITER_  "viisi kertaa" ;
+ветененк+Num:ветененк Assoc-Coll  "" ;
+ветенест+Num:ветене Assoc-Coll  "" ;
 ветесядт+Num:ветесяд NUM_SJADO  "viisi sata" ;
 вететькс+Num+Ord:вететькс IS-NUMORD_OSH  "" ;
 ветеце+Num+Ord:ветеце IS-NUMORD_KUDO  "viides" ;
@@ -27,13 +33,17 @@ LEXICON Num_myv2x
 ветешкаксть+Num:ветешкаксть ITER_  "viitisen kertaa" ;
 зняро+Num:зняро Indef_Pronouns-K  "" ;
 зняродо+Num:зняродо ADV_  "" ;
+зняроненек+Num:зняроненек ADV_  "" ;
+зняроненк+Num:зняроненк ADV_  "" ;
 зняронень+Num:зняронень ADV_  "" ;
+зняронест+Num:зняронест ADV_  "" ;
 знярос+Num:знярос ADV_  "" ;
 зняроце+Num+Ord:зняроце IS-NUMORD_KUDO  "monesko" ;
 знярыя+Num:знярыя QNT-INDEF  "" ;
 зяро+Num:зяро DET_LAMO  "" ;
 зярыя+Num:зярыя QNT-INDEF  "" ;
 кавксо+Num:кавксо NUM_KUDO  "kahdeksan" ;
+кавксонест+Num:кавксонест Assoc-Coll  "" ;
 кавксоньгеменце+Num+Ord:кавксоньгеменце IS-NUMORD_KUDO  "" ;
 кавксоньгемень+Num:кавксоньгемень NUM_KAL  "" ;
 кавксосядт+Num:кавксосяд NUM_SJADO  "" ;
@@ -77,6 +87,7 @@ LEXICON Num_myv2x
 колмине+Num:колмине NUM_KUDO  "" ;
 колмо+Num:колмо NUM_KUDO  "kolme" ;
 колмоксть+Num:колмоксть ITER_  "kolme kertaa" ;
+колмоненек+Num:колмоненек Assoc-Coll  "" ;
 колмонест+Num:колмонест Assoc-Coll  "" ;
 колмонст+Num:колмонст IS-NUM-CARD-COLL  "" ;
 колмоньгемень+Num:колмоньгемень NUM_KAL  "" ;
@@ -85,6 +96,7 @@ LEXICON Num_myv2x
 колмосядт+Num:колмосяд NUM_SJADO  "kolmesataa" ;
 колмотькс+Num+Ord:колмотькс IS-NUMORD_OSH  "" ;
 колмоце+Num+Ord:колмоце IS-NUMORD_KUDO  "kolmas" ;
+колмошканенк+Num:колмошканенк Assoc-Coll  "" ;
 колоньгеменце+Num+Ord:колоньгеменце IS-NUMORD_KUDO  "" ;
 колоньгеменце+Num+Ord:колмонькеменце NUM_KUDO  "" ;
 колоньгемень+Num:колоньгемень NUM_KAL  "" ;
@@ -120,6 +132,7 @@ LEXICON Num_myv2x
 кото+Num:кото NUM_KUDO  "kuusi" ;
 котосядт+Num:котосяд NUM_SJADO  "kuusisataa" ;
 котоце+Num+Ord:котоце IS-NUMORD_KUDO  "kuudes" ;
+ламоненк+Num:ламоненк Assoc-Coll  "" ;
 миллиард+Num:миллиард NUM_KAL  "miljardi" ;
 миллион+Num:миллион NUM_KAL  "miljoona" ;
 миллион+Num+Err/Sub:муллион NUM_KAL  "miljoona" ;
@@ -161,11 +174,9 @@ LEXICON Num_myv2x
 сисемзядт+Num:сисемзяд NUM_SJADO  "seitsemänsataa" ;
 сисемзядт+Num+Err/Orth:сисемсяд NUM_SJADO  "seitsemänsataa" ;
 сисемненек+Num:сисемненек Assoc-Coll  "" ;
-сисемнест+Num:сисемнест Assoc-Coll  "" ;
 сисемсядт+Num:сисемзяд NUM_SJADO  "seitsemänsataa" ;
 сисемсядт+Num+Err/Orth:сисемсяд NUM_SJADO  "seitsemänsataa" ;
 сисемшка+Num:сисемшка NUM_KUDO  "seitsemisen" ;
-сядо+Num:сяд NUM_SJADO  "sata" ;
 сядо+Num:сяд NUM_SJADO  "sata" ;
 сядоксть+Num:сядоксть ITER_  "sata kertaa" ;
 сядоце+Num+Ord:сядоце IS-NUMORD_KUDO  "" ;

@@ -21,8 +21,8 @@ LEXICON PRONOUN-TYPES
 
 LEXICON PRON-PERS_
 +Pers: K ;
-LEXICON PRON-REFL_
-+Refl: K ;
+!LEXICON PRON-REFL_
+!+Refl: K ;
 
 
 !LEXICON PRON-PERS-DAT
@@ -31,8 +31,8 @@ LEXICON PRON-REFL_
 !LEXICON Dat-NoArg
 !Pron+Pers+Dat: POSSX4-END-DAT ;
 
-LEXICON Ill-Pron
-+Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!LEXICON Ill-Pron
+!+Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PRON-INTERR-HUM_KI !!Interr-Pers
 +Interr+Sem/Hum+Sg+Nom:е WORD-END ; !!= @CODE@ кие:ки
@@ -84,36 +84,36 @@ LEXICON PRON-INTERR-OBJ_MEZE_IS-SG-NOM-DEF
 LEXICON ADV-INTERR-OBJ_MEZE_IS-TRA
 +Adv+Interr+Tra:%>кс WORD-END ;
 
-LEXICON PRON-PERS-SG1 !! мон:мо
-@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@+Pers+Sg1:@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
-+Err/Orth+Dial+Pers+Sg1+Abl+NoPoss:нде K ;
-+Err/Orth+Dial+Pers+Sg1+Refl+Abe+NoPoss:нстеме K ;
-+Pers+Sg1+Pron+Dem:нете _KUDO-PersPronGen_CX ;
+!LEXICON PRON-PERS-SG1 !! мон:мо
+!@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@+Pers+Sg1:@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
+!+Err/Orth+Dial+Pers+Sg1+Abl+NoPoss:нде K ;
+!+Err/Orth+Dial+Pers+Sg1+Refl+Abe+NoPoss:нстеме K ;
+!+Pers+Sg1+Pron+Dem:нете _KUDO-PersPronGen_CX ;
 
-LEXICON PRON-PERS-SG2 !! тон:то
-@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@+Pers+Sg2:@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
-+Err/Orth+Dial+Pers+Sg2+Abl+NoPoss:нде K ;
-+Err/Orth+Dial+Pers+Sg2+Refl+Abe+NoPoss:нстеме K ;
-+Pers+Sg2+Pron+Dem:нете _KUDO-PersPronGen_CX ;
+!LEXICON PRON-PERS-SG2 !! тон:то
+!@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@+Pers+Sg2:@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
+!+Err/Orth+Dial+Pers+Sg2+Abl+NoPoss:нде K ;
+!+Err/Orth+Dial+Pers+Sg2+Refl+Abe+NoPoss:нстеме K ;
+!+Pers+Sg2+Pron+Dem:нете _KUDO-PersPronGen_CX ;
 
-LEXICON PRON-PERS-SG3 !! сон:со
-@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@+Pers+Sg3:@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
-LEXICON PRON-PERS-PL1 !! минь:ми
+!LEXICON PRON-PERS-SG3 !! сон:со
+!@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@+Pers+Sg3:@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
+LEXICON PRON-PERS-PL1 !! минь:
 @P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@+Pers+Pl1:@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
 LEXICON PRON-PERS-PL2 !! тынь:ты
 @P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@+Pers+Pl2:@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
 LEXICON PRON-PERS-PL3 !! сынь:сы
 @P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@+Pers+Pl3:@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
-LEXICON IS_PRON-PERS-PL3-DAT !!= * @CODE@ сыненст
-+Pers+Pl3+Dat: K ;
-LEXICON PRON-REFL_E2S1 !!= @CODE@ !!эсь:эсь
-+Refl: PersPron_Minsy-Obliq ;
-+Refl+Adn: WORD-END ;
-+Refl+Prl:%>ка PossPX1 ; 
-+Refl+Prl+Prl:%>кава PossPX1 ; 
+!LEXICON IS_PRON-PERS-PL3-DAT !!= * @CODE@ сыненст
+!+Pers+Pl3+Dat: K ;
+!LEXICON PRON-REFL_E2S1 !!= @CODE@ !!эсь:эсь
+!+Refl: PersPron_Minsy-Obliq ;
+!+Refl+Adn: WORD-END ;
+!+Refl+Prl:%>ка PossPX1 ; 
+!+Refl+Prl+Prl:%>кава PossPX1 ; 
 
-LEXICON PRON-PERS-PL2_IS-INTENSIVE
-+Pers+Pl2+Refl+Nom: WORD-END ;
+!LEXICON PRON-PERS-PL2_IS-INTENSIVE
+!+Pers+Pl2+Refl+Nom: WORD-END ;
 
 LEXICON PERS
 мон+Pron+Pers+Sg1+Dat+Short:тень K ;
@@ -275,26 +275,26 @@ LEXICON Pers_Pronouns1
 !+Nom: _OSH-Tenses1 ;
 ! PersPron_Minsy-Obliq ;
 
-LEXICON PersPron_Minsy-Obliq
-!< "@N.TPERS.1@@N.TPERS.2@@N.TPERS.3@@C.TNUM@"> PersPron_Gen ;
-+Dat:%>те PersPron_PossPX ;
-+Abl+Abl:%>теде PersPron_PossPX ;
-+Abl:%>%{оеэØ%}де PersPron_PossPX ;
-+Prl:%>Г2а PersPron_Oblique ;
-+Cmpr:%>%{оеэØ%}шка PersPron_Oblique ;
-+Abe:%>вт{оеэ%}мО1 PersPron_Oblique ;
-@P.LV.ON@+Tra:@P.LV.ON@%>%{оеэØ%}кс PersPron_PossPX ;
-@P.LV.ON@+Err/Orth+Tra:@P.LV.ON@%>%{оеэØ%}кс K ;
-@U.PossPx.Sg1@+Gen+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-PersPronGen_CX ;
-@U.PossPx.Sg1@+Gen+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}нь _KAL-PersPronGen_CX ;
-@U.PossPx.Sg2@+Gen+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}тЬ2 _KIT-PersPronGen_CX ;
-@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@+Gen+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>%{оеэØ%}нз%{оэØ%} _KUDO-PersPronGen_CX ;
-@U.PossPx.Pl1@+Gen+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н{оеэ%}к _LAK-PersPronGen_CX ;
-@U.PossPx.Pl2@+Gen+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк _LAK-PersPronGen_CX ;
-@U.PossPx.Pl3@+Gen+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст _KIT-PersPronGen_CX ;
-!!these just go onto the clitics
-@U.PossPx.Sg2@+Gen+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нтЬ2 K ;
-@U.PossPx.Pl3@+Gen+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст K ;
+!LEXICON PersPron_Minsy-Obliq
+!!< "@N.TPERS.1@@N.TPERS.2@@N.TPERS.3@@C.TNUM@"> PersPron_Gen ;
+!+Dat:%>те PersPron_PossPX ;
+!+Abl+Abl:%>теде PersPron_PossPX ;
+!+Abl:%>%{оеэØ%}де PersPron_PossPX ;
+!+Prl:%>Г2а PersPron_Oblique ;
+!+Cmpr:%>%{оеэØ%}шка PersPron_Oblique ;
+!+Abe:%>вт{оеэ%}мО1 PersPron_Oblique ;
+!@P.LV.ON@+Tra:@P.LV.ON@%>%{оеэØ%}кс PersPron_PossPX ;
+!@P.LV.ON@+Err/Orth+Tra:@P.LV.ON@%>%{оеэØ%}кс K ;
+!@U.PossPx.Sg1@+Gen+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg1@+Gen+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}нь _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg2@+Gen+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}тЬ2 _KIT-PersPronGen_CX ;
+!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@+Gen+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>%{оеэØ%}нз%{оэØ%} _KUDO-PersPronGen_CX ;
+!@U.PossPx.Pl1@+Gen+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н{оеэ%}к _LAK-PersPronGen_CX ;
+!@U.PossPx.Pl2@+Gen+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк _LAK-PersPronGen_CX ;
+!@U.PossPx.Pl3@+Gen+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст _KIT-PersPronGen_CX ;
+!!!these just go onto the clitics
+!@U.PossPx.Sg2@+Gen+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нтЬ2 K ;
+!@U.PossPx.Pl3@+Gen+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст K ;
 
 LEXICON PersPron_Gen
 @U.PossPx.Sg1@+Gen+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-PersPronGen_CX ;
