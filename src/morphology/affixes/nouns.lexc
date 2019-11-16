@@ -452,7 +452,7 @@ LEXICON N_ROZ1
 
 LEXICON N_IE
 :е N_VELE ;
-+Err/Orth+Pl+Nom+Indef:йть K ;
+@U.CX.NOM@+Err/Orth+Pl+Nom+Indef:@U.CX.NOM@йть K ;
 @P.POS.N@+Err/Orth:@P.POS.N@й NMN_DEF-PL-DECLENSION ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
@@ -1008,8 +1008,10 @@ LEXICON _OSH-N2-Def-Declension
 
 LEXICON _KUDO-N2-Def-Declension
  NMN_DEF-DECLENSION ;
-+SP+Tra+Indef:%>кс K ;
-+SP+Abl+Indef:%>дО1 _KUDO-Conjugation ;
+ ABE-INDEF ;
+ ABL-INDEF ;
+ ILL-INDEF ;
+ TRA-INDEF ;
 
 LEXICON _KUDO-N2-Def-Declension_FRONT
 ! harmony: front
@@ -1242,72 +1244,72 @@ LEXICON SG-NOM-DEF
 !!€ калось: кал+N+Sg+Nom+Def
 !!€ калоськак: кал+N+Sg+Nom+Def+Foc/Гак
 !!$ калосьгак: кал+N+Sg+Nom+Def+Foc/Гак
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%{оеэØ%}сь K ;
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%{оеэØ%}сь CLT/COP_SG ;
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%^NoLinkVowсь K ;
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}сь K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}сь CLT/COP_SG ;
+@U.DECL-NX.SG@@U.CX.NOM@+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
 
 
 LEXICON SG-GEN-DEF
 !!€gt-norm: Noun singular genitive definite
 !!€ калонть: кал+N+Sg+Gen+Def
 !!€ калонтькак: кал+N+Sg+Gen+Def+Foc/Гак
-@U.DECL-NX.SG@@U.DECL-CX.GEN@+Sg+Gen+Def:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>%{оеэØ%}нть K ;
+@U.DECL-NX.SG@@U.CX.GEN@+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>%{оеэØ%}нть K ;
 
 LEXICON SG-DAT-DEF
-@U.DECL-NX.SG@@U.DECL-CX.DAT@+Sg+Dat+Def:@U.DECL-NX.SG@@U.DECL-CX.DAT@%>%{оеэØ%}нтень K ;
-@U.DECL-NX.SG@@U.DECL-CX.DAT@+Dial+Sg+Dat+Def:@U.DECL-NX.SG@@U.DECL-CX.DAT@%>%{оеэØ%}нте K ;
+@U.DECL-NX.SG@@U.CX.DAT@+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>%{оеэØ%}нтень K ;
+@U.DECL-NX.SG@@U.CX.DAT@+Dial+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>%{оеэØ%}нте K ;
 
 LEXICON SG-CMP-DEF
-@U.DECL-NX.SG@@U.DECL-CX.CMP@+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.DECL-CX.CMP@%>%{оеэØ%}шка%>нть K ;
+@U.DECL-NX.SG@@U.CX.CMP@+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.CX.CMP@%>%{оеэØ%}шка%>нть K ;
 
 LEXICON SG-ELA-DEF
-@U.DECL-NX.SG@@U.DECL-CX.ELA@+Sg+Ela+Def:@U.DECL-NX.SG@@U.DECL-CX.ELA@%>ст%{оэØ%}%>нть K ;
+@U.DECL-NX.SG@@U.CX.ELA@+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст%{оэØ%}%>нть K ;
 
 LEXICON SG-INE-DEF
-@U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine+Def:@U.DECL-NX.SG@@U.DECL-CX.INE@%>с%{оэØ%}%>нть K ;
+@U.DECL-NX.SG@@U.CX.INE@+Sg+Ine+Def:@U.DECL-NX.SG@@U.CX.INE@%>с%{оэØ%}%>нть K ;
 
 LEXICON SG-ABL-DEF
-@U.DECL-NX.SG@@U.DECL-CX.ABL@+Sg+Abl+Def:@U.DECL-NX.SG@@U.DECL-CX.ABL@%>дО1%>нть K ;
+@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>дО1%>нть K ;
 
 LEXICON SG-PRL-DEF
-@U.DECL-NX.SG@@U.DECL-CX.PRL@+Sg+Prl+Def:@U.DECL-NX.SG@@U.DECL-CX.PRL@%>Г2а%>нть K ;
+@U.DECL-NX.SG@@U.CX.PRL@+Sg+Prl+Def:@U.DECL-NX.SG@@U.CX.PRL@%>Г2а%>нть K ;
 
 LEXICON SG-ABE-DEF
-@U.DECL-NX.SG@@U.DECL-CX.ABE@+Sg+Abe+Def:@U.DECL-NX.SG@@U.DECL-CX.ABE@%>вт%{оеэ%}мО1%>нть K ;
+@U.DECL-NX.SG@@U.CX.ABE@+Sg+Abe+Def:@U.DECL-NX.SG@@U.CX.ABE@%>вт%{оеэ%}мО1%>нть K ;
 
 LEXICON SG-TRA-DEF
-@U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra+Def:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%{оеэØ%}кс%>%{оеэØ%}нть K ;
+@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>%{оеэØ%}кс%>%{оеэØ%}нть K ;
 
 !LEXICON SG-NOM-DEF_Dial-NW
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.DECL-CX.NOM@%>%^NoLinkVowсь K ;
+!@U.DECL-NX.SG@@U.CX.NOM@+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь K ;
 
 LEXICON SG-GEN-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>сть K ;
+@U.DECL-NX.SG@@U.CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>сть K ;
 
 LEXICON SG-DAT-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.DAT@+Use/-Spell+Sg+Dat+Def:@U.DECL-NX.SG@@U.DECL-CX.DAT@%>стень K ;
+@U.DECL-NX.SG@@U.CX.DAT@+Use/-Spell+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>стень K ;
 
 LEXICON SG-ABL-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.ABL@+Use/-Spell+Sg+Abl+Def:@U.DECL-NX.SG@@U.DECL-CX.ABL@%>дО1%>сть K ;
+@U.DECL-NX.SG@@U.CX.ABL@+Use/-Spell+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>дО1%>сть K ;
 
 LEXICON SG-ELA-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.ELA@+Use/-Spell+Sg+Ela+Def:@U.DECL-NX.SG@@U.DECL-CX.ELA@%>ст%{оэØ%}%>сть K ;
+@U.DECL-NX.SG@@U.CX.ELA@+Use/-Spell+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст%{оэØ%}%>сть K ;
 
 LEXICON SG-INE-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.INE@+Use/-Spell+Sg+Ine+Def:@U.DECL-NX.SG@@U.DECL-CX.INE@%>с%{оэØ%}%>сть K ;
+@U.DECL-NX.SG@@U.CX.INE@+Use/-Spell+Sg+Ine+Def:@U.DECL-NX.SG@@U.CX.INE@%>с%{оэØ%}%>сть K ;
 
 LEXICON SG-PRL-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.PRL@+Use/-Spell+Sg+Prl+Def:@U.DECL-NX.SG@@U.DECL-CX.PRL@%>Г2а%>сть K ;
+@U.DECL-NX.SG@@U.CX.PRL@+Use/-Spell+Sg+Prl+Def:@U.DECL-NX.SG@@U.CX.PRL@%>Г2а%>сть K ;
 
 LEXICON SG-CMP-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.CMP@+Use/-Spell+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.DECL-CX.CMP@%>шка%>сть K ;
+@U.DECL-NX.SG@@U.CX.CMP@+Use/-Spell+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.CX.CMP@%>шка%>сть K ;
 
 LEXICON SG-ABE-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.ABE@+Use/-Spell+Sg+Abe+Def:@U.DECL-NX.SG@@U.DECL-CX.ABE@%>вт%{оеэ%}мО1%>сть K ;
+@U.DECL-NX.SG@@U.CX.ABE@+Use/-Spell+Sg+Abe+Def:@U.DECL-NX.SG@@U.CX.ABE@%>вт%{оеэ%}мО1%>сть K ;
 
 LEXICON SG-TRA-DEF_Dial-NW
-@U.DECL-NX.SG@@U.DECL-CX.TRA@+Use/-Spell+Sg+Tra+Def:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>кс%>%{оеэØ%}сть K ;
+@U.DECL-NX.SG@@U.CX.TRA@+Use/-Spell+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>кс%>%{оеэØ%}сть K ;
 
 
 
@@ -1481,95 +1483,95 @@ LEXICON _MUTUAL-Indef-Declension-SP
 
 !! !!INDEFINITE TAGS
 LEXICON ABE-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.ABE@+SP+Abe+Indef:@U.DECL-NX.SP@@U.DECL-CX.ABE@%>вт%{оеэ%}мО1 _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ABE@+SP+Abe+Indef:@U.DECL-NX.SP@@U.CX.ABE@%>вт%{оеэ%}мО1 _KUDO-Conjugation ;
 
 LEXICON ABL-INDEF
 !!€gt-norm: Noun singular nominative definite
 !!€ калдо: кал+N+SP+Abl+Indef
 !!€ калдояк: кал+N+SP+Abl+Indef+Foc/Гак
-@U.DECL-NX.SP@@U.DECL-CX.ABL@+SP+Abl+Indef:@U.DECL-NX.SP@@U.DECL-CX.ABL@%>дО1 _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ABL@+SP+Abl+Indef:@U.DECL-NX.SP@@U.CX.ABL@%>дО1 _KUDO-Conjugation ;
 
 LEXICON CMP-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.CMP@+SP+Cmpr+Indef:@U.DECL-NX.SP@@U.DECL-CX.CMP@%>шка _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.CMP@+SP+Cmpr+Indef:@U.DECL-NX.SP@@U.CX.CMP@%>шка _KUDO-Conjugation ;
 
 LEXICON COM-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.COM@+SP+Com+Indef:@U.DECL-NX.SP@@U.DECL-CX.COM@%>нек NounEnd_K-lak ;
+@U.DECL-NX.SP@@U.CX.COM@+SP+Com+Indef:@U.DECL-NX.SP@@U.CX.COM@%>нек NounEnd_K-lak ;
 +SP+Com+Indef+Coll:%>нек%-мезнек WORD-END ;
 
 LEXICON DAT-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.DAT@+SP+Dat+Indef:@U.DECL-NX.SP@@U.DECL-CX.DAT@%>нень K ;
+@U.DECL-NX.SP@@U.CX.DAT@+SP+Dat+Indef:@U.DECL-NX.SP@@U.CX.DAT@%>нень K ;
 
 LEXICON ELA-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.DECL-CX.ELA@%>ст%{оэØ%} _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.DECL-CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.DECL-CX.ELA@%>%{оеэØ%}ст%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.CX.ELA@%>ст%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.CX.ELA@%>%{оеэØ%}ст%{оэØ%} _KUDO-Conjugation ;
 
 LEXICON GEN-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.DECL-CX.GEN@%>%{оеэØ%}нь GEN-INDEF-4-Conjugation ;
+@U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.CX.GEN@%>%{оеэØ%}нь GEN-INDEF-4-Conjugation ;
 
 LEXICON ILL-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.DECL-CX.ILL@%>с K ;
-@U.DECL-NX.SP@@U.DECL-CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.DECL-CX.ILL@%>%{оеэØ%}с K ;
+@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.CX.ILL@%>с K ;
+@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.CX.ILL@%>%{оеэØ%}с K ;
 
 LEXICON INE-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.DECL-CX.INE@%>с%{оэØ%} _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.DECL-CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.DECL-CX.INE@%>%{оеэØ%}с%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>с%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>%{оеэØ%}с%{оэØ%} _KUDO-Conjugation ;
 
 LEXICON LAT-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.LAT@+SP+Lat+Indef:@U.DECL-NX.SP@@U.DECL-CX.LAT@%>%{оеэØ%}в K ;
+@U.DECL-NX.SP@@U.CX.LAT@+SP+Lat+Indef:@U.DECL-NX.SP@@U.CX.LAT@%>%{оеэØ%}в K ;
 
 !LEXICON LOC-INDEF
-!@U.DECL-NX.SP@@U.DECL-CX.LOC@!+SP+Loc+Indef:@U.DECL-NX.SP@@U.DECL-CX.LOC@%>%{оеэØ%} K ;
+!@U.DECL-NX.SP@@U.CX.LOC@!+SP+Loc+Indef:@U.DECL-NX.SP@@U.CX.LOC@%>%{оеэØ%} K ;
 
 LEXICON SG-NOM-INDEF
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
-@U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ CLT/COP_SG ;
-@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@ CLT/COP-PRS-PL1 ;
-@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@ CLT/COP-PRS-PL2 ;
-@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@ CLT/COP-PRS-PL3 ;
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ CLT/COP_SG ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRS-PL1 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRS-PL2 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRS-PL3 ;
 
-@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@ CLT/COP-PRT2-PL1 ;
-@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@ CLT/COP-PRT2-PL2 ;
-@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@ CLT/COP-PRT2-PL3 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRT2-PL1 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRT2-PL2 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRT2-PL3 ;
 
 
 !LEXICON SG-NOM-INDEF_KAL
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ CLT/COP_SG ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ CLT/COP_SG ;
 
 !LEXICON SG-NOM-INDEF_KIT
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ CLT/COP_SG ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ CLT/COP_SG ;
 
 !LEXICON SG-NOM-INDEF_LAK
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ CLT/COP_SG ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ CLT/COP_SG ;
 
 !LEXICON SG-NOM-INDEF_OSH
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ CLT/COP_SG ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ CLT/COP_SG ;
 
 !LEXICON SG-NOM-INDEF_PANGO
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ _PANGO-NomSg-Conjugation ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ _PANGO-NomSg-Conjugation ;
 
 !LEXICON SG-NOM-INDEF_KUDO
-!@U.DECL-NX.SG@@U.DECL-CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.DECL-CX.NOM@ _KUDO-NomSg-Conjugation ;
+!@U.DECL-NX.SG@@U.CX.NOM@!+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ _KUDO-NomSg-Conjugation ;
 
 LEXICON PRL-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.PRL@+SP+Prl+Indef:@U.DECL-NX.SP@@U.DECL-CX.PRL@%>Г2а K ;
-@U.DECL-NX.SP@@U.DECL-CX.PRL@+SP+Prl+Indef:@U.DECL-NX.SP@@U.DECL-CX.PRL@%>Г2а CLT/COP4_OBL ;
+@U.DECL-NX.SP@@U.CX.PRL@+SP+Prl+Indef:@U.DECL-NX.SP@@U.CX.PRL@%>Г2а K ;
+@U.DECL-NX.SP@@U.CX.PRL@+SP+Prl+Indef:@U.DECL-NX.SP@@U.CX.PRL@%>Г2а CLT/COP4_OBL ;
 
 LEXICON TMP-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.TEMP@+SP+TempCx+Indef:@U.DECL-NX.SP@@U.DECL-CX.TEMP@%>не K ;
+@U.DECL-NX.SP@@U.CX.TEMP@+SP+TempCx+Indef:@U.DECL-NX.SP@@U.CX.TEMP@%>не K ;
 
 LEXICON TRA-INDEF
-@U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>кс K ;
-@U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>кс CLT/COP4_OBL ;
-@U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>%{оеэØ%}кс K ;
-@U.DECL-NX.SP@@U.DECL-CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.DECL-CX.TRA@%>%{оеэØ%}кс CLT/COP4_OBL ;
+@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>кс K ;
+@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>кс CLT/COP4_OBL ;
+@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>%{оеэØ%}кс K ;
+@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>%{оеэØ%}кс CLT/COP4_OBL ;
 
 LEXICON PL-NOM-INDEF
-@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 _KIT-NomPl-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 _KIT-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 K ;
 
 
 
@@ -1712,38 +1714,38 @@ LEXICON TRA-PX
 
 
 LEXICON NMN_DEF-PL-DECLENSION
-@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@%>тнЕ3 _KUDO-NomPl-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@%>тнЕ3%>нь K ;
-@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@+Pl+Dat+Def:@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@%>тнЕ3%>нень K ;
-@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@+Dial+Pl+Dat+Def:@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@%>тнЕ3%>не K ;
-@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.DEF@+Pl+Abl+Def:@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.DEF@%>тнЕ3%>де _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.DEF@+Pl+Ela+Def:@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.DEF@%>тнЕ3%>стэ _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@+Pl+Ill+Def:@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@%>тнЕ3%>с K ;
-@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.DEF@+Pl+Ine+Def:@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.DEF@%>тнЕ3%>сэ _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.DEF@+Pl+Prl+Def:@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.DEF@%>тнЕ3%>Г2а _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.DEF@+Pl+Cmpr+Def:@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.DEF@%>тнЕ3%>шка _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@+Pl+Com+Def:@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@%>тнЕ3%>нек NounEnd_K-lak ;
-@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.DEF@+Pl+Abe+Def:@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.DEF@%>тнЕ3%>втеме _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.DEF@+Pl+Tra+Def:@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.DEF@%>тнЕ3%>кс _OSH-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@+Pl+Lat+Def:@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@%>тнЕ3%>в K ;
-@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@+Err/Orth+Dial/NW+Pl+Com+Def:@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@%>тнЕ3%>нек NounEnd_K-lak ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@%>тнЕ3 _KUDO-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@%>тнЕ3%>нь K ;
+@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@+Pl+Dat+Def:@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@%>тнЕ3%>нень K ;
+@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@+Dial+Pl+Dat+Def:@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@%>тнЕ3%>не K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.DECL-DX.DEF@+Pl+Abl+Def:@U.DECL-NX.PL@@U.CX.ABL@@U.DECL-DX.DEF@%>тнЕ3%>де _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.ELA@@U.DECL-DX.DEF@+Pl+Ela+Def:@U.DECL-NX.PL@@U.CX.ELA@@U.DECL-DX.DEF@%>тнЕ3%>стэ _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.ILL@@U.DECL-DX.DEF@+Pl+Ill+Def:@U.DECL-NX.PL@@U.CX.ILL@@U.DECL-DX.DEF@%>тнЕ3%>с K ;
+@U.DECL-NX.PL@@U.CX.INE@@U.DECL-DX.DEF@+Pl+Ine+Def:@U.DECL-NX.PL@@U.CX.INE@@U.DECL-DX.DEF@%>тнЕ3%>сэ _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.PRL@@U.DECL-DX.DEF@+Pl+Prl+Def:@U.DECL-NX.PL@@U.CX.PRL@@U.DECL-DX.DEF@%>тнЕ3%>Г2а _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.CMP@@U.DECL-DX.DEF@+Pl+Cmpr+Def:@U.DECL-NX.PL@@U.CX.CMP@@U.DECL-DX.DEF@%>тнЕ3%>шка _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@+Pl+Com+Def:@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@%>тнЕ3%>нек NounEnd_K-lak ;
+@U.DECL-NX.PL@@U.CX.ABE@@U.DECL-DX.DEF@+Pl+Abe+Def:@U.DECL-NX.PL@@U.CX.ABE@@U.DECL-DX.DEF@%>тнЕ3%>втеме _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.TRA@@U.DECL-DX.DEF@+Pl+Tra+Def:@U.DECL-NX.PL@@U.CX.TRA@@U.DECL-DX.DEF@%>тнЕ3%>кс _OSH-Conjugation ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.DECL-DX.DEF@+Pl+Lat+Def:@U.DECL-NX.PL@@U.CX.LAT@@U.DECL-DX.DEF@%>тнЕ3%>в K ;
+@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@+Err/Orth+Dial/NW+Pl+Com+Def:@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@%>тнЕ3%>нек NounEnd_K-lak ;
 
 !! !!Cases for тнэ
 LEXICON NMN_DEF-PL-DECLENSION-TNE2
-@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.DECL-CX.NOM@@U.DECL-DX.DEF@тнэ _KUDO-NomPl-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.DECL-CX.GEN@@U.DECL-DX.DEF@тнэ%>нь K ;
-@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@+Pl+Dat+Def:@U.DECL-NX.PL@@U.DECL-CX.DAT@@U.DECL-DX.DEF@тнэ%>нень K ;
-@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.DEF@+Pl+Abl+Def:@U.DECL-NX.PL@@U.DECL-CX.ABL@@U.DECL-DX.DEF@тнэ%>де _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.DEF@+Pl+Ela+Def:@U.DECL-NX.PL@@U.DECL-CX.ELA@@U.DECL-DX.DEF@тнэ%>стэ _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@+Pl+Ill+Def:@U.DECL-NX.PL@@U.DECL-CX.ILL@@U.DECL-DX.DEF@тнэ%>с K ;
-@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.DEF@+Pl+Ine+Def:@U.DECL-NX.PL@@U.DECL-CX.INE@@U.DECL-DX.DEF@тнэ%>сэ _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.DEF@+Pl+Prl+Def:@U.DECL-NX.PL@@U.DECL-CX.PRL@@U.DECL-DX.DEF@тнэ%>Г2а _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.DEF@+Pl+Cmpr+Def:@U.DECL-NX.PL@@U.DECL-CX.CMP@@U.DECL-DX.DEF@тнэ%>шка _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@+Pl+Com+Def:@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@тнэ%>нек NounEnd_K-lak ;
-@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.DEF@+Pl+Abe+Def:@U.DECL-NX.PL@@U.DECL-CX.ABE@@U.DECL-DX.DEF@тнэ%>втеме _KUDO-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.DEF@+Pl+Tra+Def:@U.DECL-NX.PL@@U.DECL-CX.TRA@@U.DECL-DX.DEF@тнэ%>кс _OSH-Conjugation ;
-@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@+Pl+Lat+Def:@U.DECL-NX.PL@@U.DECL-CX.LAT@@U.DECL-DX.DEF@тнэ%>в K ;
-@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@+Err/Orth+Dial/NW+Pl+Com+Def:@U.DECL-NX.PL@@U.DECL-CX.COM@@U.DECL-DX.DEF@тнэ%>нек NounEnd_K-lak ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@тнэ _KUDO-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@тнэ%>нь K ;
+@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@+Pl+Dat+Def:@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@тнэ%>нень K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.DECL-DX.DEF@+Pl+Abl+Def:@U.DECL-NX.PL@@U.CX.ABL@@U.DECL-DX.DEF@тнэ%>де _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.ELA@@U.DECL-DX.DEF@+Pl+Ela+Def:@U.DECL-NX.PL@@U.CX.ELA@@U.DECL-DX.DEF@тнэ%>стэ _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.ILL@@U.DECL-DX.DEF@+Pl+Ill+Def:@U.DECL-NX.PL@@U.CX.ILL@@U.DECL-DX.DEF@тнэ%>с K ;
+@U.DECL-NX.PL@@U.CX.INE@@U.DECL-DX.DEF@+Pl+Ine+Def:@U.DECL-NX.PL@@U.CX.INE@@U.DECL-DX.DEF@тнэ%>сэ _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.PRL@@U.DECL-DX.DEF@+Pl+Prl+Def:@U.DECL-NX.PL@@U.CX.PRL@@U.DECL-DX.DEF@тнэ%>Г2а _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.CMP@@U.DECL-DX.DEF@+Pl+Cmpr+Def:@U.DECL-NX.PL@@U.CX.CMP@@U.DECL-DX.DEF@тнэ%>шка _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@+Pl+Com+Def:@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@тнэ%>нек NounEnd_K-lak ;
+@U.DECL-NX.PL@@U.CX.ABE@@U.DECL-DX.DEF@+Pl+Abe+Def:@U.DECL-NX.PL@@U.CX.ABE@@U.DECL-DX.DEF@тнэ%>втеме _KUDO-Conjugation ;
+@U.DECL-NX.PL@@U.CX.TRA@@U.DECL-DX.DEF@+Pl+Tra+Def:@U.DECL-NX.PL@@U.CX.TRA@@U.DECL-DX.DEF@тнэ%>кс _OSH-Conjugation ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.DECL-DX.DEF@+Pl+Lat+Def:@U.DECL-NX.PL@@U.CX.LAT@@U.DECL-DX.DEF@тнэ%>в K ;
+@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@+Err/Orth+Dial/NW+Pl+Com+Def:@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@тнэ%>нек NounEnd_K-lak ;
 
 
 

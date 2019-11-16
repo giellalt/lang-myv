@@ -100,6 +100,7 @@ LIST CCC = CC ;
 SET CC = CCC - ("sihke") ;
 SET CC-CS = CC OR CS ;
 LIST Po = Po ;
+LIST Adp = Adp ;
 #LIST Pr = Pr ;
 LIST Pcle = Pcle ;
 LIST Num = Num ;
@@ -319,7 +320,8 @@ LIST Der/шка = Der/шка ;
 LIST Der/Онь = Der/Онь ;
 LIST Der/ай = Der/ай ;
 LIST Der/кай = Der/кай ;
-LIST Der/Ы = Der/Ы ;
+LIST Der/Y = Der/Y ;
+LIST Der/Ycja = Der/Ycja ;
 LIST Der/стО = Der/стО ;
 LIST Der/ОвОмс = Der/ОвОмс ;
 LIST Der/ОвтОмс = Der/ОвтОмс ;
@@ -384,7 +386,7 @@ LIST 2VDerTag = Der/немс ; #!! 2VDerTag
 LIST 2NDerTag = Der/кс ; #!! 2NDerTag
 LIST DerGenAttr = Der/GenAttr ;
 
-LIST DerTag = Der/MWN Der/немс Der/Ы ; #!! DerTag
+LIST DerTag = Der/MWN Der/немс Der/Y ; #!! DerTag
 
 # Noun sets
 
@@ -412,7 +414,7 @@ REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ;
 REMOVE Der/Dimin (0C N ) ;
 
 # short participles should be written with the following noun? new orthographic practice 1993
-REMOVE:RemoveShortPrc Der/Ы (0 VFIN) ;
+REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
 
 #Ракасть кавто мирде мартонть лангсо,... the one with two husbands
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
@@ -420,6 +422,15 @@ REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 
 #Лиясто кевкстнить эйсэнь.
 REMOVE 2VDerTag (0C V) ; #2017-11-05
+
+#Сынь пурнасть урьвакстомо-венчамо.
+#(NOT -1* VFIN BARRIER EOS);
+REMOVE:verbPrt1Sg1Sams V IF (0 Pron + Pers + Pl3 + Nom)(1* ScPl3 BARRIER EOS);
+
+# тень лангс
+REMOVE:pronPersSg1Dat Pers IF (0 Pron + Dem + Sg + Gen)(1 Adp);
+
+
 
 #ёнкссонть
 REMOVE 2NDerTag (0C N) ; #2017-11-05
@@ -533,8 +544,8 @@ SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWIT
 SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 
 
-#молить V TV Der/Ы Der/NomAg N Pl Gen PxSg2
-REMOVE Der/Ы + Der/NomAg IF (0 PXPERSON) ;
+#молить V TV Der/Y Der/NomAg N Pl Gen PxSg2
+REMOVE Der/Y + Der/NomAg IF (0 PXPERSON) ;
 
 
 #Der/MWN N Sg Gen Def
@@ -606,7 +617,7 @@ REMOVE Der/Pr IF (0 Det + Qnt) (1C N + Sg + Nom + Indef ) ;
 REMOVE ConNeg IF (1C V + SCPERSON ) ;
 
 # actprcshort
-REMOVE Der/Ы IF (0 SCPERSON) (1 Adv) ;
+REMOVE Der/Y IF (0 SCPERSON) (1 Adv) ;
 
 ## Pronouns
 
