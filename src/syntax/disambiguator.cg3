@@ -208,6 +208,8 @@ LIST SgGenCmp = SgGenCmp ;
 
 LIST ShCmp = ShCmp ;
 
+LIST Cmp = Cmp ;
+
 LIST Def = Def ;
 #LIST Indef = Indef ; already exists
 
@@ -323,7 +325,7 @@ LIST Der/кай = Der/кай ;
 LIST Der/Y = Der/Y ;
 LIST Der/Ycja = Der/Ycja ;
 LIST Der/стО = Der/стО ;
-LIST Der/ОвОмс = Der/ОвОмс ;
+LIST Der/Ovoms = Der/OvOms ; #Der/ОвОмс 
 LIST Der/ОвтОмс = Der/ОвтОмс ;
 LIST Der/Dimin = Der/Dimin ;
 
@@ -412,6 +414,14 @@ REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ;
 
 # пельнеть
 REMOVE Der/Dimin (0C N ) ;
+
+# тетянзо-аванзо THIS is not working 2019-11-25
+#REMOVE Cmp (0C N ) ;
+
+REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
+
+# 
+#REMOVE Der/ОвОмс (0C V) ;
 
 # short participles should be written with the following noun? new orthographic practice 1993
 REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
@@ -506,7 +516,7 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 
 # Verbs
 # Кудонть потс кадовсть ансяк
-REMOVE Der/ОвОмс IF (0 V + IV) ;
+REMOVE Der/Ovoms IF (0 V + IV) ;
 
 # улить
 REMOVE Prt1 IF (0 ULEMS) ; 
