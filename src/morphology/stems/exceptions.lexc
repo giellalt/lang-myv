@@ -241,3 +241,66 @@ LEXICON EXCEPTIONS
 пильге+N:пильг N_TINGE ;
 чакш+N:чакш N_OSH ;
 эрьге+N:эрьг N_TINGE ;
+
+
+!! COLLECTIVE NOUNS
+тетят-цёрат+N:тетя N_TET1AT-TSORAT ;
+ават-цёрат+N:ава N_TET1AT-TSORAT ;
+бабат-цёрат+N:баба N_TET1AT-TSORAT ;
+урьват-цёрат+N:урьва N_TET1AT-TSORAT ;
+
+тейтерть-цёрат+N:тейтер  N_TEJTERT1-TSORAT ;
+
+тетят-ават+N:тетя N_TET1AT-AVAT ;
+
+LEXICON N_TET1AT-TSORAT
++Com:%>нек-цёранек K ;
++Pl+Nom+Indef:%>т-цёрат K ;
++Pl+Nom+Def:%>тне-цёратне K ;
++Pl+Gen+Def:%>тнень-цёратнень K ;
++Pl+Abl+Def:%>тнеде-цёратнеде K ;
+
+LEXICON N_TEJTERT1-TSORAT
++Com:%>нек-цёранек K ;
++Pl+Nom+Indef:%>ть-цёрат K ;
++Pl+Nom+Def:%>тне-цёратне K ;
++Pl+Gen+Def:%>тнень-цёратнень K ;
++Pl+Abl+Def:%>тнеде-цёратнеде K ;
+
+LEXICON N_TET1AT-AVAT
++Com:%>нек-аванек K ;
++Sg+Nom+Def:%>сь-авась K ;
++Sg+Gen+Def:%>нть-аванть K ;
++Sg+Dat+Def:%>нтень-авантень K ;
++Pl+Nom+Indef:%>ть-ават K ;
++Pl+Nom+Def:%>тне-аватне K ;
++Pl+Gen+Def:%>тнень-аватнень K ;
++Pl+Dat+Def:%>тненень-аватненень K ;
++Pl+Abl+Def:%>тнеде-аватнеде K ;
+
++Pl+Nom+PxSg1:%>н-аван K ;
++Pl+Nom+PxSg1:%>м-авам K ;
++Pl+Gen+PxSg1:%>нь-авань K ;
++Pl+Abl+PxSg1:%>дон-авадон K ;
++Pl+Nom+PxSg2:%>т-ават K ;
++Pl+Gen+PxSg2:%>ть-авать K ;
++Pl+Abl+PxSg2:%>дот-авадот K ;
++Sg+Nom+PxSg3:%>зо-авазо K ;
++Pl+Nom+PxSg3:%>нзо-аванзо K ;
++Pl+Gen+PxSg3:%>нзо-аванзо K ;
++Pl+Dat+PxSg3:%>нстэнь-аванстэнь K ;
++Pl+Abl+PxSg3:%>донзо-авадонзо K ;
++Pl+Nom+PxPl1:%>нок-аванок K ;
++Pl+Gen+PxPl1:%>нок-аванок K ;
++Pl+Abl+PxPl1:%>донок-авадонок K ;
++Pl+Nom+PxPl2:%>нк-аванк K ;
++Pl+Gen+PxPl2:%>нк-аванк K ;
++Pl+Abl+PxPl2:%>донк-авадонк K ;
++Pl+Nom+PxPl3:%>ст-аваст K ;
++Pl+Gen+PxPl3:%>ст-аваст K ;
++Pl+Abl+PxPl3:%>дост-авадост K ;
++SP+Abe+Indef:%>втомо-ававтомо K ;
++SP+Abl+Indef:%>до-авадо K ;
++SP+Ela+Indef:%>сто-авасто K ;
++SP+Tra+Indef:%>кс-авакс K ;
++SP+Dat+Indef:%>нень-аванень K ;
