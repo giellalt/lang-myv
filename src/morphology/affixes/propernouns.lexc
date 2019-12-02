@@ -79,16 +79,16 @@ LEXICON Deriv-RUS-IN_SURMAL
 
 
 LEXICON PROP_KAL_SURMAL
-+Sem/Sur_Mal: N_KAL-Derivation ;
-+Sem/Sur_Mal: N_KAL-Def-Declension ;
-+Sem/Sur_Mal: _KAL-Indef-Declension ;
-+Sem/Sur_Mal: N_KAL-Poss-Declension-CX ;
++Sem/Sur-Mal: N_KAL-Derivation ;
++Sem/Sur-Mal: N_KAL-Def-Declension ;
++Sem/Sur-Mal: _KAL-Indef-Declension ;
++Sem/Sur-Mal: N_KAL-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO_SURFEM
-+Sem/Sur_Fem: N_KUDO-Derivation ;
-+Sem/Sur_Fem: NMN_DEF-DECLENSION ;
-+Sem/Sur_Fem: _KUDO-Indef-Declension ;
-+Sem/Sur_Fem: N_KUDO-Poss-Declension-CX ;
++Sem/Sur-Fem: N_KUDO-Derivation ;
++Sem/Sur-Fem: NMN_DEF-DECLENSION ;
++Sem/Sur-Fem: _KUDO-Indef-Declension ;
++Sem/Sur-Fem: N_KUDO-Poss-Declension-CX ;
 
 LEXICON CYRL-CONS_SUR
  PROP_KAL_SUR ;
@@ -316,17 +316,17 @@ LEXICON PROP_KUDO
 
 
 LEXICON PROP_KAL_MAL
-+Sem/Ant_Mal: NMN_KAL ;
++Sem/Ant-Mal: NMN_KAL ;
 
 LEXICON PROP_LAK_MAL
-+Sem/Ant_Mal: NMN_LAK ;
++Sem/Ant-Mal: NMN_LAK ;
 
 LEXICON PROP_KIT_MAL
-+Sem/Ant_Mal: NMN_KIT ;
++Sem/Ant-Mal: NMN_KIT ;
 +Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_OSH_MAL
-+Sem/Ant_Mal: NMN_OSH ;
++Sem/Ant-Mal: NMN_OSH ;
 
 !LEXICON PROP_TESHTE_MAL
 ! PROP_PANGO_MAL ;
@@ -335,23 +335,23 @@ LEXICON PROP_OSH_MAL
 ! PROP_PANGO_MAL ;
 
 !LEXICON PROP_PANGO_MAL
-!+Sem/Ant_Mal: NMN_PANGO ;
+!+Sem/Ant-Mal: NMN_PANGO ;
 
 LEXICON PROP_KUDO_MAL
-+Sem/Ant_Mal: NMN_KUDO ;
++Sem/Ant-Mal: NMN_KUDO ;
 
 LEXICON PROP_KAL_FEM
-+Sem/Ant_Fem: NMN_KAL ;
++Sem/Ant-Fem: NMN_KAL ;
 
 !LEXICON PROP_LAK_FEM
-!+Sem/Ant_Fem: NMN_LAK ;
+!+Sem/Ant-Fem: NMN_LAK ;
 
 LEXICON PROP_KIT_FEM
-+Sem/Ant_Fem: NMN_KIT ;
-+Sem/Ant_Fem+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Sem/Ant-Fem: NMN_KIT ;
++Sem/Ant-Fem+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_OSH_FEM
-+Sem/Ant_Fem: NMN_OSH ;
++Sem/Ant-Fem: NMN_OSH ;
 
 !LEXICON PROP_TESHTE_FEM
 ! PROP_PANGO_FEM ;
@@ -360,23 +360,23 @@ LEXICON PROP_OSH_FEM
 ! PROP_PANGO_FEM ;
 
 !LEXICON PROP_PANGO_FEM
-!+Sem/Ant_Fem: NMN_PANGO ;
+!+Sem/Ant-Fem: NMN_PANGO ;
 
 LEXICON PROP_KUDO_FEM
-+Sem/Ant_Fem: NMN_KUDO ;
++Sem/Ant-Fem: NMN_KUDO ;
 
 
 LEXICON PROP_OSH_PATRMAL
-+Sem/Patr_Mal: N_OSH-Derivation ;
-+Sem/Patr_Mal: N_OSH-Def-Declension ;
-+Sem/Patr_Mal: _OSH-Indef-Declension ;
-+Sem/Patr_Mal: N_OSH-Poss-Declension-CX ;
++Sem/Patr-Mal: N_OSH-Derivation ;
++Sem/Patr-Mal: N_OSH-Def-Declension ;
++Sem/Patr-Mal: _OSH-Indef-Declension ;
++Sem/Patr-Mal: N_OSH-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO_PATRFEM
-+Sem/Patr_Fem: N_KUDO-Derivation ;
-+Sem/Patr_Fem: NMN_DEF-DECLENSION ;
-+Sem/Patr_Fem: _KUDO-Indef-Declension ;
-+Sem/Patr_Fem: N_KUDO-Poss-Declension-CX ;
++Sem/Patr-Fem: N_KUDO-Derivation ;
++Sem/Patr-Fem: NMN_DEF-DECLENSION ;
++Sem/Patr-Fem: _KUDO-Indef-Declension ;
++Sem/Patr-Fem: N_KUDO-Poss-Declension-CX ;
 
 LEXICON PROP_NIZE
 +Sg+Nom+PxSg3:%>зэ K ;
