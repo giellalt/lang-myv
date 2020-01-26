@@ -7,7 +7,7 @@
 !! !!Closed class personal pronouns
 ! ------------------------------
 LEXICON PRONOUN-TYPES
-! PERS ;
+ PERS ;
 ! INTERR ;
 ! INDEFINITE-PRON ;
 ! NEG-PRON ;
@@ -85,101 +85,108 @@ LEXICON ADV-INTERR-OBJ_MEZE_IS-TRA
 +Adv+Interr+Tra:%>кс WORD-END ;
 
 LEXICON PRON-PERS-SG1 !! мон:мо
-+Sg1+Abe:нтемень K ;
-+Sg1+Abl:ндень K ;
-+Sg1+Cmpr:ншкан K ;
-+Sg1+Ela:ньстэнь K ;
-+Sg1+Gen:нь K ;
-+Sg1+Ill:ньзэнь K ;
-+Sg1+Ine:ньсэнь K ;
-+Sg1+Nom:н K ;
-+Sg1+Prl:ньган K ;
-+Sg1+Tra:ньксэнь K ;
++Abe:нтемень K ;
++Abl:ндень K ;
++Cmpr:ншкан K ;
++Dat+Long:нень K ;
++Ela:ньстэнь K ;
++Gen:нь K ;
++Ill:ньзэнь K ;
++Ine:ньсэнь K ;
++Nom:н K ;
++Prl:ньган K ;
++Tra:ньксэнь K ;
 
-!@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@+Pers+Sg1:@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
-!+Err/Orth+Dial+Pers+Sg1+Abl+NoPoss:нде K ;
-!+Err/Orth+Dial+Pers+Sg1+Refl+Abe+NoPoss:нстеме K ;
-!+Pers+Sg1+Pron+Dem:нете _KUDO-PersPronGen_CX ;
+!@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@:@P.PossPx.Sg1@@P.TNUM.SG@@P.TPERS.1@ Pers_Pronouns1 ;
+!+Err/Orth+Dial+Abl+NoPoss:нде K ;
+!+Err/Orth+Dial+Refl+Abe+NoPoss:нстеме K ;
+!+Pron+Dem:нете _KUDO-PersPronGen_CX ;
 
 LEXICON PRON-PERS-SG2 !! тон:то
-+Sg2+Abe:нтеметь K ;
-+Sg2+Abl:ндеть K ;
-+Sg2+Cmpr:ншкат K ;
-+Sg2+Ela:ньстэть K ;
-+Sg2+Gen:нь K ;
-+Sg2+Gen:нть K ;
-+Sg2+Ill:ньзэть K ;
-+Sg2+Ine:ньсэть K ;
-+Sg2+Nom:н K ;
-+Sg2+Prl:ньгат K ;
-+Sg2+Tra:ньксэть K ;
++Abe:нтеметь K ;
++Abl:ндеть K ;
++Cmpr:ншкат K ;
++Dat+Long:неть K ;
++Ela:ньстэть K ;
++Gen:нь K ;
++Gen:нть K ;
++Ill:ньзэть K ;
++Ine:ньсэть K ;
++Nom:н K ;
++Prl:ньгат K ;
++Tra:ньксэть K ;
 
-!@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@+Pers+Sg2:@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
+!@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@:@P.PossPx.Sg2@@P.TNUM.SG@@P.TPERS.2@ Pers_Pronouns1 ;
 !+Err/Orth+Dial+Pers+Sg2+Abl+NoPoss:нде K ;
 !+Err/Orth+Dial+Pers+Sg2+Refl+Abe+NoPoss:нстеме K ;
 !+Pers+Sg2+Pron+Dem:нете _KUDO-PersPronGen_CX ;
 
 LEXICON PRON-PERS-SG3 !! сон:со
-+Sg3+Abe:нтемензэ K ;
-+Sg3+Abl:ндензэ K ;
-+Err/Orth+Sg3+Abl:ндедензэ K ;
-+Sg3+Cmpr:ньшканзо K ;
-+Sg3+Ela:ньстэнзэ K ;
-+Sg3+Gen:нзэ GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
-+Err/Orth+Sg3+Gen:нзо K ;
-+Sg3+Ill:ньзэнзэ K ;
-+Sg3+Ine:ньсэнзэ K ;
-+Sg3+Nom:н K ;
-+Sg3+Prl:ньганзо K ;
-+Sg3+Tra:ньксэнзэ K ;
++Abe:нтемензэ K ;
++Abl:ндензэ K ;
++Err/Orth+Abl:ндедензэ K ;
++Cmpr:ньшканзо K ;
++Dat+Long:нензэ K ;
++Ela:ньстэнзэ K ;
++Gen:нзэ GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
++Err/Orth+Gen:нзо K ;
++Ill:ньзэнзэ K ;
++Ine:ньсэнзэ K ;
++Nom:н K ;
++Prl:ньганзо K ;
++Tra:ньксэнзэ K ;
 
-+Err/Orth+Sg3+Gen+Der/MWN+Sg+Abl+Def:ндензэнть K ; !сонзэденть
++Err/Orth+Gen+Der/MWN+Sg+Abl+Def:ндензэнть K ; !сонзэденть
 
-!@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@+Pers+Sg3:@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
+!@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@:@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
 
 LEXICON GEN-PERS-PRON-MWN_OR_PRED_OR_K
 +Der/MWN: _KUDO-N2-Def-Declension ;
  OBL-WITH-COP_KAL ;
 
 LEXICON PRON-PERS-PL1 !! минь:
-+Pl1+Abe:нтеменек K ;
-+Pl1+Abl:нденек K ;
-+Pl1+Cmpr:ньшканок K ;
-+Pl1+Ela:ньстэнек K ;
-+Pl1+Gen:нек GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
-+Pl1+Ill:ньзэнек K ;
-+Pl1+Ine:ньсэнек K ;
-+Pl1+Nom:нь K ;
-+Pl1+Prl:ньганок K ;
-+Pl1+Tra:ньксэнек K ;
-!@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@+Pers+Pl1:@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
++Abe:нтеменек K ;
++Abl:нденек K ;
++Cmpr:ньшканок K ;
++Dat+Long:ненек K ;
++Ela:ньстэнек K ;
++Gen:нек GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
++Ill:ньзэнек K ;
++Ine:ньсэнек K ;
++Nom:нь K ;
++Prl:ньганок K ;
++Tra:ньксэнек K ;
+!@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@:@P.PossPx.Pl1@@P.TNUM.PL@@P.TPERS.1@ Pers_Pronouns1 ;
 
 LEXICON PRON-PERS-PL2 !! тынь:ты
-+Pl2+Abe:нтеменк K ;
-+Pl2+Abl:нденк K ;
-+Pl2+Cmpr:ньшканк K ;
-+Pl2+Ela:ньстэнк K ;
-+Pl2+Gen:нк GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
-+Pl2+Ill:ньзэнк K ;
-+Pl2+Ine:ньсэнк K ;
-+Pl2+Nom:нь K ;
-+Pl2+Prl:ньганк K ;
-+Pl2+Tra:ньксэнк K ;
++Abe:нтеменк K ;
++Abl:нденк K ;
++Cmpr:ньшканк K ;
++Dat+Long:ненк K ;
++Ela:ньстэнк K ;
++Gen:нк GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
++Ill:ньзэнк K ;
++Ine:ньсэнк K ;
++Nom:нь K ;
++Prl:ньганк K ;
++Tra:ньксэнк K ;
 
-!@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@+Pers+Pl2:@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
+!@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@:@P.PossPx.Pl2@@P.TNUM.PL@@P.TPERS.2@ Pers_Pronouns1 ;
 LEXICON PRON-PERS-PL3 !! сынь:сы
-+Pl3+Abe:нтемест K ;
-+Pl3+Abl:ндест K ;
-+Pl3+Cmpr:ньшкаст K ;
-+Pl3+Ela:ньстэст K ;
-+Pl3+Gen:нст GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
-+Pl3+Ill:ньзэст K ;
-+Pl3+Ine:ньсэст K ;
-+Pl3+Nom:нь K ;
-+Pl3+Prl:ньгаст K ;
-+Pl3+Tra:ньксэст K ;
++Abe:нтемест K ;
++Abl:ндест K ;
++Cmpr:ньшкаст K ;
++Dat+Long:нест K ;
++Dat+Long:ненст K ;
++Ela:ньстэст K ;
++Gen:нст GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
++Ill:ньзэст K ;
++Ine:ньсэст K ;
++Nom:нь K ;
++Prl:ньгаст K ;
++Tra:ньксэст K ;
 
-!@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@+Pers+Pl3:@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
+!@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@:@P.PossPx.Pl3@@P.TNUM.PL@@P.TPERS.3@ Pers_Pronouns1 ;
 !LEXICON IS_PRON-PERS-PL3-DAT !!= * @CODE@ сыненст
 !+Pers+Pl3+Dat: K ;
 !LEXICON PRON-REFL_E2S1 !!= @CODE@ !!эсь:эсь
@@ -200,15 +207,14 @@ LEXICON PERS
 сон+Pron+Pers+Sg3+Dat+Short:тензэ K ;
 сон+Pron+Pers+Pl3+Dat+Short:тест K ;
 сон+Pron+Pers+Pl3+Dat+Short:тенст K ;
-сон+Pron+Pers+Pl3+Dat+Long:сыненст K ;
 
-мон+Pron+Pers:мо PRON-PERS-SG1 ;
-тон+Pron+Pers:то  PRON-PERS-SG2 ;
-сон+Pron+Pers:со  PRON-PERS-SG3 ;
+мон+Pron+Pers+Sg1:мо PRON-PERS-SG1 ;
+тон+Pron+Pers+Sg2:то  PRON-PERS-SG2 ;
+сон+Pron+Pers+Sg3:со  PRON-PERS-SG3 ;
 
-мон+Pron+Pers:ми PRON-PERS-PL1 ;
-тон+Pron+Pers:ты PRON-PERS-PL2 ;
-сон+Pron+Pers:сы PRON-PERS-PL3 ;
+мон+Pron+Pers+Pl1:ми PRON-PERS-PL1 ;
+тон+Pron+Pers+Pl2:ты PRON-PERS-PL2 ;
+сон+Pron+Pers+Pl3:сы PRON-PERS-PL3 ;
 
 
 
