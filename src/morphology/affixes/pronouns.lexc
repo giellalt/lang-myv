@@ -12,6 +12,7 @@ LEXICON PRONOUN-TYPES
 ! INDEFINITE-PRON ;
 ! NEG-PRON ;
  COLL-PRON ;
+ PRON-DEM ;
 
 
 
@@ -587,6 +588,21 @@ LEXICON PRON_
 : K ;
 
 !! Demonstrative
+
+LEXICON PRON-DEM
+се+Pron+Dem:се PRON-DEM-CASE ;
+!те+Pron+Dem:те PRON-DEM-CASE ;
+
+LEXICON PRON-DEM-CASE
++Sg+Gen:%>нь K ; 
++Sg+Abl:%>нде K ; 
++Sg+Ela:%>ньстэ K ; 
++Sg+Ill:%>ньс K ; 
++Sg+Ine:%>ньсэ K ; 
++Sg+Nom: K ; 
++Pl+Nom+Indef:%>ть K ; 
++Pl+Nom+Def:%>тне K ; 
+
 LEXICON PRON-IS-DEM_ISTJAMO !FIXME
 DET-IS-DEM_ISTJAMO ;
 LEXICON DET-IS-DEM_ISTJAMO !! истямо:истя
