@@ -257,6 +257,7 @@ LIST Conj = Conj ;
 LIST Des = Des ;
 LIST Ind = Ind ;
 LIST Opt = Opt ;
+LIST Proh = Proh ;
 
 LIST Imprt = Imprt ;
 
@@ -326,6 +327,7 @@ LIST Der/Y = Der/Y ;
 LIST Der/Ycja = Der/Ycja ;
 LIST Der/стО = Der/стО ;
 LIST Der/Ovoms = Der/OvOms ; #Der/ОвОмс 
+LIST Der/OvtOms = Der/Ovtoms ; #Der/ОвтОмс
 LIST Der/ОвтОмс = Der/ОвтОмс ;
 LIST Der/Dimin = Der/Dimin ;
 
@@ -384,11 +386,11 @@ LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ;
 SET WORD = N | V | A | Po | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
 #!! !Derivation tags
-LIST 2VDerTag = Der/немс ; #!! 2VDerTag
+LIST 2VDerTag = Der/njems Der/немс Der/OvtOms ; #!! 2VDerTag
 LIST 2NDerTag = Der/кс ; #!! 2NDerTag
 LIST DerGenAttr = Der/GenAttr ;
 
-LIST DerTag = Der/MWN Der/немс Der/Y ; #!! DerTag
+LIST DerTag = Der/MWN Der/njems Der/немс Der/Y ; #!! DerTag
 
 # Noun sets
 
@@ -477,6 +479,11 @@ REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT
 #Микол таргизе кисетэнзэ.
 #REMOVE Nom (*-1C Nom) (0 Gen) ; too powerful
 
+# весемеде мазый
+REMOVE:NoNIfAwithPreviousSuperl N (-1 Superl) (0 A);
+
+# весемеде мазый
+REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 
 
 #Молян верев.
@@ -528,17 +535,18 @@ REMOVE Prs IF (0 ULYNEMS) ;
 SELECT ScPl2 IF (-1 Pron + Pers + Pl2 + Nom) (0 V) ;
 
 # эзинь прядо
-SELECT ConNeg IF (-1 Aux + Neg ) ;
+SELECT ConNeg IF (-1 Aux + Neg OR Aux + Proh ) ;
 
 # Минь пурнатано вий.
-REMOVE ConNeg IF (NOT -1 Aux + Neg) ;
+REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
 
 # якамонзо якизе
 #REMOVE TV IF (0 JAKAMS) ((NOT *-1) OR (NOT *1  )) ;
 
+# иля сёвно
 #Кода понгсь минь сынст ней а виднесынек.
 # — Кияк эзь учне тень.
-REMOVE Clt/Cop ((*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN)) ;
+REMOVE Clt/Cop ((-1 Aux + Proh) OR (*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN)) ;
 #REMOVE Clt/Cop IF (0 ConNeg) (-1 VFIN) ;
 
 # содан = V not N for 1st and 2nd person
@@ -629,12 +637,25 @@ REMOVE ConNeg IF (1C V + SCPERSON ) ;
 # actprcshort
 REMOVE Der/Y IF (0 SCPERSON) (1 Adv) ;
 
+## Determiners
+
+# remove Determiner
+# те аволь сэрей
+REMOVE:DetIfPronFollowingNotN Det IF (0 Pron) (NOT 1 N OR A ) ;
+
 ## Pronouns
+
+# те цецянть
+# REMOVE
 
 # remove plural stems
 REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 
+
 ## Adpositions
+
+# кедьсэм
+REMOVE:PoIfAdp Po IF (0 Adp) ;
 
 # тыньгак каршо а ультядо
 REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;
