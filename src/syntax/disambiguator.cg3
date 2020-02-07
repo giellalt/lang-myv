@@ -350,6 +350,7 @@ LIST ULYNEMS = "ульнемс" ;
 LIST JALGA = "ялга" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
+LIST RELATORSNomGen =  "бока" "бокасо" "бокас" "бокасто" "ваксс" "вакссо" "вакссто" "вакска"  "ланга""ланго" "лангс" "лангсо" "лангсто" "маласо" "малас" "маласто" "малава" "чире" "чирева" "чирес" "чиресэ" "чирестэ"  ;
 LIST NONSENSESURANT = "Ней" ;
 LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; #!! This will be expanded for homonymy at first
 
@@ -546,8 +547,11 @@ REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
 # иля сёвно
 #Кода понгсь минь сынст ней а виднесынек.
 # — Кияк эзь учне тень.
-REMOVE Clt/Cop ((-1 Aux + Proh) OR (*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN)) ;
+REMOVE Clt/Cop ((-1 Aux + Proh) OR (*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN) OR (0  Prs + ScSg3)) ;
 #REMOVE Clt/Cop IF (0 ConNeg) (-1 VFIN) ;
+
+# цёра
+#REMOVE:NoCopSgNom ScSg3 IF (0 Clt/Cop + Prs) ;
 
 # содан = V not N for 1st and 2nd person
 REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
@@ -621,6 +625,12 @@ SELECT CC IF (0 CC) (-1 ANT + Sg + Nom ) (1 ANT + Pl + Nom ) ;
 
 # Select the postposition марто when it is preceded by genitive definite 
 SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
+
+# пандо лангсо
+REMOVE:NoAblPrecedingLangS Abl IF (0 Nom OR Gen) (1 RELATORSNomGen ) ; 
+
+# пандо лангсо
+REMOVE:NoCopPrecedingLangS Clt/Cop IF (0C Nom) (1 RELATORSNomGen ) ;
 
 # Remove der_pr vblex ind prs scsg3 reading if following word is finite verb Careful
 # шказо сась
