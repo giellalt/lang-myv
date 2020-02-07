@@ -42,6 +42,21 @@ LEXICON EXCEPTIONS
 ломань+N+Pl+Nom+Indef+Err/Orth:ломать K ;
 ломань+N+Err/Orth:лома NMN_DEF-PL-DECLENSION ;
 
+Ерусалим+v2+N+Prop+Sem/Plc:Іерусалим PROP-PLC_KAL "Z" ;
+Вифсфагия+v1+N+Prop+Sem/Plc:Вифсфагия PROP-PLC_KUDO "Z" ;
+Вифсфагия+v2+N+Prop+Sem/Plc:Виѳсфагія PROP-PLC_KUDO "Z" ;
+Вифания+v1+N+Prop+Sem/Plc:Вифания PROP-PLC_KUDO "Z" ;
+Вифания+v2+N+Prop+Sem/Plc:Виѳанія PROP-PLC_KUDO "Z" ;
+Гефсимания+v1+N+Prop+Sem/Plc:Гефсимания PROP-PLC_KUDO "Z" ;
+Гефсимания+v2+N+Prop+Sem/Plc:Геѳсиманія PROP-PLC_KUDO "Z" ;
+Голгофа+v1+N+Prop+Sem/Plc:Голгофа PROP-PLC_KUDO "Z" ;
+Голгофа+v2+N+Prop+Sem/Plc:Голгоѳа PROP-PLC_KUDO "Z" ;
+Вифсаида+v1+N+Prop+Sem/Ant-Mal:Вифсаида PROP_KUDO "Z" ;
+Вифсаида+v2+N+Prop+Sem/Ant-Mal:Виѳсаида PROP_KUDO "Z" ;
+
+Илѝ+N+F:Илѝ N_KUDO "Пазом" ;
+
+
 !! Some of the nouns have special forms for Gen PxSg1 and PxSg2:
 ялга+N:ялга N_KIN-TYPE-PX-GEN-SG1-SG2 ;
 шабра+N:шабра N_KIN-TYPE-PX-GEN-SG1-SG2 ;
@@ -161,44 +176,44 @@ LEXICON EXCEPTIONS
 
 
 ! Erzya variant
-Троцкой:Троцкой CYRL-CONS_SUR ;
-Магеллан:Магеллан CYRL-CONS_SUR ;
+Троцкой+N+Prop:Троцкой CYRL-CONS_SUR ;
+Магеллан+N+Prop:Магеллан CYRL-CONS_SUR ;
 !
 
 !! 100 % homographs of Russian words
 вот+Use/SpellNoSugg+Interj+Dem:вот K ;
 значит+Use/SpellNoSugg+V+Ind+Prs+ScSg3:значит K ;
-ещё+Err/Lex:эщо TEMP_ ;
-ещё+Err/Lex:ещё TEMP_ ;
-можна+Err/Lex:можна ADV_ ;
-тожо+Err/Lex:тожо ADV_ ;
-Саранск+Err/Lex:Саранск PROP-SETTLEMENT_KAL ;
+ещё+Adv+Err/Lex:эщо TEMP_ ;
+ещё+Adv+Err/Lex:ещё TEMP_ ;
+можна+Adv+Err/Lex:можна ADV_ ;
+тожо+Adv+Err/Lex:тожо ADV_ ;
+Саранск+N+Prop+Sem/Plc+Err/Lex:Саранск PROP-SETTLEMENT_KAL ;
 
 
 !!
 !! adjectives in _ой_ Adj-od >> A_RU-OJ
 !! with  +Use/SpellNoSugg
-багажной:багажной A_RU-OJ ;
-високосной:високосной A_RU-OJ ;
-возможной:возможной A_RU-OJ ;
-горячевской:горячевской A_RU-OJ ;
-крепкой:крепкой A_RU-OJ ;
-ледовитой:ледовитой A_RU-OJ ;
-литературно-художественной:литературно-художественной A_RU-OJ ;
-обзорной:обзорной A_RU-OJ ;
-общественно-политической:общественно-политической A_RU-OJ ;
-парно-копытной:парно-копытной A_RU-OJ ;
-портвейной:портвейной A_RU-OJ ;
-постоянной:постоянной A_RU-OJ ;
-профессорско-преподавательской:профессорско-преподавательской A_RU-OJ ;
-разнообразной:разнообразной A_RU-OJ ;
-скандальной:скандальной A_RU-OJ ;
-спокой:спокой A_RU-OJ ;
-тропической:тропической A_RU-OJ ;
-умеренной:умеренной A_RU-OJ ;
-чувашской:чувашской A_RU-OJ ;
-чудаковатой:чудаковатой A_RU-OJ ;
-ономатопоэтической:ономатопоэтической A_RU-OJ ;
+багажной+A:багажной A_RU-OJ ;
+високосной+A:високосной A_RU-OJ ;
+возможной+A:возможной A_RU-OJ ;
+горячевской+A:горячевской A_RU-OJ ;
+крепкой+A:крепкой A_RU-OJ ;
+ледовитой+A:ледовитой A_RU-OJ ;
+литературно-художественной+A:литературно-художественной A_RU-OJ ;
+обзорной+A:обзорной A_RU-OJ ;
+общественно-политической+A:общественно-политической A_RU-OJ ;
+парно-копытной+A:парно-копытной A_RU-OJ ;
+портвейной+A:портвейной A_RU-OJ ;
+постоянной+A:постоянной A_RU-OJ ;
+профессорско-преподавательской+A:профессорско-преподавательской A_RU-OJ ;
+разнообразной+A:разнообразной A_RU-OJ ;
+скандальной+A:скандальной A_RU-OJ ;
+спокой+A:спокой A_RU-OJ ;
+тропической+A:тропической A_RU-OJ ;
+умеренной+A:умеренной A_RU-OJ ;
+чувашской+A:чувашской A_RU-OJ ;
+чудаковатой+A:чудаковатой A_RU-OJ ;
+ономатопоэтической+A:ономатопоэтической A_RU-OJ ;
 
 !!
 !! +SP+Gen+Indef attributes as adjectives
@@ -209,6 +224,16 @@ LEXICON EXCEPTIONS
 !! Russian language words found in Erzya texts
 !!
 
+!! Old Bible Names and words
+Иосиф+v2+N+Prop+Sem/Ant-Mal:Іосиф N_KAL ;
+сон+Err/Orth+Pron+Pers+Sg3+Gen:сонзе # ;
+сон+Err/Orth+Pron+Pers+Pl3+Dat+Long:сынянст # ;
+тон+v2+Err/Orth+Pron+Pers+Pl2+Dat+Long:тынянк # ;
+тон+v3+Err/Orth+Pron+Pers+Pl2+Dat+Long:тыняньк # ;
+сон+v2+Err/Orth+Pron+Pers+Sg3+Dat+Short:тянзе # ;
+сон+v2+Err/Orth+Pron+Pers+Sg3+Dat+Long:сонянзе # ;
+алов+v2+Err/Orth+Adv+Lat:алом # ;
+жо+Err/Orth+Pcle:же # ; 
 
 !! unrecognized
 весень-вейсэнь:весень-вейсэнь A-IS-GEN "" ;
