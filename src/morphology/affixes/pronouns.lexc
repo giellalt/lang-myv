@@ -9,19 +9,28 @@
 LEXICON PRONOUN-TYPES
  PERS ;
 ! INTERR ;
-! INDEFINITE-PRON ;
+ REL/INTERR_PRONOUNS ;
+ INDEFINITE-PRON ;
 ! NEG-PRON ;
  COLL-PRON ;
  PRON-DEM ;
 
-
+кие+Pron:ки PRON-INTERR-HUM_KI ;
+мезе+Pron:мӒ4зе PRON-INTERR-OBJ_MEZE ;
+мезе+Pron+Interr+Sg+Nom+Def:мӒ4йсь K ;
+та-кода K ;
+кие+Pron:ки PRON-IS-REL-PERS ;
+кона+Det:кона PRON-IS-REL-SEL ;
+эрьва+Det:эрьва PRON_KUDO ;
+нете+Pron:нете te-Dem ;
+сете+Pron:сете te-Dem ;
 
 ! ============================= !
 !  Person morphological lexica !
 ! ============================= !
 
-LEXICON PRON-PERS_
-+Pers: K ;
+!LEXICON PRON-PERS_
+!+Pers: K ;
 !LEXICON PRON-REFL_
 !+Refl: K ;
 
@@ -73,14 +82,14 @@ LEXICON PRON-INTERR-OBJ_MEZE-OBL
 +Prl:%>ва WORD-END ;
 +Tra:%>кс WORD-END ;
 
-LEXICON PRON-INDEF_
-+Indef: K ;
+!LEXICON PRON-INDEF_
+!+Indef: K ;
 
-LEXICON PRON-INTERR-OBJ_MEZE_IS-PL-NOM-INDEF
-+Interr+Pl+Nom+Indef: WORD-END ;
+!LEXICON PRON-INTERR-OBJ_MEZE_IS-PL-NOM-INDEF
+!+Interr+Pl+Nom+Indef: WORD-END ;
 
-LEXICON PRON-INTERR-OBJ_MEZE_IS-SG-NOM-DEF
-+Interr+Sg+Nom+Def: WORD-END ;
+!LEXICON PRON-INTERR-OBJ_MEZE_IS-SG-NOM-DEF
+!+Interr+Sg+Nom+Def: WORD-END ;
 
 LEXICON ADV-INTERR-OBJ_MEZE_IS-TRA
 +Adv+Interr+Tra:%>кс WORD-END ;
@@ -592,6 +601,26 @@ LEXICON PRON_
 LEXICON PRON-DEM
 се+Pron+Dem:се PRON-DEM-CASE ;
 !те+Pron+Dem:те PRON-DEM-CASE ;
+не+Pron+Dem+Pl+Dat:ненень K ;
+нона+Pron+Dem+Pl+Nom+Def:нонатне K ;
+се+Pron+Dem+Pl+Nom+Def:сетне K ;
+се+Pron+Dem+Pl+Nom+Indef:сеть K ;
+те+Pron+Dem+SP+Abl+Indef:теде K ;
+те+Pron+Dem+SP+Abl+Indef:тенде K ;
+теке+Pron+Dem+SP+Abl+Indef:текеде K ;
+теке+Pron+Dem+SP+Abl+Indef:текенде K ;
+те+Pron+Dem+SP+Ela+Indef:теньстэ K ;
+теке+Pron+Dem+SP+Ela+Indef:текеньстэ K ;
+те+Pron+Dem+SP+Ine+Indef:теньсэ K ;
+теке+Pron+Dem+SP+Ine+Indef:текеньсэ K ;
+те+Pron+Dem:те PRON-DEM_TE ;
+теке+Pron+Dem:теке PRON-DEM_TE ;
+тевате+Pron+Dem:тевате PRON-DEM_TE ;
+
+кие-бути+Pron:ки PRON-INDEF-HUM_KI-BUTI ;
+кой-мезе+Pron+Indef+Pl+Nom+Indef # ;
+мезе-мезе+Pron+Indef+Sg+Nom # ;
+
 
 LEXICON PRON-DEM-CASE
 +Sg+Gen:%>нь K ; 
@@ -613,11 +642,11 @@ LEXICON DET-IS-DEM_ISTJAMO !! истямо:истя
 +Dem+Der+Der/MWN: NMN_DEF-PL-DECLENSION-TNE2 ;
 
 !! Interrogative
-LEXICON PRON-IS-INDEF-MANNER !! 
-+Indef+Manner: # ;
+!LEXICON PRON-IS-INDEF-MANNER !! 
+!+Indef+Manner: # ;
 
-LEXICON PRON-IS-INDEF-PERS-SG-NOM
-+Indef+Sg+Nom: # ;
+!LEXICON PRON-IS-INDEF-PERS-SG-NOM
+!+Indef+Sg+Nom: # ;
 
 !LEXICON PRON-IS-INDEF-PERS-ABL
 !+Indef+SP+Abl: # ;
@@ -628,8 +657,8 @@ LEXICON PRON-IS-INDEF-PERS-SG-NOM
 LEXICON PRON-IS-INDEF-SPAT-INE !! What should be done 
 +Indef+Spat+Ine: # ;
 
-LEXICON PRON-IS-INDEF-SPAT-LAT !! What should be done 
-+Indef+Spat+Lat: # ;
+!LEXICON PRON-IS-INDEF-SPAT-LAT !! What should be done 
+!+Indef+Spat+Lat: # ;
 
 !LEXICON PRON-IS-INDEF-SPAT-PRL !! What should be done 
 !+Indef+Spat+Prl: # ;
@@ -660,11 +689,11 @@ LEXICON PRON-IS-INTERR-SPAT-INE !!= @CODE@ косо
 LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done 
 +Interr+Spat+Prl: # ;
 
-LEXICON PRON-IS-INTERR-ELA !!= @CODE@ мейстэ
-+Interr+Ela: # ;
+!LEXICON PRON-IS-INTERR-ELA !!= @CODE@ мейстэ
+!+Interr+Ela: # ;
 
-LEXICON PRON-IS-INTERR-TEMP !!= @CODE@ зярдо
-+Interr+Temp: # ;
+!LEXICON PRON-IS-INTERR-TEMP !!= @CODE@ зярдо
+!+Interr+Temp: # ;
 
 !! Relative pronouns
 !LEXICON PRON-IS-REL-ADJ_KODAMO !! кодамо:кода
@@ -697,15 +726,140 @@ LEXICON PRON-IS-REL-SEL
 +Rel+Sel: N_KUDO-Poss-Declension-CX ;
 
 
-! These have been introduced with the flag: <"@P.INDEF.PREF@">
-! There is a counterpart which doesn't take a prefix.
-! Only the counterpart is available for post-clitic -Гак
-! Or relative pronoun/interrogative pronoun
-!
-LEXICON Indef_Pronouns-pref
-+Der+Der/koj:кой%- Indef_Pronouns ;
-+Der+Der/ta:та%- Indef_Pronouns ;
-+Der+Der/tago:таго%- Indef_Pronouns ;
+
+LEXICON INDEF_PRONOUNS-IN-KOI
+кой-ков+Adv+Indef+Lat:кой-ков INDEF-ENDS-HERE ;
+кой-косо+Adv+Indef+Ine:кой-косо INDEF-ENDS-HERE ;
+кой-косто+Adv+Indef+Ela:кой-косто INDEF-ENDS-HERE ;
+кой-кода+Adv+Indef+Manner:кой-кода INDEF-ENDS-HERE ;
+кой-кува+Adv+Indef+Spat+Prl:кой-кува INDEF-ENDS-HERE ;
+кой-зярдо+Adv+Indef+Temp:кой-зярдо INDEF-ENDS-HERE ;
+кой-зяро+Adv+Indef+Nom:кой-зяро INDEF-ENDS-HERE ;
+кой-зяроксть+Adv+Indef+Iter:кой-зяроксть INDEF-ENDS-HERE ;
+кой-зярс+Adv+Indef+Ill+Temp:кой-зярс INDEF-ENDS-HERE ;
+
+кой-зярдонь+A+Indef+Temp:кой-зярдонь INDEF-ENDS-HERE ;
+кой-знярдо+Adv+Indef:кой-знярдо INDEF-ENDS-HERE ;
+кой-зняро+Adv:кой-зняро INDEF-ENDS-HERE ;
+
+!зняро+Adv+Indef+Ela:кой-зняросто INDEF-ENDS-HERE ;
+кой-знярс+Adv+Indef+Ill:кой-знярс INDEF-ENDS-HERE ;
+кой-знярдонь+A+Indef+Gen:кой-знярдонь INDEF-ENDS-HERE ;
+кой-кодамо+A+Indef+Nom+Sg:кой-кодамо INDEF-ENDS-HERE ;
+кой-кодамо+A+Indef+Nom+Pl:кой-кодат INDEF-ENDS-HERE ;
+кой-кодамо+A+Indef+Pl+Nom+Def:кой-кодатнэ INDEF-ENDS-HERE ;
+!2017-11-05кона+Det+Indef+Nom+Sg:кой-кона INDEF-ENDS-HERE ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:кой-мезе INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Interr+Gen:кой-мезень INDEF-ENDS-HERE ;
+кой-мезе+Pron+Indef+Nom+Pl:кой-мезть INDEF-ENDS-HERE ;
+кой-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:кой-месть INDEF-ENDS-HERE ;
+кой-мекс+Pron+Indef+Tra:кой-мекс INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl:кой-мезде INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Dat:кой-мезнень INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl+Def:кой-мезденть INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Ine:кой-мейсэ INDEF-ENDS-HERE ;
+
+кой-зняро+Pron:кой-зняро Indef_Pronouns-Cases ;
+
+кой-кодамо+A+Indef+Pl:кой-кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:кой-кодам Indef_Pronouns-Cases ;
+
+кой-кона+Det:кой-кона _KUDO-Indef_Pronouns-Cases ;
+
+кой-зяро+Adv:кой-зяро _KUDO-Indef_Pronouns-Cases ;
+
+кой-мезе+Det+Dep+Gen:кой-мень Indef_Pronouns-K-post ; !This one cannot take prefix
+кой-мезе+Pron:кой-мезь _OSH-Indef_Pronouns-Cases ;
+
+LEXICON INDEF_PRONOUNS-IN-TAGO
+таго-ков+Adv+Indef+Lat:таго-ков INDEF-ENDS-HERE ;
+таго-косо+Adv+Indef+Ine:таго-косо INDEF-ENDS-HERE ;
+таго-косто+Adv+Indef+Ela:таго-косто INDEF-ENDS-HERE ;
+таго-кода+Adv+Indef+Manner:таго-кода INDEF-ENDS-HERE ;
+таго-кува+Adv+Indef+Spat+Prl:таго-кува INDEF-ENDS-HERE ;
+таго-зярдо+Adv+Indef+Temp:таго-зярдо INDEF-ENDS-HERE ;
+таго-зяро+Adv+Indef+Nom:таго-зяро INDEF-ENDS-HERE ;
+таго-зяроксть+Adv+Indef+Iter:таго-зяроксть INDEF-ENDS-HERE ;
+таго-зярс+Adv+Indef+Ill+Temp:таго-зярс INDEF-ENDS-HERE ;
+
+таго-зярдонь+A+Indef+Temp:таго-зярдонь INDEF-ENDS-HERE ;
+таго-знярдо+Adv+Indef:таго-знярдо INDEF-ENDS-HERE ;
+таго-зняро+Adv:таго-зняро INDEF-ENDS-HERE ;
+
+!зняро+Adv+Indef+Ela:таго-зняросто INDEF-ENDS-HERE ;
+таго-знярс+Adv+Indef+Ill:таго-знярс INDEF-ENDS-HERE ;
+таго-знярдонь+A+Indef+Gen:таго-знярдонь INDEF-ENDS-HERE ;
+таго-кодамо+A+Indef+Nom+Sg:таго-кодамо INDEF-ENDS-HERE ;
+таго-кодамо+A+Indef+Nom+Pl:таго-кодат INDEF-ENDS-HERE ;
+таго-кодамо+A+Indef+Pl+Nom+Def:таго-кодатнэ INDEF-ENDS-HERE ;
+!2017-11-05кона+Det+Indef+Nom+Sg:таго-кона INDEF-ENDS-HERE ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:таго-мезе INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Interr+Gen:таго-мезень INDEF-ENDS-HERE ;
+таго-мезе+Pron+Indef+Nom+Pl:таго-мезть INDEF-ENDS-HERE ;
+таго-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:таго-месть INDEF-ENDS-HERE ;
+таго-мекс+Pron+Indef+Tra:таго-мекс INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl:таго-мезде INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Dat:таго-мезнень INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl+Def:таго-мезденть INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Ine:таго-мейсэ INDEF-ENDS-HERE ;
+
+таго-зняро+Pron:таго-зняро Indef_Pronouns-Cases ;
+
+таго-кодамо+A+Indef+Pl:таго-кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:таго-кодам Indef_Pronouns-Cases ;
+
+таго-кона+Det:таго-кона _KUDO-Indef_Pronouns-Cases ;
+
+таго-зяро+Adv:таго-зяро _KUDO-Indef_Pronouns-Cases ;
+
+таго-мезе+Det+Dep+Gen:таго-мень Indef_Pronouns-K-post ; !This one cannot take prefix
+таго-мезе+Pron:таго-мезь _OSH-Indef_Pronouns-Cases ;
+
+LEXICON INDEF_PRONOUNS-IN-TA
+та-ков+Adv+Indef+Lat:та-ков INDEF-ENDS-HERE ;
+та-косо+Adv+Indef+Ine:та-косо INDEF-ENDS-HERE ;
+та-косто+Adv+Indef+Ela:та-косто INDEF-ENDS-HERE ;
+та-кода+Adv+Indef+Manner:та-кода INDEF-ENDS-HERE ;
+та-кува+Adv+Indef+Spat+Prl:та-кува INDEF-ENDS-HERE ;
+та-зярдо+Adv+Indef+Temp:та-зярдо INDEF-ENDS-HERE ;
+та-зяро+Adv+Indef+Nom:та-зяро INDEF-ENDS-HERE ;
+та-зяроксть+Adv+Indef+Iter:та-зяроксть INDEF-ENDS-HERE ;
+та-зярс+Adv+Indef+Ill+Temp:та-зярс INDEF-ENDS-HERE ;
+
+та-зярдонь+A+Indef+Temp:та-зярдонь INDEF-ENDS-HERE ;
+та-знярдо+Adv+Indef:та-знярдо INDEF-ENDS-HERE ;
+та-зняро+Adv:та-зняро INDEF-ENDS-HERE ;
+
+!зняро+Adv+Indef+Ela:та-зняросто INDEF-ENDS-HERE ;
+та-знярс+Adv+Indef+Ill:та-знярс INDEF-ENDS-HERE ;
+та-знярдонь+A+Indef+Gen:та-знярдонь INDEF-ENDS-HERE ;
+та-кодамо+A+Indef+Nom+Sg:та-кодамо INDEF-ENDS-HERE ;
+та-кодамо+A+Indef+Nom+Pl:та-кодат INDEF-ENDS-HERE ;
+та-кодамо+A+Indef+Pl+Nom+Def:та-кодатнэ INDEF-ENDS-HERE ;
+!2017-11-05кона+Det+Indef+Nom+Sg:та-кона INDEF-ENDS-HERE ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:та-мезе INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Interr+Gen:та-мезень INDEF-ENDS-HERE ;
+та-мезе+Pron+Indef+Nom+Pl:та-мезть INDEF-ENDS-HERE ;
+та-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:та-месть INDEF-ENDS-HERE ;
+та-мекс+Pron+Indef+Tra:та-мекс INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl:та-мезде INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Dat:та-мезнень INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl+Def:та-мезденть INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Ine:та-мейсэ INDEF-ENDS-HERE ;
+
+та-зняро+Pron:та-зняро Indef_Pronouns-Cases ;
+
+та-кодамо+A+Indef+Pl:та-кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:та-кодам Indef_Pronouns-Cases ;
+
+та-кона+Det:та-кона _KUDO-Indef_Pronouns-Cases ;
+
+та-зяро+Adv:та-зяро _KUDO-Indef_Pronouns-Cases ;
+
+та-мезе+Det+Dep+Gen:та-мень Indef_Pronouns-K-post ; !This one cannot take prefix
+та-мезе+Pron:та-мезь _OSH-Indef_Pronouns-Cases ;
+
+
 
 
 LEXICON PRON-INDEF-HUM_KI-BUTI
@@ -715,157 +869,121 @@ LEXICON PRON-INDEF-HUM_KI-BUTI
 +Indef+Sem/Hum+SP+Gen:нь INDEF-IN-BUTI ;
 +Indef+Sem/Hum+SP+Abl:де INDEF-IN-BUTI ;
 
-LEXICON PRON-INDEF-ELA
-+Indef+Ela: # ;
+!LEXICON PRON-INDEF-ELA
+!+Indef+Ela: # ;
 
-LEXICON Indef_Pronouns
-
-
-!ко+Pron:ко Indef_Pronouns-Cases ;
-!зяродо+Pron+Interr+Abl:зяродо Indef_Pronouns-K ;
-!зяро+Pron+Interr+Ela:зяросто Indef_Pronouns-K ;
-ков+Adv+Indef+Lat:ков Indef_Pronouns-K ;
-косо+Adv+Indef+Ine:косо Indef_Pronouns-K ;
-косто+Adv+Indef+Ela:косто Indef_Pronouns-K ;
-кода+Adv+Indef+Manner:кода Indef_Pronouns-K ;
-кува+Adv+Indef+Spat+Prl:кува Indef_Pronouns-K ;
-зярдо+Adv+Indef+Temp:зярдо Indef_Pronouns-K ;
-зяро+Adv+Indef+Nom:зяро Indef_Pronouns-K ;
-зяроксть+Adv+Indef+Iter:зяроксть Indef_Pronouns-K ;
-зярс+Adv+Indef+Ill+Temp:зярс Indef_Pronouns-K ;
-
-зярдо+Adv+Indef+Temp+Gen:зярдонь Indef_Pronouns-K ;
-знярдо+Adv+Indef:знярдо Indef_Pronouns-K ;
-зняро+Adv:зняро Indef_Pronouns-K ;
-
-!зняро+Adv+Indef+Ela:зняросто Indef_Pronouns-K ;
-знярс+Adv+Indef+Ill:знярс Indef_Pronouns-K ;
-знярдонь+A+Indef+Gen:знярдонь Indef_Pronouns-K ;
-кодамо+A+Indef+Nom+Sg:кодамо Indef_Pronouns-K ;
-кодамо+A+Indef+Nom+Pl:кодат Indef_Pronouns-K ;
-кодамо+A+Indef+Pl+Nom+Def:кодатнэ Indef_Pronouns-K ;
-!2017-11-05кона+Det+Indef+Nom+Sg:кона Indef_Pronouns-K ;
-!2017-11-05мезе+Pron+Indef+Nom+Sg:мезе Indef_Pronouns-K ;
-!мезень+Pron+Indef+Interr+Gen:мезень Indef_Pronouns-K ;
-мезе+Pron+Indef+Nom+Pl:мезть Indef_Pronouns-K ;
-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:месть Indef_Pronouns-K ;
-мекс+Pron+Indef+Tra:мекс Indef_Pronouns-K ;
-!мезе+Pron+Indef+Abl:мезде Indef_Pronouns-K ;
-!мезе+Pron+Indef+Dat:мезнень Indef_Pronouns-K ;
-!мезе+Pron+Indef+Abl+Def:мезденть Indef_Pronouns-K ;
-!мезе+Pron+Indef+Ine:мейсэ Indef_Pronouns-K ;
-
-зняро+Pron:зняро Indef_Pronouns-Cases ;
-
-кодамо+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
-!кодамо+Adn:кодам Indef_Pronouns-Cases ;
-
-кона+Det:кона _KUDO-Indef_Pronouns-Cases ;
-
-зяро+Adv:зяро _KUDO-Indef_Pronouns-Cases ;
-
-!мезе+Adn+Dep+Gen:мень Indef_Pronouns-K-post ; !This one cannot take prefix
-мезе+Pron:мезь _OSH-Indef_Pronouns-Cases ;
-!мезе+Pron:мезИ3 Indef_Pronouns-Cases ;
-!мезе+Pron:мейИ3 Indef_Pronouns-Cases ;
-!мезе+Pron+Com:мезнек WORD-END ;
-
-LEXICON INDEF_PRONOUNS-WITH-SUF 
+LEXICON INDEFINITE-PRON
+@U.INDEF.GAK@мезеяк+Pron+Indef:@U.INDEF.GAK@мезе Indef_Pronouns-Cases ;
+@U.INDEF.BUTI@мезе-бути+Pron+Indef:@U.INDEF.BUTI@мезе Indef_Pronouns-Cases ;
+@U.INDEF.TAGO@таго-мезе+Pron+Indef:@U.INDEF.TAGO@таго-мезе Indef_Pronouns-Cases ;
+@U.INDEF.TA@та-мезе+Pron+Indef:@U.INDEF.TA@та-мезе Indef_Pronouns-Cases ;
+@U.INDEF.KOI@кой-мезе+Pron+Indef:@U.INDEF.KOI@кой-мезе Indef_Pronouns-Cases ;
 
 
-ков-бути+Adv+Indef+Lat:ков INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine:косо INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScSg1:косан INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScSg2:косат INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScSg3:косо INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScPl1:косотано INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScPl2:косотадо INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScPl3:косот INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg1:косолинь INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg2:косолить INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg3:косоль INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl1:косолинек INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl2:косолиде INDEF-IN-BUTI ;
-косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl3:косольть INDEF-IN-BUTI ;
-козонь-бути+Adv+Indef+Ill:козонь INDEF-IN-BUTI ;
-козонь-бути+Adv+Indef+Ill+Use/SpellNoSugg:козо INDEF-IN-BUTI ;
-косто-бути+Adv+Indef+Ela:косто INDEF-IN-BUTI ;
-кода-бути+Adv+Indef+Manner:кода INDEF-IN-BUTI ;
-кува-бути+Adv+Indef+Spat+Prl:кува INDEF-IN-BUTI ;
-костонь-бути+A+Indef+Ela:костонь INDEF-IN-BUTI ;
+@U.INDEF.BUTI@ INDEF_PRONOUNS-IN-BUTI ;
+@U.INDEF.GAK@ INDEF_PRONOUNS-IN-GAK ;
 
-зярдо-бути+Adv+Indef+Sem/Time+Abl:зярдо INDEF-IN-BUTI ;
-зярдо-бути+Adv+Indef+Sem/Time+Abl+Use/SpellNoSugg:знярдо INDEF-IN-BUTI ;
-зяро-бути+Adv+Indef:зяро INDEF-IN-BUTI ;
-зяро-бути+Adv+Use/SpellNoSugg:зняро INDEF-IN-BUTI ;
-зяроксть-бути+Adv+Indef+Mult:зяроксть INDEF-IN-BUTI ;
-зяроксть-бути+Adv+Indef+Mult+Use/SpellNoSugg:зняроксть INDEF-IN-BUTI ;
-зярс-бути+Adv+Indef+Sem/Time+Ill:зярс INDEF-IN-BUTI ;
-зярс-бути+Adv+Indef+Sem/Time+Ill+Use/SpellNoSugg:знярс INDEF-IN-BUTI ;
-зяросто-бути+Adv+Indef+Ela:зяросто INDEF-IN-BUTI ;
-зяросто-бути+Adv+Indef+Ela+Use/SpellNoSugg:зняросто INDEF-IN-BUTI ;
-зярдонь-бути+A+Indef+Sem/Time:зярдонь INDEF-IN-BUTI ;
-зярдонь-бути+A+Indef+Use/SpellNoSugg:знярдонь INDEF-IN-BUTI ;
+@U.INDEF.KOI@ INDEF_PRONOUNS-IN-KOI ;
+@U.INDEF.TAGO@ INDEF_PRONOUNS-IN-TAGO ;
+@U.INDEF.TA@ INDEF_PRONOUNS-IN-TA ;
+
+
+
+LEXICON INDEF_PRONOUNS-IN-BUTI 
+
+ков-бути+Adv+Indef+Lat:ков INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine:косо INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScSg1:косан INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScSg2:косат INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScSg3:косо INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScPl1:косотано INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScPl2:косотадо INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prs+ScPl3:косот INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg1:косолинь INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg2:косолить INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg3:косоль INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl1:косолинек INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl2:косолиде INDEF-ENDS-HERE ;
+косо-бути+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl3:косольть INDEF-ENDS-HERE ;
+козонь-бути+Adv+Indef+Ill:козонь INDEF-ENDS-HERE ;
+козонь-бути+Adv+Indef+Ill+Use/SpellNoSugg:козо INDEF-ENDS-HERE ;
+косто-бути+Adv+Indef+Ela:косто INDEF-ENDS-HERE ;
+кода-бути+Adv+Indef+Manner:кода INDEF-ENDS-HERE ;
+кува-бути+Adv+Indef+Spat+Prl:кува INDEF-ENDS-HERE ;
+костонь-бути+A+Indef+Ela:костонь INDEF-ENDS-HERE ;
+
+зярдо-бути+Adv+Indef+Sem/Time+Abl:зярдо INDEF-ENDS-HERE ;
+зярдо-бути+Adv+Indef+Sem/Time+Abl+Use/SpellNoSugg:знярдо INDEF-ENDS-HERE ;
+зяро-бути+Adv+Indef:зяро INDEF-ENDS-HERE ;
+зяро-бути+Adv+Use/SpellNoSugg:зняро INDEF-ENDS-HERE ;
+зяроксть-бути+Adv+Indef+Mult:зяроксть INDEF-ENDS-HERE ;
+зяроксть-бути+Adv+Indef+Mult+Use/SpellNoSugg:зняроксть INDEF-ENDS-HERE ;
+зярс-бути+Adv+Indef+Sem/Time+Ill:зярс INDEF-ENDS-HERE ;
+зярс-бути+Adv+Indef+Sem/Time+Ill+Use/SpellNoSugg:знярс INDEF-ENDS-HERE ;
+зяросто-бути+Adv+Indef+Ela:зяросто INDEF-ENDS-HERE ;
+зяросто-бути+Adv+Indef+Ela+Use/SpellNoSugg:зняросто INDEF-ENDS-HERE ;
+зярдонь-бути+A+Indef+Sem/Time:зярдонь INDEF-ENDS-HERE ;
+зярдонь-бути+A+Indef+Use/SpellNoSugg:знярдонь INDEF-ENDS-HERE ;
 
 !зяро-бути+Adv:зяро _KUDO-Indef_Pronouns-Cases ;
 !зняро-бути+Pron:зняро Indef_Pronouns-Cases ;
 
 
-кодамо-бути+A+Indef+SP+Dat+Indef:кодамонень INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+SP+Tra+Indef:кодамокс INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef:кодамо INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Pl+Nom+Indef:кодат INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодаман INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамат INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамо INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl1:кодатано INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl2:кодатадо INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl3:кодат INDEF-IN-BUTI ;
+кодамо-бути+A+Indef+SP+Dat+Indef:кодамонень INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+SP+Tra+Indef:кодамокс INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef:кодамо INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Pl+Nom+Indef:кодат INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодаман INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамат INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамо INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl1:кодатано INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl2:кодатадо INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl3:кодат INDEF-ENDS-HERE ;
 
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодамолинь INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамолить INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамоль INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl1:кодамолинек INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl2:кодамолиде INDEF-IN-BUTI ;
-кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl3:кодамольть INDEF-IN-BUTI ;
-!кодамо-бути+A+Indef+Pl+Nom+Def:кодатнэ INDEF-IN-BUTI ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодамолинь INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамолить INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамоль INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl1:кодамолинек INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl2:кодамолиде INDEF-ENDS-HERE ;
+кодамо-бути+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl3:кодамольть INDEF-ENDS-HERE ;
+!кодамо-бути+A+Indef+Pl+Nom+Def:кодатнэ INDEF-ENDS-HERE ;
 !кодамо-бути+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
 !кодамо-бути+Adn:кодам Indef_Pronouns-Cases ;
 
 
-кона-бути+Det+Indef+Sg+Nom+Indef:кона INDEF-IN-BUTI ;
-кона-бути+Det+Indef+Sg+Nom+Def:конась INDEF-IN-BUTI ;
-кона-бути+Det+Indef+Pl+Nom+Def:конатне INDEF-IN-BUTI ;
-кона-бути+Det+Indef+Sg+Nom+PxPl1:конанок INDEF-IN-BUTI ;
-кона-бути+Det+Indef+Sg+Nom+PxPl2:конанк INDEF-IN-BUTI ;
-кона-бути+Det+Indef+Sg+Nom+PxPl3:конаст INDEF-IN-BUTI ;
+кона-бути+Det+Indef+Sg+Nom+Indef:кона INDEF-ENDS-HERE ;
+кона-бути+Det+Indef+Sg+Nom+Def:конась INDEF-ENDS-HERE ;
+кона-бути+Det+Indef+Pl+Nom+Def:конатне INDEF-ENDS-HERE ;
+кона-бути+Det+Indef+Sg+Nom+PxPl1:конанок INDEF-ENDS-HERE ;
+кона-бути+Det+Indef+Sg+Nom+PxPl2:конанк INDEF-ENDS-HERE ;
+кона-бути+Det+Indef+Sg+Nom+PxPl3:конаст INDEF-ENDS-HERE ;
 !кона-бути+Det:кона _KUDO-Indef_Pronouns-Cases ;
 
-мекс-бути+Adv+Indef+Tra:мекс INDEF-IN-BUTI ;
+мекс-бути+Adv+Indef+Tra:мекс INDEF-ENDS-HERE ;
 
-мезе-бути+Pron+Indef+Pl+Nom+Indef:мезть INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Pl+Nom+Indef+Use/SpellNoSugg:месть INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Sg+Nom+Indef:мезе INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Gen+Indef:мезень INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Gen+Indef:мень INDEF-IN-BUTI ; 
-мезе-бути+Pron+Indef+SP+Abl+Indef:мезде INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Dat+Indef:мезнень INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Dat+Indef:мезенень INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Ela+Indef:мейстэ INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Ill+Indef:мейс INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Ill+Indef:мезес INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Ine+Indef:мейсэ INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+SP+Tra+Indef:мезекс INDEF-IN-BUTI ;
+мезе-бути+Pron+Indef+Pl+Nom+Indef:мезть INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Pl+Nom+Indef+Use/SpellNoSugg:месть INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Sg+Nom+Indef:мезе INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Gen+Indef:мезень INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Gen+Indef:мень INDEF-ENDS-HERE ; 
+мезе-бути+Pron+Indef+SP+Abl+Indef:мезде INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Dat+Indef:мезнень INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Dat+Indef:мезенень INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Ela+Indef:мейстэ INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Ill+Indef:мейс INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Ill+Indef:мезес INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Ine+Indef:мейсэ INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+SP+Tra+Indef:мезекс INDEF-ENDS-HERE ;
 
-мезе-бути+Pron+Indef+Sg+Abl+Def:мезденть INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Sg+Dat+Def:мезентень INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Sg+Gen+Def:мезенть INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Sg+Nom+Def:мезесь INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Sg+Nom+Def:мейсь INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Pl+Abl+Def:мезтнеде INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Pl+Dat+Def:мезтненень INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Pl+Gen+Def:мезтнень INDEF-IN-BUTI ;
-мезе-бути+Pron+Indef+Pl+Nom+Def:мезтне INDEF-IN-BUTI ;
+мезе-бути+Pron+Indef+Sg+Abl+Def:мезденть INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Sg+Dat+Def:мезентень INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Sg+Gen+Def:мезенть INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Sg+Nom+Def:мезесь INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Sg+Nom+Def:мейсь INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Pl+Abl+Def:мезтнеде INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Pl+Dat+Def:мезтненень INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Pl+Gen+Def:мезтнень INDEF-ENDS-HERE ;
+мезе-бути+Pron+Indef+Pl+Nom+Def:мезтне INDEF-ENDS-HERE ;
 
 
 
@@ -875,128 +993,129 @@ LEXICON INDEF_PRONOUNS-WITH-SUF
 !мезе-бути+Pron:мейИ3 Indef_Pronouns-Cases ;
 !мезе-бути+Pron+Com:мезнек WORD-END ;
 
-кие-бути+Pron+Indef+Sg+Nom:кие INDEF-IN-BUTI ; 
-кие-бути+Pron+Indef+Sg+Nom:ки INDEF-IN-BUTI ; 
-кие-бути+Pron+Indef+Pl+Nom:кить INDEF-IN-BUTI ; 
-кие-бути+Pron+Indef+SP+Abl:киде INDEF-IN-BUTI ; 
-кие-бути+Pron+Indef+SP+Gen:кинь INDEF-IN-BUTI ; 
-кие-бути+Pron+Indef+SP+Dat:кинень INDEF-IN-BUTI ; 
+кие-бути+Pron+Indef+Sg+Nom:кие INDEF-ENDS-HERE ; 
+кие-бути+Pron+Indef+Sg+Nom:ки INDEF-ENDS-HERE ; 
+кие-бути+Pron+Indef+Pl+Nom:кить INDEF-ENDS-HERE ; 
+кие-бути+Pron+Indef+SP+Abl:киде INDEF-ENDS-HERE ; 
+кие-бути+Pron+Indef+SP+Gen:кинь INDEF-ENDS-HERE ; 
+кие-бути+Pron+Indef+SP+Dat:кинень INDEF-ENDS-HERE ; 
 
 !!
+LEXICON INDEF_PRONOUNS-IN-GAK 
 
-ковгак+Adv+Indef+Lat:ков INDEF-IN-GAK ;
-коволовгак+Adv+Indef+Lat:коволов INDEF-IN-GAK ;
-коволдояк+Adv+Indef+Abl:коволдо INDEF-IN-GAK ;
-коволояк+Adv+Indef+Loc:коволо INDEF-IN-GAK ;
-коволгаяк+Adv+Indef+Prl:коволга INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine:косо INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScSg1:косан INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScSg2:косат INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScSg3:косо INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScPl1:косотано INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScPl2:косотадо INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScPl3:косот INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg1:косолинь INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg2:косолить INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg3:косоль INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl1:косолинек INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl2:косолиде INDEF-IN-GAK ;
-косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl3:косольть INDEF-IN-GAK ;
-козоньгак+Adv+Indef+Ill:козонь INDEF-IN-GAK ;
-козоньгак+Adv+Indef+Ill+Use/SpellNoSugg:козо INDEF-IN-GAK ;
-костояк+Adv+Indef+Ela:косто INDEF-IN-GAK ;
-кодаяк+Adv+Indef+Manner:кода INDEF-IN-GAK ;
-куваяк+Adv+Indef+Spat+Prl:кува INDEF-IN-GAK ;
-костоньгак+A+Indef+Ela:костонь INDEF-IN-GAK ;
+ковгак+Adv+Indef+Lat:ков INDEF-ENDS-HERE ;
+коволовгак+Adv+Indef+Lat:коволов INDEF-ENDS-HERE ;
+коволдояк+Adv+Indef+Abl:коволдо INDEF-ENDS-HERE ;
+коволояк+Adv+Indef+Loc:коволо INDEF-ENDS-HERE ;
+коволгаяк+Adv+Indef+Prl:коволга INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine:косо INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScSg1:косан INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScSg2:косат INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScSg3:косо INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScPl1:косотано INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScPl2:косотадо INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prs+ScPl3:косот INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg1:косолинь INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg2:косолить INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScSg3:косоль INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl1:косолинек INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl2:косолиде INDEF-ENDS-HERE ;
+косояк+Adv+Indef+Ine+Clt/Cop+Prt2+ScPl3:косольть INDEF-ENDS-HERE ;
+козоньгак+Adv+Indef+Ill:козонь INDEF-ENDS-HERE ;
+козоньгак+Adv+Indef+Ill+Use/SpellNoSugg:козо INDEF-ENDS-HERE ;
+костояк+Adv+Indef+Ela:косто INDEF-ENDS-HERE ;
+кодаяк+Adv+Indef+Manner:кода INDEF-ENDS-HERE ;
+куваяк+Adv+Indef+Spat+Prl:кува INDEF-ENDS-HERE ;
+костоньгак+A+Indef+Ela:костонь INDEF-ENDS-HERE ;
 
-зярдояк+Adv+Indef+Sem/Time+Abl:зярдо INDEF-IN-GAK ;
-зярдояк+Adv+Indef+Sem/Time+Abl+Use/SpellNoSugg:знярдо INDEF-IN-GAK ;
-зярояк+Adv+Indef:зяро INDEF-IN-GAK ;
-зярояк+Adv+Use/SpellNoSugg:зняро INDEF-IN-GAK ;
-зярокстькак+Adv+Indef+Mult:зяроксть INDEF-IN-GAK ;
-зярокстькак+Adv+Indef+Mult+Use/SpellNoSugg:зняроксть INDEF-IN-GAK ;
-зярскак+Adv+Indef+Sem/Time+Ill:зярс INDEF-IN-GAK ;
-зярскак+Adv+Indef+Sem/Time+Ill+Use/SpellNoSugg:знярс INDEF-IN-GAK ;
-зяростояк+Adv+Indef+Ela:зяросто INDEF-IN-GAK ;
-зяростояк+Adv+Indef+Ela+Use/SpellNoSugg:зняросто INDEF-IN-GAK ;
-зярдоньгак+A+Indef+Sem/Time:зярдонь INDEF-IN-GAK ;
-зярдоньгак+A+Indef+Use/SpellNoSugg:знярдонь INDEF-IN-GAK ;
+зярдояк+Adv+Indef+Sem/Time+Abl:зярдо INDEF-ENDS-HERE ;
+зярдояк+Adv+Indef+Sem/Time+Abl+Use/SpellNoSugg:знярдо INDEF-ENDS-HERE ;
+зярояк+Adv+Indef:зяро INDEF-ENDS-HERE ;
+зярояк+Adv+Use/SpellNoSugg:зняро INDEF-ENDS-HERE ;
+зярокстькак+Adv+Indef+Mult:зяроксть INDEF-ENDS-HERE ;
+зярокстькак+Adv+Indef+Mult+Use/SpellNoSugg:зняроксть INDEF-ENDS-HERE ;
+зярскак+Adv+Indef+Sem/Time+Ill:зярс INDEF-ENDS-HERE ;
+зярскак+Adv+Indef+Sem/Time+Ill+Use/SpellNoSugg:знярс INDEF-ENDS-HERE ;
+зяростояк+Adv+Indef+Ela:зяросто INDEF-ENDS-HERE ;
+зяростояк+Adv+Indef+Ela+Use/SpellNoSugg:зняросто INDEF-ENDS-HERE ;
+зярдоньгак+A+Indef+Sem/Time:зярдонь INDEF-ENDS-HERE ;
+зярдоньгак+A+Indef+Use/SpellNoSugg:знярдонь INDEF-ENDS-HERE ;
 
 !зярояк+Adv:зяро _KUDO-Indef_Pronouns-Cases ;
 !зярояк+Adv+Use/SpellNoSugg:зняро Indef_Pronouns-Cases ;
 
 
-кодамояк+A+Indef+SP+Dat+Indef:кодамонень INDEF-IN-GAK ;
-кодамояк+A+Indef+SP+Tra+Indef:кодамокс INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef:кодамо INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef:кодат INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодаман INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамат INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамо INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl1:кодатано INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl2:кодатадо INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl3:кодат INDEF-IN-GAK ;
+кодамояк+A+Indef+SP+Dat+Indef:кодамонень INDEF-ENDS-HERE ;
+кодамояк+A+Indef+SP+Tra+Indef:кодамокс INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef:кодамо INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef:кодат INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодаман INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамат INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамо INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl1:кодатано INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl2:кодатадо INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl3:кодат INDEF-ENDS-HERE ;
 
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодамолинь INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамолить INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамоль INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl1:кодамолинек INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl2:кодамолиде INDEF-IN-GAK ;
-кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl3:кодамольть INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl1:кодатолинек INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl2:кодатолиде INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl3:кодатольть INDEF-IN-GAK ;
-кодамояк+A+Indef+Pl+Nom+Def:кодатнэ INDEF-IN-GAK ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg1:кодамолинь INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg2:кодамолить INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScSg3:кодамоль INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl1:кодамолинек INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl2:кодамолиде INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Sg+Nom+Indef+Clt/Cop+Prs+ScPl3:кодамольть INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl1:кодатолинек INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl2:кодатолиде INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Indef+Clt/Cop+Prs+ScPl3:кодатольть INDEF-ENDS-HERE ;
+кодамояк+A+Indef+Pl+Nom+Def:кодатнэ INDEF-ENDS-HERE ;
 кодамояк+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
 !кодамояк+Adn:кодам Indef_Pronouns-Cases ;
 
 
-конаяк+Det+Indef+Sg+Nom+Indef:кона INDEF-IN-GAK ;
-конаяк+Det+Indef+SP+Dat+Indef:конанень INDEF-IN-GAK ;
-конаяк+Det+Indef+SP+Gen+Indef:конань INDEF-IN-GAK ;
-конаяк+Det+Indef+SP+Ill+Indef:конас INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Dat+Def:конантень INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Gen+Def:конанть INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Ela+Def:конастонть INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Ine+Def:конасонть INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Nom+Def:конась INDEF-IN-GAK ;
-конаяк+Det+Indef+Pl+Dat+Def:конатненень INDEF-IN-GAK ;
+конаяк+Det+Indef+Sg+Nom+Indef:кона INDEF-ENDS-HERE ;
+конаяк+Det+Indef+SP+Dat+Indef:конанень INDEF-ENDS-HERE ;
+конаяк+Det+Indef+SP+Gen+Indef:конань INDEF-ENDS-HERE ;
+конаяк+Det+Indef+SP+Ill+Indef:конас INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Dat+Def:конантень INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Gen+Def:конанть INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Ela+Def:конастонть INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Ine+Def:конасонть INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Nom+Def:конась INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Pl+Dat+Def:конатненень INDEF-ENDS-HERE ;
 
-конаяк+Det+Indef+Pl+Gen+Def:конатнень INDEF-IN-GAK ;
-конаяк+Det+Indef+Pl+Ela+Def:конатнестэ INDEF-IN-GAK ;
-конаяк+Det+Indef+Pl+Ine+Def:конатнесэ INDEF-IN-GAK ;
-конаяк+Det+Indef+Pl+Ill+Def:конатнес INDEF-IN-GAK ;
-конаяк+Det+Indef+Pl+Nom+Def:конатне INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Nom+PxPl1:конанок INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Nom+PxPl2:конанк INDEF-IN-GAK ;
-конаяк+Det+Indef+Sg+Nom+PxPl3:конаст INDEF-IN-GAK ;
+конаяк+Det+Indef+Pl+Gen+Def:конатнень INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Pl+Ela+Def:конатнестэ INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Pl+Ine+Def:конатнесэ INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Pl+Ill+Def:конатнес INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Pl+Nom+Def:конатне INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Nom+PxPl1:конанок INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Nom+PxPl2:конанк INDEF-ENDS-HERE ;
+конаяк+Det+Indef+Sg+Nom+PxPl3:конаст INDEF-ENDS-HERE ;
 !конаяк+Det:кона _KUDO-Indef_Pronouns-Cases ;
 
-мекскак+Adv+Indef+Tra:мекс INDEF-IN-GAK ;
+мекскак+Adv+Indef+Tra:мекс INDEF-ENDS-HERE ;
 
-мезеяк+Pron+Indef+Pl+Nom+Indef:мезть INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Pl+Nom+Indef+Use/SpellNoSugg:месть INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Sg+Nom+Indef:мезе INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Gen+Indef:мезень INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Gen+Indef:мень INDEF-IN-GAK ; 
-мезеяк+Pron+Indef+SP+Abl+Indef:мезде INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Dat+Indef:мезнень INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Dat+Indef:мезенень INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Ela+Indef:мейстэ INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Ill+Indef:мейс INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Ill+Indef:мезес INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Ine+Indef:мейсэ INDEF-IN-GAK ;
-мезеяк+Pron+Indef+SP+Tra+Indef:мезекс INDEF-IN-GAK ;
+мезеяк+Pron+Indef+Pl+Nom+Indef:мезть INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Pl+Nom+Indef+Use/SpellNoSugg:месть INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Sg+Nom+Indef:мезе INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Gen+Indef:мезень INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Gen+Indef:мень INDEF-ENDS-HERE ; 
+мезеяк+Pron+Indef+SP+Abl+Indef:мезде INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Dat+Indef:мезнень INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Dat+Indef:мезенень INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Ela+Indef:мейстэ INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Ill+Indef:мейс INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Ill+Indef:мезес INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Ine+Indef:мейсэ INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+SP+Tra+Indef:мезекс INDEF-ENDS-HERE ;
 
-мезеяк+Pron+Indef+Sg+Abl+Def:мезденть INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Sg+Dat+Def:мезентень INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Sg+Gen+Def:мезенть INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Sg+Nom+Def:мезесь INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Sg+Nom+Def:мейсь INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Pl+Abl+Def:мезтнеде INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Pl+Dat+Def:мезтненень INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Pl+Gen+Def:мезтнень INDEF-IN-GAK ;
-мезеяк+Pron+Indef+Pl+Nom+Def:мезтне INDEF-IN-GAK ;
+мезеяк+Pron+Indef+Sg+Abl+Def:мезденть INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Sg+Dat+Def:мезентень INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Sg+Gen+Def:мезенть INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Sg+Nom+Def:мезесь INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Sg+Nom+Def:мейсь INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Pl+Abl+Def:мезтнеде INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Pl+Dat+Def:мезтненень INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Pl+Gen+Def:мезтнень INDEF-ENDS-HERE ;
+мезеяк+Pron+Indef+Pl+Nom+Def:мезтне INDEF-ENDS-HERE ;
 
 
 
@@ -1004,99 +1123,99 @@ LEXICON INDEF_PRONOUNS-WITH-SUF
 !мезеяк+Pron:мезь _OSH-Indef_Pronouns-Cases ;
 !мезеяк+Pron+Com:мезнек WORD-END ;
 
-кияк+Pron+Indef+Sg+Nom:кие INDEF-IN-GAK ; 
-кияк+Pron+Indef+Sg+Nom:ки INDEF-IN-GAK ; 
-кияк+Pron+Indef+Pl+Nom:кить INDEF-IN-GAK ; 
-кияк+Pron+Indef+SP+Abl:киде INDEF-IN-GAK ; 
-кияк+Pron+Indef+SP+Gen:кинь INDEF-IN-GAK ; 
-кияк+Pron+Indef+SP+Dat:кинень INDEF-IN-GAK ; 
+кияк+Pron+Indef+Sg+Nom:кие INDEF-ENDS-HERE ; 
+кияк+Pron+Indef+Sg+Nom:ки INDEF-ENDS-HERE ; 
+кияк+Pron+Indef+Pl+Nom:кить INDEF-ENDS-HERE ; 
+кияк+Pron+Indef+SP+Abl:киде INDEF-ENDS-HERE ; 
+кияк+Pron+Indef+SP+Gen:кинь INDEF-ENDS-HERE ; 
+кияк+Pron+Indef+SP+Dat:кинень INDEF-ENDS-HERE ; 
 
 
 LEXICON Indef_Pronouns-Cases
-+Pl+Nom:%>VLossтЬ2 Indef_Pronouns-K ; 
-+Pl+Nom:%>тЬ2 Indef_Pronouns-K ; 
-+Ela:%>ст%{оэØ%} Indef_Pronouns-K ;
-+Ine:%>с%{оэØ%} Indef_Pronouns-K ;
-+Ill:%>с Indef_Pronouns-K ;
-+Dat:%>нень Indef_Pronouns-K ;
-+Abe:%>вт{оеэ%}мО1 Indef_Pronouns-K ;
-+Abl:%>дО1 Indef_Pronouns-K ;
-+Ela+Gen:%>ст%{оэØ%}%>нь Indef_Pronouns-K ;
-+Abl+Gen:%>дО1%>нь Indef_Pronouns-K ;
-+Ine+Gen:%>с%{оэØ%}%>нь Indef_Pronouns-K ;
-+Gen:%>нь Indef_Pronouns-K ;
++Pl+Nom:%>VLossтЬ2 INDEF-ENDS-HERE ; 
++Pl+Nom:%>тЬ2 INDEF-ENDS-HERE ; 
++Ela:%>ст%{оэØ%} INDEF-ENDS-HERE ;
++Ine:%>с%{оэØ%} INDEF-ENDS-HERE ;
++Ill:%>с INDEF-ENDS-HERE ;
++Dat:%>нень INDEF-ENDS-HERE ;
++Abe:%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
++Abl:%>дО1 INDEF-ENDS-HERE ;
++Ela+Gen:%>ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Abl+Gen:%>дО1%>нь INDEF-ENDS-HERE ;
++Ine+Gen:%>с%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Gen:%>нь INDEF-ENDS-HERE ;
 !2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
-+Ill:%>з%{оэØ%} Indef_Pronouns-K ;
-+Ill:%>з%{оэØ%}нь Indef_Pronouns-K ;
++Ill:%>з%{оэØ%} INDEF-ENDS-HERE ;
++Ill:%>з%{оэØ%}нь INDEF-ENDS-HERE ;
 
-+Nom+Def+Sg:%>сь Indef_Pronouns-K ;
-+Gen+Def+Sg:%>нть Indef_Pronouns-K ;
-+Def+Sg+Dat:%>нтень Indef_Pronouns-K ;
-+Pl+Def+Nom:%>тне Indef_Pronouns-K ;
-+Pl+Def+Gen:%>тне%>нь Indef_Pronouns-K ;
-+Pl+Def+Dat:%>тне%>нень Indef_Pronouns-K ;
++Nom+Def+Sg:%>сь INDEF-ENDS-HERE ;
++Gen+Def+Sg:%>нть INDEF-ENDS-HERE ;
++Def+Sg+Dat:%>нтень INDEF-ENDS-HERE ;
++Pl+Def+Nom:%>тне INDEF-ENDS-HERE ;
++Pl+Def+Gen:%>тне%>нь INDEF-ENDS-HERE ;
++Pl+Def+Dat:%>тне%>нень INDEF-ENDS-HERE ;
 
 LEXICON _OSH-Indef_Pronouns-Cases
-+Pl+Nom:%>тЬ2 Indef_Pronouns-K ; 
-+Ela:%>%{оеэØ%}ст%{оэØ%} Indef_Pronouns-K ;
-+Ine:%>%{оеэØ%}с%{оэØ%} Indef_Pronouns-K ;
-+Ill:%>%{оеэØ%}с Indef_Pronouns-K ;
-+Tra:%>%{оеэØ%}кс Indef_Pronouns-K ;
-+Dat:%>нень Indef_Pronouns-K ;
-+Abe:%>вт{оеэ%}мО1 Indef_Pronouns-K ;
-+Abl:%>дО1 Indef_Pronouns-K ;
-+Ela+Gen:%>%{оеэØ%}ст%{оэØ%}%>нь Indef_Pronouns-K ;
-+Abl+Gen:%>дО1%>нь Indef_Pronouns-K ;
-+Ine+Gen:%>%{оеэØ%}с%{оэØ%}%>нь Indef_Pronouns-K ;
-+Gen:%>%{оеэØ%}нь Indef_Pronouns-K ;
-+Com:%>нек Indef_Pronouns-K ;
++Pl+Nom:%>тЬ2 INDEF-ENDS-HERE ; 
++Ela:%>%{оеэØ%}ст%{оэØ%} INDEF-ENDS-HERE ;
++Ine:%>%{оеэØ%}с%{оэØ%} INDEF-ENDS-HERE ;
++Ill:%>%{оеэØ%}с INDEF-ENDS-HERE ;
++Tra:%>%{оеэØ%}кс INDEF-ENDS-HERE ;
++Dat:%>нень INDEF-ENDS-HERE ;
++Abe:%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
++Abl:%>дО1 INDEF-ENDS-HERE ;
++Ela+Gen:%>%{оеэØ%}ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Abl+Gen:%>дО1%>нь INDEF-ENDS-HERE ;
++Ine+Gen:%>%{оеэØ%}с%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Gen:%>%{оеэØ%}нь INDEF-ENDS-HERE ;
++Com:%>нек INDEF-ENDS-HERE ;
 
-+Nom+Def+Sg:%>%{оеэØ%}сь Indef_Pronouns-K ;
-+Gen+Def+Sg:%>%{оеэØ%}нть Indef_Pronouns-K ;
-+Def+Sg+Dat:%>%{оеэØ%}нтень Indef_Pronouns-K ;
-+Pl+Def+Nom:%>тне Indef_Pronouns-K ;
-+Pl+Def+Gen:%>тне%>нь Indef_Pronouns-K ;
-+Pl+Def+Dat:%>тне%>нень Indef_Pronouns-K ;
-+Pl+Def+Abl:%>тне%>де Indef_Pronouns-K ;
-+Pl+Def+Ela:%>тне%>стэ Indef_Pronouns-K ;
-+Pl+Def+Ine:%>тне%>сэ Indef_Pronouns-K ;
-+Pl+Def+Ill:%>тне%>с Indef_Pronouns-K ;
-+Pl+Def+Lat:%>тне%>в Indef_Pronouns-K ;
-+Pl+Def+Tra:%>тне%>кс Indef_Pronouns-K ;
-+Pl+Def+Abe:%>тне%>втеме Indef_Pronouns-K ;
-+Pl+Def+Cmpr:%>тне%>шка Indef_Pronouns-K ;
++Nom+Def+Sg:%>%{оеэØ%}сь INDEF-ENDS-HERE ;
++Gen+Def+Sg:%>%{оеэØ%}нть INDEF-ENDS-HERE ;
++Def+Sg+Dat:%>%{оеэØ%}нтень INDEF-ENDS-HERE ;
++Pl+Def+Nom:%>тне INDEF-ENDS-HERE ;
++Pl+Def+Gen:%>тне%>нь INDEF-ENDS-HERE ;
++Pl+Def+Dat:%>тне%>нень INDEF-ENDS-HERE ;
++Pl+Def+Abl:%>тне%>де INDEF-ENDS-HERE ;
++Pl+Def+Ela:%>тне%>стэ INDEF-ENDS-HERE ;
++Pl+Def+Ine:%>тне%>сэ INDEF-ENDS-HERE ;
++Pl+Def+Ill:%>тне%>с INDEF-ENDS-HERE ;
++Pl+Def+Lat:%>тне%>в INDEF-ENDS-HERE ;
++Pl+Def+Tra:%>тне%>кс INDEF-ENDS-HERE ;
++Pl+Def+Abe:%>тне%>втеме INDEF-ENDS-HERE ;
++Pl+Def+Cmpr:%>тне%>шка INDEF-ENDS-HERE ;
 
 LEXICON _KUDO-Indef_Pronouns-Cases
-+Pl+Nom+Indef:%>тЬ2 Indef_Pronouns-K ; 
++Pl+Nom+Indef:%>тЬ2 INDEF-ENDS-HERE ; 
 
-+Ela:%>ст%{оэØ%} Indef_Pronouns-K ;
-+Ine:%>с%{оэØ%} Indef_Pronouns-K ;
-+Ill:%>с Indef_Pronouns-K ;
-+Dat:%>нень Indef_Pronouns-K ;
-+Abe:%>вт{оеэ%}мО1 Indef_Pronouns-K ;
-+Abl:%>дО1 Indef_Pronouns-K ;
-+Ela+Gen:%>ст%{оэØ%}%>нь Indef_Pronouns-K ;
-+Abl+Gen:%>дО1%>нь Indef_Pronouns-K ;
-+Ine+Gen:%>с%{оэØ%}%>нь Indef_Pronouns-K ;
-+Gen:%>нь Indef_Pronouns-K ;
++Ela:%>ст%{оэØ%} INDEF-ENDS-HERE ;
++Ine:%>с%{оэØ%} INDEF-ENDS-HERE ;
++Ill:%>с INDEF-ENDS-HERE ;
++Dat:%>нень INDEF-ENDS-HERE ;
++Abe:%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
++Abl:%>дО1 INDEF-ENDS-HERE ;
++Ela+Gen:%>ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Abl+Gen:%>дО1%>нь INDEF-ENDS-HERE ;
++Ine+Gen:%>с%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Gen:%>нь INDEF-ENDS-HERE ;
 !2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
-+Ill:%>з%{оэØ%} Indef_Pronouns-K ;
-+Ill:%>з%{оэØ%}нь Indef_Pronouns-K ;
++Ill:%>з%{оэØ%} INDEF-ENDS-HERE ;
++Ill:%>з%{оэØ%}нь INDEF-ENDS-HERE ;
 
-+Sg+Nom+Def:%>сь Indef_Pronouns-K ;
-+Sg+Gen+Def:%>нть Indef_Pronouns-K ;
-+Sg+Dat+Def:%>нтень Indef_Pronouns-K ;
-+Pl+Nom+Def:%>тне Indef_Pronouns-K ;
-+Pl+Gen+Def:%>тне%>нь Indef_Pronouns-K ;
-+Pl+Abl+Def:%>тне%>дО1 Indef_Pronouns-K ;
-+Pl+Dat+Def:%>тне%>нень Indef_Pronouns-K ;
-+Pl+Ine+Def:%>тне%>с%{оэØ%} Indef_Pronouns-K ;
-+Pl+Ela+Def:%>тне%>ст%{оэØ%} Indef_Pronouns-K ;
-+Pl+Ill+Def:%>тне%>с Indef_Pronouns-K ;
++Sg+Nom+Def:%>сь INDEF-ENDS-HERE ;
++Sg+Gen+Def:%>нть INDEF-ENDS-HERE ;
++Sg+Dat+Def:%>нтень INDEF-ENDS-HERE ;
++Pl+Nom+Def:%>тне INDEF-ENDS-HERE ;
++Pl+Gen+Def:%>тне%>нь INDEF-ENDS-HERE ;
++Pl+Abl+Def:%>тне%>дО1 INDEF-ENDS-HERE ;
++Pl+Dat+Def:%>тне%>нень INDEF-ENDS-HERE ;
++Pl+Ine+Def:%>тне%>с%{оэØ%} INDEF-ENDS-HERE ;
++Pl+Ela+Def:%>тне%>ст%{оэØ%} INDEF-ENDS-HERE ;
++Pl+Ill+Def:%>тне%>с INDEF-ENDS-HERE ;
 
-+Pl+Nom+PxPl1:%>н{оеэ%}к Indef_Pronouns-K ;
-+Pl+Nom+PxPl2:%>нк Indef_Pronouns-K ;
-+Pl+Nom+PxPl3:%>ст Indef_Pronouns-K ;
++Pl+Nom+PxPl1:%>н{оеэ%}к INDEF-ENDS-HERE ;
++Pl+Nom+PxPl2:%>нк INDEF-ENDS-HERE ;
++Pl+Nom+PxPl3:%>ст INDEF-ENDS-HERE ;
 
 
 LEXICON Indef_Pronouns-K
@@ -1115,11 +1234,15 @@ LEXICON Indef_Pronouns-K-post
 !+Interr:  WORD-END ; 2017-03-11
 
 LEXICON INDEF-IN-BUTI
-:%-бути WORD-END ;
+ INDEF-ENDS-HERE ;
 
-LEXICON INDEF-IN-GAK
-:%>Г1ак WORD-END ;
 
+LEXICON INDEF-ENDS-HERE
+@U.INDEF.GAK@:@U.INDEF.GAK@%>Г1ак WORD-END ;
+@U.INDEF.BUTI@:@U.INDEF.BUTI@%-бути WORD-END ;
+@U.INDEF.TAGO@ WORD-END ; 
+@U.INDEF.TA@ WORD-END ;
+@U.INDEF.KOI@ WORD-END ;
 
 LEXICON Dem-tona
 +Dem+Adn: WORD-END ;
@@ -1206,21 +1329,21 @@ LEXICON PRON-SPAT-PRL_4-PX !!= * __@CODE@__ эзга-
 ! PossPX1-NomSg ; !2012-08-09 Removing NomGen
 !+Gen: PossPX1 ; !2012-08-09 Removing NomGen
 
-LEXICON IS-PRON-DEM-SG-ABL-INDEF
-+Sg+Abl+Indef: K ;
-LEXICON IS-PRON-DEM-SG-ELA-INDEF
-+Sg+Ela+Indef: K ;
-LEXICON IS-PRON-DEM-SG-INE-INDEF
-+Sg+Ine+Indef: K ;
+!LEXICON IS-PRON-DEM-SG-ABL-INDEF
+!+Sg+Abl+Indef: K ;
+!LEXICON IS-PRON-DEM-SG-ELA-INDEF
+!+Sg+Ela+Indef: K ;
+!LEXICON IS-PRON-DEM-SG-INE-INDEF
+!+Sg+Ine+Indef: K ;
 
-LEXICON IS-PRON-DEM-PL-DAT-INDEF
-+Pl+Dat+Indef: K ;
+!LEXICON IS-PRON-DEM-PL-DAT-INDEF
+!+Pl+Dat+Indef: K ;
 
-LEXICON IS-PRON-DEM-PL-NOM-INDEF
-+Pl+Nom+Indef: K ;
+!LEXICON IS-PRON-DEM-PL-NOM-INDEF
+!+Pl+Nom+Indef: K ;
 
-LEXICON IS-PRON-DEM-PL-NOM-DEF
-+Pl+Nom+Def: K ;
+!LEXICON IS-PRON-DEM-PL-NOM-DEF
+!+Pl+Nom+Def: K ;
 
 
 LEXICON PRON-DEM_TE
@@ -1395,20 +1518,20 @@ LEXICON REL/INTERR_PRONOUNS
 
 !кодамо+A+Rel+Pl+Nom+Def:кодатнэ WORD-END ;
 !2017-11-05кона+Det+Rel+Nom+Sg:кона WORD-END ;
-мезе+Pron+Rel+Sg+Nom+Indef:мезе WORD-END ;
+мезе+Pron+Rel+Sg+Nom+Indef:мӒ4зе WORD-END ;
 !мезень+Pron+Rel+Gen:мезень WORD-END ;
-мезе+Pron+Rel+Nom+Pl:мезть WORD-END ;
-мезе+Pron+Rel+Orth/PhonInfl+Nom+Pl:месть WORD-END ;
-мекс+Adv+Rel+Tra:мекс WORD-END ;
+!мезе+Pron+Rel+Nom+Pl:мезть WORD-END ;
+мезе+Pron+Rel+Orth/PhonInfl+Nom+Pl:мӒ4сть WORD-END ;
+мекс+Adv+Rel+Tra:мӒ4кс WORD-END ;
 !мезе+Pron+Rel+Abl:мезде WORD-END ;
 !мезе+Pron+Rel+Dat:мезнень WORD-END ;
 !мезе+Pron+Rel+Abl+Def:мезденть WORD-END ;
 !мезе+Pron+Rel+Ine:мейсэ WORD-END ;
 
 !мезе+Adn+Dep+Gen:мень WORD-END ; !This one cannot take prefix
-мезе+Pron+Rel+Com:мезнек WORD-END ;
+мезе+Pron+Rel+Com:мӒ4знек WORD-END ;
 
-мезе+Pron+Rel:мезь REL/INTERR-PRON-CASES_OSH ;
+мезе+Pron+Rel:мӒ4зь REL/INTERR-PRON-CASES_OSH ;
 
 
 кона+Det+Rel:кона REL/INTERR-PRON-CASES ;
@@ -1438,20 +1561,21 @@ LEXICON REL/INTERR_PRONOUNS
 зяро+Adv+Interr:зяро WORD-END ;
 
 !2017-11-05кона+Det+Interr+Nom+Sg:кона WORD-END ;
-мезе+Pron+Interr+Sg+Nom+Indef:мезе WORD-END ;
-!мезень+Pron+Interr+Gen:мезень WORD-END ;
-мезе+Pron+Interr+Nom+Pl:мезть WORD-END ;
-мезе+Pron+Interr+Orth/PhonInfl+Nom+Pl:месть WORD-END ;
-мекс+Adv+Interr+Tra:мекс WORD-END ;
+
+мезе+Pron+Interr+Sg+Nom+Indef:мӒ4зе WORD-END ;
+!мезеь+Pron+Interr+Gen+Indef:мезень WORD-END ;
+!мезе+Pron+Interr+Pl+Nom+Indef:мезть WORD-END ;
+мезе+Pron+Interr+Orth/PhonInfl+Pl+Nom:мӒ4сть WORD-END ;
+мекс+Adv+Interr+Tra:мӒ4кс WORD-END ;
 !мезе+Pron+Interr+Abl:мезде WORD-END ;
 !мезе+Pron+Interr+Dat:мезнень WORD-END ;
 !мезе+Pron+Interr+Abl+Def:мезденть WORD-END ;
 !мезе+Pron+Interr+Ine:мейсэ WORD-END ;
 
 !мезе+Adn+Dep+Gen:мень WORD-END ; !This one cannot take prefix
-мезе+Pron+Interr+Com:мезнек WORD-END ;
+мезе+Pron+Interr+Com:мӒ4знек WORD-END ;
 
-мезе+Pron+Interr:мезь REL/INTERR-PRON-CASES_OSH ;
+мезе+Pron+Interr:мӒ4зь REL/INTERR-PRON-CASES_OSH ;
 
 кона+Det+Interr:кона REL/INTERR-PRON-CASES ;
 
