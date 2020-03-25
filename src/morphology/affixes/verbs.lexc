@@ -13,6 +13,9 @@ LEXICON INTERJ-IMP ! Work required
 LEXICON V_ ! no stem type has been determined
 +TYÄ+V: # ;
 
+LEXICON V_KUNDAMS-TEST
++TYÄ: TV_KUNDAMS ;
+
 !LEXICON V_PAIRS
 !+V+Inf: # ;
 
@@ -55,9 +58,9 @@ LEXICON BV_LEDEMS
 !LEXICON BV_NEVTEMS
 ! IV_NEVTEMS ;
 ! TV_NEVTEMS ;
-!LEXICON BV_SAVTOMS
-! IV_SAVTOMS ;
-! TV_SAVTOMS ;
+LEXICON BV_SAVTOMS
+ IV_SAVTOMS ;
+ TV_SAVTOMS ;
 !LEXICON BV_CHACHTOMS
 ! IV_CHACHTOMS ;
 ! TV_CHACHTOMS ;
@@ -70,9 +73,9 @@ LEXICON BV_KUNDAMS
 !LEXICON BV_E2ZHNEMS
 ! IV_E2ZHNEMS ;
 ! TV_E2ZHNEMS ;
-!LEXICON BV_KUNDAKSHNOMS
-! IV_KUNDAKSHNOMS ;
-! TV_KUNDAKSHNOMS ;
+LEXICON BV_KUNDAKSHNOMS
+ IV_KUNDAKSHNOMS ;
+ TV_KUNDAKSHNOMS ;
 !LEXICON BV_SATOMS
 ! IV_SATOMS ;
 ! TV_SATOMS ;
@@ -1127,8 +1130,8 @@ LEXICON Deverbals_mutual
 ! кавтолдомадо
 @U.CX.ILL@+Ger+Ill:@U.CX.ILL@%>%{оеэØ%}мО1%>%{оеэØ%}з N-Poss-Declension-PossX_01 ;
 
-@C.CONJ-INF@+Der+Der/Ovt+Prc/Telic:@C.CONJ-INF@%>%{оеэØ%}втЬ2 N_KIT ; !!
-@C.CONJ-INF@+Der+Der/Ozj+Ger:@C.CONJ-INF@%>%{оеэØ%}зь sajezj-PRC ; !!
+@C.CONJ-INF@+Der/Ovt+Prc/Telic:@C.CONJ-INF@%>%{оеэØ%}втЬ2 N_KIT ; !!
+@C.CONJ-INF@+Der/Ozj+Ger:@C.CONJ-INF@%>%{оеэØ%}зь sajezj-PRC ; !!
 @C.CONJ-INF@+Der+Der/Ozj+Ger+Ind+Prs+ScPl3:@C.CONJ-INF@%>%{оеэØ%}зь%>тЬ2 VerbEnd_K ; !!
 @C.CONJ-INF@+Der+Der/GenAttr+A:@C.CONJ-INF@%>%{оеэØ%}нь _KAL-Tenses1 ;
 @C.CONJ-INF@+Der+Der/GenAttr+A:@C.CONJ-INF@%>%{оеэØ%}нь N2Dem-SE ;
@@ -2977,16 +2980,16 @@ LEXICON V-DEFECTIVE-IMPRT
 
 
 LEXICON ImpK
- WORD-END ;
+ ENDLEX ;
 
-+Clt/Ga:%>Г4а WORD-END ;
-+Clt/Gaka:%>Г4ака WORD-END ;
-+Clt/Gakaja:%>Г4акая WORD-END ;
-+Clt/Gaja:%>Г4ая WORD-END ;
-+Clt/Gajatj:%>Г4аять WORD-END ;
-+Clt/Gajatja:%>Г4аятя WORD-END ;
-+Clt/Gatja:%>Г4атя WORD-END ;
-!2014-01-21!+Clt/Gak:%>Г4ак WORD-END ;
++Clt/Ga:%>Г4а ENDLEX ;
++Clt/Gaka:%>Г4ака ENDLEX ;
++Clt/Gakaja:%>Г4акая ENDLEX ;
++Clt/Gaja:%>Г4ая ENDLEX ;
++Clt/Gajatj:%>Г4аять ENDLEX ;
++Clt/Gajatja:%>Г4аятя ENDLEX ;
++Clt/Gatja:%>Г4атя ENDLEX ;
+!2014-01-21!+Clt/Gak:%>Г4ак ENDLEX ;
 
 
 LEXICON VerbEnd_ImpK
@@ -2994,31 +2997,31 @@ LEXICON VerbEnd_ImpK
 !! ваномс+V+TV+Imprt+ScPl2+Clt/Ga: __look/katsoa__
 !!€ ван%>%{оеэØ%}дО1%>Г4а
 !!€ ван%>одо%>0я
-+Clt/Gak:%>Г1ак WORD-END ;
-+Clt/Gak:%>Г4ак WORD-END ;
-+Clt/Ga:%>Г4а WORD-END ;
-+Clt/Gaka:%>Г4ака WORD-END ;
-+Clt/Gakaja:%>Г4акая WORD-END ;
-+Clt/Gaja:%>Г4ая WORD-END ;
-+Clt/Gajatj:%>Г4аять WORD-END ;
-+Clt/Gajatja:%>Г4аятя WORD-END ;
-+Clt/Gatja:%>Г4атя WORD-END ;
++Clt/Gak:%>Г1ак ENDLEX ;
++Clt/Gak:%>Г4ак ENDLEX ;
++Clt/Ga:%>Г4а ENDLEX ;
++Clt/Gaka:%>Г4ака ENDLEX ;
++Clt/Gakaja:%>Г4акая ENDLEX ;
++Clt/Gaja:%>Г4ая ENDLEX ;
++Clt/Gajatj:%>Г4аять ENDLEX ;
++Clt/Gajatja:%>Г4аятя ENDLEX ;
++Clt/Gatja:%>Г4атя ENDLEX ;
 
 LEXICON VerbEnd_lak-ImpK
  VerbEnd_ImpK ;
  VerbEnd_K-lak ;
-+Err/Orth+Clt/Га:%>KLossГ4а WORD-END ;
-+Err/Orth+Clt/Гака:%>KLossГ4ака WORD-END ;
-+Err/Orth+Clt/Гакая:%>KLossГ4акая WORD-END ;
-+Err/Orth+Clt/Гая:%>KLossГ4ая WORD-END ;
-+Err/Orth+Clt/Гаять:%>KLossГ4аять WORD-END ;
-+Err/Orth+Clt/Гаятя:%>KLossГ4аятя WORD-END ;
-+Err/Orth+Clt/Гатя:%>KLossГ4атя WORD-END ;
-+Err/Orth+Clt/Gak:%>KLossГ4ак WORD-END ;
++Err/Orth+Clt/Га:%>KLossГ4а ENDLEX ;
++Err/Orth+Clt/Гака:%>KLossГ4ака ENDLEX ;
++Err/Orth+Clt/Гакая:%>KLossГ4акая ENDLEX ;
++Err/Orth+Clt/Гая:%>KLossГ4ая ENDLEX ;
++Err/Orth+Clt/Гаять:%>KLossГ4аять ENDLEX ;
++Err/Orth+Clt/Гаятя:%>KLossГ4аятя ENDLEX ;
++Err/Orth+Clt/Гатя:%>KLossГ4атя ENDLEX ;
++Err/Orth+Clt/Gak:%>KLossГ4ак ENDLEX ;
 
 
-LEXICON Phrase_V
-: # ;
+!LEXICON Phrase_V
+!: # ;
 
 LEXICON V_PAIRS
 : # ;

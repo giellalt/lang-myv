@@ -11,13 +11,16 @@ LEXICON IS_NUMORD_KUDO
 NMN_KUDO ;
 
 LEXICON DET-DEM_TE
-+Sg: WORD-END ;
++Sg: ENDLEX ;
 
 LEXICON DET-DEM_ALCE
-: WORD-END ;
+: ENDLEX ;
 
 LEXICON A_RU-OJ
 +Use/SpellNoSugg+OLang/RUS:ой A_KAL ;
+
+LEXICON A_INT-EJ
++Use/SpellNoSugg+OLang/RUS:ей A_KAL ;
 
 LEXICON A_INT-OJ
 +Use/SpellNoSugg+OLang/RUS:ой A_KAL ;
@@ -31,8 +34,8 @@ LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
 +Der+Der/GenAttr+A+Sg: K ;
 +Der+Der/GenAttr+A: CLT/COP4_OBL-SC3 ; ! These need checking 2012-04-17
 
-LEXICON A-IS-INE ! The inessive is used as an attribute and predicate modifier
-+Clt/Cop+Prs+ScSg3: K ;
+!LEXICON A-IS-INE ! The inessive is used as an attribute and predicate modifier
+!+Clt/Cop+Prs+ScSg3: K ;
 
 
 LEXICON A_VEJKET1-PL
@@ -212,10 +215,10 @@ LEXICON Adj-pango-tinge
 !+Pl:%>тЬ2 K ;
 
 LEXICON A-ADN
-+Adn: WORD-END ;
++Adn: ENDLEX ;
 
 LEXICON DET-ADN
-+Adn: WORD-END ;
++Adn: ENDLEX ;
 
 LEXICON ActDemPrc-A
 +Der+Der/Ycja+Act+DemPrc: K ;

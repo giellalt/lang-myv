@@ -1224,20 +1224,20 @@ LEXICON verbs
 LEXICON BAHUV_KAL
 +Bahuvrihi: A_KAL ;
 
-LEXICON BAHUV_KEL1
-+Bahuvrihi: A_KEL1 ;
+!LEXICON BAHUV_KEL1
+!+Bahuvrihi: A_KEL1 ;
 
-LEXICON BAHUV_LAV
-+Bahuvrihi: A_LAV ;
+!LEXICON BAHUV_LAV
+!+Bahuvrihi: A_LAV ;
 
-LEXICON BAHUV_TEV
-+Bahuvrihi: A_TEV ;
+!LEXICON BAHUV_TEV
+!+Bahuvrihi: A_TEV ;
 
 LEXICON BAHUV_PANGO
 +Bahuvrihi: A_PANGO ;
 
-LEXICON BAHUV_TINGE
-+Bahuvrihi: A_TINGE ;
+!LEXICON BAHUV_TINGE
+!+Bahuvrihi: A_TINGE ;
 
 LEXICON BAHUV_KUDO
 +Bahuvrihi: A_KUDO ;
@@ -1265,74 +1265,74 @@ LEXICON ushoso-SPAT
 
 
 LEXICON CC_
-: WORD-END ;
+: ENDLEX ;
 
 LEXICON CS_
-: WORD-END ;
+: ENDLEX ;
 
 LEXICON CS-TEMP_
-+Temp: WORD-END ;
++Temp: ENDLEX ;
 
 
 !LEXICON EndConj
-!: WORD-END ;
+!: ENDLEX ;
 
 !!Let's remember that Particle is merely an expression of form
 !LEXICON PCLE
-!а+Pcle+Neg:а WORD-END ;
-!аволь+Pcle+Neg+Emphatic:аволь WORD-END ;
+!а+Pcle+Neg:а ENDLEX ;
+!аволь+Pcle+Neg+Emphatic:аволь ENDLEX ;
 !ай+Pcle+Neg+Emphatic:ай N_KAL ;
 !апак+Pcle+Neg:апак _LAK-Tenses-Obl ;
-!седе+Pcle+Comp:седе WORD-END ;
-!сех+Pcle+Superl:сех WORD-END ;
-!сех+Pcle+Superl+Abl:сехте WORD-END ; ! This is a comparative construction
-!уш+Pcle+Intensifier:уш WORD-END ;
+!седе+Pcle+Comp:седе ENDLEX ;
+!сех+Pcle+Superl:сех ENDLEX ;
+!сех+Pcle+Superl+Abl:сехте ENDLEX ; ! This is a comparative construction
+!уш+Pcle+Intensifier:уш ENDLEX ;
 
 LEXICON PCLE-COMPAR-STND !! Not a real particle; it can take a clitic седеяк
 +Adv+Comp: K ;
 
 LEXICON PCLE-EPIST
-+Epist: WORD-END ;
++Epist: ENDLEX ;
 
 LEXICON PCLE-NEG-CONTRAST
-+Neg+Emphatic: WORD-END ;
++Neg+Emphatic: ENDLEX ;
 
 LEXICON PCLE-NEG
-+Neg: WORD-END ;
++Neg: ENDLEX ;
 
 !LEXICON PCLE-QST
-!+Qst: WORD-END ;
+!+Qst: ENDLEX ;
 
 LEXICON PCLE-SUPERL
-+Superl: WORD-END ;
++Superl: ENDLEX ;
 
 LEXICON PCLE_
-: WORD-END ;
+: ENDLEX ;
 
 
 !LEXICON EndPart
-!: WORD-END ;
+!: ENDLEX ;
 
 !LEXICON EndInterj
-!+Interj: WORD-END ;
+!+Interj: ENDLEX ;
 
 !LEXICON Interj
-!+Interj: WORD-END ;
+!+Interj: ENDLEX ;
 
 LEXICON N-Voc-Px1Sg
-+N+PxSg1+Interj+Voc: WORD-END ;
++N+PxSg1+Interj+Voc: ENDLEX ;
 
 !LEXICON EndNeg
-!+Neg: WORD-END ; ! ни
+!+Neg: ENDLEX ; ! ни
 
 !LEXICON EndQST
-!+Qst: WORD-END ;
+!+Qst: ENDLEX ;
 
 !LEXICON ONOM-End
-!+Onom: WORD-END ;
+!+Onom: ENDLEX ;
 
 !LEXICON DESCR-End
-!+Descr: WORD-END ;
+!+Descr: ENDLEX ;
 
 
 ! List of spurious lexica
@@ -1347,7 +1347,7 @@ LEXICON N-Voc-Px1Sg
 
 
 !LEXICON ADV-SUPERL
-!+Adv+Superl: WORD-END ;
+!+Adv+Superl: ENDLEX ;
 
 
 LEXICON TESTINGTESTING
@@ -1359,7 +1359,7 @@ LEXICON TESTINGTESTING
 
 LEXICON TESTCOMP
 
-+CmpTest: WORD-END ;
++CmpTest: ENDLEX ;
 
 
 !LEXICON DESCR_
