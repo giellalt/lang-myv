@@ -601,23 +601,28 @@ Rules
 !! imperative suffix
 "K1:t"
 !! __@RULENAME@__  
-К1:т <=>   Cns ( ь: ) (%{back%}:|%{backHard%}:|%{frontSoft%}:|%{frontHard%}:) %> _ Ь2: [ # | %- ] ;
+К1:т <=>   Cns ( ь: ) (%{back%}:|%{backHard%}:|%{frontSoft%}:|%{frontHard%}:) %> _ Ь2: [ # | %- | %> ] ;
 
-!! ливтемс+V+TV+Imprt+ScSg2+Clt/Га: __set out/laittaa esille__
-!!€ ливть%>К1Ь2%>Г4а
-!!€ ливть%>к0%>0а
+!! лыказевемс+V+Imprt+ScSg2: __have taken__
+!!€ лыказев%>К1Ь2
+!!€ лыказев%>ть
+
 
 "K1:к"
 !! __@RULENAME@__  
 К1:к <=> Vows (%{back%}:|%{backHard%}:|%{frontSoft%}:|%{frontHard%}:) %> _ Ь2: [ # | %- ]  ;
 
+!! ливтемс+V+TV+Imprt+ScSg2+Clt/Га: __set out/laittaa esille__
+!!€ ливть%>К1Ь2%>Г4а
+!!€ ливть%>к0%>0а
+!THIS needs a separate rule 2020-03-25
 
 
 ! Suffix final hard vs soft
 "U4:y"
 !! __@RULENAME@__  
 Ь2:ь <=>
- [ FTC | л ь: ] ( %{frontSoft%}: ) %>  К1:т  _  [ # | %- | %>  Г1: ] ;
+ [ FTC |:FTV [ %> | :0 | AC ]* CnsNonDent | л ь: ] ( %{frontSoft%}: ) %>  К1:т  _  [ # | %- | %>  Г1: ] ;
 [ LFCS | :FTV | ь: ]  ( %{frontSoft%}: ) %>  т  _  [ # | %- | %>  Г1: ] ;
   [  :FTV ( %{frontSoft%}: )  %>  %{оеэØ%}:0 | %>  [ %{оеэØ%}:е | %{оеэØ%}:э ]] [ н | ( н | в ) т ]  _  [ # | %- | %>  Г1: ] ;
 
@@ -628,6 +633,9 @@ Rules
 !! валдо+N+Pl+Nom+Indef __light/valo__
 !!$ валд%{backHard%}%>тЬ2
 !!$ валд0%>ть
+!! лыказевемс+V+Imprt+ScSg2: __have taken__
+!!€ лыказев%>К1Ь2
+!!€ лыказев%>ть
 
 "U4:0"
 !! __@RULENAME@__  
