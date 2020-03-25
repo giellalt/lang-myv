@@ -51,7 +51,7 @@ LEXICON StateConjugation-kudo
 !+ABBR: ADVTAG ;
 
 LEXICON Ad-A_ ! degree marking
-+Deg: WORD-END ;
++Deg: ENDLEX ;
 
 LEXICON ADV_ ! 
 : K ;
@@ -156,7 +156,7 @@ LEXICON PO/PRON-SPAT_
 
 
 LEXICON Adv_Phrase ! 
-: WORD-END ;
+: ENDLEX ;
 
 LEXICON ADV-IDEOPH ! 
 +Ideoph: K ;
@@ -258,7 +258,7 @@ LEXICON ADV-IS-SPAT-PRL
 LEXICON ADV-INTERR-IS-LAT
 +Interr+Lat: K ;
 !LEXICON SPAT-Interr
-!+Interr+Spat: WORD-END ;
+!+Interr+Spat: ENDLEX ;
 
 LEXICON ADV-INTERR-IS-SPAT-ABL
 +Interr+Abl: K ;
