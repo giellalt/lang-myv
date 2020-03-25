@@ -8,7 +8,7 @@
 ! ======= !
 
 LEXICON K-lak
-+Err/Orth+Orth/SH+Clt/Gak:%>KLossГ1ак WORD-END ;
++Err/Orth+Orth/SH+Clt/Gak:%>KLossГ1ак ENDLEX ;
  K ;
 
 LEXICON K
@@ -17,20 +17,20 @@ LEXICON K
 @R.POS.V@  VerbEnd ; !2013-04-18
 
 LEXICON Ks
-@R.KLOSS.ON@+Err/Orth:@R.KLOSS.ON@%>ак WORD-END ;
+@R.KLOSS.ON@+Err/Orth:@R.KLOSS.ON@%>ак ENDLEX ;
  FOC-PCLE-OR-NOT ;
 
 
 
 LEXICON FOC-PCLE-OR-NOT
-            WORD-END ; 
-+Clt/Gak:%>Г1ак WORD-END ;
+            ENDLEX ; 
++Clt/Gak:%>Г1ак ENDLEX ;
 
 
 
 !! END 
 
-LEXICON WORD-END
+LEXICON ENDLEX
  # ;
 
 

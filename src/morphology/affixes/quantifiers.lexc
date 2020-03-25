@@ -6,7 +6,7 @@
 
 !Dealing with numerals up to 4 digits long
 !LEXICON Numerals
-!№+Symbl:№ WORD-END ;
+!№+Symbl:№ ENDLEX ;
 !I Roman-numerals ; !
 !II Roman-numerals ;
 !III Roman-numerals ;
@@ -86,12 +86,12 @@
 
 
 !LEXICON Num-1d
-!+Ord:-це WORD-END ;
-!+Card: WORD-END ;
+!+Ord:-це ENDLEX ;
+!+Card: ENDLEX ;
 
 !!Roman Numerals
 !LEXICON Roman-numerals
-!+Rom: WORD-END ; 
+!+Rom: ENDLEX ; 
 
 
 !! !Now regular
@@ -99,12 +99,12 @@
 !+Err/Orth: NUM_KAL ;
 
 LEXICON NUM_KAL
-!+Card: WORD-END ;
-!+Card+Appr:%>шка WORD-END ;
+!+Card: ENDLEX ;
+!+Card+Appr:%>шка ENDLEX ;
 +Card: NMN_KAL ;
 !+Card+Lat:%>%{оеэØ%}в Ks ;
 +A: NUMORD_KAL ;
-+Card+Coll:%>нст WORD-END ;
++Card+Coll:%>нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
 !@P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@нек Ks ;
 !@P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
@@ -116,21 +116,21 @@ LEXICON NUM_KAL
 
 
 LEXICON NUMORD_KAL
-!+Der/cje+A+Ord:%>це WORD-END ;
+!+Der/cje+A+Ord:%>це ENDLEX ;
 +Der+Der/cje+Ord:%>це NMN_KUDO ;
-!+Der/tjks+A+Ord:%>%{оеэØ%}тькс WORD-END ;
+!+Der/tjks+A+Ord:%>%{оеэØ%}тькс ENDLEX ;
 +Der+Der/tjks+Ord:%>%{оеэØ%}тькс NMN_OSH ;
 
 !LEXICON NUM_OSH_SUB
 !+Err/Orth: NUM_OSH ;
 
 LEXICON NUM_OSH
-!+Card: WORD-END ;
-!+Card+Appr:%>%{оеэØ%}шка WORD-END ;
+!+Card: ENDLEX ;
+!+Card+Appr:%>%{оеэØ%}шка ENDLEX ;
 +Card: NMN_OSH ;
 !+Card+Lat:%>%{оеэØ%}в Ks ;
 +A: NUMORD_OSH ;
-+Card+Coll:%>нст WORD-END ;
++Card+Coll:%>нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
 @P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@нек Ks ;
 @P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
@@ -141,21 +141,21 @@ LEXICON NUM_OSH
 +Appr+Iter:%>шкаксть Ks ;
 
 LEXICON NUMORD_OSH
-!+Der/cje+A+Ord:%>%{оеэØ%}%>це WORD-END ;
+!+Der/cje+A+Ord:%>%{оеэØ%}%>це ENDLEX ;
 +Der+Der/cje+Ord:%>%{оеэØ%}%>це NMN_KUDO ;
-!+Der/tjks+A+Ord:%>%{оеэØ%}тькс WORD-END ;
+!+Der/tjks+A+Ord:%>%{оеэØ%}тькс ENDLEX ;
 +Der+Der/tjks+Ord:%>%{оеэØ%}тькс NMN_OSH ;
 
 !LEXICON NUM_SJADO_SUB
 !+Err/Orth: NUM_SJADO ;
 
 LEXICON NUM_SJADO
-!+Card:%>%{оеэØ%} WORD-END ;
-!+Card+Appr:%>%{оеэØ%}шка WORD-END ;
+!+Card:%>%{оеэØ%} ENDLEX ;
+!+Card+Appr:%>%{оеэØ%}шка ENDLEX ;
 +Card: NMN_PANGO ;
 !+Card+Lat:%>%{оеэØ%}в Ks ;
 +A:О1 NUMORD_SJADO ;
-+Card+Coll:%>%{оеэØ%}нст WORD-END ;
++Card+Coll:%>%{оеэØ%}нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@%>%{оеэØ%}нст  Quants3 ;
 @P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@%>%{оеэØ%}нек Ks ;
 @P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@%>%{оеэØ%}шканек Ks ;
@@ -166,9 +166,9 @@ LEXICON NUM_SJADO
 +Adv+Appr+Iter:%>%{оеэØ%}шкаксть Ks ;
 
 LEXICON NUMORD_SJADO
-!+Der/cje+Det+Ord:%>це WORD-END ;
+!+Der/cje+Det+Ord:%>це ENDLEX ;
 +Der+Der/cje+Ord:%>це NMN_KUDO ;
-!+Der/tjks+Det+Ord:%>тькс WORD-END ;
+!+Der/tjks+Det+Ord:%>тькс ENDLEX ;
 +Der+Der/tjks+Ord:%>тькс NMN_OSH ;
 
 !LEXICON NUM_KUDO_SUB
@@ -176,12 +176,12 @@ LEXICON NUMORD_SJADO
 
 ! More work needed 2012-10-08
 LEXICON NUM_KUDO
-!+Card: WORD-END ;
-!+Card+Appr:%>шка WORD-END ;
+!+Card: ENDLEX ;
+!+Card+Appr:%>шка ENDLEX ;
 +Card: NMN_KUDO ;
 +A: NUMORD_KUDO ;
 
-!2017-11-21+Card+Coll:%>нст WORD-END ;
+!2017-11-21+Card+Coll:%>нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
 @P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@нек Ks ;
 @P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
@@ -193,7 +193,7 @@ LEXICON NUM_KUDO
 !2017-11-21+Card+Lat:%>в Ks ;
 
 LEXICON NUMORD_KUDO
-!2017-11-21+Der/cje+Ord:%>це WORD-END ;
+!2017-11-21+Der/cje+Ord:%>це ENDLEX ;
 @P.TLOSS.ON@+Der+Der/cje+Ord+Coll+Attr:@P.TLOSS.ON@ценст  Quants3 ;!CHECKME 2017-11-21
 +Der+Der/cje+Ord:%>це NMN_KUDO ;
 +Der+Der/tjks+Ord:%>тькс NMN_OSH ;
@@ -201,7 +201,7 @@ LEXICON NUMORD_KUDO
 !!
 LEXICON IS-NUM-CARD-COLL
 !! кавонст
-+Card+Coll: WORD-END ;
++Card+Coll: ENDLEX ;
 +Card+Coll: KOLMONST-ELLIPSIS-TYPE ;
 
 LEXICON IS-NUMORD_KUDO
@@ -214,26 +214,26 @@ LEXICON IS-NUMORD_OSH
 
 LEXICON IS-NUM-ORD-COLL
 !! омбонст
-+Ord+Coll:	WORD-END ;
++Ord+Coll:	ENDLEX ;
 +Ord+Coll: KOLMONST-ELLIPSIS-TYPE ;
 
 LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
 !! кавонест is a pronoun like the Finnish molemmat
 !! This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
 +Pron+AssocColl: PossPX1 ;
-+Err/Orth+Pron+AssocColl+PxPl1:к WORD-END ; ! 2012-10-28
++Err/Orth+Pron+AssocColl+PxPl1:к ENDLEX ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
-+Card+Appr+Sg+Nom+Indef: WORD-END ;
++Card+Appr+Sg+Nom+Indef: ENDLEX ;
 !!весть-кавксть
 LEXICON ITERAPPROX_
-+Iter+Appr: WORD-END ;
++Iter+Appr: ENDLEX ;
 
 LEXICON Card-2
 !+Card+Lat:%>в K ;
-!+Card: WORD-END ;
-!+Card+Appr:%>шка WORD-END ;
+!+Card: ENDLEX ;
+!+Card+Appr:%>шка ENDLEX ;
 +Card: NMN_KUDO ;
 
 !!
@@ -293,7 +293,7 @@ LEXICON QNT_KUDO
 +Det+Qnt: CLT/COP4_OBL-SC3 ; ! ламольть
 
 LEXICON NUM-ADN
-+Adn: WORD-END ; !! Numeral with a range limitation to adnominal phrase
++Adn: ENDLEX ; !! Numeral with a range limitation to adnominal phrase
 
 LEXICON QNT-DISTR
 +Det+Qnt+Distr: K ;
@@ -302,7 +302,7 @@ LEXICON QNT-INDEF
 +Det+Qnt+Indef: K ;
 
 LEXICON QNT_VESEME
-+Det+Qnt+Adn: WORD-END ;
++Det+Qnt+Adn: ENDLEX ;
 @P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ _KUDO-Indef-Declension-SG ;
 
 @P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
@@ -330,19 +330,19 @@ LEXICON QNT_VESEME
 !LEXICON Cards-kal
 !+Det+Ord:%>це Quants3 ;
 ! Quants2 ;
-!+Card: WORD-END ;
+!+Card: ENDLEX ;
 !+Card+Der/MWN: N_KAL ;
 
 !LEXICON CARDS_OSH
 !+Det+Ord:%>%{оеэØ%}це Quants3 ;
 ! Quants2 ;
-!+Card: WORD-END ;
+!+Card: ENDLEX ;
 !+Card+Der/MWN: N_OSH ;
 
 !LEXICON CARDS_KUDO
 !+Det+Ord:%>це Quants3 ;
 ! Quants2 ;
-!+Card: WORD-END ;
+!+Card: ENDLEX ;
 !+Card+Der/MWN: N_KUDO ;
 
 ! 2012-08-09
@@ -584,7 +584,7 @@ LEXICON Attributes2_PL
 LEXICON vese-QNT
 +Pron: _KUDO-Misc_Pronouns_Sg ;
 +Pron: Misc_Pronouns_Pl ;
-!+Det+Attr: WORD-END ;
+!+Det+Attr: ENDLEX ;
 
 
 
