@@ -38,25 +38,16 @@ LEXICON _OSH-PossPX1
 
 
 
-LEXICON POSSX4-END-FOC-CLT/COP-SC3
+!LEXICON POSSX4-END-FOC-CLT/COP-SC3
 !! These are possessor indices that can be followed by predicate marking
 !! in the present there is no destinction between ScSg3 and ScPl3
 !! Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
 !!
-!POSSX4-END ; 2016-02-16
-OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-POSSX4-CLT/COP-SC3 ;
+!OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON POSSX4-END !!= * __@CODE@__ Word final possessor index, no subsequent clitic
 !! _KUDO-Possessive-Word-Final
-+PxSg1:%>%{оеэØ%}нЬ2 ENDLEX ;
-+PxSg1+Err/Orth+Dial/SE:%>%{оеэØ%}м ENDLEX ;
-+PxSg2:%>%{оеэØ%}тЬ2 ENDLEX ;
-+PxSg2+Err/Orth+Dial/W:%>%{оеэØ%}нтЬ2 ENDLEX ;
-+PxSg3:%>%{оеэØ%}нз%{оэØ%} ENDLEX ;
-+PxPl1:%>%{оеэØ%}н%{оеэ%}к ENDLEX ;
-+PxPl2:%>%{оеэØ%}нк ENDLEX ;
-+PxPl3:%>%{оеэØ%}ст ENDLEX ;
+OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON POSSX4-END-DAT
 !+PxSg1:%>%{оеэØ%}нЬ2 ENDLEX ;
@@ -69,18 +60,6 @@ LEXICON POSSX4-END !!= * __@CODE@__ Word final possessor index, no subsequent cl
 !+PxPl3:%>%{оеэØ%}ст ENDLEX ;
 !+PxPl3:%>%{оеэØ%}нст ENDLEX ;
 !!! Used with words like тензэ
-
-LEXICON POSSX4-CLT/COP-SC3
-!! Conjugation
-+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Conjugation ;
-+PxSg1+Err/Orth+Dial/SE:%>%{оеэØ%}м _KAL-Conjugation ;
-+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Conjugation ;
-+PxSg2+Err/Orth+Dial/W:%>%{оеэØ%}нтЬ2 _KIT-Conjugation ;
-+PxSg3:%>%{оеэØ%}нз%{оэØ%} CLT/COP4_OBL-SC3 ;
-+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Conjugation ;
-+PxPl2:%>%{оеэØ%}нк _LAK-Conjugation ;
-+PxPl3:%>%{оеэØ%}ст _KIT-Conjugation ;
-
 
 LEXICON N-KIN
 !! This appears with kindred terminology 
@@ -128,18 +107,18 @@ LEXICON N_KAL-Derivation-WITH-POSSX
 +Sg+Gen+PxPl3:%>%{оеэØ%}ст N2Dem-SE ;
 
 LEXICON POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE
- POSSX-MUTUAL-OBL-CONJUGATION ;
+ OBL-PX4-CLTCOP ;
  POSSX-OBL4-N2DEM-SE ;
 
-LEXICON POSSX-MUTUAL-OBL-CONJUGATION
-+PxSg1:%>%{оеэØ%}нЬ2 MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+PxSg1+Err/Orth+Dial/SE:%>%{оеэØ%}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+PxSg2:%>%{оеэØ%}тЬ2 MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+Use/-Spell+PxSg2+Err/Orth+Dial/W:%>%{оеэØ%}нтЬ2 MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+PxSg3:%>%{оеэØ%}нз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+PxPl1:%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+PxPl2:%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-+PxPl3:%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!LEXICON POSSX-MUTUAL-OBL-CONJUGATION
+!+PxSg1:%>%{оеэØ%}нЬ2 MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg1+Err/Orth+Dial/SE:%>%{оеэØ%}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg2:%>%{оеэØ%}тЬ2 MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+Use/-Spell+PxSg2+Err/Orth+Dial/W:%>%{оеэØ%}нтЬ2 MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg3:%>%{оеэØ%}нз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxPl1:%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxPl2:%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxPl3:%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON POSSX-OBL4-N2DEM-SE
 +PxSg1:%>%{оеэØ%}нЬ2 N2Dem-SE ;
@@ -169,7 +148,7 @@ LEXICON DAT-PXSG2
 +Err/Orth+Dial/SE+Dat+PxSg2:%>%{оеэØ%}те K ;
 
 LEXICON DAT-PXSG3
-@U.DECL-NX.SG@+SP+Dat+PxSg3:@U.DECL-NX.SG@%>%{оеэØ%}нстэнь K ;
+@U.DECL-NX.SP@+SP+Dat+PxSP3:@U.DECL-NX.SP@%>%{оеэØ%}нстэнь K ;
 +Err/Orth+Dial/SE+Dat+PxSg3:%>%{оеэØ%}нст%{оэØ%} K ;
 +Err/Orth+Dial/W+Dat+PxSg3:%>%{оеэØ%}нстэнзэ K ;
 
@@ -318,10 +297,10 @@ LEXICON PL-NOM-PXPL3
 !LEXICON N_OSH-Poss-Declension-PossX
 ! N-Poss-Declension-PossX_01 ;
 
-LEXICON N_KUDO-Poss-Declension-PossX
+!LEXICON N_KUDO-Poss-Declension-PossX
 !! These are possessor Indices for non-nominative singular
 !! NonNomSg
- N-Poss-Declension-PossX_01 ;
+! N-Poss-Declension-PossX_01 ;
 
 LEXICON N-Poss-Declension-PossX_01
 @U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}нЬ2 _KUDO-Tenses1-4Inf ;
@@ -393,6 +372,52 @@ LEXICON Possessive-Before-K-noArrow
 +PxPl3:ст K ;
 +Err/Orth+Dial/NW+PxPl3:ск K ;
 
+LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP
+ OBL-PX4-END/FOC/CLTCOP_PXSG1 ;
+ OBL-PX4-END/FOC/CLTCOP_PXSG2 ;
+ OBL-PX4-END/FOC/CLTCOP_PXSG3 ;
+ OBL-PX4-END/FOC/CLTCOP_PXPL1 ;
+ OBL-PX4-END/FOC/CLTCOP_PXPL2 ;
+ OBL-PX4-END/FOC/CLTCOP_PXPL3 ;
+
+LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG1
+OBL-PX4-END-FOC_PXSG1 ;
+OBL-PX4-CLTCOP_PXSG1 ;
+
+LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG2
+OBL-PX4-END-FOC_PXSG2 ;
+OBL-PX4-CLTCOP_PXSG2 ;
+
+LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG3
+OBL-PX4-END-FOC_PXSG3 ;
+OBL-PX4-CLTCOP_PXSG3 ;
+
+LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL1
+OBL-PX4-END-FOC_PXPL1 ;
+OBL-PX4-CLTCOP_PXPL1 ;
+
+LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL2
+OBL-PX4-END-FOC_PXPL2 ;
+OBL-PX4-CLTCOP_PXPL2 ;
+
+LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL3
+OBL-PX4-END-FOC_PXPL3 ;
+OBL-PX4-CLTCOP_PXPL3 ;
+
+!!
+LEXICON OBL-PX4-CLTCOP-OR-FOC
+ K ;
+ OBL-PX4-CLTCOP ;
+LEXICON OBL-PX4-CLTCOP
+OBL-PX4-CLTCOP_PXSG1 ;
+OBL-PX4-CLTCOP_PXSG2 ;
+OBL-PX4-CLTCOP_PXSG3 ;
+OBL-PX4-CLTCOP_PXPL1 ;
+OBL-PX4-CLTCOP_PXPL2 ;
+OBL-PX4-CLTCOP_PXPL3 ;
+
+!!
+
 LEXICON OBL-PX4-END-FOC
  OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 ! K ;
@@ -427,6 +452,29 @@ LEXICON OBL-PX4-END-FOC_PXPL3
 @U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст K ;
 @U.PossPx.Pl3@+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ск K ;
 @U.PossPx.Pl3@+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст K ;
+
+!!
+LEXICON OBL-PX4-CLTCOP_PXSG1
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}нЬ2 CLT/COP-4-OBL ;
+@U.PossPx.Sg1@+Err/Orth+Dial/SE+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м CLT/COP-4-OBL ;
+
+LEXICON OBL-PX4-CLTCOP_PXSG2
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}тЬ2 CLT/COP-4-OBL ;
+@U.PossPx.Sg2@+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нтЬ2  CLT/COP-4-OBL ;
+
+LEXICON OBL-PX4-CLTCOP_PXSG3
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} CLT/COP-4-OBL ;
+
+LEXICON OBL-PX4-CLTCOP_PXPL1
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к CLT/COP-4-OBL ;
+
+LEXICON OBL-PX4-CLTCOP_PXPL2
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк CLT/COP-4-OBL ;
+
+LEXICON OBL-PX4-CLTCOP_PXPL3
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст CLT/COP-4-OBL ;
+@U.PossPx.Pl3@+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ск CLT/COP-4-OBL ;
+@U.PossPx.Pl3@+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст CLT/COP-4-OBL ;
 
 
 

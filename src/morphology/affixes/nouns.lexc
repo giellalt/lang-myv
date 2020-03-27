@@ -948,7 +948,7 @@ LEXICON N_KUDO-Derivation-noArrow
 +SP+Tra+Indef:%>%{оеэØ%}кс N2Dem-SE ;!CHECKME 2019-01-25
 +SP+Tra+Indef:%>%{оеэØ%}кс%>%{оеэØ%} N2Dem-SE ;
 
-+SP+Tra:%>%{оеэØ%}кс POSSX-MUTUAL-OBL-CONJUGATION ;
++SP+Tra:%>%{оеэØ%}кс OBL-PX4-CLTCOP ;
 
 !+SP+Gen+PxSg1:%>%{оеэØ%}м N2Dem-SE ;
 !+SP+Gen+PxSg1:%>%{оеэØ%}нЬ2 N2Dem-SE ;
@@ -959,8 +959,8 @@ LEXICON N_KUDO-Derivation-noArrow
 +SP+Cmpr:%>шка POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 +SP+Abe:%>вт%{оеэ%}мО1 POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 
-+Sg+Gen: POSSX-MUTUAL-OBL-CONJUGATION ; !CHECKME 2019-01-31
-+Pl+Gen: POSSX-MUTUAL-OBL-CONJUGATION ;
+
++SP+Gen: OBL-PX4-CLTCOP ;
 +SP+Gen: POSSX-OBL4-N2DEM-SE ;
 
 
@@ -1680,16 +1680,16 @@ LEXICON N_KUDO-Poss-Declension-CX-Mutual
 !! !!CASES BEFORE POSSESSIVE TAGS 
 
 LEXICON ABE-PX
-+SP+Abe:%>вт%{оеэ%}мО1 N_KUDO-Poss-Declension-PossX ;
++SP+Abe:%>вт%{оеэ%}мО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ABL-PX
-+SP+Abl:%>дО1 N_KUDO-Poss-Declension-PossX ;
++SP+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON CMP-PX
-+SP+Cmpr:%>шка N_KUDO-Poss-Declension-PossX ;
++SP+Cmpr:%>шка OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ELA-PX
-+SP+Ela:%>ст%{оэØ%} N_KUDO-Poss-Declension-PossX ;
++SP+Ela:%>ст%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ILL-PX
 +SP+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
@@ -1697,13 +1697,13 @@ LEXICON ILL-PX
 
 
 LEXICON INE-PX
-+SP+Ine:%>с%{оэØ%} N_KUDO-Poss-Declension-PossX ;
++SP+Ine:%>с%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 !LEXICON LOC-PX
-!+SP+Loc:%>%{оеэØ%} N_KUDO-Poss-Declension-PossX ;
+!+SP+Loc:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON PRL-PX
-+SP+Prl:%>Г2а N_KUDO-Poss-Declension-PossX ;
++SP+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON TRA-PX
 +SP+Tra:%>кс OBL-PX4-END-FOC ;

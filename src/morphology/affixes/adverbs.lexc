@@ -114,10 +114,10 @@ LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
 +Adp+Spat+Loc:%>%{оеэØ%} K ;
 +Adp+Spat+Prl:%>Г2а K ;
 +Adp+Spat+Lat:%>%{оеэØ%}в K ;
-+Pron+Spat+Abl:%>дО1 POSSX4-END-FOC-CLT/COP-SC3 ;
-+Pron+Spat+Loc:%>%{оеэØ%} POSSX4-END-FOC-CLT/COP-SC3 ;
-+Pron+Spat+Prl:%>Г2а POSSX4-END-FOC-CLT/COP-SC3 ;
-+Pron+Spat+Lat:%>%{оеэØ%} POSSX4-END-FOC-CLT/COP-SC3 ;
++Pron+Spat+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Pron+Spat+Loc:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Pron+Spat+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Pron+Spat+Lat:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 
 
@@ -131,11 +131,11 @@ LEXICON ADV-SPAT_ALO !!= @CODE@ ало:ал
 
 LEXICON ADV-SPAT_karsho
 +Spat: K ;
-+Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
++Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 +Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON ADV-INE_KISE2
-+Ine: POSSX4-END-FOC-CLT/COP-SC3 ;
++Ine: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON PO-SPAT_karsho
 +Adp+Spat: K ;
@@ -145,13 +145,13 @@ LEXICON PO-SPAT_karsho
 !!! relative space __мельга__
 !+Spat: K ;
 !+Adp+Spat: K ;
-!+Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
+!+Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 
 LEXICON PO/PRON-SPAT_
 !! relative space __мельга__
 +Adp+Spat: K ;
-+Pron+Spat: POSSX4-END-FOC-CLT/COP-SC3 ;
++Pron+Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 
 
