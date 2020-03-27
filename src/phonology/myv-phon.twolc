@@ -265,7 +265,7 @@ Rules
 !Changes in the stem vowels before "10", "20", "30" and "60"
 "verbStemVowStrong:0"
 !! __@RULENAME@__  
- X:Y <=> [ Cns | Vows ] _ ( HarmDummies: )  %> [А2:я|А2:а [ н | т ]| %{иы%}:] ;
+ X:Y <=> [ Cns | Vows | Г2: ] _ ( HarmDummies: )  %> [А2:я|А2:а [ н | т ]| %{иы%}:] ;
 !                   Cns  _ К4:0 %>  %{иы%}: ;
           where X in (а о э ы у я ё е и ю)
                 Y in (0 0 0 0 0 0 0 0 0 0) matched ;
@@ -564,16 +564,16 @@ Rules
 !Prolative
 "G2:g"
 !! __@RULENAME@__  
-Г2:г <=> [ CnsVoicedDent ( :ь )| [ CnsVoicedNonDent - г ] ( :ь ) ] %> _ а ;
+Г2:г <=> [ CnsVoicedDent ( :ь )| [ CnsVoicedNonDent - г ] ( :ь ) ] %> _ а: ;
 
 "G2:v"! 
-Г2:в <=> [ :Vows (:0) %> | :Vows ] _ а [ # | %- |%> [ Г1:0 |  %{оеэØ%}:  SIVV |т | н | м | с | д: | в | к с | л | А2: ] ];
+Г2:в <=> [ :Vows (:0) %> | :Vows ] _ а: [ # | %- |%> [ Г1:0 |  %{оеэØ%}:  SIVV |т | н | м | с | д: | в | к с | л | А2: ] ];
 
 
 "G2:k"
 !! __@RULENAME@__  
-Г2:к <=>  [ CnsVoicelessDent ( :ь )| CnsVoicelessNonDent ( :ь )| г ] %> _ а [ # |  %- |%> [ Г1:0 | %{оеэØ%}: SIVV | т | н | с | д: | в | к с | л ] ] ;
-           Vows CnsVoiceless  %> VLoss:0 _ а ;
+Г2:к <=>  [ CnsVoicelessDent ( :ь )| CnsVoicelessNonDent ( :ь )| г ] %> _ а: [ # |  %- |%> [ Г1:0 | %{оеэØ%}: SIVV | т | н | с | д: | в | к с | л ] ] ;
+           Vows CnsVoiceless  %> VLoss:0 _ а: ;
 
 ! 2012-08-07
 "G4:g" !Imperative Clitics

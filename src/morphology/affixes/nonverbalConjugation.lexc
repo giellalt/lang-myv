@@ -13,7 +13,7 @@ LEXICON OBL-WITH-COP_KAL
 
 LEXICON OBL-WITH-COP_KAL-Sg
 K ;
-+Clt/Cop+Prs+ScSg3: K ;
+!2020-03-27+Clt/Cop+Prs+ScSg3: K ;
 +Clt/Cop: OBL-WITH-COP_KAL-Sg-noClt ;
 
 LEXICON OBL-WITH-COP_KAL-Sg-noClt
@@ -171,7 +171,7 @@ LEXICON _KUDO-Tenses1_Prep-SG
 LEXICON _LAK-NomSg-Conjugation
  _KAL-NomSg-Conjugation ;
  NounEnd_K-lak  ;
-+Clt/Cop+Prs+ScSg3: NounEnd_K-lak ;
+!2020-03-27+Clt/Cop+Prs+ScSg3: NounEnd_K-lak ;
 
 !LEXICON _LAK-NomPl-Conjugation
 ! _KAL-NomPl-Conjugation ;
@@ -185,9 +185,9 @@ LEXICON _LAK-NomSg-Conjugation
 !2019-01-30  _KAL-NomPl-Conjugation-only-4Poss ;
 !2019-01-30  NounEnd_K-lak  ;
 
-LEXICON _LAK-Conjugation
- _KAL-Conjugation ;
- NounEnd_K-lak  ;
+!LEXICON _LAK-Conjugation
+! _KAL-Conjugation ;
+! NounEnd_K-lak  ;
 
 !2019-01-30 LEXICON _LAK-Conjugation-4Poss
 !2019-01-30  _KAL-Conjugation-4Poss ;
@@ -223,7 +223,7 @@ LEXICON CLT/COP_SG
 !! _KAL-NomSg-Conjugation-only
  CLT/COP-PRS-SG1 ;
  CLT/COP-PRS-SG2 ;
- CLT/COP-PRS-SG3 ;
+!2020-03-27 CLT/COP-PRS-SG3 ;
  CLT/COP-PRT2-SG1 ;
  CLT/COP-PRT2-SG2 ;
  CLT/COP-PRT2-SG3 ;
@@ -393,7 +393,7 @@ LEXICON _KUDO-Tenses-NomSg
  VerbEnd_K ;
 +Clt/Cop+Prs+ScSg1:%>А2н VerbEnd_K ;
 +Clt/Cop+Prs+ScSg2:%>А2т VerbEnd_K ;
-+Clt/Cop+Prs+ScSg3: VerbEnd_K ;
+!2020-03-27+Clt/Cop+Prs+ScSg3: VerbEnd_K ;
 +Clt/Cop+Prt2+ScSg1:%>%{оеэØ%}линь VerbEnd_K ;
 +Clt/Cop+Prt2+ScSg2:%>%{оеэØ%}лить VerbEnd_K ;
 +Clt/Cop+Prt2+ScSg3:%>%{оеэØ%}ль VerbEnd_K ;
@@ -420,6 +420,9 @@ LEXICON _KUDO-Tenses-NomPl
 LEXICON _KUDO-Tenses-Obl
 !2013-14-15! VerbEnd_K ;
  K ; !2013-14-15! 
+ CLT/COP-4-OBL ;
+
+LEXICON CLT/COP-4-OBL
  CLT/COP-PRS-SG1 ;
  CLT/COP-PRS-SG2 ;
  CLT/COP-PRS-PL1 ;
@@ -436,19 +439,6 @@ LEXICON _KUDO-Tenses-Obl
 
 !!
 
-!LEXICON Tenses1
-! CLT/COP-PRS-SG1 ;
-! CLT/COP-PRS-SG2 ;
-! CLT/COP-PRS-PL1 ;
-! CLT/COP-PRS-PL2 ;
-
-! CLT/COP-PRT2-SG1 ;
-! CLT/COP-PRT2-SG2 ;
-! CLT/COP-PRT2-SG3 ;
-! CLT/COP-PRT2-PL1 ;
-! CLT/COP-PRT2-PL2 ;
-! CLT/COP-PRT2-PL3 ;
-
 
 LEXICON CLT/COP-PRS-SG1 
 @U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@+Clt/Cop+Prs+ScSg1:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@%>А2н FOC-PCLE-OR-NOT ;
@@ -456,8 +446,8 @@ LEXICON CLT/COP-PRS-SG1
 LEXICON CLT/COP-PRS-SG2 
 @U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@+Clt/Cop+Prs+ScSg2:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@%>А2т FOC-PCLE-OR-NOT ;
 
-LEXICON CLT/COP-PRS-SG3 
-@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@+Clt/Cop+Prs+ScSg3:@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@ FOC-PCLE-OR-NOT ;
+!2020-03-27LEXICON CLT/COP-PRS-SG3 
+!@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@+Clt/Cop+Prs+ScSg3:@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@ FOC-PCLE-OR-NOT ;
 
 LEXICON CLT/COP-PRS-PL1 
 @U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Clt/Cop+Prs+ScPl1:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@%>тА2но FOC-PCLE-OR-NOT ;
