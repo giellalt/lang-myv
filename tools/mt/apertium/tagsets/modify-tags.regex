@@ -3,6 +3,14 @@
   [ %<n%> %<prop%> -> %<np%> ]
   [ %<sem%_fem%> -> %<ant%> %<f%>  ] .o.
   [ %<sem%_mal%> -> %<ant%> %<m%>  ] .o.
+  [ %<sem%_ant%-fem%> -> %<ant%> %<f%> ] .o.
+  [ %<sem%_ant%-mal%> -> %<ant%> %<m%> ] .o.
+  [ %<sem%_constellation%> -> %<constellation%> ] .o.
+  [ %<sem%_divinity%> -> %<divinity%> ] .o.
+  [ %<sem%_patr-fem%> -> %<patr%> %<f%> ] .o.
+  [ %<sem%_patr-mal%> -> %<patr%> %<m%> ] .o.
+  [ %<sem%_sur-mal%> -> %<cog%> %<m%> ] .o.
+  [ %<sem%_sur-fem%> -> %<cog%> %<f%> ] .o.
   [ %<sem%_sur%> -> %<cog%>  ] .o.
   [ "<scsg1>" "<ocsg2>" -> "<a_sg1>" "<o_sg2>" ] .o.
   [ "<scsg1>" "<ocsg3>" -> "<a_sg1>" "<o_sg3>" ] .o.
