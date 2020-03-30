@@ -358,8 +358,8 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
  * +Sem/State-sick Illness
  * +Sem/Substnc Substance, like Air and Water
  * +Sem/Sur Surname
- * +Sem/Sur-Fem Surname female
- * +Sem/Sur-Mal Surname male
+ * +Sem/Fem-Sur Surname female
+ * +Sem/Mal-Sur Surname male
  * +Sem/Symbol Symbol
  * +Sem/Time Time
  * +Sem/Tool Prototypical tool for repairing things
@@ -509,8 +509,8 @@ Semantics are classified with
  * +Sem/Ant-Fem 	  Anthroponym female
  * +Sem/Ant-Mal 	  Anthroponym male
  * +Sem/Patr 	  Patronym
- * +Sem/Patr-Fem 	  Patronym female
- * +Sem/Patr-Mal 	  Patronym male
+ * +Sem/Fem-Patr 	  Patronym female
+ * +Sem/Mal-Patr 	  Patronym male
  * +Sem/Rvr  name of river or water way, media of transportation,
  * +Sem/Mnth  name of month
  * +Sem/Inanim  Inanimate,
@@ -608,8 +608,13 @@ Modifier without noun
  * +Der/kshnO  verb2verb derivation
  * +Der/OkshnOms  verb2verb derivation
  * +Der/OvOms  verb2verb derivation
+ * +Der/OvkshnOms  verb2verb derivation
  * +Der/OvtOms  verb2verb derivation
+ * +Der/Ovtnjems  verb2verb derivation
  * +Der/Ozevems  verb2verb derivation
+ * +Der/Ozevtems  verb2verb derivation
+ * +Der/Ozevtnjems  verb2verb derivation
+ * +Der/Ozevkshnems  verb2verb derivation
  * +Der/sje  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
  * +Der/nje  verb2verb derivation
  * +Der/njems  verb2verb derivation
@@ -729,7 +734,7 @@ It is important for Apertium, and useful in other cases as well.
  * +Descr descriptive words
 !!Different focus particles
 Focus clitics
- * +Clt/Gak 
+ * +Clt/AddGak 
 
 
 !!Imperative clitics
