@@ -364,6 +364,8 @@ LIST VERBWITHMO = "арсемс" "кармамс" "мадемс" "озамс" ; 
 
 LIST VERBWITHMODS = "озавтомс" ; #!!озавтомс ярсамо
 
+LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
+
 LIST KINTERM = "ава" "тетя" ;
 
 SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
@@ -380,7 +382,7 @@ LIST EZJ = "эзь" ;
 
 LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ; 
 
-
+LIST OBLNMN = Abe Abl Cau Com Cmpr Dat Gen Lat Loc Prl Temp Tra ;
 
 # Sets
 # ====
@@ -495,7 +497,8 @@ REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
 
 #  ташто кудосо
-REMOVE N IF (0 A + Sg + Nom + Indef) (1 N) ; # Too powerful? 2020-03-31
+REMOVE N IF (0 A + Sg + Nom + Indef) (1 OBLNMN) ; # Too powerful? 2020-03-31
+#REMOVE N IF (0 A + Sg + Nom + Indef) (1 N) ; # Too powerful? 2020-03-31
 
 # verb finite form
 #кискатне аштить ташто кудосо.
