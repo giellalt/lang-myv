@@ -324,6 +324,7 @@ LIST Der/Онь = Der/Онь ;
 LIST Der/ай = Der/ай ;
 LIST Der/кай = Der/кай ;
 LIST Der/Y = Der/Y ;
+LIST Der/Yj = Der/Yj ;
 LIST Der/Ycja = Der/Ycja ;
 LIST Der/стО = Der/стО ;
 LIST Der/Ovoms = Der/OvOms ; #Der/ОвОмс 
@@ -393,6 +394,8 @@ LIST DerGenAttr = Der/GenAttr ;
 
 LIST DerTag = Der/MWN Der/njems Der/немс Der/Y ; #!! DerTag
 
+LIST ShortPrsPrc = Der/Y Der/Yj ;
+
 # Noun sets
 
 
@@ -427,7 +430,8 @@ REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
 #REMOVE Der/ОвОмс (0C V) ;
 
 # short participles should be written with the following noun? new orthographic practice 1993
-REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
+#REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
+REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
 
 #Ракасть кавто мирде мартонть лангсо,... the one with two husbands
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
@@ -489,6 +493,14 @@ REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 
 #Молян верев.
 REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
+
+#  ташто кудосо
+REMOVE N IF (0 A + Sg + Nom + Indef) (1 N) ; # Too powerful? 2020-03-31
+
+# verb finite form
+#кискатне аштить ташто кудосо.
+#ташто кудосонть аштить кискатне.
+REMOVE:NotScSg2WhenDefNomPl ScSg2 IF (0 V + IV + Ind + Prs + ScPl3) ((-1* N + Pl + Nom + Def) OR (1* N + Pl + Nom + Def)) ;
 
 #
 REMOVE:NotTemp TempCx (0 N + Sg + Nom + Indef OR N + Pl + Nom + Def) (0 NOT-TEMPORALNOUN) ;
