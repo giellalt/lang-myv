@@ -95,7 +95,7 @@ Multichar_Symbols
  +Recipr !!≈ * @CODE@ reciprocal
  +Refl 	 !!≈ * @CODE@ reflexive
  +Rel 	 !!≈ * @CODE@ relative
- +Relational 	 !!≈ * @CODE@ relational noun
+ +Relator 	 !!≈ * @CODE@ relator noun
  +Sel 	 !!≈ * @CODE@ selective, when selecting from a set of definites
  +Short	 !!≈ * @CODE@ тень, теть; эстень
  +Long	 !!≈ * @CODE@ монень, тонеть; монстень
@@ -1186,7 +1186,8 @@ TESTINGTESTING ;
  Punctuation    ;
  Symbols     ;
  V_myv2x          ;
-
+ 
+ ADPOSITION-TYPES ; !2020-04-04
  PRONOUN-TYPES ; !2019-06-06
 
 Hyphenated-nouns ; !!≈ * @CODE@ entire serial nouns
@@ -1249,13 +1250,13 @@ LEXICON BAHUV_PANGO
 LEXICON BAHUV_KUDO
 +Bahuvrihi: A_KUDO ;
 
-LEXICON malaso-SPAT
-!! malaso:mala
-+Adv+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
-+Adv+Ill:%>с K ;
-+Adv+Ine:%>с%{оэØ%} _KUDO-Conjugation ;
-+Adv+Prl:%>Г2а _KUDO-Conjugation ;
-+Adv+Lat:%>в _KUDO-Conjugation ;
+!LEXICON malaso-SPAT
+!!! malaso:mala
+!+Adv+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
+!+Adv+Ill:%>с K ;
+!+Adv+Ine:%>с%{оэØ%} _KUDO-Conjugation ;
+!+Adv+Prl:%>Г2а _KUDO-Conjugation ;
+!+Adv+Lat:%>в _KUDO-Conjugation ;
 
 LEXICON ushoso-SPAT
 +Spat+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
@@ -1390,32 +1391,32 @@ LEXICON alo-SPAT-NoArg
 +Adv+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
 +Adv+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
 
-LEXICON alo-SPAT-AdvN
- alo-SPAT-NoArg ;
- N_KAL ;
-+N+Loc:%>О1 K ;
+!LEXICON alo-SPAT-AdvN
+! alo-SPAT-NoArg ;
+! N_KAL ;
+!+N+Loc:%>О1 K ;
 
 !LEXICON alo-SPAT-PoN
 !! alo-SPAT-1Arg ; >PO_KAL-LOC
 ! N_KAL ;
 !+N+Loc:%>О1 K ;
 
-LEXICON kovolo-Spat
-+Interr+Spat+Lat+Indef:%>%{оеэØ%}в K ;
-+Interr+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
-+Interr+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
-+Interr+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
-+Interr+Spat+Abl:%>дО1 K ; !_KUDO-Indef--Poss ;
-+Interr+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
-+Interr+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
+!LEXICON kovolo-Spat
+!+Interr+Spat+Lat+Indef:%>%{оеэØ%}в K ;
+!+Interr+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
+!+Interr+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
+!+Interr+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
+!+Interr+Spat+Abl:%>дО1 K ; !_KUDO-Indef--Poss ;
+!+Interr+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
+!+Interr+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
 
-+Rel+Spat+Lat+Indef:%>%{оеэØ%}в K ;
-+Rel+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
-+Rel+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
-+Rel+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
-+Rel+Spat+Abl:%>дО1 K ; !_KUDO-Indef--Poss ;
-+Rel+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
-+Rel+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
+!+Rel+Spat+Lat+Indef:%>%{оеэØ%}в K ;
+!+Rel+Spat+Abl+Indef:%>дО1 _KUDO-N2-Def-Declension ;
+!+Rel+Spat+Loc+Indef+Der+Der/MWN+N:%>О1 _KUDO-N2-Def-Declension ;
+!+Rel+Spat+Prl+Indef+Der+Der/MWN+N:%>Г2а _KUDO-N2-Def-Declension ;
+!+Rel+Spat+Abl:%>дО1 K ; !_KUDO-Indef--Poss ;
+!+Rel+Spat+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
+!+Rel+Spat+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
 
 
 
