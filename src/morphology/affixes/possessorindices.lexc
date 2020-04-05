@@ -45,9 +45,9 @@ LEXICON _OSH-PossPX1
 !!
 !OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
-LEXICON POSSX4-END !!= * __@CODE@__ Word final possessor index, no subsequent clitic
-!! _KUDO-Possessive-Word-Final
-OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!LEXICON POSSX4-END !!= * __@CODE@__ Word final possessor index, no subsequent clitic
+!!! _KUDO-Possessive-Word-Final
+!OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON POSSX4-END-DAT
 !+PxSg1:%>%{оеэØ%}нЬ2 ENDLEX ;
@@ -371,6 +371,10 @@ LEXICON Possessive-Before-K-noArrow
 +PxPl2:нк K-lak ;
 +PxPl3:ст K ;
 +Err/Orth+Dial/NW+PxPl3:ск K ;
+
+LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K
+ OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+ K ;
 
 LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP
  OBL-PX4-END/FOC/CLTCOP_PXSG1 ;

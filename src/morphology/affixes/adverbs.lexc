@@ -10,10 +10,51 @@ LEXICON adverbs
 коволдо+Adv+Interr+Abl:коволдо K ;
 коволо+Adv+Interr+Loc:коволо K ;
 коволов+Adv+Interr+Lat:коволов K ;
+
+васолдо+Adv+Abl:васолдо K ;
+васов+Adv+Lat:васов K ;
+васоло+Adv+Loc:васоло K ;
+васолга+Adv+Prl:васолга K ;
+
+товолдо+Adv+Abl:товолдо K ;
+товолов+Adv+Lat:товолов K ;
+товоло+Adv+Loc:товоло K ;
+товолга+Adv+Prl:товолга K ;
+
+венельде+Adv+Abl:венельде K ;
+венелев+Adv+Lat:венелев K ;
+венеле+Adv+Loc:венеле K ;
+венельга+Adv+Prl:венельга K ;
+
+чинельде+Adv+Abl:чинельде K ;
+чинелев+Adv+Lat:чинелев K ;
+чинеле+Adv+Loc:чинеле K ;
+чинельга+Adv+Prl:чинельга K ;
+
+мастордо+Adv+Abl:мастордо K ;
+масторов+Adv+Lat:масторов K ;
+масторо+Adv+Loc:масторо K ;
+масторга+Adv+Prl:масторга K ;
+
+верде+Adv+Abl:верде K ;
+верев+Adv+Lat:верев K ;
+вере+Adv+Loc:вере K ;
+верьга+Adv+Prl:верьга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+меелькспельде+Adv+Abl:меелькспельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+меелькспелев+Adv+Lat:меелькспелев K ;
+меелькспеле+Adv+Loc:меелькспеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+меелькспельга+Adv+Prl:меелькспельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+чипельде+Adv+Abl:чипельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+чипелев+Adv+Lat:чипелев K ;
+чипеле+Adv+Loc:чипеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+чипельга+Adv+Prl:чипельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
 !
+
 кодаяк+Adv+Indef+Manner:кодаяк # ;
 козонь+Adv+Interr+Ill:козонь K ;
-
 
 ! These _states_ can conjugate,
 ! a distinctive feature
@@ -96,14 +137,14 @@ LEXICON ADV-TEMP_
 LEXICON ADV-SPAT_ !!= @CODE@ пачк
 +Spat: K ;
 
-LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
-+Spat+Abl: K ;
+!LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
+!+Spat+Abl: K ;
 
-LEXICON ADV-SPAT-IS-LAT !!= @CODE@ алов
-+Spat+Lat: K ;
+!LEXICON ADV-SPAT-IS-LAT !!= @CODE@ алов
+!+Spat+Lat: K ;
 
-LEXICON ADV-SPAT-IS-LOC !!= @CODE@ ало
-+Spat+Loc: K ;
+!LEXICON ADV-SPAT-IS-LOC !!= @CODE@ ало
+!+Spat+Loc: K ;
 
 LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
 +Spat+Prl: K ;
@@ -230,8 +271,8 @@ LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 
 !! spatial adverbs 
 !! dependent and independent case marking 
-LEXICON SPAT-NoArg
-+Spat: K ;
+!LEXICON SPAT-NoArg
+!+Spat: K ;
 
 LEXICON ADV-IS-SPAT-ELA
 +Ela: K ;
@@ -244,8 +285,8 @@ LEXICON ADV-IS-SPAT-INE
 +Ine: K ;
 +Ine: CLT/COP4_OBL ;
 
-LEXICON ADV-IS-SPAT-ABL
-+Abl: K ;
+!LEXICON ADV-IS-SPAT-ABL
+!+Abl: K ;
 
 LEXICON ADV-IS-SPAT-LAT
 +Lat: K ;
@@ -255,13 +296,13 @@ LEXICON ADV-IS-SPAT-PRL
 +Prl: CLT/COP4_OBL ;
 
 
-LEXICON ADV-INTERR-IS-LAT
-+Interr+Lat: K ;
+!LEXICON ADV-INTERR-IS-LAT
+!+Interr+Lat: K ;
 !LEXICON SPAT-Interr
 !+Interr+Spat: ENDLEX ;
 
-LEXICON ADV-INTERR-IS-SPAT-ABL
-+Interr+Abl: K ;
+!LEXICON ADV-INTERR-IS-SPAT-ABL
+!+Interr+Abl: K ;
 
 !LEXICON ADV-INTERR-IS-SPAT-INE
 !+Interr+Ine: K ;
@@ -270,18 +311,18 @@ LEXICON ADV-INTERR-IS-SPAT-ABL
 LEXICON ADV-INTERR-IS-SPAT-ELA
 +Interr+Ela: K ;
 
-LEXICON ADV-INTERR-IS-SPAT-LAT
-+Interr+Lat: K ;
+!LEXICON ADV-INTERR-IS-SPAT-LAT
+!+Interr+Lat: K ;
 
-LEXICON ADV-INTERR-IS-SPAT-PRL
-+Interr+Prl: K ;
+!LEXICON ADV-INTERR-IS-SPAT-PRL
+!+Interr+Prl: K ;
 
 LEXICON Spat_
 +Spat: K ;
 
-LEXICON SPAT-Ela
-+Spat+Ela: K ;
-!+Adp+Spat+Ela: _KUDO-Possessive-Before-K ;
+!LEXICON SPAT-Ela
+!+Spat+Ela: K ;
+!!+Adp+Spat+Ela: _KUDO-Possessive-Before-K ;
 
 !LEXICON SPAT-Ine
 !+Spat+Ine: K ;
@@ -290,9 +331,9 @@ LEXICON SPAT-Ela
 LEXICON SPAT-Lat
 +Spat+Lat: K ;
 
-LEXICON SPAT-Prl
-+Spat+Prl: K ;
-!+Adp+Spat+Prl: _KUDO-Possessive-Before-K ;
+!LEXICON SPAT-Prl
+!+Spat+Prl: K ;
+!!+Adp+Spat+Prl: _KUDO-Possessive-Before-K ;
 
 !!Temporal tags with cases
 LEXICON TEMP_
@@ -321,8 +362,8 @@ LEXICON Temp-Indef
 LEXICON Temp-Interr
 +Interr+Temp: K ;
 
-LEXICON Temp-Lat
-+Temp+Lat: K ;
+!LEXICON Temp-Lat
+!+Temp+Lat: K ;
 
 LEXICON Temp-ms
 +Der+Der/ms+Temp+Ill: K ;
