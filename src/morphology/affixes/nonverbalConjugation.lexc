@@ -249,7 +249,7 @@ LEXICON _KAL-NomPl-Conjugation-only-4Poss
 LEXICON GEN-INDEF-4-Conjugation
  CLT/COP_SG ;
  CLT/COP_PL-MUTUAL ;
- CLT/COP-PRS-PL3_ZERO ;!reintroduced 2019-01-30
+! CLT/COP-PRS-PL3_ZERO ;reintroduced 2019-01-30 removed 2020-04-06
  K ;
 
 LEXICON _KAL-Conjugation
@@ -341,9 +341,9 @@ LEXICON MUTUAL-OBL-CONJUGATION-NO-3Pers
 
 
 
-LEXICON _KUDO-NomPl-Conjugation-4Poss
- K ;
- _KUDO-NomPl-Conjugation-only-4Poss ;
+!LEXICON _KUDO-NomPl-Conjugation-4Poss
+! K ;
+! _KUDO-NomPl-Conjugation-only-4Poss ;
 
 LEXICON CLT/COP_PL
 !! _KUDO-NomPl-Conjugation-only
@@ -354,6 +354,9 @@ LEXICON _KUDO-NomPl-Conjugation-only-4Poss
  CLT/COP_PL-MUTUAL ;
  CLT/COP-PRS-PL3_ZERO ;!reintroduced 2019-01-30
 
+LEXICON CLT/COP_PL-MUTUAL-K
+ K ;
+  CLT/COP_PL-MUTUAL ;
 LEXICON CLT/COP_PL-MUTUAL
 !! _KUDO-NomPl-Conjugation-only-mutual
  CLT/COP-PRS-PL1 ;

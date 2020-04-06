@@ -131,6 +131,9 @@ LIST Dem = Dem ;
 LIST Interr = Interr ;
 LIST Indef = Indef ;
 
+LIST Deg = Deg ;
+LIST Manner = Manner ;
+
 LIST Recipr = Recipr ;
 LIST Refl = Refl ;
 LIST Rel = Rel ;
@@ -145,6 +148,7 @@ LIST Prop = Prop ;
 
 LIST SCONJ = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
 LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
+
 
 #!! * Sets for Semantic tags
 # -------------
@@ -244,6 +248,7 @@ LIST Clt/Гакая = Clt/Гакая ;
 
 LIST IV = IV ;
 LIST TV = TV ;
+LIST BV = IV TV ;
 
 #LIST Der/Pass = Der/PassL Der/PassS ;
 
@@ -351,7 +356,7 @@ LIST ULYNEMS = "ульнемс" ;
 LIST JALGA = "ялга" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
-LIST RELATORSNomGen =  "бока" "бокасо" "бокас" "бокасто" "ваксс" "вакссо" "вакссто" "вакска"  "ланга""ланго" "лангс" "лангсо" "лангсто" "маласо" "малас" "маласто" "малава" "чире" "чирева" "чирес" "чиресэ" "чирестэ"  ;
+LIST RELATORSNomGen =  "бока" "бокасо" "бокас" "бокасто" "ваксс" "вакссо" "вакссто" "вакска"  "ланга" "ланго" "лангс" "лангсо" "лангсто" "маласо" "малас" "маласто" "малава" "чире" "чирева" "чирес" "чиресэ" "чирестэ"  ;
 LIST NONSENSESURANT = "Ней" ;
 LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "ярмак" ; #!! This will be expanded for homonymy at first
 
@@ -359,6 +364,8 @@ LIST TEMPORALNOUN = "буря" "валдо" "валске" "варма" "ве" "
 SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
 LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо" "лов" "максо" "ниле" "пандо" "пона" "ранг" "сал" ; #!!This will be expanded for homonymy at first. This is not a final solution 
+
+LIST VAMBNOUNS = "каса" "кекше" "код" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
 LIST VERBWITHMO = "арсемс" "кармамс" "мадемс" "озамс" ; #!!озамс ярсамо
 
@@ -444,12 +451,16 @@ REMOVE 2VDerTag (0C V) ; #2017-11-05
 
 #Сынь пурнасть урьвакстомо-венчамо.
 #(NOT -1* VFIN BARRIER EOS);
-REMOVE:verbPrt1Sg1Sams V IF (0 Pron + Pers + Pl3 + Nom)(1* ScPl3 BARRIER EOS);
+REMOVE:verbPrt1Sg1Sams Prt1 IF (0 Pron + Pers + Pl3 + Nom)(0 ("самс")) (1* ScPl3 BARRIER EOS);
+
+# сынь пек вечкить налксемс
+REMOVE:verbScSg2IfSubjPl3PronAvailable ScSg2 IF (0 V + BV + Ind + Prs + ScPl3)((-1* Pron + Pers + Pl3 + Nom BARRIER BOS) OR (1* Pron + Pers + Pl3 + Nom BARRIER EOS)) ;
 
 # тень лангс
 REMOVE:pronPersSg1Dat Pers IF (0 Pron + Dem + Sg + Gen)(1 Adp);
 
-
+# мон кодан
+REMOVE:NotVAmbNounsIFVerb Clt/Cop IF (0C ScSg1 OR ScSg2) (0 VAMBNOUNS) ;
 
 #ёнкссонть
 REMOVE 2NDerTag (0C N) ; #2017-11-05
@@ -487,11 +498,21 @@ REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT
 #REMOVE Nom (*-1C Nom) (0 Gen) ; too powerful
 
 # весемеде мазый
-REMOVE:NoNIfAwithPreviousSuperl N (-1 Superl) (0 A);
+# пек кельмель
+REMOVE:NoNIfAwithPreviousSuperl N ((-1 Superl) OR (-1 ("пек"))) (0 A);
+
+SELECT:DegIfNextAdv Deg IF (0 ("пек")) (1 (A) OR (Adv)) ;
+
+# сынь пек вечкить налксемс
+REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ;
+
 
 # весемеде мазый
 REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 
+# Исяк тень таркас пек кельмель!
+#"<тень>"      "мон" Pron Pers Sg1 Dat Short  VS  "те" Det Dem Sg Gen Indef
+#REMOVE Sg1 IF (0 Dem) (1 ("таркас"));
 
 #Молян верев.
 REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
@@ -562,7 +583,9 @@ REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
 # иля сёвно
 #Кода понгсь минь сынст ней а виднесынек.
 # — Кияк эзь учне тень.
-REMOVE Clt/Cop ((-1 Aux + Proh) OR (*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN) OR (0  Prs + ScSg3)) ;
+#Problem: Ваня марто Марят садпиресэть.
+#REMOVE Clt/Cop ((-1 Aux + Proh) OR (*-1 VFIN BARRIER CLB OR HYPHEN) OR (*1 VFIN BARRIER CLB OR HYPHEN) OR (0  Prs + ScSg3)) ;
+
 #REMOVE Clt/Cop IF (0 ConNeg) (-1 VFIN) ;
 
 # цёра
@@ -598,6 +621,9 @@ REMOVE N + Sg + Nom + Indef IF (0 MARTO) ;
 
 #Ваня марто Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;
+
+#Ваня марто Марят
+REMOVE Der/MWN IF (0C MARTO)(0 Adp + Der/MWN + Sg + Nom + Indef) ;
 
 #Ванят-Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ;
