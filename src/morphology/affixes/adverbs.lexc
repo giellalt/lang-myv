@@ -5,6 +5,8 @@
 
 LEXICON adverbs
 !!
+пек+Adv+Deg:пек ENDLEX ;
+
 ков+Adv+Interr+Lat:ков K ;
 коволга+Adv+Interr+Prl:коволга K ;
 коволдо+Adv+Interr+Abl:коволдо K ;
@@ -45,6 +47,11 @@ LEXICON adverbs
 меелькспелев+Adv+Lat:меелькспелев K ;
 меелькспеле+Adv+Loc:меелькспеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 меелькспельга+Adv+Prl:меелькспельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+пертьпельде+Adv+Abl:пертьпельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+пертьпелев+Adv+Lat:пертьпелев K ;
+пертьпеле+Adv+Loc:пертьпеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+пертьпельга+Adv+Prl:пертьпельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 
 чипельде+Adv+Abl:чипельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 чипелев+Adv+Lat:чипелев K ;
@@ -118,10 +125,10 @@ LEXICON ADV_KAL
 : K ;
 
 LEXICON ADV-TEMP_IS-TEMP
-+Temp: K ;
++Sem/Time: K ;
 
 !LEXICON ADV-TEMP-ITER
-!+Temp+Iter: K ;
+!+Sem/Time+Iter: K ;
 
 !LEXICON ADV-ITER
 !!! кавксть
@@ -132,7 +139,7 @@ LEXICON ADV-TEMP_IS-TEMP
 !+Interr+Iter: K ;
 
 LEXICON ADV-TEMP_
-+Temp: K ;
++Sem/Time: K ;
 
 LEXICON ADV-SPAT_ !!= @CODE@ пачк
 +Spat: K ;
@@ -337,54 +344,54 @@ LEXICON SPAT-Lat
 
 !!Temporal tags with cases
 LEXICON TEMP_
-+Temp: K ;
++Sem/Time: K ;
 
 !! This marking would indicate a word form that may be 
 !  construed as an adv as well as a adposition.
 !LEXICON Temp-NoArg
-!+Temp: K ;
+!+Sem/Time: K ;
 
 LEXICON Temp-Coll
-+Temp+Coll: K ;
++Sem/Time+Coll: K ;
 
 LEXICON Temp-Distr
-+Temp+Distr: K ;
++Sem/Time+Distr: K ;
 
 LEXICON Temp-Ela
-+Temp+Ela: K ;
++Sem/Time+Ela: K ;
 
 LEXICON Temp-Ill
-+Temp+Ill: K ;
++Sem/Time+Ill: K ;
 
 LEXICON Temp-Indef
-+Temp+Indef: K ;
++Sem/Time+Indef: K ;
 
 LEXICON Temp-Interr
-+Interr+Temp: K ;
++Interr+Sem/Time: K ;
 
 !LEXICON Temp-Lat
-!+Temp+Lat: K ;
+!+Sem/Time+Lat: K ;
 
 LEXICON Temp-ms
-+Der+Der/ms+Temp+Ill: K ;
++Der+Der/ms+Sem/Time+Ill: K ;
 
 LEXICON Temp-Pl
-+Temp+Pl: K ;
++Sem/Time+Pl: K ;
 
 LEXICON Temp-Prl
-+Temp+Prl: K ;
++Sem/Time+Prl: K ;
 
 LEXICON ADV-TEMP_LAK
-+Temp: K ;
-+Temp+Der+Der/MWN+N: N_LAK ;
++Sem/Time: K ;
++Sem/Time+Der+Der/MWN+N: N_LAK ;
 
 LEXICON ADV-TEMP_KIT
-+Temp: K ;
-+Temp+Der+Der/MWN+N: N_KIT ;
++Sem/Time: K ;
++Sem/Time+Der+Der/MWN+N: N_KIT ;
 
 LEXICON ADV-TEMP_KUDO
-+Temp: K ;
-+Temp+Der+Der/MWN+N: N_KUDO ;
++Sem/Time: K ;
++Sem/Time+Der+Der/MWN+N: N_KUDO ;
 
 
 

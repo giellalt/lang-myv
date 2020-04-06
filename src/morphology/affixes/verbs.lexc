@@ -4,8 +4,8 @@
 
 LEXICON MorphTag ! to be removed IS_NUMORD_KUDO ведьгеменце
 # ;
-LEXICON TV_TUEMS-ObjAll ! to be removed
-TV_TUEMS ;
+!LEXICON TV_TUEMS-ObjAll ! to be removed
+!TV_TUEMS ;
 LEXICON INTERJ-IMP ! Work required
 ! адя, адядо
 +V+Imprt: # ;
@@ -52,18 +52,18 @@ LEXICON V-AUX-NEG-PRT1 !!= __@CODE@__ эзь:эзь
 LEXICON BV_LEDEMS
  IV_LEDEMS ;
  TV_LEDEMS ;
-!LEXICON BV_KADOMS
-! IV_KADOMS ;
-! TV_KADOMS ;
-!LEXICON BV_NEVTEMS
-! IV_NEVTEMS ;
-! TV_NEVTEMS ;
+LEXICON BV_KADOMS
+ IV_KADOMS ;
+ TV_KADOMS ;
+LEXICON BV_NEVTEMS
+ IV_NEVTEMS ;
+ TV_NEVTEMS ;
 LEXICON BV_SAVTOMS
  IV_SAVTOMS ;
  TV_SAVTOMS ;
-!LEXICON BV_CHACHTOMS
-! IV_CHACHTOMS ;
-! TV_CHACHTOMS ;
+LEXICON BV_CHACHTOMS
+ IV_CHACHTOMS ;
+ TV_CHACHTOMS ;
 LEXICON BV_KUNDAMS
  IV_KUNDAMS ;
  TV_KUNDAMS ;
@@ -76,24 +76,24 @@ LEXICON BV_E2ZHNEMS
 LEXICON BV_KUNDAKSHNOMS
  IV_KUNDAKSHNOMS ;
  TV_KUNDAKSHNOMS ;
-!LEXICON BV_SATOMS
-! IV_SATOMS ;
-! TV_SATOMS ;
+LEXICON BV_SATOMS
+ IV_SATOMS ;
+ TV_SATOMS ;
 !LEXICON BV_UEMS
 ! IV_UEMS ;
 ! TV_UEMS ;
-!LEXICON BV_TUEMS
-! IV_TUEMS ;
-! TV_TUEMS ;
-!LEXICON BV_TEEMS
-! IV_TEEMS ;
-! TV_TEEMS ;
-!LEXICON BV_NEEMS
-! IV_NEEMS ;
-! TV_NEEMS ;
-!LEXICON BV_MIEMS
-! IV_MIEMS ;
-! TV_MIEMS ;
+LEXICON BV_TUEMS
+ IV_TUEMS ;
+ TV_TUEMS ;
+LEXICON BV_TEEMS
+ IV_TEEMS ;
+ TV_TEEMS ;
+LEXICON BV_NEEMS
+ IV_NEEMS ;
+ TV_NEEMS ;
+LEXICON BV_MIEMS
+ IV_MIEMS ;
+ TV_MIEMS ;
 LEXICON BV_NEKSHNEMS
  IV_NEKSHNEMS ;
  TV_NEKSHNEMS ;
@@ -540,12 +540,12 @@ LEXICON TV_NEKSHNEMS-Obj3
 
 
 !! !!! VERBS WITH INTRANSITIVE TAGS +V+IV
-!LEXICON IV_UEMS
-!@U.TRANS.IV@ V_UEMS ;
-!@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+LEXICON IV_UEMS
+@U.TRANS.IV@ V_UEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 
 LEXICON IV_TUEMS
@@ -562,12 +562,12 @@ LEXICON IV_TEEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
 @U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
-!LEXICON IV_NEEMS
-!@U.TRANS.IV@ V_NEEMS ;
-!@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+LEXICON IV_NEEMS
+@U.TRANS.IV@ V_NEEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_MIEMS
 @U.TRANS.IV@+IV:@U.TRANS.IV@ V_MIEMS ;
@@ -2572,6 +2572,7 @@ LEXICON Imperative-kadoms
  @R.CONJ-PX.56@ Imperative_Obj-kadoms ;
  IMPRT-20 ;
  IMPRT-50 ;
+PRECATIVE-KADOMS ;
 
 LEXICON Imperative_Obj-kadoms
  IMPRT-21 ;
@@ -2582,6 +2583,61 @@ LEXICON Imperative_Obj-kadoms
  IMPRT-53 ;
  IMPRT-54 ;
  IMPRT-56 ;
+
+!! !!PRECATIVE
+
+
+LEXICON PREC-20
+@U.CONJ-MX.PREC@@U.CONJ-PX.2Ø@+Prec+ScSg2:@U.CONJ-MX.PREC@@U.CONJ-PX.2Ø@%>К1Ь2Г1а VerbEnd_K ;
+
+LEXICON PREC-21
+@U.CONJ-MX.PREC@@U.CONJ-PX.21@+Prec+ScSg2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.21@%>%{оеэØ%}мака VerbEnd_K ;
+
+LEXICON PREC-23
+@U.CONJ-MX.PREC@@U.CONJ-PX.23@+Prec+ScSg2+OcSg3:@U.CONJ-MX.PREC@@U.CONJ-PX.23@%>%{иы%}ка VerbEnd_K ;
+
+LEXICON PREC-24
+@U.CONJ-MX.PREC@@U.CONJ-PX.24@+Prec+ScSg2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.24@%>%{оеэØ%}змизьга VerbEnd_K ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.24@+Prec+ScSg2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.24@%>%{оеэØ%}мизьга VerbEnd_K ;
+
+LEXICON PREC-26
+@U.CONJ-MX.PREC@@U.CONJ-PX.26@+Prec+ScSg2+OcPl3:@U.CONJ-MX.PREC@@U.CONJ-PX.26@%>%{иы%}тя VerbEnd_K ;
+
+LEXICON PREC-50
+@U.CONJ-MX.PREC@@U.CONJ-PX.5Ø@+Prec+ScPl2:@U.CONJ-MX.PREC@@U.CONJ-PX.5Ø@%>%{оеэØ%}дО1%>я VerbEnd_K ;
+
+LEXICON PREC-51
+@U.CONJ-MX.PREC@@U.CONJ-PX.51@+Prec+ScPl2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.51@%>%{оеэØ%}змизьга VerbEnd_K ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.51@+Prec+ScPl2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.51@%>%{оеэØ%}мизьга VerbEnd_K ;
+
+LEXICON PREC-53
+@U.CONJ-MX.PREC@@U.CONJ-PX.53@+Prec+ScPl2+OcSg3:@U.CONJ-MX.PREC@@U.CONJ-PX.53@%>%{иы%}нка VerbEnd_K ;
+
+LEXICON PREC-54
+@U.CONJ-MX.PREC@@U.CONJ-PX.54@+Prec+ScPl2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.54@%>%{оеэØ%}змизьга VerbEnd_K ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.54@+Prec+ScPl2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.54@%>%{оеэØ%}мизьга VerbEnd_K ;
+
+LEXICON PREC-56
+@U.CONJ-MX.PREC@@U.CONJ-PX.56@+Prec+ScPl2+OcPl3:@U.CONJ-MX.PREC@@U.CONJ-PX.56@%>%{иы%}нка VerbEnd_K ;
+
+LEXICON PRECATIVE-KADOMS
+@R.CONJ.ObjAll@  PRECATIVE_OBJ-KADOMS ;
+ @R.CONJ-PX.23@ PRECATIVE_OBJ-KADOMS ;
+ @R.CONJ-PX.26@ PRECATIVE_OBJ-KADOMS ;
+ @R.CONJ-PX.53@ PRECATIVE_OBJ-KADOMS ;
+ @R.CONJ-PX.56@ PRECATIVE_OBJ-KADOMS ;
+ PREC-20 ;
+ PREC-50 ;
+
+LEXICON PRECATIVE_OBJ-KADOMS
+ PREC-21 ;
+ PREC-23 ;
+ PREC-24 ;
+ PREC-26 ;
+ PREC-51 ;
+ PREC-53 ;
+ PREC-54 ;
+ PREC-56 ;
 
 
 !! !!OPTATIVE 
@@ -2999,7 +3055,7 @@ LEXICON VerbEnd_ImpK
 !!€ ван%>одо%>0я
 +Clt/AddGak:%>Г1ак ENDLEX ;
 +Clt/AddGak:%>Г4ак ENDLEX ;
-+Clt/Ga:%>Г4а ENDLEX ;
+!+Clt/Ga:%>Г4а ENDLEX ; 2020-04-06
 +Clt/Gaka:%>Г4ака ENDLEX ;
 +Clt/Gakaja:%>Г4акая ENDLEX ;
 +Clt/Gaja:%>Г4ая ENDLEX ;
@@ -3010,7 +3066,7 @@ LEXICON VerbEnd_ImpK
 LEXICON VerbEnd_lak-ImpK
  VerbEnd_ImpK ;
  VerbEnd_K-lak ;
-+Err/Orth+Clt/Га:%>KLossГ4а ENDLEX ;
+!+Err/Orth+Clt/Га:%>KLossГ4а ENDLEX ; 2020-04-06
 +Err/Orth+Clt/Гака:%>KLossГ4ака ENDLEX ;
 +Err/Orth+Clt/Гакая:%>KLossГ4акая ENDLEX ;
 +Err/Orth+Clt/Гая:%>KLossГ4ая ENDLEX ;
