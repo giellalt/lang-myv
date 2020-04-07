@@ -14,13 +14,13 @@ LEXICON EXCEPTIONS
 !аволть+V+Neg+Conj+ScPl3:авольть # ;
 !@P.CONJ.ObjAll@аволь+V+Neg+Conj:@P.CONJ.ObjAll@а  ConjPers-withO-all ;
 !аволь+V+Neg+Conj+ScSg3:аволь # ;
-!@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@эзть+V+Neg+Ind+Prt1+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@Ӓ4зть # ;
-!@P.CONJ.ObjAll@эзь+V+Neg+Ind:@P.CONJ.ObjAll@Ӓ4зь IndicativePrt2_kadoms ;
-!@P.CONJ.ObjAll@эзь+V+Neg:@P.CONJ.ObjAll@Ӓ4зь IND-PRT1-all-but-Sc3 ;
-!@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@эзь+V+Neg+Ind+Prt1+ScSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@Ӓ4зь # ;
-@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@эзь+Err/Orth+V+Neg+Ind+Prt1+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@Ӓ4сть # ;
-эзь+Err/Orth+V+Neg+Ind+Prt1+ScSg3+OcSg3:Ӓ4се # ;
-эзь+Err/Orth+V+Neg+Ind+Prt1+ScSg3+OcSg3:Ӓ4ссе # ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@эзть+V+Neg+Ind+Prt1+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@Ӓ3зть # ;
+!@P.CONJ.ObjAll@эзь+V+Neg+Ind:@P.CONJ.ObjAll@Ӓ3зь IndicativePrt2_kadoms ;
+!@P.CONJ.ObjAll@эзь+V+Neg:@P.CONJ.ObjAll@Ӓ3зь IND-PRT1-all-but-Sc3 ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@эзь+V+Neg+Ind+Prt1+ScSg3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.3%0@Ӓ3зь # ;
+@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@эзь+Use/NG+Err/Orth+V+Neg+Ind+Prt1+ScPl3:@U.CONJ-MX.IND@@U.CONJ-TX.PRT1@@U.CONJ-PX.6%0@Ӓ3сть # ;
+эзь+Use/NG+Err/Orth+V+Neg+Ind+Prt1+ScSg3+OcSg3:Ӓ3се # ;
+эзь+Use/NG+Err/Orth+V+Neg+Ind+Prt1+ScSg3+OcSg3:Ӓ3ссе # ;
 
 !! The verb ярсамс has additional irregular forms:
 !! € ярстано
@@ -39,8 +39,8 @@ LEXICON EXCEPTIONS
 
 ие+N:ий%>     PL-NOM-INDEF ;
 
-ломань+N+Pl+Nom+Indef+Err/Orth:ломать K ;
-ломань+N+Err/Orth:лома NMN_DEF-PL-DECLENSION ;
+ломань+N+Pl+Nom+Indef+Use/NG+Err/Orth:ломать K ;
+ломань+N+Use/NG+Err/Orth:лома NMN_DEF-PL-DECLENSION ;
 
 Ерусалим+v2+N+Prop+Sem/Plc:Іерусалим PROP-PLC_KAL "Z" ;
 Вифсфагия+v1+N+Prop+Sem/Plc:Вифсфагия PROP-PLC_KUDO "Z" ;
@@ -104,12 +104,12 @@ LEXICON EXCEPTIONS
 
 !! 1930s Phonetic transcription
 !! дс >> ц
-ладсо+Adv+Ine+Err/Orth:лацо K ;
+ладсо+Adv+Ine+Use/NG+Err/Orth:лацо K ;
 !! гт >> к
-мекевлангт+Adv+Err/Orth:мекевланк K ;
-мекевлангт+Adv+Err/Orth:мекевланг K ; !!= @CODE@ Half way between morphology and phonetics with a Russian twist 
+мекевлангт+Adv+Use/NG+Err/Orth:мекевланк K ;
+мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ; !!= @CODE@ Half way between morphology and phonetics with a Russian twist 
 
-рыжой+Err/Orth:рижой A_KAL ;
+рыжой+Use/NG+Err/Orth:рижой A_KAL ;
 
 !! !ADPOSITIONS
 эздэ:эздэ PO-IS-ABL ;
@@ -225,11 +225,11 @@ LEXICON EXCEPTIONS
 !! 100 % homographs of Russian words
 вот+Use/SpellNoSugg+Interj+Dem:вот K ;
 значит+Use/SpellNoSugg+V+Ind+Prs+ScSg3:значит K ;
-ещё+Adv+Err/Lex:эщо TEMP_ ;
-ещё+Adv+Err/Lex:ещё TEMP_ ;
-можна+Adv+Err/Lex:можна ADV_ ;
-тожо+Adv+Err/Lex:тожо ADV_ ;
-Саранск+N+Prop+Sem/Plc+Err/Lex:Саранск PROP-SETTLEMENT_KAL ;
+ещё+Adv+Use/NG+Err/Lex:эщо TEMP_ ;
+ещё+Adv+Use/NG+Err/Lex:ещё TEMP_ ;
+можна+Adv+Use/NG+Err/Lex:можна ADV_ ;
+тожо+Adv+Use/NG+Err/Lex:тожо ADV_ ;
+Саранск+N+Prop+Sem/Plc+Use/NG+Err/Lex:Саранск PROP-SETTLEMENT_KAL ;
 
 
 !!
@@ -268,14 +268,14 @@ LEXICON EXCEPTIONS
 
 !! Old Bible Names and words
 Иосиф+v2+N+Prop+Sem/Ant-Mal:Іосиф N_KAL ;
-сон+Err/Orth+Pron+Pers+Sg3+Gen:сонзе # ;
-сон+Err/Orth+Pron+Pers+Pl3+Dat+Long:сынянст # ;
-тон+v2+Err/Orth+Pron+Pers+Pl2+Dat+Long:тынянк # ;
-тон+v3+Err/Orth+Pron+Pers+Pl2+Dat+Long:тыняньк # ;
-сон+v2+Err/Orth+Pron+Pers+Sg3+Dat+Short:тянзе # ;
-сон+v2+Err/Orth+Pron+Pers+Sg3+Dat+Long:сонянзе # ;
-алов+v2+Err/Orth+Adv+Lat:алом # ;
-жо+Err/Orth+Pcle:же # ; 
+сон+Use/NG+Err/Orth+Pron+Pers+Sg3+Gen:сонзе # ;
+сон+Use/NG+Err/Orth+Pron+Pers+Pl3+Dat+Long:сынянст # ;
+тон+v2+Use/NG+Err/Orth+Pron+Pers+Pl2+Dat+Long:тынянк # ;
+тон+v3+Use/NG+Err/Orth+Pron+Pers+Pl2+Dat+Long:тыняньк # ;
+сон+v2+Use/NG+Err/Orth+Pron+Pers+Sg3+Dat+Short:тянзе # ;
+сон+v2+Use/NG+Err/Orth+Pron+Pers+Sg3+Dat+Long:сонянзе # ;
+алов+v2+Use/NG+Err/Orth+Adv+Lat:алом # ;
+жо+Use/NG+Err/Orth+Pcle:же # ; 
 
 !! unrecognized
 весень-вейсэнь:весень-вейсэнь A-IS-GEN "" ;
