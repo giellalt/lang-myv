@@ -480,6 +480,9 @@ REMOVE Rel IF (0 Upper) (NOT 0 Prop) ;
 #Эйкакшонь масторга.
 REMOVE DerGenAttr IF (0 N + SP + Gen) ;
 
+# рестань сывель 
+REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
+
 #Ды те истя улияк.
 
 ## Nouns

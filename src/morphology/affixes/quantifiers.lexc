@@ -96,7 +96,7 @@
 
 !! !Now regular
 !LEXICON NUM_KAL_SUB
-!+Err/Orth: NUM_KAL ;
+!+Use/NG+Err/Orth: NUM_KAL ;
 
 LEXICON NUM_KAL
 !+Card: ENDLEX ;
@@ -122,7 +122,7 @@ LEXICON NUMORD_KAL
 +Der+Der/tjks+Ord:%>%{оеэØ%}тькс NMN_OSH ;
 
 !LEXICON NUM_OSH_SUB
-!+Err/Orth: NUM_OSH ;
+!+Use/NG+Err/Orth: NUM_OSH ;
 
 LEXICON NUM_OSH
 !+Card: ENDLEX ;
@@ -147,7 +147,7 @@ LEXICON NUMORD_OSH
 +Der+Der/tjks+Ord:%>%{оеэØ%}тькс NMN_OSH ;
 
 !LEXICON NUM_SJADO_SUB
-!+Err/Orth: NUM_SJADO ;
+!+Use/NG+Err/Orth: NUM_SJADO ;
 
 LEXICON NUM_SJADO
 !+Card:%>%{оеэØ%} ENDLEX ;
@@ -172,7 +172,7 @@ LEXICON NUMORD_SJADO
 +Der+Der/tjks+Ord:%>тькс NMN_OSH ;
 
 !LEXICON NUM_KUDO_SUB
-!+Err/Orth: NUM_KUDO ;
+!+Use/NG+Err/Orth: NUM_KUDO ;
 
 ! More work needed 2012-10-08
 LEXICON NUM_KUDO
@@ -221,7 +221,7 @@ LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
 !! кавонест is a pronoun like the Finnish molemmat
 !! This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
 +Pron+AssocColl: PossPX1 ;
-+Err/Orth+Pron+AssocColl+PxPl1:к ENDLEX ; ! 2012-10-28
++Use/NG+Err/Orth+Pron+AssocColl+PxPl1:к ENDLEX ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
@@ -252,7 +252,7 @@ LEXICON Assoc-Coll
 !+Qnt+Mult: K ;
 
 !LEXICON ITER_SUB
-!+Err/Orth: ITER_ ;
+!+Use/NG+Err/Orth: ITER_ ;
 
 LEXICON ITER_
 +Adv+Iter: K ;
@@ -493,7 +493,7 @@ LEXICON Quants3
 +Pl+Ine+Def:%>тнЕ3%>сэ _KUDO-Attributes2 ; 
 +Pl+Ela+Def:%>тнЕ3%>стэ _KUDO-Attributes2 ;
 +Pl+Cmpr+Def:%>тнЕ3%>шка _KUDO-Attributes2 ; 
-@R.TLOSS.ON@+Err/Orth:@R.TLOSS.ON@ Quants3_TLOSS ;
+@R.TLOSS.ON@+Use/NG+Err/Orth:@R.TLOSS.ON@ Quants3_TLOSS ;
 
 LEXICON KOLMONST-ELLIPSIS-TYPE
 +Pl+Nom+Def:%>тнЕ3 _KUDO-Tenses1 ;

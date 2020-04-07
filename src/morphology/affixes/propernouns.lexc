@@ -273,7 +273,7 @@ LEXICON PROP_LAK
 
 LEXICON PROP_KIT
 : N_KIT-Derivation ;
-+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 : N_KIT-Def-Declension ;
 : _KIT-Indef-Declension ;
 : N_KAL-Poss-Declension-CX ;
@@ -323,7 +323,7 @@ LEXICON PROP_LAK_MAL
 
 LEXICON PROP_KIT_MAL
 +Sem/Mal: NMN_KIT ;
-+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_OSH_MAL
 +Sem/Mal: NMN_OSH ;
@@ -348,7 +348,7 @@ LEXICON PROP_KAL_FEM
 
 LEXICON PROP_KIT_FEM
 +Sem/Fem: NMN_KIT ;
-+Sem/Fem+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Sem/Fem+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
 
 LEXICON PROP_OSH_FEM
 +Sem/Fem: NMN_OSH ;
@@ -394,7 +394,7 @@ LEXICON PROP_KUDO-PL
 : N_KUDO-Poss-Declension-CX-PL ;
 
 !LEXICON PROP_KUDO_SUB
-!+Err/Orth: PROP_KUDO ;
+!+Use/NG+Err/Orth: PROP_KUDO ;
 
 !LEXICON PROP_KUDO_SH
 !+Use/Short: PROP_KUDO ;
