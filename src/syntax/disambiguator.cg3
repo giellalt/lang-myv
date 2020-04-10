@@ -449,7 +449,8 @@ REMOVE 2VDerTag (0C V) ; #2017-11-05
 
 #Сынь пурнасть урьвакстомо-венчамо.
 #(NOT -1* VFIN BARRIER EOS);
-REMOVE:verbPrt1Sg1Sams Prt1 IF (0 Pron + Pers + Pl3 + Nom)(0 ("самс")) (1* ScPl3 BARRIER EOS);
+#REMOVE:verbPrt1Sg1Sams Prt1 IF (0 Pron + Pers + Pl3 + Nom)(0 ("самс")) ((-1* ScPl3 BARRIER BOS) OR (1* ScPl3 BARRIER EOS));
+SELECT:PronPl3Nom Pron IF (0 Pron + Pers + Pl3 + Nom) ((-1* ScPl3 BARRIER BOS) OR (1* ScPl3 BARRIER EOS));
 
 # сынь пек вечкить налксемс
 REMOVE:verbScSg2IfSubjPl3PronAvailable ScSg2 IF (0 V + BV + Ind + Prs + ScPl3)((-1* Pron + Pers + Pl3 + Nom BARRIER BOS) OR (1* Pron + Pers + Pl3 + Nom BARRIER EOS)) ;
@@ -624,10 +625,16 @@ REMOVE N + Sg + Nom + Indef IF (0 MARTO) ;
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;
 
 #Ваня марто Марят
-REMOVE Der/MWN IF (0C MARTO)(0 Adp + Der/MWN + Sg + Nom + Indef) ;
+REMOVE:NoNWMIfAdp Der/MWN IF (0C MARTO)(0 Adp + Der/MWN + Sg + Nom + Indef) ;
+
+
 
 #Ванят-Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ;
+
+# Сестэ Ванят-Марят эзть лисеве ушов налксеме.
+SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ((-1* ScPl3 BARRIER EOS) OR (1* ScPl3 BARRIER EOS)) ;
+SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ((-1* ScPl3 BARRIER EOS) OR (1* ScPl3 BARRIER EOS)) ;
 
 #а неиль
 SELECT Pcle + Neg (1 Prs OR Prt2) ;
@@ -706,7 +713,7 @@ REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 
 ## Adpositions
 
-# кедьсэм
+# кедьсэнь
 REMOVE:PoIfAdp Po IF (0 Adp) ;
 
 # тыньгак каршо а ультядо

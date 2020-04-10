@@ -591,8 +591,12 @@ Rules
 Г4:к  <=>  # [и л я|у ж о|а з ё|а д я|а й д а] %> _ а  ;
 
 
-!"m:0" 
-!м:0 <=> 
+"m:0" 
+м:0 <=>
+  т (ь) _ (HarmDummies:) %> с [#|%-|(т) %{оэØ%}:] ;
+!! потмо+N+Relator+SP+Ela+Indef: __inside/sisäosa__
+!!€ потм%{back%}%>ст%{оэØ%}
+!!€ пот00%>сто
 ! BTV  _ У2:0  %>  VLoss: [ т | т н е:э ] ;
 !        т (ь) _ [ У2: ]  %>  VLoss: [с (т) [О1:э|О1:о|О1:0]|с [  # | %-| %> [Г1:0|Г1:к]]] ;
 
@@ -767,5 +771,18 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 !!€ веле%>0кс%>эт0%>ельть
 
 "Disallow %^NoLinkVow after vowel"
-!! __ @RULENAME@ __                                                                                                                                                                           
+!! __ @RULENAME@ __
 %^NoLinkVow:0 /<= :Vows  (HarmDummies:) %> _ ;
+
+"Disallow s for control of stems with inessive..."
+!! __ @RULENAME@ __
+с:с /<= [т|д|к|г|п|б|м|н|л|р|в|й:|ф|х] (ь:) (HarmDummies:) %> %{оеэØ%}: _ [#|%-|(т) %{оэØ%}:] ;
+
+"Disallow k for control of comparative with stem types"
+!! __ @RULENAME@ __
+к:к /<=
+ [н] (ь:) (HarmDummies:) %> %{оеэØ%}: ш _ а: ; ! comparative
+ [к ] (ь:) (HarmDummies:) %> %{оеэØ%}: _ с ; ! translative
+!!TESTS
+!echo 'п а н ж > с ы' | hfst-pair-test src/phonology/myv-phon.compose.hfst
+!echo 'панжомс+V+Ind+Prs+ScSg3+OcSg3' | hfst-lookup src/morphology/lexicon.hfst
