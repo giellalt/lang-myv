@@ -20,7 +20,7 @@ LEXICON V_KUNDAMS-TEST
 !+V+Inf: # ;
 
 LEXICON V_ARAS1
-+V+Neg: V_ARAS1_01 ;
++V+Aux+Neg+Loc: V_ARAS1_01 ;
 LEXICON V_ARAS1_01
 +Prs+ScSg1:А2н K ;
 +Prs+ScSg2:А2т K ;
@@ -38,13 +38,13 @@ LEXICON V_ARAS1_01
 
 
 !! OBJECT FLAGS AND +V+TV tags
-LEXICON V-AUX-NEG-CONJ !! аволь:а 
+LEXICON V-AUX-NEG-CONJ !! а+V:а 
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@  ConjPers-withO-all ;
 
 
 
 
-LEXICON V-AUX-NEG-PRT1 !!= __@CODE@__ эзь:эзь
+LEXICON V-AUX-NEG-PRT1 !!= __@CODE@__ а+V:эзь
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-30_ZERO ;
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-60_T ;
@@ -1069,7 +1069,7 @@ LEXICON VerbsPresPrc_1
 !2017-10-26+Act+PrsPrc:%>%{иы%}ця K ;
 !2017-10-26+Act+PrsPrc+Clt/Cop+Prs+ScSg3:%>%{иы%}ця K ;
 !2017-10-26+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}ця%>тЬ2 K ;
-+Act+PrsPrc+A:%>%{иы%}ця NMN_KUDO ;
++Act+PrsPrc:%>%{иы%}ця # ;
 !+Der+Der/Ycja+Act+PrsPrc+Der+Der/MWN:%>%{иы%}ця N_KUDO ;
 +NomAg:%>%{иы%}ця N_KUDO ;
 
@@ -1119,7 +1119,7 @@ LEXICON Deverbals_mutual
 @U.CX.LOC@+Inf+Loc:@U.CX.LOC@%>%{оеэØ%}мО1 _KUDO-Possessive-Before-K-or-K-4Inf ;
 @U.CX.ILL@+Inf:@U.CX.ILL@%>%{оеэØ%}мс sajems-Conjugation-4Inf ; !!     __@CODE@__ Alternates with TRA
 @U.CX.ILL@+Inf:@U.CX.ILL@%>%{оеэØ%}мс VerbEnd_K ; !! __@CODE@__ Alternates with TRA
-@U.CX.ILL@+Ger+Ill:@U.CX.ILL@%>%{оеэØ%}мс VerbEnd_K ;
+!@U.CX.ILL@+Use/NG+Ger+Ill:@U.CX.ILL@%>%{оеэØ%}мс VerbEnd_K ;
 @U.CX.ELA@+Ger+Ela:@U.CX.ELA@%>%{оеэØ%}мст%{оэØ%} _KUDO-Possessive-Before-K-or-K-4Inf ;
 @U.CX.INE@+Inf+Ine:@U.CX.INE@%>%{оеэØ%}мс%{оэØ%} _KUDO-Possessive-Before-K-or-K-4Inf ;
 @U.CX.PRL@+Ger+Prl:@U.CX.PRL@%>%{оеэØ%}мга _KUDO-Possessive-Before-K-or-K-4Inf ;

@@ -43,14 +43,14 @@ LEXICON N-KIN_LAK
 !@P.POS.N@!+Sem/Kin:@P.POS.N@ NMN_TINGE ;
 ! N-KIN ;
 !LEXICON N-KIN_VELE_IS-KE-DIM
-!@P.POS.N@!+Sem/Kin+Der/ke+Der/Dimin+N:@P.POS.N@ N-KIN_VELE ;
+!@P.POS.N@!+Sem/Kin+Der/ke+Der/Dimin:@P.POS.N@ N-KIN_VELE ;
 LEXICON N-KIN_VELE_IS-NE-DIM
-@P.POS.N@+Sem/Kin+Der+Der/Dimin+N:@P.POS.N@%>Н1е N-KIN_VELE ;
+@P.POS.N@+Sem/Kin+Der/Dimin:@P.POS.N@%>Н1е N-KIN_VELE ;
 LEXICON N-KIN_VELE
 @P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KUDO ;
  N-KIN ;
 !LEXICON N-KIN_PIZE2_IS-NE-DIM
-!@P.POS.N@!+Sem/Kin+Der/Dimin+Der/Dimin+N:@P.POS.N@ N-KIN_PIZE2 ;
+!@P.POS.N@!+Sem/Kin+Der/Dimin+Der/Dimin:@P.POS.N@ N-KIN_PIZE2 ;
 !LEXICON N-KIN_PIZE2
 !@P.POS.N@!+Sem/Kin:@P.POS.N@ NMN_KUDO ;
 ! N-KIN ;
@@ -304,29 +304,29 @@ LEXICON N_AJ_KINVOC
 
 LEXICON N_KAL
 @P.POS.N@:@P.POS.N@ NMN_KAL ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_LAV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KEL1 ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TYL
 ! harmony: front
 @P.POS.N@:@P.POS.N@%{frontHard%} NMN_KAL ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 !LEXICON N_KAL_SUB
@@ -357,7 +357,7 @@ LEXICON N_KEL1-PL
 
 LEXICON N_LAK
 @P.POS.N@:@P.POS.N@ NMN_LAK ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_LAK-PL
@@ -367,7 +367,7 @@ LEXICON N_LAK-PL
 
 LEXICON N_KIT
 @P.POS.N@:@P.POS.N@ NMN_KIT ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KIT-PL
@@ -377,7 +377,7 @@ LEXICON N_KIT-PL
 
 LEXICON N_KLASS
 @P.POS.N@:@P.POS.N@ NMN_KLASS ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 !LEXICON N_OSH_SUB
@@ -385,7 +385,7 @@ LEXICON N_KLASS
 
 LEXICON N_OSH
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
@@ -409,46 +409,46 @@ LEXICON N_LEVKS-PL
 
 LEXICON N_KENKSH
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_LESHCH
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_PLASHCH
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 
 LEXICON N_OZKS
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KARDAZ !! кардаз:карда
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_LEVKS
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_ROZ1
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
@@ -459,58 +459,65 @@ LEXICON N_IE
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_LAVSHO
-@P.POS.N@:@P.POS.N@%{backHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@о%{back%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@%{backHard%} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@:@P.POS.N@о%{back%} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@о%{back%} NMN_TINGE-OTHER-FORMS ;
 !@P.POS.N@:@P.POS.N@ NMN_CHUVTO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KECHE
-@P.POS.N@:@P.POS.N@%{frontHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@%{frontHard%} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
 !@P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KENZHE
 @P.POS.N@:@P.POS.N@%{frontHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@е%{frontSoft%} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
 !@P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TESHTE
 @P.POS.N@:@P.POS.N@%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
 !@P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%^Ь2ZEROи%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%^Ь2ZEROи%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TINGE
 @P.POS.N@:@P.POS.N@%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@е%{frontSoft%} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@+Der/Dimin:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_TINGE-PL
 @P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
-@P.POS.N@:@P.POS.N@е NMN_DEF-PL-DECLENSION ;
+@P.POS.N@+Use/NG:@P.POS.N@е NMN_DEF-PL-DECLENSION ;
 @P.POS.N@:@P.POS.N@ _PANGO-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KUDO-Poss-Declension-CX-PL ;
 
 LEXICON N_CHUVTO
 @P.POS.N@:@P.POS.N@%{backHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@о%{back%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@о%{back%} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@о%{back%} NMN_TINGE-OTHER-FORMS ;
 !@P.POS.N@:@P.POS.N@ NMN_CHUVTO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@ы%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@ы%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_PANGO
 !! панго:панг
 @P.POS.N@:@P.POS.N@%{back%} NMN_TINGE-SHORT-FORMS ;
 !@P.POS.N@:@P.POS.N@%{ОØ%} NMN_KUDO ;
-@P.POS.N@:@P.POS.N@о NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@и%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Use/NG:@P.POS.N@о NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@о NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@+Der/Dimin:@P.POS.N@и%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@:@P.POS.N@@U.DECL-NX.SP@о LAT-INDEF ;
 
 LEXICON DV-N_
@@ -519,7 +526,7 @@ LEXICON DV-N_
 ! This might be moved to exceptions 2012-11-21
 LEXICON N_KI
 @P.POS.N@:@P.POS.N@ NMN_KI ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_VELE_IS-KE-DIM
@@ -531,7 +538,7 @@ LEXICON N_VELE_IS-NE-DIM
 LEXICON N_VELE
 !! Front vowel, non-palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_PIZE2_IS-NE-DIM
@@ -540,7 +547,7 @@ LEXICON N_PIZE2_IS-NE-DIM
 LEXICON N_PIZE2
 !! Front vowel, non-palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 !LEXICON N_KUDO_SUB
@@ -548,7 +555,7 @@ LEXICON N_PIZE2
 
 LEXICON N_KUDO
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_KUDO-PL
@@ -649,6 +656,11 @@ LEXICON NMN_KI
 +Sg+Prl:ява PossPX1 ;
 
 LEXICON NMN_TINGE-SHORT-FORMS
+ N_KUDO-Derivation ;
+ SG-ELA-DEF ;
+ SG-INE-DEF ;
++Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
 NMN_DEF-PL-DECLENSION ;
  PL-NOM-INDEF ;
 +Use/NG+Err/Orth: ABL-INDEF ;
@@ -658,6 +670,57 @@ NMN_DEF-PL-DECLENSION ;
  INE-INDEF ;
  ELA-PX ;
  INE-PX ;
+
+LEXICON NMN_TINGE-LONG-FORMS
+ N_KUDO-Derivation ;
+ SG-ELA-DEF ;
+ SG-INE-DEF ;
++Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
+NMN_DEF-PL-DECLENSION ;
+ PL-NOM-INDEF ;
+ ABL-INDEF ;
+ ABL-PX ;
+ ELA-INDEF ;
+ ILL-INDEF ;
+ INE-INDEF ;
+ ELA-PX ;
+ INE-PX ;
+
+LEXICON NMN_TINGE-OTHER-FORMS
+!!
+ SG-NOM-DEF ;
+ SG-GEN-DEF ;
+ SG-DAT-DEF ;
+ SG-CMP-DEF ;
+ SG-ABL-DEF ;
+ SG-PRL-DEF ;
+ SG-ABE-DEF ;
+ SG-TRA-DEF ;
++Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-ABL-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-CMP-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-PRL-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
+ SG-NOM-INDEF ;
+ ABE-INDEF ;
+ ABL-INDEF ;
+ CMP-INDEF ;
+ COM-INDEF ;
+ DAT-INDEF ;
+ GEN-INDEF ;
+ PRL-INDEF ;
+ TMP-INDEF ; !!= * __@CODE@__ Check this
+ TRA-INDEF ;
+ ABE-PX ;
+ ABL-PX ;
+ CMP-PX ;
+ DAT-PX ;
+ INE-PX ;
+ PRL-PX ;
+ TRA-PX ;
 
 
 LEXICON NMN_KUDO
@@ -1186,7 +1249,7 @@ LEXICON NMN_DEF-SG-DECLENSION
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
 
 
-: NMN_DEF-PL-DECLENSION ;
+!: NMN_DEF-PL-DECLENSION ;
 
 LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-FRONT-VOW
 !! N_KUDO-Def-Declension
