@@ -783,6 +783,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 к:к /<=
  [н] (ь:) (HarmDummies:) %> %{оеэØ%}: ш _ а: ; ! comparative
  [к ] (ь:) (HarmDummies:) %> %{оеэØ%}: _ с ; ! translative
+ 
 !!TESTS
 !echo 'п а н ж > с ы' | hfst-pair-test src/phonology/myv-phon.compose.hfst
 !echo 'панжомс+V+Ind+Prs+ScSg3+OcSg3' | hfst-lookup src/morphology/lexicon.hfst
