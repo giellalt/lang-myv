@@ -129,7 +129,8 @@ LIST QUEST = "?" ;
 LIST Pers = Pers ;
 LIST Dem = Dem ;
 LIST Interr = Interr ;
-LIST Indef = Indef ;
+LIST Indef = Indef (ind) ;
+LIST Relator = Relator ;
 
 LIST Deg = Deg ;
 LIST Manner = Manner ;
@@ -151,6 +152,9 @@ LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
 #!! * Sets for Semantic tags
 # -------------
 
+LIST Sur = Sur ;
+LIST Sem/Sur = Sem/Sur ;
+
 LIST Sem/Ant = Sem/Ant ;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
 LIST SUR = Sem/Sur_Mal Sem/Sur_Fem ;
@@ -162,14 +166,15 @@ LIST Obj = Obj ;
 LIST Org = Org ;
 LIST Plc = Plc ;
 
-LIST Sur = Sur ;
-LIST Sem/Sur = Sem/Sur ;
-
 LIST Time = Time ;
 LIST Temp = Temp ;
 LIST Hum = Hum ;
 LIST Date = Date ;
 
+LIST Hom1 = Hom1 ;
+LIST Hom2 = Hom2 ;
+LIST Hom3 = Hom3 ;
+LIST Hom4 = Hom4 ;
 
 #!! * Sets for Morphosyntactic properties
 # --------------------------
@@ -242,6 +247,7 @@ LIST Clt/Гаятя = Clt/Гаятя ;
 LIST Clt/Гатя = Clt/Гатя ;
 LIST Clt/Гака = Clt/Гака ;
 LIST Clt/Гакая = Clt/Гакая ;
+LIST Clt/Add = Clt/Add ; # Гак
 
 
 LIST IV = IV ;
@@ -260,29 +266,30 @@ LIST Conj = Conj ;
 LIST Des = Des ;
 LIST Ind = Ind ;
 LIST Opt = Opt ;
+LIST Prec = Prec ;
 LIST Proh = Proh ;
 
 LIST Imprt = Imprt ;
 
-LIST ScSg1 = ScSg1 ;
-LIST ScSg2 = ScSg2 ;
-LIST ScSg3 = ScSg3 ;
+LIST ScSg1 = ScSg1 (s_p1 s_sg) (a_p1 a_sg) ;
+LIST ScSg2 = ScSg2 (s_p2 s_sg) (a_p2 a_sg) ;
+LIST ScSg3 = ScSg3 (s_p3 s_sg) (a_p3 a_sg) ;
  
-LIST ScPl1 = ScPl1 ;
-LIST ScPl2 = ScPl2 ;
-LIST ScPl3 = ScPl3 ;
+LIST ScPl1 = ScPl1 (s_p1 s_pl) (a_p1 a_pl) ;
+LIST ScPl2 = ScPl2 (s_p2 s_pl) (a_p2 a_pl) ;
+LIST ScPl3 = ScPl3 (s_p3 s_pl) (a_p3 a_pl) ;
 
 LIST SCPERSON = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
 
 LIST SCPERSON12 = ScSg1 ScSg2 ScPl1 ScPl2 ;
 
-LIST OcSg1 = OcSg1 ;
-LIST OcSg2 = OcSg2 ;
-LIST OcSg3 = OcSg3 ;
+LIST OcSg1 = OcSg1 (o_p1 o_sg) ;
+LIST OcSg2 = OcSg2 (o_p2 o_sg) ;
+LIST OcSg3 = OcSg3 (o_p3 o_sg) ;
  
-LIST OcPl1 = OcPl1 ;
-LIST OcPl2 = OcPl2 ;
-LIST OcPl3 = OcPl3 ;
+LIST OcPl1 = OcPl1 (o_p1 o_pl) ;
+LIST OcPl2 = OcPl2 (o_p2 o_pl) ;
+LIST OcPl3 = OcPl3 (o_p3 o_pl) ;
 
 LIST Sg1 = Sg1 ;
 LIST Sg2 = Sg2 ;
@@ -290,7 +297,7 @@ LIST Sg3 = Sg3 ;
 
 LIST Pl1 = Pl1 ;
 LIST Pl2 = Pl2 ;
-LIST Pl3 = Pl3 ;
+LIST Pl3 = Pl3 (pl3) ;
 
 LIST PERSON = Sg1 Sg2 Sg3 Pl1 Pl2 Pl3 ;
 
@@ -313,6 +320,7 @@ LIST Actio = Actio ;
 
 LIST Der/PassL = Der/PassL ;
 LIST Der/NomAg = Der/NomAg ;
+LIST Der/NomAct = Der/NomAct ;
 LIST Actor = NomAg Der/NomAg ;
 LIST VAbess = VAbess ;
 LIST ActPrcShort = ActPrcShort ;
@@ -335,7 +343,7 @@ LIST Der/OvtOms = Der/Ovtoms ; #Der/ОвтОмс
 LIST Der/ОвтОмс = Der/ОвтОмс ;
 LIST Der/Dimin = Der/Dimin ;
 
-LIST Der/MWN = Der/MWN ;
+LIST Der/MWN = Der/MWN (der subst) ;
 LIST Der/Dem = Der/Dem ;
 LIST Der/Pr = Der/Pr ;
 LIST Clt/Cop = Clt/Cop ;
@@ -365,9 +373,9 @@ LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо"
 
 LIST VAMBNOUNS = "каса" "кекше" "код" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
-LIST VERBWITHMO = "арсемс" "кармамс" "мадемс" "озамс" ; #!!озамс ярсамо
+LIST VERBWITHMO = "арсемс" "кармамс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
-LIST VERBWITHMODS = "озавтомс" ; #!!озавтомс ярсамо
+LIST VERBWITHMODS = "кучомс" "озавтомс" "тердемс" ; #!!озавтомс ярсамо Distinguish	from Der/NomAct
 
 LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
 
@@ -378,7 +386,8 @@ SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
 
 LIST APAK = "апак" ;
 
-LIST EZJ = "эзь" ;
+#LIST EZJ = "эзь" ;
+LIST EZJ = "а" ;
 
 #2013-05-22
 
@@ -388,6 +397,8 @@ LIST EZJ = "эзь" ;
 LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ; 
 
 LIST OBLNMN = Abe Abl Cau Com Cmpr Dat Gen Lat Loc Prl Temp Tra ;
+
+LIST NMNNB = Sg Pl SP ;
 
 # Sets
 # ====
@@ -420,6 +431,12 @@ LIST ShortPrsPrc = Der/Y Der/Yj ;
 
 SECTION
 
+SUBSTITUTE (Hom1) (*) TARGET (*) ;
+SUBSTITUTE (Hom2) (*) TARGET (*) ;
+SUBSTITUTE (Hom3) (*) TARGET (*) ;
+SUBSTITUTE (Hom4) (*) TARGET (*) ;
+#
+SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
@@ -454,6 +471,10 @@ SELECT:PronPl3Nom Pron IF (0 Pron + Pers + Pl3 + Nom) ((-1* ScPl3 BARRIER BOS) O
 
 # сынь пек вечкить налксемс
 REMOVE:verbScSg2IfSubjPl3PronAvailable ScSg2 IF (0 V + BV + Ind + Prs + ScPl3)((-1* Pron + Pers + Pl3 + Nom BARRIER BOS) OR (1* Pron + Pers + Pl3 + Nom BARRIER EOS)) ;
+
+# Ломанень кевкстеманзо свал лиядыть апак пандо, зярдо кортыть киска марто!
+REMOVE:verbScSg2IfSubjPlAvailable Gen + PXPERSON IF (0C Nom + PXPERSON) ((-1* V + IV + Ind + Prs + ScPl3 BARRIER BOS) OR (1* V + IV + Ind + Prs + ScPl3 BARRIER EOS));
+REMOVE:verbScSg2IfSubjPlAvailable ScSg2 IF (0C V + BV + Ind + Prs + ScPl3) ((-1* N + Pl + Nom BARRIER BOS) OR (1* N + Pl + Nom BARRIER EOS));
 
 # тень лангс
 REMOVE:pronPersSg1Dat Pers IF (0 Pron + Dem + Sg + Gen)(1 Adp);
@@ -499,6 +520,13 @@ REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT
 #Микол таргизе кисетэнзэ.
 #REMOVE Nom (*-1C Nom) (0 Gen) ; too powerful
 
+#Prolative
+#^кудованть/кудо<n><sg><prl><def>/кудо<n><sp><prl><ind><der><subst><sg><gen><def>
+REMOVE Prl + Indef + Der/MWN IF (0 Sg + Prl + Def) ((-1* ("якамс") BARRIER BOS) OR (1* ("якамс") BARRIER EOS)) ;
+
+#  Истя Марянь кевкстемазо лияды апак пандо.
+REMOVE Der/NomAct IF (0C N)(0 Nom)(0 PXPERSON) ;
+
 # весемеде мазый
 # пек кельмель
 REMOVE:NoNIfAwithPreviousSuperl N ((-1 Superl) OR (-1 ("пек"))) (0 A);
@@ -519,8 +547,9 @@ REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 #Молян верев.
 REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
 
+# Сон паро мельсэ муевлизе Ванянь.
 #  ташто кудосо
-REMOVE N IF (0 A + Sg + Nom + Indef) (1 OBLNMN) ; # Too powerful? 2020-03-31
+REMOVE:NoIndefNomSgNIfNextOblN N IF (0 A + Sg + Nom + Indef) (1 OBLNMN) ; # Too powerful? 2020-03-31
 #REMOVE N IF (0 A + Sg + Nom + Indef) (1 N) ; # Too powerful? 2020-03-31
 
 # verb finite form
@@ -536,6 +565,7 @@ REMOVE:NotCop12Pers NOTFIRSTSECONDCOPULA (0 Ind + Prs + SCPERSON12 OR Ind + Prt2
 
 #валдодо пешксе
 REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
+
 
 ## Numerals
 
@@ -600,11 +630,19 @@ REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
 REMOVE Der/ОвтОмс IF (0 V + TV) ;
 
 # озась ярсамо
-SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN));
+#SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN));
 
 #Сторужось лиссь алтарьстэнть, попось кармась обеднянь служамо.
 SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 
+# А кискась, кода содатано, а машты кортамо!
+# А кискась, кода содатано,  кортамо машты!
+# А кискась, кода содатано,  кортамо а машты!
+REMOVE:NoNomActWhenInfLocContext Der/NomAct IF (0 Inf + Loc)(0 Sg + Nom + Indef) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS));
+REMOVE:NoNAbsWhenInfLocContext Sg + Nom + Indef IF (0 Inf + Loc) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS)) ;
+
+# А кискась, кода содатано, а машты кортамо!
+REMOVE:NoTVIfCauseInfLoc TV IF (0 VERBWITHMO) ((-1*  Inf + Loc BARRIER BOS) OR (1*  Inf + Loc BARRIER EOS)) ;
 
 #молить V TV Der/Y Der/NomAg N Pl Gen PxSg2
 REMOVE Der/Y + Der/NomAg IF (0 PXPERSON) ;
