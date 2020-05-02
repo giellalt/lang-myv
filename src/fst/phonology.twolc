@@ -7,6 +7,8 @@ Alphabet
 ҥ Ҥ і І ѳ Ѳ ! Pre-Soviet 1930s letters 
 ѝ а̀
 
+ь:0
+
 ! Nominal stem vowels that alternate 
 ! work with "+VLoss" and "+NoVLoss" tags
 !
@@ -681,6 +683,12 @@ Rules
 !         т [ И2:0 ] %> VLoss:0 _ [О1:е|О1:э|О1:о] ;
 !Word final Vowels
 
+"y:y"
+!! __@RULENAME@__
+ь:ь <=> Cns _ [Cns|Vows |# | %- |(HarmDummies:)  %> [с (т) [ы|а|о|%{оэØ%}:] |с [#|%-|%> Г1:]|:CnsNonDent ]] ;
+   [л|Л] _ (HarmDummies:) %> (:0) [ :Cns] ;
+
+!Й:Й Ц:Ц _ >:> К1:к Ь2:ь
 
 "y:0"
 !! __@RULENAME@__  
@@ -689,8 +697,12 @@ Rules
 !!€ кель^Ь2ZERO%>енть
 !!€ кел00%>енть
      CnsDent  _  %> [ А2:я | %{иы%}: | %{оеэØ%}:е | О1:е ];
-    CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | К1: Ь2: | Н1:н | н | д: | ц е: [ # | %- | %> ] | т | с (т) [ ь: | е: ]] ;
-
+     CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | К1:т Ь2: | Н1:н | н | д: | ц е: [ # | %- | %> ] | т | с (т) [ ь: | е: ]] ;
+!! меремс+V+Ind+Prt1+ScSg3: __say/sanoa__
+!!€ мерь%>сь
+!!€ мер0%>сь
+!!$ мерь%>сь
+!!$ мерь%>сь
 
 
 !"U2:0"
@@ -785,5 +797,9 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
  [к ] (ь:) (HarmDummies:) %> %{оеэØ%}: _ с ; ! translative
  
 !!TESTS
-!echo 'п а н ж > с ы' | hfst-pair-test src/phonology/myv-phon.compose.hfst
-!echo 'панжомс+V+Ind+Prs+ScSg3+OcSg3' | hfst-lookup src/morphology/lexicon.hfst
+!echo 'п а н ж > с ы' | hfst-pair-test src/fst/phonology.compose.hfst
+!echo 'панжомс+V+Ind+Prs+ScSg3+OcSg3' | hfst-lookup src/fst/lexicon.hfst
+
+!echo 'м е р ь:0 > с ь' | hfst-pair-test src/fst/phonology.compose.hfst
+!echo 'меремс+V+Ind+Prt1+ScSg3' | hfst-lookup src/fst/lexicon.hfst
+
