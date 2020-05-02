@@ -442,6 +442,8 @@ REMOVE Err/Orth ; # If any other reading is possible.
 
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 
+REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
+
 # пельнеть
 REMOVE Der/Dimin (0C N ) ;
 
