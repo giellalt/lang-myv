@@ -36,4 +36,4 @@ JSP_PAGES=\
 # verbs-stems.jspwiki              \
 # adjectives-oahpa-affixes.jspwiki 
 
-include $(top_srcdir)/am-shared/doc-dir-include.am
+include $(top_srcdir)/../giella-core/am-shared/doc-dir-include.am
