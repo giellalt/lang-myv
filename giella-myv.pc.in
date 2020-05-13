@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+datadir=@datarootdir@
+gtlang=myv
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-myv
+Description: Finite-state language processing tools for Erzya
+URL: https://giellalt.uit.no/index.html
+Version: @VERSION@

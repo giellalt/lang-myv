@@ -1,0 +1,303 @@
+!! !!!Adjective inflection
+
+!! Adjectives and other parts of speech in ERZYA are compared by means of 
+!! either a particle or ablative case marking on the standard of comparison
+
+
+! This is for Russian source adjectives
+! that might be used in a template
+
+LEXICON IS_NUMORD_KUDO
+NMN_KUDO ;
+
+LEXICON DET-DEM_TE
++Sg: ENDLEX ;
+
+LEXICON DET-DEM_ALCE
+: ENDLEX ;
+
+LEXICON A_RU-OJ
++Use/SpellNoSugg+OLang/RUS:ой A_KAL ;
+
+LEXICON A_INT-EJ
++Use/SpellNoSugg+OLang/RUS:ей A_KAL ;
+
+LEXICON A_INT-OJ
++Use/SpellNoSugg+OLang/RUS:ой A_KAL ;
+
+! 2012-04-03 These do not exist in present dictionary
+!LEXICON COMP-A
+!+Der/shka: A_KUDO ;
+
+LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
+! was GEN-A
++Der+Der/GenAttr+A+Sg: K ;
++Der+Der/GenAttr+A: CLT/COP4_OBL-SC3 ; ! These need checking 2012-04-17
+
+!LEXICON A-IS-INE ! The inessive is used as an attribute and predicate modifier
+!+Clt/Cop+Prs+ScSg3: K ;
+
+
+LEXICON A_VEJKET1-PL
+ A_KIT ;
+
+LEXICON A_KIT
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KIT-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_KIT ;
+: N2Dem-SE ;
+
+LEXICON A_LAK
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _LAK-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_LAK ;
+: N2Dem-SE ;
+
+!LEXICON A_KAL_Sub
+!+Use/NG+Err/Orth: A_KAL ;
+
+LEXICON A_KAL
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_KAL ;
+: N2Dem-SE ;
+
+LEXICON A_LAV
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_LAV ;
+: N2Dem-SE ;
+
+LEXICON A_TEV
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_TEV ;
+: N2Dem-SE ;
+
+LEXICON A_KEL1
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+:%{frontSoft%} CLT/COP4_OBL ;
++Pl:%{frontSoft%}%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl:%{frontSoft%} _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+:%{frontSoft%} NMN_KEL1 ;
+:%{frontSoft%} N2Dem-SE ;
+
+LEXICON A_OSH
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_OSH ;
+: N2Dem-SE ;
+
+LEXICON A_KENKSH
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_KENKSH ;
+: N2Dem-SE ;
+
+LEXICON A_OZKS
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_OZKS ;
+: N2Dem-SE ;
+
+LEXICON A_LEVKS
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_LEVKS ;
+: N2Dem-SE ;
+
+LEXICON A_ROZ1
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: CLT/COP4_OBL ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KAL-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_ROZ1 ;
+: N2Dem-SE ;
+
+LEXICON A_TESHTE
+:%^Ь2ZEROе%{frontSoft%} ADJ-TO-ADV ;
+:%{frontSoft%} ADJ-TO-ADV ;
+
+:%^Ь2ZEROе Adj-pango-tinge ;
+:%^Ь2ZEROе%{frontSoft%} NMN_PANGO ;
+:%^Ь2ZEROе N2Dem-SE ;
+
+LEXICON A_CHUVTO
+:о%{backHard%} ADJ-TO-ADV ;
+:%{backHard%} ADJ-TO-ADV ;
+:о%{backHard%} Adj-pango-tinge ;
+:о%{backHard%} NMN_PANGO ;
+:о%{backHard%} N2Dem-SE ;
+
+LEXICON A_EKSHE
+:е%{frontHard%} ADJ-TO-ADV ;
+:%{frontHard%} ADJ-TO-ADV ;
+:е%{frontHard%} Adj-pango-tinge ;
+:е%{frontHard%} NMN_EKSHE ;
+:е%{frontHard%} N2Dem-SE ;
+
+LEXICON A_LAVSHO
+:о%{backHard%} ADJ-TO-ADV ;
+:%{backHard%} ADJ-TO-ADV ;
+:о%{backHard%} Adj-pango-tinge ;
+:о%{backHard%} NMN_LAVSHO ;
+:о%{backHard%} N2Dem-SE ;
+
+LEXICON A_TINGE
+:е%{frontSoft%} ADJ-TO-ADV ;
+:%{frontSoft%} ADJ-TO-ADV ;
+!:е%{frontSoft%} Adj-pango-tinge ;  2020-04-05
+:%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
+:е%{frontSoft%} NMN_KUDO ;
+:е%{frontSoft%} N2Dem-SE ;
+
+LEXICON A_PANGO
+:о%{backHard%} ADJ-TO-ADV ;
+:%{backHard%} ADJ-TO-ADV ;
+!:о%{backHard%} Adj-pango-tinge ; 2020-04-05
+:%{backHard%} NMN_TINGE-SHORT-FORMS ;
+:о%{backHard%} NMN_KUDO ;
+:о%{backHard%} N2Dem-SE ;
+
+LEXICON Adj-pango-tinge
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+: _PANGO-NomSg-Conjugation ;
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
++Pl: _PANGO-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+
+LEXICON A-ADN
++Adn: ENDLEX ;
+
+LEXICON DET-ADN
++Adn: ENDLEX ;
+
+LEXICON ActDemPrc-A
++Der+Der/Ycja+Act+DemPrc: K ;
++Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
+!+Der+Der/Ycja+Act+DemPrc:%>%{иы%}ця K ;
+!+Der+Der/Ycja+Act+DemPrc:%>%{иы%}ця NMN_KUDO ;
+
+LEXICON A-IS-DEMPRC
++Der+Der/Ycja+Act+DemPrc: K ;
++Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
+
+
+LEXICON A_VELE
+ A_KUDO        ;
+!LEXICON A_KUDO_SUB
+!+Use/NG+Err/Orth: A_KUDO ;
+
+LEXICON A_KUDO
+ ADJ-TO-ADV ;
+!+Attr: K ;
+!2020-03-31+Clt/Cop+Prs+ScSg3: K ;
+!+Pl:%>тЬ2 K ;
+: A_KUDO_01 ;
+: N2Dem-SE ;
+
+LEXICON A_KUDO_01
+! K ;
+ CLT/COP4_OBL ; !! 2013-04-17
++Pl:%>тЬ2 _KIT-NomPl-Conjugation ;
+!2013-03-15!+Pl: _KUDO-NomPl-Conjugation-only ;
+!+Pl:%>тЬ2 K ;
+: NMN_KUDO ;
+
+
+!LEXICON Adj-InterrRel ! кодамо
+!+Interr: A_PANGO ;
+!+Rel: A_PANGO ;
+
+LEXICON A-IS-INTERR/REL-ADJ_KODAMO !! кодамо:кода
++Interr: ADJ_KODAMO ;
++Rel: ADJ_KODAMO ;
+LEXICON ADJ_KODAMO !! кодамо:кода
++Sg+Nom+Indef:мо # ;
++Pl+Nom+Indef:т # ;
+:м N_PANGO-Def-Declension ;
+:м _PANGO-Indef-Declension ;
+:мо N_KUDO-Poss-Declension-CX ;
+: NMN_DEF-PL-DECLENSION-TNE2 ; !! кодатнэ
+NMN_DEF-PL-DECLENSION ; !! кодатне 
+
+LEXICON DET_KUDO
+!: K ;
+!+Sg: K ;
+!+Pl:%>тЬ2 K ;
+: NMN_KUDO ;
+
+
+LEXICON DET_OSH
+!+Attr: K ;
+!+Sg: K ;
+!+Pl:%>тЬ2 K ;
+: NMN_OSH ;
+
+LEXICON IS-DET-SG-GEN-DEF
++Sg+Gen+Def: K ;
+
+LEXICON IS-DET-SG-NOM-DEF
++Sg+Nom+Def: K ;
+
+!LEXICON Adj-Dem ! истямо
+!+Dem: A_PANGO ;
+
+!LEXICON Adj-Po ! кондямо
+!+Po: A_PANGO ;
+
+LEXICON ADJ-TO-ADV
++Der+Der/stO+Adv:%>ст%{оэØ%} K ;
+
+! vim: set ft=xfst-lexc:
+

@@ -1,0 +1,36 @@
+! =============================== !
+!   Hyphenator for Tundra Nenets  !
+! =============================== !
+
+echo << defining Cns and Vow... >>
+
+define Vow [ а | е | ё | и | о | у | ы | э | ю | я | 
+             А | Е | Ё | И | О | У | Ы | Э | Ю | Я ] ;
+
+define Cns [ б | в | г | д | ж | з | й | к | л | м | н | п | 
+             р | с | т | ф | х | ц | ч | ш | щ | ь | ъ | 
+             Б | В | Г | Д | Ж | З | Й | К | Л | М | Н | П | 
+             Р | С | Т | Ф | Х | Ц | Ч | Ш | Щ | Ь | Ъ ] ;
+
+define Sgm [ Cns | Vow ] ;
+define Sign [ ь | Ь | ъ | Ъ ] ;
+             
+define JVow [ e | ё | ю | я | Е | Ё | Ю | Я ] ;           
+define S [ с | С | ш | Ш ] ;
+
+echo << and now the rules >>
+
+define beforeSign  [..] -> %^  || Cns Sign _ Segm+ Vow ; ! Галь-кин
+define beforeJV    [..] -> %^  || Vow Sgm* _ JVow ;      ! ка-я
+define beforeCV    [..] -> %^  || Vow Sgm* _ Cns   Vow ; ! хэ-рэг-лэ
+define CsCV        [..] -> %^  || Vow Cns  _ S Cns Vow ; ! Крон-штадт
+
+echo <<Combining...>>
+
+read regex [ 
+    beforeSign 
+.o. beforeJV 
+.o. beforeCV 
+.o. CsCV 
+] ;
+

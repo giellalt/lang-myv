@@ -1,0 +1,399 @@
+!! !!!Adverb inflection
+
+!! The Erzya language adjectives do not compare.
+
+
+LEXICON adverbs
+!!
+пек+Adv+Deg:пек ENDLEX ;
+
+ков+Adv+Interr+Lat:ков K ;
+коволга+Adv+Interr+Prl:коволга K ;
+коволдо+Adv+Interr+Abl:коволдо K ;
+коволо+Adv+Interr+Loc:коволо K ;
+коволов+Adv+Interr+Lat:коволов K ;
+
+васолдо+Adv+Abl:васолдо K ;
+васов+Adv+Lat:васов K ;
+васоло+Adv+Loc:васоло K ;
+васолга+Adv+Prl:васолга K ;
+
+товолдо+Adv+Abl:товолдо K ;
+товолов+Adv+Lat:товолов K ;
+товоло+Adv+Loc:товоло K ;
+товолга+Adv+Prl:товолга K ;
+
+венельде+Adv+Abl:венельде K ;
+венелев+Adv+Lat:венелев K ;
+венеле+Adv+Loc:венеле K ;
+венельга+Adv+Prl:венельга K ;
+
+чинельде+Adv+Abl:чинельде K ;
+чинелев+Adv+Lat:чинелев K ;
+чинеле+Adv+Loc:чинеле K ;
+чинельга+Adv+Prl:чинельга K ;
+
+мастордо+Adv+Abl:мастордо K ;
+масторов+Adv+Lat:масторов K ;
+масторо+Adv+Loc:масторо K ;
+масторга+Adv+Prl:масторга K ;
+
+верде+Adv+Abl:верде K ;
+верев+Adv+Lat:верев K ;
+вере+Adv+Loc:вере K ;
+верьга+Adv+Prl:верьга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+меелькспельде+Adv+Abl:меелькспельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+меелькспелев+Adv+Lat:меелькспелев K ;
+меелькспеле+Adv+Loc:меелькспеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+меелькспельга+Adv+Prl:меелькспельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+пертьпельде+Adv+Abl:пертьпельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+пертьпелев+Adv+Lat:пертьпелев K ;
+пертьпеле+Adv+Loc:пертьпеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+пертьпельга+Adv+Prl:пертьпельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+чипельде+Adv+Abl:чипельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+чипелев+Adv+Lat:чипелев K ;
+чипеле+Adv+Loc:чипеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+чипельга+Adv+Prl:чипельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
+!
+
+кодаяк+Adv+Indef+Manner:кодаяк # ;
+козонь+Adv+Interr+Ill:козонь K ;
+
+! These _states_ can conjugate,
+! a distinctive feature
+!
+!LEXICON AdvState-kudo_Sub
+!+Use/NG+Err/Orth: AdvState-kudo ; 
+
+LEXICON AdvState-kudo
++State: K ;
++State+Clt/Cop:%> StateConjugation-kudo ;
++State+Der+Der/MWN+N: N_KUDO ;
+
+
+
+! This is fed by AdvState
+LEXICON StateConjugation-kudo
++Ind+Prs+ScSg1:А2н K ;
++Use/NG+Err/Orth+Dial+Ind+Prs+ScSg1:ян K ;
++Ind+Prs+ScSg2:А2т K ;
++Use/NG+Err/Orth+Dial+Ind+Prs+ScSg2:ят K ;
++Ind+Prs+ScSg3: K ;
++Ind+Prt2+ScSg1:линь K ;
++Ind+Prt2+ScSg2:лить K ;
++Ind+Prt2+ScSg3:ль K ;
+
++Ind+Prs+ScPl1:тА2но K ;
++Ind+Prs+ScPl2:тА2до K ;
++Ind+Prs+ScPl3:тЬ2 K ;
++Ind+Prt2+ScPl1:линек K-lak ;
++Ind+Prt2+ScPl2:лиде K ;
++Ind+Prt2+ScPl3:льть K ;
+
+
+!LEXICON ABBR-IS_ADV
+!+ABBR: ADVTAG ;
+
+LEXICON Ad-A_ ! degree marking
++Deg: ENDLEX ;
+
+LEXICON ADV_ ! 
+: K ;
+
+LEXICON ADV-EVID-NFH_ !келя 
++EvidNfh: K ;
+
+!LEXICON GER_
+!+Ger: K ;
+!+Ger+Der+Der+Der/MWN+N: N_OSH ;
+
+LEXICON ADV_KUDO ! Coping with stem structure
+ ADV_ ;
+
+! истяк 
+LEXICON ADV_LAK
+: K-lak ;
+
+LEXICON ADV_OSH
+: K ;
+
+LEXICON ADV_KAL
+: K ;
+
+LEXICON ADV-TEMP_IS-TEMP
++Sem/Time: K ;
+
+!LEXICON ADV-TEMP-ITER
+!+Sem/Time+Iter: K ;
+
+!LEXICON ADV-ITER
+!!! кавксть
+!+Iter: K ;
+
+!LEXICON ADV-INTERR-ITER
+!!! зяроксть
+!+Interr+Iter: K ;
+
+LEXICON ADV-TEMP_
++Sem/Time: K ;
+
+LEXICON ADV-SPAT_ !!= @CODE@ пачк
++Spat: K ;
+
+!LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
+!+Spat+Abl: K ;
+
+!LEXICON ADV-SPAT-IS-LAT !!= @CODE@ алов
+!+Spat+Lat: K ;
+
+!LEXICON ADV-SPAT-IS-LOC !!= @CODE@ ало
+!+Spat+Loc: K ;
+
+LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
++Spat+Prl: K ;
+
+LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
+ ADV-SPAT_ALO ;
++Adp+Spat+Abl:%>дО1 K ;
++Adp+Spat+Loc:%>%{оеэØ%} K ;
++Adp+Spat+Prl:%>Г2а K ;
++Adp+Spat+Lat:%>%{оеэØ%}в K ;
++Pron+Spat+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Pron+Spat+Loc:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Pron+Spat+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Pron+Spat+Lat:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+
+
+
+LEXICON ADV-SPAT_ALO !!= @CODE@ ало:ал
++Spat+Abl:%>дО1 K ;
++Spat+Loc:%>%{оеэØ%} K ;
++Spat+Prl:%>Г2а K ;
++Spat+Orth/PhonDeriv+Loc+Der+Der/cje:%>це _KUDO-N2-Def-Declension ;
++Spat+Der+Der/ks:%>кс N_OSH ;
++Spat+Lat:%>%{оеэØ%}в K ;
+
+LEXICON ADV-SPAT_karsho
++Spat: K ;
++Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+
+LEXICON ADV-INE_KISE2
++Ine: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+
+LEXICON PO-SPAT_karsho
++Adp+Spat: K ;
+
+
+!LEXICON ADV/PO/PRON-SPAT_
+!!! relative space __мельга__
+!+Spat: K ;
+!+Adp+Spat: K ;
+!+Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+
+
+LEXICON PO/PRON-SPAT_
+!! relative space __мельга__
++Adp+Spat: K ;
++Pron+Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+
+
+
+LEXICON Adv_Phrase ! 
+: ENDLEX ;
+
+LEXICON ADV-IDEOPH ! 
++Ideoph: K ;
+! сорк, кальцк ; twang, thwang, bang
+
+LEXICON ADV-IDEOPH-IS-INE ! 
++Ideoph+Ine: K ;
+
+LEXICON ADV-INDEF_
++Indef: K ;
+LEXICON ADV-INDEF-TEMP_
++Indef: K ;
+
+LEXICON Exclusive ! 
++Exclusive: K ;
+
+LEXICON ADV-PARENTHETIC_ ! 
++Parenthetic: K ;
+
+!LEXICON ADV_-ELA ! 
+!+Ela: K ;
+
+LEXICON Adv-Ine ! 
++Ine: K ;
+
+!LEXICON Adv-Tra ! 
+!+Tra: K ;
+
+LEXICON ADV_-TRA ! 
++Tra: K ;
+
+LEXICON MANNER_ ! 
++Manner: K ;
+
+LEXICON MANNER_-ELA ! 
+A-DER/ELA-ADV-MANNER ;
+
+LEXICON A-DER/ELA-ADV-MANNER ! 
++Manner+Ela: K ;
+
+LEXICON MANNER_-TRA ! 
++Manner+Tra: K ;
+
+LEXICON ADV-IS-INTERR-MANNER
++Interr+Manner: K ;
+
+!LEXICON Manner-Interr ! 
+! ADV-IS-INTERR-MANNER ;
+
+!LEXICON PRED2-OBJ_KUDO !! "апак прядо"
+!+Pred2: K ;
+!+Pred2+Der+Der/MWN+N: N_KUDO ;
+
+!LEXICON PRED2-OBJ_OSH
+!+Pred2: K ;
+!+Pred2+Der+Der/MWN+N: N_OSH ;
+
+LEXICON PRED2-SUBJ_KUDO_Sub !!
++Use/NG+Err/Orth: PRED2-SUBJ_KUDO ;
+LEXICON PRED2-SUBJ_KUDO !! "стядо"
++Pred2: K ;
++Pred2+Der+Der/MWN+N: N_KUDO ;
+
+!LEXICON PRED2-SUBJ_OSH
+!+Pred2: K ;
+!+Pred2+Der+Der/MWN+N: N_OSH ;
+
+LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
++Pred2: K ;
++Pred2+Der+Der/MWN+N: N_KUDO ;
+
+!! spatial adverbs 
+!! dependent and independent case marking 
+!LEXICON SPAT-NoArg
+!+Spat: K ;
+
+LEXICON ADV-IS-SPAT-ELA
++Ela: K ;
++Ela: CLT/COP4_OBL ;
+
+LEXICON ADV-IS-SPAT-ILL
++Ill: K ;
+
+LEXICON ADV-IS-SPAT-INE
++Ine: K ;
++Ine: CLT/COP4_OBL ;
+
+!LEXICON ADV-IS-SPAT-ABL
+!+Abl: K ;
+
+LEXICON ADV-IS-SPAT-LAT
++Lat: K ;
+
+LEXICON ADV-IS-SPAT-PRL
++Prl: K ;
++Prl: CLT/COP4_OBL ;
+
+
+!LEXICON ADV-INTERR-IS-LAT
+!+Interr+Lat: K ;
+!LEXICON SPAT-Interr
+!+Interr+Spat: ENDLEX ;
+
+!LEXICON ADV-INTERR-IS-SPAT-ABL
+!+Interr+Abl: K ;
+
+!LEXICON ADV-INTERR-IS-SPAT-INE
+!+Interr+Ine: K ;
+!+Interr+Ine: CLT/COP4_OBL ;
+
+LEXICON ADV-INTERR-IS-SPAT-ELA
++Interr+Ela: K ;
+
+!LEXICON ADV-INTERR-IS-SPAT-LAT
+!+Interr+Lat: K ;
+
+!LEXICON ADV-INTERR-IS-SPAT-PRL
+!+Interr+Prl: K ;
+
+LEXICON Spat_
++Spat: K ;
+
+!LEXICON SPAT-Ela
+!+Spat+Ela: K ;
+!!+Adp+Spat+Ela: _KUDO-Possessive-Before-K ;
+
+!LEXICON SPAT-Ine
+!+Spat+Ine: K ;
+!!+Adp+Spat+Ine: _KUDO-Possessive-Before-K ;
+
+LEXICON SPAT-Lat
++Spat+Lat: K ;
+
+!LEXICON SPAT-Prl
+!+Spat+Prl: K ;
+!!+Adp+Spat+Prl: _KUDO-Possessive-Before-K ;
+
+!!Temporal tags with cases
+LEXICON TEMP_
++Sem/Time: K ;
+
+!! This marking would indicate a word form that may be 
+!  construed as an adv as well as a adposition.
+!LEXICON Temp-NoArg
+!+Sem/Time: K ;
+
+LEXICON Temp-Coll
++Sem/Time+Coll: K ;
+
+LEXICON Temp-Distr
++Sem/Time+Distr: K ;
+
+LEXICON Temp-Ela
++Sem/Time+Ela: K ;
+
+LEXICON Temp-Ill
++Sem/Time+Ill: K ;
+
+LEXICON Temp-Indef
++Sem/Time+Indef: K ;
+
+LEXICON Temp-Interr
++Interr+Sem/Time: K ;
+
+!LEXICON Temp-Lat
+!+Sem/Time+Lat: K ;
+
+LEXICON Temp-ms
++Der+Der/ms+Sem/Time+Ill: K ;
+
+LEXICON Temp-Pl
++Sem/Time+Pl: K ;
+
+LEXICON Temp-Prl
++Sem/Time+Prl: K ;
+
+LEXICON ADV-TEMP_LAK
++Sem/Time: K ;
++Sem/Time+Der+Der/MWN+N: N_LAK ;
+
+LEXICON ADV-TEMP_KIT
++Sem/Time: K ;
++Sem/Time+Der+Der/MWN+N: N_KIT ;
+
+LEXICON ADV-TEMP_KUDO
++Sem/Time: K ;
++Sem/Time+Der+Der/MWN+N: N_KUDO ;
+
+
+
+! vim: set ft=xfst-lexc:
+

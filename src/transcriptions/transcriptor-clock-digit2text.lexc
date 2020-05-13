@@ -1,0 +1,341 @@
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or feedback@divvun.no
+
+! ==================== !
+! The Erzya clock !
+! ==================== !
+
+! Note! This is still open to discussion with native speakers.
+
+Multichar_Symbols
+
+@U.TIME.1@ 
+@U.TIME.2@ 
+@U.TIME.3@ 
+@U.TIME.4@ 
+@U.TIME.5@ 
+@U.TIME.6@ 
+@U.TIME.7@ 
+@U.TIME.8@ 
+@U.TIME.9@ 
+@U.TIME.10@ 
+@U.TIME.11@ 
+@U.TIME.12@ 
+
+@D.TIME.1@
+
++Use/NG
++Use/NA
+
+LEXICON Root
+
+BEFORE ; ! 31-59
+!HALF ;
+REST ; ! 1-30
+
+LEXICON BEFORE
+:%0 beforesmallhours ;
+:+Use/NG beforesmallhours ;
+beforelargehours ;
+ 
+LEXICON beforesmallhours
+1@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !01:31 - 01:59
+2@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !02:31 - 02:59
+3@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !03:31 - 03:59
+4@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !04:31 - 04:59
+5@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !05:31 - 05:59
+6@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !06:31 - 06:59
+7@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !07:31 - 07:59
+8@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !08:31 - 08:59
+9@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !09:31 - 09:59
+
+LEXICON beforelargehours
+1%0@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !10:31 - 10:59
+11@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !11:29 - 11:59
+12@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !12:29 - 12:59
+13@U.TIME.2@:@U.TIME.2@ BEFpunkt ; !13:29 - 13:59
+14@U.TIME.3@:@U.TIME.3@ BEFpunkt ; !14:29 - 14:59
+15@U.TIME.4@:@U.TIME.4@ BEFpunkt ; !15:29 - 15:59
+16@U.TIME.5@:@U.TIME.5@ BEFpunkt ; !16:29 - 16:59
+17@U.TIME.6@:@U.TIME.6@ BEFpunkt ; !17:29 - 17:59
+18@U.TIME.7@:@U.TIME.7@ BEFpunkt ; !18:29 - 18:59
+19@U.TIME.8@:@U.TIME.8@ BEFpunkt ; !19:31 - 19:59
+2%0@U.TIME.9@:@U.TIME.9@ BEFpunkt ; !20:31 - 20:59
+21@U.TIME.10@:@U.TIME.10@ BEFpunkt ; !21:31 - 21:59
+22@U.TIME.11@:@U.TIME.11@ BEFpunkt ; !22:29 - 22:59
+23@U.TIME.12@:@U.TIME.12@ BEFpunkt ; !23:29 - 23:59
+%0%0@U.TIME.1@:@U.TIME.1@ BEFpunkt ; !00:29 - 00:59
+
+LEXICON REST
+1@U.TIME.1@:вейке+Use/NG@U.TIME.1@ AFTpunkt ;
+2@U.TIME.2@:кавто+Use/NG@U.TIME.2@ AFTpunkt-PL ;
+3@U.TIME.3@:колмо+Use/NG@U.TIME.3@ AFTpunkt-PL ;
+4@U.TIME.4@:ниле+Use/NG@U.TIME.4@ AFTpunkt-PL ;
+5@U.TIME.5@:вете+Use/NG@U.TIME.5@ AFTpunkt-PL ;
+6@U.TIME.6@:кото+Use/NG@U.TIME.6@ AFTpunkt-PL ;
+7@U.TIME.7@:сисем+Use/NG@U.TIME.7@ AFTpunkt-PL ;
+8@U.TIME.8@:кавксо+Use/NG@U.TIME.8@ AFTpunkt-PL ;
+9@U.TIME.9@:вейксэ+Use/NG@U.TIME.9@ AFTpunkt-PL ;
+
+%01@U.TIME.1@:вейке@U.TIME.1@ AFTpunkt ;
+%02@U.TIME.2@:кавто@U.TIME.2@ AFTpunkt-PL ;
+%03@U.TIME.3@:колмо@U.TIME.3@ AFTpunkt-PL ;
+%04@U.TIME.4@:ниле@U.TIME.4@ AFTpunkt-PL ;
+%05@U.TIME.5@:вете@U.TIME.5@ AFTpunkt-PL ;
+%06@U.TIME.6@:кото@U.TIME.6@ AFTpunkt-PL ;
+%07@U.TIME.7@:сисем@U.TIME.7@ AFTpunkt-PL ;
+%08@U.TIME.8@:кавксо@U.TIME.8@ AFTpunkt-PL ;
+%09@U.TIME.9@:вейксэ@U.TIME.9@ AFTpunkt-PL ;
+1%0@U.TIME.10@:кемень@U.TIME.10@ AFTpunkt ;
+11@U.TIME.11@:кевейкее@U.TIME.11@ AFTpunkt ;
+12@U.TIME.12@:кемгавтово@U.TIME.12@ AFTpunkt ;
+
+13@U.TIME.1@:вейке@U.TIME.1@ AFTpunkt ;
+14@U.TIME.2@:кавто@U.TIME.2@ AFTpunkt-PL ;
+15@U.TIME.3@:колмо@U.TIME.3@ AFTpunkt-PL ;
+16@U.TIME.4@:ниле@U.TIME.4@ AFTpunkt-PL ;
+17@U.TIME.5@:вете@U.TIME.5@ AFTpunkt-PL ;
+18@U.TIME.6@:кото@U.TIME.6@ AFTpunkt-PL ;
+19@U.TIME.7@:сисем@U.TIME.7@ AFTpunkt-PL ;
+2%0@U.TIME.8@:кавксо@U.TIME.8@ AFTpunkt-PL ;
+21@U.TIME.9@:вейксэ@U.TIME.9@ AFTpunkt-PL ;
+22@U.TIME.10@:кемень@U.TIME.10@ AFTpunkt ;
+23@U.TIME.11@:кевейкее@U.TIME.11@ AFTpunkt ;
+%0%0@U.TIME.12@:кемгавтово@U.TIME.12@ AFTpunkt ;
+%0%0@U.TIME.12@:пеле% ве@U.TIME.12@ # ;
+
+
+!@U.TIME.1@:%01@U.TIME.1@ AFTpunkt ; !01:00 - 01:29
+!@U.TIME.2@:%02@U.TIME.2@ AFTpunkt ; !02:00 - 02:29
+!@U.TIME.3@:%03@U.TIME.3@ AFTpunkt ; !03:00 - 03:29
+!@U.TIME.4@:%04@U.TIME.4@ AFTpunkt ; !04:00 - 04:29
+!@U.TIME.5@:%05@U.TIME.5@ AFTpunkt ; !05:00 - 05:29
+!@U.TIME.6@:%06@U.TIME.6@ AFTpunkt ; !06:00 - 06:29
+!@U.TIME.7@:%07@U.TIME.7@ AFTpunkt ; !07:00 - 07:29
+!@U.TIME.8@:%08@U.TIME.8@ AFTpunkt ; !08:00 - 08:29
+!@U.TIME.9@:%09@U.TIME.9@ AFTpunkt ; !09:00 - 09:29
+!@U.TIME.10@:1%0@U.TIME.10@ AFTpunkt ; !10:00 - 10:29
+!@U.TIME.11@:11@U.TIME.11@ AFTpunkt ; !11:00 - 11:59
+!@U.TIME.12@:12@U.TIME.12@ AFTpunkt ; !12:00 - 12:29
+!@U.TIME.1@:13@U.TIME.1@ AFTpunkt ; !13:00 - 13:29
+!@U.TIME.2@:14@U.TIME.2@ AFTpunkt ; !14:00 - 114:29
+!@U.TIME.3@:15@U.TIME.3@ AFTpunkt ; !15:00 - 15:29
+!@U.TIME.4@:16@U.TIME.4@ AFTpunkt ; !16:00 - 16:29
+!@U.TIME.5@:17@U.TIME.5@ AFTpunkt ; !17:00 - 17:29
+!@U.TIME.6@:18@U.TIME.6@ AFTpunkt ; !18:00 - 18:29
+!@U.TIME.7@:19@U.TIME.7@ AFTpunkt ; !19:00 - 19:29
+!@U.TIME.8@:2%0@U.TIME.8@ AFTpunkt ; !20:00 - 20:29
+!@U.TIME.9@:21@U.TIME.9@ AFTpunkt ; !21:00 - 21:29
+!@U.TIME.10@:22@U.TIME.10@ AFTpunkt ; !22:00 - 22:29
+!@U.TIME.11@:23@U.TIME.11@ AFTpunkt ; !23:00 - 23:29
+!@U.TIME.12@:%0%0@U.TIME.12@ AFTpunkt ; !00:00 - 00:29
+!:24%:%0%0 # ; !24:00
+
+LEXICON BEFpunkt
+%::+Use/NA BEF ;
+%.:+Use/NA BEF ;
+
+LEXICON AFTpunkt
+%::+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% час%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% част+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% цяс+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% цяст+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%.:+Use/NG%  AFT ; ! 2.00 = göökte
+:+Use/NG%  HOUR ; ! 2 = göökte
+@D.TIME.1@ AFTpunkt-PL ;
+
+LEXICON AFTpunkt-PL
+%::% част%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% час+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% цяст+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+%::% цяс+Use/NG%  H-MAFT_minutes ; ! 2:00 = göökte
+
+!!This deals with 1:01 - 1:24 
+!LEXICON H-MAFT_hours
+!вейке% цяс% @U.TIME.1@:@U.TIME.1@ H-MAFT_minutes ;
+!вейке% час+Use/NG% @U.TIME.1@:@U.TIME.1@ H-MAFT_minutes ;
+!кавто% цяст% @U.TIME.2@:@U.TIME.2@ H-MAFT_minutes ;
+!кавто% част+Use/NG% @U.TIME.2@:@U.TIME.2@ H-MAFT_minutes ;
+!колмо% цяст% @U.TIME.3@:@U.TIME.3@ H-MAFT_minutes ;
+!колмо% част+Use/NG% @U.TIME.3@:@U.TIME.3@ H-MAFT_minutes ;
+!ниле% цяст% @U.TIME.4@:@U.TIME.4@ H-MAFT_minutes ;
+!ниле% част+Use/NG% @U.TIME.4@:@U.TIME.4@ H-MAFT_minutes ;
+!вете% цяст% @U.TIME.5@:@U.TIME.5@ H-MAFT_minutes ;
+!вете% част+Use/NG% @U.TIME.5@:@U.TIME.5@ H-MAFT_minutes ;
+!кото% цяст% @U.TIME.6@:@U.TIME.6@ H-MAFT_minutes ;
+!кото% част+Use/NG% @U.TIME.6@:@U.TIME.6@ H-MAFT_minutes ;
+!сисем% цяст% @U.TIME.7@:@U.TIME.7@ H-MAFT_minutes ;
+!сисем% част+Use/NG% @U.TIME.7@:@U.TIME.7@ H-MAFT_minutes ;
+!кавксо% цяст% @U.TIME.8@:@U.TIME.8@ H-MAFT_minutes ;
+!кавксо% част+Use/NG% @U.TIME.8@:@U.TIME.8@ H-MAFT_minutes ;
+!вейксэ% цяст% @U.TIME.9@:@U.TIME.9@ H-MAFT_minutes ;
+!вейксэ% част+Use/NG% @U.TIME.9@:@U.TIME.9@ H-MAFT_minutes ;
+!кемень% цяст% @U.TIME.1%0@:@U.TIME.10@ H-MAFT_minutes ;
+!кемень% част+Use/NG% @U.TIME.1%0@:@U.TIME.10@ H-MAFT_minutes ;
+!кевейкее% част+Use/NG% @U.TIME.11@:@U.TIME.11@ H-MAFT_minutes ;
+!кевейкее% цяст% @U.TIME.11@:@U.TIME.11@ H-MAFT_minutes ;
+!кемгавтово% част+Use/NG% @U.TIME.12@:@U.TIME.12@ H-MAFT_minutes ;
+!кевейкее% цяст% @U.TIME.11@:@U.TIME.11@ H-MAFT_minutes ;
+
+LEXICON H-MAFT_minutes
+%0%0: # ;
+%01:вейке% минута%  # ;
+%02:кавто%    ANDMINUTES ;
+%03:колмо%    ANDMINUTES ;
+%04:ниле%    ANDMINUTES ;
+%05:вете%    ANDMINUTES ;
+%06:кото%    ANDMINUTES ;
+%07:сисем%    ANDMINUTES ;
+%08:кавксо%    ANDMINUTES ;
+%09:вейксэ%    ANDMINUTES ;
+1%0:кемень%    ANDMINUTES ;
+11:кевейкее%    ANDMINUTES ;
+12:кемгавтово%    ANDMINUTES ;
+13:кемголмово%    ANDMINUTES ;
+14:кемнилее%    ANDMINUTES ;
+15:кеветее%    ANDMINUTES ; 
+16:кемготово%    ANDMINUTES ;
+17:кемзисемге%    ANDMINUTES ;
+18:кемгавксово%    ANDMINUTES ;
+19:кевейксэе%    ANDMINUTES ;
+2%0:комсь%    ANDMINUTES ;
+21:комсьвейкее%    ANDMINUTES ;
+22:комськавтово%    ANDMINUTES ;
+23:комськолмово%    ANDMINUTES ;
+24:комсьнилее%    ANDMINUTES ;
+25:комсьветее%    ANDMINUTES ;
+26:комськотово%    ANDMINUTES ;
+27:комсьсисемге%    ANDMINUTES ;
+28:комськавксово%    ANDMINUTES ;
+29:комсьвейксэе%    ANDMINUTES ;
+3%0:колоньгемень%    ANDMINUTES ;
+31:колоньгемень% вейке%    ANDMINUTES ;
+32:колоньгемень% кавто%    ANDMINUTES ;
+33:колоньгемень% колмо%    ANDMINUTES ;
+34:колоньгемень% ниле%    ANDMINUTES ;
+35:колоньгемень% вете%    ANDMINUTES ;
+36:колоньгемень% кото%    ANDMINUTES ;
+37:колоньгемень% сисем%    ANDMINUTES ;
+38:колоньгемень% кавксо%    ANDMINUTES ; 
+39:колоньгемень% вейксэ%    ANDMINUTES ;
+4%0:ниленьгемень%    ANDMINUTES ;
+41:ниленьгемень% вейке%    ANDMINUTES ;
+42:ниленьгемень% кавто%    ANDMINUTES ;
+43:ниленьгемень% колмо%    ANDMINUTES ;
+44:ниленьгемень% ниле%    ANDMINUTES ;
+45:ниленьгемень% вете%    ANDMINUTES ;
+46:ниленьгемень% кото%    ANDMINUTES ;
+47:ниленьгемень% сисем%    ANDMINUTES ;
+48:ниленьгемень% кавксо%    ANDMINUTES ;
+49:ниленьгемень% вейксэ%    ANDMINUTES ;
+5%0:ведьгемень%    ANDMINUTES ;
+51:ведьгемень% вейке%    ANDMINUTES ;
+52:ведьгемень% кавто%    ANDMINUTES ;
+53:ведьгемень% колмо%    ANDMINUTES ;
+54:ведьгемень% ниле%    ANDMINUTES ;
+55:ведьгемень% вете%    ANDMINUTES ; 
+56:ведьгемень% кото%    ANDMINUTES ;
+57:ведьгемень% сисем%    ANDMINUTES ;
+58:ведьгемень% кавксо%    ANDMINUTES ; 
+59:ведьгемень% вейксэ%    ANDMINUTES ;
+
+LEXICON ANDMINUTES
+:минутат # ;
+
+LEXICON BEF
+3%0:пель%  HOUR ;
+31:комсьвейксэе%    TO ;
+32:комськавксово%    TO ;
+33:комсьсисемге%    TO ;
+34:комськотово%    TO ;
+35:комсьветее%    TO ;
+36:комсьнилее%    TO ;
+37:комськолмово%    TO ;
+38:комськавтово%    TO ; 
+39:комсьвейкее%    TO ;
+4%0:комсь%    TO ;
+41:кевейксэе%    TO ;
+42:кемгавксово%    TO ;
+43:кемзисемге%    TO ;
+44:кемготово%    TO ;
+45:кеветее%    TO ;
+46:кемнилее%    TO ;
+47:кемголмово%    TO ;
+48:кемгавтово%    TO ;
+49:кевейкее%    TO ;
+5%0:кемень%    TO ;
+51:вейксэ%    TO ;
+52:кавксо%    TO ;
+53:сисем%    TO ;
+54:кото%    TO ;
+55:вете%    TO ; 
+56:ниле%    TO ;
+57:колмо%    TO ;
+58:кавто%    TO ; 
+59:вейке%    TO ;
+
+LEXICON AFT
+%01:вейке%   ANDMINUTES_first ;
+%02:кавто%   ANDMINUTES_first ;
+%03:колмо%   ANDMINUTES_first ;
+%04:ниле%   ANDMINUTES_first ;
+%05:вете%   ANDMINUTES_first ;
+%06:кото%   ANDMINUTES_first ;
+%07:сисем%   ANDMINUTES_first ;
+%08:кавксо%   ANDMINUTES_first ;
+%09:вейксэ%   ANDMINUTES_first ;
+1%0:кемень%  ANDMINUTES_first ;
+11:кевейкее%   ANDMINUTES_first ;
+12:кемгавтово%   ANDMINUTES_first ;
+13:кемголмово%   ANDMINUTES_first ;
+14:кемнилее%   ANDMINUTES_first ;
+15:кеветее%   ANDMINUTES_first ; 
+16:кемготово%   ANDMINUTES_first ;
+17:кемзисемге%   ANDMINUTES_first ;
+18:кемгавксово%   ANDMINUTES_first ;
+19:кевейксэе%   ANDMINUTES_first ;
+2%0:комсь%   ANDMINUTES_first ;
+21:комсьвейкее%   ANDMINUTES_first ;
+22:комськавтово%   ANDMINUTES_first ;
+23:комськолмово%   ANDMINUTES_first ;
+24:комсьнилее%   ANDMINUTES_first ;
+25:комсьветее%   ANDMINUTES_first ;
+26:комськотово%   ANDMINUTES_first ;
+27:комсьсисемге%   ANDMINUTES_first ;
+28:комськавксово%  ANDMINUTES_first ;
+29:комсьвейксэе%  ANDMINUTES_first ;
+
+LEXICON ANDMINUTES_first
+:минута% марто+Use/NG%  HOUR ;
+
+LEXICON TOHALF
+:минутавтомо% пель%  HOUR ;
+
+LEXICON TO
+:минутавтомо%   HOUR ; ! variant
+
+LEXICON HOUR
+@U.TIME.1@:вейке@U.TIME.1@  #  ;
+@U.TIME.2@:кавто@U.TIME.2@  #  ;
+@U.TIME.3@:колмо@U.TIME.3@  #  ;
+@U.TIME.4@:ниле@U.TIME.4@  #  ;
+@U.TIME.5@:вете@U.TIME.5@  #  ;
+@U.TIME.6@:кото@U.TIME.6@  #  ;
+@U.TIME.7@:сисем@U.TIME.7@  #  ;
+@U.TIME.8@:кавксо@U.TIME.8@  #  ;
+@U.TIME.9@:вейксэ@U.TIME.9@  #  ;
+@U.TIME.10@:кемень@U.TIME.10@  #  ;
+@U.TIME.11@:кевейкее@U.TIME.11@  #  ;
+@U.TIME.12@:кемгавтово@U.TIME.12@  #  ;

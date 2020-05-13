@@ -1,0 +1,404 @@
+!! Proper noun inflection
+
+!! Erzya proper nouns inflect in the same cases as regular
+!! nouns.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!! Male given name for deriving patronyms 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PropNameMaleDer-J-0Evich
+!! Андрей:Андре
++Orth/Colloq:ич PROP_OSH_PATRMAL ;
+:евич PROP_OSH_PATRMAL ;
+:евна PROP_KUDO_PATRFEM ;
+:й PROP_KAL_MAL ;
+
+LEXICON PropNameMaleDer-IJ-Y0Evich
++Orth/Colloq:ьич PROP_OSH_PATRMAL ;
+:ьевич PROP_OSH_PATRMAL ;
+:ьевна PROP_KUDO_PATRFEM ;
+:ий PROP_KAL_MAL ;
+
+LEXICON PropNameMaleDer-IJ-I0Evich
++Orth/Colloq:ьич PROP_OSH_PATRMAL ;
+:иевич PROP_OSH_PATRMAL ;
+:иевна PROP_KUDO_PATRFEM ;
+:ий PROP_KAL_MAL ;
+
+LEXICON PropNameMaleDer-Y-0Evich
++Orth/Colloq:ич PROP_OSH_PATRMAL ;
+:евич PROP_OSH_PATRMAL ;
+:евна PROP_KUDO_PATRFEM ;
+:ь PROP_KAL_MAL ;
+
+LEXICON PropNameMaleDer-I-YEvich
+!! Вили:Вил
++Orth/Colloq:ич PROP_OSH_PATRMAL ;
+:ьевич PROP_OSH_PATRMAL ;
+:ьевна PROP_KUDO_PATRFEM ;
+:и PROP_KAL_MAL ;
+
+
+LEXICON PropNameMaleDer-Ovich
++Orth/Colloq:ыч PROP_OSH_PATRMAL ;
+:ович PROP_OSH_PATRMAL ;
+:овна PROP_KUDO_PATRFEM ;
+ PROP_KAL_MAL ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Russian type Surnames 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Deriv-RUS-V_SURMAL
+!! Абдеев:Абдеев
+: PROP_KAL_SURMAL ;
+:а PROP_KUDO_SURFEM ;
+
+LEXICON Deriv-RUS-IJ_SURMAL
+!! Багрий:Багр
+:ий PROP_KAL_SURMAL ;
+:яя PROP_KUDO_SURFEM ;
+
+LEXICON Deriv-RUS-KIJ_SURMAL
+!! Аморский:Аморск
+:ий PROP_KAL_SURMAL ;
+:ая PROP_KUDO_SURFEM ;
+
+LEXICON Deriv-RUS-OJ_SURMAL
+:ой PROP_KAL_SURMAL ;
+:ая PROP_KUDO_SURFEM ;
+
+LEXICON Deriv-RUS-YJ_SURMAL
+:ый PROP_KAL_SURMAL ;
+:ая PROP_KUDO_SURFEM ;
+
+LEXICON Deriv-RUS-AN_SURMAL
+ Deriv-RUS-V_SURMAL ;
+
+LEXICON Deriv-RUS-IN_SURMAL
+ Deriv-RUS-V_SURMAL ;
+
+
+LEXICON PROP_KAL_SURMAL
++Sem/Mal-Sur: N_KAL-Derivation ;
++Sem/Mal-Sur: N_KAL-Def-Declension ;
++Sem/Mal-Sur: _KAL-Indef-Declension ;
++Sem/Mal-Sur: N_KAL-Poss-Declension-CX ;
+
+LEXICON PROP_KUDO_SURFEM
++Sem/Fem-Sur: N_KUDO-Derivation ;
++Sem/Fem-Sur: NMN_DEF-DECLENSION ;
++Sem/Fem-Sur: _KUDO-Indef-Declension ;
++Sem/Fem-Sur: N_KUDO-Poss-Declension-CX ;
+
+LEXICON CYRL-CONS_SUR
+ PROP_KAL_SUR ;
+
+LEXICON PROP_KAL_SUR
++Sem/Sur: N_KAL-Derivation ;
++Sem/Sur: N_KAL-Def-Declension ;
++Sem/Sur: _KAL-Indef-Declension ;
++Sem/Sur: N_KAL-Poss-Declension-CX ;
+
+
+LEXICON CYRL-T_SUR
+ PROP_KIT_SUR ;
+
+LEXICON PROP_KIT_SUR
+ PROP_KAL_SUR ;
+
+LEXICON CYRL-L_SUR
+ PROP_KAL_SUR ;
+
+LEXICON CYRL-K_SUR
+ PROP_LAK_SUR ;
+
+LEXICON PROP_LAK_SUR
+ PROP_KAL_SUR ;
+
+LEXICON CYRL-SIBILANT_SUR
+ PROP_OSH_SUR ;
+
+LEXICON PROP_OSH_SUR
++Sem/Sur: NMN_OSH ;
+
+LEXICON CYRL-VOW_SUR
+ PROP_KUDO_SUR ;
+
+LEXICON CYRL-A_SUR
+ PROP_KUDO_SUR ;
+
+LEXICON PROP_KUDO_SUR
++Sem/Sur: NMN_KUDO ;
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Erzya Homestead names !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PROP_KAL_HOMESTEAD
+: NMN_KAL ;
+
+LEXICON PROP_OSH_HOMESTEAD
+: NMN_OSH ;
+
+LEXICON PROP_KUDO_HOMESTEAD
+: NMN_KUDO ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! PLACE NAMES FROM TEMPLATES !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PROP-PLC_KAL
+:%>%{оеэØ%} LAT-INDEF ;
+: NMN_KAL ;
+
+LEXICON PROP-PLC_KIT
+:%>%{оеэØ%} LAT-INDEF ;
+: NMN_KIT ;
+
+!LEXICON PROP-PLC_OSH
+!:%>%{оеэØ%} LAT-INDEF ;
+!: NMN_OSH ;
+
+LEXICON PROP-PLC_KUDO
+:%> LAT-INDEF ;
+: NMN_KUDO ;
+
+!!!!!!!!!!!!!!!!!!!!!!!
+!! Erzya settlements !!
+!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON PROP-SETTLEMENT_KAL
+@U.DECL-NX.SP@:@U.DECL-NX.SP@ LAT-INDEF ;
+!:%>%{оеэØ%} LAT-INDEF ;
+: NMN_KAL ;
+
+LEXICON PROP-SETTLEMENT_KIT
+@U.DECL-NX.SP@:@U.DECL-NX.SP@ LAT-INDEF ;
+: NMN_KIT ;
+
+LEXICON PROP-SETTLEMENT_OSH
+@U.DECL-NX.SP@:@U.DECL-NX.SP@ LAT-INDEF ;
+: NMN_OSH ;
+
+LEXICON PROP-SETTLEMENT_PANGO
+@U.DECL-NX.SP@:@U.DECL-NX.SP@ LAT-INDEF ;
+: NMN_PANGO ;
+
+LEXICON PROP-SETTLEMENT_KUDO
+@U.DECL-NX.SP@:@U.DECL-NX.SP@ LAT-INDEF ;
+: NMN_KUDO ;
+
+!!!!!!!!!!!!!!!!
+!! Divinities !!
+!!!!!!!!!!!!!!!!
+LEXICON PROP_KAL_DIVINITY
+: NMN_KAL ;
+
+LEXICON PROP_OSH_DIVINITY
+: NMN_OSH ;
+
+LEXICON PROP_PANGO_DIVINITY
+: NMN_PANGO ;
+
+LEXICON PROP_KUDO_DIVINITY
+: NMN_KUDO ;
+
+!!!!!!!!!!!!!!!!!!!!
+!! Constellations !!
+!!!!!!!!!!!!!!!!!!!!
+LEXICON PROP_KAL_CONSTELLATION
++Sem/Constellation: NMN_KAL ;
+
+LEXICON PROP_OSH_CONSTELLATION
++Sem/Constellation: NMN_OSH ;
+
+!LEXICON PROP_OSH-PL_CONSTELLATION
+!+Sem/Constellation+Pl: NMN_OSH-PL ;
+
+!LEXICON PROP_PANGO_CONSTELLATION
+!+Sem/Constellation: NMN_PANGO ;
+
+LEXICON PROP_KUDO_CONSTELLATION
++Sem/Constellation: NMN_KUDO ;
+
+LEXICON PROP_KUDO-PL_CONSTELLATION
++Sem/Constellation+Pl: NMN_KUDO-PL ; 
+
+LEXICON PROP_TESHTE_CONSTELLATION
++Sem/Constellation: NMN_TESHTE ;
+
+
+!!!!!!!!!!!!!!!!
+!! TEXT NAMES !!
+!!!!!!!!!!!!!!!!
+!LEXICON PROP_KAL_TXT
+!+Sem/Txt: NMN_KAL ;
+
+!LEXICON PROP_OSH_TXT
+!+Sem/Txt: NMN_OSH ;
+
+!LEXICON PROP_KUDO_TXT
+!+Sem/Txt: NMN_KUDO ;
+
+!!!!!!!!!!!!!!
+!! HOLIDAYS !!
+!!!!!!!!!!!!!!
+!LEXICON PROP_KAL_HOLIDAY
+!+Event: NMN_KAL ;
+
+LEXICON PROP_OSH_HOLIDAY
++Event: NMN_OSH ;
+
+LEXICON PROP_KUDO_HOLIDAY
++Event: NMN_KUDO ;
+
+
+!!!!!!!!!!!!!!!!!
+!! RIVER NAMES !!
+!!!!!!!!!!!!!!!!!
+LEXICON PROP_KAL_RIVERS
++Rvr: NMN_KAL ;
+
+!LEXICON PROP_OSH_RIVERS
+!+Rvr: NMN_OSH ;
+
+LEXICON PROP_KUDO_RIVERS
++Rvr: NMN_KUDO ;
+
+
+LEXICON PROP_KAL
+: NMN_KAL ;
+
+LEXICON PROP_LAK
+: NMN_LAK ;
+
+LEXICON PROP_KIT
+: N_KIT-Derivation ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+: N_KIT-Def-Declension ;
+: _KIT-Indef-Declension ;
+: N_KAL-Poss-Declension-CX ;
+
+LEXICON PROP_OSH
+: N_OSH-Derivation ;
+: N_OSH-Def-Declension ;
+: _OSH-Indef-Declension ;
+: N_OSH-Poss-Declension-CX ;
+
+!LEXICON PROP_TESHTE
+! N_PANGO ;
+
+!LEXICON PROP_TINGE
+! N_PANGO ;
+
+LEXICON PROP_PANGO
+: N_PANGO-Derivation ;
+: N_PANGO-Def-Declension ;
+: _PANGO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
+
+LEXICON PROP_VELE_IS-NE-DIM
++Der+Der/NJE+Dimin+N+Prop: NMN_DEF-DECLENSION ;
++Der+Der/NJE+Dimin+N+Prop: _KUDO-Indef-Declension ;
++Der+Der/NJE+Dimin+N+Prop: N_KUDO-Poss-Declension-CX ;
+ 
+LEXICON PROP_VELE
+!! Front-vowel stem
+: N_KUDO-Derivation ;
+: NMN_DEF-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
+
+LEXICON PROP_KUDO
+: N_KUDO-Derivation ;
+: NMN_DEF-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
+
+
+LEXICON PROP_KAL_MAL
++Sem/Mal: NMN_KAL ;
+
+LEXICON PROP_LAK_MAL
++Sem/Mal: NMN_LAK ;
+
+LEXICON PROP_KIT_MAL
++Sem/Mal: NMN_KIT ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+
+LEXICON PROP_OSH_MAL
++Sem/Mal: NMN_OSH ;
+
+!LEXICON PROP_TESHTE_MAL
+! PROP_PANGO_MAL ;
+
+!LEXICON PROP_TINGE_MAL
+! PROP_PANGO_MAL ;
+
+!LEXICON PROP_PANGO_MAL
+!+Sem/Mal: NMN_PANGO ;
+
+LEXICON PROP_KUDO_MAL
++Sem/Mal: NMN_KUDO ;
+
+LEXICON PROP_KAL_FEM
++Sem/Fem: NMN_KAL ;
+
+!LEXICON PROP_LAK_FEM
+!+Sem/Fem: NMN_LAK ;
+
+LEXICON PROP_KIT_FEM
++Sem/Fem: NMN_KIT ;
++Sem/Fem+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+
+LEXICON PROP_OSH_FEM
++Sem/Fem: NMN_OSH ;
+
+!LEXICON PROP_TESHTE_FEM
+! PROP_PANGO_FEM ;
+
+!LEXICON PROP_TINGE_FEM
+! PROP_PANGO_FEM ;
+
+!LEXICON PROP_PANGO_FEM
+!+Sem/Fem: NMN_PANGO ;
+
+LEXICON PROP_KUDO_FEM
++Sem/Fem: NMN_KUDO ;
+
+
+LEXICON PROP_OSH_PATRMAL
++Sem/Mal-Patr: N_OSH-Derivation ;
++Sem/Mal-Patr: N_OSH-Def-Declension ;
++Sem/Mal-Patr: _OSH-Indef-Declension ;
++Sem/Mal-Patr: N_OSH-Poss-Declension-CX ;
+
+LEXICON PROP_KUDO_PATRFEM
++Sem/Fem-Patr: N_KUDO-Derivation ;
++Sem/Fem-Patr: NMN_DEF-DECLENSION ;
++Sem/Fem-Patr: _KUDO-Indef-Declension ;
++Sem/Fem-Patr: N_KUDO-Poss-Declension-CX ;
+
+LEXICON PROP_NIZE
++Sg+Nom+PxSg3:%>зэ K ;
++Sg+Gen+PxSg3:%>нзэ K ;
++Sg+Dat+PxSg3:%>нстэнь K ;
++Sg+Nom+Def:%>сь K ;
++Sg+Gen+Def:%>нть K ;
++Sg+Dat+Def:%>нтень K ;
+
+!! DECLENSION LIMITATIONS
+
+LEXICON PROP_KUDO-PL
+: NMN_DEF-PL-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX-PL ;
+
+!LEXICON PROP_KUDO_SUB
+!+Use/NG+Err/Orth: PROP_KUDO ;
+
+!LEXICON PROP_KUDO_SH
+!+Use/Short: PROP_KUDO ;
+
+
+! vim: set ft=xfst-lexc:
+

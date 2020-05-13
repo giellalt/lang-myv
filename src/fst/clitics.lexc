@@ -1,0 +1,42 @@
+!! !!!Clitics
+
+!! The Erzya language clitics...
+
+
+! ======= !
+! Clitics !
+! ======= !
+
+LEXICON K-lak
++Use/NG+Err/Orth+Orth/SH+Clt/Add:%>KLossГ1ак ENDLEX ;
+!+Use/NG+Err/Orth+Orth/SH+Clt/AddGak:%>KLossГ1ак ENDLEX ;
+ K ;
+
+LEXICON K
+ FOC-PCLE-OR-NOT ;
+@R.POS.N@  NounEnd ; !2013-04-18
+@R.POS.V@  VerbEnd ; !2013-04-18
+
+LEXICON Ks
+@R.KLOSS.ON@+Use/NG+Err/Orth:@R.KLOSS.ON@%>ак ENDLEX ;
+ FOC-PCLE-OR-NOT ;
+
+
+
+LEXICON FOC-PCLE-OR-NOT
+            ENDLEX ; 
++Clt/Add:%>Г1ак ENDLEX ;
+!+Clt/AddGak:%>Г1ак ENDLEX ;
+
+
+
+!! END 
+
+LEXICON ENDLEX
+ # ;
+
+
+
+
+! vim: set ft=xfst-lexc:
+

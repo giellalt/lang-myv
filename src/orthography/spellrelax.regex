@@ -1,0 +1,111 @@
+# Erzya
+
+а (->) a, # Cyrillic letter, accept Latin look-alike
+А (->) A, # Cyrillic letter, accept Latin look-alike
+е (->) e, # Cyrillic letter, accept Latin look-alike
+Е (->) E, # Cyrillic letter, accept Latin look-alike
+о (->) o, # Cyrillic letter, accept Latin look-alike
+О (->) O, # Cyrillic letter, accept Latin look-alike
+ё (->) е, # Sloppy spelling
+Ё (->) Е, # Sloppy spelling
+и (->) і, # Pre-Soviet spelling
+И (->) І, # Pre-Soviet spelling
+н (->) ҥ, # Pre-Soviet spelling
+Н (->) Ҥ, # Pre-Soviet spelling
+ф (->) ѳ, # Pre-Soviet spelling
+Ф (->) Ѳ, # Pre-Soviet spelling
+е (->) ѣ,
+Е (->) Ѣ,
+й (->) й, # Composed
+Й (->) Й, # Composed
+ш т (->) щ, # Typically ц for phonetic affrication in texts 1930-2000
+н с (->) н ц, # Typically ц for phonetic affrication in texts 1930-2000
+л с (->) л ц, # Typically ц for phonetic affrication in texts 1930-2000
+р с (->) р ц, # Typically ц for phonetic affrication in texts 1930-2000
+т с (->) т ц, # Typically ц for phonetic affrication in texts 1930-2000
+т с (->) ц, # Typically ц for phonetic affrication in texts 1930-2000
+с с (->) с ц, # Typically ц for phonetic affrication in texts 1930-2000
+т т н э (->) т н э, # Typically written with one т in texts 1930-2000
+т т а н (->) т а н, # Ocasionally written with one т in texts 1930-2000
+д т а н (->) т а н, # Ocasionally written with one т in texts 1930-2000
+т т я н (->) т я н, # Ocasionally written with one т in texts 1930-2000
+д т я н (->) т я н, # Ocasionally written with one т in texts 1930-2000
+т т а д (->) т а д, # Ocasionally written with one т in texts 1930-2000
+д т а д (->) т а д, # Ocasionally written with one т in texts 1930-2000
+т т я д (->) т я д, # Ocasionally written with one т in texts 1930-2000
+д т я д (->) т я д, # Ocasionally written with one т in texts 1930-2000
+#
+й т я н (->) й д я н, # Voicing written in texts 1930-2000
+й т я д (->) й д я д, # Voicing written in texts 1930-2000
+н т а н (->) н д а н, # Voicing written in texts 1930-2000
+н т а д (->) н д а д, # Voicing written in texts 1930-2000
+н т я н (->) н д я н, # Voicing written in texts 1930-2000
+н т я д (->) н д я д, # Voicing written in texts 1930-2000
+л т а н (->) л д а н, # Voicing written in texts 1930-2000
+л т а д (->) л д а д, # Voicing written in texts 1930-2000
+л ь т я н (->) л ь д я н, # Voicing written in texts 1930-2000
+л ь т я д (->) л ь д я д, # Voicing written in texts 1930-2000
+# the clitic
+к к а к (->) к а к, # Typically written with one к in texts 1930-2000
+# "е" after ш ж where "о" would be expected
+е р т ё ж о (->) е р т ё ж е, # Typically written with one к in texts 1930-2000
+# but morphological presentation would call for two.
+з ь к с (->) с ь к с, #
+з к с (->) с к с, #
+л г с (->) л к с, #
+л ь г с (->) л ь к с, #
+д т я (->) д ь т я, #
+н д е (->) н ь д е, #
+т д е (->) т ь д е, #
+е р ь г (->) е р г, #
+к с т н (->) к с н, #
+г с т (->) к с т, #
+ш т т (->) ш т, #
+н г т н (->) н к н, #
+т с (->) ц, #
+т н (->) т ь н, #
+ц т н (->) ц н, #
+с н (->) с ь н, #
+н г с (->) н к с, #
+н т е (->) н ь т е, #
+н т ь (->) н ь т ь, #
+р т ь (->) р ь т ь, #
+р с (->) р ь с, #
+н с ь (->) н ь с ь, #
+н с е (->) н ь с и, #
+н с е (->) н с и, #
+д ь с (->) т ь с, #
+з т н (->) с т н, #
+р д (->) р ь д, #
+р н (->) р ь н, #
+р с ь (->) р ь с ь, #
+д ь с (->) ц, #
+д с (->) ц, #
+о м а (->) у м а, #
+е м а (->) и м а, #
+о т а (->) у т а, #
+е т я (->) и т я, #
+ё (->) і о, # 1821
+Ё (->) І о, # 1821
+я (->) і а, # 1821
+Я (->) І а, # 1821
+д (->) д ъ,
+ж (->) ж Ъ,
+к (->) к ъ, 
+л (->) л ъ,
+м (->) м ъ, 
+н (->) н ъ,
+р (->) р ъ,
+с (->) с ъ,
+т (->) т ъ,
+ш (->) ш ъ,
+
+# Morphological spelling of compounds
+ь о (->) ё, #
+ь у (->) ю, #
+ь а (->) я #
+;
+
+# Explanation:
+# lexical side (->) input 
+

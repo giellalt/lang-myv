@@ -1,0 +1,7 @@
+
+! for yaml testing
+make check
+
+
+! For manual testing of yaml
+python3.2 ../../../../../giella-core/scripts/morph-test.py -ci -i -S xerox myv.tests.yaml
