@@ -11,13 +11,17 @@
 
 !! !!KINSHIP 
 
-LEXICON N-KIN_KAL
-@P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KAL ;
- N-KIN ;
+!LEXICON N-KIN_KAL
+!@P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KAL ;
+! N-KIN ;
 
-LEXICON N-KIN_KEL1
-@P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KEL1 ;
- N-KIN ;
+!LEXICON N-KIN_KEL1
+!@P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KEL1 ;
+! N-KIN ;
+
+!LEXICON N-KIN_PEJ
+!@P.POS.N@+Sem/Kin:@P.POS.N@ NMN_PEJ ;
+! N-KIN ;
 
 LEXICON N-KIN_LAK
 @P.POS.N@+Sem/Kin:@P.POS.N@ NMN_LAK ;
@@ -70,6 +74,9 @@ LEXICON N-HUM_KAL
 
 LEXICON N-HUM_KEL1
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KEL1 ;
+
+!LEXICON N-HUM_PEJ
+!@P.POS.N@+Sem/Hum:@P.POS.N@ NMN_PEJ ;
 
 LEXICON N-HUM_LAK
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_LAK ;
@@ -323,6 +330,12 @@ LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
+LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
+! harmony: front
+@P.POS.N@:@P.POS.N@ NMN_PEJ ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+
 LEXICON N_TYL
 ! harmony: front
 @P.POS.N@:@P.POS.N@%{frontHard%} NMN_KAL ;
@@ -351,6 +364,11 @@ LEXICON N_KEL1-PL
 @P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF-PL-DECLENSION ;
 @P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
+
+!LEXICON N_PEJ-PL
+!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF-PL-DECLENSION ;
+!@P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
+!@P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_KAL-PL_SUB
 !+Use/NG+Err/Orth: N_KAL-PL ;
@@ -582,6 +600,9 @@ LEXICON NMN_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
  N_KAL-Def-Declension ;
  _KAL-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
+
+LEXICON NMN_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
+ NMN_KEL1 ;
 
 LEXICON NMN_TEV
  NMN_KAL ;
