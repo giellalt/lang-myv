@@ -98,7 +98,10 @@ LEXICON StateConjugation-kudo
 !LEXICON ABBR-IS_ADV
 !+ABBR: ADVTAG ;
 
-LEXICON Ad-A_ ! degree marking
+LEXICON Ad-A_ ! for deprication
+ ADV-DEG_ ;
+
+LEXICON ADV-DEG_ ! degree marking
 +Deg: ENDLEX ;
 
 LEXICON ADV_ ! 
@@ -215,6 +218,10 @@ LEXICON ADV-IDEOPH-IS-INE !
 
 LEXICON ADV-INDEF_
 +Indef: K ;
+
+LEXICON ADV-IS-INDEF-INE
++Indef+Ine: K ;
+
 LEXICON ADV-INDEF-TEMP_
 +Indef: K ;
 
@@ -235,6 +242,9 @@ LEXICON Adv-Ine !
 
 LEXICON ADV_-TRA ! 
 +Tra: K ;
+
+LEXICON ADV-IS-INDEF-MANNER
++Indef+Manner: K ;
 
 LEXICON MANNER_ ! 
 +Manner: K ;

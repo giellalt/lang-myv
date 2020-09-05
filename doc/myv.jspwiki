@@ -110,6 +110,7 @@ Quantifiers and Numerals are classified under:
  * +Coll collective
  * +Distr Distributive
  * +Ord ordinal + NOrd
+ ;+Exclusive: ськамонзо
 
 !!Nominals are inflected for Number and Case
 !!Number
@@ -221,6 +222,7 @@ Other verb forms are
  * +Err/Orth * Substandard
  * +Err/Sub * Substandard
  * +Err/Orth-no-linking-vowel linking vowel is missing
+ * +Err/Orth-high-linking-vowel linking vowel is high
 
  * +Use/Marg * Marginal
  * +Use/-Spell * Exclude from speller
@@ -689,6 +691,7 @@ And following triggers to control variation
 
  * %{ое%} inflectional suffix protovowel  аволь аволинь
  * %{оеэØ%} Suffix-initial archiphoneme
+ * %{уиыØ%} Suffix-initial archiphoneme in dialect
 
 вт%{оеэ%}мО1 suffix-internal archivowel
  * %{оэØ%}	 inessive, elative; this is the hard/broad s
@@ -1200,6 +1203,7 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 Adjectives and other parts of speech in ERZYA are compared by means of 
 either a particle or ablative case marking on the standard of comparison
+
 
 
 
@@ -1766,7 +1770,6 @@ Nouns1S_A
 
 
 !!POSSESSIVE marking followed by clitics
-
 
 
 
@@ -2757,6 +2760,26 @@ __%{оеэØ%}:о__
 * __ков%{back%}%>%{оеэØ%}з%>%{оеэØ%}тЬ2 __
 * __ков0%>оз%>от __
 
+__%{уиыØ%}:и__
+панемс+V+TV+Inf+Dial/NW: __drive/ajaa__
+* __пань%>%{уиыØ%}мс __
+* __пан0%>имс __
+
+__%{уиыØ%}:ы__
+кев+N+SP+Ill+PxSg2: __rock/kivi__
+* __кӒ4в%{frontSoft%}%>з%>%{уиыØ%}тЬ2 __
+* __кев0%>з%>эть __
+* __кӒ4в%{frontSoft%}%>%{уиыØ%}з%>%{уиыØ%}тЬ2 __
+* __кев0%>из%>ыть __
+
+
+__%{уиыØ%}:у__
+ков+N+SP+Ill+PxSg2: __moon/kuu__
+* __ков%{back%}%>з%>%{уиыØ%}тЬ2 __
+* __ков0%>з%>ут __
+* __ков%{back%}%>%{уиыØ%}з%>%{уиыØ%}тЬ2 __
+* __ков0%>уз%>от __
+
 
 
 
@@ -2937,6 +2960,7 @@ __y:0__
 
 
 __Disallow TLoss after non-t__  
+
 
 __Disallow KLoss after non-k__  
 
