@@ -64,6 +64,11 @@ Alphabet
 %{оеэØ%}:э
 %{оеэØ%}:о
 %{оеэØ%}:0
+! for dialect suffix-initial archivowel
+%{уиыØ%}:у
+%{уиыØ%}:и
+%{уиыØ%}:ы
+%{уиыØ%}:0
 
 ! suffix-internal archivowel
 %{оеэ%}:е	  !! вт%{оеэ%}мО1
@@ -355,7 +360,37 @@ Rules
 !!€ ков%{back%}%>%{оеэØ%}з%>%{оеэØ%}тЬ2
 !!€ ков0%>оз%>от
 
+!Dialect
+"%{уиыØ%}:и"
+!! __@RULENAME@__
+%{уиыØ%}:и <=> LFCS ( %{frontSoft%}: ) %> _  ;
+!! панемс+V+TV+Inf+Dial/NW: __drive/ajaa__
+!!€ пань%>%{уиыØ%}мс
+!!€ пан0%>имс
 
+"%{уиыØ%}:ы"
+!! __@RULENAME@__
+%{уиыØ%}:ы <=> LFCH ( %{frontHard%}: ) %> _ ;
+               LFCS (%{frontSoft%}:) %> з %> _ ;
+!! кев+N+SP+Ill+PxSg2: __rock/kivi__
+!!€ кӒ4в%{frontSoft%}%>з%>%{уиыØ%}тЬ2
+!!€ кев0%>з%>эть
+!!€ кӒ4в%{frontSoft%}%>%{уиыØ%}з%>%{уиыØ%}тЬ2
+!!€ кев0%>из%>ыть
+
+
+"%{уиыØ%}:у"
+!! __@RULENAME@__
+%{уиыØ%}:у <=> BackTriggerContextCns ( %{back%}: | %{backHard%}: )  %> _  ;
+      [:BTV|LBC] (%>) з %> _ [в|з|к|л|м|н|с|т|ш] ;
+!! ков+N+SP+Ill+PxSg2: __moon/kuu__
+!!€ ков%{back%}%>з%>%{уиыØ%}тЬ2
+!!€ ков0%>з%>ут
+!!€ ков%{back%}%>%{уиыØ%}з%>%{уиыØ%}тЬ2
+!!€ ков0%>уз%>от
+
+
+!!!!
 
 "O1:ye"
 О1:е <=>
@@ -696,7 +731,7 @@ Rules
 !!кель+N+Sg+Gen+Def: __language__
 !!€ кель^Ь2ZERO%>енть
 !!€ кел00%>енть
-     CnsDent  _  %> [ А2:я | %{иы%}: | %{оеэØ%}:е | О1:е ];
+     CnsDent  _  %> [ А2:я | %{иы%}: | %{оеэØ%}:е | О1:е | %{уиыØ%}:е ] ;
      CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | К1:т Ь2: | Н1:н | н | д: | ц е: [ # | %- | %> ] | т | с (т) [ ь: | е: ]] ;
 !! меремс+V+Ind+Prt1+ScSg3: __say/sanoa__
 !!€ мерь%>сь
@@ -718,6 +753,9 @@ Rules
 "Disallow TLoss after non-t"
 !! __@RULENAME@__  
 TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %> _ ;
+
+"Disallow {уиыØ} after vowel"
+%{уиыØ%}: /<= [:Vows|Vows:] %> _ ;
 
 "Disallow KLoss after non-k"
 !! __@RULENAME@__  

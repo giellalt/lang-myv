@@ -338,8 +338,8 @@ LIST Der/Y = Der/Y ;
 LIST Der/Yj = Der/Yj ;
 LIST Der/Ycja = Der/Ycja ;
 LIST Der/стО = Der/стО ;
-LIST Der/Ovoms = Der/OvOms ; #Der/ОвОмс 
-LIST Der/OvtOms = Der/Ovtoms ; #Der/ОвтОмс
+LIST Der/OvOms = Der/OvOms ; #Der/ОвОмс 
+LIST Der/OvtOms = Der/OvtOms ; #Der/ОвтОмс
 LIST Der/ОвтОмс = Der/ОвтОмс ;
 LIST Der/Dimin = Der/Dimin ;
 
@@ -437,6 +437,9 @@ SUBSTITUTE (Hom3) (*) TARGET (*) ;
 SUBSTITUTE (Hom4) (*) TARGET (*) ;
 #
 SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
+#
+SUBSTITUTE (IV) (*) TARGET (*) ;
+SUBSTITUTE (TV) (*) TARGET (*) ;
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
@@ -454,6 +457,10 @@ REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
 
 # 
 #REMOVE Der/ОвОмс (0C V) ;
+REMOVE Der/OvOms (0C V) ;
+
+# кортавтома
+REMOVE Der/OvtOms (0C V) ;
 
 # short participles should be written with the following noun? new orthographic practice 1993
 #REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
@@ -594,7 +601,7 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 
 # Verbs
 # Кудонть потс кадовсть ансяк
-REMOVE Der/Ovoms IF (0 V + IV) ;
+REMOVE Der/OvOms IF (0 V + IV) ;
 
 # улить
 REMOVE Prt1 IF (0 ULEMS) ; 

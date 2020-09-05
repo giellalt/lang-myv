@@ -1171,7 +1171,7 @@ LEXICON N_KAL-Def-Declension
  SG-PRL-DEF ;
  SG-ABE-DEF ;
  SG-TRA-DEF ;
-!+Use/NG+Err/Orth+Dial/NW: SG-NOM-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-NOM-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-CMP-DEF_Dial-NW ;
@@ -1371,8 +1371,8 @@ LEXICON SG-ABE-DEF
 LEXICON SG-TRA-DEF
 @U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>%{оеэØ%}кс%>%{оеэØ%}нть K ;
 
-!LEXICON SG-NOM-DEF_Dial-NW
-!@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь K ;
+LEXICON SG-NOM-DEF_Dial-NW
+@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь K ;
 
 LEXICON SG-GEN-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>сть K ;
@@ -1598,6 +1598,7 @@ LEXICON ELA-INDEF
 LEXICON GEN-INDEF
 @U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.CX.GEN@%>%{оеэØ%}нь GEN-INDEF-4-Conjugation ;
 +SP+Gen+Indef:%>%{оеэØ%}н N2Dem-SE ; ! эрзянсенть 2020-06-02
+@U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef+Dial/NW+Err/Orth-high-linking-vowel:@U.DECL-NX.SP@@U.CX.GEN@%>%{уиыØ%}нь GEN-INDEF-4-Conjugation ;
 
 LEXICON ILL-INDEF
 @U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.CX.ILL@%>с K ;
@@ -2110,7 +2111,8 @@ LEXICON _KUDO-Possessive-Before-K
 !LEXICON N-COLL-COM_
 !+Adv+Com: # ;
 
-
+LEXICON N-VOC_J
++Voc:й ENDLEX ;
 
 ! vim: set ft=xfst-lexc:
 
