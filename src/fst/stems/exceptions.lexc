@@ -27,6 +27,8 @@ LEXICON EXCEPTIONS
 а+V:иля VA_ILJA  ;
 
 давай+V+Imprt+ScPl2:давайте ENDLEX ;
+дай+V+Imprt+ScPl2:дайте ENDLEX ;
+айдо+V+Imprt:айдо ENDLEX ;
 
 !! The verb ярсамс has additional irregular forms:
 !! € ярстано
@@ -34,7 +36,10 @@ LEXICON EXCEPTIONS
 ярсамс+V:ярс     IND-PRS-40    ;
 ярсамс+V:ярс     IND-PRS-50    ;
 
-
+!! The verb сеземс
+сеземс+V:сей V-FINITE-FORMS-IN-S ;
+кирваземс+V+Ind+Prt1+ScSg3:кирвайсь K ;
+кирваземс+V+Ind+Prt1+ScPl3:кирвайсть K ;
 манендямс+V:манендя IV_KUNDAMS ;
 чентямс+V:чентя TV_KUNDAMS ;
 
@@ -46,6 +51,23 @@ LEXICON EXCEPTIONS
 
 ломань+N+Pl+Nom+Indef+Use/NG+Err/Orth:ломать K ;
 ломань+N+Use/NG+Err/Orth:лома NMN_DEF-PL-DECLENSION ;
+
+!! Some random Russian elements:
+научно+Adv+Use/SpellNoSugg+OLang/RUS:научно ENDLEX ;
+северо+Adv+Use/SpellNoSugg+OLang/RUS:северо ENDLEX ;
+юго+Adv+Use/SpellNoSugg+OLang/RUS:юго ENDLEX ;
+больше+Adv+Use/SpellNoSugg+OLang/RUS:больше ENDLEX ;
+социалистическо+Adv+Use/SpellNoSugg+OLang/RUS:социалистическо ENDLEX ;
+исследовательско+Adv+Use/SpellNoSugg+OLang/RUS:исследовательско ENDLEX ;
+
+можобуть+Adv:можобуть ADV_ ;
+сняро+Num:сняро NUM-INTERR_ ;
+коть+CS:коть CS_ ;
+ёнце+Det:ёнце DET-DEM_ALCE ;
+диль-диль+Adv:диль-диль ADV-IDEOPH ;
+кулдыр-гув+Adv:кулдыр-гув ADV-IDEOPH ;
+гув-гув+Adv:гув-гув ADV-IDEOPH ;
+сё+Interj:сё INTERJ_ ;
 
 Ерусалим+v2+N+Prop+Sem/Plc:Іерусалим PROP-PLC_KAL "Z" ;
 Вифсфагия+v1+N+Prop+Sem/Plc:Вифсфагия PROP-PLC_KUDO "Z" ;
@@ -167,6 +189,8 @@ LEXICON EXCEPTIONS
 кувтолк-кувтолк+Adv:кувтолк-кувтолк ADV-IDEOPH ;
 кувтёлк-кувтёлк+Adv:кувтёлк-кувтёлк ADV-IDEOPH ;
 цильдёрьк+Adv:цильдёрьк ADV-IDEOPH ;
+лып+Adv:лып ADV-IDEOPH ;
+
 
 
 !! !PRONOUNS
@@ -230,7 +254,8 @@ LEXICON EXCEPTIONS
 !
 
 !! 100 % homographs of Russian words
-вот+Use/SpellNoSugg+Interj+Dem:вот K ;
+вот+v1+Use/SpellNoSugg+Interj+Dem:вот K ;
+вот+v2+Use/SpellNoSugg+Interj+Dem:от K ;
 значит+Use/SpellNoSugg+V+Ind+Prs+ScSg3:значит K ;
 ещё+Adv+Use/NG+Err/Lex:эщо TEMP_ ;
 ещё+Adv+Use/NG+Err/Lex:ещё TEMP_ ;
@@ -239,10 +264,14 @@ LEXICON EXCEPTIONS
 Саранск+N+Prop+Sem/Plc+Use/NG+Err/Lex:Саранск PROP-SETTLEMENT_KAL ;
 стук+Interj:стук INTERJ_ ;
 пфу+Interj:пфу INTERJ_ ;
-можоть+Adv:можоть ADV_ ;
+фу+Interj:фу INTERJ_ ;
+
+можот+v1+Adv:можот ADV_ ;
+можот+v2+Adv:можоть ADV_ ;
 будимкс+CS:будимкс CS_ ;
 ради+Pr:ради PR_ ;
 знай+Adv:знай ADV_ ;
+опять+Adv:опять ADV-TEMP_ ;
 
 ёзнэ+v2+N:ёзны N_KUDO ;
 стирь+N:стирь N_KEL1 ;

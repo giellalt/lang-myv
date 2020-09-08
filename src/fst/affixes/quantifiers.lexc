@@ -230,7 +230,7 @@ LEXICON NUMAPPROX_
 LEXICON ITERAPPROX_
 +Iter+Appr: ENDLEX ;
 
-LEXICON Card-2
+LEXICON NUM-CARD-2
 !+Card+Lat:%>в K ;
 !+Card: ENDLEX ;
 !+Card+Appr:%>шка ENDLEX ;
@@ -274,6 +274,8 @@ LEXICON ITER_
 LEXICON ITER-INDEF
 +Qnt+Mult+Indef: K ;
 
+LEXICON NUM-INTERR_
++Interr: ENDLEX ;
 
 LEXICON ORD_
 +Ord: K ;
@@ -388,55 +390,55 @@ LEXICON Quants3
 
 
 +Sg+Nom+PxSg1:%>м _KAL-Tenses1 ;
-+Sg+Nom+PxSg2:%>тЬ2 _KIT-Tenses1 ;
++Sg+Nom+PxSg2:%>т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Sg+Nom+PxPl1:@P.KLOSS.ON@%>н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Sg+Nom+PxPl2:@P.KLOSS.ON@%>нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Sg+Nom+PxPl3:@P.TLOSS.ON@%>ст _KIT-Tenses1 ;
 +Sg+Nom+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Sg+Nom+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Sg+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Sg+Nom+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Sg+Nom+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Sg+Nom+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
 
-+Pl+Nom+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses1 ;
++Pl+Nom+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses1 ;
 +Pl+Nom+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1 ;
-+Pl+Nom+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses1 ;
++Pl+Nom+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses1 ;
 +Pl+Nom+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Nom+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Pl+Nom+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Pl+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Pl+Nom+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Pl+Nom+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Pl+Nom+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
 +Pl+Nom+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Pl+Nom+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Pl+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Pl+Nom+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Pl+Nom+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Pl+Nom+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
-+Sg+Gen+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses1 ;
++Sg+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses1 ;
 +Sg+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1 ;
-+Sg+Gen+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses1 ;
++Sg+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses1 ;
 +Sg+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Sg+Gen+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Sg+Gen+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Sg+Gen+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Sg+Gen+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Sg+Gen+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
 +Sg+Gen+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Sg+Gen+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Sg+Gen+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Sg+Gen+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Sg+Gen+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Sg+Gen+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
-+Pl+Gen+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses1 ;
++Pl+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses1 ;
 +Pl+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1 ;
-+Pl+Gen+PxSg1:%>%{оеэØ%}нЬ2 _KAL-Tenses1 ;
++Pl+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses1 ;
 +Pl+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Pl+Gen+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Pl+Gen+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Pl+Gen+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Pl+Gen+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Pl+Gen+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
 +Pl+Gen+PxSg1:%>%{оеэØ%}м _KAL-Tenses1 ;
-+Pl+Gen+PxSg2:%>%{оеэØ%}тЬ2 _KIT-Tenses1 ;
++Pl+Gen+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses1 ;
 @P.KLOSS.ON@+Pl+Gen+PxPl1:@P.KLOSS.ON@%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses1 ;
 @P.KLOSS.ON@+Pl+Gen+PxPl2:@P.KLOSS.ON@%>%{оеэØ%}нк _LAK-Tenses1 ;
 @P.TLOSS.ON@+Pl+Gen+PxPl3:@P.TLOSS.ON@%>%{оеэØ%}ст _KIT-Tenses1 ;
@@ -485,8 +487,8 @@ LEXICON Quants3
 +SP+Cmpr:%>%{оеэØ%}шка _KUDO-Possessive-Before-K ;
 +SP+Cmpr+Com:%>%{оеэØ%}шкане _KUDO-Possessive-Before-K ;
 
-+Pl+Nom+Indef:%>VLossтЬ2 _KIT-Tenses1 ;
-+Pl+Nom+Indef:%>NoVLossтЬ2 _KIT-Tenses1 ;
++Pl+Nom+Indef:%>VLossт%{ЬØ%} _KIT-Tenses1 ;
++Pl+Nom+Indef:%>NoVLossт%{ЬØ%} _KIT-Tenses1 ;
  KOLMONST-ELLIPSIS-TYPE ;
 
 !Attributes
@@ -544,7 +546,7 @@ LEXICON Quants3_TLOSS
 !! 2012-08-09
 !LEXICON Attributes1
 ! Attributes2 ;
-!+Pl+Nom+Indef:%>тЬ2  _KIT-Tenses1 ;
+!+Pl+Nom+Indef:%>т%{ЬØ%}  _KIT-Tenses1 ;
 !+Sg+Ela+Indef:%>ст%{оэØ%} Ks ;
 !+Sg+Tra+Indef:%>кс Ks ;
 !+Pl+Ela+Indef:%>ст%{оэØ%} Ks ;
@@ -556,7 +558,7 @@ LEXICON _KUDO-Attributes2
 +Der+Der/MWN+N+Sg+Nom+Def:%>сь _OSH-Tenses1 ;
 +Der+Der/MWN+N+Sg+Gen+Def:%>нть Ks ;
 +Der+Der/MWN+N+Sg+Dat+Def:%>нтень Ks ;
-+Der+Der/MWN+N+Pl+Nom+Indef:%>тЬ2 _KIT-Tenses1 ;
++Der+Der/MWN+N+Pl+Nom+Indef:%>т%{ЬØ%} _KIT-Tenses1 ;
 +Der+Der/MWN+N+Pl+Nom+Def:%>тнЕ3 _KUDO-Tenses1 ;
 +Der+Der/MWN+N+Gen+Indef:%>нь _KAL-Tenses1 ;
 +Der+Der/MWN+N+Sg+Prl+Def:%>Г2а%>нть Ks ;

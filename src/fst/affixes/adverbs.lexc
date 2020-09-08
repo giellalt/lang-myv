@@ -89,7 +89,7 @@ LEXICON StateConjugation-kudo
 
 +Ind+Prs+ScPl1:тА2но K ;
 +Ind+Prs+ScPl2:тА2до K ;
-+Ind+Prs+ScPl3:тЬ2 K ;
++Ind+Prs+ScPl3:т%{ЬØ%} K ;
 +Ind+Prt2+ScPl1:линек K-lak ;
 +Ind+Prt2+ScPl2:лиде K ;
 +Ind+Prt2+ScPl3:льть K ;
@@ -182,14 +182,11 @@ LEXICON ADV-SPAT_ALO !!= @CODE@ ало:ал
 
 LEXICON ADV-SPAT_karsho
 +Spat: K ;
-+Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
-+Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Spat: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+Spat+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON ADV-INE_KISE2
 +Ine: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
-
-LEXICON PO-SPAT_karsho
-+Adp+Spat: K ;
 
 
 !LEXICON ADV/PO/PRON-SPAT_
