@@ -504,7 +504,7 @@ LEXICON N_TESHTE
 @P.POS.N@:@P.POS.N@%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
 @P.POS.N@+Use/NG:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_TINGE-LONG-FORMS ;
 @P.POS.N@:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
-!@P.POS.N@:@P.POS.N@ NMN_TESHTE ;
+@P.POS.N@:@P.POS.N@ NMN_TESHTE ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%^Ь2ZEROи%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
@@ -694,19 +694,20 @@ NMN_DEF-PL-DECLENSION ;
 
 LEXICON NMN_TINGE-LONG-FORMS
  N_KUDO-Derivation ;
- SG-ELA-DEF ;
- SG-INE-DEF ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
 NMN_DEF-PL-DECLENSION ;
  PL-NOM-INDEF ;
- ABL-INDEF ;
  ABL-PX ;
+ ELA-PX ;
+ INE-PX ;
+ SG-ELA-DEF ;
+ SG-INE-DEF ;
+ 
+ ABL-INDEF ;
  ELA-INDEF ;
  ILL-INDEF ;
  INE-INDEF ;
- ELA-PX ;
- INE-PX ;
 
 LEXICON NMN_TINGE-OTHER-FORMS
 !!
@@ -726,6 +727,7 @@ LEXICON NMN_TINGE-OTHER-FORMS
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
  SG-NOM-INDEF ;
+ 
  ABE-INDEF ;
  ABL-INDEF ;
  CMP-INDEF ;
@@ -886,10 +888,10 @@ LEXICON N_KEL1-Derivation
 +SP+Cmpr+PxPl3+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>ст _KUDO-N2-Def-Declension ;
 +SP+Abe+PxPl3+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>ст _KUDO-N2-Def-Declension ;
 
-+Sg+Gen+PxSg1:%^Ь2ZERO%>енЬ2 N2Dem-SE ;
++Sg+Gen+PxSg1:%^Ь2ZERO%>ен%{ЬØ%} N2Dem-SE ;
 +Sg+Gen+PxSg1:%^Ь2ZERO%>ем N2Dem-SE ;
-+Sg+Gen+PxSg2:%^Ь2ZERO%>етЬ2 N2Dem-SE ;
-+Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%^Ь2ZERO%>ентЬ2 N2Dem-SE ;
++Sg+Gen+PxSg2:%^Ь2ZERO%>ет%{ЬØ%} N2Dem-SE ;
++Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%^Ь2ZERO%>ент%{ЬØ%} N2Dem-SE ;
 +Sg+Gen+PxSg3:%^Ь2ZERO%>енз%{оэØ%} N2Dem-SE ;
 +Sg+Gen+PxPl1:%^Ь2ZERO%>ен%{оеэ%}к N2Dem-SE ;
 +Sg+Gen+PxPl2:%^Ь2ZERO%>енк N2Dem-SE ;
@@ -1041,7 +1043,7 @@ LEXICON N_KUDO-Derivation-noArrow
 +SP+Tra:%>%{оеэØ%}кс OBL-PX4-CLTCOP ;
 
 !+SP+Gen+PxSg1:%>%{оеэØ%}м N2Dem-SE ;
-!+SP+Gen+PxSg1:%>%{оеэØ%}нЬ2 N2Dem-SE ;
+!+SP+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} N2Dem-SE ;
 
 +SP+Ela:%>ст%{оэØ%} POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 +SP+Ine:%>с%{оэØ%} POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
@@ -1505,6 +1507,7 @@ LEXICON _OSH-Indef-Declension-MUTUAL
 :%>%{оеэØ%} ILL-INDEF ;
  INE-INDEF ;
 :%>%{оеэØ%} INE-INDEF ;
+ LAT-INDEF ;
  PRL-INDEF ;
  TMP-INDEF ;
 :%>%{оеэØ%} TRA-INDEF ;
@@ -1566,10 +1569,17 @@ LEXICON _MUTUAL-Indef-Declension-SP
  GEN-INDEF ;
  ILL-INDEF ;
  INE-INDEF ;
+ LAT-INDEF ;
  PRL-INDEF ;
  TMP-INDEF ; !!= * __@CODE@__ Check this
  TRA-INDEF ;
 !GEN-INDEF-LIKE-DERIVATION ; 2017-03-11 These should be taken care of with a simple N.SP.Gen.Indef
+
+LEXICON N-NOMINAL-FORMS-IN-S
+!кардаз:кардайсэ
+ELA-INDEF ;
+ILL-INDEF ;
+INE-INDEF ;
 
 !! !!INDEFINITE TAGS
 LEXICON ABE-INDEF
@@ -1662,8 +1672,8 @@ LEXICON TRA-INDEF
 @U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>%{оеэØ%}кс CLT/COP4_OBL ;
 
 LEXICON PL-NOM-INDEF
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 _KIT-NomPl-Conjugation ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>тЬ2 K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т%{ЬØ%} _KIT-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т%{ЬØ%} K ;
 
 
 
@@ -1875,7 +1885,7 @@ LEXICON SecondaryDeclination_1RequiresNoVowel
 +Sg+Cmpr+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
 
  K ;
-+Pl+Nom+Indef:%>тЬ2 K ;
++Pl+Nom+Indef:%>т%{ЬØ%} K ;
 +Pl+Nom+Def:%>тнЕ3 K ; 
 +Pl+Abl+Def:%>тнЕ3%>де K ;
 +Pl+Abe+Def:%>тнЕ3%>с K ;
