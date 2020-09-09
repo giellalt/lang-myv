@@ -261,6 +261,7 @@ Multichar_Symbols
 !! !!!Orthography tags
   +Orth/PhonDeriv !!≈ * @CODE@ * Derivation is phonetic but declension and conjugation morphologic
   +Orth/PhonInfl  !!≈ * @CODE@ * Entire inflection is phonetic 1821, 1920-30
+  +Orth/1993
   +Orth/PhonComb
   +Orth/SH
   +Orth/Morph
@@ -697,6 +698,7 @@ Multichar_Symbols
  %{frontSoft%}   !!= * @CODE@ — front harmony soft
  %{back%}   !!= * @CODE@ — back harmony
  %{backHard%}   !!= * @CODE@ — back harmony
+ %{dialM%}   !!= * @CODE@ — for Shoksha and Drakino Dial/M morphology
 
 ѝ а̀ 
 
@@ -723,7 +725,7 @@ Multichar_Symbols
 ! connegative suffix rendering vowel
 !К3
 
-А1 А2 Г1 Г2 Г4 %{ЬØ%} Т1 О1 %{иы%} %{КТ%} К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %>
+А1 %{АЯ%} Г1 Г2 Г4 %{ЬØ%} Т1 О1 %{иы%} %{КТ%} К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %>
 Н1
 %{ое%}   !!≈ * @CODE@ inflectional suffix protovowel  аволь аволинь
 %{оеэØ%} !!≈ * @CODE@ Suffix-initial archiphoneme
@@ -1307,6 +1309,10 @@ LEXICON PCLE-COMPAR-STND !! Not a real particle; it can take a clitic седея
 
 LEXICON PCLE-EPIST
 +Epist: ENDLEX ;
+
+LEXICON PCLE-AUX_
+!деряй
++Aux: ENDLEX ;
 
 LEXICON PCLE-NEG-CONTRAST
 +Neg+Emphatic: ENDLEX ;
