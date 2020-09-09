@@ -22,11 +22,11 @@ LEXICON V_KUNDAMS-TEST
 LEXICON V_ARAS1
 +V+Aux+Neg+Loc: V_ARAS1_01 ;
 LEXICON V_ARAS1_01
-+Prs+ScSg1:А2н K ;
-+Prs+ScSg2:А2т K ;
++Prs+ScSg1:%{АЯ%}н K ;
++Prs+ScSg2:%{АЯ%}т K ;
 +Prs+ScSg3: K ;
-+Prs+ScPl1:тА2но K ;
-+Prs+ScPl2:тА2до K ;
++Prs+ScPl1:т%{АЯ%}но K ;
++Prs+ScPl2:т%{АЯ%}до K ;
 +Prs+ScPl3:т%{ЬØ%} K ;
 
 +Prt2+ScSg1:%>%{оеэØ%}линь K ;
@@ -1414,10 +1414,10 @@ LEXICON V-FINITE-FORMS-IN-S
 
 !! Indicative NonPast 
 LEXICON IND-PRS-10
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@+Ind+Prs+ScSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@%>А2н  VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@+Ind+Prs+ScSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.1Ø@%>%{АЯ%}н  VerbEnd_deraj ;
 
 LEXICON IND-PRS-12
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@+Ind+Prs+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@тА2н VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@+Ind+Prs+ScSg1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.12@т%{АЯ%}н VerbEnd_deraj ;
 
 LEXICON IND-PRS-13
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@+Ind+Prs+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@%>са VerbEnd_deraj ;
@@ -1425,13 +1425,13 @@ LEXICON IND-PRS-13
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@+Use/NG+Err/Orth+Dial/SE+Ind+Prs+ScSg1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.13@%>сать VerbEnd_deraj ;
 
 LEXICON IND-PRS-15
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@+Ind+Prs+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@тА2дызь VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@+Ind+Prs+ScSg1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.15@т%{АЯ%}дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-16
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@+Ind+Prs+ScSg1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.16@%>сынь VerbEnd_deraj ;
 
 LEXICON IND-PRS-20
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@+Ind+Prs+ScSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@%>А2т VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@+Ind+Prs+ScSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.2Ø@%>%{АЯ%}т VerbEnd_deraj ;
 
 LEXICON IND-PRS-21
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@+Ind+Prs+ScSg2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.21@%>самак VerbEnd_deraj ;
@@ -1452,7 +1452,8 @@ LEXICON IND-PRS-31
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@+Ind+Prs+ScSg3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.31@%>самам VerbEnd_deraj ;
 
 LEXICON IND-PRS-32
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@+Ind+Prs+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@тА2нзат VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@+Ind+Prs+ScSg3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@т%{АЯ%}нзат VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@+Ind+Prs+ScSg3+OcSg2+Use/NG+Err/Orth+Dial:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.32@т%{АЯ%}ндат VerbEnd_deraj ;
 
 LEXICON IND-PRS-33
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@+Ind+Prs+ScSg3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.33@%>сы VerbEnd_deraj ;
@@ -1462,34 +1463,35 @@ LEXICON IND-PRS-34
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@+Ind+Prs+ScSg3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.34@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-35
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@+Ind+Prs+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@тА2дызь VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@+Ind+Prs+ScSg3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.35@т%{АЯ%}дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-36
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@+Ind+Prs+ScSg3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.36@%>сынзе VerbEnd_deraj ;
 
 LEXICON IND-PRS-40
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>тА2но VerbEnd_deraj ;
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Use/NG+Err/Orth+Dial/W+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>тА2м VerbEnd_deraj ;
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Use/NG+Err/Orth+Dial/NW+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>тА2нок VerbEnd_deraj-lak ;
-!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Use/NG+Err/Orth+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossтА2но VerbEnd_deraj ;
-!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Use/NG+Err/Orth+Dial/W+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossтА2м VerbEnd_deraj ;
-!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Use/NG+Err/Orth+Dial/NW+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossтА2нок VerbEnd_deraj-lak ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>т%{АЯ%}но VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Use/NG+Err/Orth+Dial/W+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>т%{АЯ%}м VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Use/NG+Err/Orth+Dial+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>т%{АЯ%}ма VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@+Use/NG+Err/Orth+Dial/NW+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>т%{АЯ%}нок VerbEnd_deraj-lak ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Use/NG+Err/Orth+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossт%{АЯ%}но VerbEnd_deraj ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Use/NG+Err/Orth+Dial/W+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossт%{АЯ%}м VerbEnd_deraj ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@!2013-03-15!+Use/NG+Err/Orth+Dial/NW+Ind+Prs+ScPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.4Ø@%>TLossт%{АЯ%}нок VerbEnd_deraj-lak ;
 
 LEXICON IND-PRS-42
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@+Ind+Prs+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@тА2дызь VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@+Ind+Prs+ScPl1+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.42@т%{АЯ%}дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-43
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@+Ind+Prs+ScPl1+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.43@%>сынек VerbEnd_deraj ;
 
 LEXICON IND-PRS-45
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@+Ind+Prs+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@тА2дызь VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@+Ind+Prs+ScPl1+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.45@т%{АЯ%}дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-46
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@+Ind+Prs+ScPl1+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.46@%>сынек VerbEnd_deraj ;
 
 LEXICON IND-PRS-50
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@+Ind+Prs+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@%>тА2до VerbEnd_deraj ;
-!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@!2013-03-15!+Use/NG+Err/Orth+Dial+Ind+Prs+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@%>TLossтА2до VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@+Ind+Prs+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@%>т%{АЯ%}до VerbEnd_deraj ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@!2013-03-15!+Use/NG+Err/Orth+Dial+Ind+Prs+ScPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.5Ø@%>TLossт%{АЯ%}до VerbEnd_deraj ;
 
 LEXICON IND-PRS-51
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@+Ind+Prs+ScPl2+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.51@%>самизь VerbEnd_deraj ;
@@ -1510,7 +1512,7 @@ LEXICON IND-PRS-61
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@+Ind+Prs+ScPl3+OcSg1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.61@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-62
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@+Ind+Prs+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@тА2дызь VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@+Ind+Prs+ScPl3+OcSg2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.62@т%{АЯ%}дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-63
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@+Ind+Prs+ScPl3+OcSg3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.63@%>сызь VerbEnd_deraj ;
@@ -1519,7 +1521,7 @@ LEXICON IND-PRS-64
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@+Ind+Prs+ScPl3+OcPl1:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.64@%>самизь VerbEnd_deraj ;
 
 LEXICON IND-PRS-65
-@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@+Ind+Prs+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@тА2дызь VerbEnd_deraj ;
+@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@+Ind+Prs+ScPl3+OcPl2:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.65@т%{АЯ%}дызь VerbEnd_deraj ;
 
 LEXICON IND-PRS-66
 @U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@+Ind+Prs+ScPl3+OcPl3:@U.CONJ-MX.IND@@U.CONJ-TX.NONPAST@@U.CONJ-PX.66@%>сызь VerbEnd_deraj ;
@@ -2610,7 +2612,7 @@ LEXICON Imperative_Obj-kadoms
 
 
 LEXICON PREC-20
-@U.CONJ-MX.PREC@@U.CONJ-PX.2Ø@+Prec+ScSg2:@U.CONJ-MX.PREC@@U.CONJ-PX.2Ø@%>%{КТ%}%{ЬØ%}Г1а VerbEnd_K ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.2Ø@+Prec+ScSg2:@U.CONJ-MX.PREC@@U.CONJ-PX.2Ø@%>%{КТ%}%{АЯ%} VerbEnd_K ;
 
 LEXICON PREC-21
 @U.CONJ-MX.PREC@@U.CONJ-PX.21@+Prec+ScSg2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.21@%>%{оеэØ%}мака VerbEnd_K ;
@@ -2945,8 +2947,8 @@ LEXICON _KAL-Tenses-NomSg
 +Clt/Cop: _KAL-Tenses-NomSg-noClt ;
 
 LEXICON _KAL-Tenses-NomSg-noClt
-+Prs+ScSg1:%>А2н VerbEnd_K ;
-+Prs+ScSg2:%>А2т VerbEnd_K ;
++Prs+ScSg1:%>%{АЯ%}н VerbEnd_K ;
++Prs+ScSg2:%>%{АЯ%}т VerbEnd_K ;
 +Prt2+ScSg1:%>%{оеэØ%}линь VerbEnd_K ;
 +Prt2+ScSg2:%>%{оеэØ%}лить VerbEnd_K ;
 +Prt2+ScSg3:%>%{оеэØ%}ль VerbEnd_K ;
@@ -2956,8 +2958,8 @@ LEXICON _KAL-Tenses-NomPl
 +Clt/Cop: _KAL-Tenses-NomPl-noClt ;
 
 LEXICON _KAL-Tenses-NomPl-noClt
-+Prs+ScPl1:%>тА2но VerbEnd_K ;
-+Prs+ScPl2:%>тА2до VerbEnd_K ;
++Prs+ScPl1:%>т%{АЯ%}но VerbEnd_K ;
++Prs+ScPl2:%>т%{АЯ%}до VerbEnd_K ;
 +Prs+ScPl3: VerbEnd_K ;
 +Prt2+ScPl1:%>%{оеэØ%}линек VerbEnd_K-lak ;
 +Prt2+ScPl2:%>%{оеэØ%}лиде VerbEnd_K ;
@@ -2970,8 +2972,8 @@ LEXICON _KAL-Tenses-NomPl-noClt
 ! _KAL-Tenses-Abs-1 ;
 
 !LEXICON _KAL-Tenses-Abs-1
-!+Prs+ScPl1:%>тА2но VerbEnd_K ;
-!+Prs+ScPl2:%>тА2до VerbEnd_K ;
+!+Prs+ScPl1:%>т%{АЯ%}но VerbEnd_K ;
+!+Prs+ScPl2:%>т%{АЯ%}до VerbEnd_K ;
 
 LEXICON _KAL-Tenses-Obl
  VerbEnd_K ;
@@ -2979,10 +2981,10 @@ LEXICON _KAL-Tenses-Obl
  _KAL-Tenses-Obl-noClt ;
 
 LEXICON _KAL-Tenses-Obl-noClt
-+Prs+ScSg1:%>А2н VerbEnd_K ;
-+Prs+ScSg2:%>А2т VerbEnd_K ;
-+Prs+ScPl1:%>тА2но VerbEnd_K ;
-+Prs+ScPl2:%>тА2до VerbEnd_K ;
++Prs+ScSg1:%>%{АЯ%}н VerbEnd_K ;
++Prs+ScSg2:%>%{АЯ%}т VerbEnd_K ;
++Prs+ScPl1:%>т%{АЯ%}но VerbEnd_K ;
++Prs+ScPl2:%>т%{АЯ%}до VerbEnd_K ;
 +Prs+ScPl3:%>т%{ЬØ%} VerbEnd_K ;
 +Prt2+ScSg1:%>%{оеэØ%}линь VerbEnd_K ;
 +Prt2+ScSg2:%>%{оеэØ%}лить VerbEnd_K ;
@@ -3018,8 +3020,8 @@ LEXICON _LAK-Tenses-NomPl
 ! _KAL-Tenses-Abs ;
 
 !LEXICON _LAK-Tenses-Abs-1
-!+Prs+ScPl1:%>тА2но VerbEnd_K ;
-!+Prs+ScPl2:%>тА2до VerbEnd_K ;
+!+Prs+ScPl1:%>т%{АЯ%}но VerbEnd_K ;
+!+Prs+ScPl2:%>т%{АЯ%}до VerbEnd_K ;
 
 LEXICON _LAK-Tenses-Obl
  VerbEnd_K-lak ;
@@ -3035,21 +3037,21 @@ LEXICON _KIT-Tenses-NomSg
 
 LEXICON _KIT-Tenses-NomPl
  _KAL-Tenses-NomPl ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl1:%>TLossтА2но VerbEnd_K ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl2:%>TLossтА2до VerbEnd_K ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl1:%>TLossт%{АЯ%}но VerbEnd_K ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl2:%>TLossт%{АЯ%}до VerbEnd_K ;
 
 !LEXICON _KIT-Tenses-Abs
 ! _KAL-Tenses-Abs ;
 
 !LEXICON _KIT-Tenses-Abs-1
 ! _KAL-Tenses-Abs-1 ;
-!!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl1:%>TLossтА2но VerbEnd_K ;
-!!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl2:%>TLossтА2до VerbEnd_K ;
+!!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl1:%>TLossт%{АЯ%}но VerbEnd_K ;
+!!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl2:%>TLossт%{АЯ%}до VerbEnd_K ;
 
 LEXICON _KIT-Tenses-Obl
  _KAL-Tenses-Obl ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl1:%>TLossтА2но VerbEnd_K ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl2:%>TLossтА2до VerbEnd_K ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl1:%>TLossт%{АЯ%}но VerbEnd_K ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/SH+Ind+Prs+ScPl2:%>TLossт%{АЯ%}до VerbEnd_K ;
 
 
 LEXICON V-DEFECTIVE-IMPRT
