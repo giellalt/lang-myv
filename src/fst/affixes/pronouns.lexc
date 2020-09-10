@@ -22,10 +22,8 @@ LEXICON PRONOUN-TYPES
 кие+Pron:ки PRON-IS-REL-PERS ;
 
 эрьва+Det:эрьва PRON_KUDO ;
-
-нете+Pron:нете te-Dem ;
-сете+Pron:сете te-Dem ;
-тете+Pron:тете te-Dem ;
+эте+Det:эте DET-DEM_TE ;
+тете+Pron:тете DET-DEM_TE ;
 
 ! ============================= !
 !  Person morphological lexica !
@@ -35,6 +33,18 @@ LEXICON PRONOUN-TYPES
 !+Pers: K ;
 !LEXICON PRON-REFL_
 !+Refl: K ;
+LEXICON PRON-IS-REFL-PRL-PXSG1
++Refl+Prl+PxSg1: K ;
+LEXICON PRON-IS-REFL-PRL-PXSG2
++Refl+Prl+PxSg2: K ;
+LEXICON PRON-IS-REFL-PRL-PXSG3
++Refl+Prl+PxSg3: K ;
+LEXICON PRON-IS-REFL-PRL-PXPL1
++Refl+Prl+PxPl1: K ;
+LEXICON PRON-IS-REFL-PRL-PXPL2
++Refl+Prl+PxPl2: K ;
+LEXICON PRON-IS-REFL-PRL-PXPL3
++Refl+Prl+PxPl3: K ;
 
 
 !LEXICON PRON-PERS-DAT
@@ -1216,6 +1226,15 @@ LEXICON Indef_Pronouns-Cases
 +Pl+Gen+Def:%>тне%>нь INDEF-ENDS-HERE ;
 +Pl+Dat+Def:%>тне%>нень INDEF-ENDS-HERE ;
 
++Sg+Nom+PxSg1:%>%{оеэØ%}м INDEF-ENDS-HERE ;
++Sg+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} INDEF-ENDS-HERE ;
++Sg+Nom+PxSg3:%>%{оеэØ%}з%{оэØ%} INDEF-ENDS-HERE ;
++Sg+Nom+PxPl1:%>%{оеэØ%}н%{оеэ%}к INDEF-ENDS-HERE ;
++Sg+Nom+PxPl1+Dial/NW:%>%{оеэØ%}м{ое%}к INDEF-ENDS-HERE ;
++Sg+Nom+PxPl2:%>%{оеэØ%}нк INDEF-ENDS-HERE ;
++Sg+Nom+PxPl3:%>%{оеэØ%}ст INDEF-ENDS-HERE ;
+
+
 LEXICON _OSH-Indef_Pronouns-Cases
 !+Pl+Nom:%>т%{ЬØ%} INDEF-ENDS-HERE ; 
 +Ela:%>%{оеэØ%}ст%{оэØ%} INDEF-ENDS-HERE ;
@@ -1338,12 +1357,12 @@ LEXICON Pron-Pl
 !LEXICON Misc_Pronouns
 !!се+Dem:се vese-QNT ;
 !!секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
-!!сете+Dem+Pron:сете te-Dem ;
-!!те+Dem:те te-Dem ;
-!!тевате+Dem:тевате te-Dem ;
+!!сете+Dem+Pron:сете DET-DEM_TE ;
+!!те+Dem:те DET-DEM_TE ;
+!!тевате+Dem:тевате DET-DEM_TE ;
 
-!севате+Dem+Pron:севате te-Dem ;
-!тете+Dem:тете te-Dem ;
+!севате+Dem+Pron:севате DET-DEM_TE ;
+!тете+Dem:тете DET-DEM_TE ;
 !
 !те+Dem+Pron+Gen+Abl:тенде K ;
 !те+Dem+Pron+Gen+Abe+Use/NG+Err/Orth+Dial:тенстеме K ;
@@ -1429,10 +1448,6 @@ LEXICON PRON-DEM_VASENCE
 !LEXICON PRON-DEM_KUDO !!= * __@CODE@__ алце
 !+Dem: NMN_KUDO ;
 
-
-LEXICON te-Dem
-: _KUDO-Misc_Pronouns_Sg ;
-+Attr: ENDLEX ;
 
 !Formerly ne-Misc_Pronouns1
 LEXICON ne-Dem
