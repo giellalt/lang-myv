@@ -455,13 +455,6 @@ REMOVE Der/Dimin (0C N ) ;
 
 REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
 
-# 
-#REMOVE Der/ОвОмс (0C V) ;
-REMOVE Der/OvOms (0C V) ;
-
-# кортавтома
-REMOVE Der/OvtOms (0C V) ;
-
 # short participles should be written with the following noun? new orthographic practice 1993
 #REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
 REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
@@ -470,8 +463,15 @@ REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
 REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 
+# 
+#REMOVE Der/ОвОмс (0C V) ;
+REMOVE Der/OvOms (0C V) ;
+
+# кортавтома
+REMOVE Der/OvtOms (0C V) ;
+
 #Лиясто кевкстнить эйсэнь.
-REMOVE 2VDerTag (0C V) ; #2017-11-05
+REMOVE 2VDerTag (0 V) ; #2017-11-05
 
 #Сынь пурнасть урьвакстомо-венчамо.
 #(NOT -1* VFIN BARRIER EOS);
