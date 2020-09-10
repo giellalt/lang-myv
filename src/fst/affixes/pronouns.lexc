@@ -20,11 +20,12 @@ LEXICON PRONOUN-TYPES
 мезе+Pron+Interr+Sg+Nom+Def:мӒ4йсь K ;
 та-кода K ;
 кие+Pron:ки PRON-IS-REL-PERS ;
-кона+Det:кона PRON-IS-REL-SEL ;
+
 эрьва+Det:эрьва PRON_KUDO ;
 
 нете+Pron:нете te-Dem ;
 сете+Pron:сете te-Dem ;
+тете+Pron:тете te-Dem ;
 
 ! ============================= !
 !  Person morphological lexica !
@@ -727,12 +728,12 @@ LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
 +SP+Tra:%>кс #  ;
 +SP+Dat:%>нень #  ;
 
-LEXICON PRON-IS-REL-SEL
-!! This is not the same as indefinite
-!! PronRel-kona
-+Rel+Sel: NMN_DEF-DECLENSION ;
-+Rel+Sel: _KUDO-Indef-Declension ;
-+Rel+Sel: N_KUDO-Poss-Declension-CX ;
+!LEXICON PRON-IS-REL-SEL
+!!! This is not the same as indefinite
+!!! PronRel-kona
+!+Rel+Sel: NMN_DEF-DECLENSION ;
+!+Rel+Sel: _KUDO-Indef-Declension ;
+!+Rel+Sel: N_KUDO-Poss-Declension-CX ;
 
 LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
 мезе+Pron+Indef+Sg+Nom+Indef:мезе INDEF-ENDS-HERE ;
@@ -777,7 +778,6 @@ LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
 кодамо+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
 !кодамо+Adn:кодам Indef_Pronouns-Cases ;
 
-кона+Det:кона _KUDO-Indef_Pronouns-Cases ;
 
 !зяро+Adv:зяро _KUDO-Indef_Pronouns-Cases ;
 
@@ -1621,7 +1621,6 @@ LEXICON REL/INTERR_PRONOUNS
 зняро+Adv+Interr:зняро ENDLEX ;
 зяро+Adv+Interr:зяро ENDLEX ;
 
-!2017-11-05кона+Det+Interr+Nom+Sg:кона ENDLEX ;
 
 мезе+Pron+Interr+Sg+Nom+Indef:мӒ4зе ENDLEX ;
 !мезеь+Pron+Interr+Gen+Indef:мезень ENDLEX ;

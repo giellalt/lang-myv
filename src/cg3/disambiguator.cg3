@@ -508,6 +508,9 @@ REMOVE Rel IF (1 QUEST) ;
 #«Ков сыргить?»
 REMOVE Rel IF (0 Upper) (NOT 0 Prop) ;
 
+#изнявкстнэ, конатнень теинзе
+REMOVE Interr IF (-1 PUNCT)(0 Rel);
+
 #Эйкакшонь масторга.
 REMOVE DerGenAttr IF (0 N + SP + Gen) ;
 
