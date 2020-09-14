@@ -751,189 +751,191 @@ LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
 !+Rel+Sel: _KUDO-Indef-Declension ;
 !+Rel+Sel: N_KUDO-Poss-Declension-CX ;
 
-LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
-мезе+Pron+Indef+Sg+Nom+Indef:мезе INDEF-ENDS-HERE ;
-мезе+Pron+Indef+Pl+Nom+Indef:мезть INDEF-ENDS-HERE ;
-мезе+Pron+Indef:мезь _OSH-Indef_Pronouns-Cases ;
-кие+Pron+Indef:ки INDEF-KIE-CASES ;
-
-ков+Adv+Indef+Lat:ков INDEF-ENDS-HERE ;
-косо+Adv+Indef+Ine:косо INDEF-ENDS-HERE ;
-косто+Adv+Indef+Ela:косто INDEF-ENDS-HERE ;
-кода+Adv+Indef+Manner:кода INDEF-ENDS-HERE ;
-кува+Adv+Indef+Spat+Prl:кува INDEF-ENDS-HERE ;
-зярдо+Adv+Indef+Temp:зярдо INDEF-ENDS-HERE ;
-зярс+Adv+Indef+Temp+Ill:зярс INDEF-ENDS-HERE ;
-зяро+Adv+Indef+Qnt:зяро INDEF-ENDS-HERE ;
-зяроксть+Adv+Indef+Iter:зяроксть INDEF-ENDS-HERE ;
-
-зярдонь+A+Indef+Temp+Der/GenAttr:зярдонь INDEF-ENDS-HERE ;
-знярдонь+A+Indef+Temp+Der/GenAttr:знярдонь INDEF-ENDS-HERE ;
-знярдо+Adv+Indef:знярдо INDEF-ENDS-HERE ;
-зняро+Adv:зняро INDEF-ENDS-HERE ;
-
-зняросто+Adv+Indef+Ela:зняросто INDEF-ENDS-HERE ;
-знярс+Adv+Indef+Ill:знярс INDEF-ENDS-HERE ;
-кодамо+A+Indef+Nom+Sg:кодамо INDEF-ENDS-HERE ;
-кодамо+A+Indef+Nom+Pl:кодат INDEF-ENDS-HERE ;
-кодамо+A+Indef+Pl+Nom+Def:кодатнэ INDEF-ENDS-HERE ;
-
-!2017-11-05кона+Det+Indef+Nom+Sg:кона INDEF-ENDS-HERE ;
-!2017-11-05мезе+Pron+Indef+Nom+Sg:мезе INDEF-ENDS-HERE ;
-!мезень+Pron+Indef+Interr+Gen:мезень INDEF-ENDS-HERE ;
-мезе+Pron+Indef+Nom+Pl:мезть INDEF-ENDS-HERE ;
-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:месть INDEF-ENDS-HERE ;
-мекс+Pron+Indef+Tra:мекс INDEF-ENDS-HERE ;
-!мезе+Pron+Indef+Abl:мезде INDEF-ENDS-HERE ;
-!мезе+Pron+Indef+Dat:мезнень INDEF-ENDS-HERE ;
-!мезе+Pron+Indef+Abl+Def:мезденть INDEF-ENDS-HERE ;
-!мезе+Pron+Indef+Ine:мейсэ INDEF-ENDS-HERE ;
-
-!зняро+Pron:зняро Indef_Pronouns-Cases ;
-
-кодамо+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
-!кодамо+Adn:кодам Indef_Pronouns-Cases ;
-
-
-!зяро+Adv:зяро _KUDO-Indef_Pronouns-Cases ;
-
-мезе+Det+Dep+Gen:мень Indef_Pronouns-K-post ; !This one cannot take prefix
+!2020-09-14!LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
+!2020-09-14!мезе+Pron+Indef+Sg+Nom+Indef:мезе INDEF-ENDS-HERE ;
+!2020-09-14!мезе+Pron+Indef+Pl+Nom+Indef:мезть INDEF-ENDS-HERE ;
+!2020-09-14!мезе+Pron+Indef:мезь _OSH-Indef_Pronouns-Cases ;
+!2020-09-14!кие+Pron+Indef:ки INDEF-KIE-CASES ;
+!2020-09-14!
+!2020-09-14!ков+Adv+Indef+Lat:ков INDEF-ENDS-HERE ;
+!2020-09-14!косо+Adv+Indef+Ine:косо INDEF-ENDS-HERE ;
+!2020-09-14!косто+Adv+Indef+Ela:косто INDEF-ENDS-HERE ;
+!2020-09-14!кода+Adv+Indef+Manner:кода INDEF-ENDS-HERE ;
+!2020-09-14!кува+Adv+Indef+Spat+Prl:кува INDEF-ENDS-HERE ;
+!2020-09-14!зярдо+Adv+Indef+Temp:зярдо INDEF-ENDS-HERE ;
+!2020-09-14!зярс+Adv+Indef+Temp+Ill:зярс INDEF-ENDS-HERE ;
+!2020-09-14!зяро+Adv+Indef+Qnt:зяро INDEF-ENDS-HERE ;
+!2020-09-14!зяроксть+Adv+Indef+Iter:зяроксть INDEF-ENDS-HERE ;
+!2020-09-14!
+!2020-09-14!зярдонь+A+Indef+Temp+Der/GenAttr:зярдонь INDEF-ENDS-HERE ;
+!2020-09-14!знярдонь+A+Indef+Temp+Der/GenAttr:знярдонь INDEF-ENDS-HERE ;
+!2020-09-14!знярдо+Adv+Indef:знярдо INDEF-ENDS-HERE ;
+!2020-09-14!зняро+Adv:зняро INDEF-ENDS-HERE ;
+!2020-09-14!
+!2020-09-14!зняросто+Adv+Indef+Ela:зняросто INDEF-ENDS-HERE ;
+!2020-09-14!знярс+Adv+Indef+Ill:знярс INDEF-ENDS-HERE ;
+!2020-09-14!кодамо+A+Indef+Nom+Sg:кодамо INDEF-ENDS-HERE ;
+!2020-09-14!кодамо+A+Indef+Nom+Pl:кодат INDEF-ENDS-HERE ;
+!2020-09-14!кодамо+A+Indef+Pl+Nom+Def:кодатнэ INDEF-ENDS-HERE ;
+!2020-09-14!
+!2020-09-14!!2017-11-05кона+Det+Indef+Nom+Sg:кона INDEF-ENDS-HERE ;
+!2020-09-14!!2017-11-05мезе+Pron+Indef+Nom+Sg:мезе INDEF-ENDS-HERE ;
+!2020-09-14!!мезень+Pron+Indef+Interr+Gen:мезень INDEF-ENDS-HERE ;
+!2020-09-14!мезе+Pron+Indef+Nom+Pl:мезть INDEF-ENDS-HERE ;
+!2020-09-14!мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:месть INDEF-ENDS-HERE ;
+!2020-09-14!мекс+Pron+Indef+Tra:мекс INDEF-ENDS-HERE ;
+!2020-09-14!!мезе+Pron+Indef+Abl:мезде INDEF-ENDS-HERE ;
+!2020-09-14!!мезе+Pron+Indef+Dat:мезнень INDEF-ENDS-HERE ;
+!2020-09-14!!мезе+Pron+Indef+Abl+Def:мезденть INDEF-ENDS-HERE ;
+!2020-09-14!!мезе+Pron+Indef+Ine:мейсэ INDEF-ENDS-HERE ;
+!2020-09-14!
+!2020-09-14!!зняро+Pron:зняро Indef_Pronouns-Cases ;
+!2020-09-14!
+!2020-09-14!кодамо+A+Indef+Pl:кодатнэ Indef_Pronouns-Cases ;
+!2020-09-14!!кодамо+Adn:кодам Indef_Pronouns-Cases ;
+!2020-09-14!
+!2020-09-14!
+!2020-09-14!!зяро+Adv:зяро _KUDO-Indef_Pronouns-Cases ;
+!2020-09-14!
+!2020-09-14!мезе+Det+Dep+Gen:мень Indef_Pronouns-K-post ; !This one cannot take prefix
 
 
 !!
 
-!2020-06-03!LEXICON INDEF_PRONOUNS-IN-KOI
-!2020-06-03!кой-ков+Adv+Indef+Lat:кой-ков INDEF-ENDS-HERE ;
-!2020-06-03!кой-косо+Adv+Indef+Ine:кой-косо INDEF-ENDS-HERE ;
-!2020-06-03!кой-косто+Adv+Indef+Ela:кой-косто INDEF-ENDS-HERE ;
-!2020-06-03!кой-кода+Adv+Indef+Manner:кой-кода INDEF-ENDS-HERE ;
-!2020-06-03!кой-кува+Adv+Indef+Spat+Prl:кой-кува INDEF-ENDS-HERE ;
-!2020-06-03!кой-зярдо+Adv+Indef+Temp:кой-зярдо INDEF-ENDS-HERE ;
-!2020-06-03!кой-зяро+Adv+Indef+Nom:кой-зяро INDEF-ENDS-HERE ;
-!2020-06-03!кой-зяроксть+Adv+Indef+Iter:кой-зяроксть INDEF-ENDS-HERE ;
-!2020-06-03!кой-зярс+Adv+Indef+Ill+Temp:кой-зярс INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!кой-зярдонь+A+Indef+Temp:кой-зярдонь INDEF-ENDS-HERE ;
-!2020-06-03!кой-знярдо+Adv+Indef:кой-знярдо INDEF-ENDS-HERE ;
-!2020-06-03!кой-зняро+Adv:кой-зняро INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!!зняро+Adv+Indef+Ela:кой-зняросто INDEF-ENDS-HERE ;
-!2020-06-03!кой-знярс+Adv+Indef+Ill:кой-знярс INDEF-ENDS-HERE ;
-!2020-06-03!кой-знярдонь+A+Indef+Gen:кой-знярдонь INDEF-ENDS-HERE ;
-!2020-06-03!кой-кодамо+A+Indef+Nom+Sg:кой-кодамо INDEF-ENDS-HERE ;
-!2020-06-03!кой-кодамо+A+Indef+Nom+Pl:кой-кодат INDEF-ENDS-HERE ;
-!2020-06-03!кой-кодамо+A+Indef+Pl+Nom+Def:кой-кодатнэ INDEF-ENDS-HERE ;
-!2020-06-03!!2017-11-05кона+Det+Indef+Nom+Sg:кой-кона INDEF-ENDS-HERE ;
-!2020-06-03!!2017-11-05мезе+Pron+Indef+Nom+Sg:кой-мезе INDEF-ENDS-HERE ;
-!2020-06-03!!мезень+Pron+Indef+Interr+Gen:кой-мезень INDEF-ENDS-HERE ;
-!2020-06-03!кой-мезе+Pron+Indef+Nom+Pl:кой-мезть INDEF-ENDS-HERE ;
-!2020-06-03!кой-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:кой-месть INDEF-ENDS-HERE ;
-!2020-06-03!кой-мекс+Pron+Indef+Tra:кой-мекс INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Abl:кой-мезде INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Dat:кой-мезнень INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Abl+Def:кой-мезденть INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Ine:кой-мейсэ INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!кой-зняро+Pron:кой-зняро Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!кой-кодамо+A+Indef+Pl:кой-кодатнэ Indef_Pronouns-Cases ;
-!2020-06-03!!кодамо+Adn:кой-кодам Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!кой-кона+Det:кой-кона _KUDO-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!кой-зяро+Adv:кой-зяро _KUDO-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!кой-мезе+Det+Dep+Gen:кой-мень Indef_Pronouns-K-post ; !This one cannot take prefix
-!2020-06-03!кой-мезе+Pron:кой-мезь _OSH-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!LEXICON INDEF_PRONOUNS-IN-TAGO
-!2020-06-03!таго-ков+Adv+Indef+Lat:таго-ков INDEF-ENDS-HERE ;
-!2020-06-03!таго-косо+Adv+Indef+Ine:таго-косо INDEF-ENDS-HERE ;
-!2020-06-03!таго-косто+Adv+Indef+Ela:таго-косто INDEF-ENDS-HERE ;
-!2020-06-03!таго-кода+Adv+Indef+Manner:таго-кода INDEF-ENDS-HERE ;
-!2020-06-03!таго-кува+Adv+Indef+Spat+Prl:таго-кува INDEF-ENDS-HERE ;
-!2020-06-03!таго-зярдо+Adv+Indef+Temp:таго-зярдо INDEF-ENDS-HERE ;
-!2020-06-03!таго-зяро+Adv+Indef+Nom:таго-зяро INDEF-ENDS-HERE ;
-!2020-06-03!таго-зяроксть+Adv+Indef+Iter:таго-зяроксть INDEF-ENDS-HERE ;
-!2020-06-03!таго-зярс+Adv+Indef+Ill+Temp:таго-зярс INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!таго-зярдонь+A+Indef+Temp:таго-зярдонь INDEF-ENDS-HERE ;
-!2020-06-03!таго-знярдо+Adv+Indef:таго-знярдо INDEF-ENDS-HERE ;
-!2020-06-03!таго-зняро+Adv:таго-зняро INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!!зняро+Adv+Indef+Ela:таго-зняросто INDEF-ENDS-HERE ;
-!2020-06-03!таго-знярс+Adv+Indef+Ill:таго-знярс INDEF-ENDS-HERE ;
-!2020-06-03!таго-знярдонь+A+Indef+Der/GenAttr:таго-знярдонь INDEF-ENDS-HERE ;
-!2020-06-03!таго-кодамо+A+Indef+Nom+Sg:таго-кодамо INDEF-ENDS-HERE ;
-!2020-06-03!таго-кодамо+A+Indef+Nom+Pl:таго-кодат INDEF-ENDS-HERE ;
-!2020-06-03!таго-кодамо+A+Indef+Pl+Nom+Def:таго-кодатнэ INDEF-ENDS-HERE ;
-!2020-06-03!!2017-11-05кона+Det+Indef+Nom+Sg:таго-кона INDEF-ENDS-HERE ;
-!2020-06-03!!2017-11-05мезе+Pron+Indef+Nom+Sg:таго-мезе INDEF-ENDS-HERE ;
-!2020-06-03!!мезень+Pron+Indef+Interr+Gen:таго-мезень INDEF-ENDS-HERE ;
-!2020-06-03!таго-мезе+Pron+Indef+Nom+Pl:таго-мезть INDEF-ENDS-HERE ;
-!2020-06-03!таго-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:таго-месть INDEF-ENDS-HERE ;
-!2020-06-03!таго-мекс+Pron+Indef+Tra:таго-мекс INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Abl:таго-мезде INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Dat:таго-мезнень INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Abl+Def:таго-мезденть INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Ine:таго-мейсэ INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!таго-зняро+Pron:таго-зняро Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!таго-кодамо+A+Indef+Pl:таго-кодатнэ Indef_Pronouns-Cases ;
-!2020-06-03!!кодамо+Adn:таго-кодам Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!таго-кона+Det:таго-кона _KUDO-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!таго-зяро+Adv:таго-зяро _KUDO-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!таго-мезе+Det+Dep+Gen:таго-мень Indef_Pronouns-K-post ; !This one cannot take prefix
-!2020-06-03!таго-мезе+Pron:таго-мезь _OSH-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!LEXICON INDEF_PRONOUNS-IN-TA
-!2020-06-03!та-ков+Adv+Indef+Lat:та-ков INDEF-ENDS-HERE ;
-!2020-06-03!та-косо+Adv+Indef+Ine:та-косо INDEF-ENDS-HERE ;
-!2020-06-03!та-косто+Adv+Indef+Ela:та-косто INDEF-ENDS-HERE ;
-!2020-06-03!та-кода+Adv+Indef+Manner:та-кода INDEF-ENDS-HERE ;
-!2020-06-03!та-кува+Adv+Indef+Spat+Prl:та-кува INDEF-ENDS-HERE ;
-!2020-06-03!та-зярдо+Adv+Indef+Temp:та-зярдо INDEF-ENDS-HERE ;
-!2020-06-03!та-зяро+Adv+Indef+Nom:та-зяро INDEF-ENDS-HERE ;
-!2020-06-03!та-зяроксть+Adv+Indef+Iter:та-зяроксть INDEF-ENDS-HERE ;
-!2020-06-03!та-зярс+Adv+Indef+Ill+Temp:та-зярс INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!та-зярдонь+A+Indef+Temp:та-зярдонь INDEF-ENDS-HERE ;
-!2020-06-03!та-знярдо+Adv+Indef:та-знярдо INDEF-ENDS-HERE ;
-!2020-06-03!та-зняро+Adv:та-зняро INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!!зняро+Adv+Indef+Ela:та-зняросто INDEF-ENDS-HERE ;
-!2020-06-03!та-знярс+Adv+Indef+Ill:та-знярс INDEF-ENDS-HERE ;
-!2020-06-03!та-знярдонь+A+Indef+Der/GenAttr:та-знярдонь INDEF-ENDS-HERE ;
-!2020-06-03!та-кодамо+A+Indef+Nom+Sg:та-кодамо INDEF-ENDS-HERE ;
-!2020-06-03!та-кодамо+A+Indef+Nom+Pl:та-кодат INDEF-ENDS-HERE ;
-!2020-06-03!та-кодамо+A+Indef+Pl+Nom+Def:та-кодатнэ INDEF-ENDS-HERE ;
-!2020-06-03!!2017-11-05кона+Det+Indef+Nom+Sg:та-кона INDEF-ENDS-HERE ;
-!2020-06-03!!2017-11-05мезе+Pron+Indef+Nom+Sg:та-мезе INDEF-ENDS-HERE ;
-!2020-06-03!!мезень+Pron+Indef+Interr+Gen:та-мезень INDEF-ENDS-HERE ;
-!2020-06-03!та-мезе+Pron+Indef+Nom+Pl:та-мезть INDEF-ENDS-HERE ;
-!2020-06-03!та-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:та-месть INDEF-ENDS-HERE ;
-!2020-06-03!та-мекс+Pron+Indef+Tra:та-мекс INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Abl:та-мезде INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Dat:та-мезнень INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Abl+Def:та-мезденть INDEF-ENDS-HERE ;
-!2020-06-03!!мезе+Pron+Indef+Ine:та-мейсэ INDEF-ENDS-HERE ;
-!2020-06-03!
-!2020-06-03!та-зняро+Pron:та-зняро Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!та-кодамо+A+Indef+Pl:та-кодатнэ Indef_Pronouns-Cases ;
-!2020-06-03!!кодамо+Adn:та-кодам Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!та-кона+Det:та-кона _KUDO-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!та-зяро+Adv:та-зяро _KUDO-Indef_Pronouns-Cases ;
-!2020-06-03!
-!2020-06-03!та-мезе+Det+Dep+Gen:та-мень Indef_Pronouns-K-post ; !This one cannot take prefix
-!2020-06-03!та-мезе+Pron:та-мезь _OSH-Indef_Pronouns-Cases ;
+LEXICON INDEF_PRONOUNS-IN-KOI
+кой-ков+Adv+Indef+Lat:кой-ков INDEF-ENDS-HERE ;
+кой-косо+Adv+Indef+Ine:кой-косо INDEF-ENDS-HERE ;
+кой-косто+Adv+Indef+Ela:кой-косто INDEF-ENDS-HERE ;
+кой-кода+Adv+Indef+Manner:кой-кода INDEF-ENDS-HERE ;
+кой-кува+Adv+Indef+Spat+Prl:кой-кува INDEF-ENDS-HERE ;
+кой-зярдо+Adv+Indef+Temp:кой-зярдо INDEF-ENDS-HERE ;
+кой-зяро+Adv+Indef+Nom:кой-зяро INDEF-ENDS-HERE ;
+кой-зяроксть+Adv+Indef+Iter:кой-зяроксть INDEF-ENDS-HERE ;
+кой-зярс+Adv+Indef+Ill+Temp:кой-зярс INDEF-ENDS-HERE ;
 
+кой-зярдонь+A+Indef+Temp:кой-зярдонь INDEF-ENDS-HERE ;
+кой-знярдо+Adv+Indef:кой-знярдо INDEF-ENDS-HERE ;
+кой-зняро+Adv:кой-зняро INDEF-ENDS-HERE ;
+
+!зняро+Adv+Indef+Ela:кой-зняросто INDEF-ENDS-HERE ;
+кой-знярс+Adv+Indef+Ill:кой-знярс INDEF-ENDS-HERE ;
+кой-знярдонь+A+Indef+Gen:кой-знярдонь INDEF-ENDS-HERE ;
+кой-кодамо+A+Indef+Nom+Sg:кой-кодамо INDEF-ENDS-HERE ;
+кой-кодамо+A+Indef+Nom+Pl:кой-кодат INDEF-ENDS-HERE ;
+кой-кодамо+A+Indef+Pl+Nom+Def:кой-кодатнэ INDEF-ENDS-HERE ;
+!2017-11-05кона+Det+Indef+Nom+Sg:кой-кона INDEF-ENDS-HERE ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:кой-мезе INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Interr+Gen:кой-мезень INDEF-ENDS-HERE ;
+кой-мезе+Pron+Indef+Nom+Pl:кой-мезть INDEF-ENDS-HERE ;
+кой-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:кой-месть INDEF-ENDS-HERE ;
+кой-мекс+Pron+Indef+Tra:кой-мекс INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl:кой-мезде INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Dat:кой-мезнень INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl+Def:кой-мезденть INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Ine:кой-мейсэ INDEF-ENDS-HERE ;
+
+кой-зняро+Pron:кой-зняро Indef_Pronouns-Cases ;
+
+кой-кодамо+A+Indef+Pl:кой-кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:кой-кодам Indef_Pronouns-Cases ;
+
+кой-кона+Det:кой-кона _KUDO-Indef_Pronouns-Cases ;
+
+кой-зяро+Adv:кой-зяро _KUDO-Indef_Pronouns-Cases ;
+
+кой-мезе+Det+Dep+Gen:кой-мень Indef_Pronouns-K-post ; !This one cannot take prefix
+кой-мезе+Pron:кой-мезь _OSH-Indef_Pronouns-Cases ;
+кой-кие+Pron+Indef:кой-ки INDEF-KIE-CASES ;
+
+LEXICON INDEF_PRONOUNS-IN-TAGO
+таго-ков+Adv+Indef+Lat:таго-ков INDEF-ENDS-HERE ;
+таго-косо+Adv+Indef+Ine:таго-косо INDEF-ENDS-HERE ;
+таго-косто+Adv+Indef+Ela:таго-косто INDEF-ENDS-HERE ;
+таго-кода+Adv+Indef+Manner:таго-кода INDEF-ENDS-HERE ;
+таго-кува+Adv+Indef+Spat+Prl:таго-кува INDEF-ENDS-HERE ;
+таго-зярдо+Adv+Indef+Temp:таго-зярдо INDEF-ENDS-HERE ;
+таго-зяро+Adv+Indef+Nom:таго-зяро INDEF-ENDS-HERE ;
+таго-зяроксть+Adv+Indef+Iter:таго-зяроксть INDEF-ENDS-HERE ;
+таго-зярс+Adv+Indef+Ill+Temp:таго-зярс INDEF-ENDS-HERE ;
+
+таго-зярдонь+A+Indef+Temp:таго-зярдонь INDEF-ENDS-HERE ;
+таго-знярдо+Adv+Indef:таго-знярдо INDEF-ENDS-HERE ;
+таго-зняро+Adv:таго-зняро INDEF-ENDS-HERE ;
+
+!зняро+Adv+Indef+Ela:таго-зняросто INDEF-ENDS-HERE ;
+таго-знярс+Adv+Indef+Ill:таго-знярс INDEF-ENDS-HERE ;
+таго-знярдонь+A+Indef+Der/GenAttr:таго-знярдонь INDEF-ENDS-HERE ;
+таго-кодамо+A+Indef+Nom+Sg:таго-кодамо INDEF-ENDS-HERE ;
+таго-кодамо+A+Indef+Nom+Pl:таго-кодат INDEF-ENDS-HERE ;
+таго-кодамо+A+Indef+Pl+Nom+Def:таго-кодатнэ INDEF-ENDS-HERE ;
+!2017-11-05кона+Det+Indef+Nom+Sg:таго-кона INDEF-ENDS-HERE ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:таго-мезе INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Interr+Gen:таго-мезень INDEF-ENDS-HERE ;
+таго-мезе+Pron+Indef+Nom+Pl:таго-мезть INDEF-ENDS-HERE ;
+таго-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:таго-месть INDEF-ENDS-HERE ;
+таго-мекс+Pron+Indef+Tra:таго-мекс INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl:таго-мезде INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Dat:таго-мезнень INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl+Def:таго-мезденть INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Ine:таго-мейсэ INDEF-ENDS-HERE ;
+
+таго-зняро+Pron:таго-зняро Indef_Pronouns-Cases ;
+
+таго-кодамо+A+Indef+Pl:таго-кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:таго-кодам Indef_Pronouns-Cases ;
+
+таго-кона+Det:таго-кона _KUDO-Indef_Pronouns-Cases ;
+
+таго-зяро+Adv:таго-зяро _KUDO-Indef_Pronouns-Cases ;
+
+таго-мезе+Det+Dep+Gen:таго-мень Indef_Pronouns-K-post ; !This one cannot take prefix
+таго-мезе+Pron:таго-мезь _OSH-Indef_Pronouns-Cases ;
+таго-кие+Pron+Indef:таго-ки INDEF-KIE-CASES ;
+
+LEXICON INDEF_PRONOUNS-IN-TA
+та-ков+Adv+Indef+Lat:та-ков INDEF-ENDS-HERE ;
+та-косо+Adv+Indef+Ine:та-косо INDEF-ENDS-HERE ;
+та-косто+Adv+Indef+Ela:та-косто INDEF-ENDS-HERE ;
+та-кода+Adv+Indef+Manner:та-кода INDEF-ENDS-HERE ;
+та-кува+Adv+Indef+Spat+Prl:та-кува INDEF-ENDS-HERE ;
+та-зярдо+Adv+Indef+Temp:та-зярдо INDEF-ENDS-HERE ;
+та-зяро+Adv+Indef+Nom:та-зяро INDEF-ENDS-HERE ;
+та-зяроксть+Adv+Indef+Iter:та-зяроксть INDEF-ENDS-HERE ;
+та-зярс+Adv+Indef+Ill+Temp:та-зярс INDEF-ENDS-HERE ;
+
+та-зярдонь+A+Indef+Temp:та-зярдонь INDEF-ENDS-HERE ;
+та-знярдо+Adv+Indef:та-знярдо INDEF-ENDS-HERE ;
+та-зняро+Adv:та-зняро INDEF-ENDS-HERE ;
+
+!зняро+Adv+Indef+Ela:та-зняросто INDEF-ENDS-HERE ;
+та-знярс+Adv+Indef+Ill:та-знярс INDEF-ENDS-HERE ;
+та-знярдонь+A+Indef+Der/GenAttr:та-знярдонь INDEF-ENDS-HERE ;
+та-кодамо+A+Indef+Nom+Sg:та-кодамо INDEF-ENDS-HERE ;
+та-кодамо+A+Indef+Nom+Pl:та-кодат INDEF-ENDS-HERE ;
+та-кодамо+A+Indef+Pl+Nom+Def:та-кодатнэ INDEF-ENDS-HERE ;
+!2017-11-05кона+Det+Indef+Nom+Sg:та-кона INDEF-ENDS-HERE ;
+!2017-11-05мезе+Pron+Indef+Nom+Sg:та-мезе INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Interr+Gen:та-мезень INDEF-ENDS-HERE ;
+та-мезе+Pron+Indef+Nom+Pl:та-мезть INDEF-ENDS-HERE ;
+та-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:та-месть INDEF-ENDS-HERE ;
+та-мекс+Pron+Indef+Tra:та-мекс INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl:та-мезде INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Dat:та-мезнень INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Abl+Def:та-мезденть INDEF-ENDS-HERE ;
+!мезе+Pron+Indef+Ine:та-мейсэ INDEF-ENDS-HERE ;
+
+та-зняро+Pron:та-зняро Indef_Pronouns-Cases ;
+
+та-кодамо+A+Indef+Pl:та-кодатнэ Indef_Pronouns-Cases ;
+!кодамо+Adn:та-кодам Indef_Pronouns-Cases ;
+
+та-кона+Det:та-кона _KUDO-Indef_Pronouns-Cases ;
+
+та-зяро+Adv:та-зяро _KUDO-Indef_Pronouns-Cases ;
+
+та-мезе+Det+Dep+Gen:та-мень Indef_Pronouns-K-post ; !This one cannot take prefix
+та-мезе+Pron:та-мезь _OSH-Indef_Pronouns-Cases ;
+та-кие+Pron+Indef:та-ки INDEF-KIE-CASES ;
 
 
 
@@ -941,8 +943,8 @@ LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
 !+Indef+Ela: # ;
 
 LEXICON INDEFINITE-PRON
-@U.INDEF.GAK@мезеяк+Pron+Indef:@U.INDEF.GAK@мезе Indef_Pronouns-Cases ;
-@U.INDEF.BUTI@мезе-бути+Pron+Indef:@U.INDEF.BUTI@мезе Indef_Pronouns-Cases ;
+@U.INDEF.GAK@ INDEF_PRONOUNS-MEZE/KIE-IN-GAK ;
+@U.INDEF.BUTI@ INDEF_PRONOUNS-MEZE/KIE-IN-BUTI ;
 
 !2020-06-03!@U.INDEF.TAGO@таго-мезе+Pron+Indef:@U.INDEF.TAGO@таго-мезе Indef_Pronouns-Cases ;
 !2020-06-03!@U.INDEF.TA@та-мезе+Pron+Indef:@U.INDEF.TA@та-мезе Indef_Pronouns-Cases ;
@@ -951,15 +953,20 @@ LEXICON INDEFINITE-PRON
 @U.INDEF.BUTI@ INDEF_PRONOUNS-IN-BUTI ;
 @U.INDEF.GAK@ INDEF_PRONOUNS-IN-GAK ;
 
-!2020-06-03!@U.INDEF.KOI@ INDEF_PRONOUNS-IN-KOI ;
-!2020-06-03!@U.INDEF.TAGO@ INDEF_PRONOUNS-IN-TAGO ;
-!2020-06-03!@U.INDEF.TA@ INDEF_PRONOUNS-IN-TA ;
+@U.INDEF.KOI@ INDEF_PRONOUNS-IN-KOI ;
+@U.INDEF.TAGO@ INDEF_PRONOUNS-IN-TAGO ;
+@U.INDEF.TA@ INDEF_PRONOUNS-IN-TA ;
 
+!2020-09-14!@U.INDEF.KOI@кой-:@U.INDEF.KOI@кой- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
+!2020-09-14!@U.INDEF.TAGO@таго-:@U.INDEF.TAGO@таго- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
+!2020-09-14!@U.INDEF.TA@та-:@U.INDEF.TA@та- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
 
-@U.INDEF.KOI@кой-:@U.INDEF.KOI@кой- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
-@U.INDEF.TAGO@таго-:@U.INDEF.TAGO@таго- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
-@U.INDEF.TA@та-:@U.INDEF.TA@та- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
-
+LEXICON INDEF_PRONOUNS-MEZE/KIE-IN-GAK
+кияк+Pron+Indef:ки INDEF-KIE-CASES ;
+мезеяк+Pron+Indef:мезе Indef_Pronouns-Cases ;
+LEXICON INDEF_PRONOUNS-MEZE/KIE-IN-BUTI
+кие-бути+Pron+Indef:ки INDEF-KIE-CASES ;
+мезе-бути+Pron+Indef:мезе Indef_Pronouns-Cases ;
 
 LEXICON INDEF_PRONOUNS-IN-BUTI 
 
@@ -1572,6 +1579,11 @@ LEXICON Misc_Pronouns_Pl
 !! DEMONSTRATIVE DERIVATION !!
 LEXICON N2Dem-SE
 +Der+Der/sje+Der+Der/MWN+N:%>се _KUDO-N2-Def-Declension ;
++Der+Der/sje+Der+Der/MWN+N:%>се PRON-DEM-CASE-DERIVATION ;
+LEXICON PRON-DEM-CASE-DERIVATION
++Sg+Abl+Def:%>нденть K ;
++Sg+Ela+Def:%>ньстэнть K ;
++Sg+Ine+Def:%>ньсэнть K ;
 
 LEXICON REL/INTERR_PRONOUNS
 !ко+Pron+Rel:ко Indef_Pronouns-Cases ;
