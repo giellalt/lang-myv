@@ -449,7 +449,6 @@ LEXICON V_myv2x
 ашолдомс+V:ашолд IV_KADOMS  "hohtaa valkoisena" ;
 аштевемс+V:аштев IV_SAEVEMS  "viipyä" ;
 аштевтемс+V:аштевть BV_NEVTEMS  "" ;
-аштека+V:аштека V-IMPRT-SCSG2-DIMIN_  "" ;
 аштекшневемс+V:аштекшнев IV_SAEVEMS  "" ;
 аштекшнемс+V:аштекшн BV_NEKSHNEMS  "olla" ;
 аштемс+V:аште IV_PIDEMS  "olla" ;
@@ -2223,7 +2222,7 @@ LEXICON V_myv2x
 жародомс+V:жарод IV_KADOMS  "" ;
 жарявомс+V:жаряв IV_JANGAVOMS  "paistua" ;
 жарявтомс+V:жарявт BV_SAVTOMS  "" ;
-жарямс+V:жаря IV_KUNDAMS  "paistaa" ;
+жарямс+V:жаря BV_KUNDAMS  "paistaa" ;
 жгутямс+V:жгутя IV_KUNDAMS  "" ;
 жданкадевемс+V:жданкадев IV_SAEVEMS  "" ;
 жданкадевтемс+V:жданкадевть BV_NEVTEMS  "" ;
@@ -2557,7 +2556,6 @@ LEXICON V_myv2x
 ильцемс+V:ильце IV_PIDEMS  "" ;
 ильцядемс+V:ильцядь IV_LEDEMS  "" ;
 ильцяемс+V:ильцяе IV_PIDEMS  "" ;
-иля+V+Aux:иля VA_ILJA  "älä" ;
 илявомс+V:иляв IV_JANGAVOMS  "" ;
 илявтомс+V:илявт BV_SAVTOMS  "" ;
 илязевемс+V:илязев IV_POTAZEVEMS  "" ;
@@ -3257,9 +3255,10 @@ LEXICON V_myv2x
 келетемс+V:келеть IV_LETEMS  "" ;
 кельгевемс+V:кельгев IV_SAEVEMS  "" ;
 кельгекшнемс+V:кельгекшн IV_NEKSHNEMS  "" ;
-кельгемс+V:кельг IV_KADOMS  "mahtua" ;
-кельгенемс+V:кельгене IV_E2ZHNEMS  "" ;
-кельгинимс+V:кельгине IV_KUNDAMS  "" ;
+кельгемс+Hom1+V:кельг IV_KADOMS  "mahtua" ;
+кельгемс+Hom2+V:кельг BV_KADOMS  "kunnioittaa" ;
+кельгенемс+v1+V:кельгене BV_E2ZHNEMS  "" ;
+кельгенемс+v2+V+Err/Orth:кельгине BV_KUNDAMS  "" ;
 кельгитнимс+V:кельгитне IV_KUNDAMS  "" ;
 кельгстнемс+v1+V:кельгстне BV_E2ZHNEMS  "" ;
 кельгстнемс+v2+V+Err/Orth:кельгсне BV_KUNDAMS  "" ;
@@ -8001,8 +8000,8 @@ LEXICON V_myv2x
 реставомс+V:рестав IV_JANGAVOMS  "" ;
 реставрировамс+V:реставрирова IV_KUNDAMS  "restauroida" ;
 реставтомс+V:реставт BV_SAVTOMS  "" ;
-рестакшномс+V:рестакшно IV_KUNDAKSHNOMS  "" ;
-рестамс+V:рӒ4ста IV_KUNDAMS  "paistaa" ;
+рестакшномс+V:рестакшно BV_KUNDAKSHNOMS  "" ;
+рестамс+V:рӒ4ста BV_KUNDAMS  "paistaa" ;
 рестевемс+V:рестев IV_SAEVEMS  "" ;
 рестедевемс+V:рестедев IV_SAEVEMS  "" ;
 рестедевтемс+V:рестедевть BV_NEVTEMS  "" ;
@@ -8686,7 +8685,8 @@ LEXICON V_myv2x
 сталгавтомс+V:сталгавт BV_SAVTOMS  "väsyttää" ;
 сталгадомс+V:сталгад IV_KADOMS  "väsyä" ;
 стамбаргавтомс+V:стамбаргавт BV_SAVTOMS  "" ;
-стамс+V:ста BV_KUNDAMS  "ommella" ;
+стамс+v1+V:ста BV_KUNDAMS  "ommella" ;
+стамс+v2+V+Err/Orth:суста BV_KUNDAMS  "ommella" ;
 стандарировамс+V:стандартирова BV_KUNDAMS  "standardisoida" ;
 стандартизировамс+V:стандартизирова IV_KUNDAMS  "" ;
 стараякшномс+V:стараякшно IV_KUNDAKSHNOMS  "" ;
