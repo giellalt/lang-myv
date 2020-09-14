@@ -95,7 +95,7 @@ for f in $fsttype; do
 ###### Test lemma generation: #######
         # generate lemmas in singular, extract the resulting generated lemma,
         # store it:
-        sed 's/$/+A+Sg+Nom/' $lemmas | $lookup_tool $generator_file.$suffix \
+        sed 's/$/+A+Sg+Nom+Indef/' $lemmas | $lookup_tool $generator_file.$suffix \
             | fgrep -v "+?" | grep -v "^$" | cut -f2 | sort -u \
             > $generated_lemmas.$f.txt 
 
