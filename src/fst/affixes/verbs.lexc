@@ -725,7 +725,7 @@ LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_FRONT
 @P.TRANS.IV@+Der+Der/OvkshnOms+V+IV:@P.TRANS.IV@вкшн V_NEKSHNEMS ;
 @P.TRANS.IV@+Der+Der/Ozevems+V+IV:@P.TRANS.IV@зев V_SAEVEMS ;
 @P.TRANS.IV@+Der+Der/Ozevkshnems+V+IV:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/OzevtOms+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
 @P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtnjems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
 
 
@@ -737,7 +737,7 @@ LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_BACK
 @P.TRANS.IV@+Der+Der/OvkshnOms+V+IV:@P.TRANS.IV@вкшно V_KUNDAMS ;
 @P.TRANS.IV@+Der+Der/Ozevems+V+IV:@P.TRANS.IV@зев V_SAEVEMS ;
 @P.TRANS.IV@+Der+Der/Ozevkshnems+V+IV:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/OzevtOms+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
 @P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtnjems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
 
 !LEXICON DERIVE-V2V-WITHOUT-ONSET-VOWEL
@@ -1090,12 +1090,12 @@ LEXICON VerbsPresPrc_1
 +NomAg+Use/NG+Err/Orth:%>%{иы%} N_KUDO ;
 +Act+PrsPrc+Use/NG+Err/Orth:%>%{иы%} N2Dem-SE ;
 
-+Der+Der/Yks+Act+PrsPrc+A:%>%{иы%}кс K ;
-!+Der+Der/Yks+Act+PrsPrc+A+Clt/Cop+Prs+ScSg3:%>%{иы%}кс K ;
-!+Der+Der/Yks+Act+PrsPrc+A+Clt/Cop+Prs+ScPl3:%>%{иы%}кс%>т%{ЬØ%} K ;
-+Der+Der/Yks+Act+PrsPrc:%>%{иы%}кс N_OSH ;
-+Der+Der/Yks+Act+PrsPrc:%>%{иы%}кс N2Dem-SE ;
-+Der+Der/Yks+Act+PrsPrc:%>%{иы%}ксэ N2Dem-SE ;
+!+Act+PrsPrc+Der+Der/Y+A+SP+Tra+Indef:%>%{иы%}кс K ;
+!!+Der+Der/Yks+Act+PrsPrc+A+Clt/Cop+Prs+ScSg3:%>%{иы%}кс K ;
+!!+Der+Der/Yks+Act+PrsPrc+A+Clt/Cop+Prs+ScPl3:%>%{иы%}кс%>т%{ЬØ%} K ;
+!+Der+Der/Yks+Act+PrsPrc:%>%{иы%}кс N_OSH ;
+!+Der+Der/Yks+Act+PrsPrc:%>%{иы%}кс N2Dem-SE ;
+!+Der+Der/Yks+Act+PrsPrc:%>%{иы%}ксэ N2Dem-SE ;
 
 
 
@@ -1807,7 +1807,7 @@ LEXICON Desiderative-kundams
 
 LEXICON Desiderative-noArrow
 :%{иы%}ксэ DesPrt2-noArrow ;
-+Use/NG+Err/Orth+Dial+Der+Der/ke+Dimin:%{иы%}кске DesPrt2-noArrow ;
++Use/NG+Err/Orth+Dial+Der/Dimin:%{иы%}кске DesPrt2-noArrow ;
 +Use/NG+Err/Orth+Dial:%{иы%}ксы DesPrt2-noArrow ;
 @R.CONJ.ObjAll@ Desiderative1_Obj ;
  @R.CONJ-PX.13@ Desiderative1_Obj ;
@@ -3106,13 +3106,13 @@ LEXICON VerbEnd_ImpK
 LEXICON VerbEnd_lak-ImpK
  VerbEnd_ImpK ;
  VerbEnd_K-lak ;
-!+Use/NG+Err/Orth+Clt/Га:%>KLossГ4а ENDLEX ; 2020-04-06
-+Use/NG+Err/Orth+Clt/Гака:%>KLossГ4ака ENDLEX ;
-+Use/NG+Err/Orth+Clt/Гакая:%>KLossГ4акая ENDLEX ;
-+Use/NG+Err/Orth+Clt/Гая:%>KLossГ4ая ENDLEX ;
-+Use/NG+Err/Orth+Clt/Гаять:%>KLossГ4аять ENDLEX ;
-+Use/NG+Err/Orth+Clt/Гаятя:%>KLossГ4аятя ENDLEX ;
-+Use/NG+Err/Orth+Clt/Гатя:%>KLossГ4атя ENDLEX ;
+!+Use/NG+Err/Orth+Clt/Ga:%>KLossГ4а ENDLEX ; 2020-04-06
++Use/NG+Err/Orth+Clt/Gaka:%>KLossГ4ака ENDLEX ;
++Use/NG+Err/Orth+Clt/Gakaja:%>KLossГ4акая ENDLEX ;
++Use/NG+Err/Orth+Clt/Gaj:%>KLossГ4ая ENDLEX ;
++Use/NG+Err/Orth+Clt/Gajatj:%>KLossГ4аять ENDLEX ;
++Use/NG+Err/Orth+Clt/Gajatja:%>KLossГ4аятя ENDLEX ;
++Use/NG+Err/Orth+Clt/Gatja:%>KLossГ4атя ENDLEX ;
 +Use/NG+Err/Orth+Clt/AddGak:%>KLossГ4ак ENDLEX ;
 
 
