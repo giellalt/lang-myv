@@ -154,6 +154,8 @@ LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
 
 LIST Sur = Sur ;
 LIST Sem/Sur = Sem/Sur ;
+LIST Sem/Fem = Sem/Fem ;
+LIST Sem/Mal = Sem/Mal ;
 
 LIST Sem/Ant = Sem/Ant ;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
@@ -437,6 +439,9 @@ SUBSTITUTE (Hom3) (*) TARGET (*) ;
 SUBSTITUTE (Hom4) (*) TARGET (*) ;
 #
 SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Sur) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
 #
 SUBSTITUTE (IV) (*) TARGET (*) ;
 SUBSTITUTE (TV) (*) TARGET (*) ;
