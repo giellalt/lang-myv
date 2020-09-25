@@ -674,7 +674,7 @@ Rules
 %{ЬØ%}:ь <=>
  [ FTC |:FTV [ %> | :0 | AC ]* CnsNonDent | л ь: ] ( %{frontSoft%}: ) %>  %{КТ%}:т  _  [ # | %- | %>  Г1: ] ;
 [ LFCS | :FTV | ь: ]  ( %{frontSoft%}: ) %>  т  _  [ # | %- | %>  Г1: ] ;
-[ LFCS | :FTV |:BTV | ь: ]  ( HarmDummies: ) %> %{dialM%}: [т| с]  _  [ # | %- | %>  Г1: ] ;
+[ LFCS | :FTV |:BTV | ь: ]  ( HarmDummies: ) (%> %^NoLinkVow:) %> %{dialM%}: [т| с]  _  [ # | %- | %>  Г1: ] ;
 !! кал+N+Sg+Nom+Def: __fish/kala__
 !!€ кал>{dialM}с{ЬØ}
 !!€ кал>0с0
@@ -696,7 +696,7 @@ Rules
  %{ЬØ%}:0 <=>
  [ LFCH (%{frontHard%}:) | :FTV (HarmDummies:) | LBCCns  (%{backHard%}:|%{back%}:) | :BTV (%{back%}:) ] %> %{КТ%}:  _  [ # | %- | %>  Г1: ] ;
  [ LFCH (%{frontHard%}:) | LBCCns (%{backHard%}:|%{back%}:) | :BTV (%{back%}:) ] %> т  _  [ # | %- | %>  Г1: ] ;
- [ LFCH (%{frontHard%}:) | LBCCns (%{backHard%}:|%{back%}: ) ] %> %{dialM%}: [т| с]  _  [ # | %- | %>  Г1: ] ;
+ [ LFCH (%{frontHard%}:) | LBCCns (%{backHard%}:|%{back%}: ) ] (%> %^NoLinkVow:) %> %{dialM%}: [т| с]  _  [ # | %- | %>  Г1: ] ;
 
 #  [  LFCH | :BTV ] (%{frontHard%}: | %{back%}: | %{backHard%}: ) %> [ %{оеэØ%}:0 | %{оеэØ%}:о ] [ н | ( н | в ) т ] _  [ # | %- | %>  Г1: ] ;
 
