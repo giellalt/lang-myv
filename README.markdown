@@ -22,7 +22,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/myvdoc/index.html>
+-   <https://giellalt.uit.no/lang/myv/ErzyaDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
