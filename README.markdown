@@ -17,6 +17,11 @@ Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-myv)
 for the Erzya language by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
+Cite
+------
+
+Rueter, J., Hämäläinen, M., & Partanen, N. (2020). [Open-Source Morphology for Endangered Mordvinic Languages](https://www.aclweb.org/anthology/2020.nlposs-1.13/). In Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) (pp. 94–100). The Association for Computational Linguistics.
+
 Documentation
 -------------
 
