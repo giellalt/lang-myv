@@ -29,6 +29,7 @@ jobs:
         uses: divvun/actions/lang/build@master
         with:
           fst: hfst
+          force-desktop-spellers-as-mobile: true
       - name: Upload spellers
         uses: actions/upload-artifact@v2
         with:
