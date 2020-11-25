@@ -232,6 +232,8 @@ LIST PxPl3 = PxPl3 ;
 
 LIST PXPERSON = PxSg1 PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ; 
 
+LIST PXPERSONNOMGEN = PxSg1 PxSg2 PxPl1 PxPl2 PxPl3 ;
+
 LIST Comp = Comp ;
 LIST Superl = Superl ;
 
@@ -451,6 +453,9 @@ REMOVE Err/Orth ; # If any other reading is possible.
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
+
+# иляка ветя
+REMOVE:LeaveImpOrPrecNeg ("илямс") IF (0 Aux + Neg) (1 ConNeg) ;
 
 # пельнеть
 REMOVE Der/Dimin (0C N ) ;
@@ -729,6 +734,9 @@ SELECT CC IF (0 CC) (-1 ANT + Sg + Nom ) (1 ANT + Pl + Nom ) ;
 
 # Select the postposition марто when it is preceded by genitive definite 
 SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
+
+# Иванка прась можот тонь кедеть лангс
+REMOVE:RelatorWithNomPx Nom IF (0 PXPERSONNOMGEN) (1 Relator);
 
 # пандо лангсо
 REMOVE:NoAblPrecedingLangS Abl IF (0 Nom OR Gen) (1 RELATORSNomGen ) ; 
