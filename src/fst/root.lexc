@@ -24,20 +24,16 @@ Multichar_Symbols
 
 ! list of multichar symbols in use in the code, perhaps missing ones:
 
-+Clt/Gaj
-+Der/ms
-+Event
-+Nom2
-+OrthPhon
-+Relational
-+Rvr
+!+Clt/Gaj
+
+!+Relational
+!+Rvr
+
+
+!@U.CONJ-PX.6%
+!@а
+
 +SLoss
-@P.KLOSS.ON
-@R.KLOSS.ON
-@U.CONJ-PX.6%
-@U.CONJ-TX.PRET1
-@U.CONJ-TX.PRET2
-@а
 
 
 
@@ -611,6 +607,7 @@ Multichar_Symbols
         !!  possible to target derivations as a class e.g. in regular expressions etc
 +Der/VtOmO    !!≈ * @CODE@ 
 +Der/stO !!≈ * @CODE@ Deriving adverbs from adjectives A2Adv
++Der/ms  !!≈ * @CODE@ эрзямс эрзя, истямс истя, вадрямс вадря
 +Der/shka    !!≈ * @CODE@ 
 +Der/GenAttr +Der/Onj !!≈ * @CODE@ genitive attribute derivation of non-nouns
 +Der/aj !!≈ * @CODE@ vocative
@@ -961,17 +958,17 @@ ZERO  !!≈ * @CODE@
  @U.CONJ-POSS.3ACC@ !!≈ * @CODE@ 
 
 ! PX = person
- @U.CONJ-PX.1Ø@ !!≈ * @CODE@ 
+ @U.CONJ-PX.10@ !!≈ * @CODE@ 
  @U.CONJ-PX.12@ !!≈ * @CODE@ 
  @U.CONJ-PX.13@ !!≈ * @CODE@ 
  @U.CONJ-PX.15@ !!≈ * @CODE@ 
  @U.CONJ-PX.16@ !!≈ * @CODE@ 
- @U.CONJ-PX.2Ø@ !!≈ * @CODE@ 
+ @U.CONJ-PX.20@ !!≈ * @CODE@ 
  @U.CONJ-PX.21@ !!≈ * @CODE@ 
  @U.CONJ-PX.23@ !!≈ * @CODE@ 
  @U.CONJ-PX.24@ !!≈ * @CODE@ 
  @U.CONJ-PX.26@ !!≈ * @CODE@ 
- @U.CONJ-PX.3Ø@ !!≈ * @CODE@ 
+ @U.CONJ-PX.30@ !!≈ * @CODE@ 
  @U.CONJ-PX.31@ !!≈ * @CODE@ 
  @U.CONJ-PX.32@ !!≈ * @CODE@ 
  @U.CONJ-PX.33@ !!≈ * @CODE@ 
@@ -979,19 +976,19 @@ ZERO  !!≈ * @CODE@
  @U.CONJ-PX.35@ !!≈ * @CODE@ 
  @U.CONJ-PX.36@ !!≈ * @CODE@ 
 
- @U.CONJ-PX.4Ø@ !!≈ * @CODE@ 
+ @U.CONJ-PX.40@ !!≈ * @CODE@ 
  @U.CONJ-PX.42@ !!≈ * @CODE@ 
  @U.CONJ-PX.43@ !!≈ * @CODE@ 
  @U.CONJ-PX.45@ !!≈ * @CODE@ 
  @U.CONJ-PX.46@ !!≈ * @CODE@ 
 
- @U.CONJ-PX.5Ø@ !!≈ * @CODE@ 
+ @U.CONJ-PX.50@ !!≈ * @CODE@ 
  @U.CONJ-PX.51@ !!≈ * @CODE@ 
  @U.CONJ-PX.53@ !!≈ * @CODE@ 
  @U.CONJ-PX.54@ !!≈ * @CODE@ 
  @U.CONJ-PX.56@ !!≈ * @CODE@ 
 
- @U.CONJ-PX.6Ø@ !!≈ * @CODE@ 
+ @U.CONJ-PX.60@ !!≈ * @CODE@ 
  @U.CONJ-PX.61@ !!≈ * @CODE@ 
  @U.CONJ-PX.62@ !!≈ * @CODE@ 
  @U.CONJ-PX.63@ !!≈ * @CODE@ 
@@ -1050,6 +1047,13 @@ ZERO  !!≈ * @CODE@
  @D.TNUM.SG@ !!≈ * @CODE@ 
  @D.TNUM.PL@ !!≈ * @CODE@ 
  @C.TNUM@ !!≈ * @CODE@ 
+
+!! problematic
+@P.KLOSS.ON@
+@R.KLOSS.ON@
+@U.CONJ-TX.PRET1@
+@U.CONJ-TX.PRET2@
+
 
  @P.TPERS.1@ !!≈ * @CODE@ 
  @P.TPERS.2@ !!≈ * @CODE@ 
