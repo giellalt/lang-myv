@@ -347,6 +347,7 @@ LIST Der/OvtOms = Der/OvtOms ; #Der/ОвтОмс
 LIST Der/ОвтОмс = Der/ОвтОмс ;
 LIST Der/Dimin = Der/Dimin ;
 
+LIST Der = Der ;
 LIST Der/MWN = Der/MWN (der subst) ;
 LIST Der/Dem = Der/Dem ;
 LIST Der/Pr = Der/Pr ;
@@ -544,7 +545,10 @@ REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT
 
 #Prolative
 #^кудованть/кудо<n><sg><prl><def>/кудо<n><sp><prl><ind><der><subst><sg><gen><def>
-REMOVE Prl + Indef + Der/MWN IF (0 Sg + Prl + Def) ((-1* ("якамс") BARRIER BOS) OR (1* ("якамс") BARRIER EOS)) ;
+REMOVE Prl + Indef + Der + Der/MWN IF (0 Sg + Prl + Def) ((-1* ("якамс") BARRIER BOS) OR (1* ("якамс") BARRIER EOS)) ;
+
+#цёрась якась кудованть
+REMOVE Der/MWN + N + Sg + Gen  IF (0 Sg + Prl + Def);
 
 #  Истя Марянь кевкстемазо лияды апак пандо.
 REMOVE Der/NomAct IF (0C N)(0 Nom)(0 PXPERSON) ;
