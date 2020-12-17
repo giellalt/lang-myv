@@ -548,7 +548,7 @@ REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT
 REMOVE Prl + Indef + Der + Der/MWN IF (0 Sg + Prl + Def) ((-1* ("якамс") BARRIER BOS) OR (1* ("якамс") BARRIER EOS)) ;
 
 #цёрась якась кудованть
-REMOVE Der/MWN + N + Sg + Gen  IF (0 Sg + Prl + Def);
+REMOVE  SP + Prl + Indef  IF (0 Sg + Prl + Def);
 
 #  Истя Марянь кевкстемазо лияды апак пандо.
 REMOVE Der/NomAct IF (0C N)(0 Nom)(0 PXPERSON) ;
