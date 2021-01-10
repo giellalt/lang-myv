@@ -726,9 +726,13 @@ Rules
 !Ablative d/t
 "d:t"
 !! __@RULENAME@__  
-д:т  <=> [ CnsVoiceless | д | г] (ь:0)  %> _ [О1:е|О1:э|О1:о] ;
+д:т  <=> [ CnsVoiceless | д | г] (ь:0) (HarmDummies:)  %> _ [О1:е|О1:э|О1:о] ;
 !!€ кедь%>дО1
 !!€ кед0%>те
+!!€ обед%{frontHard%}%>дО1
+!!€ обед0%>тэ
+!!$ обед%{frontHard%}%>дО1
+!!$ обед0%>дэ
 !         т [ И2:0 ] %> VLoss:0 _ [О1:е|О1:э|О1:о] ;
 !Word final Vowels
 
