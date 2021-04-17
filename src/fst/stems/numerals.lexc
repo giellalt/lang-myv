@@ -3,7 +3,7 @@
 ! Arabic numerals
 ! ---------------
 
-LEXICON numerals   !!= * __@CODE@__
+LEXICON numerals   !!= * **@CODE@**
  +Use/Circ: ARABIC ;          ! for the arabic numerals        !
  +Use/Circ: ROMAN ;           ! for the roman numerals         !
  +Use/Circ: NUM-PREFIXES ;    ! for §34 etc.                   !
@@ -11,7 +11,7 @@ LEXICON numerals   !!= * __@CODE@__
 
 
 
-LEXICON NUM-PREFIXES   !!= * __@CODE@__
+LEXICON NUM-PREFIXES   !!= * **@CODE@**
  §+Use/Circ:§       ARABIC ; ! §24
  §§+Use/Circ:§§     ARABIC ; ! §§24
  §% +Use/Circ:§%    ARABIC ; ! § 24
@@ -35,13 +35,13 @@ LEXICON NUM-PREFIXES   !!= * __@CODE@__
  %>+Use/Circ:%[%>%] ARABIC ; ! >24
  s%.+Use/Circ:s%. ARABIC ; ! s.24
 
-LEXICON ARABIC   !!= * __@CODE@__
+LEXICON ARABIC   !!= * **@CODE@**
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOP ;
 < [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPORD ;
 !< [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPCOLL ;
 !< [1|2|3|4|5|6|7|8|9|%0] > ARABICLOOPphone ;
 
-LEXICON ARABICLOOP   !!= * __@CODE@__
+LEXICON ARABICLOOP   !!= * **@CODE@**
  +Use/Circ: ARABIC ;
  %-+Use/Circ:%- ARABIC ; ! 1-2 multipart numbers
  %–+Use/Circ:%– ARABIC ; ! 1–2 multipart numbers
@@ -79,45 +79,45 @@ LEXICON ARABICLOOP   !!= * __@CODE@__
   % %%+Use/Circ:% %%  ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
   ARABICDELIMITER ; ! list of number-case delimiters
 
-LEXICON ARABICLOOPORD   !!= * __@CODE@__
+LEXICON ARABICLOOPORD   !!= * **@CODE@**
  +A+Ord+Use/Circ: ARABICDELIMITERORD ;
  < [a|b|c|d|e|f|f %  f] > ACASETAG ;
 
-LEXICON ACASETAG   !!= * __@CODE@__  is for 1e+Num+Sg+Num:1e
+LEXICON ACASETAG   !!= * **@CODE@**  is for 1e+Num+Sg+Num:1e
 +Num: # ;
 
 
-LEXICON ARABICDELIMITER   !!= * __@CODE@__  blank + 3 delim, what does the lg counc prefer?
+LEXICON ARABICDELIMITER   !!= * **@CODE@**  blank + 3 delim, what does the lg counc prefer?
  +Num:           # ; ! This is the 1984 case, ie NGA
 
-LEXICON ARABICDELIMITERORD   !!= * __@CODE@__
+LEXICON ARABICDELIMITERORD   !!= * **@CODE@**
 :%-це         NMN_KUDO ; ! declines
 
 
 ! The Roman numerals !
 ! ------------------ !
 
-LEXICON ROMAN   !!= * __@CODE@__ 
+LEXICON ROMAN   !!= * **@CODE@** 
  +Use/Circ: ROM-THOUSAND ; !
  +Use/Circ: ROM-HUNDRED ; !
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ; !
 
-LEXICON ROM-THOUSAND   !!= * __@CODE@__ 
+LEXICON ROM-THOUSAND   !!= * **@CODE@** 
  M+Use/Circ:M ROM-THOUSAND-TAG; !
  MM+Use/Circ:MM ROM-THOUSAND-TAG; !
  MMM+Use/Circ:MMM ROM-THOUSAND-TAG; !
  MMMM+Use/Circ:MMMM ROM-THOUSAND-TAG; !
  MMMMM+Use/Circ:MMMMM ROM-THOUSAND-TAG; !
 
-LEXICON ROM-THOUSAND-TAG   !!= * __@CODE@__ 
+LEXICON ROM-THOUSAND-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: ROM-HUNDRED ; !
  +Use/Circ: ROM-TEN ;				!
  +Use/Circ: ROM-ONE ;				!
  +Use/Circ: ROM-SPLIT ; !
 
-LEXICON ROM-HUNDRED   !!= * __@CODE@__ 
+LEXICON ROM-HUNDRED   !!= * **@CODE@** 
  C+Use/Circ:C ROM-HUNDRED-TAG; !
  CC+Use/Circ:CC ROM-HUNDRED-TAG; !
  CCC+Use/Circ:CCC ROM-HUNDRED-TAG; !
@@ -128,13 +128,13 @@ LEXICON ROM-HUNDRED   !!= * __@CODE@__
  DCCC+Use/Circ:DCCC ROM-HUNDRED-TAG; !
  CM+Use/Circ:CM ROM-HUNDRED-TAG; !
 
-LEXICON ROM-HUNDRED-TAG   !!= * __@CODE@__ 
+LEXICON ROM-HUNDRED-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: ROM-TEN ; !
  +Use/Circ: ROM-ONE ;				!
  +Use/Circ: ROM-SPLIT ; !
 
-LEXICON ROM-TEN   !!= * __@CODE@__ 
+LEXICON ROM-TEN   !!= * **@CODE@** 
  X+Use/Circ:X ROM-TEN-TAG; !
  XX+Use/Circ:XX ROM-TEN-TAG; !
  XXX+Use/Circ:XXX ROM-TEN-TAG; !
@@ -145,12 +145,12 @@ LEXICON ROM-TEN   !!= * __@CODE@__
  LXXX+Use/Circ:LXXX ROM-TEN-TAG; !
  XC+Use/Circ:XC ROM-TEN-TAG; !
 
-LEXICON ROM-TEN-TAG   !!= * __@CODE@__ 
+LEXICON ROM-TEN-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: ROM-ONE ; !
  +Use/Circ: ROM-SPLIT ; !
 
-LEXICON ROM-ONE   !!= * __@CODE@__ 
+LEXICON ROM-ONE   !!= * **@CODE@** 
  I+Use/Circ:I ROM-ONE-TAG; !
  II+Use/Circ:II ROM-ONE-TAG; !
  III+Use/Circ:III ROM-ONE-TAG; !
@@ -161,7 +161,7 @@ LEXICON ROM-ONE   !!= * __@CODE@__
  VIII+Use/Circ:VIII ROM-ONE-TAG; !
  IX+Use/Circ:IX ROM-ONE-TAG; !
 
-LEXICON ROM-ONE-TAG   !!= * __@CODE@__ 
+LEXICON ROM-ONE-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
 ! +N: ROMNUMTAG ; ! !The Olav viđeš fix (Roman V now gets A)
  +Use/Circ: ROM-SPLIT ; !
@@ -173,32 +173,32 @@ LEXICON ROM-ONE-TAG   !!= * __@CODE@__
 ! like "II-IV-VI-VII-IX". If that should turn out to be a good idea, a loop would do the
 ! trick.
 
-LEXICON ROM-SPLIT   !!= * __@CODE@__ 
+LEXICON ROM-SPLIT   !!= * **@CODE@** 
  +Use/Circ:%- 2ROMAN ; ! II-VI, etc. !
 
 
 ! Here goes loop 2.
 
-LEXICON 2ROMAN   !!= * __@CODE@__ 
+LEXICON 2ROMAN   !!= * **@CODE@** 
  +Use/Circ: 2ROM-THOUSAND ; !
  +Use/Circ: 2ROM-HUNDRED ; !
  +Use/Circ: 2ROM-TEN ; !
  +Use/Circ: 2ROM-ONE ; !
 
-LEXICON 2ROM-THOUSAND   !!= * __@CODE@__ 
+LEXICON 2ROM-THOUSAND   !!= * **@CODE@** 
  M+Use/Circ:M 2ROM-THOUSAND-TAG; !
  MM+Use/Circ:MM 2ROM-THOUSAND-TAG; !
  MMM+Use/Circ:MMM 2ROM-THOUSAND-TAG; !
  MMMM+Use/Circ:MMMM 2ROM-THOUSAND-TAG; !
  MMMMM+Use/Circ:MMMMM 2ROM-THOUSAND-TAG; !
 
-LEXICON 2ROM-THOUSAND-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-THOUSAND-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: 2ROM-HUNDRED ; !
  +Use/Circ: 2ROM-TEN ;				 !
  +Use/Circ: 2ROM-ONE ;				!
 
-LEXICON 2ROM-HUNDRED   !!= * __@CODE@__ 
+LEXICON 2ROM-HUNDRED   !!= * **@CODE@** 
  C+Use/Circ:C 2ROM-HUNDRED-TAG; !
  CC+Use/Circ:CC 2ROM-HUNDRED-TAG; !
  CCC+Use/Circ:CCC 2ROM-HUNDRED-TAG; !
@@ -209,11 +209,11 @@ LEXICON 2ROM-HUNDRED   !!= * __@CODE@__
  DCCC+Use/Circ:DCCC 2ROM-HUNDRED-TAG; !
  CM+Use/Circ:CM 2ROM-HUNDRED-TAG; !
 
-LEXICON 2ROM-HUNDRED-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-HUNDRED-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: 2ROM-TEN ; !
  +Use/Circ: 2ROM-ONE ;				!
-LEXICON 2ROM-TEN   !!= * __@CODE@__ 
+LEXICON 2ROM-TEN   !!= * **@CODE@** 
  X+Use/Circ:X 2ROM-TEN-TAG; !
  XX+Use/Circ:XX 2ROM-TEN-TAG; !
  XXX+Use/Circ:XXX 2ROM-TEN-TAG; !
@@ -224,11 +224,11 @@ LEXICON 2ROM-TEN   !!= * __@CODE@__
  LXXX+Use/Circ:LXXX 2ROM-TEN-TAG; !
  XC+Use/Circ:XC 2ROM-TEN-TAG; !
 
-LEXICON 2ROM-TEN-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-TEN-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
  +Use/Circ: 2ROM-ONE ; !
 
-LEXICON 2ROM-ONE   !!= * __@CODE@__ 
+LEXICON 2ROM-ONE   !!= * **@CODE@** 
  I+Use/Circ:I 2ROM-ONE-TAG; !
  II+Use/Circ:II 2ROM-ONE-TAG; !
  III+Use/Circ:III 2ROM-ONE-TAG; !
@@ -239,10 +239,10 @@ LEXICON 2ROM-ONE   !!= * __@CODE@__
  VIII+Use/Circ:VIII 2ROM-ONE-TAG; !
  IX+Use/Circ:IX 2ROM-ONE-TAG; !
 
-LEXICON 2ROM-ONE-TAG   !!= * __@CODE@__ 
+LEXICON 2ROM-ONE-TAG   !!= * **@CODE@** 
  +Use/Circ: ROMNUMTAG ; !
 
-LEXICON ROMNUMTAG   !!= * __@CODE@__
+LEXICON ROMNUMTAG   !!= * **@CODE@**
  +Num+Nom+Use/Circ:%> # ; !
  +Num+Gen+Use/Circ:%> # ; !
 
@@ -250,7 +250,7 @@ LEXICON ROMNUMTAG   !!= * __@CODE@__
 ! A final section with some isolated numeral expresssions !
 ! ------------------------------------------------------- !
 
-LEXICON ISOLATED-NUMEXP   !!= * __@CODE@__
+LEXICON ISOLATED-NUMEXP   !!= * **@CODE@**
  ½+Num:½ # ;
  ¹+Num:¹ # ;
  ²+Num:² # ;

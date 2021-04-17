@@ -46,7 +46,7 @@
 
 
 # =============== #
-#!! !!!DELIMITERS 
+#!! # DELIMITERS 
 # =============== #
 SUBREADINGS = LTR ;
 
@@ -55,11 +55,11 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";
 #PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
 
 # ================== #
-#!! !!!TAGS AND SETS
+#!! # TAGS AND SETS
 # ================== #
 
 
-#!! !!Sets containing lists of tags
+#!! ## Sets containing lists of tags
 
 SETS
 
@@ -410,7 +410,7 @@ LIST NMNNB = Sg Pl SP ;
 
 SET WORD = N | V | A | Po | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
-#!! !Derivation tags
+#!! ### Derivation tags
 LIST 2VDerTag = Der/njems Der/немс Der/OvtOms ; #!! 2VDerTag
 LIST 2NDerTag = Der/кс ; #!! 2NDerTag
 LIST DerGenAttr = Der/GenAttr ;

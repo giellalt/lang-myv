@@ -1,4 +1,4 @@
-!! !!!Noun inflection
+!! # Noun inflection
 
 !! Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
 
@@ -9,7 +9,7 @@
 !+SP+Com+Indef: #;
 
 
-!! !!KINSHIP 
+!! ## KINSHIP 
 
 !LEXICON N-KIN_KAL
 !@P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KAL ;
@@ -64,7 +64,7 @@ LEXICON N-KIN_KUDO
  N-KIN ;
 
 
-!! !!HUMAN 
+!! ## HUMAN 
 
 LEXICON N-HUM_KAL
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KAL ;
@@ -124,7 +124,7 @@ LEXICON N-HUM_OSH
 LEXICON N-HUM_KUDO
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KUDO ;
 
-!! !!PLACE 
+!! ## PLACE 
 !LEXICON N_KAL_PLC
 !N-PLC_KAL ;
 !LEXICON N-PLC_KAL
@@ -222,7 +222,7 @@ LEXICON N-HUM_KUDO
 !@P.POS.N@+Sem/Plc:@P.POS.N@ NMN_KUDO ;
 !@P.POS.N@@U.DECL-NX.SP@+Sem/Plc:@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
-!! !!LATIVE 
+!! ## LATIVE 
 !LEXICON N_KAL-LAT
 ! N_KAL ;
 !@P.POS.N@@U.DECL-NX.SP@+Sem/Plc:@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
@@ -279,7 +279,7 @@ LEXICON N-HUM_KUDO
 ! N_KUDO ;
 !@P.POS.N@@U.DECL-NX.SP@+Sem/Plc:@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
-!! !!VOCATIVE
+!! ## VOCATIVE
 LEXICON N_READY-VOC
 @P.POS.N@+Sem/Hum+Voc:@P.POS.N@ # ;
 LEXICON N_KAJ_HUMVOC
@@ -300,14 +300,14 @@ LEXICON N_AJ_KINVOC
 !LEXICON N_KINVOC
 !@P.POS.N@!+Sem/Kin+Voc:@P.POS.N@ # ;
 
-!! !!NAMES OF MONTHS
+!! ## NAMES OF MONTHS
 !LEXICON N-MONTHS_KAL_SUB
 !+Sem/Mnth+Use/NG+Err/Orth: NMN_KAL ;
 
 !LEXICON N-MONTHS_LAV
 !+Sem/Mnth: NMN_LAV ;
 
-!! !!COMMON NOUNS 
+!! ## COMMON NOUNS 
 
 LEXICON N_KAL
 @P.POS.N@:@P.POS.N@ NMN_KAL ;
@@ -740,7 +740,7 @@ LEXICON NMN_TINGE-OTHER-FORMS
  DAT-INDEF ;
  GEN-INDEF ;
  PRL-INDEF ;
- TMP-INDEF ; !!= * __@CODE@__ Check this
+ TMP-INDEF ; !!= * **@CODE@** Check this
  TRA-INDEF ;
  ABE-PX ;
  ABL-PX ;
@@ -761,7 +761,7 @@ LEXICON NMN_KUDO
  _KUDO-Indef-Declension ;
  N_KUDO-Poss-Declension-CX ;
 
-LEXICON NMN_KUDO-PL !!= * __@CODE@__ This needs checking 2013-03-27
+LEXICON NMN_KUDO-PL !!= * **@CODE@** This needs checking 2013-03-27
  N_KUDO-Derivation ;
  NMN_DEF-PL-DECLENSION ;
  _KUDO-Indef-Declension-PL ;
@@ -816,7 +816,7 @@ LEXICON N_KAL-Derivation
 +Pl+Abe+Def+Der+Der/MWN+N:%>тнЕ3%>втеме _KUDO-N2-Def-Declension ;
 +Pl+Tra+Def+Der+Der/MWN+N:%>тнЕ3%>кс _OSH-N2-Def-Declension ;
 
-+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +SP+Ela+Indef:%>ст%{оэØ%} N2Dem-SE ;
 +SP+Ine+Indef:%>с%{оэØ%} N2Dem-SE ;
 +SP+Prl+Indef:%>Г2а N2Dem-SE ;
@@ -826,19 +826,19 @@ LEXICON N_KAL-Derivation
 +SP+Tra+Indef:%>кс%>%{оеэØ%} N2Dem-SE ;
 
 
-+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Pl+Ela+Def:%>тнЕ3%>стэ N2Dem-SE ;
 +Pl+Ine+Def:%>тнЕ3%>сэ N2Dem-SE ;
 +Pl+Prl+Def:%>тнЕ3%>Г2а N2Dem-SE ;
@@ -908,7 +908,7 @@ LEXICON N_KEL1-Derivation
 +Pl+Cmpr+Def+Der+Der/MWN+N:%>тне%>шка _KUDO-N2-Def-Declension_BACK ;
 +Pl+Abe+Def+Der+Der/MWN+N:%>тне%>втеме _KUDO-N2-Def-Declension_FRONT ;
 +Pl+Tra+Def+Der+Der/MWN+N:%>тне%>кс _OSH-N2-Def-Declension ;
-+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +SP+Ela+Indef:%>ст%{оэØ%} N2Dem-SE ;
 +SP+Ine+Indef:%>с%{оэØ%} N2Dem-SE ;
 +SP+Prl+Indef:%>га N2Dem-SE ;
@@ -917,19 +917,19 @@ LEXICON N_KEL1-Derivation
 +SP+Tra+Indef:%>кс N2Dem-SE ;!CHECKME 2019-01-26
 +SP+Tra+Indef:%>кс%>%{оеэØ%} N2Dem-SE ;
 
-+Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ine+Def:%>сэ%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Prl+Def:%>га%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Cmpr+Def:%^Ь2ZERO%>ешка%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Abe+Def:%>теме%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>стэ%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>сэ%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>га%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%^Ь2ZERO%>ешка%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def:%>сэ%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Prl+Def:%>га%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Cmpr+Def:%^Ь2ZERO%>ешка%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Abe+Def:%>теме%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>стэ%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>сэ%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>га%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%^Ь2ZERO%>ешка%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
 +Pl+Ela+Def:%>тне%>стэ N2Dem-SE ;
 +Pl+Ine+Def:%>тне%>сэ N2Dem-SE ;
@@ -957,10 +957,10 @@ LEXICON N_KLASS-Derivation
 +SLoss+SP+Ela:%>SLossст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 +SLoss+SP+Ine:%>SLossс%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 
-+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
 
 LEXICON N_OSH-Derivation
@@ -980,10 +980,10 @@ LEXICON N_OSH-Derivation
 +SP+Ela:%>%{оеэØ%}%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 +SP+Ine:%>%{оеэØ%}%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 
-+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
-+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
 LEXICON N_PANGO-Derivation
  N_KUDO-Derivation ;
@@ -1035,7 +1035,7 @@ LEXICON N_KUDO-Derivation-noArrow
 +Pl+Abe+Def+Der+Der/MWN+N:%>тнЕ3%>втеме _KUDO-N2-Def-Declension ;
 +Pl+Tra+Def+Der+Der/MWN+N:%>тнЕ3%>кс _OSH-N2-Def-Declension ;
 
-+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; !!= * __@CODE@__ _ь_ retension through double %>%>
++SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
 +SP+Ela+Indef:%>ст%{оэØ%} N2Dem-SE ;
 +SP+Ine+Indef:%>с%{оэØ%} N2Dem-SE ;
@@ -1369,7 +1369,7 @@ LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-BACK-VOW
 : NMN_DEF-PL-DECLENSION ;
 
 
-!! !!DEFINITE SINGULAR TAGS 
+!! ## DEFINITE SINGULAR TAGS 
 
 LEXICON SG-NOM-DEF
 !!€gt-norm: Noun singular nominative definite
@@ -1459,7 +1459,7 @@ LEXICON SG-TRA-DEF_Dial-NW
 
 
 
-!! !!INDEFINITE DECLENSION
+!! ## INDEFINITE DECLENSION
 
 LEXICON _KIT-Indef-Declension
 ! _KIT-Indef-Declension-SG ;
@@ -1624,7 +1624,7 @@ LEXICON _MUTUAL-Indef-Declension-SP
  INE-INDEF ;
  LAT-INDEF ;
  PRL-INDEF ;
- TMP-INDEF ; !!= * __@CODE@__ Check this
+ TMP-INDEF ; !!= * **@CODE@** Check this
  TRA-INDEF ;
 !GEN-INDEF-LIKE-DERIVATION ; 2017-03-11 These should be taken care of with a simple N.SP.Gen.Indef
 
@@ -1634,7 +1634,7 @@ ELA-INDEF ;
 ILL-INDEF ;
 INE-INDEF ;
 
-!! !!INDEFINITE TAGS
+!! ## INDEFINITE TAGS
 LEXICON ABE-INDEF
 @U.DECL-NX.SP@@U.CX.ABE@+SP+Abe+Indef:@U.DECL-NX.SP@@U.CX.ABE@%>вт%{оеэ%}мО1 _KUDO-Conjugation ;
 
@@ -1731,7 +1731,7 @@ LEXICON PL-NOM-INDEF
 
 
 
-!! !!POSSESSIVE DECLENSION 
+!! ## POSSESSIVE DECLENSION 
 
 
 LEXICON N_KAL-Poss-Declension-CX
@@ -1832,7 +1832,7 @@ LEXICON N_KUDO-Poss-Declension-CX-Mutual
 
 
 
-!! !!CASES BEFORE POSSESSIVE TAGS 
+!! ## CASES BEFORE POSSESSIVE TAGS 
 
 LEXICON ABE-PX
 +SP+Abe:%>вт%{оеэ%}мО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
@@ -1865,7 +1865,7 @@ LEXICON TRA-PX
 
 
 
-!! !!DEFINITE PLURAL
+!! ## DEFINITE PLURAL
 
 
 LEXICON NMN_DEF-PL-DECLENSION
@@ -1885,7 +1885,7 @@ LEXICON NMN_DEF-PL-DECLENSION
 @U.DECL-NX.PL@@U.CX.LAT@@U.DECL-DX.DEF@+Pl+Lat+Def:@U.DECL-NX.PL@@U.CX.LAT@@U.DECL-DX.DEF@%>тнЕ3%>в K ;
 @U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@+Use/NG+Err/Orth+Dial/NW+Pl+Com+Def:@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@%>тнЕ3%>нек NounEnd_K-lak ;
 
-!! !!Cases for тнэ
+!! ## Cases for тнэ
 LEXICON NMN_DEF-PL-DECLENSION-TNE2
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@тнэ _KUDO-NomPl-Conjugation ;
 @U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@тнэ%>нь K ;
@@ -2151,7 +2151,7 @@ LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
 :%' PROP_KUDO ;
 
 
-!! !!POSSESSIVE marking followed by clitics
+!! ## POSSESSIVE marking followed by clitics
 
 !LEXICON _OSH-Possessive-Before-K-or-K 
 ! K ;
