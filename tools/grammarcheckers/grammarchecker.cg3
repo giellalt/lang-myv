@@ -14,7 +14,7 @@
 # giellatekno@hum.uit.no or divvun@hum.uit.no
 
 # ==================================================================== #
-#!! !!!        E R Z Y A    G R A M M A R   C H E C K E R
+#!!        E R Z Y A    G R A M M A R   C H E C K E R
 # ==================================================================== #
 # ====================================================================
 
@@ -61,13 +61,13 @@
       # Grammar checking rules
 
 # =============== #
-#!! !!!DELIMITERS
+#!! # DELIMITERS
 # =============== #
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" sent ;
 
 # ================== #
-#!! !!!TAGS AND SETS
+#!! # TAGS AND SETS
 # ================== #
 
 SETS
@@ -386,7 +386,7 @@ LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ;
 
 SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
-#!! !Derivation tags
+#!! ### Derivation tags
 LIST 2VDerTag = Der/немс ; #!! 2VDerTag
 LIST 2NDerTag = Der/кс ; #!! 2NDerTag
 LIST DerGenAttr = Der/GenAttr ;
@@ -404,7 +404,7 @@ SET COMMON-N = N - Prop ;
 
 
 
-#!! !Grammarchecker sets
+#!! ### Grammarchecker sets
 
 LIST &err-agr = &err-agr ;
 LIST &err-gen-po = &err-gen-po ;
