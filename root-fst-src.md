@@ -25,26 +25,26 @@ in this system in terms of following symbols.
 
 ## The parts-of-speech are:
 
- * +A 	 adjective
- * +Adp 	 adposition
- * +Adv 	 adverb
- * +CS 	 subordinating conjunction
- * +CC 	 coordinating conjunction
- * +Det 	 determiner
+ * +A adjective
+ * +Adp adposition
+ * +Adv adverb
+ * +CS subordinating conjunction
+ * +CC coordinating conjunction
+ * +Det determiner
  * +Descr descriptive
  * +Interj interjection
- * +N 	 noun
- * +Num 	 numerals
- * +Pcle 	 particle
- * +Po 	 postposition
- * +Pr 	 preposition (in Russian loans)
- * +Pron 	 pronoun
- * +Qnt 	 quantifier
- * +V 	 verb
+ * +N noun
+ * +Num numerals
+ * +Pcle particle
+ * +Po postposition
+ * +Pr preposition (in Russian loans)
+ * +Pron pronoun
+ * +Qnt quantifier
+ * +V verb
 
 ## Parts of speech are further split up into:
 Adjectives
- * +Adn	 Adnominal (modifier) !! This is not an NP head like +Pron
+ * +Adn Adnominal (modifier) !! This is not an NP head like +Pron
  * +Bahuvrihi This is a nominative-case NP used as an adjective
  * +bahuvrihi get rid of these for upper-case
 
@@ -57,12 +57,12 @@ respect to manner, colour, sound, smell, action, state or intensity."
 (Doke 1935:118)
  * +Manner with reference to type of adverb
  * +Parenthetic parenthetic
- * +Spat 	 spatial
- * +Temp 	 temporal
+ * +Spat spatial
+ * +Temp temporal
  * +Iter Iterative  form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
  * +Mult Multiplicative, two-ply; myv: `кавонькирда`
- * +Deg 	 Ad-adjective This is degree, depricate + AdA
- * +Epist	 epistemic modality marker speaker's evaluation/judgment of, degree of confidence in
+ * +Deg Ad-adjective This is degree, depricate + AdA
+ * +Epist epistemic modality marker speaker's evaluation/judgment of, degree of confidence in
  * +EvidNfh not first-hand келя
  * +EvidFh first-hand
  * +PerifMod periferal modifier ськамонзо
@@ -71,7 +71,7 @@ Interjections
  * +Formulaic 
 
 Nouns
- * +Prop	 proper
+ * +Prop proper
  * +CollN used with paired nouns, i.e. COLLECTIVE NOUNS
 
 Particles
@@ -80,18 +80,18 @@ Postpositions
 **+ Spat**, **+ Temp**
 
 ## Pronouns
- * +Dem	 demonstrative
+ * +Dem demonstrative
  * +Indef indefinite
- * +Dep 	 dependent word requiring the presence of another, e.g. **мень**
+ * +Dep dependent word requiring the presence of another, e.g. **мень**
  * +Interr interrogative
- * +Pers 	 personal
+ * +Pers personal
  * +Recipr reciprocal
- * +Refl 	 reflexive
- * +Rel 	 relative
- * +Relator 	 relator noun
- * +Sel 	 selective, when selecting from a set of definites
- * +Short	 тень, теть; эстень
- * +Long	 монень, тонеть; монстень
+ * +Refl reflexive
+ * +Rel relative
+ * +Relator relator noun
+ * +Sel selective, when selecting from a set of definites
+ * +Short тень, теть; эстень
+ * +Long монень, тонеть; монстень
 
  * +Sg1 first person singular
  * +Sg2 second person singular
@@ -147,12 +147,12 @@ to mark what would be a secondary subject:
  * +PxPl1 first person plural
  * +PxPl2 second person plural
  * +PxPl3 third person plural
- * +Def 	 Definite
+ * +Def Definite
 
 ## The comparative forms are:
  * +Comp comparative as opposed to superlative
  * +Superl superlative
- * +Attr 	 Attribute
+ * +Attr Attribute
 
 ## Verb moods are:
  * +Cond conditional Ындеря- (Derivational)
@@ -162,7 +162,7 @@ to mark what would be a secondary subject:
  * +Imprt imperative
  * +Opt optative
  * +Prec precative
- * +Proh	 prohibitive is distinct from the negation of imperative
+ * +Proh prohibitive is distinct from the negation of imperative
 Иля аварде! `Don't cry' (Proh);
 Аволь мелявтт, кецяк! `Don't worry, be happy!' (Neg + Imprt)
 
@@ -194,7 +194,7 @@ between present and future
  * +OcPl3 * object conjugation third person plural
 
 Other verb forms are
- * +Act	 * active voice (exo-tradition)
+ * +Act * active voice (exo-tradition)
  * +PrsPrc * present participle (only non-contrastive usage)
  * +DemPrc * present participle (both contrastive and non-contrastive)
  * +ActPrcLong  %{иы%}й (This is dealt with elsewhere as an active present participle)
@@ -214,7 +214,7 @@ Other verb forms are
  * +Der/A * adjective derived from N or V
  * +Der/N2A * adjective derived from N
  * +Der/V2A * adjective derived from V
- * +Subst	 * deverbal nouns retaining verb arguments/gov
+ * +Subst * deverbal nouns retaining verb arguments/gov
 
  * +PrfPrc 
 
@@ -239,7 +239,7 @@ Other verb forms are
 # Dialect tags
  * +Dial/SH * Short forms
  * +Dial/L * Long forms
- * +Dial 	 * No specification
+ * +Dial * No specification
 Specific to some dialects
 Rueter 2010: 8
  * +Dial/-C * Not central standard
@@ -267,8 +267,8 @@ Delimiter marks are classified with:
 
 The verbs are syntactically split according to transitivity:
 
- * +TV 	 * transitive verb
- * +IV 	 * intransitive verb
+ * +TV * transitive verb
+ * +IV * intransitive verb
  * +NomAg Actor Noun From Verb - Nomen Agentis
  * +NomAct Actor Noun From Verb - Nomen Agentis
 
@@ -329,9 +329,9 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
  * +Sem/Hum Human
  * +Sem/Hum-abstr Human abstract
  * +Sem/Ideol Ideology
- * +Sem/Kin 	 Kinship term (special PxSg2 forms),
- * +Sem/Kin_Fem 	 Kinship term (special PxSg2 forms), female
- * +Sem/Kin_Mal 	 Kinship term (special PxSg2 forms), male
+ * +Sem/Kin Kinship term (special PxSg2 forms),
+ * +Sem/Kin_Fem Kinship term (special PxSg2 forms), female
+ * +Sem/Kin_Mal Kinship term (special PxSg2 forms), male
  * +Sem/Lang Language
  * +Sem/Mal Male name
  * +Sem/Mat Material for producing things
@@ -393,161 +393,161 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 
 
 Multiple Semantic tags:
- * +Sem/Act_Group					 
- * +Sem/Act_Plc					 
- * +Sem/Act_Route					 
- * +Sem/Amount_Build				 
- * +Sem/Amount_Semcon				 
- * +Sem/Ani_Body-abstr_Hum			 
- * +Sem/Ani_Build					 
- * +Sem/Ani_Build-part				 
- * +Sem/Ani_Build_Hum_Txt			 
- * +Sem/Ani_Group					 
- * +Sem/Ani_Group_Hum				 
- * +Sem/Ani_Hum					 
- * +Sem/Ani_Hum_Plc				 
- * +Sem/Ani_Hum_Time				 
- * +Sem/Ani_Plc					 
- * +Sem/Ani_Plc_Txt				 
- * +Sem/Ani_Time					 
- * +Sem/Ani_Veh					 
- * +Sem/Aniprod_Hum				 
- * +Sem/Aniprod_Obj-clo			 
- * +Sem/Aniprod_Perc-phys			 
- * +Sem/Aniprod_Plc				 
+ * +Sem/Act_Group 
+ * +Sem/Act_Plc 
+ * +Sem/Act_Route 
+ * +Sem/Amount_Build 
+ * +Sem/Amount_Semcon 
+ * +Sem/Ani_Body-abstr_Hum 
+ * +Sem/Ani_Build 
+ * +Sem/Ani_Build-part 
+ * +Sem/Ani_Build_Hum_Txt 
+ * +Sem/Ani_Group 
+ * +Sem/Ani_Group_Hum 
+ * +Sem/Ani_Hum 
+ * +Sem/Ani_Hum_Plc 
+ * +Sem/Ani_Hum_Time 
+ * +Sem/Ani_Plc 
+ * +Sem/Ani_Plc_Txt 
+ * +Sem/Ani_Time 
+ * +Sem/Ani_Veh 
+ * +Sem/Aniprod_Hum 
+ * +Sem/Aniprod_Obj-clo 
+ * +Sem/Aniprod_Perc-phys 
+ * +Sem/Aniprod_Plc 
  * +Sem/Body-abstr_Prod-audio_Semcon 
- * +Sem/Body_Body-abstr			 
- * +Sem/Body_Clth					 
- * +Sem/Body_Food					 
- * +Sem/Body_Group_Hum				 
- * +Sem/Body_Hum					 
- * +Sem/Body_Mat					 
- * +Sem/Body_Measr					 
- * +Sem/Body_Obj_Tool-catch		 
- * +Sem/Body_Plc					 
- * +Sem/Body_Time					 
- * +Sem/Build-part_Plc				 
- * +Sem/Build_Build-part			 
- * +Sem/Build_Clth-part			 
- * +Sem/Build_Edu_Org				 
- * +Sem/Build_Event_Org			 
- * +Sem/Build_Org					 
- * +Sem/Build_Route				 
- * +Sem/Clth-jewl_Curr				 
- * +Sem/Clth-jewl_Money			 
- * +Sem/Clth-jewl_Plant			 
- * +Sem/Clth_Hum					 
- * +Sem/Ctain-abstr_Org			 
- * +Sem/Ctain-clth_Plant			 
- * +Sem/Ctain-clth_Veh				 
- * +Sem/Ctain_Feat-phys			 
- * +Sem/Ctain_Furn					 
- * +Sem/Ctain_Tool					 
- * +Sem/Ctain_Tool-measr			 
- * +Sem/Curr_Org					 
- * +Sem/Dance_Org					 
- * +Sem/Dance_Prod-audio			 
- * +Sem/Domain_Food-med			 
- * +Sem/Domain_Prod-audio			 
- * +Sem/Edu_Event					 
- * +Sem/Edu_Group_Hum				 
- * +Sem/Edu_Mat					 
- * +Sem/Edu_Org					 
- * +Sem/Event_Food					 
- * +Sem/Event_Hum					 
- * +Sem/Event_Plc					 
- * +Sem/Event_Time					 
- * +Sem/Feat-phys_Tool-write		 
- * +Sem/Feat-phys_Veh				 
- * +Sem/Feat-phys_Wthr				 
- * +Sem/Feat-psych_Hum				 
- * +Sem/Feat_Plant					 
- * +Sem/Food_Perc-phys				 
- * +Sem/Food_Plant					 
- * +Sem/Game_Obj-play				 
- * +Sem/Geom_Obj					 
- * +Sem/Group_Hum					 
- * +Sem/Group_Hum_Org				 
- * +Sem/Group_Hum_Plc				 
- * +Sem/Group_Hum_Prod-vis			 
- * +Sem/Group_Org					 
- * +Sem/Group_Sign					 
- * +Sem/Group_Txt					 
- * +Sem/Hum_Lang					 
- * +Sem/Hum_Lang_Plc				 
- * +Sem/Hum_Lang_Time				 
- * +Sem/Hum_Obj					 
- * +Sem/Hum_Org					 
- * +Sem/Hum_Plant					 
- * +Sem/Hum_Plc					 
- * +Sem/Hum_Tool					 
- * +Sem/Hum_Veh					 
- * +Sem/Hum_Wthr					 
- * +Sem/Lang_Tool					 
- * +Sem/Mat_Plant					 
- * +Sem/Mat_Txt					 
- * +Sem/Measr_Time					 
- * +Sem/Money_Obj					 
- * +Sem/Money_Txt					 
- * +Sem/Obj-play					 
- * +Sem/Obj-play_Sport				 
- * +Sem/Obj_Semcon					 
- * +Sem/Clth-jewl_Org				 
- * +Sem/Org_Rule					 
- * +Sem/Org_Txt					 
- * +Sem/Org_Veh					 
- * +Sem/Part_Prod-cogn				 
- * +Sem/Perc-emo_Wthr				 
- * +Sem/Plant_Plant-part			 
- * +Sem/Plant_Tool					 
- * +Sem/Plant_Tool-measr			 
- * +Sem/Plc-abstr_Rel_State		 
- * +Sem/Plc-abstr_Route			 
- * +Sem/Plc_Pos					 
- * +Sem/Plc_Route					 
- * +Sem/Plc_Substnc				 
- * +Sem/Plc_Substnc_Wthr			 
- * +Sem/Plc_Time					 
- * +Sem/Plc_Tool-catch				 
- * +Sem/Plc_Wthr					 
- * +Sem/Prod-audio_Txt				 
- * +Sem/Prod-cogn_Txt				 
- * +Sem/Semcon_Txt					 
- * +Sem/Obj_State					 
- * +Sem/Substnc_Wthr				 
- * +Sem/Time_Wthr					 
+ * +Sem/Body_Body-abstr 
+ * +Sem/Body_Clth 
+ * +Sem/Body_Food 
+ * +Sem/Body_Group_Hum 
+ * +Sem/Body_Hum 
+ * +Sem/Body_Mat 
+ * +Sem/Body_Measr 
+ * +Sem/Body_Obj_Tool-catch 
+ * +Sem/Body_Plc 
+ * +Sem/Body_Time 
+ * +Sem/Build-part_Plc 
+ * +Sem/Build_Build-part 
+ * +Sem/Build_Clth-part 
+ * +Sem/Build_Edu_Org 
+ * +Sem/Build_Event_Org 
+ * +Sem/Build_Org 
+ * +Sem/Build_Route 
+ * +Sem/Clth-jewl_Curr 
+ * +Sem/Clth-jewl_Money 
+ * +Sem/Clth-jewl_Plant 
+ * +Sem/Clth_Hum 
+ * +Sem/Ctain-abstr_Org 
+ * +Sem/Ctain-clth_Plant 
+ * +Sem/Ctain-clth_Veh 
+ * +Sem/Ctain_Feat-phys 
+ * +Sem/Ctain_Furn 
+ * +Sem/Ctain_Tool 
+ * +Sem/Ctain_Tool-measr 
+ * +Sem/Curr_Org 
+ * +Sem/Dance_Org 
+ * +Sem/Dance_Prod-audio 
+ * +Sem/Domain_Food-med 
+ * +Sem/Domain_Prod-audio 
+ * +Sem/Edu_Event 
+ * +Sem/Edu_Group_Hum 
+ * +Sem/Edu_Mat 
+ * +Sem/Edu_Org 
+ * +Sem/Event_Food 
+ * +Sem/Event_Hum 
+ * +Sem/Event_Plc 
+ * +Sem/Event_Time 
+ * +Sem/Feat-phys_Tool-write 
+ * +Sem/Feat-phys_Veh 
+ * +Sem/Feat-phys_Wthr 
+ * +Sem/Feat-psych_Hum 
+ * +Sem/Feat_Plant 
+ * +Sem/Food_Perc-phys 
+ * +Sem/Food_Plant 
+ * +Sem/Game_Obj-play 
+ * +Sem/Geom_Obj 
+ * +Sem/Group_Hum 
+ * +Sem/Group_Hum_Org 
+ * +Sem/Group_Hum_Plc 
+ * +Sem/Group_Hum_Prod-vis 
+ * +Sem/Group_Org 
+ * +Sem/Group_Sign 
+ * +Sem/Group_Txt 
+ * +Sem/Hum_Lang 
+ * +Sem/Hum_Lang_Plc 
+ * +Sem/Hum_Lang_Time 
+ * +Sem/Hum_Obj 
+ * +Sem/Hum_Org 
+ * +Sem/Hum_Plant 
+ * +Sem/Hum_Plc 
+ * +Sem/Hum_Tool 
+ * +Sem/Hum_Veh 
+ * +Sem/Hum_Wthr 
+ * +Sem/Lang_Tool 
+ * +Sem/Mat_Plant 
+ * +Sem/Mat_Txt 
+ * +Sem/Measr_Time 
+ * +Sem/Money_Obj 
+ * +Sem/Money_Txt 
+ * +Sem/Obj-play 
+ * +Sem/Obj-play_Sport 
+ * +Sem/Obj_Semcon 
+ * +Sem/Clth-jewl_Org 
+ * +Sem/Org_Rule 
+ * +Sem/Org_Txt 
+ * +Sem/Org_Veh 
+ * +Sem/Part_Prod-cogn 
+ * +Sem/Perc-emo_Wthr 
+ * +Sem/Plant_Plant-part 
+ * +Sem/Plant_Tool 
+ * +Sem/Plant_Tool-measr 
+ * +Sem/Plc-abstr_Rel_State 
+ * +Sem/Plc-abstr_Route 
+ * +Sem/Plc_Pos 
+ * +Sem/Plc_Route 
+ * +Sem/Plc_Substnc 
+ * +Sem/Plc_Substnc_Wthr 
+ * +Sem/Plc_Time 
+ * +Sem/Plc_Tool-catch 
+ * +Sem/Plc_Wthr 
+ * +Sem/Prod-audio_Txt 
+ * +Sem/Prod-cogn_Txt 
+ * +Sem/Semcon_Txt 
+ * +Sem/Obj_State 
+ * +Sem/Substnc_Wthr 
+ * +Sem/Time_Wthr 
 
 
 Semantics are classified with
  * +Sem/Divinity  Divinity (god personified),
  * +Sem/Constellation  Constellation,
- * +Sem/Ant 	  Anthroponym
- * +Sem/Fem 	  Anthroponym female
- * +Sem/Mal 	  Anthroponym male
- * +Sem/Patr 	  Patronym
- * +Sem/Fem-Patr 	  Patronym female
- * +Sem/Mal-Patr 	  Patronym male
+ * +Sem/Ant  Anthroponym
+ * +Sem/Fem  Anthroponym female
+ * +Sem/Mal  Anthroponym male
+ * +Sem/Patr  Patronym
+ * +Sem/Fem-Patr  Patronym female
+ * +Sem/Mal-Patr  Patronym male
  * +Sem/Rvr  name of river or water way, media of transportation,
  * +Sem/Mnth  name of month
  * +Sem/Inanim  Inanimate,
 
 Semantic Fields
- * +Field/Agr	 agriculatural
- * +Field/Anat 	 anatomical
- * +Field/Bio 	 biological
- * +Field/Bot 	 botanical
- * +Field/Chem 	 chemical
- * +Field/Geol 	 geological
- * +Field/Gram 	 grammatical
- * +Field/Hist 	 historical
- * +Field/Law 	 law
- * +Field/Mar 	 maritime
- * +Field/Math 	 mathematical
- * +Field/Med 	 medical
- * +Field/Mus 	 musical
- * +Field/Relig 	 church
- * +Field/Tech 	 technical
- * +Field/Zool 	 zoological
+ * +Field/Agr agriculatural
+ * +Field/Anat anatomical
+ * +Field/Bio biological
+ * +Field/Bot botanical
+ * +Field/Chem chemical
+ * +Field/Geol geological
+ * +Field/Gram grammatical
+ * +Field/Hist historical
+ * +Field/Law law
+ * +Field/Mar maritime
+ * +Field/Math mathematical
+ * +Field/Med medical
+ * +Field/Mus musical
+ * +Field/Relig church
+ * +Field/Tech technical
+ * +Field/Zool zoological
 
 
 # Other tags
@@ -586,8 +586,8 @@ source and target part-of-speech.
  * +Der/Oma * modality: deontic/directive/obligative андомс: андома , якамс: якама
  * +Der/Omka * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
  * +Der/Ycja * active (demonstrative) present participle
- * +Der/Y	 * active short present participle
- * +Der/Yj	 * active long present participle
+ * +Der/Y * active short present participle
+ * +Der/Yj * active long present participle
  * +Der/Ozj * Gerund
  * +Der/Cond * conditional derivation +Der/Ynderja
 
@@ -663,7 +663,7 @@ Modifier without noun
  * +OLang/TAT - Tatar
  * +OLang/UND - Undefined
 
- * +F 	 - Foreign
+ * +F - Foreign
 
 # Morphophonology
 
@@ -698,7 +698,7 @@ And following triggers to control variation
  * %{уиыØ%} Suffix-initial archiphoneme in dialect
 
 вт%{оеэ%}мО1 suffix-internal archivowel
- * %{оэØ%}	 inessive, elative; this is the hard/broad s
+ * %{оэØ%} inessive, elative; this is the hard/broad s
  * %{ОØ%} Stem-final archiphoneme панго
  * %{ЕØ%} Stem-final archiphoneme тинге
 
