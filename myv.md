@@ -1,3 +1,816 @@
+These are verbs with parallel conjugation
+
+
+
+### REDUPLICATION
+авардемс%-авардемс
+ардомс%-ардомс
+ардтневтемс%-ардтневтемс
+арсемс%-арсемс
+аштемс%-аштемс
+ванномс%-ванномс
+ваномс%-ваномс
+вешнемс%-вешнемс
+
+### %-And such
+авардемс%-теемс
+арсемс%-теемс
+аштемс%-теемс
+ванномс%-теемс
+ваномс%-теемс
+
+андомс%-симдемс
+аштемс%-учомс
+велямс%-чарамс
+вастомс%-дёлямс
+васькамс%-оймамс
+витнемс%-петнемс
+ёмавтомс%-аравтомс
+ярсамс%-симемс
+
+### SERIAL
+витнемс%-ютавтомс
+
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+
+verbs of negation have partial inflection:
+€ аволь
+€ иля
+€ эзь
+
+
+The verb ярсамс has additional irregular forms:
+€ ярстано
+€ ярстадо
+
+The verb сеземс
+
+
+Some of the nouns have archaic consonant stem forms left:
+€ ийть
+
+
+
+Some random Russian elements:
+
+
+
+
+
+
+
+
+
+Some of the nouns have special forms for Gen PxSg1 and PxSg2:
+
+
+
+Reciprocal pronouns
+These might be done with flags
+
+These two stems have м loss but its presence can be
+observed in the choice of "тнэ" over "тне"
+This has special hard after lost consonant
+This has special hard after lost consonant
+
+
+1930s Phonetic transcription
+дс >> ц
+гт >> к
+ мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
+
+
+### ADPOSITIONS
+
+
+### IDEOPHONES
+are dealt with as adverbs
+
+
+
+### PRONOUNS
+
+### QUANTIFIERS
+ сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
+
+
+
+### NOUNS
+
+
+### PLACE NAMES
+### GEO
+
+
+
+
+### ANIMAL NAMES
+
+### FIRST NAMES
+
+
+
+
+100 % homographs of Russian words
+
+
+
+
+
+
+
+
+adjectives in _ой_ Adj-od >> A_RU-OJ
+with  +Use/SpellNoSugg
+
++SP+Gen+Indef attributes as adjectives
+
+Russian language words found in Erzya texts
+
+Old Bible Names and words
+
+unrecognized
+
+Problems with synchronization
+missing lemmas
+
+
+COLLECTIVE NOUNS
+
+
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+лембстэ:лембстэ ADV_ "(eng) /(fin) /(rus) " ;
+
+
+ADD ADVERBS BELOW
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+автор:автор N_KAL "(eng) /(fin) /(rus) " ;
+
+
+ADD NOUNS BELOW
+
+
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+автор:автор N_KAL "(eng) /(fin) /(rus) " ;
+
+
+ADD NOUNS BELOW
+
+
+
+
+
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ливтевкшнемс+V:ливтевкшне TV_KUNDAMS "(eng) /(fin) /(rus) " ;
+
+
+ADD VERBS BELOW
+
+
+These verbs just need Finnish translations
+A-M
+N-End
+
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+од:од A_KAL "(eng) /(fin)/(rus) " ;
+
+
+ADD ADJECTIVES BELOW
+
+These are nouns with parallel declension
+
+
+
+ават%-тейтерть
+аванзо-тетянзо
+ават%-цёрат
+атявтт%-ававтт
+атят%-ават
+атят%-бабат
+атят%-сэрдят
+бабат%-нуцькат
+барант%-каткат
+боярт%-азорт
+боярт%-боярават
+
+вирть%-лугат
+вирть%-паксят
+вирть%-укшторт
+ворт%-грабительть
+ворт%-розбойникть
+эрзят%-мокшот
+
+
+
+
+The derivable male given names have been moved to 
+the template urj-Cyrl-propernouns.lexc.
+
+-kal
+
+-osh
+
+-kudo
+
+-kal
+
+-osh
+
+-kudo
+
+Place names, Settlements
+
+
+Rivers
+
+
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+эрзя-мокшонь:эрзя-мокшонь A-IS-GEN "(eng) /(fin) /(rus) " ;
+
+
+ADD ADJECTIVES BELOW
+
+
+
+
+
+
+
+
+# The Erzya morphophonological/twolc rules file 
+
+
+
+
+
+## Special letters in the root that might be useful in dialect research and etymology later
+ * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
+ * **Ӓ3:э  ** эрямс:Ӓ3ря 
+ * **Ӓ4:е  ** пелемс:пӒ4ль
+
+ * **%^Ь2ZERO:0  ** removes stem-final soft sign
+
+
+
+
+
+
+
+
+
+
+вт%{оеэ%}мО1
+
+
+ * _%{ОØ%}:0_ Stem-final archiphoneme панго
+ * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
+ * _%{ЕØ%}:0_ Stem-final archiphoneme тинге
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  %{frontHard%}:0    — front harmony hard
+  %{frontSoft%}:0    — front harmony soft
+  %{back%}:0    — back harmony
+  %{backHard%}:0    — back harmony
+ *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
+
+
+
+
+
+
+ %^NoLinkVow:0  — No linking vowel is used only after consonants for error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**verbStemVowStrong:0**  
+
+* *цёра%>%{АЯ%}н*
+* *цёр0%>ан*
+
+
+
+**A1:o**  
+* *яка%>%{оеэØ%}мА1*
+* *яка%>0мо*
+* ★*яка%>%{оеэØ%}мА1* (is not standard language)
+* ★*яка%>0ма* (is not standard language)
+
+**Y2:yi**  
+
+
+**%{оеэ%}:е**
+неемс+V+TV+Ger+Ill+PxPl1: --see/nähdä--
+* *ней%>%{оеэØ%}мО1%>%{оеэØ%}з%>%{оеэØ%}н%{оеэ%}к*
+* *не0%>еме%>0з%>энек*
+
+**%{оеэ%}:о**
+псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
+* *псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
+* *псака%>втомо%>0нзо%>кс*
+
+
+**%{оеэ%}:э**
+
+
+**%{оеэØ%}:0**
+**%{оеэØ%}:е**
+панемс+V+TV+Ind+ConNeg: **drive/ajaa**
+* *пань%>%{оеэØ%}К3*
+* *пан0%>е0*
+
+**%{оеэØ%}:э**
+кев+N+SP+Ill+PxSg2: **rock/kivi**
+* *кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}*
+* *кев0%>з%>эть*
+* *кӒ4в%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
+* *кев0%>ез%>эть*
+* *пильге%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
+* *пильге0%>0з%>эть*
+
+
+**%{оеэØ%}:о**
+ков+N+SP+Ill+PxSg2: **moon/kuu**
+* *ков%{back%}%>з%>%{оеэØ%}т%{ЬØ%}*
+* *ков0%>з%>от*
+* *ков%{back%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
+* *ков0%>оз%>от*
+
+**%{уиыØ%}:и**
+панемс+V+TV+Inf+Dial/NW: **drive/ajaa**
+* *пань%>%{уиыØ%}мс*
+* *пан0%>имс*
+
+**%{уиыØ%}:ы**
+кев+N+SP+Ill+PxSg2: **rock/kivi**
+* *кӒ4в%{frontSoft%}%>з%>%{уиыØ%}т%{ЬØ%}*
+* *кев0%>з%>эть*
+* *кӒ4в%{frontSoft%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
+* *кев0%>из%>ыть*
+
+
+**%{уиыØ%}:у**
+ков+N+SP+Ill+PxSg2: **moon/kuu**
+* *ков%{back%}%>з%>%{уиыØ%}т%{ЬØ%}*
+* *ков0%>з%>ут*
+* *ков%{back%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
+* *ков0%>уз%>от*
+
+
+
+
+
+
+* *сай%{frontSoft%}%>О1%>дО1*
+* *са00%>е%>де*
+
+**O1:e**  
+
+
+**O1:o**  
+
+
+**%{оэØ%}:e**  
+
+
+
+**%{оэØ%}:o**  
+
+псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
+* *псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
+* *псака%>втомо%>0нзо%>кс*
+псака+N+SP+Gen+PxSg3+Der+Der/MWN+N+Sg+Gen+Def
+* *псака%>%{оеэØ%}нз%{оэØ%}%>%{оеэØ%}нть*
+* *псака%>0нзо%>0нть*
+
+**%{оэØ%}:0**
+
+
+**O1:0**  
+
+
+**%{ое%}:е**
+
+
+**%{ое%}:о**
+
+
+
+**A2:a**  
+путомс+V+Prec+ScSg2: **put/laittaa**
+* *пут%>%{КТ%}%{АЯ%}*
+* *пут%>та*
+
+**j:0**  
+* *сай%>%{оеэØ%}%>дО1*
+* *са0%>е%>де*
+
+**Е3:э always ** %> т н _ 2013-02-23
+
+**Е3:э sometimes ** %> т н _ 2013-02-23
+
+**ye:e always **  
+
+
+
+
+**Н1:н**  
+**Н1:к**  
+
+**а: и Dimin**
+
+**о: ы Dimin**
+
+**у: и Dimin**
+
+
+**э: и Dimin**
+
+**а: и Dimin**
+
+**о: и Dimin**
+
+
+**у: и Dimin**
+
+**я: и Dimin**
+
+**ё: и Dimin**
+
+**ю: и Dimin**
+
+**е: и Dimin**
+
+**a:ya**  
+
+
+
+**v:0**  
+
+**G1:0**  
+
+**G1:g**  
+
+**G1:k**  
+
+
+**G2:g**  
+
+
+
+**G2:k**  
+
+
+
+**G4:0**  
+
+**G4:k**  
+
+
+потмо+N+Relator+SP+Ela+Indef: **inside/sisäosa**
+* *потм%{back%}%>ст%{оэØ%}*
+* *пот00%>сто*
+
+
+
+imperative suffix
+**K1:t**  
+
+лыказевемс+V+Imprt+ScSg2: **have taken**
+* *лыказев%>%{КТ%}%{ЬØ%}*
+* *лыказев%>ть*
+
+**K1:к**  
+ливтемс+V+TV+Prec+ScSg2: **set out/laittaa esille**
+* *ливть%>%{КТ%}%{АЯ%}*
+* *ливт0%>тя*
+
+
+**U4:y**  
+кал+N+Sg+Nom+Def: **fish/kala**
+* *кал>{dialM}с{ЬØ}*
+* *кал>0с0*
+
+пильге+N+Pl+Nom+Indef **leg; foot/jalka**
+* *пильг%{frontSoft%}%>т%{ЬØ%}*
+* *пильг0%>ть*
+валдо+N+Pl+Nom+Indef **light/valo**
+* ★*валд%{backHard%}%>т%{ЬØ%}* (is not standard language)
+* ★*валд0%>ть* (is not standard language)
+лыказевемс+V+Imprt+ScSg2: **have taken**
+* *лыказев%>%{КТ%}%{ЬØ%}*
+* *лыказев%>ть*
+
+**U4:0**  
+
+
+
+
+валдо+N+Pl+Nom+Indef **light/valo**
+* *валд%{backHard%}%>т%{ЬØ%}*
+* *валд0%>т0*
+
+
+
+
+**s:0**  
+
+* *класс%>с*
+* *клас0%>с*
+
+
+**d:t**  
+* *кедь%>дО1*
+* *кед0%>те*
+* *обед%{frontHard%}%>дО1*
+* *обед0%>тэ*
+* ★*обед%{frontHard%}%>дО1* (is not standard language)
+* ★*обед0%>дэ* (is not standard language)
+
+**y:y**
+
+
+**y:0**  
+* *кель^Ь2ZERO%>енть*
+* *кел00%>енть*
+меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
+* *мерь%>сь*
+* *мер0%>сь*
+* ★*мерь%>сь* (is not standard language)
+* ★*мерь%>сь* (is not standard language)
+
+
+
+
+
+
+**Disallow TLoss after non-t**  
+
+
+**Disallow KLoss after non-k**  
+
+**Disallow SLoss after non-s**  
+
+**Disallow %^WLoss after non-v**  
+
+**Disallow Н1:н after Letters**  
+
+**Disallow з where not following l, n or r**
+
+* *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
+* *пильге0>з>энзэ*
+
+
+
+**Disallow з where not following l, n or r**
+чувто+N+Pl+Nom+Def: **tree/puu**
+* *чувт%{ОØ%}%>тнЕ3*
+* *чувт0%>тнэ*
+
+
+
+веле+N+SP+Tra+PxSg2
+* *веле%>%{оеэØ%}кс%>%{оеэØ%}т%{ЬØ%}*
+* *веле%>0кс%>эть*
+
+псака+N+SP+Abe+PxSg2+Clt/Cop+Prt2+ScPl3+Clt/Gak
+* *псака%>втО1мО1%>%{оеэØ%}т%{ЬØ%}%>%{оеэØ%}линек%>Г1ак*
+* *псака%>втомо%>0т0%>олинек%>как*
+ош+N+SP+Ill+PxSg2
+* *ош%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
+* *ош%>оз%>от0*
+* *эряв%>^WLoss%>{ОЕЭØ}вО1ль*
+* *эряв%>0%>00оль*
+
+псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
+* *псака%>вт%{оеэ%}мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
+* *псака%>втомо%>0нзо%>кс*
+
+веле+N+SP+Tra+PxSg2+Clt/Cop+Prt2+ScPl3: **village/kylä**
+* *веле%>%{оеэØ%}кс%>%{оеэØ%}т%{ЬØ%}%>%{оеэØ%}льть*
+* *веле%>0кс%>эт0%>ельть*
+
+**Disallow %^NoLinkVow after vowel**
+
+**Disallow s for control of stems with inessive...**
+
+**Disallow k for control of comparative with stem types**
+
+
+
+Non-Verbal conjugation
+
+In the Erzya language nominals and adverbs also conjugate
+
+
+Used with deverbals
+
+
+
+
+
+
+
+
+
+
+This is where adjectives get their plural T.
+
+
+
+
+
+
+used with infinitives
+
+
+
+
+
+Conjugation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# NON-VERB CONJUGATION 
+
+
+Conjugation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_KAL-NomSg-Conjugation-only
+
+
+
+
+
+
+
+
+
+
+This allows Clt/Cop+Prs Sg1|Sg2|Pl1|Pl2 
+Clt/Cop+Prt2 Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
+K 2019-01-26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_KUDO-NomPl-Conjugation-only
+
+
+_KUDO-NomPl-Conjugation-only-mutual
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+
 # Noun inflection
 
 Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
@@ -534,636 +1347,6 @@ Nouns1S_A
 
 
 
-Proper noun inflection
-
-Erzya proper nouns inflect in the same cases as regular
-nouns.
-
-Андрей:Андре
-
-
-
-
-
-Вили:Вил
-
-
-
-Russian type Surnames 
-Абдеев:Абдеев
-
-Багрий:Багр
-
-Аморский:Аморск
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Erzya Homestead names !!
-
-
-
-PLACE NAMES FROM TEMPLATES !!
-
-
-
-
-Erzya settlements !!
-
-
-
-
-
-Divinities !!
-
-
-
-
-Constellations !!
-
-
-
-
-
-
-
-
-TEXT NAMES !!
-
-
-
-HOLIDAYS !!
-
-
-
-
-RIVER NAMES !!
-
-
-
-
-
-
-
-
-
-
-
-
-
-Front-vowel stem
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DECLENSION LIMITATIONS
-
-
-
-
-
-
-# Pronoun inflection
-
-Erzya pronouns inflect in many the same cases as regular
-nouns.
-
-
-## Closed class personal pronouns
-
-
-
-
-
-
-
-
-
- +Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
-
-
- +Interr+Sem/Obj: CLT/COP_SG ;  singular
-
-
-
-
-
-
-мон:мо
-
-
-тон:то
-
-
-сон:со
-
-
-
-
-минь:
-
-тынь:ты
-
-сынь:сы
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Obligatory Possessor Index
-
-Periferal
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Demonstrative
-
-
-
-
-
-
-истямо:истя
-
-Interrogative
-
-
-
-
-What should be done 
-
-
-
-
-
-кона:кона
-This is not the same as indefinite
-PronRel-kona
-
-What should be done 
-
- LEXICON PRON-IS-INTERR-SPAT-INE  косо 
-
-
-What should be done 
-
-
-
-Relative pronouns
-
-ки:ки
-
-
-
-ки
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-мезе+Pron:мезИ2 Misc_Pronouns1 ;
-мезе+Pron+Rel+Gen:мень K ;
-ки+Pron+Interr:ки Misc_Pronouns1 ;
-
-
-
-
-
-
-
-
-
-Some pronoun continuation have been moved here
-Out of TestLexc-noun.txt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DEMONSTRATIVE DERIVATION !!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Possessor indices
-
-The Erzya language possessor indices or possessive suffixes may be followed
-by a number of morpheme types
-
-
-
-
-
-
-
-
-These are possessor indices that can be followed by predicate marking
-in the present there is no destinction between ScSg3 and ScPl3
-Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
-
-
-
-This appears with kindred terminology 
-
-Is "_KAL" necessary ?
-
-
-
-
-
-
-
-
-
-DAT-PXPL1 ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## POSSESSIVE TAGS 
-
-
-
-
-
-These are possessor Indices for non-nominative singular
-NonNomSg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-word boundary or focus
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Quantifier inflection
 
 Erzya quantifiers inflect in many the same cases as regular
@@ -1262,158 +1445,6 @@ Numeral with a range limitation to adnominal phrase
 
 
 2012-08-09
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-
-# Interjections
-
-The Erzya language interjections...
-
-
-
-
-
-
-
-
-
-Non-Verbal conjugation
-
-In the Erzya language nominals and adverbs also conjugate
-
-
-Used with deverbals
-
-
-
-
-
-
-
-
-
-
-This is where adjectives get their plural T.
-
-
-
-
-
-
-used with infinitives
-
-
-
-
-
-Conjugation 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# NON-VERB CONJUGATION 
-
-
-Conjugation 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-_KAL-NomSg-Conjugation-only
-
-
-
-
-
-
-
-
-
-
-This allows Clt/Cop+Prs Sg1|Sg2|Pl1|Pl2 
-Clt/Cop+Prt2 Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
-K 2019-01-26
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-_KUDO-NomPl-Conjugation-only
-
-
-_KUDO-NomPl-Conjugation-only-mutual
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1553,29 +1584,27 @@ This marking would indicate a word form that may be
 
 
 
-# Adjective inflection
+Proper noun inflection
 
-Adjectives and other parts of speech in ERZYA are compared by means of 
-either a particle or ablative case marking on the standard of comparison
+Erzya proper nouns inflect in the same cases as regular
+nouns.
 
-
-
-
+Андрей:Андре
 
 
 
 
 
+Вили:Вил
 
 
 
+Russian type Surnames 
+Абдеев:Абдеев
 
+Багрий:Багр
 
-
-
-
-
-
+Аморский:Аморск
 
 
 
@@ -1599,16 +1628,92 @@ either a particle or ablative case marking on the standard of comparison
 
 
 
-
-2013-04-17
-
+Erzya Homestead names !!
 
 
-кодамо:кода
-кодамо:кода
-кодатнэ
-кодатне 
 
+PLACE NAMES FROM TEMPLATES !!
+
+
+
+
+Erzya settlements !!
+
+
+
+
+
+Divinities !!
+
+
+
+
+Constellations !!
+
+
+
+
+
+
+
+
+TEXT NAMES !!
+
+
+
+HOLIDAYS !!
+
+
+
+
+RIVER NAMES !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+Front-vowel stem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLENSION LIMITATIONS
+
+
+
+
+
+
+# Interjections
+
+The Erzya language interjections...
 
 
 
@@ -2464,18 +2569,15 @@ Postpositions attr
 
 
 
-# The Erzya morphophonological/twolc rules file 
+# Adjective inflection
 
+Adjectives and other parts of speech in ERZYA are compared by means of 
+either a particle or ablative case marking on the standard of comparison
 
 
 
 
-## Special letters in the root that might be useful in dialect research and etymology later
- * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
- * **Ӓ3:э  ** эрямс:Ӓ3ря 
- * **Ӓ4:е  ** пелемс:пӒ4ль
 
- * **%^Ь2ZERO:0  ** removes stem-final soft sign
 
 
 
@@ -2486,12 +2588,8 @@ Postpositions attr
 
 
 
-вт%{оеэ%}мО1
 
 
- * _%{ОØ%}:0_ Stem-final archiphoneme панго
- * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
- * _%{ЕØ%}:0_ Stem-final archiphoneme тинге
 
 
 
@@ -2508,25 +2606,24 @@ Postpositions attr
 
 
 
-  %{frontHard%}:0    — front harmony hard
-  %{frontSoft%}:0    — front harmony soft
-  %{back%}:0    — back harmony
-  %{backHard%}:0    — back harmony
- *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 
 
 
 
 
 
- %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 
 
 
 
+2013-04-17
 
 
 
+кодамо:кода
+кодамо:кода
+кодатнэ
+кодатне 
 
 
 
@@ -2537,7 +2634,10 @@ Postpositions attr
 
 
 
+Possessor indices
 
+The Erzya language possessor indices or possessive suffixes may be followed
+by a number of morpheme types
 
 
 
@@ -2546,325 +2646,494 @@ Postpositions attr
 
 
 
+These are possessor indices that can be followed by predicate marking
+in the present there is no destinction between ScSg3 and ScPl3
+Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
 
 
 
+This appears with kindred terminology 
 
+Is "_KAL" necessary ?
 
 
 
-**verbStemVowStrong:0**  
 
-* *цёра%>%{АЯ%}н*
-* *цёр0%>ан*
 
 
 
-**A1:o**  
-* *яка%>%{оеэØ%}мА1*
-* *яка%>0мо*
-* ★*яка%>%{оеэØ%}мА1* (is not standard language)
-* ★*яка%>0ма* (is not standard language)
 
-**Y2:yi**  
 
+DAT-PXPL1 ;
 
-**%{оеэ%}:е**
-неемс+V+TV+Ger+Ill+PxPl1: --see/nähdä--
-* *ней%>%{оеэØ%}мО1%>%{оеэØ%}з%>%{оеэØ%}н%{оеэ%}к*
-* *не0%>еме%>0з%>энек*
 
-**%{оеэ%}:о**
-псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
-* *псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
-* *псака%>втомо%>0нзо%>кс*
 
 
-**%{оеэ%}:э**
 
 
-**%{оеэØ%}:0**
-**%{оеэØ%}:е**
-панемс+V+TV+Ind+ConNeg: **drive/ajaa**
-* *пань%>%{оеэØ%}К3*
-* *пан0%>е0*
 
-**%{оеэØ%}:э**
-кев+N+SP+Ill+PxSg2: **rock/kivi**
-* *кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}*
-* *кев0%>з%>эть*
-* *кӒ4в%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
-* *кев0%>ез%>эть*
-* *пильге%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
-* *пильге0%>0з%>эть*
 
 
-**%{оеэØ%}:о**
-ков+N+SP+Ill+PxSg2: **moon/kuu**
-* *ков%{back%}%>з%>%{оеэØ%}т%{ЬØ%}*
-* *ков0%>з%>от*
-* *ков%{back%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
-* *ков0%>оз%>от*
 
-**%{уиыØ%}:и**
-панемс+V+TV+Inf+Dial/NW: **drive/ajaa**
-* *пань%>%{уиыØ%}мс*
-* *пан0%>имс*
 
-**%{уиыØ%}:ы**
-кев+N+SP+Ill+PxSg2: **rock/kivi**
-* *кӒ4в%{frontSoft%}%>з%>%{уиыØ%}т%{ЬØ%}*
-* *кев0%>з%>эть*
-* *кӒ4в%{frontSoft%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
-* *кев0%>из%>ыть*
 
 
-**%{уиыØ%}:у**
-ков+N+SP+Ill+PxSg2: **moon/kuu**
-* *ков%{back%}%>з%>%{уиыØ%}т%{ЬØ%}*
-* *ков0%>з%>ут*
-* *ков%{back%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
-* *ков0%>уз%>от*
 
 
 
 
 
 
-* *сай%{frontSoft%}%>О1%>дО1*
-* *са00%>е%>де*
 
-**O1:e**  
 
 
-**O1:o**  
 
 
-**%{оэØ%}:e**  
 
 
 
-**%{оэØ%}:o**  
 
-псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
-* *псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
-* *псака%>втомо%>0нзо%>кс*
-псака+N+SP+Gen+PxSg3+Der+Der/MWN+N+Sg+Gen+Def
-* *псака%>%{оеэØ%}нз%{оэØ%}%>%{оеэØ%}нть*
-* *псака%>0нзо%>0нть*
 
-**%{оэØ%}:0**
 
 
-**O1:0**  
 
 
-**%{ое%}:е**
 
 
-**%{ое%}:о**
+## POSSESSIVE TAGS 
 
 
 
-**A2:a**  
-путомс+V+Prec+ScSg2: **put/laittaa**
-* *пут%>%{КТ%}%{АЯ%}*
-* *пут%>та*
 
-**j:0**  
-* *сай%>%{оеэØ%}%>дО1*
-* *са0%>е%>де*
 
-**Е3:э always ** %> т н _ 2013-02-23
+These are possessor Indices for non-nominative singular
+NonNomSg
 
-**Е3:э sometimes ** %> т н _ 2013-02-23
 
-**ye:e always **  
 
 
 
 
-**Н1:н**  
-**Н1:к**  
 
-**а: и Dimin**
 
-**о: ы Dimin**
 
-**у: и Dimin**
 
 
-**э: и Dimin**
 
-**а: и Dimin**
 
-**о: и Dimin**
 
 
-**у: и Dimin**
 
-**я: и Dimin**
 
-**ё: и Dimin**
 
-**ю: и Dimin**
 
-**е: и Dimin**
 
-**a:ya**  
 
 
 
-**v:0**  
+word boundary or focus
 
-**G1:0**  
 
-**G1:g**  
 
-**G1:k**  
 
 
-**G2:g**  
 
 
 
-**G2:k**  
 
 
 
-**G4:0**  
 
-**G4:k**  
 
 
-потмо+N+Relator+SP+Ela+Indef: **inside/sisäosa**
-* *потм%{back%}%>ст%{оэØ%}*
-* *пот00%>сто*
 
 
 
-imperative suffix
-**K1:t**  
 
-лыказевемс+V+Imprt+ScSg2: **have taken**
-* *лыказев%>%{КТ%}%{ЬØ%}*
-* *лыказев%>ть*
+# Pronoun inflection
 
-**K1:к**  
-ливтемс+V+TV+Prec+ScSg2: **set out/laittaa esille**
-* *ливть%>%{КТ%}%{АЯ%}*
-* *ливт0%>тя*
+Erzya pronouns inflect in many the same cases as regular
+nouns.
 
 
-**U4:y**  
-кал+N+Sg+Nom+Def: **fish/kala**
-* *кал>{dialM}с{ЬØ}*
-* *кал>0с0*
+## Closed class personal pronouns
 
-пильге+N+Pl+Nom+Indef **leg; foot/jalka**
-* *пильг%{frontSoft%}%>т%{ЬØ%}*
-* *пильг0%>ть*
-валдо+N+Pl+Nom+Indef **light/valo**
-* ★*валд%{backHard%}%>т%{ЬØ%}* (is not standard language)
-* ★*валд0%>ть* (is not standard language)
-лыказевемс+V+Imprt+ScSg2: **have taken**
-* *лыказев%>%{КТ%}%{ЬØ%}*
-* *лыказев%>ть*
 
-**U4:0**  
 
 
 
 
-валдо+N+Pl+Nom+Indef **light/valo**
-* *валд%{backHard%}%>т%{ЬØ%}*
-* *валд0%>т0*
 
 
 
+ +Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
 
-**s:0**  
 
-* *класс%>с*
-* *клас0%>с*
+ +Interr+Sem/Obj: CLT/COP_SG ;  singular
 
 
-**d:t**  
-* *кедь%>дО1*
-* *кед0%>те*
-* *обед%{frontHard%}%>дО1*
-* *обед0%>тэ*
-* ★*обед%{frontHard%}%>дО1* (is not standard language)
-* ★*обед0%>дэ* (is not standard language)
 
-**y:y**
 
 
-**y:0**  
-* *кель^Ь2ZERO%>енть*
-* *кел00%>енть*
-меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
-* *мерь%>сь*
-* *мер0%>сь*
-* ★*мерь%>сь* (is not standard language)
-* ★*мерь%>сь* (is not standard language)
 
+мон:мо
 
 
+тон:то
 
 
+сон:со
 
-**Disallow TLoss after non-t**  
 
 
-**Disallow KLoss after non-k**  
 
-**Disallow SLoss after non-s**  
+минь:
 
-**Disallow %^WLoss after non-v**  
+тынь:ты
 
-**Disallow Н1:н after Letters**  
+сынь:сы
 
-**Disallow з where not following l, n or r**
 
-* *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
-* *пильге0>з>энзэ*
 
 
 
-**Disallow з where not following l, n or r**
-чувто+N+Pl+Nom+Def: **tree/puu**
-* *чувт%{ОØ%}%>тнЕ3*
-* *чувт0%>тнэ*
 
 
 
-веле+N+SP+Tra+PxSg2
-* *веле%>%{оеэØ%}кс%>%{оеэØ%}т%{ЬØ%}*
-* *веле%>0кс%>эть*
 
-псака+N+SP+Abe+PxSg2+Clt/Cop+Prt2+ScPl3+Clt/Gak
-* *псака%>втО1мО1%>%{оеэØ%}т%{ЬØ%}%>%{оеэØ%}линек%>Г1ак*
-* *псака%>втомо%>0т0%>олинек%>как*
-ош+N+SP+Ill+PxSg2
-* *ош%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
-* *ош%>оз%>от0*
-* *эряв%>^WLoss%>{ОЕЭØ}вО1ль*
-* *эряв%>0%>00оль*
 
-псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
-* *псака%>вт%{оеэ%}мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
-* *псака%>втомо%>0нзо%>кс*
 
-веле+N+SP+Tra+PxSg2+Clt/Cop+Prt2+ScPl3: **village/kylä**
-* *веле%>%{оеэØ%}кс%>%{оеэØ%}т%{ЬØ%}%>%{оеэØ%}льть*
-* *веле%>0кс%>эт0%>ельть*
 
-**Disallow %^NoLinkVow after vowel**
 
-**Disallow s for control of stems with inessive...**
 
-**Disallow k for control of comparative with stem types**
+
+
+
+
+
+Obligatory Possessor Index
+
+Periferal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Demonstrative
+
+
+
+
+
+
+истямо:истя
+
+Interrogative
+
+
+
+
+What should be done 
+
+
+
+
+
+кона:кона
+This is not the same as indefinite
+PronRel-kona
+
+What should be done 
+
+ LEXICON PRON-IS-INTERR-SPAT-INE  косо 
+
+
+What should be done 
+
+
+
+Relative pronouns
+
+ки:ки
+
+
+
+ки
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+мезе+Pron:мезИ2 Misc_Pronouns1 ;
+мезе+Pron+Rel+Gen:мень K ;
+ки+Pron+Interr:ки Misc_Pronouns1 ;
+
+
+
+
+
+
+
+
+
+Some pronoun continuation have been moved here
+Out of TestLexc-noun.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEMONSTRATIVE DERIVATION !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4077,275 +4346,6 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 
 
-
-These are verbs with parallel conjugation
-
-
-
-### REDUPLICATION
-авардемс%-авардемс
-ардомс%-ардомс
-ардтневтемс%-ардтневтемс
-арсемс%-арсемс
-аштемс%-аштемс
-ванномс%-ванномс
-ваномс%-ваномс
-вешнемс%-вешнемс
-
-### %-And such
-авардемс%-теемс
-арсемс%-теемс
-аштемс%-теемс
-ванномс%-теемс
-ваномс%-теемс
-
-андомс%-симдемс
-аштемс%-учомс
-велямс%-чарамс
-вастомс%-дёлямс
-васькамс%-оймамс
-витнемс%-петнемс
-ёмавтомс%-аравтомс
-ярсамс%-симемс
-
-### SERIAL
-витнемс%-ютавтомс
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-лембстэ:лембстэ ADV_ "(eng) /(fin) /(rus) " ;
-
-
-ADD ADVERBS BELOW
-
-
-These are nouns with parallel declension
-
-
-
-ават%-тейтерть
-аванзо-тетянзо
-ават%-цёрат
-атявтт%-ававтт
-атят%-ават
-атят%-бабат
-атят%-сэрдят
-бабат%-нуцькат
-барант%-каткат
-боярт%-азорт
-боярт%-боярават
-
-вирть%-лугат
-вирть%-паксят
-вирть%-укшторт
-ворт%-грабительть
-ворт%-розбойникть
-эрзят%-мокшот
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-автор:автор N_KAL "(eng) /(fin) /(rus) " ;
-
-
-ADD NOUNS BELOW
-
-
-
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-автор:автор N_KAL "(eng) /(fin) /(rus) " ;
-
-
-ADD NOUNS BELOW
-
-
-
-
-
-
-
-
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-
-verbs of negation have partial inflection:
-€ аволь
-€ иля
-€ эзь
-
-
-The verb ярсамс has additional irregular forms:
-€ ярстано
-€ ярстадо
-
-The verb сеземс
-
-
-Some of the nouns have archaic consonant stem forms left:
-€ ийть
-
-
-
-Some random Russian elements:
-
-
-
-
-
-
-
-
-
-Some of the nouns have special forms for Gen PxSg1 and PxSg2:
-
-
-
-Reciprocal pronouns
-These might be done with flags
-
-These two stems have м loss but its presence can be
-observed in the choice of "тнэ" over "тне"
-This has special hard after lost consonant
-This has special hard after lost consonant
-
-
-1930s Phonetic transcription
-дс >> ц
-гт >> к
- мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
-
-
-### ADPOSITIONS
-
-
-### IDEOPHONES
-are dealt with as adverbs
-
-
-
-### PRONOUNS
-
-### QUANTIFIERS
- сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
-
-
-
-### NOUNS
-
-
-### PLACE NAMES
-### GEO
-
-
-
-
-### ANIMAL NAMES
-
-### FIRST NAMES
-
-
-
-
-100 % homographs of Russian words
-
-
-
-
-
-
-
-
-adjectives in _ой_ Adj-od >> A_RU-OJ
-with  +Use/SpellNoSugg
-
-+SP+Gen+Indef attributes as adjectives
-
-Russian language words found in Erzya texts
-
-Old Bible Names and words
-
-unrecognized
-
-Problems with synchronization
-missing lemmas
-
-
-COLLECTIVE NOUNS
-
-
-
-
-
-
-
-
-
-The derivable male given names have been moved to 
-the template urj-Cyrl-propernouns.lexc.
-
--kal
-
--osh
-
--kudo
-
--kal
-
--osh
-
--kudo
-
-Place names, Settlements
-
-
-Rivers
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-эрзя-мокшонь:эрзя-мокшонь A-IS-GEN "(eng) /(fin) /(rus) " ;
-
-
-ADD ADJECTIVES BELOW
-
-
-
-
-
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-ливтевкшнемс+V:ливтевкшне TV_KUNDAMS "(eng) /(fin) /(rus) " ;
-
-
-ADD VERBS BELOW
-
-
-These verbs just need Finnish translations
-A-M
-N-End
-
-
-
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-од:од A_KAL "(eng) /(fin)/(rus) " ;
-
-
-ADD ADJECTIVES BELOW
 
 # Clitics
 
