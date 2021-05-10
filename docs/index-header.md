@@ -1,7 +1,7 @@
 # Erzya documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-myv)](https://raw.githubusercontent.com/giellalt/lang-myv/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-myv)](https://raw.githubusercontent.com/giellalt/lang-myv/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-myv)](https://github.com/giellalt/lang-myv/issues)
 [![Build status](https://github.com/giellalt/lang-myv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-myv/actions)
 
