@@ -82,7 +82,7 @@ svn checkout https://github.com/giellalt/lang-myv.git/trunk lang-myv
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-myv/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-myv/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
