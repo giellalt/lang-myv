@@ -3345,7 +3345,11 @@ END
 
 # The Erzya morphophonological/twolc rules file 
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-myv/blob/main/src/fst/phonology.twolc) 
 
+## Alphabet
+
+ ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
 
 
 
