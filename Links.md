@@ -24,6 +24,7 @@
 * [adverbs_newwords-stems-fst-src.md](adverbs_newwords-stems-fst-src.md)
 * [propernouns_newwords-stems-fst-src.md](propernouns_newwords-stems-fst-src.md)
 * [exceptions-stems-fst-src.md](exceptions-stems-fst-src.md)
+* [myv-propernouns-stems-fst-src.md](myv-propernouns-stems-fst-src.md)
 * [root-fst-src.md](root-fst-src.md)
 * [transcriptor-abbrevs2text-transcriptions-src.md](transcriptor-abbrevs2text-transcriptions-src.md)
 * [grammarchecker-grammarcheckers-tools.md](grammarchecker-grammarcheckers-tools.md)

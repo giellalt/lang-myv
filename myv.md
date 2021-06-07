@@ -1622,6 +1622,7 @@ Erzya Homestead names !!
 
 
 
+
 PLACE NAMES FROM TEMPLATES !!
 
 
@@ -1671,6 +1672,9 @@ RIVER NAMES !!
 
 
 Front-vowel stem
+
+
+
 
 
 
@@ -3790,23 +3794,6 @@ These are verbs with parallel conjugation
 The derivable male given names have been moved to 
 the template urj-Cyrl-propernouns.lexc.
 
--kal
-
--osh
-
--kudo
-
--kal
-
--osh
-
--kudo
-
-Place names, Settlements
-
-
-Rivers
-
 
 
 These are nouns with parallel declension
@@ -3894,6 +3881,7 @@ added to the xml source files.
 
 
 ADD NOUNS BELOW
+
 
 
 
@@ -4019,6 +4007,25 @@ COLLECTIVE NOUNS
 
 
 
+
+
+
+-kal
+
+-osh
+
+-kudo
+
+-kal
+
+-osh
+
+-kudo
+
+Place names, Settlements
+
+
+Rivers
 
 
 # Morphology
@@ -5138,6 +5145,7 @@ Here follow all contlexes, appr 20.
 
 CyrillicFemaleName ;
 HUNSPELL Type name derivation
+RussianMalenamesDerive ; !
 RussianSurnamesDerive ;
 
 

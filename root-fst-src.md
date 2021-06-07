@@ -1116,6 +1116,7 @@ Here follow all contlexes, appr 20.
 
 CyrillicFemaleName ;
 HUNSPELL Type name derivation
+RussianMalenamesDerive ; !
 RussianSurnamesDerive ;
 
 
