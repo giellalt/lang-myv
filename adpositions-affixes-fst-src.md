@@ -105,9 +105,6 @@ postposition that is in prolative case
 
 
 
-Postpositions attr
-кондямо:кондя
-
 
 
 

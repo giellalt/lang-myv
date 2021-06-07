@@ -2234,6 +2234,9 @@ either a particle or ablative case marking on the standard of comparison
 
 
 
+кондямо:кондя
+
+
 
 
 
@@ -2396,9 +2399,6 @@ postposition that is in prolative case
 
 
 
-
-Postpositions attr
-кондямо:кондя
 
 
 
@@ -3896,6 +3896,9 @@ ADD NOUNS BELOW
 
 
 
+
+
+
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
 created from lexical data by regular inflection. Usually there should be next
@@ -3943,6 +3946,7 @@ These two stems have м loss but its presence can be
 observed in the choice of "тнэ" over "тне"
 This has special hard after lost consonant
 This has special hard after lost consonant
+
 
 
 1930s Phonetic transcription

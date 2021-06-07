@@ -47,6 +47,7 @@ This has special hard after lost consonant
 This has special hard after lost consonant
 
 
+
 1930s Phonetic transcription
 дс >> ц
 гт >> к

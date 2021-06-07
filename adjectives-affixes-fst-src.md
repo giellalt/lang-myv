@@ -7,6 +7,9 @@ either a particle or ablative case marking on the standard of comparison
 
 
 
+кондямо:кондя
+
+
 
 
 
