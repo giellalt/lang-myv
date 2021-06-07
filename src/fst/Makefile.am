@@ -51,7 +51,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/nouns_newwords.lexc         \
 			stems/numerals.lexc               \
 			stems/propernouns_newwords.lexc   \
-			stems/rusMaleNameDer.lexc         \
+			stems/myv-propernouns.lexc         \
 			stems/verbs_newwords.lexc         
 
 #			stems/rusSurDer.lexc
