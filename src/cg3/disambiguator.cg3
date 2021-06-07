@@ -78,7 +78,7 @@ LIST EOS = (<<<) (</s>);
 LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
 LIST Lower = "<[а-яё]+>"r ;
 
-LIST Err/Orth = Err/Orth ;
+LIST Err/Orth = Err/Orth Err/Orth-no-linking-vowel ;
 
 # We can define sets for common tag clusters
 LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Noun Plural
@@ -234,6 +234,10 @@ LIST PXPERSON = PxSg1 PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ;
 
 LIST PXPERSONNOMGEN = PxSg1 PxSg2 PxPl1 PxPl2 PxPl3 ;
 
+LIST ADPWITHPX = (Adp CASE PXPERSON) ;
+
+SET ADPNOPX = Adp - ADPWITHPX ;
+
 LIST Comp = Comp ;
 LIST Superl = Superl ;
 
@@ -269,9 +273,11 @@ LIST Cond = Cond ;
 LIST Conj = Conj ;
 LIST Des = Des ;
 LIST Ind = Ind ;
+LIST Oblig = Oblig ;
 LIST Opt = Opt ;
 LIST Prec = Prec ;
 LIST Proh = Proh ;
+
 
 LIST Imprt = Imprt ;
 
@@ -445,6 +451,7 @@ SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Sur) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 #
 SUBSTITUTE (IV) (*) TARGET (*) ;
 SUBSTITUTE (TV) (*) TARGET (*) ;
@@ -715,8 +722,10 @@ SELECT Prop + SP + Gen (1C ANT) ;
 
 #REMOVE IV IF (0 OCONJ) ;
 
+# истямо лем ало
 #REMOVE Gen IF (0 Nom OR Gen) ; # argh fix!
-SELECT Gen IF (1C Adp) ;
+#SELECT Gen IF (1C Adp) ; # too strong!
+
 
 #<псаказояк> remove n sg gen pxsg3 if Ani and n sg nom pxsg3
 REMOVE Gen IF (0 Ani + Sg + Nom + PxSg3) ;
@@ -738,6 +747,9 @@ SELECT CC IF (0 CC) (-1 ANT + Sg + Nom ) (1 ANT + Pl + Nom ) ;
 
 # Select the postposition марто when it is preceded by genitive definite 
 SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
+
+# яла икелев
+REMOVE:NoSentInitBaseAdp Adp IF (0 Adv) (0 ADPNOPX ) (NOT -1 N OR Pron ) ;
 
 # Иванка прась можот тонь кедеть лангс
 REMOVE:RelatorWithNomPx Nom IF (0 PXPERSONNOMGEN) (1 Relator);
