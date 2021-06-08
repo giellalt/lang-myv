@@ -840,7 +840,7 @@ LEXICON INDEF_PRONOUNS-IN-KOI
 кой-кодамо+A+Indef+Pl:кой-кодатнэ Indef_Pronouns-Cases ;
 !кодамо+Adn:кой-кодам Indef_Pronouns-Cases ;
 
-кой-кона+Det:кой-кона _KUDO-Indef_Pronouns-Cases ;
+кой-кона+Det+Indef:кой-кона NMN_KUDO ;
 
 кой-зяро+Adv:кой-зяро _KUDO-Indef_Pronouns-Cases ;
 
@@ -885,7 +885,7 @@ LEXICON INDEF_PRONOUNS-IN-TAGO
 таго-кодамо+A+Indef+Pl:таго-кодатнэ Indef_Pronouns-Cases ;
 !кодамо+Adn:таго-кодам Indef_Pronouns-Cases ;
 
-таго-кона+Det:таго-кона _KUDO-Indef_Pronouns-Cases ;
+таго-кона+Det+Indef:таго-кона NMN_KUDO ;
 
 таго-зяро+Adv:таго-зяро _KUDO-Indef_Pronouns-Cases ;
 
@@ -930,7 +930,7 @@ LEXICON INDEF_PRONOUNS-IN-TA
 та-кодамо+A+Indef+Pl:та-кодатнэ Indef_Pronouns-Cases ;
 !кодамо+Adn:та-кодам Indef_Pronouns-Cases ;
 
-та-кона+Det:та-кона _KUDO-Indef_Pronouns-Cases ;
+та-кона+Det+Indef:та-кона NMN_KUDO ;
 
 та-зяро+Adv:та-зяро _KUDO-Indef_Pronouns-Cases ;
 
@@ -1630,6 +1630,7 @@ LEXICON REL/INTERR_PRONOUNS
 
 
 кона+Det+Rel:кона REL/INTERR-PRON-CASES ;
+кона+Det+Rel:кона PRON-DEM_TE ;
 
 !ко+Pron+Interr:ко Indef_Pronouns-Cases ;
 !зяродо+Adv+Interr+Abl:зяродо ENDLEX ;
