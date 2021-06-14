@@ -162,7 +162,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *ков%{back%}%>з%>%{уиыØ%}т%{ЬØ%}*
 * *ков0%>з%>ут*
 * *ков%{back%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
-* *ков0%>уз%>от*
+* *ков0%>уз%>ут*
 
 
 
@@ -354,6 +354,8 @@ imperative suffix
 
 **Disallow TLoss after non-t**  
 
+* ★*раське>{уиыØ}нь* (is not standard language)
+* ★*раське>0нь* (is not standard language)
 
 **Disallow KLoss after non-k**  
 
