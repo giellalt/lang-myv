@@ -236,6 +236,8 @@ LIST PXPERSONNOMGEN = PxSg1 PxSg2 PxPl1 PxPl2 PxPl3 ;
 
 LIST ADPWITHPX = (Adp CASE PXPERSON) ;
 
+SET PXPERSONGEN = Gen + PXPERSON ;
+
 SET ADPNOPX = Adp - ADPWITHPX ;
 
 LIST Comp = Comp ;
@@ -748,6 +750,11 @@ SELECT CC IF (0 CC) (-1 ANT + Sg + Nom ) (1 ANT + Pl + Nom ) ;
 # Select the postposition марто when it is preceded by genitive definite 
 SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
 
+# Remove the nominative reading of possessum with PX if followed by Po
+# неизь Эйкакшонть Мария аванзо марто
+REMOVE:NoNomPossessumWithFollowingAdp Nom IF (0 PXPERSONGEN) (1 ADPNOPX) ;
+
+
 # яла икелев
 REMOVE:NoSentInitBaseAdp Adp IF (0 Adv) (0 ADPNOPX ) (NOT -1 N OR Pron ) ;
 
@@ -799,7 +806,7 @@ REMOVE:PoIfAdp Po IF (0 Adp) ;
 REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;
 
 # сюконякшнось партизантнэнь каршо
-SELECT Adp (-1 N + Pl + Gen OR N + Sg + Gen OR N + Sg + Nom + Indef OR N + SP + Gen ) ;
+SELECT Adp (-1 N + Pl + Gen OR N + Sg + Gen OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
 
 # васттано тынк марто
 REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
