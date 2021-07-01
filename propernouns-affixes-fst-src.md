@@ -42,28 +42,6 @@ Russian type Surnames
 
 
 
-Erzya Homestead names !!
-
-
-
-
-PLACE NAMES FROM TEMPLATES !!
-
-
-
-
-Erzya settlements !!
-
-
-
-
-
-Divinities !!
-
-
-
-
-Constellations !!
 
 
 
@@ -72,16 +50,38 @@ Constellations !!
 
 
 
-TEXT NAMES !!
-
-
-
-HOLIDAYS !!
 
 
 
 
-RIVER NAMES !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -129,3 +129,5 @@ DECLENSION LIMITATIONS
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/affixes/propernouns.lexc)</small>

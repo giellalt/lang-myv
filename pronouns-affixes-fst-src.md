@@ -298,7 +298,6 @@ Out of TestLexc-noun.txt
 
 
 
-DEMONSTRATIVE DERIVATION !!
 
 
 
@@ -385,3 +384,6 @@ DEMONSTRATIVE DERIVATION !!
 
 
 
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/affixes/pronouns.lexc)</small>

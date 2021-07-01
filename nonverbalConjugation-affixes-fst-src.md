@@ -130,3 +130,5 @@ _KUDO-NomPl-Conjugation-only-mutual
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nonverbalConjugation.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/affixes/nonverbalConjugation.lexc)</small>

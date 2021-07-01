@@ -21,3 +21,5 @@ These are nouns with parallel declension
 ворт%-розбойникть
 эрзят%-мокшот
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/hyphenated-nouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/stems/hyphenated-nouns.lexc)</small>

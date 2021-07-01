@@ -224,7 +224,7 @@ no deverbals
 
 
 
-    **LEXICON TV_NEKSHNEMS** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
 
 
@@ -716,3 +716,5 @@ Used with deverbals
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/affixes/verbs.lexc)</small>

@@ -31,3 +31,5 @@ These are verbs with parallel conjugation
 ### SERIAL
 витнемс%-ютавтомс
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/hyphenated-verbs.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/stems/hyphenated-verbs.lexc)</small>

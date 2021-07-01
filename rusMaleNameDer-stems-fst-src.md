@@ -6,3 +6,5 @@ the template urj-Cyrl-propernouns.lexc.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/rusMaleNameDer.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/stems/rusMaleNameDer.lexc)</small>

@@ -1,5 +1,5 @@
 
-       E R Z Y A    G R A M M A R   C H E C K E R
+E R Z Y A    G R A M M A R   C H E C K E R
 
 
 
@@ -133,3 +133,5 @@ DerTag
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-myv/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>

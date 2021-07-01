@@ -50,7 +50,7 @@ Adjectives
 
 Adverbs
  * +Ideoph These are ideophonic descriptors used to modify the verb
- вырк ливтясь "**flit** and it flew off"
+вырк ливтясь "**flit** and it flew off"
 "Ideophone: A vivid representation of an idea in sound. A word, often
 onomatopoeic, which describes a predicate, qualificative or adverb in 
 respect to manner, colour, sound, smell, action, state or intensity."
@@ -104,7 +104,7 @@ Postpositions
 ## Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
  * +Appr Approximative numeral кавто-колмо, колмошка *two or three*
-         NB! do not confuse with Komi case +Apr
+NB! do not confuse with Komi case +Apr
  * +AssocColl -ne- ; avide-
  * +Assoc +мезть
  * +Card cardinal + NCard
@@ -168,7 +168,7 @@ to mark what would be a secondary subject:
 
 ### Infinitive moods
  * +Oblig modality: deontic/directive/obligative
- андомс: андома , якамс: якама
+андомс: андома , якамс: якама
  * +Delib **+Sugg modality**: deontic/directive/deliberative
 I still need the right word for this андомс: андомсат
 
@@ -566,7 +566,7 @@ source and target part-of-speech.
 
 ## Der begin
  * +Der  In front of every derivation to make it
- possible to target derivations as a class e.g. in regular expressions etc
+possible to target derivations as a class e.g. in regular expressions etc
  * +Der/VtOmO 
  * +Der/stO Deriving adverbs from adjectives A2Adv
  * +Der/ms эрзямс эрзя, истямс истя, вадрямс вадря
@@ -766,8 +766,8 @@ Focus clitics
  * +Clt/Gaka редякака ARE these real?
  * +Clt/Gakaja редякакая ARE these real?
  * +Pred2 secondary predicate. Examples:
- "Joe came in **with his hat on**."
- "Joe came in **Joe had his hat on**."
+"Joe came in **with his hat on**."
+"Joe came in **Joe had his hat on**."
 
 ### Tags distinguishing different versions of the same lemma (before POS)
  * +v1
@@ -795,7 +795,7 @@ Focus clitics
  * +v23
  * +v24
 
-## FUNCTIONS are all upper-case!!!!
+
  * +ACC +DAT +COM This marks a function not a morpheme
 
  * +NoPoss used with personal pronouns in oblique cases,
@@ -1209,3 +1209,5 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/root.lexc)</small>
