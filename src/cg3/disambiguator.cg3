@@ -416,6 +416,11 @@ LIST NMNNB = Sg Pl SP ;
 # Sets
 # ====
 
+SET PL-SUBJ-INDEF = (Pl Nom Indef);
+SET PL-SUBJ-DEF = (Pl Nom Def);
+SET PL-SUBJ-PX =  (Pl Nom PxSg1) OR (Pl Nom PxSg2) OR (Pl Nom PxSg3) OR (Pl Nom PxPl1) OR (Pl Nom PxPl2) OR (Pl Nom PxSg3) ; # forms that can be subject with possessive marking
+SET PL-SUBJ = PL-SUBJ-INDEF OR PL-SUBJ-DEF OR PL-SUBJ-PX ;
+
 SET WORD = N | V | A | Po | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
 
 #!! ### Derivation tags
@@ -479,10 +484,16 @@ REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
 #REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
 REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
 
+# псакась совась кудос
+# this may be too powerful
+REMOVE:NoSova N IF (NOT -1* VFIN BARRIER BOS) (0 ("совамс")) (NOT 1* VFIN BARRIER EOS) ;
+
 #Ракасть кавто мирде мартонть лангсо,... the one with two husbands
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
 REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 
+#Сёлминензэ кадовсть панжадо.
+REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3) (NOT 1* PL-SUBJ BARRIER EOS) ;
 # 
 #REMOVE Der/ОвОмс (0C V) ;
 REMOVE Der/OvOms (0C V) ;
