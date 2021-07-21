@@ -733,11 +733,13 @@ used with Dat PxSg1
 
 
 
+
 ### Derivation tags
 2VDerTag
 2NDerTag
 
 DerTag
+
 
 
 
@@ -4756,6 +4758,8 @@ Some random Russian elements:
 
 
 
+
+
 Some of the nouns have special forms for Gen PxSg1 and PxSg2:
 
 
@@ -5235,14 +5239,14 @@ imperative suffix
 
 **Disallow Н1:н after Letters**  
 
-**Disallow з where not following l, n or r**
+**Disallow з where not following voiced consonant or vowel**
 
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
 
 
-**Disallow з where not following l, n or r**
+**Disallow з where not following voiced consonant or vowel**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*

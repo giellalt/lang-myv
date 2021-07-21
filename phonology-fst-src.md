@@ -365,14 +365,14 @@ imperative suffix
 
 **Disallow Н1:н after Letters**  
 
-**Disallow з where not following l, n or r**
+**Disallow з where not following voiced consonant or vowel**
 
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
 
 
-**Disallow з where not following l, n or r**
+**Disallow з where not following voiced consonant or vowel**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*
