@@ -10,7 +10,6 @@ Alphabet
 ҥ Ҥ і І ѳ Ѳ !!≈ @CODE@ Pre-Soviet 1930s letters 
 ѝ а̀
 
-ь:0
 
 ! Nominal stem vowels that alternate 
 ! work with "+VLoss" and "+NoVLoss" tags
@@ -342,7 +341,8 @@ Rules
 "%{оеэØ%}:э"
 !! **@RULENAME@**
 %{оеэØ%}:э <=> LFCH ( %{frontHard%}: ) %> _ ;
-               LFCS (%{frontSoft%}:) %> з %> _ ;
+               LFCS (%{frontSoft%}:) (%>) з %> _ ;
+               [FTV [д |з |л |н |р] |й: | д ь: | з ь: | н ь: | р ь: | л ь:] (%{frontSoft%}:) %> з %> _ ;
 !! кев+N+SP+Ill+PxSg2: **rock/kivi**
 !!€ кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}
 !!€ кев0%>з%>эть
@@ -796,9 +796,11 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 !! **@RULENAME@**  
 Н1:н /<= Letters _ ;
 
-"Disallow з where not following l, n or r"
+"Disallow з where not following voiced consonant or vowel"
 !! **@RULENAME@**
- з:з /<=  \[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
+ з:з /<=  \[ CnsVoiced ] (ь:) (HarmDummies:) %> _ %> %{оеэØ%}:  ;
+      \[:Vows]  (HarmDummies:) %> _ %> %{оеэØ%}:  ;
+! \[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
 
 !!€ пильге{frontSoft}>з>{оеэØ}нз{оэØ}
 !!€ пильге0>з>энзэ
