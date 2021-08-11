@@ -3,7 +3,7 @@ The Erzya morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-myv)](https://github.com/giellalt/lang-myv/issues)
 [![Build Status](https://github.com/giellalt/lang-myv/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-myv/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-myv)](https://raw.githubusercontent.com/giellalt/lang-myv/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-myv)](https://github.com/giellalt/lang-myv/blob/main/LICENSE)
 
 This repository contains finite state source files for the Erzya language,
 for building morphological analysers, proofing tools
