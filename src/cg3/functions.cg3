@@ -181,9 +181,12 @@ LIST Der/Pass = Der/PassL Der/PassS ;
 
 LIST Prt = Prt;
 LIST Prs = Prs ;
- 
 
+LIST Conj = Conj ;
+LIST CondConj = CondConj ;
+LIST Des = Des ;
 LIST Ind = Ind ;
+LIST Opt = Opt ;
 LIST Pot = Pot ;
 LIST Cond = Cond ;
 
@@ -201,6 +204,30 @@ LIST Du3 = Du3 ;
 LIST Pl1 = Pl1 ;
 LIST Pl2 = Pl2 ;
 LIST Pl3 = Pl3 ;
+
+LIST ScSg1 = ScSg1 ;
+LIST ScSg2 = ScSg2 ;
+LIST ScSg3 = ScSg3 ;
+ 
+LIST ScDu1 = ScDu1 ;
+LIST ScDu2 = ScDu2 ;
+LIST ScDu3 = ScDu3 ;
+ 
+LIST ScPl1 = ScPl1 ;
+LIST ScPl2 = ScPl2 ;
+LIST ScPl3 = ScPl3 ;
+
+LIST OcSg1 = OcSg1 ;
+LIST OcSg2 = OcSg2 ;
+LIST OcSg3 = OcSg3 ;
+ 
+LIST OcDu1 = OcDu1 ;
+LIST OcDu2 = OcDu2 ;
+LIST OcDu3 = OcDu3 ;
+ 
+LIST OcPl1 = OcPl1 ;
+LIST OcPl2 = OcPl2 ;
+LIST OcPl3 = OcPl3 ;
 
 LIST Inf = Inf ;
 LIST ConNeg = ConNeg ;
@@ -421,7 +448,7 @@ SET NOT-VERB = WORD - V ;
 SET V-IND-FIN = Prs OR Prt ;
  # Problem: "In boahtán" is an invisible indicative
 
-SET V-MOOD = Ind OR Pot OR Imprt OR ImprtII OR Cond OR (Neg Sup) ;
+SET V-MOOD = Ind OR Opt OR Imprt OR Conj OR Cond OR CondConj OR Des OR (Neg Sup) ;
 
 LIST GC = ("gč") ;
 
@@ -439,14 +466,23 @@ SET NOT-PRFPRC = WORD - PrfPrc ;
 # Person
 # - - - - 
 
-LIST V-SG1 = (V Ind Prs Sg1)  (V Ind Prt Sg1) (V Cond Prs Sg1) 
-             (V Cond Prt Sg1) (V Pot Prs Sg1) (V Neg Ind Sg1);
+LIST V-SG1 = (V Ind Prs ScSg1)  (V Ind Prt1 ScSg1) (V Ind Prt2 ScSg1)
+             (V Cond Prs ScSg1) (V Cond Prt1 ScSg1) (V Cond Prt2 ScSg1)
+	     (V Conj ScSg1) (V CondConj ScSg1) (V Opt ScSg1)
+	     (V Aux Neg Ind Prt1 ScSg1) (V Aux Neg Ind Prt2 ScSg1)
+	     (V Aux Neg Conj ScSg1);
  
-LIST V-SG2 = (V Ind Prs Sg2)  (V Ind Prt Sg2) (V Cond Prs Sg2) 
-             (V Cond Prt Sg2) (V Pot Prs Sg2) (V Neg Ind Sg2);
+LIST V-SG2 =  (V Ind Prs ScSg2)  (V Ind Prt1 ScSg2) (V Ind Prt2 ScSg2)
+             (V Cond Prs ScSg2) (V Cond Prt1 ScSg2) (V Cond Prt2 ScSg2)
+	     (V Conj ScSg2) (V CondConj ScSg2) (V Opt ScSg2)
+	     (V Aux Neg Ind Prt1 ScSg2) (V Aux Neg Ind Prt2 ScSg2)
+	     (V Aux Neg Conj ScSg2);
  
-LIST V-SG3 = (V Ind Prs Sg3)  (V Ind Prt Sg3) (V Cond Prs Sg3) 
-             (V Cond Prt Sg3) (V Pot Prs Sg3) (V Neg Ind Sg3);
+LIST V-SG3 =  (V Ind Prs ScSg3)  (V Ind Prt1 ScSg3) (V Ind Prt2 ScSg3)
+             (V Cond Prs ScSg3) (V Cond Prt1 ScSg3) (V Cond Prt2 ScSg3)
+	     (V Conj ScSg3) (V CondConj ScSg3) (V Opt ScSg3)
+	     (V Aux Neg Ind Prt1 ScSg3) (V Aux Neg Ind Prt2 ScSg3)
+	     (V Aux Neg Conj ScSg3);
  
 LIST V-DU1 = (V Ind Prs Du1)  (V Ind Prt Du1) (V Cond Prs Du1) 
      	     (V Cond Prt Du1) (V Pot Prs Du1) (V Neg Ind Du1);
@@ -457,14 +493,23 @@ LIST V-DU2 = (V Ind Prs Du2)  (V Ind Prt Du2) (V Cond Prs Du2)
 LIST V-DU3 = (V Ind Prs Du3)  (V Ind Prt Du3) (V Cond Prs Du3) 
 	         (V Cond Prt Du3) (V Pot Prs Du3) (V Neg Ind Du3);
  
-LIST V-PL1 = (V Ind Prs Pl1)  (V Ind Prt Pl1) (V Cond Prs Pl1) 
-             (V Cond Prt Pl1) (V Pot Prs Pl1) (V Neg Ind Pl1);
+LIST V-PL1 = (V Ind Prs ScPl1)  (V Ind Prt1 ScPl1) (V Ind Prt2 ScPl1)
+             (V Cond Prs ScPl1) (V Cond Prt1 ScPl1) (V Cond Prt2 ScPl1)
+	     (V Conj ScPl1) (V CondConj ScPl1) (V Opt ScPl1)
+	     (V Aux Neg Ind Prt1 ScPl1) (V Aux Neg Ind Prt2 ScPl1)
+	     (V Aux Neg Conj ScPl1);
  
-LIST V-PL2 = (V Ind Prs Pl2)  (V Ind Prt Pl2) (V Cond Prs Pl2) 
-             (V Cond Prt Pl2) (V Pot Prs Pl2) (V Neg Ind Pl2);
+LIST V-PL2 =  (V Ind Prs ScPl2)  (V Ind Prt1 ScPl2) (V Ind Prt2 ScPl2)
+             (V Cond Prs ScPl2) (V Cond Prt1 ScPl2) (V Cond Prt2 ScPl2)
+	     (V Conj ScPl2) (V CondConj ScPl2) (V Opt ScPl2)
+	     (V Aux Neg Ind Prt1 ScPl2) (V Aux Neg Ind Prt2 ScPl2)
+	     (V Aux Neg Conj ScPl2);
  
-LIST V-PL3 = (V Ind Prs Pl3)  (V Ind Prt Pl3) (V Cond Prs Pl3) 
-             (V Cond Prt Pl3) (V Pot Prs Pl3) (V Neg Ind Pl3);
+LIST V-PL3 =  (V Ind Prs ScPl3)  (V Ind Prt1 ScPl3) (V Ind Prt2 ScPl3)
+             (V Cond Prs ScPl3) (V Cond Prt1 ScPl3) (V Cond Prt2 ScPl3)
+	     (V Conj ScPl3) (V CondConj ScPl3) (V Opt ScPl3)
+	     (V Aux Neg Ind Prt1 ScPl3) (V Aux Neg Ind Prt2 ScPl3)
+	     (V Aux Neg Conj ScPl3);
  
 
  # Note that imperative verbs are not included in these sets!
@@ -512,13 +557,13 @@ SET HABEO-3 = HABEO-SG3 OR HABEO-PL3 ;
 
 LIST MUN = (Pron Pers Sg1 Nom);
 LIST DON = (Pron Pers Sg2 Nom);
-LIST SON = ("son" Pron Pers Sg3 Nom);
+LIST SON = ("сон" Pron Pers Sg3 Nom);
 LIST MOAI = (Pron Pers Du1 Nom);
 LIST DOAI = (Pron Pers Du2 Nom);
 LIST SOAI = (Pron Pers Du3 Nom);
 LIST MII-PERS = (Pron Pers Pl1 Nom);
 LIST DII = (Pron Pers Pl2 Nom);
-LIST SII = ("son" Pron Pers Pl3 Nom);
+LIST SII = ("сон" Pron Pers Pl3 Nom);
 
 SET PPRON-NOM-NOT-DAT = MUN OR DON OR SON OR MOAI OR DOAI OR SOAI OR MII-PERS OR DII OR SII ;
 
@@ -591,7 +636,7 @@ SET MO = MO-MANge - ("man" Foc/ge) ;
 LIST PLACE-ADV =  "davá#bealde" "mátta#bealde" "nuortta#bealde" "oarje#bealde" "olggo#beale" ;
 # There will usually be a Gen in front. 
 
-LIST TIME-ADVL = "dalle" "diibmá" "dolin" "dovle" "duvle" "eske" "gieskat" "ikte" "ovdal" ("ovdditbeaivi" Gen) ("vássánáigi" Loc) ("boaresáigi" Gen) "dál" "ihttin" "odne" "otne" ("boahtteáigi" Loc) ("boahtteáigi" Gen)  ;
+LIST TIME-ADVL = "исяк" "течи" "умок" "мелят" "маныть" "ванды" "улкоть" "валске" "икеле" "ней" ("шка" Temp) ("шка" Ela) ;
 
 LIST TIME-ADV = (Adv Sem/Time) ;
 
@@ -1206,6 +1251,8 @@ MAP:r321 (@APP-Pron<) TARGET (N Acc) IF (*-1 ("nugo") OR ("sihke") BARRIER APP-B
 #MAP (@<SPRED) TARGET Nom (*-1 (":") BARRIER WORD)(*1 EOS BARRIER Nom) ;
 	#$ Fáksa: 22242786
 
+#MAP:>FMAINV (@SUBJ>) SON (*1 CC LINK *1 @>P BARRIER NOT-NPMOD) ;
+ #сон ... ярсы
 
 MAP:Relsubj> (@SUBJ>) TARGET (Rel Nom) IF (*1 FMAINV) ;
 	#$ Go dat geažit mat geaigut leaba bajás, gohčoduvvoba spahká-oaivin.
@@ -1709,6 +1756,9 @@ MAP:HNOUN<spred (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LI
 
 	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
 
+#learning jmr 2021-09-12x
+MAP:pronSubj (@SUBJ) TARGET SON ;
+MAP:fmainv (@FMAINV) TARGET VFIN ;
 
 MAP:leftoversX (@X) TARGET WORD ;
 

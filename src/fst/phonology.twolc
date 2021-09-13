@@ -798,7 +798,8 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow з where not following voiced consonant or vowel"
 !! **@RULENAME@**
- з:з /<=  \[ CnsVoiced ] (ь:) (HarmDummies:) %> _ %> %{оеэØ%}:  ;
+ з:з /<=
+ !\[ CnsVoiced ] (ь:) (HarmDummies:) %> _ %> %{оеэØ%}:  ;
       \[:Vows]  (HarmDummies:) %> _ %> %{оеэØ%}:  ;
 ! \[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
 

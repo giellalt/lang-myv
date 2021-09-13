@@ -202,13 +202,16 @@ LIST DATV = "smakka" ;
 LIST 10_SG3V = "пиземс" "якшавтомс" ;
   # Weather verbs
 
-LIST 1NOM-2ABL/TOPIC_V = "ёвтамс" "кортамс" "сёрмадомс" "содамс" ;
+LIST 1NOM-2ABL/TOPIC_V = "арсемс" "ёвтамс" "кортамс" "сёрмадомс" "содамс" ;
  #This includes "кортамс" 'talk' verbs
 
-LIST 1NOM-2ABL/CAUSE_V = "пелемс" ;
+LIST 1NOM-2ABL/CAUSE_V = "виздемс" "нильтякадомс" "пелемс" ;
  #This includes "пелемс" 'fear' verbs
 
-LIST 1NOM-2NOMGEN/DURATION_V = "ардомс" "аштемс" "удомс" "чиемс" "эрямс" ;
+LIST 1NOM-2ABL/CONSUM_V = "лекстямс" "симемс" "ярсамс" ;
+ #This includes "ярсамс" 'eat of' verbs
+
+LIST 1NOM-2NOMGEN/DURATION_V = "ардомс" "аштемс" "куземс" "молемс" "удомс" "чиемс" "эрямс" "ютамс" ;
 
 LIST 1NOM/TH-2ILL_V = "ёмамс" "куломс" ;
   # 'disappear', 'die'
