@@ -50,6 +50,7 @@ This means a radical increase in the Erzya pronoun inventory: 6 x for each numer
 
 
 once, twice; весть, кавксть, аламоксть
+twofold, threefold; веенькирда, кавонькирда, колмонькирда
 
 
 

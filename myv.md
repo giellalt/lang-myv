@@ -257,6 +257,8 @@ DerTag
 
 
 
+
+
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-myv/blob/main/../src/cg3/disambiguator.cg3)</small>
 
@@ -290,11 +292,6 @@ DerTag
 
 
 * Sets for Morphosyntactic properties
-
-
-
-
-
 
 
 
@@ -745,7 +742,6 @@ These were the set types.
 * **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
 * **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
-
 
 
 
@@ -2146,6 +2142,7 @@ This means a radical increase in the Erzya pronoun inventory: 6 x for each numer
 
 
 once, twice; весть, кавксть, аламоксть
+twofold, threefold; веенькирда, кавонькирда, колмонькирда
 
 
 

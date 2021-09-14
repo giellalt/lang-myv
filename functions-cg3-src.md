@@ -196,11 +196,6 @@
 
 
 
-
-
-
-
-
 * Sets for verbs
 
 
@@ -485,7 +480,6 @@ These were the set types.
 * **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
 * **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
-
 
 
 
