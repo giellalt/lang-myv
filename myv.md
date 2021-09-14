@@ -453,11 +453,6 @@ DerTag
 
 
 
-
-
-
-
-
 * Sets for verbs
 
 
@@ -733,7 +728,6 @@ These were the set types.
 
 * **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
 
-* **subj>Du** (@SUBJ>) for dual nominatives, including Coll Nom. VFIN + Du3 to the right. 
 * **subj>Pl** (@SUBJ>) for plural nominatives, including Coll and Sem/Group. VFIN + Pl3 to the right.
 
 * **subj>Pl** (@SUBJ>) for plural nominatives
