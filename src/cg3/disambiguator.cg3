@@ -498,7 +498,7 @@ REMOVE:NoSova N IF (NOT -1* VFIN BARRIER BOS) (0 ("совамс")) (NOT 1* VFIN 
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
 REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 
-SELECT:NumIter Adv (0C Adv + Iter) ;
+REMOVE:NumIter Num + Iter IF (0 Adv + Iter) ;
 
 #Сёлминензэ кадовсть панжадо.
 REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3) (NOT 1* PL-SUBJ BARRIER EOS) ;

@@ -1501,8 +1501,8 @@ MAP:advl>cs (@ADVL>CS) TARGET ("beare" Adv) (1 CS LINK *1 FMAINV) ;
 
 LIST ADVL = Adv Ill Com Loc Po Pr Ine Ela ;
 
-MAP:advl< (@ADVL<) TARGET (N SP Ill PxSg3) IF (-1 CardIter OR MULT)(0 TIME-N);
-	#$ Монень эряви ярсамс кавксть таргозонзо < Mun ferten málestit guktii vahkus.
+MAP:r39 (@ADVL<) TARGET (N SP Ill PxSg3) IF (-1 CardIter OR MULT)(0 TIME-N);
+	#$ Монень эряви ярсамс кавксть таргозонзо < :r39 Mun ferten málestit guktii vahkus.
 
 SET MOD-ADV = DUSSE OR ("njuolga") OR ("njuolgga") OR EASKKA OR ("gitta") ;
 
@@ -1747,7 +1747,7 @@ MAP:HNOUN<spred (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LI
 
 #learning jmr 2021-09-12x
 MAP:pronSubj> (@SUBJ>) TARGET SON (1* ScSg3 BARRIER EOS) ;
-MAP:fmainv (@FMAINV) TARGET VFIN ;
+#MAP:fmainv (@FMAINV) TARGET VFIN ;
 
 MAP:leftoversX (@X) TARGET WORD ;
 
