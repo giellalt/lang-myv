@@ -191,6 +191,7 @@ LEXICON NUM_KUDO
 +Card+Iter:%>ксть Ks ;
 +Card+Appr+Iter:%>шкаксть Ks ;
 !2017-11-21+Card+Lat:%>в Ks ;
+:%{оеэØ%}%>нь%>кирда MULT_ ;
 
 LEXICON NUMORD_KUDO
 !2017-11-21+Der/cje+Ord:%>це ENDLEX ;
@@ -268,11 +269,16 @@ LEXICON NUM-IS-ASSOC-COLL-PL3
 !+Use/NG+Err/Orth: ITER_ ;
 
 LEXICON ITER_
-+Adv+Iter: K ;
++Iter: K ;
 !! once, twice; весть, кавксть, аламоксть
+LEXICON MULT_
++Mult: K ;
+!! twofold, threefold; веенькирда, кавонькирда, колмонькирда
+LEXICON ORD-MULT_
++Ord+Mult: K ;
 
-LEXICON ITER-INDEF
-+Qnt+Mult+Indef: K ;
+!LEXICON ITER-INDEF
+!+Qnt+Mult+Indef: K ;
 
 LEXICON NUM-INTERR_
 +Interr: ENDLEX ;

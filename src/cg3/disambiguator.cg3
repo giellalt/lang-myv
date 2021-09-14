@@ -245,6 +245,8 @@ LIST Superl = Superl ;
 
 LIST Attr = Attr ;
 LIST Ord = Ord ;
+LIST Iter = Iter ;
+LIST Mult = Mult ;
 
 LIST Qst = Qst ;
  
@@ -273,6 +275,7 @@ LIST Prt2 = Prt2;
 
 LIST Cond = Cond ;
 LIST Conj = Conj ;
+LIST CondConj = CondConj ;
 LIST Des = Des ;
 LIST Ind = Ind ;
 LIST Oblig = Oblig ;
@@ -353,6 +356,7 @@ LIST Der/стО = Der/стО ;
 LIST Der/OvOms = Der/OvOms ; #Der/ОвОмс 
 LIST Der/OvtOms = Der/OvtOms ; #Der/ОвтОмс
 LIST Der/ОвтОмс = Der/ОвтОмс ;
+LIST Der/Cond = Der/Cond ;
 LIST Der/Dimin = Der/Dimin ;
 
 LIST Der = Der ;
@@ -407,7 +411,7 @@ LIST EZJ = "а" ;
 # Phrasal groups
 # --------------
 
-LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt  ; 
+LIST VFIN = Prs Prt1 Prt2 Cond Conj CondConj Des Imprt Opt  ; 
 
 LIST OBLNMN = Abe Abl Cau Com Cmpr Dat Gen Lat Loc Prl Temp Tra ;
 
@@ -462,6 +466,8 @@ SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 #
 SUBSTITUTE (IV) (*) TARGET (*) ;
 SUBSTITUTE (TV) (*) TARGET (*) ;
+#
+
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
@@ -491,6 +497,8 @@ REMOVE:NoSova N IF (NOT -1* VFIN BARRIER BOS) (0 ("совамс")) (NOT 1* VFIN 
 #Ракасть кавто мирде мартонть лангсо,... the one with two husbands
 REMOVE Der/MWN (0C Num OR Ine + Def) ; # 2017-10-25
 REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
+
+SELECT:NumIter Adv (0C Adv + Iter) ;
 
 #Сёлминензэ кадовсть панжадо.
 REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3) (NOT 1* PL-SUBJ BARRIER EOS) ;
@@ -721,7 +729,8 @@ SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Inde
 SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ((-1* ScPl3 BARRIER EOS) OR (1* ScPl3 BARRIER EOS)) ;
 
 #а неиль
-SELECT Pcle + Neg (1 Prs OR Prt2) ;
+#SELECT Pcle + Neg (1 Prs OR Prt2) ;
+SELECT V + Aux + Neg (1 Prs OR Prt2 OR Conj OR Des) ;
 
 # мазыйстэ
 REMOVE Der/стО IF (0 Adv) ;

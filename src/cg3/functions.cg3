@@ -106,8 +106,9 @@ LIST Sem/Year = Sem/Year ;
 SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ;
 
 LIST TIME-N-SET = (N Sem/Time) ;
+LIST TIME-NOUNS = "валске" "ве" "ие" "ков" "минут" "минута" "недля" "пинге" "секунда" "тарго" "тёжтие" "час" "чокшне" "чи" ;
 LIST NOT-TIME = "dulvi" "vuorru" ;
-SET TIME-N = TIME-N-SET - NOT-TIME ;
+SET TIME-N = TIME-N-SET - NOT-TIME OR TIME-NOUNS ;
 
 
 LIST HUMAN = Sem/Hum Sem/Mal Sem/Fem Sem/Sur Pers NumAg Der/NumAg ;
@@ -158,7 +159,9 @@ LIST Superl = Superl ;
 
 LIST Attr = Attr ;
 LIST Ord = Ord ;
- 
+LIST Iter = Iter ; # twice, кавксть, сядоксть
+LIST Mult = Mult ; # twofold, кавонькирда
+
 LIST Qst = Qst ;
  
 # The ("ge" Pcle) etc. are used in Apertium
@@ -237,7 +240,9 @@ LIST PrfPrc = PrfPrc ;
 LIST VGen = VGen ;
 
 LIST PrsPrc = PrsPrc ;
- 
+
+SET CardIter = (Adv Iter) OR (Adv Rel Iter) OR (Adv Indef Iter) OR (Adv Interr Iter) ;
+SET MULT = Mult OR (Ord Mult) ;
 
 LIST Ger = Ger ;
 LIST Sup = Sup ;
@@ -468,46 +473,37 @@ SET NOT-PRFPRC = WORD - PrfPrc ;
 
 LIST V-SG1 = (V Ind Prs ScSg1)  (V Ind Prt1 ScSg1) (V Ind Prt2 ScSg1)
              (V Cond Prs ScSg1) (V Cond Prt1 ScSg1) (V Cond Prt2 ScSg1)
-	     (V Conj ScSg1) (V CondConj ScSg1) (V Opt ScSg1)
+	     (V Conj ScSg1) (V CondConj ScSg1) (V Des ScSg1) (V Opt ScSg1)
 	     (V Aux Neg Ind Prt1 ScSg1) (V Aux Neg Ind Prt2 ScSg1)
 	     (V Aux Neg Conj ScSg1);
  
 LIST V-SG2 =  (V Ind Prs ScSg2)  (V Ind Prt1 ScSg2) (V Ind Prt2 ScSg2)
              (V Cond Prs ScSg2) (V Cond Prt1 ScSg2) (V Cond Prt2 ScSg2)
-	     (V Conj ScSg2) (V CondConj ScSg2) (V Opt ScSg2)
+	     (V Conj ScSg2) (V CondConj ScSg2) (V Des ScSg2) (V Opt ScSg2)
 	     (V Aux Neg Ind Prt1 ScSg2) (V Aux Neg Ind Prt2 ScSg2)
 	     (V Aux Neg Conj ScSg2);
  
 LIST V-SG3 =  (V Ind Prs ScSg3)  (V Ind Prt1 ScSg3) (V Ind Prt2 ScSg3)
              (V Cond Prs ScSg3) (V Cond Prt1 ScSg3) (V Cond Prt2 ScSg3)
-	     (V Conj ScSg3) (V CondConj ScSg3) (V Opt ScSg3)
+	     (V Conj ScSg3) (V CondConj ScSg3) (V Des ScSg3) (V Opt ScSg3)
 	     (V Aux Neg Ind Prt1 ScSg3) (V Aux Neg Ind Prt2 ScSg3)
 	     (V Aux Neg Conj ScSg3);
  
-LIST V-DU1 = (V Ind Prs Du1)  (V Ind Prt Du1) (V Cond Prs Du1) 
-     	     (V Cond Prt Du1) (V Pot Prs Du1) (V Neg Ind Du1);
- 
-LIST V-DU2 = (V Ind Prs Du2)  (V Ind Prt Du2) (V Cond Prs Du2) 
-	         (V Cond Prt Du2) (V Pot Prs Du2) (V Neg Ind Du2);
- 
-LIST V-DU3 = (V Ind Prs Du3)  (V Ind Prt Du3) (V Cond Prs Du3) 
-	         (V Cond Prt Du3) (V Pot Prs Du3) (V Neg Ind Du3);
- 
 LIST V-PL1 = (V Ind Prs ScPl1)  (V Ind Prt1 ScPl1) (V Ind Prt2 ScPl1)
              (V Cond Prs ScPl1) (V Cond Prt1 ScPl1) (V Cond Prt2 ScPl1)
-	     (V Conj ScPl1) (V CondConj ScPl1) (V Opt ScPl1)
+	     (V Conj ScPl1) (V CondConj ScPl1) (V Des ScPl1) (V Opt ScPl1)
 	     (V Aux Neg Ind Prt1 ScPl1) (V Aux Neg Ind Prt2 ScPl1)
 	     (V Aux Neg Conj ScPl1);
  
 LIST V-PL2 =  (V Ind Prs ScPl2)  (V Ind Prt1 ScPl2) (V Ind Prt2 ScPl2)
              (V Cond Prs ScPl2) (V Cond Prt1 ScPl2) (V Cond Prt2 ScPl2)
-	     (V Conj ScPl2) (V CondConj ScPl2) (V Opt ScPl2)
+	     (V Conj ScPl2) (V CondConj ScPl2) (V Des ScPl2) (V Opt ScPl2)
 	     (V Aux Neg Ind Prt1 ScPl2) (V Aux Neg Ind Prt2 ScPl2)
 	     (V Aux Neg Conj ScPl2);
  
 LIST V-PL3 =  (V Ind Prs ScPl3)  (V Ind Prt1 ScPl3) (V Ind Prt2 ScPl3)
              (V Cond Prs ScPl3) (V Cond Prt1 ScPl3) (V Cond Prt2 ScPl3)
-	     (V Conj ScPl3) (V CondConj ScPl3) (V Opt ScPl3)
+	     (V Conj ScPl3) (V CondConj ScPl3) (V Des ScPl3) (V Opt ScPl3)
 	     (V Aux Neg Ind Prt1 ScPl3) (V Aux Neg Ind Prt2 ScPl3)
 	     (V Aux Neg Conj ScPl3);
  
@@ -517,24 +513,17 @@ LIST V-PL3 =  (V Ind Prs ScPl3)  (V Ind Prt1 ScPl3) (V Ind Prt2 ScPl3)
 # Some subsets of the VFIN sets
 # - - - - - - - - - - - - - - -
 SET V-SG = V-SG1 OR V-SG2 OR V-SG3 ;
-SET V-DU = V-DU1 OR V-DU2 OR V-DU3 ;
 SET V-PL = V-PL1 OR V-PL2 OR V-PL3 ;
-
-SET V-DU-PL = V-DU1 OR V-DU2 OR V-DU3 OR V-PL1 OR V-PL2 OR V-PL3 ;
 
 SET V-NOT-SG1 = VFIN-NOT-IMP - V-SG1 ;
 SET V-NOT-SG2 = VFIN-NOT-IMP - V-SG2 ;
 SET V-NOT-SG3 = VFIN-NOT-IMP - V-SG3 ;
-SET V-NOT-DU1 = VFIN-NOT-IMP - V-DU1 ;
-SET V-NOT-DU2 = VFIN-NOT-IMP - V-DU2 ;
-SET V-NOT-DU3 = VFIN-NOT-IMP - V-DU3 ;
 SET V-NOT-PL1 = VFIN-NOT-IMP - V-PL1 ;
 SET V-NOT-PL2 = VFIN-NOT-IMP - V-PL2 ;
 SET V-NOT-PL3 = VFIN-NOT-IMP - V-PL3 ;
 
-
-SET V-1-2 = V-SG1 OR V-SG2 OR V-DU1 OR V-DU2 OR V-PL1 OR V-PL2 ;
-SET V-3  = V-SG3 OR V-DU3 OR V-PL3 ;
+SET V-1-2 = V-SG1 OR V-SG2 OR V-PL1 OR V-PL2 ;
+SET V-3  = V-SG3 OR V-PL3 ;
 
 # Sets consisting of LEAT
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1504,7 +1493,7 @@ MAP:-fsubj> (@-FSUBJ>) TARGET HUMAN + Gen (1 (Actio Nom) LINK 1 N) ;
 
  
 	# Adverbials - ADVL
- 
+LIST MOVE-VERBS-myv = "лисемс" "молемс" "пачкодемс" "самс" "совамс" "сыргамс" "туемс" "чиемс" "ютамс" ;
  
 MAP:>cc (@>CC) TARGET ("sihke")(*1 ("ja") OR ("ahte")) ;
 MAP:advl>cs (@ADVL>CS) TARGET ("beare" Adv) (1 CS LINK *1 FMAINV) ;
@@ -1512,8 +1501,8 @@ MAP:advl>cs (@ADVL>CS) TARGET ("beare" Adv) (1 CS LINK *1 FMAINV) ;
 
 LIST ADVL = Adv Ill Com Loc Po Pr Ine Ela ;
 
-MAP:r39 (@ADVL<) TARGET (N Sg Loc) IF (-1 ("oktii") OR ("guktii") OR ("golbmii") OR ("njelljii") OR ("vihttii") OR ("geardde"))(0 TIME-N);
-	#$ Mun ferten málestit guktii vahkus.
+MAP:advl< (@ADVL<) TARGET (N SP Ill PxSg3) IF (-1 CardIter OR MULT)(0 TIME-N);
+	#$ Монень эряви ярсамс кавксть таргозонзо < Mun ferten málestit guktii vahkus.
 
 SET MOD-ADV = DUSSE OR ("njuolga") OR ("njuolgga") OR EASKKA OR ("gitta") ;
 
@@ -1757,7 +1746,7 @@ MAP:HNOUN<spred (@<SPRED) TARGET (A Nom) OR (N Nom) (*-1 PUNCT BARRIER REAL-V LI
 	#$ Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
 
 #learning jmr 2021-09-12x
-MAP:pronSubj (@SUBJ) TARGET SON ;
+MAP:pronSubj> (@SUBJ>) TARGET SON (1* ScSg3 BARRIER EOS) ;
 MAP:fmainv (@FMAINV) TARGET VFIN ;
 
 MAP:leftoversX (@X) TARGET WORD ;
