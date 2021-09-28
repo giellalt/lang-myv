@@ -48,6 +48,7 @@ LEXICON V-AUX-NEG-PRT1 !!= **@CODE@** а+V:эзь
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-30_ZERO ;
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-60_T ;
+@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT2-ALL ;
 
 LEXICON BV_SEZEMS
  BV_LEDEMS ;
@@ -2502,39 +2503,39 @@ LEXICON Derya_KLoss
 
 
 LEXICON VA_ILJA
-+Aux: VA_ILJA_01 ;
++Aux+Neg: VA_ILJA_01 ;
 LEXICON VA_ILJA_01
-@P.CONJ.ObjAll@+Neg:@P.CONJ.ObjAll@ Optative-noArrow ;
+@P.CONJ.ObjAll@:@P.CONJ.ObjAll@ Optative-noArrow ;
  ILYA_Obj ; !CHECKME 2017-11-16
-+Neg: OPT-10 ;
-+Neg: OPT-20 ;
-+Neg: OPT-30 ;
-+Neg: OPT-40 ;
-+Neg: OPT-50 ;
-+Neg: OPT-60 ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.20@+Neg+Imprt+ScSg2:@U.CONJ-MX.IMP@@U.CONJ-PX.20@ VerbEnd_K ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.21@+Neg+Imprt+ScSg2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.21@%>%{оеэØ%}мак VerbEnd_ImpK ;
+: OPT-10 ;
+: OPT-20 ;
+: OPT-30 ;
+: OPT-40 ;
+: OPT-50 ;
+: OPT-60 ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.20@+Imprt+ScSg2:@U.CONJ-MX.IMP@@U.CONJ-PX.20@ VerbEnd_K ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.21@+Imprt+ScSg2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.21@%>%{оеэØ%}мак VerbEnd_ImpK ;
 
-@U.CONJ-MX.IMP@@U.CONJ-PX.23@+Neg+Imprt+ScSg2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.23@%>к VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.23@+Imprt+ScSg2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.23@%>к VerbEnd_ImpK ;
 
-@U.CONJ-MX.IMP@@U.CONJ-PX.24@+Neg+Imprt+ScSg2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.24@%>%{оеэØ%}мизь VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Neg+Imprt+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%}ть VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Use/NG+Err/Orth+Dial/NW+Neg+Imprt+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%} VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.50@+Neg+Imprt+ScPl2:@U.CONJ-MX.IMP@@U.CONJ-PX.50@%>%{оеэØ%}дО1 VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.51@+Neg+Imprt+ScPl2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.51@%>%{оеэØ%}мизь VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.53@+Neg+Imprt+ScPl2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.53@%>%{иы%}нк VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.54@+Neg+Imprt+ScPl2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.54@%>%{оеэØ%}мизь VerbEnd_ImpK ;
-@U.CONJ-MX.IMP@@U.CONJ-PX.56@+Neg+Imprt+ScPl2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.56@%>%{иы%}нк VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.24@+Imprt+ScSg2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.24@%>%{оеэØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Imprt+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%}ть VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.26@+Use/NG+Err/Orth+Dial/NW+Imprt+ScSg2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.26@%>%{иы%} VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.50@+Imprt+ScPl2:@U.CONJ-MX.IMP@@U.CONJ-PX.50@%>%{оеэØ%}дО1 VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.51@+Imprt+ScPl2+OcSg1:@U.CONJ-MX.IMP@@U.CONJ-PX.51@%>%{оеэØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.53@+Imprt+ScPl2+OcSg3:@U.CONJ-MX.IMP@@U.CONJ-PX.53@%>%{иы%}нк VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.54@+Imprt+ScPl2+OcPl1:@U.CONJ-MX.IMP@@U.CONJ-PX.54@%>%{оеэØ%}мизь VerbEnd_ImpK ;
+@U.CONJ-MX.IMP@@U.CONJ-PX.56@+Imprt+ScPl2+OcPl3:@U.CONJ-MX.IMP@@U.CONJ-PX.56@%>%{иы%}нк VerbEnd_ImpK ;
 
-@U.CONJ-MX.PREC@@U.CONJ-PX.21@+Neg+Prec+ScSg2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.21@%>%{оеэØ%}мака VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.23@+Neg+Prec+ScSg2+OcSg3:@U.CONJ-MX.PREC@@U.CONJ-PX.23@%>ка VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.24@+Neg+Prec+ScSg2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.24@%>%{оеэØ%}мизьга VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.26@+Neg+Prec+ScSg2+OcPl3:@U.CONJ-MX.PREC@@U.CONJ-PX.26@%>%{иы%}тя VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.50@+Neg+Prec+ScPl2:@U.CONJ-MX.PREC@@U.CONJ-PX.50@%>%{оеэØ%}дО1я VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.51@+Neg+Prec+ScPl2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.51@%>%{оеэØ%}мизьга VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.53@+Neg+Prec+ScPl2+OcSg3:@U.CONJ-MX.PREC@@U.CONJ-PX.53@%>%{иы%}нка VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.54@+Neg+Prec+ScPl2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.54@%>%{оеэØ%}мизьга VerbEnd_ImpK ;
-@U.CONJ-MX.PREC@@U.CONJ-PX.56@+Neg+Prec+ScPl2+OcPl3:@U.CONJ-MX.PREC@@U.CONJ-PX.56@%>%{иы%}нка VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.21@+Prec+ScSg2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.21@%>%{оеэØ%}мака VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.23@+Prec+ScSg2+OcSg3:@U.CONJ-MX.PREC@@U.CONJ-PX.23@%>ка VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.24@+Prec+ScSg2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.24@%>%{оеэØ%}мизьга VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.26@+Prec+ScSg2+OcPl3:@U.CONJ-MX.PREC@@U.CONJ-PX.26@%>%{иы%}тя VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.50@+Prec+ScPl2:@U.CONJ-MX.PREC@@U.CONJ-PX.50@%>%{оеэØ%}дО1я VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.51@+Prec+ScPl2+OcSg1:@U.CONJ-MX.PREC@@U.CONJ-PX.51@%>%{оеэØ%}мизьга VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.53@+Prec+ScPl2+OcSg3:@U.CONJ-MX.PREC@@U.CONJ-PX.53@%>%{иы%}нка VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.54@+Prec+ScPl2+OcPl1:@U.CONJ-MX.PREC@@U.CONJ-PX.54@%>%{оеэØ%}мизьга VerbEnd_ImpK ;
+@U.CONJ-MX.PREC@@U.CONJ-PX.56@+Prec+ScPl2+OcPl3:@U.CONJ-MX.PREC@@U.CONJ-PX.56@%>%{иы%}нка VerbEnd_ImpK ;
 
 
 LEXICON ILYA_Obj
