@@ -204,7 +204,8 @@ Other verb forms are
  * +ConNegII * connegative, main verb complement to Neg, cons-stem
  * +Ger * gerund This is used with Der/Ozj and VAbl
  * +Inf * infinitive
- * +Neg * verb of negation эзь, аволь, иля
+ * +Neg * verb of negation эзь, аволь, иля, апак
+ * +ConvPrc * converb OR participle апак
  * +Prc * participle
  * +VGen * Verb Genitive, genitive form participle
  * +VAbl * Verb Ablative "озадо"
