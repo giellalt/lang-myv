@@ -628,10 +628,6 @@ LEXICON PRON-DEM
 некеть+Pron+Dem:неке PRON-DEM-CASE-PL ;
 нонат+Pron+Dem+Pl:нона PRON-DEM-CASE-PL ;
 се+Pron+Dem:се PRON-DEM-CASE-PL ;
-те+Pron+Dem+SP+Abl+Indef:теде K ;
-те+Pron+Dem+SP+Abl+Indef:тенде K ;
-те+Pron+Dem+SP+Ela+Indef:теньстэ K ;
-те+Pron+Dem+SP+Ine+Indef:теньсэ K ;
 теке+Pron+Dem:теке NB-CX-ZERODECLENSIONTYPE-NOCLT ;
 теке+Pron+Dem+SP+Abl+Indef:текенде K ;
 теке+Pron+Dem+SP+Ela+Indef:текеньстэ K ;
@@ -1339,7 +1335,7 @@ LEXICON INDEF-ENDS-HERE
 @U.INDEF.KOI@ ENDLEX ;
 
 LEXICON Dem-tona
-+Dem+Adn: ENDLEX ;
+!+Dem+Adn: ENDLEX ;
 +Dem: Pron-Sg ;
 +Dem: Pron-Pl ;
 
@@ -1441,14 +1437,15 @@ LEXICON Pron-Pl
 
 
 LEXICON PRON-DEM_TE
-+Sg+Nom+Indef: K ;
-+Sg+Abl+Indef:%>де K ;
-+Sg+Abl+Def:%>денть K ;
-+Sg+Gen+Indef:%>нь K ;
-+Sg+Ine+Indef:%>ньсэ K ;
-+Sg+Ill+Indef:%>ньс K ;
-+Sg+Ela+Indef:%>ньстэ K ;
 +Sg+Abe+Indef:%>нтеме K ;
++Sg+Abl+Indef:%>де K ;
++Sg+Abl+Indef:%>нде K ;
++Sg+Abl+Def:%>денть K ;
++Sg+Ela+Indef:%>ньстэ K ;
++Sg+Gen+Indef:%>нь K ;
++Sg+Ill+Indef:%>ньс K ;
++Sg+Ine+Indef:%>ньсэ K ;
++Sg+Nom+Indef: K ;
 
 !LEXICON PRON-DEM_TEKE
 !+Dem: _KUDO-Misc_Pronouns_Sg ;

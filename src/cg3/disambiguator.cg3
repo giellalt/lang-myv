@@ -291,6 +291,7 @@ LIST Clt/Cop = Clt/Cop ;
 LIST Der/PassL = Der/PassL ;
 LIST Der/NomAg = Der/NomAg ;
 LIST Der/NomAct = Der/NomAct ;
+LIST Der/Ozj = Der/Ozj ;
 LIST Actor = NomAg Der/NomAg ;
 LIST VAbess = VAbess ;
 LIST ActPrcShort = ActPrcShort ;
@@ -765,7 +766,9 @@ REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 REMOVE:NumIter Num + Iter IF (0 Adv + Iter) ;
 
 #Сёлминензэ кадовсть панжадо.
-REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3) (NOT 1* PL-SUBJ BARRIER EOS) ;
+REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS)
+       	      	       	       (NOT 1* PL-SUBJ BARRIER EOS)
+			       (NOT 1 Der/Ozj + Ger);
 # 
 #REMOVE Der/ОвОмс (0C V) ;
 REMOVE Der/OvOms (0C V) ;
@@ -773,8 +776,23 @@ REMOVE Der/OvOms (0C V) ;
 # кортавтома
 REMOVE Der/OvtOms (0C V) ;
 
+# Pair disambiguation
+
+# Телень ве (стихть)
+REMOVE:veNumIfNextNotN Num IF (0 ("ве")) (NOT 1 N);
+
+
+# пачкодинек Бланка леенть трокс ютамо
+REMOVE:troksNIfPo N IF (0 ("трокс")) (-1 Gen);
+
+# эль-эль усксть стака крандазонть
+REMOVE:stamsIfStaka ("стамс") IF (0 ("стака")) ((-1* VFIN BARRIER BOS) OR (1* VFIN BARRIER EOS));
+
 #Лиясто кевкстнить эйсэнь.
 REMOVE 2VDerTag (0 V) ; #2017-11-05
+
+#мон сынь эсь ёжос
+REMOVE:Pl3persWhenSg1Pron Pron + Pers + Pl3 + Nom IF (0 ("самс")) ((-1* Pron + Pers + Sg1 + Nom BARRIER BOS) OR (1* Pron + Pers + Sg1 + Nom BARRIER EOS));
 
 #Сынь пурнасть урьвакстомо-венчамо.
 #(NOT -1* VFIN BARRIER EOS);
@@ -787,6 +805,15 @@ REMOVE:verbScSg2IfSubjPl3PronAvailable ScSg2 IF (0 V + BV + Ind + Prs + ScPl3)((
 # Ломанень кевкстеманзо свал лиядыть апак пандо, зярдо кортыть киска марто!
 REMOVE:verbScSg2IfSubjPlAvailable Gen + PXPERSON IF (0C Nom + PXPERSON) ((-1* V + IV + Ind + Prs + ScPl3 BARRIER BOS) OR (1* V + IV + Ind + Prs + ScPl3 BARRIER EOS));
 REMOVE:verbScSg2IfSubjPlAvailable ScSg2 IF (0C V + BV + Ind + Prs + ScPl3) ((-1* N + Pl + Nom BARRIER BOS) OR (1* N + Pl + Nom BARRIER EOS));
+
+# Чоледить нармунть тусто чувттнэнь прява,...
+# но минектне кундымизь прамсто...
+REMOVE:verbScSg2IfSubjPlIndef ScSg2 IF (0 ScPl3) ((-1* Pl + Nom + Indef BARRIER BOS) OR (-1* Pl + Nom + Def BARRIER BOS) OR  (1* Pl + Nom + Indef BARRIER EOS) OR (1* Pl + Nom + Def BARRIER EOS));
+#REMOVE:verbScSg2IfSubjPlIndef Prt1 + ScSg2 IF (0 Prs + ScPl3) ((-1* N + Pl + Nom + Indef BARRIER BOS) OR (1* N + Pl + Nom + Indef BARRIER EOS))
+#                              (NOT (-1* VFIN BARRIER BOS) OR (1* VFIN BARRIER EOS));
+
+# ловонть ланга
+REMOVE:lanIfPo ("лан") IF (0 N + Relator + Prl) ((-1 Gen + Def) OR (-1 Sg + Nom + Indef));
 
 # тень лангс
 REMOVE:pronPersSg1Dat Pers IF (0 Pron + Dem + Sg + Gen)(1 Adp);

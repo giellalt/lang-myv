@@ -5,7 +5,7 @@
 
 LEXICON adverbs
 !!
-пек+Adv+Deg:пек ENDLEX ;
+пек+Adv:пек ADV-MANNER_ ;
 
 ков+Adv+Interr+Lat:ков K ;
 коволга+Adv+Interr+Prl:коволга K ;
@@ -103,9 +103,11 @@ LEXICON Ad-A_ ! for deprication
 
 LEXICON ADV-DEG_ ! degree marking
 +Deg: ENDLEX ;
+LEXICON ADV-MANNER_ ! degree marking
++Manner: ENDLEX ;
 
 LEXICON ADV_ ! 
-+Adv: K ;
+: K ;
 
 LEXICON ADV-EVID-NFH_ !келя 
 +EvidNfh: K ;
