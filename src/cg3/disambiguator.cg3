@@ -665,6 +665,14 @@ LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
 
 LIST KINTERM = "ава" "тетя" ;
 
+LIST ADJTAKESMAMOABL = "бойка" ;
+LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "указания" "чумо" "эпизод" ; #пленс понгомадо мельтне
+LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявомс" "олякстомтомс" "пелемс" "пешкедемс" "покордавомс" "ракамс" "рангомс" "сыргоземс" "таргоземс";
+LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видькстамс" "визделгадомс" "виздемс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ; 
+LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
+
+LIST VERBTAKESDATILL = "радовамс" ;
+
 SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
 
 
@@ -776,6 +784,7 @@ REMOVE Der/OvOms (0C V) ;
 # кортавтома
 REMOVE Der/OvtOms (0C V) ;
 
+
 # Pair disambiguation
 
 # Телень ве (стихть)
@@ -853,6 +862,9 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
+
+# поладыцякс < поладомс from verb
+SELECT:NoReadyNomAg0 Der/Ycja IF (0 N + NomAg) ;
 
 #REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
 REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT-KINTERM) ;

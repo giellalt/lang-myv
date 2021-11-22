@@ -934,7 +934,7 @@ LEXICON V_myv2x
 важодевтемс+V:важодевть BV_NEVTEMS  "" ;
 важодекшнемс+V:важодекшн IV_NEKSHNEMS  "" ;
 важодемс+V:важодь IV_LEDEMS  "tehdä työtä" ;
-важодомс+V:важод IV_KADOMS  "" ;
+важодемс+V+Err/Orth:важод IV_KADOMS  "tehdä työtä" ;
 вазыявомс+V:вазыяв IV_JANGAVOMS  "" ;
 вазыявтомс+V:вазыявт BV_SAVTOMS  "" ;
 вазыякшномс+V:вазыякшно IV_KUNDAKSHNOMS  "" ;
@@ -8177,8 +8177,6 @@ LEXICON V_myv2x
 савтовомс+V:савтов IV_JANGAVOMS  "" ;
 савтокшномс+V:савтокшно IV_KUNDAKSHNOMS  "" ;
 савтомс+V:савт BV_SAVTOMS  "herättää" ;
-садамс+V:сада IV_KUNDAMS  "" ;
-садстомс+V:садст IV_SAVTOMS  "" ;
 саевемс+V:саев IV_SAEVEMS  "" ;
 саевкшнемс+V:саевкшн IV_NEKSHNEMS  "" ;
 саевтемс+V:саевть BV_NEVTEMS  "" ;
@@ -10840,14 +10838,14 @@ LEXICON V_myv2x
 чачовтомс+V:чачовт BV_SAVTOMS  "" ;
 чачокшномс+V:чачокшно IV_KUNDAKSHNOMS  "" ;
 чачомс+V:чач IV_KADOMS  "syntyä" ;
-чачтавомс+V:чачтав IV_JANGAVOMS  "" ;
-чачтакшномс+V:чачтакшно BV_KUNDAKSHNOMS  "" ;
-чачтамс+V:чачта BV_KUNDAMS  "" ;
 чачтнемс+V:чачтне BV_E2ZHNEMS  "" ;
 чачтовомс+V:чачтов IV_JANGAVOMS  "" ;
+чачтовомс+V+Err/Orth:чачтав IV_JANGAVOMS  "" ;
 чачтовтомс+V:чачтовт BV_SAVTOMS  "" ;
 чачтокшномс+V:чачтокшно BV_KUNDAKSHNOMS  "" ;
-чачтомс+V:чачт IV_CHACHTOMS  "synnyttää" ;
+чачтокшномс+V+Err/Orth:чачтакшно BV_KUNDAKSHNOMS  "" ;
+чачтомс+V:чачт BV_CHACHTOMS  "synnyttää" ;
+чачтомс+V+Err/Orth:чачта BV_KUNDAMS  "synnyttää" ;
 чашневемс+V:чашнев IV_SAEVEMS  "" ;
 чаштневтемс+V:чаштневть BV_NEVTEMS  "" ;
 чаштовтомс+V:чаштовт BV_SAVTOMS  "" ;

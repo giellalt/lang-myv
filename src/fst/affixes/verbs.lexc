@@ -713,7 +713,7 @@ LEXICON IV_LETEMS
 !+V+Aux: V_SATOMS-SG3 ;
 
 LEXICON VA_KUNDAMS
-+V+Aux: V_KUNDAMS ;
++Aux: V_KUNDAMS ;
 @U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
 
 
@@ -1073,24 +1073,24 @@ LEXICON VerbsPresPrc_1
 !2017-10-26+Act+PrsPrc:%>%{иы%}ця K ;
 !2017-10-26+Act+PrsPrc+Clt/Cop+Prs+ScSg3:%>%{иы%}ця K ;
 !2017-10-26+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}ця%>т%{ЬØ%} K ;
-+Act+PrsPrc:%>%{иы%}ця # ;
+!2021-11-21+Act+PrsPrc:%>%{иы%}ця # ;
 !+Der+Der/Ycja+Act+PrsPrc+Der+Der/MWN:%>%{иы%}ця N_KUDO ;
-+NomAg:%>%{иы%}ця N_KUDO ;
++Der+Der/Ycja+NomAg+N:%>%{иы%}ця N_KUDO ; ! can be used as determiner NomAg+Det
+! эри ялга but эриця ялга != кулозь ялга
 
-
-+Der+Der/Yj+Act+PrsPrc:%>%{иы%}й K ;
+!2021-11-21+Der+Der/Yj+Act+PrsPrc:%>%{иы%}й K ;
 !+Der+Der/Yj+Act+PrsPrc+Clt/Cop+Prs+ScSg3:%>%{иы%}й K ;
 !+Der+Der/Yj+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}й%>т%{ЬØ%} K ;
 !+Der+Der/Yj+Act+PrsPrc+Der+Der/MWN:%>%{иы%}й N_KAL ;
-+Der+Der/Yj+N:%>%{иы%}й N_SODYJ ;
++Der+Der/Yj+NomAg+N:%>%{иы%}й N_SODYJ ;
 +Der+Der/Yj+Act+PrsPrc:%>%{иы%}й N2Dem-SE ;
 
-+Act+PrsPrc+Use/NG+Err/Orth:%>%{иы%} K ;
+!2021-11-21+Act+PrsPrc+Use/NG+Err/Orth:%>%{иы%} K ;
 !+Der+Der/Y+Act+PrsPrc+Clt/Cop+Prs+ScSg3:%>%{иы%} K ;
 !+Der+Der/Y+Act+PrsPrc+Clt/Cop+Prs+ScPl3:%>%{иы%}%>т%{ЬØ%} K ;
 !+Der+Der/Y+Act+PrsPrc+Der+Der/MWN:%>%{иы%} N_KUDO ;
-+NomAg+Use/NG+Err/Orth:%>%{иы%} N_KUDO ;
-+Act+PrsPrc+Use/NG+Err/Orth:%>%{иы%} N2Dem-SE ;
++Der+Der/Y+NomAg+Use/NG+Err/Orth+N:%>%{иы%} N_KUDO ;
++Der+Der/Y+Act+PrsPrc+Use/NG+Err/Orth:%>%{иы%} N2Dem-SE ;
 
 !+Act+PrsPrc+Der+Der/Y+A+SP+Tra+Indef:%>%{иы%}кс K ;
 !!+Der+Der/Yks+Act+PrsPrc+A+Clt/Cop+Prs+ScSg3:%>%{иы%}кс K ;
