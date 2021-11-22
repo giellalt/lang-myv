@@ -95,6 +95,7 @@ LEXICON N-HUM_OZKS
 
 LEXICON N-HUM_LEVKS
 @P.POS.N@+Sem/Hum:@P.POS.N@%{frontHard%} NMN_KAL ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N-HUM_ROZ1
 @P.POS.N@+Sem/Hum:@P.POS.N@%{frontSoft%} NMN_KAL ;
@@ -404,6 +405,7 @@ LEXICON N_KLASS
 @P.POS.N@:@P.POS.N@ NMN_KLASS ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 !LEXICON N_OSH_SUB
 !+Use/NG+Err/Orth: N_OSH ;
@@ -413,6 +415,7 @@ LEXICON N_OSH
 @P.POS.N@+Der/Dimin:0@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:0@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@:0@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_OSH-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Derivation ;
@@ -437,6 +440,7 @@ LEXICON N_KENKSH
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_LESHCH
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
@@ -456,12 +460,14 @@ LEXICON N_OZKS
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_KARDAZ !! кардаз:карда
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_LEVKS
 ! harmony: front
@@ -469,6 +475,7 @@ LEXICON N_LEVKS
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_ROZ1
 ! harmony: front
@@ -476,6 +483,7 @@ LEXICON N_ROZ1
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_IE
 :е N_VELE ;
@@ -1361,19 +1369,21 @@ LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-BACK-VOW
 +Use/NG+Err/Orth+Dial/M: SG-GEN-DEF_Dial-M ; ! Shoksha & Drakino
 +Use/NG+Err/Orth+Dial/M: SG-ILL-DEF_Dial-M ; ! 
 +Use/NG+Err/Orth+Dial/M: SG-NOM-DEF_Dial-M ; ! 
-
-+Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
+ DIAL-NW-WITH-ST-AFTER-STEM ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABL-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW: SG-CMP-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-PRL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
 
 
 : NMN_DEF-PL-DECLENSION ;
+
+LEXICON DIAL-NW-WITH-ST-AFTER-STEM
++Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-CMP-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
 
 
 !! ## DEFINITE SINGULAR TAGS 
