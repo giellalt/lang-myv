@@ -586,9 +586,9 @@ possible to target derivations as a class e.g. in regular expressions etc
  * +Der/Omga * infinitive prolative
  * +Der/Oma * modality: deontic/directive/obligative андомс: андома , якамс: якама
  * +Der/Omka * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
- * +Der/Ycja * active (demonstrative) present participle
+ * +Der/Ycja * active (demonstrative) present participle  takes copula person
+ * +Der/Yj * active long present participle takes copula person
  * +Der/Y * active short present participle
- * +Der/Yj * active long present participle
  * +Der/Ozj * Gerund
  * +Der/Cond * conditional derivation +Der/Ynderja
 

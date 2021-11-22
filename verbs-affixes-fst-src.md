@@ -223,7 +223,6 @@ no deverbals
 
 
 
-
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
 
