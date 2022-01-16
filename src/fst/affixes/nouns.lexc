@@ -401,6 +401,11 @@ LEXICON N_KIT-PL
 @P.POS.N@:@P.POS.N@ _KIT-Indef-Declension ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
+LEXICON N_GAJT1
+@P.POS.N@:@P.POS.N@ NMN_GAJT1 ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+
 LEXICON N_KLASS
 @P.POS.N@:@P.POS.N@ NMN_KLASS ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -634,6 +639,13 @@ LEXICON NMN_KIT
 !2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
  N_KIT-Def-Declension ;
  _KIT-Indef-Declension ;
+ N_KAL-Poss-Declension-CX ;
+
+LEXICON NMN_GAJT1
+ N_KUDO-Derivation ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+ N_KIT-Def-Declension ;!2022-01-02 should there be a distinction KIT vs GAJT1
+ _KIT-Indef-Declension ;!2022-01-02 should there be a distinction KIT vs GAJT1
  N_KAL-Poss-Declension-CX ;
 
 LEXICON NMN_KLASS
