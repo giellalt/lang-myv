@@ -27,7 +27,7 @@ OBJECT FLAGS AND +V+TV tags
 
  **LEXICON TV_NEVTEMS_SUB ** 
 
- * _LEXICON TV_NEVTEMS_  невтемс:невть
+* _LEXICON TV_NEVTEMSневтемс:невть_  невтемс:невть
 
  **LEXICON TV_SAVTOMS_SUB ** 
 
@@ -56,7 +56,7 @@ OBJECT FLAGS AND +V+TV tags
 
 
 
- * _LEXICON TV_NEKSHNEMS_  некшнемс:некшн
+* _LEXICON TV_NEKSHNEMSнекшнемс:некшн_  некшнемс:некшн
 
 
 VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
@@ -224,8 +224,8 @@ no deverbals
 
 
 
-**LEXICON TV_NEKSHNEMS** Alternates with TRA
-**LEXICON TV_NEKSHNEMS** Alternates with TRA
+**LEXICON TV_NEKSHNEMSнекшнемс:некшн** Alternates with TRA
+**LEXICON TV_NEKSHNEMSнекшнемс:некшн** Alternates with TRA
 
 
 

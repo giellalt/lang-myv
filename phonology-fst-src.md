@@ -4,7 +4,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 ## Alphabet
 
- ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
+ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
 
 
 
@@ -27,9 +27,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 вт%{оеэ%}мО1
 
 
- * _%{ОØ%}:0_ Stem-final archiphoneme панго
- * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
- * _%{ЕØ%}:0_ Stem-final archiphoneme тинге
+* _%{ОØ%}:0панго_ Stem-final archiphoneme панго
+* _%{ЕØ%}:ьтинге_ Stem-final archiphoneme тинге
+* _%{ЕØ%}:0тинге_ Stem-final archiphoneme тинге
 
 
 
