@@ -391,6 +391,11 @@ LEXICON N_LAK-PL
 @P.POS.N@:@P.POS.N@ _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
+LEXICON N_JORK
+@P.POS.N@:@P.POS.N@ NMN_JORK ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+
 LEXICON N_KIT
 @P.POS.N@:@P.POS.N@ NMN_KIT ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -574,9 +579,9 @@ LEXICON N_VELE_IS-NE-DIM
 !! Front vowel, non-palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 LEXICON N_VELE
-!! Front vowel, non-palatal consonant before vowel
-@P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+!! Front vowel, palatal consonant before vowel
+@P.POS.N@:@P.POS.N@ NMN_VELE ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_VELE ;
 @P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
 
 LEXICON N_PIZE2_IS-NE-DIM
@@ -629,6 +634,12 @@ LEXICON NMN_TEV
 LEXICON NMN_LAV
  NMN_KAL ;
 LEXICON NMN_LAK
+ N_LAK-Derivation ;
+ N_LAK-Def-Declension ;
+ _LAK-Indef-Declension ;
+ N_KAL-Poss-Declension-CX ;
+
+LEXICON NMN_JORK !Back with hard Cons before neutral Cons
  N_LAK-Derivation ;
  N_LAK-Def-Declension ;
  _LAK-Indef-Declension ;
@@ -794,12 +805,12 @@ LEXICON NMN_KUDO-PL !!= * **@CODE@** This needs checking 2013-03-27
  _KUDO-Indef-Declension-PL ;
  N_KUDO-Poss-Declension-CX-PL ;
 
-!LEXICON NMN_VELE
+LEXICON NMN_VELE
 !! harmony: front
-! N_KUDO-Derivation ;
-! NMN_DEF-DECLENSION ;
-! _KUDO-Indef-Declension ;
-! N_KUDO-Poss-Declension-CX ;
+ N_KUDO-Derivation ;
+ NMN_DEF-DECLENSION ;
+ _KUDO-Indef-Declension ;
+ N_KUDO-Poss-Declension-CX ;
 
 
 ! ========== !
