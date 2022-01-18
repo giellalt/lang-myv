@@ -12,7 +12,7 @@ These pages document the work on the [Erzya language model](https://github.com/g
 ## Backround ~ Фон
 
 * [Linguistic resources for Erzya based on this language model](https://giellatekno.uit.no/cgi/index.myv.eng.html)
-* [Grammatical tags](docu-grammartags.eng.html)  ~ [грамматических теги](docu-grammartags.rus.html)
+* [Grammatical tags](docu-grammartags.eng.md)  ~ [грамматических теги](docu-grammartags.rus.md)
 
 ## Project documentation
 
