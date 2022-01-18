@@ -655,6 +655,8 @@ SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
 LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо" "лов" "максо" "ниле" "пандо" "пона" "ранг" "сал" ; #!!This will be expanded for homonymy at first. This is not a final solution 
 
+LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take addetive particle, as these are indefinite pronouns, e.g., кодамояк
+
 LIST VAMBNOUNS = "каса" "кекше" "код" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
 LIST VERBWITHMO = "арсемс" "кармамс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
@@ -747,6 +749,8 @@ REMOVE Err/Orth ; # If any other reading is possible.
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
+
+REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
 
 # иляка ветя
 REMOVE:LeaveImpOrPrecNeg ("илямс") IF (0 Aux + Neg) (1 ConNeg) ;
