@@ -286,6 +286,7 @@ This will be expanded for homonymy at first, i.e., diminutives
 
 
 
+
 used with Dat PxSg1
 
 
@@ -304,6 +305,7 @@ used with Dat PxSg1
 2NDerTag
 
 DerTag
+
 
 
 

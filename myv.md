@@ -889,6 +889,7 @@ This will be expanded for homonymy at first, i.e., diminutives
 
 
 
+
 used with Dat PxSg1
 
 
@@ -907,6 +908,7 @@ used with Dat PxSg1
 2NDerTag
 
 DerTag
+
 
 
 
@@ -2512,6 +2514,7 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
+
 кардаз:карда
 
 
@@ -2530,7 +2533,7 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
-Front vowel, non-palatal consonant before vowel
+Front vowel, palatal consonant before vowel
 
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
@@ -2546,6 +2549,7 @@ NMN
 * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
+
 
 
 
