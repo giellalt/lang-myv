@@ -7,10 +7,12 @@
 
 These pages document the work on the [Erzya language model](https://github.com/giellalt/lang-myv). It is a full-size model of the grammar, containing almost 120000 stems and a morphological and morphophonological component. The analyser is in use in an e-dictionary, an e-learning program and a spellchecker. In case of questions, contact *Jack Rueter*.
 
+* Generation of [paradigms](http://giellatekno.uit.no/cgi/p-myv.eng.html)
+
 ## Backround ~ Фон
 
 * [Linguistic resources for Erzya based on this language model](https://giellatekno.uit.no/cgi/index.myv.eng.html)
-* [Grammatical tags](docu-grammartags.eng.html)  ~ [грамматических теги](docu-grammartags.rus.html)
+* [Grammatical tags](docu-grammartags.eng.md)  ~ [грамматических теги](docu-grammartags.rus.md)
 
 ## Project documentation
 

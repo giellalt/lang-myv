@@ -98,9 +98,9 @@ postposition that is in prolative case
 перька:перька
 
 
- +Temp: K ;  перть
++Temp: K ;  перть
 
- +Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
++Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
 
 
 

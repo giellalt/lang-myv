@@ -9,11 +9,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 
 ## Special letters in the root that might be useful in dialect research and etymology later
- * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
- * **Ӓ3:э  ** эрямс:Ӓ3ря 
- * **Ӓ4:е  ** пелемс:пӒ4ль
+* **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
+* **Ӓ3:э  ** эрямс:Ӓ3ря 
+* **Ӓ4:е  ** пелемс:пӒ4ль
 
- * **%^Ь2ZERO:0  ** removes stem-final soft sign
+* **%^Ь2ZERO:0  ** removes stem-final soft sign
 
 
 
@@ -27,9 +27,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 вт%{оеэ%}мО1
 
 
-* _%{ОØ%}:0панго_ Stem-final archiphoneme панго
-* _%{ЕØ%}:ьтинге_ Stem-final archiphoneme тинге
-* _%{ЕØ%}:0тинге_ Stem-final archiphoneme тинге
+* _%{ОØ%}:0_ Stem-final archiphoneme панго
+* _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
+* _%{ЕØ%}:0_ Stem-final archiphoneme тинге
 
 
 
@@ -46,18 +46,18 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 
 
-  %{frontHard%}:0    — front harmony hard
-  %{frontSoft%}:0    — front harmony soft
-  %{back%}:0    — back harmony
-  %{backHard%}:0    — back harmony
- *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
+ %{frontHard%}:0    — front harmony hard
+ %{frontSoft%}:0    — front harmony soft
+ %{back%}:0    — back harmony
+ %{backHard%}:0    — back harmony
+*  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 
 
 
 
 
 
- %^NoLinkVow:0  — No linking vowel is used only after consonants for error
+%^NoLinkVow:0  — No linking vowel is used only after consonants for error
 
 
 

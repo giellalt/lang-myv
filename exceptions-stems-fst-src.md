@@ -53,7 +53,7 @@ This has special hard after lost consonant
 1930s Phonetic transcription
 дс >> ц
 гт >> к
- мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
+мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
 
 
 ### ADPOSITIONS
@@ -67,7 +67,7 @@ are dealt with as adverbs
 ### PRONOUNS
 
 ### QUANTIFIERS
- сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
+сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
 
 
 

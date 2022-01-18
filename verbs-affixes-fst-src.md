@@ -15,48 +15,48 @@ OBJECT FLAGS AND +V+TV tags
 
 
 
- **LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
+**LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
 
 
 
 
- **LEXICON TV_KADOMS ** 
+**LEXICON TV_KADOMS ** 
 
 
 
 
- **LEXICON TV_NEVTEMS_SUB ** 
+**LEXICON TV_NEVTEMS_SUB ** 
 
-* _LEXICON TV_NEVTEMSневтемс:невть_  невтемс:невть
+* _LEXICON TV_NEVTEMS_  невтемс:невть
 
- **LEXICON TV_SAVTOMS_SUB ** 
+**LEXICON TV_SAVTOMS_SUB ** 
 
- **LEXICON TV_SAVTOMS ** 
+**LEXICON TV_SAVTOMS ** 
 
- **LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO ** 
+**LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO ** 
 
- **LEXICON TV_CHACHTOMS ** 
-
-
- **LEXICON TV_KUNDAMS_SUB ** 
-
- **LEXICON TV_KUNDAMS ** 
+**LEXICON TV_CHACHTOMS ** 
 
 
+**LEXICON TV_KUNDAMS_SUB ** 
+
+**LEXICON TV_KUNDAMS ** 
 
 
 
- **LEXICON TV_SATOMS ** 
+
+
+**LEXICON TV_SATOMS ** 
 
 
 
- **LEXICON TV_TUEMS ** 
+**LEXICON TV_TUEMS ** 
 
- **LEXICON TV_TEEMS ** 
+**LEXICON TV_TEEMS ** 
 
 
 
-* _LEXICON TV_NEKSHNEMSнекшнемс:некшн_  некшнемс:некшн
+* _LEXICON TV_NEKSHNEMS_  некшнемс:некшн
 
 
 VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
@@ -224,8 +224,8 @@ no deverbals
 
 
 
-**LEXICON TV_NEKSHNEMSнекшнемс:некшн** Alternates with TRA
-**LEXICON TV_NEKSHNEMSнекшнемс:некшн** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
 
 
 

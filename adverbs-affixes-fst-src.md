@@ -38,18 +38,18 @@ The Erzya language adjectives do not compare.
 
 
 
- LEXICON ADV-SPAT_  пачк
+LEXICON ADV-SPAT_  пачк
 
 
 
 
- LEXICON ADV-SPAT-IS-PRL  перька
+LEXICON ADV-SPAT-IS-PRL  перька
 
- LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
+LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
 
 
 
- LEXICON ADV-SPAT_ALO  ало:ал
+LEXICON ADV-SPAT_ALO  ало:ал
 
 
 

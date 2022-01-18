@@ -1068,61 +1068,61 @@ Analysis symbols
 The morphological analyses of wordforms of ERZYA are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
-* +TYÄDONE WORK HAS TO BE DONE
+* +TYÄ WORK HAS TO BE DONE
 
 
- *  %    
+*  %    
 
 ## The parts-of-speech are:
 
-* +Aadjective adjective
-* +Adpadposition adposition
-* +Advadverb adverb
-* +CSconjunction subordinating conjunction
-* +CCconjunction coordinating conjunction
-* +Detdeterminer determiner
-* +Descrdescriptive descriptive
-* +Interjinterjection interjection
-* +Nnoun noun
-* +Numnumerals numerals
-* +Pcleparticle particle
-* +Popostposition postposition
-* +Prloans) preposition (in Russian loans)
-* +Pronpronoun pronoun
-* +Qntquantifier quantifier
-* +Vverb verb
+* +A adjective
+* +Adp adposition
+* +Adv adverb
+* +CS subordinating conjunction
+* +CC coordinating conjunction
+* +Det determiner
+* +Descr descriptive
+* +Interj interjection
+* +N noun
+* +Num numerals
+* +Pcle particle
+* +Po postposition
+* +Pr preposition (in Russian loans)
+* +Pron pronoun
+* +Qnt quantifier
+* +V verb
 
 ## Parts of speech are further split up into:
 Adjectives
-* +Adn+Pron Adnominal (modifier) !! This is not an NP head like +Pron
-* +Bahuvrihiadjective This is a nominative-case NP used as an adjective
-* +bahuvrihiupper-case get rid of these for upper-case
+* +Adn Adnominal (modifier) !! This is not an NP head like +Pron
+* +Bahuvrihi This is a nominative-case NP used as an adjective
+* +bahuvrihi get rid of these for upper-case
 
 Adverbs
-* +Ideophverb These are ideophonic descriptors used to modify the verb
+* +Ideoph These are ideophonic descriptors used to modify the verb
 вырк ливтясь "**flit** and it flew off"
 "Ideophone: A vivid representation of an idea in sound. A word, often
 onomatopoeic, which describes a predicate, qualificative or adverb in 
 respect to manner, colour, sound, smell, action, state or intensity."
 (Doke 1935:118)
-* +Manneradverb with reference to type of adverb
-* +Parentheticparenthetic parenthetic
-* +Spatspatial spatial
-* +Temptemporal temporal
-* +Iter`кыкысь` Iterative  form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
-* +Mult`кавонькирда` Multiplicative, two-ply; myv: `кавонькирда`
-* +DegAdA Ad-adjective This is degree, depricate + AdA
-* +Epistin epistemic modality marker speaker's evaluation/judgment of, degree of confidence in
-* +EvidNfhкеля not first-hand келя
-* +EvidFhfirst-hand first-hand
-* +PerifModськамонзо periferal modifier ськамонзо
+* +Manner with reference to type of adverb
+* +Parenthetic parenthetic
+* +Spat spatial
+* +Temp temporal
+* +Iter Iterative  form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
+* +Mult Multiplicative, two-ply; myv: `кавонькирда`
+* +Deg Ad-adjective This is degree, depricate + AdA
+* +Epist epistemic modality marker speaker's evaluation/judgment of, degree of confidence in
+* +EvidNfh not first-hand келя
+* +EvidFh first-hand
+* +PerifMod periferal modifier ськамонзо
 
 Interjections
 * +Formulaic 
 
 Nouns
-* +Propproper proper
-* +CollNNOUNS used with paired nouns, i.e. COLLECTIVE NOUNS
+* +Prop proper
+* +CollN used with paired nouns, i.e. COLLECTIVE NOUNS
 
 Particles
 
@@ -1130,185 +1130,185 @@ Postpositions
 **+ Spat**, **+ Temp**
 
 ## Pronouns
-* +Demdemonstrative demonstrative
-* +Indefindefinite indefinite
-* +Dep**мень** dependent word requiring the presence of another, e.g. **мень**
-* +Interrinterrogative interrogative
-* +Perspersonal personal
-* +Reciprreciprocal reciprocal
-* +Reflreflexive reflexive
-* +Relrelative relative
-* +Relatornoun relator noun
-* +Seldefinites selective, when selecting from a set of definites
-* +Shortэстень тень, теть; эстень
-* +Longмонстень монень, тонеть; монстень
+* +Dem demonstrative
+* +Indef indefinite
+* +Dep dependent word requiring the presence of another, e.g. **мень**
+* +Interr interrogative
+* +Pers personal
+* +Recipr reciprocal
+* +Refl reflexive
+* +Rel relative
+* +Relator relator noun
+* +Sel selective, when selecting from a set of definites
+* +Short тень, теть; эстень
+* +Long монень, тонеть; монстень
 
-* +Sg1singular first person singular
-* +Sg2singular second person singular
-* +Sg3singular third person singular
-* +Pl1plural first person plural
-* +Pl2plural second person plural
-* +Pl3plural third person plural
+* +Sg1 first person singular
+* +Sg2 second person singular
+* +Sg3 third person singular
+* +Pl1 first person plural
+* +Pl2 second person plural
+* +Pl3 third person plural
 
 
 ## Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
-* +Apprthree* Approximative numeral кавто-колмо, колмошка *two or three*
+* +Appr Approximative numeral кавто-колмо, колмошка *two or three*
 NB! do not confuse with Komi case +Apr
-* +AssocCollavide- -ne- ; avide-
-* +Assoc+мезть +мезть
-* +CardNCard cardinal + NCard
-* +Collcollective collective
-* +DistrDistributive Distributive
-* +OrdNOrd ordinal + NOrd
-* **+Exclusiveськамонзо**:  ськамонзо
+* +AssocColl -ne- ; avide-
+* +Assoc +мезть
+* +Card cardinal + NCard
+* +Coll collective
+* +Distr Distributive
+* +Ord ordinal + NOrd
+* **+Exclusive**:  ськамонзо
 
 ## Nominals are inflected for Number and Case
 ## Number
-* +Sgsingular singular
-* +Plplural plural
-* +SPnumber ambiguous for number, general number
+* +Sg singular
+* +Pl plural
+* +SP ambiguous for number, general number
 
 ## Case
-* +Abeabessive abessive
-* +Ablcase ablative case
-* +Com"-нек/-нэк" Comitative "-нек/-нэк"
-* +Cmpr-шка Comparative case form -шка
-* +Datdative dative
-* +Elacase elative case
-* +Gencase genitive case
-* +Illillative illative
-* +Ineinessive inessive
-* +Latlative lative
-* +Locёно" Locative "вить ён : вить ёно"
-* +Nomcase nominative case
-* +Prl"га/ка/ва" prolative "га/ка/ва"
-* +Traconstructions translative: used in similative and depictive constructions
+* +Abe abessive
+* +Abl ablative case
+* +Com Comitative "-нек/-нэк"
+* +Cmpr Comparative case form -шка
+* +Dat dative
+* +Ela elative case
+* +Gen genitive case
+* +Ill illative
+* +Ine inessive
+* +Lat lative
+* +Loc Locative "вить ён : вить ёно"
+* +Nom nominative case
+* +Prl prolative "га/ка/ва"
+* +Tra translative: used in similative and depictive constructions
 to mark what would be a secondary subject: 
 --вармакс оргодсь тосто--
-* +TempCx"-не/-нэ" Temporalis case form "-не/-нэ"
-* +VocVocative Vocative
+* +TempCx Temporalis case form "-не/-нэ"
+* +Voc Vocative
 
 ## Possession and other declension types are marked with:
-* +PxSg1singular first person singular
-* +PxSg2singular second person singular
-* +PxSg3singular third person singular
-* +PxSP3only third person singular or plural with dative only
-* +PxPl1plural first person plural
-* +PxPl2plural second person plural
-* +PxPl3plural third person plural
-* +DefDefinite Definite
+* +PxSg1 first person singular
+* +PxSg2 second person singular
+* +PxSg3 third person singular
+* +PxSP3 third person singular or plural with dative only
+* +PxPl1 first person plural
+* +PxPl2 second person plural
+* +PxPl3 third person plural
+* +Def Definite
 
 ## The comparative forms are:
-* +Compsuperlative comparative as opposed to superlative
-* +Superlsuperlative superlative
-* +AttrAttribute Attribute
+* +Comp comparative as opposed to superlative
+* +Superl superlative
+* +Attr Attribute
 
 ## Verb moods are:
-* +Cond(Derivational) conditional Ындеря- (Derivational)
-* +Conj"вОль" conjunctional "вОль"
-* +Desto" desiderative Ыксэль "was about to; wanted to"
-* +Indindicative indicative
-* +Imprtimperative imperative
-* +Optoptative optative
-* +Precprecative precative
-* +Prohimperative prohibitive is distinct from the negation of imperative
+* +Cond conditional Ындеря- (Derivational)
+* +Conj conjunctional "вОль"
+* +Des desiderative Ыксэль "was about to; wanted to"
+* +Ind indicative
+* +Imprt imperative
+* +Opt optative
+* +Prec precative
+* +Proh prohibitive is distinct from the negation of imperative
 Иля аварде! `Don't cry' (Proh);
 Аволь мелявтт, кецяк! `Don't worry, be happy!' (Neg + Imprt)
 
 ### Infinitive moods
-* +Obligdeontic/directive/obligative modality: deontic/directive/obligative
+* +Oblig modality: deontic/directive/obligative
 андомс: андома , якамс: якама
-* +Delibdeontic/directive/deliberative **+Sugg modality**: deontic/directive/deliberative
+* +Delib **+Sugg modality**: deontic/directive/deliberative
 I still need the right word for this андомс: андомсат
 
 ## Tenses in the indicative and infrequently in the conditional
-* +Prsdistinction In Erzya There is no morphological distinction
+* +Prs In Erzya There is no morphological distinction
 between present and future
-* +Prt11 Preterite 1
-* +Prt2verb.) Preterite 2 (This is also used in predicate forms not involving a finite verb.)
+* +Prt1 Preterite 1
+* +Prt2 Preterite 2 (This is also used in predicate forms not involving a finite verb.)
 
 ## Verb personal forms are:
-* +ScSg1singular * subject conjugation first person singular
-* +ScSg2singular * subject conjugation second person singular
-* +ScSg3singular * subject conjugation third person singular
-* +ScPl1plural * subject conjugation first person plural
-* +ScPl2plural * subject conjugation second person plural
-* +ScPl3plural * subject conjugation third person plural
+* +ScSg1 * subject conjugation first person singular
+* +ScSg2 * subject conjugation second person singular
+* +ScSg3 * subject conjugation third person singular
+* +ScPl1 * subject conjugation first person plural
+* +ScPl2 * subject conjugation second person plural
+* +ScPl3 * subject conjugation third person plural
 ## Object conjugation
-* +OcSg1singular * object conjugation first person singular
-* +OcSg2singular * object conjugation second person singular
-* +OcSg3singular * object conjugation third person singular
-* +OcPl1plural * object conjugation first person plural
-* +OcPl2plural * object conjugation second person plural
-* +OcPl3plural * object conjugation third person plural
+* +OcSg1 * object conjugation first person singular
+* +OcSg2 * object conjugation second person singular
+* +OcSg3 * object conjugation third person singular
+* +OcPl1 * object conjugation first person plural
+* +OcPl2 * object conjugation second person plural
+* +OcPl3 * object conjugation third person plural
 
 Other verb forms are
-* +Act(exo-tradition) * active voice (exo-tradition)
-* +PrsPrcusage) * present participle (only non-contrastive usage)
-* +DemPrcnon-contrastive) * present participle (both contrastive and non-contrastive)
-* +ActPrcLongparticiple)  %{иы%}й (This is dealt with elsewhere as an active present participle)
-* +ActPrcShortparticiple)  %{иы%}  (This is dealt with elsewhere as an active present participle)
-* +ActDemPrcparticiple)  %{иы%}ця  (This is dealt with elsewhere as an active present participle)
-* +ConNegvow-stem * connegative, main verb complement to Neg, vow-stem
-* +ConNegIIcons-stem * connegative, main verb complement to Neg, cons-stem
-* +GerVAbl * gerund This is used with Der/Ozj and VAbl
-* +Infinfinitive * infinitive
-* +Negапак * verb of negation эзь, аволь, иля, апак
-* +ConvPrcапак * converb OR participle апак
-* +Prcparticiple * participle
-* +VGenparticiple * Verb Genitive, genitive form participle
-* +VAbl"озадо" * Verb Ablative "озадо"
-* +Prc/Telic"саевть" * Telic participle  "саевть"
-* +Der/AbeВтОмО * ВтОмО
-* +Der/Cmprшка * шка
-* +Der/AV * adjective derived from N or V
-* +Der/N2AN * adjective derived from N
-* +Der/V2AV * adjective derived from V
-* +Substarguments/gov * deverbal nouns retaining verb arguments/gov
+* +Act * active voice (exo-tradition)
+* +PrsPrc * present participle (only non-contrastive usage)
+* +DemPrc * present participle (both contrastive and non-contrastive)
+* +ActPrcLong  %{иы%}й (This is dealt with elsewhere as an active present participle)
+* +ActPrcShort  %{иы%}  (This is dealt with elsewhere as an active present participle)
+* +ActDemPrc  %{иы%}ця  (This is dealt with elsewhere as an active present participle)
+* +ConNeg * connegative, main verb complement to Neg, vow-stem
+* +ConNegII * connegative, main verb complement to Neg, cons-stem
+* +Ger * gerund This is used with Der/Ozj and VAbl
+* +Inf * infinitive
+* +Neg * verb of negation эзь, аволь, иля, апак
+* +ConvPrc * converb OR participle апак
+* +Prc * participle
+* +VGen * Verb Genitive, genitive form participle
+* +VAbl * Verb Ablative "озадо"
+* +Prc/Telic * Telic participle  "саевть"
+* +Der/Abe * ВтОмО
+* +Der/Cmpr * шка
+* +Der/A * adjective derived from N or V
+* +Der/N2A * adjective derived from N
+* +Der/V2A * adjective derived from V
+* +Subst * deverbal nouns retaining verb arguments/gov
 
 * +PrfPrc 
 
 
 
 ## The Usage extents are marked using following tags:
-* +Err/OrthSubstandard * Substandard
-* +Err/SubSubstandard * Substandard
-* +Err/Orth-no-linking-vowelmissing linking vowel is missing
-* +Err/Orth-high-linking-vowelhigh linking vowel is high
+* +Err/Orth * Substandard
+* +Err/Sub * Substandard
+* +Err/Orth-no-linking-vowel linking vowel is missing
+* +Err/Orth-high-linking-vowel linking vowel is high
 
-* +Use/MargMarginal * Marginal
-* +Use/-Spellspeller * Exclude from speller
-* +Use/SpellNoSuggspeller * recognized but not suggested in speller
-* +Use/Circpath * Circular path
-* +Use/CircNpath * Circular number path
-* +Use/-Pedspeller * Remove from pedagogical speller
-* +Use/NGapertium * Do not generate, for isme-ped.fst and apertium
+* +Use/Marg * Marginal
+* +Use/-Spell * Exclude from speller
+* +Use/SpellNoSugg * recognized but not suggested in speller
+* +Use/Circ * Circular path
+* +Use/CircN * Circular number path
+* +Use/-Ped * Remove from pedagogical speller
+* +Use/NG * Do not generate, for isme-ped.fst and apertium
 
-* +Err/Lex--+Src/F--) * The lemma is not an Erzya word (Depricating --+Src/F--)
+* +Err/Lex * The lemma is not an Erzya word (Depricating --+Src/F--)
 
 # Dialect tags
-* +Dial/SHforms * Short forms
-* +Dial/Lforms * Long forms
-* +Dialspecification * No specification
+* +Dial/SH * Short forms
+* +Dial/L * Long forms
+* +Dial * No specification
 Specific to some dialects
 Rueter 2010: 8
-* +Dial/-Cstandard * Not central standard
-* +Dial/CKozlovka-Mokshlei * 1 Central or Kozlovka-Mokshlei
-* +Dial/WInsar * 2 Western or Insar
-* +Dial/NWAlatyr * 3 North-Western or Alatyr
-* +Dial/SESura * 4 South-Eastern or Sura
-* +Dial/MDrakino-Shoksha * 5 Mixed or Drakino-Shoksha
+* +Dial/-C * Not central standard
+* +Dial/C * 1 Central or Kozlovka-Mokshlei
+* +Dial/W * 2 Western or Insar
+* +Dial/NW * 3 North-Western or Alatyr
+* +Dial/SE * 4 South-Eastern or Sura
+* +Dial/M * 5 Mixed or Drakino-Shoksha
 
 # Orthography tags
-* +Orth/PhonDerivmorphologic * Derivation is phonetic but declension and conjugation morphologic
-* +Orth/PhonInfl1920-30 * Entire inflection is phonetic 1821, 1920-30
-* +Orth/Colloqspelling Colloquial speech reflected in spelling
+* +Orth/PhonDeriv * Derivation is phonetic but declension and conjugation morphologic
+* +Orth/PhonInfl * Entire inflection is phonetic 1821, 1920-30
+* +Orth/Colloq Colloquial speech reflected in spelling
 
 # Abbreviated words are classified with:
-* +ABBRAbbreviation * Abbreviation
-* +Symbol© = independent symbols in the text stream, like £, €, ©
-* +ACRAcronym * Acronym
+* +ABBR * Abbreviation
+* +Symbol = independent symbols in the text stream, like £, €, ©
+* +ACR * Acronym
 
 ## Special symbols 
 
@@ -1318,22 +1318,22 @@ Delimiter marks are classified with:
 
 The verbs are syntactically split according to transitivity:
 
-* +TVverb * transitive verb
-* +IVverb * intransitive verb
-* +NomAgAgentis Actor Noun From Verb - Nomen Agentis
-* +NomActAgentis Actor Noun From Verb - Nomen Agentis
+* +TV * transitive verb
+* +IV * intransitive verb
+* +NomAg Actor Noun From Verb - Nomen Agentis
+* +NomAct Actor Noun From Verb - Nomen Agentis
 
 Auxiliary verbs
 * +Aux * 
 
 Special multiword units are analysed with:
- *  +Multi 
+*  +Multi 
 
 Non-dictionary words can be recognised with:
- *  +Guess 
+*  +Guess 
 
 Question and Focus particles:
- *  +Qst +Foc 
+*  +Qst +Foc 
 
 
 # Semantic tags
@@ -1343,103 +1343,103 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 
 ## Simplex tags
 
-* +Sem/ActActivity Activity
-* +Sem/AmountAmount Amount
-* +Sem/AniAnimate Animate
-* +Sem/AniprodProduct Animal Product
-* +Sem/BodyBodypart Bodypart
-* +Sem/Body-abstrjierbmi siellu, vuoig?a, jierbmi
-* +Sem/BuildBuilding Building
-* +Sem/Build-partcloset Part of Bulding, like the closet
-* +Sem/CatCategory Category
-* +Sem/ClthClothes Clothes
-* +Sem/Clth-jewlJewelery Jewelery
-* +Sem/Clth-partsávdnji... part of clothes, boallu, sávdnji...
-* +Sem/CtainContainer Container
-* +Sem/Ctain-abstraccount Abstract container like bank account
-* +Sem/Ctain-clth@CODE@
-* +Sem/CurrMoney Currency like dollár, Not Money
-* +Sem/DanceDance Dance
-* +Sem/DirGPS-kursa Direction like GPS-kursa
-* +Sem/Domainactions) Domain like politics, reindeerherding (a system of actions)
-* +Sem/DrinkDrink Drink
-* +Sem/DummytagDummytag Dummytag
-* +Sem/Eduevent Educational event
-* +Sem/EventEvent Event
-* +Sem/FeatÁrvu Feature, like Árvu
-* +Sem/Feat-physfárda Physiological feature, ivdni, fárda
-* +Sem/Feat-psychfeauture Psychological feauture
-* +Sem/Feat-measrfeauture Psychological feauture
-* +Sem/Femname Female name
-* +Sem/FoodFood Food
-* +Sem/Food-medMedicine Medicine
-* +Sem/FurnFurniture Furniture
-* +Sem/GameGame Game
-* +Sem/Geomobject Geometrical object
-* +Sem/GroupGroup Animal or Human Group
-* +Sem/HumHuman Human
-* +Sem/Hum-abstrabstract Human abstract
-* +Sem/IdeolIdeology Ideology
-* +Sem/Kinforms), Kinship term (special PxSg2 forms),
-* +Sem/Kin_Femfemale Kinship term (special PxSg2 forms), female
-* +Sem/Kin_Malmale Kinship term (special PxSg2 forms), male
-* +Sem/LangLanguage Language
-* +Sem/Malname Male name
-* +Sem/Matthings Material for producing things
-* +Sem/MeasrMeasure Measure
-* +Sem/MoneyCurr(ency) Has to do with money, like wages, not Curr(ency)
-* +Sem/ObjObject Object
-* +Sem/Obj-cloCloth Cloth
-* +Sem/Obj-cognCloth Cloth
-* +Sem/Obj-elapparatus (Electrical) machine or apparatus
-* +Sem/Obj-lingit Object with something written on it
-* +Sem/Obj-ropeobject flexible ropelike object
-* +Sem/Obj-surfcobject Surface object
-* +Sem/OrgOrganisation Organisation
-* +Sem/Partbealli Feature, oassi, bealli
-* +Sem/Perc-cognperception Cognative perception
-* +Sem/Perc-emoperception Emotional perception
-* +Sem/Perc-physperception Physical perception
-* +Sem/Perc-psychperception Physical perception
-* +Sem/PlantPlant Plant
-* +Sem/Plant-partpart Plant part
-* +Sem/PlcPlace Place
-* +Sem/Plc-abstrplace Abstract place
-* +Sem/Plc-elevatePlace Place
-* +Sem/Plc-linePlace Place
-* +Sem/Plc-waterPlace Place
-* +Sem/Posjob) Position (as in social position job)
-* +Sem/ProcessProcess Process
-* +Sem/ProdProduct Product
-* +Sem/Prod-audioproduct Audio product
-* +Sem/Prod-cognproduct Cognition product
-* +Sem/Prod-lingproduct Linguistic product
-* +Sem/Prod-visproduct Visual product
-* +Sem/RelRelation Relation
-* +Sem/RouteRoute Name of a Route
-* +Sem/Ruleconvention Rule or convention
-* +Sem/Semconconcept Semantic concept
+* +Sem/Act Activity
+* +Sem/Amount Amount
+* +Sem/Ani Animate
+* +Sem/Aniprod Animal Product
+* +Sem/Body Bodypart
+* +Sem/Body-abstr siellu, vuoig?a, jierbmi
+* +Sem/Build Building
+* +Sem/Build-part Part of Bulding, like the closet
+* +Sem/Cat Category
+* +Sem/Clth Clothes
+* +Sem/Clth-jewl Jewelery
+* +Sem/Clth-part part of clothes, boallu, sávdnji...
+* +Sem/Ctain Container
+* +Sem/Ctain-abstr Abstract container like bank account
+* +Sem/Ctain-clth
+* +Sem/Curr Currency like dollár, Not Money
+* +Sem/Dance Dance
+* +Sem/Dir Direction like GPS-kursa
+* +Sem/Domain Domain like politics, reindeerherding (a system of actions)
+* +Sem/Drink Drink
+* +Sem/Dummytag Dummytag
+* +Sem/Edu Educational event
+* +Sem/Event Event
+* +Sem/Feat Feature, like Árvu
+* +Sem/Feat-phys Physiological feature, ivdni, fárda
+* +Sem/Feat-psych Psychological feauture
+* +Sem/Feat-measr Psychological feauture
+* +Sem/Fem Female name
+* +Sem/Food Food
+* +Sem/Food-med Medicine
+* +Sem/Furn Furniture
+* +Sem/Game Game
+* +Sem/Geom Geometrical object
+* +Sem/Group Animal or Human Group
+* +Sem/Hum Human
+* +Sem/Hum-abstr Human abstract
+* +Sem/Ideol Ideology
+* +Sem/Kin Kinship term (special PxSg2 forms),
+* +Sem/Kin_Fem Kinship term (special PxSg2 forms), female
+* +Sem/Kin_Mal Kinship term (special PxSg2 forms), male
+* +Sem/Lang Language
+* +Sem/Mal Male name
+* +Sem/Mat Material for producing things
+* +Sem/Measr Measure
+* +Sem/Money Has to do with money, like wages, not Curr(ency)
+* +Sem/Obj Object
+* +Sem/Obj-clo Cloth
+* +Sem/Obj-cogn Cloth
+* +Sem/Obj-el (Electrical) machine or apparatus
+* +Sem/Obj-ling Object with something written on it
+* +Sem/Obj-rope flexible ropelike object
+* +Sem/Obj-surfc Surface object
+* +Sem/Org Organisation
+* +Sem/Part Feature, oassi, bealli
+* +Sem/Perc-cogn Cognative perception
+* +Sem/Perc-emo Emotional perception
+* +Sem/Perc-phys Physical perception
+* +Sem/Perc-psych Physical perception
+* +Sem/Plant Plant
+* +Sem/Plant-part Plant part
+* +Sem/Plc Place
+* +Sem/Plc-abstr Abstract place
+* +Sem/Plc-elevate Place
+* +Sem/Plc-line Place
+* +Sem/Plc-water Place
+* +Sem/Pos Position (as in social position job)
+* +Sem/Process Process
+* +Sem/Prod Product
+* +Sem/Prod-audio Audio product
+* +Sem/Prod-cogn Cognition product
+* +Sem/Prod-ling Linguistic product
+* +Sem/Prod-vis Visual product
+* +Sem/Rel Relation
+* +Sem/Route Name of a Route
+* +Sem/Rule Rule or convention
+* +Sem/Semcon Semantic concept
 * +Sem/Sign Sign (e.g. numbers, punctuation) 
-* +Sem/SportSport Sport
+* +Sem/Sport Sport
 * +Sem/State 
-* +Sem/State-sickIllness Illness
-* +Sem/SubstncWater Substance, like Air and Water
-* +Sem/SurSurname Surname
-* +Sem/Fem-Surfemale Surname female
-* +Sem/Mal-Surmale Surname male
-* +Sem/SymbolSymbol Symbol
-* +Sem/TimeTime Time
-* +Sem/Toolthings Prototypical tool for repairing things
-* +Sem/Tool-catchfish) Tool used for catching (e.g. fish)
-* +Sem/Tool-cleancleaning Tool used for cleaning
-* +Sem/Tool-itIT Tool used in IT
-* +Sem/Tool-measrmeasuring Tool used for measuring
-* +Sem/Tool-musicinstrument Music instrument
-* +Sem/Tool-writetool Writing tool
-* +Sem/Txtlávlla...) Text (girji, lávlla...)
-* +Sem/VehVehicle Vehicle
-* +Sem/WpnWeapon Weapon
-* +Sem/Wthrground The Weather or the state of ground
+* +Sem/State-sick Illness
+* +Sem/Substnc Substance, like Air and Water
+* +Sem/Sur Surname
+* +Sem/Fem-Sur Surname female
+* +Sem/Mal-Sur Surname male
+* +Sem/Symbol Symbol
+* +Sem/Time Time
+* +Sem/Tool Prototypical tool for repairing things
+* +Sem/Tool-catch Tool used for catching (e.g. fish)
+* +Sem/Tool-clean Tool used for cleaning
+* +Sem/Tool-it Tool used in IT
+* +Sem/Tool-measr Tool used for measuring
+* +Sem/Tool-music Music instrument
+* +Sem/Tool-write Writing tool
+* +Sem/Txt Text (girji, lávlla...)
+* +Sem/Veh Vehicle
+* +Sem/Wpn Weapon
+* +Sem/Wthr The Weather or the state of ground
 
 
 
@@ -1570,41 +1570,41 @@ Multiple Semantic tags:
 
 
 Semantics are classified with
-* +Sem/Divinitypersonified),  Divinity (god personified),
-* +Sem/ConstellationConstellation,  Constellation,
-* +Sem/AntAnthroponym  Anthroponym
-* +Sem/Femfemale  Anthroponym female
-* +Sem/Malmale  Anthroponym male
-* +Sem/PatrPatronym  Patronym
-* +Sem/Fem-Patrfemale  Patronym female
-* +Sem/Mal-Patrmale  Patronym male
-* +Sem/Rvrtransportation,  name of river or water way, media of transportation,
-* +Sem/Mnthmonth  name of month
-* +Sem/InanimInanimate,  Inanimate,
+* +Sem/Divinity  Divinity (god personified),
+* +Sem/Constellation  Constellation,
+* +Sem/Ant  Anthroponym
+* +Sem/Fem  Anthroponym female
+* +Sem/Mal  Anthroponym male
+* +Sem/Patr  Patronym
+* +Sem/Fem-Patr  Patronym female
+* +Sem/Mal-Patr  Patronym male
+* +Sem/Rvr  name of river or water way, media of transportation,
+* +Sem/Mnth  name of month
+* +Sem/Inanim  Inanimate,
 
 Semantic Fields
-* +Field/Agragriculatural agriculatural
-* +Field/Anatanatomical anatomical
-* +Field/Biobiological biological
-* +Field/Botbotanical botanical
-* +Field/Chemchemical chemical
-* +Field/Geolgeological geological
-* +Field/Gramgrammatical grammatical
-* +Field/Histhistorical historical
-* +Field/Lawlaw law
-* +Field/Marmaritime maritime
-* +Field/Mathmathematical mathematical
-* +Field/Medmedical medical
-* +Field/Musmusical musical
-* +Field/Religchurch church
-* +Field/Techtechnical technical
-* +Field/Zoolzoological zoological
+* +Field/Agr agriculatural
+* +Field/Anat anatomical
+* +Field/Bio biological
+* +Field/Bot botanical
+* +Field/Chem chemical
+* +Field/Geol geological
+* +Field/Gram grammatical
+* +Field/Hist historical
+* +Field/Law law
+* +Field/Mar maritime
+* +Field/Math mathematical
+* +Field/Med medical
+* +Field/Mus musical
+* +Field/Relig church
+* +Field/Tech technical
+* +Field/Zool zoological
 
 
 # Other tags
 
 ## Verbal arguments
-* +Subj/Zerosubject This is used to mark verbs without a semantic subject
+* +Subj/Zero This is used to mark verbs without a semantic subject
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -1616,105 +1616,105 @@ source and target part-of-speech.
 
 
 ## Der begin
-* +Derit  In front of every derivation to make it
+* +Der  In front of every derivation to make it
 possible to target derivations as a class e.g. in regular expressions etc
 * +Der/VtOmO 
-* +Der/stOA2Adv Deriving adverbs from adjectives A2Adv
-* +Der/msвадря эрзямс эрзя, истямс истя, вадрямс вадря
+* +Der/stO Deriving adverbs from adjectives A2Adv
+* +Der/ms эрзямс эрзя, истямс истя, вадрямс вадря
 * +Der/shka 
-* +Der/GenAttr +Der/Onjnon-nouns genitive attribute derivation of non-nouns
-* +Der/ajvocative vocative
-* +Der/kajvocative vocative
+* +Der/GenAttr +Der/Onj genitive attribute derivation of non-nouns
+* +Der/aj vocative
+* +Der/kaj vocative
 
 
-* +Der/Ovtattr * telic deverbal noun also attr
-* +Der/Omsillative * infinitive illative
-* +Der/OmOlocative/nominative * infinitive locative/nominative
-* +Der/OmstOelative * infinitive elative
-* +Der/OmsOinessive * infinitive inessive
-* +Der/OmdOablative * infinitive ablative
-* +Der/Omgaprolative * infinitive prolative
-* +Der/Omaякама * modality: deontic/directive/obligative андомс: андома , якамс: якама
-* +Der/Omkaякамка * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
-* +Der/Ycjaperson * active (demonstrative) present participle  takes copula person
-* +Der/Yjperson * active long present participle takes copula person
-* +Der/Yparticiple * active short present participle
-* +Der/OzjGerund * Gerund
-* +Der/Cond+Der/Ynderja * conditional derivation +Der/Ynderja
+* +Der/Ovt * telic deverbal noun also attr
+* +Der/Oms * infinitive illative
+* +Der/OmO * infinitive locative/nominative
+* +Der/OmstO * infinitive elative
+* +Der/OmsO * infinitive inessive
+* +Der/OmdO * infinitive ablative
+* +Der/Omga * infinitive prolative
+* +Der/Oma * modality: deontic/directive/obligative андомс: андома , якамс: якама
+* +Der/Omka * modality: deontic/directive/obligative андомс: андомка , якамс: якамка
+* +Der/Ycja * active (demonstrative) present participle  takes copula person
+* +Der/Yj * active long present participle takes copula person
+* +Der/Y * active short present participle
+* +Der/Ozj * Gerund
+* +Der/Cond * conditional derivation +Der/Ynderja
 
 ## Declaring noun derivations
 * +Der/pelj 
 
 Modifier without noun
-* +Der/MWNNoun Modifier without Noun
-* +Der/DemDemonstrative Speaker-Oriented Demonstrative
+* +Der/MWN Modifier without Noun
+* +Der/Dem Speaker-Oriented Demonstrative
 ## Conjugation of words other than finite verbs
-* +Der/Prconjugation derivation to predicate head, e.g. nominal conjugation
-* +Der/Copderivation This is not a derivation
-* +Clt/CopDer/Pr+V This will replace the nominal conjugation Der/Pr+V
+* +Der/Pr derivation to predicate head, e.g. nominal conjugation
+* +Der/Cop This is not a derivation
+* +Clt/Cop This will replace the nominal conjugation Der/Pr+V
 * +Clt/Cond 
 
 ## Declaring Indefinite Pronoun derivations
-* +Der/kojpronouns prefix `+Indef` in indefinite pronouns
-* +Der/tapronouns prefix `+Indef` in indefinite pronouns
-* +Der/tagopronouns prefix `+Indef` in indefinite pronouns
-* +Der/Gakpronouns suffix `+Indef` in indefinite pronouns
-* +Der/butipronouns suffix `+Indef` in indefinite pronouns
-* +Der/Yjaзярыя suffix `+Indef` in indefinite pronouns  ковия, зярыя
+* +Der/koj prefix `+Indef` in indefinite pronouns
+* +Der/ta prefix `+Indef` in indefinite pronouns
+* +Der/tago prefix `+Indef` in indefinite pronouns
+* +Der/Gak suffix `+Indef` in indefinite pronouns
+* +Der/buti suffix `+Indef` in indefinite pronouns
+* +Der/Yja suffix `+Indef` in indefinite pronouns  ковия, зярыя
 
 
 ## DECLARING NOUN DERIVATIONS
-* +Der/chiadjective-to-noun  adjective-to-noun
+* +Der/chi  adjective-to-noun
 ## the combinatory --Event-- preceding the NP-final noun
-* +Der/OmAverb-to-noun  verb-to-noun
+* +Der/OmA  verb-to-noun
 
 ## DECLARING NUMERAL DERIVATIONS
-* +Der/cje+A+Ord  +A+Ord
-* +Der/tjks(non-contrastive)  +A+Ord (non-contrastive)
+* +Der/cje  +A+Ord
+* +Der/tjks  +A+Ord (non-contrastive)
 
 ## DECLARING DEVERBAL DERIVATIONS OF VERBS
-* +Der/kshnOderivation  verb2verb derivation
-* +Der/OkshnOmsderivation  verb2verb derivation
-* +Der/OvOmsderivation  verb2verb derivation
-* +Der/OvkshnOmsderivation  verb2verb derivation
-* +Der/OvtOmsderivation  verb2verb derivation
-* +Der/Ovtnjemsderivation  verb2verb derivation
-* +Der/Ozevemsderivation  verb2verb derivation
-* +Der/Ozevtemsderivation  verb2verb derivation
-* +Der/Ozevtnjemsderivation  verb2verb derivation
-* +Der/Ozevkshnemsderivation  verb2verb derivation
-* +Der/sje--Der/Dem--  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
-* +Der/njederivation  verb2verb derivation
-* +Der/njemsderivation  verb2verb derivation
+* +Der/kshnO  verb2verb derivation
+* +Der/OkshnOms  verb2verb derivation
+* +Der/OvOms  verb2verb derivation
+* +Der/OvkshnOms  verb2verb derivation
+* +Der/OvtOms  verb2verb derivation
+* +Der/Ovtnjems  verb2verb derivation
+* +Der/Ozevems  verb2verb derivation
+* +Der/Ozevtems  verb2verb derivation
+* +Der/Ozevtnjems  verb2verb derivation
+* +Der/Ozevkshnems  verb2verb derivation
+* +Der/sje  this in verb2verb derivation and also in denominal demonstrative --Der/Dem--
+* +Der/nje  verb2verb derivation
+* +Der/njems  verb2verb derivation
 
-* +Der/Oncjeкудонцесь old orth кудонцесь
+* +Der/Oncje old orth кудонцесь
 
 * +Der/Dimin 
-* +Der/kadiminutive  diminutive
-* +Der/NJEкудыне  This is used in ошке, калнэ and кудыне
-* +Der/nJEdiminutive  diminutive
-* +Der/Ynjediminutive  diminutive
-* +Der/Ynjkadiminutive  diminutive
-* +Der/Ynjkinjediminutive  diminutive
-* +Der/ke--ке--  diminutive in --ке--
-* +Der/kinjediminutive  diminutive
-* +Der/ksAdv›N Adv›N
+* +Der/ka  diminutive
+* +Der/NJE  This is used in ошке, калнэ and кудыне
+* +Der/nJE  diminutive
+* +Der/Ynje  diminutive
+* +Der/Ynjka  diminutive
+* +Der/Ynjkinje  diminutive
+* +Der/ke  diminutive in --ке--
+* +Der/kinje  diminutive
+* +Der/ks Adv›N
 
-* +OLang/SMESámi - North Sámi
-* +OLang/SMJSámi - Lule Sámi
-* +OLang/SMASámi - South Sámi
-* +OLang/FINFinnish - Finnish
-* +OLang/SWESwedish - Swedish
-* +OLang/NOBbokmål - Norw. bokmål
-* +OLang/NNOnynorsk - Norw. nynorsk
-* +OLang/ENGEnglish - English
-* +OLang/MYVErzya - Erzya
-* +OLang/MDFMoksha - Moksha
-* +OLang/RUSRussian - Russian
-* +OLang/TATTatar - Tatar
-* +OLang/UNDUndefined - Undefined
+* +OLang/SME - North Sámi
+* +OLang/SMJ - Lule Sámi
+* +OLang/SMA - South Sámi
+* +OLang/FIN - Finnish
+* +OLang/SWE - Swedish
+* +OLang/NOB - Norw. bokmål
+* +OLang/NNO - Norw. nynorsk
+* +OLang/ENG - English
+* +OLang/MYV - Erzya
+* +OLang/MDF - Moksha
+* +OLang/RUS - Russian
+* +OLang/TAT - Tatar
+* +OLang/UND - Undefined
 
-* +FForeign - Foreign
+* +F - Foreign
 
 # Morphophonology
 
@@ -1723,44 +1723,44 @@ symbols in the lexicon files:
 
 
 And following triggers to control variation
- *  %{frontHard%}    — front harmony hard
- *  %{frontSoft%}    — front harmony soft
- *  %{back%}    — back harmony
- *  %{backHard%}    — back harmony
- *  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
+*  %{frontHard%}    — front harmony hard
+*  %{frontSoft%}    — front harmony soft
+*  %{back%}    — back harmony
+*  %{backHard%}    — back harmony
+*  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
 
 
-* Е3тнэ testing тне тнэ
+* Е3 testing тне тнэ
 
 
 ## Special letters in the root	  that might be useful in	dialect	research and etymology later
- * Ь3   арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
- * Ӓ3   эрямс:Ӓ3ря
- * Ӓ4   пелемс:пӒ4ль
+* Ь3   арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
+* Ӓ3   эрямс:Ӓ3ря
+* Ӓ4   пелемс:пӒ4ль
 
- * %^Ь2ZERO   removes stem-final soft sign
-
-
+* %^Ь2ZERO   removes stem-final soft sign
 
 
 
-* %{ое%}аволинь inflectional suffix protovowel  аволь аволинь
-* %{оеэØ%}archiphoneme Suffix-initial archiphoneme
-* %{уиыØ%}dialect Suffix-initial archiphoneme in dialect
+
+
+* %{ое%} inflectional suffix protovowel  аволь аволинь
+* %{оеэØ%} Suffix-initial archiphoneme
+* %{уиыØ%} Suffix-initial archiphoneme in dialect
 
 вт%{оеэ%}мО1 suffix-internal archivowel
-* %{оэØ%}s inessive, elative; this is the hard/broad s
-* %{ОØ%}панго Stem-final archiphoneme панго
-* %{ЕØ%}тинге Stem-final archiphoneme тинге
+* %{оэØ%} inessive, elative; this is the hard/broad s
+* %{ОØ%} Stem-final archiphoneme панго
+* %{ЕØ%} Stem-final archiphoneme тинге
 
- * %^NoLinkVow  — No linking vowel is used only after consonants for error
+* %^NoLinkVow  — No linking vowel is used only after consonants for error
 
 
 
 
 
 # MISC
-* +Cmp/Hyphcompounding A tag to indicate that a hyphen was used when compounding
+* +Cmp/Hyph A tag to indicate that a hyphen was used when compounding
 
 
 Development tag
@@ -1779,77 +1779,77 @@ Development tag
 * +Dig2 
 * +Dig3 
 * +Dig4 
-* +Romnumerals Roman numerals
+* +Rom Roman numerals
 
 Compounding
-* +Cmpcompound. Dynamic compound - this tag should always be part of a dynamic compound.
+* +Cmp Dynamic compound - this tag should always be part of a dynamic compound.
 It is important for Apertium, and useful in other cases as well.
-* +Cmp/Hyph-Collnouns with nouns
-* +Cmp/Hyph-Redupverbs with verbs
-* +Cmp/Hyph-Synonymverbs with verbs
-* +Cmp/Hyph-Serialverbs with verbs
-* +Cmp/Hyph-tejemsverbs with verbs
+* +Cmp/Hyph-Coll with nouns
+* +Cmp/Hyph-Redup with verbs
+* +Cmp/Hyph-Synonym with verbs
+* +Cmp/Hyph-Serial with verbs
+* +Cmp/Hyph-tejems with verbs
 
 
 ## Tags
 * +Emphatic 
 * +Gr2xxx 
-* +PrefPrefix Prefix
-* +Exclusiveonly "ансяк" only
+* +Pref Prefix
+* +Exclusive "ансяк" only
 * +Intensive 
-* +Intensifierуш уш
+* +Intensifier уш
 
 
-* +Onomwords onomapoetic words
-* +Descrwords descriptive words
+* +Onom onomapoetic words
+* +Descr descriptive words
 ## Different focus particles
 Focus clitics
-* +Clt/Addclitic Only one additive clitic
+* +Clt/Add Only one additive clitic
 * +Clt/AddGak 
 
 
 ## Imperative clitics
-* +Clt/Ga+Prec редяка Precative +Prec
-* +Clt/Gajaредякая редякая
-* +Clt/Gajatjредякаять редякаять
-* +Clt/Gajatjaредякаятя редякаятя
-* +Clt/Gatjaредякатя редякатя
-* +Clt/Gakareal? редякака ARE these real?
-* +Clt/Gakajareal? редякакая ARE these real?
-* +Pred2Examples: secondary predicate. Examples:
+* +Clt/Ga редяка Precative +Prec
+* +Clt/Gaja редякая
+* +Clt/Gajatj редякаять
+* +Clt/Gajatja редякаятя
+* +Clt/Gatja редякатя
+* +Clt/Gaka редякака ARE these real?
+* +Clt/Gakaja редякакая ARE these real?
+* +Pred2 secondary predicate. Examples:
 "Joe came in **with his hat on**."
 "Joe came in **Joe had his hat on**."
 
 ### Tags distinguishing different versions of the same lemma (before POS)
-* +v1@CODE@
-* +v2@CODE@
-* +v3@CODE@
-* +v4@CODE@
-* +v5@CODE@
-* +v6@CODE@
-* +v7@CODE@
-* +v8@CODE@
-* +v9@CODE@
-* +v10@CODE@
-* +v11@CODE@
-* +v12@CODE@
-* +v13@CODE@
-* +v14@CODE@
-* +v15@CODE@
-* +v16@CODE@
-* +v17@CODE@
-* +v18@CODE@
-* +v19@CODE@
-* +v20@CODE@
-* +v21@CODE@
-* +v22@CODE@
-* +v23@CODE@
-* +v24@CODE@
+* +v1
+* +v2
+* +v3
+* +v4
+* +v5
+* +v6
+* +v7
+* +v8
+* +v9
+* +v10
+* +v11
+* +v12
+* +v13
+* +v14
+* +v15
+* +v16
+* +v17
+* +v18
+* +v19
+* +v20
+* +v21
+* +v22
+* +v23
+* +v24
 
 
-* +ACC +DAT +COMmorpheme This marks a function not a morpheme
+* +ACC +DAT +COM This marks a function not a morpheme
 
-* +NoPosscases, used with personal pronouns in oblique cases,
+* +NoPoss used with personal pronouns in oblique cases,
 where a possessor index is expected
 
 ### Symbols that need to be escaped on the lower side (towards twolc):
@@ -1864,29 +1864,29 @@ where a possessor index is expected
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
-|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
 handled automatically if combined with +CmpN/xxx tags. If not used, they will
 do no harm.
-|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
-|  @D.CmpLast.TRUE@R | Block such words from entering R
-|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 these flags. There exists a ready-made regex that will do the actual down-casing
 given the proper use of these flags.
-|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 Flags used to identify parts of speech
 * @P.POS.PRON@ 
@@ -1915,7 +1915,7 @@ Flags used with serial verbs
 * @U.CONJ-TX.PRT2@ 
 
 * @U.CONJ-MX.IND@ 
-* @D.CONJ-MX.IND@--N--  2012-11-04 should this be --D-- or --N--
+* @D.CONJ-MX.IND@  2012-11-04 should this be --D-- or --N--
 * @U.CONJ-MX.IMP@ 
 * @U.CONJ-MX.OPT@ 
 * @U.CONJ-MX.PREC@ 
@@ -2115,12 +2115,12 @@ Linking vowel for use with Translative
 
 # FLAGS USED WITH COLLECTIVE NOUNS
 ## number
-* @U.DECL-NX.SG@@CODE@
-* @U.DECL-NX.SP@@CODE@
-* @U.DECL-NX.PL@@CODE@
-* @R.DECL-NX.SG@@CODE@
-* @R.DECL-NX.SP@@CODE@
-* @R.DECL-NX.PL@@CODE@
+* @U.DECL-NX.SG@
+* @U.DECL-NX.SP@
+* @U.DECL-NX.PL@
+* @R.DECL-NX.SG@
+* @R.DECL-NX.SP@
+* @R.DECL-NX.PL@
 ## case
 * @U.DECL-CX.NOM@ 
 * @U.DECL-CX.ACC@ 
@@ -2160,8 +2160,8 @@ Here follow all contlexes, appr 20.
 
 
 
-* Hyphenated-nouns ;nouns entire serial nouns
-* Hyphenated-verbs ;verbs entire serial verbs
+* Hyphenated-nouns ; entire serial nouns
+* Hyphenated-verbs ; entire serial verbs
 
 
 
@@ -2481,11 +2481,11 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
- * LEXICON N_KEL1  кель:кель %^Ь2ZERO
+* LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
- * LEXICON N_PEJ  кель:кель %^Ь2ZERO
+* LEXICON N_PEJ  кель:кель %^Ь2ZERO
 
- * LEXICON N_SODYJ  сода%>%{иы%}й, содый
+* LEXICON N_SODYJ  сода%>%{иы%}й, содый
 
 
 
@@ -2543,11 +2543,9 @@ Does this need a diminutive?
 
 NMN
 
- * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
+* LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
 
- * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
-
-
+* LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
 
 
 
@@ -2565,10 +2563,12 @@ NMN
 
 
 
- * ** TMP-INDEF ; ** Check this
 
 
- * **LEXICON NMN_KUDO-PL ** This needs checking 2013-03-27
+* ** TMP-INDEF ; ** Check this
+
+
+* **LEXICON NMN_KUDO-PL ** This needs checking 2013-03-27
 
 harmony: front
 
@@ -2585,59 +2585,22 @@ DERIVATION
 
 
 
- * **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
 
- * **+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-
-
-
-
-
-
-
- * **+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
- * **+Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ine+Def:%>сэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Prl+Def:%>га%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Cmpr+Def:%^Ь2ZERO%>ешка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Abe+Def:%>теме%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>стэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>сэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>га%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%^Ь2ZERO%>ешка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-
-
- * **+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-
-
- * **+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
- * **+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
 
 
@@ -2645,7 +2608,44 @@ DERIVATION
 
 
 
- * **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def:%>сэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Prl+Def:%>га%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Cmpr+Def:%^Ь2ZERO%>ешка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Abe+Def:%>теме%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>стэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>сэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>га%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%^Ь2ZERO%>ешка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+
+
+* **+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+
+
+* **+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+
+
+
+
+
+
+* **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
 
 
@@ -2776,7 +2776,7 @@ SG-NOM-INDEF_OSH ;
 
 
 
- * ** TMP-INDEF ; ** Check this
+* ** TMP-INDEF ; ** Check this
 
 
 ## INDEFINITE TAGS
@@ -3269,10 +3269,10 @@ nouns.
 
 
 
- +Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
++Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
 
 
- +Interr+Sem/Obj: CLT/COP_SG ;  singular
++Interr+Sem/Obj: CLT/COP_SG ;  singular
 
 
 
@@ -3399,7 +3399,7 @@ PronRel-kona
 
 What should be done 
 
- LEXICON PRON-IS-INTERR-SPAT-INE  косо 
+LEXICON PRON-IS-INTERR-SPAT-INE  косо 
 
 
 What should be done 
@@ -3658,48 +3658,48 @@ OBJECT FLAGS AND +V+TV tags
 
 
 
- **LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
+**LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
 
 
 
 
- **LEXICON TV_KADOMS ** 
+**LEXICON TV_KADOMS ** 
 
 
 
 
- **LEXICON TV_NEVTEMS_SUB ** 
+**LEXICON TV_NEVTEMS_SUB ** 
 
-* _LEXICON TV_NEVTEMSневтемс:невть_  невтемс:невть
+* _LEXICON TV_NEVTEMS_  невтемс:невть
 
- **LEXICON TV_SAVTOMS_SUB ** 
+**LEXICON TV_SAVTOMS_SUB ** 
 
- **LEXICON TV_SAVTOMS ** 
+**LEXICON TV_SAVTOMS ** 
 
- **LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO ** 
+**LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO ** 
 
- **LEXICON TV_CHACHTOMS ** 
-
-
- **LEXICON TV_KUNDAMS_SUB ** 
-
- **LEXICON TV_KUNDAMS ** 
+**LEXICON TV_CHACHTOMS ** 
 
 
+**LEXICON TV_KUNDAMS_SUB ** 
+
+**LEXICON TV_KUNDAMS ** 
 
 
 
- **LEXICON TV_SATOMS ** 
+
+
+**LEXICON TV_SATOMS ** 
 
 
 
- **LEXICON TV_TUEMS ** 
+**LEXICON TV_TUEMS ** 
 
- **LEXICON TV_TEEMS ** 
+**LEXICON TV_TEEMS ** 
 
 
 
-* _LEXICON TV_NEKSHNEMSнекшнемс:некшн_  некшнемс:некшн
+* _LEXICON TV_NEKSHNEMS_  некшнемс:некшн
 
 
 VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
@@ -3867,8 +3867,8 @@ no deverbals
 
 
 
-**LEXICON TV_NEKSHNEMSнекшнемс:некшн** Alternates with TRA
-**LEXICON TV_NEKSHNEMSнекшнемс:некшн** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
 
 
 
@@ -4400,18 +4400,18 @@ The Erzya language adjectives do not compare.
 
 
 
- LEXICON ADV-SPAT_  пачк
+LEXICON ADV-SPAT_  пачк
 
 
 
 
- LEXICON ADV-SPAT-IS-PRL  перька
+LEXICON ADV-SPAT-IS-PRL  перька
 
- LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
+LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
 
 
 
- LEXICON ADV-SPAT_ALO  ало:ал
+LEXICON ADV-SPAT_ALO  ало:ал
 
 
 
@@ -4588,9 +4588,9 @@ postposition that is in prolative case
 перька:перька
 
 
- +Temp: K ;  перть
++Temp: K ;  перть
 
- +Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
++Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
 
 
 
@@ -4779,11 +4779,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 
 ## Special letters in the root that might be useful in dialect research and etymology later
- * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
- * **Ӓ3:э  ** эрямс:Ӓ3ря 
- * **Ӓ4:е  ** пелемс:пӒ4ль
+* **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
+* **Ӓ3:э  ** эрямс:Ӓ3ря 
+* **Ӓ4:е  ** пелемс:пӒ4ль
 
- * **%^Ь2ZERO:0  ** removes stem-final soft sign
+* **%^Ь2ZERO:0  ** removes stem-final soft sign
 
 
 
@@ -4797,9 +4797,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 вт%{оеэ%}мО1
 
 
-* _%{ОØ%}:0панго_ Stem-final archiphoneme панго
-* _%{ЕØ%}:ьтинге_ Stem-final archiphoneme тинге
-* _%{ЕØ%}:0тинге_ Stem-final archiphoneme тинге
+* _%{ОØ%}:0_ Stem-final archiphoneme панго
+* _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
+* _%{ЕØ%}:0_ Stem-final archiphoneme тинге
 
 
 
@@ -4816,18 +4816,18 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 
 
-  %{frontHard%}:0    — front harmony hard
-  %{frontSoft%}:0    — front harmony soft
-  %{back%}:0    — back harmony
-  %{backHard%}:0    — back harmony
- *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
+ %{frontHard%}:0    — front harmony hard
+ %{frontSoft%}:0    — front harmony soft
+ %{back%}:0    — back harmony
+ %{backHard%}:0    — back harmony
+*  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 
 
 
 
 
 
- %^NoLinkVow:0  — No linking vowel is used only after consonants for error
+%^NoLinkVow:0  — No linking vowel is used only after consonants for error
 
 
 
@@ -5345,7 +5345,7 @@ This has special hard after lost consonant
 1930s Phonetic transcription
 дс >> ц
 гт >> к
- мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
+мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
 
 
 ### ADPOSITIONS
@@ -5359,7 +5359,7 @@ are dealt with as adverbs
 ### PRONOUNS
 
 ### QUANTIFIERS
- сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
+сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
 
 
 
@@ -5476,12 +5476,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *

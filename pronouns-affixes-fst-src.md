@@ -14,10 +14,10 @@ nouns.
 
 
 
- +Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
++Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
 
 
- +Interr+Sem/Obj: CLT/COP_SG ;  singular
++Interr+Sem/Obj: CLT/COP_SG ;  singular
 
 
 
@@ -144,7 +144,7 @@ PronRel-kona
 
 What should be done 
 
- LEXICON PRON-IS-INTERR-SPAT-INE  косо 
+LEXICON PRON-IS-INTERR-SPAT-INE  косо 
 
 
 What should be done 
