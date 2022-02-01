@@ -166,7 +166,7 @@ LEXICON PRON-PERS-SG3 !! сон:со
 !@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@:@P.PossPx.Sg3@@P.TNUM.SG@@P.TPERS.3@ Pers_Pronouns1 ;
 
 LEXICON GEN-PERS-PRON-MWN_OR_PRED_OR_K
-+Der/MWN: _KUDO-N2-Def-Declension ;
++Der/MWN+Pron: _KUDO-N2-Def-Declension ;
  OBL-WITH-COP_KAL ;
 
 LEXICON PRON-PERS-PL1 !! минь:
@@ -268,26 +268,40 @@ LEXICON PERS
 сонсь+Pron+Refl+Sg3+Dat+Short:эстензэ K ;
 сонсь+Pron+Refl+Pl3+Dat+Short:эстест K ;
 
+монсь+Pron+Refl+Sg1+Abl+Long:монстедень K ;
+монсь+Pron+Refl+Pl1+Abl+Long:минстеденек K ;
+тонсь+Pron+Refl+Sg2+Abl+Long:тонстедеть K ;
+тонсь+Pron+Refl+Pl2+Abl+Long:тынстеденк K ;
+сонсь+Pron+Refl+Sg3+Abl+Long:сонстедензэ K ;
+сонсь+Pron+Refl+Pl3+Abl+Long:сынстедест K ;
+
+монсь+Pron+Refl+Sg1+Abl+Short:эстедень K ;
+монсь+Pron+Refl+Pl1+Abl+Short:эстеденек K ;
+тонсь+Pron+Refl+Sg2+Abl+Short:эстедеть K ;
+тонсь+Pron+Refl+Pl2+Abl+Short:эстеденк K ;
+сонсь+Pron+Refl+Sg3+Abl+Short:эстедензэ K ;
+сонсь+Pron+Refl+Pl3+Abl+Short:эстедест K ;
+
 монсь+Pron+Refl+Sg1+Gen+Long:монсень GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-монсь+Pron+Refl+Pl1+Gen+Long:минсенек GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Refl+Sg2+Gen+Long:тонсеть GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Refl+Pl2+Gen+Long:тынсенк GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Refl+Sg3+Gen+Long:сонсензэ GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Refl+Pl3+Gen+Long:сынсест GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Refl+Pl1+Gen+Long:минсенек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Refl+Sg2+Gen+Long:тонсеть 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Refl+Pl2+Gen+Long:тынсенк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Refl+Sg3+Gen+Long:сонсензэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Refl+Pl3+Gen+Long:сынсест 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 
 монсь+Pron+Refl+Sg1+Gen+Short:эсень GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-монсь+Pron+Refl+Pl1+Gen+Short:эсенек GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Refl+Sg2+Gen+Short:эсеть GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Refl+Pl2+Gen+Short:эсенк GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Refl+Sg3+Gen+Short:эсензэ GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Refl+Pl3+Gen+Short:эсест GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Refl+Pl1+Gen+Short:эсенек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Refl+Sg2+Gen+Short:эсеть 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Refl+Pl2+Gen+Short:эсенк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Refl+Sg3+Gen+Short:эсензэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Refl+Pl3+Gen+Short:эсест 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 
 монсь+Pron+Use/NG+Dial+Refl+Sg1+Gen+Short:эсинь GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-монсь+Pron+Use/NG+Dial+Refl+Pl1+Gen+Short:эсинек GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Use/NG+Dial+Refl+Sg2+Gen+Short:эсить GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Use/NG+Dial+Refl+Pl2+Gen+Short:эсинк GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Use/NG+Dial+Refl+Sg3+Gen+Short:эсинзэ GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Use/NG+Dial+Refl+Pl3+Gen+Short:эсист GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Use/NG+Dial+Refl+Pl1+Gen+Short:эсинек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Use/NG+Dial+Refl+Sg2+Gen+Short:эсить 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Use/NG+Dial+Refl+Pl2+Gen+Short:эсинк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Use/NG+Dial+Refl+Sg3+Gen+Short:эсинзэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Use/NG+Dial+Refl+Pl3+Gen+Short:эсист 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 
 монсь+Pron+Refl+Sg1+Nom:монсь K ;
 монсь+Pron+Refl+Pl1+Nom:минсь K ;
@@ -488,6 +502,9 @@ LEXICON PERS
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}ньсе _KUDO-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Der+Der/MWN+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@ьсе _KUDO-PersPronGen_CX-1A ;
 
+LEXICON 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT
+ GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
++Der/MWN+Pron: NMN_DEF-PL-DECLENSION ;
 LEXICON GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT
  K ;
  GEN-FORM-REFL-PRON_MWN-CONTINUATION ;

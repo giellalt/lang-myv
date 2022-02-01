@@ -406,6 +406,11 @@ LEXICON N_KIT-PL
 @P.POS.N@:@P.POS.N@ _KIT-Indef-Declension ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
+LEXICON N_ART
+@P.POS.N@:@P.POS.N@ NMN_ART ;
+@P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+
 LEXICON N_GAJT1
 @P.POS.N@:@P.POS.N@ NMN_GAJT1 ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -646,6 +651,13 @@ LEXICON NMN_JORK !Back with hard Cons before neutral Cons
  N_KAL-Poss-Declension-CX ;
 
 LEXICON NMN_KIT
+ N_KUDO-Derivation ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+ N_KIT-Def-Declension ;
+ _KIT-Indef-Declension ;
+ N_KAL-Poss-Declension-CX ;
+
+LEXICON NMN_ART
  N_KUDO-Derivation ;
 !2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
  N_KIT-Def-Declension ;
