@@ -446,6 +446,7 @@ DerTag
 
 
 
+
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-myv/blob/main/../src/cg3/disambiguator.cg3)</small>
 
@@ -1709,8 +1710,9 @@ Other verb forms are
 ## The Usage extents are marked using following tags:
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
-* +Err/Orth-no-linking-vowel linking vowel is missing
-* +Err/Orth-high-linking-vowel linking vowel is high
+* +Err/Orth-no-linking-vowel * linking vowel is missing
+* +Err/Orth-high-linking-vowel * linking vowel is high
+* +Err/Orth-f * not v but instead f
 
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller
@@ -3756,6 +3758,7 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
+
 кардаз:карда
 
 
@@ -3790,6 +3793,7 @@ NMN
 * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
+
 
 
 
@@ -4221,6 +4225,8 @@ nouns.
 тынь:ты
 
 сынь:сы
+
+
 
 
 

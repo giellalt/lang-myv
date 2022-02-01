@@ -116,6 +116,7 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 
 
+
 кардаз:карда
 
 
@@ -150,6 +151,7 @@ NMN
 * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
+
 
 
 

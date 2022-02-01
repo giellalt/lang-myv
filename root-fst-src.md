@@ -224,8 +224,9 @@ Other verb forms are
 ## The Usage extents are marked using following tags:
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
-* +Err/Orth-no-linking-vowel linking vowel is missing
-* +Err/Orth-high-linking-vowel linking vowel is high
+* +Err/Orth-no-linking-vowel * linking vowel is missing
+* +Err/Orth-high-linking-vowel * linking vowel is high
+* +Err/Orth-f * not v but instead f
 
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller
