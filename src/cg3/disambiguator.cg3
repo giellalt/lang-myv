@@ -202,7 +202,8 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 
-SET AdjObl = A - (A Sg Nom Indef);
+
+SET AdjObl = A - (A Sg Nom Indef) - (A Pl Nom Indef) ;
 
 # Erzya has implicit comparison, i.e. with relation to Joe, Sue is tall.
 LIST Comp = Comp ;
@@ -442,6 +443,9 @@ LIST WORDLEMMA = (".*"r) ;
 LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
 LIST Lower = "<[а-яё]+>"r ;
 
+LIST VInVOms = "<[а-яё]+в[ео]мс>"r ;
+LIST VNoGenObj = Der/OvOms VInVOms ;
+
 # ========
   SETS
 # ========
@@ -669,6 +673,9 @@ LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
 
 LIST KINTERM = "ава" "тетя" ;
 
+LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "удалга" "удалдо" "удало" "удалов" ;
+
+
 LIST ADJTAKESMAMOABL = "бойка" ;
 LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "указания" "чумо" "эпизод" ; #пленс понгомадо мельтне
 LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявомс" "олякстомтомс" "пелемс" "пешкедемс" "покордавомс" "ракамс" "рангомс" "сыргоземс" "таргоземс";
@@ -691,7 +698,7 @@ LIST EZJ = "а" ;
 # --------------
 
 
-LIST OBLNMN = Abe Abl Cau Com Cmpr Dat Gen Lat Loc Prl Temp Tra ;
+LIST OBLNMN = Abe Abl Cau Com Cmpr Dat Ela Gen Ine Ill Lat Loc Prl Temp Tra ;
 
 LIST NMNNB = Sg Pl SP ;
 
@@ -760,6 +767,7 @@ REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
 
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
 
+# Сельмечирькензэ сонзэ крутат, раужот
 REMOVE:NoAdjOblIfN AdjObl IF (0 N) ;
 
 
@@ -795,6 +803,11 @@ REMOVE:NumIter Num + Iter IF (0 Adv + Iter) ;
 REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS)
        	      	       	       (NOT 1* PL-SUBJ BARRIER EOS)
 			       (NOT 1 Der/Ozj + Ger);
+
+# OvOms 2022-02-02 VNoGenObj
+#Яковонь шкань шкань кальцькаевсть пеензэ
+REMOVE:NoGenIfOnlySubjPossible Gen IF (NOT -2* PL-SUBJ BARRIER BOS) (-1 VNoGenObj + ScPl3) (0 PL-SUBJ) (NOT 1* PL-SUBJ BARRIER EOS) ;
+
 # 
 #REMOVE Der/ОвОмс (0C V) ;
 REMOVE Der/OvOms (0C V) ;
@@ -933,6 +946,7 @@ REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
 REMOVE:NoIndefNomSgNIfNextOblN N IF (0 A + Sg + Nom + Indef) (1 OBLNMN) ; # Too powerful? 2020-03-31
 #REMOVE N IF (0 A + Sg + Nom + Indef) (1 N) ; # Too powerful? 2020-03-31
 
+
 # verb finite form
 #кискатне аштить ташто кудосо.
 #ташто кудосонть аштить кискатне.
@@ -974,6 +988,9 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # Verbs
 # Кудонть потс кадовсть ансяк
 REMOVE Der/OvOms IF (0 V + IV) ;
+
+# чачома тешкс
+REMOVE:NoObligIfNomActAbsAndNextN Oblig IF (0 (NomAct N Sg Nom Indef)) (1 N) ; # too powerful? 2022-02-02
 
 # улить
 REMOVE Prt1 IF (0 ULEMS) ; 
@@ -1143,6 +1160,10 @@ REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 
 
 ## Adpositions
+
+# Px... Only Gen when followed by Adp or N Relator
+#PXPERSON
+REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 POSTP) ;
 
 # кедьсэнь
 REMOVE:PoIfAdp Po IF (0 Adp) ;
