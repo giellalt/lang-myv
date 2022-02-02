@@ -28,10 +28,12 @@ LEXICON DET-DEM_ALCE
 : NMN_KUDO ;
 
 LEXICON A_RU-OJ
-+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
++Use/SpellNoSugg: A_PEJ ;
+!+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
 
 LEXICON A_RU-EJ
-+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
++Use/SpellNoSugg: A_PEJ ;
+!+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
 
 !LEXICON A_INT-EJ
 !+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
@@ -248,13 +250,13 @@ LEXICON DET-ADN
 +Adn: ENDLEX ;
 
 LEXICON ActDemPrc-A
-+Der+Der/Ycja+Act+DemPrc: K ;
+!+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
 +Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
 !+Der+Der/Ycja+Act+DemPrc:%>%{иы%}ця K ;
 !+Der+Der/Ycja+Act+DemPrc:%>%{иы%}ця NMN_KUDO ;
 
 LEXICON A-IS-DEMPRC
-+Der+Der/Ycja+Act+DemPrc: K ;
+!+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
 +Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
 
 

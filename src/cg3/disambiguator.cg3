@@ -202,6 +202,8 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 
+SET AdjObl = A - (A Sg Nom Indef);
+
 # Erzya has implicit comparison, i.e. with relation to Joe, Sue is tall.
 LIST Comp = Comp ;
 LIST Superl = Superl ;
@@ -292,6 +294,7 @@ LIST Der/PassL = Der/PassL ;
 LIST Der/NomAg = Der/NomAg ;
 LIST Der/NomAct = Der/NomAct ;
 LIST Der/Ozj = Der/Ozj ;
+LIST Der/stO = Der/stO Der/стО ;
 LIST Actor = NomAg Der/NomAg ;
 LIST VAbess = VAbess ;
 LIST ActPrcShort = ActPrcShort ;
@@ -305,10 +308,9 @@ LIST Der/кай = Der/кай ;
 LIST Der/Y = Der/Y ;
 LIST Der/Yj = Der/Yj ;
 LIST Der/Ycja = Der/Ycja ;
-LIST Der/стО = Der/стО ;
 LIST Der/OvOms = Der/OvOms ; #Der/ОвОмс 
-LIST Der/OvtOms = Der/OvtOms ; #Der/ОвтОмс
-LIST Der/ОвтОмс = Der/ОвтОмс ;
+LIST Der/OvtOms = Der/OvtOms Der/ОвтОмс ; #Der/ОвтОмс
+LIST Der/OkshnOms = Der/OkshnOms ;
 LIST Der/Cond = Der/Cond ;
 LIST Der/Dimin = Der/Dimin ;
 
@@ -750,10 +752,16 @@ REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ;
 
 #ЛЕНИН
 REMOVE:NoAcrIfProp ACR IF (0 N + Prop) ;
+#кеж КЕЖ
+REMOVE:NoAcrIfN ACR IF (0 N) ;
+
 
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
 
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
+
+REMOVE:NoAdjOblIfN AdjObl IF (0 N) ;
+
 
 # иляка ветя
 REMOVE:LeaveImpOrPrecNeg ("илямс") IF (0 Aux + Neg) (1 ConNeg) ;
@@ -769,6 +777,9 @@ REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
 # short participles should be written with the following noun? new orthographic practice 1993
 #REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
 REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
+
+# кайсевкшнить
+REMOVE:NoDerOkshnOmsIfReady Der/OkshnOms IF (0C V) ;
 
 # псакась совась кудос
 # this may be too powerful
@@ -790,6 +801,8 @@ REMOVE Der/OvOms (0C V) ;
 
 # кортавтома
 REMOVE Der/OvtOms (0C V) ;
+# невтемстэ
+#REMOVE Der/OvtOms IF (0 V + TV) ;
 
 
 # Pair disambiguation
@@ -900,6 +913,10 @@ SELECT:DegIfNextAdv Deg IF (0 ("пек")) (1 (A) OR (Adv)) ;
 # сынь пек вечкить налксемс
 REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ;
 
+# instead of Der/stO Adv
+# мазыйстэ
+REMOVE:NoDerAdvIfAdv (Der/stO Adv) IF (0 Adv) ;
+REMOVE:NoAdjElaIfAdv (A SP Ela Indef) IF (0 Adv) ;
 
 # весемеде мазый
 REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
@@ -990,8 +1007,6 @@ REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
 # содан = V not N for 1st and 2nd person
 REMOVE:NotNIfVSc1Sc2 NONCOUNT (0 V) (0 SCPERSON12) ;
 
-# невтемстэ
-REMOVE Der/ОвтОмс IF (0 V + TV) ;
 
 # озась ярсамо
 #SELECT Inf + Loc IF ((-1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN) OR (1 VERBWITHMO + VFIN OR VERBWITHMODS + VFIN));
@@ -1011,6 +1026,8 @@ REMOVE:NoTVIfCauseInfLoc TV IF (0 VERBWITHMO) ((-1*  Inf + Loc BARRIER BOS) OR (
 #молить V TV Der/Y Der/NomAg N Pl Gen PxSg2
 REMOVE Der/Y + Der/NomAg IF (0 PXPERSON) ;
 
+# пелезь ванкшнось
+REMOVE:NoNonGerIfNextVFin (Ger Sg Nom Indef) IF (0 Ger) (1 VFIN) ;
 
 #Der/MWN N Sg Gen Def
 REMOVE:mwnSgGenDef Der/MWN + N + Sg + Gen + Def IF (0 N + Sg + Ela + Def) ;
@@ -1042,8 +1059,6 @@ SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef
 #SELECT Pcle + Neg (1 Prs OR Prt2) ;
 SELECT V + Aux + Neg (1 Prs OR Prt2 OR Conj OR Des) ;
 
-# мазыйстэ
-REMOVE Der/стО IF (0 Adv) ;
 
 #Микол ульнесь
 REMOVE Clt/Cop (1 VFIN) ;
