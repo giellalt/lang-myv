@@ -311,6 +311,7 @@ LIST Der/Yj = Der/Yj ;
 LIST Der/Ycja = Der/Ycja ;
 LIST Der/OvOms = Der/OvOms ; #Der/ОвОмс 
 LIST Der/OvtOms = Der/OvtOms Der/ОвтОмс ; #Der/ОвтОмс
+LIST Der/Ozevems = Der/Ozevems ;
 LIST Der/OkshnOms = Der/OkshnOms ;
 LIST Der/Cond = Der/Cond ;
 LIST Der/Dimin = Der/Dimin ;
@@ -319,7 +320,8 @@ LIST Der = Der ;
 LIST Der/MWN = Der/MWN (der subst) ;
 LIST Der/Dem = Der/Dem ;
 LIST Der/Pr = Der/Pr ;
-
+LIST Der/PatrMal = Der/PatrMal ;
+LIST Der/PatrFem = Der/PatrFem ;
 
 LIST Err/Orth = Err/Orth Err/Orth-no-linking-vowel ;
 
@@ -444,7 +446,7 @@ LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
 LIST Lower = "<[а-яё]+>"r ;
 
 LIST VInVOms = "<[а-яё]+в[ео]мс>"r ;
-LIST VNoGenObj = Der/OvOms VInVOms ;
+LIST VNoGenObj = Der/OvOms VInVOms "улемс" ;
 
 # ========
   SETS
@@ -673,8 +675,9 @@ LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
 
 LIST KINTERM = "ава" "тетя" ;
 
-LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "удалга" "удалдо" "удало" "удалов" ;
+LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
 
+SET ABSPOSTP = POSTP - PXPERSON ;
 
 LIST ADJTAKESMAMOABL = "бойка" ;
 LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "указания" "чумо" "эпизод" ; #пленс понгомадо мельтне
@@ -705,10 +708,15 @@ LIST NMNNB = Sg Pl SP ;
 # Sets
 # ====
 
-SET PL-SUBJ-INDEF = (Pl Nom Indef);
+SET PL-SUBJ-INDEF = (N Pl Nom Indef) OR (N Prop Pl Nom Indef) ;
 SET PL-SUBJ-DEF = (Pl Nom Def);
-SET PL-SUBJ-PX =  (Pl Nom PxSg1) OR (Pl Nom PxSg2) OR (Pl Nom PxSg3) OR (Pl Nom PxPl1) OR (Pl Nom PxPl2) OR (Pl Nom PxSg3) ; # forms that can be subject with possessive marking
+SET PL-SUBJ-PX =  (Pl Nom PxSg1) OR (Pl Nom PxSg2) OR (Pl Nom PxSg3) OR (Pl Nom PxPl1) OR (Pl Nom PxPl2) OR (Pl Nom PxSg3) ; # forms that can be plural subject with possessive marking
 SET PL-SUBJ = PL-SUBJ-INDEF OR PL-SUBJ-DEF OR PL-SUBJ-PX ;
+
+SET SG-SUBJ-INDEF = (N Sg Nom Indef) OR (N Prop Sg Nom Indef) ;
+SET SG-SUBJ-DEF = (Sg Nom Def) ;
+SET SG-SUBJ-PX =  (Sg Nom PxSg1) OR (Sg Nom PxSg2) OR (Sg Nom PxSg3) OR (Sg Nom PxPl1) OR (Sg Nom PxPl2) OR (Sg Nom PxPl3) ; # forms that can be singular subject with possessive marking
+SET SG-SUBJ = SG-SUBJ-INDEF OR SG-SUBJ-DEF OR SG-SUBJ-PX ;
 
 
 #!! ### Derivation tags
@@ -800,13 +808,24 @@ REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 REMOVE:NumIter Num + Iter IF (0 Adv + Iter) ;
 
 #Сёлминензэ кадовсть панжадо.
-REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS)
+REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS OR CLB)
        	      	       	       (NOT 1* PL-SUBJ BARRIER EOS)
 			       (NOT 1 Der/Ozj + Ger);
 
-# OvOms 2022-02-02 VNoGenObj
+# OvOms 2022-02-02 VNoGenObj with plural
 #Яковонь шкань шкань кальцькаевсть пеензэ
-REMOVE:NoGenIfOnlySubjPossible Gen IF (NOT -2* PL-SUBJ BARRIER BOS) (-1 VNoGenObj + ScPl3) (0 PL-SUBJ) (NOT 1* PL-SUBJ BARRIER EOS) ;
+REMOVE:NoGenIfOnlySubjPossible Gen IF (NOT -2* PL-SUBJ BARRIER BOS) (-1 VNoGenObj + ScPl3) (0 PL-SUBJ-PX) (NOT 1* PL-SUBJ BARRIER EOS) ;
+
+#Сёлминенэ кадовсь панжадо.
+REMOVE Gen IF (NOT -1* SG-SUBJ BARRIER BOS) (0 SG-SUBJ-PX) (1* ScSg3 BARRIER EOS)
+       	      	       	       (NOT 1* SG-SUBJ BARRIER EOS)
+			       (NOT 1 Der/Ozj + Ger);
+
+# OvOms 2022-02-03 VNoGenObj with singular
+#*Тонь шкань-шкань кальцькаевсь пееть
+REMOVE:NoGenIfOnlySubjPossible Gen IF (NOT -2* SG-SUBJ BARRIER BOS OR CLB) (-1 VNoGenObj + ScSg3) (0 SG-SUBJ-PX) (NOT 1* SG-SUBJ BARRIER EOS OR CLB) ;
+
+REMOVE:NoPlIfOnlySgSubjPossible Pl IF (NOT -2* SG-SUBJ BARRIER BOS OR CLB) (-1 VNoGenObj + ScSg3) (0 SG-SUBJ-PX) (NOT 1* SG-SUBJ BARRIER EOS OR CLB) ;
 
 # 
 #REMOVE Der/ОвОмс (0C V) ;
@@ -892,6 +911,8 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 #Ды те истя улияк.
 
 ## Nouns
+# эсь мелест
+REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ABSPOSTP) ;
 
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
@@ -1152,6 +1173,10 @@ REMOVE:DetIfPronFollowingNotN Det IF (0 Pron) (NOT 1 N OR A ) ;
 
 ## Pronouns
 
+# cе, кинень
+#
+REMOVE:NoKiIfAnteceedSe ("ки") IF (-2 ("се")) (-1 (",")) (0 ("кие")) ;
+
 # те цецянть
 # REMOVE
 
@@ -1163,7 +1188,7 @@ REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 
 # Px... Only Gen when followed by Adp or N Relator
 #PXPERSON
-REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 POSTP) ;
+REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 ABSPOSTP) ;
 
 # кедьсэнь
 REMOVE:PoIfAdp Po IF (0 Adp) ;
