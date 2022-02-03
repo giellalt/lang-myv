@@ -576,6 +576,8 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/GenAttr +Der/Onj genitive attribute derivation of non-nouns
 * +Der/aj vocative
 * +Der/kaj vocative
+* +Der/PatrMal Male patronymic
+* +Der/PatrFem Female patronymic
 
 
 * +Der/Ovt * telic deverbal noun also attr
