@@ -26,5 +26,8 @@
 * [src-fst-affixes-nonverbalConjugation.lexc.md](src-fst-affixes-nonverbalConjugation.lexc.md)
 * [src-fst-affixes-symbols.lexc.md](src-fst-affixes-symbols.lexc.md)
 * [src-fst-root.lexc.md](src-fst-root.lexc.md)
+* [src-phonetics-txt2ipa.xfscript.md](src-phonetics-txt2ipa.xfscript.md)
 * [src-transcriptions-transcriptor-abbrevs2text.lexc.md](src-transcriptions-transcriptor-abbrevs2text.lexc.md)
 * [tools-grammarcheckers-grammarchecker.cg3.md](tools-grammarcheckers-grammarchecker.cg3.md)
+* [tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md](tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md)
+* [tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md](tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md)
