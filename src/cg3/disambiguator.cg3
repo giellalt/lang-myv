@@ -611,6 +611,7 @@ SET NOT-DEM = WORD - Dem ;
 LIST SGPRON = (Pron Sg1) (Pron Sg2) (Pron Sg3) (Pron Sg) (Pron PxSg1) (Pron PxSg2) (Pron PxSg3);
 LIST PLPRON = (Pron Pl1) (Pron Pl2) (Pron Pl3) (Pron Pl) (Pron PxPl1) (Pron PxPl2) (Pron PxPl3);
 
+LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
 
 
 LIST NUM = Sg Pl SP ;
@@ -621,11 +622,11 @@ LIST PXPERSON = PxSg1 PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ;
 
 LIST PXPERSONNOMGEN = PxSg1 PxSg2 PxPl1 PxPl2 PxPl3 ;
 
-LIST ADPWITHPX = (Adp CASE PXPERSON) ;
+LIST ADPWITHPX = (Adp CASE PXPERSON) (POSTP CASE PXPERSON) ;
 
 SET PXPERSONGEN = Gen + PXPERSON ;
 
-SET ADPNOPX = Adp - ADPWITHPX ;
+SET ADPNOPX = Adp - ADPWITHPX | POSTP - PXPERSON ;
 
 
 
@@ -675,9 +676,6 @@ LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
 
 LIST KINTERM = "ава" "тетя" ;
 
-LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
-
-SET ABSPOSTP = POSTP - PXPERSON ;
 
 LIST ADJTAKESMAMOABL = "бойка" ;
 LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "указания" "чумо" "эпизод" ; #пленс понгомадо мельтне
@@ -769,6 +767,10 @@ REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ;
 REMOVE:NoAcrIfProp ACR IF (0 N + Prop) ;
 #кеж КЕЖ
 REMOVE:NoAcrIfN ACR IF (0 N) ;
+
+#look-alikes
+# мель vs мельга
+SELECT ("мельга") IF (0 ("мель" N SP Prl) );
 
 
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
@@ -912,7 +914,7 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 
 ## Nouns
 # эсь мелест
-REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ABSPOSTP) ;
+REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
@@ -1188,10 +1190,10 @@ REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 
 # Px... Only Gen when followed by Adp or N Relator
 #PXPERSON
-REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 ABSPOSTP) ;
+REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 ADPNOPX) ;
 
 # кедьсэнь
-REMOVE:PoIfAdp Po IF (0 Adp) ;
+REMOVE:PoIfAdp Po IF (0C Adp) ;
 
 # тыньгак каршо а ультядо
 REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;

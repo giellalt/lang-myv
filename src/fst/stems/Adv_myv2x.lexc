@@ -4,7 +4,7 @@ LEXICON Adv_myv2x
 авапрясо+Adv:авапрясо Adv-Ine  "" ;
 авасов+v1+Adv:авасов ADV-IS-SPAT-LAT  "" ;
 авасов+v2+Adv:а% васов ADV-IS-SPAT-LAT  "" ;
-авасолдо+Adv:а% васолдо Spat_  "" ;
+авасолдо+Adv:а% васолдо ADV-IS-ABL  "" ;
 авасоло+v1+Adv:а% васол alo-Spat  "" ;
 авасоло+v2+Adv:авасол alo-Spat  "" ;
 авол-увол+Adv:авол-увол ADV-IDEOPH  "" ;
@@ -33,8 +33,8 @@ LEXICON Adv_myv2x
 беремасо+Adv:беремасо Adv-Ine  "" ;
 беряньстэ+Adv:беряньстэ ADV-MANNER_  "" ;
 бобылекс+Adv:бобылекс ADV_-TRA  "" ;
-бокас+Adv:бокас Spat_  "" ;
-бокасто+Adv:бокасто Spat_  "" ;
+бокас+Adv:бокас ADV-IS-SPAT-ILL  "" ;
+бокасто+Adv:бокасто ADV-IS-SPAT-ELA  "" ;
 бувала+Adv:бувала ADV-TEMP_  "" ;
 буряне+Adv:буряне ADV-TEMP_  "" ;
 вадрясто+Adv:вадрясто MANNER_-ELA  "hyvin" ;
@@ -57,7 +57,7 @@ LEXICON Adv_myv2x
 васня+Adv:васня ADV-TEMP_  "ensin" ;
 васняяк+Adv:васняяк ADV-ORD  "ensinnäkin" ;
 васолга+Adv:васолга ADV-IS-SPAT-PRL  "kaukaa" ;
-васолдо+Adv:васолдо Spat_  "kaukaa" ;
+васолдо+Adv:васолдо ADV-IS-ABL  "kaukaa" ;
 вачодо+Adv:вачодо PRED2-SUBJ_KUDO  "" ;
 веенькирда+v1+Adv:веень#кирда MULT_  "" ;
 веенькирда+v2+Adv+Use/NG+Err/Orth:веень% #кирда MULT_  "" ;
@@ -135,7 +135,7 @@ LEXICON Adv_myv2x
 икеле+Adv:икеле ADV-TEMP_  "" ;
 икелев+Adv:икелев ADV-IS-SPAT-LAT  "" ;
 икелепеле+Adv:икелепеле ADV-TEMP_  "" ;
-икельде+Adv:икельде Spat_  "" ;
+икельде+Adv:икельде ADV-IS-ABL  "" ;
 ингельде+Adv:ингельде ADV_  "" ;
 иредьстэ+v1+Adv:иредьстэ PRED2-SUBJ_KUDO  "" ;
 иредьстэ+v2+Adv:иретьстэ PRED2-SUBJ_KUDO_Sub  "" ;
@@ -235,8 +235,8 @@ LEXICON Adv_myv2x
 лосьсэ+Adv:лосьсэ ADV-IDEOPH-IS-INE  "" ;
 лыйк+Adv:лыйк ADV-IDEOPH  "" ;
 мазыйстэ+Adv:мазыйстэ ADV_  "" ;
-малас+Adv:малас Spat_  "lähelle" ;
-маласто+Adv:маласто Spat_  "" ;
+малас+Adv:малас ADV-IS-SPAT-ILL  "lähelle" ;
+маласто+Adv:маласто ADV-IS-SPAT-ELA  "" ;
 малацек+Adv:малацек ADV_  "" ;
 малацекс+Adv:малацекс ADV_  "" ;
 манейстэ+Adv:манейстэ ADV_  "" ;
@@ -251,7 +251,7 @@ LEXICON Adv_myv2x
 мейгенерть+Adv:мейгенерть MANNER_  "" ;
 мейлангт+Adv:мейлангт ADV_  "" ;
 мейле+Adv:мейле ADV-TEMP_KUDO  "sitten" ;
-мейс+Adv:мейс Spat_  "" ;
+мейс+Adv:мейс ADV-IS-SPAT-ILL  "" ;
 мекев+Adv:мекев ADV-IS-SPAT-LAT  "" ;
 мекев-васов+Adv:мекев-васов ADV-IS-SPAT-LAT  "" ;
 мекевлангт+Adv:мекевлангт ADV_  "" ;
@@ -276,7 +276,7 @@ LEXICON Adv_myv2x
 нурькинестэ+Adv:нурькинестэ ADV_  "" ;
 нусманясто+Adv:нусманясто ADV_  "" ;
 нучк+Adv:нучк ADV-IDEOPH  "" ;
-обедъёндо+Adv:обедъёндо Spat_  "" ;
+обедъёндо+Adv:обедъёндо ADV-IS-ABL  "" ;
 овсе+Adv:овсе ADV_  "aivan" ;
 овтокс+Adv:овтокс ADV_-TRA  "" ;
 одксчине+Adv:одксчине ADV-TEMP_IS-TEMP  "" ;
@@ -314,7 +314,7 @@ LEXICON Adv_myv2x
 пецерьсэ+Adv:пецерьсэ ADV-IDEOPH-IS-INE  "" ;
 пиземене+Adv:пиземене ADV-TEMP_  "" ;
 пикстерьсэ+Adv:пикстерьсэ ADV-IDEOPH-IS-INE  "" ;
-пильгало+Adv:пильг#ал ADV/PO/PRON-SPAT_ALO  "" ;
+кавалало+Adv:кавал#ал ADV/PO/PRON-SPAT_ALO  "" ;
 погодане+Adv:погодане ADV-TEMP_  "" ;
 польдерьсэ+Adv:польдерьсэ ADV-IDEOPH-IS-INE  "" ;
 потсо+Adv:потсо ADV-IS-SPAT-INE  "sisällä" ;
@@ -383,7 +383,7 @@ LEXICON Adv_myv2x
 тезэнь+v1+Adv:тезэнь ADV-IS-SPAT-ILL  "" ;
 тезэнь+v2+Adv:тезэ ADV-IS-SPAT-ILL  "" ;
 тей+Adv:тей ADV-IS-SPAT-LAT  "" ;
-тей-тов+Adv:тей-тов Spat_  "" ;
+тей-тов+Adv:тей-тов ADV-IS-SPAT-LAT  "" ;
 тельня+Adv:тельня ADV-TEMP_  "talvella" ;
 теск+Adv:теск ADV-IS-SPAT-ILL  "" ;
 теске+Adv:теске ADV-IS-SPAT-INE  "" ;
@@ -403,7 +403,7 @@ LEXICON Adv_myv2x
 тияня+Adv:тияня ADV-IS-SPAT-PRL  "" ;
 то+Adv:то ADV-TEMP_  "" ;
 тов+Adv:тов ADV-IS-SPAT-LAT  "sinne" ;
-товолдо+Adv:товолдо Spat_  "" ;
+товолдо+Adv:товолдо ADV-IS-ABL  "" ;
 тозонь+v1+Adv:тозонь ADV-IS-SPAT-ILL  "" ;
 тозонь+v2+Adv:тозо ADV-IS-SPAT-ILL  "" ;
 томбале+Adv:томбаль ADV-SPAT_ALO  "" ;
