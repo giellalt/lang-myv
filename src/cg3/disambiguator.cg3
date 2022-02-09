@@ -315,7 +315,8 @@ LIST Der/Ozevems = Der/Ozevems ;
 LIST Der/OkshnOms = Der/OkshnOms ;
 LIST Der/Cond = Der/Cond ;
 LIST Der/Dimin = Der/Dimin ;
-
+LIST Der/Ovt = Der/Ovt ;
+LIST Stem/э = Stem/э ;#hard front in -кшнэмс
 LIST Der = Der ;
 LIST Der/MWN = Der/MWN (der subst) ;
 LIST Der/Dem = Der/Dem ;
@@ -664,7 +665,7 @@ SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
 LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо" "лов" "максо" "ниле" "пандо" "пона" "ранг" "сал" ; #!!This will be expanded for homonymy at first. This is not a final solution 
 
-LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take addetive particle, as these are indefinite pronouns, e.g., кодамояк
+LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take additive particle, as these are indefinite pronouns, e.g., кодамояк
 
 LIST VAMBNOUNS = "каса" "кекше" "код" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
@@ -762,6 +763,9 @@ SUBSTITUTE (TV) (*) TARGET (*) ;
 REMOVE Err/Orth ; # If any other reading is possible.
 
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
+
+# KILL lan
+REMOVE:Nolan ("лан" Prl) IF (0 ("ланга") OR ("ланго" Prl)) ;
 
 #ЛЕНИН
 REMOVE:NoAcrIfProp ACR IF (0 N + Prop) ;
@@ -916,6 +920,10 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 # эсь мелест
 REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
+#озась коське тарад лангс.
+# Вай, кодамо мазый Локсеесь!
+REMOVE:NotNounWhenFollowedByNounAndPo N IF (0 A + Sg + Nom + Indef) (1 N) (2 ADPNOPX OR CLB OR EOS) ;
+
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
 
@@ -1008,12 +1016,26 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # умаринась ды атямаресь
 # NOT WORKING 2017-11-08REMOVE:NotPcleWhenLeftAndRightSameForm Pcle IF (-1 N + $$CASE) (0 ("ды")) (1 N + $$CASE);
 
+# Particles
+
+# ды Conj vs Pcle
+# Сон неизе Локсеенть [ды] озась коське тарад лангс.
+REMOVE:NoPcleWhenPreceededByFinite Pcle IF (*-1 VFIN BARRIER BOS OR CLB) ;# 2022-02-08 too strong?
+
 # Verbs
 # Кудонть потс кадовсть ансяк
-REMOVE Der/OvOms IF (0 V + IV) ;
+REMOVE:NotOvOms Der/OvOms IF (0 V) ;
 
+#Ванкшны укшныця 
+REMOVE:NotHardFrontIfPoss Stem/э IF (0C V);
+
+# Сон весе чувтонь, перьканзо сэрей пирявт.
+REMOVE Der/Ovt IF (NOT -1 Gen OR Ine);
 # чачома тешкс
 REMOVE:NoObligIfNomActAbsAndNextN Oblig IF (0 (NomAct N Sg Nom Indef)) (1 N) ; # too powerful? 2022-02-02
+
+#Весть вирьганть ливтясь Варака.
+REMOVE:NoPrecIfOtherVFin Prec IF ((*-1 VFIN BARRIER BOS OR CLB) OR (*1 VFIN BARRIER EOS OR CLB));
 
 # улить
 REMOVE Prt1 IF (0 ULEMS) ; 
@@ -1067,7 +1089,8 @@ REMOVE:NoTVIfCauseInfLoc TV IF (0 VERBWITHMO) ((-1*  Inf + Loc BARRIER BOS) OR (
 REMOVE Der/Y + Der/NomAg IF (0 PXPERSON) ;
 
 # пелезь ванкшнось
-REMOVE:NoNonGerIfNextVFin (Ger Sg Nom Indef) IF (0 Ger) (1 VFIN) ;
+REMOVE:NoNonGerIfNextVFin (Ger Sg Nom Indef) IF (0 Ger) (NOT 1 N) ;
+
 
 #Der/MWN N Sg Gen Def
 REMOVE:mwnSgGenDef Der/MWN + N + Sg + Gen + Def IF (0 N + Sg + Ela + Def) ;
