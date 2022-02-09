@@ -2,24 +2,12 @@
 # Morphology
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF ERZYA.
 
-
 Analysis symbols
-
-
-
-
-
-
-
-
-
-
 
 The morphological analyses of wordforms of ERZYA are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 * +TYÄ WORK HAS TO BE DONE
-
 
 *  %    
 
@@ -99,7 +87,6 @@ Postpositions
 * +Pl1 first person plural
 * +Pl2 second person plural
 * +Pl3 third person plural
-
 
 ## Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
@@ -219,8 +206,6 @@ Other verb forms are
 
 * +PrfPrc 
 
-
-
 ## The Usage extents are marked using following tags:
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
@@ -285,7 +270,6 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
 *  +Qst +Foc 
-
 
 # Semantic tags
 
@@ -391,8 +375,6 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * +Sem/Veh Vehicle
 * +Sem/Wpn Weapon
 * +Sem/Wthr The Weather or the state of ground
-
-
 
 Multiple Semantic tags:
 * +Sem/Act_Group 
@@ -519,7 +501,6 @@ Multiple Semantic tags:
 * +Sem/Substnc_Wthr 
 * +Sem/Time_Wthr 
 
-
 Semantics are classified with
 * +Sem/Divinity  Divinity (god personified),
 * +Sem/Constellation  Constellation,
@@ -551,12 +532,10 @@ Semantic Fields
 * +Field/Tech technical
 * +Field/Zool zoological
 
-
 # Other tags
 
 ## Verbal arguments
 * +Subj/Zero This is used to mark verbs without a semantic subject
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -564,7 +543,6 @@ source and target part-of-speech.
 * +V→N +V→V +V→A 
 
 ## Homonymy
-
 
 ## Der begin
 * +Der  In front of every derivation to make it
@@ -578,7 +556,6 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/kaj vocative
 * +Der/PatrMal Male patronymic
 * +Der/PatrFem Female patronymic
-
 
 * +Der/Ovt * telic deverbal noun also attr
 * +Der/Oms * infinitive illative
@@ -614,7 +591,6 @@ Modifier without noun
 * +Der/Gak suffix `+Indef` in indefinite pronouns
 * +Der/buti suffix `+Indef` in indefinite pronouns
 * +Der/Yja suffix `+Indef` in indefinite pronouns  ковия, зярыя
-
 
 ## DECLARING NOUN DERIVATIONS
 * +Der/chi  adjective-to-noun
@@ -674,7 +650,6 @@ Modifier without noun
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-
 And following triggers to control variation
 *  %{frontHard%}    — front harmony hard
 *  %{frontSoft%}    — front harmony soft
@@ -682,9 +657,7 @@ And following triggers to control variation
 *  %{backHard%}    — back harmony
 *  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
 
-
 * Е3 testing тне тнэ
-
 
 ## Special letters in the root	  that might be useful in	dialect	research and etymology later
 * Ь3   арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
@@ -692,10 +665,6 @@ And following triggers to control variation
 * Ӓ4   пелемс:пӒ4ль
 
 * %^Ь2ZERO   removes stem-final soft sign
-
-
-
-
 
 * %{ое%} inflectional suffix protovowel  аволь аволинь
 * %{оеэØ%} Suffix-initial archiphoneme
@@ -708,13 +677,8 @@ And following triggers to control variation
 
 * %^NoLinkVow  — No linking vowel is used only after consonants for error
 
-
-
-
-
 # MISC
 * +Cmp/Hyph A tag to indicate that a hyphen was used when compounding
-
 
 Development tag
 * +WORK 
@@ -725,8 +689,6 @@ Development tag
 * %0 
 
 * %- 
-
-
 
 * +Dig1 
 * +Dig2 
@@ -743,7 +705,6 @@ It is important for Apertium, and useful in other cases as well.
 * +Cmp/Hyph-Serial with verbs
 * +Cmp/Hyph-tejems with verbs
 
-
 ## Tags
 * +Emphatic 
 * +Gr2xxx 
@@ -752,14 +713,12 @@ It is important for Apertium, and useful in other cases as well.
 * +Intensive 
 * +Intensifier уш
 
-
 * +Onom onomapoetic words
 * +Descr descriptive words
 ## Different focus particles
 Focus clitics
 * +Clt/Add Only one additive clitic
 * +Clt/AddGak 
-
 
 ## Imperative clitics
 * +Clt/Ga редяка Precative +Prec
@@ -799,7 +758,6 @@ Focus clitics
 * +v23
 * +v24
 
-
 * +ACC +DAT +COM This marks a function not a morpheme
 
 * +NoPoss used with personal pronouns in oblique cases,
@@ -811,7 +769,6 @@ where a possessor index is expected
 * «
 * > (written with square brackets, see the root.lexc file)
 * < (written with square brackets, see the root.lexc file)
-
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -888,7 +845,6 @@ Flags used with serial verbs
 * @U.CONJ-POSS.2ACC@ 
 * @U.CONJ-POSS.3ACC@ 
 
-
 * @U.CONJ-PX.10@ 
 * @U.CONJ-PX.12@ 
 * @U.CONJ-PX.13@ 
@@ -927,7 +883,6 @@ Flags used with serial verbs
 * @U.CONJ-PX.65@ 
 * @U.CONJ-PX.66@ 
 
-
 * @R.CONJ-PX.13@ 
 * @R.CONJ-PX.16@ 
 * @R.CONJ-PX.23@ 
@@ -943,7 +898,6 @@ Flags used with serial verbs
 
 * @R.CONJ-PX.63@ 
 * @R.CONJ-PX.66@ 
-
 
 * @P.CONJ.ObjAll@ 
 * @R.CONJ.ObjAll@ 
@@ -977,7 +931,6 @@ Flags used with serial verbs
 * @C.TNUM@ 
 
 problematic
-
 
 * @P.TPERS.1@ 
 * @P.TPERS.2@ 
@@ -1019,8 +972,6 @@ problematic
 * @U.DNUM.SG@ 
 * @C.DNUM@ 
 
-
-
 * @P.NUM.SG@ 
 * @P.NUM.PL@ 
 * @D.NUM.SG@ 
@@ -1044,7 +995,6 @@ especially for acronyms 2012-11-04
 * @D.HYPH-COMBO.ACRO@ 
 * @C.HYPH-COMBO@ 
 
-
 Linking vowel for use with Translative
 * @P.LV.ON@ 
 * @P.LV.OFF@ 
@@ -1052,8 +1002,6 @@ Linking vowel for use with Translative
 * @U.LV.ON@ 
 * @D.LV.ON@ 
 * @C.LV@ 
-
-
 
 * @C.CONJ-INF@ 
 * @C.CONJ-TX@ 
@@ -1096,122 +1044,32 @@ Linking vowel for use with Translative
 * @U.DECL-DX.INDEF@ 
 * @U.DECL-DX.PX@ 
 
-
 Removal
 * @C.DECL-NX@ 
 * @C.DECL-DX@ 
 * @C.DECL-CX@ 
 
-
-
-
-
 The word forms in ERZYA start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 Here follow all contlexes, appr 20.
 
-
-
-
 * Hyphenated-nouns ; entire serial nouns
 * Hyphenated-verbs ; entire serial verbs
-
-
 
 CyrillicFemaleName ;
 HUNSPELL Type name derivation
 RussianMalenamesDerive ; !
 RussianSurnamesDerive ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Not a real particle; it can take a clitic седеяк
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 увол-авол
 
-
-
-
 alo-SPAT-1Arg ; >PO_KAL-LOC
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/root.lexc)</small>
+
+---
+

@@ -1,7 +1,5 @@
 These are nouns with parallel declension
 
-
-
 ават%-тейтерть
 аванзо-тетянзо
 ават%-цёрат
@@ -22,4 +20,8 @@ These are nouns with parallel declension
 эрзят%-мокшот
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/hyphenated-nouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/stems/hyphenated-nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-nouns.lexc)</small>
+
+---
+

@@ -5,13 +5,7 @@ nouns.
 
 Андрей:Андре
 
-
-
-
-
 Вили:Вил
-
-
 
 Russian type Surnames 
 Абдеев:Абдеев
@@ -20,114 +14,13 @@ Russian type Surnames
 
 Аморский:Аморск
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Front-vowel stem
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 DECLENSION LIMITATIONS
 
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+

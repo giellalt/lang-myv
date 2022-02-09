@@ -6,8 +6,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
 
-
-
 ## Special letters in the root that might be useful in dialect research and etymology later
 * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
 * **Ӓ3:э  ** эрямс:Ӓ3ря 
@@ -15,36 +13,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 * **%^Ь2ZERO:0  ** removes stem-final soft sign
 
-
-
-
-
-
-
-
-
-
 вт%{оеэ%}мО1
-
 
 * _%{ОØ%}:0_ Stem-final archiphoneme панго
 * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
 * _%{ЕØ%}:0_ Stem-final archiphoneme тинге
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  %{frontHard%}:0    — front harmony hard
  %{frontSoft%}:0    — front harmony soft
@@ -52,51 +25,12 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
  %{backHard%}:0    — back harmony
 *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 
-
-
-
-
-
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **verbStemVowStrong:0**  
 
 * *цёра%>%{АЯ%}н*
 * *цёр0%>ан*
-
-
 
 **A1:o**  
 * *яка%>%{оеэØ%}мА1*
@@ -105,7 +39,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * ★*яка%>0ма* (is not standard language)
 
 **Y2:yi**  
-
 
 **%{оеэ%}:е**
 неемс+V+TV+Ger+Ill+PxPl1: --see/nähdä--
@@ -117,9 +50,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс*
 * *псака%>втомо%>0нзо%>кс*
 
-
 **%{оеэ%}:э**
-
 
 **%{оеэØ%}:0**
 **%{оеэØ%}:е**
@@ -135,7 +66,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *кев0%>ез%>эть*
 * *пильге%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
 * *пильге0%>0з%>эть*
-
 
 **%{оеэØ%}:о**
 ков+N+SP+Ill+PxSg2: **moon/kuu**
@@ -156,7 +86,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *кӒ4в%{frontSoft%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
 * *кев0%>из%>ыть*
 
-
 **%{уиыØ%}:у**
 ков+N+SP+Ill+PxSg2: **moon/kuu**
 * *ков%{back%}%>з%>%{уиыØ%}т%{ЬØ%}*
@@ -164,23 +93,14 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *ков%{back%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
 * *ков0%>уз%>ут*
 
-
-
-
-
-
 * *сай%{frontSoft%}%>О1%>дО1*
 * *са00%>е%>де*
 
 **O1:e**  
 
-
 **O1:o**  
 
-
 **%{оэØ%}:e**  
-
-
 
 **%{оэØ%}:o**  
 
@@ -193,16 +113,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **%{оэØ%}:0**
 
-
 **O1:0**  
-
 
 **%{ое%}:е**
 
-
 **%{ое%}:о**
-
-
 
 **A2:a**  
 путомс+V+Prec+ScSg2: **put/laittaa**
@@ -219,9 +134,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **ye:e always **  
 
-
-
-
 **Н1:н**  
 **Н1:к**  
 
@@ -231,13 +143,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **у: и Dimin**
 
-
 **э: и Dimin**
 
 **а: и Dimin**
 
 **о: и Dimin**
-
 
 **у: и Dimin**
 
@@ -251,8 +161,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **a:ya**  
 
-
-
 **v:0**  
 
 **G1:0**  
@@ -261,25 +169,17 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **G1:k**  
 
-
 **G2:g**  
 
-
-
 **G2:k**  
-
-
 
 **G4:0**  
 
 **G4:k**  
 
-
 потмо+N+Relator+SP+Ela+Indef: **inside/sisäosa**
 * *потм%{back%}%>ст%{оэØ%}*
 * *пот00%>сто*
-
-
 
 imperative suffix
 **K1:t**  
@@ -292,7 +192,6 @@ imperative suffix
 ливтемс+V+TV+Prec+ScSg2: **set out/laittaa esille**
 * *ливть%>%{КТ%}%{АЯ%}*
 * *ливт0%>тя*
-
 
 **U4:y**  
 кал+N+Sg+Nom+Def: **fish/kala**
@@ -311,21 +210,14 @@ imperative suffix
 
 **U4:0**  
 
-
-
-
 валдо+N+Pl+Nom+Indef **light/valo**
 * *валд%{backHard%}%>т%{ЬØ%}*
 * *валд0%>т0*
-
-
-
 
 **s:0**  
 
 * *класс%>с*
 * *клас0%>с*
-
 
 **d:t**  
 * *кедь%>дО1*
@@ -337,7 +229,6 @@ imperative suffix
 
 **y:y**
 
-
 **y:0**  
 * *кель^Ь2ZERO%>енть*
 * *кел00%>енть*
@@ -346,11 +237,6 @@ imperative suffix
 * *мер0%>сь*
 * ★*мерь%>сь* (is not standard language)
 * ★*мерь%>сь* (is not standard language)
-
-
-
-
-
 
 **Disallow TLoss after non-t**  
 
@@ -370,14 +256,10 @@ imperative suffix
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
-
-
 **Disallow з where not following voiced consonant or vowel**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*
-
-
 
 веле+N+SP+Tra+PxSg2
 * *веле%>%{оеэØ%}кс%>%{оеэØ%}т%{ЬØ%}*
@@ -406,7 +288,9 @@ imperative suffix
 
 **Disallow k for control of comparative with stem types**
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-myv/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

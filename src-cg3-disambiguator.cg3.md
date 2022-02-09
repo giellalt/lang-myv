@@ -1,36 +1,18 @@
 
 
-
-
-
-
-
-
-
 # DELIMITERS 
-
-
 
 # TAGS AND SETS
 
-
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -39,15 +21,6 @@ EOS
 * CLB clb (clb because of apertium)
 * LEFT RIGHT because of apertium
 
-
-
-
-
-
-
-
-
-
 * ### Tags for POS sub-categories
 
 * Arab
@@ -55,10 +28,7 @@ EOS
 * Subqst
 * CLBfinal
 
-
-
 * ### Tags for morphosyntactic properties
-
 
 * Cmp/SplitR
 * Cmp/Attr
@@ -70,44 +40,9 @@ EOS
 * Cmp/Sh
 * Cmp
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * ### Derivation tags
 
-
-
-
-
-
 ### Semantic tags
-
-
-
-
-
-
-
 
 ###  Syntactic tags
 
@@ -177,10 +112,7 @@ EOS
 - vai : Leago nieida vai bárdni? - Is it a girl or a boy?
 * @X : unknown
 
-
 Upper and lower case
-
-
 
 ## Sets containing sets of lists and tags
 
@@ -193,24 +125,15 @@ See the sourcefile itself to inspect the sets, what follows here is an overview 
 the set INITIAL for initial letters 
 INITIAL
 
-
 ### Sets for word or not
 
-
-
 ### Derivational affixes
-
-
 
 ### Case sets
 
 ADLVCASE
 
-
-
-
 ### Verb sets
-
 
 NOT-V
 
@@ -222,88 +145,15 @@ VFIN
 
 VFIN-POS
 
-
-
-
-
 ### Sets for person
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 This will be expanded for homonymy at first
 
 This will be expanded for homonymy at first, i.e., diminutives
 
-
-
-
-
-
-
-
-
-
-
-
 used with Dat PxSg1
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Derivation tags
 2VDerTag
@@ -311,159 +161,9 @@ used with Dat PxSg1
 
 DerTag
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-myv/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+

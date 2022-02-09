@@ -2,87 +2,19 @@
 
 Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
 
-
-
 ## KINSHIP 
-
-
-
-
-
-
-
-
-
-
-
 
 ## HUMAN 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## PLACE 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## LATIVE 
 
-
-
-
-
-
-
-
-
-
-
-
 ## VOCATIVE
-
-
-
-
-
 
 ## NAMES OF MONTHS
 
-
 ## COMMON NOUNS 
-
-
-
 
 * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
@@ -90,48 +22,9 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 * LEXICON N_SODYJ  сода%>%{иы%}й, содый
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 кардаз:карда
 
-
-
-
-
-
-
-
-
-
-
 панго:панг
-
-
 
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
@@ -140,11 +33,7 @@ Front vowel, palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
 
-
-
-
 Does this need a diminutive?
-
 
 NMN
 
@@ -152,48 +41,15 @@ NMN
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * ** TMP-INDEF ; ** Check this
-
 
 * **LEXICON NMN_KUDO-PL ** This needs checking 2013-03-27
 
 harmony: front
 
-
 DERIVATION 
 
-
-
-
-
-
-
-
-
-
-
 * **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
 
 * **+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
@@ -208,13 +64,6 @@ DERIVATION
 * **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-
-
-
-
-
-
 
 * **+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
@@ -232,313 +81,68 @@ DERIVATION
 * **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
-
-
 * **+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-
 
 * **+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
-
-
-
-
-
-
 * **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 pango:pang
 
-
-
-
-
+N_KUDO-Def-Declension
 
 N_KUDO-Def-Declension
 
-
-
-
 N_KUDO-Def-Declension
-
-
-
-
-N_KUDO-Def-Declension
-
-
-
-
 
 ## DEFINITE SINGULAR TAGS 
-
 
 *Noun singular nominative definite examples:*
 * *калось:* `кал+N+Sg+Nom+Def`
 * *калоськак:* `кал+N+Sg+Nom+Def+Foc/Гак`
 * ★*калосьгак:* `кал+N+Sg+Nom+Def+Foc/Гак` (is not standard language)
 
-
-
 *Noun singular genitive definite examples:*
 * *калонть:* `кал+N+Sg+Gen+Def`
 * *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## INDEFINITE DECLENSION
-
-
-
-
-
 
 SG-NOM-INDEF_LAK ;
 
-
-
 SG-NOM-INDEF_KAL ;
-
-
-
-
-
 
 SG-NOM-INDEF_OSH ;
 
-
-
-
-
-
-
-
-
-
-
-
-
 * ** TMP-INDEF ; ** Check this
 
-
 ## INDEFINITE TAGS
-
 
 *Noun singular nominative definite examples:*
 * *калдо:* `кал+N+SP+Abl+Indef`
 * *калдояк:* `кал+N+SP+Abl+Indef+Foc/Гак`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## POSSESSIVE DECLENSION 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## CASES BEFORE POSSESSIVE TAGS 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## DEFINITE PLURAL
-
-
 
 ## Cases for тнэ
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Nouns1S_A
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## POSSESSIVE marking followed by clitics
 
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+

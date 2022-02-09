@@ -1,7 +1,5 @@
 These are verbs with parallel conjugation
 
-
-
 ### REDUPLICATION
 авардемс%-авардемс
 ардомс%-ардомс
@@ -32,4 +30,8 @@ These are verbs with parallel conjugation
 витнемс%-ютавтомс
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/hyphenated-verbs.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/stems/hyphenated-verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-verbs.lexc)</small>
+
+---
+

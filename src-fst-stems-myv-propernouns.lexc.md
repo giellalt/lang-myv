@@ -14,8 +14,11 @@
 
 Place names, Settlements
 
-
 Rivers
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/myv-propernouns.lexc](http://github.com/giellalt/lang-myv/blob/main/../src/fst/stems/myv-propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/myv-propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/myv-propernouns.lexc)</small>
+
+---
+
