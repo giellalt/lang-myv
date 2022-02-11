@@ -47,6 +47,12 @@ LEXICON ab-nodot-noun ! The bulk
 +N+ABBR: # ;  ! no period, that is.
 +N+ABBR+SP+Gen+Indef:%-нь # ;
 
+LEXICON ab-nodot-noun-front ! The bulk
++N+ABBR: # ;  ! no period, that is.
++N+ABBR+Sg+Gen+Def:%-нть # ;
++N+ABBR+SP+Gen+Indef:%-нь # ;
++N+ABBR+SP+Ine+Indef:%-сэ # ;
+
 LEXICON ab-nodot ! default
 +ABBR: # ;  ! no period, that is.
 
@@ -467,7 +473,7 @@ LEXICON noperiod
 ССО  ab-nodot-noun ;
 ССП  ab-nodot-noun ;
 ССР  ab-nodot-noun ;
-СССР  ab-nodot-noun ;
+СССР  ab-nodot-noun-front ;
 СТО ab-nodot-noun ;
 СТФ   ab-nodot-noun ;
 СТЭК ab-nodot-noun ;
@@ -522,7 +528,7 @@ LEXICON noperiod
 УРБ ab-nodot-noun ;
 УРС  ab-nodot-noun ;
 УСЕВЛОН ab-nodot-noun ;
-УССР  ab-nodot-noun ;
+УССР  ab-nodot-noun-front ;
 УФМС ab-nodot-noun ;
 УФПС ab-nodot-noun ;
 УФСБ ab-nodot-noun ;
