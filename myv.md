@@ -615,6 +615,8 @@ N_KUDO-Def-Declension
 * *калонть:* `кал+N+Sg+Gen+Def`
 * *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
 
+* **+Sg+Ine+Def:%>с%{оэØ%}%>н%> N2Dem-SE ; **  !коридорсонсесь 2022-02-10
+
 ## INDEFINITE DECLENSION
 
 SG-NOM-INDEF_LAK ;
