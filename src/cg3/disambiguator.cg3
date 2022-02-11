@@ -663,11 +663,9 @@ LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма"
 LIST TEMPORALNOUN = "буря" "валдо" "валске" "варма" "ве" "давол" "ёндол" "ие" "истямо" "кизэ" "ков" "минута" "пиземе" "пизем" "пинге" "погода" "пора" "пси" "раз" "рудаз" "сув" "тундо" "чадыведь" "чи" "чопода" "шка" "якшам" "якшамо" ; #!! This will be expanded for homonymy at first, i.e., diminutives
 SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
-LIST NOTFIRSTSECONDCOPULA = "вал" "кандо" "кем" "коз" "кундо" "лов" "максо" "ниле" "пандо" "пона" "ранг" "сал" ; #!!This will be expanded for homonymy at first. This is not a final solution 
-
 LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take additive particle, as these are indefinite pronouns, e.g., кодамояк
 
-LIST VAMBNOUNS = "каса" "кекше" "код" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
+LIST VAMBNOUNS = "вал" "кадо" "кандо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "ниле" "пандо" "пона" "понго" "ранг" "сал" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
 LIST VERBWITHMO = "арсемс" "кармамс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
@@ -678,10 +676,14 @@ LIST ANCOLORS = "ашо" "пиже" "сэнь" "тюжа" "якстере" ;
 LIST KINTERM = "ава" "тетя" ;
 
 
-LIST ADJTAKESMAMOABL = "бойка" ;
+LIST ADJTAKESMAMOABL = "бойка" "кол" "од" "сыре" ;# колат укшномадо,
+
 LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "указания" "чумо" "эпизод" ; #пленс понгомадо мельтне
+
 LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявомс" "олякстомтомс" "пелемс" "пешкедемс" "покордавомс" "ракамс" "рангомс" "сыргоземс" "таргоземс";
+
 LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видькстамс" "визделгадомс" "виздемс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ; 
+
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
 LIST VERBTAKESDATILL = "радовамс" ;
@@ -986,8 +988,6 @@ REMOVE:NotScSg2WhenDefNomPl ScSg2 IF (0 V + IV + Ind + Prs + ScPl3) ((-1* N + Pl
 #
 REMOVE:NotTemp TempCx (0 N + Sg + Nom + Indef OR N + Pl + Nom + Def) (0 NOT-TEMPORALNOUN) ;
 
-#Ранган
-REMOVE:NotCop12Pers NOTFIRSTSECONDCOPULA (0 Ind + Prs + SCPERSON12 OR Ind + Prt2 + SCPERSON12 ) ;
 
 #валдодо пешксе
 REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
