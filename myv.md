@@ -166,12 +166,7 @@ used with Dat PxSg1
 DerTag
 
 * * *
-
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/disambiguator.cg3)</small>
-
----
-
-
 
 * Sets for POS sub-categories
 
@@ -338,8 +333,599 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
 
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/functions.cg3)</small>
+Adjectives and other parts of speech in ERZYA are compared by means of 
+either a particle or ablative case marking on the standard of comparison
+
+кондямо:кондя
+
+2013-04-17
+
+кодамо:кода
+кодамо:кода
+кодатнэ
+кодатне 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
+
+The Erzya language postpositions can be broken into many subgroups
+according to morphological and semantic criteria
+
+ало:ал
+alo-SPAT-1Arg
+
+This allows for possessor indices, word end or focus
+
+This allows for word end, possessor indices, predication
+
+postposition that is in ablative case
+алдо:алдо
+
+postposition that is in elative case
+потсто:потсто
+
+postposition that is in illative case
+эземс:эзем
+
+postposition that is in illative case
+эйс:э
+
+postposition that is in inessive case
+эйсэ:эйсэ
+
+postposition that is in lative case
+ютков:ютков
+
+postposition that is in locative case
+ало:ало
+
+postposition that is in prolative case
+перька:перька
+
+postposition that has no continuation пачк
+
+postposition that is in ablative case
+алдо:алдо
+
+postposition that is in elative case
+потсто:потсто
+
+postposition that is in illative case
+малас:мала
+
+postposition that is in illative case
+малас:мала
+
+postposition that is in illative case
+потс:пот
+
+postposition that is in illative case
+эйс:э
+
+postposition that is in inessive case
+потсо:потсо
+
+postposition that is in lative case
+алов:ало
+
+postposition that is in locative case
+ало:ало
+
+postposition that is in prolative case
+перька:перька
+
++Temp: K ;  перть
+
++Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adpositions.lexc)</small>
+
+---
+
+# Adverb inflection
+
+The Erzya language adjectives do not compare.
+
+LEXICON ADV-SPAT_  пачк
+
+LEXICON ADV-SPAT-IS-PRL  перька
+
+LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
+
+LEXICON ADV-SPAT_ALO  ало:ал
+
+relative space **мельга**
+
+"стядо"
+
+spatial adverbs 
+dependent and independent case marking 
+
+This marking would indicate a word form that may be 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adverbs.lexc)</small>
+
+---
+
+# Interjections
+
+The Erzya language interjections...
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/interjections.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/interjections.lexc)</small>
+
+---
+
+Non-Verbal conjugation
+
+In the Erzya language nominals and adverbs also conjugate
+
+Used with deverbals
+
+This is where adjectives get their plural T.
+
+used with infinitives
+
+Conjugation 
+
+# NON-VERB CONJUGATION 
+
+Conjugation 
+
+_KAL-NomSg-Conjugation-only
+
+This allows Clt/Cop+Prs Sg1|Sg2|Pl1|Pl2 
+Clt/Cop+Prt2 Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
+K 2019-01-26
+
+_KUDO-NomPl-Conjugation-only
+
+_KUDO-NomPl-Conjugation-only-mutual
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nonverbalConjugation.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nonverbalConjugation.lexc)</small>
+
+---
+
+# Noun inflection
+
+Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
+
+## KINSHIP 
+
+## HUMAN 
+
+## PLACE 
+
+## LATIVE 
+
+## VOCATIVE
+
+## NAMES OF MONTHS
+
+## COMMON NOUNS 
+
+* LEXICON N_KEL1  кель:кель %^Ь2ZERO
+
+* LEXICON N_OZIM1  озимь:озимь %^Ь2ZERO
+
+* LEXICON N_PEJ  кель:кель %^Ь2ZERO
+
+* LEXICON N_SODYJ  сода%>%{иы%}й, содый
+
+кардаз:карда
+
+панго:панг
+
+Front vowel, non-palatal consonant before vowel
+Front vowel, non-palatal consonant before vowel
+Front vowel, palatal consonant before vowel
+
+Front vowel, non-palatal consonant before vowel
+Front vowel, non-palatal consonant before vowel
+
+Does this need a diminutive?
+
+NMN
+
+* LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
+
+* LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
+
+* ** TMP-INDEF ; ** Check this
+
+* **LEXICON NMN_KUDO-PL ** This needs checking 2013-03-27
+
+harmony: front
+
+DERIVATION 
+
+* **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def:%>сэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Prl+Def:%>га%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Cmpr+Def:%^Ь2ZERO%>ешка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Abe+Def:%>теме%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>стэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>сэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>га%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%^Ь2ZERO%>ешка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+* **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
+
+pango:pang
+
+N_KUDO-Def-Declension
+
+N_KUDO-Def-Declension
+
+N_KUDO-Def-Declension
+
+## DEFINITE SINGULAR TAGS 
+
+*Noun singular nominative definite examples:*
+* *калось:* `кал+N+Sg+Nom+Def`
+* *калоськак:* `кал+N+Sg+Nom+Def+Foc/Гак`
+* ★*калосьгак:* `кал+N+Sg+Nom+Def+Foc/Гак` (is not standard language)
+
+*Noun singular genitive definite examples:*
+* *калонть:* `кал+N+Sg+Gen+Def`
+* *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
+
+## INDEFINITE DECLENSION
+
+SG-NOM-INDEF_LAK ;
+
+SG-NOM-INDEF_KAL ;
+
+SG-NOM-INDEF_OSH ;
+
+* ** TMP-INDEF ; ** Check this
+
+## INDEFINITE TAGS
+
+*Noun singular nominative definite examples:*
+* *калдо:* `кал+N+SP+Abl+Indef`
+* *калдояк:* `кал+N+SP+Abl+Indef+Foc/Гак`
+
+## POSSESSIVE DECLENSION 
+
+## CASES BEFORE POSSESSIVE TAGS 
+
+## DEFINITE PLURAL
+
+## Cases for тнэ
+
+Nouns1S_A
+
+## POSSESSIVE marking followed by clitics
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+Possessor indices
+
+The Erzya language possessor indices or possessive suffixes may be followed
+by a number of morpheme types
+
+These are possessor indices that can be followed by predicate marking
+in the present there is no destinction between ScSg3 and ScPl3
+Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
+
+This appears with kindred terminology 
+
+Is "_KAL" necessary ?
+
+DAT-PXPL1 ;
+
+## POSSESSIVE TAGS 
+
+These are possessor Indices for non-nominative singular
+NonNomSg
+
+word boundary or focus
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/possessorindices.lexc)</small>
+
+---
+
+# Pronoun inflection
+
+Erzya pronouns inflect in many the same cases as regular
+nouns.
+
+## Closed class personal pronouns
+
++Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
+
++Interr+Sem/Obj: CLT/COP_SG ;  singular
+
+мон:мо
+
+тон:то
+
+сон:со
+
+минь:
+
+тынь:ты
+
+сынь:сы
+
+Obligatory Possessor Index
+
+Periferal
+
+Demonstrative
+
+истямо:истя
+
+Interrogative
+
+What should be done 
+
+кона:кона
+This is not the same as indefinite
+PronRel-kona
+
+What should be done 
+
+LEXICON PRON-IS-INTERR-SPAT-INE  косо 
+
+What should be done 
+
+Relative pronouns
+
+ки:ки
+
+ки
+
+мезе+Pron:мезИ2 Misc_Pronouns1 ;
+мезе+Pron+Rel+Gen:мень K ;
+ки+Pron+Interr:ки Misc_Pronouns1 ;
+
+Some pronoun continuation have been moved here
+Out of TestLexc-noun.txt
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
+Proper noun inflection
+
+Erzya proper nouns inflect in the same cases as regular
+nouns.
+
+Андрей:Андре
+
+Вили:Вил
+
+Russian type Surnames 
+Абдеев:Абдеев
+
+Багрий:Багр
+
+Аморский:Аморск
+
+Front-vowel stem
+
+DECLENSION LIMITATIONS
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+Quantifier inflection
+
+Erzya quantifiers inflect in many the same cases as regular
+nouns.
+
+### Now regular
+
+кавонст
+
+омбонст
+
+кавонест is a pronoun like the Finnish molemmat
+This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
+
+кавксоненек
+
+once, twice; весть, кавксть, аламоксть
+twofold, threefold; веенькирда, кавонькирда, колмонькирда
+
+васенцеде advmod:multimprf > advmod:ordimprf
+
+васняяк 'first of all'
+
+Numeral with a range limitation to adnominal phrase
+
+2012-08-09
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+
+---
+
+
+# Symbol affixes
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+# Verb inflection
+
+Erzya language verbs inflect for person, subject and object.
+
+OBJECT FLAGS AND +V+TV tags
+а+V:а 
+
+**LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
+
+**LEXICON TV_KADOMS ** 
+
+**LEXICON TV_NEVTEMS_SUB ** 
+
+* _LEXICON TV_NEVTEMS_  невтемс:невть
+
+**LEXICON TV_SAVTOMS_SUB ** 
+
+**LEXICON TV_SAVTOMS ** 
+
+**LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO ** 
+
+**LEXICON TV_CHACHTOMS ** 
+
+**LEXICON TV_KUNDAMS_SUB ** 
+
+**LEXICON TV_KUNDAMS ** 
+
+**LEXICON TV_SATOMS ** 
+
+**LEXICON TV_TUEMS ** 
+
+**LEXICON TV_TEEMS ** 
+
+* _LEXICON TV_NEKSHNEMS_  некшнемс:некшн
+
+VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
+
+VERBS WITH INTRANSITIVE TAGS +V+IV
+
+# AUXILIARY VERBS
+
+# DERIVATION
+
+# VERBS AFTER TRANSITIVITY Tags OBJECT FLAGS 
+
+теемс:тей
+теемс:тей
+
+no deverbals
+
+no deverbals
+
+no deverbals
+
+## DERIVATION 
+
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
+
+This is fed by actors and participles in N_myv, A_myv and Prc_myv
+This is fed by actors and participles in N_myv, A_myv and Prc_myv
+
+## CONJUGATION 
+
+Indicative Preterite I
+
+## INDICATIVE 
+
+Indicative NonPast 
+
+## INDICATIVE PRETERITE 2 
+
+## DESIDERATIVE 
+
+## CONJUNCTIVE 
+
+redo conj 2012-11-07 begin
+
+redo conj 2012-11-07 end
+
+begin
+
+end
+
+## OPTATIVE 
+
+## IMPERATIVE 
+
+## PRECATIVE
+
+## OPTATIVE 
+
+2012-11-09
+
+Given in Grammar 2000
+
+Used with deverbals
+
+ваномс+V+TV+Imprt+ScPl2+Clt/Ga: **look/katsoa**
+* *ван%>%{оеэØ%}дО1%>Г4а*
+* *ван%>одо%>0я*
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+# Clitics
+
+The Erzya language clitics...
+
+END 
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/clitics.lexc)</small>
 
 ---
 
@@ -639,856 +1225,6 @@ imperative suffix
 
 ---
 
-These are nouns with parallel declension
-
-ават%-тейтерть
-аванзо-тетянзо
-ават%-цёрат
-атявтт%-ававтт
-атят%-ават
-атят%-бабат
-атят%-сэрдят
-бабат%-нуцькат
-барант%-каткат
-боярт%-азорт
-боярт%-боярават
-
-вирть%-лугат
-вирть%-паксят
-вирть%-укшторт
-ворт%-грабительть
-ворт%-розбойникть
-эрзят%-мокшот
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-nouns.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-од:од A_KAL "(eng) /(fin)/(rus) " ;
-
-ADD ADJECTIVES BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives-russian-like_newwords.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-эрзя-мокшонь:эрзя-мокшонь A-IS-GEN "(eng) /(fin) /(rus) " ;
-
-ADD ADJECTIVES BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
-
----
-
-
-
--kal
-
--osh
-
--kudo
-
--kal
-
--osh
-
--kudo
-
-Place names, Settlements
-
-Rivers
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/myv-propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/myv-propernouns.lexc)</small>
-
----
-
-
-
-The derivable male given names have been moved to 
-the template urj-Cyrl-propernouns.lexc.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/rusMaleNameDer.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/rusMaleNameDer.lexc)</small>
-
----
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-verbs of negation have partial inflection:
-€ аволь
-€ иля
-€ эзь
-
-The verb ярсамс has additional irregular forms:
-€ ярстано
-€ ярстадо
-
-The verb сеземс
-
-Some of the nouns have archaic consonant stem forms left:
-€ ийть
-
-Some random Russian elements:
-
-Some of the nouns have special forms for Gen PxSg1 and PxSg2:
-
-Reciprocal pronouns
-These might be done with flags
-
-These two stems have м loss but its presence can be
-observed in the choice of "тнэ" over "тне"
-This has special hard after lost consonant
-This has special hard after lost consonant
-
-1930s Phonetic transcription
-дс >> ц
-гт >> к
-мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
-
-### ADPOSITIONS
-
-### IDEOPHONES
-are dealt with as adverbs
-
-### PRONOUNS
-
-### QUANTIFIERS
-сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
-
-### NOUNS
-
-### PLACE NAMES
-### GEO
-
-### ANIMAL NAMES
-
-### FIRST NAMES
-
-100 % homographs of Russian words
-
-adjectives in _ой_ Adj-od >> A_RU-OJ
-with  +Use/SpellNoSugg
-
-+SP+Gen+Indef attributes as adjectives
-
-Russian language words found in Erzya texts
-
-Old Bible Names and words
-
-unrecognized
-
-Problems with synchronization
-missing lemmas
-
-COLLECTIVE NOUNS
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/exceptions.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-лембстэ:лембстэ ADV_ "(eng) /(fin) /(rus) " ;
-
-ADD ADVERBS BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-автор:автор N_KAL "(eng) /(fin) /(rus) " ;
-
-ADD NOUNS BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-ливтевкшнемс+V:ливтевкшне TV_KUNDAMS "(eng) /(fin) /(rus) " ;
-
-ADD VERBS BELOW
-
-These verbs just need Finnish translations
-A-M
-N-End
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
-
----
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-автор:автор N_KAL "(eng) /(fin) /(rus) " ;
-
-ADD NOUNS BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
-
----
-
-These are verbs with parallel conjugation
-
-### REDUPLICATION
-авардемс%-авардемс
-ардомс%-ардомс
-ардтневтемс%-ардтневтемс
-арсемс%-арсемс
-аштемс%-аштемс
-ванномс%-ванномс
-ваномс%-ваномс
-вешнемс%-вешнемс
-
-### %-And such
-авардемс%-теемс
-арсемс%-теемс
-аштемс%-теемс
-ванномс%-теемс
-ваномс%-теемс
-
-андомс%-симдемс
-аштемс%-учомс
-велямс%-чарамс
-вастомс%-дёлямс
-васькамс%-оймамс
-витнемс%-петнемс
-ёмавтомс%-аравтомс
-ярсамс%-симемс
-
-### SERIAL
-витнемс%-ютавтомс
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-verbs.lexc)</small>
-
----
-
-# Clitics
-
-The Erzya language clitics...
-
-END 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/clitics.lexc)</small>
-
----
-
-# Noun inflection
-
-Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
-
-## KINSHIP 
-
-## HUMAN 
-
-## PLACE 
-
-## LATIVE 
-
-## VOCATIVE
-
-## NAMES OF MONTHS
-
-## COMMON NOUNS 
-
-* LEXICON N_KEL1  кель:кель %^Ь2ZERO
-
-* LEXICON N_PEJ  кель:кель %^Ь2ZERO
-
-* LEXICON N_SODYJ  сода%>%{иы%}й, содый
-
-кардаз:карда
-
-панго:панг
-
-Front vowel, non-palatal consonant before vowel
-Front vowel, non-palatal consonant before vowel
-Front vowel, palatal consonant before vowel
-
-Front vowel, non-palatal consonant before vowel
-Front vowel, non-palatal consonant before vowel
-
-Does this need a diminutive?
-
-NMN
-
-* LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
-
-* LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
-
-* ** TMP-INDEF ; ** Check this
-
-* **LEXICON NMN_KUDO-PL ** This needs checking 2013-03-27
-
-harmony: front
-
-DERIVATION 
-
-* **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-* **+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-* **+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-* **+Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ine+Def:%>сэ%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Prl+Def:%>га%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Cmpr+Def:%^Ь2ZERO%>ешка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Abe+Def:%>теме%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>стэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>сэ%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>га%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%^Ь2ZERO%>ешка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>теме%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Pl+Gen+Def:%>тне%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-* **+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-* **+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-* **+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
-
-pango:pang
-
-N_KUDO-Def-Declension
-
-N_KUDO-Def-Declension
-
-N_KUDO-Def-Declension
-
-## DEFINITE SINGULAR TAGS 
-
-*Noun singular nominative definite examples:*
-* *калось:* `кал+N+Sg+Nom+Def`
-* *калоськак:* `кал+N+Sg+Nom+Def+Foc/Гак`
-* ★*калосьгак:* `кал+N+Sg+Nom+Def+Foc/Гак` (is not standard language)
-
-*Noun singular genitive definite examples:*
-* *калонть:* `кал+N+Sg+Gen+Def`
-* *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
-
-## INDEFINITE DECLENSION
-
-SG-NOM-INDEF_LAK ;
-
-SG-NOM-INDEF_KAL ;
-
-SG-NOM-INDEF_OSH ;
-
-* ** TMP-INDEF ; ** Check this
-
-## INDEFINITE TAGS
-
-*Noun singular nominative definite examples:*
-* *калдо:* `кал+N+SP+Abl+Indef`
-* *калдояк:* `кал+N+SP+Abl+Indef+Foc/Гак`
-
-## POSSESSIVE DECLENSION 
-
-## CASES BEFORE POSSESSIVE TAGS 
-
-## DEFINITE PLURAL
-
-## Cases for тнэ
-
-Nouns1S_A
-
-## POSSESSIVE marking followed by clitics
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nouns.lexc)</small>
-
----
-
-
-The Erzya language postpositions can be broken into many subgroups
-according to morphological and semantic criteria
-
-ало:ал
-alo-SPAT-1Arg
-
-This allows for possessor indices, word end or focus
-
-This allows for word end, possessor indices, predication
-
-postposition that is in ablative case
-алдо:алдо
-
-postposition that is in elative case
-потсто:потсто
-
-postposition that is in illative case
-эземс:эзем
-
-postposition that is in illative case
-эйс:э
-
-postposition that is in inessive case
-эйсэ:эйсэ
-
-postposition that is in lative case
-ютков:ютков
-
-postposition that is in locative case
-ало:ало
-
-postposition that is in prolative case
-перька:перька
-
-postposition that has no continuation пачк
-
-postposition that is in ablative case
-алдо:алдо
-
-postposition that is in elative case
-потсто:потсто
-
-postposition that is in illative case
-малас:мала
-
-postposition that is in illative case
-малас:мала
-
-postposition that is in illative case
-потс:пот
-
-postposition that is in illative case
-эйс:э
-
-postposition that is in inessive case
-потсо:потсо
-
-postposition that is in lative case
-алов:ало
-
-postposition that is in locative case
-ало:ало
-
-postposition that is in prolative case
-перька:перька
-
-+Temp: K ;  перть
-
-+Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adpositions.lexc)</small>
-
----
-
-# Adverb inflection
-
-The Erzya language adjectives do not compare.
-
-LEXICON ADV-SPAT_  пачк
-
-LEXICON ADV-SPAT-IS-PRL  перька
-
-LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
-
-LEXICON ADV-SPAT_ALO  ало:ал
-
-relative space **мельга**
-
-"стядо"
-
-spatial adverbs 
-dependent and independent case marking 
-
-This marking would indicate a word form that may be 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adverbs.lexc)</small>
-
----
-
-Possessor indices
-
-The Erzya language possessor indices or possessive suffixes may be followed
-by a number of morpheme types
-
-These are possessor indices that can be followed by predicate marking
-in the present there is no destinction between ScSg3 and ScPl3
-Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
-
-This appears with kindred terminology 
-
-Is "_KAL" necessary ?
-
-DAT-PXPL1 ;
-
-## POSSESSIVE TAGS 
-
-These are possessor Indices for non-nominative singular
-NonNomSg
-
-word boundary or focus
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/possessorindices.lexc)</small>
-
----
-
-Quantifier inflection
-
-Erzya quantifiers inflect in many the same cases as regular
-nouns.
-
-### Now regular
-
-кавонст
-
-омбонст
-
-кавонест is a pronoun like the Finnish molemmat
-This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
-
-кавксоненек
-
-once, twice; весть, кавксть, аламоксть
-twofold, threefold; веенькирда, кавонькирда, колмонькирда
-
-васенцеде advmod:multimprf > advmod:ordimprf
-
-васняяк 'first of all'
-
-Numeral with a range limitation to adnominal phrase
-
-2012-08-09
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
-
----
-
-# Interjections
-
-The Erzya language interjections...
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/interjections.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/interjections.lexc)</small>
-
----
-
-# Pronoun inflection
-
-Erzya pronouns inflect in many the same cases as regular
-nouns.
-
-## Closed class personal pronouns
-
-+Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
-
-+Interr+Sem/Obj: CLT/COP_SG ;  singular
-
-мон:мо
-
-тон:то
-
-сон:со
-
-минь:
-
-тынь:ты
-
-сынь:сы
-
-Obligatory Possessor Index
-
-Periferal
-
-Demonstrative
-
-истямо:истя
-
-Interrogative
-
-What should be done 
-
-кона:кона
-This is not the same as indefinite
-PronRel-kona
-
-What should be done 
-
-LEXICON PRON-IS-INTERR-SPAT-INE  косо 
-
-What should be done 
-
-Relative pronouns
-
-ки:ки
-
-ки
-
-мезе+Pron:мезИ2 Misc_Pronouns1 ;
-мезе+Pron+Rel+Gen:мень K ;
-ки+Pron+Interr:ки Misc_Pronouns1 ;
-
-Some pronoun continuation have been moved here
-Out of TestLexc-noun.txt
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/pronouns.lexc)</small>
-
----
-
-Proper noun inflection
-
-Erzya proper nouns inflect in the same cases as regular
-nouns.
-
-Андрей:Андре
-
-Вили:Вил
-
-Russian type Surnames 
-Абдеев:Абдеев
-
-Багрий:Багр
-
-Аморский:Аморск
-
-Front-vowel stem
-
-DECLENSION LIMITATIONS
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/propernouns.lexc)</small>
-
----
-
-# Adjective inflection
-
-Adjectives and other parts of speech in ERZYA are compared by means of 
-either a particle or ablative case marking on the standard of comparison
-
-кондямо:кондя
-
-2013-04-17
-
-кодамо:кода
-кодамо:кода
-кодатнэ
-кодатне 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adjectives.lexc)</small>
-
----
-
-# Verb inflection
-
-Erzya language verbs inflect for person, subject and object.
-
-OBJECT FLAGS AND +V+TV tags
-а+V:а 
-
-**LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
-
-**LEXICON TV_KADOMS ** 
-
-**LEXICON TV_NEVTEMS_SUB ** 
-
-* _LEXICON TV_NEVTEMS_  невтемс:невть
-
-**LEXICON TV_SAVTOMS_SUB ** 
-
-**LEXICON TV_SAVTOMS ** 
-
-**LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO ** 
-
-**LEXICON TV_CHACHTOMS ** 
-
-**LEXICON TV_KUNDAMS_SUB ** 
-
-**LEXICON TV_KUNDAMS ** 
-
-**LEXICON TV_SATOMS ** 
-
-**LEXICON TV_TUEMS ** 
-
-**LEXICON TV_TEEMS ** 
-
-* _LEXICON TV_NEKSHNEMS_  некшнемс:некшн
-
-VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
-
-VERBS WITH INTRANSITIVE TAGS +V+IV
-
-# AUXILIARY VERBS
-
-# DERIVATION
-
-# VERBS AFTER TRANSITIVITY Tags OBJECT FLAGS 
-
-теемс:тей
-теемс:тей
-
-no deverbals
-
-no deverbals
-
-no deverbals
-
-## DERIVATION 
-
-**LEXICON TV_NEKSHNEMS** Alternates with TRA
-**LEXICON TV_NEKSHNEMS** Alternates with TRA
-
-This is fed by actors and participles in N_myv, A_myv and Prc_myv
-This is fed by actors and participles in N_myv, A_myv and Prc_myv
-
-## CONJUGATION 
-
-Indicative Preterite I
-
-## INDICATIVE 
-
-Indicative NonPast 
-
-## INDICATIVE PRETERITE 2 
-
-## DESIDERATIVE 
-
-## CONJUNCTIVE 
-
-redo conj 2012-11-07 begin
-
-redo conj 2012-11-07 end
-
-begin
-
-end
-
-## OPTATIVE 
-
-## IMPERATIVE 
-
-## PRECATIVE
-
-## OPTATIVE 
-
-2012-11-09
-
-Given in Grammar 2000
-
-Used with deverbals
-
-ваномс+V+TV+Imprt+ScPl2+Clt/Ga: **look/katsoa**
-* *ван%>%{оеэØ%}дО1%>Г4а*
-* *ван%>одо%>0я*
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/verbs.lexc)</small>
-
----
-
-Non-Verbal conjugation
-
-In the Erzya language nominals and adverbs also conjugate
-
-Used with deverbals
-
-This is where adjectives get their plural T.
-
-used with infinitives
-
-Conjugation 
-
-# NON-VERB CONJUGATION 
-
-Conjugation 
-
-_KAL-NomSg-Conjugation-only
-
-This allows Clt/Cop+Prs Sg1|Sg2|Pl1|Pl2 
-Clt/Cop+Prt2 Sg1|Sg2|Sg3|Pl1|Pl2|Pl3
-K 2019-01-26
-
-_KUDO-NomPl-Conjugation-only
-
-_KUDO-NomPl-Conjugation-only-mutual
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/nonverbalConjugation.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nonverbalConjugation.lexc)</small>
-
----
-
-
-# Symbol affixes
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/symbols.lexc)</small>
-
----
-
 
 # Morphology
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF ERZYA.
@@ -1703,6 +1439,7 @@ Other verb forms are
 * +Err/Orth-no-linking-vowel * linking vowel is missing
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-f * not v but instead f
+* +Err/Orth-old1 * old1 like озимь, морковь
 
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller
@@ -2564,6 +2301,262 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 ---
 
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+од:од A_KAL "(eng) /(fin)/(rus) " ;
+
+ADD ADJECTIVES BELOW
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives-russian-like_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+эрзя-мокшонь:эрзя-мокшонь A-IS-GEN "(eng) /(fin) /(rus) " ;
+
+ADD ADJECTIVES BELOW
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+лембстэ:лембстэ ADV_ "(eng) /(fin) /(rus) " ;
+
+ADD ADVERBS BELOW
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+
+---
+
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
+
+verbs of negation have partial inflection:
+€ аволь
+€ иля
+€ эзь
+
+The verb ярсамс has additional irregular forms:
+€ ярстано
+€ ярстадо
+
+The verb сеземс
+
+Some of the nouns have archaic consonant stem forms left:
+€ ийть
+
+Some random Russian elements:
+
+Some of the nouns have special forms for Gen PxSg1 and PxSg2:
+
+Reciprocal pronouns
+These might be done with flags
+
+These two stems have м loss but its presence can be
+observed in the choice of "тнэ" over "тне"
+This has special hard after lost consonant
+This has special hard after lost consonant
+
+1930s Phonetic transcription
+дс >> ц
+гт >> к
+мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
+
+### ADPOSITIONS
+
+### IDEOPHONES
+are dealt with as adverbs
+
+### PRONOUNS
+
+### QUANTIFIERS
+сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
+
+### NOUNS
+
+### PLACE NAMES
+### GEO
+
+### ANIMAL NAMES
+
+### FIRST NAMES
+
+100 % homographs of Russian words
+
+adjectives in _ой_ Adj-od >> A_RU-OJ
+with  +Use/SpellNoSugg
+
++SP+Gen+Indef attributes as adjectives
+
+Russian language words found in Erzya texts
+
+Old Bible Names and words
+
+unrecognized
+
+Problems with synchronization
+missing lemmas
+
+COLLECTIVE NOUNS
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/exceptions.lexc)</small>
+
+---
+
+These are nouns with parallel declension
+
+ават%-тейтерть
+аванзо-тетянзо
+ават%-цёрат
+атявтт%-ававтт
+атят%-ават
+атят%-бабат
+атят%-сэрдят
+бабат%-нуцькат
+барант%-каткат
+боярт%-азорт
+боярт%-боярават
+
+вирть%-лугат
+вирть%-паксят
+вирть%-укшторт
+ворт%-грабительть
+ворт%-розбойникть
+эрзят%-мокшот
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-nouns.lexc)</small>
+
+---
+
+These are verbs with parallel conjugation
+
+### REDUPLICATION
+авардемс%-авардемс
+ардомс%-ардомс
+ардтневтемс%-ардтневтемс
+арсемс%-арсемс
+аштемс%-аштемс
+ванномс%-ванномс
+ваномс%-ваномс
+вешнемс%-вешнемс
+
+### %-And such
+авардемс%-теемс
+арсемс%-теемс
+аштемс%-теемс
+ванномс%-теемс
+ваномс%-теемс
+
+андомс%-симдемс
+аштемс%-учомс
+велямс%-чарамс
+вастомс%-дёлямс
+васькамс%-оймамс
+витнемс%-петнемс
+ёмавтомс%-аравтомс
+ярсамс%-симемс
+
+### SERIAL
+витнемс%-ютавтомс
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-verbs.lexc)</small>
+
+---
+
+
+
+-kal
+
+-osh
+
+-kudo
+
+-kal
+
+-osh
+
+-kudo
+
+Place names, Settlements
+
+Rivers
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/myv-propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/myv-propernouns.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+автор:автор N_KAL "(eng) /(fin) /(rus) " ;
+
+ADD NOUNS BELOW
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+автор:автор N_KAL "(eng) /(fin) /(rus) " ;
+
+ADD NOUNS BELOW
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
+
+---
+
+
+
+The derivable male given names have been moved to 
+the template urj-Cyrl-propernouns.lexc.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/rusMaleNameDer.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/rusMaleNameDer.lexc)</small>
+
+---
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ливтевкшнемс+V:ливтевкшне TV_KUNDAMS "(eng) /(fin) /(rus) " ;
+
+ADD VERBS BELOW
+
+These verbs just need Finnish translations
+A-M
+N-End
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+
+---
+
 
 
 retroflex plosive, voiceless			t`  ʈ	    0288, 648 (` = ASCII 096)
@@ -2785,8 +2778,65 @@ DerTag
 ### Grammarchecker sets
 
 * * *
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-myv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for myv
 
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-myv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+Usage:
+```
+$ make
+$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
+
+Pmatch documentation:
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+
+Characters which have analyses in the lexicon, but can appear without spaces
+before/after, that is, with no context conditions, and adjacent to words:
+* Punct contains ASCII punctuation marks
+* The symbol after m-dash is soft-hyphen `U+00AD`
+* The symbol following {•} is byte-order-mark / zero-width no-break space
+`U+FEFF`.
+
+Whitespace contains ASCII white space and
+the List contains some unicode white space characters
+* En Quad U+2000 to Zero-Width Joiner U+200d'
+* Narrow No-Break Space U+202F
+* Medium Mathematical Space U+205F
+* Word joiner U+2060
+
+Apart from what's in our morphology, there are
+1. unknown word-like forms, and
+2. unmatched strings
+We want to give 1) a match, but let 2) be treated specially by
+`hfst-tokenise -a`
+Unknowns are made of:
+* lower-case ASCII
+* upper-case ASCII
+ASCII digits
+* select symbols
+* Combining diacritics as individual symbols,
+* various symbols from Private area (probably Microsoft),
+so far:
+* U+F0B7 for "x in box"
+
+## Unknown handling
+Unknowns are tagged ?? and treated specially with `hfst-tokenise`
+hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
+remove empty analyses from other readings. Empty readings are also
+legal in CG, they get a default baseform equal to the wordform, but
+no tag to check, so it's safer to let hfst-tokenise handle them.
+
+Finally we mark as a token any sequence making up a:
+* known word in context
+* unknown (OOV) token in context
+* sequence of word and punctuation
+* URL in context
+
+* * *
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-myv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 
@@ -2850,68 +2900,6 @@ Finally we mark as a token any sequence making up a:
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-myv/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
-
----
-
-# Tokeniser for myv
-
-Usage:
-```
-$ make
-$ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-$ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-```
-
-Pmatch documentation:
-<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
-
-Characters which have analyses in the lexicon, but can appear without spaces
-before/after, that is, with no context conditions, and adjacent to words:
-* Punct contains ASCII punctuation marks
-* The symbol after m-dash is soft-hyphen `U+00AD`
-* The symbol following {•} is byte-order-mark / zero-width no-break space
-`U+FEFF`.
-
-Whitespace contains ASCII white space and
-the List contains some unicode white space characters
-* En Quad U+2000 to Zero-Width Joiner U+200d'
-* Narrow No-Break Space U+202F
-* Medium Mathematical Space U+205F
-* Word joiner U+2060
-
-Apart from what's in our morphology, there are
-1. unknown word-like forms, and
-2. unmatched strings
-We want to give 1) a match, but let 2) be treated specially by
-`hfst-tokenise -a`
-Unknowns are made of:
-* lower-case ASCII
-* upper-case ASCII
-ASCII digits
-* select symbols
-* Combining diacritics as individual symbols,
-* various symbols from Private area (probably Microsoft),
-so far:
-* U+F0B7 for "x in box"
-
-## Unknown handling
-Unknowns are tagged ?? and treated specially with `hfst-tokenise`
-hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
-remove empty analyses from other readings. Empty readings are also
-legal in CG, they get a default baseform equal to the wordform, but
-no tag to check, so it's safer to let hfst-tokenise handle them.
-
-Finally we mark as a token any sequence making up a:
-* known word in context
-* unknown (OOV) token in context
-* sequence of word and punctuation
-* URL in context
-
-* * *
-
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-myv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 

@@ -212,6 +212,7 @@ Other verb forms are
 * +Err/Orth-no-linking-vowel * linking vowel is missing
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-f * not v but instead f
+* +Err/Orth-old1 * old1 like озимь, морковь
 
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller

@@ -18,6 +18,8 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
+* LEXICON N_OZIM1  озимь:озимь %^Ь2ZERO
+
 * LEXICON N_PEJ  кель:кель %^Ь2ZERO
 
 * LEXICON N_SODYJ  сода%>%{иы%}й, содый
