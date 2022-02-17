@@ -299,7 +299,7 @@ LIST Der/stO = Der/stO Der/стО ;
 LIST Actor = NomAg Der/NomAg ;
 LIST VAbess = VAbess ;
 LIST ActPrcShort = ActPrcShort ;
-
+LIST Der/OmA = Der/OmA ;#Der/OmA NomAct
 
 LIST Der/ВтОмО = Der/ВтОмО ;
 LIST Der/шка = Der/шка ;
@@ -638,6 +638,7 @@ LIST SCPERSON12 = ScSg1 ScSg2 ScPl1 ScPl2 ;
 
 LIST PERSON = Sg1 Sg2 Sg3 Pl1 Pl2 Pl3 ;
 
+SET NOSCPERSON = WORD - SCPERSON ;#i.e. no predication
 
 
 LIST <vdic> = <vdic> ;
@@ -769,6 +770,17 @@ REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ;
 # KILL lan
 REMOVE:Nolan ("лан" Prl) IF (0 ("ланга") OR ("ланго" Prl)) ;
 
+# vese Adv vs Pron
+# Весе истят растениятненень мерить кавто иень.
+REMOVE:NoVeseAdvWhenFollowedByNP ("весе" Adv) IF (1 A OR N) ;
+
+# ki vs kize
+REMOVE:NoKiWhenFollowedByPertj ("ки" N SP Ill) IF (1 ("перть" Po));
+
+# Вась vs васень
+# Васень кизэстэнть сынь кастыть эчке корён
+REMOVE:NoVasjWhen ("Вась" N Prop Pl Nom PxSg1) IF (1 N);
+
 #ЛЕНИН
 REMOVE:NoAcrIfProp ACR IF (0 N + Prop) ;
 #кеж КЕЖ
@@ -784,6 +796,7 @@ REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
 
 # Сельмечирькензэ сонзэ крутат, раужот
+# PROBLEM: Васень кизэстэнть сынь кастыть эчке корён
 REMOVE:NoAdjOblIfN AdjObl IF (0 N) ;
 
 
@@ -853,6 +866,12 @@ REMOVE:veNumIfNextNotN Num IF (0 ("ве")) (NOT 1 N);
 
 # пачкодинек Бланка леенть трокс ютамо
 REMOVE:troksNIfPo N IF (0 ("трокс")) (-1 Gen);
+
+# эряви тонавтнемс аволь ансяк сень кис, штобу
+REMOVE:NoKieWhenPrecedeGen ("кие") IF (-1 Gen) (0 Po OR Adp) ;
+
+# эряви тонавтнемс аволь ансяк сень кис, штобу
+REMOVE:NoKiNIllWhenPrecedeGen ("ки" N SP Ill) IF (-1 Gen) (0 Po OR Adp) ;
 
 # эль-эль усксть стака крандазонть
 REMOVE:stamsIfStaka ("стамс") IF (0 ("стака")) ((-1* VFIN BARRIER BOS) OR (1* VFIN BARRIER EOS));
@@ -1023,6 +1042,13 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 REMOVE:NoPcleWhenPreceededByFinite Pcle IF (*-1 VFIN BARRIER BOS OR CLB) ;# 2022-02-08 too strong?
 
 # Verbs
+
+# трудонь эрьва кодат орудиятне
+REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
+
+# пользоватано эсь эрямосонок
+REMOVE:NoVWhenEsj Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-1 ("эсь" Det Refl)) ;
+
 # Кудонть потс кадовсть ансяк
 REMOVE:NotOvOms Der/OvOms IF (0 V) ;
 
