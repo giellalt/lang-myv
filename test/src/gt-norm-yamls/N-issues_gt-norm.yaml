@@ -1,0 +1,32 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+
+  Noun - псака: # Ordinary nouns - full paradigm including MWN
+    псака+N+Sg+Nom+Indef: псака
+    псака+N+SP+Gen+Indef: псакань
+    псака+N+SP+Abl+Indef: псакадо
+    карь+N+SP+Abl+Indef: карде
+    карь+N+SP+Abl+Indef+Clt/Cop+Prs+ScSg2: кардят
+    псака+N+SP+Dat+Indef: псаканень
+    псака+N+SP+Com+Indef: псаканек
+    псака+N+SP+Abe+Indef: псакавтомо
+    псака+N+SP+Cmpr+Indef: псакашка
+    псака+N+SP+Ine+Indef: псакасо
+    псака+N+SP+Ela+Indef: псакасто
+    псака+N+SP+Ill+Indef: псакас
+    псака+N+SP+Prl+Indef: псакава
+    псака+N+SP+Tra+Indef: псакакс

@@ -1153,12 +1153,12 @@ LEXICON _KIT-N2-Def-Declension
 LEXICON _KAL-N2-Def-Declension
  N_KAL-Def-Declension ;
 +SP+Tra+Indef:%>%{оеэØ%}кс K ;
-+SP+Abl+Indef:%>дО1 _KUDO-Conjugation ;
++SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation ;
 
 LEXICON _OSH-N2-Def-Declension
  N_OSH-Def-Declension ;
 +SP+Tra+Indef:%>%{оеэØ%}кс K ;
-+SP+Abl+Indef:%>дО1 _KUDO-Conjugation ;
++SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation ;
 
 LEXICON _KUDO-N2-Def-Declension
  NMN_DEF-DECLENSION ;
@@ -1171,12 +1171,12 @@ LEXICON _KUDO-N2-Def-Declension_FRONT
 ! harmony: front
  NMN_DEF-SG-DECLENSION_STEM-IN-FRONT-VOW ;
 +SP+Tra+Indef:%>кс K ;
-+SP+Abl+Indef:%>дО1 _KUDO-Conjugation_FRONT ;
++SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation_FRONT ;
 
 LEXICON _KUDO-N2-Def-Declension_BACK
  NMN_DEF-SG-DECLENSION_STEM-IN-BACK-VOW ;
 +SP+Tra+Indef:%>кс K ;
-+SP+Abl+Indef:%>дО1 _KUDO-Conjugation_BACK ;
++SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation_BACK ;
 
 ! =================== !
 ! Inflectional lexica !
@@ -1462,7 +1462,7 @@ LEXICON SG-INE-DEF
 +Sg+Ine+Def:%>с%{оэØ%}%>н%> N2Dem-SE ; !!= * **@CODE@**  !коридорсонсесь 2022-02-10
 
 LEXICON SG-ABL-DEF
-@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>дО1%>нть K ;
+@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>%{дт%}О1%>нть K ;
 
 LEXICON SG-PRL-DEF
 @U.DECL-NX.SG@@U.CX.PRL@+Sg+Prl+Def:@U.DECL-NX.SG@@U.CX.PRL@%>Г2а%>нть K ;
@@ -1496,7 +1496,7 @@ LEXICON SG-DAT-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.DAT@+Use/-Spell+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>стень K ;
 
 LEXICON SG-ABL-DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.ABL@+Use/-Spell+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>дО1%>сть K ;
+@U.DECL-NX.SG@@U.CX.ABL@+Use/-Spell+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>%{дт%}О1%>сть K ;
 
 LEXICON SG-ELA-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.ELA@+Use/-Spell+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст%{оэØ%}%>сть K ;
@@ -1702,7 +1702,7 @@ LEXICON ABL-INDEF
 !!€gt-norm: Noun singular nominative definite
 !!€ калдо: кал+N+SP+Abl+Indef
 !!€ калдояк: кал+N+SP+Abl+Indef+Foc/Гак
-@U.DECL-NX.SP@@U.CX.ABL@+SP+Abl+Indef:@U.DECL-NX.SP@@U.CX.ABL@%>дО1 _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ABL@+SP+Abl+Indef:@U.DECL-NX.SP@@U.CX.ABL@%>%{дт%}О1 _KUDO-Conjugation ;
 
 LEXICON CMP-INDEF
 @U.DECL-NX.SP@@U.CX.CMP@+SP+Cmpr+Indef:@U.DECL-NX.SP@@U.CX.CMP@%>шка _KUDO-Conjugation ;
@@ -1898,7 +1898,7 @@ LEXICON ABE-PX
 +SP+Abe:%>вт%{оеэ%}мО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ABL-PX
-+SP+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abl:%>%{дт%}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON CMP-PX
 +SP+Cmpr:%>шка OBL-PX-FOLLOWED-BY-END/FOC/COP ;
@@ -1992,7 +1992,7 @@ LEXICON SecondaryDeclination_1RequiresVowel
 LEXICON SecondaryDeclination_1RequiresNoVowel
 +Sg+Prl+Def:%>Г2а SecondaryDeclination_SgDet-PossPx ;
 +Sg+Abe+Def:%>вт%{оеэ%}мО1 SecondaryDeclination_SgDet-PossPx ;
-+Sg+Abl+Def:%>дО1 SecondaryDeclination_SgDet-PossPx ;
++Sg+Abl+Def:%>%{дт%}О1 SecondaryDeclination_SgDet-PossPx ;
 +Sg+Ine+Def:%>с%{оэØ%} SecondaryDeclination_SgDet-PossPx ;
 +Sg+Ela+Def:%>ст%{оэØ%} SecondaryDeclination_SgDet-PossPx ;
 +Sg+Cmpr+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
@@ -2030,7 +2030,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 ! Possessive-NomGen ;
 
 !+Abe:%>вт%{оеэ%}мО1 _KUDO-Indef-DefSg-Poss ;
-!+Abl:%>дО1 _KUDO-Indef-DefSg-Poss ;
+!+Abl:%>%{дт%}О1 _KUDO-Indef-DefSg-Poss ;
 !+Cmpr:%>%{оеэØ%}шка _KUDO-Indef-DefSg-Poss ;
 !+Prl:%>Г2а _KUDO-Indef-DefSg-Poss ;
 !+Tra:%>%{оеэØ%}кс _OSH-Indef-DefSg-Poss ;
@@ -2094,7 +2094,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 
 
 !LEXICON Nouns1S_A_NoReqVow
-!+Abl:%>дО1 _KUDO-Indef-DefSg-Poss ;
+!+Abl:%>%{дт%}О1 _KUDO-Indef-DefSg-Poss ;
 !+Prl:%>Г2а _KUDO-Indef-DefSg-Poss ;
 !+Abe:%>вт%{оеэ%}мО1 _KUDO-Indef-DefSg-Poss ;
 
@@ -2119,7 +2119,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 
 !LEXICON istja-Gen-Attributes
 ! K ; !!= * __@CODE@__ This means that stem is word final 
-!+Abl+Indef:%>дО1 K ;
+!+Abl+Indef:%>%{дт%}О1 K ;
 !+Der/GenAttr:%>нь _KAL-Tenses-Obl ;
 !+Der/GenAttr:%>н N2Dem-SE ;
 !+Orth/Morph+Der/GenAttr:%>нь%> N2Dem-SE ; ! _ь_ retension through double %>%>
@@ -2131,7 +2131,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 
 !LEXICON pek-Gen-Attributes
 ! K ; !!= * __@CODE@__ This means that stem is word final 
-!+Abl+Indef:%>дО1 K ;
+!+Abl+Indef:%>%{дт%}О1 K ;
 ! GEN-INDEF-LIKE-DERIVATION ;
 
 !LEXICON GEN-INDEF-LIKE-DERIVATION
