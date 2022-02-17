@@ -667,6 +667,8 @@ And following triggers to control variation
 
 * %^Ь2ZERO   removes stem-final soft sign
 
+* _%{дт%}_ in ablative
+
 * %{ое%} inflectional suffix protovowel  аволь аволинь
 * %{оеэØ%} Suffix-initial archiphoneme
 * %{уиыØ%} Suffix-initial archiphoneme in dialect

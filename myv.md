@@ -952,6 +952,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * _%{ЕØ%}:ь_ Stem-final archiphoneme тинге
 * _%{ЕØ%}:0_ Stem-final archiphoneme тинге
 
+* _%{дт%}:д_ in ablative
+* _%{дт%}:т_ in ablative
+
  %{frontHard%}:0    — front harmony hard
  %{frontSoft%}:0    — front harmony soft
  %{back%}:0    — back harmony
@@ -1056,6 +1059,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 путомс+V+Prec+ScSg2: **put/laittaa**
 * *пут%>%{КТ%}%{АЯ%}*
 * *пут%>та*
+* *карь>{дт}О1>{АЯ}н*
+* *кар0>д0>ян*
 
 **j:0**  
 * *сай%>%{оеэØ%}%>дО1*
@@ -1153,12 +1158,14 @@ imperative suffix
 * *клас0%>с*
 
 **d:t**  
-* *кедь%>дО1*
+* *кедь%>%{дт%}О1*
 * *кед0%>те*
-* *обед%{frontHard%}%>дО1*
+* *обед%{frontHard%}%>%{дт%}О1*
 * *обед0%>тэ*
-* ★*обед%{frontHard%}%>дО1* (is not standard language)
+* ★*обед%{frontHard%}%>%{дт%}О1* (is not standard language)
 * ★*обед0%>дэ* (is not standard language)
+
+**d:d**  
 
 **y:y**
 
@@ -1895,6 +1902,8 @@ And following triggers to control variation
 * Ӓ4   пелемс:пӒ4ль
 
 * %^Ь2ZERO   removes stem-final soft sign
+
+* _%{дт%}_ in ablative
 
 * %{ое%} inflectional suffix protovowel  аволь аволинь
 * %{оеэØ%} Suffix-initial archiphoneme
