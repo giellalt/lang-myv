@@ -4,6 +4,10 @@ The Erzya language adjectives do not compare.
 
 LEXICON ADV-SPAT_  пачк
 
+LEXICON ADV_IS_LAT  алов
+
+LEXICON ADV_IS_LOC  ало
+
 LEXICON ADV-SPAT-IS-PRL  перька
 
 LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
