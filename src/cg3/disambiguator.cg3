@@ -202,6 +202,7 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 
+LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
 
 SET AdjObl = A - (A Sg Nom Indef) - (A Pl Nom Indef) ;
 
@@ -669,7 +670,7 @@ LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take additive partic
 LIST VAMBNOUNS = "вал" "кадо" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пона" "понго" "ранг" "ром" "сал" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 # "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ""
 
-LIST VERBWITHMO = "арсемс" "кармамс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
+LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
 LIST VERBWITHMODS = "кучомс" "озавтомс" "тердемс" ; #!!озавтомс ярсамо Distinguish	from Der/NomAct
 
@@ -688,7 +689,20 @@ LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видь
 
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
+LIST VERBTAKESkodaCCOMP = "арсемс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
+# cobj
+# allows for interim vocative: Ды содат ли, браток, кода седеем токнозевсь?
+# further issues inclued: сон тосо распоряженият максниль, кода теемс укреплениятнень,
+
+LIST VERBTAKESkodaCSUBJ = "ледстявомс" "неявомс" "помнявомс" ;
+# csubj
+
 LIST VERBTAKESDATILL = "радовамс" ;
+
+LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#
+LIST ESJ = ("эсь" Det Refl);
+
+LIST LIKELYOBJECT = (Pron Pers Sg1 Gen) (Pron Pers Sg2 Gen) (Pron Pers Sg3 Gen) (Pron Pers Pl1 Gen) (Pron Pers Pl2 Gen) (Pron Pers Pl3 Gen) (Gen Def) (Prop SP Gen) (Prop Gen) ;#
 
 SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
 
@@ -723,11 +737,11 @@ SET SG-SUBJ = SG-SUBJ-INDEF OR SG-SUBJ-DEF OR SG-SUBJ-PX ;
 
 
 #!! ### Derivation tags
-LIST 2VDerTag = Der/njems Der/немс Der/OvtOms ; #!! 2VDerTag
+LIST 2VDerTag = Der/njems Der/немс Der/OvtOms Der/Ovtnjems ; #!! 2VDerTag
 LIST 2NDerTag = Der/кс ; #!! 2NDerTag
 LIST DerGenAttr = Der/GenAttr ;
 
-LIST DerTag = Der/MWN Der/njems Der/немс Der/Y ; #!! DerTag
+LIST DerTag = Der/MWN Der/njems Der/немс Der/Y 2VDerTag ; #!! DerTag
 
 LIST ShortPrsPrc = Der/Y Der/Yj ;
 
@@ -759,8 +773,8 @@ SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 #
-SUBSTITUTE (IV) (*) TARGET (*) ;
-SUBSTITUTE (TV) (*) TARGET (*) ;
+#SUBSTITUTE (IV) (*) TARGET (*) ;
+#SUBSTITUTE (TV) (*) TARGET (*) ;
 #
 
 
@@ -795,6 +809,9 @@ SELECT ("мельга") IF (0 ("мель" N SP Prl) );
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
 
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
+
+# седе валдо comparative
+REMOVE:NoNIfPreviousComp N IF (-1 (Pron Dem Sg Abl Indef));
 
 # Сельмечирькензэ сонзэ крутат, раужот
 # PROBLEM: Васень кизэстэнть сынь кастыть эчке корён
@@ -838,8 +855,8 @@ REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS
 #Яковонь шкань шкань кальцькаевсть пеензэ
 REMOVE:NoGenIfOnlySubjPossible Gen IF (NOT -2* PL-SUBJ BARRIER BOS) (-1 VNoGenObj + ScPl3) (0 PL-SUBJ-PX) (NOT 1* PL-SUBJ BARRIER EOS) ;
 
-#Сёлминенэ кадовсь панжадо.
-REMOVE Gen IF (NOT -1* SG-SUBJ BARRIER BOS) (0 SG-SUBJ-PX) (1* ScSg3 BARRIER EOS)
+#Сёлминезэ кадовсь панжадо.
+REMOVE (Sg Gen) IF (NOT -1* SG-SUBJ BARRIER BOS) (0 SG-SUBJ-PX) (1* ScSg3 BARRIER EOS)
        	      	       	       (NOT 1* SG-SUBJ BARRIER EOS)
 			       (NOT 1 Der/Ozj + Ger);
 
@@ -946,6 +963,29 @@ REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 # Вай, кодамо мазый Локсеесь!
 REMOVE:NotNounWhenFollowedByNounAndPo N IF (0 A + Sg + Nom + Indef) (1 N) (2 ADPNOPX OR CLB OR EOS) ;
 
+
+SELECT:GenWhenBeforeCommaGen (Sg Gen Def) IF (-2 (Sg Gen Def)) (-1 (",")) (1 (","));
+			     # карматано тонавтнеме моданть, веденть, воздухонть
+
+#
+#MAP (@<OBJ) TARGET GENDEF IF (NOT 1 Postp)
+#                             (*-1 (V TV Inf Loc));
+REMOVE IV IF (1 (Sg Gen Def) OR (Pl Gen Def))
+             (NOT 2 Po OR Adp);
+
+REMOVE IV IF (-1 (Sg Gen Def) OR (Pl Gen Def));
+REMOVE IV IF (-2 (Sg Gen Def) OR (Pl Gen Def))
+             (-1 DATAUX) (0 (V Inf));
+REMOVE IV IF (0 VERBTAKESkodaCCOMP) (1 (",")) (2 ("мезе") OR ("кода"));#невтнесть, кода кочкамс
+
+REMOVE IV IF (1 LIKELYOBJECT) (2 ESJ);
+       	     # нолды сонзэ эсь лезэс
+
+REMOVE:NoIVWhenLeftDatRightObj IV IF (-1 Dat) (0 ("меремс")) (1 (Sg Nom Indef) OR (Pl Nom Indef));
+
+REMOVE:NoOcWhenLeftDatRightObj OCONJ IF (-1 Dat) (0 ("меремс")) (1 (Sg Nom Indef) OR (Pl Nom Indef));
+
+
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
 
@@ -1048,7 +1088,8 @@ REMOVE:NoPcleWhenPreceededByFinite Pcle IF (*-1 VFIN BARRIER BOS OR CLB) ;# 2022
 REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
 
 # пользоватано эсь эрямосонок
-REMOVE:NoVWhenEsj Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-1 ("эсь" Det Refl)) ;
+REMOVE:NoVWhenEsj1 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-1 ("эсь" Det Refl)) ;# How are these joined
+#REMOVE:NoVWhenEsj2 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-2 ("эсь" Det Refl)) (-1 NMODIFIER);
 
 # Кудонть потс кадовсть ансяк
 REMOVE:NotOvOms Der/OvOms IF (0 V) ;

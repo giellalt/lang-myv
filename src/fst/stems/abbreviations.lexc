@@ -45,10 +45,20 @@ ab-dot-noun ;
 
 LEXICON ab-nodot-noun ! The bulk
 +N+ABBR: # ;  ! no period, that is.
++N+ABBR+Sg+Dat+Def:%-нтень # ;
++N+ABBR+Sg+Gen+Def:%-нть # ;
 +N+ABBR+SP+Gen+Indef:%-нь # ;
+
+LEXICON ab-nodot-noun-back ! The bulk
++N+ABBR: # ;  ! no period, that is.
++N+ABBR+Sg+Dat+Def:%-нтень # ;
++N+ABBR+Sg+Gen+Def:%-нть # ;
++N+ABBR+SP+Gen+Indef:%-нь # ;
++N+ABBR+SP+Ine+Indef:%-со # ;
 
 LEXICON ab-nodot-noun-front ! The bulk
 +N+ABBR: # ;  ! no period, that is.
++N+ABBR+Sg+Dat+Def:%-нтень # ;
 +N+ABBR+Sg+Gen+Def:%-нть # ;
 +N+ABBR+SP+Gen+Indef:%-нь # ;
 +N+ABBR+SP+Ine+Indef:%-сэ # ;
@@ -92,7 +102,7 @@ LEXICON noperiod
 АПП ab-nodot-noun ;
 АсПУр ab-nodot-noun ;
 АСРОС ab-nodot-noun ;
-АССР ab-nodot-noun ;
+АССР ab-nodot-noun-front ;
 АТК  ab-nodot-noun ;
 АТО ab-nodot-noun ;
 АТОС ab-nodot-noun ;
@@ -216,7 +226,7 @@ LEXICON noperiod
 ЖКХ ab-nodot-noun ;
 ЖЭС ab-nodot-noun ;
 ЖЭУ  ab-nodot-noun ;
-ЗАГС  ab-nodot-noun ;
+ЗАГС  ab-nodot-noun-back ;
 ЗАО   ab-nodot-noun ;
 ЗЖБИ ab-nodot-noun ;
 ЗИЛ  ab-nodot-noun ;
@@ -556,7 +566,7 @@ LEXICON noperiod
 ЦДТ ab-nodot-noun ;
 ЦЗН ab-nodot-noun ;
 ЦИК  ab-nodot-noun ;
-ЦК  ab-nodot-noun ;
+ЦК  ab-nodot-noun-back ;
 ЦНИИМЭ ab-nodot-noun ;
 ЦРБ ab-nodot-noun ;
 ЦРМ  ab-nodot-noun ;

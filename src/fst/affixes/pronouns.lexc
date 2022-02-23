@@ -20,7 +20,7 @@ LEXICON PRONOUN-TYPES
 !та-кода K ; ! XXX already pron
 кие+Pron:ки PRON-IS-REL-PERS ;
 
-эрьва+Det:эрьва PRON_KUDO ;
+эрьва+Det:эрьва NMN_KUDO ;
 эте+Det:эте DET-DEM_TE ;
 тете+Pron:тете DET-DEM_TE ;
 
@@ -634,7 +634,6 @@ LEXICON PRON_
 !! Demonstrative
 
 LEXICON PRON-DEM
-!те+Pron+Dem:те PRON-DEM-CASE ;
 не+Det+Dem+Pl:не K ;
 неке+Det+Dem+Pl:неке K ;
 нона+Det+Dem+Pl:нона K ;
@@ -649,7 +648,7 @@ LEXICON PRON-DEM
 теке+Pron+Dem+SP+Ela+Indef:текеньстэ K ;
 теке+Pron+Dem+SP+Ine+Indef:текеньсэ K ;
 
-се+Pron+Dem:се PRON-DEM-CASE ;
+се+Pron+Dem:се PRON-DEM_TE ;
 те+Pron+Dem:те PRON-DEM_TE ;
 
 мезе-мезе+Pron+Distr+Sg+Nom+Indef:мӒ4зе-мӒ4зе # ;
@@ -1531,9 +1530,6 @@ LEXICON ne-Dem
 +Pl+Abl:%>%{дт%}О1 K ;
 +Pl+Ill:%>с K ;
 
-
-LEXICON PRON_KUDO
-+Qnt: NMN_KUDO ;
 
 !LEXICON Misc_Pronouns_Sg
 !  Misc_Pronouns_Indef ;

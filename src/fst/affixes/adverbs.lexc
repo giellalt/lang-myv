@@ -152,11 +152,11 @@ LEXICON ADV-SPAT_ !!= @CODE@ пачк
 !LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
 !+Abl: K ;
 
-!LEXICON ADV-SPAT-IS-LAT !!= @CODE@ алов
-!+Lat: K ;
+LEXICON ADV_IS_LAT !!= @CODE@ алов
++Lat: K ;
 
-!LEXICON ADV-SPAT-IS-LOC !!= @CODE@ ало
-!+Loc: K ;
+LEXICON ADV_IS_LOC !!= @CODE@ ало
++Loc: K ;
 
 LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
 +Prl: K ;
@@ -299,10 +299,7 @@ LEXICON ADV-IS-SPAT-INE
 LEXICON ADV-IS-ABL
 +Abl: K ;
 
-LEXICON ADV-IS-SPAT-LAT
-+Lat: K ;
-
-LEXICON ADV-IS-SPAT-PRL
+LEXICON ADV_IS_PRL
 +Prl: K ;
 +Prl: CLT/COP4_OBL ;
 
