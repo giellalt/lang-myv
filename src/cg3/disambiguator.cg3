@@ -202,6 +202,7 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 
+
 LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
 
 SET AdjObl = A - (A Sg Nom Indef) - (A Pl Nom Indef) ;
@@ -613,6 +614,11 @@ SET NOT-DEM = WORD - Dem ;
 LIST SGPRON = (Pron Sg1) (Pron Sg2) (Pron Sg3) (Pron Sg) (Pron PxSg1) (Pron PxSg2) (Pron PxSg3);
 LIST PLPRON = (Pron Pl1) (Pron Pl2) (Pron Pl3) (Pron Pl) (Pron PxPl1) (Pron PxPl2) (Pron PxPl3);
 
+LIST POSTPWITHGEN  = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
+
+
+LIST POSTPWITHGENORPX  = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "икеле" "икелев" "икельга" "икелде" "кисэ" "коряс" "кувалма" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "удалга" "удалдо" "удало" "удалов" ;
+
 LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
 
 
@@ -689,7 +695,7 @@ LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видь
 
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
-LIST VERBTAKESkodaCCOMP = "арсемс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
+LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
 # cobj
 # allows for interim vocative: Ды содат ли, браток, кода седеем токнозевсь?
 # further issues inclued: сон тосо распоряженият максниль, кода теемс укреплениятнень,
@@ -888,14 +894,16 @@ REMOVE:veNumIfNextNotN Num IF (0 ("ве")) (NOT 1 N);
 # пачкодинек Бланка леенть трокс ютамо
 REMOVE:troksNIfPo N IF (0 ("трокс")) (-1 Gen);
 
-# эряви тонавтнемс аволь ансяк сень кис, штобу
+
 REMOVE:NoKieWhenPrecedeGen ("кие") IF (-1 Gen) (0 Po OR Adp) ;
+			   #кис: эряви тонавтнемс аволь ансяк сень кис, штобу
 
-# эряви тонавтнемс аволь ансяк сень кис, штобу
 REMOVE:NoKiNIllWhenPrecedeGen ("ки" N SP Ill) IF (-1 Gen) (0 Po OR Adp) ;
+			      #ки: эряви тонавтнемс аволь ансяк сень кис, штобу
+			      
 
-# эль-эль усксть стака крандазонть
 REMOVE:stamsIfStaka ("стамс") IF (0 ("стака")) ((-1* VFIN BARRIER BOS) OR (1* VFIN BARRIER EOS));
+		    #стамс: эль-эль усксть стака крандазонть
 
 #Лиясто кевкстнить эйсэнь.
 REMOVE 2VDerTag (0 V) ; #2017-11-05
@@ -947,8 +955,9 @@ REMOVE Rel IF (1 QUEST) ;
 #«Ков сыргить?»
 REMOVE Rel IF (0 Upper) (NOT 0 Prop) ;
 
-#изнявкстнэ, конатнень теинзе
-REMOVE Interr IF (-1 PUNCT)(0 Rel);
+REMOVE Interr IF (-2 N) (-1 (","))(0 Rel);
+       #конатнень: изнявкстнэ, конатнень теинзе
+
 
 #Эйкакшонь масторга.
 REMOVE DerGenAttr IF (0 N + SP + Gen) ;
@@ -962,11 +971,12 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 # эсь мелест
 REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
-#озась коське тарад лангс.
-# Вай, кодамо мазый Локсеесь!
 REMOVE:NotNounWhenFollowedByNounAndPo N IF (0 A + Sg + Nom + Indef) (1 N) (2 ADPNOPX OR CLB OR EOS) ;
+				      #коське: озась коське тарад лангс.
+				      #мазый:  Вай, кодамо мазый Локсеесь!
 
-
+REMOVE:NotAblWhenGenForPostp Abl IF (0 Gen) (1 ADPNOPX);
+			     #ведь ве: рудазов веденть марто
 SELECT:GenWhenBeforeCommaGen (Sg Gen Def) IF (-2 (Sg Gen Def)) (-1 (",")) (1 (","));
 			     # карматано тонавтнеме моданть, веденть, воздухонть
 
@@ -1019,9 +1029,9 @@ REMOVE:NoNIfAwithPreviousSuperl N ((-1 Superl) OR (-1 ("пек"))) (0 A);
 
 SELECT:DegIfNextAdv Deg IF (0 ("пек")) (1 (A) OR (Adv)) ;
 
-# сынь пек вечкить налксемс
-REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ;
 
+REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ;
+		       #пек: сынь пек вечкить налксемс
 # instead of Der/stO Adv
 # мазыйстэ
 REMOVE:NoDerAdvIfAdv (Der/stO Adv) IF (0 Adv) ;
@@ -1283,6 +1293,17 @@ REMOVE:DetIfPronFollowingNotN Det IF (0 Pron) (NOT 1 N OR A ) ;
 
 ## Pronouns
 
+REMOVE Rel IF (-2 VERBTAKESkodaCCOMP) (-1 (","));
+       	   #мезе: штобу содамс, мезе тейневи природасонть.
+
+SELECT Interr IF (-2 BOS) (-1 ("но"));
+       	      #мезе:  Но мезе истямо порось?
+
+REMOVE Interr IF (-1 ("весе"));
+       	      #мезе:  весе мезе сыненст эряви.
+REMOVE Interr IF (-2 (Nom Def)) (-1 (","));
+       	      #мезе: Секс сех главноесь, мезе эряви...
+	      
 # cе, кинень
 #
 REMOVE:NoKiIfAnteceedSe ("ки") IF (-2 ("се")) (-1 (",")) (0 ("кие")) ;
@@ -1300,14 +1321,16 @@ REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 #PXPERSON
 REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 ADPNOPX) ;
 
-# кедьсэнь
+
 REMOVE:PoIfAdp Po IF (0C Adp) ;
+	       #кедьсэ: кедьсэнь
+	       
 
-# тыньгак каршо а ультядо
 REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;
-
+       #каршо: тыньгак каршо а ультядо
+       
 # сюконякшнось партизантнэнь каршо
-SELECT Adp (-1 N + Pl + Gen OR N + Sg + Gen OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
+SELECT Adp (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
 
 # васттано тынк марто
 REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
