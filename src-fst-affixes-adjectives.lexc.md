@@ -9,6 +9,7 @@ either a particle or ablative case marking on the standard of comparison
 
 кодамо:кода
 кодамо:кода
+кодамо:кода
 кодатнэ
 кодатне 
 
