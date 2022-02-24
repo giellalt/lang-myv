@@ -256,8 +256,9 @@ Multichar_Symbols
  +Err/Orth-no-linking-vowel    !!≈ * @CODE@ * linking vowel is missing
  +Err/Orth-high-linking-vowel    !!≈ * @CODE@ * linking vowel is high
  +Err/Orth-f	!!≈ * @CODE@ * not v but instead f
+ +Err/Orth-s	!!≈ * @CODE@ * not v but instead s
  +Err/Orth-old1	!!≈ * @CODE@ * old1 like озимь, морковь
-
+ +Err/Orth-pre2012  !!≈ * @CODE@ * previous orthography
  +Use/Marg  !!≈ * @CODE@ * Marginal
  +Use/-Spell !!≈ * @CODE@ * Exclude from speller
  +Use/SpellNoSugg !!≈ * @CODE@ * recognized but not suggested in speller
@@ -1282,7 +1283,8 @@ LEXICON verbs
 
 LEXICON BAHUV_KAL
 +Bahuvrihi: A_KAL ;
-
+LEXICON BAHUV_PEJ
++Bahuvrihi: A_PEJ ;
 !LEXICON BAHUV_KEL1
 !+Bahuvrihi: A_KEL1 ;
 
@@ -1346,8 +1348,8 @@ LEXICON CS-TEMP_
 !сех+Pcle+Superl+Abl:сехте ENDLEX ; ! This is a comparative construction
 !уш+Pcle+Intensifier:уш ENDLEX ;
 
-LEXICON PCLE-COMPAR-STND !! Not a real particle; it can take a clitic седеяк
-+Adv+Comp: K ;
+LEXICON ADV_COMPAR_STND !! Not a real particle; it can take a clitic седеяк
++Comp: K ;
 
 LEXICON PCLE-EPIST
 +Epist: ENDLEX ;

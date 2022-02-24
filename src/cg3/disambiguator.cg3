@@ -788,6 +788,9 @@ REMOVE:Nolan ("лан" Prl) IF (0 ("ланга") OR ("ланго" Prl)) ;
 # vese Adv vs Pron
 # Весе истят растениятненень мерить кавто иень.
 REMOVE:NoVeseAdvWhenFollowedByNP ("весе" Adv) IF (1 A OR N) ;
+REMOVE:NoVeseAdvWhenFollowedByModifier ("весе" Adv) IF (1 (","))
+				       (2 ("мезе")) ;
+#весе: Весе, мейсэ минь пользоватано эсь
 
 # ki vs kize
 REMOVE:NoKiWhenFollowedByPertj ("ки" N SP Ill) IF (1 ("перть" Po));
@@ -1055,19 +1058,24 @@ REMOVE:NotAWhenNFollowedByPeshkse A IF (0 N) (0 Abl) (1 PESHKSE) ;
 
 ## Numerals
 
-# "кавто" Num AssocColl PxPl3
-REMOVE CARDNUM (0 AssocColl ) ;
 
+REMOVE CARDNUM (0 AssocColl ) ;
+       # "кавто" Num AssocColl PxPl3
 
 ## Adjectives
-# ковгак
+
 REMOVE:NotAdvInterrIfAdvIndef Adv + Interr IF (0 Adv + Indef ) ;
+			      # ковгак
+			      
+REMOVE:APlNomIndefIfCltCop (A Pl Nom Indef) IF (0 Clt/Cop);
+			   #покшт: веенсттнэ эйстэст седе покшт
 
-# седе мазы, седе мазыстэ
 REMOVE:NotCompN N (-1 SEDE ) ;
+		# седе мазы, седе мазыстэ
 
-#Цёрась сон а берянь.
 REMOVE:NotAttrAtEOS Attr (1 EOS) ;
+		    #Цёрась сон а берянь.
+
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 SELECT $$Case IF (1 CC LINK 1C $$Case) ;
@@ -1079,26 +1087,35 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # Particles
 
 # ды Conj vs Pcle
-# Сон неизе Локсеенть [ды] озась коське тарад лангс.
 REMOVE:NoPcleWhenPreceededByFinite Pcle IF (*-1 VFIN BARRIER BOS OR CLB) ;# 2022-02-08 too strong?
+				   # Сон неизе Локсеенть [ды] озась коське тарад лангс.
+
+REMOVE:NoPronWhenAdvComp Pron IF (0 ("cеде"));
+ 			 #седе: седе мелькойть
 
 # Verbs
 
 # трудонь эрьва кодат орудиятне
 REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
 
-# пользоватано эсь эрямосонок
+
 REMOVE:NoVWhenEsj1 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-1 ("эсь" Det Refl)) ;# How are these joined
 #REMOVE:NoVWhenEsj2 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-2 ("эсь" Det Refl)) (-1 NMODIFIER);
+  # пользоватано эсь эрямосонок
 
-# Кудонть потс кадовсть ансяк
 REMOVE:NotOvOms Der/OvOms IF (0 V) ;
+ 		# Кудонть потс кадовсть ансяк
+		
 
-#Ванкшны укшныця 
 REMOVE:NotHardFrontIfPoss Stem/э IF (0C V);
+			  	 #Ванкшны укшныця
+				 
+REMOVE V IF (0 ("кодамо")) (*0 VFIN BARRIER CLB);
+       	    #Перегной ули эрьва кодамо почвасо
 
 # Сон весе чувтонь, перьканзо сэрей пирявт.
 REMOVE Der/Ovt IF (NOT -1 Gen OR Ine);
+
 # чачома тешкс
 REMOVE:NoObligIfNomActAbsAndNextN Oblig IF (0 (NomAct N Sg Nom Indef)) (1 N) ; # too powerful? 2022-02-02
 

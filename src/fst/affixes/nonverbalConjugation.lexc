@@ -309,8 +309,8 @@ LEXICON _PANGO-NomSg-Conjugation
 ! K ;
 ! _PANGO-NomPl-Conjugation-only ;
 
-LEXICON _PANGO-NomPl-Conjugation-only
- CLT/COP_PL ;
+!LEXICON _PANGO-NomPl-Conjugation-only
+! CLT/COP_PL ;
 
 !LEXICON _PANGO-Conjugation
 ! _KUDO-Conjugation ;
@@ -371,9 +371,13 @@ LEXICON CLT/COP_PL-MUTUAL
 !! _KUDO-NomPl-Conjugation-only-mutual
  CLT/COP-PRS-PL1 ;
  CLT/COP-PRS-PL2 ;
+ CLT/COP_PRT2_PL_MUTUAL ;
+
+LEXICON CLT/COP_PRT2_PL_MUTUAL
  CLT/COP-PRT2-PL1 ;
  CLT/COP-PRT2-PL2 ;
  CLT/COP-PRT2-PL3 ;
+
 
 LEXICON _KUDO-Conjugation
  _KUDO-NomSg-Conjugation-only ;
