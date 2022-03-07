@@ -267,7 +267,6 @@ LIST ConNeg = ConNeg ;
 LIST ConNegII = ConNegII ;
 LIST Neg = Neg ;
 LIST Aux = Aux ;
-LIST Comp = Comp ;
 
 LIST PrfPrc = PrfPrc ;
 LIST VGen = VGen ;
@@ -278,6 +277,11 @@ LIST PrsPrc = PrsPrc ;
 LIST Ger = Ger ;
 LIST Sup = Sup ;
 LIST Actio = Actio ;
+
+LIST SupEla = (infMS/ME cx:ela) (Ger Ela) (Sup Ela) ;#ОмстО
+LIST SupLoc = (infMS/ME cx:nom) (Inf Loc) ;#ОмО
+
+LIST GENDEF = (def nsg cx:gen) (def npl cx:gen) (Sg Gen Def) (Pl Gen Def);
 
 # The ("ge" Pcle) etc. are used in Apertium
 LIST Foc/Гак = Foc/Гак ;
@@ -673,6 +677,8 @@ SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
 LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take additive particle, as these are indefinite pronouns, e.g., кодамояк
 
+LIST NAELAAMBADVS = "бойкасто" "кеместэ" "сеедьстэ" "чуросто" "шождынестэ" "эчкстэ" ;#adverbs that look like nouns or adjectives in SP Ela Indef. This does not contain ‹куроксто›, as ‹курок› entails homonymy
+
 LIST VAMBNOUNS = "вал" "кадо" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пона" "понго" "ранг" "ром" "сал" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 # "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ""
 
@@ -696,6 +702,8 @@ LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видь
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
 LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
+
+LIST CCOMPMARKERS = "кода" "мезе" "мекс"; # V, koda
 # cobj
 # allows for interim vocative: Ды содат ли, браток, кода седеем токнозевсь?
 # further issues inclued: сон тосо распоряженият максниль, кода теемс укреплениятнень,
@@ -706,6 +714,9 @@ LIST VERBTAKESkodaCSUBJ = "ледстявомс" "неявомс" "помняв�
 LIST VERBTAKESDATILL = "радовамс" ;
 
 LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#
+
+
+
 LIST ESJ = ("эсь" Det Refl);
 
 LIST LIKELYOBJECT = (Pron Pers Sg1 Gen) (Pron Pers Sg2 Gen) (Pron Pers Sg3 Gen) (Pron Pers Pl1 Gen) (Pron Pers Pl2 Gen) (Pron Pers Pl3 Gen) (Gen Def) (Prop SP Gen) (Prop Gen) ;#
@@ -944,12 +955,16 @@ REMOVE 2NDerTag (0C N) ; #2017-11-05
 #Кода пангт эли нормальть?
 REMOVE ConNeg (-1 BOS) ;
 
-#Лездасть тень сёрмадомо аволь ансяк умонь читне.
+
 REMOVE Aux + Neg + Conj IF (0 Pcle + Neg) (NOT 1 ConNeg) ;
+       #Лездасть тень сёрмадомо аволь ансяк умонь читне.
 
-# Пургине паздонть апак пеле
+REMOVE Pcle + Neg IF (0 Aux + Neg) (1 ConNeg) ;
+       #штобу сон аволь нолда ведь.
+
 SELECT ConNeg (-1 APAK) ;
-
+       # Пургине паздонть апак пеле
+       
 #Кува?
 REMOVE Rel IF (1 QUEST) ;
 #«Ков сыргить?»
@@ -989,7 +1004,8 @@ REMOVE IV IF (1 (Sg Gen Def) OR (Pl Gen Def))
 REMOVE IV IF (-1 (Sg Gen Def) OR (Pl Gen Def));
 REMOVE IV IF (-2 (Sg Gen Def) OR (Pl Gen Def))
              (-1 DATAUX) (0 (V Inf));
-REMOVE IV IF (0 VERBTAKESkodaCCOMP) (1 (",")) (2 ("мезе") OR ("кода"));#невтнесть, кода кочкамс
+REMOVE IV IF (0 VERBTAKESkodaCCOMP) (1 (",")) (2 CCOMPMARKERS);#невтнесть, кода кочкамс
+       #Штобу чарькодемс, мекс
 
 REMOVE IV IF (1 LIKELYOBJECT) (2 ESJ);
        	     # нолды сонзэ эсь лезэс
@@ -1034,7 +1050,7 @@ REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ;
 		       #пек: сынь пек вечкить налксемс
 # instead of Der/stO Adv
 # мазыйстэ
-REMOVE:NoDerAdvIfAdv (Der/stO Adv) IF (0 Adv) ;
+REMOVE:NoDerAdvIfAdv (Der/stO Adv) IF (0 Adv OR NAELAAMBADVS) ;
 REMOVE:NoAdjElaIfAdv (A SP Ela Indef) IF (0 Adv) ;
 
 # весемеде мазый
@@ -1105,9 +1121,13 @@ REMOVE:NoPronWhenAdvComp Pron IF (0 ("cеде"));
 
 # Verbs
 
-# трудонь эрьва кодат орудиятне
-REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
+# A rule is needed to distinguish теевемс Conj from теемс Conj 2022-03-01
+#теевемс - теевель: Штобу теевель известь, известняконть пултасызь специальной каштомсо.
 
+
+
+REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
+			     # трудонь эрьва кодат орудиятне
 
 REMOVE:NoVWhenEsj1 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-1 ("эсь" Det Refl)) ;# How are these joined
 #REMOVE:NoVWhenEsj2 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-2 ("эсь" Det Refl)) (-1 NMODIFIER);
@@ -1304,6 +1324,11 @@ REMOVE Interr IF (-1 ("весе"));
 REMOVE Interr IF (-2 (Nom Def)) (-1 (","));
        	      #мезе: Секс сех главноесь, мезе эряви...
 	      
+REMOVE:NoPronWhenDetFollowedByN Pron IF (0 (Det Sg Nom)) (1 N);
+		#те: Те ведесь лиссь почванть эйстэ.
+
+
+
 # cе, кинень
 #
 REMOVE:NoKiIfAnteceedSe ("ки") IF (-2 ("се")) (-1 (",")) (0 ("кие")) ;
@@ -1321,6 +1346,9 @@ REMOVE PERSPRONPL IF (0 PERSPRONSG) ;
 #PXPERSON
 REMOVE:NoNomIfAdpCompl Nom IF (0 Gen + PXPERSON) (1 ADPNOPX) ;
 
+REMOVE:NoAIfAdvBashkaAfterTede A IF (-1 (Abl)) (0 ("башка")); 
+			       #башка: Теде башка, почвасонть улить ещё эрьва кодат салт.
+			       # there may be some extra ideas about a subsequent NP
 
 REMOVE:PoIfAdp Po IF (0C Adp) ;
 	       #кедьсэ: кедьсэнь

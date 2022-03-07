@@ -119,7 +119,6 @@ LEXICON ADPOSITION-TYPES
 кисэ+Adp:кисэ OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 койсэ+Adp:койсэ OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 кувалма+Adp:кувалма OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
-марто+Adp:марто OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 !перька+Adp:перька OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 
 !Relator nouns
@@ -316,8 +315,7 @@ LEXICON ejs-PO
 эйстэ+Adp+Ela:эйстэде OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PO_MARTO
-: K ;
-: _KUDO-Possessives2 ; 
+: OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 +Der+Der/MWN: N_KUDO ;
 
 
@@ -371,7 +369,7 @@ LEXICON PO-SPAT_karsho
 
 ! This contlex allows for relational word which, otherwise, are open 
 ! to extensive declension
-LEXICON POSTP_
+LEXICON POSTP_ ! кис, туртов, кувалт
 : K ;
 
 LEXICON Dat-1Arg
