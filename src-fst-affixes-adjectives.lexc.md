@@ -3,6 +3,8 @@
 Adjectives and other parts of speech in ERZYA are compared by means of 
 either a particle or ablative case marking on the standard of comparison
 
+ordinals in -це
+
 кондямо:кондя
 
 2013-04-17
