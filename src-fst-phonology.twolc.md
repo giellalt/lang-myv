@@ -27,6 +27,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
  %{back%}:0    — back harmony
  %{backHard%}:0    — back harmony
 *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
+*  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 
@@ -128,6 +129,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *пут%>та*
 * *карь>{дт}О1>{АЯ}н*
 * *кар0>д0>ян*
+
+**и:ы**
 
 **j:0**  
 * *сай%>%{оеэØ%}%>дО1*

@@ -213,6 +213,7 @@ Other verb forms are
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
+* +Err/Orth-colloq * colloquial, e.g. Минорыч
 * +Err/Orth-old1 * old1 like озимь, морковь
 * +Err/Orth-pre2012 * previous orthography
 * +Use/Marg * Marginal
@@ -658,6 +659,7 @@ And following triggers to control variation
 *  %{back%}    — back harmony
 *  %{backHard%}    — back harmony
 *  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
+*  %{ichPat%}   — for triggering colloquial partonymic forms
 
 * Е3 testing тне тнэ
 

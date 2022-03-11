@@ -965,6 +965,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
  %{back%}:0    — back harmony
  %{backHard%}:0    — back harmony
 *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
+*  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 
@@ -1066,6 +1067,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *пут%>та*
 * *карь>{дт}О1>{АЯ}н*
 * *кар0>д0>ян*
+
+**и:ы**
 
 **j:0**  
 * *сай%>%{оеэØ%}%>дО1*
@@ -1454,6 +1457,7 @@ Other verb forms are
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
+* +Err/Orth-colloq * colloquial, e.g. Минорыч
 * +Err/Orth-old1 * old1 like озимь, морковь
 * +Err/Orth-pre2012 * previous orthography
 * +Use/Marg * Marginal
@@ -1899,6 +1903,7 @@ And following triggers to control variation
 *  %{back%}    — back harmony
 *  %{backHard%}    — back harmony
 *  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
+*  %{ichPat%}   — for triggering colloquial partonymic forms
 
 * Е3 testing тне тнэ
 
