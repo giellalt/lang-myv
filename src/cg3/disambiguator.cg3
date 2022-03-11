@@ -201,7 +201,7 @@ LIST PxSg3 = PxSg3 ;
 LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
-
+SET SPPOSSESSUM =  PxSg1 |  PxSg2 | PxSg3 | PxPl1 | PxPl2 | PxPl3;
 
 LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
 
@@ -246,6 +246,18 @@ LIST ScPl1 = ScPl1 (s_p1 s_pl) (a_p1 a_pl) ;
 LIST ScPl2 = ScPl2 (s_p2 s_pl) (a_p2 a_pl) ;
 LIST ScPl3 = ScPl3 (s_p3 s_pl) (a_p3 a_pl) ;
 
+LIST Clt/Cop = Clt/Cop ;
+
+
+SET VFINSG1SUBJ = ScSg1 - Clt/Cop;# finite verb -- not noun
+SET VFINSG2SUBJ = ScSg2 - Clt/Cop;# finite verb -- not noun
+SET VFINSG3SUBJ = ScSg3 - Clt/Cop;# finite verb -- not noun
+SET VFINPL1SUBJ = ScPl1 - Clt/Cop;# finite verb -- not noun
+SET VFINPL2SUBJ = ScPl2 - Clt/Cop;# finite verb -- not noun
+SET VFINPL3SUBJ = ScPl3 - Clt/Cop;# finite verb -- not noun
+SET VFINPERSONSUBJ =  VFINSG1SUBJ | VFINSG2SUBJ | VFINSG3SUBJ | VFINPL1SUBJ | VFINPL2SUBJ | VFINPL3SUBJ;
+SET NOT-VFINPL3SUBJ = VFINPERSONSUBJ - VFINPL3SUBJ ;
+
 LIST OcSg1 = OcSg1 (o_p1 o_sg) ;
 LIST OcSg2 = OcSg2 (o_p2 o_sg) ;
 LIST OcSg3 = OcSg3 (o_p3 o_sg) ;
@@ -253,6 +265,9 @@ LIST OcSg3 = OcSg3 (o_p3 o_sg) ;
 LIST OcPl1 = OcPl1 (o_p1 o_pl) ;
 LIST OcPl2 = OcPl2 (o_p2 o_pl) ;
 LIST OcPl3 = OcPl3 (o_p3 o_pl) ;
+
+SET VFINPERSONOBJ =  OcSg1 | OcSg2 | OcSg3 | OcPl1 | OcPl2 | OcPl3;
+SET NOT-VFINPL3OBJ = VFINPERSONOBJ - OcPl3 ;
 
 LIST Sg1 = Sg1 ;
 LIST Sg2 = Sg2 ;
@@ -293,7 +308,6 @@ LIST Clt/Гатя = Clt/Гатя ;
 LIST Clt/Гака = Clt/Гака ;
 LIST Clt/Гакая = Clt/Гакая ;
 LIST Clt/Add = Clt/Add ; # Гак
-LIST Clt/Cop = Clt/Cop ;
 
 #!! * ### Derivation tags
 
@@ -998,8 +1012,9 @@ SELECT:GenWhenBeforeCommaGen (Sg Gen Def) IF (-2 (Sg Gen Def)) (-1 (",")) (1 (",
 #
 #MAP (@<OBJ) TARGET GENDEF IF (NOT 1 Postp)
 #                             (*-1 (V TV Inf Loc));
-REMOVE IV IF (1 (Sg Gen Def) OR (Pl Gen Def))
+REMOVE IV IF (0 TV) (1 (Sg Gen Def) OR (Pl Gen Def))
              (NOT 2 Po OR Adp);
+	     #лоткась: лоткась тарканть пес
 
 REMOVE IV IF (-1 (Sg Gen Def) OR (Pl Gen Def));
 REMOVE IV IF (-2 (Sg Gen Def) OR (Pl Gen Def))
@@ -1046,8 +1061,9 @@ REMOVE:NoNIfAwithPreviousSuperl N ((-1 Superl) OR (-1 ("пек"))) (0 A);
 SELECT:DegIfNextAdv Deg IF (0 ("пек")) (1 (A) OR (Adv)) ;
 
 
-REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ;
-		       #пек: сынь пек вечкить налксемс
+#REMOVE:NoDegIfNextVerb Deg IF (0 Adv) (1 V) ; TOO powerful
+		       #пек: сынь пек вечкить налксемс What kind of Adv should this be?
+		       
 # instead of Der/stO Adv
 # мазыйстэ
 REMOVE:NoDerAdvIfAdv (Der/stO Adv) IF (0 Adv OR NAELAAMBADVS) ;
@@ -1076,6 +1092,15 @@ REMOVE:NotScSg2WhenDefNomPl ScSg2 IF (0 V + IV + Ind + Prs + ScPl3) ((-1* N + Pl
 
 #
 REMOVE:NotTemp TempCx (0 N + Sg + Nom + Indef OR N + Pl + Nom + Def) (0 NOT-TEMPORALNOUN) ;
+
+REMOVE:NoCopWhenMOOD-V Clt/Cop IF (*0 MOOD-V BARRIER CLB OR EOS OR BOS);
+		       #вельть: Пулаесь вельть мазылгавтовлизе од аванть рунгонзо...
+
+REMOVE:NoPlSubjWhenSgConjug (Pl Nom) IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS)(*0 VFINPERSONOBJ BARRIER CLB OR EOS OR BOS);
+		       #рунгонзо: Пулаесь вельть мазылгавтовлизе од аванть рунгонзо...
+
+REMOVE:NoPlObjWhenSgObjConjug (Pl Gen) IF (0 SPPOSSESSUM) (*0 NOT-VFINPL3OBJ BARRIER CLB OR EOS OR BOS) (-1 Gen) ;
+		       #рунгонзо: Пулаесь вельть мазылгавтовлизе од аванть рунгонзо...
 
 
 #валдодо пешксе

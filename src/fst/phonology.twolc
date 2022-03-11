@@ -134,7 +134,7 @@ Alphabet
  %{back%}:0   !!= @CODE@ — back harmony
  %{backHard%}:0   !!= @CODE@ — back harmony
  %{dialM%}:0   !!= * @CODE@ — for Shoksha and Drakino Dial/M morphology
- 
+ %{ichPat%}:0  !!= * @CODE@ — for triggering colloquial partonymic forms 
 
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
  »7     ! »
@@ -280,6 +280,7 @@ Rules
 !! **@RULENAME@**  
  X:Y <=> [ Cns | Vows | Г2: ] _ ( HarmDummies: )  %> [%{АЯ%}:я|%{АЯ%}:а [ н | т ]| %{иы%}:] ;
 !                   Cns  _ К4:0 %>  %{иы%}: ;
+		   _ в: и: ч %{ichPat%}:0 ;
           where X in (а о э ы у я ё е и ю)
                 Y in (0 0 0 0 0 0 0 0 0 0) matched ;
 
@@ -499,7 +500,9 @@ Rules
 !!€ карь>{дт}О1>{АЯ}н
 !!€ кар0>д0>ян
 
-
+"и:ы"
+!! **@RULENAME@**
+и:ы <=> [д|з|л|н|р|с|т|ц] о: в: _ ч %{ichPat%}:0 ;
 
 "j:0"
 !! **@RULENAME@**  
@@ -592,7 +595,7 @@ Rules
           
 "a:ya"
 !! **@RULENAME@**  
-а:я  <=> :Vows ((%>) К3:0 )  %> [ (%-) Г1:0 | Г4:0 ] _  ;
+а:я  <=> :Vows ((%>) К3:0 )  %> [ (%-) Г1:0 | Г4:0 ] _  \[в: ];
 
 
 
@@ -601,6 +604,7 @@ Rules
 !! **@RULENAME@**  
 в:0 <=> [ :Cns  ( ь: | :0) ] %> _ т [%{оеэ%}:о|%{оеэ%}:е|%{оеэ%}:э] м [О1:о|О1:е|О1:0] ;
     в %> %^WLoss: %> %{оеэØ%}: _ %{ое%}: л  ;
+    Vows: _ и: ч %{ichPat%}:0 ;
 
 !Depricated due to 
 !ERROR: Label not found in 'EQV_LABELS' (114) **
@@ -874,7 +878,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
  [н|й] (ь:) (HarmDummies:) %> %{оеэØ%}: ш _ а: ; ! comparative
  [ж|ш|ч|з|с] (ь:) (HarmDummies:) %> ш _ а: ; ! comparative
  [л] (ь:) (HarmDummies:) %> %{оеэØ%}: _ с ; ! translative
- [к|ж|ш|с|з|ч|в] (ь:) (HarmDummies:) %> _ с ; ! translative
+ [к|г|п|б|т|д|ж|ш|с|з|ч|в] (ь:) (HarmDummies:) %> _ с ; ! translative
  
 !!TESTS
 !echo 'п а н ж > с ы' | hfst-pair-test src/fst/phonology.compose.hfst
