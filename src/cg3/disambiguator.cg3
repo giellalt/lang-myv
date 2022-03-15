@@ -149,6 +149,7 @@ LIST Arab = Arab ; #!! * Arab
 LIST Rom = Rom ; #!! * Romertall
 LIST Subqst = Subqst ; #!! * Subqst
 LIST CLBfinal = CLBfinal ; #!! * CLBfinal
+LIST Ideoph = Ideoph ; #тарск
 
 LIST Relator = Relator ;
 
@@ -202,6 +203,8 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 SET SPPOSSESSUM =  PxSg1 |  PxSg2 | PxSg3 | PxPl1 | PxPl2 | PxPl3;
+LIST PlGenPossessum = (Pl Gen PxSg1) (Pl Gen PxSg2) (Pl Gen PxSg3) (Pl Gen PxPl1) (Pl Gen PxPl2) (Pl Gen PxPl3); 
+LIST PlNomPossessum = (Pl Nom PxSg1) (Pl Nom PxSg2) (Pl Nom PxSg3) (Pl Nom PxPl1) (Pl Nom PxPl2) (Pl Nom PxPl3); 
 
 LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
 
@@ -686,6 +689,8 @@ LIST RELATORSNomGen =  "бока" "бокасо" "бокас" "бокасто" "
 LIST NONSENSESURANT = "Ней" ;
 LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "Як" "ярмак" ; #!! This will be expanded for homonymy at first
 
+LIST IDEOPH = "тарск" ;
+
 LIST TEMPORALNOUN = "буря" "валдо" "валске" "варма" "ве" "давол" "ёндол" "ие" "истямо" "кизэ" "ков" "минута" "пиземе" "пизем" "пинге" "погода" "пора" "пси" "раз" "рудаз" "сув" "тундо" "чадыведь" "чи" "чопода" "шка" "якшам" "якшамо" ; #!! This will be expanded for homonymy at first, i.e., diminutives
 SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
@@ -695,6 +700,7 @@ LIST NAELAAMBADVS = "бойкасто" "кеместэ" "сеедьстэ" "чу
 
 LIST VAMBNOUNS = "вал" "кадо" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пона" "понго" "ранг" "ром" "сал" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 # "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ""
+
 
 LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
@@ -716,6 +722,9 @@ LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видь
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
 LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
+
+LIST VERBTAKESshtoCCOMP = "арсемс" "витькстамс" "ёвтамс" "ёвтнемс" "кемевтемс" "кемемс" "кортамс" "кортнемс" "ледстямс" "ловомс" "марямс" "меремс" "невтемс" "невтнемс" "неемс" "пачтямс" "помнямс" "редямс" "сёрмадомс" "содамс" "стувтомс" "тешкстамс" "тонадомс" "учомс" "фатямс" "чарькодемс" "яволявтомс" ;#knows how
+
 
 LIST CCOMPMARKERS = "кода" "мезе" "мекс"; # V, koda
 # cobj
@@ -1000,6 +1009,9 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 # эсь мелест
 REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
+REMOVE PlNomPossessum IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 TV BARRIER CLB OR BOS OR EOS);
+	     #ведест: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
+
 REMOVE:NotNounWhenFollowedByNounAndPo N IF (0 A + Sg + Nom + Indef) (1 N) (2 ADPNOPX OR CLB OR EOS) ;
 				      #коське: озась коське тарад лангс.
 				      #мазый:  Вай, кодамо мазый Локсеесь!
@@ -1015,6 +1027,13 @@ SELECT:GenWhenBeforeCommaGen (Sg Gen Def) IF (-2 (Sg Gen Def)) (-1 (",")) (1 (",
 REMOVE IV IF (0 TV) (1 (Sg Gen Def) OR (Pl Gen Def))
              (NOT 2 Po OR Adp);
 	     #лоткась: лоткась тарканть пес
+
+REMOVE IV IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 PlGenPossessum BARRIER CLB OR BOS OR EOS LINK NOT 1 Adp);
+	     #кевердить: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
+
+
+REMOVE TV IF (0 ("теемс") OR ("меремс") OR ("молемс")) (-1 Ideoph);
+
 
 REMOVE IV IF (-1 (Sg Gen Def) OR (Pl Gen Def));
 REMOVE IV IF (-2 (Sg Gen Def) OR (Pl Gen Def))
@@ -1271,6 +1290,9 @@ REMOVE Clt/Cop (-1 VFIN) ;
 SELECT Prop + SP + Gen (1C ANT) ;
 
 #REMOVE IV IF (0 OCONJ) ;
+
+REMOVE VERBTAKESshtoCCOMP + IV IF (1 (",")) (2 ("што"));
+       #Серёга содась, што
 
 # истямо лем ало
 #REMOVE Gen IF (0 Nom OR Gen) ; # argh fix!
