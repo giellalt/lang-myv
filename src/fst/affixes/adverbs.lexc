@@ -7,41 +7,52 @@ LEXICON adverbs
 !!
 пек+Adv:пек ADV-DEG_ ;
 
-ков+Adv+Interr+Lat:ков K ;
-коволга+Adv+Interr+Prl:коволга K ;
-коволдо+Adv+Interr+Abl:коволдо K ;
-коволо+Adv+Interr+Loc:коволо K ;
-коволов+Adv+Interr+Lat:коволов K ;
+ков+Adv+Interr:ков ADV_IS_LAT ;
+коволга+Adv+Interr:коволга ADV_IS_PRL ;
+коволдо+Adv+Interr:коволдо ADV_IS_ABL ;
+коволо+Adv+Interr:коволо ADV_IS_LOC ;
+коволов+Adv+Interr:коволов ADV_IS_LAT ;
 
-васолдо+Adv:васолдо ADV-IS-ABL ;
-васов+Adv+Lat:васов K ;
-васоло+Adv+Loc:васоло K ;
-васолга+Adv+Prl:васолга K ;
+васолдо+Adv:васолдо ADV_IS_ABL ;
+васов+Adv:васов ADV_IS_LAT ;
+васоло+Adv:васоло ADV_IS_LOC ;
+васолга+Adv:васолга ADV_IS_PRL ;
 
-товолдо+Adv:товолдо ADV-IS-ABL ;
-товолов+Adv+Lat:товолов K ;
-товоло+Adv+Loc:товоло K ;
-товолга+Adv+Prl:товолга K ;
+товолдо+Adv:товолдо ADV_IS_ABL ;
+товолов+Adv:товолов ADV_IS_LAT ;
+товоло+Adv:товоло ADV_IS_LOC ;
+товолга+Adv:товолга ADV_IS_PRL ;
 
-венельде+Adv:венельде ADV-IS-ABL ;
-венелев+Adv+Lat:венелев K ;
-венеле+Adv+Loc:венеле K ;
-венельга+Adv+Prl:венельга K ;
+пильгалдо+Adv:пильгалдо ADV_IS_ABL ;
+пильгалов+Adv:пильгалов ADV_IS_LAT ;
+пильгало+Adv:пильгало ADV_IS_LOC ;
+пильгалга+Adv:пильгалга ADV_IS_PRL ;
 
-чинельде+Adv:чинельде ADV-IS-ABL ;
-чинелев+Adv+Lat:чинелев K ;
-чинеле+Adv+Loc:чинеле K ;
-чинельга+Adv+Prl:чинельга K ;
+вальмалдо+Adv:вальмалдо ADV_IS_ABL ;
+вальмалов+Adv:вальмалов ADV_IS_LAT ;
+вальмало+Adv:вальмало ADV_IS_LOC ;
+вальмалга+Adv:вальмалга ADV_IS_PRL ;
 
-мастордо+Adv:мастордо ADV-IS-ABL ;
-масторов+Adv+Lat:масторов K ;
-масторо+Adv+Loc:масторо K ;
-масторга+Adv+Prl:масторга K ;
 
-верде+Adv:верде ADV-IS-ABL ;
-верев+Adv+Lat:верев K ;
-вере+Adv+Loc:вере K ;
-верьга+Adv+Prl:верьга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+венельде+Adv:венельде ADV_IS_ABL ;
+венелев+Adv:венелев ADV_IS_LAT ;
+венеле+Adv:венеле ADV_IS_LOC ;
+венельга+Adv:венельга ADV_IS_PRL ;
+
+чинельде+Adv:чинельде ADV_IS_ABL ;
+чинелев+Adv:чинелев ADV_IS_LAT ;
+чинеле+Adv:чинеле ADV_IS_LOC ;
+чинельга+Adv:чинельга ADV_IS_PRL ;
+
+мастордо+Adv:мастордо ADV_IS_ABL ;
+масторов+Adv:масторов ADV_IS_LAT ;
+масторо+Adv:масторо ADV_IS_LOC ;
+масторга+Adv:масторга ADV_IS_PRL ;
+
+верде+Adv:верде ADV_IS_ABL ;
+верев+Adv:верев ADV_IS_LAT ;
+вере+Adv:вере ADV_IS_LOC ;
+верьга+Adv:верьга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 
 меелькспельде+Adv+Abl:меелькспельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 меелькспелев+Adv+Lat:меелькспелев K ;
@@ -149,17 +160,12 @@ LEXICON ADV-TEMP_
 LEXICON ADV-SPAT_ !!= @CODE@ пачк
 : K ;
 
-!LEXICON ADV-SPAT-IS-ABL !!= @CODE@ алов
-!+Abl: K ;
-
 LEXICON ADV_IS_LAT !!= @CODE@ алов
 +Lat: K ;
 
 LEXICON ADV_IS_LOC !!= @CODE@ ало
 +Loc: K ;
-
-LEXICON ADV-SPAT-IS-PRL !!= @CODE@ перька
-+Prl: K ;
++Loc: CLT/COP-4-OBL ;
 
 !2022-02-06
 LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
@@ -182,8 +188,8 @@ LEXICON ADV-SPAT_karsho
 !: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 !+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
-LEXICON ADV-INE_KISE2
-+Ine: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!LEXICON ADV-INE_KISE2
+!+Ine: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 
 !LEXICON ADV/PO/PRON-SPAT_
@@ -285,19 +291,20 @@ LEXICON Pred2 ! "стядо", "апак прядо", "чавонь кедть"
 !LEXICON SPAT-NoArg
 !+Spat: K ;
 
-LEXICON ADV-IS-SPAT-ELA
+LEXICON ADV_IS_ELA
 +Ela: K ;
 +Ela: CLT/COP4_OBL ;
 
-LEXICON ADV-IS-SPAT-ILL
+LEXICON ADV_IS_ILL
 +Ill: K ;
 
-LEXICON ADV-IS-SPAT-INE
+LEXICON ADV_IS_INE
 +Ine: K ;
 +Ine: CLT/COP4_OBL ;
 
-LEXICON ADV-IS-ABL
+LEXICON ADV_IS_ABL
 +Abl: K ;
++Abl: CLT/COP-4-OBL ;
 
 LEXICON ADV_IS_PRL
 +Prl: K ;
@@ -318,6 +325,7 @@ LEXICON ADV_IS_PRL
 
 LEXICON ADV-INTERR-IS-SPAT-ELA
 +Interr+Ela: K ;
++Interr+Ela CLT/COP-4-OBL ;
 
 !LEXICON ADV-INTERR-IS-SPAT-LAT
 !+Interr+Lat: K ;

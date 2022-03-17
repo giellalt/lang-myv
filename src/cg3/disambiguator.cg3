@@ -272,6 +272,10 @@ LIST OcPl3 = OcPl3 (o_p3 o_pl) ;
 SET VFINPERSONOBJ =  OcSg1 | OcSg2 | OcSg3 | OcPl1 | OcPl2 | OcPl3;
 SET NOT-VFINPL3OBJ = VFINPERSONOBJ - OcPl3 ;
 
+SET VFINSG3SUBJNOOBJ = VFINSG3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb
+
+SET VFINPL3SUBJNOOBJ = VFINPL3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb 
+
 LIST Sg1 = Sg1 ;
 LIST Sg2 = Sg2 ;
 LIST Sg3 = Sg3 ;
@@ -640,7 +644,7 @@ LIST POSTPWITHGEN  = "алга" "алдо" "ало" "алов" "бока" "ва�
 
 LIST POSTPWITHGENORPX  = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "икеле" "икелев" "икельга" "икелде" "кисэ" "коряс" "кувалма" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "удалга" "удалдо" "удало" "удалов" ;
 
-LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
+LIST POSTP = "алга" "алдо" "ало" "алов" "бока" "вакска" "ваксс" "вакссо" "вакссто" "велькс" "верде" "вере" "верев" "верьга" "икеле" "икелев" "икельга" "икелде" "каршо" "кис" "кисэ" "коряс" "кувалма" "кувалт" "ланго" "малав" "малава" "малас" "маласо" "маласто" "марто" "мельга" "туртов" "удалга" "удалдо" "удало" "удалов" ;
 
 
 LIST NUM = Sg Pl SP ;
@@ -655,7 +659,7 @@ LIST ADPWITHPX = (Adp CASE PXPERSON) (POSTP CASE PXPERSON) ;
 
 SET PXPERSONGEN = Gen + PXPERSON ;
 
-SET ADPNOPX = Adp - ADPWITHPX | POSTP - PXPERSON ;
+SET ADPNOPX = Adp - ADPWITHPX | POSTP - PXPERSON ;# postposition with complement
 
 
 
@@ -816,7 +820,8 @@ SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 #SUBSTITUTE (IV) (*) TARGET (*) ;
 #SUBSTITUTE (TV) (*) TARGET (*) ;
 #
-
+SUBSTITUTE (Err/Orth-pre2012) (*) TARGET (*) ;
+#
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
@@ -853,8 +858,9 @@ REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
 
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
 
-# седе валдо comparative
-REMOVE:NoNIfPreviousComp N IF (-1 (Pron Dem Sg Abl Indef));
+
+REMOVE:NoNIfPreviousComp N IF (-1 ("се" Pron Dem Sg Abl Indef));
+		# седе валдо comparative
 
 # Сельмечирькензэ сонзэ крутат, раужот
 # PROBLEM: Васень кизэстэнть сынь кастыть эчке корён
@@ -889,10 +895,17 @@ REMOVE:NoNSgNomIndefIfAdvTemp Der/MWN IF (0 Adv + Temp) ; # 2017-10-25
 
 REMOVE:NumIter Num + Iter IF (0 Adv + Iter) ;
 
-#Сёлминензэ кадовсть панжадо.
+REMOVE ("перть" A Sg Nom Indef) IF (NOT -1 (N Prop SP Gen) OR (N Prop Sg Gen));
+       #Валскень перть ортат эзть панжтневе,
+
+REMOVE (Pl Nom) IF (1 Po);
+       #Валскень перть ортат эзть панжтневе,
+
+
 REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS OR CLB)
        	      	       	       (NOT 1* PL-SUBJ BARRIER EOS)
 			       (NOT 1 Der/Ozj + Ger);
+			#Сёлминензэ кадовсть панжадо.
 
 # OvOms 2022-02-02 VNoGenObj with plural
 #Яковонь шкань шкань кальцькаевсть пеензэ
@@ -1009,6 +1022,29 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 # эсь мелест
 REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
+REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
+
+REMOVE:NoSubjWhenPxCorrelatesWithSubjObj (Pl Nom) IF (0 (PxPl3)) (*0 (ScPl3) OR (OcPl3) BARRIER CLB);
+       #пряст: Салызь эсь пряст.
+
+REMOVE (Sg Nom) IF (0 (PxPl3)) (*0 (OcPl3) BARRIER CLB) (NOT 1 ADPNOPX);
+       #пряст: Салызь эсь пряст.
+
+REMOVE (A SP Com) IF (0 (N SP Com));
+       #сыренек-однэк
+
+REMOVE:NoNIfMinus1Pek N IF (-1 ("пек"));
+		      #пек: пек умок ульнесь
+
+REMOVE (Sg Nom) IF (0 (Pl Nom)) (*0 ScPl3 BARRIER CLB OR EOS OR BOS);# (NOT *-1 (Pl Nom)) (NOT *1 (Pl Nom));
+       #кискат: кискат эзть онго, скалт, реветь эзть пара...
+
+REMOVE (Sg) IF (0 (Pl Nom)) (*0 VFINPL3SUBJNOOBJ)(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
+       #Карность-варность ансяк варакат.
+
+REMOVE (Gen) IF (0 (Pl Nom)) (*-1 VFINPL3SUBJNOOBJ)(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
+       #Карность-варность ансяк варакат. VS order, S is indef
+
 REMOVE PlNomPossessum IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 TV BARRIER CLB OR BOS OR EOS);
 	     #ведест: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
 
@@ -1025,6 +1061,7 @@ SELECT:GenWhenBeforeCommaGen (Sg Gen Def) IF (-2 (Sg Gen Def)) (-1 (",")) (1 (",
 #MAP (@<OBJ) TARGET GENDEF IF (NOT 1 Postp)
 #                             (*-1 (V TV Inf Loc));
 REMOVE IV IF (0 TV) (1 (Sg Gen Def) OR (Pl Gen Def))
+       	     (NOT 1 (Der/MWN))
              (NOT 2 Po OR Adp);
 	     #лоткась: лоткась тарканть пес
 
@@ -1157,18 +1194,26 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # Particles
 
 # ды Conj vs Pcle
-REMOVE:NoPcleWhenPreceededByFinite Pcle IF (*-1 VFIN BARRIER BOS OR CLB) ;# 2022-02-08 too strong?
+REMOVE:NoPcleWhenPreceededByFinite (V Aux Neg) OR ("ды" Pcle) IF (*-1 VFIN BARRIER BOS OR CLB) ;# 2022-02-08 too strong?
 				   # Сон неизе Локсеенть [ды] озась коське тарад лангс.
 
+SELECT (Pcle Neg) IF (-1 VFIN) (1 A);
+       # ульнесь а покш веле Too powerful
+SELECT (Pcle Neg) IF (1 ("куш") OR ("каш"));
+       # а куш а каш
 REMOVE:NoPronWhenAdvComp Pron IF (0 ("cеде"));
  			 #седе: седе мелькойть
+
+REMOVE (ScSg3) IF (0 (V Aux Neg ConvPrc)) (*0 VFIN BARRIER CLB);
+
 
 # Verbs
 
 # A rule is needed to distinguish теевемс Conj from теемс Conj 2022-03-01
 #теевемс - теевель: Штобу теевель известь, известняконть пултасызь специальной каштомсо.
 
-
+REMOVE:NoIVSg3WhenElsewhere (V IV Ind Prt1 ScSg3) IF (*-1 VFINSG3SUBJNOOBJ BARRIER CLB);#(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
+       #Пачкодсь теде кулясь маласо волостной правленияс,
 
 REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
 			     # трудонь эрьва кодат орудиятне
@@ -1240,6 +1285,10 @@ SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 # А кискась, кода содатано,  кортамо а машты!
 REMOVE:NoNomActWhenInfLocContext Der/NomAct IF (0 Inf + Loc)(0 Sg + Nom + Indef) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS));
 REMOVE:NoNAbsWhenInfLocContext Sg + Nom + Indef IF (0 Inf + Loc) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS)) ;
+	#!!качамо: эзь лисе керькссэ тапарксокс качамо ды
+
+REMOVE:NoNIfVeFollowedByN ("ве" N Sg Nom Indef) IF (1 N);
+			  #ды ве лисьма лангстояк эзь Probably too strong
 
 # А кискась, кода содатано, а машты кортамо!
 REMOVE:NoTVIfCauseInfLoc TV IF (0 VERBWITHMO) ((-1*  Inf + Loc BARRIER BOS) OR (1*  Inf + Loc BARRIER EOS)) ;
@@ -1399,8 +1448,13 @@ REMOVE:NoAIfAdvBashkaAfterTede A IF (-1 (Abl)) (0 ("башка"));
 
 REMOVE:PoIfAdp Po IF (0C Adp) ;
 	       #кедьсэ: кедьсэнь
-	       
 
+REMOVE:NoAdvIfAdp Adv IF (0 ADPNOPX) (-1 (Gen));
+		  #каршо: Кизэ Миколань каршо -- ярмунка
+
+REMOVE (Po Der Der/MWN) IF (NOT -1 (Gen) OR (Sg Nom Indef));
+       #саемс мартост
+       
 REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;
        #каршо: тыньгак каршо а ультядо
        

@@ -63,6 +63,11 @@ LEXICON ADPOSITION-TYPES
 вальмало+Adp+Loc:вальмало OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 вальмалга+Adp+Prl:вальмалга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 
+товолдо+Adp:товолдо OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+товолов+Adp+Lat:товолов K ;
+товоло+Adp+Loc:товоло OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+товолга+Adp+Prl:товолга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
 томбальде+Adp+Abl:томбальде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 томбалев+Adp+Lat:томбалев K ;
 томбале+Adp+Loc:томбале OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
@@ -207,10 +212,10 @@ LEXICON PO-IS-ILL-STEM_E2JS
 +Ill:йс K ;
 
 
-!LEXICON PO-IS-INE
+LEXICON PO_IS_INE
 !! postposition that is in inessive case
-!! эйсэ:эйсэ
-!+Ine: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!! эйсэ:эйсэ, кисэ
++Ine: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
 !LEXICON PO-SPAT-IS-LAT
 !!! postposition that is in lative case
@@ -222,10 +227,10 @@ LEXICON PO-IS-ILL-STEM_E2JS
 !! ютков:ютков
 !+Lat:%>в K ;
 
-!LEXICON PO-IS-LOC
+LEXICON PO-IS-LOC
 !! postposition that is in locative case
 !! ало:ало
-!+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Loc: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON PO-IS-PRL
 !! postposition that is in prolative case
