@@ -380,7 +380,7 @@ postposition that is in illative case
 эйс:э
 
 postposition that is in inessive case
-эйсэ:эйсэ
+эйсэ:эйсэ, кисэ
 
 postposition that is in lative case
 ютков:ютков
@@ -442,8 +442,6 @@ LEXICON ADV-SPAT_  пачк
 LEXICON ADV_IS_LAT  алов
 
 LEXICON ADV_IS_LOC  ало
-
-LEXICON ADV-SPAT-IS-PRL  перька
 
 LEXICON ADV/PO/PRON-SPAT_ALO  ало:ал
 

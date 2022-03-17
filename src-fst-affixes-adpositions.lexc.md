@@ -22,7 +22,7 @@ postposition that is in illative case
 эйс:э
 
 postposition that is in inessive case
-эйсэ:эйсэ
+эйсэ:эйсэ, кисэ
 
 postposition that is in lative case
 ютков:ютков
