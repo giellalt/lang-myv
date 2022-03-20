@@ -532,6 +532,8 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 панго:панг
 
+потмо:пот
+
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
 Front vowel, palatal consonant before vowel
@@ -1484,6 +1486,13 @@ Rueter 2010: 8
 # Orthography tags
 * +Orth/PhonDeriv * Derivation is phonetic but declension and conjugation morphologic
 * +Orth/PhonInfl * Entire inflection is phonetic 1821, 1920-30
+* +Orth/standard * described in 2008, dictionary 2012
+* +Orth/thirties * 1933–1993 phonetic, morphological
+* +Orth/nineties * 1993-2008 morphological, but phonetic compounding
+* +Orth/wiki * Regular-semantic deriving from 1993 and 2008
+* +Orth/-wiki * e.g. compound words written with white space
+* +Orth/standard_wiki * e.g. вайгельпе
+* +Orth/-thirties * e.g. таргсемс, студенттнэ
 * +Orth/Colloq Colloquial speech reflected in spelling
 
 # Abbreviated words are classified with:

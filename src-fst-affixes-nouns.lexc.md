@@ -28,6 +28,8 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 
 панго:панг
 
+потмо:пот
+
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
 Front vowel, palatal consonant before vowel
