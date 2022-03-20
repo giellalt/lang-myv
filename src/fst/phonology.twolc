@@ -172,7 +172,7 @@ NoVLoss:0
 
 Sets
 
-Vows = а о у ы э я ё ю и е 
+Vows = а о у ы э я ё ю и е Ӓ3 Ӓ4 
        А О У Ы Э Я Ё Ю И Е ;
 verbStemVows = а о э я ё е 
 	       А О Э Я Ё Е ;
@@ -184,7 +184,7 @@ glideVow = я ё ю и е
 	   Я Ё Ю И Е ;
 BTV = а о у я ё ю 
       А О У Я Ё Ю ; ! Back Trigger Vowels
-FTV = ы и е э 
+FTV = ы и е э Ӓ3 Ӓ4
       Ы И Е Э ; ! Front Trigger Vowels
 
 Cns = б в г д ж з й к л м н п р с т ф х ц ч ш щ 
@@ -755,7 +755,7 @@ Rules
 
 "d:d"
 !! **@RULENAME@**  
-%{дт%}:д  <=> [ CnsVoiced - [ д | г]| :Vows] (ь:0) (HarmDummies:)  %> _ [О1:е|О1:э|О1:о] ;
+%{дт%}:д  <=> [ CnsVoiced - [ д | г]| :Vows] (ь:) (HarmDummies:)  %> _ [О1:е|О1:э|О1:о] ;
 
 "y:y"
 !! **@RULENAME@**
