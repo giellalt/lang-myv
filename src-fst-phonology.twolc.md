@@ -261,12 +261,12 @@ imperative suffix
 
 **Disallow Н1:н after Letters**  
 
-**Disallow з where not following voiced consonant or vowel**
+\[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
 
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
-**Disallow з where not following voiced consonant or vowel**
+**Disallow Н1:н after Letters**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*

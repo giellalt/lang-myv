@@ -211,6 +211,8 @@ Other verb forms are
 * +Err/Sub * Substandard
 * +Err/Orth-no-linking-vowel * linking vowel is missing
 * +Err/Orth-high-linking-vowel * linking vowel is high
+* +Err/Orth-front-linking-vowel * linking vowel is front уряжень
+* +Err/Orth-mid-linking-vowel * linking vowel is mid вечкелизь
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-colloq * colloquial, e.g. Минорыч
@@ -813,6 +815,9 @@ given the proper use of these flags.
 
 Flags used to identify parts of speech
 * @P.POS.PRON@ 
+* @U.POS.N@ 
+* @U.POS.A@ 
+
 * @P.POS.N@ 
 * @R.POS.N@ 
 * @P.POS.V@ 

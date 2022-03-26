@@ -107,12 +107,12 @@ N_KUDO-Def-Declension
 
 ## DEFINITE SINGULAR TAGS 
 
-*Noun singular nominative definite examples:*
+* Noun singular nominative definite examples:*
 * *калось:* `кал+N+Sg+Nom+Def`
 * *калоськак:* `кал+N+Sg+Nom+Def+Foc/Гак`
 * ★*калосьгак:* `кал+N+Sg+Nom+Def+Foc/Гак` (is not standard language)
 
-*Noun singular genitive definite examples:*
+* Noun singular genitive definite examples:*
 * *калонть:* `кал+N+Sg+Gen+Def`
 * *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
 
@@ -130,7 +130,7 @@ SG-NOM-INDEF_OSH ;
 
 ## INDEFINITE TAGS
 
-*Noun singular nominative definite examples:*
+* Noun singular nominative definite examples:*
 * *калдо:* `кал+N+SP+Abl+Indef`
 * *калдояк:* `кал+N+SP+Abl+Indef+Foc/Гак`
 

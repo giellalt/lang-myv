@@ -342,8 +342,6 @@ ordinals in -це
 
 кондямо:кондя
 
-2013-04-17
-
 кодамо:кода
 кодамо:кода
 кодамо:кода
@@ -611,12 +609,12 @@ N_KUDO-Def-Declension
 
 ## DEFINITE SINGULAR TAGS 
 
-*Noun singular nominative definite examples:*
+* Noun singular nominative definite examples:*
 * *калось:* `кал+N+Sg+Nom+Def`
 * *калоськак:* `кал+N+Sg+Nom+Def+Foc/Гак`
 * ★*калосьгак:* `кал+N+Sg+Nom+Def+Foc/Гак` (is not standard language)
 
-*Noun singular genitive definite examples:*
+* Noun singular genitive definite examples:*
 * *калонть:* `кал+N+Sg+Gen+Def`
 * *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
 
@@ -634,7 +632,7 @@ SG-NOM-INDEF_OSH ;
 
 ## INDEFINITE TAGS
 
-*Noun singular nominative definite examples:*
+* Noun singular nominative definite examples:*
 * *калдо:* `кал+N+SP+Abl+Indef`
 * *калдояк:* `кал+N+SP+Abl+Indef+Foc/Гак`
 
@@ -1199,12 +1197,12 @@ imperative suffix
 
 **Disallow Н1:н after Letters**  
 
-**Disallow з where not following voiced consonant or vowel**
+\[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
 
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
-**Disallow з where not following voiced consonant or vowel**
+**Disallow Н1:н after Letters**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*
@@ -1455,6 +1453,8 @@ Other verb forms are
 * +Err/Sub * Substandard
 * +Err/Orth-no-linking-vowel * linking vowel is missing
 * +Err/Orth-high-linking-vowel * linking vowel is high
+* +Err/Orth-front-linking-vowel * linking vowel is front уряжень
+* +Err/Orth-mid-linking-vowel * linking vowel is mid вечкелизь
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-colloq * colloquial, e.g. Минорыч
@@ -2057,6 +2057,9 @@ given the proper use of these flags.
 
 Flags used to identify parts of speech
 * @P.POS.PRON@ 
+* @U.POS.N@ 
+* @U.POS.A@ 
+
 * @P.POS.N@ 
 * @R.POS.N@ 
 * @P.POS.V@ 
@@ -2386,6 +2389,9 @@ The verb сеземс
 
 Some of the nouns have archaic consonant stem forms left:
 € ийть
+
+Some of the nouns have defective paradigms:
+€ кудыкельганть
 
 Some random Russian elements:
 
