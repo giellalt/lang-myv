@@ -284,6 +284,8 @@ LEXICON PROP_LAV
 : NMN_LAV ;
 LEXICON PROP_LEVKS
 : NMN_LEVKS ;
+LEXICON PROP_OZKS
+: NMN_OZKS ;
 LEXICON PROP_ROZ1
 : NMN_ROZ1 ;
 LEXICON PROP_TEV
@@ -298,6 +300,20 @@ LEXICON PROP_KIT
 : N_KIT-Def-Declension ;
 : _KIT-Indef-Declension ;
 : N_KAL-Poss-Declension-CX ;
+
+LEXICON PROP_ART
+: N_KIT-Derivation ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+: N_KIT-Def-Declension ;
+: _KIT-Indef-Declension ;
+: N_KAL-Poss-Declension-CX ;
+
+LEXICON PROP_KENKSH
+:%{frontSoft%} PROP_OSH ;
+
+LEXICON PROP_TENGUSH
++Err/Orth-front-linking-vowel:%{frontSoft%} PROP_OSH ;
+ PROP_OSH ;
 
 LEXICON PROP_OSH
 : N_OSH-Derivation ;

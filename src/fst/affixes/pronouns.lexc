@@ -502,6 +502,7 @@ LEXICON PERS
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Der+Der/MWN+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@ьсе _KUDO-PersPronGen_CX-1A ;
 
 LEXICON 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT
++Der+Der/MWN+N: _KUDO-N2-Def-Declension ; !эсестэнть, эсестэкс 2022-03-26
  GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 +Der/MWN+Pron: NMN_DEF-PL-DECLENSION ;
 LEXICON GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT
@@ -1313,6 +1314,59 @@ LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:мӒ4
 +Sg+Nom+PxPl2:з%>%{оеэØ%}нк INDEF-ENDS-HERE ;
 +Sg+Nom+PxPl3:з%>%{оеэØ%}ст INDEF-ENDS-HERE ;
 
+LEXICON PRON_MEZE_Cases !мезе:мӒ4
++Pl+Nom+Indef:зь%>т%{ЬØ%} ENDLEX ; 
++Pl+Nom+Indef+Use/NG+Err/Orth:сь%>т%{ЬØ%} ENDLEX ; 
++SP+Abe+Indef:зе%>вт{оеэ%}мО1 ENDLEX ;
++SP+Abl:зь%>%{дт%}О1 OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Abl:зе%>%{дт%}О1 OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Dat+Indef:з%>нень ENDLEX ;
++SP+Dat+Indef:зе%>нень ENDLEX ;
++SP+Ela:й%>ст%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ela:зе%>ст%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Gen+Indef:зе%>нь ENDLEX ;
++SP+Gen+Indef:%>нь ENDLEX ;
++SP+Ine:й%>с%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ine:зе%>с%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ill+Indef:й%>с ENDLEX ;
++SP+Ill+Indef:зе%>с ENDLEX ;
++Sg+Nom+Indef:зе ENDLEX ;
+
++SP+Ela+Der/GenAttr:й%>ст%{оэØ%}%>нь ENDLEX ;
++SP+Ela+Der/GenAttr:зе%>ст%{оэØ%}%>нь ENDLEX ;
++SP+Abl+Der/GenAttr:з%>%{дт%}О1%>нь ENDLEX ;
++SP+Abl+Der/GenAttr:зе%>%{дт%}О1%>нь ENDLEX ;
++SP+Ine+Der/GenAttr:й%>с%{оэØ%}%>нь ENDLEX ;
++SP+Ine+Der/GenAttr:зе%>с%{оэØ%}%>нь ENDLEX ;
+!2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
+
++Pl+Abe+Def:з%>тне%>втеме ENDLEX ;
++Pl+Abl+Def:з%>тнеде ENDLEX ;
++Pl+Cmpr+Def:з%>тне%>шка ENDLEX ;
++Pl+Dat+Def:з%>тне%>нень ENDLEX ;
++Pl+Gen+Def:з%>тне%>нь ENDLEX ;
++Pl+Ela+Def:з%>тне%>стэ ENDLEX ;
++Pl+Ill+Def:з%>тне%>с ENDLEX ;
++Pl+Ine+Def:з%>тне%>сэ ENDLEX ;
++Pl+Lat+Def:з%>тне%>в ENDLEX ;
++Pl+Nom+Def:з%>тне ENDLEX ;
++Pl+Tra+Def:з%>тне%>кс ENDLEX ;
+
++Sg+Abl+Def:з%>денть ENDLEX ;
++Sg+Dat+Def:зе%>нтень ENDLEX ;
++Sg+Gen+Def:зе%>нть ENDLEX ;
++Sg+Ine+Def:йсэ%>нть ENDLEX ;
++Sg+Nom+Def:зе%>сь ENDLEX ;
++Sg+Nom+Def:й%>сь ENDLEX ;
+
++Sg+Nom+PxSg1:з%>%{оеэØ%}м ENDLEX ;
++Sg+Nom+PxSg2:з%>%{оеэØ%}т%{ЬØ%} ENDLEX ;
++Sg+Nom+PxSg3:з%>%{оеэØ%}з%{оэØ%} ENDLEX ;
++Sg+Nom+PxPl1:з%>%{оеэØ%}н%{оеэ%}к ENDLEX ;
++Sg+Nom+PxPl1+Dial/NW:з%>%{оеэØ%}м{ое%}к ENDLEX ;
++Sg+Nom+PxPl2:з%>%{оеэØ%}нк ENDLEX ;
++Sg+Nom+PxPl3:з%>%{оеэØ%}ст ENDLEX ;
+
 
 !LEXICON _OSH-Indef_Pronouns-Cases
 !!+Pl+Nom:%>т%{ЬØ%} INDEF-ENDS-HERE ; 
@@ -1677,21 +1731,13 @@ LEXICON REL/INTERR_PRONOUNS
 !кодамо+A+Rel+Pl+Nom+Def:кодатнэ ENDLEX ;
 !2017-11-05кона+Det+Rel+Nom+Sg:кона ENDLEX ;
 
+мезе+Pron+Rel:мӒ4 PRON_MEZE_Cases ;
+мезе+Pron+Interr:мӒ4 PRON_MEZE_Cases ;
 
-мезе+Pron+Rel+Sg+Nom+Indef:мӒ4зе ENDLEX ;
-!мезень+Pron+Rel+Gen:мезень ENDLEX ;
-!мезе+Pron+Rel+Nom+Pl:мезть ENDLEX ;
-мезе+Pron+Rel+Orth/PhonInfl+Nom+Pl:мӒ4сть ENDLEX ;
 мекс+Adv+Rel+Tra:мӒ4кс ENDLEX ;
-!мезе+Pron+Rel+Abl:мезде ENDLEX ;
-!мезе+Pron+Rel+Dat:мезнень ENDLEX ;
-!мезе+Pron+Rel+Abl+Def:мезденть ENDLEX ;
-!мезе+Pron+Rel+Ine:мейсэ ENDLEX ;
 
-!мезе+Adn+Dep+Gen:мень ENDLEX ; !This one cannot take prefix
 мезе+Pron+Rel+Com:мӒ4знек ENDLEX ;
 
-мезе+Pron+Rel:мӒ4зь REL/INTERR-PRON-CASES_OSH ;
 
 
 кона+Det+Rel:кона REL/INTERR-PRON-CASES ;

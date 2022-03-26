@@ -342,12 +342,13 @@ Rules
 !! панемс+V+TV+Ind+ConNeg: **drive/ajaa**
 !!€ пань%>%{оеэØ%}К3
 !!€ пан0%>е0
-
+           [ ш | ж] %{frontSoft%}: %> _  ;
+	   
 "%{оеэØ%}:э"
 !! **@RULENAME@**
 %{оеэØ%}:э <=> LFCH ( %{frontHard%}: ) %> _ ;
-               LFCS (%{frontSoft%}:) (%>) з %> _ ;
-               [:FTV [д |з |л |н |р] |й: | д ь: | з ь: | н ь: | р ь: | л ь:] (%{frontSoft%}:) %> з %> _ ;
+               LFCS (%{frontSoft%}:) (%> %^NoLinkVow: %>| %>) з %> _ ;
+               [:FTV [д |з |л |н |р] |й: | д ь: | з ь: | н ь: | р ь: | л ь:] (%{frontSoft%}:) [%> %^NoLinkVow: %>| %>] з %> _ ;
 !! кев+N+SP+Ill+PxSg2: **rock/kivi**
 !!€ кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}
 !!€ кев0%>з%>эть
@@ -613,21 +614,21 @@ Rules
 !and surface forms in the alphabet.
 "G1:0"
 !! **@RULENAME@**  
-Г1:0 <=> [ :Vows ((%>) К3:0 )  %> | %{КТ%}: %{ЬØ%}:0 %> KLoss:0 | :к %> KLoss:0 ] (%-) _ а:я ;
+Г1:0 <=> [ :Vows ((%>) К3:0 )  %> | %{КТ%}: %{ЬØ%}:0 %> KLoss:0 | :к %> KLoss:0 ] (HarmDummies:) (%-) _ а:я ;
 
 "G1:g"
 !! **@RULENAME@**  
-Г1:г <=> [CnsVoicedDent (:ь|%{ЬØ%}:0)| й | [ CnsVoicedNonDent - г ] ( :ь )] %>  (%-) _ а ;
+Г1:г <=> [CnsVoicedDent (:ь|%{ЬØ%}:0)| й | [ CnsVoicedNonDent - г ] ( :ь )] (HarmDummies:) %>  (%-) _ а ;
 
 "G1:k"
 !! **@RULENAME@**  
-Г1:к <=>  [ CnsVoicelessDent ( :ь | %{ЬØ%}:0 | %{ЬØ%}:ь ) | CnsVoicelessNonDent | г | %{КТ%}: %{ЬØ%}: | К4:0 ]  %> (%-) _ а  ;
+Г1:к <=>  [ CnsVoicelessDent ( :ь | %{ЬØ%}:0 | %{ЬØ%}:ь ) | CnsVoicelessNonDent | г | %{КТ%}: %{ЬØ%}: | К4:0 ] (HarmDummies:)  %> (%-) _ а  ;
           
 
 !Prolative
 "G2:g"
 !! **@RULENAME@**  
-Г2:г <=> [ CnsVoicedDent ( :ь )| [ CnsVoicedNonDent - г ] ( :ь ) ] %> _ а: ;
+Г2:г <=> [ CnsVoicedDent ( :ь )| [ CnsVoicedNonDent - г ] ( :ь ) ] (HarmDummies:)  %> _ а: ;
 
 "G2:v"! 
 Г2:в <=> [ :Vows (:0) %> | :Vows ] _ а: [ # | %- |%> [ (%-) Г1:0 |  %{оеэØ%}:  SIVV |т | н | м | с | д: |%{дт%}: | в | к с | л | %{АЯ%}: ] ];
@@ -635,8 +636,8 @@ Rules
 
 "G2:k"
 !! **@RULENAME@**  
-Г2:к <=>  [ CnsVoicelessDent ( :ь )| CnsVoicelessNonDent ( :ь )| г ] %> _ а: [ # |  %- |%> [ (%-) Г1:0 | %{оеэØ%}: SIVV | т | н | с | д: |%{дт%}:| в | к с | л ] ] ;
-           Vows CnsVoiceless  %> VLoss:0 _ а: ;
+Г2:к <=>  [ CnsVoicelessDent ( :ь )| CnsVoicelessNonDent ( :ь )| г ] (HarmDummies:)  %> _ а: [ # |  %- |%> [ (%-) Г1:0 | %{оеэØ%}: SIVV | т | н | с | д: |%{дт%}:| в | к с | л ] ] ;
+           Vows CnsVoiceless  (HarmDummies:) %> VLoss:0 _ а: ;
 
 ! 2012-08-07
 "G4:g" !Imperative Clitics
@@ -815,12 +816,12 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 !! **@RULENAME@**  
 Н1:н /<= Letters _ ;
 
-"Disallow з where not following voiced consonant or vowel"
-!! **@RULENAME@**
- з:з /<=
- !\[ CnsVoiced ] (ь:) (HarmDummies:) %> _ %> %{оеэØ%}:  ;
-      \[:Vows]  (HarmDummies:) %> _ %> %{оеэØ%}:  ;
-! \[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
+!"Disallow з where not following voiced consonant or vowel"
+!!! **@RULENAME@**
+! з:з /<=
+! !\[ CnsVoiced ] (ь:) (HarmDummies:) %> _ %> %{оеэØ%}:  ;
+!      \[:Vows]  (HarmDummies:) %> _ %> %{оеэØ%}:  ;
+!! \[л | р | н |:Vows (HarmDummies:)] (ь:) %> _ %> %{оеэØ%}:  ;
 
 !!€ пильге{frontSoft}>з>{оеэØ}нз{оэØ}
 !!€ пильге0>з>энзэ
@@ -868,6 +869,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 "Disallow %^NoLinkVow after vowel"
 !! **@RULENAME@**
 %^NoLinkVow:0 /<= :Vows  (HarmDummies:) %> _ ;
+           [:Vows | CnsVoiceless (ь) ]  (HarmDummies:) %> _ %> з ;
 
 "Disallow s for control of stems with inessive..."
 !! **@RULENAME@**

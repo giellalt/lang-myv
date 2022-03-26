@@ -457,17 +457,21 @@ LEXICON N_LEVKS-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
 LEXICON N_KENKSH
-@P.POS.N@:@P.POS.N@ NMN_KUDO ;
+@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontSoft%} CMP-INDEF ;
+@P.POS.N@@U.DECL-NX.SP@%{frontSoft%} LAT-INDEF ;
+@P.POS.N@:@P.POS.N@%{frontSoft%}%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+
+LEXICON N_TENGUSH
++Err/Orth-front-linking-vowel:%{frontSoft%} N_OSH ;
+ N_OSH ;
 
 LEXICON N_LESHCH
-@P.POS.N@:@P.POS.N@ NMN_KUDO ;
+@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Der/Dimin:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@@U.DECL-NX.SP@ LAT-INDEF ;
+@P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontSoft%} CMP-INDEF ;
+@P.POS.N@@U.DECL-NX.SP@%{frontSoft%} LAT-INDEF ;
 
 LEXICON N_PLASHCH
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
@@ -1530,6 +1534,10 @@ LEXICON SG-TRA-DEF_Dial-NW
 
 !! ## INDEFINITE DECLENSION
 
+LEXICON SG/PL_NOM_INDEF !for adjectives
+ SG-NOM-INDEF ;
+ PL-NOM-INDEF ;
+
 LEXICON _KIT-Indef-Declension
 ! _KIT-Indef-Declension-SG ;
 ! _KIT-Indef-Declension-PL ;
@@ -1918,7 +1926,7 @@ LEXICON ELA-PX
 
 LEXICON ILL-PX
 +SP+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-+SP+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++SP+Ill+Err/Orth-no-linking-vowel:%>%^NoLinkVow%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 
 LEXICON INE-PX
@@ -1933,7 +1941,9 @@ LEXICON PRL-PX
 LEXICON TRA-PX
 +SP+Tra:%>кс OBL-PX4-END-FOC ;
 
-
+LEXICON OBL-PX4-END-FOC-OR_ENDLEX
+ OBL-PX4-END-FOC ;
++Indef: ENDLEX ;
 
 !! ## DEFINITE PLURAL
 

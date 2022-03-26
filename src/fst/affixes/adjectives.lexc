@@ -12,12 +12,12 @@ LEXICON IS_NUMORD_KUDO !! ordinals in -це
 
 
 LEXICON A-IS-ATTR_KONDJAMO !! кондямо:кондя
-:мо # ; !A_PANGO
-:м N_PANGO-Def-Declension ;
-:м _PANGO-Indef-Declension ;
-:мо N_KUDO-Poss-Declension-CX ;
-: NMN_DEF-PL-DECLENSION-TNE2 ;
++Sg+Nom+Indef:мо # ; !A_PANGO
 +Pl+Nom+Indef:т K ;
++Der+Der/MWN+N:м N_PANGO-Def-Declension ;
++Der+Der/MWN+N:м _PANGO-Indef-Declension ;
++Der+Der/MWN+N:мо N_KUDO-Poss-Declension-CX ;
++Der+Der/MWN+N: NMN_DEF-PL-DECLENSION-TNE2 ;
 
 LEXICON DET-DEM_TE
 !: _KUDO-Misc_Pronouns_Sg ;
@@ -61,16 +61,18 @@ LEXICON A_KIT
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
 : CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_KIT ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_KIT ;
 : N2Dem-SE ;
 
 LEXICON A_LAK
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_LAK ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_LAK ;
 : N2Dem-SE ;
 
 !LEXICON A_KAL_Sub
@@ -80,134 +82,151 @@ LEXICON A_KAL
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_KAL ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_KAL ;
 : N2Dem-SE ;
 
 LEXICON A_LAV
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_LAV ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_LAV ;
 : N2Dem-SE ;
 
 LEXICON A_TEV
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_TEV ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_TEV ;
 : N2Dem-SE ;
 
 LEXICON A_KEL1
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-:%{frontSoft%} CLT/COP4_OBL ;
-+Pl:%{frontSoft%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-:%{frontSoft%} NMN_KEL1 ;
+!:%{frontSoft%} CLT/COP4_OBL ;
+!+Pl:%{frontSoft%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+:%{frontSoft%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:%{frontSoft%} NMN_KEL1 ;
 :%{frontSoft%} N2Dem-SE ;
 
 LEXICON A_PEJ
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-:%{frontSoft%} CLT/COP4_OBL ;
-+Pl:%{frontSoft%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-:%{frontSoft%} NMN_PEJ ;
+!:%{frontSoft%} CLT/COP4_OBL ;
+!+Pl:%{frontSoft%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+:%{frontSoft%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:%{frontSoft%} NMN_PEJ ;
 :%{frontSoft%} N2Dem-SE ;
 
 LEXICON A_OSH
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_OSH ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_OSH ;
 : N2Dem-SE ;
 
 LEXICON A_KENKSH
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_KENKSH ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_KENKSH ;
 : N2Dem-SE ;
 
 LEXICON A_OZKS
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_OZKS ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_OZKS ;
 : N2Dem-SE ;
 
 LEXICON A_LEVKS
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_LEVKS ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_LEVKS ;
 : N2Dem-SE ;
 
 LEXICON A_ROZ1
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
-: CLT/COP4_OBL ;
-+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-: NMN_ROZ1 ;
+!: CLT/COP4_OBL ;
+!+Pl:%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_ROZ1 ;
 : N2Dem-SE ;
 
 LEXICON A_TESHTE
 :%^Ь2ZEROе%{frontSoft%} ADJ-TO-ADV ;
 :%{frontSoft%} ADJ-TO-ADV ;
 :%^Ь2ZEROе Adj-pango-tinge ;
-:%^Ь2ZEROе%{frontSoft%} NMN_PANGO ;
+:%^Ь2ZEROе%{frontSoft%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:%^Ь2ZEROе%{frontSoft%} NMN_PANGO ;
 :%^Ь2ZEROе N2Dem-SE ;
 
 LEXICON A_CHUVTO
 :о%{backHard%} ADJ-TO-ADV ;
 :%{backHard%} ADJ-TO-ADV ;
 :о%{backHard%} Adj-pango-tinge ;
-:о%{backHard%} NMN_PANGO ;
+:о%{backHard%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:о%{backHard%} NMN_PANGO ;
 :о%{backHard%} N2Dem-SE ;
 
 LEXICON A_EKSHE
 :е%{frontHard%} ADJ-TO-ADV ;
 :%{frontHard%} ADJ-TO-ADV ;
 :е%{frontHard%} Adj-pango-tinge ;
-:е%{frontHard%} NMN_EKSHE ;
+:е%{frontHard%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:е%{frontHard%} NMN_EKSHE ;
 :е%{frontHard%} N2Dem-SE ;
 
 LEXICON A_LAVSHO
 :о%{backHard%} ADJ-TO-ADV ;
 :%{backHard%} ADJ-TO-ADV ;
 :о%{backHard%} Adj-pango-tinge ;
-:о%{backHard%} NMN_LAVSHO ;
+:о%{backHard%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:о%{backHard%} NMN_LAVSHO ;
 :о%{backHard%} N2Dem-SE ;
 
 LEXICON A_TINGE
 :е%{frontSoft%} ADJ-TO-ADV ;
 :%{frontSoft%} ADJ-TO-ADV ;
-+Pl:е%{frontSoft%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-:%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
-:е%{frontSoft%} NMN_KUDO ;
+!+Pl:е%{frontSoft%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+:%{frontSoft%} SG/PL_NOM_INDEF ;
+:е%{frontSoft%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
++Der+Der/MWN+N:е%{frontSoft%} NMN_KUDO ;
 :е%{frontSoft%} N2Dem-SE ;
 
 LEXICON A_PANGO
 :о%{backHard%} ADJ-TO-ADV ;
 :%{backHard%} ADJ-TO-ADV ;
-+Pl:о%{backHard%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
-:%{backHard%} NMN_TINGE-SHORT-FORMS ;
-:о%{backHard%} NMN_KUDO ;
+!+Pl:о%{backHard%}%>т%{ЬØ%} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
+:о%{backHard%} SG/PL_NOM_INDEF ;
++Der+Der/MWN+N:%{backHard%} NMN_TINGE-SHORT-FORMS ;
++Der+Der/MWN+N:о%{backHard%} NMN_KUDO ;
 :о%{backHard%} N2Dem-SE ;
 
 LEXICON Adj-pango-tinge
@@ -248,11 +267,12 @@ LEXICON A_KUDO
 
 LEXICON A_KUDO_01
 ! K ;
- CLT/COP4_OBL ; !! 2013-04-17
+! CLT/COP4_OBL ; !! 2013-04-17
 !+Pl:%>т%{ЬØ%} _KIT-NomPl-Conjugation ; 2022-01-21
 !2013-03-15!+Pl: _KUDO-NomPl-Conjugation-only ;
 !+Pl:%>т%{ЬØ%} K ;
-: NMN_KUDO ;
+ SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_KUDO ;
 
 
 !LEXICON Adj-InterrRel ! кодамо
@@ -267,11 +287,11 @@ LEXICON A-IS-INTERR/REL-ADJ_KODAMO !! кодамо:кода
 LEXICON ADJ_KODAMO !! кодамо:кода
 +Sg+Nom+Indef:мо # ;
 +Pl+Nom+Indef:т # ;
-:м N_PANGO-Def-Declension ;
-:м _PANGO-Indef-Declension ;
-:мо N_KUDO-Poss-Declension-CX ;
-: NMN_DEF-PL-DECLENSION-TNE2 ; !! кодатнэ
-NMN_DEF-PL-DECLENSION ; !! кодатне 
++Der+Der/MWN+N:м N_PANGO-Def-Declension ;
++Der+Der/MWN+N:м _PANGO-Indef-Declension ;
++Der+Der/MWN+N:мо N_KUDO-Poss-Declension-CX ;
++Der+Der/MWN+N: NMN_DEF-PL-DECLENSION-TNE2 ; !! кодатнэ
++Der+Der/MWN+N: NMN_DEF-PL-DECLENSION ; !! кодатне 
 
 LEXICON DET_KUDO
 !: K ;

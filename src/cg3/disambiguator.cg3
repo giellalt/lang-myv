@@ -208,7 +208,8 @@ LIST PlNomPossessum = (Pl Nom PxSg1) (Pl Nom PxSg2) (Pl Nom PxSg3) (Pl Nom PxPl1
 
 LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
 
-SET AdjObl = A - (A Sg Nom Indef) - (A Pl Nom Indef) ;
+SET AdjObl = A - (Sg Nom Indef) - (Pl Nom Indef) ;
+SET NObl = N - (Sg Nom Indef) - (Pl Nom Indef) ;
 
 # Erzya has implicit comparison, i.e. with relation to Joe, Sue is tall.
 LIST Comp = Comp ;
@@ -1030,6 +1031,9 @@ REMOVE:NoSubjWhenPxCorrelatesWithSubjObj (Pl Nom) IF (0 (PxPl3)) (*0 (ScPl3) OR 
 REMOVE (Sg Nom) IF (0 (PxPl3)) (*0 (OcPl3) BARRIER CLB) (NOT 1 ADPNOPX);
        #пряст: Салызь эсь пряст.
 
+REMOVE:NotNWhenPreceedNegNextN (N Sg Nom Indef) IF (0 A) (-1 (Pcle Neg)) (1 N); 
+       #покш: а покш веле
+
 REMOVE (A SP Com) IF (0 (N SP Com));
        #сыренек-однэк
 
@@ -1070,6 +1074,9 @@ REMOVE IV IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 PlGenPossessum BARR
 
 
 REMOVE TV IF (0 ("теемс") OR ("меремс") OR ("молемс")) (-1 Ideoph);
+
+#REMOVE TV IF (0 IV) (0* BARRIER CLB);# work needed 2022-03-26
+       #, кискат эзть онго,
 
 
 REMOVE IV IF (-1 (Sg Gen Def) OR (Pl Gen Def));
@@ -1259,6 +1266,7 @@ REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
 # якамонзо якизе
 #REMOVE TV IF (0 JAKAMS) ((NOT *-1) OR (NOT *1  )) ;
 
+
 # иля сёвно
 #Кода понгсь минь сынст ней а виднесынек.
 # — Кияк эзь учне тень.
@@ -1284,7 +1292,14 @@ SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 # А кискась, кода содатано,  кортамо машты!
 # А кискась, кода содатано,  кортамо а машты!
 REMOVE:NoNomActWhenInfLocContext Der/NomAct IF (0 Inf + Loc)(0 Sg + Nom + Indef) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS));
-REMOVE:NoNAbsWhenInfLocContext Sg + Nom + Indef IF (0 Inf + Loc) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS)) ;
+
+REMOVE (A Der Der/MWN N Sg Nom Indef) IF (0 (N Sg Nom Indef));
+
+REMOVE (AdjObl) IF (0 NObl);
+       #сыренек-однэк
+
+REMOVE:NoNAbsWhenInfLocContext (NomAct N Sg Nom Indef) IF (0 Inf + Loc) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS)) ;
+#REMOVE Sg + Nom + Indef IF (0 Inf + Loc) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS)) ;# too strong
 	#!!качамо: эзь лисе керькссэ тапарксокс качамо ды
 
 REMOVE:NoNIfVeFollowedByN ("ве" N Sg Nom Indef) IF (1 N);
