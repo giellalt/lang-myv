@@ -22,6 +22,8 @@ Some of the nouns have archaic consonant stem forms left:
 Some of the nouns have defective paradigms:
 € кудыкельганть
 
+Periferal
+
 Some random Russian elements:
 
 Some of the nouns have special forms for Gen PxSg1 and PxSg2:

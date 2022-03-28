@@ -23,8 +23,6 @@ nouns.
 
 Obligatory Possessor Index
 
-Periferal
-
 Demonstrative
 
 истямо:истя

@@ -569,7 +569,7 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/PatrMal Male patronymic
 * +Der/PatrFem Female patronymic
 
-* +Der/Ovt * telic deverbal noun also attr
+* +Der/Ovt * telic deverbal noun also attr, resultative participle
 * +Der/Oms * infinitive illative
 * +Der/OmO * infinitive locative/nominative
 * +Der/OmstO * infinitive elative
@@ -968,6 +968,8 @@ problematic
 * @U.CX.DAT@ 
 * @U.CX.ELA@ 
 * @U.CX.GEN@ 
+* @R.CX.ILL@ 
+* @D.CX.ILL@ 
 * @U.CX.ILL@ 
 * @U.CX.INE@ 
 * @U.CX.LAT@ 
