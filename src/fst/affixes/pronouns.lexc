@@ -329,12 +329,6 @@ LEXICON PERS
 
 !! Obligatory Possessor Index
 
-!! Periferal
-!
-ськамонзо+Pron+Exclusive+PerifMod:ськамо OBL-PX4-CLTCOP-OR-FOC ;
-ськамнензэ+Pron+Exclusive+PerifMod+Der+Der/nje:ськамне OBL-PX4-CLTCOP-OR-FOC ; 
-ськаминензэ+Pron+Exclusive+PerifMod+Der+Der/nje:ськамине OBL-PX4-CLTCOP-OR-FOC ; 
-ськамнинензэ+Pron+Exclusive+PerifMod+Der+Der/nje+Der+Der/nje:ськамнине OBL-PX4-CLTCOP-OR-FOC ; 
 ! in the PRON_myv-lex.xml file !Dat-Pron ! тензэ+Pron+DAT:те PossPX1 ; 
 
 
@@ -1306,22 +1300,22 @@ LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:мӒ4
 +Sg+Nom+Def:зе%>сь INDEF-ENDS-HERE ;
 +Sg+Nom+Def:й%>сь INDEF-ENDS-HERE ;
 
-+Sg+Nom+PxSg1:з%>%{оеэØ%}м INDEF-ENDS-HERE ;
-+Sg+Nom+PxSg2:з%>%{оеэØ%}т%{ЬØ%} INDEF-ENDS-HERE ;
-+Sg+Nom+PxSg3:з%>%{оеэØ%}з%{оэØ%} INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl1:з%>%{оеэØ%}н%{оеэ%}к INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl1+Dial/NW:з%>%{оеэØ%}м{ое%}к INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl2:з%>%{оеэØ%}нк INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl3:з%>%{оеэØ%}ст INDEF-ENDS-HERE ;
++Sg+Nom+PxSg1:зем INDEF-ENDS-HERE ;
++Sg+Nom+PxSg2:зеть INDEF-ENDS-HERE ;
++Sg+Nom+PxSg3:зезэ INDEF-ENDS-HERE ;
++Sg+Nom+PxPl1:зенек INDEF-ENDS-HERE ;
++Sg+Nom+PxPl1+Dial/NW:земек INDEF-ENDS-HERE ;
++Sg+Nom+PxPl2:зенк INDEF-ENDS-HERE ;
++Sg+Nom+PxPl3:зест INDEF-ENDS-HERE ;
 
 LEXICON PRON_MEZE_Cases !мезе:мӒ4
 +Pl+Nom+Indef:зь%>т%{ЬØ%} ENDLEX ; 
 +Pl+Nom+Indef+Use/NG+Err/Orth:сь%>т%{ЬØ%} ENDLEX ; 
 +SP+Abe+Indef:зе%>вт{оеэ%}мО1 ENDLEX ;
-+SP+Abl:зь%>%{дт%}О1 OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Abl:зде OBL-PX4-END-FOC-OR_ENDLEX ;
 +SP+Abl:зе%>%{дт%}О1 OBL-PX4-END-FOC-OR_ENDLEX ;
-+SP+Dat+Indef:з%>нень ENDLEX ;
-+SP+Dat+Indef:зе%>нень ENDLEX ;
++SP+Dat+Indef:знень ENDLEX ;
++SP+Dat+Indef:зенень ENDLEX ;
 +SP+Ela:й%>ст%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
 +SP+Ela:зе%>ст%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
 +SP+Gen+Indef:зе%>нь ENDLEX ;
@@ -1359,13 +1353,13 @@ LEXICON PRON_MEZE_Cases !мезе:мӒ4
 +Sg+Nom+Def:зе%>сь ENDLEX ;
 +Sg+Nom+Def:й%>сь ENDLEX ;
 
-+Sg+Nom+PxSg1:з%>%{оеэØ%}м ENDLEX ;
-+Sg+Nom+PxSg2:з%>%{оеэØ%}т%{ЬØ%} ENDLEX ;
-+Sg+Nom+PxSg3:з%>%{оеэØ%}з%{оэØ%} ENDLEX ;
-+Sg+Nom+PxPl1:з%>%{оеэØ%}н%{оеэ%}к ENDLEX ;
-+Sg+Nom+PxPl1+Dial/NW:з%>%{оеэØ%}м{ое%}к ENDLEX ;
-+Sg+Nom+PxPl2:з%>%{оеэØ%}нк ENDLEX ;
-+Sg+Nom+PxPl3:з%>%{оеэØ%}ст ENDLEX ;
++Sg+Nom+PxSg1:зем ENDLEX ;
++Sg+Nom+PxSg2:зеть ENDLEX ;
++Sg+Nom+PxSg3:зезэ ENDLEX ;
++Sg+Nom+PxPl1:зенек ENDLEX ;
++Sg+Nom+PxPl1+Dial/NW:земек ENDLEX ;
++Sg+Nom+PxPl2:зенк ENDLEX ;
++Sg+Nom+PxPl3:зест ENDLEX ;
 
 
 !LEXICON _OSH-Indef_Pronouns-Cases

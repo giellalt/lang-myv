@@ -20,7 +20,13 @@
 
 # List any local filter regex files here:
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
-					downcase_UCletters.regex
+					downcase_UCletters.regex  \
+					remove-norm-comp-tags.regex  \
+					remove-homonymy-tags.regex   \
+					remove-dialect-tags.regex    \
+					remove-usage-tags.regex      \
+					remove-derivation-position-tags.regex   \
+					rename-POS_before_Der-tags.regex
 
 # List any local filter xfscript files here:
 GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=
