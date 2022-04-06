@@ -66,7 +66,6 @@ LEXICON adverbs
 
 чипельде+Adv+Abl:чипельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 чипелев+Adv+Lat:чипелев K ;
-чипеле+Adv+Loc:чипеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 чипельга+Adv+Prl:чипельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
 
 !
@@ -120,6 +119,11 @@ LEXICON ADV-MANNER_ ! degree marking
 LEXICON ADV_ ! 
 : K ;
 
+LEXICON ADV_CAN_TAKE_PRTSG3
+! Used with modal adverbs: нельзя, можна
+CLT/COP-PRT2-SG3 ;
+ K ;
+
 LEXICON ADV-EVID-NFH_ !келя 
 +EvidNfh: K ;
 
@@ -168,6 +172,9 @@ LEXICON ADV_IS_LOC !!= @CODE@ ало
 +Loc: CLT/COP-4-OBL ;
 
 !2022-02-06
+LEXICON LOC-PX-FOLLOWED-BY-END/FOC/COP-OR-K
++Loc: OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+
 LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
  ADV-SPAT_ALO ;
 +Abl:%>%{дт%}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;

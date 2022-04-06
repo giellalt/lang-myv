@@ -8,10 +8,10 @@ LEXICON PossPX1
 :%> PossMarker-then-Clt ;
 
 LEXICON N_KIN-TYPE-PX-GEN-SG1-SG2
- N_KIN-TYPE-PX-GEN-SG1 ;
+!2022-04-07 N_KIN-TYPE-PX-GEN-SG1 ;
  N_KIN-TYPE-PX-GEN-SG2	;
-LEXICON N_KIN-TYPE-PX-GEN-SG1
-+Sg+Gen+PxSg1:%>%{оеэØ%}нь K ;
+!LEXICON N_KIN-TYPE-PX-GEN-SG1
+!+Sg+Gen+PxSg1:%>%{оеэØ%}нь K ;
 LEXICON N_KIN-TYPE-PX-GEN-SG2
 +Sg+Gen+PxSg2:%>%{оеэØ%}ть K ;
 
@@ -75,7 +75,7 @@ LEXICON N-KIN
 +Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть N2Dem-SE ;
 +Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 @U.DECL-NX.SG@+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:@U.DECL-NX.SG@%>%{оеэØ%}ть _KIT-Conjugation ;
-+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>%{оеэØ%}нь OBL-WITH-COP_KAL ;
+!2022-04-01+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>%{оеэØ%}нь OBL-WITH-COP_KAL ;
 !+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>%{оеэØ%}нь _KAL-Tenses-Obl ;
 +Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть OBL-WITH-COP_KAL ;
 !+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть _KIT-Tenses-Obl ;
@@ -438,7 +438,7 @@ LEXICON SPATIAL_DEFECTIVES_ABL/LAT/LOC/PRL
 LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K
  OBL-PX-FOLLOWED-BY-END/FOC/COP ;
  K ;
-: CLT/COP-4-OBL ;
+!2022-04-07: CLT/COP-4-OBL ;
 
 LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP
  OBL-PX4-END/FOC/CLTCOP_PXSG1 ;

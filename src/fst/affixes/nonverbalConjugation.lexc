@@ -2,7 +2,6 @@
 
 !! In the Erzya language nominals and adverbs also conjugate
 
-
 !! Used with deverbals
 
 !testingbegin
@@ -11,29 +10,25 @@ LEXICON OBL-WITH-COP_KAL
  OBL-WITH-COP_KAL-Sg ;
  OBL-WITH-COP_KAL-Pl ;
 
+
 LEXICON OBL-WITH-COP_KAL-Sg
 K ;
 !2020-03-27+Clt/Cop+Prs+ScSg3: K ;
-+Clt/Cop: OBL-WITH-COP_KAL-Sg-noClt ;
 
-LEXICON OBL-WITH-COP_KAL-Sg-noClt
-+Prs+ScSg1:%>%{АЯ%}н K ;
-+Prs+ScSg2:%>%{АЯ%}т K ;
-+Prt2+ScSg1:%>%{оеэØ%}линь K ;
-+Prt2+ScSg2:%>%{оеэØ%}лить K ;
-+Prt2+ScSg3:%>%{оеэØ%}ль K ;
+ CLT/COP-PRS-SG1 ;
+ CLT/COP-PRS-SG2 ;
+CLT/COP-PRT2-SG1 ;
+CLT/COP-PRT2-SG2 ;
+CLT/COP-PRT2-SG3 ;
 
 LEXICON OBL-WITH-COP_KAL-Pl
-+Clt/Cop: OBL-WITH-COP_KAL-Pl-noClt ;
+ CLT/COP-PRS-PL1 ;
+ CLT/COP-PRS-PL2 ;
 
-LEXICON OBL-WITH-COP_KAL-Pl-noClt
-+Prs+ScPl1:%>т%{АЯ%}но K ;
-+Use/NG+Dial+Prs+ScPl1:%>т%{АЯ%}нок K ;
-+Prs+ScPl2:%>т%{АЯ%}до K ;
 !+Prs+ScPl3: K ;
-+Prt2+ScPl1:%>%{оеэØ%}линек K-lak ;
-+Prt2+ScPl2:%>%{оеэØ%}лиде K ;
-+Prt2+ScPl3:%>%{оеэØ%}льть K ;
+ CLT/COP-PRT2-PL1 ;
+ CLT/COP-PRT2-PL2 ;
+ CLT/COP-PRT2-PL3 ;
 
 
 !testngend
