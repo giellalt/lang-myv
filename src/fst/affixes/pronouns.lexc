@@ -732,8 +732,8 @@ LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done
 !+Rel+Dep:мо # ;
 
 LEXICON PRON-IS-REL-PERS !! ки:ки
-+Rel+Pers+Sg+Nom:е #  ;
-+Rel+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
++Rel+Sg+Nom:е #  ;
++Rel: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
 
 
 
@@ -746,7 +746,7 @@ LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
 +SP+Ill:%>%{оеэØ%}ньс #  ;
 +SP+Ela:%>%{оеэØ%}ньстэ #  ;
 +SP+Abe:%>вт{оеэ%}мО1 #  ;
-+SP+Abl:%>%{оеэØ%}ньде #  ;
++SP+Abl:%>%{оеэØ%}нде #  ;
 +SP+Abl:%>%{дт%}О1 #  ;
 +SP+Tra:%>кс #  ;
 +SP+Dat:%>нень #  ;
@@ -1735,8 +1735,8 @@ LEXICON REL/INTERR_PRONOUNS
 
 
 
-кона+Det+Rel:кона REL/INTERR-PRON-CASES ;
-кона+Det+Rel:кона PRON-DEM_TE ;
+кона+Pron+Rel:кона REL/INTERR-PRON-CASES ;
+кона+Pron+Rel:кона PRON-DEM_TE ;
 
 !ко+Pron+Interr:ко Indef_Pronouns-Cases ;
 !зяродо+Adv+Interr+Abl:зяродо ENDLEX ;
