@@ -218,6 +218,7 @@ Other verb forms are
 * +Err/Orth-colloq * colloquial, e.g. Минорыч
 * +Err/Orth-old1 * old1 like озимь, морковь
 * +Err/Orth-pre2012 * previous orthography
+* +Err/Orth-stem-with-vowel * чуд|емс (->)чуде|мс
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller
 * +Use/SpellNoSugg * recognized but not suggested in speller

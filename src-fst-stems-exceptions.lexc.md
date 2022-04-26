@@ -14,6 +14,8 @@ The verb ярсамс has additional irregular forms:
 € ярстано
 € ярстадо
 
+The verb чуд|емс in orthography but чуде|мс in Сятко
+
 The verb сеземс
 
 Some of the nouns have archaic consonant stem forms left:
