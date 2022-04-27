@@ -212,10 +212,11 @@ SET AdjObl = A - (Sg Nom Indef) - (Pl Nom Indef) ;
 SET NObl = N - (Sg Nom Indef) - (Pl Nom Indef) ;
 
 
-LIST POSSIBLESGNOMSUBJ = (N Sg Nom Indef) (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3) ;
-#possible Sg Nom subject
-LIST POSSIBLEPLNOMSUBJ = (N Pl Nom Indef) (N Pl Nom Def) (N Pl Nom PxSg1) (N Pl Nom PxSg2) (N Pl Nom PxSg3) (N Pl Nom PxPl1) (N Sg Nom PxPl2) (N Pl Nom PxPl3) ;
+LIST POSSIBLESGNOMSUBJ = (N Sg Nom Indef) (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3) ;#possible Sg Nom subject
 
+LIST POSSIBLEPLNOMSUBJ = (N Pl Nom Indef) (N Pl Nom Def) (N Pl Nom PxSg1) (N Pl Nom PxSg2) (N Pl Nom PxSg3) (N Pl Nom PxPl1) (N Pl Nom PxPl2) (N Pl Nom PxPl3) ;#possible Pl Nom subject
+
+SET NOUNNOT_POSSIBLEPLNOMSUBJ = N - POSSIBLEPLNOMSUBJ;
 
 # Erzya has implicit comparison, i.e. with relation to Joe, Sue is tall.
 LIST Comp = Comp ;
@@ -265,6 +266,8 @@ SET VFINSG3SUBJ = ScSg3 - Clt/Cop;# finite verb -- not noun
 SET VFINPL1SUBJ = ScPl1 - Clt/Cop;# finite verb -- not noun
 SET VFINPL2SUBJ = ScPl2 - Clt/Cop;# finite verb -- not noun
 SET VFINPL3SUBJ = ScPl3 - Clt/Cop;# finite verb -- not noun
+SET VFINPERSONSGSUBJ =  VFINSG1SUBJ | VFINSG2SUBJ | VFINSG3SUBJ ;#Sg Subj
+SET VFINPERSONPLSUBJ =  VFINPL1SUBJ | VFINPL2SUBJ | VFINPL3SUBJ;
 SET VFINPERSONSUBJ =  VFINSG1SUBJ | VFINSG2SUBJ | VFINSG3SUBJ | VFINPL1SUBJ | VFINPL2SUBJ | VFINPL3SUBJ;
 SET NOT-VFINSG3SUBJ = VFINPERSONSUBJ - VFINSG3SUBJ ;
 SET NOT-VFINPL3SUBJ = VFINPERSONSUBJ - VFINPL3SUBJ ;
@@ -691,6 +694,7 @@ LIST <vdic> = <vdic> ;
 
 LIST KUROK = "курок" ;
 LIST MARTO = "марто" ;
+LIST KODAMOA = ("кодамо" A Interr Sg Nom Indef) ("кодамо" A Rel Sg Nom Indef) ;
 LIST PESHKSE = "пешксе" ;
 LIST SEDE = "седе" ;
 LIST CARDNUM = "вейке" "кавто" "колмо" "ниле" "вете" "кото" ;
@@ -713,7 +717,7 @@ SET NOT-TEMPORALNOUN = N - TEMPORALNOUN  ;
 
 LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take additive particle, as these are indefinite pronouns, e.g., кодамояк
 
-LIST NAELAAMBADVS = "бойкасто" "кеместэ" "сеедьстэ" "чуросто" "шождынестэ" "эчкстэ" ;#adverbs that look like nouns or adjectives in SP Ela Indef. This does not contain ‹куроксто›, as ‹курок› entails homonymy
+LIST NAELAAMBADVS = "бойкасто" "кеместэ" "пижестэ" "сеедьстэ" "чуросто" "шождынестэ" "эчкстэ" ;#adverbs that look like nouns or adjectives in SP Ela Indef. This does not contain ‹куроксто›, as ‹курок› entails homonymy
 
 LIST VAMBNOUNS = "вал" "кадо" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пона" "понго" "ранг" "ром" "сал" "сод" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 # "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ""
@@ -798,7 +802,7 @@ SET SG-SUBJ = SG-SUBJ-INDEF OR SG-SUBJ-DEF OR SG-SUBJ-PX ;
 
 
 #!! ### Derivation tags
-LIST 2VDerTag = Der/njems Der/немс Der/OvtOms Der/Ovtnjems ; #!! 2VDerTag
+LIST 2VDerTag = Der/njems Der/немс Der/OvtOms Der/Ovtnjems Der/Ozevems ; #!! 2VDerTag
 LIST 2NDerTag = Der/кс ; #!! 2NDerTag
 LIST DerGenAttr = Der/GenAttr ;
 
@@ -852,6 +856,22 @@ REMOVE:NoPanIfGenFollowedByRelator ("пан") IF (0 (Sg Abl Def)) (1 POSTPWITHGE
 	#Пандонть тёкшкесэ, виренть потсо, неяви ош.
 # KILL тётя
 REMOVE:NoAuntie ("тётя") IF (0 ("тетя"));
+REMOVE:NoAbbrA ("А") OR ("а") IF (0 (N ABBR));
+REMOVE:NoPcleAfterComma ("ды" Pcle) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
+	#, ды сон кирнявтсь
+
+REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 (A Sg Nom Indef));
+       #сюпав
+
+REMOVE:NoPcleWithfollowingPostp ("ведь" Pcle) IF (1 PostpNoPX);
+	#ведь марто
+REMOVE:NoSaunaWithCommas (Imprt ScSg2) IF (-1 BOS OR CLB) (0 ("паряк" Pcle Epist)) (1 EOS OR CLB);
+       #паряк: Мерян Виляня азоравантень, паряк, кадтанзат.
+REMOVE ("сё" Interj) IF (NOT 1 CLB OR EOS);
+	#се : , кува чудсь ведесь, се таркась валявсь кевсэ." spellrelax issue
+
+REMOVE NOUNNOT_POSSIBLEPLNOMSUBJ IF (0 (Pl Nom)) (*0 VFINPL3SUBJ BARRIER CLB OR EOS OR BOS) (NOT *0 POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS);
+
 REMOVE:NoReadyAdvComp ("седе");
 
 # эзинь прядо
@@ -952,6 +972,7 @@ REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
 
 # кайсевкшнить
 REMOVE:NoDerOkshnOmsIfReady Der/OkshnOms IF (0C V) ;
+REMOVE:NoDerOzevemsIfReady Der/Ozevems IF (0C V) ;
 
 # псакась совась кудос
 # this may be too powerful
@@ -1076,9 +1097,9 @@ REMOVE Rel IF (1 QUEST) ;
 #«Ков сыргить?»
 REMOVE Rel IF (0 Upper) (NOT 0 Prop) ;
 
-REMOVE Interr IF (-2 N) (-1 (","))(0 Rel);
+REMOVE Interr IF (-2 N) (-1 (","))(0 (Pron Rel));
        #конатнень: изнявкстнэ, конатнень теинзе
-
+       #кодамо: Ванносак ошонть, кодамо сон.
 
 #Эйкакшонь масторга.
 REMOVE DerGenAttr IF (0 N + SP + Gen) ;
@@ -1127,7 +1148,7 @@ REMOVE (Gen) IF (0 (Pl Nom)) (*-1 VFINPL3SUBJNOOBJ) (NOT *-1 (Pl Nom) BARRIER CL
 REMOVE PlNomPossessum IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 TV BARRIER CLB OR BOS OR EOS);
 	     #ведест: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
 
-REMOVE:NotNounWhenFollowedByNounAndPo N IF (0 A + Sg + Nom + Indef) (1 N) (2 ADPNOPX OR CLB OR EOS) ;
+REMOVE:NotNounWhenFollowedByNounAndPo N IF (0 A + Sg + Nom + Indef) (1 N OR Pron) (2 ADPNOPX OR CLB OR EOS) ;
 				      #коське: озась коське тарад лангс.
 				      #мазый:  Вай, кодамо мазый Локсеесь!
 
@@ -1207,9 +1228,9 @@ SELECT:DegIfNextAdv Deg IF (0 ("пек")) (1 (A) OR (Adv)) ;
 		       
 # instead of Der/stO Adv
 # мазыйстэ
+REMOVE:NoAdjElaIfAdv (A SP Ela Indef) OR (Der/MWN N SP Ela Indef) IF (0 Adv) ;
 REMOVE:NoDerAdvIfAdv (Der/stO Adv) IF (0 Adv OR NAELAAMBADVS) ;
-REMOVE:NoAdjElaIfAdv (A SP Ela Indef) IF (0 Adv) ;
-
+	#пижестэ: цёранть сельмензэ кармасть паломо пижестэ,
 # весемеде мазый
 REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 
@@ -1377,6 +1398,23 @@ REMOVE:NoNAbsWhenInfLocContext (NomAct N Sg Nom Indef) IF (0 Inf + Loc) ((-1* VE
 #REMOVE Sg + Nom + Indef IF (0 Inf + Loc) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS)) ;# too strong
 	#!!качамо: эзь лисе керькссэ тапарксокс качамо ды
 
+REMOVE (Inf Loc) IF (NOT *0 VERBWITHMO BARRIER CLB OR BOS OR EOS);
+       # мелезэ ульнесь содамс, кодамо зыян тия ютась.
+
+REMOVE ("кодамо" N Sg Nom Indef) IF (1 A);
+       #кодамо мазый локсеесь
+
+REMOVE N IF (-1 KODAMOA) (0 (A Sg Nom Indef)) (1 V);
+       #кодамо сюпав ульнесь
+
+REMOVE N IF (0 KODAMOA) (1 A OR Det OR Pron OR N);
+       #кодамо сюпав ульнесь
+       #кодамо те виесь
+       #кодамо сон
+       #кодамо зыян
+
+REMOVE N IF (0 KODAMOA) (-1 ("сон" Pron Pers Sg3 Nom));
+       #Вана сон кодамо
 REMOVE:NoNIfVeFollowedByN ("ве" N Sg Nom Indef) IF (1 N);
 			  #ды ве лисьма лангстояк эзь Probably too strong
 
