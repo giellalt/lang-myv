@@ -82,7 +82,7 @@ Alphabet
 %{ЕØ%}:ь !!≈ * _@CODE@_ Stem-final archiphoneme тинге
 %{ЕØ%}:0 !!≈ * _@CODE@_ Stem-final archiphoneme тинге
 
-Е3:е ! тне тнэ
+Е3:е ! тне тнэ не нэ
 
 ! for ablative
 %{дт%}:д !!≈ * _@CODE@_ in ablative
@@ -519,11 +519,11 @@ Rules
 !
 "Е3:э always" 
 !! **@RULENAME@** %> т н _ 2013-02-23
-Е3:э <=     [ CnsDent ] (%{backHard%}:|%{frontHard%}:)  %>  т н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
+Е3:э <=  [ CnsDent ] (%{backHard%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
 
 "Е3:э sometimes" 
 !! **@RULENAME@** %> т н _ 2013-02-23
-Е3:э =>     [ CnsDent | BTV Cns* CnsNonDent | CnsHardNonDent ] (%{backHard%}:|%{back%}:|%{frontHard%}:)  %>  т н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
+Е3:э =>     [ CnsDent | BTV Cns* CnsNonDent | CnsHardNonDent ] (%{backHard%}:|%{back%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
 
 "ye:e always" 
 !! **@RULENAME@**  

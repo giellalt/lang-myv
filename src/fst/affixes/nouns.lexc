@@ -664,8 +664,8 @@ LEXICON NMN_TESHTE
 LEXICON NMN_LAVSHO
  NMN_PANGO ;
 
-LEXICON NMN_EKSHE
- NMN_PANGO ;
+!LEXICON NMN_EKSHE
+! NMN_PANGO ;
 
 !LEXICON NMN_TINGE
 ! NMN_PANGO ;
@@ -1725,7 +1725,7 @@ LEXICON PRL-INDEF
 @U.DECL-NX.SP@@U.CX.PRL@+SP+Prl+Indef:@U.DECL-NX.SP@@U.CX.PRL@%>Г2а CLT/COP4_OBL ;
 
 LEXICON TMP-INDEF
-@U.DECL-NX.SP@@U.CX.TEMP@+SP+TempCx+Indef:@U.DECL-NX.SP@@U.CX.TEMP@%>не K ;
+@U.DECL-NX.SP@@U.CX.TEMP@+SP+Temp+Indef:@U.DECL-NX.SP@@U.CX.TEMP@%>нЕ3 K ;
 
 LEXICON TRA-INDEF
 @U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>кс K ;
@@ -1987,7 +1987,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 !+Tra:%>%{оеэØ%}кс _OSH-Indef-DefSg-Poss ;
 !+Ill:%>%{оеэØ%}з _OSH-Possessive-Before-K ;
 
-!+TempCx+Indef:%>не K ;
+!+Temp+Indef:%>нЕ3 K ;
 !+Lat+Indef:%>%{оеэØ%}в K ;
 
 !+Dat+Indef:%>нень K ;
@@ -2057,7 +2057,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 
 !+Dat:%>нень K ;
 !+Com:%>нек K-lak ;
-!+TempCx:%>не K ;
+!+Temp:%>нЕ3 K ;
 !!!This one would render voiceless "s"
 !+Use/NG+Err/Orth+Dial+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 !+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з%{оэØ%} K ;

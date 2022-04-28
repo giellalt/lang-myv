@@ -172,7 +172,7 @@ LIST Lat = Lat ;
 LIST Loc = Loc ;
 LIST Nom = Nom ;
 LIST Prl = Prl ;
-LIST TempCx = TempCx ;
+LIST TempCx = TempCx Temp ;
 LIST Tra = Tra ;
 LIST Voc = Voc ;
 LIST Sg = Sg ;
@@ -843,6 +843,12 @@ SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 #
 SUBSTITUTE (Err/Orth-pre2012) (*) TARGET (*) ;
 #
+SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ela PxSg1) OR ("эй" N SP Ela PxSg2) OR ("эй" N SP Ela PxSg3) OR ("эй" N SP Ela PxPl1) OR ("эй" N SP Ela PxPl2) OR ("эй" N SP Ela PxPl3) ;
+SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ill PxSg1) OR ("эй" N SP Ill PxSg2) OR ("эй" N SP Ill PxSg3) OR ("эй" N SP Ill PxPl1) OR ("эй" N SP Ill PxPl2) OR ("эй" N SP Ill PxPl3) ;
+SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP Ine PxSg2) OR ("эй" N SP Ine PxSg3) OR ("эй" N SP Ine PxPl1) OR ("эй" N SP Ine PxPl2) OR ("эй" N SP Ine PxPl3) ;
+
+       #This may be too robust, but it would definitely be good for weighting
+       #"эй" N 'ice'
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
@@ -857,12 +863,33 @@ REMOVE:NoPanIfGenFollowedByRelator ("пан") IF (0 (Sg Abl Def)) (1 POSTPWITHGE
 # KILL тётя
 REMOVE:NoAuntie ("тётя") IF (0 ("тетя"));
 REMOVE:NoAbbrA ("А") OR ("а") IF (0 (N ABBR));
-REMOVE:NoPcleAfterComma ("ды" Pcle) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
+REMOVE:NoPcleAfterComma ("ды" Pcle) OR ("улемс" V IV Oblig) OR ("улемс" Ex/V IV Der/OmA NomAct N Sg Nom Indef) OR ("самс" V IV Ind Prt1 ScSg1) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
 	#, ды сон кирнявтсь
+	#, улема,
+
+# adverbs and postpositions that are homonyms of regular noun declension
+REMOVE:NoMastorovAdv ("масторов" Adv Lat);
+       #рестидилзе масторов This is a homonym of a regular noun form
+REMOVE:NoKedjsePo ("кедьсэ" Po Ine);
+       #аволды кедьсэ
+REMOVE:NoTarkasPo ("таркас" Po);
+       #
+REMOVE:NoLomanjksAdv ("ломанькс" Adv Tra);
+       # А ломанькс тейнемат
 
 REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 (A Sg Nom Indef));
        #сюпав
+SELECT ("а" V Aux Neg) IF (1 (V IV Oblig) OR (V TV Oblig) OR ("умок" Adv Sem/Time));
+       #А ёмама
+SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
+       #
 
+SELECT ("пингстэ" Po);
+       #This should address consonant-stem
+SELECT ("марто" Po) IF (0 PxSg1 OR PxSg2 OR PxSg3 OR PxPl1 OR PxPl2 OR PxPl3);
+
+REMOVE ("ён" Ex/A Der/MWN N SP Lat Indef);
+REMOVE ("А" N ABBR) OR ("а" N ABBR);
 REMOVE:NoPcleWithfollowingPostp ("ведь" Pcle) IF (1 PostpNoPX);
 	#ведь марто
 REMOVE:NoSaunaWithCommas (Imprt ScSg2) IF (-1 BOS OR CLB) (0 ("паряк" Pcle Epist)) (1 EOS OR CLB);
@@ -1255,6 +1282,8 @@ REMOVE:NotScSg2WhenDefNomPl ScSg2 IF (0 V + IV + Ind + Prs + ScPl3) ((-1* N + Pl
 #
 REMOVE:NotTemp TempCx (0 N + Sg + Nom + Indef OR N + Pl + Nom + Def) (0 NOT-TEMPORALNOUN) ;
 
+#REMOVE ("ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3) IF (*0 VFINPL3SUBJ BARRIER CLB OR EOS OR BOS)
+#"ве" N Pl Nom Indef Clt/Cop Prt2 ScPl3
 REMOVE:NoCopWhenMOOD-V Clt/Cop IF (*0 MOOD-V BARRIER CLB OR EOS OR BOS);
 		       #вельть: Пулаесь вельть мазылгавтовлизе од аванть рунгонзо...
 
@@ -1457,7 +1486,7 @@ SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef
 #а неиль
 #SELECT Pcle + Neg (1 Prs OR Prt2) ;
 SELECT V + Aux + Neg (1 Prs OR Prt2 OR Conj OR Des) ;
-
+SELECT Prs OR Prt2 OR Conj OR Des IF (-1 (V Aux Neg));
 
 #Микол ульнесь
 REMOVE Clt/Cop (1 VFIN) ;
