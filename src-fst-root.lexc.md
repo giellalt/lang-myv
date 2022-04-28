@@ -46,7 +46,6 @@ respect to manner, colour, sound, smell, action, state or intensity."
 * +Manner with reference to type of adverb
 * +Parenthetic parenthetic
 * +Spat spatial
-* +Temp temporal
 * +Iter Iterative  form expressing number of times; myv: `кавксть`, kpv: `кыкысь`
 * +Mult Multiplicative, two-ply; myv: `кавонькирда`
 * +Deg Ad-adjective This is degree, depricate + AdA
@@ -123,7 +122,7 @@ NB! do not confuse with Komi case +Apr
 * +Tra translative: used in similative and depictive constructions
 to mark what would be a secondary subject: 
 --вармакс оргодсь тосто--
-* +TempCx Temporalis case form "-не/-нэ"
+* +Temp Temporalis case form "-не/-нэ" previously TempCx
 * +Voc Vocative
 
 ## Possession and other declension types are marked with:
@@ -210,6 +209,8 @@ Other verb forms are
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
 * +Err/Orth-no-linking-vowel * linking vowel is missing
+* +Err/Orth-vowel-stem-a * чачтомс+V:чачта
+* +Err/Orth-vowel-stem-je * чудемс+V:чуде чуд|емс (->)чуде|мс
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-front-linking-vowel * linking vowel is front уряжень
 * +Err/Orth-mid-linking-vowel * linking vowel is mid вечкелизь
@@ -218,7 +219,6 @@ Other verb forms are
 * +Err/Orth-colloq * colloquial, e.g. Минорыч
 * +Err/Orth-old1 * old1 like озимь, морковь
 * +Err/Orth-pre2012 * previous orthography
-* +Err/Orth-stem-with-vowel * чуд|емс (->)чуде|мс
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller
 * +Use/SpellNoSugg * recognized but not suggested in speller
