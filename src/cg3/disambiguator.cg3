@@ -258,7 +258,7 @@ LIST ScPl2 = ScPl2 (s_p2 s_pl) (a_p2 a_pl) ;
 LIST ScPl3 = ScPl3 (s_p3 s_pl) (a_p3 a_pl) ;
 
 LIST Clt/Cop = Clt/Cop ;
-
+SET HASSCPERSON = ScSg1 | ScSg2 | ScSg3 | ScPl1 | ScPl2 | ScPl3 ;
 
 SET VFINSG1SUBJ = ScSg1 - Clt/Cop;# finite verb -- not noun
 SET VFINSG2SUBJ = ScSg2 - Clt/Cop;# finite verb -- not noun
@@ -289,6 +289,9 @@ SET VFINSG3SUBJNOOBJ = VFINSG3SUBJ - VFINPERSONOBJ - TV ;# a verb without object
 
 SET VFINPL3SUBJNOOBJ = VFINPL3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb 
 
+SET HASSCPERSONNOOC = HASSCPERSON - VFINPERSONOBJ ;#has Sc marking but no Oc marking
+
+
 LIST Sg1 = Sg1 ;
 LIST Sg2 = Sg2 ;
 LIST Sg3 = Sg3 ;
@@ -302,6 +305,10 @@ LIST ConNeg = ConNeg ;
 LIST ConNegII = ConNegII ;
 LIST Neg = Neg ;
 LIST Aux = Aux ;
+LIST VINF = Inf ;
+SET VINF1 = (Inf) - (Inf Loc) - (Inf Abl);
+LIST @C-FVP = @C-FVP ;
+LIST @CGenAttrP = @CGenAttrP ;
 
 LIST PrfPrc = PrfPrc ;
 LIST VGen = VGen ;
@@ -315,7 +322,9 @@ LIST Actio = Actio ;
 
 SET SupEla = (infMS/ME cx:ela) - Def - SPPOSSESSUM | (Ger Ela) - Def - SPPOSSESSUM | (Sup Ela) - Def - SPPOSSESSUM ;#ОмстО
 LIST SupLoc = (infMS/ME cx:nom) (Inf Loc) ;#ОмО
+LIST SUPAUX = "кармамс" ;# auxiliaries with non-finite main verbs in MO/ME supine/ Inf Loc
 
+LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;# auxiliary verbs with non-finite main verbs in MS and a dative agent
 LIST GENDEF = (def nsg cx:gen) (def npl cx:gen) (Sg Gen Def) (Pl Gen Def);
 
 # The ("ge" Pcle) etc. are used in Apertium
@@ -395,6 +404,7 @@ LIST Hom2 = Hom2 ;
 LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
+LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef)  ;
 
 #!! ###  Syntactic tags
 
@@ -746,10 +756,16 @@ LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "ма
 
 LIST VERBTAKESshtoCCOMP = "арсемс" "витькстамс" "ёвтамс" "ёвтнемс" "кемевтемс" "кемемс" "кортамс" "кортнемс" "ледстямс" "ловомс" "марямс" "меремс" "невтемс" "невтнемс" "неемс" "пачтямс" "помнямс" "редямс" "сёрмадомс" "содамс" "стувтомс" "тешкстамс" "тонадомс" "учомс" "фатямс" "чарькодемс" "яволявтомс" ;#knows how
 
-LIST VERBTAKESDAT = "ванстовомс" "ёвтнекшнемс" "ёвтнемс" "кортамс" "лездамс" "максомс" "марявомс" "меремс" "педямс" "эрявомс" ;
+
+LIST CONSSTEMOvOms = (".*овомс"r) (".*евемс"r) ;
+LIST ADJTAKESDAT = "стака" "шожда";#adjectives that take dative
+LIST NOUNTAKESDAT = "аютко" ;#nouns that take dative
+SET VERBTAKESDAT = ("ванстовомс") | ("ёвтнекшнемс") | ("ёвтнемс") | ("кортамс") | ("лездамс") | ("максомс") | ("марявомс") | ("меремс") | ("педямс") | ("эрявомс") OR CONSSTEMOvOms;
 #verbs that take dative
 
 SET VERBSWITHOUTDAT = V - VERBTAKESDAT ;#verbs without dative
+
+LIST OCSG3-OBJ-CANDIDATE = (N Sg Gen Def) (A Sg Gen Def) (Pron Dem Sg Gen Indef) (Pron Dem Sg Gen Def) ;
 
 LIST CCOMPMARKERS = "кода" "мезе" "мекс"; # V, koda
 # cobj
@@ -866,6 +882,24 @@ REMOVE:NoAbbrA ("А") OR ("а") IF (0 (N ABBR));
 REMOVE:NoPcleAfterComma ("ды" Pcle) OR ("улемс" V IV Oblig) OR ("улемс" Ex/V IV Der/OmA NomAct N Sg Nom Indef) OR ("самс" V IV Ind Prt1 ScSg1) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
 	#, ды сон кирнявтсь
 	#, улема,
+
+MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
+MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
+    #и :тейсь прязонзо пизэ и ливтсь левкст.
+
+MAP (@C-FVP) TARGET CC IF (*0 SUPAUX OR DATAUX BARRIER CLB OR EOS OR BOS) (*-1 VINF BARRIER CLB OR BOS) (*1 VINF BARRIER CLB OR EOS);# actually this could be inf split
+#и: Эряви саламс сёрось и явомс сембе вачедотненди.
+MAP:ccWithInf (@C-FVP) TARGET CC IF (-1* VINF BARRIER CLB OR BOS OR VFIN) (1* VINF BARRIER CLB OR BOS OR VFIN);# actually this could be inf split
+MAP (@CVP) TARGET CC IF (*-2 VFIN BARRIER CLB OR BOS) (-1 (",")) (*1 VFIN BARRIER CLB OR BOS);
+#а: , голой сови, а раужо сёлги.
+
+
+MAP (@CADJP) TARGET CC IF (-1 A OR NomAg OR (Ex/A Der/MWN)) (1 A OR NomAg OR (Ex/A Der/MWN));#
+    #минек пек виев ды превей, сон киненьгак прянзо нарьгамс а макссы.
+MAP (@CGenAttrP) TARGET CC IF (-1 (N SP Gen Indef)) (1 (N SP Gen Indef));
+    #, мушконь ды левшень пикст
+MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
+MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
 
 # adverbs and postpositions that are homonyms of regular noun declension
 REMOVE:NoMastorovAdv ("масторов" Adv Lat);
@@ -1526,20 +1560,28 @@ SELECT CC IF (0 CC) (-1 ANT + Sg + Nom ) (1 ANT + Pl + Nom ) ;
 # Select the postposition марто when it is preceded by genitive definite 
 SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
 
-REMOVE ("мон" Pron Pers Sg1 Dat Short) IF (1 PostpNoPX);
+REMOVE:NoMonWhenNextPostpNoPX ("мон" Pron Pers Sg1 Dat Short) IF (1 PostpNoPX);
+       #тень кисэ
 
-SELECT:NoDatWhenNoDatGovernment ("те" Pron Dem Sg Gen Indef) IF (*0 VERBSWITHOUTDAT BARRIER CLB OR BOS OR EOS OR PUNCT);
+#SELECT:NoDatWhenNoDatGovernment ("те" Pron Dem Sg Gen Indef) IF (*0 VERBSWITHOUTDAT BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *-1 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *1 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT);
+	#Молян, теиндерят тень вешкема.
 
-#REMOVE:NoDatWhenNoDatGovernment ("мон" Pron Pers Sg1 Dat Short) IF (NOT *-1 VERBTAKESDAT BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *1 VERBTAKESDAT BARRIER CLB OR BOS OR EOS OR PUNCT);
+REMOVE:NoDatWhenNoDatGovernment ("мон" Pron Pers Sg1 Dat Short) IF (NEGATE *0 VERBTAKESDAT OR NOUNTAKESDAT OR ADJTAKESDAT BARRIER CLB OR BOS OR EOS OR PUNCT) (NEGATE *0 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT);# 
        #тень:dat Кода-бути дивакс тень маряви.
+
 
 # Remove the nominative reading of possessum with PX if followed by Po
 # неизь Эйкакшонть Мария аванзо марто
 REMOVE:NoNomPossessumWithFollowingAdp Nom IF (0 PXPERSONGEN) (1 ADPNOPX) ;
 
+#
+REMOVE TV IF (*0 HASSCPERSONNOOC BARRIER CLB OR BOS OR EOS OR PUNCT) (NEGATE *0 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT);
 
 # яла икелев
 REMOVE:NoSentInitBaseAdp Adp IF (0 Adv) (0 ADPNOPX ) (NOT -1 N OR Pron ) ;
+
+#
+SELECT OCSG3-OBJ-CANDIDATE IF (0* OcSg3 BARRIER CLB OR EOS OR BOS OR CC) (NEGATE 0* OCSG3-OBJ-CANDIDATE BARRIER CLB OR EOS OR BOS OR CC);
 
 # Иванка прась можот тонь кедеть лангс
 REMOVE:RelatorWithNomPx Nom IF (0 PXPERSONNOMGEN) (1 Relator);
