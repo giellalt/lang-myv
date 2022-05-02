@@ -178,6 +178,8 @@ LIST Voc = Voc ;
 LIST Sg = Sg ;
 LIST Pl = Pl ;
 LIST SP = SP ;
+LIST Short = Short ;
+LIST Long = Long ;
 
 LIST Cmp/SplitR = Cmp/SplitR ;     #!! * Cmp/SplitR
 LIST Cmp/Attr = Cmp/Attr ;         #!! * Cmp/Attr
@@ -382,6 +384,7 @@ LIST Sur = Sur ;
 LIST Sem/Sur = Sem/Sur ;
 LIST Sem/Fem = Sem/Fem ;
 LIST Sem/Mal = Sem/Mal ;
+LIST Sem/Mal-Sur = Sem/Mal-Sur ;
 
 LIST Sem/Ant = Sem/Ant ;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
@@ -405,6 +408,7 @@ LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
 LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef)  ;
+LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
 
 #!! ###  Syntactic tags
 
@@ -496,8 +500,13 @@ LIST WORDLEMMA = (".*"r) ;
 LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
 LIST Lower = "<[а-яё]+>"r ;
 
-LIST VInVOms = "<[а-яё]+в[ео]мс>"r ;
+LIST VInVOms = "<[а-яё]+в[ео]мс>"r ;#Not same thing? (".*овомс"r)
 LIST VNoGenObj = Der/OvOms VInVOms "улемс" ;
+LIST RusPatronymMal = "<[А-ЯЁ][а-яё]+ич>"r ;
+LIST RusPatronymFem = "<[А-ЯЁ][а-яё]+вна>"r ;
+SET VInVOms-NOTAUX = VInVOms - ("савомс") - ("савкшномс") - ("эрявкшномс") - ("эрявомс");
+
+SET NPropSgNomIndef-NoSC = (N Prop Sg Nom Indef) - (Clt/Cop); #proper noun without copula
 
 # ========
   SETS
@@ -718,7 +727,11 @@ LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
 LIST RELATORSNomGen =  "бока" "бокасо" "бокас" "бокасто" "ваксс" "вакссо" "вакссто" "вакска"  "ланга" "ланго" "лангс" "лангсо" "лангсто" "маласо" "малас" "маласто" "малава" "чире" "чирева" "чирес" "чиресэ" "чирестэ"  ;
 LIST NONSENSESURANT = "Ней" ;
-LIST NONLATIVENOUN = "аржо" "ал" "буря" "ваз" "вал" "варма" "ваце" "ведь" "верь" "вий" "давол" "зыян" "ёрок" "каворькс" "кажо" "кал" "качамо" "кев" "кедьал" "кеж" "кель" "кеска" "кикс" "конь" "кошт" "кудря" "куя" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "макшо" "медь" "морго" "нарде" "нолго" "норо" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "орга" "панкс" "пежеть" "пиземе" "питне" "пона" "поп" "пуль" "ризкс" "роса" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "сод" "солдат" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "туман" "ундо" "цеця" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "эй" "яд" "Як" "ярмак" ; #!! This will be expanded for homonymy at first
+LIST NONLATIVENOUN = "Абрам" "Алексей" "аржо" "ал" "атякш" "бас" "безьгун" "Бобр" "Бобро" "буря" "бутра" "важо" "ваз" "вал" "Валдай" "варя" "вор" "варма" "ваце" "вашо" "ведь" "верь" "Видяй" "вий" "Воронко" "гайть" "Глушко" "Годун" "давол" "Дмитрий" "долг" "заём" "здор" "Зубарь" "зыян" "Елизар" "ёрок" "Иван" "Игай" "изюм" "Инжеват" "Исай" "каворькс" "кажо" "кал" "карь" "Каспий" "качамо" "кев" "кедьал" "кеж"
+"кель" "кем" "кеняркс" "кеска" "кикс" "конь" "кошт" "Крот" "кудря" "куло" "Кучай" "куракш" "куя" "Лавр" "Лавро" "Ларион" "Латкай" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "лезэ" "макшо" "Мало" "Матвей" "медь" "менге" "Мило" "морго" "Мороз" "нарде" "Наум" "Нерон" "нолго" "норо" "норов" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "ойме" "орга" "пан" "панкс" "Пахом" "пежеть" "Перегуд" "Петро" "Пётр" "пиземе" "пиле" "письмар"
+"питне" "пона" "пондакш" "поп" "пор" "потмуж" "пуворькс" "пуль" "раське" "рашко" "ризкс" "Роман" "роман" "роса" "рост" "приказ" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "Сергей" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "Симеон" "сод" "солдат" "Степан" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "талан" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "Третьяк" "туман" "уло" "ундо" "Фрол" "цеця" "цёко" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "шерже" "эй" "яд" "Як" "якшамо" "ярмак" ; #!! This will be expanded for homonymy at first
+
+LIST NONPROLATIVENOUN = "Миш" ;#nouns that do not take prolative
 
 LIST IDEOPH = "тарск" ;
 
@@ -733,7 +746,7 @@ LIST VAMBNOUNS = "вал" "кадо" "кандо" "кармо" "каса" "ке�
 # "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ""
 
 
-LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
+LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "снартомс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
 LIST VERBWITHMODS = "кучомс" "озавтомс" "тердемс" ; #!!озавтомс ярсамо Distinguish	from Der/NomAct
 
@@ -758,11 +771,13 @@ LIST VERBTAKESshtoCCOMP = "арсемс" "витькстамс" "ёвтамс" "
 
 
 LIST CONSSTEMOvOms = (".*овомс"r) (".*евемс"r) ;
+SET CONSSTEMOvOms-NoAuX = CONSSTEMOvOms - ("cавкшномс") - ("cавомс") - ("эрявкшномс") - ("эрявомс");
 LIST ADJTAKESDAT = "стака" "шожда";#adjectives that take dative
 LIST NOUNTAKESDAT = "аютко" ;#nouns that take dative
 SET VERBTAKESDAT = ("ванстовомс") | ("ёвтнекшнемс") | ("ёвтнемс") | ("кортамс") | ("лездамс") | ("максомс") | ("марявомс") | ("меремс") | ("педямс") | ("эрявомс") OR CONSSTEMOvOms;
 #verbs that take dative
 
+SET VERBTAKESDAT-NoOc = VERBTAKESDAT - VFINPERSONOBJ;#dat but no object marking
 SET VERBSWITHOUTDAT = V - VERBTAKESDAT ;#verbs without dative
 
 LIST OCSG3-OBJ-CANDIDATE = (N Sg Gen Def) (A Sg Gen Def) (Pron Dem Sg Gen Indef) (Pron Dem Sg Gen Def) ;
@@ -847,9 +862,13 @@ SUBSTITUTE (Hom1) (*) TARGET (*) ;
 SUBSTITUTE (Hom2) (*) TARGET (*) ;
 SUBSTITUTE (Hom3) (*) TARGET (*) ;
 SUBSTITUTE (Hom4) (*) TARGET (*) ;
+
+REMOVE:NoLatOrPrlWhenHum (Sem/Kin) OR (Sem/Sur) OR (Sem/Mal-Sur) OR (Sem/Mal) OR (Sem/Fem) OR (Sem/Hum) IF (0 Lat OR Prl);
 #
+SUBSTITUTE (Sem/Hum) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Kin) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Sur) (*) TARGET (*) ;
+SUBSTITUTE (Sem/Mal-Sur) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Mal) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Fem) (*) TARGET (*) ;
 SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
@@ -865,11 +884,15 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP In
 
        #This may be too robust, but it would definitely be good for weighting
        #"эй" N 'ice'
+SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET (N Prop Pl Nom Indef <W:0.0>);
+#This should help with imperatives
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 
+SELECT NPropSgNomIndef-NoSC IF (1 RusPatronymMal OR RusPatronymFem);
+       #Иван Арсентьевичень: Совак, совак, — Иван Арсентьевичень кабинетсэнть аштесь профоргось.
 # KILL lan
 REMOVE:Nolan ("лан" Prl) IF (0 ("ланга") OR ("ланго" Prl)) ;
 
@@ -931,6 +954,11 @@ REMOVE:NoSaunaWithCommas (Imprt ScSg2) IF (-1 BOS OR CLB) (0 ("паряк" Pcle 
 REMOVE ("сё" Interj) IF (NOT 1 CLB OR EOS);
 	#се : , кува чудсь ведесь, се таркась валявсь кевсэ." spellrelax issue
 
+SELECT:Greeting ("шумбра" A Sg Nom Indef Clt/Cop Prs ScSg2) OR ("шумбра" A Sg Nom Indef Clt/Cop Prs ScPl2) IF (-1 BOS OR CLB OR PUNCT) (1 EOS OR CLB OR PUNCT);
+#шумбрат,
+SELECT:Voc ("ялга" N Pl Nom Indef) IF (-2 BOS OR CLB OR PUNCT) (-1 (N Sg Nom Indef)) (1 BOS OR CLB OR PUNCT);
+	#- Пассажир ялгат, 
+ 
 REMOVE NOUNNOT_POSSIBLEPLNOMSUBJ IF (0 (Pl Nom)) (*0 VFINPL3SUBJ BARRIER CLB OR EOS OR BOS) (NOT *0 POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS);
 
 REMOVE:NoReadyAdvComp ("седе");
@@ -939,6 +967,15 @@ REMOVE:NoReadyAdvComp ("седе");
 SELECT ConNeg IF (-1 Aux + Neg OR Aux + Proh ) ;
        #сода: , кияк эзь сода,
 
+REMOVE:NoAvoliamsWhenNegConj ("аволямс") IF (0 (V Aux Neg Conj)) (1 ConNeg);
+
+SELECT ScSg3 IF (0* SUBJECTCANDIDATESG3 BARRIER BOS OR CLB OR EOS);
+    #кияк: Молян лучше вастомот карман, штобу кияк аволидизь нейть.
+    #Here we have an obvious OcSg2 with an indefinite subject Sg that is not treated as a singular, rather as an indefinite entity, hence "аволидизь" plural subject.
+
+#Ger
+SELECT (TV Der/Ozj Ger Sg Nom Indef) IF (-1 BOS OR CLB) (1 N) (2 EOS OR CLB);
+#, пидезь сывель,: Микшнема лавцятнева вачказь шумбра кшить, прякат, пидезь сывель, топо, медь ды лия эрьва кодамо ярсамопель.
 
 REMOVE:NoAIfAdvBashkaAfterTede A OR N IF (-1 (Abl)) (0 ("башка")); 
        #башка: Теде башка, почвасонть улить ещё эрьва кодат салт.
@@ -1300,13 +1337,22 @@ REMOVE:NoPronIfSuperlwithFollowingA Pron (0 ("весемеде")) (1 A OR Adv);
 #REMOVE Sg1 IF (0 Dem) (1 ("таркас"));
 
 #Молян верев.
-REMOVE:NotLat NONLATIVENOUN (0  N + SP + Lat) ;
+REMOVE:NotLat NONLATIVENOUN (0  (N SP Lat) OR (N Prop SP Lat)) ;#some nouns don't take lative
 
 # Сон паро мельсэ муевлизе Ванянь.
 #  ташто кудосо
 REMOVE:NoIndefNomSgNIfNextOblN N IF (0 A + Sg + Nom + Indef) (1 OBLNMN) ; # Too powerful? 2020-03-31
 #REMOVE N IF (0 A + Sg + Nom + Indef) (1 N) ; # Too powerful? 2020-03-31
 
+SELECT:ArasjInterjWhenBegin ("арась" Interj Neg) IF (-1 BOS) (1 CLB OR EOS);
+#Арась, а молян.
+REMOVE:ArasjInterjWhenNotBegin ("арась" Interj Neg) IF ((NEGATE -1 BOS OR CLB) OR (NEGATE 1 EOS OR CLB));
+
+REMOVE:NoAramsWhenNotLat ("арамс" V IV Ind Prt1 ScSg3) OR ("арамс" V IV Ind Prt1 ScPl3) IF (NEGATE *0 (Adv Lat) OR (N SP Lat Indef) OR (Adp Lat) BARRIER CLB OR EOS OR BOS) ;
+REMOVE:NoArasjWhenLat ("арась" V Aux Neg Loc Prs ScSg3) OR ("арась" V Aux Neg Loc Prs ScPl3) IF (*0 (Adv Lat) OR (N SP Lat Indef) OR (Adp Lat) BARRIER CLB OR EOS OR BOS) ;#Are these complementary
+       #Сон арась ве пелев.
+REMOVE ("арамс" V IV Ind Prt1 ScSg3) OR ("арамс" V IV Ind Prt1 ScPl3) IF (*0 (Adv Ine) OR (N SP Ine Indef) OR (Adp Ine) BARRIER CLB OR EOS OR BOS) ;
+       #, тесэ кияк арась,
 
 # verb finite form
 #кискатне аштить ташто кудосо.
@@ -1562,6 +1608,13 @@ SELECT Adp IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
 
 REMOVE:NoMonWhenNextPostpNoPX ("мон" Pron Pers Sg1 Dat Short) IF (1 PostpNoPX);
        #тень кисэ
+
+REMOVE:NoGenObjWhenIV ("те" Pron Dem Sg Gen Indef) IF (0* VInVOms-NOTAUX BARRIER CLB OR EOS OR BOS) (NEGATE -1* (Dat) BARRIER CLB OR BOS) (NEGATE 1* (Dat) BARRIER CLB OR EOS);# Is this too powerful
+# , мекев тень эзь муеве.
+SELECT:NoGenObjWhenIV ("мон" Pron Pers Sg1 Dat) IF (0 ("те" Pron Dem Sg Gen Indef)) (NEGATE 1 PostpNoPX) (*0 CONSSTEMOvOms BARRIER CLB OR EOS OR BOS);# Is this too powerful
+	#Ванстык Пургазонь, цёрынесь вельть вечкевсь тень, превей ды эрьва козонь чарькодиця...
+
+SELECT ("мон" Pron Pers Sg1 Dat) IF (*0 VERBTAKESDAT-NoOc BARRIER CLB OR EOS OR BOS) (*0 (N Sg Nom Indef) OR (N Pl Nom Indef) BARRIER CLB OR EOS OR BOS);
 
 #SELECT:NoDatWhenNoDatGovernment ("те" Pron Dem Sg Gen Indef) IF (*0 VERBSWITHOUTDAT BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *-1 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *1 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT);
 	#Молян, теиндерят тень вешкема.
