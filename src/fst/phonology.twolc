@@ -34,6 +34,8 @@ Alphabet
 ! verbal stem consonant that appear in PretI 3sg
 !Т1:0 !
 
+%^TD:0 ! used with тано/тадо types
+
 ! derivational suffix protovowel with "o" and "a" 
 !realisation  in deverbal noun ending
 А1:а !
@@ -483,14 +485,14 @@ Rules
 !!Changes in the suffix vowels
 !"A2:ya"
 !%{АЯ%}:я <=> [ FTC | :FTV | ь | :FTV NPC | :FTV Cns* CnsNonDent | LFCS :FTV ( (н) т ( %{ЬØ%}: ) | н %{ЬØ%}: ) ]  %> т _ [ д | н | м ] ;
-!2013-03-16! [ FTC | :FTV | ь | :FTV NPC | :FTV Cns* CnsNonDent | LFCS :FTV ( (н) т ( %{ЬØ%}: ) | н %{ЬØ%}: ) ]  %> [ т | TLoss:0 ( %> ) т:0 ] _  [ д | н | м ] ;
+!2013-03-16! [ FTC | :FTV | ь | :FTV NPC | :FTV Cns* CnsNonDent | LFCS :FTV ( (н) т ( %{ЬØ%}: ) | н %{ЬØ%}: ) ]  [( %^TD:) %>  т: | %> TLoss:0 ( %> ) т:0 ] _  [ д | н | м ] ;
 !         [ CnsDent [  ь:0 |я:0 | ё:0 | е:0 | и:0 | ю:0 ]| Vows [ я:0 | ё:0 | е:0 | ю:0 | й:0 ] | [ LFCS ( :FTV ) %>  | %{оеэØ%}:е | %{оеэØ%}:э ] ( (н) т  %{ЬØ%}:0  | н %{ЬØ%}: )  ]  %>  _ [ т | н ] ;
 
 
 !HERE
 "A2:a"
 !! **@RULENAME@**  
-%{АЯ%}:а <=>  [ LBC | :BTV | %{frontHard%}:] %> т  _  [ д | н | м | т к] ;
+%{АЯ%}:а <=>  [ LBC | :BTV | %{frontHard%}:] %> т:  _  [ д | н | м | т к] ;
    %{оэØ%}: %> _ [ д | н | т] ;
    %{frontHard%}: %> _ [ н | т] ;
    [ LBC | :BTV ] %> %{дт%}: О1: %> _ [ н | т ] ;
@@ -726,6 +728,9 @@ Rules
 !!€ валд%{backHard%}%>т%{ЬØ%}
 !!€ валд0%>т0
 
+"t:d"
+!! **@RULENAME@**  
+ т:д <=> CnsVoiced (ь:) %^TD:0 %> _ ;
 
 
 !!!TLoss sloppy
@@ -773,7 +778,8 @@ Rules
 !!€ кель^Ь2ZERO%>енть
 !!€ кел00%>енть
      CnsDent  _ (%{frontSoft%}:)  %> [ %{АЯ%}:я | %{иы%}: | %{оеэØ%}:е | О1:е | %{уиыØ%}:и ] ;
-     CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | %{КТ%}:т %{ЬØ%}: | Н1:н | н | д: |%{дт%}:| ц е: [ # | %- | %> ] | т |(%^NoLinkVow:) с (т) [ ь: | е: ]] ;
+     CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | %{КТ%}:т %{ЬØ%}: | Н1:н | н | д: |%{дт%}:| ц е: [ # | %- | %> ] |( %>) т |(%^NoLinkVow:) с (т) [ ь: | е: ]] ;
+     CnsDentNoL _ ( %{frontSoft%}: ) %^TD:  %> т: ;
 !! меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
 !!€ мерь%>сь
 !!€ мер0%>сь
@@ -875,6 +881,10 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 "Disallow s for control of stems with inessive..."
 !! **@RULENAME@**
 с:с /<= [т|д|к|г|п|б|м|н|л|р|в|й:|ф|х] (ь:) (HarmDummies:) %> %{оеэØ%}: _ [#|%-|(т) %{оэØ%}:] ;
+
+"Disallow dano after non-voiced"
+!! **@RULENAME@**
+%^TD:0 /<= [CnsVoiceless (ь:)| Vows ] _ т: ; 
 
 "Disallow k for control of comparative with stem types"
 !! **@RULENAME@**

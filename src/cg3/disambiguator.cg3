@@ -315,6 +315,7 @@ LIST @C-FVP = @C-FVP ;
 LIST @CGenAttrP = @CGenAttrP ;
 
 LIST PrfPrc = PrfPrc ;
+LIST Prc/Telic = Prc/Telic ;#вт/вть
 LIST VGen = VGen ;
 
 LIST PrsPrc = PrsPrc ;
@@ -377,6 +378,8 @@ LIST Der/Pr = Der/Pr ;
 LIST Der/PatrMal = Der/PatrMal ;
 LIST Der/PatrFem = Der/PatrFem ;
 
+LIST Ex/V = Ex/V ;#former verb
+
 LIST Err/Orth = Err/Orth Err/Orth-no-linking-vowel ;
 
 #!! ### Semantic tags
@@ -409,7 +412,7 @@ LIST Hom2 = Hom2 ;
 LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
-LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef)  ;
+LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef)  ;#indefinate objects
 LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
 
 #!! ###  Syntactic tags
@@ -508,7 +511,10 @@ LIST RusPatronymMal = "<[А-ЯЁ][а-яё]+ич>"r ;
 LIST RusPatronymFem = "<[А-ЯЁ][а-яё]+вна>"r ;
 SET VInVOms-NOTAUX = VInVOms - ("савомс") - ("савкшномс") - ("эрявкшномс") - ("эрявомс");
 
+
 SET NPropSgNomIndef-NoSC = (N Prop Sg Nom Indef) - (Clt/Cop); #proper noun without copula
+
+SET COMMONNOUN = N - Prop ;#noun minus proper nouns
 
 # ========
   SETS
@@ -744,12 +750,12 @@ LIST ADDAMBPRONS = "кодамо" ; #!!pronouns that do not take additive partic
 
 LIST NAELAAMBADVS = "бойкасто" "кеместэ" "пижестэ" "сеедьстэ" "чуросто" "шождынестэ" "эчкстэ" ;#adverbs that look like nouns or adjectives in SP Ela Indef. This does not contain ‹куроксто›, as ‹курок› entails homonymy
 
-LIST VAMBNOUNS = "вал" "кадо" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пона" "понго" "ранг" "ром" "сал" "сод"
+LIST VAMBNOUNS = "але" "вал" "вий" "дум" "кадо" "кан" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пей" "пона" "понго" "ранг" "ром" "сал" "сод"
  "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
 
 
-LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "самс" "снартомс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
+LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "пурнамс" "самс" "снартомс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
 LIST VERBWITHMODS = "кучомс" "озавтомс" "тердемс" ; #!!озавтомс ярсамо Distinguish	from Der/NomAct
 
@@ -797,20 +803,52 @@ LIST VERBTAKESDATILL = "радовамс" ;
 
 LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#
 
+LIST COMPAIRS = "аванек-пакшанек" "аванек-цёранек" "капстанек-взятканек" "кизэнек-теленек" "лопанек-сеерькснэк" "мельнек-превнек" "однэк-сыренек" "ойменек-рунгонек" "ойменек-седейнек" "прянек-пильгенек" "прянек-рунгонек" "прянек-седейнек" "тейтерненек-цёрыненек" "теленек-кизэнек" "чинек-венек" ;#Com pairs
 
+LIST COLLPAIRSADJ = "вадрят-парт" "вереть-алот"
+"икельсть-удалсть" "икельцть-удалцть" "шумбрат-парт" ;#adjectives or attributes in pairs
+
+LIST COLLPAIRS = "ават-тейтерть" "ават-цёрат" "алашат-вашот" "алкст-прялкст" "арсемат-бажамот" "ацамот-велькст"
+"атят-бабат" "атят-сэрдят"
+"бабат-нуцькат" "браткеть-сазорнэть"
+"валт-кортамот" "вармат-даволт"
+"дедат-нуцькат"
+"калашт-кулашт" "карть-пракстат" "касомат-кемекстамот" "кевть-пандт" "кевть-човарт" "кедть-пильгть" "кедть-понат" "кедть-чамат" "кельть-койть" "кельть-валт" "келят-мелят" "кизэть-телеть" "киловатт-част" "кирят-мирят" "кискат-каткат" "кискат-псакат" "кить-янт" "киштемат-морамот" "козяйкат-мирдть" "койть-илат" "койть-кирдат" "койть-обуцят" "кудот-кардазт" "кудот-чить" "курмот-кармот" "кутморямот-палсемат" "кшить-прякат" "кшить-салт"
+"латкот-луткот" "лелят-сазорт" "лелят-ялакст" "лишметь-вашот" "ловажат-пакарть" "лувт-ладт" "луткт-латкт"
+"мастерт-наладчикть" "мать-перемать" "мельть-арсемат" "мельть-бажамот" "мельть-ёжот" "мельть-койть" "мельть-превть" "мельть-тевть" "мизолкст-фельетонт" "микить-макить" "минеть-сюнот" "мирдть-нить" "мирдть-козяйкат" "мирдть-полат" "модат-човарт" "монтерт-слесарть" "морот-ёвкст" "морот-киштемат" "морот-парявтнемат"
+"налксемат-морот" "нижеть-пижеть" "нить-мирдть" "нить-полат" "нулат-валат" "нулавт-валавт" "нуцькат-бабат"
+"овтт-верьгизт" "озязт-ватракшт" "ойметь-седейть" "ормат-тармот" "ормат-тарвот" "оршамкат-карсемкат" "оршамот-карсемат" "оят-ялгат"
+"палят-руцят" "панарт-понкст" "патят-сазорт" "патят-ялакст" "пенчть-вакант" "петь-крайть" "пидицят-паницят" "пижеть-ожот" "пиземеть-вармат" "пилеть-локшот" "пильгть-прят" "письмарт-озязт" "покштят-бабат" "покштят-нуцькат" "понкст-панарт" "превть-мельть" "прялкст-ацавкст" "прят-пильгть"
+"ризкст-мелявкст" "роднят-раськеть" "роднят-раськть" "родт-племат" "росат-човалят" "руцят-панарт"
+"сельмть-чамат" "серойть-буройть" "симемат-ярсамот" "сокат-инзамат" "сокат-изамот" "сокицят-видицят" "стольть-эземть" "сырнеть-сият" "сюрдот-сярдот" "сюрдовт-сярдовт" "сянгт-граблят"
+"таркат-эземть" "тевть-валт" "тевть-ладт" "тевть-арсемат" "тевть-мелявкст" "тейтерть-ават" "тейтерть-парочить" "тейтерть-содамот" "тейтерть-цёрат" "телеть-кизэть" "тетят-ават" "тетят-покштят" "тетят-тейтерть" "тетят-цёрат" "тикшеть-люкшат" "титить-митить" "топот-ловсот" "тракторт-машинат" "трицят-кастыцят"
+"урнемат-аварькшнемат" "урьват-ававтт"  "утомт-утомнеть"
+"цецят-валт" "цёрат-морот" "цёрат-тейтерть" "цёрынеть-алинеть" "цюлкат-варьгат" "цюркат-палкат"
+"чавкат-варакат" "чить-веть" "чочкт-лазт" "чочкт-тарадт" "чульть-чальть"
+"шишкат-палкат" "школат-интернатт" "штереть-пакарть"
+"эйдть-какшт" "эйкакшт-какшт" "эйкакшт-нуцькат" "эрзят-мокшот" "эрямот-аштемат" "юткот-ёжот" "юткот-ужот"
+"ялакст-сазорт" "ялгат-оинеть" "ялгат-оят" "ямт-кашат" "ярсамкат-симемкат"
+"зыянт-апарот" "финнт-уграт" "руцят-пацят" "морот-мифть" "дедат-бабат" "братт-уряжт" "боярт-азорт" "Кирят-мирят" "Катят-Манят" "яслят-садт" "атят-сырькайть" "ойть-сывельть" "парт-берянть" "шкат-таркат" "ёкшт-пакшт" "шкат-порат" "ошт-велеть" "цят-пукшт" "якстереармеецт-разведчикть" "пильгевтеметь-кедтеметь" "пелькстамот-тюремат" "мелявкст-ризкст" "ёвтнемат-сёрмадовкст" "плотникть-роботникть" "тужулинат-пужулинат" "псакинеть-каткинеть" "богатырть-часовойть" "стакачить-майсемат" "микшницят-рамсицят" "авардемат-лайшемат" "эйкакшт-пакшат" "викшнемат-кодамот" "апельсинт-лимонт" "смустть-содержаният" "лайшемат-аварькшнемат" "венчамот-урьвакстомат" "прамот-аразьчить" "лётчикть-парашютистт" "артовкст-сёрмалевкст" "кедть-лавтовт" "ёвкскеть-кавкскеть" "покштят-сырькайть" "инженерт-механикть" "чокшнеть-валскеть" "тракторт-соляркат" "товзюрот-пинеметь" "тейтерть-мазыйкат" "судьбат-уцяскат" "симнемат-морсемат" "симемкат-ярсамкат" "пидевкст-паневкст" "мелявкст-ризнэмат" "бабинеть-атинеть" "менельть-масторт" "ёвтнемат-обуцят" "сывельть-ловсот" "сельмть-пилеть" "раськеть-роднят" "мелявкст-ризкст" "кастомат-трямот" "тейтерть-озязт" "пракстат-карть" "крандазт-чарот" "ацамот-вельтявкст" "солдатт-фронтовикть" "трямот-кастомат" "тевть-эрямот" "лёнойть-белёнойть" "чиполат-очередть" "пецькат-эземнеть" "машинат-автоматт" "братт-сазорт" "арсемат-янксемат" "андомат-симдемат" "чурькат-морковт" "ракетат-фонарть" "кирдить-кандыть" "кенкшть-каштомт" "яксяргт-саразт" "эрямот-тевть" "сеськть-маравт" "обуцят-чачот" "мерькат-ваткат" "велькст-ацамот" "яксяргт-галат" "пильгть-кедть" "лишметь-скалт" "велькст-топот" "тешкст-сёрмадовкст" "кельть-кортавкст" "ёндолт-пурьгинеть" "чугунт-кастрюлят" "роднят-малавикст" "модат-масторт" "прят-ойметь" "мельть-вешемат" "максот-тевелявт" "лопат-бажамот" "кедть-тарадт" "заводт-фабрикат" "язнэть-налимть" "суркст-кедькст" "сёрмат-арсемат" "прякат-сюкорот" "пенгть-тикшеть" "ойметь-рунгот" "мельть-учомат" "эмежть-умарть" "чеерть-крысат" "тюст-чамат" "тевть-лувт" "рунгот-сэрть" "пуреть-брагат" "пизэт-ладт" "кудот-парот" "крюкат-палкат" "кенкшт-косякт" "даволт-вармат" "эйдть-тякат" "цюркат-палкат" "сэрть-рунгот" "соколт-ракшат" "атякат-авакат" "узерть-пилат" "тарадт-лопат" "саразт-галат" "сазорт-патят" "реветь-тувот" "пуреть-позат" "пилеть-чамат" "пизэть-ашкот" "пештть-сэрят" "панарт-руцят" "оймет-ёжот" "мельть-тевть" "каткат-боярт" "изамот-сокат" "ручкат-перат" "пичеть-кузт" "келеть-петь" "сыреть-одт" "народт-оят" "кинот-телевизорт" "ормат-сэредькст" "лопат-сормавкст" "латкт-губорькст" "вийть-талантт" "ёвкст-легендат" "морят-кораблят" "морот-ёвтнемат" "лемть-фамилият" "азорт-азорават" "весёлгалемат-киштемат" "ялгат-сыряват" "юшкат-крышкат" "чувтт-куракшт" "морот-ёвтамот" "каргт-мацейть" "вашот-лишметь" "банят-кардазт" "юбкат-кофтат" "чакшт-вакант" "судот-пилеть" "скалт-реветь" "руцят-панарт" "лейть-эрькть" "койть-мельть" "койть-лувт" "вирть-паксят" "бурят-даволт" "ававтт-урьват" "лелят-сазорт" "улить-парот" "сватт-братт" "нужат-горят" "морот-валт" "лейть-латкт" "кудот-ашкот" "котат-кемть" "каршт-куршт" "зыянт-горят" "диват-чудат" "витят-петят" "атявтт-ававтт" "келят-мелят" "полат-нить" "шалт-лажномат" "умат-уминеть" "попт-попават" "атят-покштят" "прят-полдат" "илат-кирдат" "валт-кельть" "атят-каткат" "садт-яслят" "прят-пулот"
+"кепеть-штапот" "анокт-парт" "алот-вереть" "одт-мазыйть" "одт-превтеметь"
+;#collective noun pairs
+
+LIST PAIRVERBS = "артнемс-мазылгавтнемс" "киштемс-морамс" "киштевтемс-моравтомс" "микшнемс-рамсемс" "муцямс-кучкорямс" "неемс-марямс" "пидемс-панемс" "пурнамс-сэрнямс" "рамсемс-микшнемс" "трямс-ваномс" "трямс-кастомс" "тувтнемс-правтнемс" "эрямс-озномс" ;#pair verbs
 
 LIST ESJ = ("эсь" Det Refl);
+
+LIST FILTEROUTPATH = (Der Der/Dimin N SP Gen PxSg1 Clt/Cop Prs ScSg2) (Der Der/Dimin N Pl Gen PxSg1 Clt/Cop Prs ScSg2) (Der Der/Dimin N Sg Gen PxSg1 Clt/Cop Prs ScSg2) (Der Der/Dimin N Sg Nom PxSg1 Clt/Cop Prs ScSg2) (SP Abl PxSg1 Clt/Cop Prs ScSg2) (SP Abl PxSg1 Dial/SE Der/MWN N SP Ill) ;# filter out these paths
 
 LIST LIKELYOBJECT = (Pron Pers Sg1 Gen) (Pron Pers Sg2 Gen) (Pron Pers Sg3 Gen) (Pron Pers Pl1 Gen) (Pron Pers Pl2 Gen) (Pron Pers Pl3 Gen) (Gen Def) (Prop SP Gen) (Prop Gen) ;#
 
 SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
 
-
+LIST NOUNS-IN-VT = "кучовт" ;# competing with Telic Vt/Vtj
 LIST APAK = "апак" ;
 
 #LIST EZJ = "эзь" ;
 LIST EZJ = "а" ;
 
+SET TAKESSYMMETRICNEG = (Ind Prs) | Conj | (Ind Prt2) | Des | Cond;
 #2013-05-22
 
 # Phrasal groups
@@ -889,10 +927,34 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP In
        #"эй" N 'ice'
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET (N Prop Pl Nom Indef <W:0.0>);
 #This should help with imperatives
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>) OR ("думамс" V TV Ind Prs ScSg2 <W:0.0>);
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки");
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
+#Пазонь кучовт ашо карциган
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
+REMOVE FILTEROUTPATH;# these are paths that might be weighted out as highly unlikely
+#("лёд") IF (0 ("леднема") OR ("леднемс"));
+#REMOVE ("кан") IF (0 ("кандомс"));
+#REMOVE ("пей") IF (0 ("пейдема") OR ("пейдемс"));
+#REMOVE ("сёрма" Ex/N SP Abl PxSg1 Dial/SE Der/MWN N SP Ill);
+
+REMOVE VAMBNOUNS IF (0 (PxSg1 Clt/Cop));
+REMOVE ("пе") IF (0 ("пелемс"));#end vs to fear
+REMOVE ("але") IF (0 ("аля"));#power vs man
+REMOVE (Clt/Cop Prs ScSg2) OR (Clt/Cop Prs ScSg1) IF (0 ("думамс") OR ("дума"));#no до
+
+REMOVE V IF (0 ("кодамо" A Interr Sg Nom Indef)) (1 N);
+
+
+SELECT:ComPairWhenPossible COMPAIRS;
+	#теленек-кизэнек
+SELECT:CollWhenPossible COLLPAIRS;
+	#тетят-ават
+SELECT:PairVerbs PAIRVERBS ;
+	#рамсемс-микшнемс
 
 REMOVE:NoNSPAblCop (N SP Abl Indef Clt/Cop Prs ScPl3);
 # вал+до+т 
@@ -911,6 +973,8 @@ REMOVE:NoAbbrA ("А") OR ("а") IF (0 (N ABBR));
 REMOVE:NoPcleAfterComma ("ды" Pcle) OR ("улемс" V IV Oblig) OR ("улемс" Ex/V IV Der/OmA NomAct N Sg Nom Indef) OR ("самс" V IV Ind Prt1 ScSg1) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
 	#, ды сон кирнявтсь
 	#, улема,
+
+REMOVE COMMONNOUN IF (0 Upper) (NEGATE -1 BOS OR (":")) (NEGATE -1 ("—") LINK -1 BOS);
 
 MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
 MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
@@ -940,10 +1004,17 @@ REMOVE:NoTarkasPo ("таркас" Po);
 REMOVE:NoLomanjksAdv ("ломанькс" Adv Tra);
        # А ломанькс тейнемат
 
+REMOVE:NoBloodyCompWhenPlural ("верев" A Sg Nom Indef) IF (-1 ("се" Pron Dem Sg Abl Indef)) (1 IndefObjectCandidate);
+       #чоподат: Ало ёно ванькст, седе верев чоподат.
+       
 REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 (A Sg Nom Indef));
        #сюпав
 SELECT ("а" V Aux Neg) IF (1 (V IV Oblig) OR (V TV Oblig) OR ("умок" Adv Sem/Time));
        #А ёмама
+
+SELECT:AuxNegNextJThenVerb ("а" V Aux Neg) IF (1 ("й")) (2 TAKESSYMMETRICNEG);#symmetric neg
+       #А й арсян
+       
 SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
        #
 
@@ -999,6 +1070,11 @@ REMOVE (N Sg Nom Indef Clt/Add) IF (0 ("кияк" Pron Indef Sg Nom)) (*0 ScSg3 
 SELECT (Der/OmA NomAct N SP Abl) IF (*0 VERBTAKESMAMOABL BARRIER CLB OR BOS OR EOS OR ("—"));
        #нарьгамодо: — ведунось лотки нарьгамодо.
 
+REMOVE (Der/OmA NomAct) IF (-1 (Der/Ozj Ger) OR (A Sg Nom Indef));
+       #кодазь оршамот:  Лавтовгаст каязь уськстэ кодазь оршамот,
+       #ванькс оршамот: Весе ломантнень лангсо ашо ванькс оршамот.
+
+
 REMOVE (Inf Abl) IF (1 POSTPWITHABL);
        #тюремадо икеле
 #Distinguish содамс содомс
@@ -1043,10 +1119,15 @@ REMOVE (Ex/Adv Sem/Time Der/MWN N Sg Nom Indef);
 REMOVE ("тол" N SP Prl PxSg3);
        #"Мейле карми шлямо толганзо." This is too strong
 
-SELECT SupLoc IF (*0 KARMAMS BARRIER CLB OR BOS OR EOS) (NOT *-1 SupLoc BARRIER CLB OR BOS) (NOT *1 SupLoc BARRIER CLB OR EOS);
+SELECT:SupLocWhenVerbCallsForIt SupLoc IF (*0 KARMAMS OR VERBWITHMO BARRIER CLB OR BOS OR EOS) ((NEGATE *-1 SupLoc BARRIER CLB OR BOS OR @C-FVP) OR (NEGATE *1 SupLoc BARRIER CLB OR EOS OR @C-FVP));
        #Мейле карми шлямо толганзо.
+       #варштамонзо ды лездамо: сак варштамонзо ды лездамо тензэ.
 
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
+
+REMOVE IV IF (0 Inf OR Prc/Telic) (-1 (SP Gen Indef));
+    #кодамо тейтерь карми тень сёрмань кучнеме? 
+
 
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
 
@@ -1070,13 +1151,17 @@ REMOVE Der/Dimin (0C N ) ;
 
 REMOVE:notShortDatFirst Pers IF (-1 BOS) (0 ("мон"));
 
+SELECT:Sg1DatWhenNextGenThenInf ("мон" Pron Pers Sg1 Dat Short) IF (1 (Gen)) (2 (Inf));
+    #тень: кодамо тейтерь карми тень сёрмань кучнеме?
 # short participles should be written with the following noun? new orthographic practice 1993
 #REMOVE:RemoveShortPrc Der/Y (0 VFIN) ;
 REMOVE:RemoveShortPrc ShortPrsPrc (0 VFIN) ;
 
 # кайсевкшнить
-REMOVE:NoDerOkshnOmsIfReady Der/OkshnOms IF (0C V) ;
+REMOVE:NoDerOkshnOmsIfReady Der/OkshnOms IF (0 V) ;
 REMOVE:NoDerOzevemsIfReady Der/Ozevems IF (0C V) ;
+REMOVE:NoVDerVIfReady 2VDerTag IF (0 V OR Ex/V) ;
+	#кармавтоманзо: , топавтсть Ферапонт Судосевень кармавтоманзо:
 
 # псакась совась кудос
 # this may be too powerful
@@ -1184,7 +1269,7 @@ REMOVE:NotVAmbNounsIFVerb Clt/Cop IF (0C ScSg1 OR ScSg2) (0 VAMBNOUNS) ;
 REMOVE 2NDerTag (0C N) ; #2017-11-05
 
 #Кода пангт эли нормальть?
-REMOVE ConNeg (-1 BOS) ;
+REMOVE:NoConNegWhenNoTrigger ConNeg (-1 BOS) ;
 
 
 REMOVE Aux + Neg + Conj IF (0 Pcle + Neg) (NOT 1 ConNeg) ;
@@ -1221,6 +1306,12 @@ REMOVE (N Pl Nom PxSg1) IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
        #Мон чистэ шлян толган.
 
 REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
+
+REMOVE PxSg2 IF (0 (Pl Nom Indef)) (0* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BOS);
+       #, ливтсь муськемат :лиссь од авась, ливтсь муськемат.
+REMOVE Gen IF (0 ("чопода" Pl Nom Indef)) (NEGATE 0* VFINPERSONSUBJ BARRIER CLB OR EOS OR BOS);# LINK NOT 0* VFINPERSONPLSUBJ BARRIER CLB OR EOS OR BOS);
+       #чоподат: Ало ёно ванькст, седе верев чоподат.
+
 
 #SELECT:PlNomWhenPrecededByPlNomAndCNP (Pl Nom) IF (-2 (Pl Nom)) (-1 @CNP) (NEGATE 1 PostpNoPX);
 	#сакалонзо: Прясонзо черензэ ды сакалонзо валдот, Too powerful?
@@ -1441,11 +1532,16 @@ REMOVE (ScSg3) IF (0 (V Aux Neg ConvPrc)) (*0 VFIN BARRIER CLB);
 # A rule is needed to distinguish теевемс Conj from теемс Conj 2022-03-01
 #теевемс - теевель: Штобу теевель известь, известняконть пултасызь специальной каштомсо.
 
+SELECT VERBWITHMO IF ((NEGATE -1* VERBWITHMO BARRIER CLB OR BOS OR EOS) OR (NEGATE 1* VERBWITHMO BARRIER CLB OR BOS OR EOS)) (0* SupLoc BARRIER CLB OR BOS OR EOS);# perhaps too strong 2022-05-05
+
 REMOVE:NoIVSg3WhenElsewhere (V IV Ind Prt1 ScSg3) IF (*-1 VFINSG3SUBJNOOBJ BARRIER CLB);#(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
        #Пачкодсь теде кулясь маласо волостной правленияс,
 
 REMOVE:NoPredWhenPrecedeErva SCPERSON IF (-1 ("эрьва" Sg Nom Indef));
 			     # трудонь эрьва кодат орудиятне
+
+SELECT:NoVWhenCopOnly (Adv Sem/Time Pl) IF (0* VFIN OR (Clt/Cop));
+	#мелят: секс што кизэсь мелят ламонь таркасо пиземевель.
 
 REMOVE:NoVWhenEsj1 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-1 ("эсь" Det Refl)) ;# How are these joined
 #REMOVE:NoVWhenEsj2 Der/OmA OR (V Inf Abl) OR SCPERSON  IF (-2 ("эсь" Det Refl)) (-1 NMODIFIER);
