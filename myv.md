@@ -1155,6 +1155,8 @@ imperative suffix
 * *валд%{backHard%}%>т%{ЬØ%}*
 * *валд0%>т0*
 
+**t:d**  
+
 **s:0**  
 
 * *класс%>с*
@@ -1228,6 +1230,8 @@ imperative suffix
 **Disallow %^NoLinkVow after vowel**
 
 **Disallow s for control of stems with inessive...**
+
+**Disallow dano after non-voiced**
 
 **Disallow k for control of comparative with stem types**
 
@@ -1452,13 +1456,16 @@ Other verb forms are
 * +Err/Orth-cons-stem * пачт|емс 2012 пачтямс
 * +Err/Orth-freq-le * пачтнемс:пачле
 * +Err/Orth-vowel-stem-je * чудемс+V:чуде чуд|емс (->)чуде|мс
+* +Err/Orth-vowel-stem-hard-e * Nekshnems
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-front-linking-vowel * linking vowel is front уряжень
 * +Err/Orth-mid-linking-vowel * linking vowel is mid вечкелизь
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
+* +Err/Orth-d * not t but instead d
 * +Err/Orth-colloq * colloquial, e.g. Минорыч
 * +Err/Orth-old1 * old1 like озимь, морковь
+* +Err/Orth-pre1978 * orthography preceding 1978
 * +Err/Orth-pre2012 * previous orthography
 * +Use/Marg * Marginal
 * +Use/-Spell * Exclude from speller

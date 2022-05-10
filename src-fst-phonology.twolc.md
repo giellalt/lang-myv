@@ -222,6 +222,8 @@ imperative suffix
 * *валд%{backHard%}%>т%{ЬØ%}*
 * *валд0%>т0*
 
+**t:d**  
+
 **s:0**  
 
 * *класс%>с*
@@ -295,6 +297,8 @@ imperative suffix
 **Disallow %^NoLinkVow after vowel**
 
 **Disallow s for control of stems with inessive...**
+
+**Disallow dano after non-voiced**
 
 **Disallow k for control of comparative with stem types**
 
