@@ -177,6 +177,9 @@ gt_PROG_VISLCG3
 # Tests and sets up XML to lexc conversion
 gt_PROG_SAXON
 
+gt_USE_SHARED([urj_Cyrl], [shared-urj-Cyrl])
+AM_CONDITIONAL([HAVE_SHARED_URJ_CYRL], [test x$gt_SHARED_urj_Cyrl != xfalse])
+
 # Adds --enable/disable-morphology, -speller, -hyphenation, etc.
 # This should be the last step so that all program variables are available
 # to the enable checks
