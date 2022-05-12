@@ -378,6 +378,8 @@ LIST Der/Pr = Der/Pr ;
 LIST Der/PatrMal = Der/PatrMal ;
 LIST Der/PatrFem = Der/PatrFem ;
 
+LIST DIALREADING = Dial Dial/SE ;#used in substitute for weighting of dial readings
+
 LIST Ex/V = Ex/V ;#former verb
 
 LIST Err/Orth = Err/Orth Err/Orth-no-linking-vowel ;
@@ -931,6 +933,11 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки");
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
 #Пазонь кучовт ашо карциган
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET DIALREADING;
+
+SELECT (Pron AssocColl) IF (0 (Num Pron) OR (Det Pron));
+#кавонест, ськамонзо
+REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
 
 REMOVE Err/Orth ; # If any other reading is possible.
 
