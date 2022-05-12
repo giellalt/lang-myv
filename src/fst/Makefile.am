@@ -16,8 +16,11 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Add language-specific flags for hfst-lexc compilation here:
+if HAVE_SHARED_URJ_CYRL
 HFST_LEXC_LOCAL_FLAGS=--Werror
-#HFST_LEXC_LOCAL_FLAGS=
+else
+HFST_LEXC_LOCAL_FLAGS=
+endif
 
 ####### Morphology source file defs: ########
 
@@ -135,11 +138,17 @@ GT_DISTRO_SRCS=
 
 GIELLA_LOCAL_TARGETS=
 
+if HAVE_SHARED_URJ_CYRL
 generated_files/urj-Cyrl-propernouns.lexc: \
-	$(GIELLA_SHARED)/urj-Cyrl/src/fst/stems/urj-Cyrl-propernouns.lexc
+	$(gt_SHARED_urj_Cyrl)/src/fst/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
-
+else
+generated_files/urj-Cyrl-propernouns.lexc:
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_at)echo "Cannot find shared urj Cyrl"
+	$(AM_V_GEN)echo "! Cannot find shared urj Cyrl" > $@
+endif
 ### END: Local processing: ###
 
 ####### Other targets: ###########
