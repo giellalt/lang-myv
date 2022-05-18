@@ -1453,6 +1453,7 @@ Other verb forms are
 * +Err/Sub * Substandard
 * +Err/Orth-no-linking-vowel * linking vowel is missing
 * +Err/Orth-vowel-stem-a * чачтомс+V:чачта
+* +Err/Orth-vowel-stem-ja * чачтомс+V:чачта
 * +Err/Orth-cons-stem * пачт|емс 2012 пачтямс
 * +Err/Orth-freq-le * пачтнемс:пачле
 * +Err/Orth-vowel-stem-je * чудемс+V:чуде чуд|емс (->)чуде|мс
