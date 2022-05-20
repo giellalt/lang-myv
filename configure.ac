@@ -188,7 +188,7 @@ gt_ENABLE_TARGETS
 gt_USE_SHARED([common], [shared-mul], [giella-shared-mul])
 AM_CONDITIONAL([HAVE_SHARED_COMMON], [test x$gt_SHARED_mul != xfalse])
 # Add locally used shares below this line:
-gt_USE_SHARED([urj_Cyrl], [shared-urj-Cyrl])
+gt_USE_SHARED([urj_Cyrl], [shared-urj-Cyrl], [giella-shared-urj-Cyrl])
 AM_CONDITIONAL([HAVE_SHARED_URJ_CYRL], [test x$gt_SHARED_urj_Cyrl != xfalse])
 
 
