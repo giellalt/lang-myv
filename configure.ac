@@ -177,13 +177,22 @@ gt_PROG_VISLCG3
 # Tests and sets up XML to lexc conversion
 gt_PROG_SAXON
 
-gt_USE_SHARED([urj_Cyrl], [shared-urj-Cyrl])
-AM_CONDITIONAL([HAVE_SHARED_URJ_CYRL], [test x$gt_SHARED_urj_Cyrl != xfalse])
 
 # Adds --enable/disable-morphology, -speller, -hyphenation, etc.
 # This should be the last step so that all program variables are available
 # to the enable checks
 gt_ENABLE_TARGETS
+
+# Add usage of optional shared data here
+# Comment out if shared punctuation not in use!
+gt_USE_SHARED([common], [shared-mul], [giella-shared-mul])
+AM_CONDITIONAL([HAVE_SHARED_COMMON], [test x$gt_SHARED_mul != xfalse])
+# Add locally used shares below this line:
+gt_USE_SHARED([urj_Cyrl], [shared-urj-Cyrl])
+AM_CONDITIONAL([HAVE_SHARED_URJ_CYRL], [test x$gt_SHARED_urj_Cyrl != xfalse])
+
+
+# Locally used shares above this line
 
 # Call a function that lists all files that should be processed by autoconf:
 gt_CONFIG_FILES

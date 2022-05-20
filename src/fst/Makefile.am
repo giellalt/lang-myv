@@ -76,9 +76,9 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-		generated_files/urj-Cyrl-propernouns.lexc \
-		generated_files/punctuation.lexc \
-		generated_files/symbols.lexc \
+		generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc \
+		generated_files/mul-$(GLANG)-punctuation.lexc \
+		generated_files/mul-$(GLANG)-symbols.lexc \
 		$(srcdir)/stems/A_myv2x.lexc         \
 		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/Adv_myv2x.lexc            \
@@ -97,6 +97,29 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/Pcle_myv2x.lexc          \
 		$(srcdir)/stems/Pron_myv2x.lexc           \
 		$(srcdir)/stems/V_myv2x.lexc
+
+
+
+# change handling of shared lexical data here:
+if HAVE_SHARED_COMMON
+url.tmp.lexc: $(gt_SHARED_common)/src/fst/url.lexc
+	$(AM_V_CP)cp -f $< $@
+
+generated_files/mul-$(GLANG)-%.lexc: $(gt_SHARED_common)/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_CP)cp -f $< $@
+else
+# this is "safe" fallback (compiles but you miss everything)
+url.tmp.lexc:
+	echo "LEXICON Root" > $@
+	echo "< h t t p (s) : / / ?*> # ;" >> $@
+
+generated_files/mul-$(GLANG)-%.lexc:
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_C_GEN)echo "! Missing shared common data" > $@
+endif
+# add other lexical shared data handling here
+
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
