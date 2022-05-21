@@ -59,7 +59,7 @@ EOS
 * @-FMAINV : infinite main verb
 - oaidnit: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
 * @-FSUBJ> : Subject of infinite verb outside the verbal.
-- mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without me knowing about it.
+- mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without my knowing about it.
 * @-F<OBJ : Subject of infinite verb outside the verbal.
 - nuppi: Ulbmil lea oažžut nuppi boagustit. - The goal is to get the other one to laugh.
 * @-FOBJ> : Object of infinite verb outside the verbal.
@@ -1452,12 +1452,15 @@ Other verb forms are
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
 * +Err/Orth-no-linking-vowel * linking vowel is missing
-* +Err/Orth-vowel-stem-a * чачтомс+V:чачта
-* +Err/Orth-vowel-stem-ja * чачтомс+V:чачта
 * +Err/Orth-cons-stem * пачт|емс 2012 пачтямс
 * +Err/Orth-freq-le * пачтнемс:пачле
-* +Err/Orth-vowel-stem-je * чудемс+V:чуде чуд|емс (->)чуде|мс
-* +Err/Orth-vowel-stem-hard-e * Nekshnems
+* +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
+* +Err/Orth-stem-je-should-be-ja * мелямс:меле
+* +Err/Orth-stem-hard-e-should-be-je * Nekshnems
+* +Err/Orth-stem-a-should-be-o0 * чачтомс+V:чачта
+* +Err/Orth-stem-ja-should-be-je0 * лемдемс+V:лемдя
+* +Err/Orth-back-should-be-hard-front * back should be hard front
+* +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-front-linking-vowel * linking vowel is front уряжень
 * +Err/Orth-mid-linking-vowel * linking vowel is mid вечкелизь

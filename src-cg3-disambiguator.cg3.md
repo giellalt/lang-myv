@@ -55,7 +55,7 @@ EOS
 * @-FMAINV : infinite main verb
 - oaidnit: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
 * @-FSUBJ> : Subject of infinite verb outside the verbal.
-- mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without me knowing about it.
+- mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without my knowing about it.
 * @-F<OBJ : Subject of infinite verb outside the verbal.
 - nuppi: Ulbmil lea oažžut nuppi boagustit. - The goal is to get the other one to laugh.
 * @-FOBJ> : Object of infinite verb outside the verbal.
