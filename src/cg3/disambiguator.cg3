@@ -380,12 +380,15 @@ LIST Der/PatrFem = Der/PatrFem ;
 LIST Use/NG = Use/NG ;
 
 LIST Dial/NW = Dial/NW ;
+LIST Dial/SE = Dial/SE ;
+LIST Dial/W = Dial/W ;
+LIST Dial = Dial ;
 LIST Err/Orth = Err/Orth ;
 LIST Err/Orth-pre2012 = Err/Orth-pre2012 ;
 LIST Err/Orth-no-linking-vowel = Err/Orth-no-linking-vowel ;
-LIST ERRORTH = Err/Orth-no-linking-vowel Err/Orth Err/Orth-pre2012 ;
+LIST ERRORTH = Err/Orth-no-linking-vowel Err/Orth Err/Orth-pre2012 Err/Orth-back-should-hard-front ;
 
-LIST DIALREADING = Dial Dial/SE Dial/NW ;#used in substitute for weighting of dial readings
+LIST DIALREADING = Dial Dial/SE Dial/NW Dial/W ;#used in substitute for weighting of dial readings
 
 LIST Ex/V = Ex/V ;#former verb
 
@@ -421,7 +424,12 @@ LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
 LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
+LIST NonIndefObjectCandidate = (N Sg Gen Def) (N PL Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
+
+SET OBJECTCANDIDATE = IndefObjectCandidate | NonIndefObjectCandidate ;
+
 LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
+
 
 #!! ###  Syntactic tags
 
@@ -434,7 +442,7 @@ LIST @-FAUXV = @-FAUXV ;	         #!! * @-FAUXV : infinite auxiliary verb
 LIST @-FMAINV = @-FMAINV ;	         #!! * @-FMAINV : infinite main verb
 									 #!!     - oaidnit: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
 LIST @-FSUBJ> = @-FSUBJ> ;	         #!! * @-FSUBJ> : Subject of infinite verb outside the verbal.
-									 #!!     - mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without me knowing about it.
+									 #!!     - mu: Diet dáhpáhuvai mu dieđikeahttá. - It happened without my knowing about it.
 LIST @-F<OBJ = @-F<OBJ ;	         #!! * @-F<OBJ : Subject of infinite verb outside the verbal.
 									 #!!     - nuppi: Ulbmil lea oažžut nuppi boagustit. - The goal is to get the other one to laugh.
 LIST @-FOBJ> = @-FOBJ> ;	         #!! * @-FOBJ> : Object of infinite verb outside the verbal.
@@ -658,6 +666,7 @@ LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Nou
 LIST SCONJ = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
 LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
 
+SET SCONJ-NOTPL3 = SCONJ - ScPl3 - Clt/Cop ;#Subject marking other than ScPl3
 
 #!! ### Pronoun sets
 # ------------
@@ -762,6 +771,10 @@ LIST VAMBNOUNS = "але" "вал" "вий" "дум" "кадо" "кан" "кан
  "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
 
+SET NMN-INFLECTION-IN-MIDARCHIVOWEL = (Sg Nom Def) | (Sg Nom Indef Clt/Cop Prt2)| (Sg Gen Def) | (Sg Nom PxSg1) | (Sg Nom PxSg2) | (Sg Nom PxSg3) | (Sg Nom PxPl1) | (Sg Nom PxPl2) | (Sg Nom PxPl3) | (Pl Nom PxSg1) | (Pl Nom PxSg2) | (Pl Nom PxSg3) | (Pl Nom PxPl1) | (Pl Nom PxPl2) | (Pl Nom PxPl3) | (Sg Gen PxSg3) | (Sg Gen PxPl1) | (Sg Gen PxPl2) | (Sg Gen PxPl3) | (Pl Gen PxSg1) | (Pl Gen PxSg2) | (Pl Gen PxSg3) | (Pl Gen PxPl1) | (Pl Gen PxPl2) | (Pl Gen PxPl3) | (SP Gen Indef) | (SP Lat Indef) | (SP Tra Indef) ;# This is a list of all nominal inflection with a middle archivowel onset, only standard language is given here. This with help to locate overlap in Пич vs пиче paradigms.
+
+LIST PropnPICHvsPiche = "Пич" ; #consonant-final proper noun with competing common noun mid-vowel stem 
+	#! Пич vs пиче, i.e. all inflections with the archivowel O in onset position.
 
 LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "пурнамс" "самс" "снартомс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
@@ -936,6 +949,7 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET (N Prop Pl Nom Indef <W:0.0>);
 #This should help with imperatives
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>) OR ("думамс" V TV Ind Prs ScSg2 <W:0.0>);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки");
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET PropnPICHvsPiche IF (0 NMN-INFLECTION-IN-MIDARCHIVOWEL);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
 #Пазонь кучовт ашо карциган
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET DIALREADING;
@@ -1331,13 +1345,18 @@ REMOVE PxSg2 IF (0 (Pl Nom Indef)) (0* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BO
        #, ливтсь муськемат :лиссь од авась, ливтсь муськемат.
 REMOVE Gen IF (0 ("чопода" Pl Nom Indef)) (NEGATE 0* VFINPERSONSUBJ BARRIER CLB OR EOS OR BOS);# LINK NOT 0* VFINPERSONPLSUBJ BARRIER CLB OR EOS OR BOS);
        #чоподат: Ало ёно ванькст, седе верев чоподат.
+REMOVE (Pl Nom PxSg2) OR (Sg Nom PxSg2) IF (0 OBJECTCANDIDATE) (0* SCONJ-NOTPL3 BARRIER CLB OR EOS OR BOS);
+       #Сайтяно: — Сайтяно вишка узереть.
 
+SELECT TV IF (0 ScPl1) (0* OBJECTCANDIDATE BARRIER CLB OR EOS OR BOS LINK NEGATE 1 PostpNoPX);
+       #Сайтяно: — Сайтяно вишка узереть.
 
 #SELECT:PlNomWhenPrecededByPlNomAndCNP (Pl Nom) IF (-2 (Pl Nom)) (-1 @CNP) (NEGATE 1 PostpNoPX);
 	#сакалонзо: Прясонзо черензэ ды сакалонзо валдот, Too powerful?
 
-SELECT:PlPredIfNoOther (Pl Nom Indef) IF (0* POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS) (NEGATE 0* VFIN BARRIER CLB OR EOS OR BOS);
+SELECT:PlPredIfNoOther (Pl Nom Indef) IF (NOT 0 VFIN) (0* POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS) (NEGATE 0* VFIN BARRIER CLB OR EOS OR BOS);
        #Прясонзо черензэ ды сакалонзо валдот,
+       #Сайтяно: — Сайтяно вишка узереть.
 
 SELECT:PlSubjIfPlPred POSSIBLEPLNOMSUBJPX IF (0* (Pl Nom Indef) BARRIER CLB OR EOS OR BOS) (NEGATE 0* VFIN BARRIER CLB OR EOS OR BOS) (NEGATE 1 PostpNoPX);
 
@@ -1391,9 +1410,10 @@ REMOVE IV IF (0 TV) (1 (Sg Gen Def) OR (Pl Gen Def))
              (NOT 2 Po OR Adp);
 	     #лоткась: лоткась тарканть пес
 
-REMOVE IV IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 PlGenPossessum BARRIER CLB OR BOS OR EOS LINK NOT 1 Adp);
-	     #кевердить: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
 
+REMOVE IV IF (0 TV) (*0C (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 PlGenPossessum BARRIER CLB OR BOS OR EOS LINK NOT 1 Adp);
+	     #кевердить: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
+	     #, сонзэ кавто урьватнеяк сыргасть мартонзо.
 
 REMOVE TV IF (0 ("теемс") OR ("меремс") OR ("молемс")) (-1 Ideoph);
 
