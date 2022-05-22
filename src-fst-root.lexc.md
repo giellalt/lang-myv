@@ -247,6 +247,8 @@ Rueter 2010: 8
 * +Dial/-C * Not central standard
 * +Dial/C * 1 Central or Kozlovka-Mokshlei
 * +Dial/W * 2 Western or Insar
+* +Dial/W-NW * 2 Western or Insar, subgroup NW
+* +Dial/W-SW * 2 Western or Insar, subgrou0 SW
 * +Dial/NW * 3 North-Western or Alatyr
 * +Dial/SE * 4 South-Eastern or Sura
 * +Dial/M * 5 Mixed or Drakino-Shoksha
