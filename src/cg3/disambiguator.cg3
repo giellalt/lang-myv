@@ -521,6 +521,10 @@ LIST WORDLEMMA = (".*"r) ;
 LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
 LIST Lower = "<[а-яё]+>"r ;
 
+LIST YEAR = ("[0-2][0-9][0-9][0-9]"r) ;
+LIST DAYOFMONTH = "7" ;
+LIST MONTHOFYEAR-GEN = "январень" ;#"якшамковонь" "даволковонь" "эйзюрковонь" "чадыковонь" "панжиковонь" "аштемковонь" "медьковонь" "умарьковонь" "таштамковонь" "ожоковонь" "сундерьковонь" "ацамковонь" | "<январень>" | "февралень" "мартонь" "апрелень" "маень" "июнень" "июлень" "августонь" "сентябрянь" "октябрянь" "ноябрянь" "декабрянь";
+
 LIST VInVOms = "<[а-яё]+в[ео]мс>"r ;#Not same thing? (".*овомс"r)
 LIST VNoGenObj = Der/OvOms VInVOms "улемс" ;
 LIST RusPatronymMal = "<[А-ЯЁ][а-яё]+ич>"r ;
@@ -549,7 +553,7 @@ LIST INITIAL = "а" "б" "в" "г" "д" "е" "ё" "ж" "з" "и" "й" "к" "л"
         "м" "н" "о" "п" "р" "с" "т" "у" "ф" "х" "ц" "ч" "ш"
         "щ" "ъ" "ы" "ь" "э" "ю" "я" ; #!! INITIAL
 
-LIST Postp = Po Relator ;
+LIST Postp = Po Relator Adp ;
 
 #!! ### Sets for word or not
 
@@ -963,6 +967,11 @@ SELECT (Pron AssocColl) IF (0 (Num Pron) OR (Det Pron));
 #кавонест, ськамонзо
 REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
 
+SELECT:DayOfMonth DAYOFMONTH IF (1 ("чистэ")) (0 Num);
+#SELECT:DayOfMonth DAYOFMONTH IF ((-1 MONTHOFYEAR-GEN) OR (1 ("чистэ"))) (0 Num);
+		  # чачсь 1947 иень январень 7 чистэ
+SELECT:KillLot ("лоткамс") IF (0* (Inf Abl) BARRIER CLB OR EOS OR BOS) (0* VFIN BARRIER CLB OR EOS OR BOS);
+	       #Лоткасть марсевемеде нармунень моротне,
 
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 REMOVE FILTEROUTPATH;# these are paths that might be weighted out as highly unlikely
@@ -1039,6 +1048,10 @@ REMOVE:NoBloodyCompWhenPlural ("верев" A Sg Nom Indef) IF (-1 ("се" Pron 
        
 REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 (A Sg Nom Indef));
        #сюпав
+
+REMOVE (Pl Nom Indef) OR (Pl Nom PxSg2) OR (Sg Nom PxSg2) IF (0 (PxSg2)) (1 PostpNoPX);
+       #сельметь: сельметь икеле
+       
 SELECT ("а" V Aux Neg) IF (1 (V IV Oblig) OR (V TV Oblig) OR ("умок" Adv Sem/Time));
        #А ёмама
 
