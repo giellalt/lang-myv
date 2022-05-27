@@ -53,6 +53,8 @@ are dealt with as adverbs
 
 ### NOUNS
 
+### NOUNS WRITTEN Appart
+
 ### PLACE NAMES
 ### GEO
 

@@ -257,7 +257,9 @@ Rueter 2010: 8
 * +Orth/PhonDeriv * Derivation is phonetic but declension and conjugation morphologic
 * +Orth/PhonInfl * Entire inflection is phonetic 1821, 1920-30
 * +Orth/standard * described in 2008, dictionary 2012
-* +Orth/thirties * 1933–1993 phonetic, morphological
+* +Orth/thirties * 1939–1955 phonetic, morphological
+* +Orth/fifties * 1955–1978 phonetic, morphological
+* +Orth/seventies * 1978–1993 phonetic, morphological
 * +Orth/nineties * 1993-2008 morphological, but phonetic compounding
 * +Orth/wiki * Regular-semantic deriving from 1993 and 2008
 * +Orth/-wiki * e.g. compound words written with white space
