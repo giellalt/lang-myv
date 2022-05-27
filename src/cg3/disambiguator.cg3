@@ -963,11 +963,16 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET IV IF (0* GENDEF BARRIER CLB OR EOS OR BOS
 SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
 #прятнень: зярдо чись ансяк кармась пургсеме якстере струясонзо чувто прятнень,...
 
+REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
+       #Тесэ весе чумось войнась...» — оймавтсь сон эсь прянзо.
+
 SELECT (Pron AssocColl) IF (0 (Num Pron) OR (Det Pron));
 #кавонест, ськамонзо
 REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
 
 SELECT:DayOfMonth DAYOFMONTH IF (1 ("чистэ")) (0 Num);
+SELECT:TestNum (Num) IF (0 (Symbol));
+
 #SELECT:DayOfMonth DAYOFMONTH IF ((-1 MONTHOFYEAR-GEN) OR (1 ("чистэ"))) (0 Num);
 		  # чачсь 1947 иень январень 7 чистэ
 SELECT:KillLot ("лоткамс") IF (0* (Inf Abl) BARRIER CLB OR EOS OR BOS) (0* VFIN BARRIER CLB OR EOS OR BOS);
@@ -1428,6 +1433,8 @@ REMOVE IV IF (0 TV) (*0C (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 PlGenPosses
 	     #кевердить: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
 	     #, сонзэ кавто урьватнеяк сыргасть мартонзо.
 
+REMOVE IV IF (0 TV) (0* (SP Gen PxSg3) OR (Sg Gen PxSg3) BARRIER  CLB OR EOS OR BOS LINK NEGATE -1 PostpNoPX);
+
 REMOVE TV IF (0 ("теемс") OR ("меремс") OR ("молемс")) (-1 Ideoph);
 
 #REMOVE TV IF (0 IV) (0* BARRIER CLB);# work needed 2022-03-26
@@ -1450,7 +1457,10 @@ REMOVE:NoIVWhenLeftDatRightObj IV IF (-1 Dat) (0 ("меремс")) (1 (Sg Nom In
 
 REMOVE:NoOcWhenLeftDatRightObj OCONJ IF (-1 Dat) (0 ("меремс")) (1 (Sg Nom Indef) OR (Pl Nom Indef));
 
-
+#
+REMOVE:NoPlurOc3WhenObjSg (Pl Gen) IF (0 (Gen PxSg3)) (NOT 1 PostpNoPX) (0* OcSg3) ;
+ #цёрынензэ: Секс, эйднем, што Катя цёрынензэ ёмавтызе тесэ, Смоленскойсэ.
+ 
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
 
