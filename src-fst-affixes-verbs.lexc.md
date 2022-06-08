@@ -56,6 +56,7 @@ no deverbals
 
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
+**LEXICON TV_NEKSHNEMS** Alternates with TRA
 
 This is fed by actors and participles in N_myv, A_myv and Prc_myv
 This is fed by actors and participles in N_myv, A_myv and Prc_myv

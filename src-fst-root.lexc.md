@@ -220,7 +220,8 @@ Other verb forms are
 * +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-front-linking-vowel * linking vowel is front уряжень
-* +Err/Orth-mid-linking-vowel * linking vowel is mid вечкелизь
+* +Err/Orth-mid-linking-vowel-should-be-high * linking vowel is mid вечкелизь should be вечкилизь
+* +Err/Orth-mid-onset-default-missing * should be скаломок, but this is скалмок, мелезэнек: мельзэнек
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-d * not t but instead d
