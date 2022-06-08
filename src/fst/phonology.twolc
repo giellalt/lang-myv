@@ -350,8 +350,8 @@ Rules
 "%{оеэØ%}:э"
 !! **@RULENAME@**
 %{оеэØ%}:э <=> LFCH ( %{frontHard%}: ) %> _ ;
-               LFCS (%{frontSoft%}:) (%> %^NoLinkVow: %>| %>) з %> _ ;
-               [:FTV [д |з |л |н |р] |й: | д ь: | з ь: | н ь: | р ь: | л ь:] (%{frontSoft%}:) [%> %^NoLinkVow: %>| %>] з %> _ ;
+               LFCS (%{frontSoft%}:) (%> %^NoLinkVow: %>|%> %^NoLinkVow: | %>) з %> _ ;
+               [:FTV [д |з |л |н |р] |й: | д ь: | з ь: | н ь: | р ь: | л ь:] (%{frontSoft%}:) [%> %^NoLinkVow: %>|%> %^NoLinkVow: | %>] з %> _ ;
 !! кев+N+SP+Ill+PxSg2: **rock/kivi**
 !!€ кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}
 !!€ кев0%>з%>эть
@@ -471,7 +471,7 @@ Rules
 %{ое%}:е <=> FT _ ;
          :FTV в (%{frontSoft%}:|%{frontHard%}:) %>  %^WLoss: %> %{оеэØ%}:0 в:  _ л  ;
          [ :FTV ( (%{frontSoft%}:|%{frontHard%}:) %>  %{оеэØ%}:0 ) ] в _ л  ;
-         FT (%{frontSoft%}:|%{frontHard%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:е | %{оеэØ%}:э )  м  _ к  ;
+         FT (%{frontSoft%}:|%{frontHard%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:е | %{оеэØ%}:э |%^NoLinkVow:0)  м  _ (к)  ;
 
 
 "%{ое%}:о"
@@ -480,7 +480,7 @@ Rules
           :BTV в ( %{back%}: ) %> %^WLoss: %> %{оеэØ%}:0 в: _ л  ;
           :BTV ( ( %{back%}: | %{backHard%}: ) %> ( %{оеэØ%}:0 ) )  в _ л  ;
 !         [ LBC - [ :* в ]  | :BTV ] %> [%{оеэØ%}:0 |%{оеэØ%}:о] в _ л ь ;
-         LBC (%{back%}:|%{backHard%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:о )  м  _ к  ;
+         LBC (%{back%}:|%{backHard%}:) %> ( %{оеэØ%}:0 | %{оеэØ%}:о |%^NoLinkVow:0 )  м  _ (к)  ;
 
 !!Changes in the suffix vowels
 !"A2:ya"
@@ -766,7 +766,7 @@ Rules
 
 "y:y"
 !! **@RULENAME@**
-ь:ь <=> Cns _ [Cns|Vows |(HarmDummies:) # |(HarmDummies:)  %- |(HarmDummies:)  %> [с (т) [ы|а|о|%{оэØ%}:] |с [#|%-|%> (%-) Г1:]|:CnsNonDent ]] ;
+ь:ь <=> Cns _ [Cns|Vows |(HarmDummies:) # |(HarmDummies:)  %- |(HarmDummies:)  %> [с (т) [ы|а|о|%{оэØ%}:] |с [#|%-|%> (%-) Г1:]|(%^NoLinkVow:0) :CnsNonDent ]] ;
    [л|Л] _ (HarmDummies:) %> (:0) [ :Cns] ;
 
 !Й:Й Ц:Ц _ >:> %{КТ%}:к %{ЬØ%}:ь
@@ -876,7 +876,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 "Disallow %^NoLinkVow after vowel"
 !! **@RULENAME@**
 %^NoLinkVow:0 /<= :Vows  (HarmDummies:) %> _ ;
-           [:Vows | CnsVoiceless (ь) ]  (HarmDummies:) %> _ %> з ;
+           [:Vows | CnsVoiceless (ь) ]  (HarmDummies:) %> _ з ;
 
 "Disallow s for control of stems with inessive..."
 !! **@RULENAME@**

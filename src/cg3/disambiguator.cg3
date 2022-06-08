@@ -1179,7 +1179,8 @@ REMOVE IV IF (0 Inf OR Prc/Telic) (-1 (SP Gen Indef));
 REMOVE IV IF (0 (Prt1 ScSg2) OR (Prs ScPl3)) (0* IndefObjectCandidate LINK NOT 1 PostpNoPX);
 #cалакшнить мезеяк
 
-REMOVE OcPl3 IF (0* IndefObjectCandidate LINK NOT 1 PostpNoPX);
+REMOVE OcPl3 IF (0* IndefObjectCandidate BARRIER CLB LINK NOT 1 PostpNoPX);
+       #билетэнк: Пассажир ялгат, анокстынк билетэнк.
 
 REMOVE:IndefLookalike ADDAMBPRONS IF (0  Clt/Add) ;
 
