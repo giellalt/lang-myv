@@ -1,0 +1,1253 @@
+
+! Script for Cyrillic to Latin for Erzya
+
+define BäComposeRule [ Б я ] -> [ B ä ] ;
+define BaComposeRule [ Б а ] -> [ B a ] ;
+define BiComposeRule [ Б и ] -> [ B i ] ;
+define ByComposeRule [ Б ы ] -> [ B y ] ;
+define BüComposeRule [ Б ю ] -> [ B ü ] ;
+define BuComposeRule [ Б у ] -> [ B u ] ;
+define BeComposeRule [ Б е ] -> [ B e ] ;
+define BěComposeRule [ Б э ] -> [ B ě ] ;
+define BöComposeRule [ Б ё ] -> [ B ö ] ;
+define BoComposeRule [ Б о ] -> [ B o ] ;
+
+define VäComposeRule [ В я ] -> [ V ä ] ;
+define VaComposeRule [ В а ] -> [ V a ] ;
+define ViComposeRule [ В и ] -> [ V i ] ;
+define VyComposeRule [ В ы ] -> [ V y ] ;
+define VüComposeRule [ В ю ] -> [ V ü ] ;
+define VuComposeRule [ В у ] -> [ V u ] ;
+define VeComposeRule [ В е ] -> [ V e ] ;
+define VěComposeRule [ В э ] -> [ V ě ] ;
+define VöComposeRule [ В ё ] -> [ V ö ] ;
+define VoComposeRule [ В о ] -> [ V o ] ;
+
+define GäComposeRule [ Г я ] -> [ G ä ] ;
+define GaComposeRule [ Г а ] -> [ G a ] ;
+define GiComposeRule [ Г и ] -> [ G i ] ;
+define GyComposeRule [ Г ы ] -> [ G y ] ;
+define GüComposeRule [ Г ю ] -> [ G ü ] ;
+define GuComposeRule [ Г у ] -> [ G u ] ;
+define GeComposeRule [ Г е ] -> [ G e ] ;
+define GěComposeRule [ Г э ] -> [ G ě ] ;
+define GöComposeRule [ Г ё ] -> [ G ö ] ;
+define GoComposeRule [ Г о ] -> [ G o ] ;
+
+define DäComposeRule [ Д я ] -> [ D ä ] ;
+define DaComposeRule [ Д а ] -> [ D a ] ;
+define DiComposeRule [ Д и ] -> [ D i ] ;
+define DyComposeRule [ Д ы ] -> [ D y ] ;
+define DüComposeRule [ Д ю ] -> [ D ü ] ;
+define DuComposeRule [ Д у ] -> [ D u ] ;
+define DeComposeRule [ Д е ] -> [ D e ] ;
+define DěComposeRule [ Д э ] -> [ D ě ] ;
+define DöComposeRule [ Д ё ] -> [ D ö ] ;
+define DoComposeRule [ Д о ] -> [ D o ] ;
+define DʹComposeRule [ Д ь ] -> [ D́ ] ;
+
+define ŽäComposeRule [ Ж я ] -> [ Ž ä ] ;
+define ŽaComposeRule [ Ж а ] -> [ Ž a ] ;
+define ŽiComposeRule [ Ж и ] -> [ Ž i ] ;
+define ŽyComposeRule [ Ж ы ] -> [ Ž y ] ;
+define ŽüComposeRule [ Ж ю ] -> [ Ž ü ] ;
+define ŽuComposeRule [ Ж у ] -> [ Ž u ] ;
+define ŽeComposeRule [ Ж е ] -> [ Ž e ] ;
+define ŽěComposeRule [ Ж э ] -> [ Ž ě ] ;
+define ŽöComposeRule [ Ж ё ] -> [ Ž ö ] ;
+define ŽoComposeRule [ Ж о ] -> [ Ž o ] ;
+
+define ZäComposeRule [ З я ] -> [ Z ä ] ;
+define ZaComposeRule [ З а ] -> [ Z a ] ;
+define ZiComposeRule [ З и ] -> [ Z i ] ;
+define ZyComposeRule [ З ы ] -> [ Z y ] ;
+define ZüComposeRule [ З ю ] -> [ Z ü ] ;
+define ZuComposeRule [ З у ] -> [ Z u ] ;
+define ZeComposeRule [ З е ] -> [ Z e ] ;
+define ZěComposeRule [ З э ] -> [ Z ě ] ;
+define ZöComposeRule [ З ё ] -> [ Z ö ] ;
+define ZoComposeRule [ З о ] -> [ Z o ] ;
+define ŹComposeRule [ З ь ] -> [ Ź ] ;
+
+define JäComposeRule [ Й я ] -> [ J ä ] ;
+define JaComposeRule [ Й а ] -> [ J a ] ;
+define JiComposeRule [ Й и ] -> [ J i ] ;
+define JyComposeRule [ Й ы ] -> [ J y ] ;
+define JüComposeRule [ Й ю ] -> [ J ü ] ;
+define JuComposeRule [ Й у ] -> [ J u ] ;
+define JeComposeRule [ Й е ] -> [ J e ] ;
+define JěComposeRule [ Й э ] -> [ J ě ] ;
+define JöComposeRule [ Й ё ] -> [ J ö ] ;
+define JoComposeRule [ Й о ] -> [ J o ] ;
+
+define KäComposeRule [ К я ] -> [ K ä ] ;
+define KaComposeRule [ К а ] -> [ K a ] ;
+define KiComposeRule [ К и ] -> [ K i ] ;
+define KyComposeRule [ К ы ] -> [ K y ] ;
+define KüComposeRule [ К ю ] -> [ K ü ] ;
+define KuComposeRule [ К у ] -> [ K u ] ;
+define KeComposeRule [ К е ] -> [ K e ] ;
+define KěComposeRule [ К э ] -> [ K ě ] ;
+define KöComposeRule [ К ё ] -> [ K ö ] ;
+define KoComposeRule [ К о ] -> [ K o ] ;
+
+define LäComposeRule [ Л я ] -> [ L ä ] ;
+define LaComposeRule [ Л а ] -> [ L a ] ;
+define LiComposeRule [ Л и ] -> [ L i ] ;
+define LyComposeRule [ Л ы ] -> [ L y ] ;
+define LüComposeRule [ Л ю ] -> [ L ü ] ;
+define LuComposeRule [ Л у ] -> [ L u ] ;
+define LeComposeRule [ Л е ] -> [ L e ] ;
+define LěComposeRule [ Л э ] -> [ L ě ] ;
+define LöComposeRule [ Л ё ] -> [ L ö ] ;
+define LoComposeRule [ Л о ] -> [ L o ] ;
+define ĹComposeRule [ Л ь ] -> [ Ĺ ] ;
+
+define MäComposeRule [ М я ] -> [ M ä ] ;
+define MaComposeRule [ М а ] -> [ M a ] ;
+define MiComposeRule [ М и ] -> [ M i ] ;
+define MyComposeRule [ М ы ] -> [ M y ] ;
+define MüComposeRule [ М ю ] -> [ M ü ] ;
+define MuComposeRule [ М у ] -> [ M u ] ;
+define MeComposeRule [ М е ] -> [ M e ] ;
+define MěComposeRule [ М э ] -> [ M ě ] ;
+define MöComposeRule [ М ё ] -> [ M ö ] ;
+define MoComposeRule [ М о ] -> [ M o ] ;
+
+define NäComposeRule [ Н я ] -> [ N ä ] ;
+define NaComposeRule [ Н а ] -> [ N a ] ;
+define NiComposeRule [ Н и ] -> [ N i ] ;
+define NyComposeRule [ Н ы ] -> [ N y ] ;
+define NüComposeRule [ Н ю ] -> [ N ü ] ;
+define NuComposeRule [ Н у ] -> [ N u ] ;
+define NeComposeRule [ Н е ] -> [ N e ] ;
+define NěComposeRule [ Н э ] -> [ N ě ] ;
+define NöComposeRule [ Н ё ] -> [ N ö ] ;
+define NoComposeRule [ Н о ] -> [ N o ] ;
+define ŃComposeRule [ Н ь ] -> [ Ń ] ;
+
+define PäComposeRule [ П я ] -> [ P ä ] ;
+define PaComposeRule [ П а ] -> [ P a ] ;
+define PiComposeRule [ П и ] -> [ P i ] ;
+define PyComposeRule [ П ы ] -> [ P y ] ;
+define PüComposeRule [ П ю ] -> [ P ü ] ;
+define PuComposeRule [ П у ] -> [ P u ] ;
+define PeComposeRule [ П е ] -> [ P e ] ;
+define PěComposeRule [ П э ] -> [ P ě ] ;
+define PöComposeRule [ П ё ] -> [ P ö ] ;
+define PoComposeRule [ П о ] -> [ P o ] ;
+
+define RäComposeRule [ Р я ] -> [ R ä ] ;
+define RaComposeRule [ Р а ] -> [ R a ] ;
+define RiComposeRule [ Р и ] -> [ R i ] ;
+define RyComposeRule [ Р ы ] -> [ R y ] ;
+define RüComposeRule [ Р ю ] -> [ R ü ] ;
+define RuComposeRule [ Р у ] -> [ R u ] ;
+define ReComposeRule [ Р е ] -> [ R e ] ;
+define RěComposeRule [ Р э ] -> [ R ě ] ;
+define RöComposeRule [ Р ё ] -> [ R ö ] ;
+define RoComposeRule [ Р о ] -> [ R o ] ;
+define ŔComposeRule [ Р ь ] -> [ Ŕ ] ;
+
+define SäComposeRule [ С я ] -> [ S ä ] ;
+define SaComposeRule [ С а ] -> [ S a ] ;
+define SiComposeRule [ С и ] -> [ S i ] ;
+define SyComposeRule [ С ы ] -> [ S y ] ;
+define SüComposeRule [ С ю ] -> [ S ü ] ;
+define SuComposeRule [ С у ] -> [ S u ] ;
+define SeComposeRule [ С е ] -> [ S e ] ;
+define SěComposeRule [ С э ] -> [ S ě ] ;
+define SöComposeRule [ С ё ] -> [ S ö ] ;
+define SoComposeRule [ С о ] -> [ S o ] ;
+define ŚComposeRule [ С ь ] -> [ Ś ] ;
+
+define TäComposeRule [ Т я ] -> [ T ä ] ;
+define TaComposeRule [ Т а ] -> [ T a ] ;
+define TiComposeRule [ Т и ] -> [ T i ] ;
+define TyComposeRule [ Т ы ] -> [ T y ] ;
+define TüComposeRule [ Т ю ] -> [ T ü ] ;
+define TuComposeRule [ Т у ] -> [ T u ] ;
+define TeComposeRule [ Т е ] -> [ T e ] ;
+define TěComposeRule [ Т э ] -> [ T ě ] ;
+define TöComposeRule [ Т ё ] -> [ T ö ] ;
+define ToComposeRule [ Т о ] -> [ T o ] ;
+define TʹComposeRule [ Т ь ] -> [ T́ ] ;
+
+define FäComposeRule [ Ф я ] -> [ F ä ] ;
+define FaComposeRule [ Ф а ] -> [ F a ] ;
+define FiComposeRule [ Ф и ] -> [ F i ] ;
+define FyComposeRule [ Ф ы ] -> [ F y ] ;
+define FüComposeRule [ Ф ю ] -> [ F ü ] ;
+define FuComposeRule [ Ф у ] -> [ F u ] ;
+define FeComposeRule [ Ф е ] -> [ F e ] ;
+define FěComposeRule [ Ф э ] -> [ F ě ] ;
+define FöComposeRule [ Ф ё ] -> [ F ö ] ;
+define FoComposeRule [ Ф о ] -> [ F o ] ;
+
+define XäComposeRule [ Х я ] -> [ X ä ] ;
+define XaComposeRule [ Х а ] -> [ X a ] ;
+define XiComposeRule [ Х и ] -> [ X i ] ;
+define XyComposeRule [ Х ы ] -> [ X y ] ;
+define XüComposeRule [ Х ю ] -> [ X ü ] ;
+define XuComposeRule [ Х у ] -> [ X u ] ;
+define XeComposeRule [ Х е ] -> [ X e ] ;
+define XěComposeRule [ Х э ] -> [ X ě ] ;
+define XöComposeRule [ Х ё ] -> [ X ö ] ;
+define XoComposeRule [ Х о ] -> [ X o ] ;
+
+define CäComposeRule [ Ц я ] -> [ C ä ] ;
+define CaComposeRule [ Ц а ] -> [ C a ] ;
+define CiComposeRule [ Ц и ] -> [ C i ] ;
+define CyComposeRule [ Ц ы ] -> [ C y ] ;
+define CüComposeRule [ Ц ю ] -> [ C ü ] ;
+define CuComposeRule [ Ц у ] -> [ C u ] ;
+define CeComposeRule [ Ц е ] -> [ C e ] ;
+define CěComposeRule [ Ц э ] -> [ C ě ] ;
+define CöComposeRule [ Ц ё ] -> [ C ö ] ;
+define CoComposeRule [ Ц о ] -> [ C o ] ;
+define ĆComposeRule [ Ц ь ] -> [ Ć ] ;
+
+define ČäComposeRule [ Ч я ] -> [ Č ä ] ;
+define ČaComposeRule [ Ч а ] -> [ Č a ] ;
+define ČiComposeRule [ Ч и ] -> [ Č i ] ;
+define ČyComposeRule [ Ч ы ] -> [ Č y ] ;
+define ČüComposeRule [ Ч ю ] -> [ Č ü ] ;
+define ČuComposeRule [ Ч у ] -> [ Č u ] ;
+define ČeComposeRule [ Ч е ] -> [ Č e ] ;
+define ČěComposeRule [ Ч э ] -> [ Č ě ] ;
+define ČöComposeRule [ Ч ё ] -> [ Č ö ] ;
+define ČoComposeRule [ Ч о ] -> [ Č o ] ;
+
+define ŠäComposeRule [ Ш я ] -> [ Š ä ] ;
+define ŠaComposeRule [ Ш а ] -> [ Š a ] ;
+define ŠiComposeRule [ Ш и ] -> [ Š i ] ;
+define ŠyComposeRule [ Ш ы ] -> [ Š y ] ;
+define ŠüComposeRule [ Ш ю ] -> [ Š ü ] ;
+define ŠuComposeRule [ Ш у ] -> [ Š u ] ;
+define ŠeComposeRule [ Ш е ] -> [ Š e ] ;
+define ŠěComposeRule [ Ш э ] -> [ Š ě ] ;
+define ŠöComposeRule [ Ш ё ] -> [ Š ö ] ;
+define ŠoComposeRule [ Ш о ] -> [ Š o ] ;
+
+define ŜäComposeRule [ Щ я ] -> [ Ŝ ä ] ;
+define ŜaComposeRule [ Щ а ] -> [ Ŝ a ] ;
+define ŜiComposeRule [ Щ и ] -> [ Ŝ i ] ;
+define ŜyComposeRule [ Щ ы ] -> [ Ŝ y ] ;
+define ŜüComposeRule [ Щ ю ] -> [ Ŝ ü ] ;
+define ŜuComposeRule [ Щ у ] -> [ Ŝ u ] ;
+define ŜeComposeRule [ Щ е ] -> [ Ŝ e ] ;
+define ŜěComposeRule [ Щ э ] -> [ Ŝ ě ] ;
+define ŜöComposeRule [ Щ ё ] -> [ Ŝ ö ] ;
+define ŜoComposeRule [ Щ о ] -> [ Ŝ o ] ;
+
+! Word-initial
+
+define JaComposeRule [ .#. Я ] -> [ .#. J a ] ;
+define JoComposeRule [ .#. Ё ] -> [ .#. J o ] ;
+define JuComposeRule [ .#. Ю ] -> [ .#. J u ] ;
+
+! After vowel
+
+define ÄjaComposeRule [ Я я ] -> [ Ä J A ] ;
+define AjaComposeRule [ А я ] -> [ A J A ] ;
+define ÖjaComposeRule [ Ё я ] -> [ Ö J A ] ;
+define OjaComposeRule [ О я ] -> [ O j a ] ;
+define ÜjaComposeRule [ Ю я ] -> [ Ü j a ] ;
+define UjaComposeRule [ У я ] -> [ U j a ] ;
+define EjaComposeRule [ Е я ] -> [ E j a ] ;
+define ĚjaComposeRule [ Э я ] -> [ Ě j a ] ;
+define IjaComposeRule [ И я ] -> [ I j a ] ;
+define YjaComposeRule [ Ы я ] -> [ Y j a ] ;
+
+define ÄjoComposeRule [ Я ё ] -> [ Ä j o ] ;
+define AjoComposeRule [ А ё ] -> [ A j o ] ;
+define ÖjoComposeRule [ Ё ё ] -> [ Ö j o ] ;
+define OjoComposeRule [ О ё ] -> [ O j o ] ;
+define ÜjoComposeRule [ Ю ё ] -> [ Ü j o ] ;
+define UjoComposeRule [ У ё ] -> [ U j o ] ;
+define EjoComposeRule [ Е ё ] -> [ E j o ] ;
+define ĚjoComposeRule [ Э ё ] -> [ Ě j o ] ;
+define IjoComposeRule [ И ё ] -> [ I j o ] ;
+define YjoComposeRule [ Ы ё ] -> [ Y j o ] ;
+
+define ÄjuComposeRule [ Я ю ] -> [ Ä j u ] ;
+define AjuComposeRule [ А ю ] -> [ A j u ] ;
+define ÖjuComposeRule [ Ё ю ] -> [ Ö j u ] ;
+define OjuComposeRule [ О ю ] -> [ O j u ] ;
+define ÜjuComposeRule [ Ю ю ] -> [ Ü j u ] ;
+define UjuComposeRule [ У ю ] -> [ U j u ] ;
+define EjuComposeRule [ Е ю ] -> [ E j u ] ;
+define ĚjuComposeRule [ Э ю ] -> [ Ě j u ] ;
+define IjuComposeRule [ И ю ] -> [ I j u ] ;
+define YjuComposeRule [ Ы ю ] -> [ Y j u ] ;
+
+! single letters
+
+define ARule [ А ] -> [ A ] ;
+define BRule [ Б ] -> [ B ] ;
+define VRule [ В ] -> [ V ] ;
+define GRule [ Г ] -> [ G ] ;
+define DRule [ Д ] -> [ D ] ;
+define ERule [ Е ] -> [ E ] ;
+define ÖRule [ Ё ] -> [ Ö ] ;
+define ŽRule [ Ж ] -> [ Ž ] ;
+define ZRule [ З ] -> [ Z ] ;
+define IRule [ И ] -> [ I ] ;
+define JRule [ Й ] -> [ J ] ;
+define KRule [ К ] -> [ K ] ;
+define LRule [ Л ] -> [ L ] ;
+define MRule [ М ] -> [ M ] ;
+define NRule [ Н ] -> [ N ] ;
+define ORule [ О ] -> [ O ] ;
+define PRule [ П ] -> [ P ] ;
+define RRule [ Р ] -> [ R ] ;
+define SRule [ С ] -> [ S ] ;
+define TRule [ Т ] -> [ T ] ;
+define URule [ У ] -> [ U ] ;
+define FRule [ Ф ] -> [ F ] ;
+define XRule [ Х ] -> [ X ] ;
+define CRule [ Ц ] -> [ C ] ;
+define ČRule [ Ч ] -> [ Č ] ;
+define ŠRule [ Ш ] -> [ Š ] ;
+define ŜRule [ Щ ] -> [ Ŝ ] ;
+define YRule [ Ы ] -> [ Y ] ;
+define ĚRule [ Э ] -> [ Ě ] ;
+define ÜRule [ Ю ] -> [ Ü ] ;
+define ÄRule [ Я ] -> [ Ä ] ;
+
+! lower-case letters
+
+define bäComposeRule [ б я ] -> [ b ä ] ;
+define baComposeRule [ б а ] -> [ b a ] ;
+define biComposeRule [ б и ] -> [ b i ] ;
+define byComposeRule [ б ы ] -> [ b y ] ;
+define büComposeRule [ б ю ] -> [ b ü ] ;
+define buComposeRule [ б у ] -> [ b u ] ;
+define beComposeRule [ б е ] -> [ b e ] ;
+define běComposeRule [ б э ] -> [ b ě ] ;
+define böComposeRule [ б ё ] -> [ b ö ] ;
+define boComposeRule [ б о ] -> [ b o ] ;
+
+define väComposeRule [ в я ] -> [ v ä ] ;
+define vaComposeRule [ в а ] -> [ v a ] ;
+define viComposeRule [ в и ] -> [ v i ] ;
+define vyComposeRule [ в ы ] -> [ v y ] ;
+define vüComposeRule [ в ю ] -> [ v ü ] ;
+define vuComposeRule [ в у ] -> [ v u ] ;
+define veComposeRule [ в е ] -> [ v e ] ;
+define věComposeRule [ в э ] -> [ v ě ] ;
+define vöComposeRule [ в ё ] -> [ v ö ] ;
+define voComposeRule [ в о ] -> [ v o ] ;
+
+define gäComposeRule [ г я ] -> [ g ä ] ;
+define gaComposeRule [ г а ] -> [ g a ] ;
+define giComposeRule [ г и ] -> [ g i ] ;
+define gyComposeRule [ г ы ] -> [ g y ] ;
+define güComposeRule [ г ю ] -> [ g ü ] ;
+define guComposeRule [ г у ] -> [ g u ] ;
+define geComposeRule [ г е ] -> [ g e ] ;
+define gěComposeRule [ г э ] -> [ g ě ] ;
+define göComposeRule [ г ё ] -> [ g ö ] ;
+define goComposeRule [ г о ] -> [ g o ] ;
+
+define däComposeRule [ д я ] -> [ d ä ] ;
+define daComposeRule [ д а ] -> [ d a ] ;
+define diComposeRule [ д и ] -> [ d i ] ;
+define dyComposeRule [ д ы ] -> [ d y ] ;
+define düComposeRule [ д ю ] -> [ d ü ] ;
+define duComposeRule [ д у ] -> [ d u ] ;
+define deComposeRule [ д е ] -> [ d e ] ;
+define děComposeRule [ д э ] -> [ d ě ] ;
+define döComposeRule [ д ё ] -> [ d ö ] ;
+define doComposeRule [ д о ] -> [ d o ] ;
+define dʹComposeRule [ д ь ] -> [ d́ ] ;
+
+define žäComposeRule [ ж я ] -> [ ž ä ] ;
+define žaComposeRule [ ж а ] -> [ ž a ] ;
+define žiComposeRule [ ж и ] -> [ ž i ] ;
+define žyComposeRule [ ж ы ] -> [ ž y ] ;
+define žüComposeRule [ ж ю ] -> [ ž ü ] ;
+define žuComposeRule [ ж у ] -> [ ž u ] ;
+define žeComposeRule [ ж е ] -> [ ž e ] ;
+define žěComposeRule [ ж э ] -> [ ž ě ] ;
+define žöComposeRule [ ж ё ] -> [ ž ö ] ;
+define žoComposeRule [ ж о ] -> [ ž o ] ;
+
+define zäComposeRule [ з я ] -> [ z ä ] ;
+define zaComposeRule [ з а ] -> [ z a ] ;
+define ziComposeRule [ з и ] -> [ z i ] ;
+define zyComposeRule [ з ы ] -> [ z y ] ;
+define züComposeRule [ з ю ] -> [ z ü ] ;
+define zuComposeRule [ з у ] -> [ z u ] ;
+define zeComposeRule [ з е ] -> [ z e ] ;
+define zěComposeRule [ з э ] -> [ z ě ] ;
+define zöComposeRule [ з ё ] -> [ z ö ] ;
+define zoComposeRule [ з о ] -> [ z o ] ;
+define źComposeRule [ з ь ] -> [ ź ] ;
+
+define jäComposeRule [ й я ] -> [ j ä ] ;
+define jaComposeRule [ й а ] -> [ j a ] ;
+define jiComposeRule [ й и ] -> [ j i ] ;
+define jyComposeRule [ й ы ] -> [ j y ] ;
+define jüComposeRule [ й ю ] -> [ j ü ] ;
+define juComposeRule [ й у ] -> [ j u ] ;
+define jeComposeRule [ й е ] -> [ j e ] ;
+define jěComposeRule [ й э ] -> [ j ě ] ;
+define jöComposeRule [ й ё ] -> [ j ö ] ;
+define joComposeRule [ й о ] -> [ j o ] ;
+
+define käComposeRule [ к я ] -> [ k ä ] ;
+define kaComposeRule [ к а ] -> [ k a ] ;
+define kiComposeRule [ к и ] -> [ k i ] ;
+define kyComposeRule [ к ы ] -> [ k y ] ;
+define küComposeRule [ к ю ] -> [ k ü ] ;
+define kuComposeRule [ к у ] -> [ k u ] ;
+define keComposeRule [ к е ] -> [ k e ] ;
+define kěComposeRule [ к э ] -> [ k ě ] ;
+define köComposeRule [ к ё ] -> [ k ö ] ;
+define koComposeRule [ к о ] -> [ k o ] ;
+
+define läComposeRule [ л я ] -> [ l ä ] ;
+define laComposeRule [ л а ] -> [ l a ] ;
+define liComposeRule [ л и ] -> [ l i ] ;
+define lyComposeRule [ л ы ] -> [ l y ] ;
+define lüComposeRule [ л ю ] -> [ l ü ] ;
+define luComposeRule [ л у ] -> [ l u ] ;
+define leComposeRule [ л е ] -> [ l e ] ;
+define lěComposeRule [ л э ] -> [ l ě ] ;
+define löComposeRule [ л ё ] -> [ l ö ] ;
+define loComposeRule [ л о ] -> [ l o ] ;
+define ĺComposeRule [ л ь ] -> [ ĺ ] ;
+
+define mäComposeRule [ м я ] -> [ m ä ] ;
+define maComposeRule [ м а ] -> [ m a ] ;
+define miComposeRule [ м и ] -> [ m i ] ;
+define myComposeRule [ м ы ] -> [ m y ] ;
+define müComposeRule [ м ю ] -> [ m ü ] ;
+define muComposeRule [ м у ] -> [ m u ] ;
+define meComposeRule [ м е ] -> [ m e ] ;
+define měComposeRule [ м э ] -> [ m ě ] ;
+define möComposeRule [ м ё ] -> [ m ö ] ;
+define moComposeRule [ м о ] -> [ m o ] ;
+
+define näComposeRule [ н я ] -> [ n ä ] ;
+define naComposeRule [ н а ] -> [ n a ] ;
+define niComposeRule [ н и ] -> [ n i ] ;
+define nyComposeRule [ н ы ] -> [ n y ] ;
+define nüComposeRule [ н ю ] -> [ n ü ] ;
+define nuComposeRule [ н у ] -> [ n u ] ;
+define neComposeRule [ н е ] -> [ n e ] ;
+define něComposeRule [ н э ] -> [ n ě ] ;
+define nöComposeRule [ н ё ] -> [ n ö ] ;
+define noComposeRule [ н о ] -> [ n o ] ;
+define ńComposeRule [ н ь ] -> [ ń ] ;
+
+define päComposeRule [ п я ] -> [ p ä ] ;
+define paComposeRule [ п а ] -> [ p a ] ;
+define piComposeRule [ п и ] -> [ p i ] ;
+define pyComposeRule [ п ы ] -> [ p y ] ;
+define püComposeRule [ п ю ] -> [ p ü ] ;
+define puComposeRule [ п у ] -> [ p u ] ;
+define peComposeRule [ п е ] -> [ p e ] ;
+define pěComposeRule [ п э ] -> [ p ě ] ;
+define pöComposeRule [ п ё ] -> [ p ö ] ;
+define poComposeRule [ п о ] -> [ p o ] ;
+
+define räComposeRule [ р я ] -> [ r ä ] ;
+define raComposeRule [ р а ] -> [ r a ] ;
+define riComposeRule [ р и ] -> [ r i ] ;
+define ryComposeRule [ р ы ] -> [ r y ] ;
+define rüComposeRule [ р ю ] -> [ r ü ] ;
+define ruComposeRule [ р у ] -> [ r u ] ;
+define reComposeRule [ р е ] -> [ r e ] ;
+define rěComposeRule [ р э ] -> [ r ě ] ;
+define röComposeRule [ р ё ] -> [ r ö ] ;
+define roComposeRule [ р о ] -> [ r o ] ;
+define ŕComposeRule [ р ь ] -> [ ŕ ] ;
+
+define säComposeRule [ с я ] -> [ s ä ] ;
+define saComposeRule [ с а ] -> [ s a ] ;
+define siComposeRule [ с и ] -> [ s i ] ;
+define syComposeRule [ с ы ] -> [ s y ] ;
+define süComposeRule [ с ю ] -> [ s ü ] ;
+define suComposeRule [ с у ] -> [ s u ] ;
+define seComposeRule [ с е ] -> [ s e ] ;
+define sěComposeRule [ с э ] -> [ s ě ] ;
+define söComposeRule [ с ё ] -> [ s ö ] ;
+define soComposeRule [ с о ] -> [ s o ] ;
+define śComposeRule [ с ь ] -> [ ś ] ;
+
+define täComposeRule [ т я ] -> [ t ä ] ;
+define taComposeRule [ т а ] -> [ t a ] ;
+define tiComposeRule [ т и ] -> [ t i ] ;
+define tyComposeRule [ т ы ] -> [ t y ] ;
+define tüComposeRule [ т ю ] -> [ t ü ] ;
+define tuComposeRule [ т у ] -> [ t u ] ;
+define teComposeRule [ т е ] -> [ t e ] ;
+define těComposeRule [ т э ] -> [ t ě ] ;
+define töComposeRule [ т ё ] -> [ t ö ] ;
+define toComposeRule [ т о ] -> [ t o ] ;
+define tʹComposeRule [ т ь ] -> [ t́ ] ;
+
+define fäComposeRule [ ф я ] -> [ f ä ] ;
+define faComposeRule [ ф а ] -> [ f a ] ;
+define fiComposeRule [ ф и ] -> [ f i ] ;
+define fyComposeRule [ ф ы ] -> [ f y ] ;
+define füComposeRule [ ф ю ] -> [ f ü ] ;
+define fuComposeRule [ ф у ] -> [ f u ] ;
+define feComposeRule [ ф е ] -> [ f e ] ;
+define fěComposeRule [ ф э ] -> [ f ě ] ;
+define föComposeRule [ ф ё ] -> [ f ö ] ;
+define foComposeRule [ ф о ] -> [ f o ] ;
+
+define xäComposeRule [ х я ] -> [ x ä ] ;
+define xaComposeRule [ х а ] -> [ x a ] ;
+define xiComposeRule [ х и ] -> [ x i ] ;
+define xyComposeRule [ х ы ] -> [ x y ] ;
+define xüComposeRule [ х ю ] -> [ x ü ] ;
+define xuComposeRule [ х у ] -> [ x u ] ;
+define xeComposeRule [ х е ] -> [ x e ] ;
+define xěComposeRule [ х э ] -> [ x ě ] ;
+define xöComposeRule [ х ё ] -> [ x ö ] ;
+define xoComposeRule [ х о ] -> [ x o ] ;
+
+define cäComposeRule [ ц я ] -> [ c ä ] ;
+define caComposeRule [ ц а ] -> [ c a ] ;
+define ciComposeRule [ ц и ] -> [ c i ] ;
+define cyComposeRule [ ц ы ] -> [ c y ] ;
+define cüComposeRule [ ц ю ] -> [ c ü ] ;
+define cuComposeRule [ ц у ] -> [ c u ] ;
+define ceComposeRule [ ц е ] -> [ c e ] ;
+define cěComposeRule [ ц э ] -> [ c ě ] ;
+define cöComposeRule [ ц ё ] -> [ c ö ] ;
+define coComposeRule [ ц о ] -> [ c o ] ;
+define ćComposeRule [ ц ь ] -> [ ć ] ;
+
+define čäComposeRule [ ч я ] -> [ č ä ] ;
+define čaComposeRule [ ч а ] -> [ č a ] ;
+define čiComposeRule [ ч и ] -> [ č i ] ;
+define čyComposeRule [ ч ы ] -> [ č y ] ;
+define čüComposeRule [ ч ю ] -> [ č ü ] ;
+define čuComposeRule [ ч у ] -> [ č u ] ;
+define čeComposeRule [ ч е ] -> [ č e ] ;
+define čěComposeRule [ ч э ] -> [ č ě ] ;
+define čöComposeRule [ ч ё ] -> [ č ö ] ;
+define čoComposeRule [ ч о ] -> [ č o ] ;
+
+define šäComposeRule [ ш я ] -> [ š ä ] ;
+define šaComposeRule [ ш а ] -> [ š a ] ;
+define šiComposeRule [ ш и ] -> [ š i ] ;
+define šyComposeRule [ ш ы ] -> [ š y ] ;
+define šüComposeRule [ ш ю ] -> [ š ü ] ;
+define šuComposeRule [ ш у ] -> [ š u ] ;
+define šeComposeRule [ ш е ] -> [ š e ] ;
+define šěComposeRule [ ш э ] -> [ š ě ] ;
+define šöComposeRule [ ш ё ] -> [ š ö ] ;
+define šoComposeRule [ ш о ] -> [ š o ] ;
+
+define ŝäComposeRule [ щ я ] -> [ ŝ ä ] ;
+define ŝaComposeRule [ щ а ] -> [ ŝ a ] ;
+define ŝiComposeRule [ щ и ] -> [ ŝ i ] ;
+define ŝyComposeRule [ щ ы ] -> [ ŝ y ] ;
+define ŝüComposeRule [ щ ю ] -> [ ŝ ü ] ;
+define ŝuComposeRule [ щ у ] -> [ ŝ u ] ;
+define ŝeComposeRule [ щ е ] -> [ ŝ e ] ;
+define ŝěComposeRule [ щ э ] -> [ ŝ ě ] ;
+define ŝöComposeRule [ щ ё ] -> [ ŝ ö ] ;
+define ŝoComposeRule [ щ о ] -> [ ŝ o ] ;
+
+! Word-initial
+
+define jaComposeRule [ .#. я ] -> [ .#. j a ] ;
+define joComposeRule [ .#. ё ] -> [ .#. j o ] ;
+define juComposeRule [ .#. ю ] -> [ .#. j u ] ;
+
+! After vowel
+
+define äjaComposeRule [ я я ] -> [ ä j a ] ;
+define ajaComposeRule [ а я ] -> [ a j a ] ;
+define öjaComposeRule [ ё я ] -> [ ö j a ] ;
+define ojaComposeRule [ о я ] -> [ o j a ] ;
+define üjaComposeRule [ ю я ] -> [ ü j a ] ;
+define ujaComposeRule [ у я ] -> [ u j a ] ;
+define ejaComposeRule [ е я ] -> [ e j a ] ;
+define ějaComposeRule [ э я ] -> [ ě j a ] ;
+define ijaComposeRule [ и я ] -> [ i j a ] ;
+define yjaComposeRule [ ы я ] -> [ y j a ] ;
+
+define äjoComposeRule [ я я ] -> [ ä j o ] ;
+define ajoComposeRule [ а я ] -> [ a j o ] ;
+define öjoComposeRule [ ё я ] -> [ ö j o ] ;
+define ojoComposeRule [ о я ] -> [ o j o ] ;
+define üjoComposeRule [ ю я ] -> [ ü j o ] ;
+define ujoComposeRule [ у я ] -> [ u j o ] ;
+define ejoComposeRule [ е я ] -> [ e j o ] ;
+define ějoComposeRule [ э я ] -> [ ě j o ] ;
+define ijoComposeRule [ и я ] -> [ i j o ] ;
+define yjoComposeRule [ ы я ] -> [ y j o ] ;
+
+define äjuComposeRule [ я я ] -> [ ä j u ] ;
+define ajuComposeRule [ а я ] -> [ a j u ] ;
+define öjuComposeRule [ ё я ] -> [ ö j u ] ;
+define ojuComposeRule [ о я ] -> [ o j u ] ;
+define üjuComposeRule [ ю я ] -> [ ü j u ] ;
+define ujuComposeRule [ у я ] -> [ u j u ] ;
+define ejuComposeRule [ е я ] -> [ e j u ] ;
+define ějuComposeRule [ э я ] -> [ ě j u ] ;
+define ijuComposeRule [ и я ] -> [ i j u ] ;
+define yjuComposeRule [ ы я ] -> [ y j u ] ;
+
+! single letters
+
+define aRule [ а ] -> [ a ] ;
+define bRule [ б ] -> [ b ] ;
+define vRule [ в ] -> [ v ] ;
+define gRule [ г ] -> [ g ] ;
+define dRule [ д ] -> [ d ] ;
+define eRule [ е ] -> [ e ] ;
+define öRule [ ё ] -> [ ö ] ;
+define žRule [ ж ] -> [ ž ] ;
+define zRule [ з ] -> [ z ] ;
+define iRule [ и ] -> [ i ] ;
+define jRule [ й ] -> [ j ] ;
+define kRule [ к ] -> [ k ] ;
+define lRule [ л ] -> [ l ] ;
+define mRule [ м ] -> [ m ] ;
+define nRule [ н ] -> [ n ] ;
+define oRule [ о ] -> [ o ] ;
+define pRule [ п ] -> [ p ] ;
+define rRule [ р ] -> [ r ] ;
+define sRule [ с ] -> [ s ] ;
+define tRule [ т ] -> [ t ] ;
+define uRule [ у ] -> [ u ] ;
+define fRule [ ф ] -> [ f ] ;
+define xRule [ х ] -> [ x ] ;
+define cRule [ ц ] -> [ c ] ;
+define čRule [ ч ] -> [ č ] ;
+define šRule [ ш ] -> [ š ] ;
+define ŝRule [ щ ] -> [ ŝ ] ;
+define ʺRule [ ъ ] -> [ ʺ ] ;
+define yRule [ ы ] -> [ y ] ;
+define ʹRule [ ь ] -> [ ʹ ] ;
+define ěRule [ э ] -> [ ě ] ;
+define üRule [ ю ] -> [ ü ] ;
+define äRule [ я ] -> [ ä ] ;
+
+! read
+read regex [ BäComposeRule
+.o. BaComposeRule
+.o. BiComposeRule
+.o. ByComposeRule
+.o. BüComposeRule
+.o. BuComposeRule
+.o. BeComposeRule
+.o. BěComposeRule
+.o. BöComposeRule
+.o. BoComposeRule
+
+.o. VäComposeRule
+.o. VaComposeRule
+.o. ViComposeRule
+.o. VyComposeRule
+.o. VüComposeRule
+.o. VuComposeRule
+.o. VeComposeRule
+.o. VěComposeRule
+.o. VöComposeRule
+.o. VoComposeRule
+
+.o. GäComposeRule
+.o. GaComposeRule
+.o. GiComposeRule
+.o. GyComposeRule
+.o. GüComposeRule
+.o. GuComposeRule
+.o. GeComposeRule
+.o. GěComposeRule
+.o. GöComposeRule
+.o. GoComposeRule
+
+.o. DäComposeRule
+.o. DaComposeRule
+.o. DiComposeRule
+.o. DyComposeRule
+.o. DüComposeRule
+.o. DuComposeRule
+.o. DeComposeRule
+.o. DěComposeRule
+.o. DöComposeRule
+.o. DoComposeRule
+.o. DʹComposeRule
+
+.o. ŽäComposeRule
+.o. ŽaComposeRule
+.o. ŽiComposeRule
+.o. ŽyComposeRule
+.o. ŽüComposeRule
+.o. ŽuComposeRule
+.o. ŽeComposeRule
+.o. ŽěComposeRule
+.o. ŽöComposeRule
+.o. ŽoComposeRule
+
+.o. ZäComposeRule
+.o. ZaComposeRule
+.o. ZiComposeRule
+.o. ZyComposeRule
+.o. ZüComposeRule
+.o. ZuComposeRule
+.o. ZeComposeRule
+.o. ZěComposeRule
+.o. ZöComposeRule
+.o. ZoComposeRule
+.o. ŹComposeRule 
+
+.o. JäComposeRule
+.o. JaComposeRule
+.o. JiComposeRule
+.o. JyComposeRule
+.o. JüComposeRule
+.o. JuComposeRule
+.o. JeComposeRule
+.o. JěComposeRule
+.o. JöComposeRule
+.o. JoComposeRule
+
+.o. KäComposeRule
+.o. KaComposeRule
+.o. KiComposeRule
+.o. KyComposeRule
+.o. KüComposeRule
+.o. KuComposeRule
+.o. KeComposeRule
+.o. KěComposeRule
+.o. KöComposeRule
+.o. KoComposeRule
+
+.o. LäComposeRule
+.o. LaComposeRule
+.o. LiComposeRule
+.o. LyComposeRule
+.o. LüComposeRule
+.o. LuComposeRule
+.o. LeComposeRule
+.o. LěComposeRule
+.o. LöComposeRule
+.o. LoComposeRule
+.o. ĹComposeRule 
+
+.o. MäComposeRule
+.o. MaComposeRule
+.o. MiComposeRule
+.o. MyComposeRule
+.o. MüComposeRule
+.o. MuComposeRule
+.o. MeComposeRule
+.o. MěComposeRule
+.o. MöComposeRule
+.o. MoComposeRule
+
+.o. NäComposeRule
+.o. NaComposeRule
+.o. NiComposeRule
+.o. NyComposeRule
+.o. NüComposeRule
+.o. NuComposeRule
+.o. NeComposeRule
+.o. NěComposeRule
+.o. NöComposeRule
+.o. NoComposeRule
+.o. ŃComposeRule 
+
+.o. PäComposeRule
+.o. PaComposeRule
+.o. PiComposeRule
+.o. PyComposeRule
+.o. PüComposeRule
+.o. PuComposeRule
+.o. PeComposeRule
+.o. PěComposeRule
+.o. PöComposeRule
+.o. PoComposeRule
+
+.o. RäComposeRule
+.o. RaComposeRule
+.o. RiComposeRule
+.o. RyComposeRule
+.o. RüComposeRule
+.o. RuComposeRule
+.o. ReComposeRule
+.o. RěComposeRule
+.o. RöComposeRule
+.o. RoComposeRule
+.o. ŔComposeRule 
+
+.o. SäComposeRule
+.o. SaComposeRule
+.o. SiComposeRule
+.o. SyComposeRule
+.o. SüComposeRule
+.o. SuComposeRule
+.o. SeComposeRule
+.o. SěComposeRule
+.o. SöComposeRule
+.o. SoComposeRule
+.o. ŚComposeRule 
+
+.o. TäComposeRule
+.o. TaComposeRule
+.o. TiComposeRule
+.o. TyComposeRule
+.o. TüComposeRule
+.o. TuComposeRule
+.o. TeComposeRule
+.o. TěComposeRule
+.o. TöComposeRule
+.o. ToComposeRule
+.o. TʹComposeRule
+
+.o. FäComposeRule
+.o. FaComposeRule
+.o. FiComposeRule
+.o. FyComposeRule
+.o. FüComposeRule
+.o. FuComposeRule
+.o. FeComposeRule
+.o. FěComposeRule
+.o. FöComposeRule
+.o. FoComposeRule
+
+.o. XäComposeRule
+.o. XaComposeRule
+.o. XiComposeRule
+.o. XyComposeRule
+.o. XüComposeRule
+.o. XuComposeRule
+.o. XeComposeRule
+.o. XěComposeRule
+.o. XöComposeRule
+.o. XoComposeRule
+
+.o. CäComposeRule
+.o. CaComposeRule
+.o. CiComposeRule
+.o. CyComposeRule
+.o. CüComposeRule
+.o. CuComposeRule
+.o. CeComposeRule
+.o. CěComposeRule
+.o. CöComposeRule
+.o. CoComposeRule
+.o. ĆComposeRule 
+
+.o. ČäComposeRule
+.o. ČaComposeRule
+.o. ČiComposeRule
+.o. ČyComposeRule
+.o. ČüComposeRule
+.o. ČuComposeRule
+.o. ČeComposeRule
+.o. ČěComposeRule
+.o. ČöComposeRule
+.o. ČoComposeRule
+
+.o. ŠäComposeRule
+.o. ŠaComposeRule
+.o. ŠiComposeRule
+.o. ŠyComposeRule
+.o. ŠüComposeRule
+.o. ŠuComposeRule
+.o. ŠeComposeRule
+.o. ŠěComposeRule
+.o. ŠöComposeRule
+.o. ŠoComposeRule
+
+.o. ŜäComposeRule
+.o. ŜaComposeRule
+.o. ŜiComposeRule
+.o. ŜyComposeRule
+.o. ŜüComposeRule
+.o. ŜuComposeRule
+.o. ŜeComposeRule
+.o. ŜěComposeRule
+.o. ŜöComposeRule
+.o. ŜoComposeRule
+
+.o. JaComposeRule
+.o. JoComposeRule
+.o. JuComposeRule
+
+.o. ÄjaComposeRule
+.o. AjaComposeRule
+.o. ÖjaComposeRule
+.o. OjaComposeRule
+.o. ÜjaComposeRule
+.o. UjaComposeRule
+.o. EjaComposeRule
+.o. ĚjaComposeRule
+.o. IjaComposeRule
+.o. YjaComposeRule
+
+.o. ÄjoComposeRule
+.o. AjoComposeRule
+.o. ÖjoComposeRule
+.o. OjoComposeRule
+.o. ÜjoComposeRule
+.o. UjoComposeRule
+.o. EjoComposeRule
+.o. ĚjoComposeRule
+.o. IjoComposeRule
+.o. YjoComposeRule
+
+.o. ÄjuComposeRule
+.o. AjuComposeRule
+.o. ÖjuComposeRule
+.o. OjuComposeRule
+.o. ÜjuComposeRule
+.o. UjuComposeRule
+.o. EjuComposeRule
+.o. ĚjuComposeRule
+.o. IjuComposeRule
+.o. YjuComposeRule
+
+.o. ARule
+.o. BRule
+.o. VRule
+.o. GRule
+.o. DRule
+.o. ERule
+.o. ÖRule
+.o. ŽRule
+.o. ZRule
+.o. IRule
+.o. JRule
+.o. KRule
+.o. LRule
+.o. MRule
+.o. NRule
+.o. ORule
+.o. PRule
+.o. RRule
+.o. SRule
+.o. TRule
+.o. URule
+.o. FRule
+.o. XRule
+.o. CRule
+.o. ČRule
+.o. ŠRule
+.o. ŜRule
+.o. YRule
+.o. ĚRule
+.o. ÜRule
+.o. ÄRule
+
+.o. bäComposeRule
+.o. baComposeRule
+.o. biComposeRule
+.o. byComposeRule
+.o. büComposeRule
+.o. buComposeRule
+.o. beComposeRule 
+.o. běComposeRule 
+.o. böComposeRule 
+.o. boComposeRule 
+
+.o. väComposeRule 
+.o. vaComposeRule 
+.o. viComposeRule 
+.o. vyComposeRule 
+.o. vüComposeRule 
+.o. vuComposeRule 
+.o. veComposeRule 
+.o. věComposeRule 
+.o. vöComposeRule 
+.o. voComposeRule 
+
+.o. gäComposeRule 
+.o. gaComposeRule 
+.o. giComposeRule 
+.o. gyComposeRule 
+.o. güComposeRule 
+.o. guComposeRule 
+.o. geComposeRule 
+.o. gěComposeRule 
+.o. göComposeRule 
+.o. goComposeRule 
+
+.o. däComposeRule 
+.o. daComposeRule 
+.o. diComposeRule 
+.o. dyComposeRule 
+.o. düComposeRule 
+.o. duComposeRule 
+.o. deComposeRule 
+.o. děComposeRule 
+.o. döComposeRule 
+.o. doComposeRule 
+.o. dʹComposeRule 
+
+.o. žäComposeRule 
+.o. žaComposeRule 
+.o. žiComposeRule 
+.o. žyComposeRule 
+.o. žüComposeRule 
+.o. žuComposeRule 
+.o. žeComposeRule 
+.o. žěComposeRule 
+.o. žöComposeRule 
+.o. žoComposeRule 
+
+.o. zäComposeRule 
+.o. zaComposeRule 
+.o. ziComposeRule 
+.o. zyComposeRule 
+.o. züComposeRule 
+.o. zuComposeRule 
+.o. zeComposeRule 
+.o. zěComposeRule 
+.o. zöComposeRule 
+.o. zoComposeRule 
+.o. źComposeRule 
+
+.o. jäComposeRule 
+.o. jaComposeRule 
+.o. jiComposeRule 
+.o. jyComposeRule 
+.o. jüComposeRule 
+.o. juComposeRule 
+.o. jeComposeRule 
+.o. jěComposeRule 
+.o. jöComposeRule 
+.o. joComposeRule 
+
+.o. käComposeRule 
+.o. kaComposeRule 
+.o. kiComposeRule 
+.o. kyComposeRule 
+.o. küComposeRule 
+.o. kuComposeRule 
+.o. keComposeRule 
+.o. kěComposeRule 
+.o. köComposeRule 
+.o. koComposeRule 
+
+.o. läComposeRule 
+.o. laComposeRule 
+.o. liComposeRule 
+.o. lyComposeRule 
+.o. lüComposeRule 
+.o. luComposeRule 
+.o. leComposeRule 
+.o. lěComposeRule 
+.o. löComposeRule 
+.o. loComposeRule 
+.o. ĺComposeRule 
+
+.o. mäComposeRule 
+.o. maComposeRule 
+.o. miComposeRule 
+.o. myComposeRule 
+.o. müComposeRule 
+.o. muComposeRule 
+.o. meComposeRule 
+.o. měComposeRule 
+.o. möComposeRule 
+.o. moComposeRule 
+
+.o. näComposeRule 
+.o. naComposeRule 
+.o. niComposeRule 
+.o. nyComposeRule 
+.o. nüComposeRule 
+.o. nuComposeRule 
+.o. neComposeRule 
+.o. něComposeRule 
+.o. nöComposeRule 
+.o. noComposeRule 
+.o. ńComposeRule 
+
+.o. päComposeRule 
+.o. paComposeRule 
+.o. piComposeRule 
+.o. pyComposeRule 
+.o. püComposeRule 
+.o. puComposeRule 
+.o. peComposeRule 
+.o. pěComposeRule 
+.o. pöComposeRule 
+.o. poComposeRule 
+
+.o. räComposeRule 
+.o. raComposeRule 
+.o. riComposeRule 
+.o. ryComposeRule 
+.o. rüComposeRule 
+.o. ruComposeRule 
+.o. reComposeRule 
+.o. rěComposeRule 
+.o. röComposeRule 
+.o. roComposeRule 
+.o. ŕComposeRule 
+
+.o. säComposeRule 
+.o. saComposeRule 
+.o. siComposeRule 
+.o. syComposeRule 
+.o. süComposeRule 
+.o. suComposeRule 
+.o. seComposeRule 
+.o. sěComposeRule 
+.o. söComposeRule 
+.o. soComposeRule 
+.o. śComposeRule 
+
+.o. täComposeRule 
+.o. taComposeRule 
+.o. tiComposeRule 
+.o. tyComposeRule 
+.o. tüComposeRule 
+.o. tuComposeRule 
+.o. teComposeRule 
+.o. těComposeRule 
+.o. töComposeRule 
+.o. toComposeRule 
+.o. tʹComposeRule 
+
+.o. fäComposeRule 
+.o. faComposeRule 
+.o. fiComposeRule 
+.o. fyComposeRule 
+.o. füComposeRule 
+.o. fuComposeRule 
+.o. feComposeRule 
+.o. fěComposeRule 
+.o. föComposeRule 
+.o. foComposeRule 
+
+.o. xäComposeRule 
+.o. xaComposeRule 
+.o. xiComposeRule 
+.o. xyComposeRule 
+.o. xüComposeRule 
+.o. xuComposeRule 
+.o. xeComposeRule 
+.o. xěComposeRule 
+.o. xöComposeRule 
+.o. xoComposeRule 
+
+.o. cäComposeRule 
+.o. caComposeRule 
+.o. ciComposeRule 
+.o. cyComposeRule 
+.o. cüComposeRule 
+.o. cuComposeRule 
+.o. ceComposeRule 
+.o. cěComposeRule 
+.o. cöComposeRule 
+.o. coComposeRule 
+.o. ćComposeRule 
+
+.o. čäComposeRule 
+.o. čaComposeRule 
+.o. čiComposeRule 
+.o. čyComposeRule 
+.o. čüComposeRule 
+.o. čuComposeRule 
+.o. čeComposeRule 
+.o. čěComposeRule 
+.o. čöComposeRule 
+.o. čoComposeRule 
+
+.o. šäComposeRule 
+.o. šaComposeRule 
+.o. šiComposeRule 
+.o. šyComposeRule 
+.o. šüComposeRule 
+.o. šuComposeRule 
+.o. šeComposeRule 
+.o. šěComposeRule 
+.o. šöComposeRule 
+.o. šoComposeRule 
+
+.o. ŝäComposeRule 
+.o. ŝaComposeRule 
+.o. ŝiComposeRule 
+.o. ŝyComposeRule 
+.o. ŝüComposeRule 
+.o. ŝuComposeRule 
+.o. ŝeComposeRule 
+.o. ŝěComposeRule 
+.o. ŝöComposeRule 
+.o. ŝoComposeRule 
+
+.o. jaComposeRule 
+.o. joComposeRule 
+.o. juComposeRule 
+
+.o. äjaComposeRule 
+.o. ajaComposeRule 
+.o. öjaComposeRule 
+.o. ojaComposeRule 
+.o. üjaComposeRule 
+.o. ujaComposeRule 
+.o. ejaComposeRule 
+.o. ějaComposeRule 
+.o. ijaComposeRule 
+.o. yjaComposeRule 
+
+.o. äjoComposeRule 
+.o. ajoComposeRule 
+.o. öjoComposeRule 
+.o. ojoComposeRule 
+.o. üjoComposeRule 
+.o. ujoComposeRule 
+.o. ejoComposeRule 
+.o. ějoComposeRule 
+.o. ijoComposeRule 
+.o. yjoComposeRule 
+
+.o. äjuComposeRule 
+.o. ajuComposeRule 
+.o. öjuComposeRule 
+.o. ojuComposeRule 
+.o. üjuComposeRule 
+.o. ujuComposeRule 
+.o. ejuComposeRule 
+.o. ějuComposeRule 
+.o. ijuComposeRule 
+.o. yjuComposeRule 
+
+.o. aRule 
+.o. bRule 
+.o. vRule 
+.o. gRule 
+.o. dRule 
+.o. eRule 
+.o. öRule 
+.o. žRule 
+.o. zRule 
+.o. iRule 
+.o. jRule 
+.o. kRule 
+.o. lRule 
+.o. mRule 
+.o. nRule 
+.o. oRule 
+.o. pRule 
+.o. rRule 
+.o. sRule 
+.o. tRule 
+.o. uRule 
+.o. fRule 
+.o. xRule 
+.o. cRule 
+.o. čRule 
+.o. šRule 
+.o. ŝRule 
+.o. ʺRule 
+.o. yRule 
+.o. ʹRule 
+.o. ěRule 
+.o. üRule 
+.o. äRule ] ;
