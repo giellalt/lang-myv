@@ -261,6 +261,7 @@ LIST ScPl1 = ScPl1 (s_p1 s_pl) (a_p1 a_pl) ;
 LIST ScPl2 = ScPl2 (s_p2 s_pl) (a_p2 a_pl) ;
 LIST ScPl3 = ScPl3 (s_p3 s_pl) (a_p3 a_pl) ;
 
+
 LIST Clt/Cop = Clt/Cop ;
 SET HASSCPERSON = ScSg1 | ScSg2 | ScSg3 | ScPl1 | ScPl2 | ScPl3 ;
 
@@ -386,7 +387,7 @@ LIST Dial = Dial ;
 LIST Err/Orth = Err/Orth ;
 LIST Err/Orth-pre2012 = Err/Orth-pre2012 ;
 LIST Err/Orth-no-linking-vowel = Err/Orth-no-linking-vowel ;
-LIST ERRORTH = Err/Orth-no-linking-vowel Err/Orth Err/Orth-pre2012 Err/Orth-back-should-hard-front ;
+LIST ERRORTH = Err/Orth-no-linking-vowel Err/Orth Err/Orth-pre2012 Err/Orth-back-should-hard-front Err/Orth-d ;
 
 LIST DIALREADING = Dial Dial/SE Dial/NW Dial/W ;#used in substitute for weighting of dial readings
 
@@ -751,13 +752,16 @@ LIST PERSPRONPL = "минь" "тынь" "сынь" "минсь" "тынсь" "с
 LIST ULEMS = "улемс" ;
 LIST ULYNEMS = "ульнемс" ;
 LIST KARMAMS = "кармамс" ;
+LIST IVAUX = "кармамс" "летемс" "савомс" "улемс" "эрявомс" ;# IV aux
+SET IV-NOTIVAUX = IV - IVAUX ;
 LIST JALGA = "ялга" ;
 LIST JAKAMS = "молемс" "якамс" ;
 LIST NONCOUNT = "кекше" "сод" "сода"  ;
 LIST RELATORSNomGen =  "бока" "бокасо" "бокас" "бокасто" "ваксс" "вакссо" "вакссто" "вакска"  "ланга" "ланго" "лангс" "лангсо" "лангсто" "маласо" "малас" "маласто" "малава" "чире" "чирева" "чирес" "чиресэ" "чирестэ"  ;
 LIST NONSENSESURANT = "Ней" ;
 LIST NONLATIVENOUN = "Абрам" "Алексей" "аржо" "ал" "атякш" "бас" "безьгун" "Бобр" "Бобро" "буря" "бутра" "важо" "ваз" "вал" "Валдай" "варя" "вор" "варма" "ваце" "вашо" "ведь" "верь" "Видяй" "вий" "Воронко" "гайть" "Глушко" "Годун" "давол" "Дмитрий" "долг" "заём" "здор" "Зубарь" "зыян" "Елизар" "ёрок" "Иван" "Игай" "изюм" "Инжеват" "Исай" "каворькс" "кажо" "кал" "карь" "Каспий" "качамо" "кев" "кедьал" "кеж"
-"кель" "кем" "кеняркс" "кеска" "кикс" "конь" "кошт" "Крот" "кудря" "куло" "Кучай" "куракш" "куя" "Лавр" "Лавро" "Ларион" "Латкай" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "лезэ" "макшо" "Мало" "Матвей" "медь" "менге" "Мило" "морго" "Мороз" "нарде" "Наум" "Нерон" "нолго" "норо" "норов" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "ойме" "орга" "пан" "панкс" "Пахом" "пежеть" "Перегуд" "Петро" "Пётр" "пиземе" "пиле" "письмар"
+"кель" "кем" "кеняркс" "кеска" "кикс" "конь" "кошт" "Крот" "кудря" "куло" "Кучай" "куракш" "куя" "Лавр" "Лавро" "Ларион" "Латкай" "левкс" "лекш" "лем" "ливезь" "лов" "ловажа" "ловсо" "лом" "лопа" "лезэ" "макшо" "Мало" "Матвей" "медь" "менге" "Мило" "морго" "Мороз" "нарде" "Наум" "Нерон" "нолго" "норо" "норов" "нузякс" "нула" "нулготькс" "нулко" "нупонь" "ой" "ойме" "орга" "пан" "панкс" "Пахом"
+"пежеть" "Перегуд" "песок" "Петро" "Пётр" "пиземе" "пиле" "письмар"
 "питне" "пона" "пондакш" "поп" "пор" "потмуж" "пуворькс" "пуль" "раське" "рашко" "ризкс" "Роман" "роман" "роса" "рост" "приказ" "рудаз" "сакал" "сакало" "сал" "сан" "сардо" "сельведь" "Сергей" "сёвонь" "сёлмо" "сёрма" "сий" "сильге" "сильдей" "Симеон" "сод" "солдат" "Степан" "сув" "сукс" "сэкс" "сэпе" "сярдо" "таз" "талан" "тарькс" "терьге" "теште" "тикше" "толга" "топо" "Третьяк" "туман" "уло" "ундо" "Фрол" "цеця" "цёко" "часия" "чекерь" "чемень" "чечена" "чине" "числа" "чов" "чувар" "шерже" "эй" "яд" "Як" "якшамо" "ярмак" ; #!! This will be expanded for homonymy at first
 
 LIST NONPROLATIVENOUN = "Миш" ;#nouns that do not take prolative
@@ -959,8 +963,8 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET DIALREADING;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Use/NG) OR ERRORTH;
 
-SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET IV IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
-SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
+SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
 #прятнень: зярдо чись ансяк кармась пургсеме якстере струясонзо чувто прятнень,...
 
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
@@ -972,6 +976,8 @@ REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
 
 SELECT:DayOfMonth DAYOFMONTH IF (1 ("чистэ")) (0 Num);
 SELECT:TestNum (Num) IF (0 (Symbol));
+
+SELECT:ChooseReadyOrdinal (A Ord) IF (0 ("<.*це>"ri));
 
 #SELECT:DayOfMonth DAYOFMONTH IF ((-1 MONTHOFYEAR-GEN) OR (1 ("чистэ"))) (0 Num);
 		  # чачсь 1947 иень январень 7 чистэ
@@ -1454,6 +1460,12 @@ REMOVE IV IF (1 LIKELYOBJECT) (2 ESJ);
 REMOVE IV IF (0 ConNeg) (-1 VFINPERSONOBJ);
        #муе: ды кияк эзизе муе
 
+# Минь пурнатано вий.
+REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
+
+#
+REMOVE ("кодамс" V) IF (-1 ("эрьва" Det Sg Nom Indef)) ;
+
 REMOVE:NoIVWhenLeftDatRightObj IV IF (-1 Dat) (0 ("меремс")) (1 (Sg Nom Indef) OR (Pl Nom Indef));
 
 REMOVE:NoOcWhenLeftDatRightObj OCONJ IF (-1 Dat) (0 ("меремс")) (1 (Sg Nom Indef) OR (Pl Nom Indef));
@@ -1561,7 +1573,7 @@ REMOVE CARDNUM (0 AssocColl ) ;
 REMOVE:NotAdvInterrIfAdvIndef Adv + Interr IF (0 Adv + Indef ) ;
 			      # ковгак
 			      
-REMOVE:APlNomIndefIfCltCop (A Pl Nom Indef) IF (0 Clt/Cop);
+REMOVE:APlNomIndefIfCltCop (A Pl Nom Indef) IF (0 Clt/Cop) (NEGATE 0 ("кодамо" A Pl Nom Indef) LINK 1 N + Pl);
 			   #покшт: веенсттнэ эйстэст седе покшт
 
 REMOVE:NotCompN N (-1 SEDE ) ;
@@ -1641,9 +1653,6 @@ REMOVE Prs IF (0 ULYNEMS) ;
 
 # тынь эзимизь кадо
 SELECT ScPl2 IF (-1 Pron + Pers + Pl2 + Nom) (0 V) ;
-
-# Минь пурнатано вий.
-REMOVE ConNeg IF (NOT -1 Aux + Neg OR Aux + Proh ) ;
 
 # якамонзо якизе
 #REMOVE TV IF (0 JAKAMS) ((NOT *-1) OR (NOT *1  )) ;

@@ -884,7 +884,8 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow dano after non-voiced"
 !! **@RULENAME@**
-%^TD:0 /<= [CnsVoiceless (ь:)| Vows ] _ т: ; 
+ t:t /<= [CnsVoiceless (ь:)| Vows ] %^TD: %> _ %{АЯ%}: ; 
+!%^TD:0 /<= [CnsVoiceless (ь:)| Vows ] _ %> т: ; 
 
 "Disallow k for control of comparative with stem types"
 !! **@RULENAME@**
