@@ -778,6 +778,22 @@ LIST NAELAAMBADVS = "бойкасто" "кеместэ" "пижестэ" "сее
 LIST VAMBNOUNS = "але" "вал" "вий" "дум" "кадо" "кан" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пей" "пона" "понго" "ранг" "ром" "сал" "сод"
  "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
+SET POSTPCOMPLEMENTTARGET = (N Sg Nom Indef) | (N SP Gen Indef) | (N Sg Gen Def) | (N Pl Gen Def) | (N Sg Gen PxSg1) | (N Pl Gen PxSg1) |
+(N Sg Gen PxSg2) | (N Pl Gen PxSg2) |
+(N Sg Gen PxSg3) | (N Pl Gen PxSg3) |
+(N Sg Gen PxPl1) | (N Pl Gen PxPl1) |
+(N Sg Gen PxPl2) | (N Pl Gen PxPl2) |
+(N Sg Gen PxPl3) | (N Pl Gen PxPl3) |
+(N Prop Sg Nom Indef) | (N Prop SP Gen Indef) | (N Prop Sg Gen Def) | (N Prop Pl Gen Def) | (N Prop Sg Gen PxSg1) | (N Prop Pl Gen PxSg1) |
+(N Prop Sg Gen PxSg2) | (N Prop Pl Gen PxSg2) |
+(N Prop Sg Gen PxSg3) | (N Prop Pl Gen PxSg3) |
+(N Prop Sg Gen PxPl1) | (N Prop Pl Gen PxPl1) |
+(N Prop Sg Gen PxPl2) | (N Prop Pl Gen PxPl2) |
+(N Prop Sg Gen PxPl3) | (N Prop Pl Gen PxPl3)
+;# postposition complement target
+
+
+SET POSTPCOMPLEMENTTARGET_COMP = WORD - POSTPCOMPLEMENTTARGET ;
 
 SET NMN-INFLECTION-IN-MIDARCHIVOWEL = (Sg Nom Def) | (Sg Nom Indef Clt/Cop Prt2)| (Sg Gen Def) | (Sg Nom PxSg1) | (Sg Nom PxSg2) | (Sg Nom PxSg3) | (Sg Nom PxPl1) | (Sg Nom PxPl2) | (Sg Nom PxPl3) | (Pl Nom PxSg1) | (Pl Nom PxSg2) | (Pl Nom PxSg3) | (Pl Nom PxPl1) | (Pl Nom PxPl2) | (Pl Nom PxPl3) | (Sg Gen PxSg3) | (Sg Gen PxPl1) | (Sg Gen PxPl2) | (Sg Gen PxPl3) | (Pl Gen PxSg1) | (Pl Gen PxSg2) | (Pl Gen PxSg3) | (Pl Gen PxPl1) | (Pl Gen PxPl2) | (Pl Gen PxPl3) | (SP Gen Indef) | (SP Lat Indef) | (SP Tra Indef) ;# This is a list of all nominal inflection with a middle archivowel onset, only standard language is given here. This with help to locate overlap in Пич vs пиче paradigms.
 
@@ -985,6 +1001,7 @@ SELECT:ChooseReadyOrdinal (A Ord) IF (0 ("<.*це>"ri));
 SELECT:KillLot ("лоткамс") IF (0* (Inf Abl) BARRIER CLB OR EOS OR BOS) (0* VFIN BARRIER CLB OR EOS OR BOS);
 	       #Лоткасть марсевемеде нармунень моротне,
 
+
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 REMOVE FILTEROUTPATH;# these are paths that might be weighted out as highly unlikely
 #("лёд") IF (0 ("леднема") OR ("леднемс"));
@@ -998,6 +1015,9 @@ REMOVE ("але") IF (0 ("аля"));#power vs man
 REMOVE (Clt/Cop Prs ScSg2) OR (Clt/Cop Prs ScSg1) IF (0 ("думамс") OR ("дума"));#no до
 
 REMOVE V IF (0 ("кодамо" A Interr Sg Nom Indef)) (1 N);
+
+REMOVE:NoPoWhenNotPrecedeeByNMNAndNoPx Po OR Adp IF (NOT -1 POSTPCOMPLEMENTTARGET) (0 PostpNoPX OR Adv);
+SELECT:NoPoWhenPrecedingCanBeNonNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET_COMP) (0 PostpNoPX OR Adv);
 
 
 SELECT:ComPairWhenPossible COMPAIRS;
