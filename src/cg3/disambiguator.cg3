@@ -1017,7 +1017,7 @@ REMOVE (Clt/Cop Prs ScSg2) OR (Clt/Cop Prs ScSg1) IF (0 ("думамс") OR ("д
 REMOVE V IF (0 ("кодамо" A Interr Sg Nom Indef)) (1 N);
 
 REMOVE:NoPoWhenNotPrecedeeByNMNAndNoPx Po OR Adp IF (NOT -1 POSTPCOMPLEMENTTARGET) (0 PostpNoPX OR Adv);
-SELECT:NoPoWhenPrecedingCanBeNonNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET_COMP) (0 PostpNoPX OR Adv);
+SELECT:NoPoWhenPrecedingCanBeNonNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET_COMP) (0 PostpNoPX)(0 Adv);
 
 
 SELECT:ComPairWhenPossible COMPAIRS;
