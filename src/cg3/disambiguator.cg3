@@ -290,6 +290,8 @@ LIST OcPl3 = OcPl3 (o_p3 o_pl) ;
 SET VFINPERSONOBJ =  OcSg1 | OcSg2 | OcSg3 | OcPl1 | OcPl2 | OcPl3;
 SET NOT-VFINPL3OBJ = VFINPERSONOBJ - OcPl3 ;
 
+SET VFINPERSON-NOOBJ = HASSCPERSON - VFINPERSONOBJ - Clt/Cop ; # finite subject no object on verb.
+
 SET VFINSG3SUBJNOOBJ = VFINSG3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb
 
 SET VFINPL3SUBJNOOBJ = VFINPL3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb 
@@ -364,6 +366,7 @@ LIST Der/кай = Der/кай ;
 LIST Der/Y = Der/Y ;
 LIST Der/Yj = Der/Yj ;
 LIST Der/Ycja = Der/Ycja ;
+LIST Der/Yks = Der/Yks ;
 LIST Der/OvOms = Der/OvOms ; #Der/ОвОмс 
 LIST Der/OvtOms = Der/OvtOms Der/ОвтОмс ; #Der/ОвтОмс
 LIST Der/Ozevems = Der/Ozevems ;
@@ -991,6 +994,10 @@ SELECT (Pron AssocColl) IF (0 (Num Pron) OR (Det Pron));
 #кавонест, ськамонзо
 REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
 
+# Ли, Лис
+SELECT ("лисемс") IF (0 ("Ли") OR ("Лис")) (NOT 0* HASSCPERSON BARRIER CLB OR BOS OR EOS);
+# Листянояк ушов,...
+
 SELECT:DayOfMonth DAYOFMONTH IF (1 ("чистэ")) (0 Num);
 SELECT:TestNum (Num) IF (0 (Symbol));
 
@@ -1013,6 +1020,9 @@ REMOVE VAMBNOUNS IF (0 (PxSg1 Clt/Cop));
 REMOVE ("пе") IF (0 ("пелемс"));#end vs to fear
 REMOVE ("але") IF (0 ("аля"));#power vs man
 REMOVE (Clt/Cop Prs ScSg2) OR (Clt/Cop Prs ScSg1) IF (0 ("думамс") OR ("дума"));#no до
+
+REMOVE (Prs ScPl3) IF (0 (Prt1 ScSg2)) (0* (Pron Pers Sg2 Nom) BARRIER BOS OR EOS OR CLB);
+#Тон модантень ашо панар стыть.
 
 REMOVE V IF (0 ("кодамо" A Interr Sg Nom Indef)) (1 N);
 
@@ -1385,6 +1395,9 @@ REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 REMOVE (N Pl Nom PxSg1) IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
        #Мон чистэ шлян толган.
 
+REMOVE (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef));
+       # .. кедть ды пилеть..
+
 REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
 
 REMOVE PxSg2 IF (0 (Pl Nom Indef)) (0* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BOS);
@@ -1464,6 +1477,9 @@ REMOVE IV IF (0 TV) (*0C (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 PlGenPosses
 REMOVE IV IF (0 TV) (0* (SP Gen PxSg3) OR (Sg Gen PxSg3) BARRIER  CLB OR EOS OR BOS LINK NEGATE -1 PostpNoPX);
 
 REMOVE TV IF (0 ("теемс") OR ("меремс") OR ("молемс")) (-1 Ideoph);
+
+REMOVE TV IF (0 IV) (0 VFINPERSON-NOOBJ) (NOT 0* NonIndefObjectCandidate BARRIER BOS OR EOS);
+       # Ды сынь явсть.
 
 #REMOVE TV IF (0 IV) (0* BARRIER CLB);# work needed 2022-03-26
        #, кискат эзть онго,

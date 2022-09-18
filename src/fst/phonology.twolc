@@ -492,7 +492,7 @@ Rules
 !HERE
 "A2:a"
 !! **@RULENAME@**  
-%{АЯ%}:а <=>  [ LBC | :BTV | %{frontHard%}:] %> т:  _  [ д | н | м | т к] ;
+%{АЯ%}:а <=>  [ LBC | :BTV | %{frontHard%}:] (%^TD:) %> т:  _  [ д | н | м | т к] ;
    %{оэØ%}: %> _ [ д | н | т] ;
    %{frontHard%}: %> _ [ н | т] ;
    [ LBC | :BTV ] %> %{дт%}: О1: %> _ [ н | т ] ;
@@ -886,6 +886,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 !! **@RULENAME@**
  t:t /<= [CnsVoiceless (ь:)| Vows ] %^TD: %> _ %{АЯ%}: ; 
 !%^TD:0 /<= [CnsVoiceless (ь:)| Vows ] _ %> т: ; 
+!к е к ш н е ^TD:0 > т {АЯ}:я н о
 
 "Disallow k for control of comparative with stem types"
 !! **@RULENAME@**
