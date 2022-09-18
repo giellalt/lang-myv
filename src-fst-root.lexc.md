@@ -596,6 +596,7 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/Ycja * active (demonstrative) present participle  takes copula person
 * +Der/Yj * active long present participle takes copula person
 * +Der/Y * active short present participle
+* +Der/Yks * active short present participle with ks derivation
 * +Der/Ozj * Gerund
 * +Der/Cond * conditional derivation +Der/Ynderja
 
