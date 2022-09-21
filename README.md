@@ -36,7 +36,7 @@ Documentation
 Documentation can be found at:
 
 - [Language specific documentation](https://giellalt.github.io/lang-myv/)
--   <https://giellalt.uit.no/index.html>
+- [General documentation](https://giellalt.github.io/)
 
 Core dependencies
 -----------------
