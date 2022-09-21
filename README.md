@@ -24,11 +24,14 @@ Cite
 
 Rueter, J., Hämäläinen, M., & Partanen, N. (2020). [Open-Source Morphology for Endangered Mordvinic Languages](https://www.aclweb.org/anthology/2020.nlposs-1.13/). In Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) (pp. 94–100). The Association for Computational Linguistics.
 
-Use and test spellers
----------------------
+Download and test speller files
+-------------------------------
 
-The spellers downloadable at the top of this page (the `*.bhfst` files) can be
-used with [divvunspell](https://github.com/divvun/divvunspell).
+The speller files downloadable at the top of this page (the `*.bhfst` files) can
+be used with [divvunspell](https://github.com/divvun/divvunspell), to test their
+performance. These files are the exact same ones as installed on users' computers
+and mobile phones. Desktop and mobile speller files differ from each other in the
+error model and should be tested separately — thus also two different downloads.
 
 Documentation
 -------------
