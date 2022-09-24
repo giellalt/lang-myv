@@ -330,10 +330,24 @@ LIST Actio = Actio ;
 
 SET SupEla = (infMS/ME cx:ela) - Def - SPPOSSESSUM | (Ger Ela) - Def - SPPOSSESSUM | (Sup Ela) - Def - SPPOSSESSUM ;#ОмстО
 LIST SupLoc = (infMS/ME cx:nom) (Inf Loc) ;#ОмО
+
+LIST IVMOTIONVERBSWITHMO = "велявтомс" "каявомс" "кепетемс" "комамс" "куземс" "лисемс" "лоткакшномс" "лоткамс" "лотксемс" "мадемс" "молемс" "напустямс" "озамс" "оргодемс" "появакшномс" "появамс" "пульзямс" "самс" "совамс" "сыргамс" "туемс" "чиемс" "якамс" "яксемс" ; #intransitive motion verbs with SUP
+LIST TVMOTIONVERBSWITHMO = "кадомс" "комавтомс" "кучнемс" "кучомс" "ливтемс" "мадстемс"; #transitive motion verbs with SUP
+
+LIST IVERBWITHMO =  "арсемс" "арсекшнемс" "бажамс" "кармамс" "капшамс" "кенеремс" "маштомс" "пурнамс" "смеямс" "снартнемс" "снартомс" "тонавтнемс" "тонадокшномс" "тонадомс" "ушодомс" ; #intransitive verbs with SUP
+LIST TVERBWITHMO = "баславамс" "кармавтомс" "кармавтнемс" "тонавтомс" ; #transitive verbs with SUP
+
+SET ALLIVERBSWITHMO = IVMOTIONVERBSWITHMO OR IVERBWITHMO; #all intransitive verbs with SUP
+SET ALLTVERBSWITHMO = TVMOTIONVERBSWITHMO OR TVERBWITHMO ; #all transitive verbs with SUP
+SET VERBWITHMO = ALLIVERBSWITHMO OR ALLTVERBSWITHMO ; #!!озамс ярсамо Distinguish from Der/NomAct
+
+
 LIST SUPAUX = "кармамс" ;# auxiliaries with non-finite main verbs in MO/ME supine/ Inf Loc
 
 LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;# auxiliary verbs with non-finite main verbs in MS and a dative agent
 LIST GENDEF = (def nsg cx:gen) (def npl cx:gen) (Sg Gen Def) (Pl Gen Def);
+
+LIST LEXICALIZEDNOMAG = "тонавтниця" "тонавтыця" ;# this is a list of NomAg that might be considered lexicalized
 
 # The ("ge" Pcle) etc. are used in Apertium
 LIST Foc/Гак = Foc/Гак ;
@@ -429,6 +443,8 @@ LIST Hom4 = Hom4 ;
 
 LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
 LIST NonIndefObjectCandidate = (N Sg Gen Def) (N PL Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
+
+LIST NSPGENINDEF = (N SP Gen Indef);
 
 SET OBJECTCANDIDATE = IndefObjectCandidate | NonIndefObjectCandidate ;
 
@@ -803,7 +819,6 @@ SET NMN-INFLECTION-IN-MIDARCHIVOWEL = (Sg Nom Def) | (Sg Nom Indef Clt/Cop Prt2)
 LIST PropnPICHvsPiche = "Пич" ; #consonant-final proper noun with competing common noun mid-vowel stem 
 	#! Пич vs пиче, i.e. all inflections with the archivowel O in onset position.
 
-LIST VERBWITHMO = "арсемс" "кармамс" "лисемс" "лоткамс" "маштомс" "мадемс" "озамс" "пульзямс" "пурнамс" "самс" "снартомс" "совамс" "туемс" "якамс" ; #!!озамс ярсамо Distinguish from Der/NomAct
 
 LIST VERBWITHMODS = "кучомс" "озавтомс" "тердемс" ; #!!озавтомс ярсамо Distinguish	from Der/NomAct
 
@@ -987,12 +1002,22 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR E
 SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
 #прятнень: зярдо чись ансяк кармась пургсеме якстере струясонзо чувто прятнень,...
 
+
+
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
        #Тесэ весе чумось войнась...» — оймавтсь сон эсь прянзо.
 
 SELECT (Pron AssocColl) IF (0 (Num Pron) OR (Det Pron));
 #кавонест, ськамонзо
 REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
+
+#this is for leaving lexicalized NomAg
+REMOVE (Der/Ycja NomAg) IF (0 LEXICALIZEDNOMAG);
+       #Тонавтыцясь сыргась лавкав ловсонь рамамо.
+#REMOVE (N Sg Nom Indef) IF (-1 NSPGENINDEF) (0 SupLoc);
+REMOVE (N Sg Nom Indef) IF (-1 NSPGENINDEF) (0 SupLoc) (0* VERBWITHMO BARRIER BOS OR EOS OR CLB);
+# This is for dealing with ловсонь рамамо in order to avoid a lexicalized reading. It may need to be just Gen
+  # Тонавтыцясь сыргась лавкав [ловсонь рамамо].
 
 # Ли, Лис
 SELECT ("лисемс") IF (0 ("Ли") OR ("Лис")) (NOT 0* HASSCPERSON BARRIER CLB OR BOS OR EOS);
@@ -1023,6 +1048,7 @@ REMOVE (Clt/Cop Prs ScSg2) OR (Clt/Cop Prs ScSg1) IF (0 ("думамс") OR ("д
 
 REMOVE (Prs ScPl3) IF (0 (Prt1 ScSg2)) (0* (Pron Pers Sg2 Nom) BARRIER BOS OR EOS OR CLB);
 #Тон модантень ашо панар стыть.
+
 
 REMOVE V IF (0 ("кодамо" A Interr Sg Nom Indef)) (1 N);
 
