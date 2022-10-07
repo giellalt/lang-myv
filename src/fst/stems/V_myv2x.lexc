@@ -1082,7 +1082,7 @@ LEXICON V_myv2x
 ванстовтомс+V:ванстовт BV_SAVTOMS  "" ;
 ванстокшномс+V:ванстокшно BV_KUNDAKSHNOMS  "" ;
 ванстомс+V:ванст BV_CHACHTOMS  "vartioida" ;
-ванстомс+V+Err/Orth-stem-a-should-be-o0:ванста BV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "vartioida" ;
+ванстомс+V:ванста BV_CHACHTAMS_ERROR  "vartioida" ;
 ванськавтнемс+V:ванськавтне BV_E2ZHNEMS  "" ;
 ванськавтовомс+V:ванськавтов IV_JANGAVOMS  "" ;
 ванськавтовтомс+V:ванськавтовт BV_SAVTOMS  "" ;
@@ -3252,7 +3252,7 @@ LEXICON V_myv2x
 келемс+V:келе BV_KUNDAMS  "kahlata" ;
 келемтевемс+V:келемтев IV_SAEVEMS  "" ;
 келемтемс+V:келемть BV_NEVTEMS  "levittää" ;
-келемтемс+V+Err/Orth-stem-ja-should-be-je0:келемтя BV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "levittää" ;
+келемтемс+V:келемтя BV_EZHDIAMS_ERROR  "levittää" ;
 келемтнемс+V:келемтне BV_E2ZHNEMS  "" ;
 келенчамс+V:келенча IV_KUNDAMS  "" ;
 келеньчнемс+V:келеньчне IV_E2ZHNEMS  "" ;
@@ -4775,7 +4775,7 @@ LEXICON V_myv2x
 лемдевтемс+V:лемдевть BV_NEVTEMS  "" ;
 лемдекшнемс+V:лемдекшн BV_NEKSHNEMS  "" ;
 лемдемс+V:лемдь BV_LEDEMS  "antaa nimi" ;
-лемдемс+V+Err/Orth-stem-ja-should-be-je0:лемдя BV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "antaa nimi" ;
+лемдемс+V:лемдя BV_EZHDIAMS_ERROR  "antaa nimi" ;
 лемдемтемс+V:лемдемть BV_NEVTEMS  "" ;
 лемдтнемс+V:лемтне IV_E2ZHNEMS  "" ;
 лемдявтомс+V:лемдявт BV_SAVTOMS  "" ;
@@ -5567,7 +5567,7 @@ LEXICON V_myv2x
 мольнекшнемс+V:мольнекшн BV_NEKSHNEMS  "" ;
 мольстекшнемс+V:мольстекшн BV_NEKSHNEMS  "" ;
 мольстемс+V:мольсть BV_NEVTEMS  "" ;
-мольстемс+V+Err/Orth-stem-ja-should-be-je0:мольстя BV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "" ;
+мольстемс+V:мольстя BV_EZHDIAMS_ERROR  "" ;
 мольстнемс+v1+V:мольстне BV_E2ZHNEMS  "" ;
 мольстнемс+v2+V+Err/Orth:мольсне BV_KUNDAMS  "" ;
 мольстякшномс+V:мольстякшно IV_KUNDAKSHNOMS  "" ;
@@ -8499,7 +8499,7 @@ LEXICON V_myv2x
 снартнемс+V+Err/Orth:снартле IV_E2ZHNEMS  "koettaa" ;
 снартокшномс+V:снартокшно BV_KUNDAKSHNOMS  "" ;
 снартомс+V:снарт BV_SAVTOMS  "koettaa" ;
-снартомс+V+Err/Orth-stem-a-should-be-o0:снарта IV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "koettaa" ;
+снартомс+V:снарта IV_CHACHTAMS_ERROR  "koettaa" ;
 снгналнзнровамс+V:снгналнзнрова IV_KUNDAMS  "antaa merkki" ;
 снимакшномс+V:снимакшно IV_KUNDAKSHNOMS  "" ;
 снимамс+V:снима IV_KUNDAMS  "" ;
@@ -10859,7 +10859,7 @@ LEXICON V_myv2x
 чачтокшномс+V:чачтокшно BV_KUNDAKSHNOMS  "" ;
 чачтокшномс+V+Err/Orth:чачтакшно BV_KUNDAKSHNOMS  "" ;
 чачтомс+V:чачт BV_CHACHTOMS  "synnyttää" ;
-чачтомс+V+Err/Orth-stem-a-should-be-o0:чачта BV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "synnyttää" ;
+чачтомс+V:чачта BV_CHACHTAMS_ERROR  "synnyttää" ;
 чашневемс+V:чашнев IV_SAEVEMS  "" ;
 чаштневтемс+V:чаштневть BV_NEVTEMS  "" ;
 чаштовтомс+V:чаштовт BV_SAVTOMS  "" ;
@@ -11211,7 +11211,7 @@ LEXICON V_myv2x
 чудезевемс+V:чудезев IV_POTAZEVEMS  "" ;
 чудекшнемс+V:чудекшн IV_NEKSHNEMS  "" ;
 чудемс+V:чудь IV_LEDEMS  "" ;
-чудемс+V+Err/Orth-stem-je-should-be-je0:чуде IV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS  "" ;
+чудемс+V:чуде IV_CHUDIEMS_ERROR_WITH_STEMVOWEL  "" ;
 чудиявомс+V:чудияв IV_JANGAVOMS  "" ;
 чуднемс+V:чудне IV_E2ZHNEMS  "" ;
 чудявомс+V:чудяв IV_JANGAVOMS  "(puh.) näyttää" ;
@@ -11522,15 +11522,15 @@ LEXICON V_myv2x
 эензакшномс+V:эензакшно IV_KUNDAKSHNOMS  "" ;
 эензамс+V:эенза IV_KUNDAMS  "jäätyä" ;
 эждевемс+V:Ӓ3ждев IV_SAEVEMS  "lämmetä" ;
+эждевемс+V+Err/Orth:Ӓ3ждяв IV_JANGAVOMS  "lämmetä" ;
 эждевкшнемс+V:эждевкшн IV_NEKSHNEMS  "" ;
 эждевтевемс+V:эждевтев IV_SAEVEMS  "" ;
-эждевтемс+V:эждевть BV_NEVTEMS  "" ;
-эждекшнемс+V:эждекшн BV_NEKSHNEMS  "" ;
+эждевтемс+V:Ӓ3ждевть BV_NEVTEMS  "" ;
+эждекшнемс+V:Ӓ3ждекшн BV_NEKSHNEMS  "" ;
+эждекшнемс+V+Err/Orth:Ӓ3ждякшно BV_KUNDAKSHNOMS  "" ;
 эждемс+V:Ӓ3ждь BV_LEDEMS  "lämmittää" ;
-эждявомс+V:эждяв IV_JANGAVOMS  "" ;
-эждякшномс+V:эждякшно BV_KUNDAKSHNOMS  "" ;
-эждямс+V:эждя BV_KUNDAMS  "" ;
-эжекшнемс+V:эжекшн IV_NEKSHNEMS  "" ;
+эждемс+V:Ӓ3ждя BV_EZHDIAMS_ERROR  "lämmittää" ;
+эжекшнемс+V:Ӓ3жекшн IV_NEKSHNEMS  "" ;
 эжемс+V:Ӓ3ж IV_KADOMS  "lämmetä" ;
 эжкстамс+V:эжкста IV_KUNDAMS  "" ;
 эжневтемс+V:эжневть BV_NEVTEMS  "lämmittää" ;

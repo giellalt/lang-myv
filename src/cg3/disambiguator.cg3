@@ -220,6 +220,8 @@ LIST POSSIBLEPLNOMSUBJ = (N Pl Nom Indef) (N Pl Nom Def) (N Pl Nom PxSg1) (N Pl 
 
 LIST POSSIBLEPLNOMSUBJPX = (N Pl Nom PxSg1) (N Pl Nom PxSg2) (N Pl Nom PxSg3) (N Pl Nom PxPl1) (N Pl Nom PxPl2) (N Pl Nom PxPl3) ;
 
+
+
 SET NOUNNOT_POSSIBLEPLNOMSUBJ = N - POSSIBLEPLNOMSUBJ;
 
 # Erzya has implicit comparison, i.e. with relation to Joe, Sue is tall.
@@ -1418,6 +1420,8 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 # эсь мелест
 REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
+
+
 REMOVE (N Pl Nom PxSg1) IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
        #Мон чистэ шлян толган.
 
@@ -1425,6 +1429,9 @@ REMOVE (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef)
        # .. кедть ды пилеть..
 
 REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
+
+
+	#седееть: Чачома кран, тиринь мастор, эжди эйсэнь лембе седееть...
 
 REMOVE PxSg2 IF (0 (Pl Nom Indef)) (0* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BOS);
        #, ливтсь муськемат :лиссь од авась, ливтсь муськемат.
@@ -1797,6 +1804,9 @@ REMOVE N IF (0 MARTO) (0 PXPERSON) ;
 # марто
 REMOVE N + Sg + Nom + Indef IF (0 MARTO) ;
 
+REMOVE Der/MWN IF (0 MARTO) (0 PXPERSON) (-1 HASSCPERSON);
+       #Адя ютатано мартот Иванбиё велева... EKS:2011:22:1:NadkinD
+       
 #Ваня марто Марят 
 SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;
 
@@ -1836,6 +1846,7 @@ REMOVE VERBTAKESshtoCCOMP + IV IF (1 (",")) (2 ("што"));
 
 #<псаказояк> remove n sg gen pxsg3 if Ani and n sg nom pxsg3
 REMOVE Gen IF (0 Ani + Sg + Nom + PxSg3) ;
+
 
 SELECT Interj IF (0 Upper) (1 Comma) ;
 
