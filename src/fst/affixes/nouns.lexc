@@ -286,6 +286,33 @@ LEXICON N_LAV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_TEV_ERROR_SHB_VELE
++Err/Orth-stem-cons-should-be-je: NMN_TEV_ERROR_SHB_VELE ;
+LEXICON	NMN_TEV_ERROR_SHB_VELE
+! cases that take no onset O
+! Ine, Ill, Ela, Abl, Dat, Prl, Cmpr, Abe, Com, Tra
+! Pl
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+ABE-INDEF ;
+ABL-INDEF ;
+CMP-INDEF ;
+COM-INDEF ;
+DAT-INDEF ;
+ELA-INDEF ;
+ILL-INDEF ;
+INE-INDEF ;
+PRL-INDEF ;
+TRA-INDEF ;
+SG-NOM-INDEF ;
+SG-ABE-DEF ;
+SG-ABL-DEF ;
+SG-ELA-DEF ;
+SG-INE-DEF ;
+SG-PRL-DEF ;
+SG-TRA-DEF ;
+PL-NOM-INDEF ;
+NMN_DEF-PL-DECLENSION ;
+
 LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -531,7 +558,7 @@ LEXICON N_POTMO
 @P.POS.N@@U.DECL-NX.SP@:@P.POS.N@@U.DECL-NX.SP@мо LAT-INDEF ;
 
 LEXICON DV-N_
-+Der/OmA: N_KUDO ;! this provides background
++NomAct: N_KUDO ;! this provides background
 
 ! This might be moved to exceptions 2012-11-21
 LEXICON N_KI
@@ -1060,7 +1087,9 @@ LEXICON N_KUDO-Derivation-noArrow
 +SP+Abe:%>вт%{оеэ%}мО1 POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 
 
-@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP ;
+@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL1 ;
+@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL2 ;
+@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL3 ;
 +SP+Gen: POSSX-OBL4-N2DEM-SE ;
 
 
@@ -1372,6 +1401,15 @@ LEXICON DIAL-NW-WITH-ST-AFTER-STEM
 +Use/NG+Err/Orth+Dial/NW: SG-CMP-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
+
+!! ## Plurale tantum
+LEXICON N_KAL_PTAN
+N_KAL-PL ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} N_KUDO-PL ;
+LEXICON N_KUDO_PTAN
+N_KUDO-PL ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} N_KUDO-PL ;
+
 
 
 !! ## DEFINITE SINGULAR TAGS 

@@ -205,7 +205,9 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 SET SPPOSSESSUM =  PxSg1 |  PxSg2 | PxSg3 | PxPl1 | PxPl2 | PxPl3;
+LIST SgGenPossessum = (Sg Gen PxSg1) (Sg Gen PxSg2) (Sg Gen PxSg3) (Sg Gen PxPl1) (Sg Gen PxPl2) (Sg Gen PxPl3); 
 LIST PlGenPossessum = (Pl Gen PxSg1) (Pl Gen PxSg2) (Pl Gen PxSg3) (Pl Gen PxPl1) (Pl Gen PxPl2) (Pl Gen PxPl3); 
+LIST SgNomPossessum = (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3); 
 LIST PlNomPossessum = (Pl Nom PxSg1) (Pl Nom PxSg2) (Pl Nom PxSg3) (Pl Nom PxPl1) (Pl Nom PxPl2) (Pl Nom PxPl3); 
 
 LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
@@ -810,7 +812,10 @@ SET POSTPCOMPLEMENTTARGET = (N Sg Nom Indef) | (N SP Gen Indef) | (N Sg Gen Def)
 (N Prop Sg Gen PxSg3) | (N Prop Pl Gen PxSg3) |
 (N Prop Sg Gen PxPl1) | (N Prop Pl Gen PxPl1) |
 (N Prop Sg Gen PxPl2) | (N Prop Pl Gen PxPl2) |
-(N Prop Sg Gen PxPl3) | (N Prop Pl Gen PxPl3)
+(N Prop Sg Gen PxPl3) | (N Prop Pl Gen PxPl3) |
+(Pron Indef SP Gen Indef) |
+(Pron Pers Sg1 Gen) | (Pron Pers Sg2 Gen) | (Pron Pers Sg3 Gen) |
+(Pron Pers Pl1 Gen) | (Pron Pers Pl2 Gen) | (Pron Pers Pl3 Gen) 
 ;# postposition complement target
 
 
@@ -838,6 +843,8 @@ LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявом
 LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видькстамс" "визделгадомс" "виздемс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ; 
 
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
+
+LIST VERBPERCEPTIONTAKESMAMOABL = "марямс" "марявомс" "неемс" "неявомс" ; #verb of perception takes Der/NomAct N SP Abl
 
 LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
 
@@ -992,7 +999,7 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP In
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET (N Prop Pl Nom Indef <W:0.0>);
 #This should help with imperatives
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>) OR ("думамс" V TV Ind Prs ScSg2 <W:0.0>);
-SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки");
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки") OR ("марто" Po Der/MWN) OR ("Киз" N Prop SP Gen Indef);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("Вась" Ex/N Prop SP Gen Indef Der/sje);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET PropnPICHvsPiche IF (0 NMN-INFLECTION-IN-MIDARCHIVOWEL);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
@@ -1051,8 +1058,14 @@ REMOVE (Clt/Cop Prs ScSg2) OR (Clt/Cop Prs ScSg1) IF (0 ("думамс") OR ("д
 REMOVE (Prs ScPl3) IF (0 (Prt1 ScSg2)) (0* (Pron Pers Sg2 Nom) BARRIER BOS OR EOS OR CLB);
 #Тон модантень ашо панар стыть.
 
+REMOVE:MezeWithJakIsIndefPron ("мезе") IF (0 Clt/Add);
+# мезеяк is an indefinite pronoun
 
 REMOVE V IF (0 ("кодамо" A Interr Sg Nom Indef)) (1 N);
+
+REMOVE:NoMart ("март") IF (0 SgGenPossessum OR PlGenPossessum OR SgNomPossessum OR PlNomPossessum );
+#This is too robust
+ #мезе мартот
 
 REMOVE:NoPoWhenNotPrecedeeByNMNAndNoPx Po OR Adp IF (NOT -1 POSTPCOMPLEMENTTARGET) (0 PostpNoPX OR Adv);
 SELECT:NoPoWhenPrecedingCanBeNonNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET_COMP) (0 PostpNoPX)(0 Adv);
@@ -1079,7 +1092,7 @@ REMOVE:NoPanIfGenFollowedByRelator ("пан") IF (0 (Sg Abl Def)) (1 POSTPWITHGE
 # KILL тётя
 REMOVE:NoAuntie ("тётя") IF (0 ("тетя"));
 REMOVE:NoAbbrA ("А") OR ("а") IF (0 (N ABBR));
-REMOVE:NoPcleAfterComma ("ды" Pcle) OR ("улемс" V IV Oblig) OR ("улемс" Ex/V IV Der/OmA NomAct N Sg Nom Indef) OR ("самс" V IV Ind Prt1 ScSg1) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
+REMOVE:NoPcleAfterComma ("ды" Pcle) OR ("улемс" V IV Oblig) OR ("улемс" Ex/V IV Der/NomAct N Sg Nom Indef) OR ("самс" V IV Ind Prt1 ScSg1) IF (-1 CLB OR BOS) (NOT 1 CLB OR EOS);
 	#, ды сон кирнявтсь
 	#, улема,
 
@@ -1180,7 +1193,7 @@ REMOVE:InterrPronWithAdd ("ков" Adv Interr Lat Clt/Add);
 REMOVE (N Sg Nom Indef Clt/Add) IF (0 ("кияк" Pron Indef Sg Nom)) (*0 ScSg3 BARRIER CLB OR EOS OR BOS) (NOT *0 POSSIBLESGNOMSUBJ BARRIER CLB OR EOS OR BOS);
        #кияк эзь сода
 
-SELECT (Der/OmA NomAct N SP Abl) IF (*0 VERBTAKESMAMOABL BARRIER CLB OR BOS OR EOS OR ("—"));
+SELECT:VerbalNounAblAdjunct (Der/NomAct N SP Abl) OR (Der/NomAct N Sg Abl Def) IF (*0 VERBTAKESMAMOABL OR VERBPERCEPTIONTAKESMAMOABL BARRIER CLB OR BOS OR EOS OR ("—"));
        #нарьгамодо: — ведунось лотки нарьгамодо.
 
 REMOVE (Der/OmA NomAct) IF (-1 (Der/Ozj Ger) OR (A Sg Nom Indef));
@@ -1847,8 +1860,10 @@ REMOVE VERBTAKESshtoCCOMP + IV IF (1 (",")) (2 ("што"));
 #<псаказояк> remove n sg gen pxsg3 if Ani and n sg nom pxsg3
 REMOVE Gen IF (0 Ani + Sg + Nom + PxSg3) ;
 
+REMOVE:NegationAfterKoda CC OR Interj IF (-1 ("кода")) (0 (V Aux Neg));
+       # кода а кецнемс
 
-SELECT Interj IF (0 Upper) (1 Comma) ;
+SELECT:SentInitSingInterj Interj IF (0 Upper) (1 Comma) ;
 
 # Select the proper noun reading if the current word can be
 # a proper noun or a noun, and if it is in upper case, 
