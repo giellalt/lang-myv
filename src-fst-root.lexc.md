@@ -283,8 +283,8 @@ The verbs are syntactically split according to transitivity:
 
 * +TV * transitive verb
 * +IV * intransitive verb
-* +NomAg Actor Noun From Verb - Nomen Agentis
-* +NomAct Actor Noun From Verb - Nomen Agentis
+* +NomAg Actor Noun From Verb - Nomen Agentis (ready)
+* +NomAct Action Noun From Verb - Nomen Actio (ready)
 
 Auxiliary verbs
 * +Aux * 
@@ -599,6 +599,8 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/Yks * active short present participle with ks derivation
 * +Der/Ozj * Gerund
 * +Der/Cond * conditional derivation +Der/Ynderja
+* +Der/NomAg Actor Noun From Verb - Nomen Agentis (derivation)
+* +Der/NomAct Action Noun From Verb - Nomen Actio (derivation)
 
 ## Declaring noun derivations
 * +Der/pelj 

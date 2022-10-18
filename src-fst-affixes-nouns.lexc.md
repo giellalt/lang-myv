@@ -105,6 +105,8 @@ N_KUDO-Def-Declension
 
 N_KUDO-Def-Declension
 
+## Plurale tantum
+
 ## DEFINITE SINGULAR TAGS 
 
 * Noun singular nominative definite examples:*
