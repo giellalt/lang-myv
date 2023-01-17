@@ -208,20 +208,20 @@ Other verb forms are
 ## The Usage extents are marked using following tags:
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
-* +Err/Orth-no-linking-vowel * linking vowel is missing
+* +Err/Orth-back-should-be-hard-front * back should be hard front
 * +Err/Orth-cons-stem * пачт|емс 2012 пачтямс
 * +Err/Orth-freq-le * пачтнемс:пачле
-* +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
-* +Err/Orth-stem-je-should-be-ja * мелямс:меле
-* +Err/Orth-stem-hard-e-should-be-je * Nekshnems
-* +Err/Orth-stem-a-should-be-o0 * чачтомс+V:чачта
-* +Err/Orth-stem-ja-should-be-je0 * лемдемс+V:лемдя
-* +Err/Orth-back-should-be-hard-front * back should be hard front
-* +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
-* +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-front-linking-vowel * linking vowel is front уряжень
+* +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-mid-linking-vowel-should-be-high * linking vowel is mid вечкелизь should be вечкилизь
 * +Err/Orth-mid-onset-default-missing * should be скаломок, but this is скалмок, мелезэнек: мельзэнек
+* +Err/Orth-no-linking-vowel * linking vowel is missing
+* +Err/Orth-stem-a-should-be-o0 * чачтомс+V:чачта
+* +Err/Orth-stem-hard-e-should-be-je * Nekshnems
+* +Err/Orth-stem-ja-should-be-je0 * лемдемс+V:лемдя
+* +Err/Orth-stem-je-should-be-ja * мелямс:меле
+* +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
+* +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-d * not t but instead d
