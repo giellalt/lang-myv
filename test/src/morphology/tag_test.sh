@@ -11,40 +11,30 @@ lexctags=$(mktemp -t giella-tag_test.XXXXXXXXXXX)
 roottags=$(mktemp -t giella-tag_test.XXXXXXXXXXX)
 trap 'rm -f "${lexctags}" "${roottags}"' EXIT
 
-# Ensure we're in langs/sme:
-# cd "$(dirname "$0")"/../../.. || exit 1
+# Get giella-core from the test environment:
+giella_core=$GIELLA_CORE
 
+# If verbose:
 if [[ $1 == "-v" ]]; then
     echo "$0: Are there tags not declared in root.lexc or misspelled?"
 fi
 
-sed -e '1,/LEXICON Root/ d' < ../../../src/fst/lexicon.tmp.lexc \
-    | cut -d '!' -f1   \
-    | grep ' ;'        \
-    | cut -d ':' -f1   \
-    | tr -s ' '        \
-    | sed 's/^ //'     \
-    | cut -d ' ' -f1   \
-    | sed 's/+/¢+/g'   \
-    | sed 's/@/¢@/g'   \
-    | tr '¢' '\n'      \
-    | tr '#"%' '\n'    \
-    | grep -E '(\+|@)' \
-    | sort -u          \
-    | grep -E -v '^(\+|\+%|\+\/\-|\+Cmp\-|\+Cmp%\-|\@0|\@%)$' \
+# Extract USED tags:
+sed -e '1,/LEXICON Root/d' < \
+    ../../../src/fst/lexicon.tmp.lexc | # Extract all lines after LEXICON Root
+    ${giella_core}/scripts/extract-used-tags.sh | # Extract tags, local mods after this line:
+    LC_ALL=no_NO.UTF8 sort -u         \
     > "${lexctags}"
 
-cut -d '!' -f1 $srcdir/../../../src/fst/root.lexc \
-    | cut -d ':' -f1                    \
-    | sed 's/+/¢+/g'                    \
-    | sed 's/@/¢@/g'                    \
-    | tr '¢' '\n'                       \
-    | grep -E '(\+|@)'                  \
-    | tr -d ' '                         \
-    | tr -d '\t'                        \
-    | sort -u > "${roottags}"
+# Extract DEFINED tags:
+sed -n '/LEXICON Root/q;p' \
+    ../../../src/fst/lexicon.tmp.lexc | # Extract all lines before LEXICON Root
+    ${giella_core}/scripts/extract-defined-tags.sh | # Extract tags, local mods after this line:
+    LC_ALL=no_NO.UTF8 sort -u         \
+    > "${roottags}"
 
-check=$(comm -23 "${lexctags}" "${roottags}")
+# Compare the two sets of tags, report and fail if there is a diff:
+check=$(LC_ALL=no_NO.UTF8 comm -23 "${lexctags}" "${roottags}")
 if [[ -n "${check}" ]]; then
     echo "$0: Have a look at these:"
     echo "${check}"
@@ -52,6 +42,3 @@ if [[ -n "${check}" ]]; then
 elif [[ $1 == "-v" ]]; then
     echo "$0: No errors found."
 fi
-
-#cat src/fst/clitics.lexc src/fst/compounding.lexc src/fst/affixes/*lexc |cut -d '!' -f1 | grep ';' |tr -s ' ' | sed 's/^ //' |grep ':' |cut -d ':' -f1 | sed 's/\+/¢+/g' | tr '¢' '\n' |sort | uniq -c |sort -n |less
-# visuell test: cat src/fst/clitics.lexc src/fst/compounding.lexc src/fst/affixes/*lexc |cut -d '!' -f1 | grep ';' |tr -s ' ' | sed 's/^ //' |grep ':' |cut -d ':' -f1 | tr -d '0' | sed 's/\+/¢+/g' | tr '¢' '\n' |egrep -v '^(\+|\@|<)' |grep -v '^$' |less
