@@ -239,6 +239,8 @@ Other verb forms are
 
 * +Err/Lex * The lemma is not an Erzya word (Depricating --+Src/F--)
 
+* +URL * For tagging URLs
+
 # Dialect tags
 * +Dial/SH * Short forms
 * +Dial/L * Long forms
