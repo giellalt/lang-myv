@@ -2,7 +2,7 @@
 
 Erzya language verbs inflect for person, subject and object.
 
-OBJECT FLAGS AND +V+TV tags
+OBJECT FLAGS AND +V tags
 а+V:а 
 
 **LEXICON V-AUX-NEG-PRT1 ** а+V:эзь
@@ -35,7 +35,7 @@ OBJECT FLAGS AND +V+TV tags
 
 VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
 
-VERBS WITH INTRANSITIVE TAGS +V+IV
+VERBS WITH INTRANSITIVE TAGS +V
 
 # AUXILIARY VERBS
 
@@ -97,7 +97,7 @@ Given in Grammar 2000
 
 Used with deverbals
 
-ваномс+V+TV+Imprt+ScPl2+Clt/Ga: **look/katsoa**
+ваномс+V+Imprt+ScPl2+Clt/Ga: **look/katsoa**
 * *ван%>%{оеэØ%}дО1%>Г4а*
 * *ван%>одо%>0я*
 

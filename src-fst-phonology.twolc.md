@@ -45,7 +45,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 **Y2:yi**  
 
 **%{оеэ%}:е**
-неемс+V+TV+Ger+Ill+PxPl1: --see/nähdä--
+неемс+V+Ger+Ill+PxPl1: --see/nähdä--
 * *ней%>%{оеэØ%}мО1%>%{оеэØ%}з%>%{оеэØ%}н%{оеэ%}к*
 * *не0%>еме%>0з%>энек*
 
@@ -58,7 +58,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **%{оеэØ%}:0**
 **%{оеэØ%}:е**
-панемс+V+TV+Ind+ConNeg: **drive/ajaa**
+панемс+V+Ind+ConNeg: **drive/ajaa**
 * *пань%>%{оеэØ%}К3*
 * *пан0%>е0*
 
@@ -79,7 +79,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *ков0%>оз%>от*
 
 **%{уиыØ%}:и**
-панемс+V+TV+Inf+Dial/NW: **drive/ajaa**
+панемс+V+Inf+Dial/NW: **drive/ajaa**
 * *пань%>%{уиыØ%}мс*
 * *пан0%>имс*
 
@@ -197,7 +197,7 @@ imperative suffix
 * *лыказев%>ть*
 
 **K1:к**  
-ливтемс+V+TV+Prec+ScSg2: **set out/laittaa esille**
+ливтемс+V+Prec+ScSg2: **set out/laittaa esille**
 * *ливть%>%{КТ%}%{АЯ%}*
 * *ливт0%>тя*
 
