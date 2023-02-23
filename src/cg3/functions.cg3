@@ -1293,7 +1293,7 @@ SET VINF = (infMS/ME cx:nom) | (infMS/ME cx:ill) | (V Inf) | (V) - (MOOD-V) ;#no
 #LIST VINF = (infMS/ME cx:nom) (infMS/ME cx:ill) (V Inf);#Inf 1 and 2, ill and loc
 SET VINF1 = (infMS/ME cx:ill) | (V Inf) - (Inf Loc); # First infinitive
      #was (infMS/ME cx:nom) (infMS/ME cx:ill) (V Inf); cf SupLoc
-LIST vfin = vfin;
+LIST vfin = vfin; # These are Mormula values: 2023_02_23
 SET a-finpred = (Clt/Cop) | (mod:ind) - vfin | (mod:conj) - vfin;#a-finite predication
  #Оршазель ташто костюмсо.
  # This still needs all instances of Prs+ScSg3 where there is a non-finite present
@@ -4116,9 +4116,9 @@ SECTION
 #2022-09-07### It is realistic to only use @PRED. I'm not used to distinguishing subject predicative and object predicative. The use of arrows seems to be unrealistic because the copula verb is most often not used. To which word the arrow should point to in the absence of copula?
 #2022-09-07### Here @PRED then becomes the head 2022-02-7
 #2022-09-07#LIST @OPRED = @OPRED ; # Object predicative, e.g. Cakes, she makes really good ones; You make yourself a Saami speaker
-#2022-09-07#LIST @<OPRED = @<OPRED ; # Object predicative to the right of the finite verb
+#2022-09-07#LIST @<OPRED = @<OPRED ; # Object predicative points to the finite verb on its left
 #2022-09-07#     #урозокс: Войнась теизе урозокс Сашоконь.
-#2022-09-07#LIST @OPRED> = @OPRED> ;  # Object predicative to the left of the finite verb
+#2022-09-07#LIST @OPRED> = @OPRED> ;  # Object predicative points to the finite verb on its right
 
 #2022-09-07#LIST @ADVLPRED = @ADVLPRED; # Adverbial predicate
 
