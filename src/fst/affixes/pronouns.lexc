@@ -56,16 +56,16 @@ LEXICON PRON-IS-REFL-PRL-PXPL3
 !+Pers+Ill: OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PRON-INTERR-HUM_KIE !!Interr-Pers
-+Interr+Sem/Hum+Sg+Nom:е ENDLEX ; !!= @CODE@ кие:ки
-+Interr+Sem/Hum+Sg+Nom: ENDLEX ; 
-+Interr+Sem/Hum+Pl+Nom:%>т%{ЬØ%} ENDLEX ; 
-+Interr+Sem/Hum: PRON-INTERR-HUM_KIE-OBL ;
-+Interr+Sem/Hum+Clt/Cop+Prs+ScSg1:%>ян K ;
-+Interr+Sem/Hum+Clt/Cop+Prs+ScSg2:%>ят K ;
-+Interr+Sem/Hum+Clt/Cop+Prs+ScSg3:е K ;
-+Interr+Sem/Hum+Clt/Cop+Prs+ScPl1:%>тяно K ;
-+Interr+Sem/Hum+Clt/Cop+Prs+ScPl2:%>тядо K ;
-+Interr+Sem/Hum+Clt/Cop+Prs+ScPl3:%>ть K ;
++Sem/Hum+Sg+Nom:е ENDLEX ; !!= @CODE@ кие:ки
++Sem/Hum+Sg+Nom: ENDLEX ; 
++Sem/Hum+Pl+Nom:%>т%{ЬØ%} ENDLEX ; 
++Sem/Hum: PRON-INTERR-HUM_KIE-OBL ;
++Sem/Hum+Clt/Cop+Prs+ScSg1:%>ян K ;
++Sem/Hum+Clt/Cop+Prs+ScSg2:%>ят K ;
++Sem/Hum+Clt/Cop+Prs+ScSg3:е K ;
++Sem/Hum+Clt/Cop+Prs+ScPl1:%>тяно K ;
++Sem/Hum+Clt/Cop+Prs+ScPl2:%>тядо K ;
++Sem/Hum+Clt/Cop+Prs+ScPl3:%>ть K ;
 
 LEXICON PRON-INTERR-HUM_KIE-OBL
 +Abe:%>вт{оеэ%}мО1 ENDLEX ;
@@ -77,10 +77,10 @@ LEXICON PRON-INTERR-HUM_KIE-OBL
 +Ine:%>с%{оэØ%} ENDLEX ;
 
 LEXICON PRON-INTERR-OBJ_MEZE
-+Interr+Sem/Obj: PossPX1-NomSg ;
-+Interr+Sem/Obj: PossPX1 ;
-+Interr+Sem/Obj: PRON-INTERR-OBJ_MEZE-OBL ;
-+Interr+Sem/Obj: CLT/COP_SG ; !!= @CODE@ singular
++Sem/Obj: PossPX1-NomSg ;
++Sem/Obj: PossPX1 ;
++Sem/Obj: PRON-INTERR-OBJ_MEZE-OBL ;
++Sem/Obj: CLT/COP_SG ; !!= @CODE@ singular
 
 LEXICON PRON-INTERR-OBJ_MEZE-OBL
 +Abe:%>вт{оеэ%}мО1 ENDLEX ;
@@ -97,13 +97,13 @@ LEXICON PRON-INTERR-OBJ_MEZE-OBL
 !+Indef: K ;
 
 !LEXICON PRON-INTERR-OBJ_MEZE_IS-PL-NOM-INDEF
-!+Interr+Pl+Nom+Indef: ENDLEX ;
+!+Pl+Nom+Indef: ENDLEX ;
 
 !LEXICON PRON-INTERR-OBJ_MEZE_IS-SG-NOM-DEF
-!+Interr+Sg+Nom+Def: ENDLEX ;
+!+Sg+Nom+Def: ENDLEX ;
 
 LEXICON ADV-INTERR-OBJ_MEZE_IS-TRA
-+Adv+Interr+Tra:%>кс ENDLEX ;
++Adv+Tra:%>кс ENDLEX ;
 
 LEXICON PRON-PERS-SG1 !! мон:мо
 +Abe:нтемень K ;
@@ -696,36 +696,36 @@ LEXICON PRON-IS-INDEF-SPAT-INE !! What should be done
 !+Indef+Prl: # ;
 
 !LEXICON PRON-IS-INTERR-MANNER !! кода:кода
-!+Interr+Manner: #  ;
+!+Manner: #  ;
 
 !LEXICON PRON-IS-INTERR-PERS !! ки:ки
-!+Interr+Pers+Sg+Nom:е #  ;
-!+Interr+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
+!+Pers+Sg+Nom:е #  ;
+!+Pers: NB-CX-ZERODECLENSIONTYPE-NOCLT  ;
 
 LEXICON DET-INTERR !! кона:кона
 !! This is not the same as indefinite
 !! PronRel-kona
-+Interr: NMN_DEF-DECLENSION ;
-+Interr: _KUDO-Indef-Declension ;
-+Interr: N_KUDO-Poss-Declension-CX ;
+: NMN_DEF-DECLENSION ;
+: _KUDO-Indef-Declension ;
+: N_KUDO-Poss-Declension-CX ;
 
 LEXICON PRON-IS-INTERR-SPAT-ELA !! What should be done 
-+Interr+Ela: # ;
++Ela: # ;
 
 LEXICON PRON-IS-INTERR-SPAT-INE !!= @CODE@ косо 
-+Interr+Ine: # ;
++Ine: # ;
 
 !LEXICON PRON-IS-INTERR-SPAT-LAT !! What should be done 
-!+Interr+Lat: # ;
+!+Lat: # ;
 
 LEXICON PRON-IS-INTERR-SPAT-PRL !! What should be done 
-+Interr+Prl: # ;
++Prl: # ;
 
 !LEXICON PRON-IS-INTERR-ELA !!= @CODE@ мейстэ
-!+Interr+Ela: # ;
+!+Ela: # ;
 
 !LEXICON PRON-IS-INTERR-TEMP !!= @CODE@ зярдо
-!+Interr+Temp: # ;
+!+Temp: # ;
 
 !! Relative pronouns
 !LEXICON PRON-IS-REL-ADJ_KODAMO !! кодамо:кода
@@ -786,7 +786,7 @@ LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
 !2020-09-14!
 !2020-09-14!!2017-11-05кона+Det+Indef+Nom+Sg:кона INDEF-ENDS-HERE ;
 !2020-09-14!!2017-11-05мезе+Pron+Indef+Nom+Sg:мезе INDEF-ENDS-HERE ;
-!2020-09-14!!мезень+Pron+Indef+Interr+Gen:мезень INDEF-ENDS-HERE ;
+!2020-09-14!!мезень+Pron+Indef+Gen:мезень INDEF-ENDS-HERE ;
 !2020-09-14!мезе+Pron+Indef+Nom+Pl:мезть INDEF-ENDS-HERE ;
 !2020-09-14!мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:месть INDEF-ENDS-HERE ;
 !2020-09-14!мекс+Pron+Indef+Tra:мекс INDEF-ENDS-HERE ;
@@ -831,7 +831,7 @@ LEXICON INDEF_PRONOUNS-IN-KOI
 кой-кодамо+A+Indef+Pl+Nom+Def:кой-кодатнэ INDEF-ENDS-HERE ;
 !2017-11-05кона+Det+Indef+Nom+Sg:кой-кона INDEF-ENDS-HERE ;
 !мезе+Pron+Indef:кой-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
-!мезень+Pron+Indef+Interr+Gen:кой-мезень INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Gen:кой-мезень INDEF-ENDS-HERE ;
 !2022-03-18!кой-мезе+Pron+Indef:кой-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 !кой-мезе+Pron+Indef+Nom+Pl:кой-мезть INDEF-ENDS-HERE ;
 !кой-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:кой-месть INDEF-ENDS-HERE ;
@@ -877,7 +877,7 @@ LEXICON INDEF_PRONOUNS-IN-TAGO
 таго-кодамо+A+Indef+Pl+Nom+Def:таго-кодатнэ INDEF-ENDS-HERE ;
 !2017-11-05кона+Det+Indef+Nom+Sg:таго-кона INDEF-ENDS-HERE ;
 !2022-03-18!таго-мезе+Pron+Indef:таго-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
-!мезень+Pron+Indef+Interr+Gen:таго-мезень INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Gen:таго-мезень INDEF-ENDS-HERE ;
 !таго-мезе+Pron+Indef+Nom+Pl:таго-мезть INDEF-ENDS-HERE ;
 !таго-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:таго-месть INDEF-ENDS-HERE ;
 таго-мекс+Pron+Indef+Tra:таго-мекс INDEF-ENDS-HERE ;
@@ -922,7 +922,7 @@ LEXICON INDEF_PRONOUNS-IN-TA
 та-кодамо+A+Indef+Pl+Nom+Def:та-кодатнэ INDEF-ENDS-HERE ;
 !2017-11-05кона+Det+Indef+Nom+Sg:та-кона INDEF-ENDS-HERE ;
 !2022-03-18!та-мезе+Pron+Indef:та-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
-!мезень+Pron+Indef+Interr+Gen:та-мезень INDEF-ENDS-HERE ;
+!мезень+Pron+Indef+Gen:та-мезень INDEF-ENDS-HERE ;
 !та-мезе+Pron+Indef+Nom+Pl:та-мезть INDEF-ENDS-HERE ;
 !та-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:та-месть INDEF-ENDS-HERE ;
 !та-мекс+Pron+Indef+Tra:та-мекс INDEF-ENDS-HERE ;
@@ -1441,7 +1441,7 @@ LEXICON Indef_Pronouns-K-post
 +Der+Der/buti:%-бути ENDLEX ;
 +Der+Der/Gak:%>Г1ак ENDLEX ;
 !+Rel:  ENDLEX ; 2017-03-11
-!+Interr:  ENDLEX ; 2017-03-11
+!:  ENDLEX ; 2017-03-11
 
 
 LEXICON INDEF-ENDS-HERE
@@ -1502,7 +1502,7 @@ LEXICON Pron-Pl
 !тоната+Dem+Pron:тоната Misc_Pronouns1 ;
 !! мезе+Pron:мезИ2 Misc_Pronouns1 ;
 !! мезе+Pron+Rel+Gen:мень K ;
-!! ки+Pron+Interr:ки Misc_Pronouns1 ;
+!! ки+Pron:ки Misc_Pronouns1 ;
 !!не+Dem:не ne-Misc_Pronouns1 ;
 !!неке+Dem+Pron:неке ne-Misc_Pronouns1 ;
 !!нете+Dem+Pron:нете Misc_Pronouns1 ;
@@ -1727,7 +1727,7 @@ LEXICON REL/INTERR_PRONOUNS
 !2017-11-05кона+Det+Rel+Nom+Sg:кона ENDLEX ;
 
 мезе+Pron+Rel:мӒ4 PRON_MEZE_Cases ;
-мезе+Pron+Interr:мӒ4 PRON_MEZE_Cases ;
+мезе+Pron:мӒ4 PRON_MEZE_Cases ;
 
 мекс+Adv+Rel+Tra:мӒ4кс ENDLEX ;
 
@@ -1738,50 +1738,50 @@ LEXICON REL/INTERR_PRONOUNS
 кона+Pron+Rel:кона REL/INTERR-PRON-CASES ;
 кона+Pron+Rel:кона PRON-DEM_TE ;
 
-!ко+Pron+Interr:ко Indef_Pronouns-Cases ;
-!зяродо+Adv+Interr+Abl:зяродо ENDLEX ;
-!зяро+Adv+Interr+Ela:зяросто ENDLEX ;
-ков+Adv+Interr+Lat:ков ENDLEX ;
-косо+Adv+Interr+Ine:косо ENDLEX/COP4_OBL ;
-косто+Adv+Interr+Ela:косто ENDLEX/COP4_OBL ;
-кода+Adv+Interr+Manner:кода ENDLEX ;
-кува+Adv+Interr+Prl:кува ENDLEX ;
+!ко+Pron:ко Indef_Pronouns-Cases ;
+!зяродо+Adv+Abl:зяродо ENDLEX ;
+!зяро+Adv+Ela:зяросто ENDLEX ;
+ков+Adv+Lat:ков ENDLEX ;
+косо+Adv+Ine:косо ENDLEX/COP4_OBL ;
+косто+Adv+Ela:косто ENDLEX/COP4_OBL ;
+кода+Adv+Manner:кода ENDLEX ;
+кува+Adv+Prl:кува ENDLEX ;
 
-зяро+Adv+Interr:зяро ENDLEX ;
-зяроксть+Adv+Interr+Iter:зяроксть ENDLEX ;
-зярс+Adv+Interr+Ill+Sem/Time:зярс ENDLEX ;
+зяро+Adv:зяро ENDLEX ;
+зяроксть+Adv+Iter:зяроксть ENDLEX ;
+зярс+Adv+Ill+Sem/Time:зярс ENDLEX ;
 
-зярдонь+A+Interr+Sem/Time+Der/GenAttr:зярдонь ENDLEX ;
-знярдонь+A+Interr+Abl+Der/GenAttr:знярдонь ENDLEX ;
-знярдо+Adv+Interr+Sem/Time+Abl:знярдо ENDLEX ;
-зняро+Adv+Interr:зняро ENDLEX ;
+зярдонь+A+Sem/Time+Der/GenAttr:зярдонь ENDLEX ;
+знярдонь+A+Abl+Der/GenAttr:знярдонь ENDLEX ;
+знярдо+Adv+Sem/Time+Abl:знярдо ENDLEX ;
+зняро+Adv:зняро ENDLEX ;
 
-зняросто+Adv+Interr+Sem/Time+Ela:зняросто ENDLEX ;
-знярс+Adv+Interr+Ill:знярс ENDLEX ;
-зняро+Adv+Interr:зняро ENDLEX ;
-зяро+Adv+Interr:зяро ENDLEX ;
+зняросто+Adv+Sem/Time+Ela:зняросто ENDLEX ;
+знярс+Adv+Ill:знярс ENDLEX ;
+зняро+Adv:зняро ENDLEX ;
+зяро+Adv:зяро ENDLEX ;
 
 
-мезе+Pron+Interr+Sg+Nom+Indef:мӒ4зе ENDLEX ;
+мезе+Pron+Sg+Nom+Indef:мӒ4зе ENDLEX ;
 мезе+Pron:мӒ4зе PRON-INTERR-OBJ_MEZE ;
-мезе+Pron+Interr+Sg+Nom+Def:мӒ4йсь K ;
-мезе+Pron+Interr+SP+Ine+Indef:мӒ4йсэ K ;
-мезе+Pron+Interr+SP+Ill+Indef:мӒ4йс K ;
-!мезе+Pron+Interr+SP+Gen+Indef:мӒ4зень ENDLEX ;
-!мезе+Pron+Interr+Pl+Nom+Indef:мезть ENDLEX ;
-мезе+Pron+Interr+Orth/PhonInfl+Pl+Nom:мӒ4сть ENDLEX ;
-мекс+Adv+Interr+Tra:мӒ4кс ENDLEX ;
-!мезе+Pron+Interr+Abl:мезде ENDLEX ;
-!мезе+Pron+Interr+Dat:мезнень ENDLEX ;
-!мезе+Pron+Interr+Abl+Def:мезденть ENDLEX ;
-!мезе+Pron+Interr+Ine:мейсэ ENDLEX ;
+мезе+Pron+Sg+Nom+Def:мӒ4йсь K ;
+мезе+Pron+SP+Ine+Indef:мӒ4йсэ K ;
+мезе+Pron+SP+Ill+Indef:мӒ4йс K ;
+!мезе+Pron+SP+Gen+Indef:мӒ4зень ENDLEX ;
+!мезе+Pron+Pl+Nom+Indef:мезть ENDLEX ;
+мезе+Pron+Orth/PhonInfl+Pl+Nom:мӒ4сть ENDLEX ;
+мекс+Adv+Tra:мӒ4кс ENDLEX ;
+!мезе+Pron+Abl:мезде ENDLEX ;
+!мезе+Pron+Dat:мезнень ENDLEX ;
+!мезе+Pron+Abl+Def:мезденть ENDLEX ;
+!мезе+Pron+Ine:мейсэ ENDLEX ;
 
 !мезе+Adn+Dep+Gen:мень ENDLEX ; !This one cannot take prefix
-мезе+Pron+Interr+Com:мӒ4знек ENDLEX ;
+мезе+Pron+Com:мӒ4знек ENDLEX ;
 
-мезе+Pron+Interr:мӒ4зь REL/INTERR-PRON-CASES_OSH ;
+мезе+Pron:мӒ4зь REL/INTERR-PRON-CASES_OSH ;
 
-кона+Det+Interr:кона REL/INTERR-PRON-CASES ;
+кона+Det:кона REL/INTERR-PRON-CASES ;
 
 
 LEXICON REL/INTERR-PRON-CASES
@@ -1849,12 +1849,12 @@ LEXICON REL/INTERR-PRON-CASES_OSH
 +Pl+Cmpr+Def:%>тне%>шка ENDLEX ;
 
 LEXICON COLL-PRON
-зяронень+Pron+Interr+AssocColl:зяро ASSOC-COLL-PRON-SG1 ;
-зяронеть+Pron+Interr+AssocColl:зяро ASSOC-COLL-PRON-SG2 ;
-зяронензэ+Pron+Interr+AssocColl:зяро ASSOC-COLL-PRON-SG3 ;
-зяроненек+Pron+Interr+AssocColl:зяро ASSOC-COLL-PRON-PL1 ;
-зяроненк+Pron+Interr+AssocColl:зяро ASSOC-COLL-PRON-PL2 ;
-зяронест+Pron+Interr+AssocColl:зяро ASSOC-COLL-PRON-PL3 ;
+зяронень+Pron+AssocColl:зяро ASSOC-COLL-PRON-SG1 ;
+зяронеть+Pron+AssocColl:зяро ASSOC-COLL-PRON-SG2 ;
+зяронензэ+Pron+AssocColl:зяро ASSOC-COLL-PRON-SG3 ;
+зяроненек+Pron+AssocColl:зяро ASSOC-COLL-PRON-PL1 ;
+зяроненк+Pron+AssocColl:зяро ASSOC-COLL-PRON-PL2 ;
+зяронест+Pron+AssocColl:зяро ASSOC-COLL-PRON-PL3 ;
 
 ламонень+Pron+AssocColl:ламо ASSOC-COLL-PRON-SG1 ;
 ламонеть+Pron+AssocColl:ламо ASSOC-COLL-PRON-SG2 ;

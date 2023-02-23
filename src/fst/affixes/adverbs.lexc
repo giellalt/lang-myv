@@ -7,11 +7,11 @@ LEXICON adverbs
 !!
 пек+Adv:пек ADV-DEG_ ;
 
-ков+Adv+Interr:ков ADV_IS_LAT ;
-коволга+Adv+Interr:коволга ADV_IS_PRL ;
-коволдо+Adv+Interr:коволдо ADV_IS_ABL ;
-коволо+Adv+Interr:коволо ADV_IS_LOC ;
-коволов+Adv+Interr:коволов ADV_IS_LAT ;
+ков+Adv:ков ADV_IS_LAT ;
+коволга+Adv:коволга ADV_IS_PRL ;
+коволдо+Adv:коволдо ADV_IS_ABL ;
+коволо+Adv:коволо ADV_IS_LOC ;
+коволов+Adv:коволов ADV_IS_LAT ;
 
 васолдо+Adv:васолдо ADV_IS_ABL ;
 васов+Adv:васов ADV_IS_LAT ;
@@ -75,7 +75,7 @@ LEXICON adverbs
 !
 
 кодаяк+Adv+Indef+Manner:кодаяк # ;
-козонь+Adv+Interr+Ill:козонь K ;
+козонь+Adv+Ill:козонь K ;
 
 ! These _states_ can conjugate,
 ! a distinctive feature
@@ -160,7 +160,7 @@ LEXICON ADV-TEMP_IS-TEMP
 
 !LEXICON ADV-INTERR-ITER
 !!! зяроксть
-!+Interr+Iter: K ;
+!+Iter: K ;
 
 LEXICON ADV-TEMP_
 +Sem/Time: K ;
@@ -270,7 +270,7 @@ LEXICON MANNER_-TRA !
 +Manner+Tra: K ;
 
 LEXICON ADV-IS-INTERR-MANNER
-+Interr+Manner: K ;
++Manner: K ;
 
 !LEXICON Manner-Interr ! 
 ! ADV-IS-INTERR-MANNER ;
@@ -323,26 +323,26 @@ LEXICON ADV_IS_PRL
 
 
 !LEXICON ADV-INTERR-IS-LAT
-!+Interr+Lat: K ;
+!+Lat: K ;
 !LEXICON SPAT-Interr
-!+Interr: ENDLEX ;
+!: ENDLEX ;
 
 !LEXICON ADV-INTERR-IS-SPAT-ABL
-!+Interr+Abl: K ;
+!+Abl: K ;
 
 !LEXICON ADV-INTERR-IS-SPAT-INE
-!+Interr+Ine: K ;
-!+Interr+Ine: CLT/COP4_OBL ;
+!+Ine: K ;
+!+Ine: CLT/COP4_OBL ;
 
 LEXICON ADV-INTERR-IS-SPAT-ELA
-+Interr+Ela: K ;
-+Interr+Ela: CLT/COP-4-OBL ;
++Ela: K ;
++Ela: CLT/COP-4-OBL ;
 
 !LEXICON ADV-INTERR-IS-SPAT-LAT
-!+Interr+Lat: K ;
+!+Lat: K ;
 
 !LEXICON ADV-INTERR-IS-SPAT-PRL
-!+Interr+Prl: K ;
+!+Prl: K ;
 
 LEXICON Spat_
 : K ;
@@ -387,7 +387,7 @@ LEXICON Temp-Indef
 +Sem/Time+Indef: K ;
 
 LEXICON Temp-Interr
-+Interr+Sem/Time: K ;
++Sem/Time: K ;
 
 !LEXICON Temp-Lat
 !+Sem/Time+Lat: K ;
