@@ -348,7 +348,7 @@ LIST Der/Dimin = Der/Dimin ;
 
 LIST @+FAUXV = @+FAUXV ; # Finite auxiliary verb (or modal???) NOT USED YET. Two verbs are used like auxiliaries: "ulems", which is rarely seen as an independent word, and the other is the negation verb, which has both particle-like forms and productive forms, of which both are tagged as @NEG.
 LIST @+FMAINV = @+FMAINV ; # Finite main verb
-#LIST @+FMAINV-nonverb = @+FMAINV-nonverb;# non-finite predicate ptcp4 see also @ADVLPRED now dealt with as @PRED 2022-02-21
+#LIST @+FMAINV-nonverb = @+FMAINV-nonverb;# non-finite predicate ptcp4 see also @ADVLPRED now dealt with as @SPRED 2023-02-23
 
 LIST @-FAUXV = @-FAUXV ; # Non-finite auxiliary verb (or modal???) NOT USED YET. Ulems-verb might have non-finite relevant forms; I must check this later.
 # these are эрявомс, савомс, летемс
@@ -380,10 +380,14 @@ LIST @-F<OPRED = @-F<OPRED; # Object predicative of non-finite verb to the left
 LIST @SUBJ = @SUBJ ; # adhoc 2022-09-07
 LIST @SUBJ> = @SUBJ> ; # adhoc 2022-09-07
 LIST @<SUBJ = @<SUBJ ; # adhoc 2022-09-07
-LIST @PRED = @PRED ; # adhoc 2022-09-07
 LIST @OBJ = @OBJ ; # adhoc 2022-09-07
 LIST @<OBJ = @<OBJ ; # adhoc 2022-09-07
 LIST @OBJ> = @OBJ> ; # adhoc 2022-09-07
+LIST @SPRED = @SPRED ; # Subject predicative (e.g. in elliptical sentences); e.g. My hands are so cold кедень кельмть
+#2022-09-07#LIST @<SPRED = @<SPRED ; # Predicative with a predicative as its head, e.g. Mahtte has Jovnna as a servant
+#2022-09-07#LIST @SPRED> = @SPRED> ;  # Subject predicative to the right of the finite verb
+#2022-09-07##Not the same thing in Erzya?Маттень ули Йовназо лездыцякс 2022-02-07
+
 
 #2022-09-07
 
@@ -480,8 +484,6 @@ LIST @X = @X; # No tag has been assigned (because omissions in the rule componen
 
 
 # Clause Boundaries
-
-LIST @CLB = @CLB; #...........................................................................OLD
 
 LIST @IMP-PTCLE = @IMP-PTCLE; #..........................................................................OLD
 
@@ -1608,7 +1610,7 @@ MAP (@+FMAINV) TARGET FNOTAUXVERBS ;# this is not working 2022-07-18; it is now 
 LIST @-FMAINV = @-FMAINV ; #!! * @-FMAINV : non-finite main verb
 
 
-MAP:afinPred (@PRED) TARGET a-finpred ;
+MAP:afinPred (@SPRED) TARGET a-finpred ; # from @PRED 2023_02_23
 #
 
 
@@ -1831,7 +1833,7 @@ LIST cx:russ = cx:russ;
 #ADD (@SUBJ__ @OBJ__ @>N__ @ADVL__) TARGET n/adj:pron-stem;
 #ADD (@SUBJ__ @OBJ__ @>N__ @ADVL__) TARGET n/adj:num-stem;
 #ADD (@SUBJ__ @OBJ__ @>N__) TARGET n:prop;
-#ADD (@SUBJ__ @OBJ__ @>N__ @ADVL__ @APP__ @PRED__) TARGET n/adj;
+#ADD (@SUBJ__ @OBJ__ @>N__ @ADVL__ @APP__ @SPRED__) TARGET n/adj;
 #ADD (@SUBJ__ @OBJ__ @>N__ @ADVL__) TARGET n/adj:postp-stem/adv-stem;
 #
 ## Adverbs
@@ -1864,7 +1866,7 @@ LIST cx:russ = cx:russ;
 #ADD (@NEG__) TARGET neg:ES;
 #ADD (@IMPERATIVE-NEG__) TARGET neg:imper/optat;
 #ADD (@NEG__) TARGET neg:russ;
-#ADD (@+FMAINV__ @-FMAINV__ @SUBJ__ @OBJ__ @PRED__) TARGET ptcp1/pres-vsg3;
+#ADD (@+FMAINV__ @-FMAINV__ @SUBJ__ @OBJ__ @SPRED__) TARGET ptcp1/pres-vsg3;
 #ADD (@+FMAINV__) TARGET neg:cond;
 #
 ## Non-finite verbs
@@ -1878,32 +1880,32 @@ MAP (@FS-FMAINV>) TARGET VINF1 IF (*1 VERBWITHMS_FIN BARRIER CLB OR EOS) ; # poi
 
 #ADD (@-FMAINV__ @SUBJ__ @OBJ__ @ADVL__) TARGET infMS/ME;
 #ADD (@-FMAINV__ @SUBJ__) TARGET inf/verbnMO/ME/MU/M;
-#ADD (@-FMAINV__ @SUBJ__ @PRED__) TARGET VOblig;
-#ADD (@-FMAINV__ @SUBJ__ @PRED__) TARGET inf/verbn/agptcpMA;
-#ADD (@-FMAINV__ @SUBJ__ @PRED__ @>N__) TARGET ptcp1;
-#ADD (@-FMAINV__ @>N__ @SUBJ__ @PRED__ @>N__) TARGET ptcp2;
-#ADD (@-FMAINV__ @>N__ @SUBJ__ @PRED__ @>N__) TARGET ptcp3;
-#ADD (@-FMAINV__ @>N__ @SUBJ__ @PRED__ @>N__) TARGET ptcp4;
+#ADD (@-FMAINV__ @SUBJ__ @SPRED__) TARGET VOblig;
+#ADD (@-FMAINV__ @SUBJ__ @SPRED__) TARGET inf/verbn/agptcpMA;
+#ADD (@-FMAINV__ @SUBJ__ @SPRED__ @>N__) TARGET ptcp1;
+#ADD (@-FMAINV__ @>N__ @SUBJ__ @SPRED__ @>N__) TARGET ptcp2;
+#ADD (@-FMAINV__ @>N__ @SUBJ__ @SPRED__ @>N__) TARGET ptcp3;
+#ADD (@-FMAINV__ @>N__ @SUBJ__ @SPRED__ @>N__) TARGET ptcp4;
 #ADD (@-FMAINV__) TARGET vunclear/russ;
 #
 ## Cases
-#ADD (@SUBJ__ @OBJ__ @>N__ @ADVL-quantity__ @PRED__ @>N__ @>P__ @APP__) TARGET cx:nom;
-#ADD (@>N__ @>P__ @<POSSESSOR__ @PRED__ @OBJ__) TARGET cx:gen;
+#ADD (@SUBJ__ @OBJ__ @>N__ @ADVL-quantity__ @SPRED__ @>N__ @>P__ @APP__) TARGET cx:nom;
+#ADD (@>N__ @>P__ @<POSSESSOR__ @SPRED__ @OBJ__) TARGET cx:gen;
 #ADD (@>N__) TARGET gen-derN;
 #ADD (@ADVL__) TARGET cx:instruktN;
 #ADD (@OBJ__) TARGET cx:nom/gen;
 #ADD (@ADVL__) TARGET cx:gen/instrukt;
-#ADD (@ADVL__ @PRED__ @OBJ__ @>N__) TARGET cx:ine;
-#ADD (@ADVL__ @PRED__) TARGET cx:ela;
+#ADD (@ADVL__ @SPRED__ @OBJ__ @>N__) TARGET cx:ine;
+#ADD (@ADVL__ @SPRED__) TARGET cx:ela;
 #ADD (@ADVL__) TARGET cx:ill;
 #ADD (@ADVL__) TARGET cx:lat;
-#ADD (@OBJ__ @ADVL__ @PRED__ @SUBJ__ @COMP-standard__ @>P__) TARGET cx:abl;
+#ADD (@OBJ__ @ADVL__ @SPRED__ @SUBJ__ @COMP-standard__ @>P__) TARGET cx:abl;
 #ADD (@ADVL__ @AGENT__) TARGET cx:all;
 #ADD (@ADVL__) TARGET cx:other-local;
 #ADD (@ADVL__) TARGET cx:abl/ela;
 #ADD (@ADVL__) TARGET cx:locative/separative;
-#ADD (@ADVL__ @PRED__) TARGET cx:prol;
-#ADD (@PRED-ADVL__ @ADVL__) TARGET cx:transl;
+#ADD (@ADVL__ @SPRED__) TARGET cx:prol;
+#ADD (@SPRED-ADVL__ @ADVL__) TARGET cx:transl;
 #ADD (@X__) TARGET transl-derKS;
 #ADD (@ADVL__) TARGET cx:tmporNEgroup;
 #ADD (@ADVL__) TARGET cx:tmpor-T;
@@ -1919,15 +1921,15 @@ MAP (@<QST) TARGET QST-LI;
 MAP (@ADDR) TARGET VOCATIVE; #2022-02-03
 #ADD (@PURPOSE__) TARGET cx:caus;
 #ADD (@ADVL__) TARGET cx:double-separative;
-#ADD (@>N__ @>P__ @<POSSESSOR__ @PRED__ @OBJ__) TARGET cx:gen/gen-derN;
-#ADD (@SUBJ__ @OBJ__ @>N__ @PRED__ @APP__) TARGET cx:gen+def;
-#ADD (@ADVL__ @PRED__ @OBJ__ @>N__) TARGET cx:gen+ine;
+#ADD (@>N__ @>P__ @<POSSESSOR__ @SPRED__ @OBJ__) TARGET cx:gen/gen-derN;
+#ADD (@SUBJ__ @OBJ__ @>N__ @SPRED__ @APP__) TARGET cx:gen+def;
+#ADD (@ADVL__ @SPRED__ @OBJ__ @>N__) TARGET cx:gen+ine;
 #ADD (@ADVL__) TARGET cx:gen+ill;
-#ADD (@>N__ @>P__ @<POSSESSOR__ @PRED__ @OBJ__) TARGET cx:ine+gen/gen-derN;
-#ADD (@SUBJ__ @OBJ__ @>N__ @PRED__ @APP__) TARGET cx:ine+def;
-#ADD (@>N__ @PRED__ @OBJ__) TARGET cx:abl+gen/gen-derN;
+#ADD (@>N__ @>P__ @<POSSESSOR__ @SPRED__ @OBJ__) TARGET cx:ine+gen/gen-derN;
+#ADD (@SUBJ__ @OBJ__ @>N__ @SPRED__ @APP__) TARGET cx:ine+def;
+#ADD (@>N__ @SPRED__ @OBJ__) TARGET cx:abl+gen/gen-derN;
 #ADD (@ADVL__) TARGET cx:compar+ill;
-#ADD (@ADVL__ @PRED__) TARGET cx:compar+abl/prol/N;
+#ADD (@ADVL__ @SPRED__) TARGET cx:compar+abl/prol/N;
 #ADD (@ADVL__) TARGET cx:tmpor+ill;
 #ADD (@ADVL__ @AGENT__) TARGET cx:transl-derKS+all;
 #ADD (@VOC__) TARGET cx:double-voc;
@@ -1935,7 +1937,7 @@ MAP (@ADDR) TARGET VOCATIVE; #2022-02-03
 #ADD (@-FMAINV__) TARGET infMOK;
 #ADD (@ADVL__) TARGET cx:latcase+element;
 #ADD (@ADVL__) TARGET cx:separative+element;
-#ADD (@ADVL__ @PRED__) TARGET cx:prol+element;
+#ADD (@ADVL__ @SPRED__) TARGET cx:prol+element;
 #ADD (@ADVL__) TARGET cx:locative+element;
 #ADD (@ADVL__) TARGET cx:ine+all;
 #ADD (@ADV__) TARGET cx:russ;
@@ -1953,7 +1955,7 @@ MAP (@ADDR) TARGET VOCATIVE; #2022-02-03
 
 # 11->44384
 # CLB
-MAP (@CLB) TARGET CLB OR DASH OR PUNCT;
+# this should be removed, since CLB is always a dependent MAP (@CLB) TARGET CLB OR DASH OR PUNCT;
 
 #not a conjunction
 #[[катка марто] бараннэнь]: молян горявамо хоть катка марто бараннэнь
@@ -1986,7 +1988,7 @@ MAP (@CC) TARGET CConj;
 MAP (@SC) TARGET SConj;
 
 ## predications with ideophones as predicates
-MAP (@PRED) TARGET IDEOPHONES IF (-1 SUBJECTCANDIDATESG3 OR NOUNSgNomIndef OR AJJSgNomIndef OR NAdjSgNomIndef);
+MAP (@SPRED) TARGET IDEOPHONES IF (-1 SUBJECTCANDIDATESG3 OR NOUNSgNomIndef OR AJJSgNomIndef OR NAdjSgNomIndef);# from @PRED 2023_02_23
     #голой ёлчк, понав лавцк.
 
 MAP (@SUBJ>) TARGET SUBJECTCANDIDATESG3 OR NOUNSgNomIndef OR AJJSgNomIndef OR NAdjSgNomIndef IF (1 IDEOPHONES);
@@ -2134,25 +2136,26 @@ MAP (@-FMAINV) TARGET VINF IF (*1 VFIN BARRIER CLB); # ???
 MAP (@>ADVL) TARGET ("эрьва" Det Sg Nom Indef) IF (1 ("косо") OR ("косто") OR ("ков") OR ("козонь") OR ("кува"));# эрьва косо
 
 #personal pronouns as predicates
-MAP (@PRED) TARGET PronPersSg1NomNoCop IF (*0 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR BOS);
-MAP (@PRED) TARGET PronPersSg2NomNoCop IF (*0 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR BOS);
+MAP (@SPRED) TARGET PronPersSg1NomNoCop IF (*0 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR BOS); # from @PRED 2023_02_23
+MAP (@SPRED) TARGET PronPersSg2NomNoCop IF (*0 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR BOS); # from @PRED 2023_02_23
 
-MAP (@PRED) TARGET PronPersPl1NomNoCop IF (*0 SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS OR BOS);
-MAP (@PRED) TARGET PronPersPl2NomNoCop IF (*0 SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS OR BOS);
+MAP (@SPRED) TARGET PronPersPl1NomNoCop IF (*0 SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS OR BOS); # from @PRED 2023_02_23
+MAP (@SPRED) TARGET PronPersPl2NomNoCop IF (*0 SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS OR BOS); # from @PRED 2023_02_23
 
-MAP (@PRED) TARGET (neg:ARAS);#hmm, where is this not a predicate? 
+MAP (@SPRED) TARGET (neg:ARAS);#hmm, where is this not a predicate?
+# from @PRED 2023_02_23
     #арась: , пекезэ арась, пулозо ули, ...
 
 # was @ADVLPRED
-MAP (@PRED) TARGET ADVLPREDCASES OR NONVPERSON;
-
+MAP (@SPRED) TARGET ADVLPREDCASES OR NONVPERSON; # from @PRED 2023_02_23
 MAP (@<SPRED) TARGET NAdjSgNomIndef OR AJJSgNomIndef IF (-2 CLB OR BOS) (-1 SUBJECTCANDIDATESG3) (1 CLB OR EOS) (NOT *0 VFIN BARRIER CLB OR BOS OR EOS);
 
-MAP (@PRED) TARGET NAdjSgNomIndef OR AJJSgNomIndef IF (-1 EJSTENoPX) (1 CLB OR EOS) (NOT *0 VFIN BARRIER CLB OR BOS OR EOS);
-#вишине:PRED пазонть эйстэ вишине, инязоронть эйстэ покш.
+MAP (@SPRED) TARGET NAdjSgNomIndef OR AJJSgNomIndef IF (-1 EJSTENoPX) (1 CLB OR EOS) (NOT *0 VFIN BARRIER CLB OR BOS OR EOS); # from @PRED 2023_02_23
+#вишине:OBLPRED пазонть эйстэ вишине, инязоронть эйстэ покш.
 #Zero subj
 
-MAP (@PRED) TARGET GerOzj (-1 ("мезе" Sg Nom Def));#Der/Ozj
+MAP (@SPRED) TARGET GerOzj (-1 ("мезе" Sg Nom Def));#Der/Ozj
+# from @PRED 2023_02_23
 
 
 
@@ -2315,9 +2318,9 @@ MAP (@<SUBJ) TARGET SUBJECTCANDIDATESG3 IF (-1* VFINPL3SUBJ BARRIER CLB OR BOS O
 MAP (@<SUBJ) TARGET SUBJECTCANDIDATESG3 IF (-1* @CNP  BARRIER NPBARRIER OR CLB OR BOS LINK -1 SUBJECTCANDIDATESG3 LINK -1* VFINPL3SUBJ BARRIER CLB OR BOS OR @CVP);
    #кабинетэсь: Сонзэ ютавтызь народной образованиянь Саранск ошонь отделэсь ды ошонь методической кабинетэсь 1977 иенть прядовомсто.
 
-## PRED
-MAP (@PRED) TARGET AJJSgNomIndef OR NOUNSgNomIndef IF (-2 @CNP OR CLB OR BOS) (-1 SUBJECTCANDIDATESG3) (1 CLB OR EOS);
-MAP (@PRED) TARGET AJJPlNomIndef OR NOUNPlNomIndef IF (-2 @CNP OR CLB OR BOS) (-1 SUBJECTCANDIDATEPL3 OR NOUNPlNomPxPl3 OR NOUNPlNomPxPl2 OR NOUNPlNomPxPl1 OR NOUNPlNomPxSg3 OR NOUNPlNomPxSg2 OR NOUNPlNomPxSg1) (1 CLB OR EOS OR @CNP );
+## SPRED
+MAP (@SPRED) TARGET AJJSgNomIndef OR NOUNSgNomIndef IF (-2 @CNP OR CLB OR BOS) (-1 SUBJECTCANDIDATESG3) (1 CLB OR EOS);# from @PRED 2023_02_23
+MAP (@SPRED) TARGET AJJPlNomIndef OR NOUNPlNomIndef IF (-2 @CNP OR CLB OR BOS) (-1 SUBJECTCANDIDATEPL3 OR NOUNPlNomPxPl3 OR NOUNPlNomPxPl2 OR NOUNPlNomPxPl1 OR NOUNPlNomPxSg3 OR NOUNPlNomPxSg2 OR NOUNPlNomPxSg1) (1 CLB OR EOS OR @CNP ); # from @PRED 2023_02_23
 
 # 11->41678
 # siebenkopfigen (_sisiX-_ _Xrasa_)
@@ -3207,12 +3210,12 @@ MAP (@-FADVL) TARGET (infMS/ME cx:ela) OR (inf/verbnMO/ME/MU/M indf nsg cx:ela\
 
 
 # was FMAINV-nonverb
-MAP (@PRED) TARGET NONVPERSON OR VOblig;
+MAP (@SPRED) TARGET NONVPERSON OR VOblig; # from @PRED 2023_02_23
     	    # everything but Prs ScSg3
 
-MAP (@PRED) TARGET GerOzj IF (NOT *0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR CConj);
+MAP (@SPRED) TARGET GerOzj IF (NOT *0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR CConj); # from @PRED 2023_02_23
     #Максим Алексеевич, тыненк максозь генераль-полковникень лем.
-MAP (@PRED) TARGET PrfPrcF IF (NEGATE *0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR CConj);
+MAP (@SPRED) TARGET PrfPrcF IF (NEGATE *0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR CConj); # from @PRED 2023_02_23
     #moksha: стаки пезфоль синтьф налть пец.
 
 
@@ -3258,8 +3261,8 @@ MAP (@SPRED) TARGET NGen IF (1 CLB OR EOS)
                             (NEGATE *0 V);
 
 # hmm, what are these for? non-verbal predication Copula
-MAP (@PRED) TARGET NAdjGenDerNSgIndf OR AJJGenDerNSgIndf OR NOUNGenDerNSgIndf;
-MAP (@PRED) TARGET NAdjGenDerNPlIndf OR AJJGenDerNPlIndf OR NOUNGenDerNPlIndf;
+MAP (@SPRED) TARGET NAdjGenDerNSgIndf OR AJJGenDerNSgIndf OR NOUNGenDerNSgIndf; # from @PRED 2023_02_23
+MAP (@SPRED) TARGET NAdjGenDerNPlIndf OR AJJGenDerNPlIndf OR NOUNGenDerNPlIndf; # from @PRED 2023_02_23
 
 
 ###############################################################################
@@ -3610,8 +3613,8 @@ MAP (@ADVL) TARGET NAdjSgDatDef OR NOUNSgDatDef;
 MAP (@ADVL) TARGET NAdjPlDatDef OR NOUNPlDatDef;
 
 #
-MAP (@<ADVL) TARGET PronPersSPDat  IF (*-1 VFIN OR @PRED BARRIER CLB OR BOS);
-MAP (@ADVL>) TARGET PronPersSPDat IF (*1 VFIN OR @PRED BARRIER CLB OR EOS);
+MAP (@<ADVL) TARGET PronPersSPDat  IF (*-1 VFIN OR @SPRED BARRIER CLB OR BOS); # from @PRED 2023_02_23
+MAP (@ADVL>) TARGET PronPersSPDat IF (*1 VFIN OR @SPRED BARRIER CLB OR EOS); # from @PRED 2023_02_23
     #тыненк: Максим Алексеевич, тыненк максозь генераль-полковникень лем.
 
 MAP (@ADVL) TARGET PronPersSg1DatShort;
@@ -3663,9 +3666,9 @@ MAP (@ADVL) TARGET NAdjSgIllPxSg2;
 MAP (@ADVL) TARGET NAdjPlIllPxSg2;
 
 #Inessive pred
-MAP (@PRED) TARGET PostpInePX OR NOUNSPInePX OR PostpPrlPX OR NOUNSPPrlPX IF (*0 SUBJECTCANDIDATESG3 OR NOUNSgNomIndef BARRIER CLB OR EOS OR BOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj);
+MAP (@SPRED) TARGET PostpInePX OR NOUNSPInePX OR PostpPrlPX OR NOUNSPPrlPX IF (*0 SUBJECTCANDIDATESG3 OR NOUNSgNomIndef BARRIER CLB OR EOS OR BOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj); # from @PRED 2023_02_23
     # , сиянь шапка [прясонзо], 
-MAP (@PRED) TARGET PostpInePX OR NOUNSPInePX OR PostpPrlPX OR NOUNSPPrlPX IF (*0 SUBJECTCANDIDATEPL3 OR NOUNPlNomIndef BARRIER CLB OR EOS OR BOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj);
+MAP (@SPRED) TARGET PostpInePX OR NOUNSPInePX OR PostpPrlPX OR NOUNSPPrlPX IF (*0 SUBJECTCANDIDATEPL3 OR NOUNPlNomIndef BARRIER CLB OR EOS OR BOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj); # from @PRED 2023_02_23
 
 #MAP (@ADVL) TARGET NAdjSgInePxSg2;
 #MAP (@ADVL) TARGET NAdjPlInePxSg2;
@@ -3749,7 +3752,7 @@ MAP (@ADVL) TARGET NOUNSgElaDef;
 MAP (@ADVL) TARGET NOUNPlElaDef;
 
 
-#
+## from @PRED 2023_02_23??FIXME
 MAP (@PRED-ADVL) TARGET NAdjTranslIndfSg;
 MAP (@PRED-ADVL) TARGET NAdjTranslIndfPl;
 MAP (@PRED-ADVL) TARGET NOUNTranslIndfSP;
@@ -3827,20 +3830,20 @@ MAP (@SUBJ) TARGET PronPersPlNom IF (1 ("<$,>"))
 
 ###############################################################################
 #
-# @PRED
+# @SPRED # from @PRED 2023_02_23
 #
 ###############################################################################
 
 MAP (@<SPRED) TARGET NOUNSgNomDef IF (-1* NOUNSgNomDef BARRIER CLB OR BOS);
-#Тесэ весе чумось войнась
+#войнась: Тесэ весе чумось войнась
 
 MAP:ExistButNoLoc (@SUBJ) TARGET NOUNSgNomDef OR NOUNSgNomPx IF (NEGATE *0 @+FMAINV)
     	    	   		(1 EOS)
 				(NEGATE 0* SUBJECTCANDIDATESG3);
    #Вана зыянось!
 #
-MAP (@PRED) TARGET Nom IF (NEGATE *0 @+FMAINV)
-                          (1 EOS);
+MAP (@SPRED) TARGET Nom IF (NEGATE *0 @+FMAINV) 
+                          (1 EOS); # from @PRED 2023_02_23
 
 #
 MAP (@<OBJ) TARGET (Nom Indef) IF (-2 Dat) (-1 MEREMSDATWITHNOM);
@@ -3874,8 +3877,8 @@ MAP (@VOC) TARGET NOUNPlNomIndef IF (-2 CLB OR BOS) (-1 NOUNPlNomIndef) (1 CLB O
 MAP (@HNOUN) TARGET NOUNSPNomIndef IF (1 (".") OR (")") OR EOS) (NOT *0 VFIN);#Should ) be dealt with here 2022-03-04
 
 
-MAP (@PRED) TARGET Nom IF (1 CLB);#2022-02-23 maybe too strong
-
+MAP (@SPRED) TARGET Nom IF (1 CLB);#2022-02-23 maybe too strong
+# from @PRED 2023_02_23
 
 
 
@@ -4113,8 +4116,8 @@ SECTION
 #2022-09-07#LIST @<IOBJ = @<IOBJ; # Indirect Object. Head verb to the left...........................OLD...DO WE KEEP IT???
 #2022-09-07##LIST @IOBJ> = @IOBJ>; # Indirect Object. Head verb to the right..........................OLD...DO WE KEEP IT???
 
-#2022-09-07### It is realistic to only use @PRED. I'm not used to distinguishing subject predicative and object predicative. The use of arrows seems to be unrealistic because the copula verb is most often not used. To which word the arrow should point to in the absence of copula?
-#2022-09-07### Here @PRED then becomes the head 2022-02-7
+#2022-09-07### It is realistic to only use @PRED. I'm not used to distinguishing subject predicative and object predicative. The use of arrows seems to be unrealistic because the copula verb is most often not used. To which word the arrow should point to in the absence of copula? THIS WAS JORMA, but it should be @SPRED with arrows both ways (see from @PRED 2023_02_23)
+#2022-09-07### Here @SPRED then becomes the head 2023-02-23 head of copula equative and qualitative
 #2022-09-07#LIST @OPRED = @OPRED ; # Object predicative, e.g. Cakes, she makes really good ones; You make yourself a Saami speaker
 #2022-09-07#LIST @<OPRED = @<OPRED ; # Object predicative points to the finite verb on its left
 #2022-09-07#     #урозокс: Войнась теизе урозокс Сашоконь.
@@ -4125,10 +4128,6 @@ SECTION
 #2022-09-07#LIST @PCLE = @PCLE ;
 #2022-09-07#LIST @COMP-CS< = @COMP-CS< ;
 #2022-09-07# 
-#2022-09-07#LIST @SPRED = @SPRED ; # Subject predicative (e.g. in elliptical sentences); e.g. My hands are so cold кедень кельмть
-#2022-09-07#LIST @<SPRED = @<SPRED ; # Predicative with a predicative as its head, e.g. Mahtte has Jovnna as a servant
-#2022-09-07#LIST @SPRED> = @SPRED> ;  # Subject predicative to the right of the finite verb
-#2022-09-07##Not the same thing in Erzya?Маттень ули Йовназо лездыцякс 2022-02-07
 
 
 #2022-09-07#LIST @SUBJ = @SUBJ ;  # Subject (e.g. elliptical)
