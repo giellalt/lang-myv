@@ -5,9 +5,9 @@ nouns.
 
 ## Closed class personal pronouns
 
-+Interr+Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
++Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
 
-+Interr+Sem/Obj: CLT/COP_SG ;  singular
++Sem/Obj: CLT/COP_SG ;  singular
 
 мон:мо
 
@@ -49,7 +49,7 @@ Relative pronouns
 
 мезе+Pron:мезИ2 Misc_Pronouns1 ;
 мезе+Pron+Rel+Gen:мень K ;
-ки+Pron+Interr:ки Misc_Pronouns1 ;
+ки+Pron:ки Misc_Pronouns1 ;
 
 Some pronoun continuation have been moved here
 Out of TestLexc-noun.txt
