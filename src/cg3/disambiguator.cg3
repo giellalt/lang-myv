@@ -1452,7 +1452,8 @@ REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 REMOVE (N Pl Nom PxSg1) IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
        #Мон чистэ шлян толган.
 
-REMOVE (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef));
+REMOVE:RemovePxSg2IfOtherPl (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef));
+REMOVE (N Pl Nom PxSg2) IF (-2 (Pl Nom Indef)) (-1 ("ды")) (0 (N Pl Nom Indef)); # too strong
        # .. кедть ды пилеть..
 
 REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
