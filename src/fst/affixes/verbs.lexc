@@ -43,7 +43,7 @@ LEXICON V_ARAS1_01
 +Prt2+ScPl3:%>%{оеэØ%}льть K ;
 
 
-!! OBJECT FLAGS AND +V+TV tags
+!! OBJECT FLAGS AND +V tags
 LEXICON V-AUX-NEG-CONJ !! а+V:а 
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@  ConjPers-withO-all ;
 
@@ -111,22 +111,22 @@ LEXICON BV_KUZEMS
  TV_KUZEMS ;
 
 LEXICON TV_LEDEMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_LEDEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%} DERIVE-V2V-WITH-ONSET-VOWEL_FRONT ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_LEDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%} DERIVE-V2V-WITH-ONSET-VOWEL_FRONT ;
 
-!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-!@U.TRANS.IV@!+V+TV+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+Der/OvtOms+Der/njems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+!@U.TRANS.IV@!+V+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_KADOMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_KADOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%} DERIVE-V2V-WITH-ONSET-VOWEL_BACK ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_KADOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%} DERIVE-V2V-WITH-ONSET-VOWEL_BACK ;
 
-!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшно V_KUNDAMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+TV+Der/OvtOms+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-!@U.TRANS.IV@!+V+TV+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшно V_KUNDAMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@!+V+Der/OvtOms+Der/njems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+!@U.TRANS.IV@!+V+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 ! This should not occur
 !LEXICON TV_SAEVEMS 
@@ -137,35 +137,35 @@ LEXICON TV_NEVTEMS_SUB !!= **@CODE@**
 +Use/NG+Err/Orth: TV_NEVTEMS ;
 
 LEXICON TV_NEVTEMS  !!≈ * _@CODE@_  невтемс:невть
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_SAVTOMS_SUB !!= **@CODE@** 
 +Use/NG+Err/Orth: TV_SAVTOMS ;
 
 LEXICON TV_SAVTOMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшно V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 LEXICON TV_SAVTOMS-SG3_SUBJ/ZERO !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV+Subj/Zero:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS-SG3 ;
-+TV+Subj/Zero:  Deverbals-kadoms ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Subj/Zero:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SAVTOMS-SG3 ;
++Subj/Zero:  Deverbals-kadoms ;
 
 LEXICON TV_CHACHTOMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_CHACHTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV+Der+Der/OkshnOms:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшно V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_CHACHTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/njems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>не V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 !LEXICON TV_JANGAVOMS !!= __@CODE@__ 
 ! @P.CONJ.ObjAll@@U.TRANS.TV@ V_JANGAVOMS ;
@@ -174,34 +174,34 @@ LEXICON TV_KUNDAMS_SUB !!= **@CODE@**
 +Use/NG+Err/Orth: TV_KUNDAMS ;
 
 LEXICON TV_KUNDAMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшно V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 LEXICON TV_PIDEMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>в V_SAEVEMS ;
 
 LEXICON TV_E2ZHNEMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>в V_SAEVEMS ;
 
 LEXICON TV_KUNDAKSHNOMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_KUNDAMS ;
 
 
 ! This actually does exist in a pair verb
 ! таргатомс
 LEXICON TV_SATOMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SATOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_SATOMS ;
 
 ! This should not exist by definition
 ! 
@@ -210,69 +210,69 @@ LEXICON TV_SATOMS !!= **@CODE@**
 
 !LEXICON TV_UEMS !!= __@CODE@__ 
 !@P.CONJ.ObjAll@@U.TRANS.TV@ V_UEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-!@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+!@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+!@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_TUEMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ Indicative_Present_Obj ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_TUEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ Indicative_Present_Obj ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_TUEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_TEEMS !!= **@CODE@** 
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_TEEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_TEEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_NEEMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_MIEMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_MIEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_MIEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON TV_NEKSHNEMS  !!≈ * _@CODE@_  некшнемс:некшн
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_NEKSHNEMS ;
 !!2012-04-24 the TAG "+Sem/ObjOpen": has been removed 
 
 LEXICON TV_KUZEMS
 @P.CONJ.ObjAll@@U.TRANS.TV@ V_KUZEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OkshnOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 !! VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
 
 !LEXICON TV_LEDEMS-Obj3_SUB
 !+Use/NG+Err/Orth: TV_LEDEMS-Obj3 ;
-LEXICON TV_LEDEMS-Obj3 !Checkme 2019-08 does this need +TV
-+TV: V_LEDEMS ;
-@U.CONJ-PX.13@+TV:@U.CONJ-PX.13@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.16@+TV:@U.CONJ-PX.16@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.23@+TV:@U.CONJ-PX.23@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.26@+TV:@U.CONJ-PX.26@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.33@+TV:@U.CONJ-PX.33@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.36@+TV:@U.CONJ-PX.36@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.43@+TV:@U.CONJ-PX.43@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.46@+TV:@U.CONJ-PX.46@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.53@+TV:@U.CONJ-PX.53@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.56@+TV:@U.CONJ-PX.56@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.63@+TV:@U.CONJ-PX.63@ V_LEDEMS-CONJUGATION ;
-@U.CONJ-PX.66@+TV:@U.CONJ-PX.66@ V_LEDEMS-CONJUGATION ;
+LEXICON TV_LEDEMS-Obj3 !Checkme 2019-08 does this need 
+: V_LEDEMS ;
+@U.CONJ-PX.13@:@U.CONJ-PX.13@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.16@:@U.CONJ-PX.16@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.23@:@U.CONJ-PX.23@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.26@:@U.CONJ-PX.26@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.33@:@U.CONJ-PX.33@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.36@:@U.CONJ-PX.36@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.43@:@U.CONJ-PX.43@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.46@:@U.CONJ-PX.46@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.53@:@U.CONJ-PX.53@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.56@:@U.CONJ-PX.56@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.63@:@U.CONJ-PX.63@ V_LEDEMS-CONJUGATION ;
+@U.CONJ-PX.66@:@U.CONJ-PX.66@ V_LEDEMS-CONJUGATION ;
 
 !LEXICON TV_KADOMS-Obj3_SUB
 !+Use/NG+Err/Orth: TV_KADOMS-Obj3 ;
@@ -300,9 +300,9 @@ LEXICON BV_CONS_INITIAL_VERB_FORMS
 IV_CONS_INITIAL_VERB_FORMS ;
 TV_CONS_INITIAL_VERB_FORMS ;
 LEXICON TV_CONS_INITIAL_VERB_FORMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_CONS_INITIAL_VERB_FORMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_CONS_INITIAL_VERB_FORMS ;
 LEXICON IV_CONS_INITIAL_VERB_FORMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_CONS_INITIAL_VERB_FORMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_CONS_INITIAL_VERB_FORMS ;
 LEXICON V_CONS_INITIAL_VERB_FORMS
  IND-PRT1-30 ;
  IND-PRT1-60 ;
@@ -336,9 +336,9 @@ LEXICON BV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS
 	TV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS ;
 	IV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS ;
 LEXICON TV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS
-@P.CONJ.ObjAll@@U.TRANS.TV@+TV:@P.CONJ.ObjAll@@U.TRANS.TV@ V_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@:@P.CONJ.ObjAll@@U.TRANS.TV@ V_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS ;
 LEXICON IV_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS ;
 
 LEXICON V_STEMVOWEL_OR_OBLIGATORY_MIDVOWEL_INITIAL_VERB_FORMS
 Deverbals_mutual ;
@@ -595,71 +595,71 @@ LEXICON TV_NEKSHNEMS-Obj3
 !@U.CONJ-PX.66@ V_KUZEMS-CONJUGATION ;
 
 
-!! VERBS WITH INTRANSITIVE TAGS +V+IV
+!! VERBS WITH INTRANSITIVE TAGS +V
 LEXICON IV_UEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_UEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@й%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@й%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@й%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@й%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_UEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@й%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@й%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@й%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@й%>%{оеэØ%}в V_SAEVEMS ;
 
 
 LEXICON IV_TUEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_TUEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_TUEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_TEEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_TEEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_TEEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_NEEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_NEEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_NEEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_MIEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_MIEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_MIEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_NEKSHNEMS_SUB
 +Use/NG+Err/Orth: IV_NEKSHNEMS ;
 
 LEXICON IV_NEKSHNEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_NEKSHNEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_NEKSHNEMS ;
 
 !касомс:ка
 LEXICON IV_KASOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_KASOMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@с%>%{оеэØ%}кшно V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@с%>т V_SAVTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@с%>тне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@с%>%{оеэØ%}в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_KASOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@с%>%{оеэØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@с%>т V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@с%>тне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@с%>%{оеэØ%}в V_JANGAVOMS ;
 
 !куземс:ку
 LEXICON IV_KUZEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_KUZEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@зь%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>зевть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>зевтне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_KUZEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@зь%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>зевтне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_LEDEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_LEDEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_LEDEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 !LEXICON IV_LEDEMS-SG3
 !@U.TRANS.IV@ V_LEDEMS-SG3 ;
@@ -667,10 +667,10 @@ LEXICON IV_LEDEMS
 LEXICON IV_SAVTOMS_SUB
 +Use/NG+Err/Orth: IV_SAVTOMS ;
 LEXICON IV_SAVTOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_SAVTOMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
-@U.TRANS.IV@+Der+Der/njems+V+IV:@U.TRANS.IV@%>не V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/njems+V:@U.TRANS.IV@%>не V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 !LEXICON IV_SAVTOMS-SG3
 !@U.TRANS.IV@ V_SAVTOMS-SG3 ;
@@ -679,120 +679,120 @@ LEXICON IV_SAVTOMS
 !+Subj/Zero:  Deverbals-kadoms ;
 
 LEXICON IV_CHACHTOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_CHACHTOMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_CHACHTOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}втне V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 LEXICON IV_NEVTEMS_SUB
 +Use/NG+Err/Orth: IV_NEVTEMS ;
 LEXICON IV_NEVTEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_NEVTEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_NEVTEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_SAEVEMS ;
 
 LEXICON IV_KADOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_KADOMS ;
-@U.TRANS.IV@+IV+Der+Der/OkshnOms:@U.TRANS.IV@%>%{оеэØ%}кшно IV_KUNDAKSHNOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_KADOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms:@U.TRANS.IV@%>%{оеэØ%}кшно IV_KUNDAKSHNOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 LEXICON IV_SAEVEMS_SUB
 +Use/NG+Err/Orth: IV_SAEVEMS ;
 LEXICON IV_SAEVEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_SAEVEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>кшн V_NEKSHNEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>кшн V_NEKSHNEMS ;
 
 LEXICON IV_POTAZEVEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_SAEVEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>кшн V_NEKSHNEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_SAEVEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
 
 LEXICON IV_JANGAVOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_JANGAVOMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>кшно V_KUNDAMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_JANGAVOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>кшно V_KUNDAMS ;
 
 LEXICON IV_KUNDAMS_SUB
 +Use/NG+Err/Orth: IV_KUNDAMS ;
 LEXICON IV_KUNDAMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_KUNDAMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@кшно IV_KUNDAKSHNOMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_KUNDAMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@кшно IV_KUNDAKSHNOMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>%{оеэØ%}вт V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>%{оеэØ%}в V_JANGAVOMS ;
 
 LEXICON IV_PIDEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@кшн IV_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_SAVTOMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@кшн IV_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>в V_JANGAVOMS ;
 
 LEXICON IV_E2ZHNEMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_PIDEMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@кшн IV_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_SAVTOMS ;
-@U.TRANS.IV@+Der+Der/OvOms+V+IV:@U.TRANS.IV@%>в V_JANGAVOMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_PIDEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@кшн IV_NEKSHNEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_SAVTOMS ;
+@U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>в V_JANGAVOMS ;
 
 LEXICON IV_KUNDAKSHNOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_KUNDAMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_KUNDAMS ;
 
 LEXICON IV_SATOMS
-@U.TRANS.IV@+IV:@U.TRANS.IV@ V_SATOMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@U.TRANS.IV@:@U.TRANS.IV@ V_SATOMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
 
 LEXICON IV_LETEMS
  IV_SATOMS ;
-@U.TRANS.IV@+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+@U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
 
 !! # AUXILIARY VERBS
 !LEXICON VA_SAVTOMS
 !+V+Aux: V_SAVTOMS ;
-!@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+!@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
 
 !LEXICON VA_JANGAVOMS
 !+V+Aux: V_JANGAVOMS ;
-!@U.TRANS.IV@!+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+!@U.TRANS.IV@!+V+Aux+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
 
 !LEXICON VA_JANGAVOMS-SG3
 !+V+Aux: V_JANGAVOMS-SG3 ;
 
 !LEXICON VA_LETEMS
 !+V+Aux: V_SATOMS ;
-!@U.TRANS.IV@!+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
+!@U.TRANS.IV@!+V+Aux+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшн V_NEKSHNEMS ;
 
 !LEXICON VA_LETEMS-SG3
 !+V+Aux: V_SATOMS-SG3 ;
 
 LEXICON VA_KUNDAMS
 +Aux: V_KUNDAMS ;
-@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V+IV:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
+@U.TRANS.IV@+V+Aux+Der+Der/OkshnOms+V:@U.TRANS.IV@%>%{оеэØ%}кшно V_KUNDAMS ;
 
 
 !! # DERIVATION
 LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_FRONT
 +Der+Der/OkshnOms+V:кшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@втне V_PIDEMS ;
-@P.TRANS.IV@+Der+Der/OvOms+V+IV:@P.TRANS.IV@в V_SAEVEMS ;
-@P.TRANS.IV@+Der+Der/OvkshnOms+V+IV:@P.TRANS.IV@вкшн V_NEKSHNEMS ;
-@P.TRANS.IV@+Der+Der/Ozevems+V+IV:@P.TRANS.IV@зев V_SAEVEMS ;
-@P.TRANS.IV@+Der+Der/Ozevkshnems+V+IV:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtnjems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>вть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@P.TRANS.TV@втне V_PIDEMS ;
+@P.TRANS.IV@+Der+Der/OvOms+V:@P.TRANS.IV@в V_SAEVEMS ;
+@P.TRANS.IV@+Der+Der/OvkshnOms+V:@P.TRANS.IV@вкшн V_NEKSHNEMS ;
+@P.TRANS.IV@+Der+Der/Ozevems+V:@P.TRANS.IV@зев V_SAEVEMS ;
+@P.TRANS.IV@+Der+Der/Ozevkshnems+V:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtems+V:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtnjems+V:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
 
 
 LEXICON DERIVE-V2V-WITH-ONSET-VOWEL_BACK
 +Der+Der/OkshnOms+V:кшно V_KUNDAMS ;
-@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V+TV:@P.CONJ.ObjAll@@U.TRANS.TV@%>вт V_SAVTOMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ovtnjems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@втне V_PIDEMS ;
-@P.TRANS.IV@+Der+Der/OvOms+V+IV:@P.TRANS.IV@в V_JANGAVOMS ;
-@P.TRANS.IV@+Der+Der/OvkshnOms+V+IV:@P.TRANS.IV@вкшно V_KUNDAMS ;
-@P.TRANS.IV@+Der+Der/Ozevems+V+IV:@P.TRANS.IV@зев V_SAEVEMS ;
-@P.TRANS.IV@+Der+Der/Ozevkshnems+V+IV:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
-@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtnjems+V+TV:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
+@P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>вт V_SAVTOMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ovtnjems+V:@P.CONJ.ObjAll@@P.TRANS.TV@втне V_PIDEMS ;
+@P.TRANS.IV@+Der+Der/OvOms+V:@P.TRANS.IV@в V_JANGAVOMS ;
+@P.TRANS.IV@+Der+Der/OvkshnOms+V:@P.TRANS.IV@вкшно V_KUNDAMS ;
+@P.TRANS.IV@+Der+Der/Ozevems+V:@P.TRANS.IV@зев V_SAEVEMS ;
+@P.TRANS.IV@+Der+Der/Ozevkshnems+V:@P.TRANS.IV@зевкшн V_NEKSHNEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtems+V:@P.CONJ.ObjAll@@P.TRANS.TV@зевть V_NEVTEMS ;
+@P.CONJ.ObjAll@@P.TRANS.TV@+Der+Der/Ozevtnjems+V:@P.CONJ.ObjAll@@P.TRANS.TV@зевтне V_PIDEMS ;
 
 !LEXICON DERIVE-V2V-WITHOUT-ONSET-VOWEL
 
@@ -3256,7 +3256,7 @@ LEXICON ImpK
 
 LEXICON VerbEnd_ImpK
  VerbEnd ;
-!! ваномс+V+TV+Imprt+ScPl2+Clt/Ga: **look/katsoa**
+!! ваномс+V+Imprt+ScPl2+Clt/Ga: **look/katsoa**
 !!€ ван%>%{оеэØ%}дО1%>Г4а
 !!€ ван%>одо%>0я
 +Clt/AddGak:%>Г1ак ENDLEX ;
