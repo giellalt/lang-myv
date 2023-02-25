@@ -141,6 +141,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 **Е3:э sometimes ** %> т н _ 2013-02-23
 
 **ye:e always **  
+сыр
+* *сыр>Н1е{frontSoft}>{оеэØ}нь*
+* *сыр>нэ0>0нь*
 
 **Н1:н**  
 **Н1:к**  
