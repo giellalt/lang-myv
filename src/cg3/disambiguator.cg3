@@ -436,7 +436,7 @@ LIST Sem/Sur = Sem/Sur ;
 LIST Sem/Fem = Sem/Fem ;
 LIST Sem/Mal = Sem/Mal ;
 LIST Sem/Mal-Sur = Sem/Mal-Sur ;
-
+LIST Sem/Kin = Sem/Kin sem_kin ;
 LIST Sem/Ant = Sem/Ant ;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
 LIST SUR = Sem/Sur_Mal Sem/Sur_Fem ;
@@ -677,6 +677,17 @@ LIST PL3-V =  (V Ind Prs ScPl3)  (V Ind Prt1 ScPl3) (V Ind Prt2 ScPl3)
              (V Conj ScPl3) (V CondConj ScPl3) (V Des ScPl3) (V Opt ScPl3)
              (V Aux Neg Ind Prt1 ScPl3) (V Aux Neg Ind Prt2 ScPl3)
              (V Aux Neg Conj ScPl3);
+
+# these will be ones WITHOUT object conjugation
+SET SG1-VSConj = SG1-V - VFINPERSONOBJ ; # these have no object conjugation form
+SET SG2-VSConj = SG2-V - VFINPERSONOBJ ; # these have no object conjugation form
+SET SG3-VSConj = SG3-V - VFINPERSONOBJ ; # these have no object conjugation form
+SET PL1-VSConj = PL1-V - VFINPERSONOBJ ; # these have no object conjugation form
+SET PL2-VSConj = PL2-V - VFINPERSONOBJ ; # these have no object conjugation form
+SET PL3-VSConj = PL3-V - VFINPERSONOBJ ; # these have no object conjugation form
+
+# these will be ones WITH object conjugation
+#LIST SG3-VOConj = SG3-V VFINPERSONOBJ ;# these HAVE object conjugation form
 
 
  # Note that imperative verbs are not included in these sets!
@@ -1025,6 +1036,8 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR E
 SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR EOS OR BOS LINK 1 CLB OR EOS);
 #прятнень: зярдо чись ансяк кармась пургсеме якстере струясонзо чувто прятнень,...
 
+#SUBSTITUTE (DIALREADING) (*) TARGET (*) ;
+
 
 
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
@@ -1157,6 +1170,21 @@ SELECT:AuxNegNextJThenVerb ("а" V Aux Neg) IF (1 ("й")) (2 TAKESSYMMETRICNEG);
        
 SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
        #
+
+
+#SG3-VSConj PxSg2
+REMOVE Pl IF (0 Sg + Nom + SPPOSSESSUM) (0* SG3-VSConj BARRIER EOS OR BOS) 
+	      	      	    	(NOT 0* POSSIBLESGNOMSUBJ BARRIER EOS OR BOS); 
+#Тетят: Тетят тусь велев.
+
+#Clt/Cop Prs ScSg2
+REMOVE:NoCopulaWhenPredAvailable (Clt/Cop Prs ScSg2) IF (0 Sg + Nom)
+				 (0* SG3-VSConj BARRIER EOS OR BOS)
+				 (NOT 0* POSSIBLESGNOMSUBJ BARRIER EOS OR BOS);
+# Remove copula Sg2 reading if there is a nominative singular reading
+# and there is a third person singular verb form with no subject candidate between
+# beginning and end of the sentence.
+# This may be too powerful.
 
 SELECT ("пингстэ" Po);
        #This should address consonant-stem
