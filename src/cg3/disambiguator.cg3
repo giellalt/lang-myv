@@ -1173,7 +1173,7 @@ SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
 
 
 #SG3-VSConj PxSg2
-REMOVE Pl IF (0 Sg + Nom + SPPOSSESSUM) (0* SG3-VSConj BARRIER EOS OR BOS) 
+REMOVE:NotPlWhenSg3verbAgreement Pl IF (0 Sg + Nom + SPPOSSESSUM) (0* SG3-VSConj BARRIER EOS OR BOS) 
 	      	      	    	(NOT 0* POSSIBLESGNOMSUBJ BARRIER EOS OR BOS); 
 #Тетят: Тетят тусь велев.
 
