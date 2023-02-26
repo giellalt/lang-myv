@@ -278,7 +278,8 @@ LIST ScPl2 = ScPl2 (s_p2 s_pl) (a_p2 a_pl) ;
 LIST ScPl3 = ScPl3 (s_p3 s_pl) (a_p3 a_pl) ;
 
 
-LIST Clt/Cop = Clt/Cop ;
+LIST Clt/Cop = Clt/Cop clt_cop ;
+
 SET HASSCPERSON = ScSg1 | ScSg2 | ScSg3 | ScPl1 | ScPl2 | ScPl3 ;
 
 SET VFINSG1SUBJ = ScSg1 - Clt/Cop;# finite verb -- not noun
@@ -375,7 +376,7 @@ LIST Clt/Гаятя = Clt/Гаятя ;
 LIST Clt/Гатя = Clt/Гатя ;
 LIST Clt/Гака = Clt/Гака ;
 LIST Clt/Гакая = Clt/Гакая ;
-LIST Clt/Add = Clt/Add ; # Гак
+LIST Clt/Add = Clt/Add clt_add ; # Гак
 
 #!! * ### Derivation tags
 
