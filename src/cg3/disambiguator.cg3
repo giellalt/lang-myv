@@ -205,9 +205,12 @@ LIST PxPl1 = PxPl1 ;
 LIST PxPl2 = PxPl2 ;
 LIST PxPl3 = PxPl3 ;
 SET SPPOSSESSUM =  PxSg1 |  PxSg2 | PxSg3 | PxPl1 | PxPl2 | PxPl3;
+#LIST SPPOSSESSUM =  PxSg1  PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ;
 LIST SgGenPossessum = (Sg Gen PxSg1) (Sg Gen PxSg2) (Sg Gen PxSg3) (Sg Gen PxPl1) (Sg Gen PxPl2) (Sg Gen PxPl3); 
-LIST PlGenPossessum = (Pl Gen PxSg1) (Pl Gen PxSg2) (Pl Gen PxSg3) (Pl Gen PxPl1) (Pl Gen PxPl2) (Pl Gen PxPl3); 
-LIST SgNomPossessum = (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3); 
+#LIST PlGenPossessum = (Pl Gen PxSg1) (Pl Gen PxSg2) (Pl Gen PxSg3) (Pl Gen PxPl1) (Pl Gen PxPl2) (Pl Gen PxPl3); 
+SET PlGenPossessum = (Pl Gen PxSg1) | (Pl Gen PxSg2) | (Pl Gen PxSg3) | (Pl Gen PxPl1) | (Pl Gen PxPl2) | (Pl Gen PxPl3); 
+#LIST SgNomPossessum = (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3); 
+SET SgNomPossessum = (Sg Nom PxSg1) | (Sg Nom PxSg2) | (Sg Nom PxSg3) | (Sg Nom PxPl1) | (Sg Nom PxPl2) | (Sg Nom PxPl3); 
 LIST PlNomPossessum = (Pl Nom PxSg1) (Pl Nom PxSg2) (Pl Nom PxSg3) (Pl Nom PxPl1) (Pl Nom PxPl2) (Pl Nom PxPl3); 
 
 LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
@@ -216,7 +219,9 @@ SET AdjObl = A - (Sg Nom Indef) - (Pl Nom Indef) ;
 SET NObl = N - (Sg Nom Indef) - (Pl Nom Indef) ;
 
 
-LIST POSSIBLESGNOMSUBJ = (N Sg Nom Indef) (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3) ;#possible Sg Nom subject
+LIST POSSIBLESGNOMSUBJ = (N Sg Nom Indef) (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3)
+(Sg Nom Def) (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3)
+;#possible Sg Nom subject
 
 LIST POSSIBLEPLNOMSUBJ = (N Pl Nom Indef) (N Pl Nom Def) (N Pl Nom PxSg1) (N Pl Nom PxSg2) (N Pl Nom PxSg3) (N Pl Nom PxPl1) (N Pl Nom PxPl2) (N Pl Nom PxPl3) ;#possible Pl Nom subject
 
@@ -679,10 +684,12 @@ LIST PL3-V =  (V Ind Prs ScPl3)  (V Ind Prt1 ScPl3) (V Ind Prt2 ScPl3)
              (V Aux Neg Ind Prt1 ScPl3) (V Aux Neg Ind Prt2 ScPl3)
              (V Aux Neg Conj ScPl3);
 
+SET SETSG3-VSC =  (V Ind Prs ScSg3) - VFINPERSONOBJ | (V Ind Prt1 ScSg3) - VFINPERSONOBJ | (V Ind Prt2 ScSg3) - VFINPERSONOBJ | (V Cond Prs ScSg3) - VFINPERSONOBJ | (V Cond Prt1 ScSg3) - VFINPERSONOBJ | (V Cond Prt2 ScSg3) - VFINPERSONOBJ  | (V Conj ScSg3) - VFINPERSONOBJ | (V CondConj ScSg3) - VFINPERSONOBJ | (V Des ScSg3) - VFINPERSONOBJ | (V Opt ScSg3) - VFINPERSONOBJ  | (V Aux Neg Ind Prt1 ScSg3) - VFINPERSONOBJ | (V Aux Neg Ind Prt2 ScSg3) - VFINPERSONOBJ | (V Aux Neg Conj ScSg3) - VFINPERSONOBJ ;
+
 # these will be ones WITHOUT object conjugation
 SET SG1-VSConj = SG1-V - VFINPERSONOBJ ; # these have no object conjugation form
 SET SG2-VSConj = SG2-V - VFINPERSONOBJ ; # these have no object conjugation form
-SET SG3-VSConj = SG3-V - VFINPERSONOBJ ; # these have no object conjugation form
+SET SG3-VSConj = SETSG3-VSC - VFINPERSONOBJ ; # these have no object conjugation form
 SET PL1-VSConj = PL1-V - VFINPERSONOBJ ; # these have no object conjugation form
 SET PL2-VSConj = PL2-V - VFINPERSONOBJ ; # these have no object conjugation form
 SET PL3-VSConj = PL3-V - VFINPERSONOBJ ; # these have no object conjugation form
@@ -1173,10 +1180,10 @@ SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
        #
 
 
-#SG3-VSConj PxSg2
-REMOVE:NotPlWhenSg3verbAgreement Pl IF (0 Sg + Nom + SPPOSSESSUM) (0* SG3-VSConj BARRIER EOS OR BOS) 
+REMOVE:NotPlWhenSg3verbAgreement  PlGenPossessum IF (0 SgNomPossessum) (0* SETSG3-VSC BARRIER EOS OR BOS) 
 	      	      	    	(NOT 0* POSSIBLESGNOMSUBJ BARRIER EOS OR BOS); 
 #Тетят: Тетят тусь велев.
+#Авам: Авам сась.
 
 #Clt/Cop Prs ScSg2
 REMOVE:NoCopulaWhenPredAvailable (Clt/Cop Prs ScSg2) IF (0 Sg + Nom)
@@ -1478,8 +1485,9 @@ REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
 
 
-REMOVE (N Pl Nom PxSg1) IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
+REMOVE (Pl Nom) + SPPOSSESSUM IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
        #Мон чистэ шлян толган.
+       #Авам сась. Аваст сась. 
 
 REMOVE:RemovePxSg2IfOtherPl (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef));
 REMOVE (N Pl Nom PxSg2) IF (-2 (Pl Nom Indef)) (-1 ("ды")) (0 (N Pl Nom Indef)); # too strong
