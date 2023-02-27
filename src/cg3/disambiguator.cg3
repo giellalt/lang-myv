@@ -1195,7 +1195,7 @@ SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
        #
 
 
-REMOVE:NotPlWhenSg3verbAgreement  PlGenPossessum IF (0 SgNomPossessum) (0* SETSG3-VSC BARRIER EOS OR BOS) 
+REMOVE:NotPlWhenSg3verbAgreement  PlGenPossessum OR (Pl Nom Indef) IF (0 SgNomPossessum) (0* SETSG3-VSC BARRIER EOS OR BOS) 
 	      	      	    	(NOT 0* POSSIBLESGNOMSUBJ BARRIER EOS OR BOS); 
 #Тетят: Тетят тусь велев.
 #Авам: Авам сась.
@@ -1512,10 +1512,9 @@ REMOVE (N Pl Nom PxSg2) IF (-2 (Pl Nom Indef)) (-1 ("ды")) (0 (N Pl Nom Indef)
 
 REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
 
-
 	#седееть: Чачома кран, тиринь мастор, эжди эйсэнь лембе седееть...
 
-REMOVE PxSg2 IF (0 (Pl Nom Indef)) (0* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BOS);
+REMOVE (Gen PxSg2) IF (0 (Pl Nom Indef)) (1* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BOS);
        #, ливтсь муськемат :лиссь од авась, ливтсь муськемат.
 REMOVE Gen IF (0 ("чопода" Pl Nom Indef)) (NEGATE 0* VFINPERSONSUBJ BARRIER CLB OR EOS OR BOS);# LINK NOT 0* VFINPERSONPLSUBJ BARRIER CLB OR EOS OR BOS);
        #чоподат: Ало ёно ванькст, седе верев чоподат.
