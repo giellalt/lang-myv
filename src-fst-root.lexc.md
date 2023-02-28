@@ -691,6 +691,7 @@ And following triggers to control variation
 *  %{ichPat%}   — for triggering colloquial partonymic forms
 
 * Е3 testing тне тнэ
+* _%^H_ used with stems in ч, ш, ж for hard plurals
 
 ## Special letters in the root	  that might be useful in	dialect	research and etymology later
 * Ь3   арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
