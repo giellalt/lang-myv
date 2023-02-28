@@ -410,20 +410,27 @@ LEXICON N_GAJT1
 LEXICON N_KLASS
 @P.POS.N@:@P.POS.N@ NMN_KLASS ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 !LEXICON N_OSH_SUB
 !+Use/NG+Err/Orth: N_OSH ;
 
 LEXICON N_OSH
-@P.POS.N@:@P.POS.N@ NMN_KUDO ;
+@P.POS.N@:@P.POS.N@ N_KUDO-Derivation ;
+@P.POS.N@:@P.POS.N@  NMN_DEF-SG-DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@  NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@%^H  NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@  _KUDO-Indef-Declension ;
+@P.POS.N@:@P.POS.N@  N_KUDO-Poss-Declension-CX ;
+!@P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_OSH-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Derivation ;
-@P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@%^H NMN_DEF-PL-DECLENSION ;
 @P.POS.N@:@P.POS.N@ _OSH-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
@@ -440,7 +447,13 @@ LEXICON N_LEVKS-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
 LEXICON N_KENKSH
-@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
+@P.POS.N@:@P.POS.N@%{frontSoft%} N_KUDO-Derivation ;
+@P.POS.N@:@P.POS.N@%{frontSoft%}  NMN_DEF-SG-DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@%{frontSoft%}  NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@%^H  NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@%{frontSoft%} _KUDO-Indef-Declension ;
+@P.POS.N@:@P.POS.N@%{frontSoft%}  N_KUDO-Poss-Declension-CX ;
+!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontSoft%} CMP-INDEF ;
 @P.POS.N@:@P.POS.N@%{frontSoft%}%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;

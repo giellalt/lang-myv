@@ -85,6 +85,7 @@ Alphabet
 %{ЕØ%}:0 !!≈ * _@CODE@_ Stem-final archiphoneme тинге
 
 Е3:е ! тне тнэ не нэ
+%^H:0 !!≈ * _@CODE@_ used with stems in ч, ш, ж for hard plurals
 
 ! for ablative
 %{дт%}:д !!≈ * _@CODE@_ in ablative
@@ -521,18 +522,19 @@ Rules
 !
 "Е3:э always" 
 !! **@RULENAME@** %> т н _ 2013-02-23
-Е3:э <=  [ CnsDent ] (%{backHard%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
+Е3:э <=  [ CnsDent |%^H:0] (%{backHard%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
 
 "Е3:э sometimes" 
 !! **@RULENAME@** %> т н _ 2013-02-23
-Е3:э =>     [ CnsDent | BTV Cns* CnsNonDent | CnsHardNonDent ] (%{backHard%}:|%{back%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
+Е3:э =>     [ CnsDent |%^H:0 ] (%{backHard%}:|%{back%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
+!2023_02_28    [ CnsDent |%^H:0| BTV Cns* CnsNonDent | CnsHardNonDent ] (%{backHard%}:|%{back%}:|%{frontHard%}:)  %> ( т ) н _ [ # | %- | %> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
 
 "ye:e always" 
 !! **@RULENAME@**  
 е:э <=>
-          CnsDent (О1:0) %>  :н _ (HarmDummies:) [[  # | %-| %> (%-) Г1:0 а:я]| %> | н ь: | к] ;
+          [ CnsDent|%^H:0] (О1:0) %>  :н _ (HarmDummies:) [[  # | %-| %> (%-) Г1:0 а:я]| %> \[%{АЯ%}:|%{иы%}:] | н ь: | к] ;
 !          [[[Back - [ :* Vows]] %> | CnsDent]  %> ] т н _ [ # |  %- |%> [ (%-) Г1:0 а:я |т| л|Г2:в а | в | д | к | н | с | ш ]];
-	   CnsDent (HarmDummies:) %> н _ н ь ;
+	  [ CnsDent|%^H:0] (HarmDummies:) %> н _ н ь ;
 !! сыр
 !!€ сыр>Н1е{frontSoft}>{оеэØ}нь
 !!€ сыр>нэ0>0нь
