@@ -95,7 +95,7 @@ LEXICON N-HUM_OZKS
 
 LEXICON N-HUM_LEVKS
 @P.POS.N@+Sem/Hum:@P.POS.N@%{frontHard%} NMN_KAL ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N-HUM_ROZ1
 @P.POS.N@+Sem/Hum:@P.POS.N@%{frontSoft%} NMN_KAL ;
@@ -477,27 +477,27 @@ LEXICON N_OZKS
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_KARDAZ !! кардаз:карда
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_LEVKS
 ! harmony: front
-@P.POS.N@:@P.POS.N@ NMN_KUDO ;
+@P.POS.N@:@P.POS.N@%{frontHard%} NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontHard%} CMP-INDEF ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%}%{frontHard%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_ROZ1
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:%>%{оеэØ%}@P.POS.N@ DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_IE
 :е N_VELE ;
