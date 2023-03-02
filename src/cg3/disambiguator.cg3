@@ -1065,6 +1065,9 @@ SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR E
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
 # Is this too strong? ушосо: Эйкакштнэ налксить ушосо.
 
+# Postp
+REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
+# Авазо якась школав шабранзо марто.
 
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
        #Тесэ весе чумось войнась...» — оймавтсь сон эсь прянзо.
