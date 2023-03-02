@@ -6,6 +6,7 @@ ADD VERBS BELOW
 
 These verbs just need Finnish translations
 A-M
+
 N-End
 
 * * *
