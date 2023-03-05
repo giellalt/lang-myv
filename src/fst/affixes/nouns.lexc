@@ -311,7 +311,7 @@ SG-INE-DEF ;
 SG-PRL-DEF ;
 SG-TRA-DEF ;
 PL-NOM-INDEF ;
-NMN_DEF-PL-DECLENSION ;
+NMN_DEF_PL_DECLENSION ;
 
 LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
@@ -350,27 +350,27 @@ LEXICON N_TYL
 !+Use/NG+Err/Orth: N_KAL ;
 
 LEXICON N_KAL-PL
-@P.POS.N@:@P.POS.N@%{backHard%} NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@%{backHard%} NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@%{backHard%} _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@%{backHard%} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_LAV-PL
-!@P.POS.N@:@P.POS.N@%{back%} NMN_DEF-PL-DECLENSION ;
+!@P.POS.N@:@P.POS.N@%{back%} NMN_DEF_PL_DECLENSION ;
 !@P.POS.N@:@P.POS.N@%{back%} _KAL-Indef-Declension-PL ;
 !@P.POS.N@:@P.POS.N@%{back%} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_TEV-PL
-!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF-PL-DECLENSION ;
+!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF_PL_DECLENSION ;
 !@P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
 !@P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
 
 LEXICON N_KEL1-PL
-@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_PEJ-PL
-!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF-PL-DECLENSION ;
+!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF_PL_DECLENSION ;
 !@P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
 !@P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
 
@@ -382,7 +382,7 @@ LEXICON N_LAK
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_LAK-PL
-@P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
@@ -395,7 +395,7 @@ LEXICON N_KIT
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_KIT-PL
-!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl+N:%>TLoss NMN_DEF-PL-DECLENSION ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl+N:%>TLoss NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _KIT-Indef-Declension ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
@@ -418,8 +418,8 @@ LEXICON N_KLASS
 LEXICON N_OSH
 @P.POS.N@:@P.POS.N@ N_KUDO-Derivation ;
 @P.POS.N@:@P.POS.N@  NMN_DEF-SG-DECLENSION ;
-@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@  NMN_DEF-PL-DECLENSION ;
-@P.POS.N@:@P.POS.N@%^H  NMN_DEF-PL-DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@  NMN_DEF_PL_DECLENSION ;
+@P.POS.N@:@P.POS.N@%^H  NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@  _KUDO-Indef-Declension ;
 @P.POS.N@:@P.POS.N@  N_KUDO-Poss-Declension-CX ;
 !@P.POS.N@:@P.POS.N@ NMN_KUDO ;
@@ -429,28 +429,28 @@ LEXICON N_OSH
 
 LEXICON N_OSH-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Derivation ;
-@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
-@P.POS.N@:@P.POS.N@%^H NMN_DEF-PL-DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
+@P.POS.N@:@P.POS.N@%^H NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _OSH-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
 LEXICON N_OZKS-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Derivation ;
-@P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _OSH-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
 LEXICON N_LEVKS-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Derivation ;
-@P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _OSH-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
 LEXICON N_KENKSH
 @P.POS.N@:@P.POS.N@%{frontSoft%} N_KUDO-Derivation ;
 @P.POS.N@:@P.POS.N@%{frontSoft%}  NMN_DEF-SG-DECLENSION ;
-@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@%{frontSoft%}  NMN_DEF-PL-DECLENSION ;
-@P.POS.N@:@P.POS.N@%^H  NMN_DEF-PL-DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@%{frontSoft%}  NMN_DEF_PL_DECLENSION ;
+@P.POS.N@:@P.POS.N@%^H  NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@%{frontSoft%} _KUDO-Indef-Declension ;
 @P.POS.N@:@P.POS.N@%{frontSoft%}  N_KUDO-Poss-Declension-CX ;
 !@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
@@ -502,7 +502,7 @@ LEXICON N_ROZ1
 LEXICON N_IE
 :е N_VELE ;
 @U.CX.NOM@+Use/NG+Err/Orth+Pl+Nom+Indef:@U.CX.NOM@йть K ;
-@P.POS.N@+Use/NG+Err/Orth:@P.POS.N@й NMN_DEF-PL-DECLENSION ;
+@P.POS.N@+Use/NG+Err/Orth:@P.POS.N@й NMN_DEF_PL_DECLENSION ;
 
 LEXICON N_LAVSHO
 @P.POS.N@+Use/NG:@P.POS.N@%{backHard%} NMN_TINGE-SHORT-FORMS ;
@@ -540,8 +540,8 @@ LEXICON N_TINGE
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_TINGE-PL
-@P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
-@P.POS.N@+Use/NG:@P.POS.N@е NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
+@P.POS.N@+Use/NG:@P.POS.N@е NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _PANGO-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KUDO-Poss-Declension-CX-PL ;
 
@@ -606,7 +606,7 @@ LEXICON N_KUDO
 
 LEXICON N_KUDO-PL
 @P.POS.N@:@P.POS.N@ N_KUDO-Derivation ;
-@P.POS.N@:@P.POS.N@ NMN_DEF-PL-DECLENSION ;
+@P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@ _KUDO-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KUDO-Poss-Declension-CX-PL ;
 
@@ -635,10 +635,10 @@ LEXICON NMN_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
 LEXICON NMN_TEV
  NMN_KAL ;
 LEXICON NMN_LAV
- NMN_KAL ;
+ NMN_LAK ;
 LEXICON NMN_LAK
  N_LAK-Derivation ;
- N_LAK-Def-Declension ;
+ N_LAK-Def-Declension ;!%^H
  _LAK-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
 
@@ -650,21 +650,21 @@ LEXICON NMN_JORK !Back with hard Cons before neutral Cons
 
 LEXICON NMN_KIT
  N_KUDO-Derivation ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
  N_KIT-Def-Declension ;
  _KIT-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
 
 LEXICON NMN_ART
  N_KUDO-Derivation ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
  N_KIT-Def-Declension ;
  _KIT-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
 
 LEXICON NMN_GAJT1
  N_KUDO-Derivation ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
  N_KIT-Def-Declension ;!2022-01-02 should there be a distinction KIT vs GAJT1
  _KIT-Indef-Declension ;!2022-01-02 should there be a distinction KIT vs GAJT1
  N_KAL-Poss-Declension-CX ;
@@ -693,7 +693,7 @@ LEXICON NMN_OSH
 
 !LEXICON NMN_OSH-PL !!= * __@CODE@__ This needs checking 2013-03-27
 ! N_OSH-Derivation ;
-! NMN_DEF-PL-DECLENSION ;
+! NMN_DEF_PL_DECLENSION ;
 ! _OSH-Indef-Declension-PL ;
 ! N_OSH-Poss-Declension-CX-PL ;
 
@@ -730,7 +730,7 @@ LEXICON NMN_TINGE-SHORT-FORMS
  SG-INE-DEF ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
-NMN_DEF-PL-DECLENSION ;
+NMN_DEF_PL_DECLENSION ;
  PL-NOM-INDEF ;
 +Use/NG+Err/Orth: ABL-INDEF ;
 +Use/NG+Err/Orth:%> ABL-PX ;
@@ -744,7 +744,7 @@ LEXICON NMN_TINGE-LONG-FORMS
  N_KUDO-Derivation ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
-NMN_DEF-PL-DECLENSION ;
+NMN_DEF_PL_DECLENSION ;
  PL-NOM-INDEF ;
  ABL-PX ;
  ELA-PX ;
@@ -811,7 +811,7 @@ LEXICON NMN_KUDO
 
 LEXICON NMN_KUDO-PL !!= * **@CODE@** This needs checking 2013-03-27
  N_KUDO-Derivation ;
- NMN_DEF-PL-DECLENSION ;
+ NMN_DEF_PL_DECLENSION ;
  _KUDO-Indef-Declension-PL ;
  N_KUDO-Poss-Declension-CX-PL ;
 
@@ -1136,7 +1136,7 @@ LEXICON _LAK-N2-Def-Declension
 
 LEXICON _KIT-N2-Def-Declension
  _KAL-N2-Def-Declension ;
-!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
+!2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 
 LEXICON _KAL-N2-Def-Declension
  N_KAL-Def-Declension ;
@@ -1210,14 +1210,20 @@ LEXICON N_KIT-Def-Declension
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-TRA-DEF_Dial-NW ;
 
-: NMN_DEF-PL-DECLENSION ;
-!2013-03-15!+Use/NG+Err/Orth:%>TLoss NMN_DEF-PL-DECLENSION ;
+: NMN_DEF_PL_DECLENSION ;
+!2013-03-15!+Use/NG+Err/Orth:%>TLoss NMN_DEF_PL_DECLENSION ;
 
 
 LEXICON N_LAK-Def-Declension
- N_KAL-Def-Declension ;
-
+: NMN_DEF_PL_DECLENSION ;
++Use/NG:%^H NMN_DEF_PL_DECLENSION ;
+ N_KAL_DEF_SG_Declension ;
+ 
 LEXICON N_KAL-Def-Declension
+: NMN_DEF_PL_DECLENSION ;
+ N_KAL_DEF_SG_Declension ;
+LEXICON N_KAL_DEF_SG_Declension
+
  SG-NOM-DEF ;
  SG-GEN-DEF ;
  SG-DAT-DEF ;
@@ -1244,7 +1250,6 @@ LEXICON N_KAL-Def-Declension
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-TRA-DEF_Dial-NW ;
 
-: NMN_DEF-PL-DECLENSION ;
 
 
 LEXICON N_OSH-Def-Declension
@@ -1278,7 +1283,7 @@ LEXICON N_OSH-Def-Declension
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
 
 
-: NMN_DEF-PL-DECLENSION ;
+: NMN_DEF_PL_DECLENSION ;
 
 LEXICON N_PANGO-Def-Declension
 !! pango:pang
@@ -1315,12 +1320,12 @@ LEXICON N_PANGO-Def-Declension
 +Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-TRA-DEF_Dial-NW ;
 
 
-:%>%{оеэØ%} NMN_DEF-PL-DECLENSION ;
-: NMN_DEF-PL-DECLENSION ;
+:%>%{оеэØ%} NMN_DEF_PL_DECLENSION ;
+: NMN_DEF_PL_DECLENSION ;
 
 LEXICON NMN_DEF-DECLENSION
  NMN_DEF-SG-DECLENSION ;
- NMN_DEF-PL-DECLENSION ;
+ NMN_DEF_PL_DECLENSION ;
 
 
 LEXICON NMN_DEF-SG-DECLENSION
@@ -1351,7 +1356,7 @@ LEXICON NMN_DEF-SG-DECLENSION
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
 
 
-!: NMN_DEF-PL-DECLENSION ;
+!: NMN_DEF_PL_DECLENSION ;
 
 LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-FRONT-VOW
 !! N_KUDO-Def-Declension
@@ -1381,7 +1386,7 @@ LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-FRONT-VOW
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
 
 
-: NMN_DEF-PL-DECLENSION ;
+: NMN_DEF_PL_DECLENSION ;
 
 LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-BACK-VOW
 !! N_KUDO-Def-Declension
@@ -1406,7 +1411,7 @@ LEXICON NMN_DEF-SG-DECLENSION_STEM-IN-BACK-VOW
 +Use/NG+Err/Orth+Dial/NW: SG-TRA-DEF_Dial-NW ;
 
 
-: NMN_DEF-PL-DECLENSION ;
+: NMN_DEF_PL_DECLENSION ;
 
 LEXICON DIAL-NW-WITH-ST-AFTER-STEM
 +Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
@@ -1932,7 +1937,7 @@ LEXICON OBL-PX4-END-FOC-OR_ENDLEX
 !! ## DEFINITE PLURAL
 
 
-LEXICON NMN_DEF-PL-DECLENSION
+LEXICON NMN_DEF_PL_DECLENSION
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@%>тнЕ3 _KUDO-NomPl-Conjugation ;
 @U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@%>тнЕ3%>нь K ;
 @U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@+Pl+Dat+Def:@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@%>тнЕ3%>нень K ;
@@ -1950,7 +1955,7 @@ LEXICON NMN_DEF-PL-DECLENSION
 @U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@+Use/NG+Err/Orth+Dial/NW+Pl+Com+Def:@U.DECL-NX.PL@@U.CX.COM@@U.DECL-DX.DEF@%>тнЕ3%>нек NounEnd_K-lak ;
 
 !! ## Cases for тнэ
-LEXICON NMN_DEF-PL-DECLENSION-TNE2
+LEXICON NMN_DEF_PL_DECLENSION-TNE2
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@тнэ _KUDO-NomPl-Conjugation ;
 @U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@тнэ%>нь K ;
 @U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@+Pl+Dat+Def:@U.DECL-NX.PL@@U.CX.DAT@@U.DECL-DX.DEF@тнэ%>нень K ;

@@ -298,14 +298,14 @@ LEXICON PROP_TYL
 
 LEXICON PROP_KIT
 : N_KIT-Derivation ;
-+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 : N_KIT-Def-Declension ;
 : _KIT-Indef-Declension ;
 : N_KAL-Poss-Declension-CX ;
 
 LEXICON PROP_ART
 : N_KIT-Derivation ;
-+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 : N_KIT-Def-Declension ;
 : _KIT-Indef-Declension ;
 : N_KAL-Poss-Declension-CX ;
@@ -365,7 +365,7 @@ LEXICON PROP_LAK_MAL
 
 LEXICON PROP_KIT_MAL
 +Sem/Mal: NMN_KIT ;
-+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 
 LEXICON PROP_OSH_MAL
 +Sem/Mal: NMN_OSH ;
@@ -396,7 +396,7 @@ LEXICON PROP_PEJ_FEM
 
 LEXICON PROP_KIT_FEM
 +Sem/Fem: NMN_KIT ;
-+Sem/Fem+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF-PL-DECLENSION ;
++Sem/Fem+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 
 LEXICON PROP_OSH_FEM
 +Sem/Fem: NMN_OSH ;
@@ -443,7 +443,7 @@ LEXICON PROP_NIZE
 !! DECLENSION LIMITATIONS
 
 LEXICON PROP_KUDO-PL
-: NMN_DEF-PL-DECLENSION ;
+: NMN_DEF_PL_DECLENSION ;
 : _KUDO-Indef-Declension ;
 : N_KUDO-Poss-Declension-CX-PL ;
 

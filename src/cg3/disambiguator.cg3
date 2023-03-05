@@ -417,7 +417,10 @@ LIST Der/Dimin = Der/Dimin ;
 LIST Der/Ovt = Der/Ovt ;
 LIST Stem/э = Stem/э ;#hard front in -кшнэмс
 LIST Der = Der ;
-LIST Der/MWN = Der/MWN (der subst) ;
+LIST Der/MWN = Der/MWN (der subst) ; #2023_03_05
+# needed for кудо<n><sp><prl><ind><der><subst><sg><gen><def>
+# "кудо" Ex/N SP Prl Indef Der/MWN N Sg Gen Def REMOVE:1653
+# modify-tags.regex needs some kind of mapping, which includes both «Ex/N» and «Der/MWN N»
 LIST Der/Dem = Der/Dem ;
 LIST Der/Pr = Der/Pr ;
 LIST Der/PatrMal = Der/PatrMal ;
@@ -1098,6 +1101,9 @@ SELECT:ChooseReadyOrdinal (A Ord) IF (0 ("<.*це>"ri));
 SELECT:KillLot ("лоткамс") IF (0* (Inf Abl) BARRIER CLB OR EOS OR BOS) (0* VFIN BARRIER CLB OR EOS OR BOS);
 	       #Лоткасть марсевемеде нармунень моротне,
 
+#Eliptic modifier to head constructions, secondary declension row REMOVE:1653
+#<n><sp><prl><ind><der><subst><sg><gen><def>
+#REMOVE: Ex/N SP Prl Indef Der/MWN N Sg Gen Def
 
 REMOVE:NoNonsenseName Prop IF (0 NONSENSESURANT) ; 
 REMOVE FILTEROUTPATH;# these are paths that might be weighted out as highly unlikely
