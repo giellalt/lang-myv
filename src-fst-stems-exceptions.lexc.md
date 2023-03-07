@@ -19,9 +19,6 @@ The verb сеземс
 Some of the nouns have archaic consonant stem forms left:
 € ийть
 
-Some of the nouns have defective paradigms:
-€ кудыкельганть
-
 Periferal
 
 Some random Russian elements:

@@ -219,6 +219,9 @@ ordinals in -це
 The Erzya language postpositions can be broken into many subgroups
 according to morphological and semantic criteria
 
+Some of the nouns have defective paradigms:
+€ кудыкельганть
+
 ало:ал
 alo-SPAT-1Arg
 
@@ -2283,9 +2286,6 @@ The verb сеземс
 
 Some of the nouns have archaic consonant stem forms left:
 € ийть
-
-Some of the nouns have defective paradigms:
-€ кудыкельганть
 
 Periferal
 
