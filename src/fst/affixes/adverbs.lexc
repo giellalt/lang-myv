@@ -52,25 +52,25 @@ LEXICON adverbs
 верде+Adv:верде ADV_IS_ABL ;
 верев+Adv:верев ADV_IS_LAT ;
 вере+Adv:вере ADV_IS_LOC ;
-верьга+Adv:верьга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+верьга+Adv:верьга OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 
-меелькспельде+Adv+Abl:меелькспельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+меелькспельде+Adv+Abl:меелькспельде OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 меелькспелев+Adv+Lat:меелькспелев K ;
-меелькспеле+Adv+Loc:меелькспеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
-меелькспельга+Adv+Prl:меелькспельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+меелькспеле+Adv+Loc:меелькспеле OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
+меелькспельга+Adv+Prl:меелькспельга OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 
-пертьпельде+Adv+Abl:пертьпельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
-пертьпельде+Adv+Abl+Err/Orth-pre2012:перть-пельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+пертьпельде+Adv+Abl:пертьпельде OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
+пертьпельде+Adv+Abl+Err/Orth-pre2012:перть-пельде OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 пертьпелев+Adv+Lat:пертьпелев K ;
 пертьпелев+Adv+Lat+Err/Orth-pre2012:перть-пелев K ;
-пертьпеле+Adv+Loc:пертьпеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
-пертьпеле+Adv+Loc+Err/Orth-pre2012:перть-пеле OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
-пертьпельга+Adv+Prl:пертьпельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
-пертьпельга+Adv+Prl+Err/Orth-pre2012:перть-пельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+пертьпеле+Adv+Loc:пертьпеле OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
+пертьпеле+Adv+Loc+Err/Orth-pre2012:перть-пеле OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
+пертьпельга+Adv+Prl:пертьпельга OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
+пертьпельга+Adv+Prl+Err/Orth-pre2012:перть-пельга OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 
-чипельде+Adv+Abl:чипельде OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+чипельде+Adv+Abl:чипельде OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 чипелев+Adv+Lat:чипелев K ;
-чипельга+Adv+Prl:чипельга OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
+чипельга+Adv+Prl:чипельга OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 
 !
 
@@ -177,7 +177,7 @@ LEXICON ADV_IS_LOC !!= @CODE@ ало
 
 !2022-02-06
 LEXICON LOC-PX-FOLLOWED-BY-END/FOC/COP-OR-K
-+Loc: OBL-PX-FOLLOWED-BY-END/FOC/COP-OR-K ;
++Loc: OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 
 LEXICON ADV/PO/PRON-SPAT_ALO !!= @CODE@ ало:ал
  ADV-SPAT_ALO ;
@@ -206,7 +206,7 @@ LEXICON ADV-SPAT_karsho
 !LEXICON ADV/PO/PRON-SPAT_
 !!! relative space __мельга__
 !: K ;
-!+Adp: K ;
+!+Po: K ;
 !: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 
@@ -349,18 +349,18 @@ LEXICON Spat_
 
 !LEXICON SPAT-Ela
 !+Ela: K ;
-!!+Adp+Ela: _KUDO-Possessive-Before-K ;
+!!+Po+Ela: _KUDO-Possessive-Before-K ;
 
 !LEXICON SPAT-Ine
 !+Ine: K ;
-!!+Adp+Ine: _KUDO-Possessive-Before-K ;
+!!+Po+Ine: _KUDO-Possessive-Before-K ;
 
 LEXICON SPAT-Lat
 +Lat: K ;
 
 !LEXICON SPAT-Prl
 !+Prl: K ;
-!!+Adp+Prl: _KUDO-Possessive-Before-K ;
+!!+Po+Prl: _KUDO-Possessive-Before-K ;
 
 !!Temporal tags with cases
 LEXICON TEMP_
