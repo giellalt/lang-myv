@@ -177,6 +177,10 @@ Sets
 
 Vows = а о у ы э я ё ю и е Ӓ3 Ӓ4 
        А О У Ы Э Я Ё Ю И Е ;
+
+SurfVows = а о у ы э я ё ю и е
+       А О У Ы Э Я Ё Ю И Е ;
+
 verbStemVows = а о э я ё е 
 	       А О Э Я Ё Е ;
 verbStemVowStrong = а о э я ё е 
@@ -493,7 +497,7 @@ Rules
 !HERE
 "A2:a"
 !! **@RULENAME@**  
-%{АЯ%}:а <=>  [ LBC | :BTV | %{frontHard%}:] (%^TD:) %> т:  _  [ д | н | м | т к] ;
+%{АЯ%}:а <=>  [ LBC | :BTV | %{frontHard%}:] ((%>) %^TD:) %> т:  _  [ д | н | м | т к] ;
    %{оэØ%}: %> _ [ д | н | т] ;
    %{frontHard%}: %> _ [ н | т] ;
    [ LBC | :BTV ] %> %{дт%}: О1: %> _ [ н | т ] ;
@@ -735,8 +739,10 @@ Rules
 
 "t:d"
 !! **@RULENAME@**  
- т:д <=> CnsVoiced (ь:) %^TD:0 %> _ ;
-
+ т:д <=> CnsVoiced (ь:) (HarmDummies:) (%>) %^TD:0 %> _ ;
+!! ловомс+V+Ind+Prs+ScSg1+OcSg2: **regard/pitää jonain**
+!!€ лов>^TD>т{АЯ}н
+!!€ лов>0>дан
 
 !!!TLoss sloppy
 !"t:0"
@@ -892,6 +898,15 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
  т:т /<= [CnsVoiceless (ь:)| Vows ] %^TD: %> _ %{АЯ%}: ; 
 !%^TD:0 /<= [CnsVoiceless (ь:)| Vows ] _ %> т: ; 
 !к е к ш н е ^TD:0 > т {АЯ}:я н о
+
+"Disallow t:d following non-voiced ^TD"
+!! **@RULENAME@**
+!%^TD
+%^TD:0 /<=
+ [SurfVows |CnsVoiceless:] (ь:) %>  _ %> т: ;
+!вечкемс+V+Ind+Prs+ScSg1+OcSg2: **love/rakastaa**
+!!$ вечк>^TD>т{АЯ}н
+!!$ вечк>0>дян
 
 "Disallow k for control of comparative with stem types"
 !! **@RULENAME@**
