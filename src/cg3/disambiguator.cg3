@@ -213,13 +213,18 @@ SET PlGenPossessum = (Pl Gen PxSg1) | (Pl Gen PxSg2) | (Pl Gen PxSg3) | (Pl Gen 
 SET SgNomPossessum = (Sg Nom PxSg1) | (Sg Nom PxSg2) | (Sg Nom PxSg3) | (Sg Nom PxPl1) | (Sg Nom PxPl2) | (Sg Nom PxPl3); 
 LIST PlNomPossessum = (Pl Nom PxSg1) (Pl Nom PxSg2) (Pl Nom PxSg3) (Pl Nom PxPl1) (Pl Nom PxPl2) (Pl Nom PxPl3); 
 
-LIST NMODIFIER = (A Sg Nom Indef) (N Sg Nom Indef) ;# use between "эсь" and noun
+LIST ASgNomIndef = (A Sg Nom Indef) ;
+LIST NSgNomIndef = (N Sg Nom Indef) ;
+LIST NSPGenDef = (N Sg Gen Def) (N Pl Gen Def) ;
+LIST NSPGENINDEF = (N SP Gen Indef);
+
+LIST NMODIFIER = ASgNomIndef NSgNomIndef ;# use between "эсь" and noun
 
 SET AdjObl = A - (Sg Nom Indef) - (Pl Nom Indef) ;
 SET NObl = N - (Sg Nom Indef) - (Pl Nom Indef) ;
 
 
-LIST POSSIBLESGNOMSUBJ = (N Sg Nom Indef) (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3)
+LIST POSSIBLESGNOMSUBJ = NSgNomIndef (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3)
 (Sg Nom Def) (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3)
 ;#possible Sg Nom subject
 
@@ -471,14 +476,15 @@ LIST Hom2 = Hom2 ;
 LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
-LIST IndefObjectCandidate = (N Sg Nom Indef) (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
+LIST IndefObjectCandidate = NSgNomIndef (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
 LIST NonIndefObjectCandidate = (N Sg Gen Def) (N PL Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
 
-LIST NSPGENINDEF = (N SP Gen Indef);
+LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
 
 SET OBJECTCANDIDATE = IndefObjectCandidate | NonIndefObjectCandidate ;
 
-LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
+LIST POSTPCOMPLCANDIDATE = NSPGENINDEF ;
+
 
 
 #!! ###  Syntactic tags
@@ -851,7 +857,7 @@ LIST NAELAAMBADVS = "бойкасто" "кеместэ" "пижестэ" "сее
 LIST VAMBNOUNS = "але" "вал" "вий" "дум" "кадо" "кан" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пей" "пона" "понго" "ранг" "ром" "сал" "сод"
  "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
-SET POSTPCOMPLEMENTTARGET = (N Sg Nom Indef) | (N SP Gen Indef) | (N Sg Gen Def) | (N Pl Gen Def) | (N Sg Gen PxSg1) | (N Pl Gen PxSg1) |
+SET POSTPCOMPLEMENTTARGET = NSgNomIndef | (N SP Gen Indef) | (N Sg Gen Def) | (N Pl Gen Def) | (N Sg Gen PxSg1) | (N Pl Gen PxSg1) |
 (N Sg Gen PxSg2) | (N Pl Gen PxSg2) |
 (N Sg Gen PxSg3) | (N Pl Gen PxSg3) |
 (N Sg Gen PxPl1) | (N Pl Gen PxPl1) |
@@ -989,7 +995,7 @@ SET PL-SUBJ-DEF = (Pl Nom Def);
 SET PL-SUBJ-PX =  (Pl Nom PxSg1) OR (Pl Nom PxSg2) OR (Pl Nom PxSg3) OR (Pl Nom PxPl1) OR (Pl Nom PxPl2) OR (Pl Nom PxSg3) ; # forms that can be plural subject with possessive marking
 SET PL-SUBJ = PL-SUBJ-INDEF OR PL-SUBJ-DEF OR PL-SUBJ-PX ;
 
-SET SG-SUBJ-INDEF = (N Sg Nom Indef) OR (N Prop Sg Nom Indef) ;
+SET SG-SUBJ-INDEF = NSgNomIndef OR (N Prop Sg Nom Indef) ;
 SET SG-SUBJ-DEF = (Sg Nom Def) ;
 SET SG-SUBJ-PX =  (Sg Nom PxSg1) OR (Sg Nom PxSg2) OR (Sg Nom PxSg3) OR (Sg Nom PxPl1) OR (Sg Nom PxPl2) OR (Sg Nom PxPl3) ; # forms that can be singular subject with possessive marking
 SET SG-SUBJ = SG-SUBJ-INDEF OR SG-SUBJ-DEF OR SG-SUBJ-PX ;
@@ -1070,6 +1076,7 @@ REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
 
 # Postp
 REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
+# марто does not take NP modifier role if not followed by NP head
 # Авазо якась школав шабранзо марто.
 
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
@@ -1082,8 +1089,8 @@ REMOVE (Det Pron AssocColl) IF (0 (Pron AssocColl));
 #this is for leaving lexicalized NomAg
 REMOVE (Der/Ycja NomAg) IF (0 LEXICALIZEDNOMAG);
        #Тонавтыцясь сыргась лавкав ловсонь рамамо.
-#REMOVE (N Sg Nom Indef) IF (-1 NSPGENINDEF) (0 SupLoc);
-REMOVE (N Sg Nom Indef) IF (-1 NSPGENINDEF) (0 SupLoc) (0* VERBWITHMO BARRIER BOS OR EOS OR CLB);
+#REMOVE NSgNomIndef IF (-1 NSPGENINDEF) (0 SupLoc);
+REMOVE NSgNomIndef IF (-1 NSPGENINDEF) (0 SupLoc) (0* VERBWITHMO BARRIER BOS OR EOS OR CLB);
 # This is for dealing with ловсонь рамамо in order to avoid a lexicalized reading. It may need to be just Gen
   # Тонавтыцясь сыргась лавкав [ловсонь рамамо].
 
@@ -1180,7 +1187,7 @@ MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR C
 
 # adverbs and postpositions that are homonyms of regular noun declension
 REMOVE:NoMastorovAdv ("масторов" Adv Lat);
-       #рестидилзе масторов This is a homonym of a regular noun form
+       #рестидинзе масторов This is a homonym of a regular noun form
 REMOVE:NoKedjsePo ("кедьсэ" Po Ine);
        #аволды кедьсэ
 REMOVE:NoTarkasPo ("таркас" Po);
@@ -1188,10 +1195,13 @@ REMOVE:NoTarkasPo ("таркас" Po);
 REMOVE:NoLomanjksAdv ("ломанькс" Adv Tra);
        # А ломанькс тейнемат
 
+REMOVE ("малас" Adv Ill) IF (-1 POSTPCOMPLEMENTTARGET);
+# малас : Ожо мекшкесь ливтясь ципакине малас ды кармась тердемензэ нешкепирев.
+
 REMOVE:NoBloodyCompWhenPlural ("верев" A Sg Nom Indef) IF (-1 ("се" Pron Dem Sg Abl Indef)) (1 IndefObjectCandidate);
        #чоподат: Ало ёно ванькст, седе верев чоподат.
        
-REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 (A Sg Nom Indef));
+REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 ASgNomIndef);
        #сюпав
 
 REMOVE (Pl Nom Indef) OR (Pl Nom PxSg2) OR (Sg Nom PxSg2) IF (0 (PxSg2)) (1 PostpNoPX);
@@ -1236,7 +1246,7 @@ REMOVE ("сё" Interj) IF (NOT 1 CLB OR EOS);
 
 SELECT:Greeting ("шумбра" A Sg Nom Indef Clt/Cop Prs ScSg2) OR ("шумбра" A Sg Nom Indef Clt/Cop Prs ScPl2) IF (-1 BOS OR CLB OR PUNCT) (1 EOS OR CLB OR PUNCT);
 #шумбрат,
-SELECT:Voc ("ялга" N Pl Nom Indef) IF (-2 BOS OR CLB OR PUNCT) (-1 (N Sg Nom Indef)) (1 BOS OR CLB OR PUNCT);
+SELECT:Voc ("ялга" N Pl Nom Indef) IF (-2 BOS OR CLB OR PUNCT) (-1 NSgNomIndef) (1 BOS OR CLB OR PUNCT);
 	#- Пассажир ялгат, 
  
 REMOVE NOUNNOT_POSSIBLEPLNOMSUBJ IF (0 (Pl Nom)) (*0 VFINPL3SUBJ BARRIER CLB OR EOS OR BOS) (NOT *0 POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS);
@@ -1273,7 +1283,7 @@ REMOVE (N Sg Nom Indef Clt/Add) IF (0 ("кияк" Pron Indef Sg Nom)) (*0 ScSg3 
 SELECT:VerbalNounAblAdjunct (Der/NomAct N SP Abl) OR (Der/NomAct N Sg Abl Def) IF (*0 VERBTAKESMAMOABL OR VERBPERCEPTIONTAKESMAMOABL BARRIER CLB OR BOS OR EOS OR ("—"));
        #нарьгамодо: — ведунось лотки нарьгамодо.
 
-REMOVE (Der/OmA NomAct) IF (-1 (Der/Ozj Ger) OR (A Sg Nom Indef));
+REMOVE (Der/OmA NomAct) IF (-1 (Der/Ozj Ger) OR ASgNomIndef);
        #кодазь оршамот:  Лавтовгаст каязь уськстэ кодазь оршамот,
        #ванькс оршамот: Весе ломантнень лангсо ашо ванькс оршамот.
 
@@ -1512,7 +1522,9 @@ REMOVE:VGenIfNoSubsequentN VGen IF (NOT 1 N) ;
 # эсь мелест
 REMOVE:NoVIfNounAfterEsj (Opt ScPl3) IF (0 (Gen PxPl3)) (1 ADPNOPX) ;
 
-
+REMOVE:NoAbsNWhenAAndNextN NSgNomIndef IF (0 ASgNomIndef) (1 N OR (N Prop)) ;
+# remove absolute noun reading if there is an adjective reading and the next word is a noun
+# ожо: Ожо мекшкесь ливтясь ципакине малас
 
 REMOVE (Pl Nom) + SPPOSSESSUM IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
        #Мон чистэ шлян толган.
@@ -1551,7 +1563,7 @@ REMOVE:NoSubjWhenPxCorrelatesWithSubjObj (Pl Nom) IF (0 (PxPl3)) (*0 (ScPl3) OR 
 REMOVE (Sg Nom) IF (0 (PxPl3)) (*0 (OcPl3) BARRIER CLB) (NOT 1 ADPNOPX);
        #пряст: Салызь эсь пряст.
 
-REMOVE:NotNWhenPreceedNegNextN (N Sg Nom Indef) IF (0 A) (-1 (Pcle Neg)) (1 N); 
+REMOVE:NotNWhenPreceedNegNextN NSgNomIndef IF (0 A) (-1 (Pcle Neg)) (1 N); 
        #покш: а покш веле
 
 REMOVE (A SP Com) IF (0 (N SP Com));
@@ -1847,7 +1859,7 @@ SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 # А кискась, кода содатано,  кортамо а машты!
 REMOVE:NoNomActWhenInfLocContext Der/NomAct IF (0 Inf + Loc)(0 Sg + Nom + Indef) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS));
 
-REMOVE (A Der Der/MWN N Sg Nom Indef) IF (0 (N Sg Nom Indef));
+REMOVE (A Der Der/MWN N Sg Nom Indef) IF (0 NSgNomIndef);
 
 REMOVE (AdjObl) IF (0 NObl);
        #сыренек-однэк
@@ -1862,7 +1874,7 @@ REMOVE (Inf Loc) IF (NOT *0 VERBWITHMO BARRIER CLB OR BOS OR EOS);
 REMOVE ("кодамо" N Sg Nom Indef) IF (1 A);
        #кодамо мазый локсеесь
 
-REMOVE N IF (-1 KODAMOA) (0 (A Sg Nom Indef)) (1 V);
+REMOVE N IF (-1 KODAMOA) (0 ASgNomIndef) (1 V);
        #кодамо сюпав ульнесь
 
 REMOVE N IF (0 KODAMOA) (1 A OR Det OR Pron OR N);
@@ -1969,7 +1981,7 @@ REMOVE:NoGenObjWhenIV ("те" Pron Dem Sg Gen Indef) IF (0* VInVOms-NOTAUX BARRI
 SELECT:NoGenObjWhenIV ("мон" Pron Pers Sg1 Dat) IF (0 ("те" Pron Dem Sg Gen Indef)) (NEGATE 1 PostpNoPX) (*0 CONSSTEMOvOms BARRIER CLB OR EOS OR BOS);# Is this too powerful
 	#Ванстык Пургазонь, цёрынесь вельть вечкевсь тень, превей ды эрьва козонь чарькодиця...
 
-SELECT ("мон" Pron Pers Sg1 Dat) IF (*0 VERBTAKESDAT-NoOc BARRIER CLB OR EOS OR BOS) (*0 (N Sg Nom Indef) OR (N Pl Nom Indef) BARRIER CLB OR EOS OR BOS);
+SELECT ("мон" Pron Pers Sg1 Dat) IF (*0 VERBTAKESDAT-NoOc BARRIER CLB OR EOS OR BOS) (*0 NSgNomIndef OR (N Pl Nom Indef) BARRIER CLB OR EOS OR BOS);
 
 #SELECT:NoDatWhenNoDatGovernment ("те" Pron Dem Sg Gen Indef) IF (*0 VERBSWITHOUTDAT BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *-1 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT) (NOT *1 IndefObjectCandidate BARRIER CLB OR BOS OR EOS OR PUNCT);
 	#Молян, теиндерят тень вешкема.
