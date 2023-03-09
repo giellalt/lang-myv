@@ -1029,6 +1029,9 @@ imperative suffix
 * *валд0%>т0*
 
 **t:d**  
+ловомс+V+Ind+Prs+ScSg1+OcSg2: **regard/pitää jonain**
+* *лов>^TD>т{АЯ}н*
+* *лов>0>дан*
 
 **s:0**  
 
@@ -1105,6 +1108,10 @@ imperative suffix
 **Disallow s for control of stems with inessive...**
 
 **Disallow dano after non-voiced**
+
+**Disallow t:d following non-voiced ^TD**
+* ★*вечк>^TD>т{АЯ}н* (is not standard language)
+* ★*вечк>0>дян* (is not standard language)
 
 **Disallow k for control of comparative with stem types**
 
