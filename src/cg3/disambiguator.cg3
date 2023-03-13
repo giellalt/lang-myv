@@ -477,7 +477,9 @@ LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
 LIST IndefObjectCandidate = NSgNomIndef (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
-LIST NonIndefObjectCandidate = (N Sg Gen Def) (N PL Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
+LIST NonIndefObjectCandidate = (N Sg Gen Def) (N Pl Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
+LIST NonIndefObjectCandidatePl = (N Pl Gen Def) (N Pl Gen PxSg1) (N Pl Gen PxSg2) (N Pl Gen PxSg3) (N Pl Gen PxPl1) (N Pl Gen PxPl2) (N Pl Gen PxPl3);
+
 
 LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
 
@@ -644,6 +646,9 @@ SET NOT-V = WORD - V ; #!! NOT-V
 # - - - - - - - - - -
 
 SET MOOD-V = Cond OR Conj OR CondConj OR Des OR Imprt OR Ind OR Opt OR Prec  ; #!! MOOD-V
+
+SET PRT1SUBJ-OBJPL3 = (Ind Prt1 ScSg1) | (Ind Prt1 ScSg2) | (Ind Prt1 ScPL1) | (Conj ScSg1) | (Conj ScSg2) | (Conj ScPL1) | (Des ScSg1) | (Des ScSg2) | (Des ScPL1) ; #!! Homonymy for subject conjugation and subject-object conjugation with Pl3 object
+# these are Prt1 ScSg1, ScSg2 ScPl1 Ind, but also Conj and Des
 
 SET VFIN =  MOOD-V - ConNeg ; #!! VFIN
 #LIST VFIN = Prs Prt1 Prt2 Cond Conj CondConj Des Imprt Opt  ; 
@@ -1927,9 +1932,18 @@ SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef
 SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ((-1* ScPl3 BARRIER EOS) OR (1* ScPl3 BARRIER EOS)) ;
 SELECT Nom IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ((-1* ScPl3 BARRIER EOS) OR (1* ScPl3 BARRIER EOS)) ;
 
+REMOVE OcPl3 IF (0 PRT1SUBJ-OBJPL3) (NOT 0* NonIndefObjectCandidatePl BARRIER EOS OR BOS);
+#"а" V Aux Neg Ind Prt1 ScSg1 OcPl3
+# эзинь сода, мезе теинь.
+
+REMOVE:MezeNoDistinctionForRelOrInterr Rel IF (0 ("мезе" Pron)) ;
+# эзинь сода, мезе теинь.
+
+
 #а неиль
 #SELECT Pcle + Neg (1 Prs OR Prt2) ;
-SELECT V + Aux + Neg (1 Prs OR Prt2 OR Conj OR Des) ;
+#SELECT V + Aux + Neg (1 Prs OR Prt2 OR Conj OR Des) ;
+REMOVE Pcle OR CC OR Interj IF (0 ("<а>" V Aux Neg)) (1 Prs OR Prt2 OR Conj OR Des) ;
 SELECT Prs OR Prt2 OR Conj OR Des IF (-1 (V Aux Neg));
 
 #Микол ульнесь

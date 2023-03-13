@@ -246,6 +246,11 @@ LIST OcPl3 = OcPl3 ;
 LIST Inf = Inf ;
 LIST Neg = neg:ASH neg:Agroup neg:ARAS neg:AVOL neg:ES neg:imper/optat neg:russ neg:cond; # mod:imper ???
 
+SET NEG-A-AF = ("а" V Aux Neg) | ("аф" V Aux Neg) ; #!! negation marker for 
+SET PEKPJAK = ("пек") | ("пяк") ; #!! fits between negation and conneg
+
+SET TAKESYMMETRIC-NEG = (Ind Prs) | (Ind Prt2) | (Cond)  ;
+
 LIST PrfPrc = PrfPrc ;
 LIST VGen = VGen ;
 
@@ -354,6 +359,7 @@ LIST @-FAUXV = @-FAUXV ; # Non-finite auxiliary verb (or modal???) NOT USED YET.
 # these are эрявомс, савомс, летемс
 LIST @-F<AUXV = @-F<AUXV; # auxiliary of non-finite verb to the left
 LIST @-FAUXV> = @-FAUXV>; # auxiliary of non-finite verb to the right
+LIST @+FAUXV> = @+FAUXV>; # auxiliary of finite verb to the right V Aux Neg а молян, а молиндерян, а молилинь
 
 LIST @-FMAINV = @-FMAINV ; # Non-finite main verb
 
@@ -1345,6 +1351,7 @@ SET VfinVpl2 = (mod:imper vpl2) | (vfin vpl2) | (neg:ES vpl2) | (ScPl2) - (OcSg1
 SET VfinVpl3 = (vfin vpl3) | (neg:ES vpl3) | (ScPl3) - (OcSg1) - (OcSg2) - (OcSg3) - (OcPl1) - (OcPl2) - (OcPl3) - (Clt/Cop);#verb predicate with Pl3 subject and no other argument marking
 SET VSUBJCONJ = VfinVsg1 | VfinVsg2 | VfinVsg3 | VfinVpl1 | VfinVpl2 | VfinVpl3 ;#all instances of finite verbal conjugation
 
+
 LIST VfinPretSIVpl3 = (vfin mod:ind temp:pretS/I vpl3);
 LIST VfinPretSIVpl3Cpound = (vfin mod:ind temp:pres vsg1 cpound-end/cpound-unsegm);
 SET VfinSC = VfinVsg1 | VfinVsg2 | VfinVsg3 | VfinVpl1 | VfinVpl2 | VfinVpl3; #2022-01-26 subject conjugated verbs not copulas without object marking
@@ -1591,10 +1598,14 @@ MAP (@FS-ADVL>) TARGET Cond OR CondConj IF
 
 MAP (@FS-ADVL>) TARGET FAUXVERBS IF (-1* ("зярдо") BARRIER BOS OR CLB LINK -1 CLB OR BOS LINK 1* CLB BARRIER CLB LINK 1* FNOTAUXVERBS OR FAUXVERBS BARRIER CLB OR EOS);
 
+#MAP (@+FAUXV>) TARGET AuxNeg IF (0 ("<а>" V Aux Neg)) (1 (V Ind Prs) OR (V Ind Prt2) OR (V Cond));
+MAP (@+FAUXV>) TARGET AuxNeg IF (0 NEG-A-AF) ((1 TAKESYMMETRIC-NEG) OR (1 PEKPJAK LINK 1 TAKESYMMETRIC-NEG)) ;
+# а : Монь койсэ, тесэ тондеть парсте кияк а содасынзе тевтнень.
+# This might need a further context including пек/пяк
 
 MAP (@-F<AUXV) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (-1* VINF BARRIER CLB OR BOS OR @CVP);
 MAP (@-FAUXV>) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (1* VINF BARRIER CLB OR BOS OR @CVP);
-# а : Монь койсэ, тесэ тондеть парсте кияк а содасынзе тевтнень.
+#
 # эзь : Эзь сода.
 # @CVP : Ожо мекшкесь ливтясь ципакине малас ды кармась тердемензэ нешкепирев.
 
