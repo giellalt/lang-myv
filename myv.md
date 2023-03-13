@@ -145,6 +145,8 @@ NOT-V
 
 MOOD-V
 
+Homonymy for subject conjugation and subject-object conjugation with Pl3 object
+
 VFIN
 
 VFIN-POS
@@ -173,6 +175,9 @@ DerTag
 * Sets for Semantic tags
 
 * Sets for Morphosyntactic properties
+
+negation marker for 
+fits between negation and conneg
 
 * @>ADVL : Modifier of an adverbial to the right.
 ** vaikko: doppe leat vaikko man ollu studeanttat.

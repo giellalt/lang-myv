@@ -6,6 +6,9 @@
 
 * Sets for Morphosyntactic properties
 
+negation marker for 
+fits between negation and conneg
+
 * @>ADVL : Modifier of an adverbial to the right.
 ** vaikko: doppe leat vaikko man ollu studeanttat.
 * @ADVL< : Complement of adverbial.

@@ -141,6 +141,8 @@ NOT-V
 
 MOOD-V
 
+Homonymy for subject conjugation and subject-object conjugation with Pl3 object
+
 VFIN
 
 VFIN-POS
