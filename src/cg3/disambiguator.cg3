@@ -213,9 +213,12 @@ SET PlGenPossessum = (Pl Gen PxSg1) | (Pl Gen PxSg2) | (Pl Gen PxSg3) | (Pl Gen 
 SET SgNomPossessum = (Sg Nom PxSg1) | (Sg Nom PxSg2) | (Sg Nom PxSg3) | (Sg Nom PxPl1) | (Sg Nom PxPl2) | (Sg Nom PxPl3); 
 LIST PlNomPossessum = (Pl Nom PxSg1) (Pl Nom PxSg2) (Pl Nom PxSg3) (Pl Nom PxPl1) (Pl Nom PxPl2) (Pl Nom PxPl3); 
 
+SET SgGenDefHomPx = (Pl Nom PxSg2) | (Pl Gen PxSg2) | (Sg Gen PxSg2) ;#!! Dialect homonyms of Sg Gen Def
+
 LIST ASgNomIndef = (A Sg Nom Indef) ;
 LIST NSgNomIndef = (N Sg Nom Indef) ;
 LIST NSPGenDef = (N Sg Gen Def) (N Pl Gen Def) ;
+LIST SgGenDef = (N Sg Gen Def);
 LIST NSPGENINDEF = (N SP Gen Indef);
 
 LIST NMODIFIER = ASgNomIndef NSgNomIndef ;# use between "эсь" and noun
@@ -1060,6 +1063,10 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("валом" Adv) ;
        #"эй" N 'ice'
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET (N Prop Pl Nom Indef <W:0.0>);
 #This should help with imperatives
+
+SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET SgGenDefHomPx IF (0 SgGenDef);
+#Gen+PxSg2
+
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>) OR ("думамс" V TV Ind Prs ScSg2 <W:0.0>);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки") OR ("марто" Po Der/MWN) OR ("Киз" N Prop SP Gen Indef);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("Вась" Ex/N Prop SP Gen Indef Der/sje);
@@ -1217,6 +1224,7 @@ SELECT ("а" V Aux Neg) IF (1 (V IV Oblig) OR (V TV Oblig) OR ("умок" Adv Se
 
 SELECT:AuxNegNextJThenVerb ("а" V Aux Neg) IF (1 ("й")) (2 TAKESSYMMETRICNEG);#symmetric neg
        #А й арсян
+REMOVE CC OR Interj OR Pcle IF (0 ("а" V Aux Neg)) (1 TAKESSYMMETRICNEG);#symmetric neg
        
 SELECT ("а" Pcle Neg) IF (1 Adv OR Pron);
        #

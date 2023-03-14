@@ -250,6 +250,7 @@ SET NEG-A-AF = ("а" V Aux Neg) | ("аф" V Aux Neg) ; #!! negation marker for
 SET PEKPJAK = ("пек") | ("пяк") ; #!! fits between negation and conneg
 
 SET TAKESYMMETRIC-NEG = (Ind Prs) | (Ind Prt2) | (Cond)  ;
+SET NEG-A-AF-PRET1 = NEG-A-AF - (Prs) - (Prt2) - (Cond) ; #!! 
 
 LIST PrfPrc = PrfPrc ;
 LIST VGen = VGen ;
@@ -1305,7 +1306,8 @@ SET a-finpred = (Clt/Cop) | (mod:ind) - vfin | (mod:conj) - vfin;#a-finite predi
  #Оршазель ташто костюмсо.
  # This still needs all instances of Prs+ScSg3 where there is a non-finite present
  
-SET VFIN = vfin | MOOD-V | ConNeg; #finite verbs
+#SET VFIN = vfin | MOOD-V | ConNeg; #finite verbs
+SET VFIN = vfin | MOOD-V ; #finite verbs
 # there should be an hierarchy of other-than-finite-verb entities
 # that can be predicates
 LIST ULEMS = "улемс" "ульнемс" "эрьме" ;#Copula verbs
@@ -1428,8 +1430,10 @@ LIST VERBTAKESkodaCSUBJ = "ледстявомс" "неявомс" "помняв�
 LIST VERBTAKESDATILL = "радовамс" ;
 
 LIST DATAUX = "кадовомс" "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;# auxiliary verbs with non-finite main verbs in MS and a dative agent
+SET DATFAUX = DATAUX - VINF - (ConNeg) ; #!! finite auxiliary verbs with 
 
-SET DATAUX_FIN = DATAUX + VFIN ;
+SET DATAUX_FIN = DATAUX - VINF - (ConNeg) ;
+SET DATAUX_INF = DATAUX - VFIN ;
 
 LIST IVMOTIONVERBSWITHMO = "велявтомс" "каявомс" "кепетемс" "комамс" "куземс" "лисемс" "лоткакшномс" "лоткамс" "лотксемс" "мадемс" "молемс" "напустямс" "озамс" "оргодемс" "появакшномс" "появамс" "пульзямс" "самс" "совамс" "сыргамс" "туемс" "чиемс" "якамс" "яксемс" ; #intransitive motion verbs with SUP
 LIST TVMOTIONVERBSWITHMO = "кадомс" "комавтомс" "кучнемс" "кучомс" "ливтемс" "мадстемс"; #transitive motion verbs with SUP
@@ -1443,6 +1447,7 @@ LIST VERBWITHMO = ALLIVERBSWITHMO ALLTVERBSWITHMO ; #!!озамс ярсамо D
 
 
 LIST SUPAUX = "кармамс" ;# auxiliaries with non-finite main verbs in MO/ME supine/ Inf Loc
+
 
 
 LIST VERBWITHMS_SAMEAGENT = "алтамс" "арсекшнемс" "арсемс" "бажамс" "вечкемс" "кенеремс" "лездамс" "налкстамс" "нулгодемс" "отказамс" "пелемс" "решамс" "смеямс" "снартнемс" "снартомс" "согласямс" "стараямс" "терявтнемс" "удаламс" ; #Verbs taking MS where the subject is retained as subject/agent of the non-finite verb
@@ -1466,9 +1471,13 @@ SET IVSupEla = IV + SupEla ;#
 
 SET TVFIN = VFIN - IV - MOOD-V ;
 
-SET SUPAUX_FIN = SUPAUX + VFIN - TV ;# finite-form auxiliaries taking supine MO/ME
+SET SUPAUX_FIN = SUPAUX - VINF  - TV - (ConNeg) ; #!! finite auxiliary taking supine MO/ME
+SET SUPAUX_INF = SUPAUX - VFIN ;
 
 SET AUXVERBS = SUPAUX - TV | DATAUX | (Aux Neg Ind Prt1) ;#"летемс" "савшкномс" "савомс" "эрявкшномс" "эрявомс" ;#DATAUX
+
+SET AUXVERBS_INF = AUXVERBS - VFIN ;
+SET AUX_CONNEG = DATAUX + (ConNeg) | SUPAUX + (ConNeg) ;#!!
 
 SET NOUNPHRASEBREAK = VFIN | EOS | Adv | VINF | VINF1 ;# Whatever will break a noun phrase
 
@@ -1493,9 +1502,9 @@ SET NONVPL2 = NONVCENTERS + ScPl2 ;
 SET NONVPL3 = NONVCENTERS + ScPl3 ;
 SET NONVPERSON = NONVSG1 | NONVSG2 | NONVSG3 | NONVPL1 | NONVPL2 | NONVPL3 ;# this is used for identifying all but Prs ScSg3 and ScPl3 in a-finite verbal predication
 
-SET FAUXVERBS = AUXVERBS + MOOD-V;# these are finite auxiliaries
+SET FAUXVERBS = AUXVERBS + MOOD-V - ConNeg ;# these are finite auxiliaries
 SET FNOTAUXVERBS = VFINPERSONSUBJ - Clt/Cop - AUXVERBS ;# these are non-auxiliary finites
-SET NONFAUXVERBS = (AUXVERBS) - MOOD-V; # these are non-finite auxiliaries
+SET NONFAUXVERBS = AUXVERBS - MOOD-V; # these are non-finite auxiliaries
 SET NONFMAINVERBS = VINF - AUXVERBS - MOOD-V ;# these are non-finite main verbs
 #SET FNOTAUXVERBS = VFINPERSONSUBJ + MOOD-V - Clt/Cop - AUXVERBS ;
 
@@ -1599,12 +1608,16 @@ MAP (@FS-ADVL>) TARGET Cond OR CondConj IF
 MAP (@FS-ADVL>) TARGET FAUXVERBS IF (-1* ("зярдо") BARRIER BOS OR CLB LINK -1 CLB OR BOS LINK 1* CLB BARRIER CLB LINK 1* FNOTAUXVERBS OR FAUXVERBS BARRIER CLB OR EOS);
 
 #MAP (@+FAUXV>) TARGET AuxNeg IF (0 ("<а>" V Aux Neg)) (1 (V Ind Prs) OR (V Ind Prt2) OR (V Cond));
-MAP (@+FAUXV>) TARGET AuxNeg IF (0 NEG-A-AF) ((1 TAKESYMMETRIC-NEG) OR (1 PEKPJAK LINK 1 TAKESYMMETRIC-NEG)) ;
+#MAP (@+FAUXV>) TARGET AuxNeg IF (0 NEG-A-AF) ((1 TAKESYMMETRIC-NEG) OR (1 PEKPJAK LINK 1 TAKESYMMETRIC-NEG)) ;
+
+MAP (@-FAUXV) TARGET AuxNeg IF (0 NEG-A-AF) ((1 TAKESYMMETRIC-NEG) OR (1 PEKPJAK LINK 1 TAKESYMMETRIC-NEG)) ;
 # а : Монь койсэ, тесэ тондеть парсте кияк а содасынзе тевтнень.
 # This might need a further context including пек/пяк
 
-MAP (@-F<AUXV) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (-1* VINF BARRIER CLB OR BOS OR @CVP);
-MAP (@-FAUXV>) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (1* VINF BARRIER CLB OR BOS OR @CVP);
+#MAP (@-F<AUXV) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (-1* VINF BARRIER CLB OR BOS OR @CVP);
+#MAP (@-FAUXV>) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (1* VINF BARRIER CLB OR BOS OR @CVP);
+MAP (@+FAUXV) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (-1* VINF BARRIER CLB OR BOS OR @CVP);
+MAP (@+FAUXV) TARGET FAUXVERBS OR SUPAUX_FIN OR DATAUX_FIN OR AuxNeg IF (1* VINF BARRIER CLB OR BOS OR @CVP);
 #
 # эзь : Эзь сода.
 # @CVP : Ожо мекшкесь ливтясь ципакине малас ды кармась тердемензэ нешкепирев.
@@ -1615,6 +1628,16 @@ LIST @+FAUXV = @+FAUXV ; #!! * @+FAUXV : finite auxiliary verbs
 
 LIST @-FAUXV = @-FAUXV ; #!! * @-FAUXV : non-finite auxiliary verbs
 MAP (@-FAUXV) TARGET NONFAUXVERBS;
+#MAP (@+F<AUXV) TARGET SUPAUX OR DATAUX IF (*-1 VINF BARRIER CLB OR BOS);
+MAP (@-FAUXV) TARGET AUX_CONNEG OR AUXVERBS_INF IF (*-1 NEG-A-AF-PRET1 BARRIER CLB OR BOS OR @CVP);
+
+	       
+MAP (@+FAUXV) TARGET SUPAUX_FIN OR DATAUX_FIN IF (0* VINF BARRIER CLB OR EOS); #!! finite supaux 2023_03_13
+MAP (@+FAUXV) TARGET FAUXVERBS IF (0* VINF BARRIER CLB OR EOS);
+    	       # вешнемс эряви 2022-02-07
+    	       	      # сави вешнемс
+
+
 
 MAP (@-FMAINV) TARGET ConNeg IF (*-1 @+FAUXV); # 
 ##
@@ -2036,14 +2059,6 @@ MAP (@>A) TARGET ("эрьва" Det Sg Nom Indef) IF (1 ("кодамо"));# эр�
 MAP (@>ADVL) TARGET ("пек") IF (1 Adv OR (n/adj indf nsg cx:ela));# пек бойкасто
 # auxiliaries and main verbs
 
-
-#MAP (@+F<AUXV) TARGET SUPAUX OR DATAUX IF (*-1 VINF BARRIER CLB OR BOS);
-#MAP (@-F<AUXV) TARGET FAUXVERBS IF (*-1 VINF BARRIER CLB OR BOS);
-    	       # вешнемс эряви 2022-02-07
-	       
-#MAP (@+FAUXV>) TARGET SUPAUX OR DATAUX IF (*1 VINF BARRIER CLB OR EOS);
-#MAP (@-FAUXV>) TARGET FAUXVERBS IF (*1 VINF BARRIER CLB OR EOS);
-    	       	      # сави вешнемс
 
 
 # 11->41699
