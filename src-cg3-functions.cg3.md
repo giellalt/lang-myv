@@ -20,11 +20,17 @@ fits between negation and conneg
 
 MOOD-V
 
+finite auxiliary verbs with 
+
 макссь чарькодемс, Deal with DATAUX separately; they also take MS
+
+finite auxiliary taking supine MO/ME
 
 * @+FAUXV : finite auxiliary verbs
 
 * @-FAUXV : non-finite auxiliary verbs
+
+finite supaux 2023_03_13
 
 * @+FMAINV : finite main verbs
 * @-FMAINV : non-finite main verb

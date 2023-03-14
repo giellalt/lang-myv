@@ -40,6 +40,8 @@ EOS
 * Cmp/Sh
 * Cmp
 
+Dialect homonyms of Sg Gen Def
+
 * ### Derivation tags
 
 ### Semantic tags
