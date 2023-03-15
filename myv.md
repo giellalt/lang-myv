@@ -50,6 +50,8 @@ Dialect homonyms of Sg Gen Def
 
 ### Semantic tags
 
+noun phrase heads
+
 ###  Syntactic tags
 
 * @+FAUXV : finite auxiliary verb 
@@ -156,6 +158,8 @@ VFIN-POS
 ### Sets for person
 
 ### Pronoun sets
+
+кортамс мезде
 
 This will be expanded for homonymy at first
 
