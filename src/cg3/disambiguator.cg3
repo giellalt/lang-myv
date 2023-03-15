@@ -1156,8 +1156,9 @@ REMOVE:NoMart ("март") IF (0 SgGenPossessum OR PlGenPossessum OR SgNomPosses
 #This is too robust
  #мезе мартот
 
-REMOVE:NoPoWhenNotPrecedeeByNMNAndNoPx Po OR Adp IF (NOT -1 POSTPCOMPLEMENTTARGET) (0 PostpNoPX OR Adv);
-SELECT:NoPoWhenPrecedingCanBeNonNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET_COMP) (0 PostpNoPX)(0 Adv);
+#REMOVE:NoPoWhenNotPrecedeeByNMNAndNoPx Po OR Adp IF (NOT -1 POSTPCOMPLEMENTTARGET) (0 PostpNoPX OR Adv);
+REMOVE:NoPoWhenNotPrecedeeByNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET) (0 PostpNoPX) (0 Po OR Adp);
+#SELECT:NoPoWhenPrecedingCanBeNonNMNAndNoPx Adv IF (-1 POSTPCOMPLEMENTTARGET_COMP) (0 PostpNoPX)(0 Adv);
 
 
 SELECT:ComPairWhenPossible COMPAIRS;
@@ -1167,7 +1168,7 @@ SELECT:CollWhenPossible COLLPAIRS;
 SELECT:PairVerbs PAIRVERBS ;
 	#рамсемс-микшнемс
 
-REMOVE: (V Aux Neg Conj ScSg3) IF (NOT 1 ConNeg) ;
+REMOVE (V Aux Neg Conj ScSg3) IF (NOT 1 ConNeg) ;
 #V Aux Neg Conj ScSg3
 # аволь кудынесэль
 
@@ -1389,8 +1390,11 @@ REMOVE:NoAdjOblIfN AdjObl IF (0 N) ;
 # иляка ветя
 REMOVE:LeaveImpOrPrecNeg ("илямс") IF (0 Aux + Neg) (1 ConNeg) ;
 
+#REMOVE: Der/Dimin (0C N ) ;
 # пельнеть
-REMOVE Der/Dimin (0C N ) ;
+REMOVE (Gen PxSg2 Err/Orth) IF (0 SgGenDef);
+#ципакиненть : Ожо мекшкесь ливтясь вейке ципакиненть малас
+#Sg Gen Def
 
 # тетянзо-аванзо THIS is not working 2019-11-25
 #REMOVE Cmp (0C N ) ;
