@@ -345,6 +345,7 @@ LIST Inf = Inf ;
 LIST ConNeg = ConNeg ;
 LIST ConNegII = ConNegII ;
 LIST Neg = Neg ;
+LIST Emphatic = Emphatic ;
 LIST Aux = Aux ;
 LIST VINF = Inf ;
 SET VINF1 = (Inf) - (Inf Loc) - (Inf Abl);
@@ -478,6 +479,8 @@ LIST Hom1 = Hom1 ;
 LIST Hom2 = Hom2 ;
 LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
+
+LIST AblNPHEAD = (Pl Abl Def) (SP Abl Indef) (Sg Abl Def) (SP Abl PxSg1) (SP Abl PxSg2) (SP Abl PxSg3) (SP Abl PxPl1) (SP Abl PxPl2) (SP Abl PxPl3)  (Pron Pers Sg1 Abl) (Pron Pers Sg2 Abl) (Pron Pers Sg3 Abl) (Pron Pers Pl1 Abl) (Pron Pers Pl2 Abl) (Pron Pers Pl3 Abl)    ;#!! noun phrase heads
 
 LIST IndefObjectCandidate = NSgNomIndef (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
 LIST NonIndefObjectCandidate = (N Sg Gen Def) (N Pl Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
@@ -825,6 +828,7 @@ SET NOSCPERSON = WORD - SCPERSON ;#i.e. no predication
 
 
 LIST <vdic> = <vdic> ;
+LIST <about> = <about> ; #!! кортамс мезде
 
 
 
@@ -905,6 +909,10 @@ LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "
 LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявомс" "олякстомтомс" "пелемс" "пешкедемс" "покордавомс" "ракамс" "рангомс" "сыргоземс" "таргоземс";
 
 LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видькстамс" "визделгадомс" "виздемс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ; 
+
+
+LIST VERB_ABOUT_ABL = "арсемс" "бредямс" "видькстамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ; 
+# Verbs that take ablative indicating aboutedness talk about, read abouts
 
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
@@ -1159,6 +1167,10 @@ SELECT:CollWhenPossible COLLPAIRS;
 SELECT:PairVerbs PAIRVERBS ;
 	#рамсемс-микшнемс
 
+REMOVE: (V Aux Neg Conj ScSg3) IF (NOT 1 ConNeg) ;
+#V Aux Neg Conj ScSg3
+# аволь кудынесэль
+
 REMOVE:NoNSPAblCop (N SP Abl Indef Clt/Cop Prs ScPl3);
 # вал+до+т 
 
@@ -1212,7 +1224,10 @@ REMOVE ("малас" Adv Ill) IF (-1 POSTPCOMPLEMENTTARGET);
 
 REMOVE:NoBloodyCompWhenPlural ("верев" A Sg Nom Indef) IF (-1 ("се" Pron Dem Sg Abl Indef)) (1 IndefObjectCandidate);
        #чоподат: Ало ёно ванькст, седе верев чоподат.
-       
+
+REMOVE Adv IF (0 ("зярдо" CS)) (1* VFIN OR Clt/Cop BARRIER @CVP OR COMMA LINK 1* VFIN OR Clt/Cop BARRIER EOS);
+# зярдо: Зярдо сась ёжос, сон уш аволь кудынесэль. 
+
 REMOVE (Ex/A Der/MWN N Sg Nom Indef) IF (0 ASgNomIndef);
        #сюпав
 
@@ -1665,8 +1680,10 @@ REMOVE:NoPlurOc3WhenObjSg (Pl Gen) IF (0 (Gen PxSg3)) (NOT 1 PostpNoPX) (0* OcSg
 #Vocative
 SELECT:VocComrade N + Pl + Nom + Indef (0 JALGA) (-2 BOS) (-1 PUNCT) (1 CLB) ;
 
-# поладыцякс < поладомс from verb
+
 SELECT:NoReadyNomAg0 Der/Ycja IF (0 N + NomAg) ;
+# поладыцякс < поладомс from verb
+# палыця: Никон вансь палыця штатолонть лангс
 
 #REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
 REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT-KINTERM) ;
@@ -2107,3 +2124,7 @@ SELECT Adp (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers 
 
 # васттано тынк марто
 REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
+
+#ADD:TalkAbout <about> TARGET AblNPHEAD (NOT 0 <about>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
+#VERB_ABOUT_ABL
+SUBSTITUTE:TalkAbout (<W:0.0>) (<about> <W:0.0>) TARGET AblNPHEAD (NOT 0 <about>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
