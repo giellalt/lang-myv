@@ -1114,6 +1114,10 @@ REMOVE NSgNomIndef IF (-1 NSPGENINDEF) (0 SupLoc) (0* VERBWITHMO BARRIER BOS OR 
 # This is for dealing with ловсонь рамамо in order to avoid a lexicalized reading. It may need to be just Gen
   # Тонавтыцясь сыргась лавкав [ловсонь рамамо].
 
+REMOVE VFINPERSONOBJ IF (0 Der/OvOms OR Der/Ozevems);
+#der_ovoms><vblex><err_orth><imp><a_sg2><o_pl3
+# ушодови
+
 # Ли, Лис
 SELECT ("лисемс") IF (0 ("Ли") OR ("Лис")) (NOT 0* HASSCPERSON BARRIER CLB OR BOS OR EOS);
 # Листянояк ушов,...
@@ -1292,6 +1296,7 @@ SELECT ScSg3 IF (0* SUBJECTCANDIDATESG3 BARRIER BOS OR CLB OR EOS);
     #кияк: Молян лучше вастомот карман, штобу кияк аволидизь нейть.
     #Here we have an obvious OcSg2 with an indefinite subject Sg that is not treated as a singular, rather as an indefinite entity, hence "аволидизь" plural subject.
 
+
 #Ger
 SELECT (TV Der/Ozj Ger Sg Nom Indef) IF (-1 BOS OR CLB) (1 N) (2 EOS OR CLB);
 #, пидезь сывель,: Микшнема лавцятнева вачказь шумбра кшить, прякат, пидезь сывель, топо, медь ды лия эрьва кодамо ярсамопель.
@@ -1454,7 +1459,8 @@ REMOVE:NoPlIfOnlySgSubjPossible Pl IF (NOT -2* SG-SUBJ BARRIER BOS OR CLB) (-1 V
 
 # 
 #REMOVE Der/ОвОмс (0C V) ;
-REMOVE Der/OvOms (0C V) ;
+#REMOVE Der/OvOms (0C V) ;
+SELECT Der/OvOms (0C V) ; #!! 2023_03_15 important part of regular inflection
 
 # кортавтома
 REMOVE Der/OvtOms (0C V) ;
