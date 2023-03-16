@@ -601,7 +601,7 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/Yks * active short present participle with ks derivation
 * +Der/Ozj * Gerund
 * +Der/Cond * conditional derivation +Der/Ynderja
-* +Der/NomAg Actor Noun From Verb - Nomen Agentis (derivation)
+* +Der/NomAg Actor Noun From Verb - Nomen Agentis (derivation) default in Ыця
 * +Der/NomAct Action Noun From Verb - Nomen Actio (derivation)
 
 ## Declaring noun derivations
