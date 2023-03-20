@@ -15,6 +15,8 @@ LEXICON ADPOSITION-TYPES
 эйсэ+Po+Ine+PxPl1:эснэнек K ;
 эйсэ+Po+Ine+PxPl2:эснэнк K ;
 эйсэ+Po+Ine+PxPl3:эснэст K ;
+! occurs only with person marking
+эйстэдензэ+Po:эйстэде OBL-PX-FOLLOWED-BY-END/FOC/COP ;! Obligatory person marking
 
 ! Spatial nouns
 алдо+Po+Abl:алдо OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
@@ -246,10 +248,10 @@ LEXICON PO-IS-LOC
 !! ало:ало
 +Loc: OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
-LEXICON PO-IS-PRL
-!! postposition that is in prolative case
-!! перька:перька
-+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!LEXICON PO-IS-PRL
+!!! postposition that is in prolative case
+!!! перька:перька
+!2023_03_21+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
 
 !!
 LEXICON PO-SPAT_
@@ -331,7 +333,7 @@ LEXICON ejs-PO
 эйсэ+Po+Ine:эйсэ OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 эйстэ+Po+Ela:эйстэ _KUDO-Conjugation ;
 эйстэ+Po+Ela:эйстэ OBL-PX-FOLLOWED-BY-END/FOC/COP ;
-эйстэ+Po+Ela:эйстэде OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!2023_03_21эйстэ+Po+Ela:эйстэде OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 эйсэ+Po+Orth/PhonDeriv+Ine:эснэ OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
 эйстэ+Po+Orth/PhonDeriv+Ela:эстэде OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 марто+Po+Orth/PhonDeriv:маро OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K ;
