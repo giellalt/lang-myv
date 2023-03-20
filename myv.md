@@ -269,9 +269,6 @@ postposition that is in lative case
 postposition that is in locative case
 ало:ало
 
-postposition that is in prolative case
-перька:перька
-
 postposition that has no continuation пачк
 
 postposition that is in ablative case
