@@ -187,11 +187,11 @@ DerTag
 negation marker for 
 fits between negation and conneg
 
-* @>ADVL : Modifier of an adverbial to the right.
+* @>ADVL : Modifier of an adverbial, with the adverbial to the right.
 ** vaikko: doppe leat vaikko man ollu studeanttat.
 * @ADVL< : Complement of adverbial.
 ** vahkus: Son málesta guktii vahkus. таргозонзо: Ломанесь пиди-пани кавксть таргозонзо.
-* @<ADVL : Adverbial after the main verb.
+* @<ADVL : Adverbial following the main verb.
 ** dás: Eanet dieđuid gávnnat dás. тестэ: Седе ламо содамочи муят тестэ.
 * @ADVL> : Adverbial to the left of the main verb
 ** viimmat: Dál de viimmat asttan lohkat reivve. окойники: Ней окойники кенеринь ловномо сёрманть.
