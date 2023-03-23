@@ -402,17 +402,17 @@ LIST @SPRED = @SPRED ; # Subject predicative (e.g. in elliptical sentences); e.g
 #LIST @ADVL = @ADVL; # Adverbial
 
 #2022-09-07#LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL ;
-LIST @>ADVL = @>ADVL ; #!! * @>ADVL : Modifier of an adverbial to the right.
+LIST @>ADVL = @>ADVL ; #!! * @>ADVL : Modifier of an adverbial, with the adverbial to the right.
                               #!! ** vaikko: doppe leat vaikko man ollu studeanttat.
 LIST @ADVL< = @ADVL< ; #!! * @ADVL< : Complement of adverbial.
                         #!! ** vahkus: Son málesta guktii vahkus. таргозонзо: Ломанесь пиди-пани кавксть таргозонзо.
-LIST @<ADVL = @<ADVL ; #!! * @<ADVL : Adverbial after the main verb.
+LIST @<ADVL = @<ADVL ; #!! * @<ADVL : Adverbial following the main verb.
                             #!! ** dás: Eanet dieđuid gávnnat dás. тестэ: Седе ламо содамочи муят тестэ.
 LIST @ADVL> = @ADVL> ; #!! * @ADVL> : Adverbial to the left of the main verb
                             #!! ** viimmat: Dál de viimmat asttan lohkat reivve. окойники: Ней окойники кенеринь ловномо сёрманть.
 
 
-#2022-09-07#LIST @ADVL>CS = @ADVL>CS ;
+#2022-09-07#LIST @ADVL>CS = @ADVL>CS ; # сестэ: сестэ зярдо...
 
 LIST @ADVL-habitive = @ADVL-habitive; #
 LIST @ADVL-habitive> = @ADVL-habitive>; # habitive Adverbial to the left of the verb
@@ -435,8 +435,8 @@ LIST @-F<ADVL-partitive = @-F<ADVL-partitive; # partitive, ablative Adverbial to
 ###LIST @<ADVL <hab> = @<ADVL <hab>; # Habitive adverbial to the right of the finite verb
 
 LIST @-FADVL = @-FADVL; # Adverbial of a non-finite verb
-LIST @-F<ADVL = @-F<ADVL; # Adverbial of a non-finite verb on the right side of the verb
-LIST @-FADVL> = @-FADVL>; # Adverbial of a non-finite verb on the left side of the verb, e.g. кодгемень иетнесэ валдомтозь кинть лангсо: @-FADVL>(валдомтозь, иетнесэ)
+LIST @-F<ADVL = @-F<ADVL; # Adverbial of a non-finite verb to the right side of the verb
+LIST @-FADVL> = @-FADVL>; # Adverbial of a non-finite verb to the left side of the verb, e.g. кодгемень иетнесэ валдомтозь кинть лангсо: @-FADVL>(валдомтозь, иетнесэ)
 #LIST @-FADVL> = @-FADVL; # Complement of non-finite verb, e.g. The roadman warns snowscooter drivers to drive carefully
 
 LIST @PCLE = @PCLE; # Particle. ## I haven't used this but it might be useful later, though, strictly speaking, it isn't a functional role. I most cases these might be @INTERJ, @DISC, @VOC, or others?
