@@ -1027,7 +1027,7 @@ LIST DerTag = Der/MWN Der/njems Der/немс Der/Y 2VDerTag ; #!! DerTag
 LIST ShortPrsPrc = Der/Y Der/Yj ;
 
 # Noun sets
-
+LIST JOVTNE = "ве" "ёв" "килькш" "кит" "козяв" "корь" "лопав" "нарде" "пе" "пель" "пеште" "пув" "сув" "сяв" "теште" "ув" "чирь" ;#!! Pl Nom Def is Homomym with verb stem in тне-мс. This is relative for Clt/Cop with ScPl1 and ScPl2
 
 # Adjective sets
 
@@ -1215,7 +1215,7 @@ MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
 MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
 
 #"ёв" N Pl Nom Def Clt/Cop Prs ScPl1
-REMOVE:NoJovPlNomDefWhenNearAbl ("ёв" N Pl Nom Def Clt/Cop Prs ScPl1) OR ("ёв" N Pl Nom Def Clt/Cop Prs ScPl2) IF (0* Abl BARRIER EOS OR BOS OR @CVP);
+REMOVE:NoJovPlNomDefWhenNearAbl (JOVTNE N Pl Nom Def Clt/Cop Prs ScPl1) OR (JOVTNE N Pl Nom Def Clt/Cop Prs ScPl2) IF (0* Abl BARRIER EOS OR BOS OR @CVP);
 
 
 # adverbs and postpositions that are homonyms of regular noun declension
