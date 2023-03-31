@@ -1214,6 +1214,10 @@ MAP (@CGenAttrP) TARGET CC IF (-1 (N SP Gen Indef)) (1 (N SP Gen Indef));
 MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
 MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
 
+#"ёв" N Pl Nom Def Clt/Cop Prs ScPl1
+REMOVE:NoJovPlNomDefWhenNearAbl ("ёв" N Pl Nom Def Clt/Cop Prs ScPl1) OR ("ёв" N Pl Nom Def Clt/Cop Prs ScPl2) IF (0* Abl BARRIER EOS OR BOS OR @CVP);
+
+
 # adverbs and postpositions that are homonyms of regular noun declension
 REMOVE:NoMastorovAdv ("масторов" Adv Lat);
        #рестидинзе масторов This is a homonym of a regular noun form

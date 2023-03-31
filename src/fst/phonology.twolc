@@ -895,15 +895,17 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow dano after non-voiced"
 !! **@RULENAME@**
- т:т /<= [CnsVoiceless (ь:)| Vows ] %^TD: %> _ %{АЯ%}: ; 
-!%^TD:0 /<= [CnsVoiceless (ь:)| Vows ] _ %> т: ; 
-!к е к ш н е ^TD:0 > т {АЯ}:я н о
+ %^TD:0 /<= [CnsVoiceless (ь:)| :Vows ] (HarmDummies:) (%>) _ %> т: %{АЯ%}: ;
+  CnsVoiced (ь:) (HarmDummies:) (%>) _ %> т %{АЯ%}: ; 
 
-"Disallow t:d following non-voiced ^TD"
+!к е к ш н е ^TD:0 > т {АЯ}:я н о
+!CnsVoiced (ь:) (HarmDummies:) (%>) %^TD:0 %> _
+
+!"Disallow t:d following non-voiced ^TD"
 !! **@RULENAME@**
 !%^TD
-%^TD:0 /<=
- [SurfVows |CnsVoiceless:] (ь:) %>  _ %> т: ;
+!%^TD:0 /<=
+! [SurfVows |CnsVoiceless:] (ь:) %>  _ %> т: ;
 !вечкемс+V+Ind+Prs+ScSg1+OcSg2: **love/rakastaa**
 !!$ вечк>^TD>т{АЯ}н
 !!$ вечк>0>дян
