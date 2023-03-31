@@ -1125,7 +1125,7 @@ imperative suffix
 
 **Disallow dano after non-voiced**
 
-**Disallow t:d following non-voiced ^TD**
+**Disallow dano after non-voiced**
 * ★*вечк>^TD>т{АЯ}н* (is not standard language)
 * ★*вечк>0>дян* (is not standard language)
 
