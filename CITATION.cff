@@ -1,61 +1,59 @@
 authors: # for whole infra, add / replace
-  - family-names: Wiechetek
-    given-names: Linda
-    orcid: "https://orcid.org/0000-0002-5171-0841"
-  - family-names: Hiovain-Asikainen
-    given-names: Katri
-    orcid: ""
-  - family-names: Mikkelsen
-    given-names: Inga Lill Sigga
-    orcid: ""
-  - family-names: Moshagen
-    given-names: Sjur N.
-    orcid: ""
-  - family-names: Pirinen
-    given-names: Flammie A
-    orcid: "https://orcid.org/0000-0003-1207-5395"
-  - family-names: Trosterud
-    given-names: Trond
-    orcid: ""
-  - family-names: Gaup
-    given-names: Børre
-    orcid: ""
+  - family-names: Rueter
+    given-names: Jack
+    orcid: "https://orcid.org/0000-0002-3076-7929"
+  - family-names: Hämäläinen
+    given-names: Mika
+    orcid: "https://orcid.org/0000-0001-9315-1278"
+  - family-names: Partanen
+    given-names: Niko
+    orcid: "https://orcid.org/0000-0001-8584-3880"
 cff-version: 1.2.0
 date-released: "2022-06-19"
 identifiers:
   - description: ACL anthology
     type: url
-    value: https://aclanthology.org/2022.lrec-1.125/
+    value: https://aclanthology.org/2020.nlposs-1.13/
 keywords:
   - Erzya
-  - NLP
+  - Moksha
   - morphology
-  - spell-checking
-  - grammar-checking
-  - stemming
-  - tokenisation
+  - finite-state description
+  - morpholexical unity and diversity
 message: If you use this software, please cite it using these metadata.
 repository-code: "https://github.com/giellalt/lang-myv"
-title: GiellaLT repository (__LANG__ language)
+title: Open-Source Morphology for Endangered Mordvinic Languages
 version: 0.0.0
 preferred-citation: # whole repo, replace with specific if one exists!
   authors:
-      - family-names: Wiechetek
-        given-names: Linda
-      - family-names: Hiovain-Asikainen
-        given-names: Katri
-      - family-names: Mikkelsen
-        given-names: Inga Lill Sigg
-      - family-names: Moshagen
-        given-names: Sjur N.
-      - family-names: Pirinen
-        given-names: Flammie A
-      - family-names: Trosterud
-        given-names: Trond
-      - family-names: Gaup
-        given-names: Børre
-  title: "Unmasking the Myth of Effortless Big Data - Making an Open Source Multi-lingual Infrastructure and Building Language Resources from Scratch"
+      - family-names: Rueter
+        given-names: Jack
+      - family-names: Hämäläinen
+        given-names: Mika
+      - family-names: Partanen
+        given-names: Niko
+  title: "Open-Source Morphology for Endangered Mordvinic Languages"
   type: article
-license: __LICENCE__
+
+Rueter, J., Hämäläinen, M., & Partanen, N. (2020). [Open-Source Morphology for Endangered Mordvinic Languages](https://www.aclweb.org/anthology/2020.nlposs-1.13/). In Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) (pp. 94–100). The Association for Computational Linguistics.
+
+```bibtex
+    @inproceedings{rueter-etal-2020-open,
+        title = "Open-Source Morphology for Endangered Mordvinic Languages",
+        author = {Rueter, Jack  and
+          H{\"a}m{\"a}l{\"a}inen, Mika  and
+          Partanen, Niko},
+        booktitle = "Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS)",
+        month = nov,
+        year = "2020",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2020.nlposs-1.13",
+        doi = "10.18653/v1/2020.nlposs-1.13",
+        pages = "94--100"
+    }
+```
+
+license: __CC-BY-SA__
 url: https://github.com/giellalt/lang-myv/
 

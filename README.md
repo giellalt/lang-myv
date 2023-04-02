@@ -19,26 +19,6 @@ Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-myv)
 for the Erzya language by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
-Cite
-------
-
-Rueter, J., Hämäläinen, M., & Partanen, N. (2020). [Open-Source Morphology for Endangered Mordvinic Languages](https://www.aclweb.org/anthology/2020.nlposs-1.13/). In Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) (pp. 94–100). The Association for Computational Linguistics.
-
-    @inproceedings{rueter-etal-2020-open,
-        title = "Open-Source Morphology for Endangered Mordvinic Languages",
-        author = {Rueter, Jack  and
-          H{\"a}m{\"a}l{\"a}inen, Mika  and
-          Partanen, Niko},
-        booktitle = "Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS)",
-        month = nov,
-        year = "2020",
-        address = "Online",
-        publisher = "Association for Computational Linguistics",
-        url = "https://aclanthology.org/2020.nlposs-1.13",
-        doi = "10.18653/v1/2020.nlposs-1.13",
-        pages = "94--100"
-    }
-
 Download and test speller files
 -------------------------------
 
@@ -118,3 +98,61 @@ make
 (as root) make install
 ```
 
+## Citing
+
+<!-- Add language specific citation stuff here and to the CITATION.cff -->
+
+
+Rueter, J., Hämäläinen, M., & Partanen, N. (2020). [Open-Source Morphology for Endangered Mordvinic Languages](https://www.aclweb.org/anthology/2020.nlposs-1.13/). In Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) (pp. 94–100). The Association for Computational Linguistics.
+
+```bibtex
+    @inproceedings{rueter-etal-2020-open,
+        title = "Open-Source Morphology for Endangered Mordvinic Languages",
+        author = {Rueter, Jack  and
+          H{\"a}m{\"a}l{\"a}inen, Mika  and
+          Partanen, Niko},
+        booktitle = "Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS)",
+        month = nov,
+        year = "2020",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://aclanthology.org/2020.nlposs-1.13",
+        doi = "10.18653/v1/2020.nlposs-1.13",
+        pages = "94--100"
+    }
+```
+
+If you use language data from more than one GiellaLT language, consider citing
+[our LREC 2022 article on whole
+infra](https://aclanthology.org/2022.lrec-1.125/):
+
+> Linda Wiechetek, Katri Hiovain-Asikainen, Inga Lill Sigga Mikkelsen,
+  Sjur Moshagen, Flammie Pirinen, Trond Trosterud, and Børre Gaup. 2022.
+  *Unmasking the Myth of Effortless Big Data - Making an Open Source
+  Multi-lingual Infrastructure and Building Language Resources from Scratch*.
+  In Proceedings of the Thirteenth Language Resources and Evaluation Conference,
+  pages 1167–1177, Marseille, France. European Language Resources Association.
+
+If you use bibtex, following is as it is on ACL anthology:
+
+```bibtex
+@inproceedings{wiechetek-etal-2022-unmasking,
+    title = "Unmasking the Myth of Effortless Big Data - Making an Open Source
+    Multi-lingual Infrastructure and Building Language Resources from Scratch",
+    author = "Wiechetek, Linda  and
+      Hiovain-Asikainen, Katri  and
+      Mikkelsen, Inga Lill Sigga  and
+      Moshagen, Sjur  and
+      Pirinen, Flammie  and
+      Trosterud, Trond  and
+      Gaup, B{\o}rre",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation
+    Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.125",
+    pages = "1167--1177"
+}
+```
