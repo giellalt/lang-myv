@@ -447,12 +447,14 @@ DERIVATION
 * **+Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Abe+Def+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
 * **+SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; ** _ь_ retension through double %>%>
@@ -853,6 +855,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 *  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
+* %^SoftRetain:0  — The soft sign is not lost when adding -тне
 
 **verbStemVowStrong:0**  
 
@@ -1069,6 +1072,8 @@ imperative suffix
 **d:d**  
 
 **y:y**
+* *ведь{frontSoft}^SoftRetain>тне*
+* *ведь00>тне*
 
 **y:0**  
 * *кель^Ь2ZERO%>енть*
@@ -1097,7 +1102,11 @@ imperative suffix
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
-**Disallow Н1:н after Letters**
+**Disallow soft loss**
+* *кирьпець^SoftRetain>тне*
+* *кирьпець0>тне*
+
+**Disallow soft loss**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*
@@ -1365,6 +1374,8 @@ Other verb forms are
 * +Err/Orth-stem-je-should-be-ja * мелямс:меле
 * +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
 * +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
+* +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
+
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-d * not t but instead d
@@ -1855,6 +1866,7 @@ And following triggers to control variation
 * %{ЕØ%} Stem-final archiphoneme тинге
 
 * %^NoLinkVow  — No linking vowel is used only after consonants for error
+* %^SoftRetain  — The soft sign is not lost when adding -тне
 
 # MISC
 * +Cmp/Hyph A tag to indicate that a hyphen was used when compounding

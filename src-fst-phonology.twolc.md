@@ -32,6 +32,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 *  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
+* %^SoftRetain:0  — The soft sign is not lost when adding -тне
 
 **verbStemVowStrong:0**  
 
@@ -248,6 +249,8 @@ imperative suffix
 **d:d**  
 
 **y:y**
+* *ведь{frontSoft}^SoftRetain>тне*
+* *ведь00>тне*
 
 **y:0**  
 * *кель^Ь2ZERO%>енть*
@@ -276,7 +279,11 @@ imperative suffix
 * *пильге{frontSoft}>з>{оеэØ}нз{оэØ}*
 * *пильге0>з>энзэ*
 
-**Disallow Н1:н after Letters**
+**Disallow soft loss**
+* *кирьпець^SoftRetain>тне*
+* *кирьпець0>тне*
+
+**Disallow soft loss**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*
