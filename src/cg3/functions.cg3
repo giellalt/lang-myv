@@ -429,6 +429,15 @@ LIST @<ADVL-partitive = @<ADVL-partitive; # partitive, ablative Adverbial to the
 LIST @-FADVL-partitive = @-FADVL-partitive; # ablative Adverbial of a non-finite verb
 LIST @-FADVL-partitive> = @-FADVL-partitive>; # partitive, ablative Adverbial to the left of a non-finite verb
 LIST @-F<ADVL-partitive = @-F<ADVL-partitive; # partitive, ablative Adverbial to the right of a non-finite verb
+LIST <ablabout> = <ablabout> ;
+#LIST @ADVL <ablabout> = @ADVL <ablabout>;
+#LIST @ADVL> <ablabout> = @ADVL> <ablabout>; # partitive, ablative Adverbial to the left of the verb
+#LIST @<ADVL <ablabout> = @<ADVL <ablabout>; # partitive, ablative Adverbial to the right of the verb
+
+#LIST @-FADVL <ablabout> = @-FADVL <ablabout>; # ablative Adverbial of a non-finite verb
+#LIST @-FADVL> <ablabout> = @-FADVL> <ablabout>; # partitive, ablative Adverbial to the left of a non-finite verb
+LIST @-F<ADVL-partitive = @-F<ADVL-partitive; # partitive, ablative Adverbial to the right of a non-finite verb
+LIST @-F<ADVL-ablabout = @-F<ADVL-ablabout; # partitive, ablative Adverbial to the right of a non-finite verb
 
 
 ###LIST @ADVL> <hab> = @ADVL> <hab>; # Habitive adverbial to the left of the finite verb
@@ -710,7 +719,8 @@ LIST AJJPlInePxSg2 = (adj npl cx:ine pxsg2);
 LIST AJJSgGenIndf = (adj indf nsg cx:gen);
 LIST PrsPrcSgGenIndf = (ptcp1 indf nsg cx:gen) (Der/Y NomAg N SP Gen Indef);
 LIST AJJPlGenIndf = (adj indf npl cx:gen);
-LIST AJJSPGenIndf = (adj indf nsg cx:gen) (adj indf npl cx:gen) A SP Gen Indef;
+LIST AJJSPGenIndf = (adj indf nsg cx:gen) (adj indf npl cx:gen) (A SP Gen Indef);
+# important to keep tuples inside their parentheses
 
 LIST AJJGenDerNSgIndf = (adj indf nsg gen-derN);
 LIST AJJGenDerNPlIndf = (adj indf npl gen-derN);
@@ -902,7 +912,7 @@ LIST NOUNSPAbeIndf = (n indf nsg cx:abe) (n indf npl cx:abe) (N SP Abe Indef);
 #ДО
 LIST NOUNSgAblIndf = (n indf nsg cx:abl);
 LIST NOUNPlAblIndf = (n indf npl cx:abl);
-LIST NOUNSPAbl = (n indf nsg cx:abl) (n indf npl cx:abl) (n def nsg cx:abl) (n def npl cx:abl) (N SP Abl Indef) (N Sg Abl Def) (N Pl Abl Def) (n cx:abl pxsg1) (n cx:abl pxsg2) (n cx:abl pxsg3) (n cx:abl pxpl1) (n cx:abl pxpl2) (n cx:abl pxpl3) (N SP Abl) (N Sg Abl) (N Pl Abl) (indf nsg cx:abl) (Abl Indef);
+LIST NOUNSPAbl = (n indf nsg cx:abl) (n indf npl cx:abl) (n def nsg cx:abl) (n def npl cx:abl) (n cx:abl pxsg1) (n cx:abl pxsg2) (n cx:abl pxsg3) (n cx:abl pxpl1) (n cx:abl pxpl2) (n cx:abl pxpl3) (indf nsg cx:abl) (N Pl Abl Def) (N SP Abl Indef) (N Sg Abl Def) (N SP Abl PxSg1) (N SP Abl PxSg2) (N SP Abl PxSg3) (N SP Abl PxPl1) (N SP Abl PxPl2) (N SP Abl PxPl3) (N Prop Pl Abl Def) (N Prop SP Abl Indef) (N Prop Sg Abl Def) (N Prop SP Abl PxSg1) (N Prop SP Abl PxSg2) (N Prop SP Abl PxSg3) (N Prop SP Abl PxPl1) (N Prop SP Abl PxPl2) (N Prop SP Abl PxPl3) (Pron Pers Sg1 Abl) (Pron Pers Sg2 Abl) (Pron Pers Sg3 Abl) (Pron Pers Pl1 Abl) (Pron Pers Pl2 Abl) (Pron Pers Pl3 Abl) ;
 
 #шка
 LIST NOUNComparIndfSg = (n indf nsg cx:compar);
@@ -1406,6 +1416,11 @@ LIST POSTPTAKESABL = "башка" "икеле" "мейле" ;#postp/adverb that 
 LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявомс" "олякстомтомс" "пелемс" "пешкедемс" "покордавомс" "ракамс" "рангомс" "сыргоземс" "таргоземс";
 
 LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видькстамс" "визделгадомс" "виздемс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
+
+LIST TALKABOUTVABLARG = "арсемс" "бредямс" "видькстамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
+# a talk_about verb with ablative argument
+SET TALKABOUTVABLARGINF = TALKABOUTVABLARG - VFIN;#ойдензэ кортамо якси
+SET TALKABOUTVABLARGFIN = TALKABOUTVABLARG - (infMS/ME) - (V Inf) ;# finite talk_about verbs -ablabout
 
 LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
@@ -2225,8 +2240,17 @@ MAP (@SUBJ>) TARGET VESENOMSG IF (1* VFINPL3SUBJ BARRIER CLB OR EOS OR N);
 
 MAP:IntercedingMeriat  (@SUBJ>) TARGET (Sg Nom Def) IF (1 Comma) (2 ("меремс" ScPl2) OR ("меремс" ScSg2)) (3 Comma) (4* VFINSG3SUBJ BARRIER CLB OR EOS LINK NEGATE 0* SUBJECTCANDIDATESG3 BARRIER CLB OR EOS);
 
-MAP:TalkAboutABL (@ADVL>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
+MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
    #мезде-бути: Ансяк кенкшенть эйстэ а васоло кавто аштиця бабинетне мезде-бути кортнесть.
+
+MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGFIN BARRIER CLB OR EOS OR @CVP); 
+MAP:TalkAboutABL (@<ADVL <ablabout>) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGFIN BARRIER CLB OR BOS OR @CVP); 
+#MAP:TalkAboutABL (@<ADVL <ablabout>) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGFIN BARRIER CLB OR BOS OR @CVP); 
+	#This may still need a noun list for conceivable partitives
+MAP:TalkAboutABL (@-FADVL> <ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGINF BARRIER CLB OR EOS OR @CVP); 
+MAP:TalkAboutABL (@-F<ADVL <ablabout>) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGINF BARRIER CLB OR BOS OR @CVP); 
+
+
 
 MAP:IngestionABL (@ADVL-partitive>) TARGET NOUNSPAbl IF (*1 INGESTIONVABLARGFIN BARRIER CLB OR EOS); 
 MAP:IngestionABL (@<ADVL-partitive) TARGET NOUNSPAbl IF (*-1 INGESTIONVABLARGFIN BARRIER CLB OR BOS); 

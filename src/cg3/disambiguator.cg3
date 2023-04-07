@@ -480,7 +480,7 @@ LIST Hom2 = Hom2 ;
 LIST Hom3 = Hom3 ;
 LIST Hom4 = Hom4 ;
 
-LIST AblNPHEAD = (Pl Abl Def) (SP Abl Indef) (Sg Abl Def) (SP Abl PxSg1) (SP Abl PxSg2) (SP Abl PxSg3) (SP Abl PxPl1) (SP Abl PxPl2) (SP Abl PxPl3)  (Pron Pers Sg1 Abl) (Pron Pers Sg2 Abl) (Pron Pers Sg3 Abl) (Pron Pers Pl1 Abl) (Pron Pers Pl2 Abl) (Pron Pers Pl3 Abl)    ;#!! noun phrase heads
+LIST AblNPHEAD = (N Pl Abl Def) (N SP Abl Indef) (N Sg Abl Def) (N SP Abl PxSg1) (N SP Abl PxSg2) (N SP Abl PxSg3) (N SP Abl PxPl1) (N SP Abl PxPl2) (N SP Abl PxPl3) (N Prop Pl Abl Def) (N Prop SP Abl Indef) (N Prop Sg Abl Def) (N Prop SP Abl PxSg1) (N Prop SP Abl PxSg2) (N Prop SP Abl PxSg3) (N Prop SP Abl PxPl1) (N Prop SP Abl PxPl2) (N Prop SP Abl PxPl3) (Pron Pers Sg1 Abl) (Pron Pers Sg2 Abl) (Pron Pers Sg3 Abl) (Pron Pers Pl1 Abl) (Pron Pers Pl2 Abl) (Pron Pers Pl3 Abl)    ;#!! noun phrase heads
 
 LIST IndefObjectCandidate = NSgNomIndef (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
 LIST NonIndefObjectCandidate = (N Sg Gen Def) (N Pl Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
@@ -828,7 +828,7 @@ SET NOSCPERSON = WORD - SCPERSON ;#i.e. no predication
 
 
 LIST <vdic> = <vdic> ;
-LIST <about> = <about> ; #!! кортамс мезде
+LIST <ablabout> = <ablabout> ; #!! кортамс мезде
 
 
 
@@ -946,6 +946,8 @@ LIST VERBTAKESkodaCSUBJ = "ледстявомс" "неявомс" "помняв�
 LIST VERBTAKESDATILL = "радовамс" ;
 
 LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#
+
+LIST SAVOMSERIAVOMS = "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#!! these have homonyms
 
 LIST COMPAIRS = "аванек-пакшанек" "аванек-цёранек" "капстанек-взятканек" "кизэнек-теленек" "лопанек-сеерькснэк" "мельнек-превнек" "однэк-сыренек" "ойменек-рунгонек" "ойменек-седейнек" "прянек-пильгенек" "прянек-рунгонек" "прянек-седейнек" "тейтерненек-цёрыненек" "теленек-кизэнек" "чинек-венек" ;#Com pairs
 
@@ -1113,6 +1115,14 @@ REMOVE (Der/Ycja NomAg) IF (0 LEXICALIZEDNOMAG);
 REMOVE NSgNomIndef IF (-1 NSPGENINDEF) (0 SupLoc) (0* VERBWITHMO BARRIER BOS OR EOS OR CLB);
 # This is for dealing with ловсонь рамамо in order to avoid a lexicalized reading. It may need to be just Gen
   # Тонавтыцясь сыргась лавкав [ловсонь рамамо].
+
+# pick эряви
+REMOVE:OnlyOblWhereInf (Ex/V Der/OvOms) IF (0 SAVOMSERIAVOMS) (1 (V Inf)) ;
+REMOVE:OnlyOblWhereInf (Ex/V Der/OvOms) IF (0 SAVOMSERIAVOMS) (-1 (V Inf));
+  #эряви: Природанть эряви тонавтнемс аволь ансяк сень кис, штобу содамс, мезе тейневи природасонть.
+
+REMOVE:OnlyOblWhereAbeNotPresent (Ex/V Der/OvOms) IF (0 ("эрявомс")) (NOT 0* Abe BARRIER @CVP OR BOS OR EOS);
+#"эрямс": кошттомо а эряват
 
 REMOVE VFINPERSONOBJ IF (0 Der/OvOms OR Der/Ozevems);
 #der_ovoms><vblex><err_orth><imp><a_sg2><o_pl3
@@ -2139,6 +2149,7 @@ SELECT Adp (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers 
 # васттано тынк марто
 REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
 
-#ADD:TalkAbout <about> TARGET AblNPHEAD (NOT 0 <about>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
+#ADD:TalkAbout <ablabout> AblNPHEAD (NOT 0 <ablabout>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
+#ADD:TalkAbout <ablabout> TARGET AblNPHEAD (NOT 0 <ablabout>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
 #VERB_ABOUT_ABL
 #SUBSTITUTE:TalkAbout (<W:0.0>) (<about> <W:0.0>) TARGET AblNPHEAD (NOT 0 <about>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
