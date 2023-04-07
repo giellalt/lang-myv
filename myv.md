@@ -165,6 +165,8 @@ This will be expanded for homonymy at first
 
 This will be expanded for homonymy at first, i.e., diminutives
 
+these have homonyms
+
 used with Dat PxSg1
 
 ### Derivation tags
