@@ -157,6 +157,8 @@ VFIN-POS
 
 кортамс мезде
 
+for кизэ homonymy PxSg2
+for кизэ homonymy PxSg1
 This will be expanded for homonymy at first
 
 This will be expanded for homonymy at first, i.e., diminutives

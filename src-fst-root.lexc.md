@@ -223,6 +223,7 @@ Other verb forms are
 * +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
 * +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
 * +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
+* +Err/Orth-stem-nodent-hard-should-be-tnje * потоктнэсэ
 
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
@@ -715,6 +716,7 @@ And following triggers to control variation
 
 * %^NoLinkVow  — No linking vowel is used only after consonants for error
 * %^SoftRetain  — The soft sign is not lost when adding -тне
+* %^HardNoDent  — Hard non-dent followed by -тнэ потоктнэсэ
 
 # MISC
 * +Cmp/Hyph A tag to indicate that a hyphen was used when compounding

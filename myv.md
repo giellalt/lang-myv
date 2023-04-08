@@ -161,6 +161,8 @@ VFIN-POS
 
 кортамс мезде
 
+for кизэ homonymy PxSg2
+for кизэ homonymy PxSg1
 This will be expanded for homonymy at first
 
 This will be expanded for homonymy at first, i.e., diminutives
@@ -405,6 +407,10 @@ Nouns in ERZYA inflect for number, case and declension (definite, indefinite and
 * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
 * LEXICON N_OZIM1  озимь:озимь %^Ь2ZERO
+
+* LEXICON N_RECH1  озимь:озимь %^Ь2ZERO
+
+* LEXICON N_VESHCH1  озимь:озимь %^Ь2ZERO
 
 * LEXICON N_PEJ  кель:кель %^Ь2ZERO
 
@@ -856,6 +862,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 * %^SoftRetain:0  — The soft sign is not lost when adding -тне
+* %^HardNoDent:0  — Hard non-dent followed by -тнэ потоктнэсэ
 
 **verbStemVowStrong:0**  
 
@@ -1375,6 +1382,7 @@ Other verb forms are
 * +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
 * +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
 * +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
+* +Err/Orth-stem-nodent-hard-should-be-tnje * потоктнэсэ
 
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
@@ -1867,6 +1875,7 @@ And following triggers to control variation
 
 * %^NoLinkVow  — No linking vowel is used only after consonants for error
 * %^SoftRetain  — The soft sign is not lost when adding -тне
+* %^HardNoDent  — Hard non-dent followed by -тнэ потоктнэсэ
 
 # MISC
 * +Cmp/Hyph A tag to indicate that a hyphen was used when compounding

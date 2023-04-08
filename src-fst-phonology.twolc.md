@@ -33,6 +33,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 * %^SoftRetain:0  — The soft sign is not lost when adding -тне
+* %^HardNoDent:0  — Hard non-dent followed by -тнэ потоктнэсэ
 
 **verbStemVowStrong:0**  
 
