@@ -329,6 +329,20 @@ LEXICON NMN_OZIM1
 @P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_RECH1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
+ NMN_RECH1 ;
+LEXICON NMN_RECH1
+! harmony: front
+@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
+LEXICON N_VESHCH1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
+ NMN_VESHCH1 ;
+LEXICON NMN_VESHCH1
+! harmony: front
+@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
 LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_PEJ ;
@@ -1961,6 +1975,7 @@ LEXICON OBL-PX4-END-FOC-OR_ENDLEX
 LEXICON NMN_DEF_PL_DECLENSION
 :%>тнЕ3 NMN_DEF_PL_DECLENSION_CASES ;
 +Err/Orth-stem-soft-should-be-0:%^SoftRetain%>тне NMN_DEF_PL_DECLENSION_CASES ;
++Err/Orth-stem-nodent-hard-should-be-tnje:%^HardNoDent%>тнэ NMN_DEF_PL_DECLENSION_CASES ;
 LEXICON NMN_DEF_PL_DECLENSION_CASES
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@+Pl+Nom+Def:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.DEF@ _KUDO-NomPl-Conjugation ;
 @U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@+Pl+Gen+Def:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.DEF@%>нь K ;

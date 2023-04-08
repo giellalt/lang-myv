@@ -488,6 +488,7 @@ LIST NonIndefObjectCandidatePl = (N Pl Gen Def) (N Pl Gen PxSg1) (N Pl Gen PxSg2
 
 
 LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
+LIST SUBJECTCANDIDATEPL3 = (N Pl Nom Def) (N Pl Nom PxSg3) ("кияк" Pron Indef Pl Nom)  ;#Pl subject candidate or it's a predicate, perhaps
 
 SET OBJECTCANDIDATE = IndefObjectCandidate | NonIndefObjectCandidate ;
 
@@ -837,6 +838,8 @@ LIST MARTO = "марто" ;
 LIST KODAMOA = ("кодамо" A Interr Sg Nom Indef) ("кодамо" A Rel Sg Nom Indef) ;
 LIST PESHKSE = "пешксе" ;
 LIST SEDE = "седе" ;
+LIST KIZENT1 = ("Киз" N Prop SP Gen Indef) ("Киз" N Prop Sg Gen Def) ("Киз" N Prop Sg Gen PxSg2) ("Киз" N Prop Pl Nom PxSg2) ("Киз" N Prop Pl Gen PxSg2) ;#!! for кизэ homonymy PxSg2
+LIST KIZEN1 = ("Киз" N Prop Pl Nom PxSg1) ("Киз" N Prop Pl Gen PxSg1) ("Киз" N Prop Sg Gen PxSg1) ;#!! for кизэ homonymy PxSg1
 LIST CARDNUM = "вейке" "кавто" "колмо" "ниле" "вете" "кото" "сисем" "кавксо" "вейксэ" "кемень" ;
 LIST PERSPRONSG = "мон" "тон" "сон" "монсь" "тонсь" "сонсь" ;
 LIST PERSPRONPL = "минь" "тынь" "сынь" "минсь" "тынсь" "сынсь" ;
@@ -1068,6 +1071,8 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ela PxSg1) OR ("эй" N SP El
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ill PxSg1) OR ("эй" N SP Ill PxSg2) OR ("эй" N SP Ill PxSg3) OR ("эй" N SP Ill PxPl1) OR ("эй" N SP Ill PxPl2) OR ("эй" N SP Ill PxPl3) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP Ine PxSg2) OR ("эй" N SP Ine PxSg3) OR ("эй" N SP Ine PxPl1) OR ("эй" N SP Ine PxPl2) OR ("эй" N SP Ine PxPl3) ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("валом" Adv) ;
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Pl Nom PxSg1) IF (1 N) ;
+  #Кизэнь: Кизэнь каникулатнестэ неть растениятнень можна максомс тонавтницятненень
 
        #This may be too robust, but it would definitely be good for weighting
        #"эй" N 'ice'
@@ -1078,7 +1083,9 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET SgGenDefHomPx IF (0 SgGenDef);
 #Gen+PxSg2
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>) OR ("думамс" V TV Ind Prs ScSg2 <W:0.0>);
-SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки") OR ("марто" Po Der/MWN) OR ("Киз" N Prop SP Gen Indef);
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки") OR ("марто" Po Der/MWN) OR KIZENT1 OR KIZEN1 ;
+	   # Киз, кизэ
+
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("Вась" Ex/N Prop SP Gen Indef Der/sje);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET PropnPICHvsPiche IF (0 NMN-INFLECTION-IN-MIDARCHIVOWEL);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
@@ -1100,6 +1107,9 @@ REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
 REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
 # марто does not take NP modifier role if not followed by NP head
 # Авазо якась школав шабранзо марто.
+
+REMOVE:Pert1AttrWhenNoHead ("перть" A Sg Nom Indef) IF (NOT 1 N);
+   #перть: Кизэнть перть эряви оймсемс
 
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
        #Тесэ весе чумось войнась...» — оймавтсь сон эсь прянзо.
@@ -1127,6 +1137,7 @@ REMOVE:OnlyOblWhereAbeNotPresent (Ex/V Der/OvOms) IF (0 ("эрявомс")) (NOT
 REMOVE VFINPERSONOBJ IF (0 Der/OvOms OR Der/Ozevems);
 #der_ovoms><vblex><err_orth><imp><a_sg2><o_pl3
 # ушодови
+
 
 # Ли, Лис
 SELECT ("лисемс") IF (0 ("Ли") OR ("Лис")) (NOT 0* HASSCPERSON BARRIER CLB OR BOS OR EOS);
@@ -1607,7 +1618,9 @@ SELECT:PlPredIfNoOther (Pl Nom Indef) IF (NOT 0 VFIN) (0* POSSIBLEPLNOMSUBJ BARR
        #Прясонзо черензэ ды сакалонзо валдот,
        #Сайтяно: — Сайтяно вишка узереть.
 
-SELECT:PlSubjIfPlPred POSSIBLEPLNOMSUBJPX IF (0* (Pl Nom Indef) BARRIER CLB OR EOS OR BOS) (NEGATE 0* VFIN BARRIER CLB OR EOS OR BOS) (NEGATE 1 PostpNoPX);
+REMOVE:PlSubjIfPlPred POSSIBLEPLNOMSUBJPX IF (1 N) ;
+  # quite strong, кизэнь: Кизэнь каникулатнестэ неть растениятнень можна максомс тонавтницятненень
+#SELECT:PlSubjIfPlPred POSSIBLEPLNOMSUBJPX IF (0* (Pl Nom Indef) BARRIER CLB OR EOS OR BOS) (NEGATE 0* VFIN BARRIER CLB OR EOS OR BOS) (NEGATE 1 PostpNoPX);
 
 REMOVE:NoSubjWhenPxCorrelatesWithSubjObj (Pl Nom) IF (0 (PxPl3)) (*0 (ScPl3) OR (OcPl3) BARRIER CLB);
        #пряст: Салызь эсь пряст.

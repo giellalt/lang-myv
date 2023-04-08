@@ -163,6 +163,7 @@ NoVLoss:0
 
 %^NoLinkVow:0 !!= @CODE@ — No linking vowel is used only after consonants for error
 %^SoftRetain:0 !!= * @CODE@ — The soft sign is not lost when adding -тне
+%^HardNoDent:0 !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ
 
 — ! emdash
 %- !Hyphen with constructions like "-buti"
@@ -213,7 +214,10 @@ CnsVoicelessNonDent = к п ф х ч ш щ
 		      К П Ф Х Ч Ш Щ ;
 CnsNonDent = б в г ж к м п ф х ч ш щ 
 	     Б В Г Ж К М П Ф Х Ч Ш Щ ;
+CnsNonDentShib = б в г к м п ф х 
+	         Б В Г К М П Ф Х ;
 
+CnsSoftNonDent = й Й щ Щ ;
 CnsHardNonDent = ж ч ш 
 	       	 Ж Ч Ш ;
 CnsDent = д з л н р с т ц 
@@ -261,6 +265,11 @@ NoFront = [ %>  | :BTV | BTV: | :NPC | О1: | %{оеэØ%}: ]* ;
 
 LBCCns = [ :BTV [ \[ # | :FTV | FTV: | ь: | й: | :Vows ]* :NPC |:BTV %> CnsDent |  л ь [ ф | т | д ] ]]  ;
 !LBCCns = LBC \[ # | FT | :FTV | FTC | л ь: | ь: | й: ]* :NPC+ ;
+
+
+HardBackNoDentShib = [BTV [ NPC ]* CnsNonDentShib] ;
+SoftNoDentShib = [FTV [б | в | г | й | к | м | п | ф | х | щ | ь | д ь | з ь | л ь | н ь | р ь | с ь | т ь | ц ь]* CnsNonDentShib] ;
+
 
 PossX = [ м | н %{ЬØ%}: | т %{ЬØ%}: | н т %{ЬØ%}: | ( н ) з %{оэØ%}: | н %{оеэ%}: к | м О1: к | н к | ( н ) с т | с к ] ;
 
@@ -853,9 +862,12 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow soft loss"
 !! **@RULENAME@**
- т:т /<= [ л ь: | Vows:|Cns:| ъ: ] (%{frontSoft%}:) %^SoftRetain: %> _ [н е|е м] ;
+ т:т /<= [ л ь: | Vows:|:Vows|Cns:| ъ: ] (HarmDummies:) %^SoftRetain: %> _ [н е|е м] ;
+!+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>тне
 !!€ кирьпець^SoftRetain>тне
 !!€ кирьпець0>тне
+     [[Cns|Vows:|:Vows| ь: | й:] - HardBackNoDentShib]  (HarmDummies:) %^HardNoDent: %> _ н э ;
+!+Err/Orth-stem-nodent-hard-should-be-tnje:%^HardNoDent%>тнэ
 
 !!OLD
 
