@@ -1103,6 +1103,24 @@ SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR E
 
 #SUBSTITUTE (DIALREADING) (*) TARGET (*) ;
 
+MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
+MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
+    #и :тейсь прязонзо пизэ и ливтсь левкст.
+
+MAP (@C-FVP) TARGET CC IF (*0 SUPAUX OR DATAUX BARRIER CLB OR EOS OR BOS) (*-1 VINF BARRIER CLB OR BOS) (*1 VINF BARRIER CLB OR EOS);# actually this could be inf split
+#и: Эряви саламс сёрось и явомс сембе вачедотненди.
+MAP:ccWithInf (@C-FVP) TARGET CC IF (-1* VINF BARRIER CLB OR BOS OR VFIN) (1* VINF BARRIER CLB OR BOS OR VFIN);# actually this could be inf split
+MAP (@CVP) TARGET CC IF (*-2 VFIN BARRIER CLB OR BOS) (-1 (",")) (*1 VFIN BARRIER CLB OR BOS);
+#а: , голой сови, а раужо сёлги.
+
+
+MAP (@CADJP) TARGET CC IF (-1 A OR NomAg OR (Ex/A Der/MWN)) (1 A OR NomAg OR (Ex/A Der/MWN));#
+    #минек пек виев ды превей, сон киненьгак прянзо нарьгамс а макссы.
+MAP (@CGenAttrP) TARGET CC IF (-1 (N SP Gen Indef)) (1 (N SP Gen Indef));
+    #, мушконь ды левшень пикст
+MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
+MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
+
 # Adv Ine versus N SP Ine Indef
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
 # Is this too strong? ушосо: Эйкакштнэ налксить ушосо.
@@ -1227,24 +1245,6 @@ REMOVE:NoPcleAfterComma ("ды" Pcle) OR ("улемс" V IV Oblig) OR ("улем
 	#, улема,
 
 REMOVE COMMONNOUN IF (0 Upper) (NEGATE -1 BOS OR (":")) (NEGATE -1 ("—") LINK -1 BOS);
-
-MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
-MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
-    #и :тейсь прязонзо пизэ и ливтсь левкст.
-
-MAP (@C-FVP) TARGET CC IF (*0 SUPAUX OR DATAUX BARRIER CLB OR EOS OR BOS) (*-1 VINF BARRIER CLB OR BOS) (*1 VINF BARRIER CLB OR EOS);# actually this could be inf split
-#и: Эряви саламс сёрось и явомс сембе вачедотненди.
-MAP:ccWithInf (@C-FVP) TARGET CC IF (-1* VINF BARRIER CLB OR BOS OR VFIN) (1* VINF BARRIER CLB OR BOS OR VFIN);# actually this could be inf split
-MAP (@CVP) TARGET CC IF (*-2 VFIN BARRIER CLB OR BOS) (-1 (",")) (*1 VFIN BARRIER CLB OR BOS);
-#а: , голой сови, а раужо сёлги.
-
-
-MAP (@CADJP) TARGET CC IF (-1 A OR NomAg OR (Ex/A Der/MWN)) (1 A OR NomAg OR (Ex/A Der/MWN));#
-    #минек пек виев ды превей, сон киненьгак прянзо нарьгамс а макссы.
-MAP (@CGenAttrP) TARGET CC IF (-1 (N SP Gen Indef)) (1 (N SP Gen Indef));
-    #, мушконь ды левшень пикст
-MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
-MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
 
 #"ёв" N Pl Nom Def Clt/Cop Prs ScPl1
 REMOVE:NoJovPlNomDefWhenNearAbl (JOVTNE N Pl Nom Def Clt/Cop Prs ScPl1) OR (JOVTNE N Pl Nom Def Clt/Cop Prs ScPl2) IF (0* Abl BARRIER EOS OR BOS OR @CVP);
