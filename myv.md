@@ -179,6 +179,8 @@ DerTag
 
 Pl Nom Def is Homomym with verb stem in тне-мс. This is relative for Clt/Cop with ScPl1 and ScPl2
 
+in SP Gen Indef the next word can be кель
+
 2023_03_15 important part of regular inflection
 
 * * *
