@@ -454,6 +454,7 @@ LIST Ex/V = Ex/V ;#former verb
 
 
 LIST Sur = Sur ;
+LIST Sem/Hum = Sem/Hum ;
 LIST Sem/Sur = Sem/Sur ;
 LIST Sem/Fem = Sem/Fem ;
 LIST Sem/Mal = Sem/Mal ;
@@ -462,7 +463,7 @@ LIST Sem/Kin = Sem/Kin sem_kin ;
 LIST Sem/Ant = Sem/Ant ;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
 LIST SUR = Sem/Sur_Mal Sem/Sur_Fem ;
-LIST Ani = Ani Sem/Kin Hum Fem Mal Sur ;
+LIST Ani = Ani Sem/Kin Hum Fem Mal Sur Sem/Hum ;
 LIST Fem = Fem ;
 LIST Mal = Mal ;
 
@@ -1034,6 +1035,9 @@ LIST ShortPrsPrc = Der/Y Der/Yj ;
 # Noun sets
 LIST JOVTNE = "ве" "ёв" "килькш" "кит" "козяв" "корь" "лопав" "нарде" "пе" "пель" "пеште" "пув" "сув" "сяв" "теште" "ув" "чирь" ;#!! Pl Nom Def is Homomym with verb stem in тне-мс. This is relative for Clt/Cop with ScPl1 and ScPl2
 
+LIST LANGNAME = "мокшо" "руз" "эрзя" ; #!! in SP Gen Indef the next word can be кель
+SET TAKESLANG = LANGNAME + N + SP + Gen + Indef | LANGNAME + N + Sem/Hum + SP + Gen + Indef ;#!!
+
 # Adjective sets
 
 # Nominal sets
@@ -1142,6 +1146,9 @@ REMOVE VFINPERSONOBJ IF (0 Der/OvOms OR Der/Ozevems);
 #der_ovoms><vblex><err_orth><imp><a_sg2><o_pl3
 # ушодови
 
+# кель -- келе -- келемс
+SELECT ("кель") IF (-1 TAKESLANG);#!!
+   # эрзянь кель
 
 # Ли, Лис
 SELECT ("лисемс") IF (0 ("Ли") OR ("Лис")) (NOT 0* HASSCPERSON BARRIER CLB OR BOS OR EOS);
