@@ -1111,6 +1111,10 @@ REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
 REMOVE:Pert1AttrWhenNoHead ("перть" A Sg Nom Indef) IF (NOT 1 N);
    #перть: Кизэнть перть эряви оймсемс
 
+REMOVE (N Sg Nom Indef) IF (0 ("мейле")) (-1 Abl);
+  #изнямодо мейле
+  #N Sg Nom Indef
+
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
        #Тесэ весе чумось войнась...» — оймавтсь сон эсь прянзо.
 
