@@ -461,6 +461,7 @@ LIST Sem/Mal = Sem/Mal ;
 LIST Sem/Mal-Sur = Sem/Mal-Sur ;
 LIST Sem/Kin = Sem/Kin sem_kin ;
 LIST Sem/Ant = Sem/Ant ;
+LIST sem_inanim = Sem/Inanim sem_inanim;
 LIST ANT = Sem/Ant Sem/Ant_Fem Sem/Ant_Mal ;
 LIST SUR = Sem/Sur_Mal Sem/Sur_Fem ;
 LIST Ani = Ani Sem/Kin Hum Fem Mal Sur Sem/Hum ;
@@ -931,6 +932,11 @@ LIST CONSSTEMOvOms = (".*овомс"r) (".*евемс"r) ;
 SET CONSSTEMOvOms-NoAuX = CONSSTEMOvOms - ("cавкшномс") - ("cавомс") - ("эрявкшномс") - ("эрявомс");
 LIST ADJTAKESDAT = "стака" "шожда";#adjectives that take dative
 LIST NOUNTAKESDAT = "аютко" ;#nouns that take dative
+
+LIST ANIMNOUNS = "ава" "атя" "баба" "леля" "патя" "сазор" "тетя" "эйкакш"
+ "авакш" "алаша" "атякш" "баран" "бука" "ватракш" "ведрекш" "верьгиз" "катка" "киска" "лишме" "нармунь" "пине" "псака" "реве" "ривезь" "сараз" "сея" "скал" "сукс";
+ # this goes to compliment dialect Sp Gen PxSg3, which does not go with animate nouns
+
 SET VERBTAKESDAT = ("ванстовомс") | ("ёвтнекшнемс") | ("ёвтнемс") | ("кортамс") | ("лездамс") | ("максомс") | ("марявомс") | ("меремс") | ("педямс") | ("эрявомс") OR CONSSTEMOvOms;
 #verbs that take dative
 
@@ -952,6 +958,8 @@ LIST VERBTAKESDATILL = "радовамс" ;
 LIST DATAUX = "летемс" "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#
 
 LIST SAVOMSERIAVOMS = "савкшномс" "савомс" "эрявкшномс" "эрявомс" ;#!! these have homonyms
+
+LIST SODAMSWITHCCOMP = "ёвтамс" "ёвтнемс" "кевкстемс" "кевкстнемс" "содамс";
 
 LIST COMPAIRS = "аванек-пакшанек" "аванек-цёранек" "капстанек-взятканек" "кизэнек-теленек" "лопанек-сеерькснэк" "мельнек-превнек" "однэк-сыренек" "ойменек-рунгонек" "ойменек-седейнек" "прянек-пильгенек" "прянек-рунгонек" "прянек-седейнек" "тейтерненек-цёрыненек" "теленек-кизэнек" "чинек-венек" ;#Com pairs
 
@@ -1576,10 +1584,14 @@ SELECT ConNeg (-1 APAK) ;
        # Пургине паздонть апак пеле
        
 #Кува?
-REMOVE Rel IF (1 QUEST) ;
+REMOVE:NoRelIfQuestFollows Rel IF (1 QUEST) ;
 #«Ков сыргить?»
-REMOVE Rel IF (0 Upper) (NOT 0 Prop) ;
+REMOVE:noRelSentInit Rel IF (0 Upper) (NOT 0 Prop) ;
 
+REMOVE Rel IF (-1* SODAMSWITHCCOMP BARRIER BOS OR @CVP) (1 VINF) ;
+       #Too strong?
+       # а соды мезе теемс
+       
 REMOVE Interr IF (-2 N) (-1 (","))(0 (Pron Rel));
        #конатнень: изнявкстнэ, конатнень теинзе
        #кодамо: Ванносак ошонть, кодамо сон.
@@ -1607,6 +1619,10 @@ REMOVE (Pl Nom) + SPPOSSESSUM IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
 REMOVE:RemovePxSg2IfOtherPl (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef));
 REMOVE (N Pl Nom PxSg2) IF (-2 (Pl Nom Indef)) (-1 ("ды")) (0 (N Pl Nom Indef)); # too strong
        # .. кедть ды пилеть..
+
+REMOVE sem_inanim IF (0 ANIMNOUNS);
+   # тетя: — Тетязо, келя, пек сюпав.
+   # this goes with dialect Sp Gen PxSg3 to disallow animate nouns
 
 REMOVE Adp IF (0 ADPNOPX) (-1 (Sg Nom Def));
 
