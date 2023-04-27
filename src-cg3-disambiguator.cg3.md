@@ -157,6 +157,7 @@ VFIN-POS
 
 кортамс мезде
 
+words that go with эрьва
 for кизэ homonymy PxSg2
 for кизэ homonymy PxSg1
 This will be expanded for homonymy at first

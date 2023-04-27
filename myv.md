@@ -161,6 +161,7 @@ VFIN-POS
 
 кортамс мезде
 
+words that go with эрьва
 for кизэ homonymy PxSg2
 for кизэ homonymy PxSg1
 This will be expanded for homonymy at first
@@ -205,6 +206,10 @@ fits between negation and conneg
 ** viimmat: Dál de viimmat asttan lohkat reivve. окойники: Ней окойники кенеринь ловномо сёрманть.
 
 MOOD-V
+
+Erzya and Moksha
+
+this needs Moksha, too. 
 
 finite auxiliary verbs with 
 
