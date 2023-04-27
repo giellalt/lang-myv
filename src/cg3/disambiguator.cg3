@@ -834,7 +834,7 @@ LIST <vdic> = <vdic> ;
 LIST <ablabout> = <ablabout> ; #!! кортамс мезде
 
 
-
+LIST ERJVAWORDS = "кие" "ков" "кода" "кодамо" "козонь" "кона" "косо" "косто" "кува" "мезе" ;#!! words that go with эрьва
 LIST KUROK = "курок" ;
 LIST MARTO = "марто" ;
 LIST KODAMOA = ("кодамо" A Interr Sg Nom Indef) ("кодамо" A Rel Sg Nom Indef) ;
@@ -932,6 +932,8 @@ LIST CONSSTEMOvOms = (".*овомс"r) (".*евемс"r) ;
 SET CONSSTEMOvOms-NoAuX = CONSSTEMOvOms - ("cавкшномс") - ("cавомс") - ("эрявкшномс") - ("эрявомс");
 LIST ADJTAKESDAT = "стака" "шожда";#adjectives that take dative
 LIST NOUNTAKESDAT = "аютко" ;#nouns that take dative
+
+LIST KODAMKST = "варьга" "карь" "каштаз" "ковта" "кодст" "носка" "паля" "парсей" "паця" "плетёнка" "свитра" "цюлка" "черь" "черьпуло" "шарф" ;#!!what you can knit, weave or braid
 
 LIST ANIMNOUNS = "ава" "атя" "баба" "леля" "патя" "сазор" "тетя" "эйкакш"
  "авакш" "алаша" "атякш" "баран" "бука" "ватракш" "ведрекш" "верьгиз" "катка" "киска" "лишме" "нармунь" "пине" "псака" "реве" "ривезь" "сараз" "сея" "скал" "сукс";
@@ -1111,8 +1113,9 @@ SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET IV-NOTIVAUX IF (0* GENDEF BARRIER CLB OR E
 
 #SUBSTITUTE (DIALREADING) (*) TARGET (*) ;
 
-MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
-MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
+MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS) (*1 VFIN BARRIER CLB OR EOS);
+#2023_04_27MAP (@CVP) TARGET CC IF (*-1 VFIN BARRIER CLB OR BOS LINK *1 VFIN BARRIER CLB OR EOS);
+#MAP (@CVP) TARGET CC IF (*1 VFIN BARRIER CLB OR EOS LINK *-1 VFIN BARRIER CLB OR BOS);
     #и :тейсь прязонзо пизэ и ливтсь левкст.
 
 MAP (@C-FVP) TARGET CC IF (*0 SUPAUX OR DATAUX BARRIER CLB OR EOS OR BOS) (*-1 VINF BARRIER CLB OR BOS) (*1 VINF BARRIER CLB OR EOS);# actually this could be inf split
@@ -1526,8 +1529,9 @@ REMOVE:NoKieWhenPrecedeGen ("кие") IF (-1 Gen) (0 Po OR Adp) ;
 			   #кис: эряви тонавтнемс аволь ансяк сень кис, штобу
 
 REMOVE:NoKiNIllWhenPrecedeGen ("ки" N SP Ill) IF (-1 Gen) (0 Po OR Adp) ;
-			      #ки: эряви тонавтнемс аволь ансяк сень кис, штобу
-			      
+	#ки: эряви тонавтнемс аволь ансяк сень кис, штобу
+REMOVE:NoKiNGenPxPl3AddWhenPrecedeGen ("ки" N SP Gen PxPl3) IF (-1 Gen) (0 (Po Clt/Add) OR (Adp Clt/Add)) ;
+	#кискак: Те эряви сень кискак, штобу чарькодемс
 
 REMOVE:stamsIfStaka ("стамс") IF (0 ("стака")) ((-1* VFIN BARRIER BOS) OR (1* VFIN BARRIER EOS));
 		    #стамс: эль-эль усксть стака крандазонть
@@ -1612,9 +1616,19 @@ REMOVE:NoAbsNWhenAAndNextN NSgNomIndef IF (0 ASgNomIndef) (1 N OR (N Prop)) ;
 # remove absolute noun reading if there is an adjective reading and the next word is a noun
 # ожо: Ожо мекшкесь ливтясь ципакине малас
 
-REMOVE (Pl Nom) + SPPOSSESSUM IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS);
+REMOVE:NoVWhenNoKnittables ("кодамс" V Ind Prs ScSg2) IF (*1 (N Pl) BARRIER @CVP OR BOS OR EOS) (NEGATE 0* KODAMKST BARRIER @CVP OR BOS OR EOS);#
+# this is too strong, of course. 2023_04_27
+#кодат: ... вансынек, кодат сонзэ свойстванзо.
+REMOVE (N Sg) IF (-2 ("эрьва" Sg Nom Indef)) (-1 ("кодамо" A Pl Nom Indef));
+   #эрьва кодат веществат
+
+REMOVE:NotSgGenWhenAPlNomForCopula (Sg Gen) + SPPOSSESSUM IF (0* (A Pl Nom Indef) BARRIER CLB OR BOS OR EOS OR @CVP LINK NOT 0* VFIN BARRIER CLB OR BOS OR EOS OR @CVP);
+
+
+REMOVE (Pl Nom) + SPPOSSESSUM IF (*0 NOT-VFINPL3SUBJ BARRIER CLB OR EOS OR BOS LINK NOT 0* (A Pl Nom Indef) BARRIER CLB OR EOS OR BOS OR @CVP);
        #Мон чистэ шлян толган.
-       #Авам сась. Аваст сась. 
+       #Авам сась. Аваст сась.
+       #TOO STRONG! Copula needed
 
 REMOVE:RemovePxSg2IfOtherPl (N Pl Nom PxSg2) IF (0 (Pl Nom Indef)) (-1 ("ды")) (-2 (N Pl Nom Indef));
 REMOVE (N Pl Nom PxSg2) IF (-2 (Pl Nom Indef)) (-1 ("ды")) (0 (N Pl Nom Indef)); # too strong
@@ -1841,9 +1855,12 @@ REMOVE CARDNUM (0 AssocColl ) ;
 
 REMOVE:NotAdvInterrIfAdvIndef Adv + Interr IF (0 Adv + Indef ) ;
 			      # ковгак
-			      
+
+REMOVE Rel IF (-1 ("эрьва" Det Sg Nom Indef)) (0 ERJVAWORDS);
+
 REMOVE:APlNomIndefIfCltCop (A Pl Nom Indef) IF (0 Clt/Cop) (NEGATE 0 ("кодамо" A Pl Nom Indef) LINK 1 N + Pl);
-			   #покшт: веенсттнэ эйстэст седе покшт
+	#покшт: веенсттнэ эйстэст седе покшт
+	#кодат: кодат сонзэ свойстванзо?
 
 REMOVE:NotCompN N (-1 SEDE ) ;
 		# седе мазы, седе мазыстэ
@@ -1861,6 +1878,11 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 
 # Particles
 
+REMOVE CC OR Interj IF (-1 CC) (0 ("а" Pcle Neg)) (1 Der/Yks);
+       #ды а неявикс[с]тэ валови
+REMOVE CC OR Interj IF (NOT *-1 ("аволь") BARRIER BOS OR @CVP) (0 ("а" Pcle Neg)) (1 ("ламо"));
+ 	# нуртятано эйзэнзэ а ламошка ванькс пиземе ведь
+	
 # ды Conj vs Pcle
 REMOVE:NoPcleWhenPreceededByFinite (V Aux Neg) OR ("ды" Pcle) IF (*-1 VFIN BARRIER BOS OR CLB OR ("—")) ;# 2022-02-08 too strong?
 				   # Сон неизе Локсеенть [ды] озась коське тарад лангс.
@@ -1904,6 +1926,10 @@ REMOVE:NotHardFrontIfPoss Stem/э IF (0C V);
 				 
 REMOVE V IF (0 ("кодамо")) (*0 VFIN BARRIER CLB);
        	    #Перегной ули эрьва кодамо почвасо
+
+REMOVE:NoCopWhenKodatPlPrecedes (Clt/Cop Prs ScSg2) IF (-1 ("кодамо" Pl Nom Indef));
+       #породат: эрьва кодат породат
+       #still need handling PxSg2
 
 # Сон весе чувтонь, перьканзо сэрей пирявт.
 REMOVE Der/Ovt IF (NOT -1 Gen OR Ine);

@@ -581,6 +581,9 @@ LIST NAdjPlNomGenPxPl2 = (n/adj npl cx:nom/gen pxpl2) (n/adj npl cx:gen pxpl2);
 LIST NAdjPlNomGenPxPl3 = (n/adj npl cx:nom/gen pxpl3) (n/adj npl cx:gen pxpl3);
 LIST NAdjSgNomIndef = (n/adj indf nsg cx:nom) (n/adj:pron-stem indf nsg cx:nom);
 LIST NAdjPlNomIndef = (n/adj indf npl cx:nom) (n/adj:pron-stem indf nsg cx:nom);
+LIST KODAMO = "кодамо" ;
+LIST SgNomIndef = (indf nsg cx:nom) (Sg Nom Indef);
+LIST PlNomIndef = (indf npl cx:nom) (Pl Nom Indef);
 
 LIST NAdjGen = (n/adj cx:gen);
 LIST NAdjSgGen = (n/adj nsg cx:gen);
@@ -1331,9 +1334,10 @@ LIST NONCORECASES = cx:abe cx:abl cx:ill cx:ine cx:lat cx:loc cx:prl cx:transl  
 
 LIST WORD = n/adj Po A Adv CC CS Interj N Num Pcle Pron V;
 LIST NON-VERB = n/adj Po A Adv CC CS Interj N Num Pcle Pron ;
+SET NOTADJ = WORD - A ;
 SET NONOBLIQUECASES = WORD - OBLIQUECASES; #
 SET UNIQUANTSGNOM = PronVESE - OBLIQUECASES - Pl - Def ;
-
+LIST KODAMOPL = ("кодамо" indf npl cx:nom) ("кодама" indf npl cx:nom) ("кодамо" A Pl Nom Indef) ("кодама" A Pl Nom Indef) ("кодамояк" A Indef Pl Nom Indef) ("кодамовок" A Indef Pl Nom Indef);#!! Erzya and Moksha
 
 
 LIST VfinImper = (vfin mod:imper); # TODO: mod:imper??? Imperative? then it is infin!!!
@@ -1428,7 +1432,9 @@ LIST INGESTIONVABLARG = "андомс" "каванямс" "корштамс" "л
 
 SET INGESTIONVABLARGINF = INGESTIONVABLARG - VFIN;#ойдензэ ярсамо якси
 SET INGESTIONVABLARGFIN = INGESTIONVABLARG - (infMS/ME) - (V Inf) ;# finite ingestion verbs
-LIST VERBTAKESkodaCCOMP = "арсемс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс" ;#knows how
+LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс"
+"арьсемс" "няфтемс" "няфнемс" "шарькодемс";#!!knows how
+#!! this needs Moksha, too. 
 
 SET MEASURES = ("валкс") | ("пондо") | ("сядо") | ("уштомо") ;#measures and quantifiers, numerals and measures
 
@@ -2274,6 +2280,10 @@ MAP (@-FSUBJ>) TARGET GENDEF OR GENINDEF IF (1 IVSupEla) (*0 VFIN BARRIER CLB);
 MAP (@-FOBJ>) TARGET GENDEF OR GENINDEF IF (1 GerOzj OR SupEla) (*0 VFIN BARRIER CLB);
 MAP (@>N) TARGET GerOzj IF (1 N) (*0 VFIN BARRIER CLB);
 MAP:>n (@>N) TARGET ("кодамо" indf nsg cx:nom) OR ("кодамо" Sg Nom Indef) IF (1 N);
+MAP:>n (@>N) TARGET ("кодамо" indf npl cx:nom) OR ("кодамо" Pl Nom Indef) IF (1 (N Pl));
+#MAP:>n (@>N) TARGET ("кодамо" indf npl cx:nom) OR ("кодамо" Pl Nom Indef) OR ("кодамояк" A Indef Pl Nom Indef) IF (*1 (N Pl) BARRIER EOS OR CLB OR NOTADJ);
+MAP:>n (@>N) TARGET KODAMOPL IF (*1 (N Pl) BARRIER EOS OR CLB OR NOTADJ);
+   #
 MAP:>n (@>N) TARGET NumSgNomIndef IF (1 N);
        #60:  революциянь 60 иетненень 2022-05-27
 MAP:>n (@>N) TARGET (inf/verbnMO/ME/MU/M indf nsg cx:nom) OR (inf/verbn/agptcpMA indf nsg cx:nom) OR (n/adj gen-derN cpound-beg/mid) OR (n gen-derN cpound-beg/mid) IF (1 N);
@@ -3108,6 +3118,13 @@ MAP (@<SUBJ) TARGET NAdjPlNom OR NOUNPlNom IF (*-1 VFINPL3SUBJ BARRIER CLB OR BO
                                 (NOT 1 Infinitives)
                                 (NOT 1 PostpNoPX);
 
+MAP (@SPRED) TARGET ("кодамо" Pl Nom Indef) IF (1 NOTADJ) (2* (N Pl Nom)) (NEGATE *0 @+FMAINV BARRIER EOS OR BOS OR @CVP OR VERBTAKESkodaCCOMP + @+FMAINV); #!!
+    #кодат: вансынек, кодат сонзэ свойстванзо
+MAP:spredPl (@SPRED) TARGET ("кодамо" Pl Nom Indef) IF (1 NOTADJ) (2* (N Pl Nom)) (-2 VERBTAKESkodaCCOMP + @+FMAINV) (-1 CLB) (NEGATE *1 @+FMAINV BARRIER EOS OR BOS OR @CVP); #!!
+
+MAP:APlPred (@<SUBJ) TARGET NOUNPlNom IF (*-1 (A Pl Nom) + @SPRED BARRIER @+FMAINV OR BOS OR @CVP);#!!
+
+
 MAP (@SUBJ) TARGET NAdjPlNom OR NOUNPlNom IF (*0 VfinIndScPlOcSP BARRIER CLB)
                                 (NEGATE *0 @SUBJ BARRIER CLB)
                                 (NEGATE *1 PronNom BARRIER CLB)
@@ -3504,14 +3521,22 @@ MAP (@OBJ) TARGET NAdjPlNomGenPxSg1 OR NOUNPlNomGenPxSg1 IF (NOT 1 PostpNoPX);
 
 MAP (@<OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (-1* PREDForDefSG3Obj BARRIER CLB OR BOS) (NOT -1 CLB)  (1 CLB OR EOS);
 MAP (@<OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (-1* PREDForDefSG3Obj BARRIER CLB OR BOS) (NOT -1 CLB)  (NOT 1 PostpNoPX OR CLB) (NOT 1* PREDForDefSG3Obj BARRIER CLB OR EOS);
+#
+MAP:<objLikeMyLeftAdjacentSg (@<OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (-3* PREDForDefSG3Obj BARRIER CLB OR BOS) (-2 @<OBJ) (-1 CLB)  (1 CLB OR EOS);
 
 MAP (@OBJ>) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (1* PREDForDefSG3Obj BARRIER CLB OR EOS) (NOT 1 CLB)  (-1 CLB OR BOS);
 MAP (@OBJ>) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (1* PREDForDefSG3Obj BARRIER CLB OR EOS) (NOT 1 CLB)  (NOT 1 PostpNoPX OR CLB) (NOT -1 CLB OR BOS) (NOT -1* PREDForDefSG3Obj BARRIER CLB OR BOS);
 # predicate that can take sg3 def object
-MAP (@OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (NOT 1 PostpNoPX);
 
 MAP (@<OBJ) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (-1* PREDForDefPL3Obj BARRIER CLB OR BOS) (NOT -1 CLB)  (1 CLB OR EOS);
 MAP (@<OBJ) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (-1* PREDForDefPL3Obj BARRIER CLB OR BOS) (NOT -1 CLB)  (NOT 1 PostpNoPX OR CLB) (NOT 1* PREDForDefPL3Obj BARRIER CLB OR EOS);
+#
+MAP:<objLikeMyLeftAdjacentPl (@<OBJ) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (-3* PREDForDefPL3Obj BARRIER CLB OR BOS) (-2 @<OBJ) (-1 CLB)  (1 CLB OR EOS);
+#
+MAP:<objLikeMyLeftAdjacentSgAgain (@<OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (-5* PREDForDefSG3Obj BARRIER CLB OR BOS) (-4 @<OBJ) (-3 CLB) (-2 @<OBJ) (-1 CLB)  (1 CLB OR EOS);
+MAP:<objLikeMyLeftAdjacentPlAgain (@<OBJ) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (-5* PREDForDefPL3Obj BARRIER CLB OR BOS) (-4 @<OBJ) (-3 CLB) (-2 @<OBJ) (-1 CLB)  (1 CLB OR EOS);
+MAP (@OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (NOT 1 PostpNoPX);
+
 
 MAP (@OBJ>) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (1* PREDForDefPL3Obj BARRIER CLB OR EOS) (NOT 1 CLB)  (-1 CLB OR BOS);
 MAP (@OBJ>) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (1* PREDForDefPL3Obj BARRIER CLB OR EOS) (NOT 1 CLB)  (NOT 1 PostpNoPX OR CLB) (NOT -1 CLB OR BOS) (NOT -1* PREDForDefPL3Obj BARRIER CLB OR BOS);
