@@ -1396,7 +1396,7 @@ REMOVE (Pl Nom PxSg1) IF (-1 BOS OR CLB) (1 Gen) (2 PostpNoPX);
 #парсеень: 
 
 #ЛЕНИН
-REMOVE:NoAcrIfProp ACR IF (0 N + Prop) ;
+REMOVE:NoAcrIfProp ACR IF (0 (N Prop) OR (N Pl) OR (N Sg)) ;
 #кеж КЕЖ
 REMOVE:NoAcrIfN ACR IF (0 N) ;
 
