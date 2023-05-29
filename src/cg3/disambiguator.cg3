@@ -268,6 +268,8 @@ LIST Opt = Opt ;
 LIST Prec = Prec ;
 LIST Proh = Proh ;
 
+LIST F = F ;#!! foreign
+
 
 LIST Imprt = Imprt imp ;
 
@@ -1131,6 +1133,10 @@ MAP (@CGenAttrP) TARGET CC IF (-1 (N SP Gen Indef)) (1 (N SP Gen Indef));
     #, мушконь ды левшень пикст
 MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
 MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
+
+SELECT:RusNegWhenNextUnknown Pcle IF (0 ("не")) (NOT 1 A);
+REMOVE:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (1 A OR N);
+   #поздно: Слушайся, пока не поздно! 20230529
 
 # Adv Ine versus N SP Ine Indef
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));

@@ -643,6 +643,7 @@ LEXICON PRON-DEM
 теке+Pron+Dem+SP+Ela+Indef:текеньстэ K ;
 теке+Pron+Dem+SP+Ine+Indef:текеньсэ K ;
 
+тона+Pron+Dem:тона PRON-DEM_TONA ;
 се+Pron+Dem:се PRON-DEM_TE ;
 те+Pron+Dem:те PRON-DEM_TE ;
 
@@ -1478,8 +1479,9 @@ LEXICON Pron-Pl
 +Pl+Nom+Def:%>тне K ;
 +Pl+Gen+Def:%>тне%>нь K ;
 +Pl+Dat+Def:%>тне%>нень K ;
-+Pl+Abl+Def:%>тне%>%{дт%}О1 K ;
++Pl+Abl+Def:%>тне%>де K ;
 +Pl+Ill+Def:%>тне%>с K ;
++Pl+Ine+Def:%>тне%>сэ K ;
 
 !LEXICON Misc_Pronouns
 !!се+Dem:се vese-QNT ;
@@ -1567,6 +1569,29 @@ LEXICON PRON-DEM_TE
 
 !LEXICON PRON-DEM_TEKE
 !+Dem: _KUDO-Misc_Pronouns_Sg ;
+
+LEXICON PRON-DEM_TONA
++Sg+Abe+Indef:%>нтомо K ;
++Sg+Abl+Indef:%>до K ;
++Sg+Abl+Indef:%>нде K ;
++Sg+Dat+Indef:%>нень K ;
++Sg+Ela+Indef:%>ньстэ K ;
++Sg+Gen+Indef:%>нь K ;
++Sg+Ill+Indef:%>ньс K ;
++Sg+Ine+Indef:%>ньсэ K ;
++Sg+Ela+Indef:%>сто K ;
++Sg+Ill+Indef:%>с K ;
++Sg+Ine+Indef:%>со K ;
++Sg+Nom+Indef: K ;
++Sg+Prl+Indef:%>ва K ;
+!
++Sg+Abl+Def:%>донть K ;
++Pl+Abl+Def:%>тнеде K ;
++Sg+Dat+Def:%>нтень K ;
++Sg+Ela+Def:%>стонть K ;
++Pl+Gen+Def:%>тнень K ;
++Pl+Ine+Def:%>тнесэ K ;
+
 
 LEXICON PRON-DEM_VASENCE
 +Ord: _KUDO-Misc_Pronouns_Sg ;
