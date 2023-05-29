@@ -46,6 +46,8 @@ EOS
 
 Dialect homonyms of Sg Gen Def
 
+foreign
+
 * ### Derivation tags
 
 ### Semantic tags
