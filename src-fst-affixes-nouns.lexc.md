@@ -2,6 +2,8 @@
 
 Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
 
+LEXICON N_PELE  пеле:пель, ало:ал
+
 ## KINSHIP 
 
 ## HUMAN 
