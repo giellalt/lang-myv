@@ -920,7 +920,8 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 "Disallow dano after non-voiced"
 !! **@RULENAME@**
  %^TD:0 /<= [CnsVoiceless (ь:)| :Vows ] (HarmDummies:) (%>) _ %> т: %{АЯ%}: ;
-  CnsVoiced (ь:) (HarmDummies:) (%>) _ %> т %{АЯ%}: ; 
+           %{оеэØ%}: (К3:) _ %> т: %{АЯ%}: ;
+!%>%{оеэØ%}К3
 
 !к е к ш н е ^TD:0 > т {АЯ}:я н о
 !CnsVoiced (ь:) (HarmDummies:) (%>) %^TD:0 %> _
