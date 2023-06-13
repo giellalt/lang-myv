@@ -1519,8 +1519,8 @@ LEXICON N_myv2x
 бойниця+N:бойниця ActDemPrc-N  "ampuma-aukko" ;
 бойня+N:бойня N_KUDO  "teurastamo" ;
 бойня+N:бойня N_KUDO  "teurastamo" ;
-бок+N+Relator:бок N_LAK  "" ;
-бока+N+Relator+Sem/Plc:бока N_KUDO  "kylki" ;
+бок+N+Relat:бок N_LAK  "" ;
+бока+N+Relat+Sem/Plc:бока N_KUDO  "kylki" ;
 бокавена+N:бокавена N_KUDO  "" ;
 бокавка+N:бокавка N_KUDO  "" ;
 бокал+N:бокал N_KAL  "malja" ;
@@ -2457,7 +2457,7 @@ LEXICON N_myv2x
 вельдерма+N:вельдерма N_KUDO  "" ;
 вельдерьма+N:вельдерьма N_KUDO  "räppänä" ;
 вельки+N:вельки N_VELE  "" ;
-велькс+N+Relator:велькс N_LEVKS  "kerma" ;
+велькс+N+Relat:велькс N_LEVKS  "kerma" ;
 велькске+N:велькске N_VELE_IS-KE-DIM  "" ;
 вельмевкс+N:вельмевкс N_LEVKS  "" ;
 вельможа+N:вельможа N_KUDO  "" ;
@@ -2692,8 +2692,9 @@ LEXICON N_myv2x
 видиця+N:видиця ActDemPrc-N  "" ;
 видишка+N:видишка N_KUDO  "" ;
 видиялга+N:види#ялга N_KUDO  "" ;
-видь+N+Relator:видь N_KEL1  "" ;
+видь+N+Relat:видь N_KEL1  "" ;
 видьме+N:видьме N_VELE  "siemen" ;
+видьме+N+Err/Orth-missing-soft-in-stem:видме N_VELE  "siemen" ;
 видьмекс+N:видьмекс N_LEVKS  "" ;
 видьмекске+N:видьмекске N_VELE_IS-KE-DIM  "" ;
 видьмеруця+N:видьме#руця N_KUDO  "" ;
@@ -7609,7 +7610,7 @@ LEXICON N_myv2x
 кравать+N:кравать N_GAJT1  "" ;
 краевед+N:краевед N_TYL  "" ;
 краеведения+N:краеведения N_KUDO  "" ;
-край+N+Relator+Sem/Plc:край N_PEJ  "reuna" ;
+край+N+Relat+Sem/Plc:край N_PEJ  "reuna" ;
 крайком+N:крайком N_LAV  "" ;
 крайне+N:крайне N_VELE_IS-NE-DIM  "" ;
 краковяк+N:краковяк N_LAK  "" ;
@@ -8145,8 +8146,8 @@ LEXICON N_myv2x
 кунцева+N:кунцева N_KUDO  "" ;
 кунцеме+N:кунцеме N_VELE  "" ;
 кунчка+N:кунчка N_KUDO  "" ;
-куншка+v1+N+Relator:куншка N_KUDO  "keskikohta" ;
-куншка+v2+N+Relator+Use/NG+Err/Orth:кунчка N_KUDO  "keskikohta" ;
+куншка+v1+N+Relat:куншка N_KUDO  "keskikohta" ;
+куншка+v2+N+Relat+Use/NG+Err/Orth:кунчка N_KUDO  "keskikohta" ;
 куншка+v1+N+Sem/Plc:куншка N_KUDO  "keskikohta" ;
 куншка+v2+N+Sem/Plc+Use/NG+Err/Orth:кунчка N_KUDO  "keskikohta" ;
 куншкавидь+N:куншкавидь N_KEL1  "" ;
@@ -8596,7 +8597,7 @@ LEXICON N_myv2x
 лангакске+N:лангакске N_VELE_IS-KE-DIM  "" ;
 лангапаця+N:лангапаця N_KUDO  "" ;
 лангасаема+N:лангасаема N_KUDO  "" ;
-ланго+N+Relator:ланг N_PANGO  "pinta" ;
+ланго+N+Relat:ланг N_PANGO  "pinta" ;
 ландшафт+N:ландшафт N_ART  "" ;
 ландыш+N:ландыш N_KENKSH  "kielo" ;
 ланж+N:ланж N_OSH  "" ;
@@ -13891,7 +13892,7 @@ LEXICON N_myv2x
 потмарпе+N:потмарпе N_VELE  "" ;
 потмарэзем+N:потмарэзем N_TEV  "" ;
 потмине+N:потмине N_VELE_IS-NE-DIM  "" ;
-потмо+N+Relator+Sem/Plc:потм N_PANGO  "sisäpuoli" ;
+потмо+N+Relat+Sem/Plc:потм N_PANGO  "sisäpuoli" ;
 потмоавардема+v1+N:потмоавардема N_KUDO  "" ;
 потмоавардема+v2+N:потмо% авардема N_KUDO  "" ;
 потмоалкс+N:потмоалкс N_OZKS  "" ;
@@ -20275,7 +20276,7 @@ LEXICON N_myv2x
 чипужилка+N:чи#пужилка N_KUDO  "" ;
 чипыла+N:чи#пыла N_KUDO  "" ;
 чиразтикше+N:чираз#тикше N_VELE  "" ;
-чире+N+Relator:чире N_VELE  "reuna" ;
+чире+N+Relat:чире N_VELE  "reuna" ;
 чиремкс+N:чиремкс N_LEVKS  "" ;
 чиречама+N:чире#чама N_KUDO  "" ;
 чирине+N:чирине N_VELE_IS-NE-DIM  "" ;
@@ -21050,7 +21051,7 @@ LEXICON N_myv2x
 экстремист+N+Sem/Hum:экстремист N_KIT  "" ;
 эксцентрик+N:эксцентрик N_TEV  "" ;
 экт+N:экт N_KIT  "" ;
-экш+N+Relator+Sem/Plc:экш N_KENKSH  "" ;
+экш+N+Relat+Sem/Plc:экш N_KENKSH  "" ;
 экше+N:экше N_VELE  "viileä" ;
 экшейнге+N:экшейнге N_VELE  "" ;
 экшейпалмань+N:экшейпалмань N_KEL1  "" ;
@@ -21410,7 +21411,7 @@ LEXICON N_myv2x
 ютакш+N:ютакш N_OSH  "" ;
 ютамо+N:ютамо N_KUDO  "" ;
 юткине+N:юткине N_VELE_IS-NE-DIM  "" ;
-ютко+N+Relator:ютк N_PANGO  "väli" ;
+ютко+N+Relat:ютк N_PANGO  "väli" ;
 ютко+N+Sem/Plc:ютк N_PANGO  "väli" ;
 юткочи+N:юткочи N_VELE  "aika" ;
 юткошка+N:юткошка N_KUDO  "" ;
@@ -21670,7 +21671,7 @@ LEXICON N_myv2x
 ёмаське+N:ёмаське N_VELE_IS-KE-DIM  "kadonnut ihminen" ;
 ёмбола+N:ёмбола N_KUDO  "" ;
 ёмиця+N:ёмиця ActDemPrc-N  "" ;
-ён+N+Relator:ён N_KAL  "taju" ;
+ён+N+Relat:ён N_KAL  "taju" ;
 ёндол+N:ёндол N_KAL  "salama" ;
 ёндол-айгор+N:ёндол-айгор N_KAL  "" ;
 ёндол-нармунь+N:ёндол-нармунь N_KEL1  "" ;
