@@ -99,7 +99,6 @@ Multichar_Symbols
 
 !! Nouns
  +Prop	!!≈ * @CODE@ proper
- +CollN !!≈ * @CODE@ used with paired nouns, i.e. COLLECTIVE NOUNS
 
 !! Particles
 
@@ -115,7 +114,7 @@ Multichar_Symbols
  +Recipr !!≈ * @CODE@ reciprocal
  +Refl 	 !!≈ * @CODE@ reflexive
  +Rel 	 !!≈ * @CODE@ relative
- +Relator 	 !!≈ * @CODE@ relator noun
+ +Relat 	 !!≈ * @CODE@ relator noun
  +Sel 	 !!≈ * @CODE@ selective, when selecting from a set of definites
  +Short	 !!≈ * @CODE@ тень, теть; эстень
  +Long	 !!≈ * @CODE@ монень, тонеть; монстень
@@ -273,7 +272,8 @@ Multichar_Symbols
  +Err/Orth-vowel-stem-je !!≈ * @CODE@ * пачтякшномс:пачтекшне
  +Err/Orth-stem-soft-should-be-0 !!≈ * @CODE@ * кирпець:кирпецьтне
  +Err/Orth-stem-nodent-hard-should-be-tnje !!≈ * @CODE@ * потоктнэсэ
- 
+ +Err/Orth-missing-soft-in-stem !!≈ * @CODE@ * видме
+
  +Err/Orth-f	!!≈ * @CODE@ * not v but instead f
  +Err/Orth-s	!!≈ * @CODE@ * not v but instead s
  +Err/Orth-d	!!≈ * @CODE@ * not t but instead d
@@ -1271,7 +1271,7 @@ TESTINGTESTING ;
  CS_myv2x   ;
  Det_myv2x ;
  Interj_myv2x  ;
- noun-deverbal  ;
+@U.POS.N@ noun-deverbal  ;
 @U.POS.N@ N_myv2x          ;
  numerals       ;
  Num_myv2x    ;
@@ -1314,8 +1314,9 @@ Hyphenated-verbs ; !!≈ * @CODE@ entire serial verbs
 	       Acronym      ;                          ! acro-myv-lex.txt
 	       Punctuation  ;                          ! punct-myv-lex.txt
 
-
-
+LEXICON COLL_NOUNS
+N_myv2x ;
+noun-deverbal ;
 
 ! ======================================================= !
 ! These lexica are for parts of speech without morphology !
