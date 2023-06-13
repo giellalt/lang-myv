@@ -59,7 +59,6 @@ Interjections
 
 Nouns
 * +Prop proper
-* +CollN used with paired nouns, i.e. COLLECTIVE NOUNS
 
 Particles
 
@@ -75,7 +74,7 @@ Postpositions
 * +Recipr reciprocal
 * +Refl reflexive
 * +Rel relative
-* +Relator relator noun
+* +Relat relator noun
 * +Sel selective, when selecting from a set of definites
 * +Short тень, теть; эстень
 * +Long монень, тонеть; монстень
@@ -224,6 +223,7 @@ Other verb forms are
 * +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
 * +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
 * +Err/Orth-stem-nodent-hard-should-be-tnje * потоктнэсэ
+* +Err/Orth-missing-soft-in-stem * видме
 
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
