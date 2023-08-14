@@ -1346,6 +1346,13 @@ REMOVE NOUNNOT_POSSIBLEPLNOMSUBJ IF (0 (Pl Nom)) (*0 VFINPL3SUBJ BARRIER CLB OR 
 
 REMOVE:NoReadyAdvComp ("седе");
 
+#
+REMOVE ConNeg + Clt/Cop IF (-1 ("а" V Aux Neg)) (0 VFINPERSONSUBJ) ;
+	#"а" V Aux Neg
+	#— Эрятано, а сёвнотано.
+	#"сёвномс" V ConNeg Clt/Cop Prs ScPl1 <W:0.0>
+	#"сёвномс" V Ind Prs ScPl1 <W:0.0>
+	
 # эзинь прядо
 SELECT ConNeg IF (-1 Aux + Neg OR Aux + Proh ) ;
        #сода: , кияк эзь сода,
