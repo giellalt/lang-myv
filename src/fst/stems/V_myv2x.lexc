@@ -4433,7 +4433,6 @@ LEXICON V_myv2x
 куямомс+V:куям IV_KADOMS  "" ;
 куямс+V:куя IV_KUNDAMS  "" ;
 кшнамс+V:кшна IV_KUNDAMS  "" ;
-кшнемс+V:кшн IV_NEKSHNEMS  "" ;
 кштакшнумс+V:кштакшну IV_KUNDAMS  "" ;
 кштамс+V:кшта IV_KUNDAMS  "" ;
 кштаявтомс+V:кштаявт BV_SAVTOMS  "" ;
@@ -4612,9 +4611,9 @@ LEXICON V_myv2x
 ландявомс+V:ландяв IV_JANGAVOMS  "" ;
 ландявтнемс+V:ландявтне BV_E2ZHNEMS  "" ;
 ландявтомс+V:ландявт BV_SAVTOMS  "panna kyykkyyn" ;
+ландявтомс+V+Err/Orth:ландяфт BV_SAVTOMS  "panna kyykkyyn" ;
 ландякшномс+V:ландякшно IV_KUNDAKSHNOMS  "" ;
 ландямс+V:ландя IV_KUNDAMS  "mennä kyykkyyn" ;
-ландяфтумс+V:ландяфт IV_SAVTOMS  "" ;
 ланчемс+V:ланче IV_PIDEMS  "kyykistellä" ;
 ланьчекшнемс+V:ланьчекшн IV_NEKSHNEMS  "" ;
 лападемс+V:лападь IV_LEDEMS  "lyödä kättä" ;
@@ -4904,6 +4903,7 @@ LEXICON V_myv2x
 ливтнекшнемс+V:ливтнекшн BV_NEKSHNEMS  "" ;
 ливтнемс+V:ливтне IV_E2ZHNEMS  "lentää" ;
 ливтявомс+V:ливтяв IV_JANGAVOMS  "" ;
+ливтявомс+V+Err/Orth:лифтяв IV_JANGAVOMS  "" ;
 ливтявтомс+V:ливтявт BV_SAVTOMS  "" ;
 ливтязевемс+V:ливтязев IV_POTAZEVEMS  "" ;
 ливтякшномс+V:ливтякшно IV_KUNDAKSHNOMS  "" ;
@@ -4951,7 +4951,6 @@ LEXICON V_myv2x
 лиснемс+V:лисне IV_E2ZHNEMS  "" ;
 лисьмаемс+V:лисьмае IV_PIDEMS  "" ;
 лифлемс+V:лифле IV_PIDEMS  "" ;
-лифтявомс+V:лифтяв IV_JANGAVOMS  "" ;
 лифчангадымс+V:лифчангад IV_KADOMS  "" ;
 лиядовтомс+V:лиядовт BV_SAVTOMS  "" ;
 лиядокшномс+V:лиядокшно IV_KUNDAKSHNOMS  "" ;
@@ -5104,7 +5103,8 @@ LEXICON V_myv2x
 лужакадокшномс+V:лужакадокшно IV_KUNDAKSHNOMS  "" ;
 лужакадомс+V:лужакад IV_KADOMS  "puhjeta itkuun" ;
 лужакалемс+V:лужакале IV_PIDEMS  "" ;
-лужакафтомс+V:лужакафт IV_SAVTOMS  "" ;
+лужакавтомс+V:лужакавт IV_SAVTOMS  "" ;
+лужакавтомс+V+Err/Orth:лужакафт IV_SAVTOMS  "" ;
 лужалекшнемс+V:лужалекшн IV_NEKSHNEMS  "" ;
 лужалемс+V:лужале IV_PIDEMS  "" ;
 лужамокшномс+V:лужамокшно IV_KUNDAKSHNOMS  "" ;
@@ -5744,12 +5744,14 @@ LEXICON V_myv2x
 наказавтомс+V:наказавт BV_SAVTOMS  "" ;
 наказакшномс+V:наказакшно BV_KUNDAKSHNOMS  "" ;
 наказамс+V:наказа BV_KUNDAMS  "rangaista" ;
-наксавтнемс+V:наксафтле IV_E2ZHNEMS  "" ;
+наксавтнемс+V:наксавтне IV_E2ZHNEMS  "" ;
+наксавтнемс+V+Err/Orth:наксафтле IV_E2ZHNEMS  "" ;
 наксавтомс+V:наксавт BV_SAVTOMS  "" ;
 наксадокшномс+V:наксадокшно IV_KUNDAKSHNOMS  "" ;
 наксадомс+V:наксад IV_KADOMS  "lahota" ;
 наксалгадомс+V:наксалгад IV_KADOMS  "" ;
 наксалемс+V:наксале IV_PIDEMS  "" ;
+налкавтомс+V:налкавт BV_SAVTOMS  "" ;
 налкавтомс+V+Err/Orth:налкафт BV_SAVTOMS  "" ;
 налказевемс+V:налказев IV_POTAZEVEMS  "" ;
 налкомс+V:налк IV_KADOMS  "" ;
@@ -5863,6 +5865,7 @@ LEXICON V_myv2x
 невельдекшнемс+V:невельдекшн BV_NEKSHNEMS  "" ;
 невельдемс+V:невельдь BV_LEDEMS  "kyniä" ;
 невельдявомс+V:невельдяв IV_JANGAVOMS  "" ;
+невельдявтомс+V:невельдявт BV_SAVTOMS  "" ;
 невельдявтомс+V+Err/Orth:невельдяфт BV_SAVTOMS  "" ;
 невельдямс+V:невельдя BV_KUNDAMS  "" ;
 невелькшнемс+V:невелькшн IV_NEKSHNEMS  "" ;
@@ -5962,7 +5965,8 @@ LEXICON V_myv2x
 низелгадомс+V:низелгад IV_KADOMS  "" ;
 низелдемс+V:низелдь IV_LEDEMS  "irvistää" ;
 низелдэзевемс+V:низелдэзев IV_POTAZEVEMS  "" ;
-низельгавтнемс+V+Err/Orth:низильгафтне IV_E2ZHNEMS  "" ;
+низельгавтнемс+V:низельгавтне TV_E2ZHNEMS  "" ;
+низельгавтнемс+V+Err/Orth:низильгафтне TV_E2ZHNEMS  "" ;
 низельгавтомс+V:низельгавт BV_SAVTOMS  "" ;
 низельдевемс+V:низельдев IV_SAEVEMS  "" ;
 низельдевтемс+V:низельдевть BV_NEVTEMS  "" ;
@@ -6183,6 +6187,7 @@ LEXICON V_myv2x
 нулкиявтомс+V:нулкиявт BV_SAVTOMS  "" ;
 нулкиякшномс+V:нулкиякшно IV_KUNDAKSHNOMS  "" ;
 нулкиямс+V:нулкия IV_KUNDAMS  "rähmiä (silmä)" ;
+нулновтомс+V:нулновт BV_SAVTOMS  "" ;
 нулновтомс+V+Err/Orth:нулнофт BV_SAVTOMS  "" ;
 нулнозевемс+V:нулнозев IV_POTAZEVEMS  "" ;
 нулномс+V:нулно IV_KUNDAMS  "huojua" ;
@@ -6306,6 +6311,7 @@ LEXICON V_myv2x
 одариявтомс+V:одариявт BV_SAVTOMS  "" ;
 одариякшномс+V:одариякшно IV_KUNDAKSHNOMS  "" ;
 одариямс+V:одария IV_KUNDAMS  "" ;
+одашкавтомс+V:одашкавт BV_SAVTOMS  "" ;
 одашкавтомс+V+Err/Orth:одашкафт BV_SAVTOMS  "" ;
 одашкадомс+V:одашкад IV_KADOMS  "" ;
 одашкалемс+V:одашкале IV_PIDEMS  "" ;
@@ -6509,6 +6515,7 @@ LEXICON V_myv2x
 оршамс-карсемс+V:оршамс-карЬ3се IV_KUNDAMS  "pukeutua" ;
 оршневемс+V:оршнев IV_SAEVEMS  "" ;
 оршневтекшнемс+V:оршневтекшн BV_NEKSHNEMS  "" ;
+оршневтемс+V:оршневть BV_NEVTEMS  "" ;
 оршневтемс+V+Err/Orth:оршнефть BV_NEVTEMS  "" ;
 оршнекшнемс+V:оршнекшн BV_NEKSHNEMS  "" ;
 оршнемс+V:оршне BV_E2ZHNEMS  "" ;
@@ -10001,8 +10008,8 @@ LEXICON V_myv2x
 удобрямс+V:удобря IV_KUNDAMS  "lannoittaa" ;
 удовомс+V:удов IV_JANGAVOMS  "saada nukuttua" ;
 удовтомс+V:удовт BV_SAVTOMS  "nukuttaa" ;
-удокшномс+V:удокшно IV_KUNDAKSHNOMS  "" ;
-удомс+V:удо IV_KUNDAMS  "nukkua" ;
+удокшномс+V:удокшно TV_KUNDAKSHNOMS  "" ;
+удомс+V:удо TV_KUNDAMS  "nukkua" ;
 удсевтевемс+V:удсевтев IV_SAEVEMS  "" ;
 удсевтемс+V:удсевть BV_NEVTEMS  "" ;
 удсевтнемс+V:удсевтне BV_E2ZHNEMS  "" ;
