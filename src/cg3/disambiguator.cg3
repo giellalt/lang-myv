@@ -763,7 +763,7 @@ SET V-3  = SG3-V OR PL3-V ;
 
 
 # We can define sets for common tag clusters
-LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Noun Plural
+LIST Case = (n sg) (n pl) (N Sg) (N Pl) (N SP) ; # A set that matches either a Noun Singular or a Noun Plural
 
 
 LIST SCONJ = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
@@ -1089,6 +1089,8 @@ SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ela PxSg1) OR ("эй" N SP Ela PxSg2) OR ("эй" N SP Ela PxSg3) OR ("эй" N SP Ela PxPl1) OR ("эй" N SP Ela PxPl2) OR ("эй" N SP Ela PxPl3) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ill PxSg1) OR ("эй" N SP Ill PxSg2) OR ("эй" N SP Ill PxSg3) OR ("эй" N SP Ill PxPl1) OR ("эй" N SP Ill PxPl2) OR ("эй" N SP Ill PxPl3) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP Ine PxSg2) OR ("эй" N SP Ine PxSg3) OR ("эй" N SP Ine PxPl1) OR ("эй" N SP Ine PxPl2) OR ("эй" N SP Ine PxPl3) ;
+SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine Indef) OR ("эй" N SP Ill Indef) OR ("эй" N SP Ela Indef) IF (-1 Gen + Def) ;
+
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("валом" Adv) ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Pl Nom PxSg1) IF (1 N) ;
   #Кизэнь: Кизэнь каникулатнестэ неть растениятнень можна максомс тонавтницятненень
@@ -1144,6 +1146,11 @@ SELECT Pron IF (0 ("тона" Sg Nom Indef)) (NOT 1 A OR N);
 SELECT:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (NOT 1 A OR N);
 REMOVE:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (1 A OR N);
    #поздно: Слушайся, пока не поздно! 20230529
+
+REMOVE ("валомс" V Imprt ScSg2) IF (0 ("вал" N Pl Nom Indef)) (0* ScPl3 BARRIER CLB OR EOS OR BOS) ;
+       #теевить лия валткак
+
+
 
 # Adv Ine versus N SP Ine Indef
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
@@ -1895,6 +1902,7 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # hmm, this needs some work
 # умаринась ды атямаресь
 # NOT WORKING 2017-11-08REMOVE:NotPcleWhenLeftAndRightSameForm Pcle IF (-1 N + $$CASE) (0 ("ды")) (1 N + $$CASE);
+REMOVE:NotPcleWhenLeftAndRightSameForm Pcle IF (-1 $$Case) (0 ("ды")) (1 N + $$Case);
 
 # Particles
 
