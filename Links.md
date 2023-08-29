@@ -24,6 +24,7 @@
             * [adjectives_newwords.lexc](src-fst-stems-adjectives_newwords.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives_newwords.lexc))
             * [adverbs_newwords.lexc](src-fst-stems-adverbs_newwords.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adverbs_newwords.lexc))
             * [exceptions.lexc](src-fst-stems-exceptions.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/exceptions.lexc))
+            * [genitive_attributes.lexc](src-fst-stems-genitive_attributes.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/genitive_attributes.lexc))
             * [hyphenated-nouns.lexc](src-fst-stems-hyphenated-nouns.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-nouns.lexc))
             * [hyphenated-verbs.lexc](src-fst-stems-hyphenated-verbs.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-verbs.lexc))
             * [myv-propernouns.lexc](src-fst-stems-myv-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/myv-propernouns.lexc))
