@@ -239,6 +239,8 @@ Other verb forms are
 * +Use/CircN * Circular number path
 * +Use/-Ped * Remove from pedagogical speller
 * +Use/NG * Do not generate, for isme-ped.fst and apertium
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 * +Err/Lex * The lemma is not an Erzya word (Depricating --+Src/F--)
 
