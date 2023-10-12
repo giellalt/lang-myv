@@ -1094,13 +1094,18 @@ imperative suffix
 * *ведь00>тне*
 
 **y:0**  
-* *кель^Ь2ZERO%>енть*
-* *кел00%>енть*
+* *кель^Ь2ZERO>енть*
+* *кел00>енть*
 меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
-* *мерь%>сь*
-* *мер0%>сь*
-* ★*мерь%>сь* (is not standard language)
-* ★*мерь%>сь* (is not standard language)
+* *мерь>сь*
+* *мер0>сь*
+* ★*мерь>сь* (is not standard language)
+* ★*мерь>сь* (is not standard language)
+лисемс+V+Ind+Prt1+ScSg3: **go out/mennä ulos**
+* *лись>сь*
+* *лис0>сь*
+* ★*лись>сь* (is not standard language)
+* ★*лись>сь* (is not standard language)
 
 **Disallow TLoss after non-t**  
 
@@ -1147,8 +1152,8 @@ imperative suffix
 * *псака%>втомо%>0нзо%>кс*
 
 веле+N+SP+Tra+PxSg2+Clt/Cop+Prt2+ScPl3: **village/kylä**
-* *веле%>%{оеэØ%}кс%>%{оеэØ%}т%{ЬØ%}%>%{оеэØ%}льть*
-* *веле%>0кс%>эт0%>ельть*
+* *веле>{оеэØ}кс>{оеэØ}т{ЬØ}>{оеэØ}льть*
+* *веле>0кс>эт0>ельть*
 
 **Disallow %^NoLinkVow after vowel**
 
