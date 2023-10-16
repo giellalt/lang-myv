@@ -591,7 +591,6 @@ LEXICON N_CHUVTO
 LEXICON N_PANGO
 !! панго:панг
 @P.POS.N@:@P.POS.N@%{back%} NMN_TINGE-SHORT-FORMS ;
-!@P.POS.N@:@P.POS.N@%{ОØ%} NMN_KUDO ;
 @P.POS.N@+Use/NG:@P.POS.N@о NMN_TINGE-LONG-FORMS ;
 @P.POS.N@:@P.POS.N@о NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@и%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -830,8 +829,8 @@ LEXICON NMN_TINGE-OTHER-FORMS
  ABL-PX ;
  CMP-PX ;
  DAT-PX ;
- ILL-PX ;
- INE-PX ;
+!2023-10-15 ILL-PX ;
+!2023-10-15 INE-PX ;
  PRL-PX ;
  TRA-PX ;
  SG-NOM-PX ;
@@ -1059,23 +1058,23 @@ LEXICON N_KLASS-Derivation
 
 LEXICON N_OSH-Derivation
  N_KUDO-Derivation ;
-+SP+Ela+Indef+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%} _KUDO-N2-Def-Declension ;
-+SP+Ine+Indef+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%} _KUDO-N2-Def-Declension ;
-+SP+Ela+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>нз%{оэØ%} _KUDO-N2-Def-Declension ;
-+SP+Ine+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>нз%{оэØ%} _KUDO-N2-Def-Declension ;
-+SP+Ela+PxPl1+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
-+SP+Ine+PxPl1+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
-+SP+Ela+PxPl2+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>нк _KUDO-N2-Def-Declension ;
-+SP+Ine+PxPl2+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>нк _KUDO-N2-Def-Declension ;
-+SP+Ela+PxPl3+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>ст _KUDO-N2-Def-Declension ;
-+SP+Ine+PxPl3+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>ст _KUDO-N2-Def-Declension ;
-+SP+Ela+Indef:%>%{оеэØ%}%>ст%{оэØ%} N2Dem-SE ;
-+SP+Ine+Indef:%>%{оеэØ%}%>с%{оэØ%} N2Dem-SE ;
-+SP+Ela:%>%{оеэØ%}%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
-+SP+Ine:%>%{оеэØ%}%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
++SP+Ela+Indef+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%} _KUDO-N2-Def-Declension ;
++SP+Ine+Indef+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%} _KUDO-N2-Def-Declension ;
++SP+Ela+PxSg3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>нз%{оэØ%} _KUDO-N2-Def-Declension ;
++SP+Ine+PxSg3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>нз%{оэØ%} _KUDO-N2-Def-Declension ;
++SP+Ela+PxPl1+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
++SP+Ine+PxPl1+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
++SP+Ela+PxPl2+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>нк _KUDO-N2-Def-Declension ;
++SP+Ine+PxPl2+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>нк _KUDO-N2-Def-Declension ;
++SP+Ela+PxPl3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>ст _KUDO-N2-Def-Declension ;
++SP+Ine+PxPl3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>ст _KUDO-N2-Def-Declension ;
++SP+Ela+Indef+Use/NG:%>%{оеэØ%}%>ст%{оэØ%} N2Dem-SE ;
++SP+Ine+Indef+Use/NG:%>%{оеэØ%}%>с%{оэØ%} N2Dem-SE ;
++SP+Ela+Use/NG:%>%{оеэØ%}%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
++SP+Ine+Use/NG:%>%{оеэØ%}%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 
-+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def+Use/NG:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def+Use/NG:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
@@ -1779,7 +1778,7 @@ LEXICON DAT-INDEF
 
 LEXICON ELA-INDEF
 @U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.CX.ELA@%>ст%{оэØ%} _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.CX.ELA@%>%{оеэØ%}ст%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.ELA@%>%{оеэØ%}ст%{оэØ%} _KUDO-Conjugation ;
 
 LEXICON GEN-INDEF
 @U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.CX.GEN@%>%{оеэØ%}нь GEN-INDEF-4-Conjugation ;
@@ -1788,11 +1787,11 @@ LEXICON GEN-INDEF
 
 LEXICON ILL-INDEF
 @U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.CX.ILL@%>с NounEnd_K ;
-@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.CX.ILL@%>%{оеэØ%}с NounEnd_K ;
+@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.ILL@%>%{оеэØ%}с NounEnd_K ;
 
 LEXICON INE-INDEF
 @U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>с%{оэØ%} _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>%{оеэØ%}с%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.INE@%>%{оеэØ%}с%{оэØ%} _KUDO-Conjugation ;
 
 LEXICON LAT-INDEF
 @U.DECL-NX.SP@@U.CX.LAT@+SP+Lat+Indef:@U.DECL-NX.SP@@U.CX.LAT@%>%{оеэØ%}в NounEnd_K ;
