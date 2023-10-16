@@ -495,8 +495,8 @@ DERIVATION
 * **+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
-* **+Sg+Ela+Def:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
-* **+Sg+Ine+Def:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ela+Def+Use/NG:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
+* **+Sg+Ine+Def+Use/NG:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 * **+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; ** _ь_ retension through double %>%>
 
