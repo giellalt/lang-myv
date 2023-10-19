@@ -1037,6 +1037,8 @@ SET SG-SUBJ-DEF = (Sg Nom Def) ;
 SET SG-SUBJ-PX =  (Sg Nom PxSg1) OR (Sg Nom PxSg2) OR (Sg Nom PxSg3) OR (Sg Nom PxPl1) OR (Sg Nom PxPl2) OR (Sg Nom PxPl3) ; # forms that can be singular subject with possessive marking
 SET SG-SUBJ = SG-SUBJ-INDEF OR SG-SUBJ-DEF OR SG-SUBJ-PX ;
 
+SET SP-PX = PXPERSON - Nom ; # forms that cannot be specifically Nom
+
 
 #!! ### Derivation tags
 LIST 2VDerTag = Der/njems Der/немс Der/OvtOms Der/Ovtnjems Der/Ozevems ; #!! 2VDerTag
@@ -1150,6 +1152,11 @@ REMOVE:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (1 A OR N);
 REMOVE ("валомс" V Imprt ScSg2) IF (0 ("вал" N Pl Nom Indef)) (0* ScPl3 BARRIER CLB OR EOS OR BOS) ;
        #теевить лия валткак
 
+REMOVE:NotVeAblWhenVedjGenCCAndNPGen ("ве" N Sg Abl Def) IF (0 ("ведь" N Sg Gen Def)) (1 CC LINK 1* (Gen Def) BARRIER V OR Adv OR EOS OR CLB) ; 
+  #Растениясь добови веденть ды питательной салтнэнь почванть эйстэ.
+
+REMOVE:NotVeAblPXWhenVedjGenPXCCAndNPGenPX ("ве" N SP Abl SP-PX) IF (0 ("ведь" Gen SP-PX)) (1 CC LINK 1* (Gen SP-PX) OR (Gen Def) BARRIER V OR Adv OR EOS OR CLB) ; 
+# does not seem to work
 
 
 # Adv Ine versus N SP Ine Indef
@@ -1160,6 +1167,9 @@ REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
 REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
 # марто does not take NP modifier role if not followed by NP head
 # Авазо якась школав шабранзо марто.
+
+REMOVE (Abl Def) IF (0 (Gen Def)) (1 Po);
+# ды саить эйсэнзэ ансяк валдонть пингстэ.
 
 REMOVE:Pert1AttrWhenNoHead ("перть" A Sg Nom Indef) IF (NOT 1 N);
    #перть: Кизэнть перть эряви оймсемс
@@ -1259,6 +1269,9 @@ REMOVE (V Aux Neg Conj ScSg3) IF (NOT 1 ConNeg) ;
 
 REMOVE:NoNSPAblCop (N SP Abl Indef Clt/Cop Prs ScPl3);
 # вал+до+т 
+
+REMOVE:NotAblIndefWhenAfterErjavomsBeforeEos (Abl Indef) IF (-1 ("эрявомс" Ind Prs ScSg3)) (0 (Sg Nom Indef)) (1 CLB OR EOS);
+  #Вана мекс пиже растениятненень эряви валдо.
 
 SELECT NPropSgNomIndef-NoSC IF (1 RusPatronymMal OR RusPatronymFem);
        #Иван Арсентьевичень: Совак, совак, — Иван Арсентьевичень кабинетсэнть аштесь профоргось.
