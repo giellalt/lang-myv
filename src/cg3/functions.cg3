@@ -401,6 +401,7 @@ LIST @SPRED = @SPRED ; # Subject predicative (e.g. in elliptical sentences); e.g
 # The adverbial tags
 #LIST @ADVL = @ADVL; # Adverbial
 
+LIST @CMP-STD> = @CMP-STD> ; #!! * @CMP-STD> : oblique comparative standard with adverb, adjective to right
 #2022-09-07#LIST @ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL ;
 LIST @>ADVL = @>ADVL ; #!! * @>ADVL : Modifier of an adverbial, with the adverbial to the right.
                               #!! ** vaikko: doppe leat vaikko man ollu studeanttat.
@@ -808,6 +809,9 @@ SET PlNomPxSg3 = NOUNPlNomPxSg3 OR NAdjPlNomPxSg3 OR AJJPlNomPxSg3 ;#possessa
 LIST SPNomPxSg1 = SgNomPxSg1 PlNomPxSg1 ;
 LIST SPNomPxSg2 = SgNomPxSg2 PlNomPxSg2 ;
 SET SPNomPxSg3 = SgNomPxSg3 OR PlNomPxSg3 ;
+
+LIST Ex/V = Ex/V ;#former verb
+LIST Ex/A = Ex/A ;#former adjective
 
 #LIST NOUNPxX = (n /cx:nom(.gen)?/ri /px[sgpl][1-3]/ri);
 LIST NOUNPxX = (n cx:nom /px[sgpl]+[1-3]/ri) (n cx:nom/gen /px[sgpl]+[1-3]/ri); #Jaska will examine 2021-11-21
@@ -1415,14 +1419,19 @@ LIST ADJTAKESMAMOABL = "бойка" "кол" "од" "сыре" ;# колат у�
 
 LIST NOUNTAKESABL = "ёвкс" "куля" "мель" "приказ" "тема" "указания" "чумо" "эпизод" ; #пленс понгомадо мельтне
 
-LIST POSTPTAKESABL = "башка" "икеле" "мейле" ;#postp/adverb that is preceded by ablative
+LIST POSTPTAKESABL = "икеле" "мейле" ;#postp/adverb that is preceded by ablative obl:cmp
+
+LIST BASHKATAKESABL = "башка" ;#! separative
 
 LIST IVERBTAKESABL = "абунгадомс" "авардемс" "ландявомс" "олякстомтомс" "пелемс" "пешкедемс" "покордавомс" "ракамс" "рангомс" "сыргоземс" "таргоземс";
 
-LIST VERBTAKESABL = "арсемс" "бредямс" "ванстомс" "видькстамс" "визделгадомс" "виздемс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
+LIST VERBTAKESABLCAUSE = "визделгадомс" "виздемс" "пелемс" ;#! cause
 
-LIST TALKABOUTVABLARG = "арсемс" "бредямс" "видькстамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
+LIST VERBTAKESABLSEPAR = "ванстомс" ;#! separative
+
+LIST TALKABOUTVABLARG = "арсемс" "бредямс" "видькстамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
 # a talk_about verb with ablative argument
+
 SET TALKABOUTVABLARGINF = TALKABOUTVABLARG - VFIN;#ойдензэ кортамо якси
 SET TALKABOUTVABLARGFIN = TALKABOUTVABLARG - (infMS/ME) - (V Inf) ;# finite talk_about verbs -ablabout
 
@@ -1430,8 +1439,13 @@ LIST VERBTAKESMAMOABL = "лоткамс" "лотксемс" "удаламс" ;
 
 LIST INGESTIONVABLARG = "андомс" "каванямс" "корштамс" "лексемс" "лекстямс" "поремс" "симдемс" "симемс" "сускомс" "таргамс" "ярсамс" ;# verbs of ingestion with ablative arguments
 
+LIST VERBTAKESABL = VERBTAKESABLCAUSE VERBTAKESABLSEPAR TALKABOUTVABLARG;#! CHECKME for myv talkabout transfer
+
+
 SET INGESTIONVABLARGINF = INGESTIONVABLARG - VFIN;#ойдензэ ярсамо якси
 SET INGESTIONVABLARGFIN = INGESTIONVABLARG - (infMS/ME) - (V Inf) ;# finite ingestion verbs
+
+
 LIST VERBTAKESkodaCCOMP = "арсемс" "ваномс" "ледстямс" "марямс" "невтемс" "невтнемс" "неемс" "помнямс" "редямс" "содамс" "чарькодемс"
 "арьсемс" "няфтемс" "няфнемс" "шарькодемс";#!!knows how
 #!! this needs Moksha, too. 
@@ -1779,6 +1793,9 @@ LIST neg:russ = neg:russ;
 LIST ptcp1/pres-vsg3 = ptcp1/pres-vsg3;
 LIST neg:cond = neg:cond;
 
+LIST LAMO = "лама" "ламо" ;
+LIST PEK = "пяк" "пек" ;# а пек аф пяк
+
 LIST NEGAUX = neg:ES (Aux Neg Ind Prt1) neg:cond neg:imper/optat (neg:AVOL mod:conj) (Aux Neg Conj);#these are finite neg auxiliaries
 # Non-finite verbs
 LIST infMS/ME = infMS/ME;
@@ -2057,19 +2074,23 @@ MAP (@IMP-PTCLE) TARGET ImperParticle;
 #MAP (@DISC) TARGET Interj;
 MAP (@INTERJ) TARGET Interj;
 
-# седе
-MAP (@CMP-STD) TARGET (Pron Dem Sg Abl Indef) OR (adj indf nsg cx:abl encl:AKgroup) OR (pron:dem indf nsg cx:abl) OR NAdjSPAbl IF (1 (A) OR (n/adj) OR (AJJ) OR AdvNEJgroup OR POSTPTAKESABL);# седе покш
+# седе, весемеде, сембода
+MAP (@CMP-STD>) TARGET (Pron Dem Sg Abl Indef) OR (Num SP Abl Indef) OR (Pron SP Abl Indef) OR (adj indf nsg cx:abl encl:AKgroup) OR (pron:dem indf nsg cx:abl) OR NAdjSPAbl OR (V Inf Abl) IF (1 (A) OR Ex/A OR (n/adj) OR (AJJ) OR LAMO OR Adv OR AdvNEJgroup OR POSTPTAKESABL);# седе покш
     #весемеде вадрятнень
+    #Варжасаськ, мезьста ащи почвань лядкссь календамода меле.
+    #Штобу почвасонть улевель седе ламо перегной, сонзэ удобрить навозсо.
+MAP (@CMP-STD>) TARGET (Pron Dem Sg Abl Indef) OR (Pron SP Abl Indef) OR (adj indf nsg cx:abl encl:AKgroup) OR (pron:dem indf nsg cx:abl) OR NAdjSPAbl OR (V Inf Abl) IF (1 (Pcle Neg)) (2 LAMO OR PEK);# седе а ламо сяда аф лама
+    #омбонстнэсэ — седе а ламо.
 
 # MOVE IT SOMEWHERE ELSE
 # COMPARATIVE
-MAP (@CMP-STD) TARGET PronDemSgAblIndf IF (1 A OR (n/adj));
-MAP (@CMP-STD) TARGET EJSTENoPX IF (1 A OR (n/adj));
-MAP (@CMP-STD) TARGET PronDemPlAblIndf;
+MAP (@CMP-STD>) TARGET PronDemSgAblIndf IF (1 A OR (n/adj));
+MAP (@CMP-STD>) TARGET EJSTENoPX IF (1 A OR (n/adj));
+MAP (@CMP-STD>) TARGET PronDemPlAblIndf;
 
 #
-MAP (@CMP-STD) TARGET NumOrdSgAbl;
-MAP (@CMP-STD) TARGET NumOrdPlAbl;
+MAP (@CMP-STD>) TARGET NumOrdSgAbl;
+MAP (@CMP-STD>) TARGET NumOrdPlAbl;
 
 ## Bring postpostions here after standard of comparison
 
@@ -2246,7 +2267,7 @@ MAP (@SUBJ>) TARGET VESENOMSG IF (1* VFINPL3SUBJ BARRIER CLB OR EOS OR N);
 
 MAP:IntercedingMeriat  (@SUBJ>) TARGET (Sg Nom Def) IF (1 Comma) (2 ("меремс" ScPl2) OR ("меремс" ScSg2)) (3 Comma) (4* VFINSG3SUBJ BARRIER CLB OR EOS LINK NEGATE 0* SUBJECTCANDIDATESG3 BARRIER CLB OR EOS);
 
-MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
+MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR BASHKATAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
    #мезде-бути: Ансяк кенкшенть эйстэ а васоло кавто аштиця бабинетне мезде-бути кортнесть.
 
 MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGFIN BARRIER CLB OR EOS OR @CVP); 
