@@ -452,6 +452,7 @@ LIST ERRORTH = Err/Orth-no-linking-vowel Err/Orth Err/Orth-pre2012 Err/Orth-back
 
 LIST DIALREADING = Dial Dial/SE Dial/NW Dial/W ;#used in substitute for weighting of dial readings
 
+LIST Ex/A = Ex/A ;#former adjective
 LIST Ex/V = Ex/V ;#former verb
 
 
@@ -823,7 +824,11 @@ SET PXPERSONGEN = Gen + PXPERSON ;
 
 SET ADPNOPX = Adp - ADPWITHPX | POSTP - PXPERSON ;# postposition with complement
 
-LIST POSTPWITHABL = "башка" "икеле" "мейле" ;#postpositions with ablative standard of comparison
+LIST ADVWITHABLTEMP = "икеле" "мейле" ;# standard of comparison
+
+LIST ADVWITHABLSEPAR = "башка" ;# separative
+
+SET POSTPWITHABL = ADVWITHABLTEMP | ADVWITHABLSEPAR ;#postpositions with ablative standard of comparison
 
 
 LIST SCPERSON = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
@@ -1003,7 +1008,7 @@ LIST ESJ = ("эсь" Det Refl);
 
 LIST FILTEROUTPATH = (Der Der/Dimin N SP Gen PxSg1 Clt/Cop Prs ScSg2) (Der Der/Dimin N Pl Gen PxSg1 Clt/Cop Prs ScSg2) (Der Der/Dimin N Sg Gen PxSg1 Clt/Cop Prs ScSg2) (Der Der/Dimin N Sg Nom PxSg1 Clt/Cop Prs ScSg2) (SP Abl PxSg1 Clt/Cop Prs ScSg2) (SP Abl PxSg1 Dial/SE Der/MWN N SP Ill) ;# filter out these paths
 
-LIST LIKELYOBJECT = (Pron Pers Sg1 Gen) (Pron Pers Sg2 Gen) (Pron Pers Sg3 Gen) (Pron Pers Pl1 Gen) (Pron Pers Pl2 Gen) (Pron Pers Pl3 Gen) (Gen Def) (Prop SP Gen) (Prop Gen) ;#
+LIST LIKELYOBJECT = (Pron Pers Sg1 Gen) (Pron Pers Sg2 Gen) (Pron Pers Sg3 Gen) (Pron Pers Pl1 Gen) (Pron Pers Pl2 Gen) (Pron Pers Pl3 Gen) (Gen Def) (Prop SP Gen) (Prop Gen) (Pron Dem Sg Gen) (Pron Dem Pl Gen);#
 
 SET NOT-KINTERM = N - KINTERM ; #!! used with Dat PxSg1
 
@@ -1037,6 +1042,8 @@ SET SG-SUBJ-DEF = (Sg Nom Def) ;
 SET SG-SUBJ-PX =  (Sg Nom PxSg1) OR (Sg Nom PxSg2) OR (Sg Nom PxSg3) OR (Sg Nom PxPl1) OR (Sg Nom PxPl2) OR (Sg Nom PxPl3) ; # forms that can be singular subject with possessive marking
 SET SG-SUBJ = SG-SUBJ-INDEF OR SG-SUBJ-DEF OR SG-SUBJ-PX ;
 
+SET SP-GEN-PX =  (Sg Gen PxSg1) OR (Sg Gen PxSg2) OR (Sg Gen PxSg3) OR (Sg Gen PxPl1) OR (Sg Gen PxPl2) OR (Sg Gen PxPl3) OR (Pl Gen PxSg1) OR (Pl Gen PxSg2) OR (Pl Gen PxSg3) OR (Pl Gen PxPl1) OR (Pl Gen PxPl2) OR (Pl Gen PxPl3) OR (SP Gen PxSg1) OR (SP Gen PxSg2) OR (SP Gen PxSg3) OR (SP Gen PxPl1) OR (SP Gen PxPl2) OR (SP Gen PxPl3) ; # forms that can be singular or plural genitive with possessive marking
+
 SET SP-PX = PXPERSON - Nom ; # forms that cannot be specifically Nom
 
 
@@ -1051,6 +1058,10 @@ LIST ShortPrsPrc = Der/Y Der/Yj ;
 
 # Noun sets
 LIST JOVTNE = "ве" "ёв" "килькш" "кит" "козяв" "корь" "лопав" "нарде" "пе" "пель" "пеште" "пув" "сув" "сяв" "теште" "ув" "чирь" ;#!! Pl Nom Def is Homomym with verb stem in тне-мс. This is relative for Clt/Cop with ScPl1 and ScPl2
+
+SET NOTEXA2NOUN = N - Ex/A ;#
+LIST ADJLOOKSLIKENABL = "валдо" "калгодо" ;#
+SET PREFERATONABL = ADJLOOKSLIKENABL + A + Sg + Nom + Indef | ADJLOOKSLIKENABL + A + Pl + Nom | ADJLOOKSLIKENABL + A + Sg + Gen | ADJLOOKSLIKENABL + Ex/A + Der/MWN + N + Sg + Nom + Indef | ADJLOOKSLIKENABL + Ex/A + Der/MWN + N + Pl + Nom | ADJLOOKSLIKENABL + Ex/A + Der/MWN + N + Sg + Gen ;#
 
 LIST LANGNAME = "мокшо" "руз" "эрзя" ; #!! in SP Gen Indef the next word can be кель
 SET TAKESLANG = LANGNAME + N + SP + Gen + Indef | LANGNAME + N + Sem/Hum + SP + Gen + Indef ;#!!
@@ -1091,7 +1102,8 @@ SUBSTITUTE (Sem/Plc) (*) TARGET (*) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ela PxSg1) OR ("эй" N SP Ela PxSg2) OR ("эй" N SP Ela PxSg3) OR ("эй" N SP Ela PxPl1) OR ("эй" N SP Ela PxPl2) OR ("эй" N SP Ela PxPl3) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ill PxSg1) OR ("эй" N SP Ill PxSg2) OR ("эй" N SP Ill PxSg3) OR ("эй" N SP Ill PxPl1) OR ("эй" N SP Ill PxPl2) OR ("эй" N SP Ill PxPl3) ;
 SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP Ine PxSg2) OR ("эй" N SP Ine PxSg3) OR ("эй" N SP Ine PxPl1) OR ("эй" N SP Ine PxPl2) OR ("эй" N SP Ine PxPl3) ;
-SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine Indef) OR ("эй" N SP Ill Indef) OR ("эй" N SP Ela Indef) IF (-1 Gen + Def) ;
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("эй" N SP Ine Indef) OR ("эй" N SP Ill Indef) OR ("эй" N SP Ela Indef) IF (-1 SP-GEN-PX OR LIKELYOBJECT) ;
+   #Сёвонев почванть свойстванзо ламодо аштить сёвоненть свойстванзо эйстэ.
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("валом" Adv) ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Pl Nom PxSg1) IF (1 N) ;
@@ -1108,11 +1120,23 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET SgGenDefHomPx IF (0 SgGenDef);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("думамс" V IV Ind Prs ScSg2 <W:0.0>) OR ("думамс" V TV Ind Prs ScSg2 <W:0.0>);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки") OR ("марто" Po Der/MWN) OR KIZENT1 OR KIZEN1 ;
 	   # Киз, кизэ
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET A OR Ex/A IF (0 N) (1 ("башка") OR EOS OR CLB) (NOT 2 A);
+# N over A перегной
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("Вась" Ex/N Prop SP Gen Indef Der/sje);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET PropnPICHvsPiche IF (0 NMN-INFLECTION-IN-MIDARCHIVOWEL);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
 #Пазонь кучовт ашо карциган
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ве") IF (0 ("ведь" N Sg Gen ) OR ("ведь" N SP Gen) );# ве vs ведь
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("пан") IF (0 ("пандо" N Sg Nom Indef) OR ("пандо" N Sg Gen Def) );# пан vs пандо
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ал") IF (-1 (N Sg Nom Indef) OR (Gen Def)) (0 ("алдо" Po Abl) OR ("алдо" Po Abl) );# ал vs алдо
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("вал") OR ("калго") IF (0 PREFERATONABL ) ;# вал vs валдо
+
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("улевемс") IF (0 ("улемс" Conj));#
+
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Tra Indef Der/MWN);
+	 #Tra+Indef+Der/MWN куро: куроксто
+
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET DIALREADING;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Use/NG) OR ERRORTH;
 
@@ -1163,6 +1187,9 @@ REMOVE:NotVeAblPXWhenVedjGenPXCCAndNPGenPX ("ве" N SP Abl SP-PX) IF (0 ("ве�
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
 # Is this too strong? ушосо: Эйкакштнэ налксить ушосо.
 
+REMOVE Pron IF (0 ("ламо" Det Sg Nom Indef)) (1 A OR N) ;#!
+       #Штобу почвасонть улевель седе ламо перегной, сонзэ удобрить навозсо.
+
 # Postp
 REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
 # марто does not take NP modifier role if not followed by NP head
@@ -1180,6 +1207,9 @@ REMOVE (N Sg Nom Indef) IF (0 ("мейле")) (-1 Abl);
 
 REMOVE (Pl) IF (-1 ("эсь" Det Refl)) (0 ("пря"));
        #Тесэ весе чумось войнась...» — оймавтсь сон эсь прянзо.
+
+REMOVE Gen IF (-2 Nom) (-1 @CNP) (0 Nom);#
+       #Значит, перегнойде башка, почвасонть ули песок ды сёвонь.
 
 SELECT (Pron AssocColl) IF (0 (Num Pron) OR (Det Pron));
 #кавонест, ськамонзо
@@ -1403,6 +1433,8 @@ REMOVE (N Sg Nom Indef Clt/Add) IF (0 ("кияк" Pron Indef Sg Nom)) (*0 ScSg3 
 
 SELECT:VerbalNounAblAdjunct (Der/NomAct N SP Abl) OR (Der/NomAct N Sg Abl Def) IF (*0 VERBTAKESMAMOABL OR VERBPERCEPTIONTAKESMAMOABL BARRIER CLB OR BOS OR EOS OR ("—"));
        #нарьгамодо: — ведунось лотки нарьгамодо.
+SELECT:VerbalNounAblBeforeAdv (Der/NomAct N SP Abl) OR (Der/NomAct N Sg Abl Def) IF (1 POSTPWITHABL);
+#Der/NomAct N SP Abl Indef
 
 REMOVE (Der/OmA NomAct) IF (-1 (Der/Ozj Ger) OR ASgNomIndef);
        #кодазь оршамот:  Лавтовгаст каязь уськстэ кодазь оршамот,
@@ -1547,7 +1579,7 @@ REMOVE:NoPlIfOnlySgSubjPossible Pl IF (NOT -2* SG-SUBJ BARRIER BOS OR CLB) (-1 V
 # 
 #REMOVE Der/ОвОмс (0C V) ;
 #REMOVE Der/OvOms (0C V) ;
-SELECT Der/OvOms (0C V) ; #!! 2023_03_15 important part of regular inflection
+SELECT Der/OvOms (NOT 0 (V Conj)) ; #!! 2023_03_15 important part of regular inflection
 
 # кортавтома
 REMOVE Der/OvtOms (0C V) ;
@@ -1702,6 +1734,10 @@ SELECT:PlPredIfNoOther (Pl Nom Indef) IF (NOT 0 VFIN) (0* POSSIBLEPLNOMSUBJ BARR
 REMOVE:PlSubjIfPlPred POSSIBLEPLNOMSUBJPX IF (1 N) ;
   # quite strong, кизэнь: Кизэнь каникулатнестэ неть растениятнень можна максомс тонавтницятненень
 #SELECT:PlSubjIfPlPred POSSIBLEPLNOMSUBJPX IF (0* (Pl Nom Indef) BARRIER CLB OR EOS OR BOS) (NEGATE 0* VFIN BARRIER CLB OR EOS OR BOS) (NEGATE 1 PostpNoPX);
+
+REMOVE (SP Gen) OR (Pl Gen) IF (0 SG-SUBJ-PX) (0* ScSg3) (NOT 0* (N Sg Nom));
+      #потмаксост: потмаксост жо сынст ашти калгодо кев салсто.
+      #this will not work because of кев in «кев салсто»
 
 REMOVE:NoSubjWhenPxCorrelatesWithSubjObj (Pl Nom) IF (0 (PxPl3)) (*0 (ScPl3) OR (OcPl3) BARRIER CLB);
        #пряст: Салызь эсь пряст.
@@ -2194,6 +2230,9 @@ REMOVE Der/Pr IF (0 Det + Qnt) (1C N + Sg + Nom + Indef ) ;
 # Маря раказевсь
 REMOVE ConNeg IF (1C V + SCPERSON ) ;
 
+REMOVE ConNeg IF (NOT -1 (Aux Neg) ) ;
+    #Растениятне сынст лангсо появить седе позда песоков почватнень коряс.
+
 # actprcshort
 REMOVE Der/Y IF (0 SCPERSON) (1 Adv) ;
 
@@ -2249,10 +2288,15 @@ REMOVE (Po Der Der/MWN) IF (NOT -1 (Gen) OR (Sg Nom Indef));
        
 REMOVE Adp (-1 Pron + Pers + PERSON + Nom OR VFIN) (0 Adv) ;
        #каршо: тыньгак каршо а ультядо
-       
-# сюконякшнось партизантнэнь каршо
-SELECT Adp (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
 
+REMOVE:NotPlainNWhenExA NOTEXA2NOUN IF (-1 (Sg Abl Indef)) (0 Ex/A);#
+#Pron Dem Sg Abl Indef
+
+SELECT:NRelatFirst (N Relat) (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
+
+SELECT:AdpAfterNRelat Adp (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
+ 	# сюконякшнось партизантнэнь каршо
+	
 # васттано тынк марто
 REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
 
