@@ -9,6 +9,7 @@
 negation marker for 
 fits between negation and conneg
 
+* @CMP-STD> : oblique comparative standard with adverb, adjective to right
 * @>ADVL : Modifier of an adverbial, with the adverbial to the right.
 ** vaikko: doppe leat vaikko man ollu studeanttat.
 * @ADVL< : Complement of adverbial.

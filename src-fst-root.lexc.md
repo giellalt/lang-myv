@@ -69,7 +69,10 @@ Postpositions
 * +Dem demonstrative
 * +Indef indefinite
 * +Dep dependent word requiring the presence of another, e.g. **мень**
+* **+Exclusive**:  ськамонза
+* **+Intensive**:  intensive pronoun
 * +Interr interrogative
+* **+PerifMod**:  periferal modifier ськамонза, кавонест
 * +Pers personal
 * +Recipr reciprocal
 * +Refl reflexive

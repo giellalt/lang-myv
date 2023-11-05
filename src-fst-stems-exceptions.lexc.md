@@ -70,6 +70,8 @@ Russian language words found in Erzya texts
 
 Old Bible Names and words
 
+RUSSIAN VERBS
+
 unrecognized
 
 Problems with synchronization

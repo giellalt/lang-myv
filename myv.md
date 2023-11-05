@@ -198,6 +198,7 @@ in SP Gen Indef the next word can be кель
 negation marker for 
 fits between negation and conneg
 
+* @CMP-STD> : oblique comparative standard with adverb, adjective to right
 * @>ADVL : Modifier of an adverbial, with the adverbial to the right.
 ** vaikko: doppe leat vaikko man ollu studeanttat.
 * @ADVL< : Complement of adverbial.
@@ -1244,7 +1245,10 @@ Postpositions
 * +Dem demonstrative
 * +Indef indefinite
 * +Dep dependent word requiring the presence of another, e.g. **мень**
+* **+Exclusive**:  ськамонза
+* **+Intensive**:  intensive pronoun
 * +Interr interrogative
+* **+PerifMod**:  periferal modifier ськамонза, кавонест
 * +Pers personal
 * +Recipr reciprocal
 * +Refl reflexive
@@ -2403,6 +2407,8 @@ with  +Use/SpellNoSugg
 Russian language words found in Erzya texts
 
 Old Bible Names and words
+
+RUSSIAN VERBS
 
 unrecognized
 
