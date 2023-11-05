@@ -532,8 +532,8 @@ LEXICON EXCEPTIONS
 вот+v1+Use/SpellNoSugg+Interj+Dem:вот K ;
 вот+v2+Use/SpellNoSugg+Interj+Dem:от K ;
 значит+Use/SpellNoSugg+V+Ind+Prs+ScSg3:значит K ;
-ещё+Adv:ещё ADV-TEMP_ ;
-ещё+Adv+Use/NG+Err/Lex:эщо ADV-TEMP_ ;
+ещё+Adv:ещё ADV_TEMP ;
+ещё+Adv+Use/NG+Err/Lex:эщо ADV_TEMP ;
 можна+Adv+Use/NG+Err/Lex:можна ADV_ ;
 тожо+Adv+Use/NG+Err/Lex:тожо ADV_ ;
 Саранск+N+Prop+Sem/Plc+Use/NG+Err/Lex:Саранск PROP-SETTLEMENT_KAL ;
@@ -567,7 +567,7 @@ LEXICON EXCEPTIONS
 
 аероплан+N:аероплан N_KAL ;
 
-опять+Adv:опять ADV-TEMP_ ;
+опять+Adv:опять ADV_TEMP ;
 если+CS:если CS_ ;
 нильзя+Adv:нильзя ADV_ ;
 богородица+N:богородица N_KUDO ;
@@ -644,6 +644,28 @@ LEXICON EXCEPTIONS
 сон+v2+Use/NG+Err/Orth+Pron+Pers+Sg3+Dat+Long:сонянзе # ;
 алов+v2+Use/NG+Err/Orth+Adv+Lat:алом # ;
 жо+Use/NG+Err/Orth+Pcle:же # ; 
+
+!! RUSSIAN VERBS
+действовать+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:действует # ;
+зависить+V+Ind+Prs+ScPl3+Err/Lex+OLang/RUS:зависят # ;!
+зависить+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:зависит # ;!
+использоваться+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:используется # ;
+обработать+V+Inf+Err/Lex+OLang/RUS:обработать # ;
+отличаться+V+Ind+Prs+ScPl3+Err/Lex+OLang/RUS:отличаются # ;
+очистить+V+Inf+Err/Lex+OLang/RUS:очистить # ;
+очистить+V+Ind+Prt1+ScPl3+Err/Lex+OLang/RUS:очистили # ;
+очищать+V+Ind+Prs+ScPl3+Err/Lex+OLang/RUS:очищают # ;
+очищать+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:очищает # ;
+очищаться+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:очищается # ;
+привлекать+V+Ind+Prs+ScPl3+Err/Lex+OLang/RUS:привлекают # ;
+применяться+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:применяется # ;
+разрушаться+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:разрушается # ;
+расширяться+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:расширяется # ;
+предложить+V+Ind+Prt1+ScSg3+Err/Lex+OLang/RUS:предложил # ;
+сжиматься+V+Ind+Prs+ScSg3+Err/Lex+OLang/RUS:сжимается # ;
+сжиматься+V+Ind+Prs+ScPl3+Err/Lex+OLang/RUS:сжимаются # ;
+управлять+V+Inf+Err/Lex+OLang/RUS:управлять # ;
+
 
 !! unrecognized
 весень-вейсэнь+A:весень-вейсэнь A-IS-GEN "" ;
