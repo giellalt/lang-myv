@@ -305,8 +305,9 @@ LEXICON QNT_
 +Det+Qnt: K ;
 
 LEXICON DET_LAMO
++Sg+Nom+Indef: # ;
 +Qnt+AssocColl:%>не _KUDO-Possessive-Before-K ;
- QNT_KUDO ;
+! QNT_KUDO ;
 
 LEXICON QNT_KUDO
 !+Det+Qnt: K ;
@@ -323,17 +324,17 @@ LEXICON QNT-INDEF
 +Qnt+Indef: K ;
 
 LEXICON QNT_VESEME
-+Qnt+Adn: ENDLEX ;
-@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ _KUDO-Indef-Declension-SG ;
++Adn: ENDLEX ;
+@P.POS.PRON@:@P.POS.PRON@ _KUDO-Indef-Declension-SG ;
 
-@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
+@P.POS.PRON@:@P.POS.PRON@ NMN_DEF-SG-DECLENSION ;
 
-@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ SG-NOM-PX ;
-@P.POS.PRON@+Pron+Qnt:@P.POS.PRON@ SG-GEN-PX ;
+@P.POS.PRON@:@P.POS.PRON@ SG-NOM-PX ;
+@P.POS.PRON@:@P.POS.PRON@ SG-GEN-PX ;
 
-+Pron+Qnt+Sg+Abl+PxPl2:%>%{дт%}О1%>нк K ;
-+Pron+Qnt+Sg+Abl+PxPl3:%>%{дт%}О1%>ст K ;
-+Pron+Qnt+Sg+Ela+PxPl3:%>ст%{оэØ%}%>ст K ;
++Sg+Abl+PxPl2:%>%{дт%}О1%>нк K ;
++Sg+Abl+PxPl3:%>%{дт%}О1%>ст K ;
++Sg+Ela+PxPl3:%>ст%{оэØ%}%>ст K ;
 
 
 !LEXICON _KUDO-NUM
