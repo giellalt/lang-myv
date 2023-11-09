@@ -16,7 +16,19 @@ use open qw( :encoding(UTF-8) :std );
 
 while(<>) {
 	# Continuation lexicon substitutions:
-#	s/ C-FI-NEN/nen LONDON/g ;
+    #	s/ C-FI-NEN/nen LONDON/g ;
+        s/(о|а|я|ё|у|ю) CYRL-VOW_SUR/$1 N_KUDO/g ;
+        s/(е|ы|и|э) CYRL-VOW_SUR/$1 N_VELE/g ;
+	s/(о|а|я|ё|у|ю)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2 N_OZKS/g ;
+	s/(е|ы|и|э)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2 N_LEVKS/g ;
+	s/(о|а|я|ё|у|ю)(ч|ш|ж) CYRL-SIBILANT_SUR/$1$2 N_OSH/g ;
+	s/(е|ы|и|э)(ч|ш|ж) CYRL-SIBILANT_SUR/$1$2 N_KENKSH/g ;
+	s/(о|а|я|ё|у|ю)(д|л|н|р) CYRL-SIBILANT_SUR/$1$2 N_KAL/g ;
+	s/(е|ы|и|э)(д|л|н|р) CYRL-SIBILANT_SUR/$1$2 N_TYL/g ;
+	s/(о|а|я|ё|у|ю)(т) CYRL-SIBILANT_SUR/$1$2 N_ART/g ;
+	s/(е|ы|и|э)(т) CYRL-SIBILANT_SUR/$1$2 N_KIT/g ;
+	s/(о|а|я|ё|у|ю)(б|в|г|к|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 N_LAV/g ;
+	s/(е|ы|и|э)(б|в|г|к|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 N_TEV/g ;
 #	s/SUND/BERN/g ;
 #	s/HEIM/BERN/g ;
 #	s/NIKOSIIJA/ACCRA/g ;
