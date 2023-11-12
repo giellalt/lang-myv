@@ -1279,7 +1279,10 @@ LEXICON ActDemPrc-N
 NMN_KUDO ;  !remove NomAg tag 2023_04_10
 
 LEXICON sajezj-PRC
- A_OSH ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_OSH ; ! саезтне
++Der+Der/sje+Pron:%>е _KUDO-N2-Def-Declension ; !саезетне (?саезсетне)
+! A_OSH ;
  CLT/COP4_OBL ;
  VerbEnd_K ;
 
