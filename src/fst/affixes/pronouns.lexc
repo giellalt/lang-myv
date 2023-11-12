@@ -653,16 +653,24 @@ LEXICON PRON-DEM
 LEXICON PRON-DEM-CASE
 +Sg+Abl:%>нде K ; 
 +Sg+Ela:%>ньстэ K ; 
++Sg+Ela+Use/SpellNoSugg:%>нестэ K ; 
 +Sg+Gen:%>нь K ; 
 +Sg+Ill:%>ньс K ; 
++Sg+Ill+Use/SpellNoSugg:%>нес K ; 
 +Sg+Ine:%>ньсэ K ; 
++Sg+Ine+Use/SpellNoSugg:%>несэ K ; 
 +Sg+Nom: K ;
  PRON-DEM-CASE-PL ;
 LEXICON PRON-DEM-CASE-PL
++Pl+Abe+Def:%>тневтеме K ; 
 +Pl+Abl+Def:%>тнеде K ; 
 +Pl+Dat+Def:%>тненень K ;
++Pl+Ela+Def:%>тнестэ K ;
 +Pl+Gen+Def:%>тнень K ;
++Pl+Ill+Def:%>тнес K ;
++Pl+Ine+Def:%>тнесэ K ;
 +Pl+Nom+Def:%>тне K ;
++Pl+Prl+Def:%>тнева K ;
 +Pl+Nom+Indef:%>т%{ЬØ%} K ; 
 
 !LEXICON A-IS-DEM_ISTJAMO !2022-10-17
@@ -1598,7 +1606,8 @@ LEXICON PRON-DEM_TONA
 
 
 LEXICON PRON-DEM_VASENCE
-+Ord: _KUDO-Misc_Pronouns_Sg ;
+!+Ord: _KUDO-Misc_Pronouns_Sg ;
++Ord: NMN_KUDO ;
 
 !LEXICON DET_VASENCE
 !+Det+Ord: _KUDO-Misc_Pronouns_Sg ;
@@ -1643,7 +1652,6 @@ LEXICON _KUDO-Misc_Pronouns_Sg
 +Sg+Ine+Def:%>с%{оэØ%} _KUDO-SgDet-PossPx ;
 +Sg+Ela+Def:%>ст%{оэØ%} _KUDO-SgDet-PossPx ;
 +Sg+Cmpr+Def:%>шка _KUDO-SgDet-PossPx ;
-+Sg+Tra+Def:%>кс _OSH-SgDet-PossPx ;
 
 
 !LEXICON SgDet-PossPx
