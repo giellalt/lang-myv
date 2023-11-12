@@ -838,6 +838,13 @@ LEXICON NMN_TINGE-OTHER-FORMS
  SG-GEN-PX ;
  PL-GEN-PX ;
 
+LEXICON DIGITAL_NUMBER
+! preceded by arabic numerals in stems/numerals.lexc
+:%- NMN_DEF-DECLENSION ;
+:%- N_KUDO-Poss-Declension-CX ;
+ SG-NOM-INDEF ; !2022-02-11 Jaska
+:%- MUTUAL_INDEF_NOT_SG_NOM_INDEF ;
+
 LEXICON NMN_KUDO
  N_KUDO-Derivation ;
  NMN_DEF-DECLENSION ;
@@ -1716,9 +1723,10 @@ LEXICON _PANGO-Indef-Declension-MUTUAL
  INE-INDEF ;
 
 LEXICON _KUDO-Indef-Declension
-! _KUDO-Indef-Declension-SG ;
-! _KUDO-Indef-Declension-PL ;
  SG-NOM-INDEF ;
+ MUTUAL_INDEF_NOT_SG_NOM_INDEF ;
+ 
+LEXICON MUTUAL_INDEF_NOT_SG_NOM_INDEF !Used with Arabic numerals
  PL-NOM-INDEF ;
  _MUTUAL-Indef-Declension-SP ;
 

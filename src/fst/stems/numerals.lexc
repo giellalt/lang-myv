@@ -78,7 +78,6 @@ LEXICON ARABICLOOP   !!= * **@CODE@**
   %%+Use/Circ:%%  ARABICDELIMITER ; ! 50%. It is wrong, but 75 % of us write "75%".
   % %%+Use/Circ:% %%  ARABICDELIMITER ; ! the correct ones as well... 50 % etc.
   ARABICDELIMITER ; ! list of number-case delimiters
-+Num+SP+Comp+Indef:%-шка # ;!2022-02-11 Jaska
 
 LEXICON ARABICLOOPORD   !!= * **@CODE@**
  +A+Ord+Use/Circ: ARABICDELIMITERORD ;
@@ -88,7 +87,9 @@ LEXICON ACASETAG   !!= * **@CODE@**  is for 1e+Num+Sg+Num:1e
 +Num: # ;
 
 LEXICON ARABICDELIMITER   !!= * **@CODE@**  blank + 3 delim, what does the lg counc prefer?
- +Num:           # ; ! This is the 1984 case, ie NGA
+! +Num:           # ; ! This is the 1984 case, ie NGA
++Num+Card: DIGITAL_NUMBER ; !2023-11-12 Jaska
++Adv+Iter:%-ксть K ; !2023-11-12 Jaska
 
 LEXICON ARABICDELIMITERORD   !!= * **@CODE@**
 :%-це         NMN_KUDO ; ! declines
