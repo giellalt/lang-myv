@@ -227,6 +227,8 @@ Other verb forms are
 * +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
 * +Err/Orth-stem-nodent-hard-should-be-tnje * потоктнэсэ
 * +Err/Orth-missing-soft-in-stem * видме
+* +Err/Orth-s-to-j * кайсь Modern: кассь
+* +Err/Orth-z-to-j * кардайсэ Modern: кардазсо
 
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
