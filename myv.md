@@ -1405,6 +1405,7 @@ Other verb forms are
 * +Err/Orth-missing-soft-in-stem * видме
 * +Err/Orth-s-to-j * кайсь Modern: кассь
 * +Err/Orth-z-to-j * кардайсэ Modern: кардазсо
+* +Err/Orth-v-loss-before-lab * ольной
 
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
