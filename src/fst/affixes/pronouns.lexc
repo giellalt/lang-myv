@@ -21,6 +21,7 @@ LEXICON PRONOUN-TYPES
 кие+Pron:ки PRON-IS-REL-PERS ;
 
 эрьва+Det:Ӓ3рьва NMN_KUDO ;
+эрьвата+Det:Ӓ3рьвата NMN_KUDO ;
 эте+Det:эте DET-DEM_TE ;
 тете+Pron:тете DET-DEM_TE ;
 
@@ -651,15 +652,24 @@ LEXICON PRON-DEM
 
 
 LEXICON PRON-DEM-CASE
-+Sg+Abl:%>нде K ; 
-+Sg+Ela:%>ньстэ K ; 
++SP+Abl+Indef:%>де K ; 
++Sg+Abl+Def:%>денть K ; 
++SP+Abl+Indef+Use/NG:%>нде K ; 
++SP+Dat+Indef:%>нень K ; 
++Sg+Dat+Def:%>нтень K ; 
++SP+Ela+Indef:%>ньстэ K ; 
 +Sg+Ela+Use/SpellNoSugg:%>нестэ K ; 
-+Sg+Gen:%>нь K ; 
-+Sg+Ill:%>ньс K ; 
-+Sg+Ill+Use/SpellNoSugg:%>нес K ; 
-+Sg+Ine:%>ньсэ K ; 
-+Sg+Ine+Use/SpellNoSugg:%>несэ K ; 
-+Sg+Nom: K ;
++SP+Gen+Indef:%>нь K ; 
++Sg+Gen+Def:%>нть K ; 
++Sg+Ill+Indef:%>ньс K ; 
++Sg+Ill+Indef+Use/SpellNoSugg:%>нес K ; 
++Sg+Ine+Def:%>сэнть K ; 
++SP+Ine+Indef:%>ньсэ K ; 
++Sg+Ine+Def:%>ньсэнть K ; 
++SP+Ine+Indef+Use/SpellNoSugg:%>несэ K ; 
++Sg+Nom+Indef: K ;
++Sg+Nom+Def:%>сь K ;
++SP+Tra+Indef:%>кс K ; 
  PRON-DEM-CASE-PL ;
 LEXICON PRON-DEM-CASE-PL
 +Pl+Abe+Def:%>тневтеме K ; 
