@@ -22,7 +22,7 @@ word boundary or focus
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/possessorindices.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/possessorindices.lexc)</small>
 
 ---
 

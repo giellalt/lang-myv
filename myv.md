@@ -246,7 +246,7 @@ ordinals in -це
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -323,7 +323,7 @@ postposition that is in prolative case
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adpositions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/adpositions.lexc)</small>
 
 ---
 
@@ -350,7 +350,7 @@ This marking would indicate a word form that may be
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -360,7 +360,7 @@ The Erzya language interjections...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/interjections.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/interjections.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/interjections.lexc)</small>
 
 ---
 
@@ -392,7 +392,7 @@ _KUDO-NomPl-Conjugation-only-mutual
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nonverbalConjugation.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nonverbalConjugation.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nonverbalConjugation.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/nonverbalConjugation.lexc)</small>
 
 ---
 
@@ -556,7 +556,7 @@ Nouns1S_A
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -584,7 +584,7 @@ word boundary or focus
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/possessorindices.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/possessorindices.lexc)</small>
 
 ---
 
@@ -646,7 +646,7 @@ Out of TestLexc-noun.txt
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -672,7 +672,7 @@ DECLENSION LIMITATIONS
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -705,7 +705,7 @@ Numeral with a range limitation to adnominal phrase
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/quantifiers.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/quantifiers.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/quantifiers.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/quantifiers.lexc)</small>
 
 ---
 
@@ -714,7 +714,7 @@ Numeral with a range limitation to adnominal phrase
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -823,7 +823,7 @@ Used with deverbals
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -835,7 +835,7 @@ END
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/clitics.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/clitics.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/clitics.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/clitics.lexc)</small>
 
 ---
 
@@ -1170,7 +1170,7 @@ imperative suffix
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-myv/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -2299,7 +2299,7 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -2311,7 +2311,7 @@ ADD ADJECTIVES BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives-russian-like_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/adjectives-russian-like_newwords.lexc)</small>
 
 ---
 
@@ -2323,7 +2323,7 @@ ADD ADJECTIVES BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/adjectives_newwords.lexc)</small>
 
 ---
 
@@ -2335,7 +2335,7 @@ ADD ADVERBS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
 
@@ -2422,7 +2422,7 @@ COLLECTIVE NOUNS
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -2434,7 +2434,7 @@ ADD ADJECTIVES BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/genitive_attributes.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/genitive_attributes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/genitive_attributes.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/genitive_attributes.lexc)</small>
 
 ---
 
@@ -2461,7 +2461,7 @@ These are nouns with parallel declension
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/hyphenated-nouns.lexc)</small>
 
 ---
 
@@ -2498,7 +2498,7 @@ These are verbs with parallel conjugation
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/hyphenated-verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/hyphenated-verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/hyphenated-verbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/hyphenated-verbs.lexc)</small>
 
 ---
 
@@ -2522,7 +2522,7 @@ Rivers
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/myv-propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/myv-propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/myv-propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/myv-propernouns.lexc)</small>
 
 ---
 
@@ -2534,7 +2534,7 @@ ADD NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
 
@@ -2546,7 +2546,7 @@ ADD NOUNS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/propernouns_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/propernouns_newwords.lexc)</small>
 
 ---
 
@@ -2557,7 +2557,7 @@ the template urj-Cyrl-propernouns.lexc.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/rusMaleNameDer.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/rusMaleNameDer.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/rusMaleNameDer.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/rusMaleNameDer.lexc)</small>
 
 ---
 
@@ -2574,7 +2574,7 @@ N-End
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/stems/verbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
 
@@ -2741,7 +2741,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-myv/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-myv/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -2761,7 +2761,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-myv/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
