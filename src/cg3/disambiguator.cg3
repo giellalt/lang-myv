@@ -290,6 +290,8 @@ LIST IV = IV IVVERBS BVVERBS ;
 LIST TV = TV TVVERBS BVVERBS ;
 LIST BV = IV TV BVVERBS ;
 
+SET NOTIV = V - IVVERBS ;
+
 
 LIST ScSg1 = ScSg1 s_sg1 a_sg1 (s_p1 s_sg) (a_p1 a_sg) ;
 LIST ScSg2 = ScSg2 s_sg2 a_sg2 (s_p2 s_sg) (a_p2 a_sg) ;
@@ -316,6 +318,8 @@ SET VFINPERSONSUBJ =  VFINSG1SUBJ | VFINSG2SUBJ | VFINSG3SUBJ | VFINPL1SUBJ | VF
 SET NOT-VFINSG3SUBJ = VFINPERSONSUBJ - VFINSG3SUBJ ;
 SET NOT-VFINPL3SUBJ = VFINPERSONSUBJ - VFINPL3SUBJ ;
 
+SET IVFINPL3SUBJ = VFINPL3SUBJ - NOTIV;# vi with PL3 subject
+
 
 
 LIST OcSg1 = OcSg1 o_sg1 (o_p1 o_sg) ;
@@ -331,9 +335,9 @@ SET NOT-VFINPL3OBJ = VFINPERSONOBJ - OcPl3 ;
 
 SET VFINPERSON-NOOBJ = HASSCPERSON - VFINPERSONOBJ - Clt/Cop ; # finite subject no object on verb.
 
-SET VFINSG3SUBJNOOBJ = VFINSG3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb
+SET VFINSG3SUBJNOOBJ = VFINSG3SUBJ - VFINPERSONOBJ ;# a verb without object marking and without transitive verb
 
-SET VFINPL3SUBJNOOBJ = VFINPL3SUBJ - VFINPERSONOBJ - TV ;# a verb without object marking and without transitive verb 
+SET VFINPL3SUBJNOOBJ = VFINPL3SUBJ - VFINPERSONOBJ  ;# a verb without object marking and without transitive verb 
 
 SET HASSCPERSONNOOC = HASSCPERSON - VFINPERSONOBJ ;#has Sc marking but no Oc marking
 
@@ -1392,7 +1396,8 @@ SELECT:Greeting ("шумбра" A Sg Nom Indef Clt/Cop Prs ScSg2) OR ("шумб�
 SELECT:Voc ("ялга" N Pl Nom Indef) IF (-2 BOS OR CLB OR PUNCT) (-1 NSgNomIndef) (1 BOS OR CLB OR PUNCT);
 	#- Пассажир ялгат, 
  
-REMOVE NOUNNOT_POSSIBLEPLNOMSUBJ IF (0 (Pl Nom)) (*0 VFINPL3SUBJ BARRIER CLB OR EOS OR BOS) (NOT *0 POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS);
+REMOVE NOUNNOT_POSSIBLEPLNOMSUBJ IF (0 (Pl Nom)) (*0 IVFINPL3SUBJ BARRIER CLB OR EOS OR BOS) (NOT *0 POSSIBLEPLNOMSUBJ BARRIER CLB OR EOS OR BOS);
+       #Лемензэ а содылизь, тензэ кармасть мереме Вежава.
 
 REMOVE:NoReadyAdvComp ("седе");
 
@@ -1554,7 +1559,7 @@ REMOVE (Pl Nom) IF (1 Po);
        #Валскень перть ортат эзть панжтневе,
 
 
-REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* ScPl3 BARRIER EOS OR CLB)
+REMOVE Gen IF (NOT -1* PL-SUBJ BARRIER BOS) (0 PL-SUBJ-PX) (1* IVFINPL3SUBJ BARRIER EOS OR CLB)
        	      	       	       (NOT 1* PL-SUBJ BARRIER EOS)
 			       (NOT 1 Der/Ozj + Ger);
 			#Сёлминензэ кадовсть панжадо.
@@ -1757,8 +1762,9 @@ REMOVE:NoNIfMinus1Pek N IF (-1 ("пек"));
 REMOVE (Sg Nom) IF (0 (Pl Nom)) (*0 ScPl3 BARRIER CLB OR EOS OR BOS);# (NOT *-1 (Pl Nom)) (NOT *1 (Pl Nom));
        #кискат: кискат эзть онго, скалт, реветь эзть пара...
 
-REMOVE (Sg) IF (0 (Pl Nom)) (*0 VFINPL3SUBJNOOBJ)(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
+REMOVE (Sg) IF (0 (Pl Nom)) (*0 VFINPL3SUBJNOOBJ BARRIER CLB OR EOS OR BOS)(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
        #Карность-варность ансяк варакат.
+       # Лемензэ а содылизь,...
 
 REMOVE  PxSg1 IF (0 (SP Gen Indef)) (1 (Der/Ycja NomAg N Sg Nom Indef)) (*-1 VFINPL3SUBJNOOBJ) (NOT *-1 (Pl Nom) BARRIER CLB LINK NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
 	#кассть чинь вечкиця чувтт.

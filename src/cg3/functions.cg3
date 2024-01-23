@@ -1642,8 +1642,13 @@ MAP (@FS-ADVL>) TARGET Cond OR CondConj IF
 
 MAP (@FS-ADVL>) TARGET FAUXVERBS IF (-1* ("зярдо") BARRIER BOS OR CLB LINK -1 CLB OR BOS LINK 1* CLB BARRIER CLB LINK 1* FNOTAUXVERBS OR FAUXVERBS BARRIER CLB OR EOS);
 
-#MAP (@+FAUXV>) TARGET AuxNeg IF (0 ("<а>" V Aux Neg)) (1 (V Ind Prs) OR (V Ind Prt2) OR (V Cond));
+MAP:FiniteVOneToRightA (@+FAUXV>) TARGET AuxNeg IF (0 ("<а>" V Aux Neg)) (1 (V Ind Prs) OR (V Ind Prt2) OR (V Cond));
+     # лемензэ а содылизь
+
 #MAP (@+FAUXV>) TARGET AuxNeg IF (0 NEG-A-AF) ((1 TAKESYMMETRIC-NEG) OR (1 PEKPJAK LINK 1 TAKESYMMETRIC-NEG)) ;
+
+MAP:MoMeOneToRightKarmams (@+FAUXV>) TARGET SUPAUX IF (1 (V Inf Loc));
+    # Лемензэ а содылизь, тензэ кармасть мереме Вежава.
 
 MAP (@-FAUXV) TARGET AuxNeg IF (0 NEG-A-AF) ((1 TAKESYMMETRIC-NEG) OR (1 PEKPJAK LINK 1 TAKESYMMETRIC-NEG)) ;
 # а : Монь койсэ, тесэ тондеть парсте кияк а содасынзе тевтнень.
