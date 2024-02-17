@@ -28,6 +28,10 @@ LEXICON DET-DEM_ALCE
 ! +Det+Dem
 : NMN_KUDO ;
 
+
+LEXICON A_PEJ_rusmyv
++Use/SpellNoSugg: A_PEJ ;
+
 LEXICON A_RU-OJ
 +Use/SpellNoSugg: A_PEJ ;
 !+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
@@ -46,7 +50,10 @@ LEXICON A_RU-EJ
 !LEXICON COMP-A
 !+Der/shka: A_KUDO ;
 
-LEXICON A-IS-GEN ! The genitive is used as an attribute and predicate modifier
+LEXICON A_IS_ABE
++Der+Der/AbeAttr+A: A_KUDO        ;
+
+LEXICON A_IS_GEN ! The genitive is used as an attribute and predicate modifier
 ! was GEN-A
 +Der+Der/GenAttr+A+Sg: K ;
 +Der+Der/GenAttr+A: CLT/COP4_OBL-SC3-WITH-ZERO-PL3 ; ! These need checking 2012-04-17
@@ -81,8 +88,8 @@ LEXICON A_LAK
 +Der+Der/MWN+N: NMN_LAK ;
 : N2Dem-SE ;
 
-!LEXICON A_KAL_Sub
-!+Use/NG+Err/Orth: A_KAL ;
+LEXICON A_KAL_Sub
++Use/NG+Err/Orth: A_KAL ;
 
 LEXICON A_KAL
  ADJ-TO-ADV ;
@@ -256,7 +263,6 @@ LEXICON ActDemPrc-A
 LEXICON A-IS-DEMPRC
 !+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
 +Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
-
 
 LEXICON A_VELE
  A_KUDO        ;

@@ -300,10 +300,14 @@ LEXICON N_AJ_KINVOC
 
 !! ## COMMON NOUNS 
 
+LEXICON N_KAL_rus100
++Use/SpellNoSugg: N_KAL ;
 LEXICON N_KAL
 @P.POS.N@:@P.POS.N@ NMN_KAL ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_LAV_rus100
++Use/SpellNoSugg: N_LAV ;
 LEXICON N_LAV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -335,10 +339,14 @@ SG-TRA-DEF ;
 PL-NOM-INDEF ;
 NMN_DEF_PL_DECLENSION ;
 
+LEXICON N_TEV_rus100
++Use/SpellNoSugg: N_TEV ;
 LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_KEL1_rus100
++Use/SpellNoSugg: N_KEL1 ;
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KEL1 ;
@@ -365,6 +373,8 @@ LEXICON NMN_VESHCH1
 @P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_PEJ_rus100
++Use/SpellNoSugg: N_PEJ ;
 LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_PEJ ;
@@ -377,6 +387,8 @@ LEXICON N_SODYJ !!= * @CODE@ сода%>%{иы%}й, содый
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 
+LEXICON N_TYL_rus100
++Use/SpellNoSugg: N_TYL ;
 LEXICON N_TYL
 ! harmony: front
 @P.POS.N@:@P.POS.N@%{frontHard%} NMN_KAL ;
@@ -422,10 +434,16 @@ LEXICON N_LAK-PL
 @P.POS.N@:@P.POS.N@ _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
+LEXICON N_JORK_rus100
++Use/SpellNoSugg: N_JORK ;
 LEXICON N_JORK
 @P.POS.N@:@P.POS.N@ NMN_JORK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_KIT_rusmyv
++Use/SpellNoSugg: N_KIT ;
+LEXICON N_KIT_rus100
++Use/SpellNoSugg: N_KIT ;
 LEXICON N_KIT
 @P.POS.N@:@P.POS.N@ NMN_KIT ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -435,10 +453,14 @@ LEXICON N_KIT-PL
 @P.POS.N@:@P.POS.N@ _KIT-Indef-Declension ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
+LEXICON N_ART_rus100
++Use/SpellNoSugg: N_ART ;
 LEXICON N_ART
 @P.POS.N@:@P.POS.N@ NMN_ART ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_GAJT1_rus100
++Use/SpellNoSugg: N_GAJT1 ;
 LEXICON N_GAJT1
 @P.POS.N@:@P.POS.N@ NMN_GAJT1 ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -482,6 +504,8 @@ LEXICON N_LEVKS-PL
 @P.POS.N@:@P.POS.N@ _OSH-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
+LEXICON N_KENKSH_rus100
++Use/SpellNoSugg: N_KENKSH ;
 LEXICON N_KENKSH
 @P.POS.N@:@P.POS.N@%{frontSoft%} N_KUDO-Derivation ;
 @P.POS.N@:@P.POS.N@%{frontSoft%}  NMN_DEF-SG-DECLENSION ;
@@ -509,6 +533,8 @@ LEXICON N_PLASHCH
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 
 
+LEXICON N_OZKS_rus100
++Use/SpellNoSugg: N_OZKS ;
 LEXICON N_OZKS
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -521,6 +547,8 @@ LEXICON N_KARDAZ !! кардаз:карда
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
+LEXICON N_LEVKS_rus100
++Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_LEVKS
 ! harmony: front
 @P.POS.N@:@P.POS.N@%{frontHard%} NMN_KUDO ;
@@ -619,6 +647,9 @@ LEXICON N_VELE_IS-KE-DIM
 LEXICON N_VELE_IS-NE-DIM
 !! Front vowel, non-palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
+
+LEXICON N_VELE_rus100
++Use/SpellNoSugg: N_VELE ;
 LEXICON N_VELE
 !! Front vowel, palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_VELE ;
@@ -632,8 +663,11 @@ LEXICON N_PIZE2
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
-!LEXICON N_KUDO_SUB
-!+Use/NG+Err/Orth: N_KUDO ;
+LEXICON N_KUDO_rus100_hasnat
++Use/SpellNoSugg: N_KUDO ;
+
+LEXICON N_KUDO_rus100
++Use/SpellNoSugg: N_KUDO ;
 
 LEXICON N_KUDO
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;

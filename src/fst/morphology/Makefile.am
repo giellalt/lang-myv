@@ -47,7 +47,6 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/abbreviations.lexc          \
 			stems/acronyms.lexc               \
 			stems/adjectives_newwords.lexc    \
-			stems/adjectives-russian-like_newwords.lexc \
 			stems/adverbs_newwords.lexc       \
 			stems/exceptions.lexc             \
 			stems/genitive_attributes.lexc             \
