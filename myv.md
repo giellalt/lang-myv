@@ -329,7 +329,7 @@ postposition that is in prolative case
 
 # Adverb inflection
 
-The Erzya language adjectives do not compare.
+The Erzya language adverbs do not compare.
 
 LEXICON ADV-SPAT_  пачк
 
@@ -436,6 +436,7 @@ LEXICON N_PELE  пеле:пель, ало:ал
 
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
+
 Front vowel, palatal consonant before vowel
 
 Front vowel, non-palatal consonant before vowel
@@ -1763,7 +1764,8 @@ source and target part-of-speech.
 ## Der begin
 * +Der  In front of every derivation to make it
 possible to target derivations as a class e.g. in regular expressions etc
-* +Der/VtOmO 
+* +Der/VtOmO
+* +Der/AbeAttr
 * +Der/stO Deriving adverbs from adjectives A2Adv
 * +Der/ms эрзямс эрзя, истямс истя, вадрямс вадря
 * +Der/shka 
@@ -2317,7 +2319,7 @@ ADD ADJECTIVES BELOW
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
-эрзя-мокшонь:эрзя-мокшонь A-IS-GEN "(eng) /(fin) /(rus) " ;
+эрзя-мокшонь:эрзя-мокшонь A_IS_GEN "(eng) /(fin) /(rus) " ;
 
 ADD ADJECTIVES BELOW
 

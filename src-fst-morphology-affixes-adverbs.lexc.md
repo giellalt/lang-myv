@@ -1,6 +1,6 @@
 # Adverb inflection
 
-The Erzya language adjectives do not compare.
+The Erzya language adverbs do not compare.
 
 LEXICON ADV-SPAT_  пачк
 

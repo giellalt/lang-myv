@@ -587,7 +587,8 @@ source and target part-of-speech.
 ## Der begin
 * +Der  In front of every derivation to make it
 possible to target derivations as a class e.g. in regular expressions etc
-* +Der/VtOmO 
+* +Der/VtOmO
+* +Der/AbeAttr
 * +Der/stO Deriving adverbs from adjectives A2Adv
 * +Der/ms эрзямс эрзя, истямс истя, вадрямс вадря
 * +Der/shka 

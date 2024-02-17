@@ -38,6 +38,7 @@ LEXICON N_PELE  пеле:пель, ало:ал
 
 Front vowel, non-palatal consonant before vowel
 Front vowel, non-palatal consonant before vowel
+
 Front vowel, palatal consonant before vowel
 
 Front vowel, non-palatal consonant before vowel
