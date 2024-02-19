@@ -57,7 +57,7 @@ endif # CAN_XFST
 #### HFST transducers
 if CAN_HFST
 GT_ANALYSERS+=
-GT_GENERATORS+=
+GT_GENERATORS+=generator-dict-gt-norm.hfst
 
 if WANT_CUSTOM_FSTS
 CUSTOM_FSTS+=
@@ -78,6 +78,167 @@ endif # CAN_FOMA
 
 #################################################
 #### Add language-specific build rules here: ####
+
+# Hfst - add weights to compounds if using tropical-semiring fst format:
+if WITH_OFST_TROPICAL
+.generated/generator-raw-gt-desc.hfst: .generated/generator-raw-gt-desc.tmp.hfst
+	$(AM_V_REWEIGHT)$(HFST_REWEIGHT) $(MORE_VERBOSITY) $(HFST_FLAGS) \
+			-S '+Cmp' -a 10 --arcs-only -i $< \
+		> $@
+endif
+
+
+# We need to add processing of language-specific tags in the analyser:
+.generated/analyser-gt-desc.%: .generated/analyser-gt-desc.tmp.% \
+					filters/remove-derivation-position-tags.% \
+					filters/remove-norm-comp-tags.%             \
+					filters/remove-diaereses-enhancement.% \
+					filters/remove-usage-tags.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/remove-usage-tags.$*\"               \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			.o. @\"filters/remove-diaereses-enhancement.$*\"   \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+# And also for the normative analyser (foma and hfst):
+.generated/analyser-gt-norm.%: .generated/analyser-gt-norm.tmp.% \
+					filters/remove-derivation-position-tags.% \
+					filters/remove-illegal-derivation-strings-flagbased.% \
+					filters/insert-default-compounding-tags.% \
+					filters/insert-default_left_compounding-tags.% \
+					filters/block-illegal_compound-strings.%  \
+					filters/split-CmpN-tags.% \
+					filters/convert_to_flags-CmpNP-tags.% \
+					filters/split-CmpNP-tags.% \
+					filters/remove-diaereses-enhancement.% \
+					filters/remove-usage-tags.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/remove-usage-tags.$*\"               \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
+			.o.	@\"filters/block-illegal_compound-strings.$*\"          \
+			.o. @\"filters/split-CmpN-tags.$*\"                         \
+			.o. @\"filters/insert-default_left_compounding-tags.$*\"    \
+			.o. @\"filters/insert-default-compounding-tags.$*\"         \
+			.o. @\"filters/remove-illegal-derivation-strings-flagbased.$*\" \
+			.o. @\"filters/convert_to_flags-CmpNP-tags.$*\"            \
+			.o. @\"filters/split-CmpNP-tags.$*\"                       \
+			.o. @\"$<\"                                                \
+			.o. @\"filters/remove-diaereses-enhancement.$*\"   \
+			;\n\
+		 twosided flag-diacritics\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+# The operation 'twosided flag-diacritics" crashes Xerox badly, so we do with
+# a simpler, less restrictive normative fst when building with Xerox:
+.generated/analyser-gt-norm.xfst: .generated/analyser-gt-norm.tmp.xfst \
+					filters/remove-norm-comp-tags.xfst                \
+					filters/remove-derivation-position-tags.xfst      \
+					filters/remove-illegal-derivation-strings.xfst    \
+					filters/remove-diaereses-enhancement.xfst \
+					filters/remove-usage-tags.xfst
+	$(AM_V_XFST)$(PRINTF) "read regex \
+				@\"filters/remove-usage-tags.xfst\"                    \
+			.o. @\"filters/remove-norm-comp-tags.xfst\"                \
+			.o. @\"filters/remove-derivation-position-tags.xfst\"      \
+			.o. @\"filters/remove-illegal-derivation-strings.xfst\"    \
+			.o. @\"$<\"                                                \
+			.o. @\"filters/remove-diaereses-enhancement.xfst\" \
+			;\n\
+		 save stack $@\n\
+		 quit\n" | $(XFST) $(VERBOSITY)
+
+
+# We need special treatment of the disamb fst going to further pmatch processing
+# mainly due to the target pattern, thus listed here. The rule body and the
+# dependencies should be the same as the regular disamb analysers below:
+.generated/analyser-pmatchdisamb-gt-desc.hfst: .generated/analyser-pmatchdisamb-gt-desc.tmp.hfst \
+				filters/remove-norm-comp-tags.hfst             \
+				filters/remove-derivation-position-tags.hfst   \
+				filters/remove-orig_lang-tags.hfst             \
+				filters/rename-POS_before_Der-tags.hfst        \
+				filters/remove-usage-tags.hfst
+	$(AM_V_HXFST)$(PRINTF) "read regex \
+			@\"filters/remove-usage-tags.hfst\"               \
+		.o. @\"filters/remove-derivation-position-tags.hfst\" \
+		.o. @\"filters/remove-norm-comp-tags.hfst\"           \
+		.o. @\"filters/remove-orig_lang-tags.hfst\"           \
+		.o. @\"filters/rename-POS_before_Der-tags.hfst\"      \
+		.o. @\"$<\"                                           \
+		;\n\
+	invert net\n\
+	save stack $@\n\
+	quit\n" | $(HFST_XFST) -p $(MORE_VERBOSITY)
+
+
+# Special case for the disamb analyser, since it follows the same filename
+# pattern as the raw fst:
+.generated/analyser-disamb-gt-desc.%: .generated/analyser-disamb-gt-desc.tmp.%           \
+					filters/remove-derivation-position-tags.%      \
+					filters/remove-norm-comp-tags.%                \
+					filters/remove-orig_lang-tags.%                \
+					filters/remove-dialect-tags.%                  \
+					filters/remove-homonymy-tags.%                 \
+					filters/remove-diaereses-enhancement.% \
+					filters/rename-POS_before_Der-tags.%           \
+					filters/remove-usage-tags.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/remove-usage-tags.$*\"                    \
+			.o. @\"filters/remove-derivation-position-tags.$*\"      \
+			.o. @\"filters/remove-orig_lang-tags.$*\"                \
+			.o. @\"filters/remove-dialect-tags.$*\"                  \
+			.o. @\"filters/remove-homonymy-tags.$*\"                 \
+			.o. @\"filters/remove-norm-comp-tags.$*\"                \
+			.o. @\"filters/rename-POS_before_Der-tags.$*\"           \
+			.o. @\"$<\"                                              \
+			.o. @\"filters/remove-diaereses-enhancement.$*\" \
+			;\n\
+		 $(INVERT_HFST)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
+# We need to add processing of language-specific tags in the generator:
+define giella_generators
+.generated/generator-gt-%.$(1): .generated/generator-gt-%.tmp.$(1) \
+					 filters/remove-derivation-position-tags.$(1)      \
+					 filters/remove-norm-comp-tags.$(1)                \
+					 filters/remove-diaereses-enhancement.$(1) \
+					 filters/remove-usage-tags.$(1)
+	$$(AM_V_XFST_TOOL)$$(PRINTF) "read regex \
+				@\"filters/remove-usage-tags.$(1)\"                    \
+			.o. @\"filters/remove-derivation-position-tags.$(1)\"      \
+			.o. @\"filters/remove-norm-comp-tags.$(1)\"                \
+			.o. @\"$$<\"                                               \
+			.o. @\"filters/remove-diaereses-enhancement.$(1)\" \
+			;\n\
+		 $$(INVERT_XFST)$$(INVERT_FOMA)\
+		 save stack $$@\n\
+		 quit\n" | $$(XFST_TOOL)
+endef
+$(foreach fst,hfst xfst foma,$(eval $(call giella_generators,$(fst))))
+
+# Do NOT apply the accent removal filters to the normative
+# dictionary generator:
+.generated/generator-dict-gt-norm.%: .generated/generator-dict-gt-norm.tmp.% \
+					filters/remove-derivation-position-tags.% \
+					filters/remove-norm-comp-tags.%      \
+					filters/remove-usage-tags.%
+	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
+				@\"filters/remove-usage-tags.$*\"               \
+			.o. @\"filters/remove-derivation-position-tags.$*\" \
+			.o. @\"filters/remove-norm-comp-tags.$*\"           \
+			.o. @\"$<\"                                         \
+			;\n\
+		 $(INVERT_XFST)$(INVERT_FOMA)\
+		 save stack $@\n\
+		 quit\n" | $(XFST_TOOL)
+
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
