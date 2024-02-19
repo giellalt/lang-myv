@@ -4,7 +4,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 ## Alphabet
 
-ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
+ӓ Ӓ ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
 
 ## Special letters in the root that might be useful in dialect research and etymology later
 * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
