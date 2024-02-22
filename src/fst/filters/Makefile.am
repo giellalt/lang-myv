@@ -22,13 +22,23 @@
 GIELLA_FILTER_LOCAL_REGEX_SRCS=\
 					downcase_UCletters.regex  \
 					remove-norm-comp-tags.regex  \
+					remove-rel_focus-strings.regex                     \
 					remove-diaereses-enhancement.regex                      \
+					block-illegal_compound-strings.regex               \
+					insert-default-compounding-tags.regex              \
+					insert-default_left_compounding-tags.regex         \
 					remove-homonymy-tags.regex   \
 					remove-dialect-tags.regex    \
 					remove-usage-tags.regex      \
 					remove-derivation-position-tags.regex   \
+					remove-illegal-derivation-strings.regex            \
+					remove-illegal-derivation-strings-flagbased.regex  \
 					rename-POS_before_Der-tags.regex \
-					remove-DNorm-tags.regex
+					split-CmpN-tags.regex                              \
+					split-CmpNP-tags.regex                             \
+					remove-DNorm-tags.regex				\
+					convert_to_flags-CmpNP-tags.regex                  \
+					change-optionally-word_boundary_to_hyphen.regex
 
 # List any local filter xfscript files here:
 GIELLA_FILTER_LOCAL_XFSCRIPT_SRCS=
