@@ -298,6 +298,7 @@ The verbs are syntactically split according to transitivity:
 * +IV * intransitive verb
 * +NomAg Actor Noun From Verb - Nomen Agentis (ready)
 * +NomAct Action Noun From Verb - Nomen Actio (ready)
+* +Dimin Diminutive 
 
 Auxiliary verbs
 * +Aux * 

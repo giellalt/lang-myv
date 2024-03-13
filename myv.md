@@ -555,12 +555,6 @@ Nouns1S_A
 
 ## POSSESSIVE marking followed by clitics
 
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
-
----
-
 Possessor indices
 
 The Erzya language possessor indices or possessive suffixes may be followed
@@ -585,7 +579,7 @@ word boundary or focus
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/possessorindices.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/possessorindices.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -1475,6 +1469,7 @@ The verbs are syntactically split according to transitivity:
 * +IV * intransitive verb
 * +NomAg Actor Noun From Verb - Nomen Agentis (ready)
 * +NomAct Action Noun From Verb - Nomen Actio (ready)
+* +Dimin Diminutive 
 
 Auxiliary verbs
 * +Aux * 
