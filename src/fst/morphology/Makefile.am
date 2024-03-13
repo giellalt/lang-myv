@@ -38,7 +38,6 @@ GT_LEXC_SRCS_L1_L2=\
 			affixes/interjections.lexc        \
 			affixes/nonverbalConjugation.lexc \
 			affixes/nouns.lexc                \
-			affixes/possessorindices.lexc     \
 			affixes/pronouns.lexc             \
 			affixes/propernouns.lexc          \
 			affixes/quantifiers.lexc          \
@@ -59,6 +58,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/verbs_newwords.lexc         
 
 #			stems/rusSurDer.lexc
+#			affixes/possessorindices.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
 # that differ between the regular L1 and the L2 analysers below, in L1 and
