@@ -2,6 +2,8 @@
 
 The Erzya language adverbs do not compare.
 
+Not a real particle; it can take a clitic седеяк
+
 LEXICON ADV-SPAT_  пачк
 
 LEXICON ADV_IS_LAT  алов

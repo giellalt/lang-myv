@@ -1117,8 +1117,6 @@ HUNSPELL Type name derivation
 RussianMalenamesDerive ; !
 RussianSurnamesDerive ;
 
-Not a real particle; it can take a clitic седеяк
-
 увол-авол
 
 alo-SPAT-1Arg ; >PO_KAL-LOC
