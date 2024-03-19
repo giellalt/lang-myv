@@ -1131,6 +1131,7 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("Вась" Ex/N Prop SP Gen Indef Der/sje
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET PropnPICHvsPiche IF (0 NMN-INFLECTION-IN-MIDARCHIVOWEL);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
 #Пазонь кучовт ашо карциган
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("куда") IF (0 ("кудо" Ex/N Der/Dimin) );# куда vs кудо + Dimin
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ве") IF (0 ("ведь" N Sg Gen ) OR ("ведь" N SP Gen) );# ве vs ведь
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("пан") IF (0 ("пандо" N Sg Nom Indef) OR ("пандо" N Sg Gen Def) );# пан vs пандо
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ал") IF (-1 (N Sg Nom Indef) OR (Gen Def)) (0 ("алдо" Po Abl) OR ("алдо" Po Abl) );# ал vs алдо
@@ -2310,3 +2311,5 @@ REMOVE:NoCopWhenNextAdp Prs (0 Pron + Pers + PERSON + Gen) (1 Adp) ;
 #ADD:TalkAbout <ablabout> TARGET AblNPHEAD (NOT 0 <ablabout>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
 #VERB_ABOUT_ABL
 #SUBSTITUTE:TalkAbout (<W:0.0>) (<about> <W:0.0>) TARGET AblNPHEAD (NOT 0 <about>) (0* VERB_ABOUT_ABL BARRIER BOS OR EOS OR @CVP);
+
+REMOVE:NoDimWithoutPx ("куда" Ex/N Der/Dimin) IF (NOT 0 PXPERSON) ;
