@@ -120,6 +120,7 @@ noun phrase heads
 - go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
 * @CNP : Local conjunction or subjunction.
 - vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+* @CNUMP : conjunction between numerals express approximation	   
 * @X : unknown
 
 Upper and lower case
