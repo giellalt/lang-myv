@@ -113,27 +113,6 @@
 </e>
 <e id="None" meta="">
    <lg>
-     <l pos="CC">или</l>
-     <stg>
-       <st Contlex="CC_">или</st>
-     </stg>
-   </lg>
-     <sources>
-     </sources>
-   <mg relId="0">
-     <semantics>
-     </semantics>
-     <tg xml:lang="fin">
-       <t pos="CC">vai</t>
-       <t pos="CC">tai</t>
-     </tg>
-       <semRel lemmaID="эли" semRelType="seeNative"/>
-       <semRel lemmaID="эль" semRelType="seeNative"/>
-     <defNative/>
-   </mg>
-</e>
-<e id="None" meta="">
-   <lg>
      <l pos="CC">но</l>
      <stg>
        <st Contlex="CC_">но</st>
@@ -154,16 +133,19 @@
      <l pos="CC">эли</l>
      <stg>
        <st Contlex="CC_">эли</st>
+       <st Contlex="CC_" status="Use/NG+Use/SpellNoSugg">или</st>
      </stg>
    </lg>
-     <sources>
-     </sources>
+   <sources>
+   </sources>
    <mg relId="0">
      <semantics>
      </semantics>
      <tg xml:lang="fin">
-       <t pos="Adv">tai</t>
+       <t pos="CC">vai</t>
+       <t pos="CC">tai</t>
      </tg>
+       <semRel lemmaID="эль" semRelType="seeNative"/>
      <defNative>сюлмивал.</defNative>
      <xg>
        <x>Нешке пиресь тонсеть эли киненьгак сиведить ванстомо?</x>
