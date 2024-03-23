@@ -573,7 +573,8 @@ LIST @VOC = @VOC ;			   #!! * @VOC : Vocative
 LIST @CVP = @CVP ;			   #!! * @CVP : Conjunction or subjunction that conjoins finite verb phrases.
 							   #!!     - go : Leago guhkes áigi dassá go Máreha oidnet? - Is it a long time since you saw Máret?
 LIST @CNP = @CNP ;			   #!! * @CNP : Local conjunction or subjunction.
-							   #!!     - vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+					 #!!     - vai : Leago nieida vai bárdni? - Is it a girl or a boy?
+LIST @CNUMP = @CNUMP ;			#!! * @CNUMP : conjunction between numerals express approximation	   
 LIST @X = @X ;    			   #!! * @X : unknown
 LIST ADVL = @ADVL @ADVL> @ADVL< @<ADVL @>ADVL @-F<ADVL @-FADVL> ;  
 SET SUBJ = @<SUBJ OR @SUBJ> OR @SUBJ ;
@@ -1169,10 +1170,14 @@ MAP (@CGenAttrP) TARGET CC IF (-1 (N SP Gen Indef)) (1 (N SP Gen Indef));
     #, мушконь ды левшень пикст
 MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
 MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
+MAP (@CNUMP) TARGET CC IF (-1 Num) (1 Num );#
 
 SELECT Pron IF (0 ("тона" Sg Nom Indef)) (NOT 1 A OR N);
    #сась: Шкань ютазь тона сась ваксозонзо.
    #
+
+REMOVE (V Aux Neg Err/Orth Dial/NW Imprt ScSg2 OcPl3) OR ("илямс") IF (0 ("эли" @CNUMP));
+       # кинь пильгензэ кавто или ниле
 
 SELECT:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (NOT 1 A OR N);
 REMOVE:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (1 A OR N);
@@ -1187,6 +1192,8 @@ REMOVE:NotVeAblWhenVedjGenCCAndNPGen ("ве" N Sg Abl Def) IF (0 ("ведь" N S
 REMOVE:NotVeAblPXWhenVedjGenPXCCAndNPGenPX ("ве" N SP Abl SP-PX) IF (0 ("ведь" Gen SP-PX)) (1 CC LINK 1* (Gen SP-PX) OR (Gen Def) BARRIER V OR Adv OR EOS OR CLB) ; 
 # does not seem to work
 
+REMOVE:NotGenPxWhenQuantifier Gen IF (0 (Pl Gen) OR (Sg Gen) OR (Pl Nom)) (1 Num LINK NOT 1* N BARRIER EOS OR CLB) ;
+	# кинь пильгензэ кавто эли ниле,
 
 # Adv Ine versus N SP Ine Indef
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
