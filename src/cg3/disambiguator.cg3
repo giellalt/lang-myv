@@ -1192,7 +1192,7 @@ REMOVE:NotVeAblWhenVedjGenCCAndNPGen ("ве" N Sg Abl Def) IF (0 ("ведь" N S
 REMOVE:NotVeAblPXWhenVedjGenPXCCAndNPGenPX ("ве" N SP Abl SP-PX) IF (0 ("ведь" Gen SP-PX)) (1 CC LINK 1* (Gen SP-PX) OR (Gen Def) BARRIER V OR Adv OR EOS OR CLB) ; 
 # does not seem to work
 
-REMOVE:NotGenPxWhenQuantifier Gen IF (0 (Pl Gen) OR (Sg Gen) OR (Pl Nom)) (1 Num LINK NOT 1* N BARRIER EOS OR CLB) ;
+REMOVE:NotGenPxWhenQuantifier Gen IF (0 (Pl Gen) OR (Sg Gen) OR (Pl Nom) LINK NOT 0* SCPERSON BARRIER EOS OR CLB OR BOS) (1 (Num Sg Nom Indef) LINK NOT 1* N BARRIER EOS OR CLB) ;
 	# кинь пильгензэ кавто эли ниле,
 
 # Adv Ine versus N SP Ine Indef
