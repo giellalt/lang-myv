@@ -836,7 +836,7 @@ LIST ADVWITHABLSEPAR = "башка" ;# separative
 SET POSTPWITHABL = ADVWITHABLTEMP | ADVWITHABLSEPAR ;#postpositions with ablative standard of comparison
 
 
-LIST SCPERSON = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
+LIST SCPERSON = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;#predicate verb
 
 LIST SCPERSON12 = ScSg1 ScSg2 ScPl1 ScPl2 ;
 
@@ -1193,7 +1193,11 @@ REMOVE:NotVeAblPXWhenVedjGenPXCCAndNPGenPX ("ве" N SP Abl SP-PX) IF (0 ("ве�
 # does not seem to work
 
 REMOVE:NotGenPxWhenQuantifier Gen IF (0 (Pl Gen) OR (Sg Gen) OR (Pl Nom) LINK NOT 0* SCPERSON BARRIER EOS OR CLB OR BOS) (1 (Num Sg Nom Indef) LINK NOT 1* N BARRIER EOS OR CLB) ;
-	# кинь пильгензэ кавто эли ниле,
+	# Весемень, кинь пильгензэ кавто эли ниле, свал ули кирьгаст.
+
+REMOVE:NotRoadWhenGenIndefRelPron N IF (-1 CLB) (0 ("кие" Pron Rel SP Gen));
+	# Весемень, кинь пильгензэ кавто эли ниле, свал ули кирьгаст.
+	# this may need work to distinguish ки vs кие
 
 # Adv Ine versus N SP Ine Indef
 REMOVE:NoAdvIneWhenNoun (Adv Ine) IF (0 (N SP Ine Indef));
