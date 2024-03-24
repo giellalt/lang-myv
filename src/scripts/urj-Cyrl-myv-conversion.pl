@@ -17,6 +17,8 @@ use open qw( :encoding(UTF-8) :std );
 while(<>) {
 	# Continuation lexicon substitutions:
     #	s/ C-FI-NEN/nen LONDON/g ;
+    	s/ PROP-PLC_VELE/ PROP_VELE/g ;
+    	s/ PROP-PLC_KUDO/ PROP_KUDO/g ;
         s/(о|а|я|ё|у|ю) CYRL-VOW_SUR/$1 N_KUDO/g ;
         s/(е|ы|и|э) CYRL-VOW_SUR/$1 N_VELE/g ;
 	s/(о|а|я|ё|у|ю)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2 N_OZKS/g ;
