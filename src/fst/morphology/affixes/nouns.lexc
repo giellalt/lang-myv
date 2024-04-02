@@ -926,7 +926,7 @@ LEXICON N_KAL-Derivation
 
 !#this far 2019-01-30
 
-+Pl+Gen: POSSX-OBL4-N2DEM-SE ;
++SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02
 +SP+Ela:%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 +SP+Ine:%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 +SP+Prl:%>Г2а POSSX-OBL4-N2DEM-SE ;
@@ -989,7 +989,7 @@ LEXICON N_KEL1-Derivation
 
 +SP+Tra+Indef+Der+Der/MWN+N:%^Ь2ZERO%>екс _OSH-N2-Def-Declension ;
 
-+Pl+Gen: POSSX-OBL4-N2DEM-SE ;
++SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02
 +SP+Ela:%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 +SP+Ine:%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
 +SP+Prl:%>Г2а POSSX-OBL4-N2DEM-SE ;
@@ -1005,8 +1005,8 @@ LEXICON N_KEL1-Derivation
 +SP+Cmpr+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>нз%{оэØ%} _KUDO-N2-Def-Declension_BACK ;
 +SP+Abe+PxSg3+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>нз%{оэØ%} _KUDO-N2-Def-Declension_FRONT ;
 +SP+Abe+PxSg3+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нз%{оэØ%} _KUDO-N2-Def-Declension_FRONT ;
-+Sg+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен%{оеэ%}к _KUDO-N2-Def-Declension ;
-+Pl+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен%{оеэ%}к _KUDO-N2-Def-Declension ;
++SP+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен%{оеэ%}к _KUDO-N2-Def-Declension ;!2024-04-02
+!+Pl+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен%{оеэ%}к _KUDO-N2-Def-Declension ;!2024-04-02
 +SP+Ela+PxPl1+Der+Der/MWN+N:%>ст%{оэØ%}%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
 +SP+Ine+PxPl1+Der+Der/MWN+N:%>с%{оэØ%}%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
 +SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н%{оеэ%}к _KUDO-N2-Def-Declension ;
@@ -1033,9 +1033,9 @@ LEXICON N_KEL1-Derivation
 +Sg+Gen+PxSg2:%^Ь2ZERO%>ет%{ЬØ%} N2Dem-SE ;
 +Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%^Ь2ZERO%>ент%{ЬØ%} N2Dem-SE ;
 +Sg+Gen+PxSg3:%^Ь2ZERO%>енз%{оэØ%} N2Dem-SE ;
-+Sg+Gen+PxPl1:%^Ь2ZERO%>ен%{оеэ%}к N2Dem-SE ;
-+Sg+Gen+PxPl2:%^Ь2ZERO%>енк N2Dem-SE ;
-+Sg+Gen+PxPl3:%^Ь2ZERO%>ест N2Dem-SE ;
++SP+Gen+PxPl1:%^Ь2ZERO%>ен%{оеэ%}к N2Dem-SE ;!2024-04-02
++SP+Gen+PxPl2:%^Ь2ZERO%>енк N2Dem-SE ;!2024-04-02
++SP+Gen+PxPl3:%^Ь2ZERO%>ест N2Dem-SE ;!2024-04-02
 
 +Pl+Ela+Def+Der+Der/MWN+N:%>тне%>стэ _KUDO-N2-Def-Declension_FRONT ;
 +Pl+Ine+Def+Der+Der/MWN+N:%>тне%>сэ _KUDO-N2-Def-Declension_FRONT ;
@@ -1192,10 +1192,13 @@ LEXICON N_KUDO-Derivation-noArrow
 +SP+Abe+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 
 
+!These need SP for Moksha
 @U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL1 ;
+!These need SP for Moksha
 @U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL2 ;
+!These need SP for Moksha 2024-04-02
 @U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL3 ;
-+SP+Gen: POSSX-OBL4-N2DEM-SE ;
++SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02 one for singular
 
 
 +Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
@@ -2559,9 +2562,9 @@ LEXICON N_KAL-Derivation-WITH-POSSX
 +Sg+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} N2Dem-SE ;
 +Sg+Gen+PxSg3+Use/NG+Err/Orth:%>%{оеэØ%}нд%{оэØ%} N2Dem-SE ;
 +Sg+Gen+PxSg3+Use/NG+Err/Orth:%>%{оеэØ%}ндз%{оэØ%} N2Dem-SE ;
-+Sg+Gen+PxPl1:%>%{оеэØ%}н%{оеэ%}к N2Dem-SE ;
-+Sg+Gen+PxPl2:%>%{оеэØ%}нк N2Dem-SE ;
-+Sg+Gen+PxPl3:%>%{оеэØ%}ст N2Dem-SE ;
++SP+Gen+PxPl1:%>%{оеэØ%}н%{оеэ%}к N2Dem-SE ;!2024-04-02
++SP+Gen+PxPl2:%>%{оеэØ%}нк N2Dem-SE ;!2024-04-02
++SP+Gen+PxPl3:%>%{оеэØ%}ст N2Dem-SE ;!2024-04-02
 
 LEXICON POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE
  OBL-PX4-CLTCOP ;
@@ -2649,15 +2652,15 @@ LEXICON SG-GEN-PXSG3
 @U.DECL-NX.SG@+Sg+Gen+PxSg3+Sem/Inanim+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.SG@%>%{оеэØ%}з%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON SG-GEN-PXPL1
-@U.DECL-NX.SG@+Sg+Gen+PxPl1:@U.DECL-NX.SG@%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@+SP+Gen+PxPl1:@U.DECL-NX.SG@%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 !@U.DECL-NX.SG@+Sg+Gen+PxPl1+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@%>%{оеэØ%}н%{оеэ%}к K ;
 
 LEXICON SG-GEN-PXPL2
-@U.DECL-NX.SG@+Sg+Gen+PxPl2:@U.DECL-NX.SG@%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@+SP+Gen+PxPl2:@U.DECL-NX.SG@%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 !@U.DECL-NX.SG@+Sg+Gen+PxPl2+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@%>%{оеэØ%}нк K-lak ;
 
 LEXICON SG-GEN-PXPL3
-@U.DECL-NX.SG@+Sg+Gen+PxPl3:@U.DECL-NX.SG@%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@+SP+Gen+PxPl3:@U.DECL-NX.SG@%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 !@U.DECL-NX.SG@+Sg+Gen+PxPl3+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@%>%{оеэØ%}ст K ;
 
 
@@ -2678,14 +2681,14 @@ LEXICON SG-NOM-PXSG3
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}з%{оэØ%} K ;
 
 LEXICON SG-NOM-PXPL1
-@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}н%{оеэ%}к _LAK-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@+SP+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}н%{оеэ%}к _LAK-NomSg-Conjugation ;!2024-04-02
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+PxPl1+Use/NG+Err/Orth+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}м%{ое%}к _LAK-NomSg-Conjugation ;
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+PxPl1+Use/NG+Err/Orth-no-linking-vowel+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowм%{ое%}к _LAK-NomSg-Conjugation ;
 !+Err/Orth-no-linking-vowel
 LEXICON SG-NOM-PXPL2
-@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}нк _LAK-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@+SP+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}нк _LAK-NomSg-Conjugation ;!2024-04-02
 LEXICON SG-NOM-PXPL3
-@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}ст _KIT-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@+SP+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}ст _KIT-NomSg-Conjugation ;!2024-04-02
 
 LEXICON PL-GEN-PX
  PL-GEN-PXSG1 ;
@@ -2710,13 +2713,13 @@ LEXICON PL-GEN-PXSG3
 @U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON PL-GEN-PXPL1
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Gen+PxPl1:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+SP+Gen+PxPl1:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 
 LEXICON PL-GEN-PXPL2
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Gen+PxPl2:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+SP+Gen+PxPl2:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 
 LEXICON PL-GEN-PXPL3
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Gen+PxPl3:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+SP+Gen+PxPl3:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 
 
 LEXICON PL-NOM-PX
@@ -2743,17 +2746,17 @@ LEXICON PL-NOM-PXSG3
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} CLT/COP_PL-MUTUAL-K ;
 
 LEXICON PL-NOM-PXPL1
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к CLT/COP_PL-MUTUAL ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+SP+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к CLT/COP_PL-MUTUAL ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+SP+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к K ;!2024-04-02
 
 LEXICON PL-NOM-PXPL2
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк CLT/COP_PL-MUTUAL ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2+Clt/Cop+Ind+Prs+ScPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+SP+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк CLT/COP_PL-MUTUAL ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+SP+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+SP+Nom+PxPl2+Clt/Cop+Ind+Prs+ScPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K ;!2024-04-02
 
 LEXICON PL-NOM-PXPL3
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст CLT/COP_PL-MUTUAL ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+SP+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст CLT/COP_PL-MUTUAL ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+SP+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст K ;!2024-04-02
 
 
 
