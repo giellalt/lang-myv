@@ -1774,7 +1774,7 @@ REMOVE:NoNIfMinus1Pek N IF (-1 ("пек"));
 REMOVE (Sg Nom) IF (0 (Pl Nom)) (*0 ScPl3 BARRIER CLB OR EOS OR BOS);# (NOT *-1 (Pl Nom)) (NOT *1 (Pl Nom));
        #кискат: кискат эзть онго, скалт, реветь эзть пара...
 
-REMOVE (Sg) IF (0 (Pl Nom)) (*0 VFINPL3SUBJNOOBJ BARRIER CLB OR EOS OR BOS)(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
+REMOVE:NotSgWhenPlNomAndNotPrecededByPlNomNoSubsqtPo (Sg) IF (0 (Pl Nom)) (*0 VFINPL3SUBJNOOBJ BARRIER CLB OR EOS OR BOS)(NOT *-1 (Pl Nom) BARRIER CLB) (NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
        #Карность-варность ансяк варакат.
        # Лемензэ а содылизь,...
 
@@ -1783,6 +1783,9 @@ REMOVE  PxSg1 IF (0 (SP Gen Indef)) (1 (Der/Ycja NomAg N Sg Nom Indef)) (*-1 VFI
 
 REMOVE (Gen) IF (0 (Pl Nom)) (*-1 VFINPL3SUBJNOOBJ) (NOT *-1 (Pl Nom) BARRIER CLB LINK NOT *1 (Pl Nom) BARRIER CLB) (NOT 1 Po);
        #Карность-варность ансяк варакат. VS order, S is indef
+
+REMOVE:NotPlGenWhenPlNomAndNoOtherForPl3V (Pl Gen) IF (0 (Pl Nom)) (*0 ScPl3 BARRIER CLB OR EOS OR BOS) (NOT *0 (Pl Nom) BARRIER CLB OR EOS OR BOS);
+       #Кавто сыре [нинзэ] эрить эсь цёраст марто.
 
 REMOVE PlNomPossessum IF (*0 (Pl Nom Def) BARRIER CLB OR EOS OR BOS) (*0 TV BARRIER CLB OR BOS OR EOS);
 	     #ведест: Чудикерькстнэ шольнезь-пейдезь ведест пандалов кевердить.
