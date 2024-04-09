@@ -49,6 +49,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/adverbs_newwords.lexc       \
 			stems/exceptions.lexc             \
 			stems/genitive_attributes.lexc             \
+			stems/historical_lexicon.lexc       \
 			stems/hyphenated-nouns.lexc       \
 			stems/hyphenated-verbs.lexc       \
 			stems/nouns_newwords.lexc         \
