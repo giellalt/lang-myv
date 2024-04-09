@@ -41,4 +41,5 @@ finite supaux 2023_03_13
 * @-FMAINV : non-finite main verb
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/functions.cg3)</small>

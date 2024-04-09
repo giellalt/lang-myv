@@ -184,4 +184,5 @@ in SP Gen Indef the next word can be кель
 2023_03_15 important part of regular inflection
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/disambiguator.cg3)</small>

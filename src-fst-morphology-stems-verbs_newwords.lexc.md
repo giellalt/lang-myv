@@ -12,6 +12,3 @@ N-End
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
-
----
-

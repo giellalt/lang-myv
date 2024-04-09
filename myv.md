@@ -1,6 +1,10 @@
-# Erzya description 
+# Erzya language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 
 
@@ -188,7 +192,14 @@ in SP Gen Indef the next word can be кель
 2023_03_15 important part of regular inflection
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 
 * Sets for POS sub-categories
 
@@ -231,7 +242,14 @@ finite supaux 2023_03_13
 * @-FMAINV : non-finite main verb
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/functions.cg3)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-myv/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+# Adjective inflection
 
 Adjectives and other parts of speech in ERZYA are compared by means of 
 either a particle or ablative case marking on the standard of comparison
@@ -250,6 +268,8 @@ ordinals in -це
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-adpositions.lexc.md 
 
 
 The Erzya language postpositions can be broken into many subgroups
@@ -328,6 +348,8 @@ postposition that is in prolative case
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
 # Adverb inflection
 
 The Erzya language adverbs do not compare.
@@ -357,6 +379,8 @@ This marking would indicate a word form that may be
 
 ---
 
+# src-fst-morphology-affixes-interjections.lexc.md 
+
 # Interjections
 
 The Erzya language interjections...
@@ -366,6 +390,8 @@ The Erzya language interjections...
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/interjections.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nonverbalConjugation.lexc.md 
 
 Non-Verbal conjugation
 
@@ -398,6 +424,8 @@ _KUDO-NomPl-Conjugation-only-mutual
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/nonverbalConjugation.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/nonverbalConjugation.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection
 
@@ -586,6 +614,8 @@ word boundary or focus
 
 ---
 
+# src-fst-morphology-affixes-pronouns.lexc.md 
+
 # Pronoun inflection
 
 Erzya pronouns inflect in many the same cases as regular
@@ -648,6 +678,8 @@ Out of TestLexc-noun.txt
 
 ---
 
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
 Proper noun inflection
 
 Erzya proper nouns inflect in the same cases as regular
@@ -673,6 +705,8 @@ DECLENSION LIMITATIONS
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-quantifiers.lexc.md 
 
 Quantifier inflection
 
@@ -707,6 +741,8 @@ Numeral with a range limitation to adnominal phrase
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -715,6 +751,8 @@ Numeral with a range limitation to adnominal phrase
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Verb inflection
 
@@ -825,6 +863,8 @@ Used with deverbals
 
 ---
 
+# src-fst-morphology-clitics.lexc.md 
+
 # Clitics
 
 The Erzya language clitics...
@@ -836,6 +876,8 @@ END
 <small>This (part of) documentation was generated from [src/fst/morphology/clitics.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/clitics.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # The Erzya morphophonological/twolc rules file 
 
@@ -1171,6 +1213,8 @@ imperative suffix
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # Morphology
@@ -2301,6 +2345,8 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 ---
 
+# src-fst-morphology-stems-adjectives-russian-like_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 од:од A_KAL "(eng) /(fin)/(rus) " ;
@@ -2312,6 +2358,8 @@ ADD ADJECTIVES BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives-russian-like_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/adjectives-russian-like_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2325,6 +2373,8 @@ ADD ADJECTIVES BELOW
 
 ---
 
+# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 лембстэ:лембстэ ADV_ "(eng) /(fin) /(rus) " ;
@@ -2336,6 +2386,8 @@ ADD ADVERBS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/adverbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-exceptions.lexc.md 
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -2424,6 +2476,8 @@ COLLECTIVE NOUNS
 
 ---
 
+# src-fst-morphology-stems-genitive_attributes.lexc.md 
+
 This is where new words are added as lexc entries before they are
 added to the xml source files.
 Ботужале+N+Prop+SP+Gen+Indef:ботужале A_IS_PROP_GEN ;
@@ -2435,6 +2489,8 @@ ADD ADJECTIVES BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/genitive_attributes.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/genitive_attributes.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-hyphenated-nouns.lexc.md 
 
 These are nouns with parallel declension
 
@@ -2462,6 +2518,8 @@ These are nouns with parallel declension
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/hyphenated-nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-hyphenated-verbs.lexc.md 
 
 These are verbs with parallel conjugation
 
@@ -2500,6 +2558,8 @@ These are verbs with parallel conjugation
 
 ---
 
+# src-fst-morphology-stems-myv-propernouns.lexc.md 
+
 
 
 -kal
@@ -2524,6 +2584,8 @@ Rivers
 
 ---
 
+# src-fst-morphology-stems-nouns_newwords.lexc.md 
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 автор:автор N_KAL "(eng) /(fin) /(rus) " ;
@@ -2535,6 +2597,8 @@ ADD NOUNS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/nouns_newwords.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-propernouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2548,6 +2612,8 @@ ADD NOUNS BELOW
 
 ---
 
+# src-fst-morphology-stems-rusMaleNameDer.lexc.md 
+
 
 
 The derivable male given names have been moved to 
@@ -2558,6 +2624,8 @@ the template urj-Cyrl-propernouns.lexc.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/rusMaleNameDer.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/rusMaleNameDer.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2575,6 +2643,8 @@ N-End
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs_newwords.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2743,6 +2813,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Erzya are read out, e.g.
@@ -2762,6 +2834,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 E R Z Y A    G R A M M A R   C H E C K E R
@@ -2797,7 +2871,14 @@ DerTag
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-myv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for myv
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-myv/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for myv
 
 Usage:
 ```
@@ -2858,6 +2939,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-myv/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for myv
 
@@ -2922,6 +3005,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -2983,6 +3068,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-myv/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

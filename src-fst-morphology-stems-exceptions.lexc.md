@@ -82,6 +82,3 @@ COLLECTIVE NOUNS
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
-
----
-

@@ -22,6 +22,3 @@ These are nouns with parallel declension
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/hyphenated-nouns.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/hyphenated-nouns.lexc)</small>
-
----
-

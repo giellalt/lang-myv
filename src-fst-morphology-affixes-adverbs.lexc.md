@@ -24,6 +24,3 @@ This marking would indicate a word form that may be
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
-
----
-
