@@ -226,6 +226,7 @@ LIST NMODIFIER = ASgNomIndef NSgNomIndef ;# use between "эсь" and noun
 SET AdjObl = A - (Sg Nom Indef) - (Pl Nom Indef) ;
 SET NObl = N - (Sg Nom Indef) - (Pl Nom Indef) ;
 
+LIST ARAS1 = ("арась" V Aux Neg) ;# арасян, арасят, арась, араселинь, арасель
 
 LIST POSSIBLESGNOMSUBJ = NSgNomIndef (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3)
 (Sg Nom Def) (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3)
@@ -1210,6 +1211,12 @@ REMOVE Pron IF (0 ("ламо" Det Sg Nom Indef)) (1 A OR N) ;#!
 REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
 # марто does not take NP modifier role if not followed by NP head
 # Авазо якась школав шабранзо марто.
+
+ # spatial negation does not occur in motion
+REMOVE:NoAramsItTakesMotion ("арамс") IF (0 ARAS1) (NOT 0* Ill OR Lat OR Dat OR (V Inf Loc) OR ("трокс") OR ("каршо") BARRIER CLB OR EOS OR BOS);# V Aux Neg Loc
+       # Мезеяк арась.
+REMOVE:NoAOrNWhenNoSubseqN A OR N IF (0 ARAS1) (NOT 1 N);
+       # Мезеяк арась.
 
 REMOVE (Abl Def) IF (0 (Gen Def)) (1 Po);
 # ды саить эйсэнзэ ансяк валдонть пингстэ.
