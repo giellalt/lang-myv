@@ -161,6 +161,7 @@ endif
 .generated/analyser-pmatchdisamb-gt-desc.hfst: .generated/analyser-pmatchdisamb-gt-desc.tmp.hfst \
 				filters/remove-norm-comp-tags.hfst             \
 				filters/remove-derivation-position-tags.hfst   \
+				filters/remove-diaereses-enhancement.%         \
 				filters/remove-orig_lang-tags.hfst             \
 				filters/rename-POS_before_Der-tags.hfst        \
 				filters/remove-usage-tags.hfst
@@ -171,6 +172,7 @@ endif
 		.o. @\"filters/remove-orig_lang-tags.hfst\"           \
 		.o. @\"filters/rename-POS_before_Der-tags.hfst\"      \
 		.o. @\"$<\"                                           \
+		.o. @\"filters/remove-diaereses-enhancement.$*\"      \
 		;\n\
 	invert net\n\
 	save stack $@\n\
