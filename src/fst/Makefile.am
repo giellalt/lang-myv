@@ -187,7 +187,7 @@ endif
 					filters/remove-orig_lang-tags.%                \
 					filters/remove-dialect-tags.%                  \
 					filters/remove-homonymy-tags.%                 \
-					filters/remove-diaereses-enhancement.% \
+					filters/remove-diaereses-enhancement.%         \
 					filters/rename-POS_before_Der-tags.%           \
 					filters/remove-usage-tags.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex \
