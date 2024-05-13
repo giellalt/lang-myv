@@ -1454,6 +1454,7 @@ Other verb forms are
 * +Err/Orth-d * not t but instead d
 * +Err/Orth-colloq * colloquial, e.g. Минорыч
 * +Err/Orth-old1 * old1 like озимь, морковь
+* +Err/Orth-pre1888 * orthography preceding 1880
 * +Err/Orth-pre1978 * orthography preceding 1978
 * +Err/Orth-pre2012 * previous orthography
 * +Use/Marg * Marginal
