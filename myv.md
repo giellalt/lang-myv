@@ -1106,6 +1106,10 @@ imperative suffix
 
 **U4:0**  
 
+вадемс+V+Der/Ovt+Prc/Telic+Sg+Nom+Def: **the greased one/**
+* *вадь>{оеэØ}вт{ЬØ}>{оеэØ}сь*
+* *вад0>евт0>есь*
+
 валдо+N+Pl+Nom+Indef **light/valo**
 * *валд%{backHard%}%>т%{ЬØ%}*
 * *валд0%>т0*
