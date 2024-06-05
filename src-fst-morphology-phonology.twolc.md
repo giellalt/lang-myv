@@ -66,6 +66,10 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *пань%>%{оеэØ%}К3*
 * *пан0%>е0*
 
+вадемс+V+Der/Ovt+Prc/Telic+Sg+Nom+Def: **the greased one/**
+* *вадь>{оеэØ}вт{ЬØ}>{оеэØ}сь*
+* *вад0>евт0>есь*
+
 **%{оеэØ%}:э**
 кев+N+SP+Ill+PxSg2: **rock/kivi**
 * *кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}*
