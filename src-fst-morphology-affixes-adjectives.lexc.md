@@ -5,6 +5,8 @@ either a particle or ablative case marking on the standard of comparison
 
 ordinals in -це
 
+истямо:истя
+
 кондямо:кондя
 
 кодамо:кода

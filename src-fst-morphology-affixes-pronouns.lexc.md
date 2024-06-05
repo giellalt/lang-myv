@@ -25,8 +25,6 @@ Obligatory Possessor Index
 
 Demonstrative
 
-истямо:истя
-
 Interrogative
 
 What should be done 
