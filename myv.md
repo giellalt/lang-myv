@@ -453,6 +453,8 @@ LEXICON N_PELE  пеле:пель, ало:ал
 
 * LEXICON N_OZIM1  озимь:озимь %^Ь2ZERO
 
+* LEXICON N_RUF1  озимь:озимь %^Ь2ZERO
+
 * LEXICON N_RECH1  озимь:озимь %^Ь2ZERO
 
 * LEXICON N_VESHCH1  озимь:озимь %^Ь2ZERO
