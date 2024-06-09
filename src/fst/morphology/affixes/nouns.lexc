@@ -359,6 +359,13 @@ LEXICON NMN_OZIM1
 @P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_RUF1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
+ NMN_RUF1 ;
+LEXICON NMN_RUF1
+! harmony: front
+@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
 LEXICON N_RECH1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
  NMN_RECH1 ;
 LEXICON NMN_RECH1
@@ -428,6 +435,9 @@ LEXICON N_KEL1-PL
 LEXICON N_LAK
 @P.POS.N@:@P.POS.N@ NMN_LAK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+LEXICON N_VEREK
+@P.POS.N@:@P.POS.N@ NMN_VEREK ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_LAK-PL
 @P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
@@ -438,6 +448,9 @@ LEXICON N_JORK_rus100
 +Use/SpellNoSugg: N_JORK ;
 LEXICON N_JORK
 @P.POS.N@:@P.POS.N@ NMN_JORK ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+LEXICON N_OCHERK
+@P.POS.N@:@P.POS.N@ NMN_OCHERK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_KIT_rusmyv
@@ -705,6 +718,10 @@ LEXICON NMN_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
 LEXICON NMN_TEV
  NMN_KAL ;
 LEXICON NMN_LAV
+ NMN_LAK ;
+LEXICON NMN_VEREK
+ NMN_LAK ;
+LEXICON NMN_OCHERK
  NMN_LAK ;
 LEXICON NMN_LAK
  N_LAK-Derivation ;
