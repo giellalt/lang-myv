@@ -342,7 +342,7 @@ postposition that is in prolative case
 
 +Temp: K ;  перть
 
-+Ela+Temp: PO_POSS-or-END-FOC ;  пингстэ
++Ela+Temp: PO_POSS_OR_END_FOC ;  пингстэ
 
 * * *
 
