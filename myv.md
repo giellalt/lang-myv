@@ -284,6 +284,8 @@ Some of the nouns have defective paradigms:
 alo-SPAT-1Arg
 
 This allows for possessor indices, word end or focus
+e.g. вельде, вельдеяк, вельдензэ
+?вельдензэль, вельдензэтне
 
 This allows for word end, possessor indices, predication
 
