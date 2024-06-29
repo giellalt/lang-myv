@@ -1219,6 +1219,9 @@ REMOVE:NoAramsItTakesMotion ("арамс") IF (0 ARAS1) (NOT 0* Ill OR Lat OR Da
 REMOVE:NoAOrNWhenNoSubseqN A OR N IF (0 ARAS1) (NOT 1 N);
        # Мезеяк арась.
 
+REMOVE:NoDialGenWhenArasAndInf (Sg Gen PxSg3) IF (0 (Sg Nom PxSg3)) (0* ("арась" ScSg3) BARRIER CLB OR EOS OR BOS) ;
+# Арась мелезэ молемс кудов.
+
 REMOVE (Abl Def) IF (0 (Gen Def)) (1 Po);
 # ды саить эйсэнзэ ансяк валдонть пингстэ.
 
