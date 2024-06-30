@@ -500,8 +500,8 @@ LIST NonIndefObjectCandidate = (N Sg Gen Def) (N Pl Gen Def) (N SP Gen PxSg1) (N
 LIST NonIndefObjectCandidatePl = (N Pl Gen Def) (N Pl Gen PxSg1) (N Pl Gen PxSg2) (N Pl Gen PxSg3) (N Pl Gen PxPl1) (N Pl Gen PxPl2) (N Pl Gen PxPl3);
 
 
-LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
-LIST SUBJECTCANDIDATEPL3 = (N Pl Nom Def) (N Pl Nom PxSg3) ("кияк" Pron Indef Pl Nom)  ;#Pl subject candidate or it's a predicate, perhaps
+LIST SUBJECTCANDIDATESG3 = (N Sg Nom Def) (N Sg Nom PxSg3) (N Sg Nom PxSg2) (N Sg Nom PxSg1) (N Sg Nom PxPl3) (N Sg Nom PxPl2) (N Sg Nom PxPl1) ("кияк" Pron Indef Sg Nom)  ;#Sg subject candidate or it's a predicate, perhaps
+LIST SUBJECTCANDIDATEPL3 = (N Pl Nom Def) (N Pl Nom PxSg3) (N Pl Nom PxSg2) (N Pl Nom PxSg1) (N Pl Nom PxPl3) (N Pl Nom PxPl2) (N Pl Nom PxPl1) ("кияк" Pron Indef Pl Nom)  ;#Pl subject candidate or it's a predicate, perhaps
 
 SET OBJECTCANDIDATE = IndefObjectCandidate | NonIndefObjectCandidate ;
 
@@ -1219,8 +1219,12 @@ REMOVE:NoAramsItTakesMotion ("арамс") IF (0 ARAS1) (NOT 0* Ill OR Lat OR Da
 REMOVE:NoAOrNWhenNoSubseqN A OR N IF (0 ARAS1) (NOT 1 N);
        # Мезеяк арась.
 
-REMOVE:NoDialGenWhenArasAndInf (Sg Gen PxSg3) IF (0 (Sg Nom PxSg3)) (0* ("арась" ScSg3) BARRIER CLB OR EOS OR BOS) ;
+REMOVE:NoDialGenWhenArasAndInf (Sg Gen PxSg3) OR (Sg Gen PxSg2) OR (Sg Gen PxSg1) OR (Sg Gen PxPl3) OR (Sg Gen PxPl2) OR (Sg Gen PxPl1) IF (0 (Sg Nom)) (0* ("арась" ScSg3) BARRIER CLB OR EOS OR BOS) ;
 # Арась мелезэ молемс кудов.
+
+REMOVE:NoPlWhenSgSubj Pl IF (0 (Sg Nom PxSg1)) (0* VFINSG3SUBJNOOBJ BARRIER CLB OR EOS OR BOS);
+# Арась мелем молемс кудов.
+
 
 REMOVE (Abl Def) IF (0 (Gen Def)) (1 Po);
 # ды саить эйсэнзэ ансяк валдонть пингстэ.
