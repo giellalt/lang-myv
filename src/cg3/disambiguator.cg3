@@ -604,6 +604,9 @@ LIST YEAR = ("[0-2][0-9][0-9][0-9]"r) ;
 LIST DAYOFMONTH = "7" ;
 LIST MONTHOFYEAR-GEN = "январень" ;#"якшамковонь" "даволковонь" "эйзюрковонь" "чадыковонь" "панжиковонь" "аштемковонь" "медьковонь" "умарьковонь" "таштамковонь" "ожоковонь" "сундерьковонь" "ацамковонь" | "<январень>" | "февралень" "мартонь" "апрелень" "маень" "июнень" "июлень" "августонь" "сентябрянь" "октябрянь" "ноябрянь" "декабрянь";
 
+LIST Err/Orth-stem-soft-should-be-0 = Err/Orth-stem-soft-should-be-0 ;
+LIST DISALLOWSOFTSIGNRETENTIONSTEM = "<[а-яё]+[абвгдеёжзийклмнопрстуфхцчшщъыэюя]>"r ;# use with банктне
+
 LIST VInVOms = "<[а-яё]+в[ео]мс>"r ;#Not same thing? (".*овомс"r)
 LIST VNoGenObj = Der/OvOms VInVOms "улемс" ;
 LIST RusPatronymMal = "<[А-ЯЁ][а-яё]+ич>"r ;
@@ -1177,6 +1180,8 @@ MAP (@CNUMP) TARGET CC IF (-1 Num) (1 Num );#
 SELECT Pron IF (0 ("тона" Sg Nom Indef)) (NOT 1 A OR N);
    #сась: Шкань ютазь тона сась ваксозонзо.
    #
+
+REMOVE Err/Orth-stem-soft-should-be-0 IF (0 DISALLOWSOFTSIGNRETENTIONSTEM) ;
 
 REMOVE (V Aux Neg Err/Orth Dial/NW Imprt ScSg2 OcPl3) OR ("илямс") IF (0 ("эли" @CNUMP));
        # кинь пильгензэ кавто или ниле
