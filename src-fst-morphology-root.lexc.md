@@ -725,6 +725,7 @@ And following triggers to control variation
 * %{ОØ%} Stem-final archiphoneme панго
 * %{ЕØ%} Stem-final archiphoneme тинге
 
+%^OldAE	 — This allows Ӓ4 and Ӓ3 to be realized as я 
 * %^NoLinkVow  — No linking vowel is used only after consonants for error
 * %^SoftRetain  — The soft sign is not lost when adding -тне
 * %^HardNoDent  — Hard non-dent followed by -тнэ потоктнэсэ

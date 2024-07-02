@@ -916,6 +916,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 *  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
+%^OldAE:0	 — This allows Ӓ4 and Ӓ3 to be realized as я 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 * %^SoftRetain:0  — The soft sign is not lost when adding -тне
 * %^HardNoDent:0  — Hard non-dent followed by -тнэ потоктнэсэ
@@ -924,6 +925,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 * *цёра%>%{АЯ%}н*
 * *цёр0%>ан*
+
+**Ӓ3 Ӓ4 as я**
 
 **A1:o**  
 * *яка%>%{оеэØ%}мА1*
@@ -1161,6 +1164,8 @@ imperative suffix
 * ★*лись>сь* (is not standard language)
 
 **Disallow TLoss after non-t**  
+
+**Disallow OldAE when no Ä**
 
 * ★*раське>{уиыØ}нь* (is not standard language)
 * ★*раське>0нь* (is not standard language)
@@ -1955,6 +1960,7 @@ And following triggers to control variation
 * %{ОØ%} Stem-final archiphoneme панго
 * %{ЕØ%} Stem-final archiphoneme тинге
 
+%^OldAE	 — This allows Ӓ4 and Ӓ3 to be realized as я 
 * %^NoLinkVow  — No linking vowel is used only after consonants for error
 * %^SoftRetain  — The soft sign is not lost when adding -тне
 * %^HardNoDent  — Hard non-dent followed by -тнэ потоктнэсэ
