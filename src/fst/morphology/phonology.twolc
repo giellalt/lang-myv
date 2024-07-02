@@ -879,7 +879,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow soft loss"
 !! **@RULENAME@**
- т:т /<= [ л ь: | Vows:|:Vows|Cns:| ъ: ] (HarmDummies:) %^SoftRetain: %> _ [н е|е м] ;
+ т:т /<= [ л ь: | ь:0 | Vows:|:Vows|Cns:| ъ: ] (HarmDummies:) %^SoftRetain: %> _ [н е|е м] ;
 !+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>тне
 !!€ кирьпець^SoftRetain>тне
 !!€ кирьпець0>тне
