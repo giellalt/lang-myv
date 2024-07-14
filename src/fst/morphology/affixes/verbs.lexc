@@ -51,9 +51,9 @@ LEXICON V-AUX-NEG-CONJ !! а+V:а
 
 
 LEXICON V-AUX-NEG-PRT1 !!= **@CODE@** а+V:эзь
-@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-ALL-BUT-Sc3 ;
-@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-30_ZERO ;
-@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT1-60_T ;
+@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND_PRT1_ALL-BUT-Sc3 ;
+@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND_PRT1_30_ZERO ;
+@P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND_PRT1_60_T ;
 @P.CONJ.ObjAll@+Aux+Neg:@P.CONJ.ObjAll@ IND-PRT2-ALL ;
 
 LEXICON BV_SEZEMS
@@ -304,8 +304,8 @@ LEXICON TV_CONS_INITIAL_VERB_FORMS
 LEXICON IV_CONS_INITIAL_VERB_FORMS
 @U.TRANS.IV@:@U.TRANS.IV@ V_CONS_INITIAL_VERB_FORMS ;
 LEXICON V_CONS_INITIAL_VERB_FORMS
- IND-PRT1-30 ;
- IND-PRT1-60 ;
+ IND_PRT1_30 ;
+ IND_PRT1_60 ;
  IND_PRS_12 ;
  IND_PRS_13 ;
  IND_PRS_15 ;
@@ -839,28 +839,31 @@ LEXICON V_TEEMS
 LEXICON V_NEEMS
 :й VerbsPresPrc_1 ;
 :й Deverbals-kadoms ;
-@U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й IND-PRT1-ALL ;
+@U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й IND_PRT1_ALL ;
 @U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й%>%{иы%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high+Err/Orth:@U.CONJ-INF.NO@й%>%{оеэØ%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й CONJUNCTIVE-ALL ;
 
 
 
-@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND_PRS_30/60 ;!2024-07-7
+!@U.CONJ-INF.NO@@U.CONJ-MX.IND@:@U.CONJ-INF.NO@@U.CONJ-MX.IND@ IND_PRS_30/60 ;!2024-07-7
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ IND_PRS_30/60 ;!2024-07-14
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@й IND_PRS_10/20 ;!2024-07-07FIXME
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@ IND_PRS_40/50 ;!2024-07-07
 @U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й IND_PRS_40/50 ;!2024-07-07
 @U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й V_NEEMS-a ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@ V_NEEMS-a ;
 !#start
-@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
-@U.CONJ-MX.IND@ R_CONJ_PRS_OBJALL/13/16/23/26/33/36/43/46/53/56/63/66 ;
+!@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;2024-07-14
+@U.CONJ-TX.PRET1@:@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
+!@U.CONJ-MX.IND@ R_CONJ_PRS_OBJALL/13/16/23/26/33/36/43/46/53/56/63/66 ;2024-07-14
+ R_CONJ_PRS_OBJALL/13/16/23/26/33/36/43/46/53/56/63/66 ;
 
 !#end
 @U.CONJ-INF.NO@+Err/Orth:@U.CONJ-INF.NO@й PredIndPrt1Sc3 ;
 :й  CondVerbs ;
 
-@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ IND-PRT1-ALL ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@ IND_PRT1_ALL ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
@@ -1002,7 +1005,7 @@ LEXICON V_KADOMS
  V_KADOMS-CONJUGATION ;
 
 LEXICON V_KADOMS-CONJUGATION
-@U.CONJ-INF.NO@ IND-PRT1-ALL ;
+@U.CONJ-INF.NO@ IND_PRT1_ALL ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%} IND-PRT2-ALL ;!%>%{оеэØ%}
 
@@ -1014,7 +1017,7 @@ LEXICON V_KADOMS-CONJUGATION
 @U.CONJ-INF.NO@ V_KADOMS-a ;
 
 LEXICON V_KADOMS-SG3
-@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%> IND-PRT1-30 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%> IND_PRT1_30 ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-30 ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{оеэØ%} CNJ-30 ;
 @U.CONJ-INF.NO@@U.CONJ-MX.CONJ@+Der+Der/Cond+V+Conj:@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@%>%{иы%}ндеря%> CNJ-30 ;
@@ -1030,7 +1033,7 @@ LEXICON CONNEG_YES_K3
 @U.CONJ-CONNEG.YES@+ConNeg:@U.CONJ-CONNEG.YES@%>%{оеэØ%}К3 _KUDO-Tenses1 ;
 
 LEXICON V_SAEVEMS
-@U.CONJ-INF.NO@ IND-PRT1-ALL ;
+@U.CONJ-INF.NO@ IND_PRT1_ALL ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%^WLoss CONJUNCTIVE-ALL ;
@@ -1043,7 +1046,7 @@ LEXICON V_SAEVEMS
   Deverbals-kadoms ;
 
 !LEXICON V_SAEVEMS-SG3
-!@U.CONJ-INF.NO@ IND-PRT1-30 ;
+!@U.CONJ-INF.NO@ IND_PRT1_30 ;
 !@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-30 ;
 !@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%^WLoss CNJ-30 ;
 !@U.CONJ-INF.NO@!+Use/NG+Err/Orth+Dial:@U.CONJ-INF.NO@%>%{оеэØ%} CNJ-30 ;
@@ -1055,7 +1058,7 @@ LEXICON V_SAEVEMS
 !! no deverbals
 
 LEXICON V_JANGAVOMS
-@U.CONJ-INF.NO@ IND-PRT1-ALL ;
+@U.CONJ-INF.NO@ IND_PRT1_ALL ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%} IND-PRT2-ALL ;!%>%{оеэØ%}
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%^WLoss CONJUNCTIVE-ALL ;
@@ -1076,7 +1079,7 @@ LEXICON V_KUNDAMS
  V_KUNDAMS-CONJUGATION ;
 
 LEXICON V_KUNDAMS-CONJUGATION
-@U.CONJ-INF.NO@ IND-PRT1-ALL ;
+@U.CONJ-INF.NO@ IND_PRT1_ALL ;
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@ CONJUNCTIVE-ALL ;
@@ -1100,9 +1103,9 @@ LEXICON V_SATOMS
 LEXICON V_SATOMS-CONJUGATION
 
 !2012-10-27! This still needs work
-@U.CONJ-INF.NO@ IND-PRT1-ALL-BUT-Sc3 ;
-@U.CONJ-INF.NO@+Use/NG+Err/Orth:@U.CONJ-INF.NO@ IND-PRT1-Sc3 ;
-@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{оеэØ%}т IND-PRT1-Sc3 ;
+@U.CONJ-INF.NO@ IND_PRT1_ALL-BUT-Sc3 ;
+@U.CONJ-INF.NO@+Use/NG+Err/Orth:@U.CONJ-INF.NO@ IND_PRT1_Sc3 ;
+@U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{оеэØ%}т IND_PRT1_Sc3 ;
 
 @U.CONJ-INF.NO@:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-ALL ;
 @U.CONJ-INF.NO@+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%} IND-PRT2-ALL ;
@@ -1113,8 +1116,8 @@ LEXICON V_SATOMS-CONJUGATION
 @U.CONJ-INF.NO@ PredIndPrt1Sc3 ;
 
 !LEXICON V_SATOMS-SG3
-!@U.CONJ-INF.NO@!+Use/NG+Err/Orth:@U.CONJ-INF.NO@ IND-PRT1-30 ;
-!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{оеэØ%}т IND-PRT1-30 ;
+!@U.CONJ-INF.NO@!+Use/NG+Err/Orth:@U.CONJ-INF.NO@ IND_PRT1_30 ;
+!@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{оеэØ%}т IND_PRT1_30 ;
 !@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{иы%} IND-PRT2-30 ;
 !@U.CONJ-INF.NO@!:@U.CONJ-INF.NO@%>%{оеэØ%} CNJ-30 ;
 !@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@!+Der+Der/Cond+V+Conj:@U.CONJ-INF.NO@@U.CONJ-MX.CONJ@%>%{иы%}ндеря%> CNJ-30 ;
@@ -1131,7 +1134,8 @@ LEXICON V_SATOMS-CONJUGATION
 
 
 LEXICON V_KADOMS-a
-@U.CONJ-MX.IND@ Indicative1 ;
+!@U.CONJ-MX.IND@ Indicative1 ; 2024-07-14
+ Indicative1 ;
 CONNEG_YES_K3 ;
  Desiderative-kadoms ;
 
@@ -1144,11 +1148,13 @@ CONNEG_YES_K3 ;
 !@U.CONJ-CONNEG.YES@!2017-10-26+ConNegII:@U.CONJ-CONNEG.YES@%>К3 _KUDO-Tenses1 ;
  Desiderative-kundams ;
  Imperative-kadoms ;
-  @U.CONJ-MX.OPT@ Optative-noArrow ;
+@U.CONJ-MX.OPT@:@U.CONJ-MX.OPT@ Optative-noArrow ;
 
 
 LEXICON V_KUNDAMS-a
-           @U.CONJ-MX.IND@         Indicative1 ;
+Indicative1 ;! needs@U.CONJ-MX.IND@ 2024-07-14
+!+TYÄ:%>т%{АЯ%}но # ;!2024-07-14
+!           @U.CONJ-MX.IND@         Indicative1 ;
 CONNEG_YES_K3 ;
 !@U.CONJ-CONNEG.YES@!2017-10-26+ConNegII:@U.CONJ-CONNEG.YES@%>К3 _KUDO-Tenses1 ;
  Desiderative-kundams ;
@@ -1160,7 +1166,8 @@ CONNEG_YES_K3 ;
 
 LEXICON V_SATOMS-a
  CondVerbs ;
-@U.CONJ-MX.IND@ Indicative1 ;
+!@U.CONJ-MX.IND@ Indicative1 ;2024-07-14
+ Indicative1 ;
 +Use/NG+Err/Orth+Dial: PredIndPrt1Sc3 ; !2012-05-05 What's this for
 @U.CONJ-CONNEG.YES@+Use/NG+Err/Orth+Dial+ConNegII:@U.CONJ-CONNEG.YES@%>К3 _KUDO-Tenses1 ;
  CONNEG_YES_ZERO ;
@@ -1186,7 +1193,7 @@ LEXICON CondVerbs
 @U.CONJ-INF.NO@+Der+Der/Cond+V+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%}ндеря PredIndPrt1Sc3 ;
 
 ! 2012-04-24 rather odd and infrequent
-@U.CONJ-INF.NO@+Der+Der/Cond+V:@U.CONJ-INF.NO@%>%{иы%}ндеря IND-PRT1-ALL ;
+@U.CONJ-INF.NO@+Der+Der/Cond+V:@U.CONJ-INF.NO@%>%{иы%}ндеря IND_PRT1_ALL ;
 
 @U.CONJ-INF.NO@+Der+Der/Cond+V+Ind:@U.CONJ-INF.NO@%>%{иы%}ндеря IND-PRT2-ALL ;
 
@@ -1201,7 +1208,7 @@ LEXICON CondVerbs
 
 
 !!!
-@U.CONJ-INF.NO@+Der+Der/Cond+V+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%}ндеря IND-PRT1-ALL ;
+@U.CONJ-INF.NO@+Der+Der/Cond+V+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%}ндеря IND_PRT1_ALL ;
 
 @U.CONJ-INF.NO@+Der+Der/Cond+V+Ind+Err/Orth-mid-linking-vowel-should-be-high:@U.CONJ-INF.NO@%>%{оеэØ%}ндеря IND-PRT2-ALL ;
 
@@ -1315,8 +1322,8 @@ LEXICON PRC-TELIC ! sajevtj
 !! ## CONJUGATION 
 
 LEXICON PredIndPrt1Sc3
- IND-PRT1-30 ;
- IND-PRT1-60 ;
+ IND_PRT1_30 ;
+ IND_PRT1_60 ;
 
 
 LEXICON Indicative1
@@ -1341,7 +1348,7 @@ LEXICON Indicative1-noSc3
 !@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@+Ind+Prt1:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
 @U.CONJ-MX.IND@@U.CONJ-TX.PRET1@:@U.CONJ-MX.IND@@U.CONJ-TX.PRET1@ IndicativePretI-plus ;
 !Indicative Non-past
- IND_PRS_10/20/40/50
+ IND_PRS_10/20/40/50 ;
 R_CONJ_PRS_OBJALL/13/16/23/26/33/36/43/46/53/56/63/66 ;
 
 LEXICON R_CONJ_PRS_OBJALL/13/16/23/26/33/36/43/46/53/56/63/66
@@ -1400,40 +1407,40 @@ LEXICON IND_PRS_Obj-TLoss
  IND_PRS_65 ;
 
 !!
-LEXICON IND-PRT1-ALL
- IND-PRT1-Sc3 ;
- IND-PRT1-ALL-BUT-Sc3 ;
+LEXICON IND_PRT1_ALL
+ IND_PRT1_Sc3 ;
+ IND_PRT1_ALL-BUT-Sc3 ;
 
-LEXICON IND-PRT1-ALL-BUT-Sc3
-:%> IND-PRT1-10 ;
-:%> IND-PRT1-20 ;
-:%> IND-PRT1-40 ;
-:%> IND-PRT1-50 ;
-@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%> IND-PRT1-Oc ;
-@R.CONJ-PX.13@:@R.CONJ-PX.13@%> IND-PRT1-Oc ;
-@R.CONJ-PX.16@:@R.CONJ-PX.16@%> IND-PRT1-Oc ;
-@R.CONJ-PX.23@:@R.CONJ-PX.23@%> IND-PRT1-Oc ;
-@R.CONJ-PX.26@:@R.CONJ-PX.26@%> IND-PRT1-Oc ;
-@R.CONJ-PX.43@:@R.CONJ-PX.43@%> IND-PRT1-Oc ;
-@R.CONJ-PX.46@:@R.CONJ-PX.46@%> IND-PRT1-Oc ;
-@R.CONJ-PX.53@:@R.CONJ-PX.53@%> IND-PRT1-Oc ;
-@R.CONJ-PX.56@:@R.CONJ-PX.56@%> IND-PRT1-Oc ;
+LEXICON IND_PRT1_ALL-BUT-Sc3
+:%> IND_PRT1_10 ;
+:%> IND_PRT1_20 ;
+:%> IND_PRT1_40 ;
+:%> IND_PRT1_50 ;
+@R.CONJ.ObjAll@:@R.CONJ.ObjAll@%> IND_PRT1_OC ;
+@R.CONJ-PX.13@:@R.CONJ-PX.13@%> IND_PRT1_OC ;
+@R.CONJ-PX.16@:@R.CONJ-PX.16@%> IND_PRT1_OC ;
+@R.CONJ-PX.23@:@R.CONJ-PX.23@%> IND_PRT1_OC ;
+@R.CONJ-PX.26@:@R.CONJ-PX.26@%> IND_PRT1_OC ;
+@R.CONJ-PX.43@:@R.CONJ-PX.43@%> IND_PRT1_OC ;
+@R.CONJ-PX.46@:@R.CONJ-PX.46@%> IND_PRT1_OC ;
+@R.CONJ-PX.53@:@R.CONJ-PX.53@%> IND_PRT1_OC ;
+@R.CONJ-PX.56@:@R.CONJ-PX.56@%> IND_PRT1_OC ;
 
-LEXICON IND-PRT1-Sc3
-: IND-PRT1-30 ;
-:%> IND-PRT1-60 ;
+LEXICON IND_PRT1_Sc3
+: IND_PRT1_30 ;
+:%> IND_PRT1_60 ;
 @R.CONJ-PX.33@:@R.CONJ-PX.33@%> IND_PRT1_OC ;
 @R.CONJ-PX.36@:@R.CONJ-PX.36@%> IND_PRT1_OC ;
-@R.CONJ-PX.63@:@R.CONJ-PX.63@%> IND-PRT1-Oc ;
-@R.CONJ-PX.66@:@R.CONJ-PX.66@%> IND-PRT1-Oc ;
+@R.CONJ-PX.63@:@R.CONJ-PX.63@%> IND_PRT1_OC ;
+@R.CONJ-PX.66@:@R.CONJ-PX.66@%> IND_PRT1_OC ;
 
 
 LEXICON IndicativePretI-plus
 !! Indicative Preterite I
- IND-PRT1-10 ;
- IND-PRT1-20 ;
- IND-PRT1-40 ;
- IND-PRT1-50 ;
+ IND_PRT1_10 ;
+ IND_PRT1_20 ;
+ IND_PRT1_40 ;
+ IND_PRT1_50 ;
 @R.CONJ.ObjAll@ IND_PRT1_OC ;
 !2012-10-27 This needs more work
  @R.CONJ-PX.13@ IND_PRT1_OC ;
@@ -1450,7 +1457,7 @@ LEXICON IndicativePretI-plus
  @R.CONJ-PX.66@ IND_PRT1_OC ;
 
 !LEXICON Indicative_PretI_Obj
-! IND-PRT1-Oc ;
+! IND_PRT1_OC ;
 
 LEXICON IND_PRT1_OC
  IND_PRT1_12 ;
