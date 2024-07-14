@@ -1127,6 +1127,15 @@ SET PronPersPl1Dat = (pron:pers cx:all pxpl1) | (pron:pers npl cx:all pxpl1) |  
 
 SET PronPersSPDat = PronPersSg1Dat | PronPersSg2Dat | PronPersSg3Dat | PronPersPl1Dat | PronPersPl2Dat | PronPersPl3Dat ;# This should include both short and long personal pronouns
 
+SET PronPersSg1Abl = (pron:pers cx:abl pxsg1) | (pron:pers nsg cx:abl pxsg1) | (Pron Pers Sg1 Abl);#мондень
+SET PronPersPl1Abl = (pron:pers cx:abl pxpl1) | (pron:pers npl cx:abl pxpl1) |  (Pron Pers Pl1 Abl);#минденек
+SET PronPersSg2Abl = (pron:pers cx:abl pxsg2) | (pron:pers nsg cx:abl pxsg2) | (Pron Pers Sg2 Abl);#тондеть
+SET PronPersPl2Abl = (pron:pers cx:abl pxpl2) | (pron:pers npl cx:abl pxpl2) | (Pron Pers Pl2 Abl);#тынденк
+SET PronPersSg3Abl = (pron:pers cx:abl pxsg3) | (pron:pers nsg cx:abl pxsg3) | (Pron Pers Sg3 Abl);#сондензэ
+SET PronPersPl3Abl = (pron:pers cx:abl pxpl3) | (pron:pers npl cx:abl pxpl3) | (Pron Pers Pl3 Abl);#сынденст
+
+SET PronPersAbl =  PronPersSg1Abl | PronPersSg2Abl | PronPersSg3Abl | PronPersPl1Abl | PronPersPl2Abl | PronPersPl3Abl ;# This should include both short and long personal pronouns
+
 LIST PostpElaPxSg1 = (postp/prep cx:ela pxsg1) (Adp Ela PxSg1);
 LIST PostpElaPxPl1 = (postp/prep cx:ela pxpl1) (Adp Ela PxPl1);
 LIST PostpElaPxSg2 = (postp/prep cx:ela pxsg2) (Adp Ela PxSg2);
@@ -1245,12 +1254,6 @@ LIST PronPersPl3Gen = ("сон" pron:pers npl cx:gen) (Pron Pers Pl3 Gen) (pron:
 
 LIST PronPersReflSg3Gen = ("сонсь" pron:pers def nsg cx:gen pxsg3) ("эсь" pron:refl nsg cx:gen pxsg3) (pron:pers def nsg cx:gen pxsg3) (Pron Refl Sg3 Gen)  ("эсь" pron:refl nsg cx:gen pxsg3);#сонзэ, сонсензэ, эсензэ
 
-LIST PronPersSg1Abl = (pron:pers nsg cx:abl) (Pron Pers Sg1 Abl);#мондень
-LIST PronPersSg2Abl = (pron:pers nsg cx:abl) (Pron Pers Sg2 Abl);#тондеть
-LIST PronPersSg3Abl = (pron:pers nsg cx:abl) (Pron Pers Sg3 Abl);#сондензэ
-LIST PronPersPl1Abl = (pron:pers npl cx:abl) (Pron Pers Pl1 Abl);#минденек
-LIST PronPersPl2Abl = (pron:pers npl cx:abl) (Pron Pers Pl2 Abl);#тынденк
-LIST PronPersPl3Abl = (pron:pers npl cx:abl) (Pron Pers Pl3 Abl);#сынденст
 LIST PronPersGen = (pron:pers cx:gen) (Pron Pers Gen);
 
 LIST PronPersGenNotPl3 = PronPersSg1Gen PronPersSg2Gen PronPersSg3Gen PronPersPl1Gen PronPersPl2Gen; #2022-01-26
@@ -1429,8 +1432,9 @@ LIST VERBTAKESABLCAUSE = "визделгадомс" "виздемс" "пелем
 
 LIST VERBTAKESABLSEPAR = "ванстомс" ;#! separative
 
-LIST TALKABOUTVABLARG = "арсемс" "бредямс" "видькстамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
+LIST TALKABOUTVABLARG = "арсемс" "бредямс" "видькстамс" "ёвтамс" "ёвтнемс" "кортамс" "кортнемс" "ледстнемс" "ледстямс" "ловномс" "марсемс" "марямс" "меремс" "мернемс" "пачтнемс" "пачтямс" "сёрмадомс" "содамс" "толковамс" "энялдомс" ;
 # a talk_about verb with ablative argument
+# Mokshen колга "Topic of discourse"
 
 SET TALKABOUTVABLARGINF = TALKABOUTVABLARG - VFIN;#ойдензэ кортамо якси
 SET TALKABOUTVABLARGFIN = TALKABOUTVABLARG - (infMS/ME) - (V Inf) ;# finite talk_about verbs -ablabout
@@ -2090,7 +2094,9 @@ MAP (@CMP-STD>) TARGET (Pron Dem Sg Abl Indef) OR (Pron SP Abl Indef) OR (adj in
 # MOVE IT SOMEWHERE ELSE
 # COMPARATIVE
 MAP (@CMP-STD>) TARGET PronDemSgAblIndf IF (1 A OR (n/adj));
-MAP (@CMP-STD>) TARGET EJSTENoPX IF (1 A OR (n/adj));
+MAP (@CMP-STD>) TARGET PronPersAbl IF (1 A OR (n/adj));
+# корты мондень покш тевде. consider ordering.
+MAP (@CMP-STD>) TARGET EJSTENoPX IF (1 A OR (n/adj));#!CHECKME 2024-07-14
 MAP (@CMP-STD>) TARGET PronDemPlAblIndf;
 
 #
