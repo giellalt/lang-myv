@@ -1333,6 +1333,9 @@ REMOVE (V Aux Neg Conj ScSg3) IF (NOT 1 ConNeg) ;
 #V Aux Neg Conj ScSg3
 # аволь кудынесэль
 
+REMOVE ConNeg IF (NOT -1* ("а" V Aux Neg) BARRIER BOS OR CLB) ;
+       # Минь кортатано паро тевде.
+
 REMOVE:NoNSPAblCop (N SP Abl Indef Clt/Cop Prs ScPl3);
 # вал+до+т 
 
