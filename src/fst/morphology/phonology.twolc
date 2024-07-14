@@ -889,11 +889,11 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow soft loss"
 !! **@RULENAME@**
- т:т /<= [ л ь: | ь:0 | Vows:|:Vows|Cns:| ъ: ] (HarmDummies:) %^SoftRetain: %> _ [н е|е м] ;
+ т:т /<= [ л ь: | ь:0 | Vows:|:Vows|Cns:| ъ: ] (HarmDummies:) %^SoftRetain: %> _ [н |е м] ;
 !+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>тне
 !!€ кирьпець^SoftRetain>тне
 !!€ кирьпець0>тне
-     [[Cns|Vows:|:Vows| ь: | й:] - HardBackNoDentShib]  (HarmDummies:) %^HardNoDent: %> _ н э ;
+     [[Cns|Vows:|:Vows| ь: | й:] - HardBackNoDentShib]  (HarmDummies:) %^HardNoDent: %> _ н э  ;
 !+Err/Orth-stem-nodent-hard-should-be-tnje:%^HardNoDent%>тнэ
 
 !!OLD
