@@ -432,11 +432,11 @@ LIST @-FADVL-partitive> = @-FADVL-partitive>; # partitive, ablative Adverbial to
 LIST @-F<ADVL-partitive = @-F<ADVL-partitive; # partitive, ablative Adverbial to the right of a non-finite verb
 LIST <ablabout> = <ablabout> ;
 #LIST @ADVL <ablabout> = @ADVL <ablabout>;
-#LIST @ADVL> <ablabout> = @ADVL> <ablabout>; # partitive, ablative Adverbial to the left of the verb
-#LIST @<ADVL <ablabout> = @<ADVL <ablabout>; # partitive, ablative Adverbial to the right of the verb
+LIST @ADVL-ablabout> = @ADVL-ablabout>; # partitive, ablative Adverbial to the left of the verb
+LIST @<ADVL-ablabout = @<ADVL-ablabout; # partitive, ablative Adverbial to the right of the verb
 
 #LIST @-FADVL <ablabout> = @-FADVL <ablabout>; # ablative Adverbial of a non-finite verb
-#LIST @-FADVL> <ablabout> = @-FADVL> <ablabout>; # partitive, ablative Adverbial to the left of a non-finite verb
+LIST @-FADVL-ablabout> = @-FADVL-ablabout>; # partitive, ablative Adverbial to the left of a non-finite verb
 LIST @-F<ADVL-partitive = @-F<ADVL-partitive; # partitive, ablative Adverbial to the right of a non-finite verb
 LIST @-F<ADVL-ablabout = @-F<ADVL-ablabout; # partitive, ablative Adverbial to the right of a non-finite verb
 
@@ -2278,15 +2278,15 @@ MAP (@SUBJ>) TARGET VESENOMSG IF (1* VFINPL3SUBJ BARRIER CLB OR EOS OR N);
 
 MAP:IntercedingMeriat  (@SUBJ>) TARGET (Sg Nom Def) IF (1 Comma) (2 ("меремс" ScPl2) OR ("меремс" ScSg2)) (3 Comma) (4* VFINSG3SUBJ BARRIER CLB OR EOS LINK NEGATE 0* SUBJECTCANDIDATESG3 BARRIER CLB OR EOS);
 
-MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR BASHKATAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
+MAP:TalkAboutABL (@ADVL-ablabout>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR BASHKATAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
    #мезде-бути: Ансяк кенкшенть эйстэ а васоло кавто аштиця бабинетне мезде-бути кортнесть.
 
-MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGFIN BARRIER CLB OR EOS OR @CVP); 
-MAP:TalkAboutABL (@<ADVL <ablabout>) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGFIN BARRIER CLB OR BOS OR @CVP); 
-#MAP:TalkAboutABL (@<ADVL <ablabout>) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGFIN BARRIER CLB OR BOS OR @CVP); 
+MAP:TalkAboutABL (@ADVL-ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGFIN BARRIER CLB OR EOS OR @CVP); 
+MAP:TalkAboutABL (@<ADVL-ablabout) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGFIN BARRIER CLB OR BOS OR @CVP); 
+#MAP:TalkAboutABL (@<ADVL-ablabout) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGFIN BARRIER CLB OR BOS OR @CVP); 
 	#This may still need a noun list for conceivable partitives
-MAP:TalkAboutABL (@-FADVL> <ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGINF BARRIER CLB OR EOS OR @CVP); 
-MAP:TalkAboutABL (@-F<ADVL <ablabout>) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGINF BARRIER CLB OR BOS OR @CVP); 
+MAP:TalkAboutABL (@-FADVL-ablabout>) TARGET NOUNSPAbl IF (*1 TALKABOUTVABLARGINF BARRIER CLB OR EOS OR @CVP); 
+MAP:TalkAboutABL (@-F<ADVL-ablabout) TARGET NOUNSPAbl IF (*-1 TALKABOUTVABLARGINF BARRIER CLB OR BOS OR @CVP); 
 
 
 
