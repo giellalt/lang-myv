@@ -1002,6 +1002,13 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **%{оэØ%}:e**  
 
+тев+N+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel: **thing/juttu**
+* *тев>^NoLinkVow>з{оэØ}*
+* *тев>0>зэ*
+мель+N+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel: **wish/mieli**
+* *мель>^NoLinkVow>з{оэØ}*
+* *мель>0>зэ*
+
 **%{оэØ%}:o**  
 
 псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
