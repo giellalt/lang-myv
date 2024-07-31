@@ -475,6 +475,14 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
  %{оэØ%}:э <=>   :FTV (%{frontHard%}:|%{frontSoft%}:) %> [ с ( т | с) | %{оеэØ%}:0 [( н )  з| н д з|н д] | %{оеэØ%}:0 м [ с | с т ] ] _ [  (%^OldAE:0) # |  %- | %> [ (%-) Г1: | %{оеэØ%}:0 | :Cns ] ]  ;
           LFCH (%{frontHard%}:|%{frontSoft%}:) %> [ с ( т | с) | [ %{оеэØ%}:э |  %{оеэØ%}:0 ] з | %{оеэØ%}:э н  [ з | д з | д ]| %{оеэØ%}:э м [ с | с т ] ] _ [  (%^OldAE:0) # |  %- | %> [ (%-) Г1: | %{оеэØ%}:0 | :Cns ] ]  ;
           [LFCS  (%{frontHard%}:|%{frontSoft%}:) %>  с ( т ) |[ :FTV %> %{оеэØ%}:0 | %{оеэØ%}:э | %{оеэØ%}:е ] [ [( н )  з| н д з|н д] | с с| м [ с | с т ] ]] _ [  (%^OldAE:0) # |  %- | %> [ (%-) Г1: | %{оеэØ%}:0 | :Cns ] ]  ;
+  [ LFCH| LFCS |[д|л|н|р] ь ] (%{frontHard%}:|%{frontSoft%}:) %> %^NoLinkVow: %> з _ [#| %> [Г1: | %{оеэØ%}: л] ] ;
+
+!! тев+N+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel: **thing/juttu**
+!!€ тев>^NoLinkVow>з{оэØ}
+!!€ тев>0>зэ
+!! мель+N+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel: **wish/mieli**
+!!€ мель>^NoLinkVow>з{оэØ}
+!!€ мель>0>зэ
 
 
 
@@ -482,6 +490,7 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 !! **@RULENAME@**  
 %{оэØ%}:о <=>
         [ LBC  %> | :BTV ( %> ) ] [ ( с с:0 %> ) с ( т ) | [ %{оеэØ%}:о | %{оеэØ%}:0 ] [( н )  з| н д з|н д] | [ %{оеэØ%}:о | %{оеэØ%}:0 ]  м ( д | с | с т ) ] _ [  (%^OldAE:0) # | %- | %> [ (%-) Г1: | :Cns | %{оеэØ%}: ] ] ;
+   LBC  %> %^NoLinkVow: %> з _ [#| %>  [Г1: | %{оеэØ%}: л] ] ;
 
 !! псака+N+SP+Abe+PxSg3+Der+Der/MWN+N+SP+Tra+Indef: **cat/kissa**
 !!€ псака%>втО1мО1%>%{оеэØ%}нз%{оэØ%}%>кс
@@ -811,6 +820,7 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 "y:y"
 !! **@RULENAME@**
 ь:ь <=> Cns _ [Cns|Vows |(HarmDummies:) (%^OldAE:0) # |(HarmDummies:)  %- |(HarmDummies:)  %> [с (т) [ы|а|о|%{оэØ%}:] |с [(%^OldAE:0) #|%-|%> (%-) Г1:]|(%^NoLinkVow:0) :CnsNonDent ]] ;
+   [д|Д|л|Л|н|Н|р|Р] _ (HarmDummies:) %> %^NoLinkVow: %> з %{оэØ%}: ;
    [л|Л] _ (HarmDummies:) %> (:0) [ :Cns] ;
     Cns _ (HarmDummies:) %^SoftRetain: %> [т н е | т е м] ;
 !!€ ведь{frontSoft}^SoftRetain>тне
