@@ -588,6 +588,8 @@ SG-NOM-INDEF_OSH ;
 
 ## Cases for тнэ
 
+NP head ellipsis declension, Modifiers without nouns = MWN
+
 Nouns1S_A
 
 ## POSSESSIVE marking followed by clitics
