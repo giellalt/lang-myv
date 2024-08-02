@@ -125,6 +125,11 @@ N_KUDO-Def-Declension
 * *калоськак:* `кал+N+Sg+Nom+Def+Foc/Гак`
 * ★*калосьгак:* `кал+N+Sg+Nom+Def+Foc/Гак` (is not standard language)
 
+* Noun singular nominative definite examples:*
+* *паксясось:* `пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def`
+* *паксясоськак:* `пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def+Foc/Add`
+* ★*паксясосьгак:* `пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def+Foc/Add` (is not standard language)
+
 * Noun singular genitive definite examples:*
 * *калонть:* `кал+N+Sg+Gen+Def`
 * *калонтькак:* `кал+N+Sg+Gen+Def+Foc/Гак`
