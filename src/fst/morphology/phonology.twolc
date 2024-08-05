@@ -72,6 +72,8 @@ Alphabet
 %{уиыØ%}:у
 %{уиыØ%}:и
 %{уиыØ%}:ы
+! raising e:i, o:u before a in NW
+%^RegrRaise:0         !! идиса, идима
 
 ! suffix-internal archivowel
 %{оеэ%}:е	  !! вт%{оеэ%}мО1
@@ -610,10 +612,18 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 !! **@RULENAME@**
  у:ы <=> [ д | з | л | н | р | с | т | ц ]  _ %> Н1: е ;
 
+"о regressive raising у"
+!! **@RULENAME@**
+ о:у <=> _ %^RegrRaise: %> [с а | т %{АЯ%}:] ;
+!! озномс+V+Ind+Prs+ScSg1+OcSg3+Dial/NW: **bless/siunata**
+!!€ озно^RegrRaise>са
+!!€ озну0>са
 
 "э: и Dimin"
 !! **@RULENAME@**
  э:ы <=> [ д | з | л | н | р | с | т | ц ]  _ %> Н1: е ;
+!%^RegrRaise:0
+ _ %^RegrRaise: %> [с а | т %{АЯ%}:] ;
 
 "а: и Dimin"
 !! **@RULENAME@**
@@ -644,7 +654,9 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 !! **@RULENAME@**
  е:и <=>  [ Cns | Vows ] Cns   _ %> Н1: е ;
    .#. [[ Cns ] - [ п ]]  _ %> Н1: е ;
-          
+!%^RegrRaise:0
+ _ %^RegrRaise: %> [с а | т %{АЯ%}:] ;
+
 "a:ya"
 !! **@RULENAME@**  
 а:я  <=> :Vows ((%>) (%{оеэØ%}:) К3:0 )  %> [ (%-) Г1: | Г4:0 ] _  \[в: ];
@@ -835,7 +847,7 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 !!€ кел00>енть
      CnsDent  _ (%{frontSoft%}:)  %> [ %{АЯ%}:я | %{иы%}: | %{оеэØ%}:е | О1:е | %{уиыØ%}:и | е %> ] ;
      CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | %{КТ%}:т %{ЬØ%}: | Н1:н | н | д: |%{дт%}:| ц е: [ (%^OldAE:0) # | %- | %> ] |( %>) т |(%^NoLinkVow:) с (т) [ ь: | е: ]] ;
-     CnsDentNoL _ ( %{frontSoft%}: ) %^TD:  %> т: ;
+     CnsDentNoL _ ( %{frontSoft%}: ) (%^TD:)  %> т: ;
 !! меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
 !!€ мерь>сь
 !!€ мер0>сь
@@ -860,6 +872,10 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 "Disallow TLoss after non-t"
 !! **@RULENAME@**  
 TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %> _ ;
+
+"Disallow RegrRaise after A"
+!! **@RULENAME@**
+%^RegrRaise:0 /<= .#. [а:|я:] _ %> [ с а | т %{АЯ%}: ] ;
 
 "Disallow OldAE when no Ä"
 !! **@RULENAME@**
@@ -957,7 +973,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 
 "Disallow dano after non-voiced"
 !! **@RULENAME@**
- %^TD:0 /<= [CnsVoiceless (ь:)| :Vows ] (HarmDummies:) (%>) _ %> т: %{АЯ%}: ;
+ %^TD:0 /<= [CnsVoiceless (ь:)| :Vows | Vows: ] (HarmDummies:) (%>) _ (%^RegrRaise:) %> т: %{АЯ%}: ;
            %{оеэØ%}: (К3:) _ %> т: %{АЯ%}: ;
 !%>%{оеэØ%}К3
 
