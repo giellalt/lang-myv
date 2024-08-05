@@ -13,6 +13,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 * **%^Ь2ZERO:0  ** removes stem-final soft sign
 
+идиса, идима
+
 вт%{оеэ%}мО1
 
 * _%{ОØ%}:0_ Stem-final archiphoneme панго
@@ -172,6 +174,11 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **у: и Dimin**
 
+**о regressive raising у**
+озномс+V+Ind+Prs+ScSg1+OcSg3+Dial/NW: **bless/siunata**
+* *озно^RegrRaise>са*
+* *озну0>са*
+
 **э: и Dimin**
 
 **а: и Dimin**
@@ -286,6 +293,8 @@ imperative suffix
 * ★*лись>сь* (is not standard language)
 
 **Disallow TLoss after non-t**  
+
+**Disallow RegrRaise after A**
 
 **Disallow OldAE when no Ä**
 

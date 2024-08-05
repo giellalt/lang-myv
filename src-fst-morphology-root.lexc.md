@@ -719,6 +719,7 @@ And following triggers to control variation
 * %{ое%} inflectional suffix protovowel  аволь аволинь
 * %{оеэØ%} Suffix-initial archiphoneme
 * %{уиыØ%} Suffix-initial archiphoneme in dialect
+* %^RegrRaise идиса, идима ! raising e:i, o:u before a in NW
 
 вт%{оеэ%}мО1 suffix-internal archivowel
 * %{оэØ%} inessive, elative; this is the hard/broad s
