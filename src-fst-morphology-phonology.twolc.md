@@ -14,6 +14,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * **%^Ь2ZERO:0  ** removes stem-final soft sign
 
 идиса, идима
+ашоян disallow о:0
 
 вт%{оеэ%}мО1
 
@@ -134,6 +135,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 псака+N+SP+Gen+PxSg3+Der+Der/MWN+N+Sg+Gen+Def
 * *псака%>%{оеэØ%}нз%{оэØ%}%>%{оеэØ%}нть*
 * *псака%>0нзо%>0нть*
+стувтомс+V+Opt+ScSg3+OcSg3
+* *стувт>{оеэØ}сс{оэØ}*
+* *стувт>оссо*
 
 **%{оэØ%}:0**
 
@@ -295,6 +299,8 @@ imperative suffix
 **Disallow TLoss after non-t**  
 
 **Disallow RegrRaise after A**
+
+**Disallow vow loss before break**
 
 **Disallow OldAE when no Ä**
 

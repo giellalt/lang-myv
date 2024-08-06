@@ -24,6 +24,8 @@ _KUDO-NomPl-Conjugation-only
 
 _KUDO-NomPl-Conjugation-only-mutual
 
+Are there copula verb combinations? 2024-08-06
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/nonverbalConjugation.lexc](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/affixes/nonverbalConjugation.lexc)</small>
