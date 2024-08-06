@@ -300,7 +300,7 @@ LEXICON _OSH-Conjugation
 
 
 LEXICON _PANGO-NomSg-Conjugation
- _KUDO-NomSg-Conjugation-only ;
+ CLT/COP_SG ;
 
 !LEXICON _PANGO-NomPl-Conjugation
 ! K ;
@@ -316,12 +316,12 @@ LEXICON _PANGO-NomSg-Conjugation
 !
 LEXICON _KUDO-NomSg-Conjugation
  K ;
- _KUDO-NomSg-Conjugation-only ;
-
-LEXICON _KUDO-NomSg-Conjugation-only
-+Clt/Cop+Prs+ScSg1+Use/NG+Err/Orth+Dial:%>ян FOC-PCLE-OR-NOT ;
-+Clt/Cop+Prs+ScSg2+Use/NG+Err/Orth+Dial:%>ят FOC-PCLE-OR-NOT ;
  CLT/COP_SG ;
+
+!LEXICON _KUDO-NomSg-Conjugation-only
+!+Clt/Cop+Prs+ScSg1+Use/NG+Err/Orth+Dial:%>ян FOC-PCLE-OR-NOT ;
+!+Clt/Cop+Prs+ScSg2+Use/NG+Err/Orth+Dial:%>ят FOC-PCLE-OR-NOT ;
+! CLT/COP_SG ;
 
 LEXICON _KUDO-NomPl-Conjugation
  K ;
@@ -377,24 +377,24 @@ LEXICON CLT/COP_PRT2_PL_MUTUAL
 
 
 LEXICON _KUDO-Conjugation
- _KUDO-NomSg-Conjugation-only ;
+ CLT/COP_SG ;
  CLT/COP_PL ;
  K ;
 
 LEXICON _KUDO-Conjugation_FRONT
 ! harmony: front
- _KUDO-NomSg-Conjugation-only ;
+ CLT/COP_SG ;
  CLT/COP_PL ;
  K ;
 
 LEXICON _KUDO-Conjugation_BACK
 ! harmony: back
- _KUDO-NomSg-Conjugation-only ;
+ CLT/COP_SG ;
  CLT/COP_PL ;
  K ;
 
 !2019-01-30 LEXICON _KUDO-Conjugation-4Poss
-!2019-01-30  _KUDO-NomSg-Conjugation-only ;
+!2019-01-30  CLT/COP_SG ;
 !2019-01-30  _KUDO-NomPl-Conjugation-only-4Poss ;
 !2019-01-30  K ;
 
