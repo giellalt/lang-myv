@@ -704,6 +704,8 @@ And following triggers to control variation
 *  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
 *  %{ichPat%}   — for triggering colloquial partonymic forms
 
+* %^CnsRM       — Remove consonant
+
 * Е3 testing тне тнэ
 * _%^H_ used with stems in ч, ш, ж for hard plurals
 

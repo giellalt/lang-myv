@@ -20,6 +20,8 @@ LEXICON N_PELE  пеле:пель, ало:ал
 
 * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
+* LEXICON N_LOMAN1  ломань:ломань %^Ь2ZERO
+
 * LEXICON N_OZIM1  озимь:озимь %^Ь2ZERO
 
 * LEXICON N_RUF1  озимь:озимь %^Ь2ZERO
@@ -51,6 +53,8 @@ Does this need a diminutive?
 NMN
 
 * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
+
+* LEXICON NMN_LOMAN1  ломань:кель %^Ь2ZERO
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
 

@@ -455,6 +455,8 @@ LEXICON N_PELE  пеле:пель, ало:ал
 
 * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
+* LEXICON N_LOMAN1  ломань:ломань %^Ь2ZERO
+
 * LEXICON N_OZIM1  озимь:озимь %^Ь2ZERO
 
 * LEXICON N_RUF1  озимь:озимь %^Ь2ZERO
@@ -486,6 +488,8 @@ Does this need a diminutive?
 NMN
 
 * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
+
+* LEXICON NMN_LOMAN1  ломань:кель %^Ь2ZERO
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
 
@@ -928,6 +932,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 *  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
+* %^CnsRM:0       — Remove consonant
+
 %^OldAE:0	 — This allows Ӓ4 and Ӓ3 to be realized as я 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 * %^SoftRetain:0  — The soft sign is not lost when adding -тне
@@ -1095,6 +1101,16 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **a:ya**  
 
+**n loss with plural**
+ведун+N+Pl+Indef: **knower/tietäjä**
+* *ведунCnsRM*
+* *веду00*
+
+**y loss with plural**
+ведун+N+Pl+Indef: **knower/tietäjä**
+* *ведунCnsRM*
+* *веду00*
+
 **v:0**  
 
 **G1:0**  
@@ -1179,6 +1195,10 @@ imperative suffix
 **y:0**  
 * *кель^Ь2ZERO>енть*
 * *кел00>енть*
+ломань+N+Pl+Indef: **person/ihminen**
+* *ломаньCnsRM>ть*
+* *лома000>ть*
+
 меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
 * *мерь>сь*
 * *мер0>сь*
@@ -1969,6 +1989,8 @@ And following triggers to control variation
 *  %{backHard%}    — back harmony
 *  %{dialM%}    — for Shoksha and Drakino Dial/M morphology
 *  %{ichPat%}   — for triggering colloquial partonymic forms
+
+* %^CnsRM       — Remove consonant
 
 * Е3 testing тне тнэ
 * _%^H_ used with stems in ч, ш, ж for hard plurals

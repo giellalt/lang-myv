@@ -34,6 +34,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 *  %{dialM%}:0    — for Shoksha and Drakino Dial/M morphology
 *  %{ichPat%}:0   — for triggering colloquial partonymic forms 
 
+* %^CnsRM:0       — Remove consonant
+
 %^OldAE:0	 — This allows Ӓ4 and Ӓ3 to be realized as я 
 %^NoLinkVow:0  — No linking vowel is used only after consonants for error
 * %^SoftRetain:0  — The soft sign is not lost when adding -тне
@@ -201,6 +203,16 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **a:ya**  
 
+**n loss with plural**
+ведун+N+Pl+Indef: **knower/tietäjä**
+* *ведунCnsRM*
+* *веду00*
+
+**y loss with plural**
+ведун+N+Pl+Indef: **knower/tietäjä**
+* *ведунCnsRM*
+* *веду00*
+
 **v:0**  
 
 **G1:0**  
@@ -285,6 +297,10 @@ imperative suffix
 **y:0**  
 * *кель^Ь2ZERO>енть*
 * *кел00>енть*
+ломань+N+Pl+Indef: **person/ihminen**
+* *ломаньCnsRM>ть*
+* *лома000>ть*
+
 меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
 * *мерь>сь*
 * *мер0>сь*
