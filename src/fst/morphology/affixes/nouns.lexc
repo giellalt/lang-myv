@@ -306,6 +306,10 @@ LEXICON N_KAL
 @P.POS.N@:@P.POS.N@ NMN_KAL ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_SAN
+@P.POS.N@:@P.POS.N@ NMN_SAN ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
 LEXICON N_LAV_rus100
 +Use/SpellNoSugg: N_LAV ;
 LEXICON N_LAV
@@ -350,6 +354,11 @@ LEXICON N_KEL1_rus100
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KEL1 ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
+LEXICON N_LOMAN1 !!= * @CODE@ ломань:ломань %^Ь2ZERO
+! harmony: front
+@P.POS.N@:@P.POS.N@ NMN_LOMAN1 ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_OZIM1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
@@ -715,12 +724,31 @@ LEXICON NMN_KAL
  _KAL-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
 
+LEXICON NMN_SAN
++Err/Orth-pre1880:CnsRM%>тнэ NMN_DEF_PL_DECLENSION_CASES ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-pre1880:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@CnsRM%>т _KIT-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Err/Orth-pre1880:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@CnsRM%>т NounEnd_K ;
+ N_KUDO-Derivation ;
+ N_KAL-Def-Declension ;
+ _KAL-Indef-Declension ;
+ N_KAL-Poss-Declension-CX ;
+
 LEXICON NMN_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
  N_KEL1-Derivation ;  !2015-04-18
  N_KAL-Def-Declension ;
  _KAL-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
+
+LEXICON NMN_LOMAN1 !!= * @CODE@ ломань:кель %^Ь2ZERO
+! harmony: front
++Err/Orth-pre1880:CnsRM%>тне NMN_DEF_PL_DECLENSION_CASES ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-pre1880:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@CnsRM%>ть _KIT-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Err/Orth-pre1880:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@CnsRM%>ть NounEnd_K ;
+:нь N_KEL1-Derivation ;  !2024-08-08
+:нь N_KAL-Def-Declension ;
+:нь _KAL-Indef-Declension ;
+:нь N_KAL-Poss-Declension-CX ;
 
 LEXICON NMN_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
  NMN_KEL1 ;
