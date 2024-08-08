@@ -142,6 +142,8 @@ Alphabet
  %{dialM%}:0   !!= * @CODE@ — for Shoksha and Drakino Dial/M morphology
  %{ichPat%}:0  !!= * @CODE@ — for triggering colloquial partonymic forms 
 
+%^CnsRM:0      !!= * @CODE@ — Remove consonant
+
 ! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
  »7     ! »
  «7     ! «
@@ -666,6 +668,20 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 а:я  <=> :Vows ((%>) (%{оеэØ%}:) К3:0 )  %> [ (%-) Г1: | Г4:0 ] _  \[в: ];
 !'а р с е > {оеэØ}:0 К3:0 > Г1:0 а:я к'
 
+"n loss with plural"
+!! **@RULENAME@**
+н:0 <=> Vows _ (ь:) (HarmDummies:) %^CnsRM: ;
+!! ведун+N+Pl+Indef: **knower/tietäjä**
+!!€ ведунCnsRM
+!!€ веду00
+
+"y loss with plural"
+!! **@RULENAME@**
+ь:0 <=> Vows _ (ь:) (HarmDummies:) %^CnsRM: ;
+!! ведун+N+Pl+Indef: **knower/tietäjä**
+!!€ ведунCnsRM
+!!€ веду00
+
 !Changes in suffix consonants
 "v:0"
 !! **@RULENAME@**  
@@ -852,6 +868,11 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
      CnsDent  _ (%{frontSoft%}:)  %> [ %{АЯ%}:я | %{иы%}: | %{оеэØ%}:е | О1:е | %{уиыØ%}:и | е %> ] ;
      CnsDentNoL _ ( %{frontSoft%}: ) %> [в:0 т %{оеэ%}:е м [О1:е|О1:0] | %{КТ%}:т %{ЬØ%}: | Н1:н | н | д: |%{дт%}:| ц е: [ (%^OldAE:0) # | %- | %> ] |( %>) т |(%^NoLinkVow:) с (т) [ ь: | е: ]] ;
      CnsDentNoL _ ( %{frontSoft%}: ) (%^TD:)  %> т: ;
+   Vows н: _ (HarmDummies:) %^CnsRM: ;
+!! ломань+N+Pl+Indef: **person/ihminen**
+!!€ ломаньCnsRM>ть
+!!€ лома000>ть
+
 !! меремс+V+Ind+Prt1+ScSg3: **say/sanoa**
 !!€ мерь>сь
 !!€ мер0>сь
