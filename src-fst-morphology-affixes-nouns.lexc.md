@@ -52,9 +52,11 @@ Does this need a diminutive?
 
 NMN
 
+* LEXICON NMN_SAN  сан:сан
+
 * LEXICON NMN_KEL1  кель:кель %^Ь2ZERO
 
-* LEXICON NMN_LOMAN1  ломань:кель %^Ь2ZERO
+* LEXICON NMN_LOMAN1  ломань:ломань 
 
 * LEXICON NMN_PEJ  кель:кель %^Ь2ZERO
 
