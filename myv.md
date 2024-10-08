@@ -1511,6 +1511,7 @@ Other verb forms are
 * +Err/Orth-stem-ja-should-be-je0 * лемдемс+V:лемдя
 * +Err/Orth-stem-je-should-be-ja * мелямс:меле
 * +Err/Orth-stem-je-should-be-je0 * чудемс+V:чуде чуд|емс (->)чуде|мс
+* +Err/Orth-je-for-jo * should be ё
 * +Err/Orth-vowel-stem-je * пачтякшномс:пачтекшне
 * +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
 * +Err/Orth-stem-nodent-hard-should-be-tnje * потоктнэсэ
@@ -2344,6 +2345,11 @@ especially for acronyms 2012-11-04
 * @U.HYPH-COMBO.ACRO@ 
 * @D.HYPH-COMBO.ACRO@ 
 * @C.HYPH-COMBO@ 
+
+This disallows secondary compounding
+* @U.COMPOUND.YES@
+* @D.COMPOUND.YES@
+* @U.COMPOUND.NO@
 
 Linking vowel for use with Translative
 * @P.LV.ON@ 
