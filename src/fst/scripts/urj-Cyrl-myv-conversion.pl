@@ -19,6 +19,7 @@ while(<>) {
     #	s/ C-FI-NEN/nen LONDON/g ;
     	s/ PROP-PLC_VELE/ PROP_VELE/g ;
     	s/ PROP-PLC_KUDO/ PROP_KUDO/g ;
+    	s/ PROP_RUS_JA/ PROP_KUDO/g ;
         s/(о|а|я|ё|у|ю) CYRL-VOW_SUR/$1 N_KUDO/g ;
         s/(е|ы|и|э) CYRL-VOW_SUR/$1 N_VELE/g ;
         s/(е|ы|и|э) PROP_KUDO/$1 PROP_VELE/g ;
