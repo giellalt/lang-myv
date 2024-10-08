@@ -272,6 +272,7 @@ Multichar_Symbols
  +Err/Orth-stem-ja-should-be-je0 !!≈ * @CODE@ * лемдемс+V:лемдя
  +Err/Orth-stem-je-should-be-ja !!≈ * @CODE@ * мелямс:меле
  +Err/Orth-stem-je-should-be-je0 !!≈ * @CODE@ * чудемс+V:чуде чуд|емс (->)чуде|мс
+ +Err/Orth-je-for-jo !!≈ * @CODE@ * should be ё
  +Err/Orth-vowel-stem-je !!≈ * @CODE@ * пачтякшномс:пачтекшне
  +Err/Orth-stem-soft-should-be-0 !!≈ * @CODE@ * кирпець:кирпецьтне
  +Err/Orth-stem-nodent-hard-should-be-tnje !!≈ * @CODE@ * потоктнэсэ
@@ -1200,6 +1201,10 @@ ZERO  !!≈ * @CODE@
  @D.HYPH-COMBO.ACRO@ !!≈ * @CODE@ 
  @C.HYPH-COMBO@ !!≈ * @CODE@ 
 
+!! This disallows secondary compounding
+ @U.COMPOUND.YES@ !!≈ * @CODE@
+ @D.COMPOUND.YES@ !!≈ * @CODE@
+ @U.COMPOUND.NO@ !!≈ * @CODE@
 
 !! Linking vowel for use with Translative
 ! Present in pron-myv-morph.txt
