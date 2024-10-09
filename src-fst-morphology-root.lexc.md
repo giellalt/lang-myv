@@ -715,6 +715,11 @@ And following triggers to control variation
 * Ӓ3   эрямс:Ӓ3ря
 * Ӓ4   пелемс:пӒ4ль
 
+* %^Ӓ3   ^Ӓ3 :Э
+* %^Ӓ4   ^Ӓ4 :Е
+* %^ӓ3   эрямс:^ӓ3ря
+* %^ӓ4   пелемс:п^ӓ4ль
+
 * %^Ь2ZERO   removes stem-final soft sign
 
 * _%{дт%}_ in ablative

@@ -910,6 +910,10 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
 * **Ӓ3:э  ** эрямс:Ӓ3ря 
 * **Ӓ4:е  ** пелемс:пӒ4ль
+* %^Ӓ3:Э   ^Ӓ3 :Э
+* %^Ӓ4:Е   ^Ӓ4 :Е
+* %^ӓ3:э   эрямс:^ӓ3ря
+* %^ӓ4:е   пелемс:п^ӓ4ль
 
 * **%^Ь2ZERO:0  ** removes stem-final soft sign
 
@@ -980,10 +984,10 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **%{оеэØ%}:э**
 кев+N+SP+Ill+PxSg2: **rock/kivi**
-* *кӒ4в%{frontSoft%}%>з%>%{оеэØ%}т%{ЬØ%}*
-* *кев0%>з%>эть*
-* *кӒ4в%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
-* *кев0%>ез%>эть*
+* *к^ӓ4в{frontSoft}>з>{оеэØ}т{ЬØ}*
+* *кев0>з>эть*
+* *к^ӓ4в{frontSoft}>{оеэØ}з>{оеэØ}т{ЬØ}*
+* *кев0>ез>эть*
 * *пильге%{frontSoft%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
 * *пильге0%>0з%>эть*
 
@@ -1001,10 +1005,10 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 
 **%{уиыØ%}:ы**
 кев+N+SP+Ill+PxSg2: **rock/kivi**
-* *кӒ4в%{frontSoft%}%>з%>%{уиыØ%}т%{ЬØ%}*
-* *кев0%>з%>эть*
-* *кӒ4в%{frontSoft%}%>%{уиыØ%}з%>%{уиыØ%}т%{ЬØ%}*
-* *кев0%>из%>ыть*
+* *к^ӓ4в{frontSoft}>з>{уиыØ}т{ЬØ}*
+* *кев0>з>эть*
+* *к^ӓ4в{frontSoft}>{уиыØ}з>{уиыØ}т{ЬØ}*
+* *кев0>из>ыть*
 
 **%{уиыØ%}:у**
 ков+N+SP+Ill+PxSg2: **moon/kuu**
@@ -2002,6 +2006,11 @@ And following triggers to control variation
 * Ь3   арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
 * Ӓ3   эрямс:Ӓ3ря
 * Ӓ4   пелемс:пӒ4ль
+
+* %^Ӓ3   ^Ӓ3 :Э
+* %^Ӓ4   ^Ӓ4 :Е
+* %^ӓ3   эрямс:^ӓ3ря
+* %^ӓ4   пелемс:п^ӓ4ль
 
 * %^Ь2ZERO   removes stem-final soft sign
 
