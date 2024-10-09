@@ -20,8 +20,8 @@ LEXICON PRONOUN-TYPES
 !та-кода K ; ! XXX already pron
 кие+Pron:ки PRON-IS-REL-PERS ;
 
-эрьва+Det:Ӓ3рьва NMN_KUDO ;
-эрьвата+Det:Ӓ3рьвата NMN_KUDO ;
+эрьва+Det:^ӓ3рьва NMN_KUDO ;
+эрьвата+Det:^ӓ3рьвата NMN_KUDO ;
 эте+Det:эте DET-DEM_TE ;
 тете+Pron+Dem:тете PRON-DEM-CASE ;
 тевате+Pron+Dem:тевате PRON-DEM-CASE ;
@@ -118,7 +118,7 @@ LEXICON PRON-PERS-SG1 !! мон:мо
 +Abl:ндень K ;
 +Abl+Use/NG:ндедень K ;
 +Cmpr:ншкан K ;
-+Dat+Long:нӒ4нь K ;
++Dat+Long:н^ӓ4нь K ;
 +Ela:ньстэнь K ;
 +Gen:нь K ;
 +Ill:ньзэнь K ;
@@ -138,7 +138,7 @@ LEXICON PRON-PERS-SG2 !! тон:то
 +Abl:ндеть K ;
 +Abl+Use/NG:ндедеть K ;
 +Cmpr:ншкат K ;
-+Dat+Long:нӒ4ть K ;
++Dat+Long:н^ӓ4ть K ;
 +Ela:ньстэть K ;
 +Gen:нь K ;
 +Gen:нть K ;
@@ -159,7 +159,7 @@ LEXICON PRON-PERS-SG3 !! сон:со
 +Abl:ндензэ K ;
 +Use/NG+Err/Orth+Abl:ндедензэ K ;
 +Cmpr:ньшканзо K ;
-+Dat+Long:нӒ4нзэ K ;
++Dat+Long:н^ӓ4нзэ K ;
 +Ela:ньстэнзэ K ;
 +Gen:нзэ GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
 +Use/NG+Err/Orth+Gen:нзо K ;
@@ -183,7 +183,7 @@ LEXICON PRON-PERS-PL1 !! минь:
 +Abl:нденек K ;
 +Abl+Use/NG:ндеденек K ;
 +Cmpr:ньшканок K ;
-+Dat+Long:нӒ4нек K ;
++Dat+Long:н^ӓ4нек K ;
 +Ela:ньстэнек K ;
 +Gen:нек GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
 +Ill:ньзэнек K ;
@@ -199,7 +199,7 @@ LEXICON PRON-PERS-PL2 !! тынь:ты
 +Abl:нденк K ;
 +Abl+Use/NG:ндеденк K ;
 +Cmpr:ньшканк K ;
-+Dat+Long:нӒ4нк K ;
++Dat+Long:н^ӓ4нк K ;
 +Ela:ньстэнк K ;
 +Gen:нк GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
 +Ill:ньзэнк K ;
@@ -215,8 +215,8 @@ LEXICON PRON-PERS-PL3 !! сынь:сы
 +Abl:ндест K ;
 +Abl+Use/NG:ндедест K ;
 +Cmpr:ньшкаст K ;
-+Dat+Long:нӒ4ст K ;
-+Dat+Long:нӒ4нст K ;
++Dat+Long:н^ӓ4ст K ;
++Dat+Long:н^ӓ4нст K ;
 +Ela:ньстэст K ;
 +Gen:нст GEN-PERS-PRON-MWN_OR_PRED_OR_K ;
 +Ill:ньзэст K ;
@@ -239,15 +239,15 @@ LEXICON PRON-PERS-PL3 !! сынь:сы
 !+Pers+Pl2+Refl+Nom: ENDLEX ;
 
 LEXICON PERS
-мон+Pron+Pers+Sg1+Dat+Short:тӒ4нь K ;
-мон+Pron+Pers+Pl1+Dat+Short:тӒ4нек K ;
-тон+v1+Pron+Pers+Sg2+Dat+Short:тӒ4нть K ;
-тон+Use/NG+v2+Pron+Pers+Sg2+Dat+Short:тӒ4ть K ;
-тон+Use/NG+v3+Pron+Pers+Sg2+Dat+Short:тӒ4неть K ;
-тон+Pron+Pers+Pl2+Dat+Short:тӒ4нк K ;
-сон+Pron+Pers+Sg3+Dat+Short:тӒ4нзэ K ;
-сон+v1+Pron+Pers+Pl3+Dat+Short:тӒ4нст K ;
-сон+Use/NG+v2+Pron+Pers+Pl3+Dat+Short:тӒ4ст K ;
+мон+Pron+Pers+Sg1+Dat+Short:т^ӓ4нь K ;
+мон+Pron+Pers+Pl1+Dat+Short:т^ӓ4нек K ;
+тон+v1+Pron+Pers+Sg2+Dat+Short:т^ӓ4нть K ;
+тон+Use/NG+v2+Pron+Pers+Sg2+Dat+Short:т^ӓ4ть K ;
+тон+Use/NG+v3+Pron+Pers+Sg2+Dat+Short:т^ӓ4неть K ;
+тон+Pron+Pers+Pl2+Dat+Short:т^ӓ4нк K ;
+сон+Pron+Pers+Sg3+Dat+Short:т^ӓ4нзэ K ;
+сон+v1+Pron+Pers+Pl3+Dat+Short:т^ӓ4нст K ;
+сон+Use/NG+v2+Pron+Pers+Pl3+Dat+Short:т^ӓ4ст K ;
 
 мон+Pron+Pers+Sg1:мо PRON-PERS-SG1 ;
 тон+Pron+Pers+Sg2:то  PRON-PERS-SG2 ;
@@ -273,12 +273,12 @@ LEXICON PERS
 сонсь+Pron+Refl+Sg3+Dat+Long:сонстензэ K ;
 сонсь+Pron+Refl+Pl3+Dat+Long:сынстест K ;
 
-монсь+Pron+Refl+Sg1+Dat+Short:Ӓ3стӒ4нь K ;
-монсь+Pron+Refl+Pl1+Dat+Short:Ӓ3стӒ4нек K ;
-тонсь+Pron+Refl+Sg2+Dat+Short:Ӓ3стӒ4ть K ;
-тонсь+Pron+Refl+Pl2+Dat+Short:Ӓ3стӒ4нк K ;
-сонсь+Pron+Refl+Sg3+Dat+Short:Ӓ3стӒ4нзэ K ;
-сонсь+Pron+Refl+Pl3+Dat+Short:Ӓ3стӒ4ст K ;
+монсь+Pron+Refl+Sg1+Dat+Short:^ӓ3ст^ӓ4нь K ;
+монсь+Pron+Refl+Pl1+Dat+Short:^ӓ3ст^ӓ4нек K ;
+тонсь+Pron+Refl+Sg2+Dat+Short:^ӓ3ст^ӓ4ть K ;
+тонсь+Pron+Refl+Pl2+Dat+Short:^ӓ3ст^ӓ4нк K ;
+сонсь+Pron+Refl+Sg3+Dat+Short:^ӓ3ст^ӓ4нзэ K ;
+сонсь+Pron+Refl+Pl3+Dat+Short:^ӓ3ст^ӓ4ст K ;
 
 монсь+Pron+Refl+Sg1+Abl+Long:монстедень K ;
 монсь+Pron+Refl+Pl1+Abl+Long:минстеденек K ;
@@ -294,12 +294,12 @@ LEXICON PERS
 сонсь+Pron+Refl+Sg3+Abl+Long+Use/NG:сонседензэ K ;
 сонсь+Pron+Refl+Pl3+Abl+Long+Use/NG:сынседест K ;
 
-монсь+Pron+Refl+Sg1+Abl+Short:Ӓ3стедень K ;
-монсь+Pron+Refl+Pl1+Abl+Short:Ӓ3стеденек K ;
-тонсь+Pron+Refl+Sg2+Abl+Short:Ӓ3стедеть K ;
-тонсь+Pron+Refl+Pl2+Abl+Short:Ӓ3стеденк K ;
-сонсь+Pron+Refl+Sg3+Abl+Short:Ӓ3стедензэ K ;
-сонсь+Pron+Refl+Pl3+Abl+Short:Ӓ3стедест K ;
+монсь+Pron+Refl+Sg1+Abl+Short:^ӓ3стедень K ;
+монсь+Pron+Refl+Pl1+Abl+Short:^ӓ3стеденек K ;
+тонсь+Pron+Refl+Sg2+Abl+Short:^ӓ3стедеть K ;
+тонсь+Pron+Refl+Pl2+Abl+Short:^ӓ3стеденк K ;
+сонсь+Pron+Refl+Sg3+Abl+Short:^ӓ3стедензэ K ;
+сонсь+Pron+Refl+Pl3+Abl+Short:^ӓ3стедест K ;
 
 монсь+Pron+Refl+Sg1+Gen+Long:монсень GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 монсь+Pron+Refl+Pl1+Gen+Long:минсенек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
@@ -308,19 +308,19 @@ LEXICON PERS
 сонсь+Pron+Refl+Sg3+Gen+Long:сонсензэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 сонсь+Pron+Refl+Pl3+Gen+Long:сынсест 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 
-монсь+Pron+Refl+Sg1+Gen+Short:Ӓ3сень GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-монсь+Pron+Refl+Pl1+Gen+Short:Ӓ3сенек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Refl+Sg2+Gen+Short:Ӓ3сеть 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Refl+Pl2+Gen+Short:Ӓ3сенк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Refl+Sg3+Gen+Short:Ӓ3сензэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Refl+Pl3+Gen+Short:Ӓ3сест 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Refl+Sg1+Gen+Short:^ӓ3сень GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Refl+Pl1+Gen+Short:^ӓ3сенек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Refl+Sg2+Gen+Short:^ӓ3сеть 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Refl+Pl2+Gen+Short:^ӓ3сенк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Refl+Sg3+Gen+Short:^ӓ3сензэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Refl+Pl3+Gen+Short:^ӓ3сест 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 
-монсь+Pron+Use/NG+Dial+Refl+Sg1+Gen+Short:Ӓ3синь GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-монсь+Pron+Use/NG+Dial+Refl+Pl1+Gen+Short:Ӓ3синек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Use/NG+Dial+Refl+Sg2+Gen+Short:Ӓ3сить 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-тонсь+Pron+Use/NG+Dial+Refl+Pl2+Gen+Short:Ӓ3синк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Use/NG+Dial+Refl+Sg3+Gen+Short:Ӓ3синзэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
-сонсь+Pron+Use/NG+Dial+Refl+Pl3+Gen+Short:Ӓ3сист 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Use/NG+Dial+Refl+Sg1+Gen+Short:^ӓ3синь GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+монсь+Pron+Use/NG+Dial+Refl+Pl1+Gen+Short:^ӓ3синек 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Use/NG+Dial+Refl+Sg2+Gen+Short:^ӓ3сить 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+тонсь+Pron+Use/NG+Dial+Refl+Pl2+Gen+Short:^ӓ3синк 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Use/NG+Dial+Refl+Sg3+Gen+Short:^ӓ3синзэ 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
+сонсь+Pron+Use/NG+Dial+Refl+Pl3+Gen+Short:^ӓ3сист 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT ;
 
 монсь+Pron+Refl+Sg1+Nom:монсь K ;
 монсь+Pron+Refl+Pl1+Nom:минсь K ;
@@ -331,21 +331,21 @@ LEXICON PERS
 
 
 
-тонсь+Use/NG+Err/Orth+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:Ӓ3сетне K ;
-тонсь+Use/NG+Err/Orth+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl+Pl:Ӓ3сетне _KUDO-PersPronGen_CX-2 ;
-тонсь+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:Ӓ3сеттне K ;
-тонсь+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl:Ӓ3сеттне _KUDO-PersPronGen_CX-2 ;
+тонсь+Use/NG+Err/Orth+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:^ӓ3сетне K ;
+тонсь+Use/NG+Err/Orth+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl+Pl:^ӓ3сетне _KUDO-PersPronGen_CX-2 ;
+тонсь+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:^ӓ3сеттне K ;
+тонсь+Pron+Refl+Sg2+Gen+Short+Der+Der/MWN+N+Pl:^ӓ3сеттне _KUDO-PersPronGen_CX-2 ;
 
-сонсь+Use/NG+Err/Orth+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:Ӓ3сестнэ K ;
-сонсь+Use/NG+Err/Orth+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl:Ӓ3сестнэ _KUDO-PersPronGen_CX-2 ;
-сонсь+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:Ӓ3сесттнэ K ;
-сонсь+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl:Ӓ3сесттнэ _KUDO-PersPronGen_CX-2 ;
+сонсь+Use/NG+Err/Orth+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:^ӓ3сестнэ K ;
+сонсь+Use/NG+Err/Orth+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl:^ӓ3сестнэ _KUDO-PersPronGen_CX-2 ;
+сонсь+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl+Nom+Def:^ӓ3сесттнэ K ;
+сонсь+Pron+Refl+Pl3+Gen+Short+Der+Der/MWN+N+Pl:^ӓ3сесттнэ _KUDO-PersPronGen_CX-2 ;
 !Dealing with short comings! need to be fixed
-тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Sg+Tra+Indef:Ӓ3сетекс K ;
-тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Pl+Tra+Indef:Ӓ3сетекс K ;
-тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Sg+Nom+Def:Ӓ3сетесь K ;
-тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Sg+Gen+Def:Ӓ3сетенть K ;
-!2017-11-12эстензэ+Pron+Refl+Dat:Ӓ3сте PossPX1 ; 
+тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Sg+Tra+Indef:^ӓ3сетекс K ;
+тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Pl+Tra+Indef:^ӓ3сетекс K ;
+тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Sg+Nom+Def:^ӓ3сетесь K ;
+тонсь+Pron+Refl+Sg2+Gen+Der+Der/MWN+N+Sg+Gen+Def:^ӓ3сетенть K ;
+!2017-11-12эстензэ+Pron+Refl+Dat:^ӓ3сте PossPX1 ; 
 
 !! Obligatory Possessor Index
 
@@ -667,7 +667,7 @@ LEXICON PRON-DEM
 се+Pron+Dem:се PRON-DEM_TE ;
 те+Pron+Dem:те PRON-DEM_TE ;
 
-мезе-мезе+Pron+Distr+Sg+Nom+Indef:мӒ4зе-мӒ4зе # ;
+мезе-мезе+Pron+Distr+Sg+Nom+Indef:м^ӓ4зе-м^ӓ4зе # ;
 
 
 LEXICON PRON-DEM-CASE
@@ -789,7 +789,7 @@ LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
 !+Rel+Sel: N_KUDO-Poss-Declension-CX ;
 
 LEXICON INDEF_PRONOUNS-IN-KOI/TA/TAGO
-мезе+Pron+Indef:мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
+мезе+Pron+Indef:м^ӓ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 кие+Pron+Indef:ки INDEF-KIE-CASES ;
 
 !2020-09-14!
@@ -860,9 +860,9 @@ LEXICON INDEF_PRONOUNS-IN-KOI
 кой-кодамо+A+Indef+Nom+Pl:кой-кодат INDEF-ENDS-HERE ;
 кой-кодамо+A+Indef+Pl+Nom+Def:кой-кодатнэ INDEF-ENDS-HERE ;
 !2017-11-05кона+Det+Indef+Nom+Sg:кой-кона INDEF-ENDS-HERE ;
-!мезе+Pron+Indef:кой-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
+!мезе+Pron+Indef:кой-м^ӓ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 !мезень+Pron+Indef+Gen:кой-мезень INDEF-ENDS-HERE ;
-!2022-03-18!кой-мезе+Pron+Indef:кой-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
+!2022-03-18!кой-мезе+Pron+Indef:кой-м^ӓ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 !кой-мезе+Pron+Indef+Nom+Pl:кой-мезть INDEF-ENDS-HERE ;
 !кой-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:кой-месть INDEF-ENDS-HERE ;
 !кой-мекс+Pron+Indef+Tra:кой-мекс INDEF-ENDS-HERE ;
@@ -906,7 +906,7 @@ LEXICON INDEF_PRONOUNS-IN-TAGO
 таго-кодамо+A+Indef+Nom+Pl:таго-кодат INDEF-ENDS-HERE ;
 таго-кодамо+A+Indef+Pl+Nom+Def:таго-кодатнэ INDEF-ENDS-HERE ;
 !2017-11-05кона+Det+Indef+Nom+Sg:таго-кона INDEF-ENDS-HERE ;
-!2022-03-18!таго-мезе+Pron+Indef:таго-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
+!2022-03-18!таго-мезе+Pron+Indef:таго-м^ӓ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 !мезень+Pron+Indef+Gen:таго-мезень INDEF-ENDS-HERE ;
 !таго-мезе+Pron+Indef+Nom+Pl:таго-мезть INDEF-ENDS-HERE ;
 !таго-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:таго-месть INDEF-ENDS-HERE ;
@@ -951,7 +951,7 @@ LEXICON INDEF_PRONOUNS-IN-TA
 та-кодамо+A+Indef+Nom+Pl:та-кодат INDEF-ENDS-HERE ;
 та-кодамо+A+Indef+Pl+Nom+Def:та-кодатнэ INDEF-ENDS-HERE ;
 !2017-11-05кона+Det+Indef+Nom+Sg:та-кона INDEF-ENDS-HERE ;
-!2022-03-18!та-мезе+Pron+Indef:та-мӒ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
+!2022-03-18!та-мезе+Pron+Indef:та-м^ӓ4 Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 !мезень+Pron+Indef+Gen:та-мезень INDEF-ENDS-HERE ;
 !та-мезе+Pron+Indef+Nom+Pl:та-мезть INDEF-ENDS-HERE ;
 !та-мезе+Pron+Indef+Orth/PhonInfl+Nom+Pl:та-месть INDEF-ENDS-HERE ;
@@ -998,7 +998,7 @@ LEXICON PRON-INDEF_KOJ-MEZE
 LEXICON PRON-INDEF-HUM_KIE-BUTI
 @U.INDEF.BUTI@+Indef:@U.INDEF.BUTI@ INDEF-KIE-CASES ;
 
-LEXICON PRON_INDEF_MEZE-BUTI ! мезе-бути:мӒ4
+LEXICON PRON_INDEF_MEZE-BUTI ! мезе-бути:м^ӓ4
 @U.INDEF.BUTI@+Indef:@U.INDEF.BUTI@ Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 
 LEXICON PRON_INDEF_MEZEJAK
@@ -1286,7 +1286,7 @@ LEXICON Indef_Pronouns-Cases
 +Sg+Nom+PxPl2:%>%{оеэØ%}нк INDEF-ENDS-HERE ;
 +Sg+Nom+PxPl3:%>%{оеэØ%}ст INDEF-ENDS-HERE ;
 
-LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:мӒ4
+LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:м^ӓ4
 +Pl+Nom+Indef:зь%>т%{ЬØ%} INDEF-ENDS-HERE ; 
 +Pl+Nom+Indef+Use/SpellNoSugg:сь%>т%{ЬØ%} INDEF-ENDS-HERE ; 
 +SP+Abe+Indef:зе%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
@@ -1338,7 +1338,7 @@ LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:мӒ4
 +Sg+Nom+PxPl2:зенк INDEF-ENDS-HERE ;
 +Sg+Nom+PxPl3:зест INDEF-ENDS-HERE ;
 
-LEXICON PRON_MEZE_Cases !мезе:мӒ4
+LEXICON PRON_MEZE_Cases !мезе:м^ӓ4
 +Pl+Nom+Indef:зь%>т%{ЬØ%} ENDLEX ; 
 +Pl+Nom+Indef+Use/NG+Err/Orth:сь%>т%{ЬØ%} ENDLEX ; 
 +SP+Abe+Indef:зе%>вт{оеэ%}мО1 ENDLEX ;
@@ -1776,12 +1776,12 @@ LEXICON REL/INTERR_PRONOUNS
 !кодамо+A+Rel+Pl+Nom+Def:кодатнэ ENDLEX ;
 !2017-11-05кона+Det+Rel+Nom+Sg:кона ENDLEX ;
 
-мезе+Pron+Rel:мӒ4 PRON_MEZE_Cases ;
-мезе+Pron:мӒ4 PRON_MEZE_Cases ;
+мезе+Pron+Rel:м^ӓ4 PRON_MEZE_Cases ;
+мезе+Pron:м^ӓ4 PRON_MEZE_Cases ;
 
-мекс+Adv+Rel+Tra:мӒ4кс ENDLEX ;
+мекс+Adv+Rel+Tra:м^ӓ4кс ENDLEX ;
 
-мезе+Pron+Rel+Com:мӒ4знек ENDLEX ;
+мезе+Pron+Rel+Com:м^ӓ4знек ENDLEX ;
 
 
 
@@ -1812,24 +1812,24 @@ LEXICON REL/INTERR_PRONOUNS
 зяро+Adv:зяро ENDLEX ;
 
 
-мезе+Pron+Sg+Nom+Indef:мӒ4зе ENDLEX ;
-мезе+Pron:мӒ4зе PRON-INTERR-OBJ_MEZE ;
-мезе+Pron+Sg+Nom+Def:мӒ4йсь K ;
-мезе+Pron+SP+Ine+Indef:мӒ4йсэ K ;
-мезе+Pron+SP+Ill+Indef:мӒ4йс K ;
-!мезе+Pron+SP+Gen+Indef:мӒ4зень ENDLEX ;
+мезе+Pron+Sg+Nom+Indef:м^ӓ4зе ENDLEX ;
+мезе+Pron:м^ӓ4зе PRON-INTERR-OBJ_MEZE ;
+мезе+Pron+Sg+Nom+Def:м^ӓ4йсь K ;
+мезе+Pron+SP+Ine+Indef:м^ӓ4йсэ K ;
+мезе+Pron+SP+Ill+Indef:м^ӓ4йс K ;
+!мезе+Pron+SP+Gen+Indef:м^ӓ4зень ENDLEX ;
 !мезе+Pron+Pl+Nom+Indef:мезть ENDLEX ;
-мезе+Pron+Orth/PhonInfl+Pl+Nom:мӒ4сть ENDLEX ;
-мекс+Adv+Tra:мӒ4кс ENDLEX ;
+мезе+Pron+Orth/PhonInfl+Pl+Nom:м^ӓ4сть ENDLEX ;
+мекс+Adv+Tra:м^ӓ4кс ENDLEX ;
 !мезе+Pron+Abl:мезде ENDLEX ;
 !мезе+Pron+Dat:мезнень ENDLEX ;
 !мезе+Pron+Abl+Def:мезденть ENDLEX ;
 !мезе+Pron+Ine:мейсэ ENDLEX ;
 
 !мезе+Adn+Dep+Gen:мень ENDLEX ; !This one cannot take prefix
-мезе+Pron+Com:мӒ4знек ENDLEX ;
+мезе+Pron+Com:м^ӓ4знек ENDLEX ;
 
-мезе+Pron:мӒ4зь REL/INTERR-PRON-CASES_OSH ;
+мезе+Pron:м^ӓ4зь REL/INTERR-PRON-CASES_OSH ;
 
 кона+Det:кона REL/INTERR-PRON-CASES ;
 
