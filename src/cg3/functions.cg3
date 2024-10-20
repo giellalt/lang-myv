@@ -2466,7 +2466,7 @@ MAP (@SUBJ>) TARGET NOUNPlNomIndef IF (*1 NONVCENTERSPL BARRIER CLB OR EOS OR CC
 # work with measures needed
 MAP:measure>n (@HNOUN) TARGET N IF (-1 MEASURES) (1 CLB OR EOS);
 
-MAP:>n (@>N) TARGET ADNOMINALATTRCANDIDATE IF (1 N);
+MAP:>n (@>N) TARGET ADNOMINALATTRCANDIDATE IF ((1 N) OR (1 CC LINK 1 ADNOMINALATTRCANDIDATE LINK 1 N));
        #паро: вешнесь паро чувто
        #NOT , сиянь [шапка] прясонзо,
        #this is a clean up after indefinite subject, perhaps also object2022-04-14
@@ -4194,6 +4194,11 @@ MAP (@+FMAINV) TARGET VFIN IF (NEGATE *0 @+FMAINV);
 
 
 
+#############
+#
+# remap conjunctions 2024-10-20
+#
+#############
 
 
 ###############################################################################
