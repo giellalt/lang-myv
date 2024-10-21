@@ -1136,6 +1136,11 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ки") OR ("марто" Po Der/MWN) OR K
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET A OR Ex/A IF (0 N) (1 ("башка") OR EOS OR CLB) (NOT 2 A);
 # N over A перегной
 
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Sg Nom Indef) IF (0 ("Аля") OR ("Вал") OR ("Ведь") OR ("Ков") OR ("Кона") OR ("Ялга"));
+#  Вал, Ведь, Кона, Ялга,
+# Или, Сень, Моне, Иля, Ков, Сех, Оно, Таго, Алё,
+# Бути, 
+
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("Вась" Ex/N Prop SP Gen Indef Der/sje);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET PropnPICHvsPiche IF (0 NMN-INFLECTION-IN-MIDARCHIVOWEL);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET NOUNS-IN-VT IF (-1 Gen) (1 N OR A);
