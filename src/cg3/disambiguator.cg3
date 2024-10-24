@@ -497,6 +497,7 @@ LIST AblNPHEAD = (N Pl Abl Def) (N SP Abl Indef) (N Sg Abl Def) (N SP Abl PxSg1)
 
 LIST IndefObjectCandidate = NSgNomIndef (N Pl Nom Indef) ("мезеяк" Pron Indef Sg Nom Indef) ("мезеяк" Pron Indef Pl Nom Indef) ;#indefinate objects
 LIST NonIndefObjectCandidate = (N Sg Gen Def) (N Pl Gen Def) (N SP Gen PxSg1) (N SP Gen PxSg2) (N SP Gen PxSg3) (N SP Gen PxPl1) (N SP Gen PxPl2) (N SP Gen PxPl3);
+
 LIST NonIndefObjectCandidatePl = (N Pl Gen Def) (N Pl Gen PxSg1) (N Pl Gen PxSg2) (N Pl Gen PxSg3) (N Pl Gen PxPl1) (N Pl Gen PxPl2) (N Pl Gen PxPl3);
 
 
