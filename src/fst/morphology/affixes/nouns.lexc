@@ -1958,13 +1958,13 @@ LEXICON LAT-INDEF
 LEXICON SG-NOM-INDEF
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ NounEnd_K ;
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ CLT/COP_SG ;
-@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRS-PL1 ;
-@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRS-PL2 ;
-!@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRS-PL3 ; 2020-04-06
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ COPULA-NONPAST-40 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ COPULA-NONPAST-50 ;
+!@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ COPULA-NONPAST-60 ; 2020-04-06
 
-@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRT2-PL1 ;
-@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRT2-PL2 ;
-@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ CLT/COP-PRT2-PL3 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ COPULA-PRT-40 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ COPULA-PRT-50 ;
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@ COPULA-PRT-60 ;
 
 
 !LEXICON SG-NOM-INDEF_KAL
@@ -2594,7 +2594,7 @@ LEXICON _OSH-PossPX1
 
 
 
-!LEXICON POSSX4-END-FOC-CLT/COP-SC3
+!LEXICON POSSX4-END-FOC-COPULA-SC3
 !! These are possessor indices that can be followed by predicate marking
 !! in the present there is no destinction between ScSg3 and ScPl3
 !! Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
@@ -2991,7 +2991,7 @@ LEXICON OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K
  K ;
 +Def:%>%{оеэØ%}нть K ;
 !defective noun in def удало+N+Loc+Def: удалонть
-!2022-04-07: CLT/COP-4-OBL ;
+!2022-04-07: COPULA-4-OBL ;
 
 LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP
  OBL-PX4-END/FOC/CLTCOP_PXSG1 ;
@@ -3026,10 +3026,10 @@ OBL-PX4-END-FOC_PXPL3 ;
 OBL-PX4-CLTCOP_PXPL3 ;
 
 !!
-LEXICON OBL-PX4-CLTCOP-OR-FOC
+LEXICON OBL-PX4-COPULA-OR-FOC
  K ;
  OBL-PX4-CLTCOP ;
-!LEXICON OBL-PX4-CLTCOP-OR-ILL
+!LEXICON OBL-PX4-COPULA-OR-ILL
 !@U.CX.ILL@+Ill:@U.CX.ILL@%>%{оеэØ%}з OBL-PX4-CLTCOP ;
 ! OBL-PX4-CLTCOP ;
 
@@ -3109,28 +3109,28 @@ LEXICON OBL-PX4-CLTCOP_PXPL3
 
 ! THESE have nominal person tags passed to them with person confirmation through flags
 LEXICON OBL-PX4-CLTCOP_NMNSG1
-@U.PossPx.Sg1@:@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>%{оеэØ%}м CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>%{оеэØ%}м COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG2
-@U.PossPx.Sg2@:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%}  CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%}  COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG3
-@U.PossPx.Sg3@:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL1
-@U.PossPx.Pl1@:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl1@:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL2
-@U.PossPx.Pl2@:@U.PossPx.Pl2@%>%{оеэØ%}нк CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl2@:@U.PossPx.Pl2@%>%{оеэØ%}нк COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL3
-@U.PossPx.Pl3@:@U.PossPx.Pl3@%>%{оеэØ%}ст CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>%{оеэØ%}ск CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>%{оеэØ%}нст CLT/COP-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@:@U.PossPx.Pl3@%>%{оеэØ%}ст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>%{оеэØ%}ск COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>%{оеэØ%}нст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 
 

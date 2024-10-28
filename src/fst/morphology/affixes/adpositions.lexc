@@ -153,24 +153,24 @@ LEXICON ADPOSITION-TYPES
 
 !LEXICON PO_PANGO-INE3
 !!! лангсо:ланг
-!+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
-!+Ine:%>%{оеэØ%}%>с%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
-!+Ela:%>ст%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
-!+Ela:%>%{оеэØ%}%>ст%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
+!+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ine:%>%{оеэØ%}%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>%{оеэØ%}%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
 !+Ill:%>с K ;
 !+Ill:%>%{оеэØ%}%>с K ;
 !+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON PO_OSH-INE4
 !!!вакссо:вакс
-!+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
-!+Ine:%>%{оеэØ%}%>с%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
-!+Ela:%>ст%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
-!+Ela:%>%{оеэØ%}%>ст%{оэØ%} PO_POSS-or-END-FOC-CLT/COP-SC3 ;
+!+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ine:%>%{оеэØ%}%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>%{оеэØ%}%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
 !+Ill:%>с K ;
 !+Ill:%>%{оеэØ%}%>с K ;
 !+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Prl:%>Г2а PO_POSS-or-END-FOC-CLT/COP-SC3 ;
+!+Prl:%>Г2а PO_POSS-or-END-FOC-COPULA-SC3 ;
 
 !LEXICON PO_KAL-LOC
 !! ало:ал
@@ -199,7 +199,7 @@ LEXICON PO_POSS_OR_END_FOC
  K ;
 
 
-LEXICON PO_POSS-or-END-FOC-CLT/COP-SC3
+LEXICON PO_POSS-or-END-FOC-COPULA-SC3
 !! This allows for word end, possessor indices, predication
  K ;
  CLT/COP4_OBL ; 
@@ -209,12 +209,12 @@ LEXICON PO_POSS-or-END-FOC-CLT/COP-SC3
 LEXICON PO-IS-ABL
 !! postposition that is in ablative case
 !! алдо:алдо
-+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Abl: PO_POSS-or-END-FOC-COPULA-SC3;
 
 !LEXICON PO-IS-ELA
 !! postposition that is in elative case
 !! потсто:потсто
-!+Ela: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Ela: PO_POSS-or-END-FOC-COPULA-SC3;
 
 LEXICON PO-IS-ILL-STEM
 !! postposition that is in illative case
@@ -234,7 +234,7 @@ LEXICON PO-IS-ILL-STEM_E2JS
 LEXICON PO_IS_INE
 !! postposition that is in inessive case
 !! эйсэ:эйсэ, кисэ
-+Ine: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Ine: PO_POSS-or-END-FOC-COPULA-SC3;
 
 !LEXICON PO-SPAT-IS-LAT
 !!! postposition that is in lative case
@@ -254,7 +254,7 @@ LEXICON PO-IS-LOC
 !LEXICON PO-IS-PRL
 !!! postposition that is in prolative case
 !!! перька:перька
-!2023_03_21+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!2023_03_21+Prl: PO_POSS-or-END-FOC-COPULA-SC3;
 
 !!
 LEXICON PO-SPAT_
@@ -264,12 +264,12 @@ LEXICON PO-SPAT_
 !LEXICON PO-SPAT-IS-ABL
 !! postposition that is in ablative case
 !! алдо:алдо
-!+Abl: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Abl: PO_POSS-or-END-FOC-COPULA-SC3;
 
 !LEXICON PO-SPAT-IS-ELA
 !! postposition that is in elative case
 !! потсто:потсто
-!+Ela: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Ela: PO_POSS-or-END-FOC-COPULA-SC3;
 
 LEXICON PO-SPAT-IS-ILL-STEM
 !! postposition that is in illative case
@@ -301,7 +301,7 @@ LEXICON PO-SPAT-IS-ILL-STEM
 LEXICON PO-SPAT-IS-INE
 !! postposition that is in inessive case
 !! потсо:потсо
-+Ine: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Ine: PO_POSS-or-END-FOC-COPULA-SC3;
 
 !LEXICON PO-SPAT-IS-LAT-STEM
 !! postposition that is in lative case
@@ -312,12 +312,12 @@ LEXICON PO-SPAT-IS-INE
 !LEXICON PO-SPAT-IS-LOC
 !! postposition that is in locative case
 !! ало:ало
-!+Loc: PO_POSS-or-END-FOC-CLT/COP-SC3;
+!+Loc: PO_POSS-or-END-FOC-COPULA-SC3;
 
 LEXICON PO-SPAT-IS-PRL
 !! postposition that is in prolative case
 !! перька:перька
-+Prl: PO_POSS-or-END-FOC-CLT/COP-SC3;
++Prl: PO_POSS-or-END-FOC-COPULA-SC3;
 
 LEXICON PR_
 : ENDLEX ;
