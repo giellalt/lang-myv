@@ -18,6 +18,8 @@ LEXICON N_PELE  пеле:пель, ало:ал
 
 ## COMMON NOUNS 
 
+* LEXICON N_T1  кель:кель %^Ь2ZERO
+
 * LEXICON N_KEL1  кель:кель %^Ь2ZERO
 
 * LEXICON N_LOMAN1  ломань:ломань %^Ь2ZERO
