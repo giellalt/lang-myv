@@ -70,7 +70,16 @@ while(<>) {
 	s/(е|ы|и|э)(б|в|г|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 N_TEV/g ;
 	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х) PROP_KAL/$1$2 N_LAV/g ;
 	s/(е|ы|и|э)(б|в|г|м|п|ф|х) PROP_KAL/$1$2 N_TEV/g ;
-	
+
+# Proper name ends in numeral or symbol in Erzya
+#!Поригон-2+N+Prop:Поригон-2 PROP_KAL "(NA) Porygon2" ;
+#DIGITAL_NUMBER
+	s/([0-9]|♂|♀) PROP_(KAL|KUDO|OSH|KAL_PLC)/$1 DIGITAL_NUMBER/g ;
+
+# names with Erzya inflection
+# This means the word is present in a lexicon other than urj-Cyrl-propernames
+#        s/^Железные% Руки\+/!Железные% Руки\+/g ;
+
 #	s/SUND/BERN/g ;
 #	s/HEIM/BERN/g ;
 #	s/NIKOSIIJA/ACCRA/g ;
