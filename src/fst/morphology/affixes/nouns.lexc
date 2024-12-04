@@ -349,6 +349,14 @@ LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_T1_rus100
++Use/SpellNoSugg: N_T1 ;
+LEXICON N_T1 !!= * @CODE@ кель:кель %^Ь2ZERO
+! harmony: front
+@P.POS.N@:@P.POS.N@ NMN_KEL1 ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
+
 LEXICON N_KEL1_rus100
 +Use/SpellNoSugg: N_KEL1 ;
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
