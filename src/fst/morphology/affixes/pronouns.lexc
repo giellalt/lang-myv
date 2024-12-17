@@ -992,6 +992,13 @@ LEXICON INDEFINITE-PRON
 @U.INDEF.TAGO@таго-:@U.INDEF.TAGO@таго- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
 @U.INDEF.TA@та-:@U.INDEF.TA@та- INDEF_PRONOUNS-IN-KOI/TA/TAGO ;
 
+кодамо-понгсь+A+Indef+SP+Dat+Indef:кодамонень INDEF_ENDS_IN_PONGS1 ;
+кодамо-понгсь+A+Indef+SP+Tra+Indef:кодамокс INDEF_ENDS_IN_PONGS1 ;
+кодамо-понгсь+A+Indef+Sg+Nom+Indef:кодамо INDEF_ENDS_IN_PONGS1 ;
+кодамо-понгсь+A+Indef+Pl+Nom+Indef:кодат INDEF_ENDS_IN_PONGST1 ;
+
+
+
 LEXICON PRON-INDEF_KOJ-MEZE
 @U.INDEF.KOI@+Indef:@U.INDEF.KOI@ Indef_MEZE_Cases_FOLLOWED_BY_MARKER ;
 
@@ -1109,6 +1116,16 @@ LEXICON INDEF_PRONOUNS-IN-BUTI
 !кие-бути+Pron+Indef+SP+Dat:кинень INDEF-ENDS-HERE ; 
 
 !!
+LEXICON INDEF_ENDS_IN_PONGS1
++Ind+Prs+ScSg3:-понги LEXEND ;
++Ind+Prt1+ScSg3:-понгсь LEXEND ;
++Ind+Prt2+ScSg3:-понгиль LEXEND ;
+
+LEXICON INDEF_ENDS_IN_PONGS1
++Ind+Prs+ScPl3:-понгить LEXEND ;
++Ind+Prt1+ScPl3:-понгсть LEXEND ;
++Ind+Prt2+ScPl3:-понгильть LEXEND ;
+
 LEXICON INDEF_PRONOUNS-IN-GAK 
 
 ковгак+Adv+Indef+Lat:ков INDEF-ENDS-HERE ;
@@ -1231,8 +1248,8 @@ LEXICON INDEF_PRONOUNS-IN-GAK
 !мезеяк+Pron:мезь _OSH-Indef_Pronouns-Cases ;
 !мезеяк+Pron+Com:мезнек ENDLEX ;
 
-кияк+Pron+Indef+Sg+Nom:кие INDEF-ENDS-HERE ; 
 кияк+Pron+Indef+Sg+Nom:ки INDEF-ENDS-HERE ; 
+!кияк+Pron+Indef+Sg+Nom:ки INDEF-ENDS-HERE ; 
 кияк+Pron+Indef+Pl+Nom:кить INDEF-ENDS-HERE ; 
 кияк+Pron+Indef+SP+Abl:киде INDEF-ENDS-HERE ; 
 кияк+Pron+Indef+SP+Gen:кинь INDEF-ENDS-HERE ; 
