@@ -48,7 +48,7 @@ LIST EOS = (<<<) (</s>); # End of sentence
 
 LIST N = n inf/verbn/agptcpMA inf/verbnMO/ME/MU/M N ;
 LIST A = adj A ;
-LIST Adv = (/adv:.+/ri) Adv ;
+LIST Adv = (/adv:.+/ri) adv:modal Adv ;
 LIST ConNeg = conneg ConNeg ;
 LIST V = vfin neg:ES infMS/ME neg:imper/optat inf/verbnMO/ME/MU/M VOblig ptcp1 ptcp2 ptcp3 ptcp4 ConNeg V ;
 LIST Pron = (/pron:.+/ri) Pron ;
@@ -1244,7 +1244,7 @@ SET PronPersPl3NomNoCop = ("сон" pron:pers npl cx:nom) - (mod:ind) - (mod:con
 #LIST PronPersPlGenPl1 = (pron:pers npl cx:gen pxpl1);
 #LIST PronPersPlGenPl2 = (pron:pers npl cx:gen pxpl2);
 #LIST PronPersPlGenPl3 = (pron:pers npl cx:gen pxpl3);
-LIST PronPersSg1Gen = ("мон" pron:pers indf nsg cx:gen pxsg1) (pron:pers nsg cx:gen pxsg1) (Pron Pers Sg1 Gen) (pron:pers def nsg cx:gen pxsg1) (Pron Refl Sg1 Gen) (pron:refl nsg cx:gen pxsg1) ;#монь, монсь
+LIST PronPersSg1Gen = ("мон" pron:pers indf nsg cx:gen) ("мон" pron:pers indf nsg cx:gen pxsg1) (pron:pers nsg cx:gen pxsg1) (Pron Pers Sg1 Gen) (pron:pers def nsg cx:gen pxsg1) (Pron Refl Sg1 Gen) (pron:refl nsg cx:gen pxsg1) ;#монь, монсь
 LIST PronPersSg2Gen = ("тон" pron:pers indf nsg cx:gen) (pron:pers nsg cx:gen pxsg2) (Pron Pers Sg2 Gen) (pron:pers def nsg cx:gen pxsg2) (Pron Refl Sg2 Gen) (pron:refl nsg cx:gen pxsg2) ;#тонь тонть тонсеть эсеть
 LIST PronPersSg3Gen = ("сон" pron:pers nsg cx:gen) (pron:refl nsg cx:gen pxsg3) (Pron Pers Sg3 Gen) (pron:pers def nsg cx:gen pxsg3) (Pron Refl Sg3 Gen)  (pron:refl nsg cx:gen pxsg3);#сонзэ, сонсензэ
 LIST PronPersPl1Gen = ("мон" pron:pers npl cx:gen) (Pron Pers Pl1 Gen) (pron:pers def nsg cx:gen pxpl1) (Pron Refl Pl1 Gen) (pron:refl nsg cx:gen pxpl1);#минек
@@ -1317,7 +1317,7 @@ SET GerElaPx = GerElaPxSg1 | GerElaPxSg2 | GerElaPxSg3 | GerElaPxPl1 | GerElaPxP
 SET AllGerEla = GerEla | GerElaPx | InfinitiveEla ;
 
 LIST MOOD-V = Cond Conj CondConj Des Imprt Ind Opt Prec   ; #!! MOOD-V
-SET VINF = (infMS/ME cx:nom) | (infMS/ME cx:ill) | (V Inf) | (V) - (MOOD-V) ;#non-finite
+SET VINF = (infMS/ME cx:nom) | (infMS/ME cx:ill) | (V Inf) | (V) - (MOOD-V) | ConNeg ;#non-finite
 #LIST VINF = (infMS/ME cx:nom) (infMS/ME cx:ill) (V Inf);#Inf 1 and 2, ill and loc
 SET VINF1 = (infMS/ME cx:ill) | (V Inf) - (Inf Loc); # First infinitive
      #was (infMS/ME cx:nom) (infMS/ME cx:ill) (V Inf); cf SupLoc
@@ -1325,9 +1325,10 @@ LIST vfin = vfin; # These are Mormula values: 2023_02_23
 SET a-finpred = (Clt/Cop) | (mod:ind) - vfin | (mod:conj) - vfin;#a-finite predication
  #Оршазель ташто костюмсо.
  # This still needs all instances of Prs+ScSg3 where there is a non-finite present
- 
+
+LIST IMPRTVERBS = "азё" "на" "ужо" "эрь" "ярь" ; # These are verbs that only appear in imperative does this require <myv>
 #SET VFIN = vfin | MOOD-V | ConNeg; #finite verbs
-SET VFIN = vfin | MOOD-V ; #finite verbs
+SET VFIN = vfin | MOOD-V | IMPRTVERBS ; #finite verbs
 # there should be an hierarchy of other-than-finite-verb entities
 # that can be predicates
 LIST ULEMS = "улемс" "ульнемс" "эрьме" ;#Copula verbs
@@ -3519,8 +3520,8 @@ MAP (@<IOBJ) TARGET NAdjDat OR NOUNDat IF (*-1 VFIN)
 #This needs more definition
     #неть поздоровтне аволь ансяк монень, тыненкак, Николай Михайлович,
     #2022-04-08
-MAP (@OBJ>) TARGET NNomIndef IF (1 CLB)
-                          (2 Neg);
+#MAP (@OBJ>) TARGET NNomIndef IF (1 CLB) 
+#                          (2 Neg); Difficult to point an object without reference to a verb2024-12-24
 
 MAP (@<OBJ) TARGET NNomIndef IF (*-1 PREDForIndefSG3Obj BARRIER CLB OR BOS) (1 CLB OR EOS);
     # , иляка ветя ненавиства.
