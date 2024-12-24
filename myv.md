@@ -1132,6 +1132,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 **G2:k**  
 
 **G4:0**  
+саемс+V+Ind+Prs+ConNeg+Clt/Ga:
+* *сай>{КТ}{ЬØ}>Г4а*
+* *сай>т0>0я*
 
 **G4:k**  
 
