@@ -2872,6 +2872,7 @@ LEXICON ILYA_Obj
 
 LEXICON IMPRT-20
 @U.CONJ-MX.IMP@@U.CONJ-PX.20@+Imprt+ScSg2:@U.CONJ-MX.IMP@@U.CONJ-PX.20@%>%{КТ%}%{ЬØ%} VerbEnd_ImpK ;
+@U.CONJ-CONNEG.YES@+Use/NG+Dial+ConNeg:@U.CONJ-CONNEG.YES@%>%{КТ%}%{ЬØ%} VerbEnd_ImpK_01 ;
 @U.CONJ-CONNEG.YES@+Use/NG+Dial+ConNeg:@U.CONJ-CONNEG.YES@%>%{КТ%}%{ЬØ%} VerbEnd_deraj ;
 
 LEXICON IMPRT-21
@@ -3409,12 +3410,14 @@ LEXICON ImpK
 
 LEXICON VerbEnd_ImpK
  VerbEnd ;
+ VerbEnd_ImpK_01 ;
+LEXICON VerbEnd_ImpK_01
 !! ваномс+V+Imprt+ScPl2+Clt/Ga: **look/katsoa**
 !!€ ван%>%{оеэØ%}дО1%>Г4а
 !!€ ван%>одо%>0я
 +Clt/AddGak:%>Г1ак ENDLEX ;
 +Clt/AddGak:%>Г4ак ENDLEX ;
-!+Clt/Ga:%>Г4а ENDLEX ; 2020-04-06
++Clt/Ga:%>Г4а ENDLEX ; !2020-04-06 but now testing 2024-12-23
 +Clt/Gaka:%>Г4ака ENDLEX ;
 +Clt/Gakaja:%>Г4акая ENDLEX ;
 +Clt/Gaja:%>Г4ая ENDLEX ;
