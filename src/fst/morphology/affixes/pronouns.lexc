@@ -22,7 +22,7 @@ LEXICON PRONOUN-TYPES
 
 эрьва+Det:^ӓ3рьва NMN_KUDO ;
 эрьвата+Det:^ӓ3рьвата NMN_KUDO ;
-эте+Det:эте DET-DEM_TE ;
+эте+Det:эте DET_DEM_TE ;
 тете+Pron+Dem:тете PRON-DEM-CASE ;
 тевате+Pron+Dem:тевате PRON-DEM-CASE ;
 севате+Pron+Dem:севате PRON-DEM-CASE ;
@@ -664,8 +664,8 @@ LEXICON PRON-DEM
 теке+Pron+Dem+SP+Ine+Indef:текеньсэ K ;
 
 тона+Pron+Dem:тона PRON-DEM_TONA ;
-се+Pron+Dem:се PRON-DEM_TE ;
-те+Pron+Dem:те PRON-DEM_TE ;
+се+Pron+Dem:се PRON_DEM_TE ;
+те+Pron+Dem:те PRON_DEM_TE ;
 
 мезе-мезе+Pron+Distr+Sg+Nom+Indef:м^ӓ4зе-м^ӓ4зе # ;
 
@@ -1532,9 +1532,9 @@ LEXICON Pron-Pl
 !LEXICON Misc_Pronouns
 !!се+Dem:се vese-QNT ;
 !!секе+Dem+Pron:секе vese-QNT ; ! This also allows plural
-!!сете+Dem+Pron:сете DET-DEM_TE ;
-!!те+Dem:те DET-DEM_TE ;
-!тете+Dem:тете DET-DEM_TE ;
+!!сете+Dem+Pron:сете DET_DEM_TE ;
+!!те+Dem:те DET_DEM_TE ;
+!тете+Dem:тете DET_DEM_TE ;
 !
 !те+Dem+Pron+Gen+Abl:тенде K ;
 !те+Dem+Pron+Gen+Abe+Use/NG+Err/Orth+Dial:тенстеме K ;
@@ -1598,7 +1598,9 @@ LEXICON Pron-Pl
 !+Pl+Nom+Def: K ;
 
 
-LEXICON PRON-DEM_TE
+LEXICON PRON_DEM_TE
++Dem: PRON_DEM_TE_01 ;
+LEXICON PRON_DEM_TE_01
 +Sg+Abe+Indef:%>нтеме K ;
 +Sg+Abl+Indef:%>де K ;
 +Sg+Abl+Indef:%>нде K ;
@@ -1609,6 +1611,28 @@ LEXICON PRON-DEM_TE
 +Sg+Ill+Indef:%>ньс K ;
 +Sg+Ine+Indef:%>ньсэ K ;
 +Sg+Nom+Indef: K ;
+
+LEXICON PRON_REL
++Sg+Abe+Indef:%>нтомо K ;
++Sg+Abl+Indef:%>до K ;
++Sg+Abl+Indef:%>нде K ;
++Sg+Dat+Indef:%>нень K ;
++Sg+Ela+Indef:%>ньстэ K ;
++Sg+Gen+Indef:%>нь K ;
++Sg+Ill+Indef:%>ньс K ;
++Sg+Ine+Indef:%>ньсэ K ;
++Sg+Ela+Indef:%>сто K ;
++Sg+Ill+Indef:%>с K ;
++Sg+Ine+Indef:%>со K ;
++Sg+Nom+Indef: K ;
++Sg+Prl+Indef:%>ва K ;
+!
++Sg+Abl+Def:%>донть K ;
++Pl+Abl+Def:%>тнеде K ;
++Sg+Dat+Def:%>нтень K ;
++Sg+Ela+Def:%>стонть K ;
++Pl+Gen+Def:%>тнень K ;
++Pl+Ine+Def:%>тнесэ K ;
 
 !LEXICON PRON-DEM_TEKE
 !+Dem: _KUDO-Misc_Pronouns_Sg ;
@@ -1803,7 +1827,7 @@ LEXICON REL/INTERR_PRONOUNS
 
 
 кона+Pron+Rel:кона REL/INTERR-PRON-CASES ;
-кона+Pron+Rel:кона PRON-DEM_TE ;
+кона+Pron+Rel:кона PRON_REL ;
 
 !ко+Pron:ко Indef_Pronouns-Cases ;
 !зяродо+Adv+Abl:зяродо ENDLEX ;
