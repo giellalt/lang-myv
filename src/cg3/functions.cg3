@@ -584,6 +584,9 @@ LIST NAdjSgNomGenPxSg3 = (n/adj nsg cx:nom/gen pxsg3) (n/adj nsg cx:gen pxsg3);
 LIST NAdjPlNomGenPxSg3 = (n/adj npl cx:nom/gen pxsg3) (n/adj npl cx:gen pxsg3);
 LIST NAdjPlNomGenPxPl2 = (n/adj npl cx:nom/gen pxpl2) (n/adj npl cx:gen pxpl2);
 LIST NAdjPlNomGenPxPl3 = (n/adj npl cx:nom/gen pxpl3) (n/adj npl cx:gen pxpl3);
+
+LIST NAdjSgNomGenPx =  NAdjSgNomGenPxSg1 NAdjSgNomGenPxSg2 NAdjSgNomGenPxSg3 ;
+
 LIST NAdjSgNomIndef = (n/adj indf nsg cx:nom) (n/adj:pron-stem indf nsg cx:nom);
 LIST NAdjPlNomIndef = (n/adj indf npl cx:nom) (n/adj:pron-stem indf nsg cx:nom);
 LIST KODAMO = "кодамо" ;
@@ -833,9 +836,13 @@ LIST NOUNPlNomGenPxSg2 = (n npl cx:nom/gen pxsg2) (n npl cx:gen pxsg2) (N Pl Nom
 LIST NOUNPlNomGenPxSg3 = (n npl cx:nom/gen pxsg3) (n npl cx:gen pxsg3) (N Sg Nom PxSg3) (N Sg Gen PxSg3);
 LIST NOUNSgNomGenPxPl2 = (n nsg cx:nom/gen pxpl2) (n nsg cx:gen pxpl2) (N Sg Nom PxPl2) (N Sg Gen PxPl2);
 LIST NOUNPlNomGenPxPl2 = (n npl cx:nom/gen pxpl2) (n npl cx:gen pxpl2) (N Pl Nom PxPl2) (N Pl Gen PxPl2);
+LIST NOUNSgNomGenPxPl3 = (n nsg cx:nom/gen pxpl3) (n nsg cx:gen pxpl3) (N Sg Nom PxPl3) (N Sg Gen PxPl3);
+LIST NOUNPlNomGenPxPl3 = (n npl cx:nom/gen pxpl3) (n npl cx:gen pxpl3) (N Pl Nom PxPl3) (N Pl Gen PxPl3);
+
+LIST NOUNSgNomGenPx = NOUNSgNomGenPxSg1  NOUNSgNomGenPxSg2  NOUNSgNomGenPxSg3 NOUNSgNomGenPxPl1 NOUNSgNomGenPxPl2 NOUNSgNomGenPxPl3 ;
+
 LIST NOUNSgGenPxPl2 = (n nsg cx:gen pxpl2) (N Sg Gen PxPl2);
 LIST NOUNPlGenPxPl2 = (n npl cx:gen pxpl2) (N Pl Gen PxPl2);
-LIST NOUNPlNomGenPxPl3 = (n npl cx:nom/gen pxpl3) (n npl cx:gen pxpl3) (N Pl Nom PxPl3) (N Pl Gen PxPl3);
 LIST NSPNomGenPx = (n cx:nom/gen pxsg1) (n cx:gen pxsg1) (N Nom PxSg1) (N Gen PxSg1)
  (n cx:nom/gen pxsg2) (n cx:gen pxsg2) (N Nom PxSg2) (N Gen PxSg2)
  (n cx:nom/gen pxsg3) (n cx:gen pxsg3) (N Nom PxSg3) (N Gen PxSg3)
@@ -856,6 +863,9 @@ LIST NOUNSgNomIndef = (n indf nsg cx:nom) (N Sg Nom Indef);
 LIST NOUNPlNomIndef = (n indf npl cx:nom) (N Pl Nom Indef);
 #LIST NOUNSgNomIndef = (n indf nsg cx:nom) (n:pron-stem indf nsg cx:nom) (N Sg Nom Indef);Only in damaj tesst кондямо
 SET NMNSgNomIndefSUBJ = (pron:indef:JAKgroup indf nsg cx:nom) | ("кияк" Pron Indef Sg Nom) | (Pron Indef Sg Nom Indef) | NOUNSgNomIndef ;# for Sg Nom Indef subject
+SET PRONIndefSgNomIndefSUBJ = (pron:indef:JAKgroup indf nsg cx:nom) | ("мезеяк" Pron Indef Sg Nom) | ("кияк" Pron Indef Sg Nom) | (Pron Indef Sg Nom Indef) ;# for Sg Nom Indef subject
+SET MEZEJAKSgNomIndef = ("мезеяк" pron:indef:JAKgroup indf nsg cx:nom) | ("мезеяк" Pron Indef Sg Nom) ;# for Sg Nom Indef subject
+
 #LIST NOUNPlNomIndef = (n indf npl cx:nom) (n:pron-stem indf npl cx:nom) (N Pl Nom Indef) (ptcp1 indf npl cx:nom);
 LIST NOUNSPNomIndef = (n indf nsg cx:nom) (N Sg Nom Indef) (n indf npl cx:nom) (N Pl Nom Indef);
 LIST NOUNNomSgPxSg1 = (n nsg cx:nom pxsg1) (N Sg Nom PxSg1) (n/adj nsg cx:nom pxsg1) ;
@@ -987,10 +997,15 @@ LIST NOUNTranslIndfSP = (n indf nsg cx:transl) (n indf npl cx:transl) (N SP Tra 
 
 LIST NOUNNomNplUnclearRussPxSg2 = (n nsg/npl-unclear/russ cx:nom pxsg2);
 LIST NOUNNomNplUnclearRussPx = (n nsg/npl-unclear/russ cx:nom px-unclear);
+LIST NOUNGenNplUnclearRussPxSg1 = (n nsg/npl-unclear/russ cx:gen pxsg1) (n nsg/npl-unclear/russ cx:nom/gen pxsg1);
+LIST NOUNGenNplUnclearRussPxPl1 = (n nsg/npl-unclear/russ cx:gen pxpl1) (n nsg/npl-unclear/russ cx:nom/gen pxpl1);
 LIST NOUNGenNplUnclearRussPxSg2 = (n nsg/npl-unclear/russ cx:gen pxsg2) (n nsg/npl-unclear/russ cx:nom/gen pxsg2);
 LIST NOUNGenNplUnclearRussPxPl2 = (n nsg/npl-unclear/russ cx:gen pxpl2) (n nsg/npl-unclear/russ cx:nom/gen pxpl2);
 LIST NOUNGenNplUnclearRussPxSg3 = (n nsg/npl-unclear/russ cx:gen pxsg3) (n nsg/npl-unclear/russ cx:nom/gen pxsg3);
 LIST NOUNGenNplUnclearRussPxPl3 = (n nsg/npl-unclear/russ cx:gen pxpl3) (n nsg/npl-unclear/russ cx:nom/gen pxpl3);
+
+LIST NOUNGenNplUnclearRussPx = NOUNGenNplUnclearRussPxSg1 NOUNGenNplUnclearRussPxPl1 NOUNGenNplUnclearRussPxSg2 NOUNGenNplUnclearRussPxPl2 NOUNGenNplUnclearRussPxSg3 NOUNGenNplUnclearRussPxPl3 ;
+
 LIST NOUNIneNplUnclearRussPxSg3 = (n nsg/npl-unclear/russ cx:ine pxsg3);
 LIST NOUNProlNplUnclearRussPxPl3 = (n nsg/npl-unclear/russ cx:prol pxpl3 unclear);
 
@@ -1029,6 +1044,12 @@ LIST NMNNomPlPX = (npl cx:nom pxsg1) (N Pl Nom PxSg1)
  (n:prop npl cx:nom pxpl1) (N Prop Pl Nom PxPl1)
  (n:prop npl cx:nom pxpl2) (N Prop Pl Nom PxPl2)
  (n:prop npl cx:nom pxpl3) (N Prop Pl Nom Pxpl3);
+
+LIST UnclearNMNNomSPPX = (nsg/npl-unclear/russ cx:nom pxsg1)
+ (nsg/npl-unclear/russ cx:nom pxsg2)
+ (nsg/npl-unclear/russ cx:nom pxpl1)
+ (nsg/npl-unclear/russ cx:nom pxpl2)
+ (nsg/npl-unclear/russ cx:nom pxpl3);# unclear singular vs plural marking for nominative CHECKME 2024-12-30
 
 LIST SPNomPX = NAdjSgNomPxSg1 NAdjSgNomPxSg2 NAdjSgNomPxSg3 NAdjSgNomPxPl1 NAdjSgNomPxPl2 NAdjSgNomPxPl3 NAdjPlNomPxSg1 NAdjPlNomPxSg2 NAdjPlNomPxSg3 NAdjPlNomPxPl1 NAdjPlNomPxPl2 NAdjPlNomPxPl3  AJJSgNomPxSg1 AJJSgNomPxSg2 AJJSgNomPxSg3 AJJSgNomPxPl1 AJJSgNomPxPl2 AJJSgNomPxPl3 AJJPlNomPxSg1 AJJPlNomPxSg2 AJJPlNomPxSg3 AJJPlNomPxPl1 AJJPlNomPxPl2 AJJPlNomPxPl3  NOUNSgNomPxSg1 NOUNSgNomPxSg2 NOUNSgNomPxSg3 NOUNSgNomPxPl1 NOUNSgNomPxPl2 NOUNSgNomPxPl3 NOUNPlNomPxSg1 NOUNPlNomPxSg2 NOUNPlNomPxSg3 NOUNPlNomPxPl1 NOUNPlNomPxPl2 NOUNPlNomPxPl3  PNOUNSgNomPxSg1 PNOUNSgNomPxSg2 PNOUNSgNomPxSg3 PNOUNSgNomPxPl1 PNOUNSgNomPxPl2 PNOUNSgNomPxPl3 PNOUNPlNomPxSg1 PNOUNPlNomPxSg2 PNOUNPlNomPxSg3 PNOUNPlNomPxPl1 PNOUNPlNomPxPl2 PNOUNPlNomPxPl3 NMNNomSgPX NMNNomPlPX ;#Nominals with nominative in possessive declension
 
@@ -1110,11 +1131,17 @@ LIST Ptcp1DefPlGen = (ptcp1 def npl cx:gen);
 
 LIST PostpPrep = postp/prep Adp Po;
 
-SET PostpNoPX = Po - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 ;#postposition without PX
+SET PostpNoPX = PostpPrep - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 ;#postposition without PX
+#SET PostpNoPX = Po - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 ;#postposition without PX
 SET EJSTENoPX = (postp:EZ cx:ela) | ("эйстэ" Adp Ela) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3  ;# эйстэ
 
 SET RelatIneNoPX = (N Relat SP Ine Indef) | ("лангсо" postp/prep cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("куншкасо" postp/prep cx:ine)  - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("пря" n indf nsg cx:ine) | ("потсо" postp/prep cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("чире" n indf nsg cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("ютксо" postp/prep cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("кедь" n indf nsg cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 ;#adp or relat without px inessive for SPRED candidate
 
+SET RelatPrlNoPX = (N Relat SP Prl Indef) | ("ланга" postp/prep cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("куншкава" postp/prep cx:prol)  - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("пря" n indf nsg cx:prol) | ("потмова" postp/prep cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("чире" n indf nsg cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("юткова" postp/prep cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("кедь" n indf nsg cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 ;#adp or relat without px inessive for SPRED candidate
+
+SET RelatOblNoPX =  (N Relat SP Ine Indef) | ("лангсо" postp/prep cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("куншкасо" postp/prep cx:ine)  - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("пря" n indf nsg cx:ine) | ("потсо" postp/prep cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("чире" n indf nsg cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("ютксо" postp/prep cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("кедь" n indf nsg cx:ine) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 |
+(N Relat SP Prl Indef) | ("ланга" postp/prep cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("куншкава" postp/prep cx:prol)  - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("пря" n indf nsg cx:prol) | ("потмова" postp/prep cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("чире" n indf nsg cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("юткова" postp/prep cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 | ("кедь" n indf nsg cx:prol) - PxSg1 - PxSg2 - PxSg3 - PxPl1 - PxPl2 - PxPl3 ;#adp or relat without px inessive for SPRED candidate
+ # contains Ine, Prl maybe include Loc soon
 
 SET PronPersSg2DatShort = (pron:pers cx:all pxsg2) - (pron:pers nsg cx:all pxsg2) | (Pron Pers Sg2 Dat Short); #CheckMe 2021-11-21 Is there really such a thing in Erzya?
 SET PronPersPl2DatShort = (pron:pers cx:all pxpl2) - (pron:pers npl cx:all pxpl2) | (Pron Pers Pl2 Dat Short);
@@ -1228,8 +1255,8 @@ LIST PronIndefSgAbl = (pron:indef indf nsg cx:abl);
 LIST PronIndefPlAbl = (pron:indef indf npl cx:abl);
 LIST PronIndefSgGenDerN = (pron:indef indf nsg gen-derN);
 LIST PronIndefPlGenDerN = (pron:indef indf npl gen-derN);
-LIST PronInterIndefSgNom = (pron:inter indf nsg cx:nom);
-LIST PronInterIndefPlNom = (pron:inter indf npl cx:nom);
+LIST PronInterIndefSgNom = (pron:inter indf nsg cx:nom) ("мезе" Pron Sg Nom Indef) ("кие" Pron Sg Nom);
+LIST PronInterIndefPlNom = (pron:inter indf npl cx:nom) ("мезе" Pron Pl Nom Indef) ("кие" Pron Pl Nom);
 LIST PronInterIndefSgGen = (pron:inter indf nsg cx:gen);
 LIST PronInterIndefPlGen = (pron:inter indf npl cx:gen);
 LIST PronRelSgNomIndef = (pron:subord indf nsg cx:nom) ("кие" Pron Rel Sg Nom) ("кона" Pron Rel Sg Nom Indef) ;
@@ -1240,13 +1267,13 @@ LIST PronRelPlNomDef =(pron:subord def npl cx:nom) ("кие" Pron Rel Pl Nom Def
 LIST PronRelSPGenIndef = (pron:subord indf nsg cx:gen) ("кие" Pron Rel SP Gen) ("кона" Pron Rel SP Gen Indef) ;
 LIST PronRelSgGenDef = (pron:subord def nsg cx:gen) ("кона" Pron Rel Sg Gen Def) ;
 LIST PronPersNom = (pron:pers cx:nom) (Pron Pers Nom);
-LIST PronPersSg1Nom = ("мон" pron:pers nsg cx:nom) (Pron Pers Sg1 Nom);
-LIST PronPersSg2Nom = ("тон" pron:pers nsg cx:nom) (Pron Pers Sg2 Nom);
-LIST PronPersSg3Nom = ("сон" pron:pers nsg cx:nom) (Pron Pers Sg3 Nom);
+LIST PronPersSg1Nom = ("мон" pron:pers nsg cx:nom) ("монсь" pron:pers def nsg cx:nom) (Pron Pers Sg1 Nom) (Pron Refl Sg1 Nom);
+LIST PronPersSg2Nom = ("тон" pron:pers nsg cx:nom) ("тонсь" pron:pers def nsg cx:nom) (Pron Pers Sg2 Nom) (Pron Refl Sg2 Nom);
+LIST PronPersSg3Nom = ("сон" pron:pers nsg cx:nom) ("сонсь" pron:pers def nsg cx:nom) (Pron Pers Sg3 Nom) (Pron Refl Sg3 Nom);
 LIST PronPersSgNom = (pron:pers nsg cx:nom) (Pron Pers Sg1 Nom) (Pron Pers Sg2 Nom) (Pron Pers Sg3 Nom) ;
-LIST PronPersPl1Nom = ("мон" pron:pers npl cx:nom) (Pron Pers Pl1 Nom);
-LIST PronPersPl2Nom = ("тон" pron:pers npl cx:nom) (Pron Pers Pl2 Nom);
-LIST PronPersPl3Nom = ("сон" pron:pers npl cx:nom) (Pron Pers Pl3 Nom);
+LIST PronPersPl1Nom = ("мон" pron:pers npl cx:nom) ("монсь" pron:pers def npl cx:nom) (Pron Pers Pl1 Nom) (Pron Refl Pl1 Nom);
+LIST PronPersPl2Nom = ("тон" pron:pers npl cx:nom) ("тонсь" pron:pers def npl cx:nom) (Pron Pers Pl2 Nom) (Pron Refl Pl2 Nom);
+LIST PronPersPl3Nom = ("сон" pron:pers npl cx:nom) ("сонсь" pron:pers def npl cx:nom) (Pron Pers Pl3 Nom) (Pron Refl Pl3 Nom);
 LIST PronPersPlNom = (pron:pers npl cx:nom) (Pron Pers Pl1 Nom) (Pron Pers Pl2 Nom) (Pron Pers Pl3 Nom) ;
 
 SET PronPersSg1NomNoCop = ("мон" pron:pers nsg cx:nom) - (mod:ind) - (mod:conj) | (Pron Pers Sg1 Nom) - (Clt/Cop) ;
@@ -1293,7 +1320,7 @@ LIST SEMBESGNOM = ("сембе" pron:VESEgroup indf nsg cx:nom);#"сембе" ev
 LIST LOCATIVE = Loc Ine ;
 SET LOCATIVE-NOCLT = LOCATIVE - (Clt/Cop) - (Pl);
 
-SET SUBJECTCANDIDATESG3 = NMNNomSgPX OR PronPersSg3Nom OR SGNOMDEF;
+SET SUBJECTCANDIDATESG3 = NMNNomSgPX | PronPersSg3Nom | SGNOMDEF;
 SET SUBJECTCANDIDATEPL3 = NMNNomPlPX OR PronRelPlNomDef OR PNOUNPlNomDef OR NOUNPlNomDef OR NAdjPlNomDef OR PronPersPl3Nom OR (Num Card Coll Pl Nom Def) ;
 
 SET OBJECTCANDIDATEPL3INDEF = NPropNomPlIndef | NOUNPlNomIndef | NumPlNomIndef ;
@@ -1344,7 +1371,7 @@ SET a-finpred = (Clt/Cop) | (mod:ind) - vfin | (mod:conj) - vfin;#a-finite predi
  #Оршазель ташто костюмсо.
  # This still needs all instances of Prs+ScSg3 where there is a non-finite present
 
-LIST IMPRTVERBS = "азё" "на" "ужо" "эрь" "ярь" ; # These are verbs that only appear in imperative does this require <myv>
+LIST IMPRTVERBS = "адя" "азё" "айдо" "айда" "ва" "дай" "дайте" "давай" "на" "нава" "пандя" "ужо" "эрь" "ярь" ; # These are verbs that only appear in imperative does this require <myv>
 #SET VFIN = vfin | MOOD-V | ConNeg; #finite verbs
 SET VFIN = vfin | MOOD-V - MOODAUXPCLE | IMPRTVERBS ; #finite verbs
 # there should be an hierarchy of other-than-finite-verb entities
@@ -1355,8 +1382,8 @@ SET FINCOPULA = ULEMS + MOOD-V; #Will this give me finite copula? 2022-02-15
 LIST SCONJSHTOBU = "штобу" "штоба" ;#
 
 
-LIST OBLIQUECASES = cx:abe cx:abl cx:all cx:gen cx:ill cx:ine cx:lat cx:loc cx:prl cx:transl  Abe Abl Com Cmpr Dat Ela Gen Ill Ine Lat Loc Prl TempCx Trl Temp ;
-LIST NONCORECASES = cx:abe cx:abl cx:ill cx:ine cx:lat cx:loc cx:prl cx:transl  Abe Abl Com Cmpr Ela Ill Ine Lat Loc Prl TempCx Trl Temp ;#
+LIST OBLIQUECASES = cx:abe cx:abl cx:all cx:gen cx:ill cx:ine cx:lat cx:loc cx:prol cx:transl  Abe Abl Com Cmpr Dat Ela Gen Ill Ine Lat Loc Prl TempCx Trl Temp ;
+LIST NONCORECASES = cx:abe cx:abl cx:ill cx:ine cx:lat cx:loc cx:prol cx:transl  Abe Abl Com Cmpr Ela Ill Ine Lat Loc Prl TempCx Trl Temp ;#
 
 LIST WORD = n/adj Po A Adv CC CS Interj N Num Pcle Pron V;
 LIST NON-VERB = n/adj Po A Adv CC CS Interj N Num Pcle Pron ;
@@ -1397,7 +1424,8 @@ SET VSUBJCONJ = VfinVsg1 | VfinVsg2 | VfinVsg3 | VfinVpl1 | VfinVpl2 | VfinVpl3 
 LIST VfinPretSIVpl3 = (vfin mod:ind temp:pretS/I vpl3);
 LIST VfinPretSIVpl3Cpound = (vfin mod:ind temp:pres vsg1 cpound-end/cpound-unsegm);
 SET VfinSC = VfinVsg1 | VfinVsg2 | VfinVsg3 | VfinVpl1 | VfinVpl2 | VfinVpl3; #2022-01-26 subject conjugated verbs not copulas without object marking
-SET VfinSCNOTPL3 = VfinVsg1 | VfinVsg2 | VfinVsg3 | VfinVpl1 | VfinVpl2 ;#subject conjugation not PL3
+SET VfinSCNOTPL3 = VfinVsg1 | VfinVsg2 | VfinVsg3 | VfinVpl1 | VfinVpl2 ;#subject conjugation not ScPl3
+SET VfinSCNOTSG3 = VfinVsg1 | VfinVsg2 | VfinVpl1 | VfinVpl2 | VfinVpl3 ;#subject conjugation not ScSg3
 
 SET VFINPERSONSUBJ =  VFINSG1SUBJ | VFINSG2SUBJ | VFINSG3SUBJ | VFINPL1SUBJ | VFINPL2SUBJ | VFINPL3SUBJ ;
 
@@ -1420,6 +1448,8 @@ LIST VOCPL1 = (dsg2-opl1) (dpl2-opl1) (dsg3-opl1) (dpl3-opl1) (ScSg2 OcPl1) (ScP
 LIST VOCSG3 = (dsg1-osg3) (dpl1-osg3) (dsg2-osg3) (dpl2-osg3) (dsg3-osg3) (dpl3-osg3) (ScSg1 OcSg3) (ScPl1 OcSg3) (ScSg2 OcSg3) (ScPl2 OcSg3) (ScSg3 OcSg3) (ScPl3 OcSg3)  (dpl2-osg3/opl3) (vpl1/dpl1-osg3/opl3) (dpl3-osg3/opl3);#some oSP ambiguity
 LIST VOCSG2 = (dsg1-osg2) (dpl1-osg2) (dsg3-osg2) (dpl3-osg2) (ScSg1 OcSg2) (ScPl1 OcSg2) (ScSg3 OcSg2) (ScPl3 OcSg2) ;
 LIST VOCSG1 = (dsg2-osg1) (dpl2-osg1) (dsg3-osg1) (dpl3-osg1) (ScSg2 OcSg1) (ScPl2 OcSg1) (ScSg3 OcSg1) (ScPl3 OcSg1) ;
+
+LIST VOCPERSONForScSg3 = (dunclear-opl3) (dsg3-opl3) (ScSg3 OcPl3) (dunclear-opl2) (dsg3-opl2) (ScSg3 OcPl2) (dunclear-opl1) (dsg3-opl1) (ScSg3 OcPl1) (dunclear-osg3) (dsg3-osg3) (ScSg3 OcSg3) (dunclear-osg2) (dsg3-osg2) (ScSg3 OcSg2) (dunclear-osg1) (dsg3-osg1) (ScSg3 OcSg1); 
 
 SET VOCPERSON =  VOCSG1 | VOCSG2 | VOCSG3 | VOCPL1 | VOCPL2 | VOCPL3 ;
 
@@ -1548,7 +1578,7 @@ SET FOR-VOCSG1 = VFIN - VOCPL3 - VOCPL2 - VOCPL1 - VOCSG3 - VOCSG2 ;
 
 SET SCPERSON =  ScSg1 | ScSg2 | ScSg3 | ScPl1 | ScPl2 | ScPl3 ;
 
-SET NONVCENTERS = (ptcp1) | (ptcp2) | (ptcp3) | (ptcp4) | VOblig | (n/adj) | (n) | (adj) | (adv:pron) | (pron:LIJAgroup) | Clt/Cop | (postp/prep cx:ine) | Gen | Loc ;#non-verb centers, predicates
+SET NONVCENTERS = (ptcp1) | (ptcp2) | (ptcp3) | (ptcp4) | VOblig | (n/adj) | (n) | (adj) | (adv:pron) | (pron:LIJAgroup) | Clt/Cop | (postp/prep cx:ine) | Gen | Loc | Ine ;#non-verb centers, predicates
 
 SET NONVCENTERSSG = PostpInePX | NOUNSPInePX | PostpPrlPX | NOUNSPPrlPX | (cx:ine pxsg1) | (cx:ine pxsg2) | (cx:ine pxsg3) | (cx:ine pxpl1) | (cx:ine pxpl2) | (cx:ine pxsg3) | (cx:ine) | (Clt/Cop Prs ScSg3) | (Clt/Cop Prt2 ScSg3) ;#non-verbal predicate candidates for singular subjects. Here third person has ZERO marking
 
@@ -1807,7 +1837,6 @@ LIST adv:NEJgroup = adv:NEJgroup;
 LIST cnj:coord = cnj:coord;
 LIST cnj:subord = cnj:subord;
 LIST postp:EZ = postp:EZ;
-LIST postp/prep = postp/prep;
 LIST imper-particle = imper-particle;
 LIST interj = interj;
 LIST prep:russ = prep:russ;
@@ -1818,6 +1847,11 @@ LIST neg:A = neg:A ("а" Pcle Neg) ("а" V Aux Neg);
 # а V+Aux+Neg
 LIST neg:Agroup = neg:Agroup ;
 LIST neg:ARAS = neg:ARAS;
+LIST temp:pretL = temp:pretL ;
+LIST vpl3 = vpl3 ;
+SET ARASPl3 = (neg:ARAS vpl3) | (neg:ARAS temp:pretL vpl3) | ("арась" V Aux Neg Loc Prs ScPl3) | ("арась" V Aux Neg Loc Prt2 ScPl3) ;
+SET ARASSg3 = neg:ARAS - vpl3 | ("арась" V Aux Neg Loc Prs ScSg3) | ("арась" V Aux Neg Loc Prt2 ScSg3) ;#temp:pretL
+
 LIST neg:AVOL = neg:AVOL;
 LIST neg:ES = neg:ES;
 LIST neg:imper/optat = neg:imper/optat;
@@ -1844,7 +1878,6 @@ SET PrfPrcF = ptcp2 - Def - Indef - Pl - Sg - Ind | (Der/f PrfPrc) ;#Moksha-f
 #Der/f+PrfPrc+Sg+Nom+Indef
 SET VERBWITHMO_FIN = VERBWITHMO - NONFINITES ;#finite verbs that take MO/ME xcomp 
 SET VERBWITHMS_FIN = VERBWITHMS + VFIN ;#finite verbs that take MS xcomp 
-
 
 # Cases
 LIST cx:nom = cx:nom;
@@ -2099,6 +2132,7 @@ MAP (@SPRED) TARGET IDEOPHONES IF (-1 SUBJECTCANDIDATESG3 OR NOUNSgNomIndef OR A
 
 MAP (@SUBJ>) TARGET SUBJECTCANDIDATESG3 OR NOUNSgNomIndef OR AJJSgNomIndef OR NAdjSgNomIndef IF (1 IDEOPHONES);
     #голой ёлчк, понав лавцк.
+    #should this be COPSUBJ?
 
 # 11->44301
 # sehe, (vaga)
@@ -2141,7 +2175,8 @@ MAP (@>A) TARGET ("эрьва" Det Sg Nom Indef) IF (1 ("кодамо"));# эр�
 MAP (@>ADVL) TARGET ("пек") IF (1 Adv OR (n/adj indf nsg cx:ela));# пек бойкасто
 # auxiliaries and main verbs
 
-
+MAP (@>N) TARGET VESENOMSG IF (1 N) (0* VFIN OR Dat OR cx:all BARRIER CLB OR EOS OR BOS OR CConj);
+    # калнэнь ведь: нармуннень воздух, а ломаннень [весе] мастор.
 
 # 11->41699
 # _Pirgime_ ... makaza
@@ -2153,6 +2188,9 @@ MAP (@<SUBJ) TARGET PNOUNSgNom IF (*-1 VfinIndScSg3OcSP BARRIER CLB)
 MAP (@SUBJ>) TARGET PNOUNSgNom IF (*1 VfinIndScSg3OcSP BARRIER CLB)
                                (NOT 1 Infinitives)
                                (NOT 1 PostpNoPX);
+MAP (@<SUBJ) TARGET VESENOMSG IF (*-1 VOCPERSONForScSg3 BARRIER CLB OR BOS) (NOT 1 N);
+MAP (@SUBJ>) TARGET VESENOMSG IF (*1 VOCPERSONForScSg3 BARRIER CLB OR EOS) (NOT 1 N);
+ #beware of: берянь чубине весе паксянть вельтизе
 
 
 MAP (@+FMAINV) TARGET VfinVsg3 IF (*0 PNOUNSgNom BARRIER CLB);
@@ -2267,7 +2305,7 @@ MAP (@SPRED) TARGET NAdjSgNomIndef OR AJJSgNomIndef IF (-1 EJSTENoPX) (1 CLB OR 
 MAP (@SPRED) TARGET GerOzj (-1 ("мезе" Sg Nom Def));#Der/Ozj
 # from @PRED 2023_02_23
 
-MAP:quantifierQestion (@SPRED) TARGET ("зяро" adv:quantity) IF (*1 Ine BARRIER CLB LINK *1 SUBJECTCANDIDATESG3 OR SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS);#
+MAP:quantifierQuestion (@SPRED) TARGET ("зяро" adv:quantity) IF (*1 Ine BARRIER CLB LINK *1 SUBJECTCANDIDATESG3 OR SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS);#
 
 
 #MAP (@ADVL-habitive>) TARGET NPropGen IF (1 FINCOPULA);
@@ -2307,10 +2345,24 @@ MAP:existentialIne (@ADVL-locative>) TARGET EXISTENTINEBASE IF (1* NOUNSgNomInde
 MAP:existentialSubj (@<SUBJ-ext) TARGET NOUNSgNomIndef IF (-1* EXISTENTINEBASE) (NEGATE 0* FNOTAUXVERBS OR FAUXVERBS BARRIER CLB OR EOS OR BOS);
     #Прясонзо берякшке картуз, кедьпесэнзэ кандстке.
 
-MAP (@SUBJ>) TARGET VESENOMSG IF (1* VFINPL3SUBJ BARRIER CLB OR EOS OR N);
+MAP (@<SUBJ) TARGET VESENOMSG IF (*-1 VFINPL3SUBJ BARRIER CLB OR BOS) (NOT 1 N);
+MAP (@SUBJ>) TARGET VESENOMSG IF (*1 VFINPL3SUBJ BARRIER CLB OR EOS) (NOT 1 N);
     # весе удыльть
 
+MAP (@COP<SUBJ) TARGET VESENOMSG IF (*-1 NOUNPlNomIndef BARRIER CLB OR EOS OR CConj)
+      		       		    (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj)
+				    (NOT *0 @COP<SUBJ BARRIER CLB OR EOS OR BOS OR CConj);
+MAP (@COPSUBJ>) TARGET VESENOMSG IF (*1 NOUNPlNomIndef BARRIER CLB OR EOS OR CConj)
+                                    (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj)
+				    (NOT *0 @COPSUBJ> BARRIER CLB OR EOS OR BOS OR CConj);;
+    # NB: весе долкось лангсо
+
+MAP (@ADVL>) TARGET VESENOMSG IF (1 (n/adj indf nsg cx:nom) OR (adj indf nsg cx:nom) OR NONVCENTERS LINK 1 CLB OR EOS) (NOT *0 VFINPL3SUBJ BARRIER CLB OR BOS OR EOS);
+    # Пандя лангсо ашти баба,весе панксов: кона а юты, авардеме карми. ‘completely covered with patches’
+
 MAP:IntercedingMeriat  (@SUBJ>) TARGET (Sg Nom Def) IF (1 Comma) (2 ("меремс" ScPl2) OR ("меремс" ScSg2)) (3 Comma) (4* VFINSG3SUBJ BARRIER CLB OR EOS LINK NEGATE 0* SUBJECTCANDIDATESG3 BARRIER CLB OR EOS);
+
+MAP:bashkaABL (@>P) TARGET NOUNSPAbl IF (1 ("башка")); 
 
 #MAP:TalkAboutABL (@ADVL> <ablabout>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR BASHKATAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
 MAP:TalkAboutABL (@ADVL>) TARGET (Pron Indef SP Abl) IF (NEGATE 1 POSTPTAKESABL OR BASHKATAKESABL OR NOUNTAKESABL) (1* VERBTAKESABL);
@@ -2344,7 +2396,10 @@ MAP (@ADVL>) TARGET NONCORECASES OR Adv IF (*1 VFIN BARRIER CLB OR EOS);
     #шождынестэ: штобу пятакось шождынестэ ютаволь
     # ансяк пичкавтынк монь Андреень
     # problems: озадо чайде симеме
-    
+
+MAP (@<ADVL) TARGET ("эйсэ" postp:EZ cx:ine) IF (*-1 @SPRED BARRIER CLB OR BOS);#
+MAP (@ADVL>) TARGET ("эйсэ" postp:EZ cx:ine) IF (*1 @SPRED BARRIER CLB OR EOS);#
+
 #
 MAP (@ADVL>) TARGET Dat IF (1 MEREMSDATWITHNOM) (2 (Nom Indef));#наукантень мерить естествознания
 
@@ -2403,6 +2458,9 @@ MAP (@NEG) TARGET Neg; # IF (NOT 1 CLB); ???
 # totene nicht (ezize _taraft_)
 MAP (@CONNEG) TARGET ConNeg;
 
+## postpositions with definite nominative
+MAP:DefNomWithSubsequPostp (@>P) (n def npl cx:nom) IF (1 PostpNoPX) (0* (n def npl cx:nom) OR (n indf nsg cx:nom) OR (N Pl Nom Def));
+   #одижатне ланга якстере каркс карксазь
 
 # Identifying @-FSUBJ
 #MAP (@-FSUBJ1) TARGET Gen IF (1 Ptcp2); These may be off with wrong names Not VOblig
@@ -2430,6 +2488,16 @@ MAP (@CONNEG) TARGET ConNeg;
 # Ох, уш, те а_паронь саема пастухось.
 
 
+##
+MAP (@<SUBJ) TARGET MEZEJAKSgNomIndef IF (*-1 ARASSg3 BARRIER CLB OR BOS) (NOT 1 PostpNoPX);
+
+MAP (@SUBJ>) TARGET MEZEJAKSgNomIndef IF (*1 ARASSg3 BARRIER CLB OR EOS) (NOT 1 PostpNoPX);
+
+MAP (@<OBJ) TARGET MEZEJAKSgNomIndef IF (*-1 VfinSCNOTSG3 OR VfinVsg3 BARRIER CLB OR BOS) (NOT 1 PostpNoPX);
+
+MAP (@OBJ>) TARGET MEZEJAKSgNomIndef IF (*1 VfinSCNOTSG3 OR VfinVsg3 BARRIER CLB OR EOS) (NOT 1 PostpNoPX);
+	# Мезеяк эзинь нее мон.
+
 #Obvious subjects
 MAP (@SUBJ>) TARGET SUBJECTCANDIDATESG3 OR (Pron Dem Sg Nom Indef) IF (1 VFIN OR MOOD-V) ;
     	     #Те эряви сень кискак, ...
@@ -2449,16 +2517,28 @@ MAP (@SUBJ>) TARGET SUBJECTCANDIDATEPL3 OR NOUNPlNomPxPl3 OR NOUNPlNomPxPl2 OR N
 MAP (@SUBJ>) TARGET AJJSgNomIndef IF (-1 @CVP ) (1 VFINSG3SUBJ) (2  CLB OR EOS);
     #раужо: , а раужо сёлги.
 
-MAP (@SUBJ>) TARGET NMNSgNomIndefSUBJ IF (*1 VFINSG3SUBJ BARRIER CLB OR EOS OR @CVP) (NOT *-1 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS) (NOT *1 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS) (NOT 1 PostpNoPX);
+MAP (@SUBJ>) TARGET NMNSgNomIndefSUBJ IF (*1 VFINSG3SUBJ BARRIER CLB OR EOS OR @CVP) (NEGATE *0 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS OR EOS) (NOT 1 PostpNoPX);
  #— Шумбрат, — каясь вал бабатнестэ вейкесь ды поладсь ялганстэнь:
+ # , а сонсь весе мастор мазылгавты.
 
-MAP (@<SUBJ) TARGET NMNSgNomIndefSUBJ IF (*-1 VFINSG3SUBJ BARRIER CLB OR BOS OR @CVP) (NOT *-1 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS) (NOT *1 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS) (NOT 1 PostpNoPX);
+MAP (@<SUBJ) TARGET NMNSgNomIndefSUBJ IF (*-1 VFINSG3SUBJ BARRIER CLB OR BOS OR @CVP) (NEGATE *0 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS OR EOS) (NOT 1 PostpNoPX);
+#MAP (@<SUBJ) TARGET NMNSgNomIndefSUBJ IF (*-1 VFINSG3SUBJ BARRIER CLB OR BOS OR @CVP) (NOT *-1 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS) (NOT *1 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS) (NOT 1 PostpNoPX);
 
+MAP (@SUBJ>) TARGET PronInterIndefSgNom IF (*1 VFINSG3SUBJ BARRIER CLB OR EOS OR @CVP) (NOT 1 PostpNoPX);
+    # кие ведь ланга сэдь сэди узеревтеме рубанкавтомо?
+    
+MAP (@<SUBJ) TARGET PronInterIndefSgNom IF (*-1 VFINSG3SUBJ BARRIER CLB OR EOS OR @CVP) (NOT 1 PostpNoPX);
+    # кадовикс сюронь мезе пурнасы?
+    
 MAP (@<SUBJ) TARGET SUBJECTCANDIDATESG3 IF (-1* VFINPL3SUBJ BARRIER CLB OR BOS OR @CVP) (1 @CNP LINK 1* SUBJECTCANDIDATESG3 BARRIER NPBARRIER OR CLB OR EOS);
    #отделэсь: Сонзэ ютавтызь народной образованиянь Саранск ошонь отделэсь ды ошонь методической кабинетэсь 1977 иенть прядовомсто.
 MAP (@<SUBJ) TARGET SUBJECTCANDIDATESG3 IF (-1* @CNP  BARRIER NPBARRIER OR CLB OR BOS LINK -1 SUBJECTCANDIDATESG3 LINK -1* VFINPL3SUBJ BARRIER CLB OR BOS OR @CVP);
    #кабинетэсь: Сонзэ ютавтызь народной образованиянь Саранск ошонь отделэсь ды ошонь методической кабинетэсь 1977 иенть прядовомсто.
 
+## OBJ 2025-01-01
+MAP (@OBJ>) TARGET NOUNSgNomIndef IF (*1 VSUBJCONJ BARRIER CLB OR EOS) (0* SUBJECTCANDIDATESG3 OR SUBJECTCANDIDATEPL3 BARRIER CLB OR BOS OR EOS) (NOT 1 PostpNoPX); 
+MAP (@<OBJ) TARGET NOUNSgNomIndef IF (*-1 VSUBJCONJ BARRIER CLB OR BOS) (0* SUBJECTCANDIDATESG3 OR SUBJECTCANDIDATEPL3 BARRIER CLB OR BOS OR EOS) (NOT 1 PostpNoPX); 
+	
 ## SPRED
 MAP (@SPRED) TARGET AJJSgNomIndef OR NOUNSgNomIndef IF (-2 @CNP OR CLB OR BOS) (-1 SUBJECTCANDIDATESG3) (1 CLB OR EOS);# from @PRED 2023_02_23
 MAP (@SPRED) TARGET AJJPlNomIndef OR NOUNPlNomIndef IF (-2 @CNP OR CLB OR BOS) (-1 SUBJECTCANDIDATEPL3 OR NOUNPlNomPxPl3 OR NOUNPlNomPxPl2 OR NOUNPlNomPxPl1 OR NOUNPlNomPxSg3 OR NOUNPlNomPxSg2 OR NOUNPlNomPxSg1) (1 CLB OR EOS OR @CNP ); # from @PRED 2023_02_23
@@ -2497,19 +2577,41 @@ MAP (@COPSUBJ>) TARGET ("кона" indf npl cx:nom) IF (1 GerOzj) (NOT *0 VFIN B
 
 MAP (@COPSUBJ>) TARGET (Pron Sg Nom Indef) OR NPropSgNomIndef IF (1 VfinVsg3 OR NONVSG3) (NOT *0 VFIN BARRIER CLB OR BOS OR EOS);
 
+MAP (@COP<SUBJ) TARGET NOUNSgNomDef OR PronInterIndefSgNom IF (NEGATE *1 NONVCENTERS BARRIER CLB OR EOS)
+    		       		       (*-1 NONVCENTERS BARRIER CLB OR EOS)
+				       (NOT 0* VFIN BARRIER CLB OR BOS OR EOS)
+				       (NOT 1 PostpNoPX);
+
+MAP (@COPSUBJ>) TARGET NOUNSgNomDef OR PronInterIndefSgNom IF (NEGATE *-1 NONVCENTERS BARRIER CLB OR BOS)
+                                       (*1 NONVCENTERS BARRIER CLB OR EOS)
+				       (NOT 0* VFIN BARRIER CLB OR BOS OR EOS)
+				       (NOT 1 PostpNoPX);
+   # Мастор лангсо мезе сех шуткав?
+
 MAP (@COP<SUBJ) TARGET SUBJECTCANDIDATESG3 IF (*-1 NONVSG3 BARRIER CLB OR BOS) (NOT *0 VFIN BARRIER CLB OR BOS OR EOS);
 
 MAP (@COP<SUBJ) TARGET NOUNSgNomIndef OR (n indf nsg cx:nom) IF (*-3 VFINSG3SUBJ BARRIER CLB OR BOS) (-2 (",")) (-1 A OR (indf nsg cx:nom)) (1 (",")) (2 ("кона"));
     #интеллигенция: народонть ютксто лиссь од, социалистической интеллигенция, кона
 
-MAP (@COPSUBJ>) TARGET NOUNSgNomIndef IF (*1 NONVCENTERSSG BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NOT *-1 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS OR CConj) (NOT *1 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR CConj) (NOT 1 CLB OR EOS);
+MAP (@COP<SUBJ) TARGET NOUNSgNomIndef IF (*1 NONVCENTERSSG BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (*-1 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS OR CConj) (NOT *1 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR CConj) (NOT 1 postp/prep OR CLB OR EOS);
+#MAP (@COP<SUBJ) TARGET NOUNSgNomIndef IF (*1 NONVCENTERSSG BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NOT *-1 SUBJECTCANDIDATESG3 BARRIER CLB OR BOS OR CConj) (NOT *1 SUBJECTCANDIDATESG3 BARRIER CLB OR EOS OR CConj) (NOT 1 CLB OR EOS);
     #
 
-MAP (@COPSUBJ>) TARGET NOUNPlNomIndef IF (*1 NONVCENTERSPL BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NOT *-1 SUBJECTCANDIDATEPL3 BARRIER CLB OR BOS OR CConj) (NOT *1 SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS OR CConj);
+MAP (@COP<SUBJ) TARGET VESENOMSG IF (*-1 NONVCENTERSPL BARRIER CLB OR EOS OR CConj)
+      		       		    (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj)
+				    (NOT *0 @COP<SUBJ BARRIER CLB OR EOS OR BOS OR CConj);
+MAP (@COPSUBJ>) TARGET VESENOMSG IF (*1 NONVCENTERSPL BARRIER CLB OR EOS OR CConj)
+                                    (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj)
+				    (NOT *0 @COPSUBJ> BARRIER CLB OR EOS OR BOS OR CConj);;
+    # NB: весе долкось лангсо
+
+MAP (@COP<SUBJ) TARGET NOUNPlNomIndef IF (*-1 NONVCENTERSPL BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NEGATE 0* SUBJECTCANDIDATEPL3 BARRIER CLB OR BOS OR EOS OR CConj);
+MAP (@COPSUBJ>) TARGET NOUNPlNomIndef IF (*1 NONVCENTERSPL BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NEGATE 0* SUBJECTCANDIDATEPL3 BARRIER CLB OR BOS OR EOS OR CConj);
+#MAP (@COPSUBJ>) TARGET NOUNPlNomIndef  IF (*1 NONVCENTERSPL BARRIER CLB OR EOS OR CConj) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NOT *-1 SUBJECTCANDIDATEPL3 BARRIER CLB OR BOS OR CConj) (NOT *1 SUBJECTCANDIDATEPL3 BARRIER CLB OR EOS OR CConj);
     #сиянь андямо лангсонзо, сиянь одюжат лангсонзо, сиянь шапка прясонзо
 
-MAP (@<SUBJ) TARGET SUBJECTCANDIDATESG3 OR NOUNSgNomIndef IF (*-1 RelatIneNoPX LINK -1 NOUNSgNomIndef OR NOUNSgGenDef OR NOUNPlGenDef) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj);
-MAP (@<SUBJ) TARGET SUBJECTCANDIDATEPL3 OR NOUNPlNomIndef IF (*-1 RelatIneNoPX LINK -1 NOUNSgNomIndef OR NOUNSgGenDef OR NOUNPlGenDef) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj);
+MAP (@COP<SUBJ) TARGET SUBJECTCANDIDATESG3 OR NOUNSgNomIndef IF (*-1 RelatIneNoPX LINK -1 NOUNSgNomIndef OR NOUNSgGenDef OR NOUNPlGenDef) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NOT 1 PostpNoPX);
+MAP (@COPSUBJ>) TARGET SUBJECTCANDIDATEPL3 OR NOUNPlNomIndef IF (*1 RelatIneNoPX LINK -1 NOUNSgNomIndef OR NOUNSgGenDef OR NOUNPlGenDef) (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj) (NOT 1 PostpNoPX);
 
 # work with measures needed
 MAP:measure>n (@HNOUN) TARGET N IF (-1 MEASURES) (1 CLB OR EOS);
@@ -2533,8 +2635,11 @@ MAP (@<OBJ) TARGET OBJECTCANDIDATEPL3INDEF IF (*-2 BOS OR CConj LINK 1 NOTVFINPL
      #пизэ vs нармунь: пачкодсь прязонзо нармунь и ливтсь левкст.
 
 
-MAP (@<OBJ) TARGET NSgNomGenPxAMB (*-1 VOCSG3NOSCSG3) (NOT 1 PostpNoPX);
+MAP (@<OBJ) TARGET NSgNomGenPxAMB (*-1 VOCSG3NOSCSG3 BARRIER CLB OR BOS) (NOT 1 PostpNoPX);
     #кандынек тенк кшинек-салонок
+MAP (@OBJ>) TARGET NSgNomGenPxAMB (*1 VOCSG3NOSCSG3 BARRIER CLB OR BOS) (NOT 1 PostpNoPX);
+    #масторот весе розоряса
+
 
 MAP (@OBJ>) TARGET NSPNomGenPx (*1 VOCPL3) (NOT 1 PostpNoPX);
     #мон нупонеть весе таргсесынь.
@@ -2737,9 +2842,9 @@ MAP (@ADVL>) SEMBESGNOM IF (1 ("сяка" pron:dem indf nsg cx:nom));#as group
 MAP (@ADVL>) ("сяка" pron:dem indf nsg cx:nom) IF (-1 SEMBESGNOM);#as group
 #modal adverbial
 #
+#
 MAP (@>N) TARGET PronVESESgNom IF (1 N) (NOT 1 PostpNoPX)
                                   (NOT 1 CLB OR VFIN);
-    #, мон нупонеть весе таргсесынь.
     
 MAP (@>N) TARGET PronVESESgNom IF (1 CLB)
                                   (2 @>N);
@@ -2755,14 +2860,15 @@ MAP (@>N) TARGET PronIndefPlNom IF (1 CLB)
                                    (2 @>N);
 
 #
-MAP (@>N) TARGET PronInterIndefSgNom IF (NOT 1 PostpNoPX)
-                                        (NOT 1 CLB OR VFIN);
-MAP (@>N) TARGET PronInterIndefPlNom IF (NOT 1 PostpNoPX)
-                                        (NOT 1 CLB OR VFIN);
-MAP (@>N) TARGET PronInterIndefSgNom IF (1 CLB)
-                                        (2 @>N);
-MAP (@>N) TARGET PronInterIndefPlNom IF (1 CLB)
-                                        (2 @>N);
+#MAP (@>N) TARGET PronInterIndefSgNom IF (NOT 1 PostpNoPX)
+#                                        (NOT 1 CLB OR VFIN);
+#MAP (@>N) TARGET PronInterIndefPlNom IF (NOT 1 PostpNoPX)
+#                                        (NOT 1 CLB OR VFIN);
+#MAP (@>N) TARGET PronInterIndefSgNom IF (1 CLB)
+#                                        (2 @>N);
+#MAP (@>N) TARGET PronInterIndefPlNom IF (1 CLB)
+#                                        (2 @>N);
+# VERY difficult to see where мезе or кие in indefinite nominative can be @>N 2025-01-01
 
 #
 MAP (@>N) TARGET PronInterIndefSgGen IF (NOT 1 PostpNoPX)
@@ -3378,7 +3484,11 @@ MAP (@SPRED) TARGET GerOzj IF (NOT *0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR
 MAP (@SPRED) TARGET PrfPrcF IF (NEGATE *0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR CConj); # from @PRED 2023_02_23
     #moksha: стаки пезфоль синтьф налть пец.
 
-
+MAP (@>N) TARGET NAdjSgNomGenPx OR NOUNSgNomGenPxSg1 OR NOUNSgNomGenPxSg2 OR NOUNSgNomGenPxSg3 IF (1 NOUNGenNplUnclearRussPxSg3 LINK 1 PostpNoPX);
+MAP (@>N) TARGET NAdjSgNomGenPx OR NOUNSgNomGenPx IF (1 NOUNGenNplUnclearRussPxSg3 LINK 1 PostpNoPX);
+  # тейтереть кедензэ лангс эли пильгензэ лангс
+  #n nsg cx:nom/gen pxsg2
+  # n nsg/npl-unclear/russ cx:nom/gen pxsg3
 
 MAP (@>N) TARGET PrfPrcF IF (*0 VFIN OR VTEMP BARRIER CLB OR BOS OR EOS OR CConj) (1 N);
     # , пандсть кяж пяяртьф верть и сельмоветтнень
@@ -3512,8 +3622,14 @@ MAP (@OBJ>) TARGET OBJECTCANDIDATEPL3INDEF IF (NOT *-1 VfinSCNOTPL3 BARRIER CLB 
 MAP (@<OBJ) TARGET PronNGen IF (NOT 0 NAdjSgGenIndf OR NOUNSgGenIndf)
                                (NOT 0 NAdjGenNplUnclearRussPxSg3 OR NOUNGenNplUnclearRussPxSg3)
                                (NOT 1 PostpNoPX)
-                               (*-1 VfinSC); #2022-01-26
+                               (*-1 VfinSC BARRIER CLB OR BOS)
+			       (NOT *1 VfinSC BARRIER CLB OR BOS); #2022-01-26
 #                               (*-1 TVFIN);
+MAP (@OBJ>) TARGET PronNGen IF (NOT 0 NAdjSgGenIndf OR NOUNSgGenIndf)
+                               (NOT 0 NAdjGenNplUnclearRussPxSg3 OR NOUNGenNplUnclearRussPxSg3)
+                               (NOT 1 PostpNoPX)
+                               (*1 VfinSC BARRIER CLB OR BOS)
+			       (NOT *-1 VfinSC BARRIER CLB OR BOS); #2025-01-01
 
 MAP (@<OBJ) TARGET PronIndefSgNom IF (-1* VfinSC BARRIER CLB OR BOS) (NOT 1 PostpNoPX) (NOT 0* NOUNSPNomIndef);#is this too powerful? cалакшнить мезеяк
 
@@ -3577,13 +3693,17 @@ MAP (@<OBJ) TARGET NNomIndef IF (*-1 PREDForIndefSG3Obj BARRIER CLB OR BOS) (1 C
 MAP (@OBJ>) TARGET NNomIndef IF (*1 PREDForIndef3ObjNot3Subj BARRIER CLB OR EOS OR CConj) ((-1 CLB OR BOS OR CConj) OR (NOT *-1 PREDForIndef3ObjNot3Subj BARRIER CLB OR BOS OR CConj));
 MAP (@<OBJ) TARGET NNomIndef IF (*-1 PREDForIndef3ObjNot3Subj BARRIER  CLB OR BOS OR CConj) (NOT *1 PREDForIndef3ObjNot3Subj BARRIER CLB OR EOS OR CConj);
 
-
+# need an object marker
+ #раужо тейтень пенгензэ канды
 
 #
 MAP (@OBJ>) TARGET NAdjSgNomGenPxSg2 OR NOUNSgNomGenPxSg2 IF (*1 VOCSG3 BARRIER CLB OR EOS OR @CVP ) (NOT 1 PostpNoPX);
 MAP (@<OBJ) TARGET NAdjSgNomGenPxSg2 OR NOUNSgNomGenPxSg2 IF (*-1 VOCSG3 BARRIER CLB OR BOS OR @CVP ) (NOT 1 PostpNoPX);
 #, мон нупонеть весе таргсесынь.
-MAP (@OBJ) TARGET NAdjSgNomGenPxSg2 OR NOUNSgNomGenPxSg2 IF (NOT 1 PostpNoPX);
+MAP (@<OBJ) TARGET NAdjSgNomGenPxSg2 OR NOUNSgNomGenPxSg2 IF (*-1 VFIN BARRIER CLB OR BOS) (NOT 1 PostpNoPX);
+MAP (@OBJ>) TARGET NAdjSgNomGenPxSg2 OR NOUNSgNomGenPxSg2 IF (*1 VFIN BARRIER CLB OR BOS) (NOT 1 PostpNoPX);
+   # иляк нолда вармат кенерень сюро ланга
+#MAP (@OBJ) TARGET NAdjSgNomGenPxSg2 OR NOUNSgNomGenPxSg2 IF (NOT 1 PostpNoPX);
 
 MAP (@OBJ>) TARGET NAdjPlNomGenPxSg2 OR NOUNPlNomGenPxSg2 IF (*1 VOCPL3 BARRIER CLB OR EOS OR @CVP ) (NOT 1 PostpNoPX);
 MAP (@<OBJ) TARGET NAdjPlNomGenPxSg2 OR NOUNPlNomGenPxSg2 IF (*-1 VOCPL3 BARRIER CLB OR BOS OR @CVP ) (NOT 1 PostpNoPX);
@@ -3654,7 +3774,7 @@ MAP (@-F<ADVL) TARGET Abl IF (*-1 VINF BARRIER CLB OR BOS) (NOT *0 VFIN BARRIER 
 MAP (@ADVL>) TARGET Abl IF (*1 VFIN BARRIER CLB OR EOS);
 MAP (@-FADVL>) TARGET Abl IF (*1 VINF BARRIER CLB OR BOS) (NOT *0 VFIN BARRIER CLB);
 
-MAP (@ADVL>) TARGET ("марто" postp/prep) OR (postp:EZ cx:ine) IF (NOT *-1 VFIN BARRIER CLB) (*1 VFIN OR VOblig BARRIER CLB OR EOS);
+MAP (@ADVL>) TARGET ("марто" postp/prep) OR (postp:EZ cx:ine) OR RelatIneNoPX OR RelatPrlNoPX IF (NOT *-1 VFIN BARRIER CLB) (*1 VFIN OR VOblig OR @SPRED BARRIER CLB OR EOS);
 
 # 2022-02-06 not even Mokša can deal with this
 #MAP (@OBJ) TARGET InfinitiveAbl IF (1 VFIN);
@@ -3714,7 +3834,7 @@ MAP (@ADVL>) TARGET AdvQuantity IF (1 VINF)(NOT *0 VFIN BARRIER CLB OR EOS OR BO
 # 11->44639
 # sehr klug (_*e*_ *revij)
 MAP (@ADVL>) TARGET AdvNEJgroup IF (1 N);
-MAP (@ADJ1) TARGET NAdj OR A IF (-1 @ADVL>);
+#MAP (@ADJ1) TARGET NAdj OR A IF (-1 @ADVL>); 2025-01-01 what is this
 
 # 11->44992
 # Der Fuchs lehrte alle Hirten so zu sagen... (tonaftinze _sta_ joftama)
@@ -3786,11 +3906,16 @@ MAP (@ADVL>) TARGET NAdjSgDatIndf IF (*1 VFIN BARRIER CLB OR EOS);
 MAP (@ADVL>) TARGET NAdjPlDatIndf IF (*1 VFIN BARRIER CLB OR EOS);
 MAP (@ADVL>) TARGET NOUNSPDatIndf IF (*1 VFIN BARRIER CLB OR EOS);
 
+MAP (@ADVL>) TARGET NOUNSPDatIndf IF (*1 NOUNSgNomIndef BARRIER CLB OR EOS LINK NEGATE 0* NOUNSgNomIndef BARRIER CLB OR BOS OR EOS)
+    	     	    		     (NOT 0* VFIN BARRIER CLB OR BOS OR EOS); #2025-01-01
+#				     (NOT *-1 NOUNSgNomIndef BARRIER CLB OR BOS);
+
 #
 MAP (@<ADVL) TARGET NAdjSgDatDef OR NOUNSPDatDefPX OR Dat IF (*-1 VFIN OR FAUXVERBS OR FNOTAUXVERBS BARRIER CLB OR BOS);
 MAP (@ADVL>) TARGET NAdjSgDatDef OR NOUNSPDatDefPX OR Dat IF (*1 VFIN OR FAUXVERBS OR FNOTAUXVERBS BARRIER CLB OR EOS);
 MAP (@<ADVL) TARGET NAdjPlDatDef OR NOUNPlDatDef IF (*-1 VFIN BARRIER CLB OR BOS);
 MAP (@ADVL>) TARGET NAdjPlDatDef OR NOUNPlDatDef IF (*1 VFIN BARRIER CLB OR EOS);
+
 
 
 #
@@ -4100,6 +4225,21 @@ MAP (@SPRED) TARGET Nom IF (NEGATE *0 @+FMAINV)
                           (1 EOS); # from @PRED 2023_02_23
 
 #
+MAP (@COP<SUBJ) TARGET NOUNSgNomDef OR PronInterIndefSgNom IF
+    		       		       (*-1 @SPRED BARRIER CLB OR EOS)
+				       (NOT 1 PostpNoPX);
+
+MAP (@COPSUBJ>) TARGET NOUNSgNomDef OR PronInterIndefSgNom IF
+                                       (*1 @SPRED BARRIER CLB OR EOS)
+				       (NOT 1 PostpNoPX);
+   # Мастор лангсо мезе сех шуткав?
+
+#
+MAP (@ADVL>) TARGET PostpLat OR PostpIne OR (Adv Lat) OR SPILL OR SPELA OR SPINE IF (*1 @SPRED BARRIER CLB OR EOS);
+    #мастор лангсо мезе сех шуткав?
+    
+MAP (@<ADVL) TARGET PostpLat OR PostpIne OR (Adv Lat) OR SPILL OR SPELA OR SPINE IF (*-1 @SPRED BARRIER CLB OR BOS);
+#
 MAP (@<OBJ) TARGET (Nom Indef) IF (-2 Dat) (-1 MEREMSDATWITHNOM);
 
 MAP (@<OBJ) TARGET (Nom Indef) IF (*-1 VFIN) (NOT *0 VOCPERSON BARRIER CLB OR EOS OR BOS) (1 CLB);
@@ -4179,6 +4319,11 @@ MAP (@OBJ) TARGET NNomIndef OR  PronIndefNom IF (*0 VfinImperV2Sg OR VfinImperV2
                               (*0 (*) - PronNNom - NNomExclude)
                               (NOT 1 Infinitives)
                               (NOT 1 PostpNoPX);
+
+MAP:unclearSubjDueToPxVL (@<SUBJ) TARGET UnclearNMNNomSPPX IF (*-1 VfinVsg3 OR VfinVpl3 BARRIER CLB OR BOS) (NOT 0* @SUBJ> OR @<SUBJ BARRIER CLB OR BOS OR EOS);
+  #можобуть томбавсть тонь тякинеть
+MAP:unclearSubjDueToPxVR (@SUBJ>) TARGET UnclearNMNNomSPPX IF (*1 VfinVsg3 OR VfinVpl3 BARRIER CLB OR EOS) (NOT 0* @SUBJ> OR @<SUBJ BARRIER CLB OR BOS OR EOS);
+
 
 # 11->41674
 # Ging _er_ (sas _son_)
