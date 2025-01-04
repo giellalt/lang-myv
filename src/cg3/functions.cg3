@@ -1366,7 +1366,6 @@ LIST DefPl3Obj = PronPersPl3Gen (def npl cx:gen) (Pl Gen Def) ; #2022-01-26
 LIST Ptcp2 = ptcp2;
 
 
-
 LIST Infinitive = infMS/ME; #
 LIST Infinitives = (inf/verbnMO/ME/MU/M);
 LIST InfinitiveNom = (inf/verbnMO/ME/MU/M cx:nom) (NomAct N Sg Nom) (NomAct N Pl Nom);# was (infMS/ME cx:nom) (inf/verbnMO/ME/MU/M cx:nom);
@@ -2413,6 +2412,9 @@ MAP (@COPSUBJ>) TARGET VESENOMSG IF (*1 NOUNPlNomIndef BARRIER CLB OR EOS OR CCo
                                     (NOT *0 VFIN BARRIER CLB OR EOS OR BOS OR CConj)
 				    (NOT *0 @COPSUBJ> BARRIER CLB OR EOS OR BOS OR CConj);
     # NB: весе долкось лангсо
+
+MAP (@COPSUBJ>) TARGET ("се" pron:dem indf nsg cx:nom) IF (*-2 ("кона" pron:subord) LINK -1 BOS OR CLB) (-1 CLB) (*1 NONVCENTERSSG OR ("дурак" n indf nsg cx:nom));
+# кона а содасы, се дурак.
 
 MAP (@ADVL>) TARGET VESENOMSG IF (1 (n/adj indf nsg cx:nom) OR (adj indf nsg cx:nom) OR NONVCENTERS LINK 1 CLB OR EOS) (NOT *0 VFINPL3SUBJ BARRIER CLB OR BOS OR EOS);
     # Пандя лангсо ашти баба,весе панксов: кона а юты, авардеме карми. ‘completely covered with patches’
