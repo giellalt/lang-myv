@@ -1,0 +1,55 @@
+# Divvun & Giellatekno - open source grammars for Sámi and other languages
+# Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+# http://giellatekno.uit.no & http://divvun.no
+#
+# This program is free software; you can redistribute and/or modify
+# this file under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version. The GNU General Public License
+# is found at http://www.gnu.org/licenses/gpl.html. It is
+# also available in the file $GTHOME/LICENSE.txt.
+#
+# Other licensing options are available upon request, please contact
+# giellatekno@hum.uit.no or feedback@divvun.no
+#
+# typos.ocr.txt
+# This file contains common mis-ocr and their corrections separated by
+# a <tab> character, optionally followed by a comment. That is, the
+# format is: three columns, separated by TAB:
+#
+# Column 1: error word/typo
+# Column 2: correction
+# Column 3: Comment, starting with # or !
+#
+# Example:
+#
+# Верыиз	Верьгиз	# This is just an example
+#
+# Corrections that consist of two or more parts are not split
+# further in the preprocessor, because there is no way of knowing
+# whether the token is a multipart expression or not.
+# Beware of removing sentence delimiters (.!?) in correction, since
+# they may indicate sentence boundaries.
+#
+#
+Верыиз	Верьгиз	# ы should be ьг
+эзянек	эзинек	# я should be и
+эзйзь	эзизь	# й should be и
+эз'ь	эзь	# appostrophe
+щумбра	шумбра	# щ should be ш
+щто	што	# щ should be ш
+щлязь	шлязь	# щ should be ш
+щколав	школав	# щ should be ш
+щкас	шкас	# щ should be ш
+щка	шка	# щ should be ш
+экщсэ	экшсэ	# щ should be ш
+ущ	уш	# щ should be ш
+кщнань	кшнань	# щ should be ш
+карщо	каршо	# щ should be ш
+бащка	башка	# щ should be ш
+касьщя	касыця	# ьщ should be ыц
+эйсзст	эйсэст	# з should be э
+эйсвст	эйсэст	# в should be э
+эйоэст	эйсэст	# о should be с
+эоензэ	эсензэ	# о should be с
+эняро	зняро	# э should be з
