@@ -213,6 +213,7 @@ Other verb forms are
 * +Err/Orth-back-should-be-hard-front * back should be hard front
 * +Err/Orth-cons-stem * пачт|емс 2012 пачтямс
 * +Err/Orth-freq-le * пачтнемс:пачле
+* +Err/Orth-cons-stem * эзь эряв
 * +Err/Orth-front-linking-vowel * linking vowel is front уряжень
 * +Err/Orth-high-linking-vowel * linking vowel is high
 * +Err/Orth-mid-linking-vowel-should-be-high * linking vowel is mid вечкелизь should be вечкилизь
