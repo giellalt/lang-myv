@@ -210,6 +210,7 @@ Other verb forms are
 ## The Usage extents are marked using following tags:
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
+* +Err/Orth-no-hyphen * тетятават should be тетят-ават
 * +Err/Orth-back-should-be-hard-front * back should be hard front
 * +Err/Orth-cons-stem * пачт|емс 2012 пачтямс
 * +Err/Orth-freq-le * пачтнемс:пачле
