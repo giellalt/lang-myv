@@ -1039,7 +1039,8 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
  [н|й] (ь:) (HarmDummies:) %> %{оеэØ%}: ш _ а: ; ! comparative
  [ж|ш|ч|з|с] (ь:) (HarmDummies:) %> ш _ а: ; ! comparative
  [л] (ь:) (HarmDummies:) %> %{оеэØ%}: _ с ; ! translative
- [к|г|п|б|т|д|ж|ш|с|з|ч|в] (ь:) (HarmDummies:) %> _ с ; ! translative
+ [к|г|п|б|т|д|ж|ш|с|з|ч] (ь:) (HarmDummies:) %> _ с ; ! translative
+! [к|г|п|б|т|д|ж|ш|с|з|ч|в] (ь:) (HarmDummies:) %> _ с ; ! translative
  
 !!TESTS
 !echo 'п а н ж > с ы' | hfst-pair-test src/fst/phonology.compose.hfst
