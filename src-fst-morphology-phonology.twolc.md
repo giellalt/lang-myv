@@ -212,11 +212,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *ведунCnsRM*
 * *веду00*
 
-**y loss with plural**
-ведун+N+Pl+Indef: **knower/tietäjä**
-* *ведунCnsRM*
-* *веду00*
-
 **v:0**  
 
 **G1:0**  

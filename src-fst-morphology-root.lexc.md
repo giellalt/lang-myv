@@ -230,6 +230,7 @@ Other verb forms are
 * +Err/Orth-stem-soft-should-be-0 * кирпець:кирпецьтне
 * +Err/Orth-stem-nodent-hard-should-be-tnje * потоктнэсэ
 * +Err/Orth-missing-soft-in-stem * видме
+* +Err/Orth-missing-t-in-def-pl * область: областне
 * +Err/Orth-s-to-j * кайсь Modern: кассь
 * +Err/Orth-z-to-j * кардайсэ Modern: кардазсо
 * +Err/Orth-v-loss-before-lab * ольной
