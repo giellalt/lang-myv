@@ -324,10 +324,17 @@ Question and Focus particles:
 * +Neu for Russian neuter
 * +Inan for Russian	inanimate
 * +AnIn for Russian animate
+* +Anim for Russian 
 * +Pos for Russian 
 * +Impf for Russian 
 * +PrsAct for Russian 
 * +Pst for Russian
+* +Imp for Russian imperative
+* +MFN for Russian
+* +Acc for Russian
+* +Ins for Russian
+* +Count for Russian
+* +Epenth for Russian
 
 # Semantic tags
 
