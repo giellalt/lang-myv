@@ -1611,6 +1611,16 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 *  +Qst +Foc 
 
+* +Fem for Russian feminine
+* +Msc for Russian masculine
+* +Neu for Russian neuter
+* +Inan for Russian	inanimate
+* +AnIn for Russian animate
+* +Pos for Russian 
+* +Impf for Russian 
+* +PrsAct for Russian 
+* +Pst for Russian
+
 # Semantic tags
 
 Semantic tags to help disambiguation & synt. analysis: (before POS)
