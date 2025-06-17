@@ -319,22 +319,29 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 *  +Qst +Foc 
 
-* +Fem for Russian feminine
-* +Msc for Russian masculine
-* +Neu for Russian neuter
-* +Inan for Russian	inanimate
-* +AnIn for Russian animate
-* +Anim for Russian 
-* +Pos for Russian 
-* +Impf for Russian 
-* +PrsAct for Russian 
-* +Pst for Russian
-* +Imp for Russian imperative
-* +MFN for Russian
 * +Acc for Russian
-* +Ins for Russian
+* +All for Russian
+* +AnIn for Russian animate
+* +Anim for Russian
+* +Cmpar for Russian
 * +Count for Russian
 * +Epenth for Russian
+* +Imp for Russian imperative
+* +Impf for Russian 
+* +Inan for Russian	inanimate
+* +Ins for Russian
+* +Fac for Russian
+* +Fem for Russian feminine
+* +MFN for Russian
+* +Msc for Russian masculine
+* +Neu for Russian neuter
+* +Perf for Russian
+* +PObj for Russian
+* +Pos for Russian
+* +Prb for Russian
+* +Pred for Russian predicate 
+* +PrsAct for Russian 
+* +Pst for Russian
 
 # Semantic tags
 
