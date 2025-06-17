@@ -51,7 +51,6 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/adjectives_newwords.lexc    \
 			stems/adverbs_newwords.lexc       \
 			stems/exceptions.lexc             \
-			stems/foreign_words.lexc             \
 			stems/genitive_attributes.lexc             \
 			stems/historical_lexicon.lexc       \
 			stems/hyphenated-nouns.lexc       \
@@ -62,6 +61,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/myv-propernouns.lexc         \
 			stems/verbs_newwords.lexc         
 
+#			stems/foreign_words.lexc             
 #			stems/rusSurDer.lexc
 #			affixes/possessorindices.lexc
 
