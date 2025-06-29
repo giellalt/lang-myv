@@ -181,6 +181,7 @@ LIST SP = SP ;
 LIST Short = Short ;
 LIST Long = Long ;
 
+LIST Cmp/Hyph-Coll = Cmp/Hyph-Coll ;  #!! * Cmp/Hyph-Coll
 LIST Cmp/SplitR = Cmp/SplitR ;     #!! * Cmp/SplitR
 LIST Cmp/Attr = Cmp/Attr ;         #!! * Cmp/Attr
 LIST Cmp/Cit = Cmp/Cit ;           #!! * Cmp/Cit
@@ -226,7 +227,7 @@ LIST NMODIFIER = ASgNomIndef NSgNomIndef ;# use between "эсь" and noun
 SET AdjObl = A - (Sg Nom Indef) - (Pl Nom Indef) ;
 SET NObl = N - (Sg Nom Indef) - (Pl Nom Indef) ;
 
-LIST ARAS1 = ("арась" V Aux Neg) ;# арасян, арасят, арась, араселинь, арасель
+LIST ARAS1 = ("арась" V Aux Neg) ("арась" A Sg Nom Indef) ;# арасян, арасят, арась, араселинь, арасель
 
 LIST POSSIBLESGNOMSUBJ = NSgNomIndef (N Sg Nom Def) (N Sg Nom PxSg1) (N Sg Nom PxSg2) (N Sg Nom PxSg3) (N Sg Nom PxPl1) (N Sg Nom PxPl2) (N Sg Nom PxPl3)
 (Sg Nom Def) (Sg Nom PxSg1) (Sg Nom PxSg2) (Sg Nom PxSg3) (Sg Nom PxPl1) (Sg Nom PxPl2) (Sg Nom PxPl3)
@@ -367,7 +368,8 @@ LIST Prc/Telic = Prc/Telic ;#вт/вть
 LIST VGen = VGen ;
 
 LIST PrsPrc = PrsPrc ;
- 
+
+LIST Der/NomAg = Der/NomAg ;
 
 LIST Ger = Ger ;
 LIST Sup = Sup ;
@@ -378,7 +380,11 @@ LIST SupLoc = (infMS/ME cx:nom) (Inf Loc) ;#ОмО
 
 
 LIST IVMOTIONVERBSWITHMO = "велявтомс" "каявомс" "кепетемс" "комамс" "куземс" "лисемс" "лоткакшномс" "лоткамс" "лотксемс" "мадемс" "молемс" "напустямс" "озамс" "оргодемс" "появакшномс" "появамс" "пульзямс" "самс" "совамс" "сыргамс" "туемс" "чиемс" "якамс" "яксемс" ; #intransitive motion verbs with SUP
+
 LIST TVMOTIONVERBSWITHMO = "кадомс" "комавтомс" "кучнемс" "кучомс" "ливтемс" "мадстемс"; #transitive motion verbs with SUP
+
+SET MOTIONVERBSWITHMO = IVMOTIONVERBSWITHMO OR TVMOTIONVERBSWITHMO ;#!! motion verbs with supline loc verb form
+SET FINMOTIONVERBSWITHMO = MOTIONVERBSWITHMO - Der/NomAg ;#!! motion verbs with supline loc verb form
 
 LIST IVERBWITHMO =  "арсемс" "арсекшнемс" "бажамс" "кармамс" "капшамс" "кенеремс" "маштомс" "пурнамс" "смеямс" "снартнемс" "снартомс" "тонавтнемс" "тонадокшномс" "тонадомс" "ушодомс" ; #intransitive verbs with SUP
 LIST TVERBWITHMO = "баславамс" "кармавтомс" "кармавтнемс" "тонавтомс" ; #transitive verbs with SUP
@@ -446,10 +452,12 @@ LIST Der/PatrMal = Der/PatrMal ;
 LIST Der/PatrFem = Der/PatrFem ;
 LIST Use/NG = Use/NG ;
 
+LIST Dial/C = Dial/C ;
+LIST Dial/M = Dial/M ;
 LIST Dial/NW = Dial/NW ;
 LIST Dial/SE = Dial/SE ;
 LIST Dial/W = Dial/W ;
-LIST Dial = Dial ;
+LIST Dial = Dial Dial/M Dial/NW Dial/SE Dial/W Dial/C ;
 LIST Err/Orth = Err/Orth ;
 LIST Err/Orth-pre2012 = Err/Orth-pre2012 ;
 LIST Err/Orth-no-linking-vowel = Err/Orth-no-linking-vowel ;
@@ -959,8 +967,12 @@ LIST ANIMNOUNS = "ава" "атя" "баба" "леля" "патя" "сазор"
  "авакш" "алаша" "атякш" "баран" "бука" "ватракш" "ведрекш" "верьгиз" "катка" "киска" "лишме" "нармунь" "пине" "псака" "реве" "ривезь" "сараз" "сея" "скал" "сукс";
  # this goes to compliment dialect Sp Gen PxSg3, which does not go with animate nouns
 
+LIST VERBSTAKEELAILLLAT = "арамс" ; #!! verbs elative, illative, lative
+
 SET VERBTAKESDAT = ("ванстовомс") | ("ёвтнекшнемс") | ("ёвтнемс") | ("кортамс") | ("лездамс") | ("максомс") | ("марявомс") | ("меремс") | ("педямс") | ("эрявомс") OR CONSSTEMOvOms;
 #verbs that take dative
+
+LIST VERBTAKESDATandObj = "кучомс" "максомс" ; #! 
 
 SET VERBTAKESDAT-NoOc = VERBTAKESDAT - VFINPERSONOBJ;#dat but no object marking
 SET VERBSWITHOUTDAT = V - VERBTAKESDAT ;#verbs without dative
@@ -1115,6 +1127,9 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP In
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("эй" N SP Ine Indef) OR ("эй" N SP Ill Indef) OR ("эй" N SP Ela Indef) IF (-1 SP-GEN-PX OR LIKELYOBJECT) ;
    #Сёвонев почванть свойстванзо ламодо аштить сёвоненть свойстванзо эйстэ.
 
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET Err/Orth ;
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET Dial ;
+SUBSTITUTE (<W:1.0>) (<W:2.0>) TARGET Dial ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("валом" Adv) ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Ex/N) ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("каземс" V Ind Prt1 ScSg3) OR ("каземс" V Ind Prt1 ScPl3) IF (0 ("касомс" V Ind Prt1 ScSg3) OR ("касомс" V Ind Prt1 ScPl3));
@@ -1154,6 +1169,10 @@ SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("ал") IF (-1 (N Sg Nom Indef) OR (Gen D
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("вал") OR ("калго") IF (0 PREFERATONABL ) ;# вал vs валдо
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("улевемс") IF (0 ("улемс" Conj));#
+
+
+SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("лев" N Sg Nom Indef) ;
+#Cmp/Hyph-Coll 2025-06-29 пелев
 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET (Tra Indef Der/MWN);
 	 #Tra+Indef+Der/MWN куро: куроксто
@@ -1203,6 +1222,9 @@ REMOVE:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (1 A OR N);
 REMOVE ("валомс" V Imprt ScSg2) IF (0 ("вал" N Pl Nom Indef)) (0* ScPl3 BARRIER CLB OR EOS OR BOS) ;
        #теевить лия валткак
 
+REMOVE:Not Cmp/Hyph-Coll OR Det OR A OR Po IF (-1 ("ве" Num)); 
+#Сон арась ве пелев
+
 REMOVE:NotVeAblWhenVedjGenCCAndNPGen ("ве" N Sg Abl Def) IF (0 ("ведь" N Sg Gen Def)) (1 CC LINK 1* (Gen Def) BARRIER V OR Adv OR EOS OR CLB) ; 
   #Растениясь добови веденть ды питательной салтнэнь почванть эйстэ.
 
@@ -1229,11 +1251,11 @@ REMOVE:MartoAttrWhenNoHead ("марто" Po Der/MWN Sg Nom Indef) IF (NOT 1 N);
 # Авазо якась школав шабранзо марто.
 
  # spatial negation does not occur in motion
-REMOVE:NoAramsItTakesMotion ("арамс") IF (0 ARAS1) (NOT 0* Ill OR Lat OR Dat OR (V Inf Loc) OR ("трокс") OR ("каршо") BARRIER CLB OR EOS OR BOS);# V Aux Neg Loc
+REMOVE:NoAramsItTakesMotion ("арамс") IF (0 ARAS1) (NEGATE 0* Ill OR Lat OR Dat OR (V Inf Loc) OR ("трокс") OR ("каршо") BARRIER CLB OR EOS OR BOS);# V Aux Neg Loc
        # Мезеяк арась.
 REMOVE:NoAOrNWhenNoSubseqN A OR N IF (0 ARAS1) (NOT 1 N);
        # Мезеяк арась.
-
+#NoArasjWhenLat
 REMOVE:NoDialGenWhenArasAndInf (Sg Gen PxSg3) OR (Sg Gen PxSg2) OR (Sg Gen PxSg1) OR (Sg Gen PxPl3) OR (Sg Gen PxPl2) OR (Sg Gen PxPl1) IF (0 (Sg Nom)) (0* ("арась" ScSg3) BARRIER CLB OR EOS OR BOS) ;
 # Арась мелезэ молемс кудов.
 
@@ -1535,9 +1557,13 @@ REMOVE (Ex/Adv Sem/Time Der/MWN N Sg Nom Indef);
 REMOVE ("тол" N SP Prl PxSg3);
        #"Мейле карми шлямо толганзо." This is too strong
 
-SELECT:SupLocWhenVerbCallsForIt SupLoc IF (*0 KARMAMS OR VERBWITHMO BARRIER CLB OR BOS OR EOS) ((NEGATE *-1 SupLoc BARRIER CLB OR BOS OR @C-FVP) OR (NEGATE *1 SupLoc BARRIER CLB OR EOS OR @C-FVP));
+REMOVE:NomActWhenVerbCallsForIt (Ex/V Der/NomAct N Sg Nom Indef) IF (*0 KARMAMS BARRIER CLB OR BOS OR EOS) ;
        #Мейле карми шлямо толганзо.
-       #варштамонзо ды лездамо: сак варштамонзо ды лездамо тензэ.
+
+REMOVE:SupLocWhenVerbCallsForIt SupLoc IF (NEGATE *0 FINMOTIONVERBSWITHMO BARRIER CLB OR BOS OR EOS);
+#SELECT:SupLocWhenVerbCallsForIt SupLoc IF (*0 MOTIONVERBSWITHMO BARRIER CLB OR BOS OR EOS) (NEGATE 0* SupLoc BARRIER CLB OR BOS OR @C-FVP);
+  #варштамонзо ды лездамо: сак варштамонзо ды лездамо тензэ.
+  #макссь совицянтень ютамо тарка.
 
 REMOVE TV IF (0 ("меремс"))(NOT 0 OCONJ) ;
 
@@ -1896,6 +1922,13 @@ SELECT:NoReadyNomAg0 Der/Ycja IF (0 N + NomAg) ;
 #REMOVE PxSg1 IF (0 SP + Dat + Indef) (0 ANT OR SUR) ;
 REMOVE:NoPxWhenNotKin PxSg1 IF (0 SP + Dat + Indef OR  SP + Gen + Indef ) (0 NOT-KINTERM) ;
 
+REMOVE (Prop Pl Gen Def) IF (0 (Prop SP Dat Indef)) (0* (Gen Def) BARRIER BOS OR EOS OR CLB) (0* VERBTAKESDATandObj BARRIER BOS OR EOS OR CLB);
+  #Prop Pl Gen Def 2025-06-29
+  #Кижеватнэнь тейтеренть ялатеке а максса.
+
+
+#Сон арась ве пелев, макссь совицянтень ютамо тарка.
+
 #Genitive readings
 
 #Микол таргизе кисетэнзэ.
@@ -1945,8 +1978,8 @@ SELECT:ArasjInterjWhenBegin ("арась" Interj Neg) IF (-1 BOS) (1 CLB OR EOS)
 #Арась, а молян.
 REMOVE:ArasjInterjWhenNotBegin ("арась" Interj Neg) IF ((NEGATE -1 BOS OR CLB) OR (NEGATE 1 EOS OR CLB));
 
-REMOVE:NoAramsWhenNotLat ("арамс" V IV Ind Prt1 ScSg3) OR ("арамс" V IV Ind Prt1 ScPl3) IF (NEGATE *0 (Adv Lat) OR (N SP Lat Indef) OR (Adp Lat) BARRIER CLB OR EOS OR BOS) ;
-REMOVE:NoArasjWhenLat ("арась" V Aux Neg Loc Prs ScSg3) OR ("арась" V Aux Neg Loc Prs ScPl3) IF (*0 (Adv Lat) OR (N SP Lat Indef) OR (Adp Lat) BARRIER CLB OR EOS OR BOS) ;#Are these complementary
+REMOVE:NoAramsWhenNotLat ("арамс" V IV Ind Prt1 ScSg3) OR ("арамс" V IV Ind Prt1 ScPl3) IF (NEGATE *0 (Adv Lat) OR (N SP Lat Indef) OR (Adp Lat) OR (Relat Lat) BARRIER CLB OR EOS OR BOS) ;
+REMOVE:NoArasjWhenLat ("арась" V Aux Neg Loc Prs ScSg3) OR ("арась" V Aux Neg Loc Prs ScPl3) OR ARAS1 IF (*0 (Adv Lat) OR (N SP Lat Indef) OR (Adp Lat) OR (Relat Lat) BARRIER CLB OR EOS OR BOS) ;#Are these complementary
        #Сон арась ве пелев.
 REMOVE ("арамс" V IV Ind Prt1 ScSg3) OR ("арамс" V IV Ind Prt1 ScPl3) IF (*0 (Adv Ine) OR (N SP Ine Indef) OR (Adp Ine) BARRIER CLB OR EOS OR BOS) ;
        #, тесэ кияк арась,
@@ -2108,7 +2141,7 @@ SELECT Inf + Loc IF (-2 VERBWITHMO + VFIN) (-1 N + SP + Gen + Indef) (0 TV) ;
 # А кискась, кода содатано, а машты кортамо!
 # А кискась, кода содатано,  кортамо машты!
 # А кискась, кода содатано,  кортамо а машты!
-REMOVE:NoNomActWhenInfLocContext Der/NomAct IF (0 Inf + Loc)(0 Sg + Nom + Indef) ((-1* VERBWITHMO OR VERBWITHMODS BARRIER BOS) OR (1* VERBWITHMO OR VERBWITHMODS BARRIER EOS));
+REMOVE:NoNomActWhenInfLocContext Der/NomAct IF (0 Inf + Loc)(0 Sg + Nom + Indef) (0* VERBWITHMO OR VERBWITHMODS BARRIER BOS);
 
 REMOVE (A Der Der/MWN N Sg Nom Indef) IF (0 NSgNomIndef);
 
