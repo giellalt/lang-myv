@@ -38,6 +38,7 @@ EOS
 
 * ### Tags for morphosyntactic properties
 
+* Cmp/Hyph-Coll
 * Cmp/SplitR
 * Cmp/Attr
 * Cmp/Cit
@@ -51,6 +52,9 @@ EOS
 Dialect homonyms of Sg Gen Def
 
 foreign
+
+motion verbs with supline loc verb form
+motion verbs with supline loc verb form
 
 * ### Derivation tags
 
@@ -174,6 +178,8 @@ for кизэ homonymy PxSg1
 This will be expanded for homonymy at first
 
 This will be expanded for homonymy at first, i.e., diminutives
+
+verbs elative, illative, lative
 
 these have homonyms
 
