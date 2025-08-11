@@ -296,7 +296,7 @@ Rueter 2010: 8
 ## Special symbols 
 
 Delimiter marks are classified with:
-* +CLB +PUNCT +LEFT +RIGHT * 
+* +CLB +PUNCT +LEFT +RIGHT +MIDDLE * 
 * %^excl * 
 
 The verbs are syntactically split according to transitivity:
