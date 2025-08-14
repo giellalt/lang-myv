@@ -109,8 +109,8 @@ LEXICON N-HUM_LAV
 LEXICON N-HUM_TEV
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_TEV ;
 
-LEXICON N-HUM_KIT
-@P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KIT ;
+!LEXICON N-HUM_KIT
+!@P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KIT ;
 
 LEXICON N-HUM_OZKS
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_OZKS ;
@@ -450,9 +450,14 @@ LEXICON N_KEL1-PL
 !LEXICON N_KAL-PL_SUB
 !+Use/NG+Err/Orth: N_KAL-PL ;
 
+LEXICON N_LAK_rus100
++Use/SpellNoSugg: N_LAK ;
 LEXICON N_LAK
 @P.POS.N@:@P.POS.N@ NMN_LAK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
+LEXICON N_VEREK_rus100
++Use/SpellNoSugg: N_VEREK ;
 LEXICON N_VEREK
 @P.POS.N@:@P.POS.N@ NMN_VEREK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -488,6 +493,12 @@ LEXICON N_ART_rus100
 +Use/SpellNoSugg: N_ART ;
 LEXICON N_ART
 @P.POS.N@:@P.POS.N@ NMN_ART ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
+LEXICON N_ALJT_rus100
++Use/SpellNoSugg: N_ALJT ;
+LEXICON N_ALJT
+@P.POS.N@:@P.POS.N@ NMN_ALJT ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 !LEXICON N_GAJT1_rus100
@@ -798,6 +809,14 @@ LEXICON NMN_ART
  N_KIT-Def-Declension ;
  _KIT-Indef-Declension ;
  N_KAL-Poss-Declension-CX ;
+
+LEXICON NMN_ALJT
+:%{backHard%} N_KUDO-Derivation ;
+:%{backHard%} N_KIT-Def-Declension ;
+:%{backHard%} _KIT-Indef-Declension ;
+:%{backHard%} N_KAL-Poss-Declension-CX ;
++Err/Orth-missing-t-in-def-pl:%>нэ NMN_DEF_PL_DECLENSION_CASES ;! 
+
 
 LEXICON NMN_GAJT1
  N_KUDO-Derivation ;
