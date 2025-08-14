@@ -1005,6 +1005,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 * *ков0%>з%>от*
 * *ков%{back%}%>%{оеэØ%}з%>%{оеэØ%}т%{ЬØ%}*
 * *ков0%>оз%>от*
+* *асфальт>{оеэØ}сь*
+* *асфальт>ось*
 
 **%{уиыØ%}:и**
 панемс+V+Inf+Dial/NW: **drive/ajaa**
