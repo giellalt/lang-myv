@@ -811,10 +811,10 @@ LEXICON NMN_ART
  N_KAL-Poss-Declension-CX ;
 
 LEXICON NMN_ALJT
-:%{backHard%} N_KUDO-Derivation ;
-:%{backHard%} N_KIT-Def-Declension ;
-:%{backHard%} _KIT-Indef-Declension ;
-:%{backHard%} N_KAL-Poss-Declension-CX ;
+: N_KUDO-Derivation ;
+: N_KIT-Def-Declension ;
+: _KIT-Indef-Declension ;
+: N_KAL-Poss-Declension-CX ;
 +Err/Orth-missing-t-in-def-pl:%>нэ NMN_DEF_PL_DECLENSION_CASES ;! 
 
 
