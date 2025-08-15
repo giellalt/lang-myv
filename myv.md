@@ -474,6 +474,7 @@ LEXICON N_PELE  пеле:пель, ало:ал
 * LEXICON N_VESHCH1  озимь:озимь %^Ь2ZERO
 
 * LEXICON N_PEJ  кель:кель %^Ь2ZERO
+* LEXICON N_J  кель:кель %^Ь2ZERO
 
 * LEXICON N_SODYJ  сода%>%{иы%}й, содый
 
@@ -1226,6 +1227,7 @@ imperative suffix
 
 **Disallow TLoss after non-t**  
 
+**Disallow ^H before t and subsequent {ЬØ}**
 **Disallow RegrRaise after A**
 
 **Disallow vow loss before break**
@@ -1535,6 +1537,7 @@ Other verb forms are
 * +Err/Orth-z-to-j * кардайсэ Modern: кардазсо
 * +Err/Orth-v-loss-before-lab * ольной
 
+* +Err/Orth-0-not-pal * no soft sign but should take soft sign
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-d * not t but instead d
@@ -2729,7 +2732,7 @@ Rivers
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
-автор:автор N_KAL "(eng) /(fin) /(rus) " ;
+автор:автор N_KAL ;
 
 ADD NOUNS BELOW
 

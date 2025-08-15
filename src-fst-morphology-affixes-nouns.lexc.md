@@ -33,6 +33,7 @@ LEXICON N_PELE  пеле:пель, ало:ал
 * LEXICON N_VESHCH1  озимь:озимь %^Ь2ZERO
 
 * LEXICON N_PEJ  кель:кель %^Ь2ZERO
+* LEXICON N_J  кель:кель %^Ь2ZERO
 
 * LEXICON N_SODYJ  сода%>%{иы%}й, содый
 

@@ -235,6 +235,7 @@ Other verb forms are
 * +Err/Orth-z-to-j * кардайсэ Modern: кардазсо
 * +Err/Orth-v-loss-before-lab * ольной
 
+* +Err/Orth-0-not-pal * no soft sign but should take soft sign
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
 * +Err/Orth-d * not t but instead d

@@ -318,6 +318,7 @@ imperative suffix
 
 **Disallow TLoss after non-t**  
 
+**Disallow ^H before t and subsequent {ЬØ}**
 **Disallow RegrRaise after A**
 
 **Disallow vow loss before break**
