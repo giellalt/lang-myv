@@ -349,6 +349,8 @@ LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_T1_rusmyv
++Use/SpellNoSugg: N_T1 ;
 LEXICON N_T1_rus100
 +Use/SpellNoSugg: N_T1 ;
 LEXICON N_T1 !!= * @CODE@ кель:кель %^Ь2ZERO
@@ -357,6 +359,8 @@ LEXICON N_T1 !!= * @CODE@ кель:кель %^Ь2ZERO
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 +Err/Orth-missing-t-in-def-pl:%>не NMN_DEF_PL_DECLENSION_CASES ;! Remove soft sign, tag for t-less
 
+LEXICON N_KEL1_rusmyv
++Use/SpellNoSugg: N_KEL1 ;
 LEXICON N_KEL1_rus100
 +Use/SpellNoSugg: N_KEL1 ;
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
@@ -399,8 +403,12 @@ LEXICON NMN_VESHCH1
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_PEJ_rus100
-+Use/SpellNoSugg: N_PEJ ;
++Use/SpellNoSugg: N_J ;
+LEXICON N_J_rus100
++Use/SpellNoSugg: N_J ;
 LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
+ N_J ;
+LEXICON N_J !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_PEJ ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -472,6 +480,9 @@ LEXICON N_JORK_rus100
 LEXICON N_JORK
 @P.POS.N@:@P.POS.N@ NMN_JORK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+
+LEXICON N_OCHERK_rus100
++Use/SpellNoSugg: N_OCHERK ;
 LEXICON N_OCHERK
 @P.POS.N@:@P.POS.N@ NMN_OCHERK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -507,15 +518,22 @@ LEXICON N_GAJT1
 @P.POS.N@:@P.POS.N@ NMN_GAJT1 ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_FSS_rus100
++Use/SpellNoSugg: N_KLASS ;
 LEXICON N_KLASS
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KLASS ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
+LEXICON N_BSH_rus100
++Use/SpellNoSugg: N_OSH ;
+LEXICON N_BCH_rus100
++Use/SpellNoSugg: N_OSH ;
+LEXICON N_BZH_rus100
++Use/SpellNoSugg: N_OSH ;
 LEXICON N_OSH_rus100
 +Use/SpellNoSugg: N_OSH ;
-
 LEXICON N_OSH
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ N_KUDO-Derivation ;
@@ -549,9 +567,13 @@ LEXICON N_LEVKS-PL
 @P.POS.N@:@P.POS.N@ _OSH-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_OSH-Poss-Declension-CX-PL ;
 
+LEXICON N_FCH_rus100
++Use/SpellNoSugg: N_FSH ;
 LEXICON N_KENKSH_rus100
-+Use/SpellNoSugg: N_KENKSH ;
++Use/SpellNoSugg: N_FSH ;
 LEXICON N_KENKSH
+ N_FSH ;
+LEXICON N_FSH
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@%{frontSoft%} N_KUDO-Derivation ;
 @P.POS.N@:@P.POS.N@%{frontSoft%}  NMN_DEF_SG_DECLENSION ;
@@ -599,6 +621,8 @@ LEXICON N_KARDAZ !! кардаз:карда
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 @P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
+LEXICON N_FZ_rus100
++Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_LEVKS_rus100
 +Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_LEVKS
@@ -609,6 +633,8 @@ LEXICON N_LEVKS
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontHard%} CMP-INDEF ;
 @P.POS.N@:@P.POS.N@%>%{оеэØ%}%{frontHard%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
+LEXICON N_ROZ1_rus100
++Use/SpellNoSugg: N_ROZ1 ;
 LEXICON N_ROZ1
 ! harmony: front
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
@@ -704,6 +730,8 @@ LEXICON N_VELE_IS-NE-DIM
 
 LEXICON N_VELE_rus100
 +Use/SpellNoSugg: N_VELE ;
+LEXICON N_VELE_rusmyv
++Use/SpellNoSugg: N_VELE ;
 LEXICON N_VELE
 !! Front vowel, palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_VELE ;
@@ -720,6 +748,10 @@ LEXICON N_PIZE2
 LEXICON N_KUDO_rus100_hasnat
 +Use/SpellNoSugg: N_KUDO ;
 
+LEXICON N_KUDO_errorth
++Err/Orth: N_KUDO ;
+LEXICON N_KUDO_rusmyv
++Use/SpellNoSugg: N_KUDO ;
 LEXICON N_KUDO_rus100
 +Use/SpellNoSugg: N_KUDO ;
 
@@ -2034,6 +2066,8 @@ LEXICON TRA-INDEF
 LEXICON PL-NOM-INDEF
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т%{ЬØ%} _KIT-NomPl-Conjugation ;
 @U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т%{ЬØ%} NounEnd_K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-0-not-pal:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%^H%>т%{ЬØ%} _KIT-NomPl-Conjugation ;!20250815
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-0-not-pal:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%^H%>т%{ЬØ%} NounEnd_K ;
 
 
 
