@@ -283,7 +283,7 @@ Multichar_Symbols
  +Err/Orth-s-to-j		 !!≈ * @CODE@ * кайсь Modern: кассь
  +Err/Orth-z-to-j		  !!≈ * @CODE@ * кардайсэ Modern: кардазсо
  +Err/Orth-v-loss-before-lab	  !!≈ * @CODE@ * ольной
-
+ +Err/Orth-split-tween		  !!≈ * @CODE@ * гемень, кавтово
  +Err/Orth-0-not-pal	!!≈ * @CODE@ * no soft sign but should take soft sign
  +Err/Orth-f	!!≈ * @CODE@ * not v but instead f
  +Err/Orth-s	!!≈ * @CODE@ * not v but instead s
@@ -1009,10 +1009,15 @@ ZERO  !!≈ * @CODE@
 !! Flags used to identify parts of speech
  @P.POS.PRON@ !!≈ * @CODE@ 
  @U.POS.N@ !!≈ * @CODE@ 
+ @U.POS.NUM@ !!≈ * @CODE@ 
  @U.POS.A@ !!≈ * @CODE@ 
 
  @P.POS.N@ !!≈ * @CODE@ 
  @R.POS.N@ !!≈ * @CODE@ 
+ @P.POS.NUM@ !!≈ * @CODE@ 
+ @R.POS.NUM@ !!≈ * @CODE@ 
+ @P.POS.A@ !!≈ * @CODE@ 
+ @R.POS.A@ !!≈ * @CODE@ 
  @P.POS.V@ !!≈ * @CODE@ 
  @R.POS.V@ !!≈ * @CODE@ 
  @C.POS@ !!≈ * @CODE@ 
@@ -1344,7 +1349,7 @@ TESTINGTESTING ;
 @U.POS.N@ noun-deverbal  ;
 @U.POS.N@ N_myv2x          ;
  numerals       ;
- Num_myv2x    ;
+@U.POS.NUM@ Num_myv2x    ;
  N_Prop_myv2x    ;
  Prc_myv2x    ;
  Pcle_myv2x      ;
@@ -1384,6 +1389,10 @@ Hyphenated-verbs ; !!≈ * @CODE@ entire serial verbs
 	       Acronym      ;                          ! acro-myv-lex.txt
 	       Punctuation  ;                          ! punct-myv-lex.txt
 !2025-06-17	       foreign_words ;
+
+LEXICON NUM_TYPES
+Num_myv2x ;
+extra_numerals ;
 
 LEXICON COLL_NOUNS
 N_myv2x ;
