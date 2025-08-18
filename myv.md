@@ -741,6 +741,8 @@ Quantifier inflection
 Erzya quantifiers inflect in many the same cases as regular
 nouns.
 
+extra numerals
+
 ### Now regular
 
 кавонст
@@ -1536,7 +1538,7 @@ Other verb forms are
 * +Err/Orth-s-to-j * кайсь Modern: кассь
 * +Err/Orth-z-to-j * кардайсэ Modern: кардазсо
 * +Err/Orth-v-loss-before-lab * ольной
-
+* +Err/Orth-split-tween * гемень, кавтово
 * +Err/Orth-0-not-pal * no soft sign but should take soft sign
 * +Err/Orth-f * not v but instead f
 * +Err/Orth-s * not v but instead s
@@ -2196,10 +2198,15 @@ given the proper use of these flags.
 Flags used to identify parts of speech
 * @P.POS.PRON@ 
 * @U.POS.N@ 
+* @U.POS.NUM@ 
 * @U.POS.A@ 
 
 * @P.POS.N@ 
 * @R.POS.N@ 
+* @P.POS.NUM@ 
+* @R.POS.NUM@ 
+* @P.POS.A@ 
+* @R.POS.A@ 
 * @P.POS.V@ 
 * @R.POS.V@ 
 * @C.POS@ 

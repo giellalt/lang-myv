@@ -3,6 +3,8 @@ Quantifier inflection
 Erzya quantifiers inflect in many the same cases as regular
 nouns.
 
+extra numerals
+
 ### Now regular
 
 кавонст
