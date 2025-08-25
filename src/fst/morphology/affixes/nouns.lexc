@@ -402,8 +402,6 @@ LEXICON NMN_VESHCH1
 @P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
-LEXICON N_PEJ_rus100
-+Use/SpellNoSugg: N_J ;
 LEXICON N_J_rus100
 +Use/SpellNoSugg: N_J ;
 LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
@@ -475,19 +473,21 @@ LEXICON N_LAK-PL
 @P.POS.N@:@P.POS.N@ _KAL-Indef-Declension-PL ;
 @P.POS.N@:@P.POS.N@ N_KAL-Poss-Declension-CX-PL ;
 
-LEXICON N_JORK_rus100
+LEXICON N_BRK_rus100
 +Use/SpellNoSugg: N_JORK ;
 LEXICON N_JORK
 @P.POS.N@:@P.POS.N@ NMN_JORK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
-LEXICON N_OCHERK_rus100
+LEXICON N_FRK_rus100
 +Use/SpellNoSugg: N_OCHERK ;
 LEXICON N_OCHERK
 @P.POS.N@:@P.POS.N@ NMN_OCHERK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
 LEXICON N_KIT_rusmyv
++Use/SpellNoSugg: N_KIT ;
+LEXICON N_FT_rus100
 +Use/SpellNoSugg: N_KIT ;
 LEXICON N_KIT_rus100
 +Use/SpellNoSugg: N_KIT ;
@@ -526,6 +526,8 @@ LEXICON N_KLASS
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 @P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
+LEXICON N_FZH_rus100
++Use/SpellNoSugg: N_KENKSH ;
 LEXICON N_BSH_rus100
 +Use/SpellNoSugg: N_OSH ;
 LEXICON N_BCH_rus100
@@ -569,7 +571,7 @@ LEXICON N_LEVKS-PL
 
 LEXICON N_FCH_rus100
 +Use/SpellNoSugg: N_FSH ;
-LEXICON N_KENKSH_rus100
+LEXICON N_FSH_rus100
 +Use/SpellNoSugg: N_FSH ;
 LEXICON N_KENKSH
  N_FSH ;
@@ -607,6 +609,8 @@ LEXICON N_OZKS_errorth
 +Err/Orth: N_OZKS ;
 LEXICON N_OZKS_rus100
 +Use/SpellNoSugg: N_OZKS ;
+LEXICON N_BZ_rus100
++Use/SpellNoSugg: N_OZKS ;
 LEXICON N_OZKS
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
@@ -623,6 +627,8 @@ LEXICON N_KARDAZ !! кардаз:карда
 
 LEXICON N_FZ_rus100
 +Use/SpellNoSugg: N_LEVKS ;
+LEXICON N_FS_rus100
++Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_LEVKS_rus100
 +Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_LEVKS
@@ -633,6 +639,8 @@ LEXICON N_LEVKS
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontHard%} CMP-INDEF ;
 @P.POS.N@:@P.POS.N@%>%{оеэØ%}%{frontHard%} DIAL-NW-WITH-ST-AFTER-STEM ;
 
+LEXICON N_S1_rus100
++Use/SpellNoSugg: N_ROZ1 ;
 LEXICON N_ROZ1_rus100
 +Use/SpellNoSugg: N_ROZ1 ;
 LEXICON N_ROZ1
