@@ -29,6 +29,7 @@
                 * [hyphenated-verbs.lexc](src-fst-morphology-stems-hyphenated-verbs.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/hyphenated-verbs.lexc))
                 * [myv-propernouns.lexc](src-fst-morphology-stems-myv-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/myv-propernouns.lexc))
                 * [nouns_newwords.lexc](src-fst-morphology-stems-nouns_newwords.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/nouns_newwords.lexc))
+                * [nouns_russian_100_newwords.lexc](src-fst-morphology-stems-nouns_russian_100_newwords.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/nouns_russian_100_newwords.lexc))
                 * [propernouns_newwords.lexc](src-fst-morphology-stems-propernouns_newwords.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/propernouns_newwords.lexc))
                 * [rusMaleNameDer.lexc](src-fst-morphology-stems-rusMaleNameDer.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/rusMaleNameDer.lexc))
                 * [verbs_newwords.lexc](src-fst-morphology-stems-verbs_newwords.lexc.html) ([src](https://github.com/giellalt/lang-myv/blob/main/src/fst/morphology/stems/verbs_newwords.lexc))
