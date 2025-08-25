@@ -220,6 +220,7 @@ Other verb forms are
 * +Err/Orth-mid-linking-vowel-should-be-high * linking vowel is mid вечкелизь should be вечкилизь
 * +Err/Orth-mid-onset-default-missing * should be скаломок, but this is скалмок, мелезэнек: мельзэнек
 * +Err/Orth-no-linking-vowel * linking vowel is missing
+* +Err/Orth-shib-hard * Иважнэнь
 * +Err/Orth-stem-a-should-be-o0 * чачтомс+V:чачта
 * +Err/Orth-stem-hard-e-should-be-je * Nekshnems
 * +Err/Orth-stem-ja-should-be-je0 * лемдемс+V:лемдя
