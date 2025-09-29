@@ -989,6 +989,10 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
      [[Cns|Vows:|:Vows| ь: | й:] - HardBackNoDentShib]  (HarmDummies:) %^HardNoDent: %> _ н э  ;
 !+Err/Orth-stem-nodent-hard-should-be-tnje:%^HardNoDent%>тнэ
 
+"Disallow SoftRetain"
+!! **@RULENAME@**
+%^SoftRetain:0 /<= [ ь:0 | й: | Vows:|:Vows|Cns:| ъ: ] (HarmDummies:)  _ %> т [ н е | е м ] ;
+
 !!OLD
 
 !"Disallow %{ОØ%} where not T, sO, stO, s"
