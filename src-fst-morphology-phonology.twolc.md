@@ -345,7 +345,9 @@ imperative suffix
 * *кирьпець^SoftRetain>тне*
 * *кирьпець0>тне*
 
-**Disallow soft loss**
+**Disallow SoftRetain**
+
+**Disallow SoftRetain**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*

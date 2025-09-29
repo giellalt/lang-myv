@@ -4,25 +4,25 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 
 
-# DELIMITERS 
+## DELIMITERS 
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 * Sets for parts of speech
 
@@ -58,11 +58,11 @@ motion verbs with supline loc verb form
 
 * ### Derivation tags
 
-### Semantic tags
+#### Semantic tags
 
 noun phrase heads
 
-###  Syntactic tags
+####  Syntactic tags
 
 * @+FAUXV : finite auxiliary verb 
 - ferte: Son ferte oaidnit ollislaš gova. - She must see the whole picture.
@@ -133,30 +133,30 @@ noun phrase heads
 
 Upper and lower case
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and 
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 the set INITIAL for initial letters 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
-### Derivational affixes
+#### Derivational affixes
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 MOOD-V
 
@@ -166,9 +166,9 @@ VFIN
 
 VFIN-POS
 
-### Sets for person
+#### Sets for person
 
-### Pronoun sets
+#### Pronoun sets
 
 кортамс мезде
 
@@ -185,7 +185,7 @@ these have homonyms
 
 used with Dat PxSg1
 
-### Derivation tags
+#### Derivation tags
 2VDerTag
 2NDerTag
 
@@ -203,7 +203,7 @@ in SP Gen Indef the next word can be кель
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -253,9 +253,9 @@ finite supaux 2023_03_13
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
-# Adjective inflection
+## Adjective inflection
 
 Adjectives and other parts of speech in ERZYA are compared by means of 
 either a particle or ablative case marking on the standard of comparison
@@ -277,7 +277,7 @@ ordinals in -це
 
 ---
 
-# src-fst-morphology-affixes-adpositions.lexc.md 
+## src-fst-morphology-affixes-adpositions.lexc.md 
 
 
 The Erzya language postpositions can be broken into many subgroups
@@ -358,9 +358,9 @@ postposition that is in prolative case
 
 ---
 
-# src-fst-morphology-affixes-adverbs.lexc.md 
+## src-fst-morphology-affixes-adverbs.lexc.md 
 
-# Adverb inflection
+## Adverb inflection
 
 The Erzya language adverbs do not compare.
 
@@ -389,9 +389,9 @@ This marking would indicate a word form that may be
 
 ---
 
-# src-fst-morphology-affixes-interjections.lexc.md 
+## src-fst-morphology-affixes-interjections.lexc.md 
 
-# Interjections
+## Interjections
 
 The Erzya language interjections...
 
@@ -401,7 +401,7 @@ The Erzya language interjections...
 
 ---
 
-# src-fst-morphology-affixes-nonverbalConjugation.lexc.md 
+## src-fst-morphology-affixes-nonverbalConjugation.lexc.md 
 
 Non-Verbal conjugation
 
@@ -415,7 +415,7 @@ used with infinitives
 
 Conjugation 
 
-# NON-VERB CONJUGATION 
+## NON-VERB CONJUGATION 
 
 Conjugation 
 
@@ -437,27 +437,27 @@ Are there copula verb combinations? 2024-08-06
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Noun inflection
+## Noun inflection
 
 Nouns in ERZYA inflect for number, case and declension (definite, indefinite and possessive).
 
 LEXICON N_PELE  пеле:пель, ало:ал
 
-## KINSHIP 
+### KINSHIP 
 
-## HUMAN 
+### HUMAN 
 
-## PLACE 
+### PLACE 
 
-## LATIVE 
+### LATIVE 
 
-## VOCATIVE
+### VOCATIVE
 
-## NAMES OF MONTHS
+### NAMES OF MONTHS
 
-## COMMON NOUNS 
+### COMMON NOUNS 
 
 * LEXICON N_T1  кель:кель %^Ь2ZERO
 
@@ -566,9 +566,9 @@ N_KUDO-Def-Declension
 
 N_KUDO-Def-Declension
 
-## Plurale tantum
+### Plurale tantum
 
-## DEFINITE SINGULAR TAGS 
+### DEFINITE SINGULAR TAGS 
 
 * Noun singular nominative definite examples:*
 * *калось:* `кал+N+Sg+Nom+Def`
@@ -586,7 +586,7 @@ N_KUDO-Def-Declension
 
 * **+Sg+Ine+Def:%>с%{оэØ%}%>н%> N2Dem-SE ; **  !коридорсонсесь 2022-02-10
 
-## INDEFINITE DECLENSION
+### INDEFINITE DECLENSION
 
 SG-NOM-INDEF_LAK ;
 
@@ -596,25 +596,25 @@ SG-NOM-INDEF_OSH ;
 
 * ** TMP-INDEF ; ** Check this
 
-## INDEFINITE TAGS
+### INDEFINITE TAGS
 
 * Noun singular nominative definite examples:*
 * *калдо:* `кал+N+SP+Abl+Indef`
 * *калдояк:* `кал+N+SP+Abl+Indef+Foc/Гак`
 
-## POSSESSIVE DECLENSION 
+### POSSESSIVE DECLENSION 
 
-## CASES BEFORE POSSESSIVE TAGS 
+### CASES BEFORE POSSESSIVE TAGS 
 
-## DEFINITE PLURAL
+### DEFINITE PLURAL
 
-## Cases for тнэ
+### Cases for тнэ
 
 NP head ellipsis declension, Modifiers without nouns = MWN
 
 Nouns1S_A
 
-## POSSESSIVE marking followed by clitics
+### POSSESSIVE marking followed by clitics
 
 Possessor indices
 
@@ -631,7 +631,7 @@ Is "_KAL" necessary ?
 
 DAT-PXPL1 ;
 
-## POSSESSIVE TAGS 
+### POSSESSIVE TAGS 
 
 These are possessor Indices for non-nominative singular
 NonNomSg
@@ -644,14 +644,14 @@ word boundary or focus
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
-# Pronoun inflection
+## Pronoun inflection
 
 Erzya pronouns inflect in many the same cases as regular
 nouns.
 
-## Closed class personal pronouns
+### Closed class personal pronouns
 
 +Sem/Hum+Sg+Nom:е ENDLEX ;  кие:ки
 
@@ -706,7 +706,7 @@ Out of TestLexc-noun.txt
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 
@@ -734,7 +734,7 @@ DECLENSION LIMITATIONS
 
 ---
 
-# src-fst-morphology-affixes-quantifiers.lexc.md 
+## src-fst-morphology-affixes-quantifiers.lexc.md 
 
 Quantifier inflection
 
@@ -743,7 +743,7 @@ nouns.
 
 extra numerals
 
-### Now regular
+#### Now regular
 
 кавонст
 
@@ -771,10 +771,10 @@ Numeral with a range limitation to adnominal phrase
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -782,9 +782,9 @@ Numeral with a range limitation to adnominal phrase
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Verb inflection
+## Verb inflection
 
 Erzya language verbs inflect for person, subject and object.
 
@@ -823,11 +823,11 @@ VERBS WITH THIRD PERSON OBJECTS @U.CONJ-PX.13@
 
 VERBS WITH INTRANSITIVE TAGS +V
 
-# AUXILIARY VERBS
+## AUXILIARY VERBS
 
-# DERIVATION
+## DERIVATION
 
-# VERBS AFTER TRANSITIVITY Tags OBJECT FLAGS 
+## VERBS AFTER TRANSITIVITY Tags OBJECT FLAGS 
 
 теемс:тей
 теемс:тей
@@ -838,7 +838,7 @@ no deverbals
 
 no deverbals
 
-## DERIVATION 
+### DERIVATION 
 
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
 **LEXICON TV_NEKSHNEMS** Alternates with TRA
@@ -847,19 +847,19 @@ no deverbals
 This is fed by actors and participles in N_myv, A_myv and Prc_myv
 This is fed by actors and participles in N_myv, A_myv and Prc_myv
 
-## CONJUGATION 
+### CONJUGATION 
 
 Indicative Preterite I
 
-## INDICATIVE 
+### INDICATIVE 
 
 Indicative NonPast 
 
-## INDICATIVE PRETERITE 2 
+### INDICATIVE PRETERITE 2 
 
-## DESIDERATIVE 
+### DESIDERATIVE 
 
-## CONJUNCTIVE 
+### CONJUNCTIVE 
 
 redo conj 2012-11-07 begin
 
@@ -869,13 +869,13 @@ begin
 
 end
 
-## OPTATIVE 
+### OPTATIVE 
 
-## IMPERATIVE 
+### IMPERATIVE 
 
-## PRECATIVE
+### PRECATIVE
 
-## OPTATIVE 
+### OPTATIVE 
 
 2012-11-09
 
@@ -893,9 +893,9 @@ Used with deverbals
 
 ---
 
-# src-fst-morphology-clitics.lexc.md 
+## src-fst-morphology-clitics.lexc.md 
 
-# Clitics
+## Clitics
 
 The Erzya language clitics...
 
@@ -907,17 +907,17 @@ END
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# The Erzya morphophonological/twolc rules file 
+## The Erzya morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-myv/blob/main/src/fst/phonology.twolc) 
 
-## Alphabet
+### Alphabet
 
 ӓ Ӓ ҥ Ҥ і І ѳ Ѳ Pre-Soviet 1930s letters 
 
-## Special letters in the root that might be useful in dialect research and etymology later
+### Special letters in the root that might be useful in dialect research and etymology later
 * **Ь3:0  ** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
 * **Ӓ3:э  ** эрямс:Ӓ3ря 
 * **Ӓ4:е  ** пелемс:пӒ4ль
@@ -1256,7 +1256,9 @@ imperative suffix
 * *кирьпець^SoftRetain>тне*
 * *кирьпець0>тне*
 
-**Disallow soft loss**
+**Disallow SoftRetain**
+
+**Disallow SoftRetain**
 чувто+N+Pl+Nom+Def: **tree/puu**
 * *чувт%{ОØ%}%>тнЕ3*
 * *чувт0%>тнэ*
@@ -1300,10 +1302,10 @@ imperative suffix
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Morphology
+## Morphology
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF ERZYA.
 
 Analysis symbols
@@ -1315,7 +1317,7 @@ in this system in terms of following symbols.
 
 *  %    
 
-## The parts-of-speech are:
+### The parts-of-speech are:
 
 * +A adjective
 * +Adp adposition
@@ -1334,7 +1336,7 @@ in this system in terms of following symbols.
 * +Qnt quantifier
 * +V verb
 
-## Parts of speech are further split up into:
+### Parts of speech are further split up into:
 Adjectives
 * +Adn Adnominal (modifier) !! This is not an NP head like +Pron
 * +Bahuvrihi This is a nominative-case NP used as an adjective
@@ -1369,7 +1371,7 @@ Particles
 Postpositions
 **+ Spat**, **+ Temp**
 
-## Pronouns
+### Pronouns
 * +Dem demonstrative
 * +Indef indefinite
 * +Dep dependent word requiring the presence of another, e.g. **мень**
@@ -1393,7 +1395,7 @@ Postpositions
 * +Pl2 second person plural
 * +Pl3 third person plural
 
-## Quantifiers (numerals)
+### Quantifiers (numerals)
 Quantifiers and Numerals are classified under:
 * +Appr Approximative numeral кавто-колмо, колмошка *two or three*
 NB! do not confuse with Komi case +Apr
@@ -1405,13 +1407,13 @@ NB! do not confuse with Komi case +Apr
 * +Ord ordinal + NOrd
 * **+Exclusive**:  ськамонзо
 
-## Nominals are inflected for Number and Case
-## Number
+### Nominals are inflected for Number and Case
+### Number
 * +Sg singular
 * +Pl plural
 * +SP ambiguous for number, general number
 
-## Case
+### Case
 * +Abe abessive
 * +Abl ablative case
 * +Com Comitative "-нек/-нэк"
@@ -1431,7 +1433,7 @@ to mark what would be a secondary subject:
 * +Temp Temporalis case form "-не/-нэ" previously TempCx
 * +Voc Vocative
 
-## Possession and other declension types are marked with:
+### Possession and other declension types are marked with:
 * +PxSg1 first person singular
 * +PxSg2 second person singular
 * +PxSg3 third person singular
@@ -1441,12 +1443,12 @@ to mark what would be a secondary subject:
 * +PxPl3 third person plural
 * +Def Definite
 
-## The comparative forms are:
+### The comparative forms are:
 * +Comp comparative as opposed to superlative
 * +Superl superlative
 * +Attr Attribute
 
-## Verb moods are:
+### Verb moods are:
 * +Cond conditional Ындеря- (Derivational)
 * +Conj conjunctional "вОль"
 * +Des desiderative Ыксэль "was about to; wanted to"
@@ -1458,26 +1460,26 @@ to mark what would be a secondary subject:
 Иля аварде! `Don't cry' (Proh);
 Аволь мелявтт, кецяк! `Don't worry, be happy!' (Neg + Imprt)
 
-### Infinitive moods
+#### Infinitive moods
 * +Oblig modality: deontic/directive/obligative
 андомс: андома , якамс: якама
 * +Delib **+Sugg modality**: deontic/directive/deliberative
 I still need the right word for this андомс: андомсат
 
-## Tenses in the indicative and infrequently in the conditional
+### Tenses in the indicative and infrequently in the conditional
 * +Prs In Erzya There is no morphological distinction
 between present and future
 * +Prt1 Preterite 1
 * +Prt2 Preterite 2 (This is also used in predicate forms not involving a finite verb.)
 
-## Verb personal forms are:
+### Verb personal forms are:
 * +ScSg1 * subject conjugation first person singular
 * +ScSg2 * subject conjugation second person singular
 * +ScSg3 * subject conjugation third person singular
 * +ScPl1 * subject conjugation first person plural
 * +ScPl2 * subject conjugation second person plural
 * +ScPl3 * subject conjugation third person plural
-## Object conjugation
+### Object conjugation
 * +OcSg1 * object conjugation first person singular
 * +OcSg2 * object conjugation second person singular
 * +OcSg3 * object conjugation third person singular
@@ -1511,7 +1513,7 @@ Other verb forms are
 
 * +PrfPrc 
 
-## The Usage extents are marked using following tags:
+### The Usage extents are marked using following tags:
 * +Err/Orth * Substandard
 * +Err/Sub * Substandard
 * +Err/Orth-no-hyphen * тетятават should be тетят-ават
@@ -1565,7 +1567,7 @@ Other verb forms are
 
 * +URL * For tagging URLs
 
-# Dialect tags
+## Dialect tags
 * +Dial/SH * Short forms
 * +Dial/L * Long forms
 * +Dial * No specification
@@ -1580,7 +1582,7 @@ Rueter 2010: 8
 * +Dial/SE * 4 South-Eastern or Sura
 * +Dial/M * 5 Mixed or Drakino-Shoksha
 
-# Orthography tags
+## Orthography tags
 * +Orth/PhonDeriv * Derivation is phonetic but declension and conjugation morphologic
 * +Orth/PhonInfl * Entire inflection is phonetic 1821, 1920-30
 * +Orth/standard * described in 2008, dictionary 2012
@@ -1594,12 +1596,12 @@ Rueter 2010: 8
 * +Orth/-thirties * e.g. таргсемс, студенттнэ
 * +Orth/Colloq Colloquial speech reflected in spelling
 
-# Abbreviated words are classified with:
+## Abbreviated words are classified with:
 * +ABBR * Abbreviation
 * +Symbol = independent symbols in the text stream, like £, €, ©
 * +ACR * Acronym
 
-## Special symbols 
+### Special symbols 
 
 Delimiter marks are classified with:
 * +CLB +PUNCT +LEFT +RIGHT +MIDDLE * 
@@ -1649,12 +1651,12 @@ Question and Focus particles:
 * +PrsAct for Russian 
 * +Pst for Russian
 
-# Semantic tags
+## Semantic tags
 
 Semantic tags to help disambiguation & synt. analysis: (before POS)
 Borrowed from main/langs/sme/src/morphology/root.lexc
 
-## Simplex tags
+### Simplex tags
 
 * +Sem/Act Activity
 * +Sem/Amount Amount
@@ -1910,9 +1912,9 @@ Semantic Fields
 * +Field/Tech technical
 * +Field/Zool zoological
 
-# Other tags
+## Other tags
 
-## Verbal arguments
+### Verbal arguments
 * +Subj/Zero This is used to mark verbs without a semantic subject
 
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -1920,9 +1922,9 @@ source and target part-of-speech.
 
 * +V→N +V→V +V→A 
 
-## Homonymy
+### Homonymy
 
-## Der begin
+### Der begin
 * +Der  In front of every derivation to make it
 possible to target derivations as a class e.g. in regular expressions etc
 * +Der/VtOmO
@@ -1954,19 +1956,19 @@ possible to target derivations as a class e.g. in regular expressions etc
 * +Der/NomAg Actor Noun From Verb - Nomen Agentis (derivation) default in Ыця
 * +Der/NomAct Action Noun From Verb - Nomen Actio (derivation)
 
-## Declaring noun derivations
+### Declaring noun derivations
 * +Der/pelj 
 
 Modifier without noun
 * +Der/MWN Modifier without Noun
 * +Der/Dem Speaker-Oriented Demonstrative
-## Conjugation of words other than finite verbs
+### Conjugation of words other than finite verbs
 * +Der/Pr derivation to predicate head, e.g. nominal conjugation
 * +Der/Cop This is not a derivation
 * +Clt/Cop This will replace the nominal conjugation Der/Pr+V
 * +Clt/Cond 
 
-## Declaring Indefinite Pronoun derivations
+### Declaring Indefinite Pronoun derivations
 * +Der/koj prefix `+Indef` in indefinite pronouns
 * +Der/ta prefix `+Indef` in indefinite pronouns
 * +Der/tago prefix `+Indef` in indefinite pronouns
@@ -1974,16 +1976,16 @@ Modifier without noun
 * +Der/buti suffix `+Indef` in indefinite pronouns
 * +Der/Yja suffix `+Indef` in indefinite pronouns  ковия, зярыя
 
-## DECLARING NOUN DERIVATIONS
+### DECLARING NOUN DERIVATIONS
 * +Der/chi  adjective-to-noun
-## the combinatory --Event-- preceding the NP-final noun
+### the combinatory --Event-- preceding the NP-final noun
 * +Der/OmA  verb-to-noun
 
-## DECLARING NUMERAL DERIVATIONS
+### DECLARING NUMERAL DERIVATIONS
 * +Der/cje  +A+Ord
 * +Der/tjks  +A+Ord (non-contrastive)
 
-## DECLARING DEVERBAL DERIVATIONS OF VERBS
+### DECLARING DEVERBAL DERIVATIONS OF VERBS
 * +Der/kshnO  verb2verb derivation
 * +Der/OkshnOms  verb2verb derivation
 * +Der/OvOms  verb2verb derivation
@@ -2027,7 +2029,7 @@ Modifier without noun
 
 * +F - Foreign
 
-# Morphophonology
+## Morphophonology
 
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
@@ -2045,7 +2047,7 @@ And following triggers to control variation
 * Е3 testing тне тнэ
 * _%^H_ used with stems in ч, ш, ж for hard plurals
 
-## Special letters in the root	  that might be useful in	dialect	research and etymology later
+### Special letters in the root	  that might be useful in	dialect	research and etymology later
 * Ь3   арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
 * Ӓ3   эрямс:Ӓ3ря
 * Ӓ4   пелемс:пӒ4ль
@@ -2075,7 +2077,7 @@ And following triggers to control variation
 * %^SoftRetain  — The soft sign is not lost when adding -тне
 * %^HardNoDent  — Hard non-dent followed by -тнэ потоктнэсэ
 
-# MISC
+## MISC
 * +Cmp/Hyph A tag to indicate that a hyphen was used when compounding
 
 Development tag
@@ -2103,7 +2105,7 @@ It is important for Apertium, and useful in other cases as well.
 * +Cmp/Hyph-Serial with verbs
 * +Cmp/Hyph-tejems with verbs
 
-## Tags
+### Tags
 * +Emphatic 
 * +Gr2xxx 
 * +Pref Prefix
@@ -2113,12 +2115,12 @@ It is important for Apertium, and useful in other cases as well.
 
 * +Onom onomapoetic words
 * +Descr descriptive words
-## Different focus particles
+### Different focus particles
 Focus clitics
 * +Clt/Add Only one additive clitic
 * +Clt/AddGak 
 
-## Imperative clitics
+### Imperative clitics
 * +Clt/Ga редяка Precative +Prec
 * +Clt/Gaja редякая
 * +Clt/Gajatj редякаять
@@ -2130,7 +2132,7 @@ Focus clitics
 "Joe came in **with his hat on**."
 "Joe came in **Joe had his hat on**."
 
-### Tags distinguishing different versions of the same lemma (before POS)
+#### Tags distinguishing different versions of the same lemma (before POS)
 * +v1
 * +v2
 * +v3
@@ -2161,14 +2163,14 @@ Focus clitics
 * +NoPoss used with personal pronouns in oblique cases,
 where a possessor index is expected
 
-### Symbols that need to be escaped on the lower side (towards twolc):
+#### Symbols that need to be escaped on the lower side (towards twolc):
 
 * »
 * «
 * > (written with square brackets, see the root.lexc file)
 * < (written with square brackets, see the root.lexc file)
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -2427,15 +2429,15 @@ Linking vowel for use with Translative
 * @C.KLOSS@ 
 * @C.TLOSS@ 
 
-# FLAGS USED WITH COLLECTIVE NOUNS
-## number
+## FLAGS USED WITH COLLECTIVE NOUNS
+### number
 * @U.DECL-NX.SG@
 * @U.DECL-NX.SP@
 * @U.DECL-NX.PL@
 * @R.DECL-NX.SG@
 * @R.DECL-NX.SP@
 * @R.DECL-NX.PL@
-## case
+### case
 * @U.DECL-CX.NOM@ 
 * @U.DECL-CX.ACC@ 
 * @U.DECL-CX.GEN@ 
@@ -2497,7 +2499,7 @@ alo-SPAT-1Arg ; >PO_KAL-LOC
 
 ---
 
-# src-fst-morphology-stems-adjectives-russian-like_newwords.lexc.md 
+## src-fst-morphology-stems-adjectives-russian-like_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2511,7 +2513,7 @@ ADD ADJECTIVES BELOW
 
 ---
 
-# src-fst-morphology-stems-adjectives_newwords.lexc.md 
+## src-fst-morphology-stems-adjectives_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2525,7 +2527,7 @@ ADD ADJECTIVES BELOW
 
 ---
 
-# src-fst-morphology-stems-adverbs_newwords.lexc.md 
+## src-fst-morphology-stems-adverbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2539,7 +2541,7 @@ ADD ADVERBS BELOW
 
 ---
 
-# src-fst-morphology-stems-exceptions.lexc.md 
+## src-fst-morphology-stems-exceptions.lexc.md 
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -2581,26 +2583,26 @@ This has special hard after lost consonant
 гт >> к
 мекевлангт+Adv+Use/NG+Err/Orth:мекевланг K ;  Half way between morphology and phonetics with a Russian twist 
 
-### ADPOSITIONS
+#### ADPOSITIONS
 
-### IDEOPHONES
+#### IDEOPHONES
 are dealt with as adverbs
 
-### PRONOUNS
+#### PRONOUNS
 
-### QUANTIFIERS
+#### QUANTIFIERS
 сисем+Num+Ord:сисеме NUMORD_KUDO ;  This is irregularly formed, cf. сисемце
 
-### NOUNS
+#### NOUNS
 
-### NOUNS WRITTEN Appart
+#### NOUNS WRITTEN Appart
 
-### PLACE NAMES
-### GEO
+#### PLACE NAMES
+#### GEO
 
-### ANIMAL NAMES
+#### ANIMAL NAMES
 
-### FIRST NAMES
+#### FIRST NAMES
 
 100 % homographs of Russian words
 
@@ -2628,7 +2630,7 @@ COLLECTIVE NOUNS
 
 ---
 
-# src-fst-morphology-stems-genitive_attributes.lexc.md 
+## src-fst-morphology-stems-genitive_attributes.lexc.md 
 
 This is where new words are added as lexc entries before they are
 added to the xml source files.
@@ -2642,7 +2644,7 @@ ADD ADJECTIVES BELOW
 
 ---
 
-# src-fst-morphology-stems-hyphenated-nouns.lexc.md 
+## src-fst-morphology-stems-hyphenated-nouns.lexc.md 
 
 These are nouns with parallel declension
 
@@ -2671,11 +2673,11 @@ These are nouns with parallel declension
 
 ---
 
-# src-fst-morphology-stems-hyphenated-verbs.lexc.md 
+## src-fst-morphology-stems-hyphenated-verbs.lexc.md 
 
 These are verbs with parallel conjugation
 
-### REDUPLICATION
+#### REDUPLICATION
 авардемс%-авардемс
 ардомс%-ардомс
 ардтневтемс%-ардтневтемс
@@ -2685,7 +2687,7 @@ These are verbs with parallel conjugation
 ваномс%-ваномс
 вешнемс%-вешнемс
 
-### %-And such
+#### %-And such
 авардемс%-теемс
 арсемс%-теемс
 аштемс%-теемс
@@ -2701,7 +2703,7 @@ These are verbs with parallel conjugation
 ёмавтомс%-аравтомс
 ярсамс%-симемс
 
-### SERIAL
+#### SERIAL
 витнемс%-ютавтомс
 
 * * *
@@ -2710,7 +2712,7 @@ These are verbs with parallel conjugation
 
 ---
 
-# src-fst-morphology-stems-myv-propernouns.lexc.md 
+## src-fst-morphology-stems-myv-propernouns.lexc.md 
 
 
 
@@ -2736,7 +2738,7 @@ Rivers
 
 ---
 
-# src-fst-morphology-stems-nouns_newwords.lexc.md 
+## src-fst-morphology-stems-nouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2750,7 +2752,7 @@ ADD NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-nouns_russian_100_newwords.lexc.md 
+## src-fst-morphology-stems-nouns_russian_100_newwords.lexc.md 
 
 This is where new Russian-equivalent nouns are added as lexc entries.
 This makes for a shared list in Mordvin analyser development
@@ -2764,7 +2766,7 @@ ADD NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-propernouns_newwords.lexc.md 
+## src-fst-morphology-stems-propernouns_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2778,7 +2780,7 @@ ADD NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-rusMaleNameDer.lexc.md 
+## src-fst-morphology-stems-rusMaleNameDer.lexc.md 
 
 
 
@@ -2791,7 +2793,7 @@ the template urj-Cyrl-propernouns.lexc.
 
 ---
 
-# src-fst-morphology-stems-verbs_newwords.lexc.md 
+## src-fst-morphology-stems-verbs_newwords.lexc.md 
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2810,7 +2812,7 @@ N-End
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2979,7 +2981,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -3001,14 +3003,14 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 E R Z Y A    G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
 Upper and lower case
 
@@ -3028,13 +3030,13 @@ This will be expanded for homonymy at first, i.e., diminutives
 
 used with Dat PxSg1
 
-### Derivation tags
+#### Derivation tags
 2VDerTag
 2NDerTag
 
 DerTag
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -3042,9 +3044,9 @@ DerTag
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for myv
+## Tokeniser for myv
 
 Usage:
 ```
@@ -3087,7 +3089,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -3106,9 +3108,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for myv
+## Grammar checker tokenisation for myv
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -3171,9 +3173,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
