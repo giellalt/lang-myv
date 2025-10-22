@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-myv)](https://github.com/giellalt/lang-myv/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-myv)](https://github.com/giellalt/lang-myv/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-myv?label=CI)](https://builds.giellalt.org/pipelines/lang-myv/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/erzy1239)
 
 These pages document the work on the [Erzya language model](https://github.com/giellalt/lang-myv). It is a full-size model of the grammar, containing almost 120000 stems and a morphological and morphophonological component. The analyser is in use in an e-dictionary, an e-learning program and a spellchecker. In case of questions, contact *Jack Rueter*.
 
