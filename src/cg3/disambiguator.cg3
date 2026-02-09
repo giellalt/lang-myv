@@ -2381,6 +2381,8 @@ REMOVE:NotPlainNWhenExA NOTEXA2NOUN IF (-1 (Sg Abl Indef)) (0 Ex/A);#
 #Pron Dem Sg Abl Indef
 
 SELECT:NRelatFirst (N Relat) (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
+ #Прока лелянь ёвтавт героенть лемензэ путсынек!
+ # prevent N Relat from being included in compounding
 
 SELECT:AdpAfterNRelat Adp (-1 Gen + Def OR N + Sg + Nom + Indef OR N + SP + Gen OR Pron + Pers + PERSON + Gen OR Pron + Dem + NUM + Gen OR Pron + Interr + NUM + Gen) ;
  	# сюконякшнось партизантнэнь каршо
