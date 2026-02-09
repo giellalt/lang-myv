@@ -81,6 +81,8 @@ LEXICON N-KIN_VELE
 !@P.POS.N@!+Sem/Kin:@P.POS.N@ NMN_KUDO ;
 ! N-KIN ;
 
+LEXICON N_RELAT_KUDO
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_KUDO ;
 LEXICON N-KIN_KUDO
 @P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KUDO ;
  N-KIN ;
@@ -306,6 +308,11 @@ LEXICON N_KAL
 @P.POS.N@:@P.POS.N@ NMN_KAL ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_RELAT_SAN_errorth_je_for_jo
+@U.COMPOUND.NO@+Relat+Err/Orth-je-for-jo:@U.COMPOUND.NO@ N_SAN ;
+LEXICON N_RELAT_SAN
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_SAN ;
+
 LEXICON N_SAN
 @P.POS.N@:@P.POS.N@ NMN_SAN ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -363,6 +370,8 @@ LEXICON N_KEL1_rusmyv
 +Use/SpellNoSugg: N_KEL1 ;
 LEXICON N_KEL1_rus100
 +Use/SpellNoSugg: N_KEL1 ;
+LEXICON N_RELAT_KEL1
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_KEL1 ;
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KEL1 ;
@@ -404,6 +413,8 @@ LEXICON NMN_VESHCH1
 
 LEXICON N_J_rus100
 +Use/SpellNoSugg: N_J ;
+LEXICON N_RELAT_J
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_J ;
 LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
  N_J ;
 LEXICON N_J !!= * @CODE@ кель:кель %^Ь2ZERO
@@ -458,6 +469,8 @@ LEXICON N_KEL1-PL
 
 LEXICON N_LAK_rus100
 +Use/SpellNoSugg: N_LAK ;
+LEXICON N_RELAT_LAK
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_LAK ;
 LEXICON N_LAK
 @P.POS.N@:@P.POS.N@ NMN_LAK ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
@@ -573,6 +586,8 @@ LEXICON N_FCH_rus100
 +Use/SpellNoSugg: N_FSH ;
 LEXICON N_FSH_rus100
 +Use/SpellNoSugg: N_FSH ;
+LEXICON N_RELAT_FSH
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_FSH ;
 LEXICON N_KENKSH
  N_FSH ;
 LEXICON N_FSH
@@ -631,6 +646,8 @@ LEXICON N_FS_rus100
 +Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_LEVKS_rus100
 +Use/SpellNoSugg: N_LEVKS ;
+LEXICON N_RELAT_LEVKS
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_LEVKS ;
 LEXICON N_LEVKS
 ! harmony: front
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
@@ -704,6 +721,8 @@ LEXICON N_CHUVTO
 @P.POS.N@:@P.POS.N@ NMN_PANGO ;
 @P.POS.N@+Der+Der/Dimin+N:@P.POS.N@ы%>Н1е%{frontSoft%} NMN_KUDO ;
 
+LEXICON N_RELAT_PANGO
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_PANGO ;
 LEXICON N_PANGO
 !! панго:панг
 @P.POS.N@:@P.POS.N@%{back%} NMN_TINGE-SHORT-FORMS ;
@@ -740,6 +759,8 @@ LEXICON N_VELE_rus100
 +Use/SpellNoSugg: N_VELE ;
 LEXICON N_VELE_rusmyv
 +Use/SpellNoSugg: N_VELE ;
+LEXICON N_RELAT_VELE
+@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_VELE ;
 LEXICON N_VELE
 !! Front vowel, palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_VELE ;
