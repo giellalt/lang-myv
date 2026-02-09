@@ -1656,7 +1656,10 @@ REMOVE:NoPlIfOnlySgSubjPossible Pl IF (NOT -2* SG-SUBJ BARRIER BOS OR CLB) (-1 V
 # 
 #REMOVE Der/ОвОмс (0C V) ;
 #REMOVE Der/OvOms (0C V) ;
-SELECT Der/OvOms (NOT 0 (V Conj)) ; #!! 2023_03_15 important part of regular inflection
+SELECT Der/OvOms (NOT 0 (V Conj) LINK NOT -1 (Gen)) ; #!! 2023_03_15 important part of regular inflection
+ #ёвтавт: Прока лелянь ёвтавт героенть лемензэ путсынек!
+
+REMOVE Imprt IF (-1 Gen) (1 N) (0* VFIN BARRIER BOS OR EOS OR CLB) ;
 
 # кортавтома
 REMOVE Der/OvtOms (0C V) ;
