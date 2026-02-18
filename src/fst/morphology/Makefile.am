@@ -55,6 +55,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/historical_lexicon.lexc       \
 			stems/hyphenated-nouns.lexc       \
 			stems/hyphenated-verbs.lexc       \
+			stems/interjections.lexc         \
 			stems/nouns_newwords.lexc         \
 			stems/nouns_russian_100_newwords.lexc         \
 			stems/numerals.lexc               \
