@@ -902,6 +902,9 @@ LIST NAELAAMBADVS = "бойкасто" "кеместэ" "пижестэ" "сее
 LIST VAMBNOUNS = "але" "вал" "вий" "дум" "кадо" "кан" "кандо" "кармо" "каса" "кекше" "кем" "код" "коз" "кудо" "кундо" "лов" "максо" "марь" "ниле" "пандо" "пей" "пона" "понго" "ранг" "ром" "сал" "сод"
  "корт" "пель" "куль" "мель" "кон" "сай" "лисе" "куло" "мор" "моро" "рама" ; #!!nouns highly unlikely to take Sg1 Sg2 copula
 
+LIST VAMBNOUNS-NOM-PXSG3 = "вал" "вий" "кадо" "кандо" "кекше" "кем" "коз" "лов" "максо" "ниле" "пандо" "пона" "понго" "ранг" "сод"
+ "пель" "куло" "рама" ; #!!nouns in Sg Nom PxSg3 verbs in Opt+ScSg3 are homonymous 
+
 SET POSTPCOMPLEMENTTARGET = NSgNomIndef | (N SP Gen Indef) | (N Sg Gen Def) | (N Pl Gen Def) | (N Sg Gen PxSg1) | (N Pl Gen PxSg1) |
 (N Sg Gen PxSg2) | (N Pl Gen PxSg2) |
 (N Sg Gen PxSg3) | (N Pl Gen PxSg3) |
@@ -1719,6 +1722,12 @@ REMOVE:lanIfPo ("лан") IF (0 N + Relator + Prl) ((-1 Gen + Def) OR (-1 Sg + N
 
 # тень лангс
 REMOVE:pronPersSg1Dat Pers IF (0 Pron + Dem + Sg + Gen)(1 Adp);
+
+REMOVE:NotVAmbNounsIFPropN VAMBNOUNS-NOM-PXSG3 IF (0 (Sg Nom PxSg3)) (0 (Opt ScSg3)) (0* (Prop Sg Nom) BARRIER EOS OR BOS OR CLB) (NOT 0* VFIN BARRIER EOS OR BOS OR CLB);
+
+REMOVE:NotOptIFAdjacentScSg3 (Opt ScSg3) IF (0 (Sg Nom PxSg3)) (0* VFIN BARRIER EOS OR BOS OR CLB);
+# MAYBE too strong, need to say that VFIN has NO other reading.
+#сэредсь максозо Opt ScSg3
 
 # мон кодан
 REMOVE:NotVAmbNounsIFVerb Clt/Cop IF (0C ScSg1 OR ScSg2 OR ScPl1 OR ScPl2) (0 VAMBNOUNS) ;
