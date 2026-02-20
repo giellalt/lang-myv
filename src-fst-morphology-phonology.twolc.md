@@ -345,6 +345,8 @@ imperative suffix
 * *кирьпець^SoftRetain>тне*
 * *кирьпець0>тне*
 
+**Disallow hard dent with soft error**
+
 **Disallow SoftRetain**
 
 **Disallow SoftRetain**
