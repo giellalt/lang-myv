@@ -1212,6 +1212,7 @@ MAP (@CNUMP) TARGET CC IF (-1 Num) (1 Num );#
 
 #MAP (@CADJP) TARGET CC IF (-1 A OR NomAg OR (Ex/A Der/MWN)) (1 ("...")) (2 A OR NomAg OR (Ex/A Der/MWN));#
 REMOVE (N Sg Nom Indef) IF (-2 (A Sg Nom Indef)) (-1 ("ды" CC)) (0 (A Sg Nom Indef));
+   #Копнай превей ды мазый. THIS MAY BE TOO STRONG.2026-03-10
 #REMOVE (N Sg Nom Indef) IF (-3 (A Sg Nom Indef)) (-2 ("ды" CC)) (-1 ("...")) (0 (A Sg Nom Indef));
     #Смелой ды ... мазый. NOT WORKING 2026-03-10
 
