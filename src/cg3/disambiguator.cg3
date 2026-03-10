@@ -1210,6 +1210,11 @@ MAP (@CNP) TARGET CC IF (-1 N) (1 N);#verbs and predicates come before nouns
 MAP:NnPron (@CNP) TARGET CC IF (-1 N) (1* ("эрьва") BARRIER CLB OR EOS OR CC LINK 1 ("мезе"));#verbs and predicates come before nouns
 MAP (@CNUMP) TARGET CC IF (-1 Num) (1 Num );#
 
+#MAP (@CADJP) TARGET CC IF (-1 A OR NomAg OR (Ex/A Der/MWN)) (1 ("...")) (2 A OR NomAg OR (Ex/A Der/MWN));#
+REMOVE (N Sg Nom Indef) IF (-2 (A Sg Nom Indef)) (-1 ("ды" CC)) (0 (A Sg Nom Indef));
+#REMOVE (N Sg Nom Indef) IF (-3 (A Sg Nom Indef)) (-2 ("ды" CC)) (-1 ("...")) (0 (A Sg Nom Indef));
+    #Смелой ды ... мазый. NOT WORKING 2026-03-10
+
 SELECT Pron IF (0 ("тона" Sg Nom Indef)) (NOT 1 A OR N);
    #сась: Шкань ютазь тона сась ваксозонзо.
    #
@@ -1218,6 +1223,10 @@ REMOVE Err/Orth-stem-soft-should-be-0 IF (0 DISALLOWSOFTSIGNRETENTIONSTEM) ;
 
 REMOVE (V Aux Neg Err/Orth Dial/NW Imprt ScSg2 OcPl3) OR ("илямс") IF (0 ("эли" @CNUMP));
        # кинь пильгензэ кавто или ниле
+
+REMOVE:NoPredPlWhenSg3Subj (Der/GenAttr A Clt/Cop Prs ScPl3) IF (0* (Pron Pers Sg3 Nom) OR SUBJECTCANDIDATESG3 OR (Pron Pers Sg1 Nom) OR (Pron Pers Sg2 Nom) OR (Pron Pers Pl1 Nom) OR (Pron Pers Pl2 Nom) BARRIER CLB OR EOS OR BOS) ;#
+   #Нама, сон уш алкуксонь ялга.
+   #Ведь инжесь алкуксонь.
 
 SELECT:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (NOT 1 A OR N);
 REMOVE:RusNegWhenNextUnknown (Pcle Neg F) IF (0 ("не")) (1 A OR N);
