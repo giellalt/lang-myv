@@ -22,14 +22,15 @@ These pages document the work on the [Erzya language model](https://github.com/g
 
 * Generation of [paradigms](http://giellatekno.uit.no/cgi/p-myv.eng.html)
 
-## Backround ~ Фон
-
-* [Linguistic resources for Erzya based on this language model](https://giellatekno.uit.no/cgi/index.myv.eng.html)
-* [Grammatical tags](docu-grammartags.eng.md)  ~ [грамматических теги](docu-grammartags.rus.md)
 
 ## Project documentation
 
 * (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
+
+## Backround ~ Фон
+
+* [Linguistic resources for Erzya based on this language model](https://giellatekno.uit.no/cgi/index.myv.eng.html)
+* [Grammatical tags](docu-grammartags.eng.md)  ~ [грамматических теги](docu-grammartags.rus.md)
 
 ## In-source documentation
 
