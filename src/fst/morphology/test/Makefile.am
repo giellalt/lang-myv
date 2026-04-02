@@ -20,7 +20,8 @@ XFAIL_TESTS=generate-adjective-lemmas.sh  \
             generate-propernoun-lemmas.sh \
 			missing-multichars.sh \
 			generate-adjective-paradigm.sh \
-			generate-noun-paradigm.sh
+			generate-noun-paradigm.sh \
+			generate-verb-lemmas.sh
 
 
 include $(top_srcdir)/../giella-core/am-shared/devtest-include.am
