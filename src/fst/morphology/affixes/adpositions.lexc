@@ -153,23 +153,23 @@ LEXICON ADPOSITION-TYPES
 
 !LEXICON PO_PANGO-INE3
 !!! лангсо:ланг
-!+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
-!+Ine:%>%{оеэØ%}%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
-!+Ela:%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
-!+Ela:%>%{оеэØ%}%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ine:%>с{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ine:%>{оеэØ}%>с{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>ст{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>{оеэØ}%>ст{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
 !+Ill:%>с K ;
-!+Ill:%>%{оеэØ%}%>с K ;
-!+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Ill:%>{оеэØ}%>с K ;
+!+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON PO_OSH-INE4
 !!!вакссо:вакс
-!+Ine:%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
-!+Ine:%>%{оеэØ%}%>с%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
-!+Ela:%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
-!+Ela:%>%{оеэØ%}%>ст%{оэØ%} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ine:%>с{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ine:%>{оеэØ}%>с{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>ст{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
+!+Ela:%>{оеэØ}%>ст{оэØ} PO_POSS-or-END-FOC-COPULA-SC3 ;
 !+Ill:%>с K ;
-!+Ill:%>%{оеэØ%}%>с K ;
-!+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Ill:%>{оеэØ}%>с K ;
+!+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 !+Prl:%>Г2а PO_POSS-or-END-FOC-COPULA-SC3 ;
 
 !LEXICON PO_KAL-LOC
@@ -177,17 +177,17 @@ LEXICON ADPOSITION-TYPES
 !! alo-SPAT-1Arg
 !+Abl:%>дО1 K ;
 !+Abl:%>дО1 OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Loc:%>%{оеэØ%} K ; 
-!+Loc:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!!+Lat:%>%{оеэØ%}в _KUDO-Possessive-Before-K ;
+!+Loc:%>{оеэØ} K ; 
+!+Loc:%>{оеэØ} OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!!+Lat:%>{оеэØ}в _KUDO-Possessive-Before-K ;
 !+Prl:%>Г2а K ;
 !+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 !+Orth/PhonDeriv+Loc+Der+Der/cje:%>це N2_DEF_DECLENSION_KUDO ;
 !+Loc+Der+Der/sje+Pron:%>се N2_DEF_DECLENSION_KUDO ;
 !+Der+Der/ks:%>кс N_OSH ;
-!+Lat:%>%{оеэØ%}в K ;
+!+Lat:%>{оеэØ}в K ;
 !+Abl:%>дО1 N2_DEF_DECLENSION_KUDO ;
-!+Loc+Der+Der/MWN+N:%>%{оеэØ%} N2_DEF_DECLENSION_KUDO ; 
+!+Loc+Der+Der/MWN+N:%>{оеэØ} N2_DEF_DECLENSION_KUDO ; 
 !+Prl+Der+Der/MWN+N:%>Г2а N2_DEF_DECLENSION_KUDO ;
 
 LEXICON PO_POSS_OR_END_FOC
@@ -219,7 +219,7 @@ LEXICON PO-IS-ABL
 LEXICON PO-IS-ILL-STEM
 !! postposition that is in illative case
 !! эземс:эзем
-+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Ill:%>с K ;
 
 LEXICON PO-IS-ILL-STEM_E2JS
@@ -274,20 +274,20 @@ LEXICON PO-SPAT_
 LEXICON PO-SPAT-IS-ILL-STEM
 !! postposition that is in illative case
 !! малас:мала
-+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +Ill:%>с K ;
 
 !LEXICON PO-SPAT-IS-ILL-STEM_E2KSHS
 !! postposition that is in illative case
 !! малас:мала
-!+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 !+Ill:%>с K ;
-!+Ill:%>%{оеэØ%}с K ;
+!+Ill:%>{оеэØ}с K ;
 
 !LEXICON PO-SPAT-IS-ILL-STEM_POTS
 !! postposition that is in illative case
 !! потс:пот
-!+Ill:м%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Ill:м%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 !+Ill:%>с K ;
 
 !LEXICON PO-SPAT-IS-ILL-STEM_E2JS
@@ -352,7 +352,7 @@ LEXICON PO_KUDO-ILL
 
 !LEXICON PO_OSH-ILL
 !+Ill:%>с K ;
-!+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 LEXICON PO-SPAT_karsho
 : K ;
@@ -366,30 +366,30 @@ LEXICON PO-SPAT_karsho
 
 !LEXICON vaksso-SPAT
 ! malaso-SPAT ;
-!+Ela:%>%{оеэØ%}%>ст%{оэØ%} _KUDO-Conjugation ;
-!+Ill:%>%{оеэØ%}%>с K ;
-!+Ine:%>%{оеэØ%}%>с%{оэØ%} _KUDO-Conjugation ;
-!+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Ela:%>{оеэØ}%>ст{оэØ} _KUDO-Conjugation ;
+!+Ill:%>{оеэØ}%>с K ;
+!+Ine:%>{оеэØ}%>с{оэØ} _KUDO-Conjugation ;
+!+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON jutkso-SPAT
-!+Prl:%>%{оеэØ%}%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
-!+Prl:%>%{оеэØ%}%>Г2а _KUDO-Conjugation ;
+!+Prl:%>{оеэØ}%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+Prl:%>{оеэØ}%>Г2а _KUDO-Conjugation ;
 ! langso-SPAT ;
 
 !LEXICON langso-SPAT
-!+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
+!+Ela:%>ст{оэØ} _KUDO-Conjugation ;
 !+Ill:%>с K ;
-!+Lat:%>%{оеэØ%}в K ;
-!+Ine:%>с%{оэØ%} _KUDO-Conjugation ;
-!+Ela:%>ст%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+Lat:%>{оеэØ}в K ;
+!+Ine:%>с{оэØ} _KUDO-Conjugation ;
+!+Ela:%>ст{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 !+Ill:%>О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Ine:%>с%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+Ine:%>с{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 !LEXICON PO_KUDO-INE5
 !!! malaso:mala
-!+Ela:%>ст%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+Ela:%>ст{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 !+Ill:%>О2з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Ine:%>с%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+Ine:%>с{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 !+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 !+Lat:%>в _KUDO-Conjugation ;
 

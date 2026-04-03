@@ -65,7 +65,7 @@ LEXICON PRON-IS-REFL-PRL-PXPL3
 LEXICON PRON-INTERR-HUM_KIE !!Interr-Pers
 +Sem/Hum+Sg+Nom:е ENDLEX ; !!= @CODE@ кие:ки
 +Sem/Hum+Sg+Nom: ENDLEX ; 
-+Sem/Hum+Pl+Nom:%>т%{ЬØ%} ENDLEX ; 
++Sem/Hum+Pl+Nom:%>т{ЬØ} ENDLEX ; 
 +Sem/Hum: PRON-INTERR-HUM_KIE-OBL ;
 +Sem/Hum+Clt/Cop+Prs+ScSg1:%>ян K ;
 +Sem/Hum+Clt/Cop+Prs+ScSg2:%>ят K ;
@@ -75,13 +75,13 @@ LEXICON PRON-INTERR-HUM_KIE !!Interr-Pers
 +Sem/Hum+Clt/Cop+Prs+ScPl3:%>ть K ;
 
 LEXICON PRON-INTERR-HUM_KIE-OBL
-+Abe:%>вт{оеэ%}мО1 ENDLEX ;
-+Abl:%>%{дт%}О1 ENDLEX ;
++Abe:%>вт{оеэ}мО1 ENDLEX ;
++Abl:%>{дт}О1 ENDLEX ;
 +Dat:%>нень ENDLEX ;
-+Ela:%>ст%{оэØ%} ENDLEX ;
++Ela:%>ст{оэØ} ENDLEX ;
 +Gen:%>нь ENDLEX ;
 +Ill:%>с ENDLEX ;
-+Ine:%>с%{оэØ%} ENDLEX ;
++Ine:%>с{оэØ} ENDLEX ;
 +Tra:%>екс ENDLEX ;
 
 LEXICON PRON-INTERR-OBJ_MEZE
@@ -91,13 +91,13 @@ LEXICON PRON-INTERR-OBJ_MEZE
 +Sem/Obj: CLT/COP_SG ; !!= @CODE@ singular
 
 LEXICON PRON-INTERR-OBJ_MEZE-OBL
-+Abe:%>вт{оеэ%}мО1 ENDLEX ;
++Abe:%>вт{оеэ}мО1 ENDLEX ;
 +Com:%>шка ENDLEX ;
 +Dat:%>нень ENDLEX ;
-+Ela:%>ст%{оэØ%} ENDLEX ;
++Ela:%>ст{оэØ} ENDLEX ;
 +Gen:%>нь ENDLEX ;
 +Ill:%>с ENDLEX ;
-+Ine:%>с%{оэØ%} ENDLEX ;
++Ine:%>с{оэØ} ENDLEX ;
 +Prl:%>ва ENDLEX ;
 +Tra:%>кс ENDLEX ;
 
@@ -380,8 +380,8 @@ LEXICON PERS
 !@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@!2014-04-04!+Gen+PxPl3:@U.PossPx.Pl3@@N.TPERS.3@@C.TNUM@нст _KIT-PersPronGen_CX ;
 !!PROBLEM 2009-09-16 why does nstY4 have the Y4
 
-!+Refl+Gen+Pron:%>%{оеэØ%}нсе PersPron_Gen ;
-!+Use/NG+Err/Orth+Dial+Refl+Gen+Pron:%>%{оеэØ%}нси PersPron_Gen ;
+!+Refl+Gen+Pron:%>{оеэØ}нсе PersPron_Gen ;
+!+Use/NG+Err/Orth+Dial+Refl+Gen+Pron:%>{оеэØ}нси PersPron_Gen ;
 
 
 !2! Pers_Pronouns1_es ;
@@ -422,52 +422,52 @@ LEXICON PERS
 !!< "@N.TPERS.1@@N.TPERS.2@@N.TPERS.3@@C.TNUM@"> PersPron_Gen ;
 !+Dat:%>те PersPron_PossPX ;
 !+Abl+Abl:%>теде PersPron_PossPX ;
-!+Abl:%>%{оеэØ%}де PersPron_PossPX ;
+!+Abl:%>{оеэØ}де PersPron_PossPX ;
 !+Prl:%>Г2а PersPron_Oblique ;
-!+Cmpr:%>%{оеэØ%}шка PersPron_Oblique ;
-!+Abe:%>вт{оеэ%}мО1 PersPron_Oblique ;
-!@P.LV.ON@+Tra:@P.LV.ON@%>%{оеэØ%}кс PersPron_PossPX ;
-!@P.LV.ON@+Use/NG+Err/Orth+Tra:@P.LV.ON@%>%{оеэØ%}кс K ;
-!@U.PossPx.Sg1@+Gen+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg1@+Gen+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}нь _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg2@+Gen+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} _KIT-PersPronGen_CX ;
-!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@+Gen+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>%{оеэØ%}нз%{оэØ%} _KUDO-PersPronGen_CX ;
-!@U.PossPx.Pl1@+Gen+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н{оеэ%}к _LAK-PersPronGen_CX ;
-!@U.PossPx.Pl2@+Gen+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк _LAK-PersPronGen_CX ;
-!@U.PossPx.Pl3@+Gen+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст _KIT-PersPronGen_CX ;
+!+Cmpr:%>{оеэØ}шка PersPron_Oblique ;
+!+Abe:%>вт{оеэ}мО1 PersPron_Oblique ;
+!@P.LV.ON@+Tra:@P.LV.ON@%>{оеэØ}кс PersPron_PossPX ;
+!@P.LV.ON@+Use/NG+Err/Orth+Tra:@P.LV.ON@%>{оеэØ}кс K ;
+!@U.PossPx.Sg1@+Gen+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg1@+Gen+PxSg1:@U.PossPx.Sg1@%>{оеэØ}нь _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg2@+Gen+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} _KIT-PersPronGen_CX ;
+!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@+Gen+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>{оеэØ}нз{оэØ} _KUDO-PersPronGen_CX ;
+!@U.PossPx.Pl1@+Gen+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к _LAK-PersPronGen_CX ;
+!@U.PossPx.Pl2@+Gen+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк _LAK-PersPronGen_CX ;
+!@U.PossPx.Pl3@+Gen+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст _KIT-PersPronGen_CX ;
 !!!these just go onto the clitics
-!@U.PossPx.Sg2@+Gen+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} K ;
-!@U.PossPx.Pl3@+Gen+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст K ;
+!@U.PossPx.Sg2@+Gen+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} K ;
+!@U.PossPx.Pl3@+Gen+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст K ;
 
 !LEXICON PersPron_Gen
-!@U.PossPx.Sg1@+Gen+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg1@+Gen+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}нь _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg2@+Gen+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} _KIT-PersPronGen_CX ;
-!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@+Gen+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>%{оеэØ%}нз%{оэØ%} _KUDO-PersPronGen_CX ;
-!@U.PossPx.Pl1@+Gen+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н{оеэ%}к _LAK-PersPronGen_CX ;
-!@U.PossPx.Pl2@+Gen+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк _LAK-PersPronGen_CX ;
-!@U.PossPx.Pl3@+Gen+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст _KIT-PersPronGen_CX ;
+!@U.PossPx.Sg1@+Gen+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg1@+Gen+PxSg1:@U.PossPx.Sg1@%>{оеэØ}нь _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg2@+Gen+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} _KIT-PersPronGen_CX ;
+!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@+Gen+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>{оеэØ}нз{оэØ} _KUDO-PersPronGen_CX ;
+!@U.PossPx.Pl1@+Gen+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к _LAK-PersPronGen_CX ;
+!@U.PossPx.Pl2@+Gen+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк _LAK-PersPronGen_CX ;
+!@U.PossPx.Pl3@+Gen+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст _KIT-PersPronGen_CX ;
 !!!these just go onto the clitics
-!@U.PossPx.Sg2@+Gen+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} K ;
-!@U.PossPx.Pl3@+Gen+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст K ;
+!@U.PossPx.Sg2@+Gen+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} K ;
+!@U.PossPx.Pl3@+Gen+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст K ;
 !+Use/NG+Err/Orth+Dial+NoPoss: K ;
 
 !LEXICON PersPron_Oblique
 !@U.PossPx.Sg1@+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>м _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg1@:@U.PossPx.Sg1@%>н%{ЬØ%} _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg2@:@U.PossPx.Sg2@%>т%{ЬØ%} _KIT-PersPronGen_CX ;
-!@U.PossPx.Sg3@:@U.PossPx.Sg3@%>нз%{оэØ%} _KUDO-PersPronGen_CX ;
-!!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@!:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>нз%{оэØ%} _KUDO-PersPronGen_CX ;
-!@U.PossPx.Pl1@:@U.PossPx.Pl1@%>н{оеэ%}к _LAK-PersPronGen_CX ;
+!@U.PossPx.Sg1@:@U.PossPx.Sg1@%>н{ЬØ} _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg2@:@U.PossPx.Sg2@%>т{ЬØ} _KIT-PersPronGen_CX ;
+!@U.PossPx.Sg3@:@U.PossPx.Sg3@%>нз{оэØ} _KUDO-PersPronGen_CX ;
+!!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@!:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>нз{оэØ} _KUDO-PersPronGen_CX ;
+!@U.PossPx.Pl1@:@U.PossPx.Pl1@%>н{оеэ}к _LAK-PersPronGen_CX ;
 !@U.PossPx.Pl2@:@U.PossPx.Pl2@%>нк _LAK-PersPronGen_CX ;
 !@U.PossPx.Pl3@:@U.PossPx.Pl3@%>ст _KIT-PersPronGen_CX ;
 
 !oahpa
 !@U.PossPx.Sg1@!2014-04-04!!+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>м _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg1@!2014-04-04!!+PxSg1:@U.PossPx.Sg1@%>н%{ЬØ%} _KAL-PersPronGen_CX ;
-!@U.PossPx.Sg2@!2014-04-04!!+PxSg2:@U.PossPx.Sg2@%>т%{ЬØ%} _KIT-PersPronGen_CX ;
-!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@!2014-04-04!!+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>нз%{оэØ%} _KUDO-PersPronGen_CX ;
-!@U.PossPx.Pl1@!2014-04-04!!+PxPl1:@U.PossPx.Pl1@%>н{оеэ%}к _LAK-PersPronGen_CX ;
+!@U.PossPx.Sg1@!2014-04-04!!+PxSg1:@U.PossPx.Sg1@%>н{ЬØ} _KAL-PersPronGen_CX ;
+!@U.PossPx.Sg2@!2014-04-04!!+PxSg2:@U.PossPx.Sg2@%>т{ЬØ} _KIT-PersPronGen_CX ;
+!@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@!2014-04-04!!+PxSg3:@U.PossPx.Sg3@@C.DNUM@@C.TNUM@@C.TPERS@%>нз{оэØ} _KUDO-PersPronGen_CX ;
+!@U.PossPx.Pl1@!2014-04-04!!+PxPl1:@U.PossPx.Pl1@%>н{оеэ}к _LAK-PersPronGen_CX ;
 !@U.PossPx.Pl2@!2014-04-04!!+PxPl2:@U.PossPx.Pl2@%>нк _LAK-PersPronGen_CX ;
 !@U.PossPx.Pl3@!2014-04-04!!+PxPl3:@U.PossPx.Pl3@%>ст _KIT-PersPronGen_CX ;
 !+Use/NG+Err/Orth+Dial+NoPoss: K ;
@@ -477,27 +477,27 @@ LEXICON PERS
 !!These PossPXs are applied after Obl cases
 
 !LEXICON PersPron_PossPX
-!@U.PossPx.Sg1@@D.LV.ON@:@U.PossPx.Sg1@@D.LV.ON@%>%{оеэØ%}н%{ЬØ%} K ;
-!@U.PossPx.Sg2@@D.LV.ON@:@U.PossPx.Sg2@@D.LV.ON@%>%{оеэØ%}т%{ЬØ%} K ;
-!@U.PossPx.Sg3@@D.LV.ON@:@U.PossPx.Sg3@@D.LV.ON@%>%{оеэØ%}нз%{оэØ%} K ;
-!@U.PossPx.Pl1@@D.LV.ON@:@U.PossPx.Pl1@@D.LV.ON@%>%{оеэØ%}н{оеэ%}к K ;
-!@U.PossPx.Pl2@@D.LV.ON@:@U.PossPx.Pl2@@D.LV.ON@%>%{оеэØ%}нк K ;
-!@U.PossPx.Pl3@@D.LV.ON@:@U.PossPx.Pl3@@D.LV.ON@%>%{оеэØ%}ст K ;
-!@U.PossPx.Sg1@@D.LV.ON@+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@@D.LV.ON@%>%{оеэØ%}м K ;
-!@U.PossPx.Sg2@@D.LV.ON@+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@@D.LV.ON@%>%{оеэØ%}нт%{ЬØ%} K ;
-!@U.PossPx.Pl3@@D.LV.ON@+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@@D.LV.ON@%>%{оеэØ%}нст K ;
+!@U.PossPx.Sg1@@D.LV.ON@:@U.PossPx.Sg1@@D.LV.ON@%>{оеэØ}н{ЬØ} K ;
+!@U.PossPx.Sg2@@D.LV.ON@:@U.PossPx.Sg2@@D.LV.ON@%>{оеэØ}т{ЬØ} K ;
+!@U.PossPx.Sg3@@D.LV.ON@:@U.PossPx.Sg3@@D.LV.ON@%>{оеэØ}нз{оэØ} K ;
+!@U.PossPx.Pl1@@D.LV.ON@:@U.PossPx.Pl1@@D.LV.ON@%>{оеэØ}н{оеэ}к K ;
+!@U.PossPx.Pl2@@D.LV.ON@:@U.PossPx.Pl2@@D.LV.ON@%>{оеэØ}нк K ;
+!@U.PossPx.Pl3@@D.LV.ON@:@U.PossPx.Pl3@@D.LV.ON@%>{оеэØ}ст K ;
+!@U.PossPx.Sg1@@D.LV.ON@+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@@D.LV.ON@%>{оеэØ}м K ;
+!@U.PossPx.Sg2@@D.LV.ON@+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@@D.LV.ON@%>{оеэØ}нт{ЬØ} K ;
+!@U.PossPx.Pl3@@D.LV.ON@+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@@D.LV.ON@%>{оеэØ}нст K ;
 !!+Use/NG+Err/Orth+Dial+NoPoss: K ;
 
 !oahpa
-!@U.PossPx.Sg1@@D.LV.ON@!2014-04-04!+PxSg1:@U.PossPx.Sg1@@D.LV.ON@%>%{оеэØ%}н%{ЬØ%} K ;
-!@U.PossPx.Sg1@@D.LV.ON@!2014-04-04!+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@@D.LV.ON@%>%{оеэØ%}м K ;
-!@U.PossPx.Sg2@@D.LV.ON@!2014-04-04!+PxSg2:@U.PossPx.Sg2@@D.LV.ON@%>%{оеэØ%}т%{ЬØ%} K ;
-!@U.PossPx.Sg2@@D.LV.ON@!2014-04-04!!2014-04-04!+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@@D.LV.ON@%>%{оеэØ%}нт%{ЬØ%} K ;
-!@U.PossPx.Sg3@@D.LV.ON@!2014-04-04!+PxSg3:@U.PossPx.Sg3@@D.LV.ON@%>%{оеэØ%}нз%{оэØ%} K ;
-!@U.PossPx.Pl1@@D.LV.ON@!2014-04-04!+PxPl1:@U.PossPx.Pl1@@D.LV.ON@%>%{оеэØ%}н{оеэ%}к K ;
-!@U.PossPx.Pl2@@D.LV.ON@!2014-04-04!+PxPl2:@U.PossPx.Pl2@@D.LV.ON@%>%{оеэØ%}нк K ;
-!@U.PossPx.Pl3@@D.LV.ON@!2014-04-04!+PxPl3:@U.PossPx.Pl3@@D.LV.ON@%>%{оеэØ%}ст K ;
-!@U.PossPx.Pl3@@D.LV.ON@!2014-04-04!+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@@D.LV.ON@%>%{оеэØ%}нст K ;
+!@U.PossPx.Sg1@@D.LV.ON@!2014-04-04!+PxSg1:@U.PossPx.Sg1@@D.LV.ON@%>{оеэØ}н{ЬØ} K ;
+!@U.PossPx.Sg1@@D.LV.ON@!2014-04-04!+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@@D.LV.ON@%>{оеэØ}м K ;
+!@U.PossPx.Sg2@@D.LV.ON@!2014-04-04!+PxSg2:@U.PossPx.Sg2@@D.LV.ON@%>{оеэØ}т{ЬØ} K ;
+!@U.PossPx.Sg2@@D.LV.ON@!2014-04-04!!2014-04-04!+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@@D.LV.ON@%>{оеэØ}нт{ЬØ} K ;
+!@U.PossPx.Sg3@@D.LV.ON@!2014-04-04!+PxSg3:@U.PossPx.Sg3@@D.LV.ON@%>{оеэØ}нз{оэØ} K ;
+!@U.PossPx.Pl1@@D.LV.ON@!2014-04-04!+PxPl1:@U.PossPx.Pl1@@D.LV.ON@%>{оеэØ}н{оеэ}к K ;
+!@U.PossPx.Pl2@@D.LV.ON@!2014-04-04!+PxPl2:@U.PossPx.Pl2@@D.LV.ON@%>{оеэØ}нк K ;
+!@U.PossPx.Pl3@@D.LV.ON@!2014-04-04!+PxPl3:@U.PossPx.Pl3@@D.LV.ON@%>{оеэØ}ст K ;
+!@U.PossPx.Pl3@@D.LV.ON@!2014-04-04!+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@@D.LV.ON@%>{оеэØ}нст K ;
 !2014-04-04!+Use/NG+Err/Orth+Dial+NoPoss: K ;
 
 !LEXICON _OSH-PersPron_PossPX 
@@ -511,8 +511,8 @@ LEXICON PERS
 ! GEN-FORM-REFL-PRON_MWN-CONTINUATION ;
 !@C.TPERS@@C.TNUM@ OBL-WITH-COP_KAL ;
 !+Der+Der/MWN+N: _KAL-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}нсе _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}ньсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}нсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}ньсе _KUDO-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Der+Der/MWN+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@ьсе _KUDO-PersPronGen_CX-1A ;
 
 LEXICON 2-6_GEN-FORM-REFL-PRON_MWN-CONTINUATION_OR-NOT
@@ -531,24 +531,24 @@ LEXICON GEN-FORM-REFL-PRON_MWN-CONTINUATION
 !+Der+Der/MWN+N:  _LAK-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Der+Der/MWN+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@ьсе _KUDO-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Pron:@C.DNUM@@C.TPERS@@C.TNUM@%>се _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}нсе _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}ньсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}нсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}ньсе _KUDO-PersPronGen_CX-1A ;
 
 !LEXICON _KIT-PersPronGen_CX
 !@C.TPERS@@C.TNUM@ _KIT-Tenses1 ;
 !+Der+Der/MWN+N:  _KIT-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Der+Der/MWN+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@ьсе _KUDO-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Pron:@C.DNUM@@C.TPERS@@C.TNUM@%>се _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}нсе _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}ньсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}нсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}ньсе _KUDO-PersPronGen_CX-1A ;
 
 !LEXICON _KUDO-PersPronGen_CX
 !@C.TPERS@@C.TNUM@ _KUDO-Tenses1 ;
 !+Der+Der/MWN+N: _KUDO-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Der+Der/MWN+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@ьсе _KUDO-PersPronGen_CX-1A ;
 !@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/sje+Pron:@C.DNUM@@C.TPERS@@C.TNUM@%>се _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}нсе _KUDO-PersPronGen_CX-1A ;
-!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>%{оеэØ%}ньсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}нсе _KUDO-PersPronGen_CX-1A ;
+!@C.DNUM@@C.TPERS@@C.TNUM@+Der+Der/MWN+N+Gen+Indef+Der+Der/sje+Pron+Dem:@C.DNUM@@C.TPERS@@C.TNUM@%>{оеэØ}ньсе _KUDO-PersPronGen_CX-1A ;
 
 
 
@@ -557,10 +557,10 @@ LEXICON GEN-FORM-REFL-PRON_MWN-CONTINUATION
 ! CONSONANT-PersPronGen_CX-1A ;
 
 !LEXICON CONSONANT-PersPronGen_CX-1A
-!@P.TNUM.SG@@C.TPERS@+Sg+Nom+Def:@P.TNUM.SG@@C.TPERS@%>%{оеэØ%}сь _OSH-Tenses1 ;
+!@P.TNUM.SG@@C.TPERS@+Sg+Nom+Def:@P.TNUM.SG@@C.TPERS@%>{оеэØ}сь _OSH-Tenses1 ;
 !@P.TNUM.PL@@C.TPERS@+Pl+Nom+Def:@P.TNUM.PL@@C.TPERS@%>тне _KUDO-Tenses1 ;
 !@P.DNUM.PL@+Pl+Nom+Def:@P.DNUM.PL@%>тне _KUDO-PersPronGen_CX-2 ;
-!+Sg+Gen+Def:%>%{оеэØ%}нть K ;
+!+Sg+Gen+Def:%>{оеэØ}нть K ;
 
 !LEXICON _LAK-PersPronGen_CX-1A
 !          _LAK-PersPronGen_CX-2 ;
@@ -581,18 +581,18 @@ LEXICON _KUDO-PersPronGen_CX-1A
 ! CONSONANT-PersPronGen_CX-2 ;
 
 !LEXICON CONSONANT-PersPronGen_CX-2
-!+Abe:%>вт{оеэ%}мО1 _KUDO-PersPronGenCX_DX ;
-!+Abl:%>%{дт%}О1  _KUDO-PersPronGenCX_DX ;
+!+Abe:%>вт{оеэ}мО1 _KUDO-PersPronGenCX_DX ;
+!+Abl:%>{дт}О1  _KUDO-PersPronGenCX_DX ;
 !+Cmpr:%>шка _KUDO-PersPronGenCX_DX ;
 !+Dat:%>нень  PersPronGenCX_DX-1 ;
-!@U.DNUM.SG@+Sg+Dat+Def:@U.DNUM.SG@%>%{оеэØ%}нтень K ; 
-!+Ela:%>ст%{оэØ%} _KUDO-PersPronGenCX_DX ;
-!+Gen:%>%{оеэØ%}нь PersPronGenCX_DX-1 ;
+!@U.DNUM.SG@+Sg+Dat+Def:@U.DNUM.SG@%>{оеэØ}нтень K ; 
+!+Ela:%>ст{оэØ} _KUDO-PersPronGenCX_DX ;
+!+Gen:%>{оеэØ}нь PersPronGenCX_DX-1 ;
 !+Ill:%>с PersPronGenCX_DX-1 ;
-!+Ine:%>с%{оэØ%} _KUDO-PersPronGenCX_DX ;
-!+Lat:%>%{оеэØ%}в PersPronGenCX_DX-1 ;
+!+Ine:%>с{оэØ} _KUDO-PersPronGenCX_DX ;
+!+Lat:%>{оеэØ}в PersPronGenCX_DX-1 ;
 !+Prl:Г2а _KUDO-PersPronGenCX_DX ;
-!+Tra:%>%{оеэØ%}кс _OSH-PersPronGenCX_DX ;
+!+Tra:%>{оеэØ}кс _OSH-PersPronGenCX_DX ;
 
 !LEXICON _LAK-PersPronGen_CX-2
 ! CONSONANT-PersPronGen_CX-2 ;
@@ -601,25 +601,25 @@ LEXICON _KUDO-PersPronGen_CX-1A
 ! CONSONANT-PersPronGen_CX-2 ;
 
 LEXICON _KUDO-PersPronGen_CX-2
-+Abe:%>вт{оеэ%}мО1 _KUDO-PersPronGenCX_DX ;
-+Abl:%>%{дт%}О1  _KUDO-PersPronGenCX_DX ;
++Abe:%>вт{оеэ}мО1 _KUDO-PersPronGenCX_DX ;
++Abl:%>{дт}О1  _KUDO-PersPronGenCX_DX ;
 +Cmpr:%>шка _KUDO-PersPronGenCX_DX ;
 +Dat:%>нень  PersPronGenCX_DX-1 ;
 @U.DNUM.SG@+Sg+Dat+Def:@U.DNUM.SG@%>тнень K ; 
-+Ela:%>ст%{оэØ%} _KUDO-PersPronGenCX_DX ;
++Ela:%>ст{оэØ} _KUDO-PersPronGenCX_DX ;
 +Gen:%>нь PersPronGenCX_DX-1 ;
 +Ill:%>с PersPronGenCX_DX-1 ;
-+Ine:%>с%{оэØ%} _KUDO-PersPronGenCX_DX ;
++Ine:%>с{оэØ} _KUDO-PersPronGenCX_DX ;
 +Lat:%>в PersPronGenCX_DX-1 ;
 +Prl:%>Г2а _KUDO-PersPronGenCX_DX ;
 +Tra:%>кс _OSH-PersPronGenCX_DX ;
 
 !LEXICON _KAL-PersPronGenCX_DX
-!@U.DNUM.SG@!+Sg+Gen+Def:@U.DNUM.SG@%>%{оеэØ%}нть K ;
+!@U.DNUM.SG@!+Sg+Gen+Def:@U.DNUM.SG@%>{оеэØ}нть K ;
 !     PersPronGenCX_DX-1 ;
 
 LEXICON _OSH-PersPronGenCX_DX
-@U.DNUM.SG@+Sg+Gen+Def:@U.DNUM.SG@%>%{оеэØ%}нть K ;
+@U.DNUM.SG@+Sg+Gen+Def:@U.DNUM.SG@%>{оеэØ}нть K ;
      PersPronGenCX_DX-1 ;
 
 LEXICON _KUDO-PersPronGenCX_DX
@@ -632,10 +632,10 @@ LEXICON PersPronGenCX_DX-1
 
 LEXICON PossPX1-NomSg
 @U.PossPx.Sg1@+Sg+Nom+PxSg1:@U.PossPx.Sg1@%>м K ;
-@U.PossPx.Sg2@+Sg+Nom+PxSg2:@U.PossPx.Sg2@%>т%{ЬØ%} K ;
-@U.PossPx.Sg3@+Sg+Nom+PxSg3:@U.PossPx.Sg3@%>з%{оэØ%} K ;
-@U.PossPx.Pl1@+Sg+Nom+PxPl1:@U.PossPx.Pl1@%>н{оеэ%}к K ;
-@U.PossPx.Pl1@+Use/NG+Err/Orth+Dial+Sg+Nom+PxPl1:@U.PossPx.Pl1@%>м%{ое%}к K ;
+@U.PossPx.Sg2@+Sg+Nom+PxSg2:@U.PossPx.Sg2@%>т{ЬØ} K ;
+@U.PossPx.Sg3@+Sg+Nom+PxSg3:@U.PossPx.Sg3@%>з{оэØ} K ;
+@U.PossPx.Pl1@+Sg+Nom+PxPl1:@U.PossPx.Pl1@%>н{оеэ}к K ;
+@U.PossPx.Pl1@+Use/NG+Err/Orth+Dial+Sg+Nom+PxPl1:@U.PossPx.Pl1@%>м{ое}к K ;
 @U.PossPx.Pl2@+Sg+Nom+PxPl2:@U.PossPx.Pl2@%>нк K ;
 @U.PossPx.Pl3@+Sg+Nom+PxPl3:@U.PossPx.Pl3@%>ст K ;
 
@@ -700,7 +700,7 @@ LEXICON PRON-DEM-CASE-PL
 +Pl+Ine+Def:%>тнесэ K ;
 +Pl+Nom+Def:%>тне K ;
 +Pl+Prl+Def:%>тнева K ;
-+Pl+Nom+Indef:%>т%{ЬØ%} K ; 
++Pl+Nom+Indef:%>т{ЬØ} K ; 
 
 
 !! Interrogative
@@ -770,14 +770,14 @@ LEXICON PRON-IS-REL-PERS !! ки:ки
 LEXICON NB-CX-ZERODECLENSIONTYPE-NOCLT
 !! ки
 +Sg+Nom: #  ;
-+Pl+Nom:%>т%{ЬØ%} #  ;
-+SP+Gen:%>%{оеэØ%}нь #  ;
-+SP+Ine:%>%{оеэØ%}ньсэ #  ;
-+SP+Ill:%>%{оеэØ%}ньс #  ;
-+SP+Ela:%>%{оеэØ%}ньстэ #  ;
-+SP+Abe:%>вт{оеэ%}мО1 #  ;
-+SP+Abl:%>%{оеэØ%}нде #  ;
-+SP+Abl:%>%{дт%}О1 #  ;
++Pl+Nom:%>т{ЬØ} #  ;
++SP+Gen:%>{оеэØ}нь #  ;
++SP+Ine:%>{оеэØ}ньсэ #  ;
++SP+Ill:%>{оеэØ}ньс #  ;
++SP+Ela:%>{оеэØ}ньстэ #  ;
++SP+Abe:%>вт{оеэ}мО1 #  ;
++SP+Abl:%>{оеэØ}нде #  ;
++SP+Abl:%>{дт}О1 #  ;
 +SP+Tra:%>кс #  ;
 +SP+Dat:%>нень #  ;
 
@@ -1272,21 +1272,21 @@ LEXICON INDEF-KIE-CASES
 
 
 LEXICON Indef_Pronouns-Cases
-+Pl+Nom:%>VLossт%{ЬØ%} INDEF-ENDS-HERE ; 
-+Pl+Nom:%>т%{ЬØ%} INDEF-ENDS-HERE ; 
-+Ela:%>ст%{оэØ%} INDEF-ENDS-HERE ;
-+Ine:%>с%{оэØ%} INDEF-ENDS-HERE ;
++Pl+Nom:%>VLossт{ЬØ} INDEF-ENDS-HERE ; 
++Pl+Nom:%>т{ЬØ} INDEF-ENDS-HERE ; 
++Ela:%>ст{оэØ} INDEF-ENDS-HERE ;
++Ine:%>с{оэØ} INDEF-ENDS-HERE ;
 +Ill:%>с INDEF-ENDS-HERE ;
 +Dat:%>нень INDEF-ENDS-HERE ;
-+Abe:%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
-+Abl:%>%{дт%}О1 INDEF-ENDS-HERE ;
-+Ela+Der/GenAttr:%>ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
-+Abl+Der/GenAttr:%>%{дт%}О1%>нь INDEF-ENDS-HERE ;
-+Ine+Der/GenAttr:%>с%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Abe:%>вт{оеэ}мО1 INDEF-ENDS-HERE ;
++Abl:%>{дт}О1 INDEF-ENDS-HERE ;
++Ela+Der/GenAttr:%>ст{оэØ}%>нь INDEF-ENDS-HERE ;
++Abl+Der/GenAttr:%>{дт}О1%>нь INDEF-ENDS-HERE ;
++Ine+Der/GenAttr:%>с{оэØ}%>нь INDEF-ENDS-HERE ;
 +Gen:%>нь INDEF-ENDS-HERE ;
-!2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
-+Ill:%>з%{оэØ%} INDEF-ENDS-HERE ;
-+Ill:%>з%{оэØ%}нь INDEF-ENDS-HERE ;
+!2009-09-29!+Ine:%>с{оэØ} _KUDO-Tenses1 ;
++Ill:%>з{оэØ} INDEF-ENDS-HERE ;
++Ill:%>з{оэØ}нь INDEF-ENDS-HERE ;
 
 +Sg+Nom+Def:%>сь INDEF-ENDS-HERE ;
 +Sg+Gen+Def:%>нть INDEF-ENDS-HERE ;
@@ -1295,39 +1295,39 @@ LEXICON Indef_Pronouns-Cases
 +Pl+Gen+Def:%>тне%>нь INDEF-ENDS-HERE ;
 +Pl+Dat+Def:%>тне%>нень INDEF-ENDS-HERE ;
 
-+Sg+Nom+PxSg1:%>%{оеэØ%}м INDEF-ENDS-HERE ;
-+Sg+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} INDEF-ENDS-HERE ;
-+Sg+Nom+PxSg3:%>%{оеэØ%}з%{оэØ%} INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl1:%>%{оеэØ%}н%{оеэ%}к INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl1+Dial/NW:%>%{оеэØ%}м{ое%}к INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl2:%>%{оеэØ%}нк INDEF-ENDS-HERE ;
-+Sg+Nom+PxPl3:%>%{оеэØ%}ст INDEF-ENDS-HERE ;
++Sg+Nom+PxSg1:%>{оеэØ}м INDEF-ENDS-HERE ;
++Sg+Nom+PxSg2:%>{оеэØ}т{ЬØ} INDEF-ENDS-HERE ;
++Sg+Nom+PxSg3:%>{оеэØ}з{оэØ} INDEF-ENDS-HERE ;
++Sg+Nom+PxPl1:%>{оеэØ}н{оеэ}к INDEF-ENDS-HERE ;
++Sg+Nom+PxPl1+Dial/NW:%>{оеэØ}м{ое}к INDEF-ENDS-HERE ;
++Sg+Nom+PxPl2:%>{оеэØ}нк INDEF-ENDS-HERE ;
++Sg+Nom+PxPl3:%>{оеэØ}ст INDEF-ENDS-HERE ;
 
 LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:м^ӓ4
-+Pl+Nom+Indef:зь%>т%{ЬØ%} INDEF-ENDS-HERE ; 
-+Pl+Nom+Indef+Use/SpellNoSugg:сь%>т%{ЬØ%} INDEF-ENDS-HERE ; 
-+SP+Abe+Indef:зе%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
-+SP+Abl+Indef:зь%>%{дт%}О1 INDEF-ENDS-HERE ;
-+SP+Abl+Indef:зе%>%{дт%}О1 INDEF-ENDS-HERE ;
++Pl+Nom+Indef:зь%>т{ЬØ} INDEF-ENDS-HERE ; 
++Pl+Nom+Indef+Use/SpellNoSugg:сь%>т{ЬØ} INDEF-ENDS-HERE ; 
++SP+Abe+Indef:зе%>вт{оеэ}мО1 INDEF-ENDS-HERE ;
++SP+Abl+Indef:зь%>{дт}О1 INDEF-ENDS-HERE ;
++SP+Abl+Indef:зе%>{дт}О1 INDEF-ENDS-HERE ;
 +SP+Dat+Indef:з%>нень INDEF-ENDS-HERE ;
 +SP+Dat+Indef:зе%>нень INDEF-ENDS-HERE ;
-+SP+Ela+Indef:й%>ст%{оэØ%} INDEF-ENDS-HERE ;
-+SP+Ela+Indef:зе%>ст%{оэØ%} INDEF-ENDS-HERE ;
++SP+Ela+Indef:й%>ст{оэØ} INDEF-ENDS-HERE ;
++SP+Ela+Indef:зе%>ст{оэØ} INDEF-ENDS-HERE ;
 +SP+Gen+Indef:зе%>нь INDEF-ENDS-HERE ;
 +SP+Gen+Indef:%>нь INDEF-ENDS-HERE ;
-+SP+Ine+Indef:й%>с%{оэØ%} INDEF-ENDS-HERE ;
-+SP+Ine+Indef:зе%>с%{оэØ%} INDEF-ENDS-HERE ;
++SP+Ine+Indef:й%>с{оэØ} INDEF-ENDS-HERE ;
++SP+Ine+Indef:зе%>с{оэØ} INDEF-ENDS-HERE ;
 +SP+Ill+Indef:й%>с INDEF-ENDS-HERE ;
 +SP+Ill+Indef:зе%>с INDEF-ENDS-HERE ;
 +Sg+Nom+Indef:зе INDEF-ENDS-HERE ;
 
-+SP+Ela+Der/GenAttr:й%>ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
-+SP+Ela+Der/GenAttr:зе%>ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
-+SP+Abl+Der/GenAttr:з%>%{дт%}О1%>нь INDEF-ENDS-HERE ;
-+SP+Abl+Der/GenAttr:зе%>%{дт%}О1%>нь INDEF-ENDS-HERE ;
-+SP+Ine+Der/GenAttr:й%>с%{оэØ%}%>нь INDEF-ENDS-HERE ;
-+SP+Ine+Der/GenAttr:зе%>с%{оэØ%}%>нь INDEF-ENDS-HERE ;
-!2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
++SP+Ela+Der/GenAttr:й%>ст{оэØ}%>нь INDEF-ENDS-HERE ;
++SP+Ela+Der/GenAttr:зе%>ст{оэØ}%>нь INDEF-ENDS-HERE ;
++SP+Abl+Der/GenAttr:з%>{дт}О1%>нь INDEF-ENDS-HERE ;
++SP+Abl+Der/GenAttr:зе%>{дт}О1%>нь INDEF-ENDS-HERE ;
++SP+Ine+Der/GenAttr:й%>с{оэØ}%>нь INDEF-ENDS-HERE ;
++SP+Ine+Der/GenAttr:зе%>с{оэØ}%>нь INDEF-ENDS-HERE ;
+!2009-09-29!+Ine:%>с{оэØ} _KUDO-Tenses1 ;
 
 +Pl+Abe+Def:з%>тне%>втеме INDEF-ENDS-HERE ;
 +Pl+Abl+Def:з%>тнеде INDEF-ENDS-HERE ;
@@ -1359,30 +1359,30 @@ LEXICON Indef_MEZE_Cases_FOLLOWED_BY_MARKER !мезе-бути:м^ӓ4
 +Sg+Nom+PxPl3:зест INDEF-ENDS-HERE ;
 
 LEXICON PRON_MEZE_Cases !мезе:м^ӓ4
-+Pl+Nom+Indef:зь%>т%{ЬØ%} ENDLEX ; 
-+Pl+Nom+Indef+Use/NG+Err/Orth:сь%>т%{ЬØ%} ENDLEX ; 
-+SP+Abe+Indef:зе%>вт{оеэ%}мО1 ENDLEX ;
++Pl+Nom+Indef:зь%>т{ЬØ} ENDLEX ; 
++Pl+Nom+Indef+Use/NG+Err/Orth:сь%>т{ЬØ} ENDLEX ; 
++SP+Abe+Indef:зе%>вт{оеэ}мО1 ENDLEX ;
 +SP+Abl:зде OBL-PX4-END-FOC-OR_ENDLEX ;
-+SP+Abl:зе%>%{дт%}О1 OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Abl:зе%>{дт}О1 OBL-PX4-END-FOC-OR_ENDLEX ;
 +SP+Dat+Indef:знень ENDLEX ;
 +SP+Dat+Indef:зенень ENDLEX ;
-+SP+Ela:й%>ст%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
-+SP+Ela:зе%>ст%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ela:й%>ст{оэØ} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ela:зе%>ст{оэØ} OBL-PX4-END-FOC-OR_ENDLEX ;
 +SP+Gen+Indef:зе%>нь ENDLEX ;
 +SP+Gen+Indef:%>нь ENDLEX ;
-+SP+Ine:й%>с%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
-+SP+Ine:зе%>с%{оэØ%} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ine:й%>с{оэØ} OBL-PX4-END-FOC-OR_ENDLEX ;
++SP+Ine:зе%>с{оэØ} OBL-PX4-END-FOC-OR_ENDLEX ;
 +SP+Ill+Indef:й%>с ENDLEX ;
 +SP+Ill+Indef:зе%>с ENDLEX ;
 +Sg+Nom+Indef:зе ENDLEX ;
 
-+SP+Ela+Der/GenAttr:й%>ст%{оэØ%}%>нь ENDLEX ;
-+SP+Ela+Der/GenAttr:зе%>ст%{оэØ%}%>нь ENDLEX ;
-+SP+Abl+Der/GenAttr:з%>%{дт%}О1%>нь ENDLEX ;
-+SP+Abl+Der/GenAttr:зе%>%{дт%}О1%>нь ENDLEX ;
-+SP+Ine+Der/GenAttr:й%>с%{оэØ%}%>нь ENDLEX ;
-+SP+Ine+Der/GenAttr:зе%>с%{оэØ%}%>нь ENDLEX ;
-!2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
++SP+Ela+Der/GenAttr:й%>ст{оэØ}%>нь ENDLEX ;
++SP+Ela+Der/GenAttr:зе%>ст{оэØ}%>нь ENDLEX ;
++SP+Abl+Der/GenAttr:з%>{дт}О1%>нь ENDLEX ;
++SP+Abl+Der/GenAttr:зе%>{дт}О1%>нь ENDLEX ;
++SP+Ine+Der/GenAttr:й%>с{оэØ}%>нь ENDLEX ;
++SP+Ine+Der/GenAttr:зе%>с{оэØ}%>нь ENDLEX ;
+!2009-09-29!+Ine:%>с{оэØ} _KUDO-Tenses1 ;
 
 +Pl+Abe+Def:з%>тне%>втеме ENDLEX ;
 +Pl+Abl+Def:з%>тнеде ENDLEX ;
@@ -1413,24 +1413,24 @@ LEXICON PRON_MEZE_Cases !мезе:м^ӓ4
 
 
 !LEXICON _OSH-Indef_Pronouns-Cases
-!!+Pl+Nom:%>т%{ЬØ%} INDEF-ENDS-HERE ; 
-!+Abe:%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
-!+Abl:%>%{дт%}О1 INDEF-ENDS-HERE ;
+!!+Pl+Nom:%>т{ЬØ} INDEF-ENDS-HERE ; 
+!+Abe:%>вт{оеэ}мО1 INDEF-ENDS-HERE ;
+!+Abl:%>{дт}О1 INDEF-ENDS-HERE ;
 !+Dat:%>нень INDEF-ENDS-HERE ;
-!+Ela:%>%{оеэØ%}ст%{оэØ%} INDEF-ENDS-HERE ;
-!+Ine:%>%{оеэØ%}с%{оэØ%} INDEF-ENDS-HERE ;
-!+Ill:%>%{оеэØ%}с INDEF-ENDS-HERE ;
-!+Tra:%>%{оеэØ%}кс INDEF-ENDS-HERE ;
+!+Ela:%>{оеэØ}ст{оэØ} INDEF-ENDS-HERE ;
+!+Ine:%>{оеэØ}с{оэØ} INDEF-ENDS-HERE ;
+!+Ill:%>{оеэØ}с INDEF-ENDS-HERE ;
+!+Tra:%>{оеэØ}кс INDEF-ENDS-HERE ;
 
-!+Gen:%>%{оеэØ%}нь INDEF-ENDS-HERE ;
+!+Gen:%>{оеэØ}нь INDEF-ENDS-HERE ;
 !+Com:%>нек INDEF-ENDS-HERE ;
-!+Abl+Der/GenAttr:%>%{дт%}О1%>нь INDEF-ENDS-HERE ;
-!+Ela+Der/GenAttr:%>%{оеэØ%}ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
-!+Ine+Der/GenAttr:%>%{оеэØ%}с%{оэØ%}%>нь INDEF-ENDS-HERE ;
+!+Abl+Der/GenAttr:%>{дт}О1%>нь INDEF-ENDS-HERE ;
+!+Ela+Der/GenAttr:%>{оеэØ}ст{оэØ}%>нь INDEF-ENDS-HERE ;
+!+Ine+Der/GenAttr:%>{оеэØ}с{оэØ}%>нь INDEF-ENDS-HERE ;
 
-!+Sg+Nom+Def:%>%{оеэØ%}сь INDEF-ENDS-HERE ;
-!+Sg+Gen+Def:%>%{оеэØ%}нть INDEF-ENDS-HERE ;
-!+Sg+Dat+Def:%>%{оеэØ%}нтень INDEF-ENDS-HERE ;
+!+Sg+Nom+Def:%>{оеэØ}сь INDEF-ENDS-HERE ;
+!+Sg+Gen+Def:%>{оеэØ}нть INDEF-ENDS-HERE ;
+!+Sg+Dat+Def:%>{оеэØ}нтень INDEF-ENDS-HERE ;
 
 !+Pl+Nom+Def:%>тне INDEF-ENDS-HERE ;
 !+Pl+Gen+Def:%>тне%>нь INDEF-ENDS-HERE ;
@@ -1445,21 +1445,21 @@ LEXICON PRON_MEZE_Cases !мезе:м^ӓ4
 !+Pl+Cmpr+Def:%>тне%>шка INDEF-ENDS-HERE ;
 
 LEXICON _KUDO-Indef_Pronouns-Cases
-+Pl+Nom+Indef:%>т%{ЬØ%} INDEF-ENDS-HERE ; 
++Pl+Nom+Indef:%>т{ЬØ} INDEF-ENDS-HERE ; 
 
-+Ela:%>ст%{оэØ%} INDEF-ENDS-HERE ;
-+Ine:%>с%{оэØ%} INDEF-ENDS-HERE ;
++Ela:%>ст{оэØ} INDEF-ENDS-HERE ;
++Ine:%>с{оэØ} INDEF-ENDS-HERE ;
 +Ill:%>с INDEF-ENDS-HERE ;
 +Dat:%>нень INDEF-ENDS-HERE ;
-+Abe:%>вт{оеэ%}мО1 INDEF-ENDS-HERE ;
-+Abl:%>%{дт%}О1 INDEF-ENDS-HERE ;
-+Ela+Der/GenAttr:%>ст%{оэØ%}%>нь INDEF-ENDS-HERE ;
-+Abl+Der/GenAttr:%>%{дт%}О1%>нь INDEF-ENDS-HERE ;
-+Ine+Der/GenAttr:%>с%{оэØ%}%>нь INDEF-ENDS-HERE ;
++Abe:%>вт{оеэ}мО1 INDEF-ENDS-HERE ;
++Abl:%>{дт}О1 INDEF-ENDS-HERE ;
++Ela+Der/GenAttr:%>ст{оэØ}%>нь INDEF-ENDS-HERE ;
++Abl+Der/GenAttr:%>{дт}О1%>нь INDEF-ENDS-HERE ;
++Ine+Der/GenAttr:%>с{оэØ}%>нь INDEF-ENDS-HERE ;
 +Gen:%>нь INDEF-ENDS-HERE ;
-!2009-09-29!+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
-+Ill:%>з%{оэØ%} INDEF-ENDS-HERE ;
-+Ill:%>з%{оэØ%}нь INDEF-ENDS-HERE ;
+!2009-09-29!+Ine:%>с{оэØ} _KUDO-Tenses1 ;
++Ill:%>з{оэØ} INDEF-ENDS-HERE ;
++Ill:%>з{оэØ}нь INDEF-ENDS-HERE ;
 
 +Sg+Nom+Def:%>сь INDEF-ENDS-HERE ;
 +Sg+Gen+Def:%>нть INDEF-ENDS-HERE ;
@@ -1467,13 +1467,13 @@ LEXICON _KUDO-Indef_Pronouns-Cases
 
 +Pl+Nom+Def:%>тне INDEF-ENDS-HERE ;
 +Pl+Gen+Def:%>тне%>нь INDEF-ENDS-HERE ;
-+Pl+Abl+Def:%>тне%>%{дт%}О1 INDEF-ENDS-HERE ;
++Pl+Abl+Def:%>тне%>{дт}О1 INDEF-ENDS-HERE ;
 +Pl+Dat+Def:%>тне%>нень INDEF-ENDS-HERE ;
-+Pl+Ine+Def:%>тне%>с%{оэØ%} INDEF-ENDS-HERE ;
-+Pl+Ela+Def:%>тне%>ст%{оэØ%} INDEF-ENDS-HERE ;
++Pl+Ine+Def:%>тне%>с{оэØ} INDEF-ENDS-HERE ;
++Pl+Ela+Def:%>тне%>ст{оэØ} INDEF-ENDS-HERE ;
 +Pl+Ill+Def:%>тне%>с INDEF-ENDS-HERE ;
 
-+Pl+Nom+PxPl1:%>н{оеэ%}к INDEF-ENDS-HERE ;
++Pl+Nom+PxPl1:%>н{оеэ}к INDEF-ENDS-HERE ;
 +Pl+Nom+PxPl2:%>нк INDEF-ENDS-HERE ;
 +Pl+Nom+PxPl3:%>ст INDEF-ENDS-HERE ;
 
@@ -1510,19 +1510,19 @@ LEXICON Pron-Sg
 +Sg+Nom+Indef: K ;
 +Sg+Gen+Indef:%>нь K ;
 +Sg+Dat+Indef:%>нень K ;
-+Sg+Abl+Indef:%>%{дт%}О1 K ;
++Sg+Abl+Indef:%>{дт}О1 K ;
 +Sg+Ill+Indef:%>с K ;
 
 +Sg+Nom+Def:%>сь K ;
 +Sg+Gen+Def:%>нть K ;
 +Sg+Dat+Def:%>нтень K ;
-+Sg+Abl+Def:%>%{дт%}О1%>нть K ;
++Sg+Abl+Def:%>{дт}О1%>нть K ;
 
 LEXICON Pron-Pl
-+Pl+Nom+Indef:%>т%{ЬØ%} K ;
++Pl+Nom+Indef:%>т{ЬØ} K ;
 +Pl+Gen+Indef:%>нь K ;
 +Pl+Dat+Indef:%>нень K ;
-+Pl+Abl+Indef:%>%{дт%}О1 K ;
++Pl+Abl+Indef:%>{дт}О1 K ;
 +Pl+Ill+Indef:%>с K ;
 
 +Pl+Nom+Def:%>тне K ;
@@ -1680,7 +1680,7 @@ LEXICON ne-Dem
 +Attr: ENDLEX ;
 +Pl+Gen:%>нь K ;
 +Pl+Dat:%>нень K ;
-+Pl+Abl:%>%{дт%}О1 K ;
++Pl+Abl:%>{дт}О1 K ;
 +Pl+Ill:%>с K ;
 
 
@@ -1690,11 +1690,11 @@ LEXICON ne-Dem
 !+Sg+Gen+Def:%>нть K ;
 !+Sg+Def+Dat:%>нтень K ;
 !+Sg+Prl+Def:%>Г2а _KUDO-SgDet-PossPx ;
-!+Sg+Abe+Def:%>вт{оеэ%}мО1 _KUDO-SgDet-PossPx ;
-!+Sg+Abl+Def:%>%{дт%}О1 _KUDO-SgDet-PossPx ;
+!+Sg+Abe+Def:%>вт{оеэ}мО1 _KUDO-SgDet-PossPx ;
+!+Sg+Abl+Def:%>{дт}О1 _KUDO-SgDet-PossPx ;
 !+Sg+Tra+Def:%>кс _OSH-SgDet-PossPx ;
-!+Sg+Ine+Def:%>с%{оэØ%} _KUDO-SgDet-PossPx ;
-!+Sg+Ela+Def:%>ст%{оэØ%} _KUDO-SgDet-PossPx ;
+!+Sg+Ine+Def:%>с{оэØ} _KUDO-SgDet-PossPx ;
+!+Sg+Ela+Def:%>ст{оэØ} _KUDO-SgDet-PossPx ;
 !+Sg+Cmpr+Def:%>шка _KUDO-SgDet-PossPx ;
 !+Sg+Tra+Def:%>V1кс _OSH-SgDet-PossPx ;
 
@@ -1704,11 +1704,11 @@ LEXICON _KUDO-Misc_Pronouns_Sg
 +Sg+Gen+Def:%>нть K ;
 +Sg+Dat+Def:%>нтень K ;
 +Sg+Prl+Def:%>Г2а _KUDO-SgDet-PossPx ;
-+Sg+Abe+Def:%>вт{оеэ%}мО1 _KUDO-SgDet-PossPx ;
-+Sg+Abl+Def:%>%{дт%}О1 _KUDO-SgDet-PossPx ;
++Sg+Abe+Def:%>вт{оеэ}мО1 _KUDO-SgDet-PossPx ;
++Sg+Abl+Def:%>{дт}О1 _KUDO-SgDet-PossPx ;
 +Sg+Tra+Def:%>кс _OSH-SgDet-PossPx ;
-+Sg+Ine+Def:%>с%{оэØ%} _KUDO-SgDet-PossPx ;
-+Sg+Ela+Def:%>ст%{оэØ%} _KUDO-SgDet-PossPx ;
++Sg+Ine+Def:%>с{оэØ} _KUDO-SgDet-PossPx ;
++Sg+Ela+Def:%>ст{оэØ} _KUDO-SgDet-PossPx ;
 +Sg+Cmpr+Def:%>шка _KUDO-SgDet-PossPx ;
 
 
@@ -1721,12 +1721,12 @@ LEXICON _OSH-SgDet-PossPx
 +Sg+Def:%>нть K ; 
 
 LEXICON _KUDO-SgDet-PossPx
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>н%{ЬØ%}  _KAL-SecondaryDeclination ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>н{ЬØ}  _KAL-SecondaryDeclination ;
 @U.PossPx.Sg1@+Use/NG+Err/Orth+Dial+PxSg1:@U.PossPx.Sg1@%>м    _KAL-SecondaryDeclination ;
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>т%{ЬØ%}  _KIT-SecondaryDeclination ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>нт%{ЬØ%} _KIT-SecondaryDeclination ;
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>нз%{оэØ%} _KUDO-SecondaryDeclination ;
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>н{оеэ%}к _LAK-SecondaryDeclination ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>т{ЬØ}  _KIT-SecondaryDeclination ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial+PxSg2:@U.PossPx.Sg2@%>нт{ЬØ} _KIT-SecondaryDeclination ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>нз{оэØ} _KUDO-SecondaryDeclination ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>н{оеэ}к _LAK-SecondaryDeclination ;
 @U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>нк   _LAK-SecondaryDeclination ;
 @U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>ст   _KIT-SecondaryDeclination ;
 @U.PossPx.Pl3@+Use/NG+Err/Orth+Dial+PxPl3:@U.PossPx.Pl3@%>нст  _KIT-SecondaryDeclination ;
@@ -1734,7 +1734,7 @@ LEXICON _KUDO-SgDet-PossPx
 
 !LEXICON Misc_Pronouns_Indef
 !+Sg+Nom+Indef:  Tenses1_Prep-SG ;
-!+Abl+Indef:%>%{дт%}О1 K ;
+!+Abl+Indef:%>{дт}О1 K ;
 !+Gen+Indef:%>нь OBL-WITH-COP_KAL ; 
 !+Dat+Indef:%>нень K ;
 !+Ill+Indef:%>с K ;
@@ -1742,18 +1742,18 @@ LEXICON _KUDO-SgDet-PossPx
 !+Gen+Indef+Ela+Indef:%>нь%>стэ K ;
 !+Gen+Indef+Ine+Indef:%>нь%>сэ K ;
 !+Gen+Indef+Ill+Indef:%>нь%>с K ; 
-!+Gen+Indef+Abe+Indef:%>нь%>вт{оеэ%}мО1 K ;
-!+Ine+Indef:%>с%{оэØ%} K ; 
-!+Ela+Indef:%>ст%{оэØ%} K ;
+!+Gen+Indef+Abe+Indef:%>нь%>вт{оеэ}мО1 K ;
+!+Ine+Indef:%>с{оэØ} K ; 
+!+Ela+Indef:%>ст{оэØ} K ;
 !+Prl+Indef:%>Г2а K ;
-!+Abe+Indef:%>вт{оеэ%}мО1 K ;
-!+Tra+Indef:%>кс%{ЬØ%} K ;
+!+Abe+Indef:%>вт{оеэ}мО1 K ;
+!+Tra+Indef:%>кс{ЬØ} K ;
 !+Cmpr+Indef:%>шка K ; 
 
 
 LEXICON _KUDO-Misc_Pronouns_Indef
 +Sg+Nom+Indef:  _KUDO-Tenses1_Prep-SG ;
-+Abl+Indef:%>%{дт%}О1 K ;
++Abl+Indef:%>{дт}О1 K ;
 +Gen+Indef:%>нь OBL-WITH-COP_KAL ; 
 +Dat+Indef:%>нень K ;
 +Ill+Indef:%>с K ;
@@ -1761,17 +1761,17 @@ LEXICON _KUDO-Misc_Pronouns_Indef
 +Gen+Indef+Ela+Indef:%>нь%>стэ K ;
 +Gen+Indef+Ine+Indef:%>нь%>сэ K ;
 +Gen+Indef+Ill+Indef:%>нь%>с K ; 
-+Gen+Indef+Abe+Indef:%>нь%>вт{оеэ%}мО1 K ;
-+Ine+Indef:%>с%{оэØ%} K ; 
-+Ela+Indef:%>ст%{оэØ%} K ;
++Gen+Indef+Abe+Indef:%>нь%>вт{оеэ}мО1 K ;
++Ine+Indef:%>с{оэØ} K ; 
++Ela+Indef:%>ст{оэØ} K ;
 +Prl+Indef:%>Г2а K ;
-+Abe+Indef:%>вт{оеэ%}мО1 K ;
-+Tra+Indef:%>кс%{ЬØ%} K ; !!2013-04-15 What is this
++Abe+Indef:%>вт{оеэ}мО1 K ;
++Tra+Indef:%>кс{ЬØ} K ; !!2013-04-15 What is this
 +Cmpr+Indef:%>шка K ; 
 
 
 LEXICON Misc_Pronouns_Pl
-+Pl+Nom+Indef:%>т%{ЬØ%} K ;
++Pl+Nom+Indef:%>т{ЬØ} K ;
 +Pl+Nom+Def:%>тнЕ3 K ; 
 +Pl+Abl+Def:%>тнЕ3%>де K ;
 +Pl+Abe+Def:%>тнЕ3%>с K ;
@@ -1879,56 +1879,56 @@ LEXICON REL/INTERR_PRONOUNS
 
 
 LEXICON REL/INTERR-PRON-CASES
-+Pl+Nom+Indef:%>т%{ЬØ%} ENDLEX ; 
++Pl+Nom+Indef:%>т{ЬØ} ENDLEX ; 
 
-+SP+Ela+Indef:%>ст%{оэØ%} ENDLEX ;
-+SP+Ine+Indef:%>с%{оэØ%} ENDLEX ;
++SP+Ela+Indef:%>ст{оэØ} ENDLEX ;
++SP+Ine+Indef:%>с{оэØ} ENDLEX ;
 +SP+Ill+Indef:%>с ENDLEX ;
 +SP+Dat+Indef:%>нень ENDLEX ;
-+SP+Abe+Indef:%>вт{оеэ%}мО1 ENDLEX ;
-+SP+Abl+Indef:%>%{дт%}О1 ENDLEX ;
-+Ela+Der/GenAttr:%>ст%{оэØ%}%>нь ENDLEX ;
-+Abl+Der/GenAttr:%>%{дт%}О1%>нь ENDLEX ;
-+Ine+Der/GenAttr:%>с%{оэØ%}%>нь ENDLEX ;
++SP+Abe+Indef:%>вт{оеэ}мО1 ENDLEX ;
++SP+Abl+Indef:%>{дт}О1 ENDLEX ;
++Ela+Der/GenAttr:%>ст{оэØ}%>нь ENDLEX ;
++Abl+Der/GenAttr:%>{дт}О1%>нь ENDLEX ;
++Ine+Der/GenAttr:%>с{оэØ}%>нь ENDLEX ;
 +SP+Gen+Indef:%>нь ENDLEX ;
-!2009-09-29!+SP+Ine:%>с%{оэØ%} _KUDO-Tenses1 ;
-+Ill+Indef:%>з%{оэØ%} ENDLEX ;
-+Ill+Indef:%>з%{оэØ%}нь ENDLEX ;
+!2009-09-29!+SP+Ine:%>с{оэØ} _KUDO-Tenses1 ;
++Ill+Indef:%>з{оэØ} ENDLEX ;
++Ill+Indef:%>з{оэØ}нь ENDLEX ;
 
 +Sg+Nom+Def:%>сь ENDLEX ;
 +Sg+Gen+Def:%>нть ENDLEX ;
 +Sg+Dat+Def:%>нтень ENDLEX ;
 +Pl+Nom+Def:%>тне ENDLEX ;
 +Pl+Gen+Def:%>тне%>нь ENDLEX ;
-+Pl+Abl+Def:%>тне%>%{дт%}О1 ENDLEX ;
++Pl+Abl+Def:%>тне%>{дт}О1 ENDLEX ;
 +Pl+Dat+Def:%>тне%>нень ENDLEX ;
-+Pl+Ine+Def:%>тне%>с%{оэØ%} ENDLEX ;
-+Pl+Ela+Def:%>тне%>ст%{оэØ%} ENDLEX ;
++Pl+Ine+Def:%>тне%>с{оэØ} ENDLEX ;
++Pl+Ela+Def:%>тне%>ст{оэØ} ENDLEX ;
 +Pl+Ill+Def:%>тне%>с ENDLEX ;
 
-+Pl+Nom+PxPl1:%>н{оеэ%}к ENDLEX ;
++Pl+Nom+PxPl1:%>н{оеэ}к ENDLEX ;
 +Pl+Nom+PxPl2:%>нк ENDLEX ;
 +Pl+Nom+PxPl3:%>ст ENDLEX ;
 
 LEXICON REL/INTERR-PRON-CASES_OSH
-+Pl+Nom+Indef:%>т%{ЬØ%} ENDLEX ; 
-+SP+Ela+Indef:%>%{оеэØ%}ст%{оэØ%} ENDLEX ;
-+SP+Ine+Indef:%>%{оеэØ%}с%{оэØ%} ENDLEX ;
-+SP+Ill+Indef:%>%{оеэØ%}с ENDLEX ;
-+SP+Tra+Indef:%>%{оеэØ%}кс ENDLEX ;
++Pl+Nom+Indef:%>т{ЬØ} ENDLEX ; 
++SP+Ela+Indef:%>{оеэØ}ст{оэØ} ENDLEX ;
++SP+Ine+Indef:%>{оеэØ}с{оэØ} ENDLEX ;
++SP+Ill+Indef:%>{оеэØ}с ENDLEX ;
++SP+Tra+Indef:%>{оеэØ}кс ENDLEX ;
 +SP+Dat+Indef:%>нень ENDLEX ;
-+SP+Abe+Indef:%>вт{оеэ%}мО1 ENDLEX ;
-+SP+Abl+Indef:%>%{дт%}О1 ENDLEX ;
-+SP+Gen+Indef:%>%{оеэØ%}нь ENDLEX ;
++SP+Abe+Indef:%>вт{оеэ}мО1 ENDLEX ;
++SP+Abl+Indef:%>{дт}О1 ENDLEX ;
++SP+Gen+Indef:%>{оеэØ}нь ENDLEX ;
 +SP+Com+Indef:%>нек ENDLEX ;
-+Ela+Der/GenAttr:%>%{оеэØ%}ст%{оэØ%}%>нь ENDLEX ;
-+Abl+Der/GenAttr:%>%{дт%}О1%>нь ENDLEX ;
-+Ine+Der/GenAttr:%>%{оеэØ%}с%{оэØ%}%>нь ENDLEX ;
++Ela+Der/GenAttr:%>{оеэØ}ст{оэØ}%>нь ENDLEX ;
++Abl+Der/GenAttr:%>{дт}О1%>нь ENDLEX ;
++Ine+Der/GenAttr:%>{оеэØ}с{оэØ}%>нь ENDLEX ;
 
 
-+Sg+Nom+Def:%>%{оеэØ%}сь ENDLEX ;
-+Sg+Gen+Def:%>%{оеэØ%}нть ENDLEX ;
-+Sg+Dat+Def:%>%{оеэØ%}нтень ENDLEX ;
++Sg+Nom+Def:%>{оеэØ}сь ENDLEX ;
++Sg+Gen+Def:%>{оеэØ}нть ENDLEX ;
++Sg+Dat+Def:%>{оеэØ}нтень ENDLEX ;
 
 +Pl+Nom+Def:%>тне ENDLEX ;
 +Pl+Gen+Def:%>тне%>нь ENDLEX ;

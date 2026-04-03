@@ -10,12 +10,12 @@
 
 !Defective paradigms
 LEXICON N_PELE !!= @CODE@ пеле:пель, ало:ал
-+Relat+Abl:%>%{дт%}О1 K ;
-+Relat+Loc:%>%{оеэØ%} K ;
++Relat+Abl:%>{дт}О1 K ;
++Relat+Loc:%>{оеэØ} K ;
 +Relat+Prl:%>Г2а K ;
 +Orth/PhonDeriv+Loc+Der+Der/cje+Pron:%>це N2_DEF_DECLENSION_KUDO ;
 +Der+Der/ks:%>кс N_LEVKS ;
-+Relat+Lat:%>%{оеэØ%}в K ;
++Relat+Lat:%>{оеэØ}в K ;
 
 LEXICON VOCATIVE_
 +Voc: ENDLEX ;
@@ -81,8 +81,11 @@ LEXICON N-KIN_VELE
 !@P.POS.N@!+Sem/Kin:@P.POS.N@ NMN_KUDO ;
 ! N-KIN ;
 
+LEXICON N_KUDO_no_comp
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_KUDO ;
+
 LEXICON N_RELAT_KUDO
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_KUDO ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_KUDO ;
 LEXICON N-KIN_KUDO
 @P.POS.N@+Sem/Kin:@P.POS.N@ NMN_KUDO ;
  N-KIN ;
@@ -94,7 +97,7 @@ LEXICON N-HUM_KAL
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KAL ;
 
 !LEXICON N-HUM_TYL
-!@P.POS.N@+Sem/Hum:@P.POS.N@%{frontHard%} NMN_KAL ;
+!@P.POS.N@+Sem/Hum:@P.POS.N@{frontHard} NMN_KAL ;
 
 LEXICON N-HUM_KEL1
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_KEL1 ;
@@ -118,17 +121,17 @@ LEXICON N-HUM_OZKS
 @P.POS.N@+Sem/Hum:@P.POS.N@ NMN_OZKS ;
 
 LEXICON N-HUM_LEVKS
-@P.POS.N@+Sem/Hum:@P.POS.N@%{frontHard%} NMN_KAL ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@+Sem/Hum:@P.POS.N@{frontHard} NMN_KAL ;
+@P.POS.N@:@P.POS.N@%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N-HUM_ROZ1
-@P.POS.N@+Sem/Hum:@P.POS.N@%{frontSoft%} NMN_KAL ;
+@P.POS.N@+Sem/Hum:@P.POS.N@{frontSoft} NMN_KAL ;
 
 LEXICON N-HUM_OSH
-@P.POS.N@+Sem/Hum:@P.POS.N@%{back%} NMN_OSH ;
+@P.POS.N@+Sem/Hum:@P.POS.N@{back} NMN_OSH ;
 
 !LEXICON N-HUM_KENKSH
-!@P.POS.N@+Sem/Hum:@P.POS.N@%{frontHard%} NMN_OSH ;
+!@P.POS.N@+Sem/Hum:@P.POS.N@{frontHard} NMN_OSH ;
 
 !LEXICON N-HUM_KLASS
 !@P.POS.N@!+Sem/Hum:@P.POS.N@ NMN_KLASS ;
@@ -159,7 +162,7 @@ LEXICON N-HUM_KUDO
 !@P.POS.N@+Sem/Plc:@P.POS.N@ NMN_KEL1 ;
 
 !LEXICON N-PLC_TYL
-!@P.POS.N@+Sem/Plc:@P.POS.N@%{frontHard%} NMN_KAL ;
+!@P.POS.N@+Sem/Plc:@P.POS.N@{frontHard} NMN_KAL ;
 
 !LEXICON N_LAK_PLC
 !N-PLC_LAK ;
@@ -185,7 +188,7 @@ LEXICON N-HUM_KUDO
 !LEXICON N-PLC_OSH
 !@P.POS.N@+Sem/Plc:@P.POS.N@ NMN_KUDO ;
 !€# ошов +Sem/Plc+SP+Lat+Indef: 
-!€# ош%>%{оеэØ%}в
+!€# ош%>{оеэØ}в
 !€0 ош0ов
 
 !LEXICON N_KLASS_PLC
@@ -310,25 +313,28 @@ LEXICON N_KAL_rus100
 +Use/SpellNoSugg: N_KAL ;
 LEXICON N_KAL
 @P.POS.N@:@P.POS.N@ NMN_KAL ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_RELAT_SAN_errorth_je_for_jo
 @U.COMPOUND.NO@+Relat+Err/Orth-je-for-jo:@U.COMPOUND.NO@ N_SAN ;
 LEXICON N_RELAT_SAN
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_SAN ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_SAN ;
 
 LEXICON N_SAN_no_comp
-@U.COMPOUND.NO@:@U.COMPOUND.NO@ N_SAN ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_SAN ;
 
 LEXICON N_SAN
 @P.POS.N@:@P.POS.N@ NMN_SAN ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_LAV_rus100
 +Use/SpellNoSugg: N_LAV ;
+LEXICON N_LAV_no_comp
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_LAV ;
+
 LEXICON N_LAV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_TEV_ERROR_SHB_VELE
 +Err/Orth-stem-cons-should-be-je: NMN_TEV_ERROR_SHB_VELE ;
@@ -336,7 +342,7 @@ LEXICON	NMN_TEV_ERROR_SHB_VELE
 ! cases that take no onset O
 ! Ine, Ill, Ela, Abl, Dat, Prl, Cmpr, Abe, Com, Tra
 ! Pl
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 ABE-INDEF ;
 ABL-INDEF ;
 CMP-INDEF ;
@@ -361,7 +367,7 @@ LEXICON N_TEV_rus100
 +Use/SpellNoSugg: N_TEV ;
 LEXICON N_TEV
 @P.POS.N@:@P.POS.N@ NMN_LAV ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_T1_rusmyv
 +Use/SpellNoSugg: N_T1 ;
@@ -370,7 +376,7 @@ LEXICON N_T1_rus100
 LEXICON N_T1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KEL1 ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 +Err/Orth-missing-t-in-def-pl:%>не NMN_DEF_PL_DECLENSION_CASES ;! Remove soft sign, tag for t-less
 
 LEXICON N_KEL1_rusmyv
@@ -378,98 +384,102 @@ LEXICON N_KEL1_rusmyv
 LEXICON N_KEL1_rus100
 +Use/SpellNoSugg: N_KEL1 ;
 LEXICON N_RELAT_KEL1
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_KEL1 ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_KEL1 ;
 LEXICON N_KEL1 !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_KEL1 ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_LOMAN1 !!= * @CODE@ ломань:ломань %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_LOMAN1 ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_OZIM1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
  NMN_OZIM1 ;
 LEXICON NMN_OZIM1
 ! harmony: front
-@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Err/Orth-old1:@P.POS.N@{frontSoft} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_RUF1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
  NMN_RUF1 ;
 LEXICON NMN_RUF1
 ! harmony: front
-@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Err/Orth-old1:@P.POS.N@{frontSoft} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_RECH1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
  NMN_RECH1 ;
 LEXICON NMN_RECH1
 ! harmony: front
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
-@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Err/Orth-old1:@P.POS.N@{frontSoft} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_VESHCH1 !!= * @CODE@ озимь:озимь %^Ь2ZERO
  NMN_VESHCH1 ;
 LEXICON NMN_VESHCH1
 ! harmony: front
-@P.POS.N@+Err/Orth-old1:@P.POS.N@%{frontSoft%} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Err/Orth-old1:@P.POS.N@{frontSoft} NMN_KEL1 ;!2022-02-10 may need more work, Jaska
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
+LEXICON N_PEJ_no_comp
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_PEJ ;
 LEXICON N_J_rus100
 +Use/SpellNoSugg: N_J ;
 LEXICON N_RELAT_J
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_J ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_J ;
 LEXICON N_PEJ !!= * @CODE@ кель:кель %^Ь2ZERO
  N_J ;
 LEXICON N_J !!= * @CODE@ кель:кель %^Ь2ZERO
 ! harmony: front
 @P.POS.N@:@P.POS.N@ NMN_PEJ ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
-LEXICON N_SODYJ !!= * @CODE@ сода%>%{иы%}й, содый
+LEXICON N_SODYJ !!= * @CODE@ сода%>{иы}й, содый
 ! harmony: front
 ! no lative
 @P.POS.N@:@P.POS.N@ NMN_PEJ ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
+LEXICON N_TYL_no_comp
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_TYL ;
 
 LEXICON N_TYL_rus100
 +Use/SpellNoSugg: N_TYL ;
 LEXICON N_TYL
 ! harmony: front
-@P.POS.N@:@P.POS.N@%{frontHard%} NMN_KAL ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@:@P.POS.N@{frontHard} NMN_KAL ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 !LEXICON N_KAL_SUB
 !+Use/NG+Err/Orth: N_KAL ;
 
 LEXICON N_KAL-PL
-@P.POS.N@:@P.POS.N@%{backHard%} NMN_DEF_PL_DECLENSION ;
-@P.POS.N@:@P.POS.N@%{backHard%} _KAL-Indef-Declension-PL ;
-@P.POS.N@:@P.POS.N@%{backHard%} N_KAL-Poss-Declension-CX-PL ;
+@P.POS.N@:@P.POS.N@{backHard} NMN_DEF_PL_DECLENSION ;
+@P.POS.N@:@P.POS.N@{backHard} _KAL-Indef-Declension-PL ;
+@P.POS.N@:@P.POS.N@{backHard} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_LAV-PL
-!@P.POS.N@:@P.POS.N@%{back%} NMN_DEF_PL_DECLENSION ;
-!@P.POS.N@:@P.POS.N@%{back%} _KAL-Indef-Declension-PL ;
-!@P.POS.N@:@P.POS.N@%{back%} N_KAL-Poss-Declension-CX-PL ;
+!@P.POS.N@:@P.POS.N@{back} NMN_DEF_PL_DECLENSION ;
+!@P.POS.N@:@P.POS.N@{back} _KAL-Indef-Declension-PL ;
+!@P.POS.N@:@P.POS.N@{back} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_TEV-PL
-!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF_PL_DECLENSION ;
-!@P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
-!@P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
+!@P.POS.N@:@P.POS.N@{frontSoft} NMN_DEF_PL_DECLENSION ;
+!@P.POS.N@:@P.POS.N@{frontSoft} _KAL-Indef-Declension-PL ;
+!@P.POS.N@:@P.POS.N@{frontSoft} N_KAL-Poss-Declension-CX-PL ;
 
 LEXICON N_KEL1-PL
-@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF_PL_DECLENSION ;
-@P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
-@P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
+@P.POS.N@:@P.POS.N@{frontSoft} NMN_DEF_PL_DECLENSION ;
+@P.POS.N@:@P.POS.N@{frontSoft} _KAL-Indef-Declension-PL ;
+@P.POS.N@:@P.POS.N@{frontSoft} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_PEJ-PL
-!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_DEF_PL_DECLENSION ;
-!@P.POS.N@:@P.POS.N@%{frontSoft%} _KAL-Indef-Declension-PL ;
-!@P.POS.N@:@P.POS.N@%{frontSoft%} N_KAL-Poss-Declension-CX-PL ;
+!@P.POS.N@:@P.POS.N@{frontSoft} NMN_DEF_PL_DECLENSION ;
+!@P.POS.N@:@P.POS.N@{frontSoft} _KAL-Indef-Declension-PL ;
+!@P.POS.N@:@P.POS.N@{frontSoft} N_KAL-Poss-Declension-CX-PL ;
 
 !LEXICON N_KAL-PL_SUB
 !+Use/NG+Err/Orth: N_KAL-PL ;
@@ -477,16 +487,16 @@ LEXICON N_KEL1-PL
 LEXICON N_LAK_rus100
 +Use/SpellNoSugg: N_LAK ;
 LEXICON N_RELAT_LAK
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_LAK ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_LAK ;
 LEXICON N_LAK
 @P.POS.N@:@P.POS.N@ NMN_LAK ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_VEREK_rus100
 +Use/SpellNoSugg: N_VEREK ;
 LEXICON N_VEREK
 @P.POS.N@:@P.POS.N@ NMN_VEREK ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_LAK-PL
 @P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
@@ -497,13 +507,13 @@ LEXICON N_BRK_rus100
 +Use/SpellNoSugg: N_JORK ;
 LEXICON N_JORK
 @P.POS.N@:@P.POS.N@ NMN_JORK ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_FRK_rus100
 +Use/SpellNoSugg: N_OCHERK ;
 LEXICON N_OCHERK
 @P.POS.N@:@P.POS.N@ NMN_OCHERK ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_KIT_rusmyv
 +Use/SpellNoSugg: N_KIT ;
@@ -513,7 +523,7 @@ LEXICON N_KIT_rus100
 +Use/SpellNoSugg: N_KIT ;
 LEXICON N_KIT
 @P.POS.N@:@P.POS.N@ NMN_KIT ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_KIT-PL
 !2013-03-15!+Use/NG+Err/Orth+Orth/PhonInfl+N:%>TLoss NMN_DEF_PL_DECLENSION ;
@@ -524,27 +534,27 @@ LEXICON N_ART_rus100
 +Use/SpellNoSugg: N_ART ;
 LEXICON N_ART
 @P.POS.N@:@P.POS.N@ NMN_ART ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_ALJT_rus100
 +Use/SpellNoSugg: N_ALJT ;
 LEXICON N_ALJT
 @P.POS.N@:@P.POS.N@ NMN_ALJT ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 !LEXICON N_GAJT1_rus100
 !+Use/SpellNoSugg: N_GAJT1 ;
 LEXICON N_GAJT1
 @P.POS.N@:@P.POS.N@ NMN_GAJT1 ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_FSS_rus100
 +Use/SpellNoSugg: N_KLASS ;
 LEXICON N_KLASS
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KLASS ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
+@P.POS.N@:@P.POS.N@%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_FZH_rus100
 +Use/SpellNoSugg: N_KENKSH ;
@@ -566,9 +576,9 @@ LEXICON N_OSH
 @P.POS.N@:@P.POS.N@  _OSH-Indef-Declension ;
 @P.POS.N@:@P.POS.N@  N_KUDO-Poss-Declension-CX ;
 !@P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_OSH-PL
 @P.POS.N@:@P.POS.N@ N_OSH-Derivation ;
@@ -594,36 +604,36 @@ LEXICON N_FCH_rus100
 LEXICON N_FSH_rus100
 +Use/SpellNoSugg: N_FSH ;
 LEXICON N_RELAT_FSH
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_FSH ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_FSH ;
 LEXICON N_KENKSH
  N_FSH ;
 LEXICON N_FSH
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
-@P.POS.N@:@P.POS.N@%{frontSoft%} N_KUDO-Derivation ;
-@P.POS.N@:@P.POS.N@%{frontSoft%}  NMN_DEF_SG_DECLENSION ;
-@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@%{frontSoft%}  NMN_DEF_PL_DECLENSION ;
+@P.POS.N@:@P.POS.N@{frontSoft} N_KUDO-Derivation ;
+@P.POS.N@:@P.POS.N@{frontSoft}  NMN_DEF_SG_DECLENSION ;
+@P.POS.N@+Use/NG+Use/SpellNoSugg:@P.POS.N@{frontSoft}  NMN_DEF_PL_DECLENSION ;
 @P.POS.N@:@P.POS.N@%^H  NMN_DEF_PL_DECLENSION ;
-@P.POS.N@:@P.POS.N@%{frontSoft%} _KUDO-Indef-Declension ;
-@P.POS.N@:@P.POS.N@%{frontSoft%}  N_KUDO-Poss-Declension-CX ;
-!@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontSoft%} CMP-INDEF ;
-@P.POS.N@:@P.POS.N@%{frontSoft%}%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@{frontSoft} _KUDO-Indef-Declension ;
+@P.POS.N@:@P.POS.N@{frontSoft}  N_KUDO-Poss-Declension-CX ;
+!@P.POS.N@:@P.POS.N@{frontSoft} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
+@P.POS.N@+Use/SpellNoSugg:@P.POS.N@{frontSoft} CMP-INDEF ;
+@P.POS.N@:@P.POS.N@{frontSoft}%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_TENGUSH
-+Err/Orth-front-linking-vowel:%{frontSoft%} N_OSH ;
++Err/Orth-front-linking-vowel:{frontSoft} N_OSH ;
  N_OSH ;
 
 LEXICON N_LESHCH
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
-@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontSoft%} CMP-INDEF ;
+@P.POS.N@:@P.POS.N@{frontSoft} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
+@P.POS.N@+Use/SpellNoSugg:@P.POS.N@{frontSoft} CMP-INDEF ;
 
 LEXICON N_PLASHCH
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
 
 
@@ -636,16 +646,16 @@ LEXICON N_BZ_rus100
 LEXICON N_OZKS
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_KARDAZ !! кардаз:карда
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_FZ_rus100
 +Use/SpellNoSugg: N_LEVKS ;
@@ -654,26 +664,29 @@ LEXICON N_FS_rus100
 LEXICON N_LEVKS_rus100
 +Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_RELAT_LEVKS
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_LEVKS ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_LEVKS ;
 LEXICON N_LEVKS
 ! harmony: front
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
-@P.POS.N@:@P.POS.N@%{frontHard%} NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
-@P.POS.N@+Use/SpellNoSugg:@P.POS.N@%{frontHard%} CMP-INDEF ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%}%{frontHard%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@{frontHard} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
+@P.POS.N@+Use/SpellNoSugg:@P.POS.N@{frontHard} CMP-INDEF ;
+@P.POS.N@:@P.POS.N@%>{оеэØ}{frontHard} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_S1_rus100
 +Use/SpellNoSugg: N_ROZ1 ;
 LEXICON N_ROZ1_rus100
 +Use/SpellNoSugg: N_ROZ1 ;
+LEXICON N_ROZ1_no_comp
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_ROZ1 ;
+
 LEXICON N_ROZ1
 ! harmony: front
 @P.POS.N@+Err/Orth-old1:@P.POS.N@ INE_INDEF/PX_ne ;
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@+Use/SpellNoSugg:@P.POS.N@ CMP-INDEF ;
-@P.POS.N@:@P.POS.N@%>%{оеэØ%} DIAL-NW-WITH-ST-AFTER-STEM ;
+@P.POS.N@:@P.POS.N@%>{оеэØ} DIAL-NW-WITH-ST-AFTER-STEM ;
 
 LEXICON N_IE
 :е N_VELE ;
@@ -681,39 +694,39 @@ LEXICON N_IE
 @P.POS.N@+Use/NG+Err/Orth:@P.POS.N@й NMN_DEF_PL_DECLENSION ;
 
 LEXICON N_LAVSHO
-@P.POS.N@+Use/NG:@P.POS.N@%{backHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@о%{back%} NMN_TINGE-LONG-FORMS ;
-@P.POS.N@:@P.POS.N@о%{back%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@+Use/NG:@P.POS.N@{backHard} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@:@P.POS.N@о{back} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@о{back} NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@:@P.POS.N@ NMN_PANGO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_KECHE
-@P.POS.N@+Use/NG:@P.POS.N@%{frontHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-LONG-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@+Use/NG:@P.POS.N@{frontHard} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@:@P.POS.N@е{frontSoft} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@е{frontSoft} NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_KENZHE
-@P.POS.N@:@P.POS.N@%{frontHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@+Use/NG:@P.POS.N@е%{frontSoft%} NMN_TINGE-LONG-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@:@P.POS.N@{frontHard} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@+Use/NG:@P.POS.N@е{frontSoft} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@е{frontSoft} NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_TESHTE
-@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@+Use/NG:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_TINGE-LONG-FORMS ;
-@P.POS.N@:@P.POS.N@%^Ь2ZEROе%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@:@P.POS.N@{frontSoft} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@+Use/NG:@P.POS.N@%^Ь2ZEROе{frontSoft} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@%^Ь2ZEROе{frontSoft} NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%^Ь2ZEROи%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%^Ь2ZEROи%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_TINGE
-@P.POS.N@:@P.POS.N@%{frontSoft%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@+Use/NG:@P.POS.N@е%{frontSoft%} NMN_TINGE-LONG-FORMS ;
-@P.POS.N@:@P.POS.N@е%{frontSoft%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@:@P.POS.N@{frontSoft} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@+Use/NG:@P.POS.N@е{frontSoft} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@е{frontSoft} NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@:@P.POS.N@ NMN_TESHTE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@е%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_TINGE-PL
 @P.POS.N@:@P.POS.N@ NMN_DEF_PL_DECLENSION ;
@@ -722,29 +735,29 @@ LEXICON N_TINGE-PL
 @P.POS.N@:@P.POS.N@ N_KUDO-Poss-Declension-CX-PL ;
 
 LEXICON N_CHUVTO
-@P.POS.N@:@P.POS.N@%{backHard%} NMN_TINGE-SHORT-FORMS ;
-@P.POS.N@+Use/NG:@P.POS.N@о%{back%} NMN_TINGE-LONG-FORMS ;
-@P.POS.N@:@P.POS.N@о%{back%} NMN_TINGE-OTHER-FORMS ;
+@P.POS.N@:@P.POS.N@{backHard} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@+Use/NG:@P.POS.N@о{back} NMN_TINGE-LONG-FORMS ;
+@P.POS.N@:@P.POS.N@о{back} NMN_TINGE-OTHER-FORMS ;
 @P.POS.N@:@P.POS.N@ NMN_PANGO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@ы%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@ы%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_RELAT_PANGO
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_PANGO ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_PANGO ;
 LEXICON N_PANGO
 !! панго:панг
-@P.POS.N@:@P.POS.N@%{back%} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@:@P.POS.N@{back} NMN_TINGE-SHORT-FORMS ;
 @P.POS.N@+Use/NG:@P.POS.N@о NMN_TINGE-LONG-FORMS ;
 @P.POS.N@:@P.POS.N@о NMN_TINGE-OTHER-FORMS ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@и%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@и%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@:@P.POS.N@@U.DECL-NX.SP@о LAT-INDEF ;
 
 
 LEXICON N_POTMO
 !! потмо:пот
-@P.POS.N@:@P.POS.N@%{back%} NMN_TINGE-SHORT-FORMS ;
+@P.POS.N@:@P.POS.N@{back} NMN_TINGE-SHORT-FORMS ;
 @P.POS.N@+Use/NG:@P.POS.N@мо NMN_TINGE-LONG-FORMS ;
 @P.POS.N@:@P.POS.N@мо NMN_TINGE-OTHER-FORMS ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@ми%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@ми%>Н1е{frontSoft} NMN_KUDO ;
 @P.POS.N@@U.DECL-NX.SP@:@P.POS.N@@U.DECL-NX.SP@мо LAT-INDEF ;
 
 LEXICON DV-N_
@@ -753,7 +766,7 @@ LEXICON DV-N_
 ! This might be moved to exceptions 2012-11-21
 LEXICON N_KI
 @P.POS.N@:@P.POS.N@ NMN_KI ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_VELE_IS-KE-DIM
 !! Front vowel, non-palatal consonant before vowel
@@ -762,16 +775,18 @@ LEXICON N_VELE_IS-NE-DIM
 !! Front vowel, non-palatal consonant before vowel
 @P.POS.N@+Dimin:@P.POS.N@ NMN_KUDO ;
 
+LEXICON N_VELE_no_comp
+@U.COMPOUND.NO@@D.COMPOUND.YES@:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_VELE ;
 LEXICON N_VELE_rus100
 +Use/SpellNoSugg: N_VELE ;
 LEXICON N_VELE_rusmyv
 +Use/SpellNoSugg: N_VELE ;
 LEXICON N_RELAT_VELE
-@U.COMPOUND.NO@+Relat:@U.COMPOUND.NO@ N_VELE ;
+@U.COMPOUND.NO@@D.COMPOUND.YES@+Relat:@U.COMPOUND.NO@@D.COMPOUND.YES@ N_VELE ;
 LEXICON N_VELE
 !! Front vowel, palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_VELE ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_VELE ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_VELE ;
 
 LEXICON N_PIZE2_IS-NE-DIM
 !! Front vowel, non-palatal consonant before vowel
@@ -779,7 +794,7 @@ LEXICON N_PIZE2_IS-NE-DIM
 LEXICON N_PIZE2
 !! Front vowel, non-palatal consonant before vowel
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_KUDO_rus100_hasnat
 +Use/SpellNoSugg: N_KUDO ;
@@ -793,7 +808,7 @@ LEXICON N_KUDO_rus100
 
 LEXICON N_KUDO
 @P.POS.N@:@P.POS.N@ NMN_KUDO ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} NMN_KUDO ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} NMN_KUDO ;
 
 LEXICON N_KUDO-PL
 @P.POS.N@:@P.POS.N@ N_KUDO-Derivation ;
@@ -1029,10 +1044,10 @@ ILL-PX ;!2023-10-15
 
 LEXICON DIGITAL_NUMBER
 ! preceded by arabic numerals in stems/numerals.lexc
-:%- NMN_DEF_DECLENSION ;
-:%- N_KUDO-Poss-Declension-CX ;
+:- NMN_DEF_DECLENSION ;
+:- N_KUDO-Poss-Declension-CX ;
  SG-NOM-INDEF ; !2022-02-11 Jaska
-:%- MUTUAL_INDEF_NOT_SG_NOM_INDEF ;
+:- MUTUAL_INDEF_NOT_SG_NOM_INDEF ;
 
 LEXICON NMN_KUDO
  N_KUDO-Derivation ;
@@ -1061,7 +1076,7 @@ LEXICON NMN_VELE
 LEXICON N_LAK-Derivation
  N_KAL-Derivation ;
 +Use/NG+Err/Orth+Orth/PhonInfl+Tra+Indef:%>KLossкс N2Dem-SE ;!CHECKME 2019-01-25
-+Use/NG+Err/Orth+Orth/PhonInfl+Tra+Indef:%>KLossкс%>%{оеэØ%} N2Dem-SE ;
++Use/NG+Err/Orth+Orth/PhonInfl+Tra+Indef:%>KLossкс%>{оеэØ} N2Dem-SE ;
 
 
 LEXICON N_KIT-Derivation
@@ -1069,23 +1084,23 @@ LEXICON N_KIT-Derivation
 
 
 LEXICON N_KAL-Derivation
-+SP+Ela+Indef+Der+Der/MWN+N:%>ст%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ine+Indef+Der+Der/MWN+N:%>с%{оэØ%} N2_DEF_DECLENSION_KUDO ;
++SP+Ela+Indef+Der+Der/MWN+N:%>ст{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ine+Indef+Der+Der/MWN+N:%>с{оэØ} N2_DEF_DECLENSION_KUDO ;
 +Use/NG+SP+Prl+Indef+Der+Der/MWN+N:%>Г2а N2_DEF_DECLENSION_KUDO ;
-+SP+Cmpr+Indef+Der+Der/MWN+N:%>%{оеэØ%}шка N2_DEF_DECLENSION_KUDO ;
-+SP+Abe+Indef+Der+Der/MWN+N:%>вт%{оеэ%}мО1 N2_DEF_DECLENSION_KUDO ;
++SP+Cmpr+Indef+Der+Der/MWN+N:%>{оеэØ}шка N2_DEF_DECLENSION_KUDO ;
++SP+Abe+Indef+Der+Der/MWN+N:%>вт{оеэ}мО1 N2_DEF_DECLENSION_KUDO ;
 +SP+Abe+Indef+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 N2_DEF_DECLENSION_KUDO ;
 
-+Use/NG+SP+Tra+Indef+Der+Der/MWN+N:%>%{оеэØ%}кс N2_DEF_DECLENSION_OSH ;
++Use/NG+SP+Tra+Indef+Der+Der/MWN+N:%>{оеэØ}кс N2_DEF_DECLENSION_OSH ;
 
 !#this far 2019-01-30
 
 +SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02
-+SP+Ela:%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
-+SP+Ine:%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
++SP+Ela:%>ст{оэØ} POSSX-OBL4-N2DEM-SE ;
++SP+Ine:%>с{оэØ} POSSX-OBL4-N2DEM-SE ;
 +SP+Prl:%>Г2а POSSX-OBL4-N2DEM-SE ;
-+SP+Cmpr:%>%{оеэØ%}шка POSSX-OBL4-N2DEM-SE ;
-+SP+Abe:%>вт%{оеэ%}мО1 POSSX-OBL4-N2DEM-SE ;
++SP+Cmpr:%>{оеэØ}шка POSSX-OBL4-N2DEM-SE ;
++SP+Abe:%>вт{оеэ}мО1 POSSX-OBL4-N2DEM-SE ;
 +SP+Abe+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 POSSX-OBL4-N2DEM-SE ;
 
  N_KAL-Derivation-WITH-POSSX ;
@@ -1097,31 +1112,31 @@ LEXICON N_KAL-Derivation
 +Pl+Abe+Def+Der+Der/MWN+N:%>тнЕ3%>втеме N2_DEF_DECLENSION_KUDO ;
 +Pl+Tra+Def+Der+Der/MWN+N:%>тнЕ3%>кс N2_DEF_DECLENSION_OSH ;
 
-+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+SP+Ela+Indef:%>ст%{оэØ%} N2Dem-SE ;
-+SP+Ine+Indef:%>с%{оэØ%} N2Dem-SE ;
++SP+Gen+Indef:%>{оеэØ}нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SP+Ela+Indef:%>ст{оэØ} N2Dem-SE ;
++SP+Ine+Indef:%>с{оэØ} N2Dem-SE ;
 +SP+Prl+Indef:%>Г2а N2Dem-SE ;
-+SP+Cmpr+Indef:%>%{оеэØ%}шка N2Dem-SE ;
-+SP+Abe+Indef:%>вт%{оеэ%}мО1 N2Dem-SE ;
++SP+Cmpr+Indef:%>{оеэØ}шка N2Dem-SE ;
++SP+Abe+Indef:%>вт{оеэ}мО1 N2Dem-SE ;
 +SP+Abe+Indef+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 N2Dem-SE ;
 +SP+Tra+Indef:%>кс N2Dem-SE ;!CHECKME 2019-01-26
-+SP+Tra+Indef:%>кс%>%{оеэØ%} N2Dem-SE ;
++SP+Tra+Indef:%>кс%>{оеэØ} N2Dem-SE ;
 
 
-+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-!+Sg+Ine+Def:%>с%{оэØ%}%>н%> N2Dem-SE ; !!= * **@CODE@**  !коридорсонсесь 2022-02-10
++Sg+Gen+Def:%>{оеэØ}нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def:%>ст{оэØ}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def:%>с{оэØ}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
+!+Sg+Ine+Def:%>с{оэØ}%>н%> N2Dem-SE ; !!= * **@CODE@**  !коридорсонсесь 2022-02-10
 +Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Cmpr+Def:%>%{оеэØ%}шка%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Cmpr+Def:%>{оеэØ}шка%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Abe+Def:%>вт{оеэ}мО1%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Sg+Abe+Def+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Use/-Spell+Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст{оэØ}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с{оэØ}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Use/-Spell+Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}шка%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>{оеэØ}шка%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт{оеэ}мО1%>%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Use/-Spell+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Pl+Ela+Def:%>тнЕ3%>стэ N2Dem-SE ;
@@ -1134,60 +1149,60 @@ LEXICON N_KAL-Derivation
 
 LEXICON N_KEL1-Derivation
 ! harmony: front
-+SP+Ela+Indef+Der+Der/MWN+N:%>ст%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+SP+Ine+Indef+Der+Der/MWN+N:%>с%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Ela+Indef+Der+Der/MWN+N:%>ст{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Ine+Indef+Der+Der/MWN+N:%>с{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
 +Use/NG+SP+Prl+Indef+Der+Der/MWN+N:%>га N2_DEF_DECLENSION_KUDO_BACK ;
 +SP+Cmpr+Indef+Der+Der/MWN+N:%^Ь2ZERO%>ешка N2_DEF_DECLENSION_KUDO_BACK ;
-+SP+Abe+Indef+Der+Der/MWN+N:%>т%{оеэ%}мО1 N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Abe+Indef+Der+Der/MWN+N:%>т{оеэ}мО1 N2_DEF_DECLENSION_KUDO_FRONT ;
 
 
 +SP+Tra+Indef+Der+Der/MWN+N:%^Ь2ZERO%>екс N2_DEF_DECLENSION_OSH ;
 
 +SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02
-+SP+Ela:%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
-+SP+Ine:%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
++SP+Ela:%>ст{оэØ} POSSX-OBL4-N2DEM-SE ;
++SP+Ine:%>с{оэØ} POSSX-OBL4-N2DEM-SE ;
 +SP+Prl:%>Г2а POSSX-OBL4-N2DEM-SE ;
 +SP+Cmpr:%^Ь2ZERO%>ешка POSSX-OBL4-N2DEM-SE ;
-+SP+Abe:%>т%{оеэ%}мО1 POSSX-OBL4-N2DEM-SE ;
++SP+Abe:%>т{оеэ}мО1 POSSX-OBL4-N2DEM-SE ;
 
 
-+Sg+Gen+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>енз%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+Pl+Gen+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>енз%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+SP+Ela+PxSg3+Der+Der/MWN+N:%>ст%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+SP+Ine+PxSg3+Der+Der/MWN+N:%>с%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO_BACK ;
-+SP+Cmpr+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO_BACK ;
-+SP+Abe+PxSg3+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+SP+Abe+PxSg3+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO_FRONT ;
-+Sg+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен%{оеэ%}к N2_DEF_DECLENSION_LAK ;!2024-04-02
-+Pl+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен%{оеэ%}к N2_DEF_DECLENSION_LAK ;!2024-04-02
-+SP+Ela+PxPl1+Der+Der/MWN+N:%>ст%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl1+Der+Der/MWN+N:%>с%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Cmpr+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl1+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl1+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
++Sg+Gen+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>енз{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++Pl+Gen+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>енз{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Ela+PxSg3+Der+Der/MWN+N:%>ст{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Ine+PxSg3+Der+Der/MWN+N:%>с{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>нз{оэØ} N2_DEF_DECLENSION_KUDO_BACK ;
++SP+Cmpr+PxSg3+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>нз{оэØ} N2_DEF_DECLENSION_KUDO_BACK ;
++SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ}мО1%>нз{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++SP+Abe+PxSg3+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нз{оэØ} N2_DEF_DECLENSION_KUDO_FRONT ;
++Sg+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен{оеэ}к N2_DEF_DECLENSION_LAK ;!2024-04-02
++Pl+Gen+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ен{оеэ}к N2_DEF_DECLENSION_LAK ;!2024-04-02
++SP+Ela+PxPl1+Der+Der/MWN+N:%>ст{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl1+Der+Der/MWN+N:%>с{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Cmpr+PxPl1+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl1+Der+Der/MWN+N:%>вт{оеэ}мО1%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl1+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
 !2023_03_10+SP+Gen+PxPl2+Der+Der/MWN+N:%^Ь2ZERO%>енк N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl2+Der+Der/MWN+N:%>ст%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl2+Der+Der/MWN+N:%>с%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl2+Der+Der/MWN+N:%>ст{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl2+Der+Der/MWN+N:%>с{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Prl+PxPl2+Der+Der/MWN+N:%>Г2а%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Cmpr+PxPl2+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl2+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>нк N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl2+Der+Der/MWN+N:%>вт{оеэ}мО1%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Abe+PxPl2+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нк N2_DEF_DECLENSION_LAK ;
 !2023_03_10+SP+Gen+PxPl3+Der+Der/MWN+N:%^Ь2ZERO%>ест N2_DEF_DECLENSION_KIT ;
-+SP+Ela+PxPl3+Der+Der/MWN+N:%>ст%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Ine+PxPl3+Der+Der/MWN+N:%>с%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
++SP+Ela+PxPl3+Der+Der/MWN+N:%>ст{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
++SP+Ine+PxPl3+Der+Der/MWN+N:%>с{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Prl+PxPl3+Der+Der/MWN+N:%>Г2а%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Cmpr+PxPl3+Der+Der/MWN+N:%^Ь2ZERO%>ешка%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Abe+PxPl3+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>ст N2_DEF_DECLENSION_KIT ;
++SP+Abe+PxPl3+Der+Der/MWN+N:%>вт{оеэ}мО1%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Abe+PxPl3+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>ст N2_DEF_DECLENSION_KIT ;
 
-+Sg+Gen+PxSg1:%^Ь2ZERO%>ен%{ЬØ%} N2Dem-SE ;
++Sg+Gen+PxSg1:%^Ь2ZERO%>ен{ЬØ} N2Dem-SE ;
 +Sg+Gen+PxSg1:%^Ь2ZERO%>ем N2Dem-SE ;
-+Sg+Gen+PxSg2:%^Ь2ZERO%>ет%{ЬØ%} N2Dem-SE ;
-+Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%^Ь2ZERO%>ент%{ЬØ%} N2Dem-SE ;
-+Sg+Gen+PxSg3:%^Ь2ZERO%>енз%{оэØ%} N2Dem-SE ;
-+Sg+Gen+PxPl1:%^Ь2ZERO%>ен%{оеэ%}к N2Dem-SE ;!2024-04-02
++Sg+Gen+PxSg2:%^Ь2ZERO%>ет{ЬØ} N2Dem-SE ;
++Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%^Ь2ZERO%>ент{ЬØ} N2Dem-SE ;
++Sg+Gen+PxSg3:%^Ь2ZERO%>енз{оэØ} N2Dem-SE ;
++Sg+Gen+PxPl1:%^Ь2ZERO%>ен{оеэ}к N2Dem-SE ;!2024-04-02
 +Sg+Gen+PxPl2:%^Ь2ZERO%>енк N2Dem-SE ;!2024-04-02
 +Sg+Gen+PxPl3:%^Ь2ZERO%>ест N2Dem-SE ;!2024-04-02
 
@@ -1198,13 +1213,13 @@ LEXICON N_KEL1-Derivation
 +Pl+Abe+Def+Der+Der/MWN+N:%>тне%>втеме N2_DEF_DECLENSION_KUDO_FRONT ;
 +Pl+Tra+Def+Der+Der/MWN+N:%>тне%>кс N2_DEF_DECLENSION_OSH ;
 +SP+Gen+Indef:%^Ь2ZERO%>ень%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+SP+Ela+Indef:%>ст%{оэØ%} N2Dem-SE ;
-+SP+Ine+Indef:%>с%{оэØ%} N2Dem-SE ;
++SP+Ela+Indef:%>ст{оэØ} N2Dem-SE ;
++SP+Ine+Indef:%>с{оэØ} N2Dem-SE ;
 +SP+Prl+Indef:%>га N2Dem-SE ;
 +SP+Cmpr+Indef:%^Ь2ZERO%>ешка N2Dem-SE ;
-+SP+Abe+Indef:%>т%{оеэ%}мО1 N2Dem-SE ;
++SP+Abe+Indef:%>т{оеэ}мО1 N2Dem-SE ;
 +SP+Tra+Indef:%>кс N2Dem-SE ;!CHECKME 2019-01-26
-+SP+Tra+Indef:%>кс%>%{оеэØ%} N2Dem-SE ;
++SP+Tra+Indef:%>кс%>{оеэØ} N2Dem-SE ;
 
 +Sg+Gen+Def:%^Ь2ZERO%>енть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 +Sg+Ela+Def:%>стэ%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
@@ -1229,50 +1244,50 @@ LEXICON N_KEL1-Derivation
 +Pl+Tra+Def:%>тне%>ксэ N2Dem-SE ;
 
 LEXICON N_KLASS-Derivation
-! This requires a twolc rule that will [ с с:0 > с ] SLoss
+! This requires a twolc rule that will [ с с:0 %> с ] SLoss
  N_OSH-Derivation ;
-+SLoss+SP+Ela+Indef+Der+Der/MWN+N:%>SLossст%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SLoss+SP+Ine+Indef+Der+Der/MWN+N:%>SLossс%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SLoss+SP+Ela+PxSg3+Der+Der/MWN+N:%>SLossст%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SLoss+SP+Ine+PxSg3+Der+Der/MWN+N:%>SLossс%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SLoss+SP+Ela+PxPl1+Der+Der/MWN+N:%>SLossст%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SLoss+SP+Ine+PxPl1+Der+Der/MWN+N:%>SLossс%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SLoss+SP+Ela+PxPl2+Der+Der/MWN+N:%>SLossст%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
-+SLoss+SP+Ine+PxPl2+Der+Der/MWN+N:%>SLossс%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
-+SLoss+SP+Ela+PxPl3+Der+Der/MWN+N:%>SLossст%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
-+SLoss+SP+Ine+PxPl3+Der+Der/MWN+N:%>SLossс%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
-+SLoss+SP+Ela+Indef:%>SLossст%{оэØ%} N2Dem-SE ;
-+SLoss+SP+Ine+Indef:%>SLossс%{оэØ%} N2Dem-SE ;
-+SLoss+SP+Ela:%>SLossст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
-+SLoss+SP+Ine:%>SLossс%{оэØ%} POSSX-OBL4-N2DEM-SE ;
++SLoss+SP+Ela+Indef+Der+Der/MWN+N:%>SLossст{оэØ} N2_DEF_DECLENSION_KUDO ;
++SLoss+SP+Ine+Indef+Der+Der/MWN+N:%>SLossс{оэØ} N2_DEF_DECLENSION_KUDO ;
++SLoss+SP+Ela+PxSg3+Der+Der/MWN+N:%>SLossст{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SLoss+SP+Ine+PxSg3+Der+Der/MWN+N:%>SLossс{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SLoss+SP+Ela+PxPl1+Der+Der/MWN+N:%>SLossст{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SLoss+SP+Ine+PxPl1+Der+Der/MWN+N:%>SLossс{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SLoss+SP+Ela+PxPl2+Der+Der/MWN+N:%>SLossст{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
++SLoss+SP+Ine+PxPl2+Der+Der/MWN+N:%>SLossс{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
++SLoss+SP+Ela+PxPl3+Der+Der/MWN+N:%>SLossст{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
++SLoss+SP+Ine+PxPl3+Der+Der/MWN+N:%>SLossс{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
++SLoss+SP+Ela+Indef:%>SLossст{оэØ} N2Dem-SE ;
++SLoss+SP+Ine+Indef:%>SLossс{оэØ} N2Dem-SE ;
++SLoss+SP+Ela:%>SLossст{оэØ} POSSX-OBL4-N2DEM-SE ;
++SLoss+SP+Ine:%>SLossс{оэØ} POSSX-OBL4-N2DEM-SE ;
 
-+SLoss+Sg+Ela+Def:%>SLossст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+SLoss+Sg+Ine+Def:%>SLossс%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ela+Def:%>SLossст{оэØ}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ine+Def:%>SLossс{оэØ}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>SLossст{оэØ}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SLoss+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>SLossс{оэØ}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
 
 LEXICON N_OSH-Derivation
  N_KUDO-Derivation ;
-+SP+Ela+Indef+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ine+Indef+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ela+PxSg3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ine+PxSg3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ela+PxPl1+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl1+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl2+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl2+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>ст%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Ine+PxPl3+Use/NG+Der+Der/MWN+N:%>%{оеэØ%}%>с%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Ela+Indef+Use/NG:%>%{оеэØ%}%>ст%{оэØ%} N2Dem-SE ;
-+SP+Ine+Indef+Use/NG:%>%{оеэØ%}%>с%{оэØ%} N2Dem-SE ;
-+SP+Ela+Use/NG:%>%{оеэØ%}%>ст%{оэØ%} POSSX-OBL4-N2DEM-SE ;
-+SP+Ine+Use/NG:%>%{оеэØ%}%>с%{оэØ%} POSSX-OBL4-N2DEM-SE ;
++SP+Ela+Indef+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>ст{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ine+Indef+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>с{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ela+PxSg3+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>ст{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ine+PxSg3+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>с{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ela+PxPl1+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>ст{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl1+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>с{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl2+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>ст{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl2+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>с{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl3+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>ст{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
++SP+Ine+PxPl3+Use/NG+Der+Der/MWN+N:%>{оеэØ}%>с{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
++SP+Ela+Indef+Use/NG:%>{оеэØ}%>ст{оэØ} N2Dem-SE ;
++SP+Ine+Indef+Use/NG:%>{оеэØ}%>с{оэØ} N2Dem-SE ;
++SP+Ela+Use/NG:%>{оеэØ}%>ст{оэØ} POSSX-OBL4-N2DEM-SE ;
++SP+Ine+Use/NG:%>{оеэØ}%>с{оэØ} POSSX-OBL4-N2DEM-SE ;
 
-+Sg+Ela+Def+Use/NG:%>%{оеэØ%}%>ст%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Ine+Def+Use/NG:%>%{оеэØ%}%>с%{оэØ%}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>ст%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
-+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%}%>с%{оэØ%}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def+Use/NG:%>{оеэØ}%>ст{оэØ}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def+Use/NG:%>{оеэØ}%>с{оэØ}%>нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>{оеэØ}%>ст{оэØ}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>{оеэØ}%>с{оэØ}%>сть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
 LEXICON N_PANGO-Derivation
  N_KUDO-Derivation ;
@@ -1282,38 +1297,38 @@ LEXICON N_KUDO-Derivation
 : N_KUDO-Derivation-noArrow ;
 
 LEXICON N_KUDO-Derivation-noArrow
-+SP+Ela+Indef+Der+Der/MWN+N:%>ст%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ine+Indef+Der+Der/MWN+N:%>с%{оэØ%} N2_DEF_DECLENSION_KUDO ;
++SP+Ela+Indef+Der+Der/MWN+N:%>ст{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ine+Indef+Der+Der/MWN+N:%>с{оэØ} N2_DEF_DECLENSION_KUDO ;
 +Use/NG+SP+Prl+Indef+Der+Der/MWN+N:%>Г2а N2_DEF_DECLENSION_KUDO ;
-+SP+Cmpr+Indef+Der+Der/MWN+N:%>%{оеэØ%}шка N2_DEF_DECLENSION_KUDO ;
-+SP+Abe+Indef+Der+Der/MWN+N:%>вт%{оеэ%}мО1 N2_DEF_DECLENSION_KUDO ;
++SP+Cmpr+Indef+Der+Der/MWN+N:%>{оеэØ}шка N2_DEF_DECLENSION_KUDO ;
++SP+Abe+Indef+Der+Der/MWN+N:%>вт{оеэ}мО1 N2_DEF_DECLENSION_KUDO ;
 +SP+Abe+Indef+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 N2_DEF_DECLENSION_KUDO ;
 
-+SP+Tra+Indef+Der+Der/MWN+N:%>%{оеэØ%}кс N2_DEF_DECLENSION_OSH ;
++SP+Tra+Indef+Der+Der/MWN+N:%>{оеэØ}кс N2_DEF_DECLENSION_OSH ;
 
 !#this far 2022-04-10
 
-+Use/NG+Dial+Sg+Gen+PxPl1+Der+Der/MWN+N:%>%{оеэØ%}м{ое%}к N2_DEF_DECLENSION_LAK ;
-!2023_03_10+SP+Gen+PxPl1+Der+Der/MWN+N:%>%{оеэØ%}н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl1+Der+Der/MWN+N:%>ст%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl1+Der+Der/MWN+N:%>с%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Cmpr+PxPl1+Der+Der/MWN+N:%>шка%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl1+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl1+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-!2023_03_10+SP+Gen+PxPl2+Der+Der/MWN+N:%>%{оеэØ%}нк N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl2+Der+Der/MWN+N:%>ст%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl2+Der+Der/MWN+N:%>с%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
++Use/NG+Dial+Sg+Gen+PxPl1+Der+Der/MWN+N:%>{оеэØ}м{ое}к N2_DEF_DECLENSION_LAK ;
+!2023_03_10+SP+Gen+PxPl1+Der+Der/MWN+N:%>{оеэØ}н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl1+Der+Der/MWN+N:%>ст{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl1+Der+Der/MWN+N:%>с{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Cmpr+PxPl1+Der+Der/MWN+N:%>шка%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl1+Der+Der/MWN+N:%>вт{оеэ}мО1%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl1+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
+!2023_03_10+SP+Gen+PxPl2+Der+Der/MWN+N:%>{оеэØ}нк N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl2+Der+Der/MWN+N:%>ст{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl2+Der+Der/MWN+N:%>с{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Prl+PxPl2+Der+Der/MWN+N:%>Г2а%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Cmpr+PxPl2+Der+Der/MWN+N:%>шка%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl2+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>нк N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl2+Der+Der/MWN+N:%>вт{оеэ}мО1%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Abe+PxPl2+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нк N2_DEF_DECLENSION_LAK ;
-!2023_03_10+SP+Gen+PxPl3+Der+Der/MWN+N:%>%{оеэØ%}ст N2_DEF_DECLENSION_KIT ;
-+SP+Ela+PxPl3+Der+Der/MWN+N:%>ст%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Ine+PxPl3+Der+Der/MWN+N:%>с%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
+!2023_03_10+SP+Gen+PxPl3+Der+Der/MWN+N:%>{оеэØ}ст N2_DEF_DECLENSION_KIT ;
++SP+Ela+PxPl3+Der+Der/MWN+N:%>ст{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
++SP+Ine+PxPl3+Der+Der/MWN+N:%>с{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Prl+PxPl3+Der+Der/MWN+N:%>Г2а%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Cmpr+PxPl3+Der+Der/MWN+N:%>шка%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Abe+PxPl3+Der+Der/MWN+N:%>вт%{оеэ%}мО1%>ст N2_DEF_DECLENSION_KIT ;
++SP+Abe+PxPl3+Der+Der/MWN+N:%>вт{оеэ}мО1%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Abe+PxPl3+Der+Der/MWN+N+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>ст N2_DEF_DECLENSION_KIT ;
 +Pl+Ela+Def+Der+Der/MWN+N:%>тнЕ3%>стэ N2_DEF_DECLENSION_KUDO ;
 +Pl+Ine+Def+Der+Der/MWN+N:%>тнЕ3%>сэ N2_DEF_DECLENSION_KUDO ;
@@ -1322,27 +1337,27 @@ LEXICON N_KUDO-Derivation-noArrow
 +Pl+Abe+Def+Der+Der/MWN+N:%>тнЕ3%>втеме N2_DEF_DECLENSION_KUDO ;
 +Pl+Tra+Def+Der+Der/MWN+N:%>тнЕ3%>кс N2_DEF_DECLENSION_OSH ;
 
-+SP+Gen+Indef:%>%{оеэØ%}нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
++SP+Gen+Indef:%>{оеэØ}нь%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
 
-+SP+Ela+Indef:%>ст%{оэØ%} N2Dem-SE ;
-+SP+Ine+Indef:%>с%{оэØ%} N2Dem-SE ;
++SP+Ela+Indef:%>ст{оэØ} N2Dem-SE ;
++SP+Ine+Indef:%>с{оэØ} N2Dem-SE ;
 +SP+Prl+Indef:%>Г2а N2Dem-SE ;
 +SP+Cmpr+Indef:%>шка N2Dem-SE ;
-+SP+Abe+Indef:%>вт%{оеэ%}мО1 N2Dem-SE ;
++SP+Abe+Indef:%>вт{оеэ}мО1 N2Dem-SE ;
 +SP+Abe+Indef+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 N2Dem-SE ;
-+SP+Tra+Indef:%>%{оеэØ%}кс N2Dem-SE ;!CHECKME 2019-01-25
-+SP+Tra+Indef:%>%{оеэØ%}кс%>%{оеэØ%} N2Dem-SE ;
++SP+Tra+Indef:%>{оеэØ}кс N2Dem-SE ;!CHECKME 2019-01-25
++SP+Tra+Indef:%>{оеэØ}кс%>{оеэØ} N2Dem-SE ;
 
-+SP+Tra:%>%{оеэØ%}кс OBL-PX4-CLTCOP ;
++SP+Tra:%>{оеэØ}кс OBL-PX4-CLTCOP ;
 
-!+SP+Gen+PxSg1:%>%{оеэØ%}м N2Dem-SE ;
-!+SP+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} N2Dem-SE ;
+!+SP+Gen+PxSg1:%>{оеэØ}м N2Dem-SE ;
+!+SP+Gen+PxSg1:%>{оеэØ}н{ЬØ} N2Dem-SE ;
 
-+SP+Ela:%>ст%{оэØ%} POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
-+SP+Ine:%>с%{оэØ%} POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
++SP+Ela:%>ст{оэØ} POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
++SP+Ine:%>с{оэØ} POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 +SP+Prl:%>Г2а POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 +SP+Cmpr:%>шка POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
-+SP+Abe:%>вт%{оеэ%}мО1 POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
++SP+Abe:%>вт{оеэ}мО1 POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 +SP+Abe+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE ;
 
 
@@ -1355,19 +1370,19 @@ LEXICON N_KUDO-Derivation-noArrow
 +SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02 one for singular
 
 
-+Sg+Gen+Def:%>%{оеэØ%}нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-+Sg+Ela+Def:%>ст%{оэØ%}%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-+Sg+Ine+Def:%>с%{оэØ%}%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Gen+Def:%>{оеэØ}нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Ela+Def:%>ст{оэØ}%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Ine+Def:%>с{оэØ}%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Prl+Def:%>Г2а%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Cmpr+Def:%>шка%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-+Sg+Abe+Def:%>вт%{оеэ%}мО1%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Abe+Def:%>вт{оеэ}мО1%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Abe+Def+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>нть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Gen+Def+Use/NG+Err/Orth+Dial/NW:%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-+Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст%{оэØ%}%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-+Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с%{оэØ%}%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Ela+Def+Use/NG+Err/Orth+Dial/NW:%>ст{оэØ}%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Ine+Def+Use/NG+Err/Orth+Dial/NW:%>с{оэØ}%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Prl+Def+Use/NG+Err/Orth+Dial/NW:%>Г2а%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Cmpr+Def+Use/NG+Err/Orth+Dial/NW:%>шка%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-+Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт%{оеэ%}мО1%>%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
++Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW:%>вт{оеэ}мО1%>%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 +Sg+Abe+Def+Use/NG+Err/Orth+Dial/NW+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1%>%>сть%> N2Dem-SE ; ! _ь_ retension through double %>%>
 
 +Pl+Gen+Def:%>тнЕ3%>нь%> N2Dem-SE ; ! _ь_ retension through double %>%>
@@ -1391,13 +1406,13 @@ LEXICON N2_DEF_DECLENSION_KIT
 
 LEXICON N2_DEF_DECLENSION_KAL
  N_KAL-Def-Declension ;
-+SP+Tra+Indef:%>%{оеэØ%}кс K ;
-+SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation ;
++SP+Tra+Indef:%>{оеэØ}кс K ;
++SP+Abl+Indef:%>{дт}О1 _KUDO-Conjugation ;
 
 LEXICON N2_DEF_DECLENSION_OSH
  N_OSH-Def-Declension ;
-+SP+Tra+Indef:%>%{оеэØ%}кс K ;
-+SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation ;
++SP+Tra+Indef:%>{оеэØ}кс K ;
++SP+Abl+Indef:%>{дт}О1 _KUDO-Conjugation ;
 
 LEXICON N2_DEF_DECLENSION_KUDO
  NMN_DEF_DECLENSION ;
@@ -1411,12 +1426,12 @@ LEXICON N2_DEF_DECLENSION_KUDO_FRONT
 ! harmony: front
  NMN_DEF_SG_DECLENSION_STEM-IN-FRONT-VOW ;
 +SP+Tra+Indef:%>кс K ;
-+SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation_FRONT ;
++SP+Abl+Indef:%>{дт}О1 _KUDO-Conjugation_FRONT ;
 
 LEXICON N2_DEF_DECLENSION_KUDO_BACK
  NMN_DEF_SG_DECLENSION_STEM-IN-BACK-VOW ;
 +SP+Tra+Indef:%>кс K ;
-+SP+Abl+Indef:%>%{дт%}О1 _KUDO-Conjugation_BACK ;
++SP+Abl+Indef:%>{дт}О1 _KUDO-Conjugation_BACK ;
 
 ! =================== !
 ! Inflectional lexica !
@@ -1445,7 +1460,7 @@ LEXICON N_KIT-Def-Declension
  SG-ABL-DEF ;
  SG-PRL-DEF ;
  SG-ABE-DEF ;
-:%>%{оеэØ%} SG-TRA-DEF ;
+:%>{оеэØ} SG-TRA-DEF ;
 +Use/NG+Err/Orth+Dial/M: SG-DAT-DEF_Dial-M ; ! Shoksha & Drakino
 +Use/NG+Err/Orth+Dial/M: SG-GEN-DEF_Dial-M ;
 +Use/NG+Err/Orth+Dial/M: SG-ILL-DEF_Dial-M ; ! 
@@ -1454,13 +1469,13 @@ LEXICON N_KIT-Def-Declension
 !+Use/NG+Err/Orth+Dial/NW: SG_NOM_DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-CMP-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-CMP-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-PRL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-TRA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-TRA-DEF_Dial-NW ;
 
 : NMN_DEF_PL_DECLENSION ;
 !2013-03-15!+Use/NG+Err/Orth:%>TLoss NMN_DEF_PL_DECLENSION ;
@@ -1494,13 +1509,13 @@ LEXICON N_KAL_DEF_SG_Declension
 +Use/NG+Err/Orth+Dial/NW: SG_NOM_DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-GEN-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-CMP-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-CMP-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-PRL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-TRA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-TRA-DEF_Dial-NW ;
 
 
 
@@ -1510,13 +1525,13 @@ LEXICON N_OSH-Def-Declension
  SG-DAT-DEF ;
  SG-CMP-DEF ;
  SG-ELA-DEF ;
-+Use/NG:%>%{оеэØ%} SG-ELA-DEF ;
++Use/NG:%>{оеэØ} SG-ELA-DEF ;
  SG-INE-DEF ;
-+Use/NG:%>%{оеэØ%} SG-INE-DEF ;
++Use/NG:%>{оеэØ} SG-INE-DEF ;
  SG-ABL-DEF ;
  SG-PRL-DEF ;
  SG-ABE-DEF ;
-:%>%{оеэØ%} SG-TRA-DEF ;
+:%>{оеэØ} SG-TRA-DEF ;
 +Use/NG+Err/Orth+Dial/M: SG-DAT-DEF_Dial-M ; ! Shoksha & Drakino
 +Use/NG+Err/Orth+Dial/M: SG-GEN-DEF_Dial-M ;
 +Use/NG+Err/Orth+Dial/M: SG-ILL-DEF_Dial-M ; ! 
@@ -1526,9 +1541,9 @@ LEXICON N_OSH-Def-Declension
 +Use/NG+Err/Orth+Dial/NW: SG-DAT-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-CMP-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ELA-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-ELA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-INE-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-INE-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-INE-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-PRL-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW: SG-ABE-DEF_Dial-NW ;
@@ -1539,40 +1554,40 @@ LEXICON N_OSH-Def-Declension
 
 LEXICON N_PANGO-Def-Declension
 !! pango:pang
-:%>%{оеэØ%} SG_NOM_DEF ;
-:%>%{оеэØ%} SG-GEN-DEF ;
-:%>%{оеэØ%} SG-DAT-DEF ;
-:%>%{оеэØ%} SG-CMP-DEF ;
+:%>{оеэØ} SG_NOM_DEF ;
+:%>{оеэØ} SG-GEN-DEF ;
+:%>{оеэØ} SG-DAT-DEF ;
+:%>{оеэØ} SG-CMP-DEF ;
  SG-ELA-DEF ;
-:%>%{оеэØ%} SG-ELA-DEF ;
+:%>{оеэØ} SG-ELA-DEF ;
  SG-INE-DEF ;
-:%>%{оеэØ%} SG-INE-DEF ;
+:%>{оеэØ} SG-INE-DEF ;
 +Use/NG+Err/Orth: SG-ABL-DEF ;
-:%>%{оеэØ%} SG-ABL-DEF ;
-:%>%{оеэØ%} SG-PRL-DEF ;
+:%>{оеэØ} SG-ABL-DEF ;
+:%>{оеэØ} SG-PRL-DEF ;
 +Use/NG+Err/Orth: SG-ABE-DEF ;
-:%>%{оеэØ%} SG-ABE-DEF ;
-:%>%{оеэØ%} SG-TRA-DEF ;
+:%>{оеэØ} SG-ABE-DEF ;
+:%>{оеэØ} SG-TRA-DEF ;
 +Use/NG+Err/Orth+Dial/M: SG-DAT-DEF_Dial-M ; ! Shoksha & Drakino
 +Use/NG+Err/Orth+Dial/M: SG-GEN-DEF_Dial-M ;
 +Use/NG+Err/Orth+Dial/M: SG-ILL-DEF_Dial-M ; ! 
 +Use/NG+Err/Orth+Dial/M: SG_NOM_DEF_Dial-M ; ! 
 
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-GEN-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-DAT-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-GEN-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-DAT-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW:%> SG-ABL-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-ABL-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-CMP-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-ABL-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-CMP-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW:%> SG-ELA-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-ELA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-ELA-DEF_Dial-NW ;
 +Use/NG+Err/Orth+Dial/NW:%> SG-INE-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-INE-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-PRL-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-ABE-DEF_Dial-NW ;
-+Use/NG+Err/Orth+Dial/NW:%>%{оеэØ%} SG-TRA-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-INE-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-PRL-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-ABE-DEF_Dial-NW ;
++Use/NG+Err/Orth+Dial/NW:%>{оеэØ} SG-TRA-DEF_Dial-NW ;
 
 
-:%>%{оеэØ%} NMN_DEF_PL_DECLENSION ;
+:%>{оеэØ} NMN_DEF_PL_DECLENSION ;
 : NMN_DEF_PL_DECLENSION ;
 
 LEXICON NMN_DEF_DECLENSION
@@ -1710,11 +1725,11 @@ LEXICON DIAL-NW-WITH-ST-AFTER-STEM
 LEXICON N_KAL_PTAN
 N_KAL ;
 !N_KAL-PL ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} N_KUDO-PL ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} N_KUDO-PL ;
 LEXICON N_KUDO_PTAN
 N_KUDO ;
 !N_KUDO-PL ;
-@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е%{frontSoft%} N_KUDO-PL ;
+@P.POS.N@+Der+Der/Dimin+N:@P.POS.N@%>Н1е{frontSoft} N_KUDO-PL ;
 
 
 
@@ -1725,8 +1740,8 @@ LEXICON SG_NOM_DEF
 !!€ калось: кал+N+Sg+Nom+Def
 !!€ калоськак: кал+N+Sg+Nom+Def+Foc/Гак
 !!$ калосьгак: кал+N+Sg+Nom+Def+Foc/Гак
-@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}сь NounEnd_K ;
-@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}сь CLT/COP_SG ;
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь CLT/COP_SG ;
 @U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь NounEnd_K ;
 @U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
 
@@ -1735,8 +1750,8 @@ LEXICON SG_NOM_DEF
 !!€ паксясось: пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def
 !!€ паксясоськак: пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def+Foc/Add
 !!$ паксясосьгак: пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def+Foc/Add
-!@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}сь NounEnd_K ;
-!@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%{оеэØ%}сь CLT/COP_SG ;
+!@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь NounEnd_K ;
+!@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь CLT/COP_SG ;
 !@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь NounEnd_K ;
 !@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
 
@@ -1745,47 +1760,47 @@ LEXICON SG-GEN-DEF
 !!€gt-norm: Noun singular genitive definite
 !!€ калонть: кал+N+Sg+Gen+Def
 !!€ калонтькак: кал+N+Sg+Gen+Def+Foc/Гак
-@U.DECL-NX.SG@@U.CX.GEN@+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>%{оеэØ%}нть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.GEN@+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>{оеэØ}нть NounEnd_K ;
 
 LEXICON SG-DAT-DEF
-@U.DECL-NX.SG@@U.CX.DAT@+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>%{оеэØ%}нтень NounEnd_K ;
-@U.DECL-NX.SG@@U.CX.DAT@+Use/NG+Dial+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>%{оеэØ%}нте NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.DAT@+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>{оеэØ}нтень NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.DAT@+Use/NG+Dial+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>{оеэØ}нте NounEnd_K ;
 
 LEXICON SG-CMP-DEF
-@U.DECL-NX.SG@@U.CX.CMP@+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.CX.CMP@%>%{оеэØ%}шка%>нть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.CMP@+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.CX.CMP@%>{оеэØ}шка%>нть NounEnd_K ;
 
 LEXICON SG-ELA-DEF
-@U.DECL-NX.SG@@U.CX.ELA@+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст%{оэØ%}%>нть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.ELA@+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст{оэØ}%>нть NounEnd_K ;
 
 LEXICON SG-INE-DEF
-@U.DECL-NX.SG@@U.CX.INE@+Sg+Ine+Def:@U.DECL-NX.SG@@U.CX.INE@%>с%{оэØ%}%>нть NounEnd_K ;
-+Sg+Ine+Def:%>с%{оэØ%}%>н%> N2Dem-SE ; !!= * **@CODE@**  !коридорсонсесь 2022-02-10
+@U.DECL-NX.SG@@U.CX.INE@+Sg+Ine+Def:@U.DECL-NX.SG@@U.CX.INE@%>с{оэØ}%>нть NounEnd_K ;
++Sg+Ine+Def:%>с{оэØ}%>н%> N2Dem-SE ; !!= * **@CODE@**  !коридорсонсесь 2022-02-10
 
 LEXICON SG-ABL-DEF
-@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>%{дт%}О1%>нть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>{дт}О1%>нть NounEnd_K ;
 
 LEXICON SG-PRL-DEF
 @U.DECL-NX.SG@@U.CX.PRL@+Sg+Prl+Def:@U.DECL-NX.SG@@U.CX.PRL@%>Г2а%>нть NounEnd_K ;
 
 LEXICON SG-ABE-DEF
-@U.DECL-NX.SG@@U.CX.ABE@+Sg+Abe+Def:@U.DECL-NX.SG@@U.CX.ABE@%>вт%{оеэ%}мО1%>нть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.ABE@+Sg+Abe+Def:@U.DECL-NX.SG@@U.CX.ABE@%>вт{оеэ}мО1%>нть NounEnd_K ;
 @U.DECL-NX.SG@@U.CX.ABE@+Sg+Abe+Def+Err/Orth-stem-soft-should-be-0:@U.DECL-NX.SG@@U.CX.ABE@%^SoftRetain%>темО1%>нть NounEnd_K ;
 
 LEXICON SG-TRA-DEF
-@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>%{оеэØ%}кс%>%{оеэØ%}нть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>{оеэØ}кс%>{оеэØ}нть NounEnd_K ;
 
 LEXICON SG-DAT-DEF_Dial-M
 @U.DECL-NX.SG@@U.CX.DAT@+Use/-Spell+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>ти NounEnd_K ;
 @U.DECL-NX.SG@@U.CX.DAT@+Use/-Spell+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>те NounEnd_K ;
 
 LEXICON SG-GEN-DEF_Dial-M
-@U.DECL-NX.SG@@U.CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>%{dialM%}т%{ЬØ%} NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>{dialM}т{ЬØ} NounEnd_K ;
 
 LEXICON SG-ILL-DEF_Dial-M
 @U.DECL-NX.SG@@U.CX.ILL@+Use/-Spell+Sg+Ill+Def:@U.DECL-NX.SG@@U.CX.ILL@%>тес NounEnd_K ;
 
 LEXICON SG_NOM_DEF_Dial-M
-@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVow%>%{dialM%}с%{ЬØ%} NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVow%>{dialM}с{ЬØ} NounEnd_K ;
 
 LEXICON SG_NOM_DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь NounEnd_K ;
@@ -1797,13 +1812,13 @@ LEXICON SG-DAT-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.DAT@+Use/-Spell+Sg+Dat+Def:@U.DECL-NX.SG@@U.CX.DAT@%>стень NounEnd_K ;
 
 LEXICON SG-ABL-DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.ABL@+Use/-Spell+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>%{дт%}О1%>сть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.ABL@+Use/-Spell+Sg+Abl+Def:@U.DECL-NX.SG@@U.CX.ABL@%>{дт}О1%>сть NounEnd_K ;
 
 LEXICON SG-ELA-DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.ELA@+Use/-Spell+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст%{оэØ%}%>сть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.ELA@+Use/-Spell+Sg+Ela+Def:@U.DECL-NX.SG@@U.CX.ELA@%>ст{оэØ}%>сть NounEnd_K ;
 
 LEXICON SG-INE-DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.INE@+Use/-Spell+Sg+Ine+Def:@U.DECL-NX.SG@@U.CX.INE@%>с%{оэØ%}%>сть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.INE@+Use/-Spell+Sg+Ine+Def:@U.DECL-NX.SG@@U.CX.INE@%>с{оэØ}%>сть NounEnd_K ;
 
 LEXICON SG-PRL-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.PRL@+Use/-Spell+Sg+Prl+Def:@U.DECL-NX.SG@@U.CX.PRL@%>Г2а%>сть NounEnd_K ;
@@ -1812,11 +1827,11 @@ LEXICON SG-CMP-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.CMP@+Use/-Spell+Sg+Cmpr+Def:@U.DECL-NX.SG@@U.CX.CMP@%>шка%>сть NounEnd_K ;
 
 LEXICON SG-ABE-DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.ABE@+Use/-Spell+Sg+Abe+Def:@U.DECL-NX.SG@@U.CX.ABE@%>вт%{оеэ%}мО1%>сть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.ABE@+Use/-Spell+Sg+Abe+Def:@U.DECL-NX.SG@@U.CX.ABE@%>вт{оеэ}мО1%>сть NounEnd_K ;
 @U.DECL-NX.SG@@U.CX.ABE@+Use/-Spell+Sg+Abe+Def+Err/Orth-stem-soft-should-be-0:@U.DECL-NX.SG@@U.CX.ABE@%^SoftRetain%>темО1%>сть NounEnd_K ;
 
 LEXICON SG-TRA-DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.TRA@+Use/-Spell+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>кс%>%{оеэØ%}сть NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.TRA@+Use/-Spell+Sg+Tra+Def:@U.DECL-NX.SG@@U.CX.TRA@%>кс%>{оеэØ}сть NounEnd_K ;
 
 
 
@@ -1847,8 +1862,8 @@ LEXICON _KIT-Indef-Declension
 ! PL-NOM-INDEF ;
 
 LEXICON _KIT-Indef-Declension-MUTUAL
-:%>%{оеэØ%} CMP-INDEF ;
-:%>%{оеэØ%} TRA-INDEF ;
+:%>{оеэØ} CMP-INDEF ;
+:%>{оеэØ} TRA-INDEF ;
 
 LEXICON _LAK-Indef-Declension
 ! _LAK-Indef-Declension-SG ;
@@ -1869,8 +1884,8 @@ LEXICON _LAK-Indef-Declension
 ! PL-NOM-INDEF ;
 
 LEXICON _LAK-Indef-Declension-MUTUAL
-:%>%{оеэØ%} CMP-INDEF ;
-:%>%{оеэØ%} TRA-INDEF ;
+:%>{оеэØ} CMP-INDEF ;
+:%>{оеэØ} TRA-INDEF ;
 
 LEXICON _KAL-Indef-Declension
 ! _KAL-Indef-Declension-SG ;
@@ -1892,8 +1907,8 @@ LEXICON _KAL-Indef-Declension-PL
  _MUTUAL-Indef-Declension-SP ;
 
 LEXICON _KAL-Indef-Declension-MUTUAL
-:%>%{оеэØ%} CMP-INDEF ;
-:%>%{оеэØ%} TRA-INDEF ;
+:%>{оеэØ} CMP-INDEF ;
+:%>{оеэØ} TRA-INDEF ;
 
 
 
@@ -1916,42 +1931,42 @@ LEXICON _OSH-Indef-Declension-PL
 LEXICON _OSH-Indef-Declension-MUTUAL
  ABE-INDEF ;
  ABL-INDEF ;
-:%>%{оеэØ%} CMP-INDEF ;
+:%>{оеэØ} CMP-INDEF ;
  COM-INDEF ;
  DAT-INDEF ;
  ELA-INDEF ;
-+Use/NG:%>%{оеэØ%} ELA-INDEF ;
++Use/NG:%>{оеэØ} ELA-INDEF ;
  GEN-INDEF ;
  ILL-INDEF ;
-+Use/NG:%>%{оеэØ%} ILL-INDEF ;
++Use/NG:%>{оеэØ} ILL-INDEF ;
  INE-INDEF ;
-+Use/NG:%>%{оеэØ%} INE-INDEF ;
++Use/NG:%>{оеэØ} INE-INDEF ;
  LAT-INDEF ;
  PRL-INDEF ;
  TMP-INDEF ;
-:%>%{оеэØ%} TRA-INDEF ;
+:%>{оеэØ} TRA-INDEF ;
 
 
 
 LEXICON _PANGO-Indef-Declension
 ! _PANGO-Indef-Declension-SG ;
 ! _PANGO-Indef-Declension-PL ;
-:%>%{оеэØ%}  SG-NOM-INDEF ;
-+Use/NG:%>%{оеэØ%} PL-NOM-INDEF ;
+:%>{оеэØ}  SG-NOM-INDEF ;
++Use/NG:%>{оеэØ} PL-NOM-INDEF ;
  PL-NOM-INDEF ;
  _PANGO-Indef-Declension-MUTUAL ;
-:%>%{оеэØ%} _MUTUAL-Indef-Declension-SP ;
+:%>{оеэØ} _MUTUAL-Indef-Declension-SP ;
 
 !LEXICON _PANGO-Indef-Declension-SG
 ! _PANGO-Indef-Declension-MUTUAL ;
-!:%>%{оеэØ%} _MUTUAL-Indef-Declension-SP ;
-!:%>%{оеэØ%}  SG-NOM-INDEF ;
+!:%>{оеэØ} _MUTUAL-Indef-Declension-SP ;
+!:%>{оеэØ}  SG-NOM-INDEF ;
 !!SG-NOM-INDEF_PANGO ;
 
 LEXICON _PANGO-Indef-Declension-PL
  _PANGO-Indef-Declension-MUTUAL ;
-:%>%{оеэØ%} _MUTUAL-Indef-Declension-SP ;
-:%>%{оеэØ%} PL-NOM-INDEF ;
+:%>{оеэØ} _MUTUAL-Indef-Declension-SP ;
+:%>{оеэØ} PL-NOM-INDEF ;
  PL-NOM-INDEF ;
 
 LEXICON _PANGO-Indef-Declension-MUTUAL
@@ -2003,55 +2018,55 @@ INE-INDEF ;
 
 !! ## INDEFINITE TAGS
 LEXICON ABE-INDEF
-@U.DECL-NX.SP@@U.CX.ABE@+SP+Abe+Indef:@U.DECL-NX.SP@@U.CX.ABE@%>вт%{оеэ%}мО1 _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ABE@+SP+Abe+Indef:@U.DECL-NX.SP@@U.CX.ABE@%>вт{оеэ}мО1 _KUDO-Conjugation ;
 @U.DECL-NX.SP@@U.CX.ABE@+SP+Abe+Indef+Err/Orth-stem-soft-should-be-0:@U.DECL-NX.SP@@U.CX.ABE@%^SoftRetain%>темО1 _KUDO-Conjugation ;
 
 LEXICON ABL-INDEF
 !!€gt-norm: Noun singular nominative definite
 !!€ калдо: кал+N+SP+Abl+Indef
 !!€ калдояк: кал+N+SP+Abl+Indef+Foc/Гак
-@U.DECL-NX.SP@@U.CX.ABL@+SP+Abl+Indef:@U.DECL-NX.SP@@U.CX.ABL@%>%{дт%}О1 _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ABL@+SP+Abl+Indef:@U.DECL-NX.SP@@U.CX.ABL@%>{дт}О1 _KUDO-Conjugation ;
 
 LEXICON CMP-INDEF
 @U.DECL-NX.SP@@U.CX.CMP@+SP+Cmpr+Indef:@U.DECL-NX.SP@@U.CX.CMP@%>шка _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.CX.CMP@+SP+Cmpr+Indef:@U.DECL-NX.SP@@U.CX.CMP@%>%{оеэØ%}шка _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.CMP@+SP+Cmpr+Indef:@U.DECL-NX.SP@@U.CX.CMP@%>{оеэØ}шка _KUDO-Conjugation ;
 
 LEXICON COM-INDEF
 @U.DECL-NX.SP@@U.CX.COM@+SP+Com+Indef:@U.DECL-NX.SP@@U.CX.COM@%>нек NounEnd_K-lak ;
-+SP+Com+Indef+Coll:%>нек%-мезнек ENDLEX ;
++SP+Com+Indef+Coll:%>нек-мезнек ENDLEX ;
 
 LEXICON DAT-INDEF
 @U.DECL-NX.SP@@U.CX.DAT@+SP+Dat+Indef:@U.DECL-NX.SP@@U.CX.DAT@%>нень NounEnd_K ;
 @U.DECL-NX.SP@@U.CX.DAT@+SP+Dat+Indef+Err/Orth-shib-hard:@U.DECL-NX.SP@@U.CX.DAT@%^H%>нень NounEnd_K ;
 
 LEXICON ELA-INDEF
-@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.CX.ELA@%>ст%{оэØ%} _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.ELA@%>%{оеэØ%}ст%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef:@U.DECL-NX.SP@@U.CX.ELA@%>ст{оэØ} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.ELA@+SP+Ela+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.ELA@%>{оеэØ}ст{оэØ} _KUDO-Conjugation ;
 
 LEXICON GEN-INDEF
-@U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.CX.GEN@%>%{оеэØ%}нь GEN-INDEF-4-Conjugation ;
-+SP+Gen+Indef:%>%{оеэØ%}н N2Dem-SE ; ! эрзянсенть 2020-06-02
-@U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef+Dial/NW+Err/Orth-high-linking-vowel:@U.DECL-NX.SP@@U.CX.GEN@%>%{уиыØ%}нь GEN-INDEF-4-Conjugation ;
+@U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef:@U.DECL-NX.SP@@U.CX.GEN@%>{оеэØ}нь GEN-INDEF-4-Conjugation ;
++SP+Gen+Indef:%>{оеэØ}н N2Dem-SE ; ! эрзянсенть 2020-06-02
+@U.DECL-NX.SP@@U.CX.GEN@+SP+Gen+Indef+Dial/NW+Err/Orth-high-linking-vowel:@U.DECL-NX.SP@@U.CX.GEN@%>{уиыØ}нь GEN-INDEF-4-Conjugation ;
 
 LEXICON ILL-INDEF
 @U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef:@U.DECL-NX.SP@@U.CX.ILL@%>с NounEnd_K ;
 @U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef+Err/Orth-pre1880:@U.DECL-NX.SP@@U.CX.ILL@%>съ NounEnd_K ;
-@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.ILL@%>%{оеэØ%}с NounEnd_K ;
-@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef+Use/NG+Err/Orth-pre1880:@U.DECL-NX.SP@@U.CX.ILL@%>%{оеэØ%}съ NounEnd_K ;
+@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.ILL@%>{оеэØ}с NounEnd_K ;
+@U.DECL-NX.SP@@U.CX.ILL@+SP+Ill+Indef+Use/NG+Err/Orth-pre1880:@U.DECL-NX.SP@@U.CX.ILL@%>{оеэØ}съ NounEnd_K ;
 
 LEXICON INE-INDEF
-@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>с%{оэØ%} _KUDO-Conjugation ;
-@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.INE@%>%{оеэØ%}с%{оэØ%} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>с{оэØ} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.INE@%>{оеэØ}с{оэØ} _KUDO-Conjugation ;
 
 LEXICON INE_INDEF/PX_ne
 @U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.INE@%>нэ _KUDO-Conjugation ;
 @U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Use/NG:@U.DECL-NX.SP@@U.CX.INE@%>нэ PossMarker-then-Clt ;!CHECKME2024-07-31
 
 LEXICON LAT-INDEF
-@U.DECL-NX.SP@@U.CX.LAT@+SP+Lat+Indef:@U.DECL-NX.SP@@U.CX.LAT@%>%{оеэØ%}в NounEnd_K ;
+@U.DECL-NX.SP@@U.CX.LAT@+SP+Lat+Indef:@U.DECL-NX.SP@@U.CX.LAT@%>{оеэØ}в NounEnd_K ;
 
 !LEXICON LOC-INDEF
-!@U.DECL-NX.SP@@U.CX.LOC@!+SP+Loc+Indef:@U.DECL-NX.SP@@U.CX.LOC@%>%{оеэØ%} NounEnd_K ;
+!@U.DECL-NX.SP@@U.CX.LOC@!+SP+Loc+Indef:@U.DECL-NX.SP@@U.CX.LOC@%>{оеэØ} NounEnd_K ;
 
 LEXICON SG-NOM-INDEF
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Indef:@U.DECL-NX.SG@@U.CX.NOM@ NounEnd_K ;
@@ -2097,14 +2112,14 @@ LEXICON TMP-INDEF
 LEXICON TRA-INDEF
 @U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>кс NounEnd_K ;
 @U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>кс CLT/COP4_OBL ;
-@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>%{оеэØ%}кс NounEnd_K ;
-@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>%{оеэØ%}кс CLT/COP4_OBL ;
+@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>{оеэØ}кс NounEnd_K ;
+@U.DECL-NX.SP@@U.CX.TRA@+SP+Tra+Indef:@U.DECL-NX.SP@@U.CX.TRA@%>{оеэØ}кс CLT/COP4_OBL ;
 
 LEXICON PL-NOM-INDEF
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т%{ЬØ%} _KIT-NomPl-Conjugation ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т%{ЬØ%} NounEnd_K ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-0-not-pal:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%^H%>т%{ЬØ%} _KIT-NomPl-Conjugation ;!20250815
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-0-not-pal:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%^H%>т%{ЬØ%} NounEnd_K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т{ЬØ} _KIT-NomPl-Conjugation ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%>т{ЬØ} NounEnd_K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-0-not-pal:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%^H%>т{ЬØ} _KIT-NomPl-Conjugation ;!20250815
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@+Pl+Nom+Indef+Err/Orth-0-not-pal:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.INDEF@%^H%>т{ЬØ} NounEnd_K ;
 
 
 
@@ -2134,14 +2149,14 @@ LEXICON N_KAL-Poss-Declension-CX-Mutual
  ABE-PX ;
  ABL-PX ;
  CMP-PX ;
-:%>%{оеэØ%} CMP-PX ;
+:%>{оеэØ} CMP-PX ;
  DAT-PX ;
  ELA-PX ;
  ILL-PX ;
  INE-PX ;
  PRL-PX ;
  TRA-PX ;
-:%>%{оеэØ%} TRA-PX ;
+:%>{оеэØ} TRA-PX ;
 
 
 !LEXICON N_KIT-Poss-Declension-CX
@@ -2168,16 +2183,16 @@ LEXICON N_OSH-Poss-Declension-CX-PL
 LEXICON N_OSH-Poss-Declension-CX-Mutual
  ABE-PX ;
  ABL-PX ;
-:%>%{оеэØ%} CMP-PX ;
+:%>{оеэØ} CMP-PX ;
  DAT-PX ;
  ELA-PX ;
-:%>%{оеэØ%} ELA-PX ;
+:%>{оеэØ} ELA-PX ;
  ILL-PX ;
  INE-PX ;
-:%>%{оеэØ%} INE-PX ;
+:%>{оеэØ} INE-PX ;
  PRL-PX ;
  TRA-PX ;
-:%>%{оеэØ%} TRA-PX ;
+:%>{оеэØ} TRA-PX ;
 
 LEXICON N_KUDO-Poss-Declension-CX
  N_KUDO-Poss-Declension-CX-Mutual ;
@@ -2213,28 +2228,28 @@ LEXICON N_KUDO-Poss-Declension-CX-Mutual
 !! ## CASES BEFORE POSSESSIVE TAGS 
 
 LEXICON ABE-PX
-+SP+Abe:%>вт%{оеэ%}мО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abe:%>вт{оеэ}мО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 +SP+Abe+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ABL-PX
-+SP+Abl:%>%{дт%}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abl:%>{дт}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON CMP-PX
 +SP+Cmpr:%>шка OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ELA-PX
-+SP+Ela:%>ст%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Ela:%>ст{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON ILL-PX
-+SP+Ill:%>%{оеэØ%}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++SP+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 +SP+Ill+Err/Orth-no-linking-vowel:%>%^NoLinkVow%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 
 LEXICON INE-PX
-+SP+Ine:%>с%{оэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Ine:%>с{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 !LEXICON LOC-PX
-!+SP+Loc:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+SP+Loc:%>{оеэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 
 LEXICON PRL-PX
 +SP+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
@@ -2297,15 +2312,15 @@ LEXICON NMN_DEF_PL_DECLENSION-TNE2
 !! NP head ellipsis declension, Modifiers without nouns = MWN
 
 LEXICON _KAL-SecondaryDeclination
-:%>%{оеэØ%} SecondaryDeclination_1RequiresVowel ;
+:%>{оеэØ} SecondaryDeclination_1RequiresVowel ;
  SecondaryDeclination_1RequiresNoVowel ;
 
 LEXICON _KIT-SecondaryDeclination
-:%>%{оеэØ%} SecondaryDeclination_1RequiresVowel ;
+:%>{оеэØ} SecondaryDeclination_1RequiresVowel ;
  SecondaryDeclination_1RequiresNoVowel ;
 
 LEXICON _LAK-SecondaryDeclination
-:%>%{оеэØ%} SecondaryDeclination_1RequiresVowel ;
+:%>{оеэØ} SecondaryDeclination_1RequiresVowel ;
  SecondaryDeclination_1RequiresNoVowel ;
 
 LEXICON _KUDO-SecondaryDeclination
@@ -2323,15 +2338,15 @@ LEXICON SecondaryDeclination_1RequiresVowel
 
 LEXICON SecondaryDeclination_1RequiresNoVowel
 +Sg+Prl+Def:%>Г2а SecondaryDeclination_SgDet-PossPx ;
-+Sg+Abe+Def:%>вт%{оеэ%}мО1 SecondaryDeclination_SgDet-PossPx ;
++Sg+Abe+Def:%>вт{оеэ}мО1 SecondaryDeclination_SgDet-PossPx ;
 +Sg+Abe+Def+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 SecondaryDeclination_SgDet-PossPx ;
-+Sg+Abl+Def:%>%{дт%}О1 SecondaryDeclination_SgDet-PossPx ;
-+Sg+Ine+Def:%>с%{оэØ%} SecondaryDeclination_SgDet-PossPx ;
-+Sg+Ela+Def:%>ст%{оэØ%} SecondaryDeclination_SgDet-PossPx ;
++Sg+Abl+Def:%>{дт}О1 SecondaryDeclination_SgDet-PossPx ;
++Sg+Ine+Def:%>с{оэØ} SecondaryDeclination_SgDet-PossPx ;
++Sg+Ela+Def:%>ст{оэØ} SecondaryDeclination_SgDet-PossPx ;
 +Sg+Cmpr+Def:%>шка SecondaryDeclination_SgDet-PossPx ;
 
  NounEnd_K ;
-+Pl+Nom+Indef:%>т%{ЬØ%} NounEnd_K ;
++Pl+Nom+Indef:%>т{ЬØ} NounEnd_K ;
 +Pl+Nom+Def:%>тнЕ3 NounEnd_K ; 
 +Pl+Abl+Def:%>тнЕ3%>де NounEnd_K ;
 +Pl+Abe+Def:%>тнЕ3%>втеме NounEnd_K ;
@@ -2353,7 +2368,7 @@ LEXICON SecondaryDeclination_SgDet-PossPx
  NounEnd_K ; 
 
 LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
-+Sg+Def:%>%{оеэØ%}нть NounEnd_K ; 
++Sg+Def:%>{оеэØ}нть NounEnd_K ; 
  NounEnd_K ; 
 
 
@@ -2365,31 +2380,31 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 !LEXICON Nouns1_A
 ! Possessive-NomGen ;
 
-!+Abe:%>вт%{оеэ%}мО1 _KUDO-Indef-DefSg-Poss ;
-!+Abl:%>%{дт%}О1 _KUDO-Indef-DefSg-Poss ;
-!+Cmpr:%>%{оеэØ%}шка _KUDO-Indef-DefSg-Poss ;
+!+Abe:%>вт{оеэ}мО1 _KUDO-Indef-DefSg-Poss ;
+!+Abl:%>{дт}О1 _KUDO-Indef-DefSg-Poss ;
+!+Cmpr:%>{оеэØ}шка _KUDO-Indef-DefSg-Poss ;
 !+Prl:%>Г2а _KUDO-Indef-DefSg-Poss ;
-!+Tra:%>%{оеэØ%}кс _OSH-Indef-DefSg-Poss ;
-!+Ill:%>%{оеэØ%}з _OSH-Possessive-Before-K ;
+!+Tra:%>{оеэØ}кс _OSH-Indef-DefSg-Poss ;
+!+Ill:%>{оеэØ}з _OSH-Possessive-Before-K ;
 
 !+Temp+Indef:%>нЕ3 NounEnd_K ;
-!+Lat+Indef:%>%{оеэØ%}в NounEnd_K ;
+!+Lat+Indef:%>{оеэØ}в NounEnd_K ;
 
 !+Dat+Indef:%>нень NounEnd_K ;
 ! DAT-PX ;
-!+Sg+Nom+Def:%>%{оеэØ%}сь NounEnd_K ;
-!+Sg+Nom+Def:%>%{оеэØ%}сь CLT/COP_SG ;
-!+Sg+Gen+Def:%>%{оеэØ%}нть NounEnd_K ;
-!+Sg+Dat+Def:%>%{оеэØ%}нтень NounEnd_K ;
+!+Sg+Nom+Def:%>{оеэØ}сь NounEnd_K ;
+!+Sg+Nom+Def:%>{оеэØ}сь CLT/COP_SG ;
+!+Sg+Gen+Def:%>{оеэØ}нть NounEnd_K ;
+!+Sg+Dat+Def:%>{оеэØ}нтень NounEnd_K ;
 
-!+Gen+Indef:%>%{оеэØ%}нь _KAL-Tenses-Obl ;
+!+Gen+Indef:%>{оеэØ}нь _KAL-Tenses-Obl ;
 !+Com+Indef:%>нек K-lak ;
 
 !+Use/NG+Err/Orth+Dial+Ill:%>з _OSH-Possessive-Before-K ;
-!+Sg+Nom+PxSg3:%>з%{оэØ%} NounEnd_K ;
-!+Sg+Nom+PxSg3:%>з%{оэØ%} CLT/COP_SG ;
-!+Use/NG+Err/Orth+Dial+Nom+PxPl1:%>н%{оеэ%}к _LAK-Tenses-NomSg ;
-!+Use/NG+Err/Orth+Dial+Gen+PxPl1:%>н%{оеэ%}к _LAK-Tenses-Obl ;
+!+Sg+Nom+PxSg3:%>з{оэØ} NounEnd_K ;
+!+Sg+Nom+PxSg3:%>з{оэØ} CLT/COP_SG ;
+!+Use/NG+Err/Orth+Dial+Nom+PxPl1:%>н{оеэ}к _LAK-Tenses-NomSg ;
+!+Use/NG+Err/Orth+Dial+Gen+PxPl1:%>н{оеэ}к _LAK-Tenses-Obl ;
 !+Use/NG+Err/Orth+Dial+Sg+Nom+Def:%>сь NounEnd_K ;
 !+Use/NG+Err/Orth+Dial+Sg+Nom+Def:%>сь CLT/COP_SG ;
 !+Use/NG+Err/Orth+Dial+Sg+Gen+Def:%>сть NounEnd_K ;
@@ -2402,37 +2417,37 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 !LEXICON Nouns1S_A_ReqVow
 ! Possessive-NomGen ;
 
-!+Ine:%>%{оеэØ%}%>с%{оэØ%} _KUDO-Indef-DefSg-Poss ;
-!+Ela:%>%{оеэØ%}%>ст%{оэØ%} _KUDO-Indef-DefSg-Poss ;
-!+Cmpr:%>%{оеэØ%}шка _KUDO-Indef-DefSg-Poss ;
-!+Ill:%>%{оеэØ%}%>с NounEnd_K ;
+!+Ine:%>{оеэØ}%>с{оэØ} _KUDO-Indef-DefSg-Poss ;
+!+Ela:%>{оеэØ}%>ст{оэØ} _KUDO-Indef-DefSg-Poss ;
+!+Cmpr:%>{оеэØ}шка _KUDO-Indef-DefSg-Poss ;
+!+Ill:%>{оеэØ}%>с NounEnd_K ;
 
-!+Lat+Indef:%>%{оеэØ%}в NounEnd_K ;
+!+Lat+Indef:%>{оеэØ}в NounEnd_K ;
 
 
-!+Ine:%>с%{оэØ%} _KUDO-Indef-DefSg-Poss ;
-!+Ela:%>ст%{оэØ%} _KUDO-Indef-DefSg-Poss ;
+!+Ine:%>с{оэØ} _KUDO-Indef-DefSg-Poss ;
+!+Ela:%>ст{оэØ} _KUDO-Indef-DefSg-Poss ;
 !+Cmpr:%>шка _KUDO-Indef-DefSg-Poss ;
-!+Tra:%>%{оеэØ%}кс _OSH-Indef-DefSg-Poss ;
+!+Tra:%>{оеэØ}кс _OSH-Indef-DefSg-Poss ;
 !+Ill:%>с NounEnd_K ;
 
-!+Use/NG+Err/Orth+Dial+Sg+Gen+Def:%>%{оеэØ%}сть NounEnd_K ;
-!+Use/NG+Err/Orth+Dial+Sg+Dat+Def:%>%{оеэØ%}стень NounEnd_K ;
+!+Use/NG+Err/Orth+Dial+Sg+Gen+Def:%>{оеэØ}сть NounEnd_K ;
+!+Use/NG+Err/Orth+Dial+Sg+Dat+Def:%>{оеэØ}стень NounEnd_K ;
 
 ! DAT-PX ;
 
-!+Sg+Nom+Def:%>%{оеэØ%}сь NounEnd_K ;
-!+Sg+Nom+Def:%>%{оеэØ%}сь CLT/COP_SG ;
-!+Sg+Gen+Def:%>%{оеэØ%}нть NounEnd_K ;
-!+Sg+Dat+Def:%>%{оеэØ%}нтень NounEnd_K ;
-!+Gen+Indef:%>%{оеэØ%}нь _KAL-Tenses-Obl ;
+!+Sg+Nom+Def:%>{оеэØ}сь NounEnd_K ;
+!+Sg+Nom+Def:%>{оеэØ}сь CLT/COP_SG ;
+!+Sg+Gen+Def:%>{оеэØ}нть NounEnd_K ;
+!+Sg+Dat+Def:%>{оеэØ}нтень NounEnd_K ;
+!+Gen+Indef:%>{оеэØ}нь _KAL-Tenses-Obl ;
 
 
 
 !LEXICON Nouns1S_A_NoReqVow
-!+Abl:%>%{дт%}О1 _KUDO-Indef-DefSg-Poss ;
+!+Abl:%>{дт}О1 _KUDO-Indef-DefSg-Poss ;
 !+Prl:%>Г2а _KUDO-Indef-DefSg-Poss ;
-!+Abe:%>вт%{оеэ%}мО1 _KUDO-Indef-DefSg-Poss ;
+!+Abe:%>вт{оеэ}мО1 _KUDO-Indef-DefSg-Poss ;
 
 !+Use/NG+Err/Orth+Dial+Dat+PxSg2:%>теть NounEnd_K ;
 !+Use/NG+Err/Orth+Dial+Dat+PxSg2:%>те NounEnd_K ;
@@ -2445,8 +2460,8 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 !+Temp:%>нЕ3 NounEnd_K ;
 !!!This one would render voiceless "s"
 !+Use/NG+Err/Orth+Dial+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-!+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з%{оэØ%} NounEnd_K ;
-!+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з%{оэØ%} CLT/COP_SG ;
+!+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з{оэØ} NounEnd_K ;
+!+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з{оэØ} CLT/COP_SG ;
 !Nouns_Pl ;
 
 
@@ -2455,7 +2470,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 
 !LEXICON istja-Gen-Attributes
 ! NounEnd_K ; !!= * __@CODE@__ This means that stem is word final 
-!+Abl+Indef:%>%{дт%}О1 NounEnd_K ;
+!+Abl+Indef:%>{дт}О1 NounEnd_K ;
 !+Der/GenAttr:%>нь _KAL-Tenses-Obl ;
 !+Der/GenAttr:%>н N2Dem-SE ;
 !+Orth/Morph+Der/GenAttr:%>нь%> N2Dem-SE ; ! _ь_ retension through double %>%>
@@ -2467,14 +2482,14 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 
 !LEXICON pek-Gen-Attributes
 ! NounEnd_K ; !!= * __@CODE@__ This means that stem is word final 
-!+Abl+Indef:%>%{дт%}О1 NounEnd_K ;
+!+Abl+Indef:%>{дт}О1 NounEnd_K ;
 ! GEN-INDEF-LIKE-DERIVATION ;
 
 !LEXICON GEN-INDEF-LIKE-DERIVATION
-!+Der/GenAttr:%>%{оеэØ%}нь _KAL-Tenses-Obl ;
-!+Der/GenAttr:%>%{оеэØ%}н N2Dem-SE ;
-!+Orth/Morph+Der/GenAttr:%>%{оеэØ%}нь%> N2Dem-SE ; ! _ь_ retension through double %>%>
-!+Orth/PhonInfl+Der/Oncje:%>%{оеэØ%}нце N2_DEF_DECLENSION_KUDO ;
+!+Der/GenAttr:%>{оеэØ}нь _KAL-Tenses-Obl ;
+!+Der/GenAttr:%>{оеэØ}н N2Dem-SE ;
+!+Orth/Morph+Der/GenAttr:%>{оеэØ}нь%> N2Dem-SE ; ! _ь_ retension through double %>%>
+!+Orth/PhonInfl+Der/Oncje:%>{оеэØ}нце N2_DEF_DECLENSION_KUDO ;
 
 
 LEXICON _KUDO-Possessives2-Ill
@@ -2535,15 +2550,15 @@ LEXICON DEM_ALCE
 +Der+Der/sje: N2_DEF_DECLENSION_KUDO ;
 
 LEXICON letter-F ! this needs fixing front vowel
-+Prop:%- PROP_KUDO ;
++Prop:- PROP_KUDO ;
 
 LEXICON letter-B ! this needs fixing back vowel
-+Prop:%- PROP_KUDO ;
++Prop:- PROP_KUDO ;
 
 LEXICON ACRONDELIMITER ! Here we need some kind of vowel harmony
     PROP_KUDO ;
 :%: PROP_KUDO ;
-:%- PROP_KUDO ;
+:- PROP_KUDO ;
 :%' PROP_KUDO ;
 
 
@@ -2559,7 +2574,7 @@ LEXICON _KUDO-Possessive-Before-K-or-K
 
 
 LEXICON _OSH-Possessive-Before-K
-:%>%{оеэØ%} Possessive-Before-K-noArrow ;
+:%>{оеэØ} Possessive-Before-K-noArrow ;
 
 LEXICON _KUDO-Possessive-Before-K
 :%> Possessive-Before-K-noArrow ;
@@ -2657,40 +2672,40 @@ LEXICON N_KIN-TYPE-PX-GEN-SG1-SG2
 !2022-04-07 N_KIN-TYPE-PX-GEN-SG1 ;
  N_KIN-TYPE-PX-GEN-SG2	;
 !LEXICON N_KIN-TYPE-PX-GEN-SG1
-!+Sg+Gen+PxSg1:%>%{оеэØ%}нь K ;
+!+Sg+Gen+PxSg1:%>{оеэØ}нь K ;
 LEXICON N_KIN-TYPE-PX-GEN-SG2
-+Sg+Gen+PxSg2:%>%{оеэØ%}ть K ;
++Sg+Gen+PxSg2:%>{оеэØ}ть K ;
 
 ! PossMarker-followed-by-K-possibility
 LEXICON PossMarker-then-Clt
 !2019-03-29 why is the %> missing?
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%{оеэØ%}н%{ЬØ%} K ;
-@U.PossPx.Sg1@+Use/SpellNoSugg+Use/NG+PxSg1:@U.PossPx.Sg1@%{оеэØ%}м K ;
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%{оеэØ%}т%{ЬØ%} K ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%{оеэØ%}нт%{ЬØ%} K ;
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%{оеэØ%}нз%{оэØ%} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%{оеэØ%}нд%{оэØ%} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%{оеэØ%}ндз%{оэØ%} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth+Dial:@U.PossPx.Sg3@%{оеэØ%}нза K ;
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%{оеэØ%}н%{оеэ%}к K-lak ;
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%{оеэØ%}нк K-lak ;
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%{оеэØ%}ст K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/SE+PxPl3:@U.PossPx.Pl3@%{оеэØ%}ск K-lak ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/SE+PxPl3:@U.PossPx.Pl3@%{оеэØ%}ске K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/W+PxPl3:@U.PossPx.Pl3@%{оеэØ%}нст K ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@{оеэØ}н{ЬØ} K ;
+@U.PossPx.Sg1@+Use/SpellNoSugg+Use/NG+PxSg1:@U.PossPx.Sg1@{оеэØ}м K ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@{оеэØ}т{ЬØ} K ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@{оеэØ}нт{ЬØ} K ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@{оеэØ}нз{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@{оеэØ}нд{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@{оеэØ}ндз{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth+Dial:@U.PossPx.Sg3@{оеэØ}нза K ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@{оеэØ}н{оеэ}к K-lak ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@{оеэØ}нк K-lak ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@{оеэØ}ст K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/SE+PxPl3:@U.PossPx.Pl3@{оеэØ}ск K-lak ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/SE+PxPl3:@U.PossPx.Pl3@{оеэØ}ске K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/W+PxPl3:@U.PossPx.Pl3@{оеэØ}нст K ;
 
 LEXICON _OSH-PossPX1
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%}  SecondaryDeclination ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м  SecondaryDeclination ;
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%}  SecondaryDeclination ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%}  SecondaryDeclination ;
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%}  SecondaryDeclination ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%}  SecondaryDeclination ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%}  SecondaryDeclination ;
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к  SecondaryDeclination ;
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк  SecondaryDeclination ;
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст  SecondaryDeclination ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст  SecondaryDeclination ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ}  SecondaryDeclination ;
+@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м  SecondaryDeclination ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ}  SecondaryDeclination ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  SecondaryDeclination ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ}  SecondaryDeclination ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ}  SecondaryDeclination ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ}  SecondaryDeclination ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к  SecondaryDeclination ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк  SecondaryDeclination ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст  SecondaryDeclination ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст  SecondaryDeclination ;
 
 
 
@@ -2706,109 +2721,109 @@ LEXICON _OSH-PossPX1
 !OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON POSSX4-END-DAT
-!+PxSg1:%>%{оеэØ%}н%{ЬØ%} ENDLEX ;
-!+PxSg1+Use/NG+Err/Orth+Dial/SE:%>%{оеэØ%}м ENDLEX ;
-!+PxSg2:%>%{оеэØ%}т%{ЬØ%} ENDLEX ;
-!+PxSg2+Use/NG+Err/Orth+Dial/W:%>%{оеэØ%}нт%{ЬØ%} ENDLEX ;
-!+PxSg3:%>%{оеэØ%}нз%{оэØ%} ENDLEX ;
-!+PxPl1:%>%{оеэØ%}н%{оеэ%}к ENDLEX ;
-!+PxPl2:%>%{оеэØ%}нк ENDLEX ;
-!+PxPl3:%>%{оеэØ%}ст ENDLEX ;
-!+PxPl3:%>%{оеэØ%}нст ENDLEX ;
+!+PxSg1:%>{оеэØ}н{ЬØ} ENDLEX ;
+!+PxSg1+Use/NG+Err/Orth+Dial/SE:%>{оеэØ}м ENDLEX ;
+!+PxSg2:%>{оеэØ}т{ЬØ} ENDLEX ;
+!+PxSg2+Use/NG+Err/Orth+Dial/W:%>{оеэØ}нт{ЬØ} ENDLEX ;
+!+PxSg3:%>{оеэØ}нз{оэØ} ENDLEX ;
+!+PxPl1:%>{оеэØ}н{оеэ}к ENDLEX ;
+!+PxPl2:%>{оеэØ}нк ENDLEX ;
+!+PxPl3:%>{оеэØ}ст ENDLEX ;
+!+PxPl3:%>{оеэØ}нст ENDLEX ;
 !!! Used with words like тензэ
 
 LEXICON N-KIN
 !! This appears with kindred terminology 
-+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть N2Dem-SE ;
-+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть%> N2Dem-SE ; ! _ь_ retension through double %>%>
-@U.DECL-NX.SG@+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:@U.DECL-NX.SG@%>%{оеэØ%}ть _KIT-Conjugation ;
-!2022-04-01+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>%{оеэØ%}нь OBL-WITH-COP_KAL ;
-!+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>%{оеэØ%}нь _KAL-Tenses-Obl ;
-+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть OBL-WITH-COP_KAL ;
-!+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>%{оеэØ%}ть _KIT-Tenses-Obl ;
++Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>{оеэØ}ть N2Dem-SE ;
++Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>{оеэØ}ть%> N2Dem-SE ; ! _ь_ retension through double %>%>
+@U.DECL-NX.SG@+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:@U.DECL-NX.SG@%>{оеэØ}ть _KIT-Conjugation ;
+!2022-04-01+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>{оеэØ}нь OBL-WITH-COP_KAL ;
+!+Sem/Hum+Sem/Kin+Sg+Gen+PxSg1:%>{оеэØ}нь _KAL-Tenses-Obl ;
++Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>{оеэØ}ть OBL-WITH-COP_KAL ;
+!+Sem/Hum+Sem/Kin+Sg+Gen+PxSg2:%>{оеэØ}ть _KIT-Tenses-Obl ;
 
 LEXICON N_KAL-Derivation-WITH-POSSX
 !! Is "_KAL" necessary ?
-+Sg+Gen+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Pl+Gen+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ela+PxSg3+Der+Der/MWN+N:%>ст%{оэØ%}%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Ine+PxSg3+Der+Der/MWN+N:%>сО1%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Cmpr+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}шка%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+SP+Cmpr+PxSg3+Der+Der/MWN+N:%>шка%>%{оеэØ%}нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;!CHECKME 2022-04-10
-+SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ%}мО1%>нз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
++Sg+Gen+PxSg3+Der+Der/MWN+N:%>{оеэØ}нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Pl+Gen+PxSg3+Der+Der/MWN+N:%>{оеэØ}нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ela+PxSg3+Der+Der/MWN+N:%>ст{оэØ}%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Ine+PxSg3+Der+Der/MWN+N:%>сО1%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Cmpr+PxSg3+Der+Der/MWN+N:%>{оеэØ}шка%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
++SP+Cmpr+PxSg3+Der+Der/MWN+N:%>шка%>{оеэØ}нз{оэØ} N2_DEF_DECLENSION_KUDO ;!CHECKME 2022-04-10
++SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ}мО1%>нз{оэØ} N2_DEF_DECLENSION_KUDO ;
 
-+Use/NG+Err/Orth+Sg+Gen+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+Pl+Gen+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Ela+PxSg3+Der+Der/MWN+N:%>ст%{оэØ%}%>нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Ine+PxSg3+Der+Der/MWN+N:%>сО1%>нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Cmpr+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}шка%>нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ%}мО1%>нд%{оэØ%} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+Sg+Gen+PxSg3+Der+Der/MWN+N:%>{оеэØ}нд{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+Pl+Gen+PxSg3+Der+Der/MWN+N:%>{оеэØ}нд{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Ela+PxSg3+Der+Der/MWN+N:%>ст{оэØ}%>нд{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Ine+PxSg3+Der+Der/MWN+N:%>сО1%>нд{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>нд{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Cmpr+PxSg3+Der+Der/MWN+N:%>{оеэØ}шка%>нд{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ}мО1%>нд{оэØ} N2_DEF_DECLENSION_KUDO ;
 
-+Use/NG+Err/Orth+Sg+Gen+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+Pl+Gen+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Ela+PxSg3+Der+Der/MWN+N:%>ст%{оэØ%}%>ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Ine+PxSg3+Der+Der/MWN+N:%>сО1%>ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Cmpr+PxSg3+Der+Der/MWN+N:%>%{оеэØ%}шка%>ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
-+Use/NG+Err/Orth+SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ%}мО1%>ндз%{оэØ%} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+Sg+Gen+PxSg3+Der+Der/MWN+N:%>{оеэØ}ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+Pl+Gen+PxSg3+Der+Der/MWN+N:%>{оеэØ}ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Ela+PxSg3+Der+Der/MWN+N:%>ст{оэØ}%>ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Ine+PxSg3+Der+Der/MWN+N:%>сО1%>ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Prl+PxSg3+Der+Der/MWN+N:%>Г2а%>ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Cmpr+PxSg3+Der+Der/MWN+N:%>{оеэØ}шка%>ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
++Use/NG+Err/Orth+SP+Abe+PxSg3+Der+Der/MWN+N:%>вт{оеэ}мО1%>ндз{оэØ} N2_DEF_DECLENSION_KUDO ;
 
-!2023_03_10+SP+Gen+PxPl1+Der+Der/MWN+N:%>%{оеэØ%}н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl1+Der+Der/MWN+N:%>ст%{оэØ%}%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Ine+PxPl1+Der+Der/MWN+N:%>сО1%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Cmpr+PxPl1+Der+Der/MWN+N:%>%{оеэØ%}шка%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl1+Der+Der/MWN+N:%>вт{оеэ%}мО1%>н%{оеэ%}к N2_DEF_DECLENSION_LAK ;
-!2023_03_10+SP+Gen+PxPl2+Der+Der/MWN+N:%>%{оеэØ%}нк N2_DEF_DECLENSION_LAK ;
-+SP+Ela+PxPl2+Der+Der/MWN+N:%>ст%{оэØ%}%>нк N2_DEF_DECLENSION_LAK ;
+!2023_03_10+SP+Gen+PxPl1+Der+Der/MWN+N:%>{оеэØ}н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl1+Der+Der/MWN+N:%>ст{оэØ}%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Ine+PxPl1+Der+Der/MWN+N:%>сО1%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Prl+PxPl1+Der+Der/MWN+N:%>Г2а%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Cmpr+PxPl1+Der+Der/MWN+N:%>{оеэØ}шка%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl1+Der+Der/MWN+N:%>вт{оеэ}мО1%>н{оеэ}к N2_DEF_DECLENSION_LAK ;
+!2023_03_10+SP+Gen+PxPl2+Der+Der/MWN+N:%>{оеэØ}нк N2_DEF_DECLENSION_LAK ;
++SP+Ela+PxPl2+Der+Der/MWN+N:%>ст{оэØ}%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Ine+PxPl2+Der+Der/MWN+N:%>сО1%>нк N2_DEF_DECLENSION_LAK ;
 +SP+Prl+PxPl2+Der+Der/MWN+N:%>Г2а%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Cmpr+PxPl2+Der+Der/MWN+N:%>%{оеэØ%}шка%>нк N2_DEF_DECLENSION_LAK ;
-+SP+Abe+PxPl2+Der+Der/MWN+N:%>вт{оеэ%}мО1%>нк N2_DEF_DECLENSION_LAK ;
-!2023_03_10+SP+Gen+PxPl3+Der+Der/MWN+N:%>%{оеэØ%}ст N2_DEF_DECLENSION_KIT ;
-+SP+Ela+PxPl3+Der+Der/MWN+N:%>ст%{оэØ%}%>ст N2_DEF_DECLENSION_KIT ;
++SP+Cmpr+PxPl2+Der+Der/MWN+N:%>{оеэØ}шка%>нк N2_DEF_DECLENSION_LAK ;
++SP+Abe+PxPl2+Der+Der/MWN+N:%>вт{оеэ}мО1%>нк N2_DEF_DECLENSION_LAK ;
+!2023_03_10+SP+Gen+PxPl3+Der+Der/MWN+N:%>{оеэØ}ст N2_DEF_DECLENSION_KIT ;
++SP+Ela+PxPl3+Der+Der/MWN+N:%>ст{оэØ}%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Ine+PxPl3+Der+Der/MWN+N:%>сО1%>ст N2_DEF_DECLENSION_KIT ;
 +SP+Prl+PxPl3+Der+Der/MWN+N:%>Г2а%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Cmpr+PxPl3+Der+Der/MWN+N:%>%{оеэØ%}шка%>ст N2_DEF_DECLENSION_KIT ;
-+SP+Abe+PxPl3+Der+Der/MWN+N:%>вт{оеэ%}мО1%>ст N2_DEF_DECLENSION_KIT ;
++SP+Cmpr+PxPl3+Der+Der/MWN+N:%>{оеэØ}шка%>ст N2_DEF_DECLENSION_KIT ;
++SP+Abe+PxPl3+Der+Der/MWN+N:%>вт{оеэ}мО1%>ст N2_DEF_DECLENSION_KIT ;
 
-+Sg+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} N2Dem-SE ;
-+Sg+Gen+PxSg1:%>%{оеэØ%}м N2Dem-SE ;
-+Sg+Gen+PxSg2:%>%{оеэØ%}т%{ЬØ%} N2Dem-SE ;
-+Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%>%{оеэØ%}нт%{ЬØ%} N2Dem-SE ;
-+Sg+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} N2Dem-SE ;
-+Sg+Gen+PxSg3+Use/NG+Err/Orth:%>%{оеэØ%}нд%{оэØ%} N2Dem-SE ;
-+Sg+Gen+PxSg3+Use/NG+Err/Orth:%>%{оеэØ%}ндз%{оэØ%} N2Dem-SE ;
-+Sg+Gen+PxPl1:%>%{оеэØ%}н%{оеэ%}к N2Dem-SE ;!2024-04-02
-+Sg+Gen+PxPl2:%>%{оеэØ%}нк N2Dem-SE ;!2024-04-02
-+Sg+Gen+PxPl3:%>%{оеэØ%}ст N2Dem-SE ;!2024-04-02
++Sg+Gen+PxSg1:%>{оеэØ}н{ЬØ} N2Dem-SE ;
++Sg+Gen+PxSg1:%>{оеэØ}м N2Dem-SE ;
++Sg+Gen+PxSg2:%>{оеэØ}т{ЬØ} N2Dem-SE ;
++Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:%>{оеэØ}нт{ЬØ} N2Dem-SE ;
++Sg+Gen+PxSg3:%>{оеэØ}нз{оэØ} N2Dem-SE ;
++Sg+Gen+PxSg3+Use/NG+Err/Orth:%>{оеэØ}нд{оэØ} N2Dem-SE ;
++Sg+Gen+PxSg3+Use/NG+Err/Orth:%>{оеэØ}ндз{оэØ} N2Dem-SE ;
++Sg+Gen+PxPl1:%>{оеэØ}н{оеэ}к N2Dem-SE ;!2024-04-02
++Sg+Gen+PxPl2:%>{оеэØ}нк N2Dem-SE ;!2024-04-02
++Sg+Gen+PxPl3:%>{оеэØ}ст N2Dem-SE ;!2024-04-02
 
 LEXICON POSSX-MUTUAL-OBL-CONJUGATION_OR_POSSX-OBL4-N2DEM-SE
  OBL-PX4-CLTCOP ;
  POSSX-OBL4-N2DEM-SE ;
 
 !LEXICON POSSX-MUTUAL-OBL-CONJUGATION
-!+PxSg1:%>%{оеэØ%}н%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+PxSg1+Use/NG+Err/Orth+Dial/SE:%>%{оеэØ%}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+PxSg2:%>%{оеэØ%}т%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+Use/-Spell+PxSg2+Use/NG+Err/Orth+Dial/W:%>%{оеэØ%}нт%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+PxSg3:%>%{оеэØ%}нз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+PxPl1:%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+PxPl2:%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-!+PxPl3:%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg1:%>{оеэØ}н{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg1+Use/NG+Err/Orth+Dial/SE:%>{оеэØ}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg2:%>{оеэØ}т{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+Use/-Spell+PxSg2+Use/NG+Err/Orth+Dial/W:%>{оеэØ}нт{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxSg3:%>{оеэØ}нз{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxPl1:%>{оеэØ}н{оеэ}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxPl2:%>{оеэØ}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+!+PxPl3:%>{оеэØ}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON POSSX-OBL4-N2DEM-SE
-+PxSg1:%>%{оеэØ%}н%{ЬØ%} N2Dem-SE ;
-+PxSg1+Use/SpellNoSugg+Dial/SE:%>%{оеэØ%}м N2Dem-SE ;
-+PxSg2:%>%{оеэØ%}т%{ЬØ%} N2Dem-SE ;
-+Use/-Spell+PxSg2+Use/NG+Err/Orth+Dial/W:%>%{оеэØ%}нт%{ЬØ%} N2Dem-SE ;
-+PxSg3:%>%{оеэØ%}нз%{оэØ%} N2Dem-SE ;
-+Use/NG+Err/Orth+PxSg3:%>%{оеэØ%}нд%{оэØ%} N2Dem-SE ;
-+Use/NG+Err/Orth+PxSg3:%>%{оеэØ%}ндз%{оэØ%} N2Dem-SE ;
-+PxPl1:%>%{оеэØ%}н%{оеэ%}к N2Dem-SE ;
-+PxPl2:%>%{оеэØ%}нк N2Dem-SE ;
-+PxPl3:%>%{оеэØ%}ст N2Dem-SE ;
++PxSg1:%>{оеэØ}н{ЬØ} N2Dem-SE ;
++PxSg1+Use/SpellNoSugg+Dial/SE:%>{оеэØ}м N2Dem-SE ;
++PxSg2:%>{оеэØ}т{ЬØ} N2Dem-SE ;
++Use/-Spell+PxSg2+Use/NG+Err/Orth+Dial/W:%>{оеэØ}нт{ЬØ} N2Dem-SE ;
++PxSg3:%>{оеэØ}нз{оэØ} N2Dem-SE ;
++Use/NG+Err/Orth+PxSg3:%>{оеэØ}нд{оэØ} N2Dem-SE ;
++Use/NG+Err/Orth+PxSg3:%>{оеэØ}ндз{оэØ} N2Dem-SE ;
++PxPl1:%>{оеэØ}н{оеэ}к N2Dem-SE ;
++PxPl2:%>{оеэØ}нк N2Dem-SE ;
++PxPl3:%>{оеэØ}ст N2Dem-SE ;
 
 
 LEXICON DAT-PX
@@ -2823,28 +2838,28 @@ LEXICON DAT-PXSG1
 +SP+Dat+PxSg1:%>нень K ;
 
 LEXICON DAT-PXSG2
-+SP+Dat+PxSg2:%>%{оеэØ%}тень K ;
-+Use/NG+Err/Orth+Dial/NW+Dat+PxSg2:%>%{оеэØ%}теть K ;
-+Use/NG+Err/Orth+Dial/SE+Dat+PxSg2:%>%{оеэØ%}те K ;
++SP+Dat+PxSg2:%>{оеэØ}тень K ;
++Use/NG+Err/Orth+Dial/NW+Dat+PxSg2:%>{оеэØ}теть K ;
++Use/NG+Err/Orth+Dial/SE+Dat+PxSg2:%>{оеэØ}те K ;
 
 LEXICON DAT-PXSG3
-@U.DECL-NX.SP@+SP+Dat+PxSP3:@U.DECL-NX.SP@%>%{оеэØ%}нстэнь K ;
-+Use/NG+Err/Orth+Dial+Dat+PxSg3:%>%{оеэØ%}нстэ K ;
-+Use/NG+Err/Orth+Dial/SE+Dat+PxSg3:%>%{оеэØ%}нст%{оэØ%} K ;
-+Use/NG+Err/Orth+Dial/W+Dat+PxSg3:%>%{оеэØ%}нстэнзэ K ;
-+Use/NG+Err/Orth+Dial/W+Dat+PxSg3:%>%{оеэØ%}нстэндэ K ;
-+Use/NG+Err/Orth+Dial/W+Dat+PxSg3:%>%{оеэØ%}нстэндзэ K ;
+@U.DECL-NX.SP@+SP+Dat+PxSP3:@U.DECL-NX.SP@%>{оеэØ}нстэнь K ;
++Use/NG+Err/Orth+Dial+Dat+PxSg3:%>{оеэØ}нстэ K ;
++Use/NG+Err/Orth+Dial/SE+Dat+PxSg3:%>{оеэØ}нст{оэØ} K ;
++Use/NG+Err/Orth+Dial/W+Dat+PxSg3:%>{оеэØ}нстэнзэ K ;
++Use/NG+Err/Orth+Dial/W+Dat+PxSg3:%>{оеэØ}нстэндэ K ;
++Use/NG+Err/Orth+Dial/W+Dat+PxSg3:%>{оеэØ}нстэндзэ K ;
 
 !!LEXICON DAT-PXPL1
 
 LEXICON DAT-PXPL2
-+Use/NG+Err/Orth+Dial/W+SP+Dat+PxPl2:%>%{оеэØ%}нстэнк K-lak ;
++Use/NG+Err/Orth+Dial/W+SP+Dat+PxPl2:%>{оеэØ}нстэнк K-lak ;
 
 LEXICON DAT-PXPL3
-@U.DECL-NX.SG@+SP+Dat+PxPl3:@U.DECL-NX.SG@%>%{оеэØ%}нстэнь K ;
-+Use/NG+Err/Orth+Dial/SE+Dat+PxPl3:%>%{оеэØ%}нст%{оэØ%} K ;
-+Use/NG+Err/Orth+Dial/W+Dat+PxPl3:%>%{оеэØ%}нстэнст K ;
-+Use/NG+Err/Orth+Dial/W+Dat+PxPl3:%>%{оеэØ%}нстэст K ;
+@U.DECL-NX.SG@+SP+Dat+PxPl3:@U.DECL-NX.SG@%>{оеэØ}нстэнь K ;
++Use/NG+Err/Orth+Dial/SE+Dat+PxPl3:%>{оеэØ}нст{оэØ} K ;
++Use/NG+Err/Orth+Dial/W+Dat+PxPl3:%>{оеэØ}нстэнст K ;
++Use/NG+Err/Orth+Dial/W+Dat+PxPl3:%>{оеэØ}нстэст K ;
 
 
 LEXICON SG-GEN-PX
@@ -2856,30 +2871,30 @@ LEXICON SG-GEN-PX
  SG-GEN-PXPL3 ;
 
 LEXICON SG-GEN-PXSG1
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Sg+Gen+PxSg1+Use/NG:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Sg+Gen+PxSg1:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Sg+Gen+PxSg1+Use/NG:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Sg+Gen+PxSg1:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON SG-GEN-PXSG2
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Gen+PxSg2:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Gen+PxSg2:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON SG-GEN-PXSG3
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3+Sem/Inanim+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}з%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Gen+PxSg3+Sem/Inanim+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}з{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON SG-GEN-PXPL1
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Gen+PxPl1:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
-!@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Gen+PxPl1+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к K ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Gen+PxPl1:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
+!@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Gen+PxPl1+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к K ;
 
 LEXICON SG-GEN-PXPL2
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Gen+PxPl2:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
-!@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Gen+PxPl2+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K-lak ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Gen+PxPl2:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
+!@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Gen+PxPl2+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк K-lak ;
 
 LEXICON SG-GEN-PXPL3
-@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Sg+Gen+PxPl3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
-!@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Sg+Gen+PxPl3+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст K ;
+@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Sg+Gen+PxPl3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>{оеэØ}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
+!@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Sg+Gen+PxPl3+Clt/Cop+Ind+Prs+ScSg3:@U.DECL-NX.SG@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>{оеэØ}ст K ;
 
 
 LEXICON SG-NOM-PX
@@ -2891,22 +2906,22 @@ LEXICON SG-NOM-PX
  SG-NOM-PXPL3 ;
 
 LEXICON SG-NOM-PXSG1
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}м _KAL-NomSg-Conjugation ;
 LEXICON SG-NOM-PXSG2
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} _KIT-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} _KIT-NomSg-Conjugation ;
 LEXICON SG-NOM-PXSG3
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}з%{оэØ%} _KUDO-NomSg-Conjugation ;
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%^NoLinkVow%>з%{оэØ%} _KUDO-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}з{оэØ} _KUDO-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%^NoLinkVow%>з{оэØ} _KUDO-NomSg-Conjugation ;
 
 LEXICON SG-NOM-PXPL1
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к _LAK-NomSg-Conjugation ;!2024-04-02
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}м%{ое%}к _LAK-NomSg-Conjugation ;
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth-no-linking-vowel+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%^NoLinkVowм%{ое%}к _LAK-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к _LAK-NomSg-Conjugation ;!2024-04-02
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}м{ое}к _LAK-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth-no-linking-vowel+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%^NoLinkVowм{ое}к _LAK-NomSg-Conjugation ;
 !+Err/Orth-no-linking-vowel
 LEXICON SG-NOM-PXPL2
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк _LAK-NomSg-Conjugation ;!2024-04-02
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк _LAK-NomSg-Conjugation ;!2024-04-02
 LEXICON SG-NOM-PXPL3
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст _KIT-NomSg-Conjugation ;!2024-04-02
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>{оеэØ}ст _KIT-NomSg-Conjugation ;!2024-04-02
 
 LEXICON PL-GEN-PX
  PL-GEN-PXSG1 ;
@@ -2917,27 +2932,27 @@ LEXICON PL-GEN-PX
  PL-GEN-PXPL3 ;
 
 LEXICON PL-GEN-PXSG1
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Gen+PxSg1:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Gen+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Gen+PxSg1:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Gen+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}м MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON PL-GEN-PXSG2
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Gen+PxSg2:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Gen+PxSg2:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 !CLT/COP4_OBL-SC3
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Gen+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON PL-GEN-PXSG3
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Gen+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} MUTUAL-OBL-CONJUGATION-NO-3Pers ;
 
 LEXICON PL-GEN-PXPL1
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Gen+PxPl1:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Gen+PxPl1:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 
 LEXICON PL-GEN-PXPL2
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Gen+PxPl2:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Gen+PxPl2:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 
 LEXICON PL-GEN-PXPL3
-@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Gen+PxPl3:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Gen+PxPl3:@U.DECL-NX.PL@@U.CX.GEN@@U.DECL-DX.PX@@U.PossPx.Pl3@%>{оеэØ}ст MUTUAL-OBL-CONJUGATION-NO-3Pers ;!2024-04-02
 
 
 LEXICON PL-NOM-PX
@@ -2949,32 +2964,32 @@ LEXICON PL-NOM-PX
  PL-NOM-PXPL3 ;
 
 LEXICON PL-NOM-PXSG1
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} CLT/COP_PL-MUTUAL ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} K ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Nom+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>%{оеэØ%}м _KAL-NomPl-Conjugation-4Poss ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} CLT/COP_PL-MUTUAL ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@+Pl+Nom+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg1@%>{оеэØ}м _KAL-NomPl-Conjugation-4Poss ;
 
 LEXICON PL-NOM-PXSG2
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} CLT/COP_PL-MUTUAL ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} K ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} CLT/COP_PL-MUTUAL ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} CLT/COP_PL-MUTUAL ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} CLT/COP_PL-MUTUAL ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Pl+Nom+PxSg2+Use/NG+Err/Orth+Dial/W:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} K ;
 LEXICON PL-NOM-PXSG3
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} CLT/COP_PL-MUTUAL-K ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} CLT/COP_PL-MUTUAL-K ;
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} CLT/COP_PL-MUTUAL-K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} CLT/COP_PL-MUTUAL-K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} CLT/COP_PL-MUTUAL-K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Pl+Nom+PxSg3+Use/NG+Err/Orth:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} CLT/COP_PL-MUTUAL-K ;
 
 LEXICON PL-NOM-PXPL1
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к CLT/COP_PL-MUTUAL ;!2024-04-02
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к K ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к CLT/COP_PL-MUTUAL ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к K ;!2024-04-02
 
 LEXICON PL-NOM-PXPL2
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк CLT/COP_PL-MUTUAL ;!2024-04-02
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K ;!2024-04-02
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2+Clt/Cop+Ind+Prs+ScPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>%{оеэØ%}нк K ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк CLT/COP_PL-MUTUAL ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк K ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Pl+Nom+PxPl2+Clt/Cop+Ind+Prs+ScPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк K ;!2024-04-02
 
 LEXICON PL-NOM-PXPL3
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст CLT/COP_PL-MUTUAL ;!2024-04-02
-@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>%{оеэØ%}ст K ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>{оеэØ}ст CLT/COP_PL-MUTUAL ;!2024-04-02
+@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl3@%>{оеэØ}ст K ;!2024-04-02
 
 
 
@@ -2994,94 +3009,94 @@ LEXICON PL-NOM-PXPL3
 ! N-Poss-Declension-PossX_01 ;
 
 LEXICON N-Poss-Declension-PossX_01
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} _KUDO-Tenses1-4Inf ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м _KUDO-Tenses1-4Inf ;
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} _KUDO-Tenses1-4Inf ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%} _KUDO-Tenses1-4Inf ;
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses1-4Inf ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} _KUDO-Tenses1-4Inf ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} _KUDO-Tenses1-4Inf ;
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к _KUDO-Tenses1-4Inf ;
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк _KUDO-Tenses1-4Inf ;
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст _KUDO-Tenses1-4Inf ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ск _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ} _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} _KUDO-Tenses1-4Inf ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} _KUDO-Tenses1-4Inf ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к _KUDO-Tenses1-4Inf ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк _KUDO-Tenses1-4Inf ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст _KUDO-Tenses1-4Inf ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ск _KUDO-Tenses1-4Inf ;
 
 
 !LEXICON Possessive-NomGen
-!+Sg+Nom+PxSg1:%>%{оеэØ%}м _KAL-Tenses-NomSg ;
-!+Use/NG+Err/Orth+Dial/SE+Pl+Nom+PxSg1:%>%{оеэØ%}м _KAL-Tenses-NomPl ;
-!+Gen+PxSg1:%>%{оеэØ%}м _KAL-Tenses-Obl ;
-!+Pl+Nom+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses-NomPl ;
-!+Gen+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses-Obl ;
-!+Sg+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses-NomSg ;
-!+Pl+Nom+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses-NomPl ;
-!+Gen+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses-Obl ;
-!+Sg+Nom+PxSg3:%>%{оеэØ%}з%{оэØ%} _KUDO-Tenses-NomSg ;
-!+Pl+Nom+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses-NomPl ;
-!+Gen+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses-Obl ;
-!+Sg+Nom+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses-NomSg ;
-!+Pl+Nom+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses-NomPl ;
-!+Gen+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses-Obl ;
-!+Use/NG+Err/Orth+Dial/NW+Sg+Nom+PxPl1:%>%{оеэØ%}м{ое%}к _LAK-Tenses-NomSg ;
-!+Sg+Nom+PxPl2:%>%{оеэØ%}нк _LAK-Tenses-NomSg ;
-!+Pl+Nom+PxPl2:%>%{оеэØ%}нк _LAK-Tenses-NomPl ;
-!+Gen+PxPl2:%>%{оеэØ%}нк _LAK-Tenses-Obl ;
-!+Sg+Nom+PxPl3:%>%{оеэØ%}ст _KIT-Tenses-NomSg ;
-!+Pl+Nom+PxPl3:%>%{оеэØ%}ст _KIT-Tenses-NomPl ;
-!+Gen+PxPl3:%>%{оеэØ%}ст _KIT-Tenses-Obl ;
+!+Sg+Nom+PxSg1:%>{оеэØ}м _KAL-Tenses-NomSg ;
+!+Use/NG+Err/Orth+Dial/SE+Pl+Nom+PxSg1:%>{оеэØ}м _KAL-Tenses-NomPl ;
+!+Gen+PxSg1:%>{оеэØ}м _KAL-Tenses-Obl ;
+!+Pl+Nom+PxSg1:%>{оеэØ}н{ЬØ} _KAL-Tenses-NomPl ;
+!+Gen+PxSg1:%>{оеэØ}н{ЬØ} _KAL-Tenses-Obl ;
+!+Sg+Nom+PxSg2:%>{оеэØ}т{ЬØ} _KIT-Tenses-NomSg ;
+!+Pl+Nom+PxSg2:%>{оеэØ}т{ЬØ} _KIT-Tenses-NomPl ;
+!+Gen+PxSg2:%>{оеэØ}т{ЬØ} _KIT-Tenses-Obl ;
+!+Sg+Nom+PxSg3:%>{оеэØ}з{оэØ} _KUDO-Tenses-NomSg ;
+!+Pl+Nom+PxSg3:%>{оеэØ}нз{оэØ} _KUDO-Tenses-NomPl ;
+!+Gen+PxSg3:%>{оеэØ}нз{оэØ} _KUDO-Tenses-Obl ;
+!+Sg+Nom+PxPl1:%>{оеэØ}н{оеэ}к _LAK-Tenses-NomSg ;
+!+Pl+Nom+PxPl1:%>{оеэØ}н{оеэ}к _LAK-Tenses-NomPl ;
+!+Gen+PxPl1:%>{оеэØ}н{оеэ}к _LAK-Tenses-Obl ;
+!+Use/NG+Err/Orth+Dial/NW+Sg+Nom+PxPl1:%>{оеэØ}м{ое}к _LAK-Tenses-NomSg ;
+!+Sg+Nom+PxPl2:%>{оеэØ}нк _LAK-Tenses-NomSg ;
+!+Pl+Nom+PxPl2:%>{оеэØ}нк _LAK-Tenses-NomPl ;
+!+Gen+PxPl2:%>{оеэØ}нк _LAK-Tenses-Obl ;
+!+Sg+Nom+PxPl3:%>{оеэØ}ст _KIT-Tenses-NomSg ;
+!+Pl+Nom+PxPl3:%>{оеэØ}ст _KIT-Tenses-NomPl ;
+!+Gen+PxPl3:%>{оеэØ}ст _KIT-Tenses-Obl ;
 
 LEXICON Possessives2-PxSg1
-+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:%>%{оеэØ%}м _KAL-Determinatives1 ;
-+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Determinatives1 ;
++Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:%>{оеэØ}м _KAL-Determinatives1 ;
++PxSg1:%>{оеэØ}н{ЬØ} _KAL-Determinatives1 ;
 
 LEXICON Possessives2-PxSg2
-+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Determinatives1 ;
-+Use/NG+Err/Orth+Dial/W+PxSg2:%>%{оеэØ%}нт%{ЬØ%} _KIT-Determinatives1 ;
++PxSg2:%>{оеэØ}т{ЬØ} _KIT-Determinatives1 ;
++Use/NG+Err/Orth+Dial/W+PxSg2:%>{оеэØ}нт{ЬØ} _KIT-Determinatives1 ;
 
 LEXICON Possessives2-PxSg3
-+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Determinatives1 ;
-+PxSg3:%>%{оеэØ%}нз%{оэØ%} K ; !2013-04-15!
-+PxSg3+Clt/Cop:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses-Obl ; !2013-04-15!
++PxSg3:%>{оеэØ}нз{оэØ} _KUDO-Determinatives1 ;
++PxSg3:%>{оеэØ}нз{оэØ} K ; !2013-04-15!
++PxSg3+Clt/Cop:%>{оеэØ}нз{оэØ} _KUDO-Tenses-Obl ; !2013-04-15!
 
-+Use/NG+Err/Orth+PxSg3:%>%{оеэØ%}нд%{оэØ%} _KUDO-Determinatives1 ;
-+Use/NG+Err/Orth+PxSg3:%>%{оеэØ%}нд%{оэØ%} K ; !2013-04-15!
-+Use/NG+Err/Orth+PxSg3+Clt/Cop:%>%{оеэØ%}нд%{оэØ%} _KUDO-Tenses-Obl ; !2013-04-15!
-+Use/NG+Err/Orth+PxSg3:%>%{оеэØ%}ндз%{оэØ%} _KUDO-Determinatives1 ;
-+Use/NG+Err/Orth+PxSg3:%>%{оеэØ%}ндз%{оэØ%} K ; !2013-04-15!
-+Use/NG+Err/Orth+PxSg3+Clt/Cop:%>%{оеэØ%}ндз%{оэØ%} _KUDO-Tenses-Obl ; !2013-04-15!
++Use/NG+Err/Orth+PxSg3:%>{оеэØ}нд{оэØ} _KUDO-Determinatives1 ;
++Use/NG+Err/Orth+PxSg3:%>{оеэØ}нд{оэØ} K ; !2013-04-15!
++Use/NG+Err/Orth+PxSg3+Clt/Cop:%>{оеэØ}нд{оэØ} _KUDO-Tenses-Obl ; !2013-04-15!
++Use/NG+Err/Orth+PxSg3:%>{оеэØ}ндз{оэØ} _KUDO-Determinatives1 ;
++Use/NG+Err/Orth+PxSg3:%>{оеэØ}ндз{оэØ} K ; !2013-04-15!
++Use/NG+Err/Orth+PxSg3+Clt/Cop:%>{оеэØ}ндз{оэØ} _KUDO-Tenses-Obl ; !2013-04-15!
 
 LEXICON Possessives2-PxPl1
-+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Determinatives1 ;
++PxPl1:%>{оеэØ}н{оеэ}к _LAK-Determinatives1 ;
 
 LEXICON Possessives2-PxPl2
-+PxPl2:%>%{оеэØ%}нк _LAK-Determinatives1 ;
++PxPl2:%>{оеэØ}нк _LAK-Determinatives1 ;
 
 LEXICON Possessives2-PxPl3
-+PxPl3:%>%{оеэØ%}ст _KIT-Determinatives1 ;
++PxPl3:%>{оеэØ}ст _KIT-Determinatives1 ;
 +Use/NG+Err/Orth+Dial/NW+PxPl3:%>ск _LAK-Determinatives1 ;
 +Use/NG+Err/Orth+Dial/NW+PxPl3:%>нст _KIT-Determinatives1 ;
 
 LEXICON Possessive-Before-K-noArrow
-+PxSg1:н%{ЬØ%} K ;
++PxSg1:н{ЬØ} K ;
 +PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:м K ;
-+PxSg2:т%{ЬØ%} K ;
-+PxSg2+Use/NG+Err/Orth+Dial/W:нт%{ЬØ%} K ;
-+PxSg3:нз%{оэØ%} K ;
-+Use/NG+Err/Orth+PxSg3:нд%{оэØ%} K ;
-+Use/NG+Err/Orth+PxSg3:ндз%{оэØ%} K ;
-+PxPl1:н%{оеэ%}к K-lak ;
++PxSg2:т{ЬØ} K ;
++PxSg2+Use/NG+Err/Orth+Dial/W:нт{ЬØ} K ;
++PxSg3:нз{оэØ} K ;
++Use/NG+Err/Orth+PxSg3:нд{оэØ} K ;
++Use/NG+Err/Orth+PxSg3:ндз{оэØ} K ;
++PxPl1:н{оеэ}к K-lak ;
 +PxPl2:нк K-lak ;
 +PxPl3:ст K ;
 +Use/NG+Err/Orth+Dial/NW+PxPl3:ск K ;
 
 LEXICON SPATIAL_DEFECTIVES_ABL/LAT/LOC/PRL
-+SP+Abl+Indef:%>%{дт%}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
-+SP+Abl+Indef:%>%{дт%}О1 K ;
-+Sg+Abl+Def:%>%{дт%}О1%>нть K ;
-+SP+Lat+Indef:%>%{оеэØ%}в K ;
-+SP+Loc+Indef:%>%{оеэØ%} K ;
-+Sg+Loc+Def:%>%{оеэØ%}%>нть K ;!алость ботужалекс
-+SP+Loc:%>%{оеэØ%} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abl+Indef:%>{дт}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abl+Indef:%>{дт}О1 K ;
++Sg+Abl+Def:%>{дт}О1%>нть K ;
++SP+Lat+Indef:%>{оеэØ}в K ;
++SP+Loc+Indef:%>{оеэØ} K ;
++Sg+Loc+Def:%>{оеэØ}%>нть K ;!алость ботужалекс
++SP+Loc:%>{оеэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
 +SP+Prl+Indef:%>Г2а K ;
 +Sg+Prl+Def:%>Г2а%>нть K ;
 +SP+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
@@ -3089,7 +3104,7 @@ LEXICON SPATIAL_DEFECTIVES_ABL/LAT/LOC/PRL
 LEXICON OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K
  OBL-PX-FOLLOWED-BY-END/FOC/COP ;
  K ;
-+Def:%>%{оеэØ%}нть K ;
++Def:%>{оеэØ}нть K ;
 !defective noun in def удало+N+Loc+Def: удалонть
 !2022-04-07: COPULA-4-OBL ;
 
@@ -3130,7 +3145,7 @@ LEXICON OBL-PX4-COPULA-OR-FOC
  K ;
  OBL-PX4-CLTCOP ;
 !LEXICON OBL-PX4-COPULA-OR-ILL
-!@U.CX.ILL@+Ill:@U.CX.ILL@%>%{оеэØ%}з OBL-PX4-CLTCOP ;
+!@U.CX.ILL@+Ill:@U.CX.ILL@%>{оеэØ}з OBL-PX4-CLTCOP ;
 ! OBL-PX4-CLTCOP ;
 
 LEXICON OBL-PX4-CLTCOP !ськамонзо:ськамо
@@ -3157,28 +3172,28 @@ LEXICON OBL-PX-FOLLOWED-BY-END-OR-FOC
  OBL-PX4-END-FOC_PXPL3 ;
 
 LEXICON OBL-PX4-END-FOC_PXSG1
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} K ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>%{оеэØ%}м K ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} K ;
+@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м K ;
 
 LEXICON OBL-PX4-END-FOC_PXSG2
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} K ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%}  K ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} K ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  K ;
 
 LEXICON OBL-PX4-END-FOC_PXSG3
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} K ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} K ;
 
 LEXICON OBL-PX4-END-FOC_PXPL1
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к K ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к K ;
 
 LEXICON OBL-PX4-END-FOC_PXPL2
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>%{оеэØ%}нк K ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк K ;
 
 LEXICON OBL-PX4-END-FOC_PXPL3
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ст K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}ск K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>%{оеэØ%}нст K ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ск K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст K ;
 LEXICON OBL-PX4-CLTCOP_PRON-PERSONS ! cькамо-:ськам
 :о OBL-PX4-CLTCOP_NMN-PERSONS ;
 +Der/Dimin:не OBL-PX4-CLTCOP_NMN-PERSONS ;
@@ -3209,28 +3224,28 @@ LEXICON OBL-PX4-CLTCOP_PXPL3
 
 ! THESE have nominal person tags passed to them with person confirmation through flags
 LEXICON OBL-PX4-CLTCOP_NMNSG1
-@U.PossPx.Sg1@:@U.PossPx.Sg1@%>%{оеэØ%}н%{ЬØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>%{оеэØ%}м COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>{оеэØ}м COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG2
-@U.PossPx.Sg2@:@U.PossPx.Sg2@%>%{оеэØ%}т%{ЬØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>%{оеэØ%}нт%{ЬØ%}  COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG3
-@U.PossPx.Sg3@:@U.PossPx.Sg3@%>%{оеэØ%}нз%{оэØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}нд%{оэØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>%{оеэØ%}ндз%{оэØ%} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL1
-@U.PossPx.Pl1@:@U.PossPx.Pl1@%>%{оеэØ%}н%{оеэ%}к COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl1@:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL2
-@U.PossPx.Pl2@:@U.PossPx.Pl2@%>%{оеэØ%}нк COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl2@:@U.PossPx.Pl2@%>{оеэØ}нк COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL3
-@U.PossPx.Pl3@:@U.PossPx.Pl3@%>%{оеэØ%}ст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>%{оеэØ%}ск COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>%{оеэØ%}нст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@:@U.PossPx.Pl3@%>{оеэØ}ст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}ск COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}нст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 
 

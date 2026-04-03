@@ -158,20 +158,20 @@ LEXICON PROP_KUDO_HOMESTEAD
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_PLC
 !LEXICON PROP-PLC_KAL
-:%>%{оеэØ%} LAT-INDEF ;
+:%>{оеэØ} LAT-INDEF ;
 : NMN_KAL ;
 
 !LEXICON PROP-PLC_KEL1
-!:%>%{оеэØ%} LAT-INDEF ;
+!:%>{оеэØ} LAT-INDEF ;
 !: NMN_KEL1 ;
 
 !LEXICON PROP-PLC_KIT
-!:%>%{оеэØ%} LAT-INDEF ;
+!:%>{оеэØ} LAT-INDEF ;
 !: NMN_KIT ;
 
 LEXICON PROP_OSH_PLC
 !LEXICON PROP-PLC_OSH
-:%>%{оеэØ%} LAT-INDEF ;
+:%>{оеэØ} LAT-INDEF ;
 : NMN_OSH ;
 
 LEXICON PROP_KUDO_PLC
@@ -188,7 +188,7 @@ LEXICON PROP_KUDO_PLC
 !!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-SETTLEMENT_KAL
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-!:%>%{оеэØ%} LAT-INDEF ;
+!:%>{оеэØ} LAT-INDEF ;
 +Sem/Plc: NMN_KAL ;
 
 LEXICON PROP-SETTLEMENT_KIT
@@ -335,14 +335,14 @@ LEXICON PROP_ART
 : N_KAL-Poss-Declension-CX ;
 
 !LEXICON PROP_JORK
-!:%{back%} N_JORK ;
+!:{back} N_JORK ;
 
 
 LEXICON PROP_KENKSH
-:%{frontSoft%} PROP_OSH ;
+:{frontSoft} PROP_OSH ;
 
 LEXICON PROP_TENGUSH
-+Err/Orth-front-linking-vowel:%{frontSoft%} PROP_OSH ;
++Err/Orth-front-linking-vowel:{frontSoft} PROP_OSH ;
  PROP_OSH ;
 
 LEXICON PROP_OSH
@@ -463,10 +463,10 @@ LEXICON PROP_OSH_PATRMAL
 +Sem/Mal-Patr: N_OSH-Def-Declension ;
 +Sem/Mal-Patr: _OSH-Indef-Declension ;
 +Sem/Mal-Patr: N_OSH-Poss-Declension-CX ;
-+Sem/Mal-Patr+Err/Orth-colloq:%{ichPat%} N_OSH-Derivation ;
-+Sem/Mal-Patr+Err/Orth-colloq:%{ichPat%} N_OSH-Def-Declension ;
-+Sem/Mal-Patr+Err/Orth-colloq:%{ichPat%} _OSH-Indef-Declension ;
-+Sem/Mal-Patr+Err/Orth-colloq:%{ichPat%} N_OSH-Poss-Declension-CX ;
++Sem/Mal-Patr+Err/Orth-colloq:{ichPat} N_OSH-Derivation ;
++Sem/Mal-Patr+Err/Orth-colloq:{ichPat} N_OSH-Def-Declension ;
++Sem/Mal-Patr+Err/Orth-colloq:{ichPat} _OSH-Indef-Declension ;
++Sem/Mal-Patr+Err/Orth-colloq:{ichPat} N_OSH-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO_PATRFEM
 +Sem/Fem-Patr: N_KUDO-Derivation ;

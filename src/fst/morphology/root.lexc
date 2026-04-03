@@ -228,9 +228,9 @@ Multichar_Symbols
  +Act	 !!≈ * @CODE@ * active voice (exo-tradition)
  +PrsPrc !!≈ * @CODE@ * present participle (only non-contrastive usage)
  +DemPrc !!≈ * @CODE@ * present participle (both contrastive and non-contrastive)
-  +ActPrcLong  !!≈ * @CODE@  %{иы%}й (This is dealt with elsewhere as an active present participle)
-  +ActPrcShort !!≈ * @CODE@  %{иы%}  (This is dealt with elsewhere as an active present participle)
-  +ActDemPrc   !!≈ * @CODE@  %{иы%}ця  (This is dealt with elsewhere as an active present participle)
+  +ActPrcLong  !!≈ * @CODE@  {иы}й (This is dealt with elsewhere as an active present participle)
+  +ActPrcShort !!≈ * @CODE@  {иы}  (This is dealt with elsewhere as an active present participle)
+  +ActDemPrc   !!≈ * @CODE@  {иы}ця  (This is dealt with elsewhere as an active present participle)
   +ConNeg !!≈ * @CODE@ * connegative, main verb complement to Neg, vow-stem
   +ConNegII !!≈ * @CODE@ * connegative, main verb complement to Neg, cons-stem
   +Ger !!≈ * @CODE@ * gerund This is used with Der/Ozj and VAbl
@@ -799,12 +799,12 @@ Multichar_Symbols
 
 
 !! And following triggers to control variation
- %{frontHard%}   !!= * @CODE@ — front harmony hard
- %{frontSoft%}   !!= * @CODE@ — front harmony soft
- %{back%}   !!= * @CODE@ — back harmony
- %{backHard%}   !!= * @CODE@ — back harmony
- %{dialM%}   !!= * @CODE@ — for Shoksha and Drakino Dial/M morphology
- %{ichPat%}  !!= * @CODE@ — for triggering colloquial partonymic forms
+ {frontHard}   !!= * @CODE@ — front harmony hard
+ {frontSoft}   !!= * @CODE@ — front harmony soft
+ {back}   !!= * @CODE@ — back harmony
+ {backHard}   !!= * @CODE@ — back harmony
+ {dialM}   !!= * @CODE@ — for Shoksha and Drakino Dial/M morphology
+ {ichPat}  !!= * @CODE@ — for triggering colloquial partonymic forms
 
 %^CnsRM      !!= * @CODE@ — Remove consonant
 
@@ -834,7 +834,7 @@ Multichar_Symbols
 !И4
 
 ! imperative suffix
-!%{КТ%}
+!{КТ}
 
 ! connegative suffix rendering consonant
 !К2
@@ -842,21 +842,21 @@ Multichar_Symbols
 ! connegative suffix rendering vowel
 !К3
 
-А1 %{АЯ%} Г1 Г2 Г4 %{ЬØ%} Т1 О1 %{иы%} %{КТ%} К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %^TD %^Д1 %>
+А1 {АЯ} Г1 Г2 Г4 {ЬØ} Т1 О1 {иы} {КТ} К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %^TD %^Д1 %>
 Н1
-%{дт%} !!≈ * _@CODE@_ in ablative
+{дт} !!≈ * _@CODE@_ in ablative
 
-%{ое%}   !!≈ * @CODE@ inflectional suffix protovowel  аволь аволинь
-%{оеэØ%} !!≈ * @CODE@ Suffix-initial archiphoneme
-%{уиыØ%} !!≈ * @CODE@ Suffix-initial archiphoneme in dialect
+{ое}   !!≈ * @CODE@ inflectional suffix protovowel  аволь аволинь
+{оеэØ} !!≈ * @CODE@ Suffix-initial archiphoneme
+{уиыØ} !!≈ * @CODE@ Suffix-initial archiphoneme in dialect
 %^RegrRaise !!≈ * @CODE@ идиса, идима ! raising e:i, o:u before a in NW
 %^Break	    !!≈ * @CODE@  ашоян disallow о:
 
 
-%{оеэ%}	  !! вт%{оеэ%}мО1 suffix-internal archivowel
-%{оэØ%}	 !!≈ * @CODE@ inessive, elative; this is the hard/broad s
-%{ОØ%} !!≈ * @CODE@ Stem-final archiphoneme панго
-%{ЕØ%} !!≈ * @CODE@ Stem-final archiphoneme тинге
+{оеэ}	  !! вт{оеэ}мО1 suffix-internal archivowel
+{оэØ}	 !!≈ * @CODE@ inessive, elative; this is the hard/broad s
+{ОØ} !!≈ * @CODE@ Stem-final archiphoneme панго
+{ЕØ} !!≈ * @CODE@ Stem-final archiphoneme тинге
 
 %^OldAE	!!= @CODE@ — This allows Ӓ4 and Ӓ3 to be realized as я 
 %^NoLinkVow !!= * @CODE@ — No linking vowel is used only after consonants for error
@@ -1436,16 +1436,16 @@ LEXICON BAHUV_KUDO
 
 !LEXICON malaso-SPAT
 !!! malaso:mala
-!+Adv+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
+!+Adv+Ela:%>ст{оэØ} _KUDO-Conjugation ;
 !+Adv+Ill:%>с K ;
-!+Adv+Ine:%>с%{оэØ%} _KUDO-Conjugation ;
+!+Adv+Ine:%>с{оэØ} _KUDO-Conjugation ;
 !+Adv+Prl:%>Г2а _KUDO-Conjugation ;
 !+Adv+Lat:%>в _KUDO-Conjugation ;
 
 LEXICON ushoso-SPAT
-+Ela:%>ст%{оэØ%} _KUDO-Conjugation ;
++Ela:%>ст{оэØ} _KUDO-Conjugation ;
 +Ill:%>с K ;
-+Ine:%>с%{оэØ%} _KUDO-Conjugation ;
++Ine:%>с{оэØ} _KUDO-Conjugation ;
 +Prl:%>Г2а _KUDO-Conjugation ;
 
 
@@ -1569,7 +1569,7 @@ LEXICON alo-SPAT-NoArg
 +Adv+Orth/PhonDeriv+Loc+Der+Der/cje:%>це N2_DEF_DECLENSION_KUDO ;
 +Adv+Loc+Der+Der/sje:%>се N2_DEF_DECLENSION_KUDO ;
 +Adv+Der+Der/ks:%>кс N_OSH ;
-+Adv+Lat:%>%{оеэØ%}в K ;
++Adv+Lat:%>{оеэØ}в K ;
 +Adv+Abl:%>дО1 K ;
 +Adv+Loc:%>О1 K ;
 +Adv+Prl:%>Г2а K ;
@@ -1587,7 +1587,7 @@ LEXICON alo-SPAT-NoArg
 !+N+Loc:%>О1 K ;
 
 !LEXICON kovolo-Spat
-!+Interr+Lat+Indef:%>%{оеэØ%}в K ;
+!+Interr+Lat+Indef:%>{оеэØ}в K ;
 !+Interr+Abl+Indef:%>дО1 N2_DEF_DECLENSION_KUDO ;
 !+Interr+Loc+Indef+Der+Der/MWN+N:%>О1 N2_DEF_DECLENSION_KUDO ;
 !+Interr+Prl+Indef+Der+Der/MWN+N:%>Г2а N2_DEF_DECLENSION_KUDO ;
@@ -1595,7 +1595,7 @@ LEXICON alo-SPAT-NoArg
 !+Interr+Loc:%>О1 K ; !_KUDO-Indef--Poss ;
 !+Interr+Prl:%>Г2а K ; !_KUDO-Indef--Poss ;
 
-!+Rel+Lat+Indef:%>%{оеэØ%}в K ;
+!+Rel+Lat+Indef:%>{оеэØ}в K ;
 !+Rel+Abl+Indef:%>дО1 N2_DEF_DECLENSION_KUDO ;
 !+Rel+Loc+Indef+Der+Der/MWN+N:%>О1 N2_DEF_DECLENSION_KUDO ;
 !+Rel+Prl+Indef+Der+Der/MWN+N:%>Г2а N2_DEF_DECLENSION_KUDO ;
@@ -1620,16 +1620,16 @@ LEXICON alo-SPAT-NoArg
 ! _OSH-Indef--Poss ;
 
 !LEXICON _OSH--DefSg-
-!+Sg+Def:%>%{оеэØ%}нть K ;
+!+Sg+Def:%>{оеэØ}нть K ;
 
 !LEXICON _OSH-Indef--Poss
 !+Indef: _OSH-Tenses-Obl ;
-!+PxSg1:%>%{оеэØ%}н%{ЬØ%} _KAL-Tenses-Obl ;
-!+PxSg2:%>%{оеэØ%}т%{ЬØ%} _KIT-Tenses-Obl ;
-!+PxSg3:%>%{оеэØ%}нз%{оэØ%} _KUDO-Tenses-Obl ;
-!+PxPl1:%>%{оеэØ%}н%{оеэ%}к _LAK-Tenses-Obl ;
-!+PxPl2:%>%{оеэØ%}нк _LAK-Tenses-Obl ;
-!+PxPl3:%>%{оеэØ%}ст _KIT-Tenses-Obl ;
+!+PxSg1:%>{оеэØ}н{ЬØ} _KAL-Tenses-Obl ;
+!+PxSg2:%>{оеэØ}т{ЬØ} _KIT-Tenses-Obl ;
+!+PxSg3:%>{оеэØ}нз{оэØ} _KUDO-Tenses-Obl ;
+!+PxPl1:%>{оеэØ}н{оеэ}к _LAK-Tenses-Obl ;
+!+PxPl2:%>{оеэØ}нк _LAK-Tenses-Obl ;
+!+PxPl3:%>{оеэØ}ст _KIT-Tenses-Obl ;
 
 !LEXICON _KUDO-Indef-DefSg-Poss
 ! _KUDO--DefSg- ;
@@ -1637,7 +1637,7 @@ LEXICON alo-SPAT-NoArg
 ! OBL-PX-FOLLOWED-BY-END-OR-FOC ;
 
 !LEXICON _KUDO--DefSg-
-!+Sg+Def:%>%{оеэØ%}нть K ;
+!+Sg+Def:%>{оеэØ}нть K ;
 
 !LEXICON _KUDO-Indef--Poss
 !+Indef: _KUDO-Tenses-Obl ;
