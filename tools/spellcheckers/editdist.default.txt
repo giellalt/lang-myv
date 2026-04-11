@@ -84,44 +84,51 @@
 @@
 
 ## Transition pair specifications + weight:
-е	ё	0.5
-Е	Ё	0.5
-А	Л	0.5
-е	э	0.8
-э	е	0.8
-и	е	0.8
-п	л	0.8
-л	п	0.8
-с	о	0.8
-о	с	0.8
-о	е	0.8
-о	э	0.8
-е	о	0.8
-э	о	0.8
+е	ё	0
+Е	Ё	1
+е	э	1
+э	е	1
+и	е	2
+о	е	2
+о	э	2
+е	о	2
+э	о	2
+п	б	2
+т	д	2
+к	г	2
+б	п	2
+д	т	2
+г	к	2
+д	ц	2
 ## OCR This goes elsewhere
-ь	ъ	0.8
-ъ	ь	0.8
-ё	с	0.8
-е	с	0.8
-з	э	0.8
-э	з	0.8
-с	е	0.8
-т	г	0.8
-л	д	0.8
-д	л	0.8
-ц	д	0.8
-д	ц	0.8
-й	н	0.9
-и	н	0.9
-и	п	0.9
-н	и	0.9
-н	п	0.9
-п	и	0.9
-п	н	0.9
+#А	Л	4
+#п	л	0.8
+#л	п	0.8
+#с	о	0.8
+#о	с	0.8
+#ь	ъ	0.8
+#ъ	ь	0.8
+#ё	с	0.8
+#е	с	0.8
+#з	э	0.8
+#э	з	0.8
+#с	е	0.8
+#т	г	0.8
+#л	д	0.8
+#д	л	0.8
+#ц	д	0.8
+#д	ц	0.8
+#й	н	0.9
+#и	н	0.9
+#и	п	0.9
+#н	и	0.9
+#н	п	0.9
+#п	и	0.9
+#п	н	0.9
 
 ## Swaps. NB! Please note that these depend on the variable
 ## USE_SWAPS in Makefile.am in this directory. Also note that
 ## enabling swaps is computationally expensive. See note in
 ## Makefile.am.
-## Change dh into hd with the weight 0.5:
-##d,h	h,d	0.5
+## Change dh into hd with the weight 1:
+##d,h	h,d	1
