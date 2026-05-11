@@ -920,7 +920,7 @@ TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %> _ ;
 
 "Disallow ^H before t and subsequent {ЬØ}"
 !! **@RULENAME@**
-%^H:0 /<= [ :Vows | CnsDent | щ | Щ | й | Й | ь: | Ь: ]  _ %> т [ %{ЬØ%}: | н Е3: ] ;
+%^H:0 /<= [ :Vows (%{back%}: | %{backHard%}: |%{frontHard%}: | %{frontSoft%}: ) | CnsDent | щ | Щ | й | Й | ь: | Ь: ]  _ %> т [ %{ЬØ%}: | н Е3: ] ;
                           [:Vows| й | Й | ь: | Ь: ] (CnsNonDentShib) CnsNonDentShib  _ %> т [ %{ЬØ%}: | н Е3: ] ;
              :Vows [м б|й к |к к|п к|м м|й п| м п|й ф]   _ %> т [ %{ЬØ%}: | н Е3: ]  ;
  BTV [CnsNonDent - [ щ | Щ]]  _ %> т [ %{ЬØ%}: | н Е3: ] ;
