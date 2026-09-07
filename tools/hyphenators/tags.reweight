@@ -8,6 +8,9 @@
 # If there is no leading +, the weight will be multiplied with the existing w.
 # If there are multiple instances of the same tag for a word form, each instance
 # will get the specified weight.
+# 2026-09-07 removing weights AGAIN from Erzya PX,
+# having them was like putting weights on personal pronouns
+# Der/MWN is definitely useful
 
 +Cmp	+20
 +Der	+10
@@ -16,10 +19,5 @@
 +Der3	+10
 +Der4	+10
 +Der5	+10
-+PxSg1	+30
-+PxSg2	+30
-+PxSg3	+30
-+PxPl1	+30
-+PxPl2	+30
-+PxPl3	+30
++Der/MWN	+300
 +Use/SpellNoSugg	+10000
