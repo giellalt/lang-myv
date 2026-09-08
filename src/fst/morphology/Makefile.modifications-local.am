@@ -27,4 +27,6 @@ generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_at)echo "Cannot find shared urj Cyrl"
 	$(AM_V_GEN)echo "! Cannot find shared urj Cyrl" > $@
+	$(AM_V_at)echo "LEXICON urj-Cyrl-$(GLANG)-$*-error" >> $@
+	$(AM_V_at)echo "0 # ;" >> $@
 endif
