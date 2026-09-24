@@ -1125,8 +1125,8 @@ LEXICON N_KAL-Derivation
 +SP+Cmpr+Indef:%>{оеэØ}шка N2Dem-SE ;
 +SP+Abe+Indef:%>вт{оеэ}мО1 N2Dem-SE ;
 +SP+Abe+Indef+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 N2Dem-SE ;
-+SP+Tra+Indef:%>кс N2Dem-SE ;!CHECKME 2019-01-26
-+SP+Tra+Indef:%>кс%>{оеэØ} N2Dem-SE ;
+!+SP+Tra+Indef:%>кс N2Dem-SE ;!CHECKME 2026-09-24 would кудокссесь exist
++SP+Tra+Indef:%>кс%>{оеэØ} N2Dem-SE ; !кудоксосесь
 
 
 +Sg+Gen+Def:%>{оеэØ}нть%> N2Dem-SE ; !!= * **@CODE@** _ь_ retension through double %>%>
@@ -1368,11 +1368,11 @@ LEXICON N_KUDO-Derivation-noArrow
 
 
 !These need SP for Moksha
-@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL1 ;
+@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_NMNPL1 ;
 !These need SP for Moksha
-@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL2 ;
+@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_NMNPL2 ;
 !These need SP for Moksha 2024-04-02
-@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_PXPL3 ;
+@U.CX.GEN@+SP+Gen:@U.CX.GEN@ OBL-PX4-CLTCOP_NMNPL3 ;
 +SP+Gen: POSSX-OBL4-N2DEM-SE ;!2024-04-02 one for singular
 
 
@@ -1869,7 +1869,7 @@ LEXICON _KIT-Indef-Declension
 
 LEXICON _KIT-Indef-Declension-MUTUAL
 :%>{оеэØ} CMP-INDEF ;
-:%>{оеэØ} TRA-INDEF ;
+: TRA-INDEF ;
 
 LEXICON _LAK-Indef-Declension
 ! _LAK-Indef-Declension-SG ;
@@ -1891,7 +1891,7 @@ LEXICON _LAK-Indef-Declension
 
 LEXICON _LAK-Indef-Declension-MUTUAL
 :%>{оеэØ} CMP-INDEF ;
-:%>{оеэØ} TRA-INDEF ;
+: TRA-INDEF ;
 
 LEXICON _KAL-Indef-Declension
 ! _KAL-Indef-Declension-SG ;
@@ -1914,7 +1914,7 @@ LEXICON _KAL-Indef-Declension-PL
 
 LEXICON _KAL-Indef-Declension-MUTUAL
 :%>{оеэØ} CMP-INDEF ;
-:%>{оеэØ} TRA-INDEF ;
+: TRA-INDEF ;
 
 
 
@@ -1950,7 +1950,7 @@ LEXICON _OSH-Indef-Declension-MUTUAL
  LAT-INDEF ;
  PRL-INDEF ;
  TMP-INDEF ;
-:%>{оеэØ} TRA-INDEF ;
+: TRA-INDEF ;
 
 
 
@@ -2234,31 +2234,31 @@ LEXICON N_KUDO-Poss-Declension-CX-Mutual
 !! ## CASES BEFORE POSSESSIVE TAGS 
 
 LEXICON ABE-PX
-+SP+Abe:%>вт{оеэ}мО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
-+SP+Abe+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abe:%>вт{оеэ}мО1 OBL-PX4-CLTCOP ;
++SP+Abe+Err/Orth-stem-soft-should-be-0:%^SoftRetain%>темО1 OBL-PX4-CLTCOP ;
 
 LEXICON ABL-PX
-+SP+Abl:%>{дт}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abl:%>{дт}О1 OBL-PX4-CLTCOP ;
 
 LEXICON CMP-PX
-+SP+Cmpr:%>шка OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Cmpr:%>шка OBL-PX4-CLTCOP ;
 
 LEXICON ELA-PX
-+SP+Ela:%>ст{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Ela:%>ст{оэØ} OBL-PX4-CLTCOP ;
 
 LEXICON ILL-PX
-+SP+Ill:%>{оеэØ}з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
-+SP+Ill+Err/Orth-no-linking-vowel:%>%^NoLinkVow%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
++SP+Ill:%>{оеэØ}з OBL-PX4-CLTCOP ;
++SP+Ill+Err/Orth-no-linking-vowel:%>%^NoLinkVow%>з OBL-PX4-CLTCOP ;
 
 
 LEXICON INE-PX
-+SP+Ine:%>с{оэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Ine:%>с{оэØ} OBL-PX4-CLTCOP ;
 
 !LEXICON LOC-PX
-!+SP+Loc:%>{оеэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!+SP+Loc:%>{оеэØ} OBL-PX4-CLTCOP ;
 
 LEXICON PRL-PX
-+SP+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Prl:%>Г2а OBL-PX4-CLTCOP ;
 
 LEXICON TRA-PX
 +SP+Tra:%>кс OBL-PX4-END-FOC ;
@@ -2465,7 +2465,7 @@ LEXICON _OSH-SecondaryDeclination_SgDet-PossPx
 !+Com:%>нек K-lak ;
 !+Temp:%>нЕ3 NounEnd_K ;
 !!!This one would render voiceless "s"
-!+Use/NG+Err/Orth+Dial+Ill:%>з OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!+Use/NG+Err/Orth+Dial+Ill:%>з OBL-PX4-CLTCOP ;
 !+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з{оэØ} NounEnd_K ;
 !+Use/NG+Err/Orth+Dial+Sg+Nom+PxSg3:%>з{оэØ} CLT/COP_SG ;
 !Nouns_Pl ;
@@ -2720,11 +2720,11 @@ LEXICON _OSH-PossPX1
 !! in the present there is no destinction between ScSg3 and ScPl3
 !! Possessor indices allowing (1) #, (2) Foc, (3) Der/Pr ()
 !!
-!OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+!OBL-PX4-CLTCOP ;
 
 !LEXICON POSSX4-END !!= * __@CODE@__ Word final possessor index, no subsequent clitic
 !!! _KUDO-Possessive-Word-Final
-!OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+!OBL-PX4-CLTCOP ;
 
 !LEXICON POSSX4-END-DAT
 !+PxSg1:%>{оеэØ}н{ЬØ} ENDLEX ;
@@ -3096,55 +3096,57 @@ LEXICON Possessive-Before-K-noArrow
 +Use/NG+Err/Orth+Dial/NW+PxPl3:ск K ;
 
 LEXICON SPATIAL_DEFECTIVES_ABL/LAT/LOC/PRL
-+SP+Abl+Indef:%>{дт}О1 OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Abl+Indef:%>{дт}О1 OBL-PX4-CLTCOP ;
 +SP+Abl+Indef:%>{дт}О1 K ;
 +Sg+Abl+Def:%>{дт}О1%>нть K ;
 +SP+Lat+Indef:%>{оеэØ}в K ;
 +SP+Loc+Indef:%>{оеэØ} K ;
 +Sg+Loc+Def:%>{оеэØ}%>нть K ;!алость ботужалекс
-+SP+Loc:%>{оеэØ} OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Loc:%>{оеэØ} OBL-PX4-CLTCOP ;
 +SP+Prl+Indef:%>Г2а K ;
 +Sg+Prl+Def:%>Г2а%>нть K ;
-+SP+Prl:%>Г2а OBL-PX-FOLLOWED-BY-END/FOC/COP ;
++SP+Prl:%>Г2а OBL-PX4-CLTCOP ;
 
 LEXICON OBL_PX/DEF_FOLLOWED_BY_END/FOC/COP_OR_K
- OBL-PX-FOLLOWED-BY-END/FOC/COP ;
+ OBL-PX4-CLTCOP ;
  K ;
 +Def:%>{оеэØ}нть K ;
 !defective noun in def удало+N+Loc+Def: удалонть
 !2022-04-07: COPULA-4-OBL ;
 
-LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP
- OBL-PX4-END/FOC/CLTCOP_PXSG1 ;
- OBL-PX4-END/FOC/CLTCOP_PXSG2 ;
- OBL-PX4-END/FOC/CLTCOP_PXSG3 ;
- OBL-PX4-END/FOC/CLTCOP_PXPL1 ;
- OBL-PX4-END/FOC/CLTCOP_PXPL2 ;
- OBL-PX4-END/FOC/CLTCOP_PXPL3 ;
+!LEXICON OBL-PX-FOLLOWED-BY-END/FOC/COP
+! OBL-PX4-END/FOC/CLTCOP_PXSG1 ;
+! OBL-PX4-END/FOC/CLTCOP_PXSG2 ;
+! OBL-PX4-END/FOC/CLTCOP_PXSG3 ;
+! OBL-PX4-END/FOC/CLTCOP_PXPL1 ;
+! OBL-PX4-END/FOC/CLTCOP_PXPL2 ;
+! OBL-PX4-END/FOC/CLTCOP_PXPL3 ;
 
-LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG1
-OBL-PX4-END-FOC_PXSG1 ;
-OBL-PX4-CLTCOP_PXSG1 ;
+!## 20260924 begin
+!LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG1
+!!OBL-PX4-END-FOC_PXSG1 ;
+!OBL-PX4-CLTCOP_NMNSG1 ;
 
-LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG2
-OBL-PX4-END-FOC_PXSG2 ;
-OBL-PX4-CLTCOP_PXSG2 ;
+!LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG2
+!!OBL-PX4-END-FOC_PXSG2 ;
+!OBL-PX4-CLTCOP_NMNSG2 ;
 
-LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG3
-OBL-PX4-END-FOC_PXSG3 ;
-OBL-PX4-CLTCOP_PXSG3 ;
+!LEXICON OBL-PX4-END/FOC/CLTCOP_PXSG3
+!!OBL-PX4-END-FOC_PXSG3 ;
+!OBL-PX4-CLTCOP_NMNSG3 ;
 
-LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL1
-OBL-PX4-END-FOC_PXPL1 ;
-OBL-PX4-CLTCOP_PXPL1 ;
+!LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL1
+!!OBL-PX4-END-FOC_PXPL1 ;
+!OBL-PX4-CLTCOP_NMNPL1 ;
 
-LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL2
-OBL-PX4-END-FOC_PXPL2 ;
-OBL-PX4-CLTCOP_PXPL2 ;
+!LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL2
+!!OBL-PX4-END-FOC_PXPL2 ;
+!OBL-PX4-CLTCOP_NMNPL2 ;
 
-LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL3
-OBL-PX4-END-FOC_PXPL3 ;
-OBL-PX4-CLTCOP_PXPL3 ;
+!LEXICON OBL-PX4-END/FOC/CLTCOP_PXPL3
+!!OBL-PX4-END-FOC_PXPL3 ;
+!OBL-PX4-CLTCOP_NMNPL3 ;
+!## 20260924
 
 !!
 LEXICON OBL-PX4-COPULA-OR-FOC
@@ -3155,103 +3157,105 @@ LEXICON OBL-PX4-COPULA-OR-FOC
 ! OBL-PX4-CLTCOP ;
 
 LEXICON OBL-PX4-CLTCOP !ськамонзо:ськамо
-OBL-PX4-CLTCOP_PXSG1 ;
-OBL-PX4-CLTCOP_PXSG2 ;
-OBL-PX4-CLTCOP_PXSG3 ;
-OBL-PX4-CLTCOP_PXPL1 ;
-OBL-PX4-CLTCOP_PXPL2 ;
-OBL-PX4-CLTCOP_PXPL3 ;
+OBL-PX4-CLTCOP_NMNSG1 ;
+OBL-PX4-CLTCOP_NMNSG2 ;
+OBL-PX4-CLTCOP_NMNSG3 ;
+OBL-PX4-CLTCOP_NMNPL1 ;
+OBL-PX4-CLTCOP_NMNPL2 ;
+OBL-PX4-CLTCOP_NMNPL3 ;
 
 !!
 
 LEXICON OBL-PX4-END-FOC
- OBL-PX-FOLLOWED-BY-END-OR-FOC ;
+ OBL-PX4-CLTCOP ;
 ! K ;
 
-LEXICON OBL-PX-FOLLOWED-BY-END-OR-FOC
+!LEXICON OBL-PX-FOLLOWED-BY-END-OR-FOC
 !! word boundary or focus
- OBL-PX4-END-FOC_PXSG1 ;
- OBL-PX4-END-FOC_PXSG2 ;
- OBL-PX4-END-FOC_PXSG3 ;
- OBL-PX4-END-FOC_PXPL1 ;
- OBL-PX4-END-FOC_PXPL2 ;
- OBL-PX4-END-FOC_PXPL3 ;
+! OBL-PX4-END-FOC_PXSG1 ;
+! OBL-PX4-END-FOC_PXSG2 ;
+! OBL-PX4-END-FOC_PXSG3 ;
+! OBL-PX4-END-FOC_PXPL1 ;
+! OBL-PX4-END-FOC_PXPL2 ;
+! OBL-PX4-END-FOC_PXPL3 ;
+! OBL-PX4-CLTCOP ;
 
-LEXICON OBL-PX4-END-FOC_PXSG1
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} K ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м K ;
+!LEXICON OBL-PX4-END-FOC_PXSG1
+!@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} K ;
+!@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE+PxSg1:@U.PossPx.Sg1@%>{оеэØ}м K ;
 
-LEXICON OBL-PX4-END-FOC_PXSG2
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} K ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  K ;
+!LEXICON OBL-PX4-END-FOC_PXSG2
+!@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} K ;
+!@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  K ;
 
-LEXICON OBL-PX4-END-FOC_PXSG3
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} K ;
+!LEXICON OBL-PX4-END-FOC_PXSG3
+!@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} K ;
+!@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} K ;
+!@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-ndz:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} K ;
 
-LEXICON OBL-PX4-END-FOC_PXPL1
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к K ;
+!LEXICON OBL-PX4-END-FOC_PXPL1
+!@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к K ;
 
-LEXICON OBL-PX4-END-FOC_PXPL2
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк K ;
+!LEXICON OBL-PX4-END-FOC_PXPL2
+!@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк K ;
 
-LEXICON OBL-PX4-END-FOC_PXPL3
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ск K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст K ;
+!LEXICON OBL-PX4-END-FOC_PXPL3
+!@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст K ;
+!@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ск K ;
+!@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст K ;
+
 LEXICON OBL-PX4-CLTCOP_PRON-PERSONS ! cькамо-:ськам
-:о OBL-PX4-CLTCOP_NMN-PERSONS ;
-+Der/Dimin:не OBL-PX4-CLTCOP_NMN-PERSONS ;
-+Der/Dimin:нэ OBL-PX4-CLTCOP_NMN-PERSONS ;
-+Der/Dimin:ине OBL-PX4-CLTCOP_NMN-PERSONS ;
-+Der/Dimin:нине OBL-PX4-CLTCOP_NMN-PERSONS ;
+:о OBL-PX4-CLTCOP ;
++Der/Dimin:не OBL-PX4-CLTCOP ;
++Der/Dimin:нэ OBL-PX4-CLTCOP ;
++Der/Dimin:ине OBL-PX4-CLTCOP ;
++Der/Dimin:нине OBL-PX4-CLTCOP ;
 
-LEXICON OBL-PX4-CLTCOP_NMN-PERSONS
-@U.PossPx.Sg1@ OBL-PX4-CLTCOP_NMNSG1 ;
-@U.PossPx.Sg2@ OBL-PX4-CLTCOP_NMNSG2 ;
-@U.PossPx.Sg3@ OBL-PX4-CLTCOP_NMNSG3 ;
-@U.PossPx.Pl1@ OBL-PX4-CLTCOP_NMNPL1 ;
-@U.PossPx.Pl2@ OBL-PX4-CLTCOP_NMNPL2 ;
-@U.PossPx.Pl3@ OBL-PX4-CLTCOP_NMNPL3 ;
+!LEXICON OBL-PX4-CLTCOP_NMN-PERSONS
+!@U.PossPx.Sg1@ OBL-PX4-CLTCOP_NMNSG1 ;
+!@U.PossPx.Sg2@ OBL-PX4-CLTCOP_NMNSG2 ;
+!@U.PossPx.Sg3@ OBL-PX4-CLTCOP_NMNSG3 ;
+!@U.PossPx.Pl1@ OBL-PX4-CLTCOP_NMNPL1 ;
+!@U.PossPx.Pl2@ OBL-PX4-CLTCOP_NMNPL2 ;
+!@U.PossPx.Pl3@ OBL-PX4-CLTCOP_NMNPL3 ;
 !!
-LEXICON OBL-PX4-CLTCOP_PXSG1
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@ OBL-PX4-CLTCOP_NMNSG1 ;
-LEXICON OBL-PX4-CLTCOP_PXSG2
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@ OBL-PX4-CLTCOP_NMNSG2 ;
-LEXICON OBL-PX4-CLTCOP_PXSG3
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@ OBL-PX4-CLTCOP_NMNSG3 ;
-LEXICON OBL-PX4-CLTCOP_PXPL1
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@ OBL-PX4-CLTCOP_NMNPL1 ;
-LEXICON OBL-PX4-CLTCOP_PXPL2
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@ OBL-PX4-CLTCOP_NMNPL2 ;
-LEXICON OBL-PX4-CLTCOP_PXPL3
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@ OBL-PX4-CLTCOP_NMNPL3 ;
+!LEXICON OBL-PX4-CLTCOP_PXSG1
+!@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@ OBL-PX4-CLTCOP_NMNSG1 ;
+!LEXICON OBL-PX4-CLTCOP_PXSG2
+!@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@ OBL-PX4-CLTCOP_NMNSG2 ;
+!LEXICON OBL-PX4-CLTCOP_PXSG3
+!@U.PossPx.Sg3@:@U.PossPx.Sg3@ OBL-PX4-CLTCOP_NMNSG3 ;
+!LEXICON OBL-PX4-CLTCOP_PXPL1
+!@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@ OBL-PX4-CLTCOP_NMNPL1 ;
+!LEXICON OBL-PX4-CLTCOP_PXPL2
+!@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@ OBL-PX4-CLTCOP_NMNPL2 ;
+!LEXICON OBL-PX4-CLTCOP_PXPL3
+!@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@ OBL-PX4-CLTCOP_NMNPL3 ;
 
 ! THESE have nominal person tags passed to them with person confirmation through flags
 LEXICON OBL-PX4-CLTCOP_NMNSG1
-@U.PossPx.Sg1@:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>{оеэØ}м COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>{оеэØ}м COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG2
-@U.PossPx.Sg2@:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@+PxSg2+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG3
-@U.PossPx.Sg3@:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+Use/NG+Err/Orth:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL1
-@U.PossPx.Pl1@:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL2
-@U.PossPx.Pl2@:@U.PossPx.Pl2@%>{оеэØ}нк COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL3
-@U.PossPx.Pl3@:@U.PossPx.Pl3@%>{оеэØ}ст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}ск COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}нст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+PxPl3+Use/NG+Err/Orth-st-sk+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}ск COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+PxPl3+Use/NG+Err/Orth-st-nst+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}нст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
 
 
 
