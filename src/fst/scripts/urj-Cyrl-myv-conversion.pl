@@ -20,56 +20,57 @@ while(<>) {
     	s/ PROP-PLC_VELE/ PROP_VELE/g ;
     	s/ PROP-PLC_KUDO/ PROP_KUDO/g ;
     	s/ PROP_RUS_JA/ PROP_KUDO/g ;
-        s/(о|а|я|ё|у|ю) CYRL-VOW_SUR/$1 N_KUDO/g ;
-        s/(е|ы|и|э) CYRL-VOW_SUR/$1 N_VELE/g ;
+        s/(о|а|я|ё|у|ю) CYRL-VOW_SUR/$1 PROP_KUDO_sur/g ;
+        s/(е|ы|и|э) CYRL-VOW_SUR/$1 PROP_VELE_sur/g ;
         s/(е|ы|и|э) PROP_KUDO/$1 PROP_VELE/g ;
-	s/(о|а|я|ё|у|ю)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2$3 N_OZKS/g ;
-	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2$3 N_LEVKS/g ;
+	s/(о|а|я|ё|у|ю)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2$3 PROP_BS_sur/g ;
+	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) CYRL-SIBILANT_SUR/$1$2$3 PROP_FS_sur/g ;
 
-	s/(о|а|я|ё|у|ю)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) (PROP_KAL|PROP_OSH)/$1$2$3 N_OZKS/g ;
-	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) (PROP_KAL|PROP_OSH)/$1$2$3 N_LEVKS/g ;
+	s/(о|а|я|ё|у|ю)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) (PROP_KAL|PROP_OSH)/$1$2$3 PROP_BS/g ;
+	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(с|нс|мс|ц|кс) (PROP_KAL|PROP_OSH)/$1$2$3 PROP_FS/g ;
 	
-	s/(о|а|я|ё|у|ю)(ч|ш|ж) CYRL-SIBILANT_SUR/$1$2 N_OSH/g ;
-	s/(е|ы|и|э)(ч|ш|ж) CYRL-SIBILANT_SUR/$1$2 N_KENKSH/g ;
+	s/(о|а|я|ё|у|ю)(ч|ш|ж) CYRL-SIBILANT_SUR/$1$2 PROP_BSH_sur/g ;
+	s/(е|ы|и|э)(ч|ш|ж) CYRL-SIBILANT_SUR/$1$2 PROP_FSH_sur/g ;
 	
-	s/(о|а|я|ё|у|ю)(ч|ш|ж) (PROP_KAL|PROP_OSH)/$1$2 PROP_OSH/g ;
-	s/(е|ы|и|э)(ч|ш|ж) (PROP_KAL|PROP_OSH)/$1$2 PROP_KENKSH/g ;
+	s/(о|а|я|ё|у|ю)(ч|ш|ж) (PROP_KAL|PROP_OSH)/$1$2 PROP_BSH/g ;
+	s/(е|ы|и|э)(ч|ш|ж) (PROP_KAL|PROP_OSH)/$1$2 PROP_FSH/g ;
 	
-	s/(о|а|я|ё|у|ю)(д|л|н|р) CYRL-SIBILANT_SUR/$1$2 N_KAL/g ;
-	s/(е|ы|и|э)(д|л|н|р) CYRL-SIBILANT_SUR/$1$2 N_TYL/g ;
+	s/(о|а|я|ё|у|ю)(д|л|н|р) CYRL-SIBILANT_SUR/$1$2 PROP_BL_sur/g ;
+	s/(е|ы|и|э)(д|л|н|р) CYRL-SIBILANT_SUR/$1$2 PROP_FL_sur/g ;
 	
-	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(д|л|н|р) PROP_KAL/$1$2$3 PROP_TYL/g ;
-	s/(д|л|н|р)(ь) PROP_KAL/$1$2 PROP_KEL1/g ;
+	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(д|л|н|р) PROP_KAL/$1$2$3 PROP_FL/g ;
+	s/(д|л|н|р)(ь) PROP_KAL/$1$2 PROP_L1/g ;
 	
-	s/(о|а|я|ё|у|ю)(т) CYRL-SIBILANT_SUR/$1$2 N_ART/g ;
-	s/(е|ы|и|э)(т) CYRL-SIBILANT_SUR/$1$2 N_KIT/g ;
-	s/(ть) CYRL-SIBILANT_SUR/$1 N_GAJT1/g ;
+	s/(о|а|я|ё|у|ю)(т) CYRL-T_SUR/$1$2 PROP_BT_sur/g ;
+	s/(е|ы|и|э)(т) CYRL-T_SUR/$1$2 PROP_FT_sur/g ;
+	s/(ть) (CYRL-T_SUR|CYRL-CONS_SUR)/$1 PROP_T1_sur/g ;
 	
-	s/(о|а|я|ё|у|ю)(|[бвгджзклмнпрстфхцчш]+)(т) PROP_KAL/$1$2$3 PROP_ART/g ;
-	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(т) PROP_KAL/$1$2$3 PROP_KIT/g ;
-	s/(ть) PROP_KAL/$1 PROP_GAJT1/g ;
-	s/(й) PROP_KAL/$1 PROP_PEJ/g ;
-	s/(сь|зь) (PROP_KAL|PROP_OSH)/$1 PROP_ROZ1/g ;
+	s/(о|а|я|ё|у|ю)(|[бвгджзклмнпрстфхцчш]+)(т) PROP_KAL/$1$2$3 PROP_BT/g ;
+	s/(е|ы|и|э)(|[бвгджзклмнпрстфхцчш]+)(т) PROP_KAL/$1$2$3 PROP_FT/g ;
+	s/(ть) PROP_KAL/$1 PROP_T1/g ;
+	s/(й) PROP_KAL/$1 PROP_J/g ;
+	s/(сь) (PROP_KAL|PROP_OSH)/$1 PROP_S1/g ;
+	s/(зь) (PROP_KAL|PROP_OSH)/$1 PROP_Z1/g ;
 	
-	s/(о|а|я|ё|у|ю)(|[бвгжкмпфхчш]+)(к) CYRL-SIBILANT_SUR/$1$2$3 N_LAK/g ;
-	s/(е|ы|и|э)(|[бвгжкмпфхчш]+)(к) CYRL-SIBILANT_SUR/$1$2$3 N_VEREK/g ;
+	s/(о|а|я|ё|у|ю)(|[бвгжкмпфхчш]+)(к) (CYRL-K_SUR)/$1$2$3 PROP_BK_sur/g ;
+	s/(е|ы|и|э)(|[бвгжкмпфхчш]+)(к) (CYRL-K_SUR)/$1$2$3 PROP_FK_sur/g ;
 
-	s/(о|а|я|ё|у|ю)(|[бвгжкмпфхчш]+)(к) PROP_KAL/$1$2$3 N_LAK/g ;
-	s/(е|ы|и|э)(|[бвгжкмпфхчш]+)(к) PROP_KAL/$1$2$3 N_VEREK/g ;
-	s/(е|ы|и|э)(б|в|г|м|п|ф|х)(ь) PROP_KAL/$1$2$3 N_OZIM1/g ;
-	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х)(ь) PROP_KAL/$1$2$3 N_RUF1/g ;
-	s/(ж|ч|ш)(ь) PROP_KAL/$1$2 N_RECH1/g ;
+	s/(о|а|я|ё|у|ю)(|[бвгжкмпфхчш]+)(к) PROP_KAL/$1$2$3 PROP_BK/g ;
+	s/(е|ы|и|э)(|[бвгжкмпфхчш]+)(к) PROP_KAL/$1$2$3 PROP_FK/g ;
+	s/(е|ы|и|э)(б|в|г|м|п|ф|х)(ь) PROP_KAL/$1$2$3 PROP_FV1/g ;
+	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х)(ь) PROP_KAL/$1$2$3 PROP_BV1/g ;
+	s/(ж|ч|ш)(ь) PROP_KAL/$1$2 PROP_CH1/g ;
 
-	s/(о|а|я|ё|у|ю)(д|з|л|н|р|с|т|ц)(к) CYRL-SIBILANT_SUR/$1$3$2 N_JORK/g ;
-	s/(е|ы|и|э)(д|з|л|н|р|с|т|ц)(к) CYRL-SIBILANT_SUR/$1$2$3 N_OCHERK/g ;
+	s/(о|а|я|ё|у|ю)(д|з|л|н|р|с|т|ц)(к) CYRL-SIBILANT_SUR/$1$3$2 PROP_BRK_sur/g ;
+	s/(е|ы|и|э)(д|з|л|н|р|с|т|ц)(к) CYRL-SIBILANT_SUR/$1$2$3 PROP_FRK_sur/g ;
 	
-	s/(о|а|я|ё|у|ю)(д|з|л|н|р|с|т|ц)(к) PROP_KAL/$1$3$2 N_JORK/g ;
-	s/(е|ы|и|э)(д|з|л|н|р|с|т|ц)(к) PROP_KAL/$1$2$3 N_OCHERK/g ;
+	s/(о|а|я|ё|у|ю)(д|з|л|н|р|с|т|ц)(к) PROP_KAL/$1$3$2 PROP_BRK/g ;
+	s/(е|ы|и|э)(д|з|л|н|р|с|т|ц)(к) PROP_KAL/$1$2$3 PROP_FRK/g ;
 
-	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 N_LAV/g ;
-	s/(е|ы|и|э)(б|в|г|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 N_TEV/g ;
-	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х) PROP_KAL/$1$2 N_LAV/g ;
-	s/(е|ы|и|э)(б|в|г|м|п|ф|х) PROP_KAL/$1$2 N_TEV/g ;
+	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 PROP_BV_sur/g ;
+	s/(е|ы|и|э)(б|в|г|м|п|ф|х) CYRL-SIBILANT_SUR/$1$2 PROP_FV_sur/g ;
+	s/(о|а|я|ё|у|ю)(б|в|г|м|п|ф|х) PROP_KAL/$1$2 PROP_BV/g ;
+	s/(е|ы|и|э)(б|в|г|м|п|ф|х) PROP_KAL/$1$2 PROP_FV/g ;
 
 # Proper name ends in numeral or symbol in Erzya
 #!Поригон-2+N+Prop:Поригон-2 PROP_KAL "(NA) Porygon2" ;
