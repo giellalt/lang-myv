@@ -82,10 +82,10 @@ LEXICON Deriv-RUS-IN_SURMAL
 
 
 LEXICON PROP_KAL_SURMAL
-+Sem/Mal-Sur: N_KAL-Derivation ;
-+Sem/Mal-Sur: N_KAL-Def-Declension ;
++Sem/Mal-Sur: N_BL-Derivation ;
++Sem/Mal-Sur: N_BL-Def-Declension ;
 +Sem/Mal-Sur: _KAL-Indef-Declension ;
-+Sem/Mal-Sur: N_KAL-Poss-Declension-CX ;
++Sem/Mal-Sur: N_BL-Poss-Declension-CX ;
 
 LEXICON PROP_KUDO_SURFEM
 +Sem/Fem-Sur: N_KUDO-Derivation ;
@@ -94,47 +94,70 @@ LEXICON PROP_KUDO_SURFEM
 +Sem/Fem-Sur: N_KUDO-Poss-Declension-CX ;
 
 LEXICON CYRL-CONS_SUR
- PROP_KAL_SUR ;
+ PROP_KAL_sur ;
 
 LEXICON PROP_KAL_SUR
-+Sem/Sur: N_KAL-Derivation ;
-+Sem/Sur: N_KAL-Def-Declension ;
-+Sem/Sur: _KAL-Indef-Declension ;
-+Sem/Sur: N_KAL-Poss-Declension-CX ;
+PROP_BL_sur ;
+LEXICON PROP_KAL_sur
+PROP_BL_sur ;
 
 
 !LEXICON PROP_RUS_JA
 !PROP_KUDO ;
 
-LEXICON CYRL-T_SUR
- PROP_KIT_SUR ;
+!LEXICON CYRL-T_sur
+! PROP_KIT_sur ;
 
-LEXICON PROP_KIT_SUR
- PROP_KAL_SUR ;
+!LEXICON PROP_KIT_sur
+! PROP_KAL_sur ;
 
-LEXICON CYRL-L_SUR
- PROP_KAL_SUR ;
+!LEXICON CYRL-L_sur
+! PROP_KAL_sur ;
 
-LEXICON CYRL-K_SUR
- PROP_LAK_SUR ;
+!LEXICON CYRL-K_sur
+! PROP_BK_sur ;
 
-LEXICON PROP_LAK_SUR
- PROP_KAL_SUR ;
+!LEXICON PROP_LAK_sur !Depricate
+! PROP_KAL_sur ;
+LEXICON PROP_LAK_mal !Depricate
+ PROP_BK_mal ;
+LEXICON PROP_BK_mal
++Sem/Mal: PROP_BK ;
+!LEXICON PROP_BK_sur
+!+Sem/Sur: PROP_BK ;
+LEXICON PROP_BK
+ N_BK ;
+LEXICON PROP_BL_constellation
++Sem/Constellation: PROP_BL ;
+LEXICON PROP_BL_divinity
++Sem/Divinity: PROP_BL ;
+LEXICON PROP_BL_fem
++Sem/Fem: PROP_BL ;
+LEXICON PROP_BL_mal
++Sem/Mal: PROP_BL ;
+LEXICON PROP_BL_plc
++Sem/Plc: PROP_BL ;
+LEXICON PROP_BL_rvr
++Sem/Rvr: PROP_BL ;
+LEXICON PROP_BL_sur
++Sem/Sur: PROP_BL ;
+LEXICON PROP_BL
+ N_BL ;
 
-LEXICON CYRL-SIBILANT_SUR
- PROP_OSH_SUR ;
 
-LEXICON PROP_OSH_SUR
-+Sem/Sur: NMN_OSH ;
+!LEXICON CYRL-SIBILANT_sur
+! PROP_OSH_sur ;
 
-LEXICON CYRL-VOW_SUR
- PROP_KUDO_SUR ;
+!LEXICON PROP_OSH_sur
+!+Sem/Sur: PROP_BSH ;
+LEXICON PROP_OSH
+ PROP_BSH ;
+!LEXICON CYRL-VOW_sur
+! PROP_KUDO_sur ;
 
-LEXICON CYRL-A_SUR
- PROP_KUDO_SUR ;
+!LEXICON CYRL-A_sur
+! PROP_KUDO_sur ;
 
-LEXICON PROP_KUDO_SUR
-+Sem/Sur: NMN_KUDO ;
 
 
 
@@ -142,16 +165,16 @@ LEXICON PROP_KUDO_SUR
 !! Erzya Homestead names !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_HOMESTEAD
-+Sem/Plc: NMN_KAL ;
++Sem/Plc: PROP_BL ;
 
-LEXICON PROP_PEJ_HOMESTEAD
-+Sem/Plc: NMN_PEJ ;
+LEXICON PROP_J_HOMESTEAD
++Sem/Plc: PROP_J ;
 
 LEXICON PROP_OSH_HOMESTEAD
-+Sem/Plc: NMN_OSH ;
++Sem/Plc: PROP_BSH ;
 
 LEXICON PROP_KUDO_HOMESTEAD
-+Sem/Plc: NMN_KUDO ;
++Sem/Plc: PROP_KUDO ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! PLACE NAMES FROM TEMPLATES !!
@@ -159,155 +182,262 @@ LEXICON PROP_KUDO_HOMESTEAD
 LEXICON PROP_KAL_PLC
 !LEXICON PROP-PLC_KAL
 :%>{оеэØ} LAT-INDEF ;
-: NMN_KAL ;
+: N_BL ;
 
-!LEXICON PROP-PLC_KEL1
+!LEXICON PROP-PLC_L1
 !:%>{оеэØ} LAT-INDEF ;
-!: NMN_KEL1 ;
+!: PROP_L1 ;
 
 !LEXICON PROP-PLC_KIT
 !:%>{оеэØ} LAT-INDEF ;
-!: NMN_KIT ;
+!: PROP_FT ;
 
 LEXICON PROP_OSH_PLC
 !LEXICON PROP-PLC_OSH
 :%>{оеэØ} LAT-INDEF ;
-: NMN_OSH ;
+: PROP_BSH ;
 
-LEXICON PROP_KUDO_PLC
-!LEXICON PROP-PLC_KUDO
-:%> LAT-INDEF ;
-: NMN_KUDO ;
 
-!LEXICON PROP-PLC_VELE
-!:%> LAT-INDEF ;
-!: NMN_VELE ;
+LEXICON PROP_VELE_plc
++Sem/Plc: PROP_VELE ;
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Erzya settlements !!
 !!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-SETTLEMENT_KAL
+ PROP_KAL_plc ;
+LEXICON PROP_KAL_plc
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
 !:%>{оеэØ} LAT-INDEF ;
-+Sem/Plc: NMN_KAL ;
++Sem/Plc: NMN_BL ;
 
-LEXICON PROP-SETTLEMENT_KIT
-@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+Sem/Plc: NMN_KIT ;
+!LEXICON PROP-SETTLEMENT_KIT
+!@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+!+Sem/Plc: NMN_FT ;
 
-LEXICON PROP-SETTLEMENT_OSH
-@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+Sem/Plc: NMN_OSH ;
+!LEXICON PROP-SETTLEMENT_OSH
+! PROP_OSH_plc ;
+!LEXICON PROP_OSH_plc
+!@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
+!+Sem/Plc: PROP_BSH ;
 
-LEXICON PROP-SETTLEMENT_PANGO
+!LEXICON PROP-SETTLEMENT_PANGO
+! PROP_PANGO_plc ;
+LEXICON PROP_PANGO_plc
 @U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
 +Sem/Plc: NMN_PANGO ;
 
-LEXICON PROP-SETTLEMENT_KUDO
-@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
-+Sem/Plc: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!
 !! Divinities !!
 !!!!!!!!!!!!!!!!
-LEXICON PROP_KAL_DIVINITY
-: NMN_KAL ;
+LEXICON PROP_KAL_divinity
+: NMN_BL ;
 
-LEXICON PROP_OSH_DIVINITY
-: NMN_OSH ;
+!LEXICON PROP_OSH_divinity
+!: PROP_BSH ;
 
-LEXICON PROP_PANGO_DIVINITY
+LEXICON PROP_PANGO_divinity
 : NMN_PANGO ;
 
-LEXICON PROP_KUDO_DIVINITY
-: NMN_KUDO ;
 
 !!!!!!!!!!!!!!!!!!!!
 !! Constellations !!
 !!!!!!!!!!!!!!!!!!!!
-LEXICON PROP_KAL_CONSTELLATION
-+Sem/Constellation: NMN_KAL ;
+!LEXICON PROP_KAL_CONSTELLATION
+!+Sem/Constellation: NMN_BL ;
 
-LEXICON PROP_OSH_CONSTELLATION
-+Sem/Constellation: NMN_OSH ;
+!LEXICON PROP_OSH_CONSTELLATION
+!+Sem/Constellation: PROP_BSH ;
 
 !LEXICON PROP_OSH-PL_CONSTELLATION
-!+Sem/Constellation+Pl: NMN_OSH-PL ;
+!+Sem/Constellation+Pl: NMN_BSH-PL ;
 
-!LEXICON PROP_PANGO_CONSTELLATION
-!+Sem/Constellation: NMN_PANGO ;
 
-LEXICON PROP_KUDO_CONSTELLATION
-+Sem/Constellation: NMN_KUDO ;
-
-LEXICON PROP_KUDO-PL_CONSTELLATION
-+Sem/Constellation+Pl: NMN_KUDO-PL ; 
-
-LEXICON PROP_TESHTE_CONSTELLATION
-+Sem/Constellation: NMN_TESHTE ;
+!LEXICON PROP_TESHTE_CONSTELLATION !depricate
+!PROP_MIXF_TE_constellation ;
+LEXICON PROP_TESHTE_constellation !depricate
+PROP_MIXF_TE_constellation ;
+LEXICON PROP_MIXF_TE_constellation
++Sem/Constellation: PROP_MIXF_TE ;
 
 
 !!!!!!!!!!!!!!!!
 !! TEXT NAMES !!
 !!!!!!!!!!!!!!!!
-!LEXICON PROP_KAL_TXT
-!+Sem/Txt: NMN_KAL ;
+!LEXICON PROP_KAL_txt
+!+Sem/Txt: NMN_BL ;
 
-!LEXICON PROP_OSH_TXT
-!+Sem/Txt: NMN_OSH ;
+!LEXICON PROP_OSH_txt
+!+Sem/Txt: NMN_BSH ;
 
-!LEXICON PROP_KUDO_TXT
-!+Sem/Txt: NMN_KUDO ;
 
 !!!!!!!!!!!!!!
 !! HOLIDAYS !!
 !!!!!!!!!!!!!!
 !LEXICON PROP_KAL_HOLIDAY
-!+Sem/Event: NMN_KAL ;
+!+Sem/Event: NMN_BL ;
 
-LEXICON PROP_OSH_HOLIDAY
-+Sem/Event: NMN_OSH ;
+!LEXICON PROP_OSH_HOLIDAY
+!+Sem/Event: PROP_BSH ;
 
-LEXICON PROP_KUDO_HOLIDAY
-+Sem/Event: NMN_KUDO ;
 
 
 !!!!!!!!!!!!!!!!!
 !! RIVER NAMES !!
 !!!!!!!!!!!!!!!!!
-LEXICON PROP_KAL_RIVERS
-+Sem/Rvr: NMN_KAL ;
-LEXICON PROP_LAV_RIVERS
-+Sem/Rvr: NMN_LAV ;
+!LEXICON PROP_KAL_rvr
+!+Sem/Rvr: NMN_BL ;
+LEXICON PROP_LAV_RIVERS ! depricate
+ PROP_BV_rvr ;
+!LEXICON PROP_LAV_rvr	! depricate
+! PROP_BV_rvr ;
 
-!LEXICON PROP_OSH_RIVERS
-!+Sem/Rvr: NMN_OSH ;
+!LEXICON PROP_OSH_rvr
+!+Sem/Rvr: PROP_BSH ;
 
-LEXICON PROP_KUDO_RIVERS
-+Sem/Rvr: NMN_KUDO ;
 
 
 LEXICON PROP_KAL
-: NMN_KAL ;
-LEXICON PROP_KEL1
-: NMN_KEL1 ;
-LEXICON PROP_RUF1
-: NMN_RUF1 ;
+: N_BL ;
+LEXICON PROP_KEL1 !Depricate
+ PROP_L1 ;
+LEXICON PROP_L1
+: N_L1 ;
+LEXICON PROP_N1_mal
++Sem/Mal: PROP_N1 ;
+LEXICON PROP_N1_plc
++Sem/Plc: PROP_N1 ;
+LEXICON PROP_N1
+: N_N1 ;
+LEXICON PROP_RUF1_fem
+ PROP_BV1_fem ;
+LEXICON PROP_BV1_fem
+: PROP_BV1 ;
+!LEXICON PROP_RUF1
+!: PROP_BV1 ;
+LEXICON PROP_BV1
+: N_BV1 ;
 
 !LEXICON PROP_LAK_rus100
 !+Use/SpellNoSugg: PROP_LAK ;
 LEXICON PROP_LAK
-: NMN_LAK ;
+: N_BK ;
+LEXICON PROP_BN_mal
++Sem/Mal: PROP_BN ;
+LEXICON PROP_BN_plc
++Sem/Plc: PROP_BN ;
+LEXICON PROP_BN
+: N_BN ;
+LEXICON PROP_BRK_plc
+: PROP_BRK ;
+LEXICON PROP_BRK
+: N_BRK ;
+LEXICON PROP_BRV_plc
+: PROP_BRV ;
+LEXICON PROP_BRV
+: N_BRV ;
+LEXICON PROP_OSH_fem !depricate
+ PROP_BSH_fem;
+LEXICON PROP_BSH_fem
+: PROP_BSH ;
+LEXICON PROP_OSH_holiday !depricate
+ PROP_BSH_holiday ;
+LEXICON PROP_BSH_holiday
+: PROP_BSH ;
+LEXICON PROP_BSH_mal
+: PROP_BSH ;
+LEXICON PROP_BSH_plc
+: PROP_BSH ;
+LEXICON PROP_BSH
+: N_BSH ;
+LEXICON PROP_BS_constellation
++Sem/Contellation: PROP_BS ;
+LEXICON PROP_BS_holiday
++Sem/Holiday: PROP_BS ;
+LEXICON PROP_BS_mal
++Sem/Mal: PROP_BS ;
+LEXICON PROP_BS_plc
++Sem/Plc: PROP_BS ;
+LEXICON PROP_BS
+: N_BS ;
+LEXICON PROP_BT_mal
++Sem/Mal: PROP_BT ;
+LEXICON PROP_BT
+: N_BT ;
+LEXICON PROP_BV_mal
++Sem/Mal: PROP_BV ;
+LEXICON PROP_BV_plc
++Sem/Plc: PROP_BV ;
+LEXICON PROP_BV_rvr
++Sem/Rvr: PROP_BV ;
+LEXICON PROP_BV
+: N_BV ;
+
+LEXICON PROP_OSH-PL_constellation ! depricate
+PROP_BSH-PL_constellation ;
+LEXICON PROP_BSH-PL_constellation
++Sem/Constellation: PROP_BSH ;
+LEXICON PROP_OSH_constellation ! depricate
+PROP_BSH_constellation ;
+LEXICON PROP_BSH_constellation
++Sem/Constellation: PROP_BSH ;
+LEXICON PROP_BZ_constellation
++Sem/Constellation: PROP_BZ ;
+LEXICON PROP_BZ-PL_constellation
++Sem/Constellation: PROP_BZ ;
+LEXICON PROP_BZ_divinity
++Sem/Divinity: PROP_BZ ;
+LEXICON PROP_BZ_mal
++Sem/Mal: PROP_BZ ;
+LEXICON PROP_BZ_plc
++Sem/Plc: PROP_BZ ;
+LEXICON PROP_BZ
+: N_BZ ;
 LEXICON PROP_LAV
-: NMN_LAV ;
+: PROP_BV ;
+LEXICON PROP_FV_plc
++Sem/Plc: PROP_FV ;
+LEXICON PROP_FV
+: N_FV ;
+LEXICON PROP_FZ
+: N_FZ ;
 LEXICON PROP_LEVKS
-: NMN_LEVKS ;
+: N_FS ;
+LEXICON PROP_FC
+: N_FC ;
+LEXICON PROP_FK_mal
+: PROP_FK ;
+LEXICON PROP_FK
+: N_FK ;
+LEXICON PROP_FL_mal
+: PROP_FL ;
+LEXICON PROP_FL
+: N_FL ;
+LEXICON PROP_FN_mal
+: PROP_FN ;
+LEXICON PROP_FN
+: N_FN ;
+LEXICON PROP_FRV
+: N_FRV ;
+LEXICON PROP_FS_mal
++Sem/Mal: N_FS ;
+LEXICON PROP_FS_plc
++Sem/Plc: N_FS ;
+LEXICON PROP_FS
+: N_FS ;
 LEXICON PROP_OZKS
-: NMN_OZKS ;
-LEXICON PROP_RECH1
-: NMN_RECH1 ;
+: N_BS ;
+!LEXICON PROP_CH1_plc
+!: PROP_CH1 ;
+LEXICON PROP_CH1
+: N_CH1 ;
+LEXICON PROP_RECH1_plc
+: PROP_CH1 ;
+!LEXICON PROP_RECH1
+!: PROP_CH1 ;
 LEXICON PROP_OZIM1
-: NMN_OZIM1 ;
+: N_OZIM1 ;
 LEXICON PROP_ROZ1
 : NMN_ROZ1 ;
 LEXICON PROP_TEV
@@ -321,42 +451,73 @@ LEXICON PROP_VOCATIVE_J ! Ёга+N+Prop:Ёга
 +Voc:%>й ENDLEX ;
 
 LEXICON PROP_KIT
-: N_KIT-Derivation ;
-+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
-: N_KIT-Def-Declension ;
-: _KIT-Indef-Declension ;
-: N_KAL-Poss-Declension-CX ;
+PROP_FT ;
+LEXICON PROP_FT_plc
++Sem/Plc: PROP_FT ;
+
+LEXICON PROP_FT
+N_FT ;
+!: N_KIT-Derivation ;
+!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
+!: N_FT-Def-Declension ;
+!: _KIT-Indef-Declension ;
+!: N_BL-Poss-Declension-CX ;
 
 LEXICON PROP_ART
-: N_KIT-Derivation ;
-+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
-: N_KIT-Def-Declension ;
-: _KIT-Indef-Declension ;
-: N_KAL-Poss-Declension-CX ;
+ PROP_BT ;
+!: N_KIT-Derivation ; !Should this all be happening in nouns?
+!+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
+!: N_FT-Def-Declension ;
+!: _KIT-Indef-Declension ;
+!: N_BL-Poss-Declension-CX ;
 
 !LEXICON PROP_JORK
 !:{back} N_JORK ;
 
 
+LEXICON PROP_KENKSH_mal
++Sem/Mal: PROP_FSH ;
 LEXICON PROP_KENKSH
-:{frontSoft} PROP_OSH ;
+ PROP_FSH ;
+LEXICON PROP_FSH
+:{frontSoft} N_FSH ;
 
+LEXICON PROP_TENGUSH_mal
++Sem/Mal: PROP_TENGUSH ;
 LEXICON PROP_TENGUSH
 +Err/Orth-front-linking-vowel:{frontSoft} PROP_OSH ;
  PROP_OSH ;
 
-LEXICON PROP_OSH
-: N_OSH-Derivation ;
-: N_OSH-Def-Declension ;
-: _OSH-Indef-Declension ;
-: N_OSH-Poss-Declension-CX ;
+!LEXICON PROP_OSH
+!: N_OSH-Derivation ;
+!: N_OSH-Def-Declension ;
+!: _OSH-Indef-Declension ;
+!: N_OSH-Poss-Declension-CX ;
 
-!LEXICON PROP_TESHTE
-! N_PANGO ;
+LEXICON PROP_TESHTE
+ PROP_MIXF_TE ;
+LEXICON PROP_MIXF_TE
+ N_MIXF_TE ;
 
-LEXICON PROP_PEJ
- NMN_PEJ ;
+LEXICON PROP_J_divinity
++Sem/Divinity: PROP_J ;
+LEXICON PROP_J_fem
++Sem/Fem: PROP_J ;
+LEXICON PROP_J_plc
++Sem/Plc: PROP_J ;
+LEXICON PROP_J_rvr
++Sem/Rvr: PROP_J ;
+LEXICON PROP_J_sur
++Sem/Sur: PROP_J ;
+LEXICON PROP_J
+ N_J ;
 
+LEXICON PROP_PANGO_constellation
++Sem/Constellation: PROP_PANGO ;
+LEXICON PROP_PANGO_fem
+ PROP_PANGO ;
+LEXICON PROP_PANGO_mal
+ PROP_PANGO ;
 LEXICON PROP_PANGO
 : N_PANGO-Derivation ;
 : N_PANGO-Def-Declension ;
@@ -375,6 +536,31 @@ LEXICON PROP_VELE
 : _KUDO-Indef-Declension ;
 : N_KUDO-Poss-Declension-CX ;
 
+LEXICON PROP_KUDO_constellation
++Sem/Constellation: PROP_KUDO ;
+!LEXICON PROP_KUDO_sur
+!+Sem/Sur: PROP_KUDO ;
+LEXICON PROP-SETTLEMENT_KUDO
+ PROP_KUDO_plc ;
+LEXICON PROP_KUDO_PLC
+ PROP_KUDO_plc ;
+LEXICON PROP_KUDO_plc
+@U.DECL-NX.SP@+Sem/Plc:@U.DECL-NX.SP@ LAT-INDEF ;
++Sem/Plc: PROP_KUDO ;
+LEXICON PROP_KUDO_divinity
+: PROP_KUDO ;
+!LEXICON PROP_KUDO-PL_CONSTELLATION
+!+Sem/Constellation+Pl: NMN_KUDO-PL ; 
+LEXICON PROP_KUDO_txt
++Sem/Txt: PROP_KUDO ;
+!LEXICON PROP_KUDO_HOLIDAY !Depricate
+! PROP_KUDO_holiday ;
+LEXICON PROP_KUDO_holiday
++Sem/Event: NMN_KUDO ;
+LEXICON PROP_KUDO_RIVERS !Depricate
+ PROP_KUDO_rvr ;
+LEXICON PROP_KUDO_rvr
++Sem/Rvr: PROP_KUDO ;
 LEXICON PROP_KUDO_rus100
 +Use/SpellNoSugg: PROP_KUDO ;
 LEXICON PROP_KUDO
@@ -385,23 +571,31 @@ LEXICON PROP_KUDO
 
 
 LEXICON PROP_KAL_MAL
-+Sem/Mal: NMN_KAL ;
+: PROP_BL_mal ;
+LEXICON PROP_KAL_mal
+: PROP_BL_mal ;
+LEXICON PROP_KAL_fem
+: PROP_BL_fem ;
 
-LEXICON PROP_PEJ_MAL
-+Sem/Mal: NMN_PEJ ;
+LEXICON PROP_J_MAL
+ PROP_J_mal ;
+LEXICON PROP_J_mal
++Sem/Mal: PROP_J ;
 
 LEXICON PROP_LAK_MAL
-+Sem/Mal: NMN_LAK ;
++Sem/Mal: PROP_BK ;
 
 LEXICON PROP_LAV_MAL
-+Sem/Mal: NMN_LAV ;
++Sem/Mal: N_BV ;
 
-!LEXICON PROP_KIT_MAL
-!+Sem/Mal: NMN_KIT ;
+LEXICON PROP_KIT_mal
++Sem/Mal: PROP_FT ;
 !+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 
-LEXICON PROP_OSH_MAL
-+Sem/Mal: NMN_OSH ;
+LEXICON PROP_OSH_MAL !depricate
+PROP_BSH_mal ;
+LEXICON PROP_OSH_mal !depricate
+PROP_BSH_mal ;
 
 !LEXICON PROP_TYL_MAL
 !+Sem/Mal: NMN_TYL ;
@@ -416,10 +610,16 @@ LEXICON PROP_OSH_MAL
 !+Sem/Mal: NMN_PANGO ;
 
 LEXICON PROP_KUDO_MAL
+PROP_KUDO_mal ;
+LEXICON PROP_KUDO_mal
 +Sem/Mal: NMN_KUDO ;
 
-!LEXICON PROP_KEL1_MAL
-!+Sem/Mal: NMN_KEL1 ;
+LEXICON PROP_L1_fem
++Sem/Fem: PROP_L1 ;
+LEXICON PROP_L1_mal
++Sem/Mal: PROP_L1 ;
+LEXICON PROP_L1_plc
++Sem/Plc: PROP_L1 ;
 
 !LEXICON PROP_TEV_MAL
 !+Sem/Mal: NMN_TEV ;
@@ -428,31 +628,35 @@ LEXICON PROP_VELE_MAL
 +Sem/Mal: NMN_KUDO ;
 
 LEXICON PROP_KAL_FEM
-+Sem/Fem: NMN_KAL ;
+PROP_BL_fem ;
 
-LEXICON PROP_PEJ_FEM
-+Sem/Fem: NMN_PEJ ;
+LEXICON PROP_J_FEM
++Sem/Fem: PROP_J ;
 
 !LEXICON PROP_LAK_FEM
 !+Sem/Fem: NMN_LAK ;
 
 !LEXICON PROP_KIT_FEM
-!+Sem/Fem: NMN_KIT ;
+!+Sem/Fem: NMN_FT ;
 !+Sem/Fem+Use/NG+Err/Orth+Orth/PhonInfl:%>TLoss NMN_DEF_PL_DECLENSION ;
 
 LEXICON PROP_OSH_FEM
-+Sem/Fem: NMN_OSH ;
++Sem/Fem: PROP_BSH ;
 
 !LEXICON PROP_TESHTE_FEM
 ! PROP_PANGO_FEM ;
 
-LEXICON PROP_TINGE_FEM
+!LEXICON PROP_TINGE_FEM
+! PROP_TINGE_fem ;
+LEXICON PROP_TINGE_fem
  PROP_PANGO_FEM ;
 
 LEXICON PROP_PANGO_FEM
 +Sem/Fem: NMN_PANGO ;
 
-LEXICON PROP_KUDO_FEM
+LEXICON PROP_KUDO_FEM !depr
+ PROP_KUDO_fem ;
+LEXICON PROP_KUDO_fem
 +Sem/Fem: NMN_KUDO ;
 
 
@@ -484,6 +688,8 @@ LEXICON PROP_NIZE
 
 !! DECLENSION LIMITATIONS
 
+LEXICON PROP_KUDO-PL_constellation
++Sem/Constellation: PROP_KUDO-PL ;
 LEXICON PROP_KUDO-PL
 : NMN_DEF_PL_DECLENSION ;
 : _KUDO-Indef-Declension ;

@@ -59,7 +59,7 @@ LEXICON V-AUX-NEG-PRT1 !!= **@CODE@** а+V:эзь
 LEXICON BV_SEZEMS
  BV_LEDEMS ;
 LEXICON BV_LEDEMS_errorth
-+Err/Orth BV_LEDEMS ;
++Err/Orth: BV_LEDEMS ;
 LEXICON BV_LEDEMS
  IV_LEDEMS ;
  TV_LEDEMS ;
@@ -1322,7 +1322,7 @@ LEXICON Deverbals_mutual
 LEXICON ActDemPrc
 !! This is fed by actors and participles in N_myv, A_myv and Prc_myv
 +Act+DemPrc+Der+Der/V2A: NMN_KUDO ;
-LEXICON ActDemPrc-N
+LEXICON N_NomAg_cja
 !! This is fed by actors and participles in N_myv, A_myv and Prc_myv
 !+NomAg: NMN_KUDO ;  !removing +N tag 2020-02-05
 NMN_KUDO ;  !remove NomAg tag 2023_04_10

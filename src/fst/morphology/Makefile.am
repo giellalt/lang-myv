@@ -48,7 +48,7 @@ GT_LEXC_SRCS_L1_L2=\
 			affixes/verbs.lexc		\
 			stems/abbreviations.lexc          \
 			stems/acronyms.lexc               \
-			stems/adjectives_newwords.lexc    \
+			stems/adjectives.lexc    \
 			stems/adverbs_newwords.lexc       \
 			stems/exceptions.lexc             \
 			stems/genitive_attributes.lexc             \
@@ -56,10 +56,9 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/hyphenated-nouns.lexc       \
 			stems/hyphenated-verbs.lexc       \
 			stems/interjections.lexc         \
-			stems/nouns_newwords.lexc         \
-			stems/nouns_russian_100_newwords.lexc         \
+			stems/nouns.lexc         \
 			stems/numerals.lexc               \
-			stems/propernouns_newwords.lexc   \
+			stems/propernouns.lexc   \
 			stems/myv-propernouns.lexc         \
 			stems/verbs_newwords.lexc         
 
@@ -87,7 +86,6 @@ GENERATED_LEXC_SRCS=\
 		generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc \
 		generated_files/mul-$(GLANG)-punctuation.lexc \
 		generated_files/mul-$(GLANG)-symbols.lexc \
-		$(srcdir)/stems/A_myv2x.lexc         \
 		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/Adv_myv2x.lexc            \
 		$(srcdir)/stems/Adv_Ideoph_myv2x.lexc     \
@@ -97,9 +95,7 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/CS_myv2x.lexc        \
 		$(srcdir)/stems/Det_myv2x.lexc     \
 		$(srcdir)/stems/Interj_myv2x.lexc      \
-		$(srcdir)/stems/N_myv2x.lexc              \
 		$(srcdir)/stems/noun-deverbal.lexc      \
-		$(srcdir)/stems/N_Prop_myv2x.lexc        \
 		$(srcdir)/stems/Num_myv2x.lexc        \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
 		$(srcdir)/stems/Pcle_myv2x.lexc          \
@@ -131,7 +127,6 @@ endif
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		stems/A_myv2x.xml      \
 		stems/Adp_myv2x.xml     \
 		stems/Adv_myv2x.xml         \
 		stems/Adv_Ideoph_myv2x.xml  \
@@ -141,9 +136,7 @@ GT_XML_SRCS=\
 		stems/CS_myv2x.xml     \
 		stems/Det_myv2x.xml  \
 		stems/Interj_myv2x.xml   \
-		stems/N_myv2x.xml           \
 		stems/noun-deverbal.xml   \
-		stems/N_Prop_myv2x.xml     \
 		stems/Num_myv2x.xml     \
 		stems/Prc_myv2x.xml     \
 		stems/Pcle_myv2x.xml   	 \

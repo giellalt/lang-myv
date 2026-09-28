@@ -44,22 +44,22 @@ LEXICON DET-DEM_ALCE
 : NMN_KUDO ;
 
 
-LEXICON A_PEJ_rusmyv
-+Use/SpellNoSugg: A_PEJ ;
+LEXICON A_J_rusmyv
++Use/SpellNoSugg: A_J ;
 
 LEXICON A_RU-OJ
-+Use/SpellNoSugg: A_PEJ ;
-!+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
++Use/SpellNoSugg: A_J ;
+!+Use/SpellNoSugg+OLang/RUS: A_J ;
 
 LEXICON A_RU-EJ
-+Use/SpellNoSugg: A_PEJ ;
-!+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
++Use/SpellNoSugg: A_J ;
+!+Use/SpellNoSugg+OLang/RUS: A_J ;
 
 !LEXICON A_INT-EJ
-!+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
+!+Use/SpellNoSugg+OLang/RUS: A_J ;
 
 !LEXICON A_INT-OJ
-!+Use/SpellNoSugg+OLang/RUS: A_PEJ ;
+!+Use/SpellNoSugg+OLang/RUS: A_J ;
 
 ! 2012-04-03 These do not exist in present dictionary
 !LEXICON COMP-A
@@ -86,6 +86,78 @@ LEXICON A_IS_PROP_GEN
 LEXICON A_VEJKET1-PL
  A_KIT ;
 
+LEXICON A_BK
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BK ;
+: N2Dem-SE ;
+
+LEXICON A_BL
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BL ;
+: N2Dem-SE ;
+
+LEXICON A_BN
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BN ;
+: N2Dem-SE ;
+
+LEXICON A_BS
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BS ;
+: N2Dem-SE ;
+
+LEXICON A_BV
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BV ;
+: N2Dem-SE ;
+
+LEXICON A_BZ
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BZ ;
+: N2Dem-SE ;
+
+LEXICON A_FL
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_FL ;
+: N2Dem-SE ;
+
+LEXICON A_FN
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_FN ;
+: N2Dem-SE ;
+
+LEXICON A_FS
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_FS ;
+: N2Dem-SE ;
+
+LEXICON A_FV
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_FV ;
+: N2Dem-SE ;
+
+LEXICON A_N1
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_N1 ;
+: N2Dem-SE ;
+
+LEXICON A_S1
+: CLT/COP4_OBL ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_S1 ;
+: N2Dem-SE ;
+
 LEXICON A_KIT
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
@@ -104,9 +176,9 @@ LEXICON A_LAK
 +Der+Der/MWN+N: NMN_LAK ;
 : N2Dem-SE ;
 
-LEXICON A_VEREK
+LEXICON A_FK
 : SG/PL_NOM_INDEF ;
-+Der+Der/MWN+N: NMN_VEREK ;
++Der+Der/MWN+N: NMN_FK ;
 : N2Dem-SE ;
 
 LEXICON A_KAL_Sub
@@ -119,7 +191,7 @@ LEXICON A_KAL
 !: CLT/COP4_OBL ;
 !+Pl:%>т{ЬØ} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
 : SG/PL_NOM_INDEF ;
-+Der+Der/MWN+N: NMN_KAL ;
++Der+Der/MWN+N: NMN_BL ;
 : N2Dem-SE ;
 
 LEXICON A_LAV
@@ -142,24 +214,24 @@ LEXICON A_TEV
 +Der+Der/MWN+N: NMN_TEV ;
 : N2Dem-SE ;
 
-LEXICON A_KEL1
+LEXICON A_L1
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
 !:{frontSoft} CLT/COP4_OBL ;
 !+Pl:{frontSoft}%>т{ЬØ} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
 :{frontSoft} SG/PL_NOM_INDEF ;
-+Der+Der/MWN+N:{frontSoft} NMN_KEL1 ;
++Der+Der/MWN+N:{frontSoft} NMN_L1 ;
 :{frontSoft} N2Dem-SE ;
 
-LEXICON A_PEJ
+LEXICON A_J
  ADJ-TO-ADV ;
 !+Attr: K ;
 !2020-03-31+Clt/Cop+Prs+ScSg3: K ;
 !:{frontSoft} CLT/COP4_OBL ;
 !+Pl:{frontSoft}%>т{ЬØ} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
 :{frontSoft} SG/PL_NOM_INDEF ;
-+Der+Der/MWN+N:{frontSoft} NMN_PEJ ;
++Der+Der/MWN+N:{frontSoft} NMN_J ;
 :{frontSoft} N2Dem-SE ;
 
 LEXICON A_OSH
@@ -189,7 +261,7 @@ LEXICON A_OZKS
 !: CLT/COP4_OBL ;
 !+Pl:%>т{ЬØ} CLT/COP_PRT2_PL_MUTUAL ;!2022-02-24
 : SG/PL_NOM_INDEF ;
-+Der+Der/MWN+N: NMN_OZKS ;
++Der+Der/MWN+N: NMN_BS ;
 : N2Dem-SE ;
 
 LEXICON A_LEVKS
@@ -275,15 +347,18 @@ LEXICON A-ADN
 LEXICON DET-ADN
 +Adn: ENDLEX ;
 
-LEXICON ActDemPrc-A
+LEXICON A_ActDemPrc_cja_errorth_merged
++Err/Orth-merged A_ActDemPrc_cja ;
+LEXICON A_ActDemPrc_cja
++Sg+Nom+Indef: ENDLEX ;
 !+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
-+Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
++Der+Der/Ycja+Act+DemPrc+Der+Der/MWN+N: NMN_KUDO ;
 !+Der+Der/Ycja+Act+DemPrc:%>{иы}ця K ;
 !+Der+Der/Ycja+Act+DemPrc:%>{иы}ця NMN_KUDO ;
 
-LEXICON A-IS-DEMPRC
-!+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
-+Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
+!LEXICON A-IS-DEMPRC
+!!+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
+!+Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
 
 LEXICON A_VELE
  A_KUDO        ;

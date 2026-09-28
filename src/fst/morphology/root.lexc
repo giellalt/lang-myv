@@ -258,6 +258,7 @@ Multichar_Symbols
  +Err/Orth   !!≈ * @CODE@ * Substandard
  +Err/Sub   !!≈ * @CODE@ * Substandard
  +Err/Orth-no-hyphen !!≈ * @CODE@ * тетятават should be тетят-ават
+ Err/Orth-merged !!≈ * @CODE@ * а кемиця (->) акемиця
  +Err/Orth-back-should-be-hard-front !!≈ * @CODE@ * back should be hard front
  +Err/Orth-cons-stem !!≈ * @CODE@ * пачт|емс 2012 пачтямс
  +Err/Orth-freq-le !!≈ * @CODE@ * пачтнемс:пачле
@@ -1345,7 +1346,7 @@ LEXICON Root
 TESTINGTESTING ;
 
 
-@U.POS.A@ A_myv2x     ;
+@U.POS.A@ AdjectiveRoot     ;
  Adp_myv2x  ;
  Adv_myv2x        ;
  Adv_Ideoph_myv2x    ;
@@ -1356,10 +1357,10 @@ TESTINGTESTING ;
  Det_myv2x ;
  Interj_myv2x  ;
 @U.POS.N@ noun-deverbal  ;
-@U.POS.N@ N_myv2x          ;
+@U.POS.N@ NounRoot          ;
  numerals       ;
 @U.POS.NUM@ Num_myv2x    ;
- N_Prop_myv2x    ;
+ PropernounRoot    ;
  Prc_myv2x    ;
  Pcle_myv2x      ;
  Pron_myv2x       ;
@@ -1373,15 +1374,12 @@ TESTINGTESTING ;
 Hyphenated-nouns ; !!≈ * @CODE@ entire serial nouns
 Hyphenated-verbs ; !!≈ * @CODE@ entire serial verbs
 
- ProperNouns ;
+! ProperNouns ;
  historical_lexicon ;
  interjections ;
 
-@U.POS.A@ A_NEWWORDS ;
  ADV_NEWWORDS ;
-@U.POS.N@ N_NEWWORDS ;
-@U.POS.N@ N_RUSSIAN_100_NEWWORDS ;
- PROP_NEWWORDS ;
+! PROP_NEWWORDS ;
  V_NEWWORDS ;
 
 !
@@ -1406,10 +1404,8 @@ Num_myv2x ;
 extra_numerals ;
 
 LEXICON COLL_NOUNS
-N_myv2x ;
+NounRoot ;
 noun-deverbal ;
-N_NEWWORDS ;
-N_RUSSIAN_100_NEWWORDS ;
 
 ! ======================================================= !
 ! These lexica are for parts of speech without morphology !
@@ -1422,10 +1418,10 @@ LEXICON verbs
 
 LEXICON BAHUV_KAL
 +Bahuvrihi: A_KAL ;
-!LEXICON BAHUV_PEJ
-!+Bahuvrihi: A_PEJ ;
-LEXICON BAHUV_KEL1
-+Bahuvrihi: A_KEL1 ;
+!LEXICON BAHUV_J
+!+Bahuvrihi: A_J ;
+LEXICON BAHUV_L1
++Bahuvrihi: A_L1 ;
 
 !LEXICON BAHUV_LAV
 !+Bahuvrihi: A_LAV ;
