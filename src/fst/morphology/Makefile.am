@@ -94,7 +94,6 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/CC_myv2x.lexc        \
 		$(srcdir)/stems/CS_myv2x.lexc        \
 		$(srcdir)/stems/Det_myv2x.lexc     \
-		$(srcdir)/stems/Interj_myv2x.lexc      \
 		$(srcdir)/stems/noun-deverbal.lexc      \
 		$(srcdir)/stems/Num_myv2x.lexc        \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
@@ -135,7 +134,6 @@ GT_XML_SRCS=\
 		stems/CC_myv2x.xml     \
 		stems/CS_myv2x.xml     \
 		stems/Det_myv2x.xml  \
-		stems/Interj_myv2x.xml   \
 		stems/noun-deverbal.xml   \
 		stems/Num_myv2x.xml     \
 		stems/Prc_myv2x.xml     \
