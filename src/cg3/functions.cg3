@@ -551,6 +551,7 @@ LIST SConj = cnj:subord CS; # pron:subord 2022-01-26
 LIST CpoundBeg = cpound-beg/mid;
 LIST CpoundEnd = cpound-end/cpound-unsegm;
 
+LIST AssocColl = AssocColl ;#! ськамонзо, колмонензэ
 LIST AdvQuantity = adv:quantity;
 LIST AdvNEJgroup = adv:NEJgroup;
 LIST AdvPron = adv:pron;
@@ -1151,7 +1152,8 @@ LIST NumInstruktNPxSg2 = (num:coll cx:instruktN pxsg2) (Pron AssocColl PxSg2);
 LIST NumInstruktNPxSg3 = (num:coll cx:instruktN pxsg3) (Pron AssocColl PxSg3);
 LIST NumInstruktNPxPl1 = (num:coll cx:instruktN pxpl1) (Pron AssocColl PxPl1);
 LIST NumInstruktNPxPl2 = (num:coll cx:instruktN pxpl2) (Pron AssocColl PxPl2);
-LIST NumInstruktNPxPl3 = (num:coll cx:instruktN pxpl3) (Pron AssocColl PxPl3);#кавонест
+LIST NumInstruktNPxPl3 = (num:coll cx:instruktN pxpl3) (Pron AssocColl PxPl3);#кавонест #! ськамонзо, колмонензэ
+
 LIST NumOrdSgAbl = (num:ord indf nsg cx:abl);
 LIST NumOrdPlAbl = (num:ord indf npl cx:abl);
 LIST NumOrdSPAbl = (num:ord indf nsg cx:abl) (num:ord indf npl cx:abl);
@@ -3860,7 +3862,7 @@ MAP (@OBJ) TARGET NAdjSgGenDef OR NOUNSgGenDef IF (NOT 1 PostpNoPX);
 
 MAP (@OBJ>) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (1* PREDForDefPL3Obj BARRIER CLB OR EOS) (NOT 1 CLB)  (-1 CLB OR BOS);
 MAP (@OBJ>) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (1* PREDForDefPL3Obj BARRIER CLB OR EOS) (NOT 1 CLB)  (NOT 1 PostpNoPX OR CLB) (NOT -1 CLB OR BOS) (NOT -1* PREDForDefPL3Obj BARRIER CLB OR BOS);
-MAP (@OBJ) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (NOT 1 PostpNoPX);
+MAP (@OBJ) TARGET NAdjPlGenDef OR NOUNPlGenDef IF (NOT 1 PostpNoPX) (0* TVFIN BARRIER EOS OR BOS OR CLB);
 
 #весе as a post Det
 MAP:<n (@<N) TARGET VESENOMSG IF (-1 NSPNomGenPxNotSUBJ OR (pron:dem indf npl cx:gen));
@@ -4170,6 +4172,21 @@ MAP (@<ADVL) TARGET PostpInePxPl3 IF (*-1 VFIN BARRIER CLB OR EOS);
 MAP (@ADVL>) TARGET PostpInePxPl3 IF (*1 VFIN BARRIER CLB OR EOS);
 
 MAP:QntBecomeDetForNoun (@DET>) (adv:quantity) (1 OBJ OR SUBJ);
+
+MAP:AssocCollBecomesDetForPronSg1 (@<DET) TARGET (AssocColl Sg1) OR (NumInstruktNPxSg1) IF (-1 (Pron Pers Sg1));
+MAP:AssocCollBecomesDetForPronSg2 (@<DET) TARGET (AssocColl Sg2) OR (NumInstruktNPxSg2) IF (-1 (Pron Pers Sg1));
+MAP:AssocCollBecomesDetForPronSg3 (@<DET) TARGET (AssocColl Sg3) OR (NumInstruktNPxSg3) IF (-1 (Pron Pers Sg3));
+MAP:AssocCollBecomesDetForPronPl1 (@<DET) TARGET (AssocColl Pl1) OR (NumInstruktNPxPl1) IF (-1 (Pron Pers Pl1));
+MAP:AssocCollBecomesDetForPronPl2 (@<DET) TARGET (AssocColl Pl2) OR (NumInstruktNPxPl2) IF (-1 (Pron Pers Pl2));
+MAP:AssocCollBecomesDetForPronPl3 (@<DET) TARGET (AssocColl Pl3) OR (NumInstruktNPxPl3) IF (-1 (Pron Pers Pl3));
+
+MAP:AssocCollBecomesDetForPronSg1 (@DET>) TARGET (AssocColl Sg1) OR (NumInstruktNPxSg1) IF (1 (Pron Pers Sg1));
+MAP:AssocCollBecomesDetForPronSg2 (@DET>) TARGET (AssocColl Sg2) OR (NumInstruktNPxSg2) IF (1 (Pron Pers Sg1));
+MAP:AssocCollBecomesDetForPronSg3 (@DET>) TARGET (AssocColl Sg3) OR (NumInstruktNPxSg3) IF (1 (Pron Pers Sg3));
+MAP:AssocCollBecomesDetForPronPl1 (@DET>) TARGET (AssocColl Pl1) OR (NumInstruktNPxPl1) IF (1 (Pron Pers Pl1));
+MAP:AssocCollBecomesDetForPronPl2 (@DET>) TARGET (AssocColl Pl2) OR (NumInstruktNPxPl2) IF (1 (Pron Pers Pl2));
+MAP:AssocCollBecomesDetForPronPl3 (@DET>) TARGET (AssocColl Pl3) OR (NumInstruktNPxPl3) IF (1 (Pron Pers Pl3));
+
 #
 MAP (@<ADVL) TARGET PARJAK IF (-1* VFIN OR a-finpred BARRIER CLB OR BOS) (1 CLB OR EOS);
 MAP (@<ADVL) TARGET PARJAK IF (-1* VFIN OR a-finpred BARRIER CLB OR BOS) (NOT 1 CLB OR EOS) (NOT 1* VFIN OR a-finpred BARRIER CLB OR EOS);

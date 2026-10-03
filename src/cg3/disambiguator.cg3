@@ -516,6 +516,8 @@ SET OBJECTCANDIDATE = IndefObjectCandidate | NonIndefObjectCandidate ;
 
 LIST POSTPCOMPLCANDIDATE = NSPGENINDEF ;
 
+LIST PROPNAMESMATCHINGHIGHFREQN = "Аля" "Весь" "Сон" "Ялга"  ; #!! Proper nouns matching high frequency common nouns
+# proper nouns vs high-frequency words :
 
 
 #!! ###  Syntactic tags
@@ -2312,8 +2314,9 @@ SELECT:SentInitSingInterj Interj IF (0 Upper) (1 Comma) ;
 # Select the proper noun reading if the current word can be
 # a proper noun or a noun, and if it is in upper case, 
 # and the previous word is only in lower case
-SELECT Prop IF (0 Prop) (0 Upper) (-1 Lower) ;
-SELECT Prop IF (0 Prop) (0 Upper) (-1 Comma) ;
+# But not for third person singular in the Bible
+SELECT Prop IF (0 Prop) (0 Upper) (-1 Lower) (NOT 0 ("сон")); 
+SELECT Prop IF (0 Prop) (0 Upper) (-1 Comma) (NOT 0 ("сон")) ;
 
 # Истя Марянь..
 SELECT Prop IF (0 Prop + Upper) (-1C Adv) ;
