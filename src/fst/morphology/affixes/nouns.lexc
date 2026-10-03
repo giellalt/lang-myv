@@ -3463,7 +3463,44 @@ LEXICON OBL-PX4-COPULA-OR-FOC
 !@U.CX.ILL@+Ill:@U.CX.ILL@%>{оеэØ}з OBL-PX4-CLTCOP ;
 ! OBL-PX4-CLTCOP ;
 
-LEXICON OBL-PX4-CLTCOP !ськамонзо:ськамо
+LEXICON PRON_OBL_PX4_CLTCOP !ськамонзо:ськамо
+PRON_OBL_PX4_CLTCOP_NMNSG1 ;
+PRON_OBL_PX4_CLTCOP_NMNSG2 ;
+PRON_OBL_PX4_CLTCOP_NMNSG3 ;
+PRON_OBL_PX4_CLTCOP_NMNPL1 ;
+PRON_OBL_PX4_CLTCOP_NMNPL2 ;
+PRON_OBL_PX4_CLTCOP_NMNPL3 ;
+
+LEXICON PRON_OBL_PX4_CLTCOP_NMNSG1
+@U.PossPx.Sg1@:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg1@+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>{оеэØ}м COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+
+LEXICON PRON_OBL_PX4_CLTCOP_NMNSG2
+@U.PossPx.Sg2@:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+
+LEXICON PRON_OBL_PX4_CLTCOP_NMNSG3
+@U.PossPx.Sg3@:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg3@+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg3@+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+
+LEXICON PRON_OBL_PX4_CLTCOP_NMNPL1
+@U.PossPx.Pl1@:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+
+LEXICON PRON_OBL_PX4_CLTCOP_NMNPL2
+@U.PossPx.Pl2@:@U.PossPx.Pl2@%>{оеэØ}нк COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+
+LEXICON PRON_OBL_PX4_CLTCOP_NMNPL3
+@U.PossPx.Pl3@:@U.PossPx.Pl3@%>{оеэØ}ст COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth-st-sk+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}ск COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Pl3@+Use/NG+Err/Orth-st-nst+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}нст COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+
+
+!######
+
+
+
+LEXICON OBL-PX4-CLTCOP !
 OBL-PX4-CLTCOP_NMNSG1 ;
 OBL-PX4-CLTCOP_NMNSG2 ;
 OBL-PX4-CLTCOP_NMNSG3 ;
@@ -3512,11 +3549,11 @@ LEXICON OBL-PX4-END-FOC
 !@U.PossPx.Pl3@+Use/NG+Err/Orth+Dial/NW+PxPl3:@U.PossPx.Pl3@%>{оеэØ}нст K ;
 
 LEXICON OBL-PX4-CLTCOP_PRON-PERSONS ! cькамо-:ськам
-:о OBL-PX4-CLTCOP ;
-+Der/Dimin:не OBL-PX4-CLTCOP ;
-+Der/Dimin:нэ OBL-PX4-CLTCOP ;
-+Der/Dimin:ине OBL-PX4-CLTCOP ;
-+Der/Dimin:нине OBL-PX4-CLTCOP ;
+:о PRON_OBL_PX4_CLTCOP ;
++Der/Dimin:не PRON_OBL_PX4_CLTCOP ;
++Der/Dimin:нэ PRON_OBL_PX4_CLTCOP ;
++Der/Dimin:ине PRON_OBL_PX4_CLTCOP ;
++Der/Dimin:нине PRON_OBL_PX4_CLTCOP ;
 
 !LEXICON OBL-PX4-CLTCOP_NMN-PERSONS
 !@U.PossPx.Sg1@ OBL-PX4-CLTCOP_NMNSG1 ;
@@ -3541,28 +3578,28 @@ LEXICON OBL-PX4-CLTCOP_PRON-PERSONS ! cькамо-:ськам
 
 ! THESE have nominal person tags passed to them with person confirmation through flags
 LEXICON OBL-PX4-CLTCOP_NMNSG1
-@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg1@+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>{оеэØ}м COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg1@+PxSg1:@U.PossPx.Sg1@%>{оеэØ}н{ЬØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg1@+PxSg1+Use/NG+Use/SpellNoSugg+Dial/SE:@U.PossPx.Sg1@%>{оеэØ}м COPULA_4_OBL_OR_MWN_DEF_OR_K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG2
-@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg2@+PxSg2+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg2@+PxSg2+Use/NG+Err/Orth+Dial/W:@U.PossPx.Sg2@%>{оеэØ}нт{ЬØ}  COPULA_4_OBL_OR_MWN_DEF_OR_K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNSG3
-@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@%>{оеэØ}нз{оэØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}нд{оэØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@%>{оеэØ}ндз{оэØ} COPULA_4_OBL_OR_MWN_DEF_OR_K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL1
-@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к COPULA_4_OBL_OR_MWN_DEF_OR_K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL2
-@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@%>{оеэØ}нк COPULA_4_OBL_OR_MWN_DEF_OR_K ;
 
 LEXICON OBL-PX4-CLTCOP_NMNPL3
-@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+PxPl3+Use/NG+Err/Orth-st-sk+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}ск COPULA-4-OBL-OR-MWN-DEF-OR-K ;
-@U.PossPx.Pl3@+PxPl3+Use/NG+Err/Orth-st-nst+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}нст COPULA-4-OBL-OR-MWN-DEF-OR-K ;
+@U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@%>{оеэØ}ст COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Pl3@+PxPl3+Use/NG+Err/Orth-st-sk+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}ск COPULA_4_OBL_OR_MWN_DEF_OR_K ;
+@U.PossPx.Pl3@+PxPl3+Use/NG+Err/Orth-st-nst+Dial/NW:@U.PossPx.Pl3@%>{оеэØ}нст COPULA_4_OBL_OR_MWN_DEF_OR_K ;
 
 
 

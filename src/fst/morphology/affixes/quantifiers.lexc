@@ -146,13 +146,17 @@ LEXICON NUM_OSH
 +A: NUMORD_OSH ;
 +Card+Coll:%>нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
-@P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@нек Ks ;
-@P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
-+AssocColl:%>не _KUDO-Possessives2-Ill ;
-+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
-+AssocColl:%>не _KUDO-Possessive-Before-K ;
 +Iter:%>ксть Ks ;
 +Appr+Iter:%>шкаксть Ks ;
+ ASSOCCOLL ;
+ 
+LEXICON ASSOCCOLL
+@P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@нек Ks ;
+@P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
++Der+Der/Num2Pron+Pron+AssocColl:%>не _KUDO-Possessives2-Ill ;
++Der+Der/Num2Pron+Pron+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
++Der+Der/Num2Pron+Pron+AssocColl:%>не _KUDO-Possessive-Before-K ;
+
 
 LEXICON NUMORD_OSH
 !+Der/cje+A+Ord:%>{оеэØ}%>це ENDLEX ;
@@ -171,11 +175,7 @@ LEXICON NUM_SJADO
 +A:О1 NUMORD_SJADO ;
 +Card+Coll:%>{оеэØ}нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@%>{оеэØ}нст  Quants3 ;
-@P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@%>{оеэØ}нек Ks ;
-@P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@%>{оеэØ}шканек Ks ;
-+AssocColl:%>{оеэØ}не _KUDO-Possessives2-Ill ;
-+Appr+AssocColl:%>{оеэØ}шкане _KUDO-Possessives2-Ill ;
-+AssocColl:%>{оеэØ}не _KUDO-Possessive-Before-K ;
+:%>{оеэØ} ASSOCCOLL ;
 +Adv+Iter:%>{оеэØ}ксть Ks ;
 +Adv+Appr+Iter:%>{оеэØ}шкаксть Ks ;
 
@@ -197,11 +197,7 @@ LEXICON NUM_KUDO
 
 !2017-11-21+Card+Coll:%>нст ENDLEX ;
 @P.TLOSS.ON@+Card+Coll:@P.TLOSS.ON@нст  Quants3 ;
-@P.KLOSS.ON@+AssocColl:@P.KLOSS.ON@нек Ks ;
-@P.KLOSS.ON@+Appr+AssocColl:@P.KLOSS.ON@шканек Ks ;
-+AssocColl:%>не _KUDO-Possessives2-Ill ;
-+Appr+AssocColl:%>шкане _KUDO-Possessives2-Ill ;
-+AssocColl:%>не _KUDO-Possessive-Before-K ;
+ ASSOCCOLL ;
 +Card+Iter:%>ксть Ks ;
 +Card+Appr+Iter:%>шкаксть Ks ;
 !2017-11-21+Card+Lat:%>в Ks ;
@@ -232,11 +228,11 @@ LEXICON IS-NUM-ORD-COLL
 +Ord+Coll:	ENDLEX ;
 +Ord+Coll: KOLMONST-ELLIPSIS-TYPE ;
 
-LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
-!! кавонест is a pronoun like the Finnish molemmat
-!! This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
-+AssocColl: PossPX1 ;
-+Use/NG+Use/SpellNoSugg+AssocColl+PxPl1:к ENDLEX ; ! 2012-10-28
+!LEXICON IS-NUM-CARD-ASSOCCOLL_KAVONE
+!!! кавонест is a pronoun like the Finnish molemmat
+!!! This means a radical increase in the Erzya pronoun inventory: 6 x for each numeral 2 and above
+!+Der+Der/Num2Pron+Pron+AssocColl: PossPX1 ;
+!+Use/NG+Use/SpellNoSugg+AssocColl+PxPl1:к ENDLEX ; ! 2012-10-28
 
 !!кавто-колмо
 LEXICON NUMAPPROX_
@@ -258,19 +254,19 @@ LEXICON Cards-1-2
 
 LEXICON Assoc-Coll
 !! кавксоненек
-+AssocColl: OBL-PX4-COPULA-OR-FOC ;
++Der+Der/Num2Pron+Pron+AssocColl: OBL-PX4-COPULA-OR-FOC ;
 
-LEXICON NUM-IS-ASSOC-COLL-SG1
+LEXICON NUM_IS_ASSOC_COLL_SG1 !! ськамонень
 @U.PossPx.Sg1@+AssocColl+Sg1:@U.PossPx.Sg1@ OBL-PX4-CLTCOP_PRON-PERSONS ;
-LEXICON NUM-IS-ASSOC-COLL-SG2
+LEXICON NUM_IS_ASSOC_COLL_SG2
 @U.PossPx.Sg2@+AssocColl+Sg2:@U.PossPx.Sg2@ OBL-PX4-CLTCOP_PRON-PERSONS ;
-LEXICON NUM-IS-ASSOC-COLL-SG3
+LEXICON NUM_IS_ASSOC_COLL_SG3
 @U.PossPx.Sg3@+AssocColl+Sg3:@U.PossPx.Sg3@ OBL-PX4-CLTCOP_PRON-PERSONS ;
-LEXICON NUM-IS-ASSOC-COLL-PL1
+LEXICON NUM_IS_ASSOC_COLL_PL1
 @U.PossPx.Pl1@+AssocColl+Pl1:@U.PossPx.Pl1@ OBL-PX4-CLTCOP_PRON-PERSONS ;
-LEXICON NUM-IS-ASSOC-COLL-PL2
+LEXICON NUM_IS_ASSOC_COLL_PL2
 @U.PossPx.Pl2@+AssocColl+Pl2:@U.PossPx.Pl2@ OBL-PX4-CLTCOP_PRON-PERSONS ;
-LEXICON NUM-IS-ASSOC-COLL-PL3
+LEXICON NUM_IS_ASSOC_COLL_PL3
 @U.PossPx.Pl3@+AssocColl+Pl3:@U.PossPx.Pl3@ OBL-PX4-CLTCOP_PRON-PERSONS ;
 
 !LEXICON IS-ADV-ITER !!аламоксть
@@ -320,7 +316,7 @@ LEXICON QNT_
 
 LEXICON DET_LAMO
 +Sg+Nom+Indef: # ;
-+Qnt+AssocColl:%>не _KUDO-Possessive-Before-K ;
++Der+Der/Num2Pron+Pron+AssocColl:%>не _KUDO-Possessive-Before-K ;
 ! QNT_KUDO ;
 
 LEXICON QNT_LAV
