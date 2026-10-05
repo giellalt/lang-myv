@@ -1367,7 +1367,8 @@ TESTINGTESTING ;
  Pron_myv2x       ;
  Punctuation    ;
  Symbols     ;
- V_myv2x          ;
+ VerbRoot ;
+! V_myv2x          ;
  
  ADPOSITION-TYPES ; !2020-04-04
  PRONOUN-TYPES ; !2019-06-06
@@ -1380,7 +1381,6 @@ Hyphenated-verbs ; !!≈ * @CODE@ entire serial verbs
 
  ADV_NEWWORDS ;
 ! PROP_NEWWORDS ;
- V_NEWWORDS ;
 
 !
 !! CyrillicFemaleName ; Emptied 2026-06-08, all moved to urj-Cyrl-propernouns.lexc
@@ -1410,9 +1410,6 @@ noun-deverbal ;
 ! ======================================================= !
 ! These lexica are for parts of speech without morphology !
 ! ======================================================= !
-
-LEXICON verbs
- V_myv2x ;
 
 
 

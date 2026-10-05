@@ -60,7 +60,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/numerals.lexc               \
 			stems/propernouns.lexc   \
 			stems/myv-propernouns.lexc         \
-			stems/verbs_newwords.lexc         
+			stems/verbs.lexc         
 
 #			stems/foreign_words.lexc             
 #			stems/rusSurDer.lexc
@@ -98,8 +98,7 @@ GENERATED_LEXC_SRCS=\
 		$(srcdir)/stems/Num_myv2x.lexc        \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
 		$(srcdir)/stems/Pcle_myv2x.lexc          \
-		$(srcdir)/stems/Pron_myv2x.lexc           \
-		$(srcdir)/stems/V_myv2x.lexc
+		$(srcdir)/stems/Pron_myv2x.lexc
 
 # change handling of shared lexical data here:
 if HAVE_SHARED_COMMON
@@ -138,8 +137,7 @@ GT_XML_SRCS=\
 		stems/Num_myv2x.xml     \
 		stems/Prc_myv2x.xml     \
 		stems/Pcle_myv2x.xml   	 \
-		stems/Pron_myv2x.xml        \
-		stems/V_myv2x.xml
+		stems/Pron_myv2x.xml
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=
