@@ -74,6 +74,8 @@ LEXICON BV_NEVTEMS_errorth
 LEXICON BV_NEVTEMS
  IV_NEVTEMS ;
  TV_NEVTEMS ;
+LEXICON BV_SAVTOMS_errorth_v_f
+Err/Orth-v-f: BV_SAVTOMS ;
 LEXICON BV_SAVTOMS
  IV_SAVTOMS ;
  TV_SAVTOMS ;
@@ -182,8 +184,6 @@ LEXICON TV_CHACHTOMS !!= **@CODE@**
 ! @P.CONJ.ObjAll@@U.TRANS.TV@ V_JANGAVOMS ;
 
 LEXICON TV_KUNDAMS_errorth !!= **@CODE@** 
-+Use/NG+Err/Orth: TV_KUNDAMS ;
-LEXICON TV_KUNDAMS_SUB !!= **@CODE@** 
 +Use/NG+Err/Orth: TV_KUNDAMS ;
 
 LEXICON TV_KUNDAMS !!= **@CODE@** 
@@ -732,8 +732,8 @@ LEXICON IV_KADOMS
 @P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>{оеэØ}вт V_SAVTOMS ;
 @U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>{оеэØ}в V_JANGAVOMS ;
 
-LEXICON IV_SAEVEMS_SUB
-+Use/NG+Err/Orth: IV_SAEVEMS ;
+!LEXICON IV_SAEVEMS_SUB
+!+Use/NG+Err/Orth: IV_SAEVEMS ;
 LEXICON IV_SAEVEMS
 @U.TRANS.IV@:@U.TRANS.IV@ V_SAEVEMS ;
 @U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@%>{оеэØ}кшн V_NEKSHNEMS ;
@@ -751,13 +751,21 @@ LEXICON IV_JANGAVOMS
 
 LEXICON IV_KUNDAMS_errorth
 +Use/NG+Err/Orth: IV_KUNDAMS ;
-LEXICON IV_KUNDAMS_SUB
-+Use/NG+Err/Orth: IV_KUNDAMS ;
+
 LEXICON IV_KUNDAMS
 @U.TRANS.IV@:@U.TRANS.IV@ V_KUNDAMS ;
 @U.TRANS.IV@+Der+Der/OkshnOms+V:@U.TRANS.IV@кшно IV_KUNDAKSHNOMS ;
 @P.CONJ.ObjAll@@U.TRANS.TV@+Der+Der/OvtOms+V:@P.CONJ.ObjAll@@U.TRANS.TV@%>{оеэØ}вт V_SAVTOMS ;
 @U.TRANS.IV@+Der+Der/OvOms+V:@U.TRANS.IV@%>{оеэØ}в V_JANGAVOMS ;
+
+LEXICON TV_PIDEMS_SUB !!= **@CODE@** 
++Use/NG+Err/Orth: TV_PIDEMS ;
+LEXICON IV_PIDEMS_SUB
++Use/NG+Err/Orth: IV_PIDEMS ;
+LEXICON TV_PIDEMS_errorth !!= **@CODE@** 
++Use/NG+Err/Orth: TV_PIDEMS ;
+LEXICON IV_PIDEMS_errorth
++Use/NG+Err/Orth: IV_PIDEMS ;
 
 LEXICON IV_PIDEMS
 @U.TRANS.IV@:@U.TRANS.IV@ V_PIDEMS ;
@@ -1301,10 +1309,10 @@ LEXICON Deverbals_mutual
 @U.CX.NOM@+Use/NG+Der+Der/Omka+Oblig:@U.CX.NOM@%>{оеэØ}мка _KUDO-Tenses1-4Inf ;
 
 @U.CX.LOC@+Inf+Loc:@U.CX.LOC@%>{оеэØ}м{ое} _KUDO-Possessive-Before-K-or-K-4Inf ;
-@U.CX.LOC@+Inf+Loc+Err/Orth-no-linking-vowel:@U.CX.LOC@%>%^NoLinkVowм{ое} _KUDO-Possessive-Before-K-or-K-4Inf ;
+@U.CX.LOC@+Inf+Loc+Err/Orth-no-linking-vowel:@U.CX.LOC@%>^NoLinkVowм{ое} _KUDO-Possessive-Before-K-or-K-4Inf ;
 @U.CX.ILL@+Inf:@U.CX.ILL@%>{оеэØ}мс sajems-Conjugation-4Inf ; !!     **@CODE@** Alternates with TRA
 @U.CX.ILL@+Inf:@U.CX.ILL@%>{оеэØ}мс VerbEnd_K ; !! **@CODE@** Alternates with TRA
-@U.CX.ILL@+Inf+Err/Orth-no-linking-vowel:@U.CX.ILL@%>%^NoLinkVowм{ое}кс VerbEnd_K ; !! **@CODE@** Alternates with TRA
+@U.CX.ILL@+Inf+Err/Orth-no-linking-vowel:@U.CX.ILL@%>^NoLinkVowм{ое}кс VerbEnd_K ; !! **@CODE@** Alternates with TRA
 !@U.CX.ILL@+Use/NG+Ger+Ill:@U.CX.ILL@%>{оеэØ}мс VerbEnd_K ;
 @U.CX.ELA@+Ger+Ela:@U.CX.ELA@%>{оеэØ}мст{оэØ} _KUDO-Possessive-Before-K-or-K-4Inf ;
 @U.CX.INE@+Inf+Ine:@U.CX.INE@%>{оеэØ}мс{оэØ} _KUDO-Possessive-Before-K-or-K-4Inf ;
@@ -1326,10 +1334,11 @@ LEXICON Deverbals_mutual
 LEXICON ActDemPrc
 !! This is fed by actors and participles in N_myv, A_myv and Prc_myv
 +Act+DemPrc+Der+Der/V2A: NMN_KUDO ;
-LEXICON N_NomAg_cja
+!LEXICON N_NomAg_cja Depricated 2026-10-05
 !! This is fed by actors and participles in N_myv, A_myv and Prc_myv
 !+NomAg: NMN_KUDO ;  !removing +N tag 2020-02-05
-NMN_KUDO ;  !remove NomAg tag 2023_04_10
+!NMN_KUDO ;  !remove NomAg tag 2023_04_10
+
 
 LEXICON sajezj-PRC
 : SG/PL_NOM_INDEF ;

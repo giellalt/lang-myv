@@ -259,7 +259,7 @@ Multichar_Symbols
  +Err/Orth   !!≈ * @CODE@ * Substandard
  +Err/Sub   !!≈ * @CODE@ * Substandard
  +Err/Orth-no-hyphen !!≈ * @CODE@ * тетятават should be тетят-ават
- Err/Orth-merged !!≈ * @CODE@ * а кемиця (->) акемиця
+ +Err/Orth-merged !!≈ * @CODE@ * а кемиця (->) акемиця
  +Err/Orth-back-should-be-hard-front !!≈ * @CODE@ * back should be hard front
  +Err/Orth-cons-stem !!≈ * @CODE@ * пачт|емс 2012 пачтямс
  +Err/Orth-freq-le !!≈ * @CODE@ * пачтнемс:пачле
@@ -283,6 +283,7 @@ Multichar_Symbols
  +Err/Orth-stem-ja-should-be-je0 !!≈ * @CODE@ * лемдемс+V:лемдя
  +Err/Orth-stem-je-should-be-ja !!≈ * @CODE@ * мелямс:меле
  +Err/Orth-stem-je-should-be-je0 !!≈ * @CODE@ * чудемс+V:чуде чуд|емс (->)чуде|мс
+ +Err/Orth-stn-sn  !!≈ * @CODE@ * ёкстнемс (->) ёкснемс
  +Err/Orth-je-for-jo !!≈ * @CODE@ * should be ё
  +Err/Orth-vowel-stem-je !!≈ * @CODE@ * пачтякшномс:пачтекшне
  +Err/Orth-stem-soft-should-be-0 !!≈ * @CODE@ * кирпець:кирпецьтне
@@ -858,7 +859,7 @@ Multichar_Symbols
 {оеэØ} !!≈ * @CODE@ Suffix-initial archiphoneme
 {уиыØ} !!≈ * @CODE@ Suffix-initial archiphoneme in dialect
 %^RegrRaise !!≈ * @CODE@ идиса, идима ! raising e:i, o:u before a in NW
-%^Break	    !!≈ * @CODE@  ашоян disallow о:
+%^Break	    !!≈ * @CODE@  ашоян disallow о:0
 
 
 {оеэ}	  !! вт{оеэ}мО1 suffix-internal archivowel
@@ -867,7 +868,7 @@ Multichar_Symbols
 {ЕØ} !!≈ * @CODE@ Stem-final archiphoneme тинге
 
 %^OldAE	!!= @CODE@ — This allows Ӓ4 and Ӓ3 to be realized as я 
-%^NoLinkVow !!= * @CODE@ — No linking vowel is used only after consonants for error
+^NoLinkVow !!= * @CODE@ — No linking vowel is used only after consonants for error
 %^SoftRetain !!= * @CODE@ — The soft sign is not lost when adding -тне
 %^HardNoDent !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ
 

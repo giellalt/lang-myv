@@ -86,6 +86,7 @@ LEXICON N-KIN_VELE
 !@P.POS.N@!+Sem/Kin:@P.POS.N@ NMN_KUDO ;
 ! N-KIN ;
 
+
 LEXICON N_KUDO_ani
 +Sem/Ani: N_KUDO ;
 LEXICON N_KUDO_no_comp
@@ -872,6 +873,8 @@ LEXICON N_FZ_rus100
 +Use/SpellNoSugg: N_LEVKS ;
 LEXICON N_FS_rus100
 +Use/SpellNoSugg: N_FS ;
+LEXICON N_FC_hum_rus100
++Sem/Hum+Use/SpellNoSugg: N_FC ;
 LEXICON N_FC_hum
 +Sem/Hum: N_FC ;
 LEXICON N_FC_rus100
@@ -1098,7 +1101,7 @@ LEXICON N_NomAg_cja_hum
 LEXICON N_NomAg_cja_plc
 +Sem/Plc: N_NomAg_cja ;
 LEXICON N_NomAg_cja
-: N_KUDO ;
++NomAg: N_KUDO ;
 
 LEXICON N_NomAg_cja-PL
  N_KUDO-PL ;
@@ -1268,7 +1271,10 @@ LEXICON NMN_PANGO
  N_PANGO-Derivation ;
  N_PANGO-Def-Declension ;
  _PANGO-Indef-Declension ;
- N_KUDO-Poss-Declension-CX ;
+ N_PANGO-Poss-Declension-CX ;
+
+
+
 
 LEXICON NMN_KI
  NMN_KUDO ;
@@ -1346,7 +1352,7 @@ LEXICON NMN_TINGE-OTHER-FORMS
  ABL-PX ;
  CMP-PX ;
  DAT-PX ;
-ILL-PX ;!2023-10-15
+ILL_PX ;!2023-10-15
 !2023-10-15 INE-PX ;
  PRL-PX ;
  TRA-PX ;
@@ -2055,8 +2061,8 @@ LEXICON SG_NOM_DEF
 !!$ калосьгак: кал+N+Sg+Nom+Def+Foc/Гак
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь NounEnd_K ;
 @U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь CLT/COP_SG ;
-@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь NounEnd_K ;
-@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
+@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>^NoLinkVowсь NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>^NoLinkVowсь CLT/COP_SG ;
 
 !LEXICON MWN_SG_NOM_DEF
 !!€gt-norm: Noun singular nominative definite
@@ -2065,8 +2071,8 @@ LEXICON SG_NOM_DEF
 !!$ паксясосьгак: пакся+N+SP+Ine+Indef+Der+Der/MWN+N+Sg+Nom+Def+Foc/Add
 !@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь NounEnd_K ;
 !@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>{оеэØ}сь CLT/COP_SG ;
-!@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь NounEnd_K ;
-!@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь CLT/COP_SG ;
+!@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>^NoLinkVowсь NounEnd_K ;
+!@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Dial/NW+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>^NoLinkVowсь CLT/COP_SG ;
 
 
 LEXICON SG-GEN-DEF
@@ -2113,10 +2119,10 @@ LEXICON SG-ILL-DEF_Dial-M
 @U.DECL-NX.SG@@U.CX.ILL@+Use/-Spell+Sg+Ill+Def:@U.DECL-NX.SG@@U.CX.ILL@%>тес NounEnd_K ;
 
 LEXICON SG_NOM_DEF_Dial-M
-@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVow%>{dialM}с{ЬØ} NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>^NoLinkVow%>{dialM}с{ЬØ} NounEnd_K ;
 
 LEXICON SG_NOM_DEF_Dial-NW
-@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>%^NoLinkVowсь NounEnd_K ;
+@U.DECL-NX.SG@@U.CX.NOM@+Use/NG+Err/Orth-no-linking-vowel+Sg+Nom+Def:@U.DECL-NX.SG@@U.CX.NOM@%>^NoLinkVowсь NounEnd_K ;
 
 LEXICON SG-GEN-DEF_Dial-NW
 @U.DECL-NX.SG@@U.CX.GEN@+Use/-Spell+Sg+Gen+Def:@U.DECL-NX.SG@@U.CX.GEN@%>сть NounEnd_K ;
@@ -2465,7 +2471,7 @@ LEXICON N_BL-Poss-Declension-CX-Mutual
 :%>{оеэØ} CMP-PX ;
  DAT-PX ;
  ELA-PX ;
- ILL-PX ;
+ ILL_PX ;
  INE-PX ;
  PRL-PX ;
  TRA-PX ;
@@ -2500,12 +2506,26 @@ LEXICON N_OSH-Poss-Declension-CX-Mutual
  DAT-PX ;
  ELA-PX ;
 :%>{оеэØ} ELA-PX ;
- ILL-PX ;
+ ILL_PX ;
  INE-PX ;
 :%>{оеэØ} INE-PX ;
  PRL-PX ;
  TRA-PX ;
 :%>{оеэØ} TRA-PX ;
+
+LEXICON N_PANGO-Poss-Declension-CX
+:%>{оеэØ} N_KUDO-Poss-Declension-CX-Mutual ;
+ SG-GEN-PX ;
+ SG-NOM-PX ;
+:%>{оеэØ} PL-GEN-PX ;
+:%>{оеэØ} PL-NOM-PX ;
++Err/Orth-pre2012: PL-GEN-PX ;
++Err/Orth-pre2012: PL-NOM-PX ;
++Err/Orth-pre1978: ABL-PX ; !панктонзо ?
++Err/Orth-pre2012: ELA-PX ; !пангстонзо
++Err/Orth-pre2012: INE-PX ; !пангсонзо
++Err/Orth-pre2012: PRL-PX ;!? ланга
+
 
 LEXICON N_KUDO-Poss-Declension-CX
  N_KUDO-Poss-Declension-CX-Mutual ;
@@ -2531,7 +2551,7 @@ LEXICON N_KUDO-Poss-Declension-CX-Mutual
  CMP-PX ;
  DAT-PX ;
  ELA-PX ;
- ILL-PX ;
+ ILL_PX ;
  INE-PX ;
  PRL-PX ;
  TRA-PX ;
@@ -2553,9 +2573,9 @@ LEXICON CMP-PX
 LEXICON ELA-PX
 +SP+Ela:%>ст{оэØ} OBL-PX4-CLTCOP ;
 
-LEXICON ILL-PX
+LEXICON ILL_PX
 +SP+Ill:%>{оеэØ}з OBL-PX4-CLTCOP ;
-+SP+Ill+Err/Orth-no-linking-vowel:%>%^NoLinkVow%>з OBL-PX4-CLTCOP ;
++SP+Ill+Err/Orth-no-linking-vowel:%>^NoLinkVow%>з OBL-PX4-CLTCOP ;
 
 
 LEXICON INE-PX
@@ -3226,12 +3246,12 @@ LEXICON SG-NOM-PXSG2
 @U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg2@%>{оеэØ}т{ЬØ} _KIT-NomSg-Conjugation ;
 LEXICON SG-NOM-PXSG3
 @U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>{оеэØ}з{оэØ} _KUDO-NomSg-Conjugation ;
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>%^NoLinkVow%>з{оэØ} _KUDO-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@+Sg+Nom+PxSg3+Err/Orth-no-linking-vowel:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Sg3@%>^NoLinkVow%>з{оэØ} _KUDO-NomSg-Conjugation ;
 
 LEXICON SG-NOM-PXPL1
 @U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}н{оеэ}к _BK-NomSg-Conjugation ;!2024-04-02
 @U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>{оеэØ}м{ое}к _BK-NomSg-Conjugation ;
-@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth-no-linking-vowel+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>%^NoLinkVowм{ое}к _BK-NomSg-Conjugation ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@+Sg+Nom+PxPl1+Use/NG+Err/Orth-no-linking-vowel+Dial/NW:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl1@%>^NoLinkVowм{ое}к _BK-NomSg-Conjugation ;
 !+Err/Orth-no-linking-vowel
 LEXICON SG-NOM-PXPL2
 @U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@@U.DECL-DX.PX@@U.PossPx.Pl2@%>{оеэØ}нк _BK-NomSg-Conjugation ;!2024-04-02

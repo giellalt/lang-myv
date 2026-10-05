@@ -184,6 +184,12 @@ LEXICON A_FK
 LEXICON A_KAL_Sub
 +Use/NG+Err/Orth: A_KAL ;
 
+LEXICON A_BT
+ ADJ-TO-ADV ;
+: SG/PL_NOM_INDEF ;
++Der+Der/MWN+N: NMN_BT ;
+: N2Dem-SE ;
+
 LEXICON A_KAL
  ADJ-TO-ADV ;
 !+Attr: K ;
@@ -360,10 +366,18 @@ LEXICON A_ActDemPrc_cja
 !!+Der+Der/Ycja+Act+DemPrc: K ; 2022-02-02
 !+Der+Der/Ycja+Act+DemPrc: NMN_KUDO ;
 
+LEXICON A_VELE_errorth_merged
++Err/Orth-merged: A_VELE ;
+LEXICON A_VELE_errorth
++Err/Orth: A_VELE ;
+
 LEXICON A_VELE
  A_KUDO        ;
 !LEXICON A_KUDO_SUB
 !+Use/NG+Err/Orth: A_KUDO ;
+
+LEXICON A_KUDO_errorth_merged
++Err/Orth-merged: A_KUDO ;
 
 LEXICON A_KUDO
  ADJ-TO-ADV ;
