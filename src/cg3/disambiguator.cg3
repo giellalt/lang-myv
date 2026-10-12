@@ -1138,6 +1138,9 @@ SUBSTITUTE (<W:0.0>) (<W:2.0>) TARGET ("эй" N SP Ine PxSg1) OR ("эй" N SP In
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("эй" N SP Ine Indef) OR ("эй" N SP Ill Indef) OR ("эй" N SP Ela Indef) IF (-1 SP-GEN-PX OR LIKELYOBJECT) ;
    #Сёвонев почванть свойстванзо ламодо аштить сёвоненть свойстванзо эйстэ.
 
+SUBSTITUTE:NoKosAbl (<W:0.0>) (<W:1.0>) TARGET ("Кос") IF (0 ("косто")) ;
+ #Косто эно ушодовсть неть китне-янтнэ ?
+ 
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET ("виш" N SP Prl Indef);
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET Err/Orth ;
 SUBSTITUTE (<W:0.0>) (<W:1.0>) TARGET Dial ;
@@ -1409,6 +1412,9 @@ REMOVE ConNeg IF (NOT -1* ("а" V Aux Neg) BARRIER BOS OR CLB) ;
 REMOVE:NoNSPAblCop (N SP Abl Indef Clt/Cop Prs ScPl3);
 # вал+до+т 
 
+REMOVE:NoIljaWhenAuxNeg ("Иля" N Prop SP Abl) IF (1 ConNeg) ;
+       # Илядо пеле
+       
 REMOVE:NotAblIndefWhenAfterErjavomsBeforeEos (Abl Indef) IF (-1 ("эрявомс" Ind Prs ScSg3)) (0 (Sg Nom Indef)) (1 CLB OR EOS);
   #Вана мекс пиже растениятненень эряви валдо.
 
@@ -1696,6 +1702,7 @@ REMOVE:NoGenIfOnlySubjPossible Gen IF (NOT -2* PL-SUBJ BARRIER BOS) (-1 VNoGenOb
 #Сёлминезэ кадовсь панжадо.
 REMOVE (Sg Gen) IF (NOT -1* SG-SUBJ BARRIER BOS) (0 SG-SUBJ-PX) (1* ScSg3 BARRIER EOS)
        	      	       	       (NOT 1* SG-SUBJ BARRIER EOS)
+			       (NOT -1 ("ды") LINK -1 (Sg Gen))
 			       (NOT 1 Der/Ozj + Ger);
 
 # OvOms 2022-02-03 VNoGenObj with singular
@@ -1707,9 +1714,9 @@ REMOVE:NoPlIfOnlySgSubjPossible Pl IF (NOT -2* SG-SUBJ BARRIER BOS OR CLB) (-1 V
 # 
 #REMOVE Der/ОвОмс (0C V) ;
 #REMOVE Der/OvOms (0C V) ;
-SELECT Der/OvOms (NOT 0 (V Conj) LINK NOT -1 (Gen)) ; #!! 2023_03_15 important part of regular inflection
+#SELECT Der/OvOms (NOT 0 (V Conj) LINK NOT -1 (Gen)) ; #!! 2023_03_15 important part of regular inflection
  #ёвтавт: Прока лелянь ёвтавт героенть лемензэ путсынек!
-
+ #марявикстэ: ды чувтонь кустематне эль марявикстэ чикордыть шожда эскельксэнзэ ало. Way too strong
 REMOVE Imprt IF (-1 Gen) (1 N) (0* VFIN BARRIER BOS OR EOS OR CLB) ;
 
 # кортавтома
@@ -2100,6 +2107,9 @@ SELECT $$Case IF (1 CC LINK 1C $$Case) ;
 # умаринась ды атямаресь
 # NOT WORKING 2017-11-08REMOVE:NotPcleWhenLeftAndRightSameForm Pcle IF (-1 N + $$CASE) (0 ("ды")) (1 N + $$CASE);
 REMOVE:NotPcleWhenLeftAndRightSameForm Pcle IF (-1 $$Case) (0 ("ды")) (1 N + $$Case);
+
+SELECT ($$CASE) IF (-2 $$Case) (-1 ("ды"));
+  # 
 
 # Particles
 
