@@ -290,6 +290,7 @@ Multichar_Symbols
  +Err/Orth-stem-nodent-hard-should-be-tnje !!≈ * @CODE@ * потоктнэсэ
  +Err/Orth-missing-soft-in-stem !!≈ * @CODE@ * видме
  +Err/Orth-missing-t-in-def-pl	!!≈ * @CODE@ * область: областне
+ +Err/Orth-ss-to-s		!!≈ * @CODE@ * марявиксстэ (->) марявикстэ
  +Err/Orth-s-to-j		 !!≈ * @CODE@ * кайсь Modern: кассь
  +Err/Orth-z-to-j		  !!≈ * @CODE@ * кардайсэ Modern: кардазсо
  +Err/Orth-v-loss-before-lab	  !!≈ * @CODE@ * ольной
@@ -361,7 +362,7 @@ Multichar_Symbols
 
 !! Delimiter marks are classified with:
 +CLB +PUNCT +LEFT +RIGHT +MIDDLE   !!≈ * @CODE@ * 
-%^excl    !!≈ * @CODE@ * 
+^excl    !!≈ * @CODE@ * 
 
 !! The verbs are syntactically split according to transitivity:
 
@@ -815,12 +816,12 @@ Multichar_Symbols
  {dialM}   !!= * @CODE@ — for Shoksha and Drakino Dial/M morphology
  {ichPat}  !!= * @CODE@ — for triggering colloquial partonymic forms
 
-%^CnsRM      !!= * @CODE@ — Remove consonant
+^CnsRM      !!= * @CODE@ — Remove consonant
 
 ѝ а̀ 
 
 Е3 !!≈ * @CODE@ testing тне тнэ
-%^H !!≈ * _@CODE@_ used with stems in ч, ш, ж for hard plurals
+^H !!≈ * _@CODE@_ used with stems in ч, ш, ж for hard plurals
 
 ! Triggers for morphophonological rules
 
@@ -830,14 +831,14 @@ Multichar_Symbols
 Ӓ3  !!= * @CODE@ эрямс:Ӓ3ря
 Ӓ4  !!= * @CODE@ пелемс:пӒ4ль
 
-%^Ӓ3  !!= * @CODE@ ^Ӓ3 :Э
-%^Ӓ4  !!= * @CODE@ ^Ӓ4 :Е
-%^ӓ3  !!= * @CODE@ эрямс:^ӓ3ря
-%^ӓ4  !!= * @CODE@ пелемс:п^ӓ4ль
+^Ӓ3  !!= * @CODE@ ^Ӓ3 :Э
+^Ӓ4  !!= * @CODE@ ^Ӓ4 :Е
+^ӓ3  !!= * @CODE@ эрямс:^ӓ3ря
+^ӓ4  !!= * @CODE@ пелемс:п^ӓ4ль
 
 
 
-%^Ь2ZERO  !!= * @CODE@ removes stem-final soft sign
+^Ь2ZERO  !!= * @CODE@ removes stem-final soft sign
 
 ! Nominal stem vowel following vowel, word finally realized as "й"
 !И4
@@ -851,15 +852,15 @@ Multichar_Symbols
 ! connegative suffix rendering vowel
 !К3
 
-А1 {АЯ} Г1 Г2 Г4 {ЬØ} Т1 О1 {иы} {КТ} К3 К4 У2 И2 TLoss KLoss VLoss %^WLoss %^TD %^Д1 %>
+А1 {АЯ} Г1 Г2 Г4 {ЬØ} Т1 О1 {иы} {КТ} К3 К4 У2 И2 TLoss KLoss VLoss ^WLoss ^TD ^Д1 %>
 Н1
 {дт} !!≈ * _@CODE@_ in ablative
 
 {ое}   !!≈ * @CODE@ inflectional suffix protovowel  аволь аволинь
 {оеэØ} !!≈ * @CODE@ Suffix-initial archiphoneme
 {уиыØ} !!≈ * @CODE@ Suffix-initial archiphoneme in dialect
-%^RegrRaise !!≈ * @CODE@ идиса, идима ! raising e:i, o:u before a in NW
-%^Break	    !!≈ * @CODE@  ашоян disallow о:0
+^RegrRaise !!≈ * @CODE@ идиса, идима ! raising e:i, o:u before a in NW
+^Break	    !!≈ * @CODE@  ашоян disallow о:0
 
 
 {оеэ}	  !! вт{оеэ}мО1 suffix-internal archivowel
@@ -867,14 +868,14 @@ Multichar_Symbols
 {ОØ} !!≈ * @CODE@ Stem-final archiphoneme панго
 {ЕØ} !!≈ * @CODE@ Stem-final archiphoneme тинге
 
-%^OldAE	!!= @CODE@ — This allows Ӓ4 and Ӓ3 to be realized as я 
+^OldAE	!!= @CODE@ — This allows Ӓ4 and Ӓ3 to be realized as я 
 ^NoLinkVow !!= * @CODE@ — No linking vowel is used only after consonants for error
-%^SoftRetain !!= * @CODE@ — The soft sign is not lost when adding -тне
-%^HardNoDent !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ
+^SoftRetain !!= * @CODE@ — The soft sign is not lost when adding -тне
+^HardNoDent !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ
 
-%^Inf
-%^PATR
-%^FEM
+^Inf
+^PATR
+^FEM
 
 !These are used for variation некшнемс vs некшнэмс
 +Stem/е

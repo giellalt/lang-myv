@@ -409,8 +409,8 @@ LEXICON _KUDO-Tenses-NomSg !! Are there copula verb combinations? 2024-08-06
  VerbEnd_K ;
 +Clt/Cop+Prs+ScSg1:%>{АЯ}н VerbEnd_K ;
 +Clt/Cop+Prs+ScSg2:%>{АЯ}т VerbEnd_K ;
-+Clt/Cop+Prs+ScSg1+Use/NG:%^Break%>{АЯ}н VerbEnd_K ;! Old Lit/NW
-+Clt/Cop+Prs+ScSg2+Use/NG:%^Break%>{АЯ}т VerbEnd_K ;!
++Clt/Cop+Prs+ScSg1+Use/NG:^Break%>{АЯ}н VerbEnd_K ;! Old Lit/NW
++Clt/Cop+Prs+ScSg2+Use/NG:^Break%>{АЯ}т VerbEnd_K ;!
 !2020-03-27+Clt/Cop+Prs+ScSg3: VerbEnd_K ;
 +Clt/Cop+Prt2+ScSg1:%>{оеэØ}линь VerbEnd_K ;
 +Clt/Cop+Prt2+ScSg2:%>{оеэØ}лить VerbEnd_K ;
@@ -422,9 +422,9 @@ LEXICON _KUDO-Tenses-NomPl
 +Use/NG+Dial+Clt/Cop+Prs+ScPl1:%>т{АЯ}нок VerbEnd_K ;
 +Clt/Cop+Prs+ScPl2:%>т{АЯ}до VerbEnd_K ;
 
-+Clt/Cop+Prs+ScPl1+Err/Orth-d:%^TD%>т{АЯ}но VerbEnd_K ;
-+Use/NG+Dial+Clt/Cop+Prs+ScPl1+Err/Orth-d:%^TD%>т{АЯ}нок VerbEnd_K ;
-+Clt/Cop+Prs+ScPl2+Err/Orth-d:%^TD%>т{АЯ}до VerbEnd_K ;
++Clt/Cop+Prs+ScPl1+Err/Orth-d:^TD%>т{АЯ}но VerbEnd_K ;
++Use/NG+Dial+Clt/Cop+Prs+ScPl1+Err/Orth-d:^TD%>т{АЯ}нок VerbEnd_K ;
++Clt/Cop+Prs+ScPl2+Err/Orth-d:^TD%>т{АЯ}до VerbEnd_K ;
 +Clt/Cop+Prt2+ScPl1:%>{оеэØ}линек VerbEnd_K-lak ;
 +Clt/Cop+Prt2+ScPl2:%>{оеэØ}лиде VerbEnd_K ;
 +Clt/Cop+Prt2+ScPl3:%>{оеэØ}льть VerbEnd_K ;
@@ -469,11 +469,11 @@ LEXICON COPULA-4-OBL
 !карь%>{дт}О1%>{АЯ}н
 LEXICON COPULA-NONPAST-10 
 @U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@+Clt/Cop+Prs+ScSg1:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@%>{АЯ}н FOC-PCLE-OR-NOT ;
-@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@+Clt/Cop+Prs+ScSg1+Use/NG:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@%^Break%>{АЯ}н FOC-PCLE-OR-NOT ;
+@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@+Clt/Cop+Prs+ScSg1+Use/NG:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.PL@^Break%>{АЯ}н FOC-PCLE-OR-NOT ;
 
 LEXICON COPULA-NONPAST-20 
 @U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@+Clt/Cop+Prs+ScSg2:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@%>{АЯ}т FOC-PCLE-OR-NOT ;
-@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@+Clt/Cop+Prs+ScSg2+Use/NG:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@%^Break%>{АЯ}т FOC-PCLE-OR-NOT ;
+@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@+Clt/Cop+Prs+ScSg2+Use/NG:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.PL@^Break%>{АЯ}т FOC-PCLE-OR-NOT ;
 
 !2020-03-27LEXICON COPULA-NONPAST-30 
 !@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@+Clt/Cop+Prs+ScSg3:@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.PL@ FOC-PCLE-OR-NOT ;
@@ -482,12 +482,12 @@ LEXICON COPULA-NONPAST-40
 @U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Clt/Cop+Prs+ScPl1:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@%>т{АЯ}но FOC-PCLE-OR-NOT ;
 @U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Use/NG+Dial+Clt/Cop+Prs+ScPl1:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@%>т{АЯ}нок FOC-PCLE-OR-NOT ;
 
-@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Clt/Cop+Prs+ScPl1+Err/Orth-d:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@%^TD%>т{АЯ}но FOC-PCLE-OR-NOT ;
-@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Use/NG+Dial+Clt/Cop+Prs+ScPl1+Err/Orth-d:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@%^TD%>т{АЯ}нок FOC-PCLE-OR-NOT ;
+@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Clt/Cop+Prs+ScPl1+Err/Orth-d:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@^TD%>т{АЯ}но FOC-PCLE-OR-NOT ;
+@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@+Use/NG+Dial+Clt/Cop+Prs+ScPl1+Err/Orth-d:@U.CONJ-TX.NONPAST@@U.TPERS.1@@D.TNUM.SG@^TD%>т{АЯ}нок FOC-PCLE-OR-NOT ;
 
 LEXICON COPULA-NONPAST-50 
 @U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@+Clt/Cop+Prs+ScPl2:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@%>т{АЯ}до FOC-PCLE-OR-NOT ;
-@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@+Clt/Cop+Prs+ScPl2+Err/Orth-d:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@%^TD%>т{АЯ}до FOC-PCLE-OR-NOT ;
+@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@+Clt/Cop+Prs+ScPl2+Err/Orth-d:@U.CONJ-TX.NONPAST@@U.TPERS.2@@D.TNUM.SG@^TD%>т{АЯ}до FOC-PCLE-OR-NOT ;
 
 LEXICON COPULA-NONPAST-60
 @U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.SG@+Clt/Cop+Prs+ScPl3:@U.CONJ-TX.NONPAST@@U.TPERS.3@@D.TNUM.SG@%>т{ЬØ} FOC-PCLE-OR-NOT ;
