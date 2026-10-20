@@ -2379,6 +2379,7 @@ LEXICON ILL-INDEF
 
 LEXICON INE-INDEF
 @U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef:@U.DECL-NX.SP@@U.CX.INE@%>с{оэØ} _KUDO-Conjugation ;
+@U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef+Err/Orth-vh-neutral:@U.DECL-NX.SP@@U.CX.INE@%>са _KUDO-Conjugation ;
 @U.DECL-NX.SP@@U.CX.INE@+SP+Ine+Indef+Use/NG:@U.DECL-NX.SP@@U.CX.INE@%>{оеэØ}с{оэØ} _KUDO-Conjugation ;
 
 LEXICON INE_INDEF/PX_ne
@@ -2695,7 +2696,9 @@ LEXICON SecondaryDeclination_1RequiresNoVowel
 +Pl+Ill+Def:%>тнЕ3%>с NounEnd_K ;
 +Pl+Ill+Def+Err/Orth-pre1880:%>тне%>съ NounEnd_K ;
 +Pl+Ine+Def:%>тнЕ3%>сэ NounEnd_K ;
++Pl+Ine+Def+Err/Orth-vh-neutral:%>тнЕ3%>са NounEnd_K ;
 +Pl+Ine+Def+Err/Orth-pre1880:%>тне%>се NounEnd_K ;
++Pl+Ine+Def+Err/Orth-pre1880+Err/Orth-vh-neutral:%>тне%>са NounEnd_K ;
 +Pl+Ela+Def:%>тнЕ3%>стэ NounEnd_K ;
 +Pl+Ela+Def+Err/Orth-pre1880:%>тне%>сте NounEnd_K ;
 +Pl+Tra+Def:%>тнЕ3%>кс NounEnd_K ;
@@ -3023,9 +3026,10 @@ LEXICON PossMarker-then-Clt
 @U.PossPx.Sg2@+PxSg2:@U.PossPx.Sg2@{оеэØ}т{ЬØ} K ;
 @U.PossPx.Sg2@+Use/NG+Err/Orth+Dial/W+PxSg2:@U.PossPx.Sg2@{оеэØ}нт{ЬØ} K ;
 @U.PossPx.Sg3@+PxSg3:@U.PossPx.Sg3@{оеэØ}нз{оэØ} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@{оеэØ}нд{оэØ} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth:@U.PossPx.Sg3@{оеэØ}ндз{оэØ} K ;
-@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth+Dial:@U.PossPx.Sg3@{оеэØ}нза K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-nd:@U.PossPx.Sg3@{оеэØ}нд{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-nz-ndz:@U.PossPx.Sg3@{оеэØ}ндз{оэØ} K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-vh-neutral+Dial:@U.PossPx.Sg3@{оеэØ}нза K ;
+@U.PossPx.Sg3@+PxSg3+Use/NG+Err/Orth-è-in-e+Dial:@U.PossPx.Sg3@{оеэØ}нзе K ;
 @U.PossPx.Pl1@+PxPl1:@U.PossPx.Pl1@{оеэØ}н{оеэ}к K-lak ;
 @U.PossPx.Pl2@+PxPl2:@U.PossPx.Pl2@{оеэØ}нк K-lak ;
 @U.PossPx.Pl3@+PxPl3:@U.PossPx.Pl3@{оеэØ}ст K ;
