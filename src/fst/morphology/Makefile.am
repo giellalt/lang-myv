@@ -48,13 +48,14 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/abbreviations.lexc          \
 			stems/acronyms.lexc               \
 			stems/adjectives.lexc    \
-			stems/adverbs_newwords.lexc       \
+			stems/adverbs.lexc       \
 			stems/exceptions.lexc             \
 			stems/genitive_attributes.lexc             \
 			stems/historical_lexicon.lexc       \
 			stems/hyphenated-nouns.lexc       \
 			stems/hyphenated-verbs.lexc       \
 			stems/interjections.lexc         \
+			stems/myv-numerals.lexc               \
 			stems/nouns.lexc         \
 			stems/numerals.lexc               \
 			stems/propernouns.lexc   \
@@ -86,15 +87,11 @@ GENERATED_LEXC_SRCS=\
 		generated_files/mul-$(GLANG)-punctuation.lexc \
 		generated_files/mul-$(GLANG)-symbols.lexc \
 		$(srcdir)/stems/Adp_myv2x.lexc        \
-		$(srcdir)/stems/Adv_myv2x.lexc            \
-		$(srcdir)/stems/Adv_Ideoph_myv2x.lexc     \
-		$(srcdir)/stems/Adv_Spat_myv2x.lexc     \
 		$(srcdir)/stems/bahuvrihis.lexc         \
 		$(srcdir)/stems/CC_myv2x.lexc        \
 		$(srcdir)/stems/CS_myv2x.lexc        \
 		$(srcdir)/stems/Det_myv2x.lexc     \
 		$(srcdir)/stems/noun-deverbal.lexc      \
-		$(srcdir)/stems/Num_myv2x.lexc        \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
 		$(srcdir)/stems/Pcle_myv2x.lexc          \
 		$(srcdir)/stems/Pron_myv2x.lexc
@@ -125,15 +122,11 @@ endif
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 		stems/Adp_myv2x.xml     \
-		stems/Adv_myv2x.xml         \
-		stems/Adv_Ideoph_myv2x.xml  \
-		stems/Adv_Spat_myv2x.xml  \
 		stems/bahuvrihis.xml      \
 		stems/CC_myv2x.xml     \
 		stems/CS_myv2x.xml     \
 		stems/Det_myv2x.xml  \
 		stems/noun-deverbal.xml   \
-		stems/Num_myv2x.xml     \
 		stems/Prc_myv2x.xml     \
 		stems/Pcle_myv2x.xml   	 \
 		stems/Pron_myv2x.xml
