@@ -265,6 +265,7 @@ Multichar_Symbols
  +Err/Orth-cons-stem !!≈ * @CODE@ * пачт|емс 2012 пачтямс
  +Err/Orth-freq-le !!≈ * @CODE@ * пачтнемс:пачле
 !The verb чуд|емс in orthography but чуде|мс in Сятко
+ +Err/Orth-def-retension   !!≈ * @CODE@ * кудосонтьсесь vs кудосонсесь
  +Err/Orth-vh-neutral	!!≈ * @CODE@ * кудоса, кудотнеса
  +Err/Orth-i-in-e	!!≈ * @CODE@ * молевлиде (->) молевледе
  +Err/Orth-è-in-e	!!≈ * @CODE@ * кедензэ (->) кедензе
@@ -1358,9 +1359,7 @@ TESTINGTESTING ;
 
 @U.POS.A@ AdjectiveRoot     ;
  Adp_myv2x  ;
- Adv_myv2x        ;
- Adv_Ideoph_myv2x    ;
- Adv_Spat_myv2x	     ;
+AdverbROOT ;
  bahuvrihis     ;
  CC_myv2x   ;
  CS_myv2x   ;
@@ -1369,7 +1368,7 @@ TESTINGTESTING ;
 @U.POS.N@ noun-deverbal  ;
 @U.POS.N@ NounRoot          ;
  numerals       ;
-@U.POS.NUM@ Num_myv2x    ;
+@U.POS.NUM@ myv-numerals    ;
  PropernounRoot    ;
  Prc_myv2x    ;
  Pcle_myv2x      ;
@@ -1388,7 +1387,6 @@ Hyphenated-verbs ; !!≈ * @CODE@ entire serial verbs
 ! ProperNouns ;
  historical_lexicon ;
 
- ADV_NEWWORDS ;
 ! PROP_NEWWORDS ;
 
 !
@@ -1409,7 +1407,7 @@ Hyphenated-verbs ; !!≈ * @CODE@ entire serial verbs
 !2025-06-17	       foreign_words ;
 
 LEXICON NUM_TYPES
-Num_myv2x ;
+myv-numerals ;
 extra_numerals ;
 
 LEXICON COLL_NOUNS
