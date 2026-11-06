@@ -22,10 +22,8 @@ Alphabet
 
 !! ## Special letters in the root that might be useful in dialect research and etymology later
 Ь3:0  !!= * **@CODE@** арсемс:арсе  arśems  vs арсемс:арЬ3се  aŕśems 
-Ӓ3:э  !!= * **@CODE@** эрямс:Ӓ3ря 
-Ӓ4:е  !!= * **@CODE@** пелемс:пӒ4ль
-%^Ӓ3:Э  !!= * @CODE@ ^Ӓ3 :Э
-%^Ӓ4:Е  !!= * @CODE@ ^Ӓ4 :Е
+%^Ӓ3:Э  !!= * @CODE@ ^Ӓ3 :Э  эрямс:^Ӓ3ря upper case
+%^Ӓ4:Е  !!= * @CODE@ ^Ӓ4 :Е пелемс:П^Ӓ4ЛЬ upper case
 %^ӓ3:э  !!= * @CODE@ эрямс:^ӓ3ря
 %^ӓ4:е  !!= * @CODE@ пелемс:п^ӓ4ль
 
@@ -172,7 +170,7 @@ VLoss:0
 %^WLoss:0
 NoVLoss:0
 
-%^OldAE:0	!!= @CODE@ — This allows Ӓ4 and Ӓ3 to be realized as я 
+%^OldAE:0	!!= @CODE@ — This allows ^ӓ4 ^ӓ3, ^Ӓ4 and ^Ӓ3 to be realized as я 
 %^NoLinkVow:0 !!= @CODE@ — No linking vowel is used only after consonants for error
 %^SoftRetain:0 !!= * @CODE@ — The soft sign is not lost when adding -тне regressive
 %^HardNoDent:0 !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ progressive
@@ -190,7 +188,7 @@ NoVLoss:0
 
 Sets
 
-Vows = а о у ы э я ё ю и е %^ӓ3 %^ӓ4 %^Ӓ3 %^Ӓ4 Ӓ3 Ӓ4 
+Vows = а о у ы э я ё ю и е %^ӓ3 %^ӓ4 %^Ӓ3 %^Ӓ4
        А О У Ы Э Я Ё Ю И Е ;
 
 SurfVows = а о у ы э я ё ю и е
@@ -206,7 +204,7 @@ glideVow = я ё ю и е
 	   Я Ё Ю И Е ;
 BTV = а о у я ё ю 
       А О У Я Ё Ю ; ! Back Trigger Vowels
-FTV = ы и е э %^ӓ3 %^ӓ4 %^Ӓ3 %^Ӓ4 Ӓ3 Ӓ4 ӓ
+FTV = ы и е э %^ӓ3 %^ӓ4 %^Ӓ3 %^Ӓ4 ӓ
       Ы И Е Э Ӓ ; ! Front Trigger Vowels
 
 Cns = б в г д ж з й к л м н п р с т ф х ц ч ш щ 
@@ -291,7 +289,7 @@ CaseX = [ с ь: | [ н | с ] т ь | [ н | с ] т е н ь | н е н ь | %
 
 CasePossX = [ т е [ т | н ] ь | н с т [ О1: | э н ь ] | з %> %{оеэØ%}: PossX ] ;
 
-NoAE = [ \[ Ӓ3: | Ӓ4: | %^ӓ3: | %^ӓ4: | %^Ӓ3: | %^Ӓ4: | .#. ] ] ;
+NoAE = [ \[ %^ӓ3: | %^ӓ4: | %^Ӓ3: | %^Ӓ4: | .#. ] ] ;
 
 InfX = [ м с | м О1: | м А1: | м [д|%{дт%}:] О1: | м г а | м с О1: | м с т О1: | з ь: ] ;
 
@@ -324,7 +322,7 @@ Rules
 "Ӓ3 Ӓ4 as я"
 !! **@RULENAME@**
 Vx:я <=> _ \[ # ]* %^OldAE:0 ;
-      where Vx in (%^ӓ3 %^ӓ4 %^Ӓ3 %^Ӓ4 Ӓ3 Ӓ4) ;
+      where Vx in (%^ӓ3 %^ӓ4 %^Ӓ3 %^Ӓ4) ;
 
 ! Deverbal noun in ОмА
 "A1:o"
