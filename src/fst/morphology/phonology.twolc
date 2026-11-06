@@ -174,8 +174,9 @@ NoVLoss:0
 
 %^OldAE:0	!!= @CODE@ — This allows Ӓ4 and Ӓ3 to be realized as я 
 %^NoLinkVow:0 !!= @CODE@ — No linking vowel is used only after consonants for error
-%^SoftRetain:0 !!= * @CODE@ — The soft sign is not lost when adding -тне
-%^HardNoDent:0 !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ
+%^SoftRetain:0 !!= * @CODE@ — The soft sign is not lost when adding -тне regressive
+%^HardNoDent:0 !!= * @CODE@ — Hard non-dent followed by -тнэ потоктнэсэ progressive
+%^ProgrSoft:0  !!= * @CODE@ — progressive soft allows боярнэнь (->) боярнень
 
 — ! emdash
 %- !Hyphen with constructions like "-buti"
@@ -938,6 +939,11 @@ TLoss:0 /<= [[ :* Letters ] - [ :* :т ] ] %> _ ;
 "Disallow RegrRaise after A"
 !! **@RULENAME@**
 %^RegrRaise:0 /<= .#. [а:|я:] _ %> [ с а | т %{АЯ%}: ] ;
+
+"Disallow ProgrSoft after non-hard dent before Dat+Indef"
+!! **@RULENAME@**
+%^ProgrSoft:0 /<= [Vows| ь: | CnsNonDent ] _ %> [ н е н ь | т н е | н е ] ;
+
 
 "Disallow vow loss before break"
 !! **@RULENAME@**
