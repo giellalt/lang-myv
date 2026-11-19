@@ -555,9 +555,9 @@ LEXICON verbs
 аштокшномс+V:аштокшно TV_KUNDAKSHNOMS_Obj3_SUB  "" ;
 аштокшномс+v1+V+Err/Orth:аштокшно IV_KUNDAKSHNOMS  "" ;
 аштокшномс+v2+V+Err/Orth:аштокшно TV_KUNDAKSHNOMS_Obj3  "" ;
-аштомс+V:ашт TV_SAVTOMS_Obj3_SUB  "" ;
 аштомс+v1+V+Err/Orth:ашт IV_SAVTOMS  "" ;
 аштомс+v2+V+Err/Orth:ашт TV_SAVTOMS_Obj3  "" ;
+аштомс+v3+V:ашт TV_SAVTOMS_Obj3_SUB  "" ;
 аэрдавомс+V:аэрдав IV_JANGAVOMS  "" ;
 аэрдамс+V:аэрда BV_KUNDAMS ;
 бавадемс+V:бавадь BV_LEDEMS  "" ;
@@ -7327,7 +7327,6 @@ LEXICON verbs
 нолаштозевемс+V:нолаштозев IV_POTAZEVEMS "" ;
 нолаштокшномс+V:нолаштокшно IV_KUNDAKSHNOMS  "" ;
 нолаштомс+V:нолашт BV_SAVTOMS  "liukastua" ;
-нолаштомс+V:нолашт IV_SAVTOMS  "" ;
 нолгадумс+V:нолгад IV_KADOMS  "" ;
 нолгиямс+V:нолгия IV_KUNDAMS  "tulla nuhaiseksi" ;
 нолдавкшномс+V:нолдавкшно IV_KUNDAKSHNOMS  "" ;
@@ -9565,9 +9564,9 @@ LEXICON verbs
 рашнемс+V:рашне IV_PIDEMS  "" ;
 раштавомс+V:раштав IV_JANGAVOMS  "" ;
 раштавтомс+V:раштавт BV_SAVTOMS  "" ;
-раштакшномс+V:раштакшно IV_KUNDAKSHNOMS  "" ;
-раштамс+V:рашта IV_KUNDAMS  "lisääntyä" ;
-раштомс+V:рашт BV_SAVTOMS  "" ;
+раштакшномс+V:раштакшно BV_KUNDAKSHNOMS  "" ;
+раштамс+V:рашта BV_KUNDAMS  "lisääntyä" ;
+раштомс+V:рашт BV_RASHTOMS_ERROR  "" ;
 реабилитировавомс+V:реабилитировав IV_JANGAVOMS  "" ;
 реабилитировамс+V:реабилитирова IV_KUNDAMS  "" ;
 реагировамс+V:реагирова IV_KUNDAMS  "reagoida" ;
@@ -11282,8 +11281,8 @@ LEXICON verbs
 таштавтнемс+V:таштавтне TV_PIDEMS  "" ;
 таштавтомс+V:таштавт BV_SAVTOMS  "" ;
 таштакшномс+V:таштакшно BV_KUNDAKSHNOMS  "" ;
-таштакшномс+V:таштакшно TV_KUNDAKSHNOMS  "" ;
 таштамс+V:ташта BV_KUNDAMS  "säästää" ;
+таштамс+V:ташт BV_RASHTOMS_ERROR  "säästää" ;
 таштомгадомс+V:таштомгад IV_KADOMS ;
 таштомкшномс+V:таштомкшно IV_KUNDAKSHNOMS  "" ;
 таштомомс+V:таштом IV_KADOMS  "vanheta" ;
@@ -13389,7 +13388,7 @@ LEXICON verbs
 чудевтнемс+V:чудевтне TV_PIDEMS  "" ;
 чудезевемс+V:чудезев IV_POTAZEVEMS  "" ;
 чудекшнемс+V:чудекшн IV_NEKSHNEMS  "" ;
-чудемс+Use/NG+Dial+V:чудя TV_KUNDAMS ;
+чудемс+V:чудя IV_CHUDIEMS_ERROR_WITH_STEMVOWEL ;
 чудемс+V:чуде IV_CHUDIEMS_ERROR_WITH_STEMVOWEL  "" ;
 чудемс+V:чудь IV_LEDEMS  "" ;
 чудиявомс+V:чудияв IV_JANGAVOMS  "" ;
