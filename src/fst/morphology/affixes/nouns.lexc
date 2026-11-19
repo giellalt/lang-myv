@@ -442,6 +442,8 @@ LEXICON N_LAV !depricate
  N_BV ;
 LEXICON N_BV_rus100
 +Use/SpellNoSugg: N_BV ;
+LEXICON N_BV_errorth
++Err/Orth: N_BV ;
 LEXICON N_BV_hum
 +Sem/Hum: N_BV ;
 LEXICON N_BV_mnth
@@ -697,6 +699,8 @@ LEXICON N_ART
 N_BT ;
 LEXICON N_BT-PL
 N_BT ;
+LEXICON N_BT_errorth !generic
++Err/Orth: N_BT ;
 LEXICON N_BT_errorth_v_f
 +Err/Orth-v-f: N_BT ;
 LEXICON N_BT_hum
