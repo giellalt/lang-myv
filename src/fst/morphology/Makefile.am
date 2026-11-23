@@ -49,6 +49,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/acronyms.lexc               \
 			stems/adjectives.lexc    \
 			stems/adverbs.lexc       \
+			stems/conjunctors.lexc       \
 			stems/exceptions.lexc             \
 			stems/genitive_attributes.lexc             \
 			stems/historical_lexicon.lexc       \
@@ -60,6 +61,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/numerals.lexc               \
 			stems/propernouns.lexc   \
 			stems/myv-propernouns.lexc         \
+			stems/subjunctors.lexc       \
 			stems/verbs.lexc         
 
 #			stems/foreign_words.lexc             
@@ -88,8 +90,6 @@ GENERATED_LEXC_SRCS=\
 		generated_files/mul-$(GLANG)-symbols.lexc \
 		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/bahuvrihis.lexc         \
-		$(srcdir)/stems/CC_myv2x.lexc        \
-		$(srcdir)/stems/CS_myv2x.lexc        \
 		$(srcdir)/stems/Det_myv2x.lexc     \
 		$(srcdir)/stems/noun-deverbal.lexc      \
 		$(srcdir)/stems/Prc_myv2x.lexc        \
@@ -123,8 +123,6 @@ endif
 GT_XML_SRCS=\
 		stems/Adp_myv2x.xml     \
 		stems/bahuvrihis.xml      \
-		stems/CC_myv2x.xml     \
-		stems/CS_myv2x.xml     \
 		stems/Det_myv2x.xml  \
 		stems/noun-deverbal.xml   \
 		stems/Prc_myv2x.xml     \
