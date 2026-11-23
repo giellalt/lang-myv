@@ -48,6 +48,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/abbreviations.lexc          \
 			stems/acronyms.lexc               \
 			stems/adjectives.lexc    \
+			stems/adpositions.lexc       \
 			stems/adverbs.lexc       \
 			stems/conjunctors.lexc       \
 			stems/exceptions.lexc             \
@@ -88,7 +89,6 @@ GENERATED_LEXC_SRCS=\
 		generated_files/urj-Cyrl-$(GLANG)-propernouns.lexc \
 		generated_files/mul-$(GLANG)-punctuation.lexc \
 		generated_files/mul-$(GLANG)-symbols.lexc \
-		$(srcdir)/stems/Adp_myv2x.lexc        \
 		$(srcdir)/stems/bahuvrihis.lexc         \
 		$(srcdir)/stems/Det_myv2x.lexc     \
 		$(srcdir)/stems/noun-deverbal.lexc      \
@@ -121,7 +121,6 @@ endif
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-		stems/Adp_myv2x.xml     \
 		stems/bahuvrihis.xml      \
 		stems/Det_myv2x.xml  \
 		stems/noun-deverbal.xml   \
