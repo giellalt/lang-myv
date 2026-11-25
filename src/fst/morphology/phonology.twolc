@@ -389,6 +389,9 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 %{оеэØ%}:э <=> LFCH ( %{frontHard%}: ) %> _ ;
                LFCS (%{frontSoft%}:) (%> %^NoLinkVow: %>|%> %^NoLinkVow: | %>) з %> _ ;
                [:FTV [д |з |л |н |р] |й: | д ь: | з ь: | н ь: | р ь: | л ь:] (%{frontSoft%}:) [%> %^NoLinkVow: %>|%> %^NoLinkVow: | %>] з %> _ ;
+!! мель+N+SP+Ill+PxSg1: **mind/mieli**
+!!€ мель>^NoLinkVow>з>{оеэØ}н{ЬØ}
+!!€ мель>0>з>энь
 !! кев+N+SP+Ill+PxSg2: **rock/kivi**
 !!€ к^ӓ4в{frontSoft}>з>{оеэØ}т{ЬØ}
 !!€ кев0>з>эть
@@ -862,7 +865,8 @@ Vx:я <=> _ \[ # ]* %^OldAE:0 ;
 "y:y"
 !! **@RULENAME@**
 ь:ь <=> Cns _ [Cns|Vows |(HarmDummies:) (%^OldAE:0) # |(HarmDummies:)  %- |(HarmDummies:)  %> [с (т) [ы|а|о|%{оэØ%}:] |с [(%^OldAE:0) #|%-|%> (%-) Г1:]|(%^NoLinkVow:0) :CnsNonDent ]] ;
-   [д|Д|л|Л|н|Н|р|Р] _ (HarmDummies:) %> %^NoLinkVow: %> з %{оэØ%}: ;
+   [д|Д|л|Л|н|Н|р|Р] _ (HarmDummies:) %> %^NoLinkVow: %> з %> %{оеэØ%}: ;
+!   [д|Д|л|Л|н|Н|р|Р] _ (HarmDummies:) %> %^NoLinkVow: %> з %{оэØ%}: ;
    [л|Л] _ (HarmDummies:) %> (:0) [ :Cns] ;
     Cns _ (HarmDummies:) %^SoftRetain: %> [т н е | т е м] ;
 !!€ ведь{frontSoft}^SoftRetain>тне
@@ -1044,7 +1048,7 @@ SLoss:0 /<= [[ :* Letters ] - [ :* :с ] ] %> _ ;
 "Disallow %^NoLinkVow after vowel"
 !! **@RULENAME@**
 %^NoLinkVow:0 /<= :Vows  (HarmDummies:) %> _ ;
-           [:Vows | CnsVoiceless (ь) ]  (HarmDummies:) %> _ з ;
+           [:Vows | CnsVoiceless (ь:) ]  (HarmDummies:) %> _ %> з ;
 
 "Disallow s for control of stems with inessive..."
 !! **@RULENAME@**
